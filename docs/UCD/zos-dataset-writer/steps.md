@@ -17,7 +17,7 @@ Use this step to write input text to a sequential dataset. **Note:** To create a
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Source Type | Enumeration: TEXT / DATASET / FILE / ${p?:dataset.writer.source.type} | Source of data for writing into Output sequential dataset. Select DATASET to write from a PDS member or sequential dataset, FILE to write from a USS file, or TEXT to write text to output sequential dataset. | Yes |
-| Source Value | String | Text or PDS member or Sequential Dataset or USS File to be written into a Sequential dataset. If the single quotation marks are omitted, the user’s data set prefix from the TSO profile is automatically appended to the front of the data set name. Add encoding of USS File after a comma(,). For example – /path/to/file,UTF-8. If no file encoding is specified, file is considered to be in IBM-1047 encoding. | Yes |
+| Source Value | String | Text or PDS member or Sequential Dataset or USS File to be written into a Sequential dataset. If the single quotation marks are omitted, the user’s data set prefix from the TSO profile is automatically appended to the front of the data set name. Add encoding of USS File after a comma(,). For example – /path/to/file,UTF-8. If no file encoding is specified, file is considered to be in IBM-1047 encoding. Multiple files or datasets can be passed separated by a newline. | Yes |
 | Dataset Name | String | Name of a sequential dataset to write input text. | Yes |
 | Append | Boolean | Select to append input text in the data set. | No |
 | Allocate Data Set | String | Specify `TRUE` to allocate a sequential data set with passed parameters. | No |
@@ -34,4 +34,4 @@ Use this step to write input text to a sequential dataset. **Note:** To create a
 
 |Back to ...||Latest Version|z/OS Dataset Writer ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[3.1133866](https://github.com/UrbanCode/IBM-UCD-PLUGINS/raw/main/files/zos-dataset-writer/ucd-plugins-zos-dataset-writer-3.1133866.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[4.1134053](https://github.com/UrbanCode/IBM-UCD-PLUGINS/raw/main/files/zos-dataset-writer/ucd-plugins-zos-dataset-writer-4.1134053.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|
