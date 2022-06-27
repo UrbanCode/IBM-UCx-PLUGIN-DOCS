@@ -46,4 +46,4 @@ For more information and examples, see the [Usage page in the plug-in documentat
 
 |Back to ...||Latest Version||||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[71.1132900]()|[Overview](overview.md)|[Troubleshooting](troubleshooting.md)|[Steps](steps.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[71.1132900](https://github.com/UrbanCode/IBM-UCD-PLUGINS/blob/main/files/zos-deploy/ucd-zos-deploy-71.1132900.zip)|[Overview](overview.md)|[Troubleshooting](troubleshooting.md)|[Steps](steps.md)|[Usage](usage.md)|[Downloads](downloads.md)|

@@ -34,4 +34,4 @@ The local repository referred to in the Copy Artifacts and FTP Artifacts steps i
 
 |Back to ...||Latest Version|z/OS Utility |||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[71.1132900]()|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[71.1132900](https://github.com/UrbanCode/IBM-UCD-PLUGINS/blob/main/files/zos-deploy/ucd-zos-deploy-71.1132900.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Usage](usage.md)|[Downloads](downloads.md)|
