@@ -88,4 +88,4 @@ Watch this video on how to migrate from regular generate artifact information st
 
 |Back to ...||Latest Version|z/OS Multi Generate Artifact Information ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[6.1132902]()|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[6.1132902](https://github.com/UrbanCode/IBM-UCD-PLUGINS/blob/main/files/zos-multi-generate-artifact-info/ucd-plugins-zos-multi-generate-artifact-info-6.1132902.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|
