@@ -11,16 +11,16 @@ z/OS Utility - Usage
 
 The following pages provide usage information about this plug-in:
 
-* [Deploying a component to the z/OS platform](#deployingcomponent)
-* [Deploying by using the Job Monitor](#deployingusing)
-* [Submitting a JCL job and then checking for status](#submittingjcl1)
-* [Submitting a JCL job from a template](#submittingjcl2)
-* [MVS component template](#mvs)
-* [Managing redundant versions](#redundantversions)
-* [Running MVS system commands](#runningmvs)
-* [Using custom properties in deployments](#usingcustomproperties)
-* [Deploying data sets and running CICS commands](#deployingdatasets)
-* [Deploying HFS files](#deployinghfs)
+* [Deploying a component to the z/OS platform](#deploying-a-component-to-the-zos-platform)
+* [Deploying by using the Job Monitor](#deploying-by-using-the-job-monitor)
+* [Submitting a JCL job and then checking for status](#submitting-a-jcl-job-and-then-checking-for-status)
+* [Submitting a JCL job from a template](#submitting-jcl-jobs-from-a-template)
+* [MVS component template](#mvs-component-template)
+* [Managing redundant versions](#managing-redundant-versions)
+* [Running MVS system commands](#running-mvs-system-commands)
+* [Using custom properties in deployments](#using-custom-properties-in-deployments)
+* [Deploying data sets and running CICS commands](#deploying-data-sets-and-running-cics-commands)
+* [Deploying HFS files](#deploying-hfs-files)
 
 
 ### Running MVS system commands
@@ -32,9 +32,9 @@ The Run MVS Command step uses the Java programming interface with the System Dis
 The agent user account must be authorized to use SDSF from Java and must be authorized to issue MVS slash (/) commands from SDSF. MVS commands are protected by defining a resource name in the SDSF class, as shown in the following table.
 
 
-| Resource name | Class | Access |
-| --- | --- | --- |
-| ISFOPER.SYSTEM | SDSF | READ |
+| Resource name  | Class | Access |
+|----------------|-------|--------|
+| ISFOPER.SYSTEM | SDSF  | READ   |
 
 If the SDSF class is not activated yet, use following command to activate itfirst. SETROPTS CLASSACT(SDSF)
 
@@ -43,9 +43,9 @@ To use the Resource Access Control Facility (RACF) to authorize the use of an MV
 Additionally, the agent user account must be authorized to use the ULOG command to view command responses. MVS commands can return responses to the user console and to the user log (ULOG). The ULOG command is protected a resource in the SDSF class, as shown in the following table.
 
 
-| Resource name | Class | Access |
-| --- | --- | --- |
-| ISFCMD.ODSP.ULOG.*jesx* | SDSF | READ |
+| Resource name           | Class | Access |
+|-------------------------|-------|--------|
+| ISFCMD.ODSP.ULOG.*jesx* | SDSF  | READ   |
 
 To use the Resource Access Control Facility (RACF) to authorize the use of the ULOG command, issue commands similar to the commands in the following example. RDEFINE SDSF ISFCMD.ODSP.ULOG.\* UACC(NONE) PERMIT ISFCMD.ODSP.ULOG.\* CLASS(SDSF) ID(userid or groupid) ACCESS(READ)
 
@@ -224,11 +224,6 @@ On contrary to old format the deployment with new format does not create a sub-d
 
 Refer [Deploying by using the Job Monitor](https://www.ibm.com/docs/en/urbancode-deploy/7.2.2?topic=SS4GSP_7.2.2/com.ibm.udeploy.install.doc/topics/zos_using_job_monitor.html) for more details
 
-
-### Managing redundant versions
-
-
-
 ### Managing redundant versions
 
 Redundant versions are incremental versions that are replaced by one or more subsequent incremental versions. In the following example, when Version 2 is deployed Version 1 becomes a redundant version, because all artifacts that are deployed with Version 1 are replaced by Version 2.
@@ -247,11 +242,6 @@ Redundant versions are excluded when you create a snapshot. This exclusion preve
 
 To ignore the high-level qualifier during redundant version calculations, set the **High Level Qualifier Length** value in the component configuration.
 
-
-### MVS component template
-
-
-
 ### MVS component template
 
 The z/OS Utility plug-in includes the MVSTEMPLATE component template. The template contains default processes, which can be used directly. The template also lists the component properties and environment properties that that must be set to run z/OS deployments.
@@ -259,39 +249,39 @@ The z/OS Utility plug-in includes the MVSTEMPLATE component template. The templa
 ### Default processes
 
 
-|  |  |
-| --- | --- |
-| Deploy | Deploy data sets. Version artifacts are fetched from the CodeStation repository on the z/OS system. |
-| Deploy get artifacts using FTP | Deploy data sets. Version artifacts are fetched from the Codestation repository by using FTP. |
-| Remove all versions | Remove all versions in an environment, including the backup created during version deployment. Use this process to start a new round of development with a clean environment. Audit history is available even if versions were removed from the environment. |
-| Remove redundant versions | Remove redundant versions in an environment. Redundant versions are versions that are replaced completely by versions that are deployed later. |
-| Remove redundant versions with manual verification | Remove redundant versions in an environment. Redundant versions are versions that are replaced completely by versions that are deployed later. |
-| Sample JCL submission process | Model JCL submission on the two types of usage in this sample. |
-| Uninstall | Uninstall a version and restore the backup data sets. |
+| Step                                               | Description                                                                                                                                                                                                                                                  |
+|----------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Deploy                                             | Deploy data sets. Version artifacts are fetched from the CodeStation repository on the z/OS system.                                                                                                                                                          |
+| Deploy get artifacts using FTP                     | Deploy data sets. Version artifacts are fetched from the Codestation repository by using FTP.                                                                                                                                                                |
+| Remove all versions                                | Remove all versions in an environment, including the backup created during version deployment. Use this process to start a new round of development with a clean environment. Audit history is available even if versions were removed from the environment. |
+| Remove redundant versions                          | Remove redundant versions in an environment. Redundant versions are versions that are replaced completely by versions that are deployed later.                                                                                                               |
+| Remove redundant versions with manual verification | Remove redundant versions in an environment. Redundant versions are versions that are replaced completely by versions that are deployed later.                                                                                                               |
+| Sample JCL submission process                      | Model JCL submission on the two types of usage in this sample.                                                                                                                                                                                               |
+| Uninstall                                          | Uninstall a version and restore the backup data sets.                                                                                                                                                                                                        |
 
 ### Component properties
 
 
-| Name | Required | Description |
-| --- | --- | --- |
-| ucd.repository.location | true | The location of the repository where the z/OS deployment tools store artifacts. |
-| ucd.repository.host | false | Host name of the FTP server from which to get version artifacts. |
-| ucd.repository.user | false | FTP user name. |
-| ucd.repository.password | false | FTP password |
+| Name                    | Required | Description                                                                     |
+|-------------------------|----------|---------------------------------------------------------------------------------|
+| ucd.repository.location | true     | The location of the repository where the z/OS deployment tools store artifacts. |
+| ucd.repository.host     | false    | Host name of the FTP server from which to get version artifacts.                |
+| ucd.repository.user     | false    | FTP user name.                                                                  |
+| ucd.repository.password | false    | FTP password                                                                    |
 
 ### Environment properties
 
 deplog
 
 
-| Name | Required | Description |
-| --- | --- | --- |
-| deploy.env.pds.mapping | true | The PDS packages, and the locations to deploy them in the restore mapping table. Each line is a mapping rule with the format of From PDS,To PDS. The value can be over-ridden by a property with higher order of precedence: for example, an agent property or resource property. |
-| jes.host | false | Host name of the job server. Use localhost unless you need to submit the job to another z/OS system. |
-| jes.user | false | User ID for the JES subsystem. |
-| jes.password | false | Password for the JES subsystem. |
-| jes.monitor.port | false | JES Job Monitor port (1-65535). The default port is 6715. |
-| BUZ\_DEPLOY\_BASE | false | The base location to store deployment results and backups for rollback. Each agent provides a default value. If multiple environments use the same agent, this value can be over-ridden by a property with higher order of precedence: for example, an agent property or resource property. |
+| Name                   | Required | Description                                                                                                                                                                                                                                                                                 |
+|------------------------|----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| deploy.env.pds.mapping | true     | The PDS packages, and the locations to deploy them in the restore mapping table. Each line is a mapping rule with the format of From PDS,To PDS. The value can be over-ridden by a property with higher order of precedence: for example, an agent property or resource property.           |
+| jes.host               | false    | Host name of the job server. Use localhost unless you need to submit the job to another z/OS system.                                                                                                                                                                                        |
+| jes.user               | false    | User ID for the JES subsystem.                                                                                                                                                                                                                                                              |
+| jes.password           | false    | Password for the JES subsystem.                                                                                                                                                                                                                                                             |
+| jes.monitor.port       | false    | JES Job Monitor port (1-65535). The default port is 6715.                                                                                                                                                                                                                                   |
+| BUZ_DEPLOY_BASE        | false    | The base location to store deployment results and backups for rollback. Each agent provides a default value. If multiple environments use the same agent, this value can be over-ridden by a property with higher order of precedence: for example, an agent property or resource property. |
 
 
 ### Submitting a JCL job and then checking for status
@@ -323,6 +313,6 @@ In this process example, the z/OS data sets must be in the component. Also, the 
 [![deployzos2](deployzos2.gif)](deployzos2.gif)
 
 
-|Back to ...||Latest Version|z/OS Utility |||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[71.1132900](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-71.1132900.zip)|[Readme](README.md)|[Overview](overview.md)|[Troubleshooting](troubleshooting.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|          Back to ...          |                                |                                                        Latest Version                                                         |    z/OS Utility     |||||
+|:-----------------------------:|:------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------:|:-------------------:| :---: | :---: | :---: | :---: |
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [71.1132900](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-71.1132900.zip) | [Readme](README.md) |[Overview](overview.md)|[Troubleshooting](troubleshooting.md)|[Steps](steps.md)|[Downloads](downloads.md)|

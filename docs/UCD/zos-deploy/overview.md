@@ -273,6 +273,6 @@ This release includes the following updates:
 * A fix for an issue where the Submit Job step did not use PassTicket authentication.
 
 
-|Back to ...||Latest Version|z/OS Utility |||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[72.1134247](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-72.1134247.zip)|[Readme](README.md)|[Troubleshooting](troubleshooting.md)|[Steps](steps.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|          Back to ...          |                                |                                                        Latest Version                                                         |    z/OS Utility     |||||
+|:-----------------------------:|:------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------:|:-------------------:| :---: | :---: | :---: | :---: |
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [72.1134247](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-72.1134247.zip) | [Readme](README.md) |[Troubleshooting](troubleshooting.md)|[Steps](steps.md)|[Usage](usage.md)|[Downloads](downloads.md)|

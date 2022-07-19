@@ -32,6 +32,6 @@ The plug-in also includes the Generate Artifact Information step, which scans ve
 For more information and examples, see the [Usage page in the plug-in documentation](https://developer.ibm.com/urbancode/plugindoc/ibmucd/zos-utility-plug/1-2/usage/).
 
 
-|Back to ...||Latest Version||||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[72.1134247](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-72.1134247.zip)|[Overview](overview.md)|[Troubleshooting](troubleshooting.md)|[Steps](steps.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|          Back to ...          |                                |                                                        Latest Version                                                         ||||||
+|:-----------------------------:|:------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------:| :---: | :---: | :---: | :---: | :---: |
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [72.1134247](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-72.1134247.zip) |[Overview](overview.md)|[Troubleshooting](troubleshooting.md)|[Steps](steps.md)|[Usage](usage.md)|[Downloads](downloads.md)|
