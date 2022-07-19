@@ -2,13 +2,6 @@
 z/OS Multi Generate Artifact Information - Overview
 ===================================================
 
-# Overview
-
-
-### Overview
-
-
-
 The z/OS Multi Generate Artifact Information plug-in scans version artifacts and generates text based on a template. You can use the generated output text as input to subsequent steps. The plug-in processes data sets and members in a component version.
 
 This plug-in is an extension of the z/OS Utility plug-in for generating artifact information. The z/OS Multiple Generate Artifact Information plug-in have additional features given below.
@@ -61,6 +54,6 @@ This plug-in is installed when installing IBM UrbanCode Deploy. When new plug-in
 * Initial release
 
 
-|Back to ...||Latest Version|z/OS Multi Generate Artifact Information ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[6.1132902](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-multi-generate-artifact-info/ucd-plugins-zos-multi-generate-artifact-info-6.1132902.zip)|[Readme](README.md)|[Steps](steps.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|          Back to ...          |                                |                                                                                 Latest Version                                                                                  | z/OS Multi Generate Artifact Information ||||
+|:-----------------------------:|:------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------:| :---: | :---: | :---: |
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [6.1132902](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-multi-generate-artifact-info/ucd-plugins-zos-multi-generate-artifact-info-6.1132902.zip) |           [Readme](README.md)            |[Steps](steps.md)|[Usage](usage.md)|[Downloads](downloads.md)|

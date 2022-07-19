@@ -2,12 +2,6 @@
 z/OS Multi Generate Artifact Information - Usage
 ================================================
 
-# Usage
-
-
-### Usage
-
-
 Use the Generate Multiple Artifact Information plug-in to generate one or more multiple properties from z/OS artifacts. The plug-in extracts data based on filters.
 
 #### Example
@@ -63,6 +57,6 @@ Similarly, you can deploy and custom property filters to create a template with 
 Watch this video on how to migrate from regular generate artifact information step to multi artifact information step – <https://www.urbancode.com/resource/z-os-multi-generate-artifact-information>
 
 
-|Back to ...||Latest Version|z/OS Multi Generate Artifact Information ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[6.1132902](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-multi-generate-artifact-info/ucd-plugins-zos-multi-generate-artifact-info-6.1132902.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|          Back to ...          |                                |                                                                                 Latest Version                                                                                  | z/OS Multi Generate Artifact Information ||||
+|:-----------------------------:|:------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------:| :---: | :---: | :---: |
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [6.1132902](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-multi-generate-artifact-info/ucd-plugins-zos-multi-generate-artifact-info-6.1132902.zip) |           [Readme](README.md)            |[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|
