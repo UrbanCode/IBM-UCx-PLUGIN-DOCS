@@ -2,13 +2,6 @@
 z/OS USS Utility - Usage
 ========================
 
-# Usage
-
-
-### Usage
-
-
-
 The z/OS USS plug-in contains the following step:
 
 * Replace Tokens USS
@@ -30,6 +23,6 @@ To access this plug-in in the palette, click **Utilities > zOS USS Utility**.
 Click the **Steps** tab for details about each of the step properties.
 
 
-|Back to ...||Latest Version|z/OS USS Utility ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[1.1127592](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-replacetokens-uss/ucd-plugins-zos-replacetokens-uss-1.1127592.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|          Back to ...          |                                |                                                                      Latest Version                                                                       |  z/OS USS Utility   ||||
+|:-----------------------------:|:------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------:| :---: | :---: | :---: |
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [1.1127592](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-replacetokens-uss/ucd-plugins-zos-replacetokens-uss-1.1127592.zip) | [Readme](README.md) |[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|
