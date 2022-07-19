@@ -2,14 +2,6 @@
 IBM Integration Bus (IIB) plugin Deploy step for zOS - Overview
 ===============================================================
 
-# Overview
-
-
-### Overview
-
-
-
-
 IBM Integration Bus, from the WebSphere product family, enables business information to flow between disparate applications across multiple hardware and software platforms. The plug-in includes only deploy step from original [IBM Integration plugin](https://www.urbancode.com/plugin/ibm-integration-bus-formerly-websphere-message-broker-cmp/) optimized to improve CPU time.
 
 For information on usage, including a sample of how to install IBM Integration Bus using IBM UrbanCode Deploy, see How to automate IBM Integration Bus installation and deployments using IBM UrbanCode Deploy and Chef.
@@ -38,6 +30,6 @@ To access this plug-in in the palette, click **Middleware > Enterprise Service B
 
 * Release Notes: (Released December 8, 2021) Initial Release
 
-|Back to ...||Latest Version|IBM Integration Bus (IIB) plugin Deploy step for zOS ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[1.1127841](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-ibm-integration-bus-ucd/ucd-zOS-WebSphereMessageBroker-CMP-1.1127841.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|          Back to ...          |                                |                                                                          Latest Version                                                                          | IBM Integration Bus (IIB) plugin Deploy step for zOS ||||
+|:-----------------------------:|:------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------:| :---: | :---: | :---: |
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [1.1127841](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-ibm-integration-bus-ucd/ucd-zOS-WebSphereMessageBroker-CMP-1.1127841.zip) |                 [Readme](README.md)                  |[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
