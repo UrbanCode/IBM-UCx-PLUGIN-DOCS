@@ -13,6 +13,6 @@ z/OS External Artifact Repository - Downloads
 - [ExtArtRepo-2.1039791.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOS-external-artifact-download/ExtArtRepo-2.1039791.zip)
 - [ExtArtRepo-1.1033763.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOS-external-artifact-download/ExtArtRepo-1.1033763.zip)
 
-|Back to ...||Latest Version|z/OS External Artifact Repository ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[8.1101664](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOS-external-artifact-download/ExtArtRepo-8.1101664.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|
+|          Back to ...          |                                |                                                               Latest Version                                                                | z/OS External Artifact Repository ||||
+|:-----------------------------:|:------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------:| :---: | :---: | :---: |
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [8.1101664](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOS-external-artifact-download/ExtArtRepo-8.1101664.zip) |        [Readme](README.md)        |[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|
