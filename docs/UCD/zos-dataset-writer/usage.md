@@ -5,9 +5,9 @@
 
 The z/OS Dataset Writer plug-in contains the **Write to Sequential Dataset** step to write input text, dataset, or USS file to a sequential dataset.
 
-* [Copy text to a dataset](copy-text-to-a-dataset)
-* [Copy file data to a dataset](copy-file-data-to-a-dataset)
-* [Copying PDS member or Sequential dataset data to another dataset](copying-pds-member-or-sequential-dataset-data-to-another-dataset)
+* [Copy text to a dataset](#copy-text-to-a-dataset)
+* [Copy file data to a dataset](#copy-file-data-to-a-dataset)
+* [Copying PDS member or Sequential dataset data to another dataset](#copying-pds-member-or-sequential-dataset-data-to-another-dataset)
 
 ### Copy text to a dataset
 
@@ -46,6 +46,6 @@ For Sequential dataset as input
 
 The plugin step copies the data from a PDS member or input Sequential dataset to the Output Sequential dataset.
 
-|Back to ...||Latest Version|z/OS Dataset Writer ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[4.1134355](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-dataset-writer/ucd-plugins-zos-dataset-writer-4.1134355.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|          Back to ...          |                                |                                                                   Latest Version                                                                    | z/OS Dataset Writer ||||
+|:-----------------------------:|:------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------:| :---: | :---: | :---: |
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [4.1134355](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-dataset-writer/ucd-plugins-zos-dataset-writer-4.1134355.zip) | [Readme](README.md) |[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|
