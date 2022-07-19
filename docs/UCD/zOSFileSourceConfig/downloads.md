@@ -12,6 +12,6 @@ z/OS File Source Config - Downloads
 - [zOSFileSourceConfig-2.917658.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOSFileSourceConfig/zOSFileSourceConfig-2.917658.zip)
 - [zOSFileSourceConfig-1.839698.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOSFileSourceConfig/zOSFileSourceConfig-1.839698.zip)
 
-|Back to ...||Latest Version|z/OS File Source Config |
-| :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[7.1131549](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOSFileSourceConfig/ucd-zOSFileSourceConfig-7.1131549.zip)|[Readme](README.md)|
+|          Back to ...          |                                |                                                                Latest Version                                                                 | z/OS File Source Config |
+|:-----------------------------:|:------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------:|:-----------------------:|
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [7.1131549](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOSFileSourceConfig/ucd-zOSFileSourceConfig-7.1131549.zip) |   [Readme](README.md)   |

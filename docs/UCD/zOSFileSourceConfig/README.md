@@ -9,6 +9,6 @@ The z/OS File Source Config plug-in automates uploading data sets, UNIX files an
 **Pre-requisite:** This plug-in requires UrbanCode Deploy 6.2.2 or later.  The UrbanCode Deploy z/OS deployment tools must be installed to the version import agent.
 
 
-|Back to ...||Latest Version||
-| :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[7.1131549](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOSFileSourceConfig/ucd-zOSFileSourceConfig-7.1131549.zip)|[Downloads](downloads.md)|
+|          Back to ...          |                                |                                                                Latest Version                                                                 ||
+|:-----------------------------:|:------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------:| :---: |
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [7.1131549](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOSFileSourceConfig/ucd-zOSFileSourceConfig-7.1131549.zip) |[Downloads](downloads.md)|
