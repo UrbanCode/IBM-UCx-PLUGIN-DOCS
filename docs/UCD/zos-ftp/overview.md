@@ -2,12 +2,6 @@
 z/OS FTP Utility - Overview
 ===========================
 
-# Overview
-
-
-### Overview
-
-
 The zOS FTP plug-in includes a step related to import hierarchical file system(HFS) artifacts from another z/OS logical partition (LPAR).
 
 This plug-in includes one step:
@@ -42,6 +36,6 @@ History
 
 
 
-|Back to ...||Latest Version|z/OS FTP Utility |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[1.1100685](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-ftp/zos-ftp-1.1100685.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|          Back to ...          |                                |                                                  Latest Version                                                   |  z/OS FTP Utility   |||
+|:-----------------------------:|:------------------------------:|:-----------------------------------------------------------------------------------------------------------------:|:-------------------:| :---: | :---: |
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [1.1100685](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-ftp/zos-ftp-1.1100685.zip) | [Readme](README.md) |[Steps](steps.md)|[Downloads](downloads.md)|
