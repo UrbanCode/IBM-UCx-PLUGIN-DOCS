@@ -2,12 +2,6 @@
 z/OS Shell - Usage
 ==================
 
-# Usage
-
-
-### Usage
-
-
 Use z/OS Shell plug-in to run a Shell script as part of the deployment process. The plug-in step contains the scripts.
 
 The plug-in step waits until the command is complete. For best results, run commands that complete or run the commands in the background. If a command runs indefinitely, the step and the process that contains the step wait indefinitely.
@@ -29,6 +23,6 @@ cat tempout
 
 
 
-|Back to ...||Latest Version|z/OS Shell ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[2.1133862](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/java-shell/ucd-java-shell-2.1133862.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|          Back to ...          |                                |                                                       Latest Version                                                        |     z/OS Shell      ||||
+|:-----------------------------:|:------------------------------:|:---------------------------------------------------------------------------------------------------------------------------:|:-------------------:| :---: | :---: | :---: |
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [2.1133862](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/java-shell/ucd-java-shell-2.1133862.zip) | [Readme](README.md) |[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

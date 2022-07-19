@@ -2,12 +2,6 @@
 z/OS Shell - Overview
 =====================
 
-# Overview
-
-
-### Overview
-
-
 The z/OS Shell plug-in includes steps that automate running commands on the target system. With the Shell plug-in, you can run custom shell scripts during the deployment process.
 
 This plug-in includes one step:
@@ -43,6 +37,6 @@ History
 
 
 
-|Back to ...||Latest Version|z/OS Shell ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[2.1133862](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/java-shell/ucd-java-shell-2.1133862.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|          Back to ...          |                                |                                                       Latest Version                                                        |     z/OS Shell      ||||
+|:-----------------------------:|:------------------------------:|:---------------------------------------------------------------------------------------------------------------------------:|:-------------------:| :---: | :---: | :---: |
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [2.1133862](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/java-shell/ucd-java-shell-2.1133862.zip) | [Readme](README.md) |[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
