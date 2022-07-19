@@ -2,20 +2,12 @@
 SQL-JDBC - Overview
 ===================
 
-# Overview
-
-
-### Overview
-
-
-
-
 The SQL-JDBC plug-in automates SQL script runs by using a JDBC driver in a deploy process.
 
 This plug-in includes two steps:
 
-* [Execute SQL Scripts](#execute_sql_scripts)
-* [Execute SQL Scripts with PassTicket Authentication](#execute_sql_scripts_with_passticket_auth)
+* Execute SQL Scripts
+* Execute SQL Scripts with PassTicket Authentication
 
 ### Compatibility
 
@@ -59,6 +51,6 @@ This release includes a fix for a class resolution error.
 This release includes a new step to run SQL scripts using PassTicket authentication.
 
 
-|Back to ...||Latest Version|SQL-JDBC |||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[12.1100867](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SQL-JDBC/SQL-JDBC-12.1100867.zip)|[Readme](README.md)|[Troubleshooting](troubleshooting.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|          Back to ...          |                                |                                                    Latest Version                                                     |      SQL-JDBC       |||||
+|:-----------------------------:|:------------------------------:|:---------------------------------------------------------------------------------------------------------------------:|:-------------------:| :---: | :---: | :---: | :---: |
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [12.1100867](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SQL-JDBC/SQL-JDBC-12.1100867.zip) | [Readme](README.md) |[Troubleshooting](troubleshooting.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

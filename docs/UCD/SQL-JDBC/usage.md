@@ -2,14 +2,6 @@
 SQL-JDBC - Usage
 ================
 
-# Usage
-
-
-### Usage
-
-
-
-
 The SQL-JDBC plug-in is a database-independent plug-in. Use the **Execute SQL Scripts** or **Execute SQL Scripts with PassTicket Authenitcation** step to connect to a database and run SQL scripts by using a JDBC driver. You can specify that the SQL scripts run in a specific order or in any order.
 
 
@@ -46,10 +38,9 @@ The following example shows the command with the key16 value replaced:
 3. If the system already has Rational Developer for System z or Rational Team Concert server components installed, the PTKTDATA profile may have been defined already.
 3. Define a PTKTDATA profile to control the ability to generate a PassTicket. Define the IRRPTAUTH profile in the PTKTDATA class to controls what userids a PassTicket may be generated for.
 
-|  |  |  |
-| --- | --- | --- |
-| Operation | Profile name | Required access |
-| Generate PassTicket | `IRRPTAUTH.application.target-userid` | Update |
+| Operation           | Profile name                          | Required access |
+|---------------------|---------------------------------------|-----------------|
+| Generate PassTicket | `IRRPTAUTH.application.target-userid` | Update          |
 
 Sample RACF commands: `RDEFINE PTKTDATA IRRPTAUTH.FEKAPPL.USER1 UACC(NONE)`
 4. Permit UrbanCode Deploy Agent to generate a PassTicket. In order for the UrbanCode Deploy Agent to generate a PassTicket, the userid of the agent must be permitted UPDATE access in the PTKTDATA profile that we created in the previous step. Sample RACF commands: `PERMIT IRRPTAUTH.FEKAPPL.USER1 CLASS(PTKTDATA) ID(AGNTUSR) ACCESS(UPDATE)`
@@ -70,6 +61,6 @@ Example 3. Agent is started by user AGNTUSR. Allow this agent to submit job on b
 `RDEFINE PTKTDATA IRRPTAUTH.FEKAPPL.AGNTUSR UACC(NONE) PERMIT IRRPTAUTH.FEKAPPL.AGNTUSR CLASS(PTKTDATA) ID(AGNTUSR) ACCESS(UPDATE) SETROPTS RACLIST (PTKTDATA) REFRESH`
 
 
-|Back to ...||Latest Version|SQL-JDBC |||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[12.1100867](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SQL-JDBC/SQL-JDBC-12.1100867.zip)|[Readme](README.md)|[Overview](overview.md)|[Troubleshooting](troubleshooting.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|          Back to ...          |                                |                                                    Latest Version                                                     |      SQL-JDBC       |||||
+|:-----------------------------:|:------------------------------:|:---------------------------------------------------------------------------------------------------------------------:|:-------------------:| :---: | :---: | :---: | :---: |
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [12.1100867](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SQL-JDBC/SQL-JDBC-12.1100867.zip) | [Readme](README.md) |[Overview](overview.md)|[Troubleshooting](troubleshooting.md)|[Steps](steps.md)|[Downloads](downloads.md)|
