@@ -2281,7 +2281,7 @@ Apart from copying content to a mainframe dataset, this plug-in provides the fol
 
 |Back to ...||z/OS Dataset Writer |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](zos-dataset-writer/README.md)|[4.1134355](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-dataset-writer/ucd-plugins-zos-dataset-writer-4.1134355.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](zos-dataset-writer/README.md)|[4.1138411](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-dataset-writer/ucd-plugins-zos-dataset-writer-4.1138411.zip)|
 
 ## z/OS External Artifact Repository
 
@@ -2361,4 +2361,4 @@ The z/OS Utility plug-in includes steps for retrieving and deploying IBM z/OS ar
 
 |Back to ...||z/OS Utility |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](zos-deploy/README.md)|[72.1134247](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-72.1134247.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](zos-deploy/README.md)|[72.1138404](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-72.1138404.zip)|
