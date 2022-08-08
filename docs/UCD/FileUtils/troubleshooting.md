@@ -9,7 +9,7 @@ File Utils - Troubleshooting
 
 
 
-* [Copy Directory on Windows](#copy-directory-windows)
+* [Copy Directory on Windows](#copy-directory-on-windows)
 
 
 ### Copy Directory on Windows
@@ -25,6 +25,6 @@ If you intend to rename a file or folder in a destination folder, then delete th
 If you intend to rename a file or folder in place, then you cannot delete first otherwise the source item will be gone. In this case, you will need to use a temporary directory. First copy the files into the temporary directory, delete the source files, and then move the temporary directory files back into the original location. You can rename the files in either the first or second copy step.
 
 
-|Back to ...||Latest Version|File Utils |||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[86.1130264](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileUtils/ucd-FileUtils-86.1130264.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|          Back to ...          |                                |                                                         Latest Version                                                          |     File Utils      |||||
+|:-----------------------------:|:------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------:|:-------------------:| :---: | :---: | :---: | :---: |
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [87.1134890.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileUtils/ucd-FileUtils-87.1134890.zip) | [Readme](README.md) |[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

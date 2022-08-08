@@ -11,24 +11,24 @@ File Utils - Steps
 
 ### Process steps in the File Utils plug-in
 
-* [Copy Directory](#copy_directory)
-* [Create .zip File](#create_.zip_file)
-* [Create Directories](#create_directories)
-* [Create File](#create_file)
-* [Delete Files and Directories](#delete_files_and_directories)
-* [Flip Line Endings](#flip_line_endings)
-* [Monitor File Contents](#monitor_file_contents)
-* [Move Directory](#move_directory)
-* [Read Properties From XML File](#read_properties_from_xml_file)
-* [Read Property File](#read_property_file)
-* [Replace Tokens](#replace_tokens)
-* [Search Files and Folders](#search_files_and_folders)
-* [Synchronize Directories](#synchronize_directories)
-* [Untar Tarball](#untar_tarball)
+* [Copy Directory](#copy-directory)
+* [Create .zip File](#create-zip-file)
+* [Create Directories](#create-directories)
+* [Create File](#create-file)
+* [Delete Files and Directories](#delete-files-and-directories)
+* [Flip Line Endings](#flip-line-endings)
+* [Monitor File Contents](#monitor-file-contents)
+* [Move Directory](#move-directory)
+* [Read Properties From XML File](#read-properties-from-xml-file)
+* [Read Property File](#read-property-file)
+* [Replace Tokens](#replace-tokens)
+* [Search Files and Folders](#search-files-and-folders)
+* [Synchronize Directories](#synchronize-directories)
+* [Untar Tarball](#untar-tarball)
 * [Unzip](#unzip)
-* [Update INI File](#update_ini_file)
-* [Update Java Properties File](#update_java_properties_file)
-* [Update XML File with XPath](#update_xml_file_with_xpath)
+* [Update INI File](#update-ini-file)
+* [Update Java Properties File](#update-java-properties-file)
+* [Update XML File with XPath](#update-xml-file-with-xpath)
 
 
 Copy Directory
@@ -119,15 +119,11 @@ Flip Line Endings
 Convert file line endings between UNIX and Microsoft Windows formats.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
-| Ending | Enumeration:
-* os
-* windows
-* unix
-| The line ending type to use. | No |
-| Excludes | String | A list of patterns, separated by newline characters, that describe the files to skip. | No |
-| Includes | String | A list of patterns, separated by newline characters, that describe the files to convert. | Yes |
+| Name     | Type                             | Description                                                                              | Required |
+|----------|----------------------------------|------------------------------------------------------------------------------------------|----------|
+| Ending   | Enumeration: os / windows / unix | The line ending type to use.                                                             | No       |
+| Excludes | String                           | A list of patterns, separated by newline characters, that describe the files to skip.    | No       |
+| Includes | String                           | A list of patterns, separated by newline characters, that describe the files to convert. | Yes      |
 
 
 
@@ -265,16 +261,12 @@ Untar Tarball
 Extract a .tar file.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
-| Extract directory | String | The directory to extract the .tar file to. | No |
-| Overwrite files | Boolean | If selected, files are overwritten even if they are newer than files in the .tar file. | No |
-| Tarball | String | The .tar file to extract. Use wildcards that are supported by Ant pattern matching to extract multiple .tar files. For example, if you specify json-\*.tar, both json-c-0.10.tar and json-c-0.20.tar are extracted. | Yes |
-| Tarball | Enumeration:
-* none
-* gzip
-* bzip2
-| Select the compression algorithm for the .tar file. | No |
+| Name              | Type                             | Description                                                                                                                                                                                                         | Required |
+|-------------------|----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
+| Extract directory | String                           | The directory to extract the .tar file to.                                                                                                                                                                          | No       |
+| Overwrite files   | Boolean                          | If selected, files are overwritten even if they are newer than files in the .tar file.                                                                                                                              | No       |
+| Tarball           | String                           | The .tar file to extract. Use wildcards that are supported by Ant pattern matching to extract multiple .tar files. For example, if you specify json-\*.tar, both json-c-0.10.tar and json-c-0.20.tar are extracted. | Yes      |
+| Tarball           | Enumeration:  none /gzip / bzip2 | Select the compression algorithm for the .tar file.                                                                                                                                                                 | No       |
 
 
 
@@ -339,27 +331,23 @@ Update XML File with XPath
 Update XML files using XPath to locate items to edit.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
-| Apply formatting to output XML | Boolean | Select to output the document with a degree of formatting. Elements are indented and given new lines wherever possible to make a more readable document. | No |
-| Destination Directory Offset | String | The directory relative to the current working directory where the edited XML files will be stored. | No |
-| Fail Mode | Enumeration:
-* WARN\_ONLY
-* FAIL\_FAST
-* FAIL\_ON\_ANY\_FAILURE
-| The action to perform when an malformed xml is found. | Yes |
-| Fail if no match found | Boolean | Select to configure the step to fail if any of the XPath expressions do not return a match. | No |
-| File Excludes | String | A list of patterns, separated by newline characters, the describe the files to skip. | No |
-| File Includes | String | A list of patterns, separated by newline characters, that describe the files to modify. | Yes |
-| Ignore DTD Specification | Boolean | Select to ignore document type declarations that are specified in the XML files. WARNING: these declarations are commented out temporarily while the step runs. | No |
-| Insert XML | String | A list of XPath expression-content pairs, separated by newline characters. Use the format expression->content. For example, specify /root/foo-><bar/> to insert an empty bar element under all foo elements in the root element. For XML documents using a default namespace, XPath expressions are represented like /:root/:foo. For XML documents using prefixed namespaces, XPath expressions are represented like /ns:root/foo or /ns:root/ns:foo or /ns1:root/ns2:foo. | No |
-| Remove | String | A list of XPath expressions, separated by newline characters, that specify elements to remove. For example, specify /root/foo to remove all foo elements under the root element. For XML documents using a default namespace, XPath expressions are represented like /:root/:foo. For XML documents using prefixed namespaces, XPath expressions are represented like /ns:root/foo or /ns:root/ns:foo or /ns1:root/ns2:foo. | No |
-| Replace with text | String | A list of XPath expression-replacement pairs, separated by newline characters. Use the format expression->replacement. For example, specify /root/foo/text()->bar to replace the text for all foo elements under the root element with bar. The step does nothing if the specified expression does not exist in the source files. For XML documents using a default namespace, XPath expressions are represented like /:root/:foo/text(). For XML documents using prefixed namespaces, XPath expressions are represented like /ns:root/foo/text() or /ns:root/ns:foo/text() or /ns1:root/ns2:foo/text(). | No |
-| Set Attributes | String | A list of XPath expression-content pairs, separated by newline characters. Use the format expression->content. For example, specify /root/foo/@bar->my\_bar to replace the bar attribute value for all foo elements under the root element with my\_bar. The XPath expression must end with the /@name of the attribute to insert or update. For XML documents using a default namespace, XPath expressions are represented like /:root/:foo/@bar. For XML documents using prefixed namespaces, XPath expressions are represented like /ns:root/foo/@bar or /ns:root/ns:foo/@bar or /ns1:root/ns2:foo/@bar. | No |
-| Source Directory Offset | String | The directory relative to the current working directory that contains the files to operate on. | No |
+| Name                           | Type                                                             | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | Required |
+|--------------------------------|------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
+| Apply formatting to output XML | Boolean                                                          | Select to output the document with a degree of formatting. Elements are indented and given new lines wherever possible to make a more readable document.                                                                                                                                                                                                                                                                                                                                                                                                                                                    | No       |
+| Destination Directory Offset   | String                                                           | The directory relative to the current working directory where the edited XML files will be stored.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | No       |
+| Fail Mode                      | Enumeration:  WARN\_ONLY /  FAIL\_FAST /  FAIL\_ON\_ANY\_FAILURE | The action to perform when an malformed xml is found.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | Yes      |
+| Fail if no match found         | Boolean                                                          | Select to configure the step to fail if any of the XPath expressions do not return a match.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | No       |
+| File Excludes                  | String                                                           | A list of patterns, separated by newline characters, the describe the files to skip.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | No       |
+| File Includes                  | String                                                           | A list of patterns, separated by newline characters, that describe the files to modify.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | Yes      |
+| Ignore DTD Specification       | Boolean                                                          | Select to ignore document type declarations that are specified in the XML files. WARNING: these declarations are commented out temporarily while the step runs.                                                                                                                                                                                                                                                                                                                                                                                                                                             | No       |
+| Insert XML                     | String                                                           | A list of XPath expression-content pairs, separated by newline characters. Use the format expression->content. For example, specify /root/foo-><bar/> to insert an empty bar element under all foo elements in the root element. For XML documents using a default namespace, XPath expressions are represented like /:root/:foo. For XML documents using prefixed namespaces, XPath expressions are represented like /ns:root/foo or /ns:root/ns:foo or /ns1:root/ns2:foo.                                                                                                                                 | No       |
+| Remove                         | String                                                           | A list of XPath expressions, separated by newline characters, that specify elements to remove. For example, specify /root/foo to remove all foo elements under the root element. For XML documents using a default namespace, XPath expressions are represented like /:root/:foo. For XML documents using prefixed namespaces, XPath expressions are represented like /ns:root/foo or /ns:root/ns:foo or /ns1:root/ns2:foo.                                                                                                                                                                                 | No       |
+| Replace with text              | String                                                           | A list of XPath expression-replacement pairs, separated by newline characters. Use the format expression->replacement. For example, specify /root/foo/text()->bar to replace the text for all foo elements under the root element with bar. The step does nothing if the specified expression does not exist in the source files. For XML documents using a default namespace, XPath expressions are represented like /:root/:foo/text(). For XML documents using prefixed namespaces, XPath expressions are represented like /ns:root/foo/text() or /ns:root/ns:foo/text() or /ns1:root/ns2:foo/text().    | No       |
+| Set Attributes                 | String                                                           | A list of XPath expression-content pairs, separated by newline characters. Use the format expression->content. For example, specify /root/foo/@bar->my\_bar to replace the bar attribute value for all foo elements under the root element with my\_bar. The XPath expression must end with the /@name of the attribute to insert or update. For XML documents using a default namespace, XPath expressions are represented like /:root/:foo/@bar. For XML documents using prefixed namespaces, XPath expressions are represented like /ns:root/foo/@bar or /ns:root/ns:foo/@bar or /ns1:root/ns2:foo/@bar. | No       |
+| Source Directory Offset        | String                                                           | The directory relative to the current working directory that contains the files to operate on.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | No       |
 
 
 
 |Back to ...||Latest Version|File Utils |||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[86.1130264](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileUtils/ucd-FileUtils-86.1130264.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)| [87.1134890.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileUtils/ucd-FileUtils-87.1134890.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|

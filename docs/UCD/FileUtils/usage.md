@@ -10,7 +10,7 @@ File Utils - Usage
 
 
 * [Overview](#overview)
-* [Using the Replace Tokens step](#token-replace-step)
+* [Using the Replace Tokens step](#using-the-replace-tokens-step)
 
 
 ### Overview
@@ -23,19 +23,19 @@ For examples, see the tutorials [Create a simple helloWorld deployment](http://w
 
 ### Copy Directory step
 
-When you use the [Copy Directory](../steps/#copy_directory) step, the permissions of the original directory are not copied. Instead, the default umask values are used. To copy directories and preserve the original permissions, use the cp command in a Shell step. The Shell step is available in the [Shell](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/Shell/) plug-in.
+When you use the [Copy Directory](steps.md#copy-directory) step, the permissions of the original directory are not copied. Instead, the default umask values are used. To copy directories and preserve the original permissions, use the cp command in a Shell step. The Shell step is available in the [Shell](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/Shell/) plug-in.
 
 ### Replace Tokens step
 
-To learn more about using the [Replace Tokens](../steps/#replace_tokens) step, see [Using the Replace Tokens step](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/FileUtils/usage.html#token-replace-step).
+To learn more about using the [Replace Tokens](steps.md#replace-tokens) step, see [Using the Replace Tokens step](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/FileUtils/usage.html#token-replace-step).
 
 ### Update XML with XPath step
 
-To learn more about using the [Update XML with XPath](../steps/#update_xml_file_with_xpath) step to modify XML files, see [Using the Update XML with XPath step](https://www.urbancode.com/docs/using-update-xml-xpath-step/).
+To learn more about using the [Update XML with XPath](steps.md#update-xml-file-with-xpath) step to modify XML files, see [Using the Update XML with XPath step](https://www.urbancode.com/docs/using-update-xml-xpath-step/).
 
 ### Create .zip File and Unzip steps
 
-When you use the [Create .zip File](../steps/#.zip_file) and [Unzip](../steps/#unzip) steps to compress and decompress files, the permissions of the files are not retained.
+When you use the [Create .zip File](steps.md#create-zip-file) and [Unzip](steps.md#unzip) steps to compress and decompress files, the permissions of the files are not retained.
 
 
 ### Using the Replace Tokens step
@@ -71,6 +71,6 @@ The property file is affected by the **Start Token Delimiter**, **End Token Deli
 **Note:** When you run the Replace Tokens step and specify a property file, the property file is modified when the step runs. The delimiters and prefixes are added to tokens that match tokens in the target files. To ensure repeatable behavior, download the property file to the agent computer each time before you run the Replace Tokens step.
 
 
-|Back to ...||Latest Version|File Utils |||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[86.1130264](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileUtils/ucd-FileUtils-86.1130264.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|
+|          Back to ...          |                                |                                                       Latest Version                                                        |     File Utils      |||||
+|:-----------------------------:|:------------------------------:|:---------------------------------------------------------------------------------------------------------------------------:|:-------------------:| :---: | :---: | :---: | :---: |
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) |  [87.1134890.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileUtils/ucd-FileUtils-87.1134890.zip)| [Readme](README.md) |[Overview](overview.md)|[Steps](steps.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|
