@@ -3,7 +3,7 @@ File Utils - Downloads
 ======================
 
 # Downloads
-
+- [ucd-FileUtils-87.1134890.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileUtils/ucd-FileUtils-87.1134890.zip)
 - [ucd-FileUtils-86.1130264.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileUtils/ucd-FileUtils-86.1130264.zip)
 - [ucd-FileUtils-85.1129819.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileUtils/ucd-FileUtils-85.1129819.zip)
 - [ucd-FileUtils-84.1128977.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileUtils/ucd-FileUtils-84.1128977.zip)

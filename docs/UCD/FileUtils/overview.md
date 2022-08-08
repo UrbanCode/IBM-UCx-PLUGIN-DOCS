@@ -25,6 +25,10 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 ### History
 
+#### Version 87
+
+Untar step is defaulted to UTF-8 encoding.
+
 #### Version 86
 
 Fixed infinite loop in replace tokens step when using groovy 3.
