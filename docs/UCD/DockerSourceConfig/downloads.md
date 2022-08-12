@@ -4,6 +4,7 @@ Docker Registry - Downloads
 
 # Downloads
 
+- [ucd-DockerSourceConfig-40.1139652.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/DockerSourceConfig/ucd-DockerSourceConfig-40.1139652.zip)
 - [ucd-DockerSourceConfig-40.1126663.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/DockerSourceConfig/ucd-DockerSourceConfig-40.1126663.zip)
 - [DockerSourceConfig-39.1121997.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/DockerSourceConfig/DockerSourceConfig-39.1121997.zip)
 - [DockerSourceConfig-38.1104822.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/DockerSourceConfig/DockerSourceConfig-38.1104822.zip)
