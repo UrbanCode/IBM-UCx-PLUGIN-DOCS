@@ -12,6 +12,7 @@ The plug-in includes steps that are related to deploying data sets and HFS files
 * FTP Artifacts
 * Deploy Data Sets
 * Rollback Data Sets
+* Cleanup Backup Files
 
 To learn how to import components from data sets in IBM z/OS, see [Deploying to the z/OS platform](https://www.ibm.com/docs/en/urbancode-deploy/7.2.1?topic=integrating-deploying-components-zos-platform).
 
@@ -34,4 +35,4 @@ For more information and examples, see the [Usage page in the plug-in documentat
 
 |          Back to ...          |                                |                                                        Latest Version                                                         ||||||
 |:-----------------------------:|:------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------:| :---: | :---: | :---: | :---: | :---: |
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [73.1138577](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-73.1138577.zip) |[Overview](overview.md)|[Troubleshooting](troubleshooting.md)|[Steps](steps.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [74.1139650](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-74.1139650.zip) |[Overview](overview.md)|[Troubleshooting](troubleshooting.md)|[Steps](steps.md)|[Usage](usage.md)|[Downloads](downloads.md)|

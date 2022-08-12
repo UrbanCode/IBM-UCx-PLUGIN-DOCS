@@ -28,28 +28,28 @@ z/OS Utility - Steps
 * [Submit Job](#submit-job)
 * [Wait For Job](#wait-for-job)
 * [Delete Dataset](#delete-dataset)
+* [Cleanup Backup Files](#cleanup-backup-files)
 
 
 ### Allocate Data Set
 
 Allocate a non-SMS-managed data set. **Note:** To create a GDG version add (+1) along with GDG base. An output property **DatasetName** will contain the actual GDG version dataset name that is created and can be referred in successive steps of the process.
 
+| Name                     | Type                                                       | Description                                                                                                                                                                                                                                   | Required |
+|--------------------------|------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
+| Average Record Unit      | Enumeration: K/M/U/---                                     | Select the unit to use when allocating average record length. U specifies single-record units (bytes). K specifies thousand-record units (kilobytes). M specifies million-record units (megabytes). (---) specifies the system default value. | No       |
+| Block Size               | String                                                     | Specify the number of bytes of data to place in each block, based on the record length.                                                                                                                                                       | Yes      |
+| Data Set Name            | String                                                     | Data set name. If the single quotation marks are omitted, the users data set prefix from the TSO profile is automatically appended to the front of the data set name.                                                                         | Yes      |
+| Data Set Name Type       | Enumeration: LIBRARY/PDS                                   | LIBRARY, PDS or Default()                                                                                                                                                                                                                     | No       |
+| Delete Existing Data Set | Boolean                                                    | Select to delete dataset if already exist before allocation.                                                                                                                                                                                  | No       |
+| Directory Blocks         | String                                                     | The number of directory blocks to allocate. Specify zero for a sequential data set. Specifying LIBRARY in the data set name might override a setting of zero directory blocks.                                                                | No       |
+| Primary Quantity         | String                                                     | Specify the primary quantity in average record units.                                                                                                                                                                                         | Yes      |
+| Record Format            | Enumeration: F,B/F/V,B/V/U/F,B,A/V,B,A/F,B,M/F,M/V,B,M/V,M |                                                                                                                                                                                                                                               | No       |
+| Record Length            | String                                                     |                                                                                                                                                                                                                                               | Yes      |
+| Secondary Quantity       | String                                                     | Specify the secondary quantity in average record units.                                                                                                                                                                                       | Yes      |
+| Space Units              | Enumeration: BLKS/TRACKS/CYLINDERS                         | BLKS, TRKS, CYLS                                                                                                                                                                                                                              | Yes      |
+| Volume Serial            | String                                                     | Leave blank to use the system default volume.                                                                                                                                                                                                 | No       |
 
-| Name                                                                                                                                                                                                                                       | Type                       | Description                                                                                                                                                           | Required |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|--|
-| Average Record Unit                                                                                                                                                                                                                        | Enumeration: —/K/M/U       |                                                                                                                                                                       |  |
-| Select the unit to use when allocating average record length. U specifies single-record units (bytes). K specifies thousand-record units (kilobytes). M specifies million-record units (megabytes). () specifies the system default value. | No                         |                                                                                                                                                                       |  |
-| Block Size                                                                                                                                                                                                                                 | String                     | Specify the number of bytes of data to place in each block, based on the record length.                                                                               | Yes |
-| Data Set Name                                                                                                                                                                                                                              | String                     | Data set name. If the single quotation marks are omitted, the users data set prefix from the TSO profile is automatically appended to the front of the data set name. | Yes |
-| Data Set Name Type                                                                                                                                                                                                                         | Enumeration: -/LIBRARY/PDS                                                                  | LIBRARY, PDS or Default() | No                         |
-| Delete Existing Data Set | Boolean                    | Select to delete dataset if already exist before allocation. | No |
-| Directory Blocks | String                     | The number of directory blocks to allocate. Specify zero for a sequential data set. Specifying LIBRARY in the data set name might override a setting of zero directory blocks. | No |
-| Primary Quantity | String                     | Specify the primary quantity in average record units. | Yes |
-| Record Format | Enumeration: F,B/F/V,B/V/U/F,B,A/V,B,A/F,B,M/F,M/V,B,M/V,M |  | No |
-| Record Length | String |  | Yes |
-| Secondary Quantity | String | Specify the secondary quantity in average record units. | Yes |
-| Space Units | Enumeration: BLKS/TRACKS/CYLINDERS | BLKS, TRKS, CYLS | Yes |
-| Volume Serial | String | Leave blank to use the system default volume. | No |
 
 ### Allocate Data Set From Existing
 
@@ -315,8 +315,21 @@ Deletes a dataset PDS or Sequential.
 | Dataset Name | String | Name of the dataset to be deleted. If the single quotation marks are omitted, the user’s data set prefix from the TSO profile is automatically appended to the front of the dataset name. Wildcards are not allowed. | Yes      |
 | Members List | String | Specify only members to be deleted from the PDS. Separate member names with a newline. PDS is deleted if no members are specified.                                                                                   | No       |
 
+### Cleanup Backup Files
+
+Delete backup files created during deploy datasets step.
+
+All the properties in the step are __hidden properties__
+
+| Name                 | Type   | Description                                                                     | Required |
+|----------------------|--------|---------------------------------------------------------------------------------|----------|
+| Deployment Base Path | String | The base location where deployment results and backups for rollback are stored. | Yes      |
+| Version Name         | String | Name of the version                                                             | Yes      |
+| Component Name       | String | Name of the component                                                           | Yes      |
+| Resource Id          | String | Resource Id                                                                     | Yes      |
+
 
 
 |          Back to ...          |                                |                                                        Latest Version                                                         |    z/OS Utility     |||||
 |:-----------------------------:|:------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------:|:-------------------:| :---: | :---: | :---: | :---: |
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [73.1138577](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-73.1138577.zip) | [Readme](README.md) |[Overview](overview.md)|[Troubleshooting](troubleshooting.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [74.1139650](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-74.1139650.zip) | [Readme](README.md) |[Overview](overview.md)|[Troubleshooting](troubleshooting.md)|[Usage](usage.md)|[Downloads](downloads.md)|
