@@ -12,12 +12,12 @@ IBM UrbanCode Deploy Versioned File Storage - Steps
 Process steps in the UrbanCode Deploy Versioned File Storage plug-in
 --------------------------------------------------------------------
 
-* [Download Artifacts](#download_artifacts)
-* [Download Artifacts for zOS](#download_artifacts_for_zos)
-* [Sync Artifacts](#sync_artifacts)
-* [Upload Artifacts](#upload_artifacts)
-* [Verify Local Artifacts](#verify_local_artifacts)
-* [Compare version Artifacts for zOS](#compare_zos_artifacts)
+* [Download Artifacts](#download-artifacts)
+* [Download Artifacts for zOS](#download-artifacts-for-zos)
+* [Sync Artifacts](#sync-artifacts)
+* [Upload Artifacts](#upload-artifacts)
+* [Verify Local Artifacts](#verify-local-artifacts)
+* [Compare version Artifacts for zOS](#compare-version-artifacts-for-zos)
 
 
 Download Artifacts
@@ -26,22 +26,18 @@ Download Artifacts
 Download artifacts from a VFS server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
-| Artifact Directory Offset | String | The base directory from which artifacts will be retrieved from the Component Version. For example, using App/Dist will only get all files from in the App/Dist directory and put them in the Current Working Directory. All includes/excludes will be evaluated relative to this offset. | No |
-| Charset | String | The Character set that files whose metadata includes a character set should be converted to upon download (e.g. UTF-8). If this field is left blank then the system’s default charset will be used. | No |
-| Directory Offset | String | The working directory to use when executing this command. This is relative to current working directory. | Yes |
-| Excludes | String | The patterns to exclude files to upload. | No |
-| Full Verification | Boolean | (Valid only with Sync Mode enabled) When selected, hashes will be computed on each file in the destination artifact set to determine whether network transfer is necessary. Otherwise, files will be compared by date modified and size. | No |
-| Handle Incremental Versions | Boolean | (Valid only with Sync Mode enabled) When selected, incremental version handling is enabled. When not selected, the legacy behavior is enabled, which is to handle incremental versions as though they are full versions. Enabling incremental version handling has two effects. First, when deploying a full version, all versions back to the most recently deployed full version are considered when determining which files to update or remove; the legacy behavior will only consider the the single most recently deployed version. Second, deploying an incremental version will not remove files from all currently deployed versions and will restore missing files from those versions; the legacy behavior will remove files from the single most recent currently deployed version and ignore files from other currently deployed versions. For server versions before 7.1.1.0, there is a negative performance impact to enabling this feature due to API availablity. The impact is the greatest for versions 6.2.7.0 through 7.1.0. Until 7.1.1.0, is not recommended to enable this feature unless you use incremental versions. | No |
-| Includes | String | The patterns to match files to upload. The wildcard \*\* indicates every directory and the wildcard \* indicates every file. So the pattern dist/\*\*/\* would retrieve the entire file tree underneath the dist directory. | Yes |
-| Set File Execute Bits | Boolean | When enabled, sets file execute bits on the files which have them set in the repository. | No |
-| Sync Mode | Enumeration:
-* false
-* true
-* FULL
-| Sync transfers only changed files, removing files that exist only in the previously deployed version. Clean removes all files not contained in the currently deployed version | No |
-| Verify File Integrity | Boolean | When enabled, verifies downloaded files match their hash. Enabling this may reduce performance. | No |
+| Name                        | Type                             | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | Required |
+|-----------------------------|----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
+| Artifact Directory Offset   | String                           | The base directory from which artifacts will be retrieved from the Component Version. For example, using App/Dist will only get all files from in the App/Dist directory and put them in the Current Working Directory. All includes/excludes will be evaluated relative to this offset.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | No       |
+| Charset                     | String                           | The Character set that files whose metadata includes a character set should be converted to upon download (e.g. UTF-8). If this field is left blank then the system’s default charset will be used.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | No       |
+| Directory Offset            | String                           | The working directory to use when executing this command. This is relative to current working directory.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | Yes      |
+| Excludes                    | String                           | The patterns to exclude files to upload.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | No       |
+| Full Verification           | Boolean                          | (Valid only with Sync Mode enabled) When selected, hashes will be computed on each file in the destination artifact set to determine whether network transfer is necessary. Otherwise, files will be compared by date modified and size.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | No       |
+| Handle Incremental Versions | Boolean                          | (Valid only with Sync Mode enabled) When selected, incremental version handling is enabled. When not selected, the legacy behavior is enabled, which is to handle incremental versions as though they are full versions. Enabling incremental version handling has two effects. First, when deploying a full version, all versions back to the most recently deployed full version are considered when determining which files to update or remove; the legacy behavior will only consider the the single most recently deployed version. Second, deploying an incremental version will not remove files from all currently deployed versions and will restore missing files from those versions; the legacy behavior will remove files from the single most recent currently deployed version and ignore files from other currently deployed versions. For server versions before 7.1.1.0, there is a negative performance impact to enabling this feature due to API availablity. The impact is the greatest for versions 6.2.7.0 through 7.1.0. Until 7.1.1.0, is not recommended to enable this feature unless you use incremental versions. | No       |
+| Includes                    | String                           | The patterns to match files to upload. The wildcard \*\* indicates every directory and the wildcard \* indicates every file. So the pattern dist/\*\*/\* would retrieve the entire file tree underneath the dist directory.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | Yes      |
+| Set File Execute Bits       | Boolean                          | When enabled, sets file execute bits on the files which have them set in the repository.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | No       |
+| Sync Mode                   | Enumeration: false / true / FULL | Sync transfers only changed files, removing files that exist only in the previously deployed version. Clean removes all files not contained in the currently deployed version                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | No       |
+| Verify File Integrity       | Boolean                          | When enabled, verifies downloaded files match their hash. Enabling this may reduce performance.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | No       |
 
 
 
@@ -51,11 +47,11 @@ Compare version Artifacts for zOS
 Compare two zOS version artifacts with new package format
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
-| Version-1 | String | First version name. | Yes |
-| Version-2 | String | Second version name. | Yes |
-| Component Name | String | Name of the component that contains versions. | Yes |
+| Name           | Type   | Description                                   | Required |
+|----------------|--------|-----------------------------------------------|----------|
+| Version-1      | String | First version name.                           | Yes      |
+| Version-2      | String | Second version name.                          | Yes      |
+| Component Name | String | Name of the component that contains versions. | Yes      |
 
 
 
@@ -65,9 +61,9 @@ Download Artifacts for zOS
 Download zOS component artifacts from a VFS server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
-| Directory Offset | String | The working directory to use when executing this command. This is relative to current working directory. | Yes |
+| Name             | Type   | Description                                                                                              | Required |
+|------------------|--------|----------------------------------------------------------------------------------------------------------|----------|
+| Directory Offset | String | The working directory to use when executing this command. This is relative to current working directory. | Yes      |
 
 
 
@@ -77,13 +73,13 @@ Sync Artifacts
 Compare local artifacts with the artifacts expected to be on the resource according to its inventory, and remediate any differences.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
-| Charset | String | The Character set that files whose metadata includes a character set should be converted to upon download (e.g. UTF-8). If this field is left blank then the system’s default charset will be used. | No |
-| Excludes | String | The patterns to exclude files to upload. | No |
-| Includes | String | The patterns to match files to upload. The wildcard \*\* indicates every directory and the wildcard \* indicates every file. So the pattern dist/\*\*/\* would retrieve the entire file tree underneath the dist directory. | Yes |
-| Set File Execute Bits | Boolean | When enabled, sets file execute bits on the files which have them set in the repository. | No |
-| Verify File Integrity | Boolean | When enabled, verifies downloaded files match their hash. Enabling this may reduce performance. | No |
+| Name                  | Type    | Description                                                                                                                                                                                                                 | Required |
+|-----------------------|---------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
+| Charset               | String  | The Character set that files whose metadata includes a character set should be converted to upon download (e.g. UTF-8). If this field is left blank then the system’s default charset will be used.                         | No       |
+| Excludes              | String  | The patterns to exclude files to upload.                                                                                                                                                                                    | No       |
+| Includes              | String  | The patterns to match files to upload. The wildcard \*\* indicates every directory and the wildcard \* indicates every file. So the pattern dist/\*\*/\* would retrieve the entire file tree underneath the dist directory. | Yes      |
+| Set File Execute Bits | Boolean | When enabled, sets file execute bits on the files which have them set in the repository.                                                                                                                                    | No       |
+| Verify File Integrity | Boolean | When enabled, verifies downloaded files match their hash. Enabling this may reduce performance.                                                                                                                             | No       |
 
 
 
@@ -93,13 +89,13 @@ Upload Artifacts
 Upload artifacts to a VFS server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
-| Directory Offset | String | The working directory to use when executing this command. This is relative to current working directory. | Yes |
-| Excludes | String | The patterns to exclude files to upload. | No |
-| Includes | String | The patterns to match files to upload. The wildcard \*\* indicates every directory and the wildcard \* indicates every file. So the pattern dist/\*\*/\* would retrieve the entire file tree underneath the dist directory. | Yes |
-| Save File Execute Bits | Boolean | When enabled, file execute bits are saved with the files. | No |
-| Text File Extensions | String | A comma separated list of extensions of files need to be converted to a new character set on download (e.g. txt,properties,log). This should be used in cases where the OS the files are being deployed to requires a different character set than the one uploading the files into the server. | No |
+| Name                   | Type    | Description                                                                                                                                                                                                                                                                                     | Required |
+|------------------------|---------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
+| Directory Offset       | String  | The working directory to use when executing this command. This is relative to current working directory.                                                                                                                                                                                        | Yes      |
+| Excludes               | String  | The patterns to exclude files to upload.                                                                                                                                                                                                                                                        | No       |
+| Includes               | String  | The patterns to match files to upload. The wildcard \*\* indicates every directory and the wildcard \* indicates every file. So the pattern dist/\*\*/\* would retrieve the entire file tree underneath the dist directory.                                                                     | Yes      |
+| Save File Execute Bits | Boolean | When enabled, file execute bits are saved with the files.                                                                                                                                                                                                                                       | No       |
+| Text File Extensions   | String  | A comma separated list of extensions of files need to be converted to a new character set on download (e.g. txt,properties,log). This should be used in cases where the OS the files are being deployed to requires a different character set than the one uploading the files into the server. | No       |
 
 
 
@@ -109,14 +105,14 @@ Verify Local Artifacts
 Compare artifacts on local machine with inventory.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
-| Directory Offset | String | The working directory to use when executing this command. This is relative to current working directory. | Yes |
-| Excludes | String | The patterns to exclude files to upload. | No |
-| Includes | String | The patterns to match files to upload. The wildcard \*\* indicates every directory and the wildcard \* indicates every file. So the pattern dist/\*\*/\* would retrieve the entire file tree underneath the dist directory. | Yes |
+| Name             | Type   | Description                                                                                                                                                                                                                 | Required |
+|------------------|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
+| Directory Offset | String | The working directory to use when executing this command. This is relative to current working directory.                                                                                                                    | Yes      |
+| Excludes         | String | The patterns to exclude files to upload.                                                                                                                                                                                    | No       |
+| Includes         | String | The patterns to match files to upload. The wildcard \*\* indicates every directory and the wildcard \* indicates every file. So the pattern dist/\*\*/\* would retrieve the entire file tree underneath the dist directory. | Yes      |
 
 
 
-|Back to ...||Latest Version|IBM UrbanCode Deploy Versioned File Storage |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[43.113936](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/UrbancodeVFS/ucd-UrbancodeVFS-43.1139365.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
+|          Back to ...          ||         Latest Version         |                                           IBM UrbanCode Deploy Versioned File Storage                                            |||
+|:-----------------------------:|:------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------:| :---: | :---: | :---: |
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [43.113936](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/UrbancodeVFS/ucd-UrbancodeVFS-43.1139365.zip) |[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
