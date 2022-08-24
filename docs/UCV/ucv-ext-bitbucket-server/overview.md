@@ -29,6 +29,9 @@ DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-bitbucket-server/tags).
 History
 -------
 
+### Version 1.1.22
+
+* Rate limiting and resync implementation.
 ### Version 1.1.12
 
 *
@@ -70,4 +73,4 @@ build target on Jenkinsfile.
 
 |Back to ...||Latest Version|BitBucket Server |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.1.16](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bitbucket-server/ucv-ext-bitbucket-server-1.1.16.tar.zip)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.1.22](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bitbucket-server/ucv-ext-bitbucket-server-1.1.22.tar.zip)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|

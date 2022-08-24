@@ -39,6 +39,11 @@ DockerHub and the UrbanCode Velolcity code accesses the version that you select.
 History
 -------
 
+### Version 2.1.57
+
+
+* Added project names. Instead of using project IDs project names are used. 
+Also implemented wildcard functionality for project names.
 ### Version 2.0.36
 
 

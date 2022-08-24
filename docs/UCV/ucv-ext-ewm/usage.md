@@ -107,4 +107,4 @@ View a
 
 |Back to ...||Latest Version|IBM Engineering Workflow Management (EWM) |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.1.27](https://github.com/UrbanCode/IBM-UCV-PLUGINS/raw/main/files/ucv-ext-ewm/ucv-ext-ewm:1.1.27.tar.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.1.28](https://github.com/UrbanCode/IBM-UCV-PLUGINS/raw/main/files/ucv-ext-ewm/ucv-ext-ewm:1.1.28.tar.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

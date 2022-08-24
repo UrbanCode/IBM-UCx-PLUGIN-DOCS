@@ -33,6 +33,9 @@ DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-ewm/tags).
 History
 -------
 
+### Version 1.1.28
+
+* Clarifying delimitation problem for properties used. (Example : Comma separated list)
 ### Version 1.1.27
 
 * Added change sets related data to history section of VSM dot.
@@ -44,4 +47,4 @@ History
 
 |Back to ...||Latest Version|IBM Engineering Workflow Management (EWM) |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.1.27](https://github.com/UrbanCode/IBM-UCV-PLUGINS/raw/main/files/ucv-ext-ewm/ucv-ext-ewm:1.1.27.tar)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.1.28](https://github.com/UrbanCode/IBM-UCV-PLUGINS/raw/main/files/ucv-ext-ewm/ucv-ext-ewm:1.1.28.tar.zip)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|

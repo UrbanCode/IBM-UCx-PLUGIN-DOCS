@@ -4,6 +4,7 @@ GitLab - Downloads
 
 # Downloads
 
+- [ucv-ext-gitlab-2.1.57.tar.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-gitlab/ucv-ext-gitlab-2.1.57.tar.zip)
 - [ucv-ext-gitlab-2.0.50.tar.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-gitlab/ucv-ext-gitlab-2.0.50.tar.zip)
 - [ucv-ext-gitlab-2.0.37.tar.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-gitlab/ucv-ext-gitlab-2.0.37.tar.zip)
 - [ucv-ext-gitlab-2.0.36.tar.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-gitlab/ucv-ext-gitlab-2.0.36.tar.zip)
@@ -20,4 +21,4 @@ GitLab - Downloads
 
 |Back to ...||Latest Version|GitLab |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[2.0.50](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-gitlab/ucv-ext-gitlab-2.0.50.tar.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[2.1.57](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-gitlab/ucv-ext-gitlab-2.1.57.tar.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|

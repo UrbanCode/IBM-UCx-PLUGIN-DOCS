@@ -29,6 +29,9 @@ DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-agility/tags).
 History
 -------
 
+### Version 1.0.26
+
+* Clarifying delimitation problem for properties used . (Example : Comma separated list)
 ### Version 1.0.20
 
 * User
@@ -46,4 +49,4 @@ HCL Accelerate version 2.4.0 or later)
 
 |Back to ...||Latest Version|Digital.ai Agility |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.20](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-agility/ucv-ext-agility-1.0.20.tar.zip)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.26](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-agility/ucv-ext-agility-1.0.26.tar.zip)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|

@@ -29,6 +29,10 @@ DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-rally/tags).
 History
 -------
 
+### Version 1.0.41
+
+* Clarifying delimitation problem for properties used. (Example : Comma separated list)
+
 ### Version 1.0.34
 
 * User
@@ -65,4 +69,4 @@ problem with Jenkins job failing.
 
 |Back to ...||Latest Version|Rally |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.34](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-rally/ucv-ext-rally-1.0.34.tar.zip)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.41](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-rally/ucv-ext-rally-1.0.41.tar.zip)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
