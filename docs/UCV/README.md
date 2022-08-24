@@ -53,7 +53,7 @@ Azure DevOps (formerly Microsoft Team Foundation Server (TFS) or Microsoft TFS)p
 
 |Back to ...||Azure DevOps |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-azure/README.md)|[4.0.26](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-azure/ucv-ext-azure-4.0.26.tar.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-azure/README.md)|[4.0.35](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-azure/ucv-ext-azure-4.0.35.tar.zip)|
 
 ## BitBucket Server
 
@@ -63,7 +63,7 @@ Bitbucket is a source code version control repository hosting service owned by A
 
 |Back to ...||BitBucket Server |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-bitbucket-server/README.md)|[1.1.16](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bitbucket-server/ucv-ext-bitbucket-server-1.1.16.tar.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-bitbucket-server/README.md)|[1.1.22](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bitbucket-server/ucv-ext-bitbucket-server-1.1.22.tar.zip)|
 
 ## Black Duck
 
@@ -113,7 +113,7 @@ Digital.ai.Agility is Enterprise level planning and tracking platform to build a
 
 |Back to ...||Digital.ai Agility |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-agility/README.md)|[1.0.20](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-agility/ucv-ext-agility-1.0.20.tar.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-agility/README.md)|[1.0.26](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-agility/ucv-ext-agility-1.0.26.tar.zip)|
 
 ## GitHub
 
@@ -133,7 +133,7 @@ GitLab provides management of git repositories. The GitLab plug-in imports issue
 
 |Back to ...||GitLab |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-gitlab/README.md)|[2.0.50](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-gitlab/ucv-ext-gitlab-2.0.50.tar.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-gitlab/README.md)|[2.1.57](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-gitlab/ucv-ext-gitlab-2.1.57.tar.zip)|
 
 ## HCL AppScan Enterprise (ASE)
 
@@ -193,7 +193,7 @@ The IBM Engineering Workflow Management (EWM) plug-in, previously known as the I
 
 |Back to ...||IBM Engineering Workflow Management (EWM) |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-ewm/README.md)|[1.1.27](https://github.com/UrbanCode/IBM-UCV-PLUGINS/raw/main/files/ucv-ext-ewm/ucv-ext-ewm:1.1.27.tar)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-ewm/README.md)|[1.1.28](https://github.com/UrbanCode/IBM-UCV-PLUGINS/raw/main/files/ucv-ext-ewm/ucv-ext-ewm:1.1.28.tar.zip)|
 
 ## JUnit
 
@@ -223,7 +223,7 @@ Rally is an Agile project management tool for planning, scheduling, and tracking
 
 |Back to ...||Rally |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-rally/README.md)|[1.0.34](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-rally/ucv-ext-rally-1.0.34.tar.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-rally/README.md)|[1.0.41](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-rally/ucv-ext-rally-1.0.41.tar.zip)|
 
 ## Rational Test Automation Server
 
