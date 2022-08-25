@@ -4,14 +4,10 @@ z/OS Utility - Usage
 
 # Usage
 
-
-### Usage
-
-
-
 The following pages provide usage information about this plug-in:
 
-* [Deploying a component to the z/OS platform](#deploying-a-component-to-the-zos-platform)
+* [Deploy a component version to z/OS platform](#deploy-a-component-version-to-zos-platform)
+* [Rollback a component version from z/OS platform](#rollback-a-component-version-from-zos-platform)
 * [Deploying by using the Job Monitor](#deploying-by-using-the-job-monitor)
 * [Submitting a JCL job and then checking for status](#submitting-a-jcl-job-and-then-checking-for-status)
 * [Submitting a JCL job from a template](#submitting-jcl-jobs-from-a-template)
@@ -23,8 +19,7 @@ The following pages provide usage information about this plug-in:
 * [Deploying HFS files](#deploying-hfs-files)
 
 
-### Running MVS system commands
-
+## Running MVS system commands
 
 
 The Run MVS Command step uses the Java programming interface with the System Display and Search Facility (SDSF) to run MVS system commands on the agent. To use the Run MVS Command step, you must work with your system administrator to configure security properly for the agent user account. In the following examples, protecting resources by setting the universal access authority (UACC) to NONE might prevent all users, except users with explicit permission, from accessing the protected command.
@@ -58,9 +53,7 @@ The following settings show an example of how to configure the Run MVS Command s
 ![](zos_mvs_2.png?resize=640%2C189)
 
 
-### Using custom properties in deployments
-
-
+## Using custom properties in deployments
 
 You can add custom properties to data sets or to members when you create component versions. The custom properties can then be used by the Generate Artifact Information step to generate commands or other input that can be used by other subsequent steps in the process.
 
@@ -104,11 +97,11 @@ In this example, the Run TSO or ISPF Command step uses the following settings:
 ![](zos_props_5.png?resize=640%2C189)
 
 
-### Deploying data sets and running CICS commands
+## Deploying data sets and running CICS commands
 
 
 
-### Example: Deploying data sets and running CICS commands
+## Example: Deploying data sets and running CICS commands
 
 In this process example, the z/OS data sets must be in the component. Also, the environment contains agents that are running z/OS. In addition to the z/OS Utility plug-in, the CICS TS plug-in must be installed. The process runs the following steps in order:
 
@@ -200,18 +193,18 @@ Summary:15 NEWCOPY request(s) succeeded, 0 NEWCOPY request(s) failed.
 ```
 
 
-### Submitting JCL jobs from a template
+## Submitting JCL jobs from a template
 
 
 
 To submit a JCL job from a template, use the [Submit Job](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/zos-deploy/steps.html#submit_job) step, and then set up the step properties similar to the following example: [![submit_job_template](submit_job_template.gif)](submit_job_template.gif) To submit multiple jobs from the same template, specify multiple sets of rules in the **Replace Tokens For Each Job** field. Separate rule sets with a new line that contains only two forward slashes (//). The status of the Submit Job step is success if all of the jobs run to completion, and fail if any of the jobs fail. Multiple jobs run in sequence, and use the same settings for job output and status checking. If you select **Stop On Fail**, no subsequent jobs are run after a job fails. To submit multiple jobs that check the existence of multiple data set members, set up the step properties similar to the following example: [![zos_multiplejobs](zos_multiplejobs.png)](zos_multiplejobs.png) In the previous example, three jobs are submitted because three rule sets are specified in the **Replace Tokens For Each Job** field. The three jobs check the JKEMPMT, JKECMORT, and JKEMLIST members in that order. The rules that are specified in the **Replace Tokens** field are used for all jobs. Because **Stop On Fail** is selected, if any job fails no subsequent jobs are submitted. Finally, the **Max Return Code** field is set to 0 so that any return code greater than 0 is considered a job failure. For example, a return code of 4 from the LISTDS command, which indicates that a member name was not found, is considered a job failure.
 
-### Processing multiple data sets or data set members
+## Processing multiple data sets or data set members
 
 Use the Generate Artifact Information step to process each data set or data set member in a version. In the following example, the process verifies that data set members are deployed. [![zos_multipleproc](zos_multipleproc.png)](zos_multipleproc.png) The Generate Artifact Information step uses the following settings: [![zos_genjobparams](zos_genjobparams.png)](zos_genjobparams.png) The Submit Job step uses the following settings: [![zos_check](zos_check.png)](zos_check.png)
 
 
-### Deploying HFS files
+## Deploying HFS files
 
 
 A component version of HFS files can be deployed in either old format or new format of HFS directory mapping. In the old format of HFS directory mapping, it accepts only the target directory as input and during deployment, the container directories are created, and files are moved to the respective container. Mapping is in the below format`Target-Directory-path`Whereas the new format of HFS directory mapping, follows the same rule as for deploying the MVS Datasets. The mapping may contain multiple lines with each line in the below format
@@ -220,33 +213,33 @@ A component version of HFS files can be deployed in either old format or new for
 On contrary to old format the deployment with new format does not create a sub-directory of source container while moving to target directory.
 
 
-### Deploying by using the Job Monitor
+## Deploying by using the Job Monitor
 
 Refer [Deploying by using the Job Monitor](https://www.ibm.com/docs/en/urbancode-deploy/7.2.2?topic=SS4GSP_7.2.2/com.ibm.udeploy.install.doc/topics/zos_using_job_monitor.html) for more details
 
-### Managing redundant versions
+## Managing redundant versions
 
 Redundant versions are incremental versions that are replaced by one or more subsequent incremental versions. In the following example, when Version 2 is deployed Version 1 becomes a redundant version, because all artifacts that are deployed with Version 1 are replaced by Version 2.
 
 [![redundant_versions](redundant_versions.gif)](redundant_versions.gif)
 
-### Remove Redundant Versions
+## Remove Redundant Versions
 
 The **Remove Redundant Versions** plug-in step removes redundant versions from the inventory.
 
-### Snapshots
+## Snapshots
 
 Redundant versions are excluded when you create a snapshot. This exclusion prevents unnecessary promotion of incremental versions to subsequent environments. To include redundant versions in a snapshot, edit the snapshot to add the redundant versions.
 
-### High-level qualifiers
+## High-level qualifiers
 
 To ignore the high-level qualifier during redundant version calculations, set the **High Level Qualifier Length** value in the component configuration.
 
-### MVS component template
+## MVS component template
 
 The z/OS Utility plug-in includes the MVSTEMPLATE component template. The template contains default processes, which can be used directly. The template also lists the component properties and environment properties that that must be set to run z/OS deployments.
 
-### Default processes
+## Default processes
 
 
 | Step                                               | Description                                                                                                                                                                                                                                                  |
@@ -259,7 +252,7 @@ The z/OS Utility plug-in includes the MVSTEMPLATE component template. The templa
 | Sample JCL submission process                      | Model JCL submission on the two types of usage in this sample.                                                                                                                                                                                               |
 | Uninstall                                          | Uninstall a version and restore the backup data sets.                                                                                                                                                                                                        |
 
-### Component properties
+## Component properties
 
 
 | Name                    | Required | Description                                                                     |
@@ -269,7 +262,7 @@ The z/OS Utility plug-in includes the MVSTEMPLATE component template. The templa
 | ucd.repository.user     | false    | FTP user name.                                                                  |
 | ucd.repository.password | false    | FTP password                                                                    |
 
-### Environment properties
+## Environment properties
 
 deplog
 
@@ -284,11 +277,11 @@ deplog
 | BUZ_DEPLOY_BASE        | false    | The base location to store deployment results and backups for rollback. Each agent provides a default value. If multiple environments use the same agent, this value can be over-ridden by a property with higher order of precedence: for example, an agent property or resource property. |
 
 
-### Submitting a JCL job and then checking for status
+## Submitting a JCL job and then checking for status
 
 
 
-### Example: Submitting a JCL job and then checking for status
+## Example: Submitting a JCL job and then checking for status
 
 The process runs the following steps in order:
 
@@ -299,18 +292,91 @@ The process runs the following steps in order:
 [![submit_job_wait](submit_job_wait.gif)](submit_job_wait.gif)
 
 
-### Deploying a component to the z/OS platform>
+## Deploy a component version to z/OS platform
+
+### Component process for deploying component version from Codestation
+
+For zOS deployment, create a component process with __Process Type__ as __Deployment__.
+
+Following steps are mandatory for deploying a zOS Component version stored on UrbanCode Deploy codestation.
+* __Download Artifacts for zOS__
+* __Deploy Data sets__
+
+Component process design will be as below.
+
+[![deployzos](deployzos.png)](deployzos.png)
+
+Post processing steps can be added as per the requirements after __Deploy data sets__ step with below steps 
+* __Generate Artifact Information__ step to generate text based on the passed template.
+* __Submit Job__ step to run DB2 Bind job
+* __CICS New Copy__ step and so on.
+
+### Component process for deploying component version from External Repository
+
+For zOS deployment, create a component process with __Process Type__ as __Deployment__.
+
+Following steps are mandatory for deploying a zOS Component version stored on External Repository such as Artifactory or Nexus.
+* __Download Artifacts for zOS External Repo__
+* __Deploy Data sets__
+
+Component process design will be as below.
+
+[![deployzos2](deployzos2.png)](deployzos2.png)
+
+Post processing steps can be added as per the requirements after __Deploy data sets__ step with below steps
+* __Generate Artifact Information__ step to generate text based on the passed template.
+* __Submit Job__ step to run DB2 Bind job
+* __CICS New Copy__ step and so on.
+
+### Application process for deploying component version
+
+For deployment, create an application process with __Inventory Management__ set to __Automatic__ under process configurations.
+A sample application process contains __Install Component__ step which internally calls the component process for deployment contains Deploy Data sets step.
+
+Application process design will be as below.
+
+[![deployzos3](deployzos3.png)](deployzos3.png)
+
+
+## Rollback a component version from z/OS platform
+
+### Component process for rolling back a component version
+
+For rollback, create a component process with __Process Type__ as __Uninstall__.
+A sample component process design starts with __Rollback Data sets__ step and ends with __Cleanup Backup Files__ step.
+
+Post processing steps can be added as per the requirements after __Rollback data sets__ step with below steps
+* __Generate Artifact Information__ step to generate text based on the passed template.
+* __Submit Job__ step to run DB2 Bind job
+* __CICS New Copy__ step and so on.
+
+Component process design will be as below.
+
+[![rollbackzos](rollbackzos.png)](rollbackzos.png)
+
+### Application process for rolling back a component version
+
+For rollbacks, an application process is created with __Inventory Management__ set to __Advanced__ under process configurations.
+A sample application process contains two steps.
+* __Run Process For Each Version__ step
+* __Component Inventory Update__ step
+
+In __Run Process For Each Version__ step point to the component process created for rollback.
+__Component Inventory Update__ step must be the last step in the application process design with below settings
+    * Select component
+    * Set __Action__ to __Remove Desired Inventory__
+    * Set __For Which Versions?__ to __All selected (Manual uninstall)__
+    * __Status__ is kept __Active__
+
+Application process design will be as below.
+
+[![rollbackzos2](rollbackzos2.png)](rollbackzos2.png)
 
 
 
-### Example: Deploying a component to the z/OS platform
 
-In this process example, the z/OS data sets must be in the component. Also, the environment contains agents that are running z/OS. The process runs the following steps in order:
 
-1. The [Copy Artifacts](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/zos-deploy/steps.html) step loads the artifacts that make up the z/OS component version. Use the [FTP Artifacts](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/zos-deploy/steps.html) step if build and deployment are on two different z/OS systems.
-2. The [Deploy Data Sets](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/zos-deploy/steps.html) step deploys the component version to z/OS.
 
-[![deployzos2](deployzos2.gif)](deployzos2.gif)
 
 
 |          Back to ...          |                                |                                                        Latest Version                                                         |    z/OS Utility     |||||

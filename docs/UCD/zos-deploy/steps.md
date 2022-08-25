@@ -207,8 +207,12 @@ Replace tokens in MVS data set using properties.
 
 ### Rollback Data Sets
 
-Rollback data sets and HFS files to a backup created in the previous deployment.
+Rollback data sets and HFS files to a backup created in the previous deployment. 
 
+__NOTE:__
+Uncheck __Delete Backup Data__ check box in the Rollback step. 
+Instead add [Cleanup Backup Files](#cleanup-backup-files) step as a last step in the rollback process design. 
+To delete backup files from z/OS Unix system.
 
 | Name                   | Type                                                       | Description                                                                                                                                                                                                                            | Required |
 |------------------------|------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
