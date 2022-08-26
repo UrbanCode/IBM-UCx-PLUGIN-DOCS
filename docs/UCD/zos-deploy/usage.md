@@ -363,10 +363,11 @@ A sample application process contains two steps.
 
 In __Run Process For Each Version__ step point to the component process created for rollback.
 __Component Inventory Update__ step must be the last step in the application process design with below settings
-    * Select component
-    * Set __Action__ to __Remove Desired Inventory__
-    * Set __For Which Versions?__ to __All selected (Manual uninstall)__
-    * __Status__ is kept __Active__
+
+1. Select component
+2. Set __Action__ to __Remove Desired Inventory__
+3. Set __For Which Versions?__ to __All selected (Manual uninstall)__
+4. __Status__ is kept __Active__
 
 Application process design will be as below.
 
