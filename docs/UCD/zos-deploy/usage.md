@@ -256,9 +256,13 @@ The **Remove Redundant Versions** plug-in step removes redundant versions from t
 
 Redundant versions are excluded when you create a snapshot. This exclusion prevents unnecessary promotion of incremental versions to subsequent environments. To include redundant versions in a snapshot, edit the snapshot to add the redundant versions.
 
-## High-level qualifiers
+## Ignoring High-level qualifiers
 
-To ignore the high-level qualifier during redundant version calculations, set the **High Level Qualifier Length** value in the component configuration.
+Set the **High Level Qualifier Length** value in the component configuration to ignore high-level qualifiers during redundant version calculations and risky rollback checking.
+
+For example, For a z/OS component version lets assume datasets are created as __BUILD.DEV.REL100.COBOL__, the third qualifier __REL100__ changes for every new release.
+For redundant versions calculation and prevent risky rollback, set **High Level Qualifier Length** value to __3__. This is to ignore the first __3__ High level qualifiers of the dataset.
+
 
 ## MVS component template
 
@@ -316,4 +320,4 @@ The process runs the following steps in order:
 
 |          Back to ...          |                                |                                                        Latest Version                                                         |    z/OS Utility     |||||
 |:-----------------------------:|:------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------:|:-------------------:| :---: | :---: | :---: | :---: |
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [74.1139650](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-74.1139650.zip) | [Readme](README.md) |[Overview](overview.md)|[Troubleshooting](troubleshooting.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [74.1140702](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-74.1140702.zip) | [Readme](README.md) |[Overview](overview.md)|[Troubleshooting](troubleshooting.md)|[Steps](steps.md)|[Downloads](downloads.md)|
