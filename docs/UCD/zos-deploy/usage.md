@@ -208,7 +208,11 @@ To submit a JCL job from a template, use the [Submit Job](https://urbancode.gith
 
 ## Processing multiple data sets or data set members
 
-Use the Generate Artifact Information step to process each data set or data set member in a version. In the following example, the process verifies that data set members are deployed. [![zos_multipleproc](media/zos_multipleproc.png)](media/zos_multipleproc.png) The Generate Artifact Information step uses the following settings: [![zos_genjobparams](media/zos_genjobparams.png)](media/zos_genjobparams.png) The Submit Job step uses the following settings: [![zos_check](media/zos_check.png)](media/zos_check.png)
+Use the Generate Artifact Information step to process each data set or data set member in a version. In the following example, the process verifies that data set members are deployed. 
+[![zos_multipleproc](media/zos_multipleproc.png)](media/zos_multipleproc.png) 
+The Generate Artifact Information step uses the following settings: 
+[![zos_genjobparams](media/zos_genjobparams.png)](media/zos_genjobparams.png) 
+The Submit Job step uses the following settings: [![zos_check](media/zos_check.png)](media/zos_check.png)
 
 
 ## Deploying HFS files
