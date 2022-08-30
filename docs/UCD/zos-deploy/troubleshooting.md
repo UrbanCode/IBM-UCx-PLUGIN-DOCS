@@ -1,13 +1,6 @@
+# z/OS Utility - Troubleshooting
 
-z/OS Utility - Troubleshooting
-==============================
-
-# Troubleshooting
-
-
-### Troubleshooting
-
-
+---
 
 #### Copy Artifacts step limitation
 

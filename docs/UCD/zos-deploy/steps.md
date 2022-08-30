@@ -1,13 +1,7 @@
 
-z/OS Utility - Steps
-====================
+# z/OS Utility - Steps
 
-# Steps
-
-
-### Steps
-
-
+---
 
 ### Process steps in the zOS Utility plug-in
 
