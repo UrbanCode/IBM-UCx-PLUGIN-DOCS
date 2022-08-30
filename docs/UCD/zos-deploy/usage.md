@@ -289,9 +289,6 @@ The z/OS Utility plug-in includes the MVSTEMPLATE component template. The templa
 
 ## Environment properties
 
-deplog
-
-
 | Name                   | Required | Description                                                                                                                                                                                                                                                                                 |
 |------------------------|----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | deploy.env.pds.mapping | true     | The PDS packages, and the locations to deploy them in the restore mapping table. Each line is a mapping rule with the format of From PDS,To PDS. The value can be over-ridden by a property with higher order of precedence: for example, an agent property or resource property.           |
