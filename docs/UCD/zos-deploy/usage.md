@@ -205,8 +205,14 @@ Summary:15 NEWCOPY request(s) succeeded, 0 NEWCOPY request(s) failed.
 
 
 To submit a JCL job from a template, use the [Submit Job](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/zos-deploy/steps.html#submit_job) step, and then set up the step properties similar to the following example: 
+
 [![submit_job_template](media/submit_job_template.gif)](media/submit_job_template.gif) 
-To submit multiple jobs from the same template, specify multiple sets of rules in the **Replace Tokens For Each Job** field. Separate rule sets with a new line that contains only two forward slashes (//). The status of the Submit Job step is success if all of the jobs run to completion, and fail if any of the jobs fail. Multiple jobs run in sequence, and use the same settings for job output and status checking. If you select **Stop On Fail**, no subsequent jobs are run after a job fails. To submit multiple jobs that check the existence of multiple data set members, set up the step properties similar to the following example: [![zos_multiplejobs](media/zos_multiplejobs.png)](media/zos_multiplejobs.png) In the previous example, three jobs are submitted because three rule sets are specified in the **Replace Tokens For Each Job** field. The three jobs check the JKEMPMT, JKECMORT, and JKEMLIST members in that order. The rules that are specified in the **Replace Tokens** field are used for all jobs. Because **Stop On Fail** is selected, if any job fails no subsequent jobs are submitted. Finally, the **Max Return Code** field is set to 0 so that any return code greater than 0 is considered a job failure. For example, a return code of 4 from the LISTDS command, which indicates that a member name was not found, is considered a job failure.
+
+To submit multiple jobs from the same template, specify multiple sets of rules in the **Replace Tokens For Each Job** field. Separate rule sets with a new line that contains only two forward slashes (//). The status of the Submit Job step is success if all of the jobs run to completion, and fail if any of the jobs fail. Multiple jobs run in sequence, and use the same settings for job output and status checking. If you select **Stop On Fail**, no subsequent jobs are run after a job fails. To submit multiple jobs that check the existence of multiple data set members, set up the step properties similar to the following example: 
+
+[![zos_multiplejobs](media/zos_multiplejobs.png)](media/zos_multiplejobs.png) 
+
+In the previous example, three jobs are submitted because three rule sets are specified in the **Replace Tokens For Each Job** field. The three jobs check the JKEMPMT, JKECMORT, and JKEMLIST members in that order. The rules that are specified in the **Replace Tokens** field are used for all jobs. Because **Stop On Fail** is selected, if any job fails no subsequent jobs are submitted. Finally, the **Max Return Code** field is set to 0 so that any return code greater than 0 is considered a job failure. For example, a return code of 4 from the LISTDS command, which indicates that a member name was not found, is considered a job failure.
 
 ## Processing multiple data sets or data set members
 
