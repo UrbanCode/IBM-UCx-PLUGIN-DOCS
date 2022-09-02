@@ -2,6 +2,16 @@
 
 ---
 
+### This page covers below sections -
+
+* [Deploy a component version to z/OS platform](usage-deploy-rollback.md#deploy-a-component-version-to-zos-platform)
+    * [Component process setup for deploying component version](usage-deploy-rollback.md#component-process-setup-for-deploying-component-version)
+    * [Application process setup for deploying component version](usage-deploy-rollback.md#application-process-setup-for-deploying-component-version)
+* [Rollback a component version from z/OS platform](usage-deploy-rollback.md#rollback-a-component-version-from-zos-platform)
+    * [Component process setup for rolling back a component version](usage-deploy-rollback.md#component-process-setup-for-rolling-back-a-component-version)
+    * [Application process setup for rolling back a component version](usage-deploy-rollback.md#application-process-setup-for-rolling-back-a-component-version)
+
+
 ## Deploy a component version to z/OS platform
 
 ### Component process setup for deploying component version
@@ -9,20 +19,20 @@
 For zOS deployment, create a component process with __Process Type__ as __Deployment__.
 
 Following steps are mandatory for deploying a zOS Component version stored on UrbanCode Deploy codestation.
-* __Download Artifacts for zOS__ step to download the version artifacts
-* __Deploy Data sets__ step to deploy datasets to mapped target Dataset/HFS Directory
+* [Download Artifacts for zOS](../../UrbancodeVFS/steps.md#download-artifacts-for-zos) step to download the version artifacts
+* [Deploy Data sets](../steps.md#deploy-data-sets) step to deploy datasets to mapped target Dataset/HFS Directory
 
 Component process design will be as below.
 
 [![deployzos](../media/deployzos.png)](../media/deployzos.png)
 
-Post processing steps can be added as per the requirement after __Deploy data sets__ step with below steps
-* __Generate Artifact Information__ step to generate text based on the passed template.
-* __Submit Job__ step to run DB2 Bind job
-* __Replace Token MVS__ step to replace tokens in dataset/member
-* __CICS New Copy__ step and so on.
+Post-processing steps can be added as per the requirement after [Deploy Data sets](../steps.md#deploy-data-sets) step with below steps
+* [Generate Artifact Information](../steps.md#generate-artifact-information) step to generate text based on the passed template.
+* [Submit Job](../steps.md#submit-job) step to run DB2 Bind job
+* [Replace Token MVS](../steps.md#replace-tokens-mvs) step to replace tokens in dataset/member
+* [CICS New Copy](../../CICS/steps.md#new-copy-resources) step and so on.
 
-If external repository (Artifactory or Nexus) is used to store zOS Component version, Use __Download Artifacts for zOS External Repo__ step instead of __Download Artifacts for zOS__ step to download version artifacts from the external repository.
+If external repository (Artifactory or Nexus) is used to store zOS Component version, Use [Download Artifacts for zOS External Repo](../../zOS-external-artifact-download/steps.md#download-artifacts) step to download version artifacts from the external repository.
 Component process design will be as below.
 
 [![deployzos2](../media/deployzos2.png)](../media/deployzos2.png)
@@ -41,12 +51,12 @@ Application process design will be as below.
 ### Component process setup for rolling back a component version
 
 For rollback, create a component process with __Process Type__ as __Uninstall__.
-A sample component process design starts with __Rollback Data sets__ step and ends with __Cleanup Backup Files__ step.
+A sample component process design starts with [Rollback Data sets](../steps.md#rollback-data-sets) step and ends with [Cleanup Backup Files](../steps.md#cleanup-backup-files) step.
 
-Post processing steps can be added as per the requirements after __Rollback data sets__ step with below steps
-* __Generate Artifact Information__ step to generate text based on the passed template.
-* __Submit Job__ step to run DB2 Bind job
-* __CICS New Copy__ step and so on.
+Post-processing steps can be added as per the requirements after [Rollback data sets](../steps.md#rollback-data-sets) step with below steps
+* [Generate Artifact Information](../steps.md#generate-artifact-information) step to generate text based on the passed template.
+* [Submit Job](../steps.md#submit-job) step to run DB2 Bind job
+* [CICS New Copy](../../CICS/steps.md#new-copy-resources) step and so on.
 
 Component process design will be as below.
 

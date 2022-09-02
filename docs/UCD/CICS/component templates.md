@@ -1,18 +1,11 @@
+# CICS TS - Component Templates
 
-CICS TS - Component Templates
-=============================
-
-# Component Templates
-
-
-### Component Templates
-
-
+---
 
 * [Overview](#overview)
-* [Using a component template](#using)
-* [Updating a component template](#updating)
-* [More information](#more_info)
+* [Using a component template](#using-a-component-template)
+* [Updating a component template](#updating-a-cics-supplied-component-template)
+* [More information](#more-information)
 
 ### Overview
 
@@ -34,7 +27,7 @@ You can bind your component to a specific version of the template to avoid autom
 
 ### More information
 
-For more information aboutcreating, using, and editingcomponent templates, see the [Component Templates](https://www.ibm.com/support/knowledgecenter/SS4GSP_7.1.1/com.ibm.udeploy.doc/topics/comp_template.html "Component Templates") section of the UrbanCode Deploy documentation or watch the introductory video, [Component Templates in IBM UrbanCode Deploy v6.0](https://mediacenter.ibm.com/media/Component+Templates+in+IBM+UrbanCode+Deploy+v6.0/0_m7rucqyz "Component Templates in IBM UrbanCode Deploy v6.0").
+For more information about creating, using, and editing component templates, see the [Component Templates](https://www.ibm.com/support/knowledgecenter/SS4GSP_7.1.1/com.ibm.udeploy.doc/topics/comp_template.html "Component Templates") section of the UrbanCode Deploy documentation or watch the introductory video, [Component Templates in IBM UrbanCode Deploy v6.0](https://mediacenter.ibm.com/media/Component+Templates+in+IBM+UrbanCode+Deploy+v6.0/0_m7rucqyz "Component Templates in IBM UrbanCode Deploy v6.0").
 
 ### CICS TS template
 
@@ -60,11 +53,11 @@ Disable, close, then discard files.
 
 Rollback program load modules, then new copy installed programs.
 
-![Image showing the 'Install new programs and transactions (BAS)' process.](install_bas_programs.png)
+![Image showing the 'Install new programs and transactions (BAS)' process.](media/install_bas_programs.png)
 
-Image showing the Install new programs and transactions (BAS) process.
+Image showing the installing a new programs and transactions (BAS) process.
 
 
-|Back to ...||Latest Version|CICS TS ||||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[44.20220614.1106](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/CICS/cics-44.20220614-1106.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|
+|          Back to ...          |                                |                                                      Latest Version                                                       |       CICS TS       ||||||
+|:-----------------------------:|:------------------------------:|:-------------------------------------------------------------------------------------------------------------------------:|:-------------------:| :---: | :---: | :---: | :---: | :---: |
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [44.20220614.1106](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/CICS/cics-44.20220614-1106.zip) | [Readme](README.md) |[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|

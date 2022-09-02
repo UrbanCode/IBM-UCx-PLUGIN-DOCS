@@ -1,8 +1,6 @@
+# CICS TS - Downloads
 
-CICS TS - Downloads
-===================
-
-# Downloads
+---
 
 - [cics-44.20220614-1106.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/CICS/cics-44.20220614-1106.zip)
 - [cics-43.20220310-2307.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/CICS/cics-43.20220310-2307.zip)
@@ -18,6 +16,6 @@ CICS TS - Downloads
 - [cics-17.20150213-1527.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/CICS/cics-17.20150213-1527.zip)
 - [cics-6.20141205-0846.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/CICS/cics-6.20141205-0846.zip)
 
-|Back to ...||Latest Version|CICS TS ||||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[44.20220614.1106](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/CICS/cics-44.20220614-1106.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Component Templates](component templates.md)|[Steps](steps.md)|[Troubleshooting](troubleshooting.md)|
+|          Back to ...          |                                |                                                      Latest Version                                                       |       CICS TS       ||||||
+|:-----------------------------:|:------------------------------:|:-------------------------------------------------------------------------------------------------------------------------:|:-------------------:| :---: | :---: | :---: | :---: | :---: |
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [44.20220614.1106](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/CICS/cics-44.20220614-1106.zip) | [Readme](README.md) |[Overview](overview.md)|[Usage](usage.md)|[Component Templates](component templates.md)|[Steps](steps.md)|[Troubleshooting](troubleshooting.md)|

@@ -1,34 +1,28 @@
+# CICS TS - Troubleshooting
 
-CICS TS - Troubleshooting
-=========================
-
-# Troubleshooting
-
-
-### Troubleshooting
-
-
+---
 
 For more questions and answers, see the [UrbanCode forum](https://community.ibm.com/community/user/integration/communities/community-home?communitykey=9adfe6b6-2e23-4895-8b27-38b93b5e152c&tab=groupdetails "UrbanCode forum").
 
 ### Troubleshooting sections
 
 * [FAQ](#faq)
-* [Using the step logs](#using_step_logs)
-* [Resources which operate asynchronously](#asynch_resource_list)
-* [Checking the status of a resource that was installed in the previous step](#res_not_found)
-* [Collecting data for plug-in problems](#mustgather)
-* [Resolving Unsupported CICS release message](#unsupported_release)
-* [Error loading plugin](#loading_plugin_error)
+* [Using the step logs](#using-the-step-logs)
+* [Resources which operate asynchronously](#resources-which-operate-asynchronously)
+* [Checking the status of a resource that was installed in the previous step](#checking-the-status-of-a-resource-that-was-installed-in-the-previous-step)
+* [Collecting data for plug-in problems](#collecting-data-for-plug-in-problems)
+* [Resolving Unsupported CICS release message](#resolving-unsupported-cics-release-message)
+* [Error loading plugin](#error-loading-plugin)
+
 ### FAQ
 
 **If a step fails, is there a rollback mechanism provided?**
 
-The CICS TS plug-in does not provide a specific rollback mechanism for a failed process or step. When a step fails, the context of the failure is important. First, check the step logs for more details on how the step failed. Then you can either manually rollback the relevant steps, orpreferably, you can build and run a process that will take your environment back to the state it was in prior to the process having run.
+The CICS TS plug-in does not provide a specific rollback mechanism for a failed process or step. When a step fails, the context of the failure is important. First, check the step logs for more details on how the step failed. Then you can either manually rollback the relevant steps, or preferably, you can build and run a process that will take your environment back to the state it was in prior to the process having run.
 
 ### Using the step logs
 
-Most failures can be detected by inspecting the step output logs in IBM UrbanCode Deploy. If an error occurs within the UCD set up, the step output log typically contains an error message similar to authentication failed, which often indicates an incorrect user name and password.
+Most failures can be detected by inspecting the step output logs in IBM UrbanCode Deploy. If an error occurs within the UCD set up, the step output log typically contains an error message similar to authentication failed, which often indicates an incorrect username and password.
 
 If the problem is more CICS specific, the step output log will contain a message such as the following:
 
@@ -54,9 +48,9 @@ Where available, the log contains CICS RESP and RESP2 codes for more detailed tr
 
 ```
 
-In this example, the Discard resources step fails for program DFHSJJI. The output of message BUZCP0031Elists theattempted EXEC CICS command, **DISCARD PROGRAM**, followed by the RESP and RESP 2 codes **NOTAUTH** and **100** respectively. You can find information on the command and response codes in the[DISCARD PROGRAM](http://www-01.ibm.com/support/knowledgecenter/SSGMCP_5.2.0/com.ibm.cics.ts.systemprogramming.doc/commands/dfha8_discardprogram.html) topic of the CICS TS online production documentation.
+In this example, the Discard resources step fails for program DFHSJJI. The output of message BUZCP0031E lists the attempted EXEC CICS command, **DISCARD PROGRAM**, followed by the RESP and RESP 2 codes **NOTAUTH** and **100** respectively. You can find information on the command and response codes in the[DISCARD PROGRAM](http://www-01.ibm.com/support/knowledgecenter/SSGMCP_5.2.0/com.ibm.cics.ts.systemprogramming.doc/commands/dfha8_discardprogram.html) topic of the CICS TS online production documentation.
 
-Detailsfor *any* EXEC CICS command and respective RESP and RESP2 codes are available in the [System Programming reference](http://www-01.ibm.com/support/knowledgecenter/SSGMCP_5.2.0/com.ibm.cics.ts.doc/topics/reference_sysprog.html) section of the CICS TS online product documentation, sorted by command name.
+Details for *any* EXEC CICS command and respective RESP and RESP2 codes are available in the [System Programming reference](http://www-01.ibm.com/support/knowledgecenter/SSGMCP_5.2.0/com.ibm.cics.ts.doc/topics/reference_sysprog.html) section of the CICS TS online product documentation, sorted by command name.
 
 **Note:** If the target scope of a step is more than one region, the step will fail when *one or more regions* fail to complete a request. Use the step log to determine the scope, then use the CICS logs to determine the specific regions in which the failures occurred, and confirm the cause.
 
@@ -90,7 +84,7 @@ If you need to open a service request(SR)or problem management record (PMR), ple
 
 ### Resolving Unsupported CICS release message
 
-If you have recently updated CICS, you might receive the following error when you usethe plug-in:
+If you have recently updated CICS, you might receive the following error when you use the plug-in:
 
 `BUZCP0043E Exception detailed message: Unsupported CICS release.`
 
@@ -105,6 +99,6 @@ If you receive the following error:
 Add the parameter: com.urbancode.air.property.prop\_def.PropDef.disableAllowedValuesCheck=true
 
 
-|Back to ...||Latest Version|CICS TS ||||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[44.20220614.1106](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/CICS/cics-44.20220614-1106.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Component Templates](component templates.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|          Back to ...          |                                |                                                      Latest Version                                                       |       CICS TS       ||||||
+|:-----------------------------:|:------------------------------:|:-------------------------------------------------------------------------------------------------------------------------:|:-------------------:| :---: | :---: | :---: | :---: | :---: |
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [44.20220614.1106](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/CICS/cics-44.20220614-1106.zip) | [Readme](README.md) |[Overview](overview.md)|[Usage](usage.md)|[Component Templates](component templates.md)|[Steps](steps.md)|[Downloads](downloads.md)|
