@@ -48,7 +48,9 @@ Before you begin, ensure the following:
 2. __Deploy Data Sets__ step deploys the component version to z/OS by copying datasets and members to their required location.
 3. The **New Copy Resources** step then performs a NEWCOPY of a specified program or list of programs.
 
-![Diagram showing a process with Copy Artifacts,Deploy Data Sets, and New copy resources steps.](media/ucd_cicsts_doc_scenario_process22.png?resize=241%2C364)Diagram showing a process with Copy Artifacts,Deploy Data Sets, and New copy resources steps
+![Diagram showing a process with Copy Artifacts,Deploy Data Sets, and New copy resources steps.](media/ucd_cicsts_doc_scenario_process22.png?resize=241%2C364)
+
+Diagram showing a process with Copy Artifacts,Deploy Data Sets, and New copy resources steps
 
 ### Deploying and undeploying CICS applications
 
@@ -76,14 +78,18 @@ Define your component process to take the following actions:
 3. Copy the resolved application to the CICS platform home directory.
 4. Use Deploy application step to define, install, and make the application available in CICS.
 
-![Image showing the default values for the Deploy application step](media/deploy_app.png?resize=541%2C294)Image showing the default values for Deploy application step
+![Image showing the default values for the Deploy application step](media/deploy_app.png?resize=541%2C294)
+
+Image showing the default values for Deploy application step
 ### Component process to undeploy a CICS application
 
 You can undeploy a CICS application by using the **Undeploy application** step.
 
 Optionally, you can use the component process to remove the application and application binding directories. You should not remove the CICS bundle directories, as it is likely they are shared by several applications, or several versions of the same application.
 
-![default values for the Deploy application step](media/undeploy_app.png?resize=573%2C509)Image showing the default values for theUndeploy application step
+![default values for the Deploy application step](media/undeploy_app.png?resize=573%2C509)
+
+Image showing the default values for theUndeploy application step
 #### Required properties
 
 The following properties are required by **Deploy application** and **Undeploy application** steps:

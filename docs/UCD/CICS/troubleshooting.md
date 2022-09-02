@@ -48,7 +48,7 @@ Where available, the log contains CICS RESP and RESP2 codes for more detailed tr
 
 ```
 
-In this example, the Discard resources step fails for program DFHSJJI. The output of message BUZCP0031E lists the attempted EXEC CICS command, **DISCARD PROGRAM**, followed by the RESP and RESP 2 codes **NOTAUTH** and **100** respectively. You can find information on the command and response codes in the[DISCARD PROGRAM](http://www-01.ibm.com/support/knowledgecenter/SSGMCP_5.2.0/com.ibm.cics.ts.systemprogramming.doc/commands/dfha8_discardprogram.html) topic of the CICS TS online production documentation.
+In this example, the Discard resources step fails for program DFHSJJI. The output of message BUZCP0031E lists the attempted EXEC CICS command, **DISCARD PROGRAM**, followed by the RESP and RESP 2 codes **NOTAUTH** and **100** respectively. You can find information on the command and response codes in the [DISCARD PROGRAM](http://www-01.ibm.com/support/knowledgecenter/SSGMCP_5.2.0/com.ibm.cics.ts.systemprogramming.doc/commands/dfha8_discardprogram.html) topic of the CICS TS online production documentation.
 
 Details for *any* EXEC CICS command and respective RESP and RESP2 codes are available in the [System Programming reference](http://www-01.ibm.com/support/knowledgecenter/SSGMCP_5.2.0/com.ibm.cics.ts.doc/topics/reference_sysprog.html) section of the CICS TS online product documentation, sorted by command name.
 
