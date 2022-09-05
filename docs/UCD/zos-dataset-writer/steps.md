@@ -1,15 +1,15 @@
-
 # z/OS Dataset Writer - Steps
 
-## Steps
+---
 
-### Process steps in the z/OS Dataset Writer plug-in
+## Process steps in the z/OS Dataset Writer plug-in
 
 * [Write to Sequential Dataset](#write-to-sequential-dataset)
 
-#### Write to Sequential Dataset
+## Write to Sequential Dataset
 
-Use this step to write input text to a sequential dataset. **Note:** To create a GDG version add (+1) along with GDG base. An output property **DatasetName** will contain the actual GDG version dataset name that is created and can be referred in successive steps of the process.
+Use this step to write input text to a sequential dataset. 
+> **Note:** To create a GDG version add (+1) along with GDG base. An output property **DatasetName** will contain the actual GDG version dataset name that is created and can be referred in successive steps of the process.
 
 
 | Name                     | Type                                                                  | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | Required |

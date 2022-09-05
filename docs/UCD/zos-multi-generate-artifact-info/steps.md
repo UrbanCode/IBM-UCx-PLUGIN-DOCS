@@ -1,17 +1,17 @@
+# z/OS Multi Generate Artifact Information - Steps
 
-z/OS Multi Generate Artifact Information - Steps
-================================================
+---
 
 Process steps in the zOS Multi Generate Artifact Information plug-in
---------------------------------------------------------------------
 
 * [Generate Multiple Artifact Information](#generate-multiple-artifact-information)
 
 
-Generate Multiple Artifact Information
---------------------------------------
+## Generate Multiple Artifact Information
 
-Generate multiple text information for selected version artifacts. The information is sent to the output properties for use by later steps. **Note:** Action filter is applicable only if **Backup** is enabled in **deploy data sets** step
+Generate multiple text information for selected version artifacts. The information is sent to the output properties for use by later steps. 
+
+> **Note:** Action filter is applicable only if **Backup** is enabled in [Deploy Data Sets](../zos-deploy/steps.md#deploy-data-sets) step
 
 
 | Name                             | Type        | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | Required | Property Name  |
@@ -25,9 +25,6 @@ Generate multiple text information for selected version artifacts. The informati
 | Resource Name Filter JSON        | String      | The filter to limit PDS Members in template for an output property. Specify the filter as a Java regular expression matching which must begin and end with a forward slash(/). For example, /PGM.\*/ matches any text that starts with PGM. If the filter is not a regular expression, exact matching is used.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | No       | memberName     |
 | Target Data Set Name Filter JSON | String      | The filter to limit Target datasets in template for an output property. Specify the filter as a Java regular expression matching which must begin and end with a forward slash(/). For example, /.\*LOAD/ matches any text that ends with LOAD. If the filter is not a regular expression, exact matching is used.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | No       | datasetName    |
 | Template JSON                    | String      | Define template for each output property to generate customized text. Subsequent steps can access the customized text with ``${p:Step-Name/output-property-name}``. For example: if the step name is ‘Bind Card Generator’ and output property is ‘CicsBindText’ then the property can be referred in subsequent steps as ``${p:Bind Card Generator/CicsBindText}``. Add separators like comma or newline using character ‘,’ or ‘\n’ in the template as needed. Use ``${propname}`` to access custom properties. The following built-in properties are available: ``${sourceDataset}`` for the source dataset name, ``${dataset}`` for the target dataset name, ``${member}`` for the member name and ``${deployType}`` for the deployment type. All property names are case-sensitive. Do not use the built-in names for custom properties. | Yes      | templateText   |
-
-
-
 
 
 |          Back to ...          |                                |                                                                                 Latest Version                                                                                  | z/OS Multi Generate Artifact Information ||||

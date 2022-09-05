@@ -1,6 +1,6 @@
+# z/OS Multi Generate Artifact Information - Overview
 
-z/OS Multi Generate Artifact Information - Overview
-===================================================
+---
 
 The z/OS Multi Generate Artifact Information plug-in scans version artifacts and generates text based on a template. You can use the generated output text as input to subsequent steps. The plug-in processes data sets and members in a component version.
 
@@ -15,41 +15,41 @@ This plug-in contains one step:
 
 Use the Generate Multiple Artifact Information step to select a set of artifacts to process by applying filters on data set names, member names, deployment types, and custom properties for each output property.
 
-### Compatibility
+## Compatibility
 
 This plug-in requires UrbanCode Deploy version 6.1.1 or later and an UrbanCode Deploy agent on z/OS.
 
 This plug-in works with IBM z/OS version 1.9 or later.
 
-### Step palette
+## Step palette
 
 To access this plug-in in the palette, click **Utilities** > **zOS Multi Generate Artifact Information**.
 
-### Installation
+## Installation
 
 This plug-in is installed when installing IBM UrbanCode Deploy. When new plug-in versions are available, follow the [installation instructions](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy") to update the plug-in.
 
-### History
+## History
 
-#### Version 6
+### Version 6
 
-* Minor improvemnets in plugin name and description
+* Minor improvements in plugin name and description
 * PH46505 Fixed issue with filtering containers mapped to same Target PDS in Generate Artifact step
 
-#### Version 5
+### Version 5
 
 * Delete and Update/Create Deploy-Action types on same container/PDS is made possible
 * Added input to filter based on artifact created or updated
 
-#### Version 4
+### Version 4
 
 * Added support to optionally ignore unresolved properties
 
-#### Version 3
+### Version 3
 
 * Added support to run in non zOS environment as well
 
-#### Version 1
+### Version 1
 
 * Initial release
 

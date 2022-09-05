@@ -1,8 +1,8 @@
+# z/OS External Artifact Repository
 
-z/OS External Artifact Repository
-=================================
+---
 
-The External Artifact Repository plug-in includes the step to download artifacts from a Nexus or JFrog Artifactory repository into an UrbanCode z/OS type component.
+The External Artifact Repository plug-in includes step to download artifacts from external repository like Nexus or JFrog Artifactory repository for z/OS Deployments.
 
 |          Back to ...          |                                |                                                                 Latest Version                                                                  |||||
 |:-----------------------------:|:------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------:| :---: | :---: | :---: | :---: |
