@@ -16,6 +16,8 @@ The following pages provide usage information about this plug-in:
 * [Submitting a JCL job from a template](#submitting-jcl-jobs-from-a-template)
 * [MVS component template](#mvs-component-template)
 * [Managing redundant versions](#managing-redundant-versions)
+  * [Remove Redundant Versions](#remove-redundant-versions)
+  * [Ignoring High Level Qualifiers](#ignoring-high-level-qualifiers)
 * [Running MVS system commands](#running-mvs-system-commands)
 * [Using custom properties in deployments](#using-custom-properties-in-deployments)
 * [Deploying data sets and running CICS commands](#deploying-data-sets-and-running-cics-commands)
