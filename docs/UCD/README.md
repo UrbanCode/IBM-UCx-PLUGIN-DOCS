@@ -641,7 +641,7 @@ The GitHub Release plug-in is a source configuration plug-in that creates a comp
 
 |Back to ...||GitHub-Release |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](sourceconfig-github-release/README.md)|[3.1055118](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/sourceconfig-github-release/GitHubReleaseSourceConfig-3.1055118.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](sourceconfig-github-release/README.md)|[4.1141382](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/sourceconfig-github-release/ucd-GitHubReleaseSourceConfig-4.1141382.zip)|
 
 ## Google Android SDK
 
