@@ -39,7 +39,7 @@ No special steps are required for installation. See [Installing plug-ins in IBM 
 
 #### Version 16
 
-* + - Pagination support for V2 APIs added.
+* + - RFE: 148202 Pagination support for V2 APIs added.
 
 #### Version 15
 
