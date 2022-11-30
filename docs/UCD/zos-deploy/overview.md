@@ -37,7 +37,7 @@ The plug-in also includes steps that are related to managing redundant increment
 
 * IBM UrbanCode Deploy version 6.1.1 or later
 * IBM UrbanCode Deploy agents on z/OS
-* IBM z/OS version 2.1 or later
+* IBM z/OS version 2.1 or later with System REXX
 * Starting with version 49 this plug-in requires Java 8 or above
 
 ### Installation
