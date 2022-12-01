@@ -1533,7 +1533,7 @@ Kubernetes is an open-source system for automating deployment, operations, and s
 
 |Back to ...||Kubernetes |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](kubernetes/README.md)|[29.1130033](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/kubernetes/ucd-kubernetes-29.1130033.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](kubernetes/README.md)|[31.1145303](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/kubernetes/ucd-kubernetes-31.1145303.zip)|
 
 ## Linux System Tools
 
