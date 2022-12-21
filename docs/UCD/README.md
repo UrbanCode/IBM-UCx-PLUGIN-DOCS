@@ -2105,11 +2105,7 @@ This community plugin provides a mechanism to send SMTP emails in your deploymen
 
 |Back to ...||ServiceNow |Latest Version|
 | :---: | :---: | :---: | :---: |
-<<<<<<< HEAD
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ServiceNow/README.md)|[31.1148995](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ServiceNow/ucd-ServiceNow-31.1148995.zip)|
-=======
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ServiceNow/README.md)|[30.1144780](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ServiceNow/ucd-ServiceNow-30.1144780.zip)|
->>>>>>> 4653271095cb89be61f5868367b0a915f8b4f87c
 
 ## Shell
 
