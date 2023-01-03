@@ -308,10 +308,10 @@ Wait for a submitted job to complete. **Note:** Using passphrase in place of pas
 Deletes a dataset PDS or Sequential.
 
 
-| Name         | Type   | Description                                                                                                                                                                                                          | Required |
-|--------------|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
-| Dataset Name | String | Name of the dataset to be deleted. If the single quotation marks are omitted, the user’s data set prefix from the TSO profile is automatically appended to the front of the dataset name. Wildcards are not allowed. | Yes      |
-| Members List | String | Specify only members to be deleted from the PDS. Separate member names with a newline. PDS is deleted if no members are specified.                                                                                   | No       |
+| Name         | Type   | Description                                                                                                                                                                                                                                                                                                                                                             | Required |
+|--------------|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
+| Dataset Name | String | Name of the datasets to be deleted. It can be a sequential dataset or PDS member or PDS. Separate dataset names with a newline. If the single quotation marks are omitted, the user's data set prefix from the TSO profile is automatically appended to the front of the dataset name. Wildcards are not allowed. GDGs with relative generation number are not allowed. | Yes      |
+| Members List | String | Specify members to be deleted from the only PDS mentioned in Datasets input. Separate member names with a newline.                                                                                                                                                                                                                                                      | No       |
 
 ### Cleanup Backup Files
 
