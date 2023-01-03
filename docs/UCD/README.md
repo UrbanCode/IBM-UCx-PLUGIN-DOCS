@@ -2398,4 +2398,4 @@ The z/OS Utility plug-in includes steps for retrieving and deploying IBM z/OS ar
 
 |Back to ...||z/OS Utility |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](zos-deploy/README.md)|[74.1140702](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-74.1140702.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](zos-deploy/README.md)|[76.1149314](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-76.1149314.zip)|
