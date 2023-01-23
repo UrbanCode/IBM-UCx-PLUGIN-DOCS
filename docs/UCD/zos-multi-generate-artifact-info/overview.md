@@ -35,6 +35,7 @@ This plug-in is installed when installing IBM UrbanCode Deploy. When new plug-in
 
 * Minor improvements in plugin name and description
 * PH46505 Fixed issue with filtering containers mapped to same Target PDS in Generate Artifact step
+* Fixed issue with deleted containers for generating artifact information
 
 ### Version 5
 
@@ -56,4 +57,4 @@ This plug-in is installed when installing IBM UrbanCode Deploy. When new plug-in
 
 |          Back to ...          |                                |                                                                                 Latest Version                                                                                  | z/OS Multi Generate Artifact Information ||||
 |:-----------------------------:|:------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------:| :---: | :---: | :---: |
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [6.1132902](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-multi-generate-artifact-info/ucd-plugins-zos-multi-generate-artifact-info-6.1132902.zip) |           [Readme](README.md)            |[Steps](steps.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [6.1150110](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-multi-generate-artifact-info/ucd-plugins-zos-multi-generate-artifact-info-6.1150110.zip) |           [Readme](README.md)            |[Steps](steps.md)|[Usage](usage.md)|[Downloads](downloads.md)|

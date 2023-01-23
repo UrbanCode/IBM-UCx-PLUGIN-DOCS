@@ -2367,7 +2367,7 @@ The z/OS Multi Generate Artifact Information plug-in scans version artifacts and
 
 |Back to ...||z/OS Multi Generate Artifact Information |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](zos-multi-generate-artifact-info/README.md)|[6.1132902](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-multi-generate-artifact-info/ucd-plugins-zos-multi-generate-artifact-info-6.1132902.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](zos-multi-generate-artifact-info/README.md)|[6.1150110](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-multi-generate-artifact-info/ucd-plugins-zos-multi-generate-artifact-info-6.1150110.zip)|
 
 ## z/OS Shell
 
@@ -2397,4 +2397,4 @@ The z/OS Utility plug-in includes steps for retrieving and deploying IBM z/OS ar
 
 |Back to ...||z/OS Utility |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](zos-deploy/README.md)|[77.1149658](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-77.1149658.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](zos-deploy/README.md)|[77.1150109](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-77.1150109.zip)|
