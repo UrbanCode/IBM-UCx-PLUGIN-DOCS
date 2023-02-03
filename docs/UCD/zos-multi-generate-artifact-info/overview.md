@@ -31,6 +31,10 @@ This plug-in is installed when installing IBM UrbanCode Deploy. When new plug-in
 
 ## History
 
+### Version 7
+
+Added new loop type to delete PDS member excluding missing PDS members
+
 ### Version 6
 
 * Minor improvements in plugin name and description
@@ -57,4 +61,4 @@ This plug-in is installed when installing IBM UrbanCode Deploy. When new plug-in
 
 |          Back to ...          |                                |                                                                                 Latest Version                                                                                  | z/OS Multi Generate Artifact Information ||||
 |:-----------------------------:|:------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------:| :---: | :---: | :---: |
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [6.1150110](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-multi-generate-artifact-info/ucd-plugins-zos-multi-generate-artifact-info-6.1150110.zip) |           [Readme](README.md)            |[Steps](steps.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [7.1150795](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-multi-generate-artifact-info/ucd-plugins-zos-multi-generate-artifact-info-7.1150795.zip) |           [Readme](README.md)            |[Steps](steps.md)|[Usage](usage.md)|[Downloads](downloads.md)|
