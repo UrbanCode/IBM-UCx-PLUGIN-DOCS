@@ -49,6 +49,7 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 #### Version 78
 
 * Fixes vulnerability CVE-2022-45693 and CVE-2022-45685
+* Fixed JMON issue - BUZ300E Internal error
 
 #### Version 77
 
@@ -300,4 +301,4 @@ This release includes the following updates:
 
 |          Back to ...          |                                |                                                        Latest Version                                                         |    z/OS Utility     |||||
 |:-----------------------------:|:------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------:|:-------------------:| :---: | :---: | :---: | :---: |
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [78.1150737](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-78.1150737.zip) | [Readme](README.md) |[Troubleshooting](troubleshooting.md)|[Steps](steps.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [78.1151227](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-78.1151227.zip) | [Readme](README.md) |[Troubleshooting](troubleshooting.md)|[Steps](steps.md)|[Usage](usage.md)|[Downloads](downloads.md)|
