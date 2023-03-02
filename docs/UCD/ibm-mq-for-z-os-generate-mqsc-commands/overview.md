@@ -22,19 +22,9 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 ### History
 
-#### Version 3
-
-Updated mqResourceAttribute Mappings. The true and false mapping values for inhibitGet and inhibitPut were previously coded in reverse.
-
-#### Version 2
-
-Resolved MQSCUtil missing class exception.
-
-#### Version 1
-
-Version 1 is the initial beta release containing the Generate MQSC Commands step.
+Please view [IBM MQ for zOSGenerate MQSC Commands - History](https://github.com/UrbanCode/IBM-MQ-zOS-UCD#history)
 
 
-|Back to ...||Latest Version|IBM MQ for z/OS - Generate MQSC Commands |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[0]()|[Readme](README.md)|[Steps](steps.md)|[Usage](usage.md)|
+|          Back to ...          ||         Latest Version         | IBM MQ for z/OS - Generate MQSC Commands |||
+|:-----------------------------:|:------------------------------:|:----------------------------------------:| :---: | :---: | :---: |
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) |                  [0]()                   |[Readme](README.md)|[Steps](steps.md)|[Usage](usage.md)|

@@ -29,6 +29,6 @@ Generate MQSC CommandsGenerate MQSC commands from the base file, overrides file 
 
 
 
-|Back to ...||Latest Version||||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[0]()|[Overview](overview.md)|[Steps](steps.md)|[Usage](usage.md)|
+|          Back to ...          ||         Latest Version         ||||
+|:-----------------------------:|:------------------------------:| :---: | :---: | :---: | :---: |
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) |[0]()|[Overview](overview.md)|[Steps](steps.md)|[Usage](usage.md)|

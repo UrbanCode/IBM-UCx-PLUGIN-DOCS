@@ -78,7 +78,7 @@
 	- [IBM Installation Manager](#ibm-installation-manager)
 	- [IBM Integration Bus (IIB) plugin Deploy step for zOS](#ibm-integration-bus-iib-plugin-deploy-step-for-zos)
 	- [IBM Integration Bus (formerly WebSphere Message Broker) - CMP](#ibm-integration-bus-formerly-websphere-message-broker---cmp)
-	- [IBM MQ for z/OS - Generate MQSC Commands](#ibm-mq-for-zos---generate-mqsc-commands)
+	- [IBM MQ for z/OS - Generate MQSC Commands \[community plugin\]](#ibm-mq-for-zos---generate-mqsc-commands-community-plugin)
 	- [IBM MaaS360  [community plugin]](#ibm-maas360--community-plugin)
 	- [IBM Maximo](#ibm-maximo)
 	- [IBM MobileFirst Platform (formerly Worklight)](#ibm-mobilefirst-platform-formerly-worklight)
@@ -969,15 +969,15 @@ IBM Integration Bus, from the WebSphere product family, enables business informa
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](WebSphereMessageBroker-CMP/README.md)|[47.1100834](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereMessageBroker-CMP/WebSphereMessageBroker-CMP-47.1100834.zip)|
 
-## IBM MQ for z/OS - Generate MQSC Commands
+## IBM MQ for z/OS - Generate MQSC Commands \[community plugin\]
 
 IBM MQ for z/OS – Generate MQSC Commands
 
 ---
 
-|Back to ...||IBM MQ for z/OS - Generate MQSC Commands |Latest Version|
-| :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ibm-mq-for-z-os-generate-mqsc-commands/README.md)|[0]()|
+|        Back to ...         || IBM MQ for z/OS - Generate MQSC Commands |                       Latest Version                       |
+|:--------------------------:|:----------------------------------------:|:----------------------------------------------------------:| :---: |
+| [All Plugins](../index.md) |             [Top](#contents)             | [Readme](ibm-mq-for-z-os-generate-mqsc-commands/README.md) |[0]()|
 
 ## IBM MaaS360  [community plugin]
 
