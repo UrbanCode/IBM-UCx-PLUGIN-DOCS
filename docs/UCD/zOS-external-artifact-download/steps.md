@@ -21,7 +21,8 @@ Download a z/OS package from an external artifact repository. The repository can
 
 > * Select Proxy checkbox to enable proxy connection to artifactory using passed Proxy Host and Port. Proxy does not work for Nexus.
 > * Review with your security admins before allowing insecure connection. On default, it is disabled.
+> * When USE_ATTLS property is set to TRUE, plugin will not handle encryption and will rely on server AT_TLS to encrypt the network communication with external repository. Default is FALSE.
 
-|          Back to ...          |                                |                                                                 Latest Version                                                                  | z/OS External Artifact Repository ||||
-|:-----------------------------:|:------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------:| :---: | :---: | :---: |
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [9.1140093](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOS-external-artifact-download/ucd-ExtArtRepo-9.1140093.zip) |        [Readme](README.md)        |[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|          Back to ...          |                                |                                                                   Latest Version                                                                   | z/OS External Artifact Repository ||||
+|:-----------------------------:|:------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------:| :---: | :---: | :---: |
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [10.1152827](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOS-external-artifact-download/ucd-ExtArtRepo-10.1152827.zip)  |        [Readme](README.md)        |[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|
