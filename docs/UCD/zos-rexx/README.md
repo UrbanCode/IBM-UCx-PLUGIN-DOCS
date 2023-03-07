@@ -4,10 +4,7 @@
 
 The zOS Rexx Executor can run REXX statements provided in a dataset or in the plugin step.
 
-Apart from copying content to a mainframe dataset, this plug-in provides the following features -
-
-* Create output properties.
-* Add SYSPROC datasets that the REXX program may use.
+Apart from executing a REXX program, this plug-in provides ability to create output properties.
 
 ## Compatibility
 
