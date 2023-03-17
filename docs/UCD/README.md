@@ -2384,7 +2384,7 @@ The z/OS Management Facility (zOSMF) plug-in provides functions to discover soft
 
 |Back to ...||z/OS Management Facility |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](zosmf/README.md)|[14.1098512](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zosmf/zosmf-14.1098512.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](zosmf/README.md)|[14.1153260](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zosmf/ucd-zosmf-14.1153260.zip)|
 
 ## z/OS Multi Generate Artifact Information
 

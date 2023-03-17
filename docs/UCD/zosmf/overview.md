@@ -45,16 +45,20 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 ### History
 
-#### Version 6.934842includes the following updates:
+#### Version 14.1153260 includes the following updates:
+
+* Fixes Groovy compilation issue on Groovy-3.0.x.
+
+#### Version 6.934842 includes the following updates:
 
 * Added zOSMF discovery feature. The plug-in is now able to discover software instances provisioned by zOSMF Cloud Provisioning or zOS Provisioning Toolkit. A set of resources representing the software instances are automatically created as the result of the discovery.
 * Added a new step to Run Published Software Service Template.
 
-#### Version 5.868918includes the following updates:
+#### Version 5.868918 includes the following updates:
 
 * Enhanced Start Workflow step to store job logs to output properties.
 
-#### Version 4.839888includes the following updates:
+#### Version 4.839888 includes the following updates:
 
 * Fixed a problem in Start Workflow step that Perform Subsequent parameter does not work.
 * Fixed a problem in Start Workflow step that partially completed workflow gives a step failure.
@@ -62,4 +66,4 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 |Back to ...||Latest Version|z/OS Management Facility ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[14.1098512](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zosmf/zosmf-14.1098512.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[14.1153260](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zosmf/ucd-zosmf-14.1153260.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
