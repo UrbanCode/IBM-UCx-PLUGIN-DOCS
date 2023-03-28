@@ -2,6 +2,7 @@
 # Kubernetes - Downloads
 
 To download the plug-in, click the following version-specific links.
+- [ucd-kubernetes-32.1154499.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/kubernetes/ucd-kubernetes-32.1154499.zip)
 - [ucd-kubernetes-31.1145303.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/kubernetes/ucd-kubernetes-31.1145303.zip)
 - [ucd-kubernetes-29.1130033.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/kubernetes/ucd-kubernetes-29.1130033.zip)
 - [ucd-kubernetes-27.1127391.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/kubernetes/ucd-kubernetes-27.1127391.zip)
@@ -35,4 +36,4 @@ To download the plug-in, click the following version-specific links.
 
 |Back to ...||Latest Version|Kubernetes ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[31.1145303](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/kubernetes/ucd-kubernetes-31.1145303.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[32.1154499](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/kubernetes/ucd-kubernetes-32.1154499.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|
