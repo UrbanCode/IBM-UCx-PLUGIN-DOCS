@@ -5,4 +5,4 @@ The IBM Rational Clearcase plug-in enables you to manually or automatically impo
 
 |Back to ...||Latest Version|||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[13.1131556](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ClearCaseSourceConfig/ucd-ClearCaseSourceConfig-13.1131556.zip)|[Overview](overview.md)|[Usage](usage.md)|[Steps and Roles](steps and roles.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[16.1154103](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ClearCaseSourceConfig/ucd-ClearCaseSourceConfig-16.1154103.zip)|[Overview](overview.md)|[Usage](usage.md)|[Steps and Roles](steps and roles.md)|[Downloads](downloads.md)|

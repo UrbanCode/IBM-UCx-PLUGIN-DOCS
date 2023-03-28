@@ -33,4 +33,4 @@ To access this plug-in in the palette, click **Source and Repositories** > **Cle
 
 |Back to ...||Latest Version|IBM Rational ClearCase ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[13.1131556](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ClearCaseSourceConfig/ucd-ClearCaseSourceConfig-13.1131556.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps and Roles](steps and roles.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[16.1154103](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ClearCaseSourceConfig/ucd-ClearCaseSourceConfig-16.1154103.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps and Roles](steps and roles.md)|[Downloads](downloads.md)|
