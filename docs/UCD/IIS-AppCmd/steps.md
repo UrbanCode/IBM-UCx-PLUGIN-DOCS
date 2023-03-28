@@ -209,4 +209,4 @@ Stop a Web Site in IIS.
 
 |Back to ...||Latest Version|Microsoft IIS AppCmd |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[7.1138456](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IIS-AppCmd/ucd-IIS-AppCmd-7.1138456.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[8.1154620](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IIS-AppCmd/ucd-IIS-AppCmd-8.1154620.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
