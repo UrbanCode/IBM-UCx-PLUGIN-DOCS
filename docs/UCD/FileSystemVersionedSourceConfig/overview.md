@@ -23,6 +23,10 @@ This plug-in is installed when installing IBM UrbanCode Deploy. When new plug-in
 
 ### History
 
+#### Version 18
+
+* Jettison dependency updated.
+
 #### Version 8
 
 * Fixes APAR PI69494. Allows running application process when not copying artifacts to codestation.
@@ -57,4 +61,4 @@ This plug-in is installed when installing IBM UrbanCode Deploy. When new plug-in
 
 |Back to ...||Latest Version|File System (Versioned) ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[16.1131555](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileSystemVersionedSourceConfig/ucd-FileSystemVersionedSourceConfig-16.1131555.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[18.1150658](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileSystemVersionedSourceConfig/ucd-FileSystemVersionedSourceConfig-18.1150658.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
