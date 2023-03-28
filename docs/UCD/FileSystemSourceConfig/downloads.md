@@ -3,6 +3,7 @@
 
 To download the plug-in, click the following version-specific download links.
 
+- [ucd-FileSystemSourceConfig-12.1150687.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileSystemSourceConfig/ucd-FileSystemSourceConfig-12.1150687.zip)
 - [ucd-FileSystemSourceConfig-10.1131567.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileSystemSourceConfig/ucd-FileSystemSourceConfig-10.1131567.zip)
 - [ucd-FileSystemSourceConfig-9.1128770.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileSystemSourceConfig/ucd-FileSystemSourceConfig-9.1128770.zip)
 - [FileSystemSourceConfig-8.1109006.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileSystemSourceConfig/FileSystemSourceConfig-8.1109006.zip)
@@ -15,4 +16,4 @@ To download the plug-in, click the following version-specific download links.
 
 |Back to ...||Latest Version|File System ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[10.1131567](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileSystemSourceConfig/ucd-FileSystemSourceConfig-10.1131567.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[12.1150687](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileSystemSourceConfig/ucd-FileSystemSourceConfig-12.1150687.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|

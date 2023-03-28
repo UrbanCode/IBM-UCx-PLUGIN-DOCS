@@ -24,6 +24,10 @@ This plug-in is installed when installing IBM UrbanCode Deploy. When new plug-in
 
 ### History
 
+#### Version 12
+
+Jettison dependency updated.
+
 #### Version 4
 
 Preserve Execution Permissions option.
@@ -42,4 +46,4 @@ Preserve Execution Permissions option.
 
 |Back to ...||Latest Version|File System ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[10.1131567](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileSystemSourceConfig/ucd-FileSystemSourceConfig-10.1131567.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[12.1150687](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileSystemSourceConfig/ucd-FileSystemSourceConfig-12.1150687.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

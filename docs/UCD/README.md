@@ -608,7 +608,7 @@ The File System source config plug-in enables one to manually import artifacts f
 
 |Back to ...||File System |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](FileSystemSourceConfig/README.md)|[10.1131567](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileSystemSourceConfig/ucd-FileSystemSourceConfig-10.1131567.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](FileSystemSourceConfig/README.md)|[12.1150687](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileSystemSourceConfig/ucd-FileSystemSourceConfig-12.1150687.zip)|
 
 ## File System (Versioned)
 
