@@ -56,7 +56,7 @@ This plug-in is installed when installing IBM UrbanCode Deploy. When new plug-in
 
 * Fixes running a process after creating a version.#### Version 1
 
-* Initial release of the ClearCaseUCM source configuration plugin.
+* Initial release of the ClearCaseUCM source configuration plugin .
 
 |Back to ...||Latest Version|IBM Rational ClearCase ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
