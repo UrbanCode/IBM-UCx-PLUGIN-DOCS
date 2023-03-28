@@ -17,6 +17,10 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 ### History
 
+#### Version 90
+
+Jettison dependency updated.
+
 #### Version 87
 
 Untar step is defaulted to UTF-8 encoding.
@@ -189,4 +193,4 @@ Version 47 of the plug-in includes a fix for APAR PI62114 Set custom file encodi
 
 |Back to ...||Latest Version|File Utils |||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)| [87.1134890.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileUtils/ucd-FileUtils-87.1134890.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)| [90.1150683](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileUtils/ucd-FileUtils-90.1150683.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|
