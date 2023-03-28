@@ -26,7 +26,12 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 ### History
 
-Version 16
+#### Version 17
+
+* Log4j and Jettison dependency updated.
+
+#### Version 16
+
 * RFE 146322 – Modified “project” field in “Does issues exists” to handle multiple project keys.
 
 #### Version 15
@@ -89,4 +94,4 @@ The JIRA integration provides component process steps to create, comment and res
 
 |Back to ...||Latest Version|JIRA for IBM UrbanCode Deploy ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[16.1090067](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/JIRA/JIRA-16.1090067.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[17.1154618](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/JIRA/ucd-JIRA-17.1154618.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

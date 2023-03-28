@@ -2,6 +2,7 @@
 # JIRA for IBM UrbanCode Deploy - Downloads
 
 To download the plug-in, click the following version-specific links.
+- [ucd-JIRA-17.1154618.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/JIRA/ucd-JIRA-17.1154618.zip)
 - [JIRA-16.1090067.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/JIRA/JIRA-16.1090067.zip)
 - [JIRA-15.1071463.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/JIRA/JIRA-15.1071463.zip)
 - [JIRA-14.1064585.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/JIRA/JIRA-14.1064585.zip)
@@ -20,4 +21,4 @@ To download the plug-in, click the following version-specific links.
 
 |Back to ...||Latest Version|JIRA for IBM UrbanCode Deploy ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[16.1090067](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/JIRA/JIRA-16.1090067.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[17.1154618](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/JIRA/ucd-JIRA-17.1154618.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|
