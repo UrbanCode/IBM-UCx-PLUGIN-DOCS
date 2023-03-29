@@ -2434,4 +2434,4 @@ The z/OS Rexx Executor plugin executes REXX program from a Dataset (or) specifie
 
 |        Back to ...         |                  |      z/OS Rexx Executor      |                                                         Latest Version                                                          |
 |:--------------------------:|:----------------:|:----------------------------:|:-------------------------------------------------------------------------------------------------------------------------------:|
-| [All Plugins](../index.md) | [Top](#contents) | [Readme](zos-rexx/README.md) | [1.1152822](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-rexx/ucd-plugins-zos-rexx-1.1152822.zip) |
+| [All Plugins](../index.md) | [Top](#contents) | [Readme](zos-rexx/README.md) | [2.1154680](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-rexx/ucd-plugins-zos-rexx-2.1154680.zip) |
