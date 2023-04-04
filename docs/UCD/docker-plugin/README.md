@@ -17,4 +17,4 @@ The previous community project can be found [here](https://urbancode.github.io/I
 
 |Back to ...||Latest Version||||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[10.950098](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/docker-plugin/docker-plugin-10.950098.zip)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[11.1154926](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/docker-plugin/ucd-docker-plugin-11.1154926.zip)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

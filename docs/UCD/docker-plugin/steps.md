@@ -367,4 +367,4 @@ Role for resources that represents a Container Image Registry.
 
 |Back to ...||Latest Version|Docker |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[10.950098](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/docker-plugin/docker-plugin-10.950098.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[11.1154926](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/docker-plugin/ucd-docker-plugin-11.1154926.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

@@ -568,7 +568,7 @@ Docker automates the deployment of applications inside Linux containers. This pl
 
 |Back to ...||Docker |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](docker-plugin/README.md)|[10.950098](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/docker-plugin/docker-plugin-10.950098.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](docker-plugin/README.md)|[11.1154926](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/docker-plugin/ucd-docker-plugin-11.1154926.zip)|
 
 ## Docker Compose
 

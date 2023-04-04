@@ -25,6 +25,10 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 ### Versions
 
+#### Version 11
+
+* Log4j and Jettison dependency updated .
+
 #### Version 10
 
 * The Promote Image step assumes a Docker Hub destination registry by default.
@@ -84,4 +88,4 @@ This version of the plug-in includes the following features:
 
 |Back to ...||Latest Version|Docker |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[10.950098](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/docker-plugin/docker-plugin-10.950098.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[11.1154926](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/docker-plugin/ucd-docker-plugin-11.1154926.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|
