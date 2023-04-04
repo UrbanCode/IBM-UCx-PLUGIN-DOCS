@@ -367,7 +367,7 @@ Artifactory provides repository management for various types of resources. The A
 
 |Back to ...||Artifactory |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](Artifactory/README.md)|[22.1126875](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Artifactory/ucd-Artifactory-22.1126875.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](Artifactory/README.md)|[24.1154918](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Artifactory/ucd-Artifactory-24.1154918.zip)|
 
 ## Artifactory Source Config
 
