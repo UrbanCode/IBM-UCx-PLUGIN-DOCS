@@ -25,6 +25,10 @@ This plug-in is installed when installing IBM UrbanCode Deploy. When new plug-in
 
 ### History
 
+#### Version 27
+
+* Jettison dependency updated .
+
 #### Version 20
 
 * RFE 139313: Added option(“Translate Snapshot”) to flag in/out SNAPSHOT translation.
@@ -110,4 +114,4 @@ This plug-in is installed when installing IBM UrbanCode Deploy. When new plug-in
 
 |Back to ...||Latest Version|Maven ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[25.1131554](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/MavenSourceConfig/ucd-MavenSourceConfig-25.1131554.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[27.1150685](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/MavenSourceConfig/ucd-MavenSourceConfig-27.1150685.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
