@@ -14,6 +14,14 @@ UrbanCode Velocity plug-in images are located in DockerHub. To view available ve
 ## History
 
 
+### Version 3.4.5
+
+* **Bug Fix**: In previous version - plugin was not syncing more than 100 applications and it was resulting in Snapshot Upload failure.
+* **Sync All Applications at First Sync**: Now UCD plugin is syncing all the applications, environments, processes, and components data even if an initial sync date is given.
+* **Deployment Plan Fix**: In previous version of plugin deployment plan was not getting completed if we have parallel and sequential tasks with UCD app.
+* **Removing Deleted Applications**: In the previous version of plugin the deleted Application processes were also available while selecting the process in the pipeline.
+
+
 ### Version 3.3.56
 
 * **Removed UrbanCode Deploy Status Task**: Assign status task is removed and made part of main UrbanCode Deploy Task as post deployment success or failure step for assigning Snapshot or Component Version status.
@@ -46,4 +54,4 @@ UrbanCode Velocity plug-in images are located in DockerHub. To view available ve
 
 |Back to ...||Latest Version|Urbancode Deploy |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[3.3.56 - File 1](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-ucd/ucv-ext-ucd:3.3.56.tar.7z.001) [3.3.56 - File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-ucd/ucv-ext-ucd:3.3.56.tar.7z.002)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[3.4.5](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-ucd/ucv-ext-ucd:3.4.5.tar.7z.001)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
