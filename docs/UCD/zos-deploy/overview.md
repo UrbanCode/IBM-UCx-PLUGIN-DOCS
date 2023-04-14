@@ -46,6 +46,10 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 ### History
 
+#### Version 80
+
+* Fixed issue with agent version check and minor improvements
+
 #### Version 79
 
 * Updates deployed artifacts to ZInventory when run on agent versions above 730 
@@ -303,6 +307,6 @@ This release includes the following updates:
 * A fix for an issue where the Submit Job step did not use PassTicket authentication.
 
 
-|          Back to ...          |                                |                                                        Latest Version                                                         |    z/OS Utility     |||||
-|:-----------------------------:|:------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------:|:-------------------:| :---: | :---: | :---: | :---: |
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [79.1153131](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-79.1153131.zip) | [Readme](README.md) |[Troubleshooting](troubleshooting.md)|[Steps](steps.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|          Back to ...          |                                |                                                        Latest Version                                                         |    z/OS Utility     |                                       |                   |                   |                           |
+|:-----------------------------:|:------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------:|:-------------------:|:-------------------------------------:|:-----------------:|:-----------------:|:-------------------------:|
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [80.1155287](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-80.1155287.zip) | [Readme](README.md) | [Troubleshooting](troubleshooting.md) | [Steps](steps.md) | [Usage](usage.md) | [Downloads](downloads.md) |

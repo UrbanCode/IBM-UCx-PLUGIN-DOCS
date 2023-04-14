@@ -3,6 +3,7 @@
 
 To download the plug-in, click the following version-specific links.
 
+- [ucd-zos-deploy-80.1155287.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-80.1155287.zip)
 - [ucd-zos-deploy-79.1153131.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-79.1153131.zip)
 - [ucd-zos-deploy-78.1151227.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-78.1151227.zip)
 - [ucd-zos-deploy-78.1150737.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-78.1150737.zip)
@@ -87,6 +88,6 @@ To download the plug-in, click the following version-specific links.
 - [zos-deploy-22.787240.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/zos-deploy-22.787240.zip)
 - [zos-deploy-22.786876.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/zos-deploy-22.786876.zip)
 
-|          Back to ...          |                                |                                                        Latest Version                                                         |    z/OS Utility     |||||
-|:-----------------------------:|:------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------:|:-------------------:| :---: | :---: | :---: | :---: |
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [79.1153131](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-79.1153131.zip) | [Readme](README.md) |[Overview](overview.md)|[Troubleshooting](troubleshooting.md)|[Steps](steps.md)|[Usage](usage.md)|
+|          Back to ...          |                                |                                                        Latest Version                                                         |    z/OS Utility     |                         |                                       |                   |                   |
+|:-----------------------------:|:------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------:|:-------------------:|:-----------------------:|:-------------------------------------:|:-----------------:|:-----------------:|
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [80.1155287](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-80.1155287.zip) | [Readme](README.md) | [Overview](overview.md) | [Troubleshooting](troubleshooting.md) | [Steps](steps.md) | [Usage](usage.md) |

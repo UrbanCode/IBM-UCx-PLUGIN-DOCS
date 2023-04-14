@@ -324,6 +324,6 @@ All the properties in the step are __hidden properties__
 
 
 
-|          Back to ...          |                                |                                                        Latest Version                                                         |    z/OS Utility     |||||
-|:-----------------------------:|:------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------:|:-------------------:| :---: | :---: | :---: | :---: |
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [79.1153131](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-79.1153131.zip) | [Readme](README.md) |[Overview](overview.md)|[Troubleshooting](troubleshooting.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|          Back to ...          |                                |                                                        Latest Version                                                         |    z/OS Utility     |                         |                                       |                   |                           |
+|:-----------------------------:|:------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------:|:-------------------:|:-----------------------:|:-------------------------------------:|:-----------------:|:-------------------------:|
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [80.1155287](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-80.1155287.zip) | [Readme](README.md) | [Overview](overview.md) | [Troubleshooting](troubleshooting.md) | [Usage](usage.md) | [Downloads](downloads.md) |
