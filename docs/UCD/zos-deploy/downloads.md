@@ -3,6 +3,7 @@
 
 To download the plug-in, click the following version-specific links.
 
+- [ucd-zos-deploy-81.1155387.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-81.1155387.zip)
 - [ucd-zos-deploy-80.1155287.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-80.1155287.zip)
 - [ucd-zos-deploy-79.1153131.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-79.1153131.zip)
 - [ucd-zos-deploy-78.1151227.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-78.1151227.zip)
@@ -90,4 +91,4 @@ To download the plug-in, click the following version-specific links.
 
 |          Back to ...          |                                |                                                        Latest Version                                                         |    z/OS Utility     |                         |                                       |                   |                   |
 |:-----------------------------:|:------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------:|:-------------------:|:-----------------------:|:-------------------------------------:|:-----------------:|:-----------------:|
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [80.1155287](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-80.1155287.zip) | [Readme](README.md) | [Overview](overview.md) | [Troubleshooting](troubleshooting.md) | [Steps](steps.md) | [Usage](usage.md) |
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [81.1155387](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-81.1155387.zip) | [Readme](README.md) | [Overview](overview.md) | [Troubleshooting](troubleshooting.md) | [Steps](steps.md) | [Usage](usage.md) |
