@@ -46,9 +46,9 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 ### History
 
-#### Version 80
+#### Version 81
 
-* Fixed APAR PH53341
+* Fixed APAR PH53341 related to parsing error when deploying zOS versions
 
 #### Version 80
 
