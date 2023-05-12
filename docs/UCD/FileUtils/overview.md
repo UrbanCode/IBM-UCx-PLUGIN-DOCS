@@ -17,6 +17,10 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 ### History
 
+#### Version 92
+
+Port "Copy Directory" step to Java to reduce CPU consumption. Handle very large directories in the "Replace Tokens" step without running out of memory.
+
 #### Version 90
 
 Jettison dependency updated.
@@ -193,4 +197,4 @@ Version 47 of the plug-in includes a fix for APAR PI62114 Set custom file encodi
 
 |Back to ...||Latest Version|File Utils |||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)| [90.1150683](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileUtils/ucd-FileUtils-90.1150683.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)| [92.1156646](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileUtils/ucd-FileUtils-92.1156646.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|
