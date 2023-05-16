@@ -981,7 +981,7 @@ IBM Integration Bus, from the WebSphere product family, enables business informa
 
 |Back to ...||IBM Integration Bus (formerly WebSphere Message Broker) - CMP |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](WebSphereMessageBroker-CMP/README.md)|[47.1100834](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereMessageBroker-CMP/WebSphereMessageBroker-CMP-47.1100834.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](WebSphereMessageBroker-CMP/README.md)|[47.1156618](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereMessageBroker-CMP/WebSphereMessageBroker-CMP-47.1156618.zip)|
 
 ## IBM MQ for z/OS - Generate MQSC Commands \[community plugin\]
 
