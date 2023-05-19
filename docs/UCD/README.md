@@ -628,7 +628,7 @@ The File Utils plug-in provides useful steps for manipulating files and director
 
 |Back to ...||File Utils |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](FileUtils/README.md)| [92.1156701](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileUtils/ucd-FileUtils-93.1156701.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](FileUtils/README.md)| [94.1156804](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileUtils/ucd-FileUtils-94.1156804.zip)|
 
 ## FileNet - IBM Case Manager
 

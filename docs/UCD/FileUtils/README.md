@@ -16,4 +16,4 @@ For a complete list of steps, refer to the plug-in documentation link on the rig
 
 |          Back to ...          ||         Latest Version         ||||||
 |:-----------------------------:|:------------------------------:| :---: | :---: | :---: | :---: | :---: | :---: |
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) |[93.1156701](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileUtils/ucd-FileUtils-93.1156701.zip)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) |[94.1156804](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileUtils/ucd-FileUtils-94.1156804.zip)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|

@@ -17,9 +17,21 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 ### History
 
+#### Version 94
+
+APAR PH52898 - Running the replace tokens step is taking longer to complete with each run.
+
+#### Version 93
+
+Restore classpath for steps still implemented in groovy to fix "NoSuchMethodError" errors.
+
 #### Version 92
 
 Port "Copy Directory" step to Java to reduce CPU consumption. Handle very large directories in the "Replace Tokens" step without running out of memory.
+
+#### Version 91
+
+Updating Jettison library to 1.5.4 for CVE-2023-1436
 
 #### Version 90
 
@@ -197,4 +209,4 @@ Version 47 of the plug-in includes a fix for APAR PI62114 Set custom file encodi
 
 |Back to ...||Latest Version|File Utils |||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)| [93.1156701](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileUtils/ucd-FileUtils-93.1156701.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)| [94.1156804](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileUtils/ucd-FileUtils-94.1156804.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|
