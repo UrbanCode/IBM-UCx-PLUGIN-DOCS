@@ -35,7 +35,7 @@ This plug-in is installed when installing IBM UrbanCode Deploy. When new plug-in
 
 * Added new loop type to delete PDS member excluding missing PDS members
 * Fixed issue when backup is disabled during deployment
-
+* Minor improvements
 
 ### Version 6
 
@@ -61,6 +61,6 @@ This plug-in is installed when installing IBM UrbanCode Deploy. When new plug-in
 * Initial release
 
 
-|          Back to ...          |                                |                                                                                 Latest Version                                                                                  | z/OS Multi Generate Artifact Information ||||
-|:-----------------------------:|:------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------:| :---: | :---: | :---: |
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [7.1150817](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-multi-generate-artifact-info/ucd-plugins-zos-multi-generate-artifact-info-7.1150817.zip) |           [Readme](README.md)            |[Steps](steps.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|          Back to ...          |                                |                                                                                 Latest Version                                                                                  | z/OS Multi Generate Artifact Information |                   |                   |                           |
+|:-----------------------------:|:------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------:|:-----------------:|:-----------------:|:-------------------------:|
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [7.1157847](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-multi-generate-artifact-info/ucd-plugins-zos-multi-generate-artifact-info-7.1157847.zip) |           [Readme](README.md)            | [Steps](steps.md) | [Usage](usage.md) | [Downloads](downloads.md) |
