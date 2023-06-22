@@ -55,7 +55,12 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 ### History
 
-#### Version 127
+#### Version 129
+
+* Fixed defect to make the plugin compatibel with UCD v7.1.2.2 and above. Refer link: https://www.ibm.com/support/pages/node/6963029.
+
+
+#### Version 128
 
 * Updated log4j and jettison dependencies.
 
