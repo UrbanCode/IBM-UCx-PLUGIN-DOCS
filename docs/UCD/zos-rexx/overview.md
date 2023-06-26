@@ -15,6 +15,7 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 * Added new checkbox input to show debug logs in case of any unknown failure.
 * Output will now show the elapsed time of the REXX program
 * New output property RexxReturnCode will store the return code of the REXX program
+* Fixes output buffer issue when output has too much data
 
 ### Version 1
 
@@ -22,4 +23,4 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 |          Back to ...          |                                |                                                         Latest Version                                                          | z/OS Rexx Executor  |                   |                   |                           |
 |:-----------------------------:|:------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------:|:-------------------:|:-----------------:|:-----------------:|:-------------------------:|
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [2.1154680](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-rexx/ucd-plugins-zos-rexx-2.1154680.zip) | [Readme](README.md) | [Steps](steps.md) | [Usage](usage.md) | [Downloads](downloads.md) |
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [2.1158244](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-rexx/ucd-plugins-zos-rexx-2.1158244.zip) | [Readme](README.md) | [Steps](steps.md) | [Usage](usage.md) | [Downloads](downloads.md) |

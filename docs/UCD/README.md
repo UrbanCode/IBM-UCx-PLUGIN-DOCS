@@ -2436,7 +2436,7 @@ The z/OS Utility plug-in includes steps for retrieving and deploying IBM z/OS ar
 
 |        Back to ...         ||   z/OS Utility   |         Latest Version         |
 |:--------------------------:|:----------------:|:------------------------------:| :---: |
-| [All Plugins](../index.md) | [Top](#contents) | [Readme](zos-deploy/README.md) |[83.1157845](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-83.1157845.zip)|
+| [All Plugins](../index.md) | [Top](#contents) | [Readme](zos-deploy/README.md) |[84.1158243](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-84.1158243.zip)|
 
 ## z/OS Rexx Executor
 
@@ -2446,4 +2446,4 @@ The z/OS Rexx Executor plugin executes REXX program from a Dataset (or) specifie
 
 |        Back to ...         |                  |      z/OS Rexx Executor      |                                                         Latest Version                                                          |
 |:--------------------------:|:----------------:|:----------------------------:|:-------------------------------------------------------------------------------------------------------------------------------:|
-| [All Plugins](../index.md) | [Top](#contents) | [Readme](zos-rexx/README.md) | [2.1154680](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-rexx/ucd-plugins-zos-rexx-2.1154680.zip) |
+| [All Plugins](../index.md) | [Top](#contents) | [Readme](zos-rexx/README.md) | [2.1158244](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-rexx/ucd-plugins-zos-rexx-2.1158244.zip) |
