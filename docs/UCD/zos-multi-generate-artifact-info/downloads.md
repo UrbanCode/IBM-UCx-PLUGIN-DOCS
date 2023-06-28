@@ -1,6 +1,7 @@
 # z/OS Multi Generate Artifact Information - Downloads
 
 To download the plug-in, click the following version-specific links.
+- [ucd-plugins-zos-multi-generate-artifact-info-8.1158293.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-multi-generate-artifact-info/ucd-plugins-zos-multi-generate-artifact-info-8.1158293.zip)
 - [ucd-plugins-zos-multi-generate-artifact-info-7.1157847.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-multi-generate-artifact-info/ucd-plugins-zos-multi-generate-artifact-info-7.1157847.zip)
 - [ucd-plugins-zos-multi-generate-artifact-info-7.1150817.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-multi-generate-artifact-info/ucd-plugins-zos-multi-generate-artifact-info-7.1150817.zip)
 - [ucd-plugins-zos-multi-generate-artifact-info-7.1150795.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-multi-generate-artifact-info/ucd-plugins-zos-multi-generate-artifact-info-7.1150795.zip)
@@ -17,4 +18,4 @@ To download the plug-in, click the following version-specific links.
 
 |          Back to ...          |                                |                                                                                 Latest Version                                                                                  | z/OS Multi Generate Artifact Information |                         |                   |                   |
 |:-----------------------------:|:------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------:|:-----------------------:|:-----------------:|:-----------------:|
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [7.1157847](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-multi-generate-artifact-info/ucd-plugins-zos-multi-generate-artifact-info-7.1157847.zip) |           [Readme](README.md)            | [Overview](overview.md) | [Steps](steps.md) | [Usage](usage.md) |
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [8.1158293](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-multi-generate-artifact-info/ucd-plugins-zos-multi-generate-artifact-info-8.1158293.zip) |           [Readme](README.md)            | [Overview](overview.md) | [Steps](steps.md) | [Usage](usage.md) |
