@@ -48,7 +48,9 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 #### Version 84
 
-* Fixes output buffering issue when TSO/ISPF command prints too much output. 
+* Fixes output buffering issue when TSO/ISPF command prints too much output.
+* Added deployment action filter and new loop type to exclude Deleted missing PDS members
+* Fixed a typo with deploy type in generate artifact info step
 
 #### Version 83
 
@@ -327,4 +329,4 @@ This release includes the following updates:
 
 |          Back to ...          |                                |                                                        Latest Version                                                         |    z/OS Utility     |                                       |                   |                   |                           |
 |:-----------------------------:|:------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------:|:-------------------:|:-------------------------------------:|:-----------------:|:-----------------:|:-------------------------:|
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [84.1158243](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-84.1158243.zip) | [Readme](README.md) | [Troubleshooting](troubleshooting.md) | [Steps](steps.md) | [Usage](usage.md) | [Downloads](downloads.md) |
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [84.1158288](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-84.1158288.zip) | [Readme](README.md) | [Troubleshooting](troubleshooting.md) | [Steps](steps.md) | [Usage](usage.md) | [Downloads](downloads.md) |
