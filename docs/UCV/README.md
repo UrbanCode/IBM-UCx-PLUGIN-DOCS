@@ -356,7 +356,7 @@ The ServiceNow plug-in for IBM UrbanCode Velocity automates the importing of Ser
 
 |Back to ...||ServiceNow |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-servicenow/README.md)|[1.0.27](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-servicenow/ucv-ext-servicenow-1.0.27.tar.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-servicenow/README.md)|[1.0.42](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.0.42.tar.7z.001)/[1.0.42](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.0.42.tar.7z.002)|
 
 ## Shell
 
