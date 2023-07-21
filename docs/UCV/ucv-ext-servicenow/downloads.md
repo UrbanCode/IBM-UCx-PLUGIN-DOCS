@@ -3,8 +3,8 @@
 
 To download the plugins, click the following version specific links.
 
-- [ucv-ext-servicenow:1.0.42.tar.7z.002](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.0.42.tar.7z.002)
-- [ucv-ext-servicenow:1.0.42.tar.7z.001](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.0.42.tar.7z.001)
+- [ucv-ext-servicenow:1.0.42.tar.7z.002-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.0.42.tar.7z.002)
+- [ucv-ext-servicenow:1.0.42.tar.7z.001-File 1](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.0.42.tar.7z.001)
 - [ucv-ext-servicenow-1.0.27.tar.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-servicenow/ucv-ext-servicenow-1.0.27.tar.zip)
 - [ucv-ext-servicenow-1.0.25.tar.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-servicenow/ucv-ext-servicenow-1.0.25.tar.zip)
 - [ucv-ext-servicenow-1.0.14.tar.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-servicenow/ucv-ext-servicenow-1.0.14.tar.zip)
@@ -20,4 +20,4 @@ To download the plugins, click the following version specific links.
 
 |Back to ...||Latest Version|ServiceNow |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.42](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.0.42.tar.7z.001)/[1.0.42](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.0.42.tar.7z.002)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.42-File 1](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.0.42.tar.7z.001)[and 1.0.42-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.0.42.tar.7z.002)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|
