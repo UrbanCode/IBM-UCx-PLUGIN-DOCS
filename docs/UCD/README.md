@@ -588,7 +588,7 @@ Use the Docker source configuration plug-in to manually or automatically create 
 
 |Back to ...||Docker Registry |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](DockerSourceConfig/README.md)|[40.1139652](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/DockerSourceConfig/ucd-DockerSourceConfig-40.1139652.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](DockerSourceConfig/README.md)|[42.1158923](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/DockerSourceConfig/ucd-DockerSourceConfig-42.1158923.zip)|
 
 ## F5 BIG-IP
 

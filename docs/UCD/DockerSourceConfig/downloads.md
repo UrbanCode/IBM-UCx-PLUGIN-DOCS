@@ -2,6 +2,7 @@
 # Docker Registry - Downloads
 
 To download the plug-in, click the following version-specifi links.
+- [ucd-DockerSourceConfig-42.1158923.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/DockerSourceConfig/ucd-DockerSourceConfig-42.1158923.zip)
 - [ucd-DockerSourceConfig-40.1139652.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/DockerSourceConfig/ucd-DockerSourceConfig-40.1139652.zip)
 - [ucd-DockerSourceConfig-40.1126663.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/DockerSourceConfig/ucd-DockerSourceConfig-40.1126663.zip)
 - [DockerSourceConfig-39.1121997.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/DockerSourceConfig/DockerSourceConfig-39.1121997.zip)
@@ -35,4 +36,4 @@ To download the plug-in, click the following version-specifi links.
 
 |Back to ...||Latest Version|Docker Registry ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[40.1126663](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/DockerSourceConfig/ucd-DockerSourceConfig-40.1126663.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Settings](settings.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[42.1158923](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/DockerSourceConfig/ucd-DockerSourceConfig-42.1158923.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Settings](settings.md)|
