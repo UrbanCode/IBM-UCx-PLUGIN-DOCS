@@ -15,10 +15,25 @@ There is no install process for this plug-in. The ServiceNowb plug-in is identif
 
 ## History
 
+### Version 1.0.42
+
+* **Minor Bug Fix:** Fixed bug related to proxy server and related to automation task execution. 
+
+### Version 1.0.36
+
+* **Removed Manual User Access Key:** From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL Accelerate.
+
+### Version 1.0.27
+
+* Adding Automation Functionality
+
+### Version 1.0.25
+
+* Removed IBM related keywords
+
 ### Version 1.0.14
 
-*
-Added HTTP proxy support
+* Added HTTP proxy support
 
 ### Version 1.0.13
 
@@ -44,4 +59,4 @@ Added HTTP proxy support
 
 |Back to ...||Latest Version|ServiceNow |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.27](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-servicenow/ucv-ext-servicenow-1.0.27.tar.zip)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.42-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.0.42.tar.7z.001)[and 1.0.42-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.0.42.tar.7z.002)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|

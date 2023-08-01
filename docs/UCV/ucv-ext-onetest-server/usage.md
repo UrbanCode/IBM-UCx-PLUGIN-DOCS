@@ -50,7 +50,6 @@ HCL OneTest Server plug-in and define the connection and communication to the On
 | Build Label Pattern | buildRegExp | String | A regular expression pattern that will match a build ID on a test execution label. For example: ([A-Z]+-[0-9]+). | No |
 | HCL OneTest Offline User Token | oneTestRefreshToken | String | The offline user token created in the HCL OneTest user interface by clicking the Create Token button. | Yes |
 | HCL OneTest Server URL | oneTestUrl | String | The base URL of the HCL OneTest Server. For example: https://tp-cicd2.nonprod.hclpnp.com. | Yes |
-| UrbanCode Velocity User Access Key | ucvAccessKey | String | The user access key to authenticate with the UrbanCode Velocity server. | Yes |
 
 ## Example
 
@@ -68,10 +67,8 @@ The following example can be used as as template to include the AppScan plug-in 
 "logginglevel": "INFO",
 
 "properties":{
-"ucvAccessKey": "",
 "oneTestUrl" : "",
 "oneTestRefreshToken":"",
-
 "buildRegExp": "([A-Z]+-[0-9]+)"
 }``
 }``
@@ -83,4 +80,4 @@ The following example can be used as as template to include the AppScan plug-in 
 
 |Back to ...||Latest Version|HCL OneTest Server |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.17](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest-server/ucv-ext-onetest-server-1.0.17.tar.7z.001)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.26-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest-server/ucv-ext-onetest-server%3A1.0.26.tar.7z.001)[and 1.0.26-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest-server/ucv-ext-onetest-server%3A1.0.26.tar.7z.002)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

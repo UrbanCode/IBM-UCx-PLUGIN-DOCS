@@ -100,7 +100,6 @@ The following tables describe the properties used to configure the integration. 
 | Build Label Pattern | buildRegExp | String | A regular expression pattern to match a build ID on a test execution label. For example: ([A-Z]+-[0-9]+). | No|
 | Rational Test Automation Server Offline User Token | rtasOfflineToken | String | The offline user token created in the Rational Test Automation Server user interface by clicking the Create Token button. | Yes |
 | Rational Test Automation Server URL | rtasUrl | String | The base URL of the Rational Test Automation Server. For example: https://tp- cicd2.nonprod.hclpnp.com. | Yes |
-| UrbanCode Velocity User Access Key | ucvAccessKey | String | The user access key used to authenticate with the UrbanCode Velocity server. | Yes |
 
 ## Example
 
@@ -118,10 +117,8 @@ The following example can be used as as template to include the AppScan plug-in 
 "logginglevel": "*log\_level\_value*",
 "properties":{
 
-"ucvAccessKey": "*ucv-user-access-key*",
 "rtasUrl" : "*rtas-url*",
-"rtasOfflineToken":"*rtas-
-offline-token*",
+"rtasOfflineToken":"*rtas-offline-token*",
 "buildRegExp": "([A-Z]+-[0-9]+)"
 }``
 }``
@@ -133,4 +130,4 @@ offline-token*",
 
 |Back to ...||Latest Version|Rational Test Automation Server |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.22](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-rtas/ucv-ext-rtas-1.0.22.tar.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.34-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-rtas/ucv-ext-rtas%3A1.0.34.tar.7z.001)[and 1.0.34-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-rtas/ucv-ext-rtas%3A1.0.34.tar.7z.002)|[Overview](overview.md)|[Downloads](downloads.md)|
