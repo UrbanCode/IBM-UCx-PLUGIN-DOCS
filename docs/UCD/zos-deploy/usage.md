@@ -206,7 +206,7 @@ Redundant versions are incremental versions that are replaced by one or more sub
 
 ## Remove Redundant Versions
 
-The **Remove Redundant Versions** plug-in step removes redundant versions from the inventory. It also deletes the version directory and its contents from zOS, that was created when the version was deployed.
+The **Remove Redundant Versions** plug-in step removes redundant versions from the inventory. On zOS USS, it deletes the version directory and its contents that was created when the version was deployed.
 
 ## Snapshots
 
