@@ -371,7 +371,7 @@ Artifactory provides repository management for various types of resources. The A
 
 ## Artifactory Source Config
 
-The Artifactory source configuration plug-in includes steps to complete the following tasks:
+The Artifactory source configuration plug-in includes steps to complete the following tasks :
 
 ---
 
