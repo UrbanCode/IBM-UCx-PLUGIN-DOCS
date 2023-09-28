@@ -18,7 +18,7 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 * Fixes output buffer issue when output has too much data
 * Arguments can now be as big as 248 characters
 * Fixed issue with work directory during two or more parallel step execution
-* Minor improvements in temporary directory creation
+* Minor improvements in temporary directory creation 
 
 ### Version 1
 
@@ -26,4 +26,4 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 |          Back to ...          |                                |                                                         Latest Version                                                          | z/OS Rexx Executor  |                   |                   |                           |
 |:-----------------------------:|:------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------:|:-------------------:|:-----------------:|:-----------------:|:-------------------------:|
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [2.1161121](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-rexx/ucd-plugins-zos-rexx-2.1161121.zip) | [Readme](README.md) | [Steps](steps.md) | [Usage](usage.md) | [Downloads](downloads.md) |
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [2.1161998](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-rexx/ucd-plugins-zos-rexx-2.1161998.zip) | [Readme](README.md) | [Steps](steps.md) | [Usage](usage.md) | [Downloads](downloads.md) |
