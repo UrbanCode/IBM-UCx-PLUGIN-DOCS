@@ -1,3 +1,19 @@
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
+<script src="https://giscus.app/client.js"
+        data-repo="jmanojhcl/IBM-UCx-PLUGIN-DOCS"
+        data-repo-id="R_kgDOITagHA"
+        data-category="Q&A"
+        data-category-id="DIC_kwDOITagHM4CZ2K2"
+        data-mapping="url"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="noborder_light"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>
