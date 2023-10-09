@@ -46,6 +46,11 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 ### History
 
+#### Version 86
+
+* Removed support for Submit Job and Wait For Job steps to run outside the mainframe systems
+* Fixed Submit Job issue with incorrect formatting - PH57188
+
 #### Version 85
 
 * Minor improvements in New Package Format Deployment and Deleting Datasets
@@ -337,4 +342,4 @@ This release includes the following updates:
 
 |          Back to ...          |                                |                                                        Latest Version                                                         |    z/OS Utility     |                                       |                   |                   |                           |
 |:-----------------------------:|:------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------:|:-------------------:|:-------------------------------------:|:-----------------:|:-----------------:|:-------------------------:|
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [85.1159123](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-85.1159123.zip) | [Readme](README.md) | [Troubleshooting](troubleshooting.md) | [Steps](steps.md) | [Usage](usage.md) | [Downloads](downloads.md) |
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [86.1162422](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-86.1162422.zip) | [Readme](README.md) | [Troubleshooting](troubleshooting.md) | [Steps](steps.md) | [Usage](usage.md) | [Downloads](downloads.md) |
