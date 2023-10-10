@@ -49,7 +49,7 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 #### Version 86
 
 * Removed support for Submit Job and Wait For Job steps to run outside the mainframe systems
-* Fixed Submit Job issue with incorrect formatting - PH57188
+* Fixed APAR PH57188 - SUBMIT JOB INCORRECT FORMATTING WHEN JCL LINE EXCEEDS 72 CHARACTERS
 
 #### Version 85
 
