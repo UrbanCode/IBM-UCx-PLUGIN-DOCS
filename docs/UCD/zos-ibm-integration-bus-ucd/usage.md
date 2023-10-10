@@ -24,4 +24,4 @@ In this process example, the broker archive (.bar) file includes overrides as ne
 
 |Back to ...||Latest Version|IBM Integration Bus (IIB) plugin Deploy step for zOS ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[1.1127841](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-ibm-integration-bus-ucd/ucd-zOS-WebSphereMessageBroker-CMP-1.1127841.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[1.1162414](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-ibm-integration-bus-ucd/ucd-zOS-WebSphereMessageBroker-CMP-1.1162414.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

@@ -983,7 +983,7 @@ IBM Integration Bus, from the WebSphere product family, enables business informa
 
 |Back to ...||IBM Integration Bus (IIB) plugin Deploy step for zOS |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](zos-ibm-integration-bus-ucd/README.md)|[1.1127841](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-ibm-integration-bus-ucd/ucd-zOS-WebSphereMessageBroker-CMP-1.1127841.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](zos-ibm-integration-bus-ucd/README.md)|[1.1162414](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-ibm-integration-bus-ucd/ucd-zOS-WebSphereMessageBroker-CMP-1.1162414.zip)|
 
 ## IBM Integration Bus (formerly WebSphere Message Broker) - CMP
 
@@ -2396,7 +2396,7 @@ The z/OS Multi Generate Artifact Information plug-in scans version artifacts and
 
 |        Back to ...         || z/OS Multi Generate Artifact Information |                    Latest Version                    |
 |:--------------------------:|:----------------------------------------:|:----------------------------------------------------:| :---: |
-| [All Plugins](../index.md) |             [Top](#contents)             | [Readme](zos-multi-generate-artifact-info/README.md) |[8.1158586](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-multi-generate-artifact-info/ucd-plugins-zos-multi-generate-artifact-info-8.1158586.zip)|
+| [All Plugins](../index.md) |             [Top](#contents)             | [Readme](zos-multi-generate-artifact-info/README.md) |[8.1162244](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-multi-generate-artifact-info/ucd-plugins-zos-multi-generate-artifact-info-8.1162244.zip)|
 
 ## z/OS Shell
 
@@ -2416,7 +2416,7 @@ The z/OS USS Utility plug-in automates working with USS files on the z/OS operat
 
 |        Back to ...         || z/OS USS Utility |              Latest Version               |
 |:--------------------------:|:----------------:|:-----------------------------------------:| :---: |
-| [All Plugins](../index.md) | [Top](#contents) | [Readme](zos-replacetokens-uss/README.md) |[1.1127592](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-replacetokens-uss/ucd-plugins-zos-replacetokens-uss-1.1127592.zip)|
+| [All Plugins](../index.md) | [Top](#contents) | [Readme](zos-replacetokens-uss/README.md) |[1.1162235](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-replacetokens-uss/ucd-plugins-zos-replacetokens-uss-1.1162235.zip)|
 
 ## z/OS Utility
 
