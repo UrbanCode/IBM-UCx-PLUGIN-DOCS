@@ -27,6 +27,7 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 ### Version 10
 
 Added support to handle AT_TLS configuration for external repository servers
+Fixed Jettison Vulnerability
 
 ### Version 9
 
@@ -70,4 +71,4 @@ Plugin is used to download artifacts from external repository like NEXUS/ARTIFAC
 
 |          Back to ...          |                                |                                                                   Latest Version                                                                   | z/OS External Artifact Repository ||||
 |:-----------------------------:|:------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------:| :---: | :---: | :---: |
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [10.1152827](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOS-external-artifact-download/ucd-ExtArtRepo-10.1152827.zip)  |        [Readme](README.md)        |[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [10.1162509](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOS-external-artifact-download/ucd-ExtArtRepo-10.1162509.zip)  |        [Readme](README.md)        |[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
