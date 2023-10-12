@@ -2346,7 +2346,7 @@ Apart from copying content to a mainframe dataset, this plug-in provides the fol
 
 |        Back to ...         || z/OS Dataset Writer |             Latest Version             |
 |:--------------------------:|:-------------------:|:--------------------------------------:| :---: |
-| [All Plugins](../index.md) |  [Top](#contents)   | [Readme](zos-dataset-writer/README.md) |[4.1138411](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-dataset-writer/ucd-plugins-zos-dataset-writer-4.1138411.zip)|
+| [All Plugins](../index.md) |  [Top](#contents)   | [Readme](zos-dataset-writer/README.md) |[4.1162523](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-dataset-writer/ucd-plugins-zos-dataset-writer-4.1162523.zip)|
 
 ## z/OS External Artifact Repository
 

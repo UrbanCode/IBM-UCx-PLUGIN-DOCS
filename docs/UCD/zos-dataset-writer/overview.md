@@ -14,6 +14,7 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 * Enhancement to accept multiple datasets or files as input
 * Minor Improvements
 * Fixed security issue CVE-2021-29425
+* Fixed Jettison Vulnerability
 
 ### Version 3
 
@@ -33,4 +34,4 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 |          Back to ...          |                                |                                                                   Latest Version                                                                    | z/OS Dataset Writer ||||
 |:-----------------------------:|:------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------:| :---: | :---: | :---: |
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [4.1138411](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-dataset-writer/ucd-plugins-zos-dataset-writer-4.1138411.zip) | [Readme](README.md) |[Steps](steps.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [4.1162523](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-dataset-writer/ucd-plugins-zos-dataset-writer-4.1162523.zip) | [Readme](README.md) |[Steps](steps.md)|[Usage](usage.md)|[Downloads](downloads.md)|
