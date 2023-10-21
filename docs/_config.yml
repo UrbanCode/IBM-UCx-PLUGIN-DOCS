@@ -1,3 +1,15 @@
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
+# Set which comment system to use
+comments:
+  provider: giscus
+giscus:
+  repo:                "jmanojhcl/IBM-UCx-PLUGIN-DOCS"
+  repo-id:             "R_kgDOKf1Y2g"
+  category:            "Q&A"
+  category-id:         "DIC_kwDOKf1Y2s4CaUym"
+  mapping:             "url"
+  reaction-enabled:    "1"
+  theme:               "light"
+  crossorigin:         "anonymous"
