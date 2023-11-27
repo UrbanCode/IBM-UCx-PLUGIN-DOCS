@@ -37,6 +37,7 @@ This plug-in is installed when installing IBM UrbanCode Deploy. When new plug-in
 * Added check for Target Dataset Filter to allow only dataset or member loop types
 * Removed Jettison Library with vulnerability
 * Removed unused libraries from plugin to reduce overall plugin size
+* Fixed stream error and minor improvements
 
 ### Version 7
 
@@ -70,4 +71,4 @@ This plug-in is installed when installing IBM UrbanCode Deploy. When new plug-in
 
 |          Back to ...          |                                |                                                                                 Latest Version                                                                                  | z/OS Multi Generate Artifact Information |                   |                   |                           |
 |:-----------------------------:|:------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------:|:-----------------:|:-----------------:|:-------------------------:|
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [8.1162447](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-multi-generate-artifact-info/ucd-plugins-zos-multi-generate-artifact-info-8.1162447.zip) |           [Readme](README.md)            | [Steps](steps.md) | [Usage](usage.md) | [Downloads](downloads.md) |
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [8.1164047](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-multi-generate-artifact-info/ucd-plugins-zos-multi-generate-artifact-info-8.1164047.zip) |           [Readme](README.md)            | [Steps](steps.md) | [Usage](usage.md) | [Downloads](downloads.md) |
