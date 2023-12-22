@@ -20,6 +20,7 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 * Fixed issue with work directory during two or more parallel step execution
 * Minor improvements in temporary directory creation
 * Fixed handling of CLIST error message response from ISPF Gateway
+* Changes to run process in Legacy ISPF Gateway
 
 ### Version 1
 
@@ -27,4 +28,4 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 |          Back to ...          |                                |                                                         Latest Version                                                          | z/OS Rexx Executor  |                   |                   |                           |
 |:-----------------------------:|:------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------:|:-------------------:|:-----------------:|:-----------------:|:-------------------------:|
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [2.1164307](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-rexx/ucd-plugins-zos-rexx-2.1164307.zip) | [Readme](README.md) | [Steps](steps.md) | [Usage](usage.md) | [Downloads](downloads.md) |
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [2.1164401](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-rexx/ucd-plugins-zos-rexx-2.1164401.zip) | [Readme](README.md) | [Steps](steps.md) | [Usage](usage.md) | [Downloads](downloads.md) |
