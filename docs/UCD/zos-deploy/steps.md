@@ -23,6 +23,7 @@
     - [Wait For Job](#wait-for-job)
     - [Delete Dataset](#delete-dataset)
     - [Cleanup Backup Files](#cleanup-backup-files)
+    - [Restore Backup Datasets](#restore-backup-datasets)
 
 ### Allocate Data Set
 
@@ -317,7 +318,23 @@ All the properties in the step are **hidden properties**
 | Component Name       | String | Name of the component                                                           | Yes      |
 | Resource Id          | String | Resource Id                                                                     | Yes      |
 
+### Restore Backup Datasets
+
+Restored datasets from backup taken during deployment
+
+| Name                    | Type    | Description                                                                                                                                                                                                                                                                                                              | Required |
+|-------------------------|---------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
+| Restore Dataset Mapping | String  | Specify list of mapping rules for the datasets to be restored, separated by newline characters. Use the following format: Backup_Dataset,Restore_Dataset. Use the asterisk (*) in the Backup_Dataset value to match any characters. If multiple rules specify the same Backup_Dataset value, only the first one is used. | Yes      |
+| Allow Creating Dataset  | Boolean | Select to create a dataset if the specified restore dataset does not exist.                                                                                                                                                                                                                                              | No       |
+|                         |         | **Hidden Properties (below)**                                                                                                                                                                                                                                                                                            |          |
+| ISPF Gateway Path       | String  | Specify the path for ISPF gateway binary files.                                                                                                                                                                                                                                                                          | Yes      |
+| Deployment Base Path    | String  | The base location to store deployment results and backups for rollback. The default value is the BUZ_DEPLOY_BASE environment variable, which is set to the deployment base path that was specified during installation. Typically, you do not change this value.                                                         | Yes      |
+| Temporary DSN Prefix    | String  | Specify a DSN prefix to be used to create temporary data sets. The default value is the BUZ_TMP_DSN_PREFIX environment variable. If a value is not provided, the prefix in the agent user’s profile or the agent user’s ID is used.                                                                                      | No       |
+| Version Name            | String  | Version Name                                                                                                                                                                                                                                                                                                             | Yes      |
+| Component Name          | String  | Component Name                                                                                                                                                                                                                                                                                                           | Yes      |
+| Resource Id             | String  | Resource Id                                                                                                                                                                                                                                                                                                              | Yes      |
+
 
 |          Back to ...          |                                |                                                        Latest Version                                                         |    z/OS Utility     |                         |                                       |                   |                           |
 |:-----------------------------:|:------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------:|:-------------------:|:-----------------------:|:-------------------------------------:|:-----------------:|:-------------------------:|
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [86.1162422](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-86.1162422.zip) | [Readme](README.md) | [Overview](overview.md) | [Troubleshooting](troubleshooting.md) | [Usage](usage.md) | [Downloads](downloads.md) |
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [87.1164411](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-87.1164411.zip) | [Readme](README.md) | [Overview](overview.md) | [Troubleshooting](troubleshooting.md) | [Usage](usage.md) | [Downloads](downloads.md) |
