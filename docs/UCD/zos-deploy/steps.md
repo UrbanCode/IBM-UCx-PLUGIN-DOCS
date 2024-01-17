@@ -248,7 +248,12 @@ Run TSO and ISPF commands using the ISPF gateway.
 
 ### Submit Job
 
-Submit job. **Note:** Using passphrase in place of password is supported from JMON version v2.9.14. Passphrase authentication is enabled by setting property PASS_PHRASE to ON in JMON configurations. JMON binaries with passphrase support are copied to #HLQ#.SBUZAUTH dataset from agent version 7.1.2.0 after agent install or upgrade.
+Submit job.
+
+**Note:**
+* Using passphrase in place of password is supported from JMON version v2.9.14. Passphrase authentication is enabled by setting property PASS_PHRASE to ON in JMON configurations. JMON binaries with passphrase support are copied to #HLQ#.SBUZAUTH dataset from agent version 7.1.2.0 after agent install or upgrade.
+* When the JCL Line with replace tokens is 72 characters long, last character is assumed to be continuation character and this character is kept intact during token replacement and submitting Job.
+* When the JCL Line with replace tokens is 80 characters long, the 72nd character is assumed to be continuation character and the characters 73-80 are considered to be sequence numbers. In this case, the characters 72-80 are kept intact during token replacement and submitting job.
 
 | Name                                          | Type                                            | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | Required |
 |-----------------------------------------------|-------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
