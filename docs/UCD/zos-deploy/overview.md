@@ -46,6 +46,11 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 ### History
 
+#### Version 88
+
+* Fixed PH57595 - ROLLBACK DATASET STEP DELETES PDS AFTER DELETING ALL THE NEWLY CREATED MEMBERS DURING DEPLOYMENT
+* Minor improvements
+
 #### Version 87
 
 * Added new plugin step - Restore Backup Datasets
@@ -347,4 +352,4 @@ This release includes the following updates:
 
 |          Back to ...          |                                |                                                        Latest Version                                                         |    z/OS Utility     |                                       |                   |                   |                           |
 |:-----------------------------:|:------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------:|:-------------------:|:-------------------------------------:|:-----------------:|:-----------------:|:-------------------------:|
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [87.1164411](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-87.1164411.zip) | [Readme](README.md) | [Troubleshooting](troubleshooting.md) | [Steps](steps.md) | [Usage](usage.md) | [Downloads](downloads.md) |
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [88.1164921](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-88.1164921.zip) | [Readme](README.md) | [Troubleshooting](troubleshooting.md) | [Steps](steps.md) | [Usage](usage.md) | [Downloads](downloads.md) |
