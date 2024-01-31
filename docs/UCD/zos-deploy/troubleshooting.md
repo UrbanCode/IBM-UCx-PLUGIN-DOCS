@@ -14,15 +14,17 @@ If you use the Run TSO or ISPF Command step to run a TSO command, the return cod
 
 The local repository referred to in the Copy Artifacts and FTP Artifacts steps is not the Codestation repository, but rather the z/OS deployment tools artifact repository. You specify this directory when you install the z/OS deployment tools. By default, the artifact repository is the following directory: *agent\_installation\_directory*/var/repository. To learn more, see [Completing the installation of the z/OS deployment tools](http://www-01.ibm.com/support/knowledgecenter/SS4GSP_6.2.1/com.ibm.udeploy.doc/topics/zos_installing_finish.html?lang=en).
 
-## Fix for APAR PH57385 - Error deploying version.Status code - 400
+## Disable inputs for Z Inventory
 
-Follow below steps to resolve the issue.
+Follow below steps to disable inputs for Z Inventory.
 
 * Upgrade the z/OS Utility plugin to latest version.
 * Take a backup of <AGENT_HOME>/bin/setenv-zos.sh file
 * Edit <AGENT_HOME>/bin/setenv-zos.sh file and add "ignore.zsearch.inputs" property in ZOS_JAVA_OPTS export command as below.
 >export ZOS_JAVA_OPTS='-Xmx128m -Dignore.zsearch.inputs="true"'
 * Restart the Agent for changes to be applied.
+
+**Note:** This will also fix APAR PH57385 - Error deploying version.Status code - 400 
 
 
 

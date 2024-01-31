@@ -127,6 +127,9 @@ For each artifact in a delta deployment, the following attributes are compared t
 | Custom properties starting with **SYS.id** (aka identification properties) | INVENTORY  | These properties provide an open framework for the customer or provider to add additional attributes to indicate whether two artifacts are the same. Two artifacts are considered the same when all attributes that are used for comparison match exactly.                                                                                                                                                                              |
 | checksum                                                                   | RUNTIME    | The checksum value is determined when the version is packaged. During a **RUNTIME** deployment, the checksum is calculated for the artifact in the target environment and compared with the checksum calculated during the version creation. These properties can be hash or binder information for load modules.                                                                                                                       |
 
+* To prevent adding inputs data to Z Inventory table follow [Disable inputs for Z Inventory](troubleshooting.md#disable-inputs-for-z-inventory). 
+  This will keep the size of the Z Inventory table in check.
+
 ### FTP Artifacts
 
 Load artifacts from a remote repository using FTP.
