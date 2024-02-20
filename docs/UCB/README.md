@@ -193,7 +193,7 @@ The CodeStation plug-in provides steps to download artifacts from and upload art
 
 |Back to ...||CodeStation |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](CodeStation/README.md)|[24.1069469](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/CodeStation/codestation-24.1069469.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](CodeStation/README.md)|[25.1165172](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/CodeStation/codestation-25.1165172.zip)|
 
 ## CppUnit
 

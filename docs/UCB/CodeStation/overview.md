@@ -24,6 +24,10 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 ### History
 
+#### Version 25
+
+CodeStation failures are resolved.
+
 #### Version 24
 
 Add option to set agent’s codestation cache dir.
@@ -75,4 +79,4 @@ This version of the plug-in uses a newer version of the CodeStation client, whic
 
 |Back to ...||Latest Version|CodeStation |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[24.1069469](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/CodeStation/codestation-24.1069469.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[25.1165172](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/CodeStation/codestation-25.1165172.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|

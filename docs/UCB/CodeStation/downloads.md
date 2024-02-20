@@ -2,8 +2,9 @@
 CodeStation - Downloads
 =======================
 
-# Downloads
+# Downloads 25.1165172
 
+- [codestation-25.1165172.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/CodeStation/codestation-25.1165172.zip)
 - [codestation-24.1069469.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/CodeStation/codestation-24.1069469.zip)
 - [codestation-23.1033008.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/CodeStation/codestation-23.1033008.zip)
 - [codestation-22.1026046.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/CodeStation/codestation-22.1026046.zip)
@@ -26,4 +27,4 @@ CodeStation - Downloads
 
 |Back to ...||Latest Version|CodeStation |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[24.1069469](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/CodeStation/codestation-24.1069469.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|
+|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[25.1165172](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/CodeStation/codestation-25.1165172.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|
