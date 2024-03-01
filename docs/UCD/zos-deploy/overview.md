@@ -64,6 +64,12 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 * Added new plugin step - Restore Backup Datasets
 * Use Legacy ISPF Gateway to run programs by default
+* Fixed NoSuchMethodError during HFS deployment
+* Improvements in Submit Job step.
+  **Note:** As part of the improvement, the order of authentication method is changed to below
+  1. Use Agent/Impersonation Id
+  2. Use PassTicket
+  3. Use Password
 
 #### Version 86
 
