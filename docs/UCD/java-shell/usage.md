@@ -1,6 +1,9 @@
 
 # z/OS Shell - Usage
 
+> **Deprecation Notice**: The z/OS Shell plugin is deprecated. It is recommended to use the [Shell plugin](../Shell/README.md) instead.
+To download the plug-in, click the following version-specific links.
+
 Use z/OS Shell plug-in to run a Shell script as part of the deployment process. The plug-in step contains the scripts.
 
 The plug-in step waits until the command is complete. For best results, run commands that complete or run the commands in the background. If a command runs indefinitely, the step and the process that contains the step wait indefinitely.
