@@ -2526,7 +2526,7 @@ The z/OS Multi Generate Artifact Information plug-in scans version artifacts and
 |:--------------------------:|:----------------------------------------:|:----------------------------------------------------:| :---: |
 | [All Plugins](../index.md) |             [Top](#contents)             | [Readme](zos-multi-generate-artifact-info/README.md) |[8.1164047](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-multi-generate-artifact-info/ucd-plugins-zos-multi-generate-artifact-info-8.1164047.zip)|
 
-## z/OS Shell
+## z/OS Shell [Deprecated]
 
 > **Deprecation Notice**: The z/OS Shell plugin is deprecated. It is recommended to use the [Shell plugin](../Shell/README.md) instead.
 To download the plug-in, click the following version-specific links.
