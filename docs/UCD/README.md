@@ -232,7 +232,7 @@
 	- [z/OS File Source Config](#zos-file-source-config)
 	- [z/OS Management Facility](#zos-management-facility)
 	- [z/OS Multi Generate Artifact Information](#zos-multi-generate-artifact-information)
-	- [z/OS Shell \[Deprecated\]](#zos-shell)
+	- [z/OS Shell \[Deprecated\]](#zos-shell-deprecated)
 	- [z/OS USS Utility](#zos-uss-utility)
 	- [z/OS Utility](#zos-utility)
 	- [z/OS Rexx Executor](#zos-rexx-executor)
