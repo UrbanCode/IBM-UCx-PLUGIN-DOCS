@@ -21,7 +21,11 @@ Follow below steps to disable inputs for Z Inventory.
 * Upgrade the z/OS Utility plugin to latest version.
 * Take a backup of `AGENT_HOME/bin/setenv-zos.sh` file
 * Edit `AGENT_HOME/bin/setenv-zos.sh` file and add `ignore.zsearch.inputs` property in `ZOS_JAVA_OPTS` export command as below setting it to `true`.
->export ZOS_JAVA_OPTS='-Xmx128m -Dignore.zsearch.inputs=true'
+
+  ```
+    export ZOS_JAVA_OPTS='-Xmx128m -Dignore.zsearch.inputs=true' 
+  ```
+
 * Restart the Agent for changes to be applied.
 
 **Note:** This will also fix APAR PH57385 - Error deploying version.Status code - 400 
