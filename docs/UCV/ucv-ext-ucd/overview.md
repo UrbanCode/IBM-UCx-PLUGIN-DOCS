@@ -1,11 +1,11 @@
 
-# Urbancode Deploy - Overview
+# IBM DevOps Deploy - Overview
 
-The UrbanCode Deploy plugin for DevOps Velocity synchronizes applications, processes, components, versions, snapshots, teams, environments, and more from UrbanCode Deploy. A Deploy application can be configured as an application in an DevOps Velocity pipeline and the UrbanCode Deploy processes can be configured in the DevOps Velocity pipeline. The DevOps Velocity Pipeline can then display the latest version of the application deployed to different environments.
+The IBM DevOps Deploy plugin for DevOps Velocity synchronizes applications, processes, components, versions, snapshots, teams, environments, and more from IBM DevOps Deploy. A Deploy application can be configured as an application in an DevOps Velocity pipeline and the IBM DevOps Deploy processes can be configured in the DevOps Velocity pipeline. The DevOps Velocity Pipeline can then display the latest version of the application deployed to different environments.
 
 ## Compatibility
 
-The UrbanCode Deploy plug-in requires DevOps Velocity version 2.3 or later.
+The IBM DevOps Deploy plug-in requires DevOps Velocity version 2.3 or later.
 
 ## Versions
 
@@ -24,12 +24,12 @@ DevOps Velocity plug-in images are located in DockerHub. To view available versi
 
 ### Version 3.3.56
 
-* **Removed UrbanCode Deploy Status Task**: Assign status task is removed and made part of main UrbanCode Deploy Task as post deployment success or failure step for assigning Snapshot or Component Version status.
+* **Removed IBM DevOps Deploy Status Task**: Assign status task is removed and made part of main IBM DevOps Deploy Task as post deployment success or failure step for assigning Snapshot or Component Version status.
 
 
 ### Version 2.3.52
 
-* **Internal Server Error Fix**: The urbancode deploy plugin was giving internal server error while syncing the application processes from the UCD server.
+* **Internal Server Error Fix**: The IBM DevOps Deploy plugin was giving internal server error while syncing the application processes from the UCD server.
 
 ### Version 2.3.51
 
@@ -37,7 +37,7 @@ DevOps Velocity plug-in images are located in DockerHub. To view available versi
 
 ### Version 1.0.16
 
-* **Corrected incorrectly spelled plugin name**: In urbancode deploy plugin, display name was incorrectly spelled as Ubrancode deploy. Now corrected to Urbancode deploy.
+* **Corrected incorrectly spelled plugin name**: In IBM DevOps Deploy plugin, display name was incorrectly spelled as Ubrancode deploy. Now corrected to IBM DevOps Deploy.
 
 ### Version 1.0.12
 
@@ -52,6 +52,6 @@ DevOps Velocity plug-in images are located in DockerHub. To view available versi
 * Initial release.
 
 
-|Back to ...||Latest Version|Urbancode Deploy |||
+|Back to ...||Latest Version|IBM DevOps Deploy |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
 |[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[3.4.5](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-ucd/ucv-ext-ucd:3.4.5.tar.7z.001)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
