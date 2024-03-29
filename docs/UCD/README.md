@@ -996,7 +996,7 @@ IBM DevOps Test Hub (Test Hub) brings together test data, test environments, and
 
 |Back to ...||IBM DevOps Test Hub |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](IBMDevOpsTestHub/README.md)|[4.0](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IBMDevOpsTestHub/DTHub-DD-IBM-4.0.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](IBMDevOpsTestHub/README.md)|[4.1](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IBMDevOpsTestHub/DTHub-DD-IBM-4.1.zip)|
 
 ## IBM DevOps Test Performance
 
@@ -1006,7 +1006,7 @@ IBM DevOps Test Performance is a performance testing solution that validates the
 
 |Back to ...||IBM DevOps Test Performance |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](IBMDevOpsTestPerf/README.md)|[10.0](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IBMDevOpsTestPerf/DTPerf-DD-IBM-10.0.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](IBMDevOpsTestPerf/README.md)|[10.1](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IBMDevOpsTestPerf/DTPerf-DD-IBM-10.1.zip)|
 
 ## IBM DevOps Test UI
 
@@ -1017,7 +1017,7 @@ The IBM UrbanCode Deploy plug-in for Test UI includes process steps for running 
 
 |Back to ...||IBM DevOps Test UI |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](IBMDevOpsTestUI/README.md)|[7.0](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IBMDevOpsTestUI/DTUI-FunctionalTest-DD-IBM-7.0.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](IBMDevOpsTestUI/README.md)|[7.1](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IBMDevOpsTestUI/DTUI-FunctionalTest-DD-IBM-7.1.zip)|
 
 ## IBM DevOps Test UI-WebUI
 
@@ -1028,7 +1028,7 @@ The IBM UrbanCode Deploy plug-in for IBM DevOps Test UI - WebUI includes process
 
 |Back to ...||IBM DevOps Test UI-WebUI |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](IBMDevOpsTestUIWebUI/README.md)|[12.0](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IBMDevOpsTestUIWebUI/DTUI-UITest-DD-IBM-12.0.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](IBMDevOpsTestUIWebUI/README.md)|[12.1](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IBMDevOpsTestUIWebUI/DTUI-UITest-DD-IBM-12.1.zip)|
 
 ## IBM DevOps Test Virtualization
 
@@ -1039,7 +1039,7 @@ You can use this plug-in to integrate DevOps Test Vitualization server with Urba
 
 |Back to ...||IBM DevOps Test Virtualization |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](IBMDevOpsTestVirtualization/README.md)|[5.0](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IBMDevOpsTestVirtualization/DTVirtualization-DD-IBM-5.0.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](IBMDevOpsTestVirtualization/README.md)|[5.1](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IBMDevOpsTestVirtualization/DTVirtualization-DD-IBM-5.1.zip)|
 
 ## IBM Globalization Pipeline  [community plugin]
 
