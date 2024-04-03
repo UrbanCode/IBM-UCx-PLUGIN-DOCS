@@ -31,7 +31,7 @@ This plug-in is installed when installing IBM UrbanCode Deploy. When new plug-in
 
 ## History
 
-###
+### Version 9
 
 * Minor code improvements
 
