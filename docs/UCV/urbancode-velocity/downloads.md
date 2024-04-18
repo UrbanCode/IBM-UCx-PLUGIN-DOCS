@@ -1,4 +1,4 @@
-# Jenkins For Urbancode Velocity - Downloads
+# Jenkins For DevOps Velocity - Downloads
 
 To download the plugins, click the following version specific links.
 

@@ -62,7 +62,10 @@ The configuration properties which are included in the `properties` field are un
 | DevOps Velocity User Access Key | Secure | The user access key to authenticate with the DevOps Velocity server. | Yes | ucvAccessKey |
 | User Name | String | The user name to use to authenticate with the AppScan Enterprise server. | Yes | username |
 | URL | String | The URL of the AppScan Enterprise server. Include the port number. | Yes | url |
-
+| Run as Scheduled Event | Boolean | Check the box to run the intergration as Scheduled Event. | No | isScheduledEvent |
+| Get Issue Level Data | Boolean | Check the box to get issue level data. | No | getIssueLevelData |
+| Applications (Newline seprated list) | Multiline | Newline seprated list of application names. If kept empty all applications will be synced. | No | applications |
+| Workflow Id | String | The value stream that this metric is associated. | No | workflowId |
 
 
 
@@ -70,4 +73,4 @@ The configuration properties which are included in the `properties` field are un
 
 |Back to ...||Latest Version|HCL AppScan Enterprise (ASE) |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[2.0.47](https://github.com/UrbanCode/IBM-UCV-PLUGINS/raw/main/files/ucv-ext-appscan/ucv-ext-appscan:2.0.47.tar.7z.001)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[2.0.51-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-appscan/ucv-ext-appscan%3A2.0.51.tar.7z.001)[and 2.0.51-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-appscan/ucv-ext-appscan%3A2.0.51.tar.7z.002)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

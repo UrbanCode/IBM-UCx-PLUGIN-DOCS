@@ -19,15 +19,28 @@ DevOps Velocity plug-in images are located in DockerHub. To view available versi
 
 ## History
 
+### Version 1.4.16
+
+* **Enhancement**: This enhancement modifies the plugins synchronization behavior following a failure. Previously, the plugin would resume syncing from the date of the last successful synchronization. Now, it has been updated to continue syncing commits, pull-requests, and issues from the point where it last synced before the failure. This change ensures more accurate and efficient data synchronization by reducing the likelihood of missing or duplicating data in cases where the plugin had partially synced before encountering an issue.
+
+### Version 1.4.7
+
+* Wild Card feature for additional branches field in GitHub Plugin
+
+### Version 1.4.5
+
+* **Feature**: Syncing Yaml files from different repositories
+Note - This feature is only supported in DevOps Velocity versions 4.0.11 or above .
+
 ### Version 1.3.46
 
-* Bug Fix: previous version was failing to upload commit of large size.
+* **Bug Fix** : previous version was failing to upload commit of large size.
 ### Version 1.3.35
 
 * Minor Enhancements
 ### Version 1.3.34
 
-* **Removed Manual User Access Key**: From current version onwards this plugin will only support Auto Generated User Access Key feature of Urbancode Velocity.
+* **Removed Manual User Access Key**: From current version onwards this plugin will only support Auto Generated User Access Key feature of DevOps Velocity.
 * **Added Category**:ALM | SCM | BUILD are the categories of Github plugin . Also added global regex pattern to generate default link rule.
 
 ### Version 1.2.25
@@ -132,4 +145,4 @@ DevOps Velocity plug-in images are located in DockerHub. To view available versi
 
 |Back to ...||Latest Version|GitHub |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.3.46](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-github/ucv-ext-github:1.3.46.tar.7z.001)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.4.16-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-github/ucv-ext-github%3A1.4.16.tar.7z.001)[and 1.4.16-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-github/ucv-ext-github%3A1.4.16.tar.7z.002)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|

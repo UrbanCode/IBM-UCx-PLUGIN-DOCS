@@ -2,8 +2,8 @@
 # SonarQube - Overview
 
 DevOps Velocity elevates the value of code quality data by providing a rich context for visibility,
-analysis, and results. SonarQube metrics used by Velocity include bugs, code smells, and security vulnerabilities. From
-an operational perspective, continuous integration often relies on quality gates to keep code quality high. UrbanCode
+analysis, and results. SonarQube metrics used by DevOps Velocity include bugs, code smells, and security vulnerabilities. From
+an operational perspective, continuous integration often relies on quality gates to keep code quality high. DevOps
 Velocity is designed for operational value as well.SonarQube integrates with Velocity by targeting an integration
 endpoint URL with a webhook. SonarQube will then notify that endpoint to retrieve data whenever a project analysis
 finishes. The following diagram shows the flow between SonarQube and DevOps Velocity.![](/wp-
@@ -18,6 +18,10 @@ Must be running DevOps Velocity version 1.2.1 or later to use the plug-in.
 DevOps Velocity plug-in images are located in DockerHub. To view available versions, see [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-sonarqube/tags).
 
 ## History
+
+### Version 1.0.65
+
+* Reduced Vulnerabilities
 
 ### Version 1.0.50
 

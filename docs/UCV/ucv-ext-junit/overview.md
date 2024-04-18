@@ -1,7 +1,7 @@
 
 # JUnit - Overview
 
-The JUnit plug-in provides for integration with a JUnit server. Data is uploaded to the UrbanCode
+The JUnit plug-in provides for integration with a JUnit server. Data is uploaded to the DevOps
 Velocity server using an HTTP Post request.
 
 ## Compatibility
@@ -15,6 +15,10 @@ view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/
 
 
 ## History
+
+### Version 1.0.
+
+* Reduce vulnerabilities
 
 ### Version 1.0.66
 

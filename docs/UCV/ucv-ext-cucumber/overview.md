@@ -14,6 +14,14 @@ There is no install process for this plug-in. DevOps Velocity plug-in images are
 
 ## History
 
+### Version 1.0.34
+
+* xml2json alternative added
+
+### Version 1.0.33
+
+* Reduced Vulnerabilities
+
 ### Version 1.0.8
 
 * Support Multiple Test Suites

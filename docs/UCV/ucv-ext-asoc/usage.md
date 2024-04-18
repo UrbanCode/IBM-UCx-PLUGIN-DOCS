@@ -66,11 +66,17 @@ The payload for the POST is shown below.
 |Name|Description|Required|
 | --- | --- | --- |
 |scanId|The scan ID from the scan ran in ASoC. It is a mandatory field to render the scan results in Insights.	|Yes|
-|buildUrl|The build URL from the CI/CD tool such as Jenkins, HCL launch and so on. It is an optional field which links the ASoC scan results with UranCode Velocity|No|
+|buildUrl|The build URL from the CI/CD tool such as Jenkins, HCL DevOps Deploy and so on. It is an optional field which links the ASoC scan results with DevOps Velocity|No|
 
 ### Scheduled Integration
 
 You can use the HCL AppScan on Cloud plug-in’s scheduled event integration to automatically sync or import the scan data into DevOps Velocity’s application vulnerabilities metrics at regular interval of time. Currently, HCL AppScan on Cloud plug-in sync or import scan data from HCL AppScan on Cloud to DevOps Velocity at an interval of 5 minutes.
+
+### Integration Type
+
+| Name | Description                                                                                         |
+| ---- | --------------------------------------------------------------------------------------------------- |
+| Sync ASoC Data | Sync scan data from ASoC |
 
 ## Integration
 
@@ -132,11 +138,18 @@ Some properties might not be displayed in the user interface, to see all propert
 
 | Name | Type | Description | Required | Property Name |
 | --- | --- | --- | --- | --- |
-| Key ID | String | The key ID to authenticate with the Application Security On Cloud server. | Yes | keyId |
-| URL | String | The URL of the Application Security on Cloud server. | Yes | asocUrl |
+| ASoC API Key ID | String | The key ID to authenticate with the Application Security On Cloud server. | Yes | keyId |
 | Key Secret | Secure | The key secret to authenticate with the Application Security On Cloud server. | Yes | keySecret |
 | DevOps Velocity User Access Key | Secure | The user access key to authenticate with the DevOps Velocity server. | Yes | ucvAccessKey |
 |Run as a Scheduled Event|Boolean|To integrate the plug-in as a Scheduled Event. Set this property to “true” to run the integration as a scheduled event.|No|isScheduledEvent|
+| Proxy Password | Secure | The password used to authenticate with the proxy server. | No | proxyPassword |
+| Proxy Server | String | The URL of the proxy server including the port number. The URL protocol can be http or https. | No | proxyServer |
+| Proxy User Name | String | The user name used to authenticate with the proxy server. | No | proxyUsername |
+
+|ASoC Base URL | String | The base URL of the Application Security on Cloud server. E.G. https://cloud.appscan.com/. | No | asocUrl |
+| ASoC Application | String | Application name in ASoC | No | application |
+| ASoC Policies | Array | Comma separated list of Policy names in ASoC - eg: OWASP Top 10 Mobile 2016, International Standard - ISO 27002 | No | policies |
+| Workflow Id | String | The value stream that this metric is associated. | Yes | workflowId |
 
 ## JSON code sample
 
@@ -162,4 +175,4 @@ The following sample code can be used as a template to define the integration wi
 
 |Back to ...||Latest Version|HCL AppScan on Cloud (ASoC) |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[3.0.12](https://github.com/UrbanCode/IBM-UCV-PLUGINS/raw/main/files/ucv-ext-asoc/ucv-ext-asoc:3.0.12.tar.7z.001)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[3.0.19](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-asoc/ucv-ext-asoc%3A3.0.19.tar.7z.001)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

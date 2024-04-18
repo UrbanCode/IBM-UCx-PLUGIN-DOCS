@@ -64,15 +64,17 @@ Some properties might not be displayed in the user interface, to see all propert
 | Name                | Type   | Description                                                                                                                                           | Required | Property Name    |
 | ------------------- | ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ---------------- |
 | User Access Key     | Secure | The access token secret for oauth authentication.                                                                                                     | Yes      | ucvAccessKey     |
-| Base Api Url        | String | The URL to the API.                                                                                                                                   | Yes      | baseApiUrl       |
 | Username            | String | The user name used to authenticate with the Bitbucket cloud instance.You can find it here https://bitbucket.org/account/settings/                     | Yes      | consumer\_secret |
-| Password            | Secure | The App password used to authenticate with the Bitbucket cloud instance.You can create one here https://bitbucket.org/account/settings/app-passwords/ | Yes      | password         |
+| App Password            | Secure | The App password used to authenticate with the Bitbucket cloud instance.You can create one here https://bitbucket.org/account/settings/app-passwords/ | Yes      | password         |
 | Project Key         | String | The repository project key.                                                                                                                           | Yes      | projectKey       |
 | Project Name        | String | The name of the project which contains one or more repositories.                                                                                      | Yes      | projectName      |
 | Repository Name     | Array  | The comma separated name of the repositories                                                                                                          | Yes      | repositoryName   |
-| Repository Slug     | String | The slug of the repository.                                                                                                                           | Yes      | repositorySlug   |
+| API Limits     | String | Maximum API calls that the plugin will make in a single run.                                                                                           | No      | apiLimits   |
 | Branch Name         | String | The branch to pull changes from.                                                                                                                      | No       | branchName       |
 | Additional Branches | Array  | Comma seperated names of additional branches to collect commits from besides the main one, leave blank if not needed.                                 | No       | otherBranches    |
+| Proxy Password | Secure | The password used to authenticate with the proxy server. | No | proxyPassword |
+| Proxy Server | String | The URL of the proxy server including the port number. The URL protocol can be http or https. | No | proxyServer |
+| Proxy User Name | String | The user name used to authenticate with the proxy server. | No | proxyUsername |
 
 ## JSON code example
 
@@ -102,4 +104,4 @@ The following example can be used as a template to define the integration within
 
 |Back to ...||Latest Version|BitBucket Cloud |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.29](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bitbucket-cloud/ucv-ext-bitbucket-cloud:1.0.29.tar.7z.001)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.29](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bitbucket-cloud/ucv-ext-bitbucket-cloud%3A1.0.29.tar.7z.001)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

@@ -13,6 +13,10 @@ There is no install process for this plug-in. The Azure DevOps plug-in is identi
 
 ## History
 
+### Version 4.0.40
+
+* Minor Bug Fix
+
 ### Version 4.0.38
 
 * Minor Enhancements
@@ -22,14 +26,23 @@ There is no install process for this plug-in. The Azure DevOps plug-in is identi
 * Minor Enhancements
 * Pipelines issue fixed
 
-### Version 4.0.3
+### Version 4.0.36
 
-* ReSync support added. Applies to UrbanCode
-Velocity version 2.4.4 or later.
+* **Removed Manual User Access Key:** From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL DevOps Velocity.
+
+### Version 4.0.35
+
+* **Clarifying delimitation** : For the properties used in index.js file clarified delimitation problem . Updated label information and description as comma separated list must be used. So that it is more clear while integrating.
+
+### Version 4.0.29
+
+* Optional feature of pushing pipeline runs with predefined tags as builds to HCL DevOps Velocity.
+* Bug fix related to build status
+
 
 ### Version 4.0.26
 
-* Auto generated User Access Key Related Changes.(For velocity version 3.0.0 we started supporting auto generated user access key. For version prior to 3.0.0 manually add user access key in the hidden field.)
+* Auto generated User Access Key Related Changes.(For DevOps velocity version 3.0.0 we started supporting auto generated user access key. For version prior to 3.0.0 manually add user access key in the hidden field.)
 
 ### Version 4.0.16
 
@@ -38,6 +51,11 @@ Velocity version 2.4.4 or later.
 ### Version 4.0.15
 
 * Adding logger and UCV functionality.
+
+### Version 4.0.3
+
+* ReSync support added. Applies to UrbanCode
+Velocity version 2.4.4 or later.
 
 ### Version 4.0.1
 
@@ -94,4 +112,4 @@ bug fix.
 
 |Back to ...||Latest Version|Azure DevOps |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[4.0.38](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-azure/ucv-ext-azure-4.0.38.tar.7z.001)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[4.0.40-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-azure/ucv-ext-azure%3A4.0.40.tar.7z.001)[and 4.0.40-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-azure/ucv-ext-azure%3A4.0.40.tar.7z.002)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|

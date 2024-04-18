@@ -15,6 +15,12 @@ DevOps Velocity plug-in images are located in DockerHub. To view available versi
 
 ## History
 
+### Version 1.0.34
+
+* **Minor bug fix**:Fixed bug related to test results URL generated in plugin.
+* **Removed Manual User Access Key**: From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL DevOps Velocity.
+* **Added WorkflowId**: Under the hidden properties section of add integration page for rational-test-automation-server plugin a Workflow ID field is added. This field is optional and can be used to provide HCL DevOps Velocity WorkflowId - the ID of a Value Stream (VSM )to which rational-test-automation-server vulnerability data is associated.
+
 ### Version 1.0.22
 
 * User access key related changes.
@@ -35,4 +41,4 @@ DevOps Velocity plug-in images are located in DockerHub. To view available versi
 
 |Back to ...||Latest Version|Rational Test Automation Server |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.22](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-rtas/ucv-ext-rtas-1.0.22.tar.zip)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.34-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-rtas/ucv-ext-rtas%3A1.0.34.tar.7z.001)[and 1.0.34-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-rtas/ucv-ext-rtas%3A1.0.34.tar.7z.002)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|

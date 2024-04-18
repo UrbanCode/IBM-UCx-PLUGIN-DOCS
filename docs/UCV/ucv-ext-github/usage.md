@@ -12,6 +12,8 @@ The GitHub plug-in supports scheduled events integration which are listed in the
 | syncGithubIssuesEvent | Queries the GitHub repository for issues. |
 | syncGithubCommitsEvent | Queries the GitHub repository for commits. |
 | syncGithubPullRequestsEvent | Queries the GitHub repository for pull requests. |
+| Sync GitHub Actions | Query for CI processes using GitHub Actions in a repository |
+| Sync GitHub Yaml File | Query GitHub for yaml file in repository |
 
 ## Integration
 
@@ -65,7 +67,7 @@ The following tables describe the properties used to configure the integration. 
 | Owner | String | The owner name of the GitHub repository. | Yes | owner |
 | Repositories | Array | List of GitHub repositories, Use either Repositories field or name field to specify the repositories. | Yes | repositories |
 | branch | String | GitHub repositories branch, The branch to pull commits from. | No | branch |
-| Token | String | The token to use to authenticate with the GitHub repository. | No | token |
+| Personal access token | String | The Personal Access Token used to authenticate with Github repositories. | No | token |
 | Additional branches | Array | Additional branches to collect commits from besides the main one, leave blank if not needed. | No | otherBranches |
 | Proxy Server | String | The URL of the proxy server including the port number. | No | proxyServer |
 | Proxy User Name | String | The user name used to authenticate with the proxy server. | No | proxyUsername |
@@ -101,4 +103,4 @@ The following example can be used as a template to define the integration within
 
 |Back to ...||Latest Version|GitHub |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.3.46](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-github/ucv-ext-github:1.3.46.tar.7z.001)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.4.16-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-github/ucv-ext-github%3A1.4.16.tar.7z.001)[and 1.4.16-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-github/ucv-ext-github%3A1.4.16.tar.7z.002)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

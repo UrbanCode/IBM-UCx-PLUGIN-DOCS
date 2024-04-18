@@ -21,6 +21,8 @@ The ServiceNow plug-in supports scheduled events integration which are listed in
 | syncIncidentData | Queries the ServiceNow repository for Incidents |
 | syncChangeData | Queries the ServiceNow repository for Change request |
 | syncProblemData | Queries the ServiceNow repository for Problems |
+| ServiceNowWaitChangeTask | Checking all release Event task waiting field status |
+| ServiceNowWaitRequests | Checking all release Event task waiting field status |
 
 ## Integration
 
@@ -57,6 +59,7 @@ The configuration properties which are included in the `properties` field are un
 | Proxy Server | String | The URL of the proxy server including the port number. | No | proxyServer |
 | Proxy User Name | String | The user name used to authenticate with the proxy server. | No | proxyUsername |
 | Proxy Password | String | The password used to authenticate with the proxy server. | No | proxyPassword |
+| Page Size | String | The number of issues retrieved per page. | No | pageSize |
 
 ## Example
 
@@ -74,7 +77,7 @@ for ServiceNow",
 "logginglevel": "info",
 "properties": {
 
-"ucvAccessKey": "*urbancodevelocity\_user\_accesskey*",
+"ucvAccessKey": "*DevOpsvelocity\_user\_accesskey*",
 "baseUrl": "*url\_servicenow\_server*",
 
 "username": "*user\_name*",
@@ -104,7 +107,7 @@ servicenow",
 "logginglevel": "info",
 
 "properties": {
-"ucvAccessKey": "*urbancodevelocity\_user\_accesskey*",
+"ucvAccessKey": "*DevOpsvelocity\_user\_accesskey*",
 "baseUrl":
 "*url\_servicenow\_server*",
 "username": "*user\_name*",
@@ -126,4 +129,4 @@ servicenow",
 
 |Back to ...||Latest Version|ServiceNow |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.27](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-servicenow/ucv-ext-servicenow-1.0.27.tar.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.1.3-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.1.3.tar.7z.001)[and 1.1.3-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.1.3.tar.7z.002)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

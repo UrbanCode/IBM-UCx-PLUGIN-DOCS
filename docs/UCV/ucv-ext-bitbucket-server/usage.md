@@ -62,14 +62,14 @@ The following tables describe the properties used to configure the integration. 
 | --- | --- | --- | --- | --- |
 | Access Token | String | The access token for oauth authentication. | No | access\_token |
 | Access Token Secret | Secure | The access token secret for oauth authentication. | No | access\_token\_secret |
-| API URL | String | The URL to the API. | Yes | baseApiUrl |
+| Base API URL | String | The URL to the API. | Yes | baseApiUrl |
 |Consumer Key | String | The consumer key for oauth authentication. | No | consumer\_key |
 | Consumer Secret | Secure |The consumer secret for oauth authentication. | No | consumer\_secret |
 | Password | Secure | The password associated with the user name to authenticate with the BitBucket server. | Yes | password |
 | Project Key | String | The repository project key. | Yes | projectKey |
 | Project Name | String | The name of the project which contains one or more repositories. | Yes | projectName |
-| Repository Name | String | The name of the repository. | Yes | repositoryName |
-|Repository Slug | String | The slug of the repository. | Yes | repositorySlug |
+| Repository Name | Array | Add list of comma seprated names of the repository. | Yes | repositoryName |
+|Branch | String | The name of the branch to pull changes from. | No | branchName |
 | Signature Method | String | The name of the signature method for oauth authentication. | No | signature\_method |
 | User Name | String | The user name used to authenticate with the Bitbucket server. | No | username |
 | Additional branches | Array | Additional branches to collect commits from besides the main one, leave blank if not needed. Regular Expression is also enabled(ex-PLUGINS*,*) | No | otherBranches |
@@ -105,4 +105,4 @@ bitbucket-server",
 
 |Back to ...||Latest Version|BitBucket Server |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.1.26](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bitbucket-server/ucv-ext-bitbucket-server:1.1.26.tar.7z.001)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.1.26](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bitbucket-server/ucv-ext-bitbucket-server%3A1.1.26.tar.7z.001)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

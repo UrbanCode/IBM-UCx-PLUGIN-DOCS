@@ -1,17 +1,17 @@
 
-# Jenkins For Urbancode Velocity - Overview
+# Jenkins For DevOps Velocity - Overview
 
-The UrbanCode Velocity plugin for Jenkins allows you to perform the following functions:
+The DevOps Velocity plugin for Jenkins allows you to perform the following functions:
 
-   * Post job metadata to your UrbanCode Velocity instance.
-   * Invoke jobs from UrbanCode Velocity to trigger jobs and pipelines without a special firewall configuration.
+   * Post job metadata to your DevOps Velocity instance.
+   * Invoke jobs from DevOps Velocity to trigger jobs and pipelines without a special firewall configuration.
    * Updates status of running jobs with links to the execution.
-   * Job executions create versions in an UrbanCode Velocity pipeline.
+   * Job executions create versions in an DevOps Velocity pipeline.
    * Detects quality data provided by IBM Deployment Risk Analytics.
 
 ## Compatibility
 
-Must be running UrbanCode Velocity version 2.0 or later to use the plugin.
+Must be running DevOps Velocity version 2.0 or later to use the plugin.
 
 ## Versions
 
@@ -19,7 +19,7 @@ Must be running UrbanCode Velocity version 2.0 or later to use the plugin.
 
 ### Version 3.0.1
 
-* **Improving UI logging and Messaging**: Plugin logging information has been improved. Also cross validation of Urbancode Velocity instance credentials has been made.
+* **Improving UI logging and Messaging**: Plugin logging information has been improved. Also cross validation of DevOps Velocity instance credentials has been made.
 
 ### Version 3.0.0
 

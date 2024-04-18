@@ -66,8 +66,7 @@ The following tables describe the properties you use to configure the integratio
 | Proxy Server | String | The URL of the proxy server including the port number. | No | proxyServer |
 | Proxy User Name | String | The user name used to authenticate with the proxy server. | No | proxyUsername |
 | Repositories | Array | A comma seperated list of repositories from which to import pull requests, commits, and build data. | Yes | repositories |
-| URL| String | API URL of CircleCI. | Yes | apiUrl |
-| User Access Key | String | The user access key used to authenticate with the IBM DevOps Velocity server.| Yes | velocityAccessKey |
+| API URL| String | API URL of CircleCI. | Yes | apiUrl |
 
 ## JSON code example
 
@@ -99,4 +98,4 @@ You can use the following example as a template to define the integration within
 
 |Back to ...||Latest Version|CircleCI |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.24](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-circleci/ucv-ext-circleci-1.0.24.tar.7z.001)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.24](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-circleci/ucv-ext-circleci%3A1.0.24.tar.7z.001)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

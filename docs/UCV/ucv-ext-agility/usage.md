@@ -13,8 +13,7 @@ listed in the following table.
 
 | Name | Description |
 | --- | --- |
-| SyncV1WorkItems | Queries the Digital.io
-Agility server for new or updated work items. |
+| Sync Digital.ai Agility WorkItems | Query Digital.ai Agility for Work Items in a group of projects |
 
 ## Integration
 
@@ -78,7 +77,7 @@ using the user interface and the property name when using a JSON file.
 | Proxy Password | Secure | The password used to authenticate with the proxy server. | No | Yes | proxyPassword |
 | Proxy Server | String | The URL of the proxy server including the port number. The URL protocol can be http or https. | No | Yes | proxyServer |
 | Proxy User Name | String | The user name used to authenticate with the proxy server. | No | Yes | proxyUsername |
-| User Access Key | Secure | The user access key generated from DevOps Velocity used to authenticate with the DevOps Velocity server. | Yes | No | ucvAccessKey |
+| User Access Key | Secure | The user access key generated from DevOps Velocity used to authenticate with the DevOps Velocity server. | No | Yes | ucvAccessKey |
 | URL | String | The URL of the Digital.io Agility server. | Yes | No | serverUrl |
 | User ID | String | The user name used to authenticate with the Digital.io Agility server. | Yes | No | userId |
 

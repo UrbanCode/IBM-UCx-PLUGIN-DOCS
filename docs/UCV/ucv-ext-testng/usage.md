@@ -50,7 +50,7 @@ testng-test', pluginType: 'testng', tenantId: '<tenant Id>', testSetName: 'testn
 ### Invoke using a Rest call
 
 When using a
-REST call to invoke the Code Coverage plug-in, it must be a POST method and include the location of the UrbanCode
+REST call to invoke the Code Coverage plug-in, it must be a POST method and include the location of the DevOps
 Velocity quality data endpoint.
 
 The following request sample shows a REST call that you can copy and update as
@@ -65,7 +65,7 @@ includes information about the payload.
 ```
 
 METHOD: POST
-URL: https://<url_urbancodevelocity_server>/reporting-
+URL: https://<url_DevOpsvelocity_server>/reporting-
 consumer/metrics
 BODY (multipart/form-data):
 {
@@ -123,7 +123,7 @@ included
 
 curl --request POST \
 --url
-https://*url\_urbancodevelocity\_server>*/reporting-consumer/metrics \
+https://*url\_DevOpsvelocity\_server>*/reporting-consumer/metrics \
 --form 'payload={
 "tenant_id":
 "5ade13625558f2c6688d15ce",

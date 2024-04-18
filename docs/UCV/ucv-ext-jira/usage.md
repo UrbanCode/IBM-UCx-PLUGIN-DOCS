@@ -58,18 +58,21 @@ The following tables describe the properties used to configure the integration. 
 
 | Name | Type | Description | Required | Property Name |
 | --- | --- | --- | --- | --- |
-| Access Token | String | The access token for oauth authentication with the Jira server. | No | access_token |
+| Access Token | String | The access token for oauth authentication with the Jira server.If supplied, Personal access token, Username and Password will be ignored. | No | access_token |
 | Access Token Secret | String | The access token secret for oauth authentication with the Jira server. | No | access_token_secret |
-| Consumer Key | String | The consumer key for oauth authentication with the Jira server. | No | consumer_key |
-| Consumer Secret | String | The consumer secret for oauth authentication with the Jira server. | No | consumer_key_secret |
-| Password | Secure | Credential to authenticate with the Jira server. | No | password |
-| Projects *(Deprecated)* | Array | A list of Jira project to import data from. | No | jiraProjects |
-| Jira JQL | String | Any valid JQL Query. | Yes | jiraJql |
+| Consumer Key | String | The consumer key for oauth authentication with the Jira server.If supplied, Personal access token, Username and Password will be ignored. | No | consumer_key |
+| Consumer Secret | String | The consumer secret for oauth authentication with the Jira server.If supplied, Personal access token, Username and Password will be ignored. | No | consumer_key_secret |
+| Password | Secure | CPassword to authenticate with the Jira. If supplied, Personal access token will be ignored.\n NOTE: For Jira cloud version the Access Token should be entered in the Password field. | No | password |
+| Project Keys (Comma separated) | Array | A list of Jira Project Keys separated by commas. Example: PROJ1, PROJ2'. | Yes | jiraProjects |
+| Jira JQL | String | Any valid JQL Query. JQL Query has higher priority than Project Keys . If JQL Query is added , Project Keys will not work .| No | jiraJql |
 | Proxy Server | String | The URL of the proxy server including the port number. | No | proxyServer |
 | Proxy User Name | String | The user name used to authenticate with the proxy server. | No | proxyUsername |
 | Proxy Password | String | The password used to authenticate with the proxy server. | No | proxyPassword |
 | URL | String | The base URL of the Jira server. | Yes | baseUrl |
-| User Name | String | The user name used to authenticate with the Jira server. | No | username |
+| User Name | String | The user name used to authenticate with the Jira server.If supplied, Personal access token will be ignored.\n NOTE: For Jira Cloud version, the User Name should be entered in the UserName field. | No | username |
+| Personal Access Token | Secure | Personal Access Token to authenticate with the Jira server. If supplied, Username and Password will be ignored.\n NOTE: For Jira cloud version provide username and password.\n For Jira server provide personal access token. | No | pat |
+| Request Timeout | String | Timeout (in seconds) to apply to each request to the Jira server. Range is 10 to 150 seconds | No | requestTimeout |
+| Custom Field Mapping | Multiline | Map Jira fields to the fields expected by this server as a Name Value pair, eg: "Epic Link": "Epic field in Jira", "Sprint": "Sprint field in Jira", "Story Points": "Story field in Jira". | No | fieldMapping |
 
 
 ## Example
@@ -101,4 +104,4 @@ and make the appropriate changes.
 
 |Back to ...||Latest Version|Jira |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)[2.3.6-File 1 ](https://github.com/UrbanCode/IBM-UCV-PLUGINS/raw/main/files/ucv-ext-jira/ucv-ext-jira%3A2.3.6.tar.7z.001)[and 2.3.6-File 2](https://github.com/UrbanCode/IBM-UCV-PLUGINS/raw/main/files/ucv-ext-jira/ucv-ext-jira%3A2.3.6.tar.7z.001)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[2.3.17-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jira/ucv-ext-jira%3A2.3.17.tar.7z.001)[and 2.3.17-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jira/ucv-ext-jira%3A2.3.17.tar.7z.002)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

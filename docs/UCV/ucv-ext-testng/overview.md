@@ -1,7 +1,7 @@
 
 # TestNG - Overview
 
-The TestNG plug-in provides for integration with a TestNG server. Data is uploaded to the UrbanCode
+The TestNG plug-in provides for integration with a TestNG server. Data is uploaded to the DevOps
 Velocity server using an HTTP Post request.
 
 ## Compatibility
@@ -15,6 +15,10 @@ view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/
 
 
 ## History
+
+### Version 1.0.38
+
+* Reduced Vulnerabilities
 
 ### Version 1.0.13
 

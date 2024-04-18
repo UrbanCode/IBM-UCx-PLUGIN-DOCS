@@ -66,7 +66,7 @@ about the snippet:
 ```
 
 METHOD: POST
-URL: https://<url_urbancodevelocity_server>/reporting-consumer/metrics
+URL: https://<url_DevOpsvelocity_server>/reporting-consumer/metrics
 BODY
 (multipart/form-data):
 {

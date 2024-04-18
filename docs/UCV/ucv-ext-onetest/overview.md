@@ -1,7 +1,7 @@
 
-# HCL OneTest - Overview
+# HCL DevOps Test - Overview
 
-The HCL One Test plug-in allows for parsing of data from the HCL OneTest testing tool. Data is uploaded to the DevOps Velocity server using an HTTP Post request.
+The HCL DevOps Test plug-in allows for parsing of data from the HCL DevOps Test testing tool. Data is uploaded to the DevOps Velocity server using an HTTP Post request.
 
 ## Compatibility
 
@@ -13,10 +13,18 @@ DevOps Velocity plug-in images are located in DockerHub. To view available versi
 
 ## History
 
+### Version 1.0.37
+
+* **Rebranding**: Name of the plugin has been changed from HCL OneTest to HCL DevOps Test.
+
 ### Version 1.0.34
 
-* **Preventing Installation on Older Versions**: This version of HCL Onetest Plugin can only be installed on Urbancode Velocity version 3.0.0 and later.
-* **Added Category**:Quality is the category of HCL Onetest plugin.
+* **Preventing Installation on Older Versions**: This version of HCL DevOps Test Plugin can only be installed on DevOps Velocity version 3.0.0 and later.
+* **Added Category**:Quality is the category of HCL DevOps Test plugin.
+
+### Version 1.0.33
+
+* minor fix
 
 ### Version 1.0.30
 
@@ -37,6 +45,6 @@ DevOps Velocity plug-in images are located in DockerHub. To view available versi
 
 
 
-|Back to ...||Latest Version|HCL OneTest |||
+|Back to ...||Latest Version|HCL DevOps Test |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.34](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest/ucv-ext-onetest-1.0.34.tar.7z.001)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.37-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest/ucv-ext-onetest%3A1.0.37.tar.7z.001)[and 1.0.37-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest/ucv-ext-onetest%3A1.0.37.tar.7z.002)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|

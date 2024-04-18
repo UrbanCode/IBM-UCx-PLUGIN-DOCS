@@ -90,7 +90,7 @@ The following request sample shows a REST call that you can copy and update as n
 ```
 
 METHOD: POST
-URL: https://<url_urbancodevelocity_server>/reporting-consumer/metrics
+URL: https://<url_DevOpsvelocity_server>/reporting-consumer/metrics
 BODY
 (multipart/form-data):
 {
@@ -109,7 +109,7 @@ testArtifact:
 
 curl --request POST \
 --url
-https://*url\_urbancodevelocity\_server>*/reporting-consumer/metrics \
+https://*url\_DevOpsvelocity\_server>*/reporting-consumer/metrics \
 --form 'payload={
 "tenant_id": "",
 

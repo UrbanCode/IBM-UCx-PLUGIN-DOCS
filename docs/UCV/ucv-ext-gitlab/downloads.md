@@ -2,9 +2,13 @@
 # GitLab - Downloads
 
 To download the plugins, click the following version specific links.
-- [ucv-ext-gitlab:2.1.63.tar.7z.001](https://github.com/UrbanCode/IBM-UCV-PLUGINS/raw/main/files/ucv-ext-gitlab/ucv-ext-gitlab:2.1.63.tar.7z.001)
-- [ucv-ext-gitlab:2.1.62.tar.7z.001](https://github.com/UrbanCode/IBM-UCV-PLUGINS/raw/main/files/ucv-ext-gitlab/ucv-ext-gitlab:2.1.62.tar.7z.001)
-- [ucv-ext-gitlab:2.1.58.tar.7z.001](https://github.com/UrbanCode/IBM-UCV-PLUGINS/raw/main/files/ucv-ext-gitlab/ucv-ext-gitlab:2.1.58.tar.7z.001)
+
+- [ucv-ext-gitlab:2.2.68.tar.7z.002](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-gitlab/ucv-ext-gitlab%3A2.2.68.tar.7z.002)
+- [ucv-ext-gitlab:2.2.68.tar.7z.001](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-gitlab/ucv-ext-gitlab%3A2.2.68.tar.7z.001)
+- [ucv-ext-gitlab:2.2.66.tar.7z.001](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-gitlab/ucv-ext-gitlab%3A2.2.66.tar.7z.001)
+- [ucv-ext-gitlab:2.1.63.tar.7z.001](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-gitlab/ucv-ext-gitlab%3A2.1.63.tar.7z.001)
+- [ucv-ext-gitlab:2.1.62.tar.7z.001](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-gitlab/ucv-ext-gitlab%3A2.1.62.tar.7z.001)
+- [ucv-ext-gitlab:2.1.58.tar.7z.001](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-gitlab/ucv-ext-gitlab%3A2.1.58.tar.7z.001)
 - [ucv-ext-gitlab-2.0.50.tar.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-gitlab/ucv-ext-gitlab-2.0.50.tar.zip)
 - [ucv-ext-gitlab-2.0.37.tar.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-gitlab/ucv-ext-gitlab-2.0.37.tar.zip)
 - [ucv-ext-gitlab-2.0.36.tar.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-gitlab/ucv-ext-gitlab-2.0.36.tar.zip)
@@ -21,4 +25,4 @@ To download the plugins, click the following version specific links.
 
 |Back to ...||Latest Version|GitLab |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[2.1.63](https://github.com/UrbanCode/IBM-UCV-PLUGINS/raw/main/files/ucv-ext-gitlab/ucv-ext-gitlab:2.1.63.tar.7z.001)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[2.2.68-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-gitlab/ucv-ext-gitlab%3A2.2.68.tar.7z.001)[and 2.2.68-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-gitlab/ucv-ext-gitlab%3A2.2.68.tar.7z.002)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|

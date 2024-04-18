@@ -7,13 +7,11 @@ You define configuration properties in the user interface or in a JSON file.
 
 ## Integration type
 
-The WhiteSource plug-in supports endpoint integration which is listed in the following table.
+The WhiteSource plug-in supports Scheduled Event integration which is listed in the following table.
 
-### Endpoints
-
-| Name             | Path  | Method |
-| ---------------- | ----- | ------ |
-| WhiteSource Scan | wScan | Post   |
+| Name | Description |
+| --- | --- |
+| Sync WhiteSource Data | WhiteSource data request that will occur on a timer |
 
 
 ## Invoking the plug-in
@@ -81,9 +79,12 @@ Some properties might not be displayed in the user interface, to see all propert
 
 | Name | Type | Description | Required | Property Name |
 | --- | --- | ---| --- | --- |
-| User Key                       | String | User Key for authentication with WhiteSource.           | Yes | userKey   |
-| URL                            | String | The base URL of the WhiteSource API.                    | Yes | asocUrl   |
+| WhiteSource UserKey                      | Secure | User Key for authentication with WhiteSource. URL to get a UserKey for WhiteSource: https://saas.whitesourcesoftware.com/Wss/WSS.html#!userProfile          | Yes | userKey   |
+| WhiteSource API URL              | String | The base URL of the WhiteSource API.                    | Yes | wsUrl   |
 | DevOps Velocity User Access Key | Secure | User access key for authentication with DevOps Velocity. | Yes | keySecret |
+| WhiteSource Product tokens (Line separated)     | Multiline | Product token for authentication with WhiteSource. URL to get a Product token for WhiteSource: https://saas.whitesourcesoftware.com/Wss/WSS.html#!userProfile                    | Yes | productToken   |
+| Project Names (Line separated) | Multiline | Provide project names as line separated | No | projectName |
+| Custom Field Mapping | Multiline | Map whitesource fields to Accelerate as a JSON Object. Mapping - {"application.name": "image.name", "application.externalId": "image.id", "buildUrl": "image.buildUrl", "environment":"image.environment"} | No | fieldMapping |
 
 
 ## JSON code example

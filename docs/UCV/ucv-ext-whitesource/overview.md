@@ -26,6 +26,13 @@ view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/
 * Added a custom field mapping for pipeline.
 * Works on product and project level.
 
+### Version 1.0.14
+
+* User Access Key Related Changes
+
+### Version 1.0.14
+
+* Bug fix
 
 |Back to ...||Latest Version|WhiteSource |||
 | :---: | :---: | :---: | :---: | :---: | :---: |

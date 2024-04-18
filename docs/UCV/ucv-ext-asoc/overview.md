@@ -18,17 +18,25 @@ DevOps Velocity plug-in images are located in DockerHub. To view available versi
 
 * The older versions of ASoC plug-in was not reporting critical issues. The issue is fixed.
 
+### Version 3.0.16
+
+* Segregated Static scan and Dynamic scan data.
+
 ### Version 3.0.12
 
 * **Removed Manual User Access Key:** From current version onwards this plug-in will only support Auto Generated User Access Key feature of DevOps Velocity.
 * **Initial Sync Date Field Added:** Under the hidden properties section of add integration page for the ASoC plug-in an Initial Sync Date field is added. This field is optional and can be used only for the first sync.
-* **Added WorkflowId:** Under the hidden properties section of add integration page for ASoC plug-in a Workflow ID field is added. This field is optional and can be used to provide UbranCode Velocity WorkflowId - the ID of a Value Stream (VSM )to which ASoC vulnerability data is associated.
+* **Added WorkflowId:** Under the hidden properties section of add integration page for ASoC plug-in a Workflow ID field is added. This field is optional and can be used to provide DevOps Velocity WorkflowId - the ID of a Value Stream (VSM )to which ASoC vulnerability data is associated.
 * **Preventing Installation on Older Versions:** This version of ASoC plug-in can only be installed on DevOps Velocity version 2.5.0 and later
 * **Making scheduled event optional:** The scheduled event - Sync ASoC Data has been made optional from this version onwards. To enable the scheduled event please check the box in integration properties with label Run as a Scheduled Event.
 
 ### Version 3.0.11
 
 * Fix for Changed API.
+
+### Version 3.0.9
+
+* Reduced Vulnerabilities
 
 ### Version 3.0.5
 
@@ -73,4 +81,4 @@ DevOps Velocity plug-in images are located in DockerHub. To view available versi
 
 |Back to ...||Latest Version|HCL AppScan on Cloud (ASoC) |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[3.0.19](https://github.com/UrbanCode/IBM-UCV-PLUGINS/raw/main/files/ucv-ext-asoc/ucv-ext-asoc:3.0.19.tar.7z.001)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[3.0.19](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-asoc/ucv-ext-asoc%3A3.0.19.tar.7z.001)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|

@@ -58,7 +58,7 @@ The following request sample shows a REST call that you can copy and update as n
 
 METHOD: POST
 URL:
-https://<url_urbancodevelocity_server>/reporting-consumer/metrics
+https://<url_DevOpsvelocity_server>/reporting-consumer/metrics
 BODY (multipart/form-data):
 {
 payload:
@@ -75,7 +75,7 @@ testArtifact: <cucumber_xml_file>
 
 curl --request POST \
 --url
-https://url_urbancodevelocity_server>/reporting-consumer/metrics \
+https://url_DevOpsvelocity_server>/reporting-consumer/metrics \
 --form 'payload={
 "tenant_id":
 "5ade13625558f2c6688d15ce",

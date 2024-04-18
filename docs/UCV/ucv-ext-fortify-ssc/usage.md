@@ -47,8 +47,8 @@ The following tables describe the properties used to configure the integration.
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | URL | String | The URL of the Fortify SSC server. | Yes |
 | token | String | The API key to authenticate with the Fortify SSC server. | Yes |
-| Initial sync date | String | The date to pull data for the initial run. | No |
-| User Access Key | Secure | The user access key to authenticate with DevOps Velocity server, prior to version 2.4.0. | No |
+| Project Names (Comma Separated List) | Array | Comma separated list of project names to sync data. If kept empty, syncs all projects data. | No |
+| Workflow Id | String | The value stream that this metric is associated. | No |
 
 
 

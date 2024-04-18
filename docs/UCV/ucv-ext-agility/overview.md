@@ -18,6 +18,15 @@ UrbanCode Velolcity plug-in images are located in DockerHub. To view available p
 
 ## History
 
+### Version 1.0.29
+
+
+### Version 1.0.26
+
+* **Clarifying delimitation**: For the properties used in index.js file clarified delimitation problem . Updated label information and description as comma separated list must be used. So that it is more clear while integrating.
+
+### Version 1.0.25
+
 ### Version 1.0.20
 
 * User access key related changes.

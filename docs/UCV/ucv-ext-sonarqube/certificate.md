@@ -5,9 +5,9 @@
 ## Trusting a Self-Signed Certificate
 
 
-The approach used to authenticate Velocity’s certificate to SonarQube is
+The approach used to authenticate DevOps Velocity’s certificate to SonarQube is
 determined by user requirements per installation. One approach is for an administrator to configure a SonarQube server
-to trust Velocity’s self-signed certificate. Directions for this approach are provided below.
+to trust DevOps Velocity’s self-signed certificate. Directions for this approach are provided below.
 1. Create a self-signed certificate. Generate a self-signed certificate from `./docker-compose/conf/ssl`. Use `host.docker.internal` as the common name.
 
 ```

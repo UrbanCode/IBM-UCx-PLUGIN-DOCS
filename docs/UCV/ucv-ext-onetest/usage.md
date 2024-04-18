@@ -1,14 +1,14 @@
 
-# HCL OneTest - Usage
+# HCL DevOps Test - Usage
 
-To use the HCL One Test plug-in, the plug-in must be loaded and an instance created before you can configure the plug-in integration. Configuration properties are defined using the product user interface or a JSON file.
+To use the HCL DevOps Test plug-in, the plug-in must be loaded and an instance created before you can configure the plug-in integration. Configuration properties are defined using the product user interface or a JSON file.
 
 
 To use the plug-in upload a code coverage results file to DevOps Velocity to parse. Whenever DevOps Velocity receives the file, the plug-in parses the data and creates a metric entry.
 
 ## Integration type
 
-The HCL One Test plug-in parses data from the HCL One Test tool.
+The HCL DevOps Test plug-in parses data from the HCL DevOps Test tool.
 
 ## Invoking the plug-in
 
@@ -53,7 +53,7 @@ The following request sample shows a REST call that you can copy and update as n
 ```
 
 METHOD: POST
-URL: https://<url_urbancodevelocity_server>/reporting-consumer/metrics
+URL: https://<url_DevOpsvelocity_server>/reporting-consumer/metrics
 BODY
 (multipart/form-data):
 {
@@ -128,6 +128,6 @@ curl –request POST \
 
 ```
 
-|Back to ...||Latest Version|HCL OneTest |||
+|Back to ...||Latest Version|HCL DevOps Test |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.34](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest/ucv-ext-onetest-1.0.34.tar.7z.001)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.37-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest/ucv-ext-onetest%3A1.0.37.tar.7z.001)[and 1.0.37-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest/ucv-ext-onetest%3A1.0.37.tar.7z.002)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

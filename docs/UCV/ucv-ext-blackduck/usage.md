@@ -54,7 +54,7 @@ The configuration properties which are included in the `properties` field are un
 | --- | --- | --- | --- | --- |
 | Access Token | accessToken | Secure | The access token to authenticate with the Black Duck server. You can use either this property or a password to authenticate with the server. | Yes |
 | Black Duck URL | blackDuckUrl | String | The base URL of the Black Duck server. for example: `https://poc79.blackduck.synopsys.com`. | Yes |
-| DevOps Velocity User Access Key | ucvAccessKey | Secure | The user access key to authenticate with the DevOps Velocity server. | Yes |
+| DevOps Velocity User Access Key | ucvAccessKey | Secure | The user access key to authenticate with the DevOps Velocity server. | No |
 
 ## Example
 

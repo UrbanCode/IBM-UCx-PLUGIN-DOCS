@@ -28,6 +28,23 @@ view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/
 
 ## History
 
+### Version 1.1.15
+
+* Fix xpath job filter
+* Use correct username on task completion
+
+### Version 1.1.3
+
+* Fix for Build-Revision mismatch in Jenkins Integration
+
+### Version 1.1.2
+
+* Added support for process parameters coming from Git Parameter and Active Choices plugins
+* Warning logs added for skipping unsupported process parameters
+### Version 1.1.1
+
+* Default initial sync to 30 days
+
 ### Version 1.0.4
 
 * Fixed integration name not showing in pipeline stage task selection.
@@ -40,4 +57,4 @@ view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/
 
 |Back to ...||Latest Version|Jenkins |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.4](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jenkins/ucv-ext-jenkins:1.0.4.tar.7z.001)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.1.5-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jenkins/ucv-ext-jenkins%3A1.1.5.tar.7z.001)[and 1.1.5-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jenkins/ucv-ext-jenkins%3A1.1.5.tar.7z.002)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|

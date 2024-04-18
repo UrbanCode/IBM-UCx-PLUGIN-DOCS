@@ -65,6 +65,9 @@ The following tables describe the properties used to configure the integration. 
 | Since | String | The number of months for which data is to be pulled. The default is 12 months. | No | since |
 | DevOps Velocity User Access Key | String | The user access key used to authenticate with the DevOps Velocity server. | Yes | ucvAccessKey |
 | User ID | String | The user name used to authenticate with the IBM EWM server. | Yes | userId |
+| Proxy Password | Secure | The password used to authenticate with the proxy server. | No | Yes | proxyPassword |
+| Proxy Server | String | The URL of the proxy server including the port number. | No | Yes | proxyServer |
+| Proxy User Name | String | The user name used to authenticate with the proxy server. | No | Yes | proxyUsername |
 
 ## Example
 
@@ -97,4 +100,4 @@ View a [video](https://www.youtube.com/watch?v=mY14Kn1R0EI) demonstrating the us
 
 |Back to ...||Latest Version|IBM Engineering Workflow Management (EWM) |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.1.27](https://github.com/UrbanCode/IBM-UCV-PLUGINS/raw/main/files/ucv-ext-ewm/ucv-ext-ewm:1.1.27.tar.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.1.27](raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-ewm/ucv-ext-ewm:1.1.27.tar.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

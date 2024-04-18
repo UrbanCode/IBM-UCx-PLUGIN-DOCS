@@ -19,6 +19,15 @@ There is no install process for this plug-in. The GitLab plug-in is identified t
 
 ## History
 
+### Version 2.2.68
+
+* **Minor Bug Fix**: Dynamically getting type of issue.
+
+### Version 2.2.66
+
+* **Fix for Project Name Field**: Previous version of Gitlab plugin was not able to import data for some projects.
+* **Project IDs Field Added**: To import the source data you need to provide a list of GitLab Project IDs. Please note that you must provide at least one of either Project Names or Project IDs and can provide both if needed.
+
 ### Version 2.1.63
 
 * Minor Bug Fix: Previous version of plugin was giving Cannot read property status of null error.
@@ -73,7 +82,7 @@ There is no install process for this plug-in. The GitLab plug-in is identified t
 
 ### Version 2.0.3
 
-* Performance Improvements for Build Feature (Requires Velocity Version 1.5.5 or above)
+* Performance Improvements for Build Feature (Requires DevOps Velocity Version 1.5.5 or above)
 
 ### Version 2.0.2
 
@@ -100,4 +109,4 @@ There is no install process for this plug-in. The GitLab plug-in is identified t
 
 |Back to ...||Latest Version|GitLab |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[2.1.63](https://github.com/UrbanCode/IBM-UCV-PLUGINS/raw/main/files/ucv-ext-gitlab/ucv-ext-gitlab:2.1.63.tar.7z.001)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[2.2.68-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-gitlab/ucv-ext-gitlab%3A2.2.68.tar.7z.001)[and 2.2.68-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-gitlab/ucv-ext-gitlab%3A2.2.68.tar.7z.002)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|

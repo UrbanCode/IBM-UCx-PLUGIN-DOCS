@@ -16,8 +16,8 @@ The IBM DevOps Velocity plug-in images are located in DockerHub. For available v
 
 ### Version 1.0.24
 
-* **Removed Manual User Access Key**: From current version onwards this plugin will only support Auto Generated User Access Key feature of Urbancode Velocity.
-* **Preventing Installation on Older Versions**: This version of Circleci Plugin can only be installed on Urbancode Velocity version 3.0.0 and later
+* **Removed Manual User Access Key**: From current version onwards this plugin will only support Auto Generated User Access Key feature of DevOps Velocity.
+* **Preventing Installation on Older Versions**: This version of Circleci Plugin can only be installed on DevOps Velocity version 3.0.0 and later
 * **Added Category**:Build and Deploy are the plugin category of Circleci.
 * **Initial Sync Date Field Added**: Under the hidden properties section of add integration page for the plugin an Initial Sync Date field is added.This field is optional and can be used only for the first sync.
 
@@ -41,5 +41,5 @@ The IBM DevOps Velocity plug-in images are located in DockerHub. For available v
 
 |Back to ...||Latest Version|CircleCI |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.24](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-circleci/ucv-ext-circleci-1.0.24.tar.7z.001)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.24](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-circleci/ucv-ext-circleci%3A1.0.24.tar.7z.001)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
 

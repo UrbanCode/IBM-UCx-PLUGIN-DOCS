@@ -13,6 +13,10 @@ There is no install process for this plug-in. The Black Duck plug-in is identifi
 
 # History
 
+### Version 1.0.21
+
+* minor fix
+
 ### Version 1.0.17
 
 * User access key related changes.

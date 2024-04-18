@@ -1,13 +1,13 @@
 
-# Jenkins For Urbancode Velocity - Usage
+# Jenkins For DevOps Velocity - Usage
 
-* **Posting job metadata to your UrbanCode Velocity instance** – As you create and edit jobs, the metadata for the jobs will uploaded including the names of the jobs as well as the names of parameters. This is done so that the jobs can be invoked from UrbanCode Velocity within the Velocity security model.
+* **Posting job metadata to your DevOps Velocity instance** – As you create and edit jobs, the metadata for the jobs will uploaded including the names of the jobs as well as the names of parameters. This is done so that the jobs can be invoked from DevOps Velocity within the Velocity security model.
 
-* **Invoke jobs from UrbanCode Velocity** – An authenticated, encrypted persistent connection is established with UrbanCode Velocity so that you can trigger off jobs and pipelines with no special firewall configuration.
+* **Invoke jobs from DevOps Velocity** – An authenticated, encrypted persistent connection is established with DevOps Velocity so that you can trigger off jobs and pipelines with no special firewall configuration.
 
-* **Updates status of running jobs** – You will receive instant feedback in UrbanCode Velocity with links to the execution.
+* **Updates status of running jobs** – You will receive instant feedback in DevOps Velocity with links to the execution.
 
-* **Job executions can create versions in the UrbanCode Velocity pipeline** – You will have the option to select Jenkins jobs as "input jobs" which will create a version with special properties that you can specify.
+* **Job executions can create versions in the DevOps Velocity pipeline** – You will have the option to select Jenkins jobs as "input jobs" which will create a version with special properties that you can specify.
 
 * **Detects quality data provided by IBM Deployment Risk Analytics** - If you use the capabilities found in the IBM Cloud DevOps plugin to provide data to IBM DRA, then this plugin will forward that data to your composite pipeline to visualize quality data across your whole suite of applications.
 
@@ -17,7 +17,7 @@ Process steps for the Jenkins plugin includes the following:
 
 1. Generate an **Integration Id** and **Integration Token**.
      
-    Navigate to the **Settings Page** of UrbanCode Velocity and select the Integrations section in the left navigation. Create a new Jenkins integration.
+    Navigate to the **Settings Page** of DevOps Velocity and select the Integrations section in the left navigation. Create a new Jenkins integration.
 
     ![Integrations Page](media/integrations-page.PNG)
 
@@ -27,17 +27,17 @@ Process steps for the Jenkins plugin includes the following:
 
 2. Install this plugin on your Jenkins instance
 
-    Navigate to the plugins page on your Jenkins instance by clicking **Manage Jenkins** > **Manage Plugins** > **Available (tab)** and search for UrbanCode Velocity Plugin. When located install the plugin and restart your instance when possible.
+    Navigate to the plugins page on your Jenkins instance by clicking **Manage Jenkins** > **Manage Plugins** > **Available (tab)** and search for DevOps Velocity Plugin. When located install the plugin and restart your instance when possible.
 
     If the plugin is not available in the Jenkins publically hosted plugins, please download [urbancode-velocity.hpi](http://public.dhe.ibm.com/software/products/UrbanCode/plugins/) and upload it to your Jenkins instance by navigating to the Advanced tab on the plugins page.
 
 3. Populate Jenkins Configuration with **Integration Id**, **Integration Token**, and **Jenkins Credentials**
 
-    Navigate to the Jenkins configuration page **Manage Jenkins** > **Configure System** > **UrbanCode Velocity (section)**. Under the UrbanCode Velocity section paste the Integration ID and Integration Token values from Step 1 above. Please add a credentials entry for a Jenkins user on whose behalf this plugin may access your Jenkins items. Please **Apply** or save the values before clicking the **Test Connection** button to confirm your connection to UrbanCode Velocity. Upon successful connection, your data will be posted to UrbanCode Velocity.
+    Navigate to the Jenkins configuration page **Manage Jenkins** > **Configure System** > **DevOps Velocity (section)**. Under the DevOps Velocity section paste the Integration ID and Integration Token values from Step 1 above. Please add a credentials entry for a Jenkins user on whose behalf this plugin may access your Jenkins items. Please **Apply** or save the values before clicking the **Test Connection** button to confirm your connection to DevOps Velocity. Upon successful connection, your data will be posted to DevOps Velocity.
 
     ![Jenkins Global Config Page](media/jenkins-config.PNG)
 
-    **Note:** Jenkins integrations on Kubernetes/Openshift instances: When a user configures the UrabanCode Velocity plugin within Jenkins, they need to manually specify the "Rabbit MQ Port" in Jenkins (typically 31672) since the default value (5672) will not work.
+    **Note:** Jenkins integrations on Kubernetes/Openshift instances: When a user configures the DevOps Velocity plugin within Jenkins, they need to manually specify the "Rabbit MQ Port" in Jenkins (typically 31672) since the default value (5672) will not work.
 
 ## Manual build
 
@@ -53,15 +53,15 @@ From the root directory, run either of the following commands:
 
 ## Configuration properties
 
-* Check gate in UrbanCode Velocity
-* Upload Build to UrbanCode Velocity
-* Upload Deployment to UrbanCode Velocity
-* Upload JUnit Results to UrbanCode Velocity
-* Upload JUnit Metrics File to UrbanCode Velocity
+* Check gate in DevOps Velocity
+* Upload Build to DevOps Velocity
+* Upload Deployment to DevOps Velocity
+* Upload JUnit Results to DevOps Velocity
+* Upload JUnit Metrics File to DevOps Velocity
 
-## Check gate in UrbanCode Velocity
+## Check gate in DevOps Velocity
 
-The CheckGate class is used to check gates applied on a particular stage of the UrbanCode Velocity pipeline for a particular versionId of an application.
+The CheckGate class is used to check gates applied on a particular stage of the DevOps Velocity pipeline for a particular versionId of an application.
 
 ```
 step($class: 'CheckGate',
@@ -75,13 +75,13 @@ versionId: "NWZkOWUyZjYtOGE3Yy00NmJhLTlmZD-#48",
 
 | Name | Type | Description | Required | Property name |
 | --- | --- | --- | --- | --- |
-| Pipeline ID | String | Pipeline ID from UrbanCode Velocity. | Yes | pipelineId |
-| Stage Name | String | Stage name of UrbanCode Velocity pipeline. | Yes | stageName |
+| Pipeline ID | String | Pipeline ID from DevOps Velocity. | Yes | pipelineId |
+| Stage Name | String | Stage name of DevOps Velocity pipeline. | Yes | stageName |
 | Version ID | String | Version Id for particular application. | Yes | versionId |
 
-## Upload build to UrbanCode Velocity
+## Upload build to DevOps Velocity
 
-The UploadBuild class is used to upload build data to UrbanCode Velocity. The revision parameter is important for linking the build to the work item via GitHub data (GIT_COMMIT in this case). The versionName is important for linking forward to deployments. The appName corresponds to the UrbanCode Velocity pipeline application name.
+The UploadBuild class is used to upload build data to DevOps Velocity. The revision parameter is important for linking the build to the work item via GitHub data (GIT_COMMIT in this case). The versionName is important for linking forward to deployments. The appName corresponds to the DevOps Velocity pipeline application name.
 
 ```
 step($class: 'UploadBuild',
@@ -98,23 +98,23 @@ id: "${currentBuild.displayName}"
 
 | Name | Type | Description | Required | Property name |
 | --- | --- | --- | --- | --- |
-| Tenant ID | String | Tenant Id from UrbanCode Velocity | Yes | tenantId |
-| Build Name | String | Build Name to display in UrbanCode Velocity | No | name |
+| Tenant ID | String | Tenant Id from DevOps Velocity | Yes | tenantId |
+| Build Name | String | Build Name to display in DevOps Velocity | No | name |
 | Version Name | String | For linking forward to deployments. | No | versionName |
-| Requestor | String | Requestor Name to display in UrbanCode Velocity | No | requestor |
+| Requestor | String | Requestor Name to display in DevOps Velocity | No | requestor |
 | Revision | String | For linking the build to the work item via GitHub data. | No | revision |
 | Status | String | One of start, in_progress, success, or failure. | No | status |
 | Start Time | String | Start time for this step (Default: CurrentTime). | No | startTime |
 | End Time | String | EndTime for this step (Default: CurrentTime). | No | endTime |
-| App Name (one of three required) | String | Urbancode velocity pipeline application name. | No | appName |
-| App ID (one of three required) | String | Urbancode velocity pipeline application Id. | No | appID |
-| App External ID (one of three required) | String | Urbancode velocity pipeline application External Id. | No | appExtId |
+| App Name (one of three required) | String | DevOps velocity pipeline application name. | No | appName |
+| App ID (one of three required) | String | DevOps velocity pipeline application Id. | No | appID |
+| App External ID (one of three required) | String | DevOps velocity pipeline application External Id. | No | appExtId |
 | Debug | Boolean | For Getting debug logs. | No | debug |
 | Fatal | Boolean | Fail build on failed upload, rather than just making build unstable. | No | fatal |
 
-## Upload Deployment to UrbanCode Velocity
+## Upload Deployment to DevOps Velocity
 
-The UploadDeployment class is used to upload deployment data to UrbanCode Velocity. The versionName parameter is critical for linking to build data. The appName corresponds to the UrbanCode Velocity pipeline application name, while environmentName and environmentId are used to identify the deployment environment.
+The UploadDeployment class is used to upload deployment data to DevOps Velocity. The versionName parameter is critical for linking to build data. The appName corresponds to the DevOps Velocity pipeline application name, while environmentName and environmentId are used to identify the deployment environment.
 
 ```
 step([$class:
@@ -136,10 +136,10 @@ result: 'true'
 
 | Name | Type | Description | Required | Property name |
 | --- | --- | --- | --- | --- |
-| Tenant ID | String | Tenant Id from UrbanCode Velocity | Yes | tenantID |
-| Name | String | Name to display in UrbanCode Velocity | No | name |
+| Tenant ID | String | Tenant Id from DevOps Velocity | Yes | tenantID |
+| Name | String | Name to display in DevOps Velocity | No | name |
 | Result | String | One of start, in_progress, success, or failure. | No | result |
-| Initiator | String | Initiator Name to display in UrbanCode Velocity | No | initiator |
+| Initiator | String | Initiator Name to display in DevOps Velocity | No | initiator |
 | Version Name | String | For linking to build data. | No | versionName |
 | Version External ID | String | For linking to build data. | No | versionExtID |
 | Type | String | Type of deployment job. | yes | type |
@@ -149,21 +149,21 @@ result: 'true'
 | Description | String | Description of this step. | No | description |
 | Start Time | String | Start time for this step (Deafault: CurrentTime). | No | startTime |
 | End Time | String | EndTime for this step (Deafault: CurrentTime). | No | endTime |
-| App Name (one of three required) | String | Urbancode velocity pipeline application name. | No | appName |
-| App ID (one of three required) | String | Urbancode velocity pipeline application ID. | No | appId |
-| App External ID (one of three required) | String | Urbancode velocity pipeline application external Id. | No | appExtId |
+| App Name (one of three required) | String | DevOps Velocity pipeline application name. | No | appName |
+| App ID (one of three required) | String | DevOps Velocity pipeline application ID. | No | appId |
+| App External ID (one of three required) | String | DevOps Velocity pipeline application external Id. | No | appExtId |
 | Debug | Boolean | For Getting debug logs. | No | debug |
 | Fatal | Boolean | Fail build on failed upload, rather than just making build unstable. | No | fatal |
 
-## Upload JUnit Results to UrbanCode Velocity
+## Upload JUnit Results to DevOps Velocity
 
 | Type | Description | Required | Property name |
 | --- | --- | --- | --- |
-| java.util.Map <java.lang.String, java.lang.String> | Upload JUnit Results to UrbanCode Velocity | Yes | properties |
+| java.util.Map <java.lang.String, java.lang.String> | Upload JUnit Results to DevOps Velocity | Yes | properties |
 
-## Upload JUnit Metrics File to UrbanCode Velocity
+## Upload JUnit Metrics File to DevOps Velocity
 
-The UploadMetricsFile class is used to upload metrics file into UrbanCode Velocity. The uploaded metrics file will be available in Insights in graphical form.
+The UploadMetricsFile class is used to upload metrics file into DevOps Velocity. The uploaded metrics file will be available in Insights in graphical form.
 
 ```
 step($class: 'UploadMetricsFile',
@@ -184,23 +184,23 @@ buildUrl: "${env.BUILD_URL}",
 
 | Name | Type | Description | Required | Property name |
 | --- | --- | --- | --- | --- |
-| Tenant ID | String | Tenant Id from UrbanCode Velocity | Yes | tenantId |
-| Name | String | Name to display in UrbanCode Velocity | No | name |
+| Tenant ID | String | Tenant Id from DevOps Velocity | Yes | tenantId |
+| Name | String | Name to display in DevOps Velocity | No | name |
 | File Path | String | Path to metrics file | No | filePath |
 | Test Set Name | String | Name to test set. | No | testSetName |
-| Environment | String | Environment name to display in UrbanCode Velocity | Yes | environment |
+| Environment | String | Environment name to display in DevOps Velocity | Yes | environment |
 | Combine Test Suites | Boolean |  | No | combineTestSuites |
 | Fatal | Boolean | Fail build on failed upload, rather than just making build unstable. | No | fatal |
 | Plugin Type | String | Plugin type for metrics file. | No | pluginType |
 | Data Format | String | Data format of metrics file. | Yes | dataFormat |
-| Record Name | String | Record Name to display in UrbanCode Velocity | No | recordName |
-| Metric Definition ID | String | Metric Definition ID from UrbanCode Velocity | No | metricDefinitionId |
+| Record Name | String | Record Name to display in DevOps Velocity | No | recordName |
+| Metric Definition ID | String | Metric Definition ID from DevOps Velocity | No | metricDefinitionId |
 | Description | String | Description of this step. | No | description |
 | Execution Date | String | Time of execution that produced test results. Should be in Epoch milliseconds. Defaults to current time. | No | executionDate |
-| Build ID | String | Build ID to display in UrbanCode Velocity | No | buildId |
-| App Name (one of three required) | String | Urbancode velocity pipeline application name. | No | appName |
-| App ID (one of three required) | String | Urbancode velocity pipeline application id. | No | appId |
-| App External ID (one of three required) | String | Urbancode velocity pipeline application external id. | No | appExtId |
+| Build ID | String | Build ID to display in DevOps Velocity | No | buildId |
+| App Name (one of three required) | String | DevOps Velocity pipeline application name. | No | appName |
+| App ID (one of three required) | String | DevOps Velocity pipeline application id. | No | appId |
+| App External ID (one of three required) | String | DevOps Velocity pipeline application external id. | No | appExtId |
 
 ## License
 

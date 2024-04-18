@@ -10,7 +10,7 @@ below those plug-ins to be installed and available for invoking.
 
 To gather data from the JMeter server, send an HTTP
 Post request with the data to parse. Whenever a there is a hit to the endpoint, the data is parsed and displayed as
-metrics in rbanCode Velocity. You can use various methods such as Postman, REST calls, CURL, and CI/CD tools like
+metrics in DevOps Velocity. You can use various methods such as Postman, REST calls, CURL, and CI/CD tools like
 Jenkins to invoke the plug-in endpoints.
 
 ## Integration type
@@ -67,7 +67,7 @@ about the payload.
 ```
 
 METHOD: POST
-URL: https://<url_urbancodevelocity_server>/reporting-consumer/metrics
+URL: https://<url_devopsvelocity_server>/reporting-consumer/metrics
 BODY
 (multipart/form-data):
 {
