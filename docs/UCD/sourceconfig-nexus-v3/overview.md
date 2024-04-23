@@ -23,11 +23,12 @@ For Raw Repos this version of plugin will create different version for different
 
 Fro Ex. If we have 2 applications, a java one and a python one in in a "Raw" format repo in Nexus, as shown below:
 com
-â””â”€â”€ example
-    â”œâ”€â”€ my-java-app1.0
-    â”‚   â””â”€â”€ my-java-app-1.0.jar
-    â””â”€â”€ my-python-app1.0
-        â””â”€â”€ sample1.py
+└─── 🌟 example
+     ├─── 🚀 my-java-app1.0
+     │    └─── 📦 my-java-app-1.0.jar
+     └─── 🐍 my-python-app1.0
+          └─── 📝 sample1.py
+
 
 
 This version of Plugin will create 2 different versions named as "my-java-app1.0" and "my-python-app1.0" with their respective artefacts. 
