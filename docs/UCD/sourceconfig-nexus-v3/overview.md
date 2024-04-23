@@ -17,6 +17,24 @@ This plug-in runs on all operating systems that UrbanCode Deploy supports.
 
 No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy").
 
+### Note for version 5
+For Raw Repos this version of plugin will create different version for different kind of applications.
+
+
+Fro Ex. If we have 2 applications, a java one and a python one in in a "Raw" format repo in Nexus, as shown below:
+com
+â””â”€â”€ example
+    â”œâ”€â”€ my-java-app1.0
+    â”‚   â””â”€â”€ my-java-app-1.0.jar
+    â””â”€â”€ my-python-app1.0
+        â””â”€â”€ sample1.py
+
+
+This version of Plugin will create 2 different versions named as "my-java-app1.0" and "my-python-app1.0" with their respective artefacts. 
+
+The previous version of the plugin doesn't support this feature and creates version with name of the 1st level folder(here "com") which is fixed in this.
+
+
 ### History
 
 #### Version 5
