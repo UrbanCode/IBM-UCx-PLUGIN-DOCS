@@ -2557,7 +2557,7 @@ The z/OS Utility plug-in includes steps for retrieving and deploying IBM z/OS ar
 
 |        Back to ...         ||   z/OS Utility   |         Latest Version         |
 |:--------------------------:|:----------------:|:------------------------------:| :---: |
-| [All Plugins](../index.md) | [Top](#contents) | [Readme](zos-deploy/README.md) |[90.1167272](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-90.1167272.zip)|
+| [All Plugins](../index.md) | [Top](#contents) | [Readme](zos-deploy/README.md) |[90.1167616](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-90.1167616.zip)|
 
 ## z/OS Rexx Executor
 

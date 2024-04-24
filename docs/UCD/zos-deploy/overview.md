@@ -51,6 +51,9 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 * Inventory Delta-deploy is now timezone agnostic
 * Minor code improvements 
 * PH60517 - Inventory Delta deploy discards the number of HLQ set in component configuration during artifact comparison
+* Fixed bug with Rollback when two or more source PDS mapped to same target during deployment
+* Rollback Program ported from Groovy to Java
+* Dataset Mapping that have DUMMY as target containers are not checked for R/W access
 
 #### Version 89
 
@@ -373,4 +376,4 @@ This release includes the following updates:
 
 |          Back to ...          |                                |                                                        Latest Version                                                         |    z/OS Utility     |                                       |                   |                   |                           |
 |:-----------------------------:|:------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------:|:-------------------:|:-------------------------------------:|:-----------------:|:-----------------:|:-------------------------:|
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [90.1167272](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-90.1167272.zip) | [Readme](README.md) | [Troubleshooting](troubleshooting.md) | [Steps](steps.md) | [Usage](usage.md) | [Downloads](downloads.md) |
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [90.1167616](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-90.1167616.zip) | [Readme](README.md) | [Troubleshooting](troubleshooting.md) | [Steps](steps.md) | [Usage](usage.md) | [Downloads](downloads.md) |
