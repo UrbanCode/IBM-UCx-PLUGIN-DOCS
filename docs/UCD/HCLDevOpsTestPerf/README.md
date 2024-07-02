@@ -8,4 +8,4 @@ The HCL DevOps Test Performance plug-in for UrbanCode Deploy provides a step to 
 
 |Latest Version||Back to ...||
 | :---: | :---: | :---: | :---: |
-|[10.1](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/HCLDevOpsTestPerf/DTPerf-DD-HCL-10.1.zip)|[DTPerf-Downloads](downloads.md)|[All Deploy Plugins](../README.md)|[All Plugins](../../index.md)|
+|[10.2](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/HCLDevOpsTestPerf/DTPerf-DD-HCL-10.2.zip)|[DTPerf-Downloads](downloads.md)|[All Deploy Plugins](../README.md)|[All Plugins](../../index.md)|
