@@ -37,7 +37,7 @@ The plug-in also includes steps that are related to managing redundant increment
 
 * IBM UrbanCode Deploy version 7.0.0 or later
 * IBM UrbanCode Deploy agents on z/OS
-* IBM z/OS version 2.2 or later with System REXX
+* IBM z/OS version 2.4 or later with System REXX
 * Starting with version 49 this plug-in requires Java 8 or above
 
 ### Installation
@@ -45,6 +45,13 @@ The plug-in also includes steps that are related to managing redundant increment
 No special steps are required for installation. See [Installing plug-ins in UrbanCode products](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins). You must install and configure the z/OS deployment tools before you use the plug-in. To learn how to install and configure the z/OS deployment tools, see [Deploying to the z/OS platform](https://www.ibm.com/docs/en/urbancode-deploy/7.2.3?topic=integrating-deploying-components-zos-platform). You must configure the job server component before you run the following steps: Submit Job and Wait For Job.
 
 ### History
+
+#### Version 91
+
+Added support for single source to multiple targets mapping
+Improvements in ISPF gateway error handling
+User can set MAX-RC for copy dataset step
+Improvements in HFS Deployment
 
 #### Version 90
 
@@ -376,4 +383,4 @@ This release includes the following updates:
 
 |          Back to ...          |                                |                                                        Latest Version                                                         |    z/OS Utility     |                                       |                   |                   |                           |
 |:-----------------------------:|:------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------:|:-------------------:|:-------------------------------------:|:-----------------:|:-----------------:|:-------------------------:|
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [90.1167616](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-90.1167616.zip) | [Readme](README.md) | [Troubleshooting](troubleshooting.md) | [Steps](steps.md) | [Usage](usage.md) | [Downloads](downloads.md) |
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [91.1168861](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-91.1168861.zip) | [Readme](README.md) | [Troubleshooting](troubleshooting.md) | [Steps](steps.md) | [Usage](usage.md) | [Downloads](downloads.md) |
