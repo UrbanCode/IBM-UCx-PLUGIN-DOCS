@@ -48,10 +48,10 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 #### Version 91
 
-Added support for single source to multiple targets mapping
-Improvements in ISPF gateway error handling
-User can set MAX-RC for copy dataset step
-Improvements in HFS Deployment
+* Added support for single source to multiple targets mapping
+* Improvements in ISPF gateway error handling
+* User can set MAX-RC for copy dataset step
+* Improvements in HFS Deployment
 
 #### Version 90
 
