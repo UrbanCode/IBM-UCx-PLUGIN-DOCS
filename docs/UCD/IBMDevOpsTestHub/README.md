@@ -8,4 +8,4 @@ The Test Hub UCD plugin to integrate Test Hub with UrbanCode™ Deploy. Integrat
 
 |Latest Version||Back to ...||
 | :---: | :---: | :---: | :---: |
-|[4.1](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IBMDevOpsTestHub/DTHub-DD-IBM-4.1.zip)|[DTHub-Downloads](downloads.md)|[All Deploy Plugins](../README.md)|[All Plugins](../../index.md)|
+|[4.2](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IBMDevOpsTestHub/DTHub-DD-IBM-4.2.zip)|[DTHub-Downloads](downloads.md)|[All Deploy Plugins](../README.md)|[All Plugins](../../index.md)|
