@@ -34,6 +34,7 @@ This plug-in is installed when installing IBM UrbanCode Deploy. When new plug-in
 ### Version 9
 
 * Minor code improvements
+* Added support for single source to multiple target datasets mapping deployments
 
 ### Version 8
 
@@ -75,4 +76,4 @@ This plug-in is installed when installing IBM UrbanCode Deploy. When new plug-in
 
 |          Back to ...          |                                |                                                                                 Latest Version                                                                                  | z/OS Multi Generate Artifact Information |                   |                   |                           |
 |:-----------------------------:|:------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------:|:-----------------:|:-----------------:|:-------------------------:|
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [9.1167086](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-multi-generate-artifact-info/ucd-plugins-zos-multi-generate-artifact-info-9.1167086.zip) |           [Readme](README.md)            | [Steps](steps.md) | [Usage](usage.md) | [Downloads](downloads.md) |
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [9.1168826](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-multi-generate-artifact-info/ucd-plugins-zos-multi-generate-artifact-info-9.1168826.zip) |           [Readme](README.md)            | [Steps](steps.md) | [Usage](usage.md) | [Downloads](downloads.md) |
