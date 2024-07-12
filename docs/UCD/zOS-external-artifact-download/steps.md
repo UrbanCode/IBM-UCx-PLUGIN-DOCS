@@ -12,8 +12,8 @@ Download a z/OS package from an external artifact repository. The repository can
 | Name                | Type    | Description                                                                                      | Required |
 |---------------------|---------|--------------------------------------------------------------------------------------------------|----------|
 | Repository URL      | String  | The URL of the repository.                                                                       | Yes      |
-| User Name           | String  | The user name used to authenticate with the repository.                                          | Yes      |
-| Repository Password | String  | The password used to authenticate with the repository.                                           | Yes      |
+| User Name           | String  | The user name used to authenticate with the repository.                                          | No       |
+| Repository Password | String  | The password used to authenticate with the repository.                                           | No       |
 | Artifactory api key | Boolean | Check this box to use API key authentication with artifact repository. Does not work with Nexus. | No       |
 | Artifactory api key | String  | The api key used to authenticate with the artifactory repository.                                | No       |
 
