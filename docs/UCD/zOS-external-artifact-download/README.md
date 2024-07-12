@@ -6,4 +6,4 @@ The External Artifact Repository plug-in includes step to download artifacts fro
 
 |          Back to ...          |                                |                                                                   Latest Version                                                                   |||||
 |:-----------------------------:|:------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------:| :---: | :---: | :---: | :---: |
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [10.1162509](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOS-external-artifact-download/ucd-ExtArtRepo-10.1162509.zip)  |[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [10.1169084](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOS-external-artifact-download/ucd-ExtArtRepo-10.1169084.zip)  |[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

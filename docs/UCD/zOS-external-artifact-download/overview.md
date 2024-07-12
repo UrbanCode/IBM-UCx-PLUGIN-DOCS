@@ -26,16 +26,17 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 ### Version 10
 
-Added support to handle AT_TLS configuration for external repository servers
-Fixed Jettison Vulnerability
+* Added support to handle AT_TLS configuration for external repository servers
+* Fixed Jettison Vulnerability
+* Enhancement to Download artifacts without credentials
 
 ### Version 9
 
-Minor Improvements and upgraded log4j
+* Minor Improvements and upgraded log4j
 
 ### Version 8
 
-Added support to run with insecure connection
+* Added support to run with insecure connection
 
 ### Version 7
 
@@ -44,31 +45,31 @@ Added support to run with insecure connection
 
 ### Version 6
 
-Added support to run this from non zOS agent
+* Added support to run this from non zOS agent
 
 ### Version 5
 
-Enhancement to extract files for package format v2
+* Enhancement to extract files for package format v2
 
 ### Version 4
 
-Implemented the proxy changes for artifactory server
+* Implemented the proxy changes for artifactory server
 
 ### Version 3
 
-Implemented the api key changes for artifactory server
+* Implemented the api key changes for artifactory server
 
 ### Version 2
 
-PH20336 – Fixed the default value for extRepoURL and changed the plugin to fail when it is not able to download artifacts
+* PH20336 – Fixed the default value for extRepoURL and changed the plugin to fail when it is not able to download artifacts
 
 ### Version 1
 
-Initial release. 
+* Initial release.
 
 Plugin is used to download artifacts from external repository like NEXUS/ARTIFACTORY then we can use Deploy Data Sets step for zOS deployment.
 
 
 |          Back to ...          |                                |                                                                   Latest Version                                                                   | z/OS External Artifact Repository ||||
 |:-----------------------------:|:------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------:| :---: | :---: | :---: |
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [10.1162509](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOS-external-artifact-download/ucd-ExtArtRepo-10.1162509.zip)  |        [Readme](README.md)        |[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [10.1169084](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOS-external-artifact-download/ucd-ExtArtRepo-10.1169084.zip)  |        [Readme](README.md)        |[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
