@@ -53,7 +53,6 @@
 	- [GitLab-Sourceconfig-Generic-Packages](#gitlab-sourceconfig-generic-packages)
 	- [GitHub-Release](#github-release)
 	- [Google Android SDK](#google-android-sdk)
-	- [Gradle  \[community plugin\]](#gradle--community-plugin)
 	- [Groovy](#groovy)
 	- [HCL DevOps Test Hub](#hcl-devops-test-hub)
 	- [HCL DevOps Test Performance](#hcl-devops-test-performance)
