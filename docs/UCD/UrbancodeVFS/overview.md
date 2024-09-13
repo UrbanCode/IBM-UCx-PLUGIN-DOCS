@@ -20,6 +20,10 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 ### History
 
+#### Version 48
+
+Validate checksum for zOS component versions created on server version 8.1.0 or higher  
+
 #### Version 47
 
 Display more information when downloading artifacts from a Relay and Updated securedata library, so that it will not fail to initialize if AES256 is unsupported.
@@ -120,4 +124,4 @@ This release includes a fix for an issue where the initial character in a file n
 
 |          Back to ...          |                                |                                                          Latest Version                                                           | IBM UrbanCode Deploy Versioned File Storage |||
 |:-----------------------------:|:------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------:| :---: | :---: |
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [47.1167424](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/UrbancodeVFS/ucd-UrbancodeVFS-47.1167424.zip) |             [Readme](README.md)             |[Steps](steps.md)|[Downloads](downloads.md)|
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [48.1170581](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/UrbancodeVFS/ucd-UrbancodeVFS-48.1170581.zip) |             [Readme](README.md)             |[Steps](steps.md)|[Downloads](downloads.md)|

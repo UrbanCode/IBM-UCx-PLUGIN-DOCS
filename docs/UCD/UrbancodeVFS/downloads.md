@@ -2,6 +2,7 @@
 # IBM UrbanCode Deploy Versioned File Storage - Downloads
 
 To download the plug-in, click the following version-specific links.
+- [ucd-UrbancodeVFS-48.1170581.zip](https://github.com/UrbanCode/IBM-UCD-PLUGINS/blob/main/files/UrbancodeVFS/ucd-UrbancodeVFS-48.1170581.zip)
 - [ucd-UrbancodeVFS-47.1167424.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/UrbancodeVFS/ucd-UrbancodeVFS-47.1167424.zip)
 - [ucd-UrbancodeVFS-46.1155706.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/UrbancodeVFS/ucd-UrbancodeVFS-46.1155706.zip)
 - [ucd-UrbancodeVFS-45.1150655.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/UrbancodeVFS/ucd-UrbancodeVFS-45.1150655.zip)
@@ -38,4 +39,4 @@ To download the plug-in, click the following version-specific links.
 
 |          Back to ...          |                                |                                                          Latest Version                                                           | IBM UrbanCode Deploy Versioned File Storage |||
 |:-----------------------------:|:------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------:| :---: | :---: |
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [47.1167424](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/UrbancodeVFS/ucd-UrbancodeVFS-47.1167424.zip) |             [Readme](README.md)             |[Overview](overview.md)|[Steps](steps.md)|
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [48.1170581](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/UrbancodeVFS/ucd-UrbancodeVFS-48.1170581.zip) |             [Readme](README.md)             |[Overview](overview.md)|[Steps](steps.md)|
