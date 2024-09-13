@@ -24,6 +24,10 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 ## History
 
+### Version 11
+
+* Validate checksum for zOS component versions created on server version 8.1.0 or higher
+
 ### Version 10
 
 * Added support to handle AT_TLS configuration for external repository servers
