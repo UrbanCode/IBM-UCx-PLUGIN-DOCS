@@ -46,6 +46,13 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 ### History
 
+#### Version 93
+
+* Removed input to pass binder shared library path from Deploy datasets step
+* Added option to pass retain days in Remove All Versions and Remove Redundant Versions steps
+* Dependent groovy libraries are now shipped with plugin to avoid incompatibility issues as groovy versions differ by agent version.
+* Performance improvements.
+
 #### Version 92
 
 * Minor improvements in Runtime delta deployment
@@ -389,4 +396,4 @@ This release includes the following updates:
 
 |          Back to ...          |                                |                                                        Latest Version                                                         |    z/OS Utility     |                                       |                   |                   |                           |
 |:-----------------------------:|:------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------:|:-------------------:|:-------------------------------------:|:-----------------:|:-----------------:|:-------------------------:|
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [92.1169106](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-92.1169106.zip) | [Readme](README.md) | [Troubleshooting](troubleshooting.md) | [Steps](steps.md) | [Usage](usage.md) | [Downloads](downloads.md) |
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [93.1170974](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-93.1170974.zip) | [Readme](README.md) | [Troubleshooting](troubleshooting.md) | [Steps](steps.md) | [Usage](usage.md) | [Downloads](downloads.md) |
