@@ -23,6 +23,10 @@ View the [GitHub projects wiki page](https://github.com/ibm-datapower/datapower-
 
 ### History
 
+#### Version 26
+
+*Added "upload directory" step a a duplicate step to "upload files" to avoid confusion for a users.
+
 #### Version 25
 
 * Fixed groovy3 compatibility issue
@@ -115,4 +119,4 @@ Initial release of the standard version of the plug-in.
 
 |Back to ...||Latest Version|IBM DataPower Configuration Manager ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[[v25](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/datapower/datapower-v25.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[[v26](https://github.com/ibm-datapower/datapower-configuration-manager/releases/download/Datapower26/datapower-v26.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
