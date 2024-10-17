@@ -2,8 +2,6 @@
 
 ## Contents
 
-- [Welcome to UrbanCode Deploy Plugins](#welcome-to-urbancode-deploy-plugins)
-	- [Contents](#contents)
 - [List of all Plugins](#list-of-all-plugins)
 	- [7-Zip  \[community plugin\]](#7-zip--community-plugin)
 	- [AccuRev SCM](#accurev-scm)
@@ -191,7 +189,7 @@
 	- [Oracle WebLogic Server Resource Management](#oracle-weblogic-server-resource-management)
 	- [Oracle WebLogic Server Security Management](#oracle-weblogic-server-security-management)
 	- [Oracle WebLogic WLDeploy](#oracle-weblogic-wldeploy)
-	- [PAAC-](https://urbancode.github.io/plugin-paac/)
+	- [PAAC](https://urbancode.github.io/plugin-paac/)
 	- [PVCS](#pvcs)
 	- [Perforce Helix](#perforce-helix)
 	- [PowerShell](#powershell)
