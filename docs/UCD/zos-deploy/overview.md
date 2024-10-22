@@ -52,6 +52,7 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 * Added option to pass retain days in Remove All Versions and Remove Redundant Versions steps
 * Dependent groovy libraries are now shipped with plugin to avoid incompatibility issues as groovy versions differ by agent version.
 * Performance improvements.
+* Fixed UnsatisfiedLinkError error while running MVS Command with Java 17
 
 #### Version 92
 
@@ -396,4 +397,4 @@ This release includes the following updates:
 
 |          Back to ...          |                                |                                                        Latest Version                                                         |    z/OS Utility     |                                       |                   |                   |                           |
 |:-----------------------------:|:------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------:|:-------------------:|:-------------------------------------:|:-----------------:|:-----------------:|:-------------------------:|
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [93.1170974](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-93.1170974.zip) | [Readme](README.md) | [Troubleshooting](troubleshooting.md) | [Steps](steps.md) | [Usage](usage.md) | [Downloads](downloads.md) |
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [93.1171934](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-93.1171934.zip) | [Readme](README.md) | [Troubleshooting](troubleshooting.md) | [Steps](steps.md) | [Usage](usage.md) | [Downloads](downloads.md) |
