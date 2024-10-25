@@ -53,6 +53,7 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 * Dependent groovy libraries are now shipped with plugin to avoid incompatibility issues as groovy versions differ by agent version.
 * Performance improvements.
 * Fixed UnsatisfiedLinkError error while running MVS Command with Java 17
+* Enhancements in error handling when deploying v1 versions
 
 #### Version 92
 
@@ -397,4 +398,4 @@ This release includes the following updates:
 
 |          Back to ...          |                                |                                                        Latest Version                                                         |    z/OS Utility     |                                       |                   |                   |                           |
 |:-----------------------------:|:------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------:|:-------------------:|:-------------------------------------:|:-----------------:|:-----------------:|:-------------------------:|
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [93.1171934](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-93.1171934.zip) | [Readme](README.md) | [Troubleshooting](troubleshooting.md) | [Steps](steps.md) | [Usage](usage.md) | [Downloads](downloads.md) |
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [93.1172017](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-93.1172017.zip) | [Readme](README.md) | [Troubleshooting](troubleshooting.md) | [Steps](steps.md) | [Usage](usage.md) | [Downloads](downloads.md) |
