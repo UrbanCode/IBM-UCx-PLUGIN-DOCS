@@ -124,4 +124,4 @@ This release includes a fix for an issue where the initial character in a file n
 
 |          Back to ...          |                                |                                                          Latest Version                                                           | IBM UrbanCode Deploy Versioned File Storage |||
 |:-----------------------------:|:------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------:| :---: | :---: |
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [48.1170581](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/UrbancodeVFS/ucd-UrbancodeVFS-48.1170581.zip) |             [Readme](README.md)             |[Steps](steps.md)|[Downloads](downloads.md)|
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [48.1172096](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/UrbancodeVFS/ucd-UrbancodeVFS-48.1172096.zip) |             [Readme](README.md)             |[Steps](steps.md)|[Downloads](downloads.md)|

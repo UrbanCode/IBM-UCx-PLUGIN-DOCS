@@ -1479,7 +1479,7 @@ The IBM UrbanCode Versioned File Storage plug-in includes steps to upload and do
 
 |Back to ...||IBM UrbanCode Deploy Versioned File Storage |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](UrbancodeVFS/README.md)|[48.1170581](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/UrbancodeVFS/ucd-UrbancodeVFS-48.1170581.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](UrbancodeVFS/README.md)|[48.1172096](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/UrbancodeVFS/ucd-UrbancodeVFS-48.1172096.zip)|
 
 ## IBM UrbanCode Deploy Versions
 
