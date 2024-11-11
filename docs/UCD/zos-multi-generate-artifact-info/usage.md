@@ -49,7 +49,39 @@ After the plug-in step completes, the following output is received. Please note 
 
 ![](media/zos_example_output_dbrm.jpg?resize=602%2C68)
 
-Similarly, you can deploy and custom property filters to create a template with only selected elements.
+Similarly, you can deploy to create a template with only selected elements.
+
+### Understanding custom properties filter in the plugin step through a scenario
+#### Scenario
+Let's assume a version with artifacts and custom properties
+
+```xml
+    <container name="BUILD.JCL" type="PDS">
+        <resource name="AGNTTASK" type="PDSMember">
+            <property name="OWNER" value="PROD"/>
+            <property name="TYPE" value="JCL"/>
+        </resource>
+        <resource name="BINDJCL" type="PDSMember">
+            <property name="OWNER" value="PROD"/>
+            <property name="TYPE" value="DB2"/>
+        </resource>
+        <resource name="JCLA" type="PDSMember"  deployType="TEXT">
+            <property name="OWNER" value="DEV"/>
+            <property name="TYPE" value="JCL"/>
+        </resource>
+    </container>
+
+```
+Let's attempt to filter a resource that has custom properties OWNER and TYPE set to PROD and JCL. From the above version manifest, it is evident that only resource AGNTTASK matches the filter criteria.
+
+In order to apply the filter criteria, pass the applicable properties as a json value. In this case, json looks like below
+```json5
+{
+  "prod-jcl":"OWNER=PROD\nTYPE=JCL"
+}
+```
+
+Note that the multiple properties should be separated by characters "\n", which signifies newline.
 
 Watch video in link below on how to migrate from regular generate artifact information step to multi artifact information step – 
 
