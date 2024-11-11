@@ -49,7 +49,7 @@ After the plug-in step completes, the following output is received. Please note 
 
 ![](media/zos_example_output_dbrm.jpg?resize=602%2C68)
 
-Similarly, you can deploy to create a template with only selected elements.
+Similarly, you can use <b>deploy types</b> to create a template with only selected elements.
 
 ### Understanding custom properties filter in the plugin step through a scenario
 #### Scenario
