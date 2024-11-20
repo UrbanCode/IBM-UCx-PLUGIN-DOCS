@@ -46,6 +46,10 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 ### History
 
+#### Version 94
+
+* Added debug logging capability
+
 #### Version 93
 
 * Removed input to pass binder shared library path from Deploy datasets step
@@ -399,4 +403,4 @@ This release includes the following updates:
 
 |          Back to ...          |                                |                                                        Latest Version                                                         |    z/OS Utility     |                                       |                   |                   |                           |
 |:-----------------------------:|:------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------:|:-------------------:|:-------------------------------------:|:-----------------:|:-----------------:|:-------------------------:|
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [93.1172102](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-93.1172102.zip) | [Readme](README.md) | [Troubleshooting](troubleshooting.md) | [Steps](steps.md) | [Usage](usage.md) | [Downloads](downloads.md) |
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [94.1172507](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-94.1172507.zip) | [Readme](README.md) | [Troubleshooting](troubleshooting.md) | [Steps](steps.md) | [Usage](usage.md) | [Downloads](downloads.md) |
