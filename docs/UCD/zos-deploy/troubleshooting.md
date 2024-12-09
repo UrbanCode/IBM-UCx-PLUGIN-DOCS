@@ -30,6 +30,36 @@ Follow below steps to disable inputs for Z Inventory.
 
 **Note:** This will also fix APAR PH57385 - Error deploying version.Status code - 400 
 
+## Setting Temporary DSN prefix
+
+During the step execution, temporary datasets are created using the
+HLQ (High Level Qualifier) prefix given in the hidden input `Temporary DSN Prefix`.
+
+By default, the value of `Temporary DSN Prefix` is set to `${p?:BUZ_TMP_DSN_PREFIX}` as shown below for `Deploy Data sets` step.
+
+![temp-dsn-prefix.png](media/temp-dsn-prefix.png)
+
+If `BUZ_TMP_DSN_PREFIX` is not set on the Agent and the value of `Temporary DSN Prefix` is empty, Impersonation/Agent Userid is used as HLQ (High Level Qualifier) prefix to create temporary datasets.
+
+Datasets creation using the Impersonation/Agent UserId as HLQ prefix may be disabled on the MVS System resulting in below error
+
+> BPXWDYN failed; S99ERROR/S99INFO = 0x970c/0x0 RC=-1760821248 (0x970c0000)
+
+In such a scenario a custom temporary DSN prefix needs to be setup either at the Plugin Step or at the Agent. 
+
+### To set the Temporary Dataset Prefix value at Agent level
+
+In the file `<AGENT_HOME>/bin/setenv-zos.sh`, add below export statement
+
+> export BUZ_TMP_DSN_PREFIX=UCD.TMP
+
+This will set prefix to the given value (`UCD.TMP`). After the changes, agent restart is needed.
+
+### To set the Temporary Dataset Prefix at step level
+
+Modify the hidden input in the plugin step `Temporary DSN Prefix` to allowed dataset prefix on the MVS system. 
+
+
 
 
 |          Back to ...          |                                |                                                        Latest Version                                                         |    z/OS Utility     |                         |                   |                   |                           |
