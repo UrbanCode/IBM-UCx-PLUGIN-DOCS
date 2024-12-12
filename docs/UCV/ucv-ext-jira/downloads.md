@@ -2,6 +2,8 @@
 # Jira - Downloads
 
 To download the plugins, click the following version specific links.
+- [ucv-ext-jira:2.3.20.tar.7z.002](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jira/ucv-ext-jira%3A2.3.20.tar.7z.002)
+- [ucv-ext-jira:2.3.20.tar.7z.001](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jira/ucv-ext-jira%3A2.3.20.tar.7z.001)
 - [ucv-ext-jira:2.3.17.tar.7z.002](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jira/ucv-ext-jira%3A2.3.17.tar.7z.002)
 - [ucv-ext-jira:2.3.17.tar.7z.001](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jira/ucv-ext-jira%3A2.3.17.tar.7z.001)
 - [ucv-ext-jira:2.3.14.tar.7z.002](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jira/ucv-ext-jira%3A2.3.14.tar.7z.002)

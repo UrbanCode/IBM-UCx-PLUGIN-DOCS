@@ -19,9 +19,13 @@ DevOps Velocity plug-in images are located in DockerHub. To view available versi
 
 ### History
 
+### Version 2.3.20
+
+* **Bug Fix**: Active Sprint Field Mapping in JIRA Cloud. 
+
 ### Version 2.3.17
 
-* **Bug Fix**: Plugin now supports proxy server enabled Jira integration, the configuration page is enhanced to capture proxy server details to enable this functionality 
+* **Bug Fix**: Plugin now supports proxy server enabled Jira integration, the configuration page is enhanced to capture proxy server details to enable this functionality.
 
 ### Version 2.3.14
 
@@ -130,4 +134,4 @@ DevOps Velocity plug-in images are located in DockerHub. To view available versi
 
 |Back to ...||Latest Version|Jira |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[2.3.17-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jira/ucv-ext-jira%3A2.3.17.tar.7z.001)[and 2.3.17-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jira/ucv-ext-jira%3A2.3.17.tar.7z.002)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[2.3.20-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jira/ucv-ext-jira%3A2.3.20.tar.7z.001)[and 2.3.20-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jira/ucv-ext-jira%3A2.3.20.tar.7z.002)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
