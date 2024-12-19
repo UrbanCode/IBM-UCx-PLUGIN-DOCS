@@ -1,4 +1,4 @@
-# Welcome to Devops Deploy Integration Component
+# Welcome to Devops Deploy Integration Components
 
 ## Contents
 
