@@ -189,7 +189,7 @@
 	- [Oracle WebLogic Server Resource Management](#oracle-weblogic-server-resource-management)
 	- [Oracle WebLogic Server Security Management](#oracle-weblogic-server-security-management)
 	- [Oracle WebLogic WLDeploy](#oracle-weblogic-wldeploy)
-	- [PAAC](https://urbancode.github.io/plugin-paac/)
+	- [PAAC](https://urbancode.github.io/plugin-docs-paac/)
 	- [PVCS](#pvcs)
 	- [Perforce Helix](#perforce-helix)
 	- [PowerShell](#powershell)
