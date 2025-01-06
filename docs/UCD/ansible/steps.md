@@ -171,7 +171,8 @@ Use this step to apply the <b>apt_key module</b> in Ansible.
 > **Note:**
 > ---------
 >* The <b>apt-key command</b> used by this <b>module</b> has been <b>deprecated</b>. See the Debian wiki(https://wiki.debian.org/DebianRepository/UseThirdParty) for details. </br>
-This module is kept for backwards compatibility for systems that still use apt-key as the main way to manage apt repository keys.
+   This module is kept for backwards compatibility for systems that still use apt-key as the main way to manage apt repository keys.</br>
+   Reference Ansible Official Documentation: https://docs.ansible.com/ansible/latest/collections/ansible/builtin/apt_key_module.html
 >* In the <b>next release of the plugin</b>, this <b>step will be removed</b>.
 
 | Name  | Type     | Description                                  | Required |
