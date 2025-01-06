@@ -1,44 +1,25 @@
 
 # Ansible
 
-The Ansible plug-in enables IBM UrbanCode Deploy to run various commands. Any missing commands can be run through a generic Shell step or AShell plug-in step.
+The Ansible plugin enables seamless integration of Ansible environment into the DevOps Deploy deployment process, allowing you to execute various commands. It offers a wide range of modules, each of which can be used as discrete steps within your automation pipeline. For any missing commands, you can execute them through the AShell plugin step.
 
-The AirWatch Toolkit plug-in is a community plug-in. Community plug-ins are open source projects that are developed and supported by the IBM UrbanCode development community.
+### Available Steps
 
-## Downloads
+- Command
+- Copy
+- File
+- Get URL
+- Line In File
+- Pip
+- Apt
+- Service
+- Shell
+- Unarchive
+- AShell
+- GetBuiltInAnsibleProperties
+- Apt Key
 
-* [Ansible Toolkit plug-in distribution](https://github.com/UrbanCode/Ansible-Toolkit-UCD/releases)
-* [Source project](https://github.com/UrbanCode/Ansible-Toolkit-UCD)
 
-If you encounter issues with the plug-in, or want to send feedback:
-
-* Ask Ansible-Toolkitplug-in specific questions on the [GitHub Issues](https://github.com/UrbanCode/Ansible-Toolkit-UCD/issues) page.
-* For general plug-in issues, submit questions to the [Community discussions page](https://community.ibm.com/community/user/wasdevops/urbancode-discussion). Use the following tags: urbancode | ucdev | plugins
-
-## Available Steps
-
-AShell
-
-Apt
-
-Command
-
-Copy
-
-File
-
-Get Url
-
-Get Built-in Ansible Properties
-
-Line In File
-
-Service
-
-Shell
-
-Unarchive
-
-|Back to ...||Latest Version|
-| :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[0]()|
+|          Back to ...          |                                |                                                          Latest Version                                                          |                           |                         |                   |                   |
+|:-----------------------------:|:------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------:|:-------------------------:|:-----------------------:|:-----------------:|:-----------------:|
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [55.1173239](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Ansible/ucd-plugins-ansible-55.1173239.zip)  | [Downloads](Downloads.md) | [Overview](overview.md) | [Steps](steps.md) | [Usage](usage.md) |

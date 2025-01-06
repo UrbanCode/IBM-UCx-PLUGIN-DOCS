@@ -81,6 +81,6 @@ Ex: Add a key from a file on the Ansible server.</br>
 [![Apt Key](media/apt-key.png)]
 
 
-|          Back to ...          |                                | Latest Version |   Ansible Plug-In   |                         |                   |                           |
-|:-----------------------------:|:------------------------------:|:--------------:|:-------------------:|:-----------------------:|:-----------------:|:-------------------------:|
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) |                | [Readme](README.md) | [Overview](overview.md) | [Steps](steps.md) | [Downloads](downloads.md) |
+|          Back to ...          |                                |                                                          Latest Version                                                          |   Ansible Plug-In   |                         |                   |                           |
+|:-----------------------------:|:------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------:|:-------------------:|:-----------------------:|:-----------------:|:-------------------------:|
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [55.1173239](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Ansible/ucd-plugins-ansible-55.1173239.zip)  | [Readme](README.md) | [Overview](overview.md) | [Steps](steps.md) | [Downloads](downloads.md) |
