@@ -11,7 +11,7 @@
 	- [Actifio  \[partner plugin\]](#actifio--partner-plugin)
 	- [Amazon EC2](#amazon-ec2)
 	- [Amazon Web Services (AWS) Lambda  \[community plugin\]](#amazon-web-services-aws-lambda--community-plugin)
-	- [Ansible  \[community plugin\]](#ansible--community-plugin)
+	- [Ansible](#ansible)
 	- [Apache Ant](#apache-ant)
 	- [Apache HTTP Server](#apache-http-server)
 	- [Apache Hadoop  \[community plugin\]](#apache-hadoop--community-plugin)
@@ -289,15 +289,15 @@ Amazon Web Services (AWS) Lambda provides on demand computing power for any appl
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](aws-lambda/README.md)|[1.920392](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/aws-lambda/aws-lambda-1.920392.zip)|
 
-## Ansible  [community plugin]
+## Ansible
 
-The Ansible plug-in enables IBM UrbanCode Deploy to run various commands. Any missing commands can be run through a generic Shell step or AShell plug-in step.
+The Ansible plugin enables seamless integration of Ansible environment into the DevOps Deploy deployment process, allowing you to execute various commands. It offers a wide range of modules, each of which can be used as discrete steps within your automation pipeline. For any missing commands, you can execute them through the AShell plugin step.
 
 ---
 
 |Back to ...||Ansible |Latest Version|
-| :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ansible/README.md)|[0]()|
+| :---: | :---: | :---: |:------------:|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ansible/README.md)|[55.1173239](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Ansible/ucd-plugins-ansible-55.1173239.zip)|
 
 ## Apache Ant
 
