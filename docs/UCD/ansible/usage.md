@@ -4,6 +4,20 @@ The Ansible plugin enables seamless integration of an Ansible environment into y
 
 ## **Providing Example Usage for Each Ansible Plug-in Step (Module):**
 
+- [Command](#command)
+- [Copy](#copy)
+- [File](#file)
+- [Get URL](#get-url)
+- [Line In File](#line-in-file)
+- [Pip](#pip)
+- [Apt](#apt)
+- [Service](#service)
+- [Shell](#shell)
+- [Unarchive](#unarchive)
+- [AShell](#ashell)
+- [GetBuiltInAnsibleProperties](#getbuiltinansibleproperties)
+- [Apt Key](#apt-key)
+ 
 ## **Command**
 The Command module is used to execute commands on a remote node. It is primarily utilized for running simple Linux commands on remote nodes or servers that are part of a host group or standalone server within that group. If you need to run basic shell commands on a remote server, the Command module is the ideal choice.
 
