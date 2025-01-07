@@ -14,10 +14,11 @@
 	- [CircleCI](#circleci)
 	- [Code Coverage](#code-coverage)
 	- [CollabNet VersionOne](#collabnet-versionone)
-	- [Control](#control)
 	- [Cucumber](#cucumber)
 	- [Cypress](#cypress)
 	- [Digital.ai Agility](#digitalai-agility)
+	- [DevOps Deploy](#urbancode-deploy)
+	- [DevOps Plan](#devops-plan)
 	- [Fortify SSC](#fortify-ssc)
 	- [GenAI summary release-IBM](#genai-summary-release-ibm) 
 	- [GenAI summary release-OpenAI](#genai-summary-release-openai)
@@ -26,10 +27,10 @@
 	- [GitLab](#gitlab)
 	- [HCL AppScan Enterprise (ASE)](#hcl-appscan-enterprise-ase)
 	- [HCL AppScan on Cloud (ASoC)](#hcl-appscan-on-cloud-asoc)
-	- [DevOps Plan](#devops-plan)
 	- [HCL OneTest](#hcl-onetest)
 	- [HCL OneTest Server](#hcl-onetest-server)
 	- [Handlebar Reporter](#handlebar-reporter)
+	- [IBM DevOps Control](#ibm-devops-control)
 	- [IBM Engineering Workflow Management (EWM)](#ibm-engineering-workflow-management-ewm)
 	- [Jenkins](#jenkins)
 	- [JUnit](#junit)
@@ -37,7 +38,6 @@
 	- [Microsoft Visual Studio Testing](#microsoft-visual-studio-testing)
 	- [Milestone Risk Estimator](#milestone-risk-estimator)
 	- [Njs-Unit](#Njs-Unit) 
-	- [urbancode-velocity](#urbancode-velocity)
 	- [Planview Leankit](#planview-leankit)
 	- [Rally](#rally)
 	- [Rational Test Automation Server](#rational-test-automation-server)
@@ -50,7 +50,7 @@
 	- [TestComplete](#testcomplete)
 	- [TestNG](#testng)
 	- [Twistlock](#twistlock)
-	- [DevOps Deploy](#urbancode-deploy)
+	- [urbancode-velocity](#urbancode-velocity)
 	- [WhiteSource](#whitesource)
 	- [YAML Executor](#yaml-executor)
 
@@ -136,16 +136,6 @@ CollabNet VersionOne is a web-based project management tool. It manages the enti
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-versionone/README.md)|[1.0.11](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-versionone/ucv-ext-versionone-1.0.11.tar.zip)|
 
-## Control
-
-Control is a Git repository hosting service. The Control plugin enables users to import Git artifacts by querying pull requests and commit, facilitating seamless integration and management of project resources. 
-
----
-
-|Back to ...||Control |Latest Version|
-| :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-control/README.md)|[1.0.2-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-control/ucv-ext-control%3A1.0.2.tar.7z.001)[and 1.0.2-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-control/ucv-ext-control%3A1.0.2.tar.7z.002)|
-
 ## Cucumber
 
 Cucumber is a software testing tool that runs automated acceptance tests written in a behavior-driven development (BDD)  style. BDD testing focuses on the behaviour of the product.
@@ -175,6 +165,28 @@ Digital.ai.Agility is Enterprise level planning and tracking platform to build a
 |Back to ...||Digital.ai Agility |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-agility/README.md)|[1.0.20](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-agility/ucv-ext-agility-1.0.20.tar.zip)|
+
+## DevOps Deploy
+
+DevOps Deploy is engineered to handle the most complex deployment situations with push-button automation and controlled auditing needed in production. DevOps Deploy automates application deployments across varying IT environments.
+
+The Deploy Plugin for DevOps Velocity imports deployment data from DevOps Deploy into DevOps Velocity. Applications in DevOps Deploy can be mapped in the DevOps Velocity pipeline and the application versions can be tracked from the pipeline.
+
+---
+
+|Back to ...||DevOps Deploy |Latest Version|
+| :---: | :---: | :---: | :---: |
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-ucd/README.md)|[4.0.9 -File 1](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-ucd/ucv-ext-ucd%3A4.0.9.tar.7z.001) [and 4.0.9 -File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-ucd/ucv-ext-ucd%3A4.0.9.tar.7z.002)|
+
+## DevOps Plan
+
+Plan is an issue tracking product. The Plan plug-in provides an integration with Plan to import and work with Plan work items.
+
+---
+
+|Back to ...||Plan |Latest Version|
+| :---: | :---: | :---: | :---: |
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-plan/README.md)|[1.1.52-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-compass/ucv-ext-compass%3A1.1.55.tar.7z.001)[and 1.1.52-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-compass/ucv-ext-compass%3A1.1.55.tar.7z.002)|
 
 ## Fortify SSC
 
@@ -211,7 +223,7 @@ GitHub is a Git repository hosting service. It provides tools to manage artifact
 
 |Back to ...||GitHub |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-github/README.md)|[1.4.18-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-github/ucv-ext-github%3A1.4.18.tar.7z.001)[and 1.4.18-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-github/ucv-ext-github%3A1.4.18.tar.7z.002)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-github/README.md)|[1.5.1-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-github/ucv-ext-github%3A1.5.1.tar.7z.001)[and 1.5.1-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-github/ucv-ext-github%3A1.5.1.tar.7z.002)|
 
 ## GitHub Dependabot
 
@@ -253,16 +265,6 @@ HCL AppScan on Cloud (ASoC) is an application security offering that allows you 
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-asoc/README.md)|[3.0.25-File1](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-asoc/ucv-ext-asoc%3A3.0.25.tar.7z.001) [ and 3.0.25-File2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-asoc/ucv-ext-asoc%3A3.0.25.tar.7z.002)|
 
-## DevOps Plan
-
-Plan is an issue tracking product. The Plan plug-in provides an integration with Plan to import and work with Plan work items.
-
----
-
-|Back to ...||Plan |Latest Version|
-| :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-plan/README.md)|[1.1.52-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-compass/ucv-ext-compass%3A1.1.55.tar.7z.001)[and 1.1.52-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-compass/ucv-ext-compass%3A1.1.55.tar.7z.002)|
-
 ## HCL OneTest
 
 The HCL OneTest tool provides automated software testing tools. This plug-in provides integration of Functional,  Performance and Web UI testing results (JSON) into the DevOps Velocity server.
@@ -292,6 +294,16 @@ Handlebars is a simple templating language. It can be used to generate HTML or o
 |Back to ...||Handlebar Reporter |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-handlebars-reporter/README.md)|[2.0.1](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-handlebars-reporter/ucv-ext-handlebars-reporter%3A2.0.1.tar.7z.001)|
+
+## IBM DevOps Control
+
+IBM DevOps Control is a Git repository hosting service. The IBM DevOps Control plug-in enables users to import Git artifacts by querying pull requests and commit, facilitating seamless integration and management of project resources.
+
+---
+
+|Back to ...||IBM DevOps Control |Latest Version|
+| :---: | :---: | :---: | :---: |
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-control/README.md)|[1.0.4-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-control/ucv-ext-control%3A1.0.4.tar.7z.001)[and 1.0.4-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-control/ucv-ext-control%3A1.0.4.tar.7z.002)|
 
 ## IBM Engineering Workflow Management (EWM)
 
@@ -331,7 +343,7 @@ Jira is an issue tracking product, developed by Atlassian. The Jira plug-in prov
 
 |Back to ...||Jira |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-jira/README.md)|[2.3.20-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jira/ucv-ext-jira%3A2.3.20.tar.7z.001)[and 2.3.20-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jira/ucv-ext-jira%3A2.3.20.tar.7z.002)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-jira/README.md)|[2.3.24-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jira/ucv-ext-jira%3A2.3.24.tar.7z.001)[and 2.3.24-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jira/ucv-ext-jira%3A2.3.24.tar.7z.002)|
 
 ## Microsoft Visual Studio Testing
 
@@ -362,17 +374,6 @@ You can visualize unit test results for given applications or value streams or t
 |Back to ...||Njs-Unit |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-njs-unit/README.md)|[1.0.4-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-njs-unit/ucv-ext-njs-unit%3A1.0.4.tar.7z.001)[and 1.0.4-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-njs-unit/ucv-ext-njs-unit%3A1.0.4.tar.7z.002)|
-
-## urbancode-velocity
-
-With this Jenkins plugin, you can run Jenkins jobs as a part of a deployment plan in DevOps Velocity. You can run jobs that will trigger the creation of a version in a Velocity Pipeline as well as persist properties on that version that can be used as input properties in other Jenkins builds. This plugin will pass along important data from Git to the Velocity Pipeline.
-
----
-
-|Back to ...||urbancode-velocity |Latest Version|
-| :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](urbancode-velocity/README.md)|[3.0.1](https://github.com/jenkinsci/urbancode-velocity-plugin/releases/download/3.0.1/urbancode-velocity-3.0.1.hpi)|
-
 
 ## Planview Leankit
 
@@ -490,17 +491,15 @@ Twistlock provides container security. It is a rule-based access control policy 
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-twistlock/README.md)|[1.0.43](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-twistlock/ucv-ext-twistlock-1.0.43.tar.zip)|
 
-## DevOps Deploy
+## urbancode-velocity
 
-DevOps Deploy is engineered to handle the most complex deployment situations with push-button automation and controlled auditing needed in production. DevOps Deploy automates application deployments across varying IT environments.
-
-The Deploy Plugin for DevOps Velocity imports deployment data from DevOps Deploy into DevOps Velocity. Applications in DevOps Deploy can be mapped in the DevOps Velocity pipeline and the application versions can be tracked from the pipeline.
+With this Jenkins plugin, you can run Jenkins jobs as a part of a deployment plan in DevOps Velocity. You can run jobs that will trigger the creation of a version in a Velocity Pipeline as well as persist properties on that version that can be used as input properties in other Jenkins builds. This plugin will pass along important data from Git to the Velocity Pipeline.
 
 ---
 
-|Back to ...||DevOps Deploy |Latest Version|
+|Back to ...||urbancode-velocity |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-ucd/README.md)|[4.0.9 -File 1](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-ucd/ucv-ext-ucd%3A4.0.9.tar.7z.001) [and 4.0.9 -File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-ucd/ucv-ext-ucd%3A4.0.9.tar.7z.002)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](urbancode-velocity/README.md)|[3.0.1](https://github.com/jenkinsci/urbancode-velocity-plugin/releases/download/3.0.1/urbancode-velocity-3.0.1.hpi)|
 
 ## WhiteSource
 

@@ -17,28 +17,49 @@ The GitHub plug-in supports scheduled events integration which are listed in the
 
 ## Integration
 
-here are two methods to integrate the plug-in:
+To install the plug-in, perform the following steps:
 
-* Using the user interface
-* Using a JSON file
+1. In IBM DevOps Velocity, click **Settings** > **Integrations** > **Available**.
+2. In the **Action** column for the GitHub plug-in, click **Install**.
 
-The tables in the Configuration properties topic describe the properties used to define the integration.
+There are two methods to integrate the plug-in:
 
-### Using the user interface
+1. Using the user interface
+2. Using a JSON file
 
-1. From the Plugins page, click **Settings** > **Integrations** > **Plugins**.
-2. Under the **Action** column for the plug-in, click **Add Integration**.
-3. On the Add Integration page enter values for the fields used to configure the integration and define communication.
+The tables in the Configuration properties describe the properties used to define the integration.
+### Integrating the plug-in by using user interface
+
+To integrate the plug-in using the user interface, perform the following steps:
+
+1. In IBM DevOps Velocity, click **Settings** > **Integrations** > **Installed**.
+2. In the **Action** column for the GitHub plug-in, click **Add Integration**.
+3. On the Add Integration dialog, enter the values for the fields to configure the integration and define communication.
+4. Click **Add**.
+
+### Integrating the plug-in by using JSON file
+
+The JSON file contains the information for creating a value stream. Within the JSON file is a section for integrations. It is in this section that plugin properties can be defined. Refer to the JSON sample code in the Configuration Properties section.
+
+To integrate the plug-in using a JSON, perform the following steps:
+
+1. Navigate to **value stream page**, and then click the **necessary value stream**.
+2. Click **wrench icon**, and then Select **Edit value stream**, to modify the JSON file in the code or tree view editors.
+Alternatively, you can also click **Download JSON** option to download the JSON file, and then select the **Import JSON** option to upload the revised JSON file.
+3. Edit the integration information in the JSON file to add the plug-in configuration properties. Refer to JSON sample code in the Configuration Properties section more details.
 4. Click **Save**.
 
-### Using a JSON file
+## Minimum permission to integrate with GitHub
 
-The JSON file contains the information for creating a value stream. Within the JSON file is a section for integrations. It is in this section that plug-in properties can be defined.
+The access token generated from GitHub server requires the Full control of private repositories permission to connect to the Github.
 
-1. From a value stream page, download the value stream map. The value stream map is a JSON file used to define integrations.
-2. Edit the JSON file to include the plug-in configuration properties.
-3. Save and upload the JSON file. This replaces the current JSON file with the new content.
-4. View the new integration on the Integrations page.
+## Wildcard Functionality added in this Plugin:
+
+**Wildcard functionality**: A new way to specify multiple repositories in the GitHub plugin without having to manually modify the integration each time. Regular expressions would be most valuable and dynamic. 
+Example: ucv-ext-*, repo-name*, *repo*-abc. to specify multiple repositories which containe the same pattern in their name.
+
+**Previously**: Must list every plugin manually to be imported. Example: ucv-ext-jira, ucv-ext-appscan, ucv-ext-sonarqube
+**With this functionality** : Single regex will import all repositories. Example: ucv-ext-*.
 
 ## Configuration properties
 
@@ -57,13 +78,14 @@ The following tables describe the properties used to configure the integration. 
 | NA | List of configuration properties used to connect and communicate with the GitHub server. Enclose the properties within braces. | Yes | properties |
 |  | The name of the tenant. | Yes | tenant_id |
 | NA | Unique identifier assigned to the plug-in. The value for the GitHub plug-in is `ucv-ext-github` | Yes | type |
+| IBM DevOps Velocity User Access Key | An auto-generated user access key provides credentials for communicating with the IBM DevOps Velocity server. | Yes | NA |
 
 ### GitHub Configuration Properties table
 
-| Name | Type | Description | Required | Project Name |
+| Name | Type | Description | Required | Property Name |
 | --- | --- | --- | --- | --- |
 | API URL | String | The URL to the REST API v3 for the GitHub instance. | Yes | apiUrl |
-| DevOps Velocity User Access Key | String | The user access key generated from DevOps Velocity used to authenticate with the DevOps Velocity server. | Yes | ucvAccessKey |
+| DevOps Velocity User Access Key | String | The user access key generated from IBM DevOps Velocity used to authenticate with the IBM DevOps Velocity server. | Yes | ucvAccessKey |
 | Owner | String | The owner name of the GitHub repository. | Yes | owner |
 | Repositories | Array | List of GitHub repositories, Use either Repositories field or name field to specify the repositories. | Yes | repositories |
 | branch | String | GitHub repositories branch, The branch to pull commits from. | No | branch |
@@ -101,6 +123,10 @@ The following example can be used as a template to define the integration within
 
 ```
 
+**Note**:
+
+Altering the ‘repositories’ field in the settings will not automatically eliminate any pre-existing data from older integrations. If your goal is to solely display information related to the newly updated repository, it’s necessary to first remove the old integration. After that, you can create a new integration that includes the updated list of repositories.
+
 |Back to ...||Latest Version|GitHub |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.4.18-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-github/ucv-ext-github%3A1.4.18.tar.7z.001)[and 1.4.18-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-github/ucv-ext-github%3A1.4.18.tar.7z.002)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.5.1-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-github/ucv-ext-github%3A1.5.1.tar.7z.001)[and 1.5.1-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-github/ucv-ext-github%3A1.5.1.tar.7z.002)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

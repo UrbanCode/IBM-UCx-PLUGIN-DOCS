@@ -1,13 +1,13 @@
 
 # GitHub - Overview
 
-The GitHub plug-in provides for integration with a GitHub server. This plug-in imports issues, pull request and commit data from a GitHub server and saves them as DevOps Velocity issues. Data between the GitHub server and the DevOps Velocity server is synchronized every five minutes.
+The GitHub plug-in provides for integration with a GitHub server. This plug-in imports issues, pull request and commit data from a GitHub server and saves them as IBM DevOps Velocity issues. Data between the GitHub server and the IBM DevOps Velocity server is synchronized every five minutes.
 
 ## Compatibility
 
-Must be running DevOps Velocity version 1.2.1 and later to use the plug-in.
+This plugin supports Cloud and On-Premises platform
 
-**Note:** For integrations created before upgrading to version 2.4.0 of DevOps Velocity, Auto-generated User Access Key is not present, so the integration will fail after upgrading. In this case, you have to manually add a new User Access Key in the hidden property named ***DevOps Velocity User Access Key.***
+**Note:** For integrations created before upgrading to version 2.4.0 of IBM DevOps Velocity, Auto-generated User Access Key is not present, so the integration will fail after upgrading. In this case, you have to manually add a new User Access Key in the hidden property named ***DevOps Velocity User Access Key.***
 
 ##  Upgrade impact
 
@@ -15,9 +15,14 @@ When migrating to version 1.0.30 of this plug-in, you must make an update to you
 
 ## Versions
 
-DevOps Velocity plug-in images are located in DockerHub. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-github/tags).
+IBM DevOps Velocity plug-in images are located in DockerHub. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-github/tags).
 
 ## History
+
+### Version 1.5.1
+
+* **Added description for Pull Request**: Updated GitHub plugin to sync over PR description. In GitHubMapper function under mapGitPullRequests added description field (description: pr.bodyText).
+* **Compatibility information**: This version of plug-in is compatible only with the IBM DevOps Velocity 5.0.11 and later.
 
 ### Version 1.4.18
 
@@ -38,7 +43,7 @@ DevOps Velocity plug-in images are located in DockerHub. To view available versi
 ### Version 1.4.5
 
 * **Feature**: Syncing Yaml files from different repositories
-Note - This feature is only supported in DevOps Velocity versions 4.0.11 or above .
+Note - This feature is only supported in IBM DevOps Velocity versions 4.0.11 or above .
 
 ### Version 1.3.46
 
@@ -48,7 +53,7 @@ Note - This feature is only supported in DevOps Velocity versions 4.0.11 or abov
 * Minor Enhancements
 ### Version 1.3.34
 
-* **Removed Manual User Access Key**: From current version onwards this plugin will only support Auto Generated User Access Key feature of DevOps Velocity.
+* **Removed Manual User Access Key**: From current version onwards this plugin will only support Auto Generated User Access Key feature of IBM DevOps Velocity.
 * **Added Category**:ALM | SCM | BUILD are the categories of Github plugin . Also added global regex pattern to generate default link rule.
 
 ### Version 1.2.25
@@ -75,7 +80,7 @@ Note - This feature is only supported in DevOps Velocity versions 4.0.11 or abov
 ### Version 1.1.18
 
 * ReSync support added (support starts with DevOps Velocity version 2.4.4 or later).
-* Auto-generated User Access Key support added (support starts with DevOps Velocity version 2.4.0 or later).
+* Auto-generated User Access Key support added (support starts with IBM DevOps Velocity version 2.4.0 or later).
 
 ### Version 1.1.15
 
@@ -153,4 +158,4 @@ Note - This feature is only supported in DevOps Velocity versions 4.0.11 or abov
 
 |Back to ...||Latest Version|GitHub |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.4.18-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-github/ucv-ext-github%3A1.4.18.tar.7z.001)[and 1.4.18-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-github/ucv-ext-github%3A1.4.18.tar.7z.002)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.5.1-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-github/ucv-ext-github%3A1.5.1.tar.7z.001)[and 1.5.1-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-github/ucv-ext-github%3A1.5.1.tar.7z.002)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|

@@ -3,21 +3,29 @@
 
 ## Overview
 
-The Jira plug-in provides for integration with a Jira server. This plug-in imports Jira issues and saves them as DevOps Velocity issues. Data between the Jira server and the DevOps Velocity server is synchronized every five minutes.
+The Jira plug-in provides for integration with a Jira server. This plug-in imports Jira issues and saves them as IBM DevOps Velocity issues. Data between the Jira server and the IBM DevOps Velocity server is synchronized every five minutes.
 
 ## Compatibility
 
-Must be running DevOps Velocity version 1.2.1 and later to use the plug-in.
-
+IBM UrbanCode Velocity 2.0.x to 4.0.x; IBM Devops Velocity 5.0.0 or later.
+ 
 ## Upgrade notes
 
-Beginning with DevOps Velocity version 2.4.0 users must enter a user access key is required to connect with the DevOps Velocity server. If you are upgrading from a previous version, you must obtain and add the key to the DevOps Velocity configuration property. If the user access key is not added, the integration fails. A proper JQL query must be provided while integration.
+Beginning with IBM DevOps Velocity version 2.4.0 users must enter a user access key is required to connect with the IBM DevOps Velocity server. If you are upgrading from a previous version, you must obtain and add the key to the IBM DevOps Velocity configuration property. If the user access key is not added, the integration fails. A proper JQL query must be provided while integration.
+
+## JQL Query
+
+User can add their own customized JQL query for fetching specific issues . For further reference regarding JQL queries and how to use them , please follow the link https://confluence.atlassian.com/jirasoftwareserver0820/advanced-searching-1095249245.html
 
 ## Versions
 
-DevOps Velocity plug-in images are located in DockerHub. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-jira/tags).
+IBM DevOps Velocity plug-in images are located in DockerHub. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-jira/tags).
 
 ### History
+
+### Version 2.3.24
+
+* **Bug fix**: Fixed the issue that prevented users from mapping custom field names for Epic Link, Sprint, and Story Points in Jira. Previously, if your Jira instance used custom field names such as "Story Point Estimate" instead of "Story Points", then the system not allowing you to import story points. This fix now ensures that custom field names are mapped correctly during import.
 
 ### Version 2.3.20
 
@@ -29,7 +37,7 @@ DevOps Velocity plug-in images are located in DockerHub. To view available versi
 
 ### Version 2.3.14
 
-* **Improved ReSync functionality**: In this version plug-in uses updated ServiceNow API, changes prevent the duplication of issues or records in DevOps Velocity, making the resync process more efficient and reducing the time required for synchronization. 
+* **Improved ReSync functionality**: In this version plug-in uses updated ServiceNow API, changes prevent the duplication of issues or records in IBM DevOps Velocity, making the resync process more efficient and reducing the time required for synchronization. 
 
 ### Version 2.3.12
 
@@ -97,8 +105,8 @@ DevOps Velocity plug-in images are located in DockerHub. To view available versi
 
 #### Version 1.0.64
 
-* ReSync support added. Applies to DevOps Velocity version 2.4.4 or later.
-* Auto-generated User Access Key support added. Applies to DevOps Velocity version 2.4.0 or later.
+* ReSync support added. Applies to IBM DevOps Velocity version 2.4.4 or later.
+* Auto-generated User Access Key support added. Applies to IBM DevOps Velocity version 2.4.0 or later.
 
 #### Version 1.0.51
 
@@ -134,4 +142,4 @@ DevOps Velocity plug-in images are located in DockerHub. To view available versi
 
 |Back to ...||Latest Version|Jira |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[2.3.20-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jira/ucv-ext-jira%3A2.3.20.tar.7z.001)[and 2.3.20-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jira/ucv-ext-jira%3A2.3.20.tar.7z.002)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[2.3.24-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jira/ucv-ext-jira%3A2.3.24.tar.7z.001)[and 2.3.24-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jira/ucv-ext-jira%3A2.3.24.tar.7z.002)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|

@@ -11,7 +11,7 @@ You must provide the following details during integration of service now plug-in
 
 * client_id
 * client_secret
-* refreshToken
+* refresh_token
 
 ### Generating the OAuth credentials in ServiceNow 
 
@@ -55,21 +55,34 @@ To install the plug-in, perform the following steps:
 1. In **IBM DevOps Velocity**, click **Settings** > **Integrations** > **Available**
 2. In the **Action** column for the ServiceNow plug-in, click **Install**.
 
-To integrate the plug-in, perform the following steps:
+There are two methods to integrate the plug-in:
+* Using the user interface
+* Using a JSON file
 
+### Integrating the plug-in by using user interface
+
+To integrate the plug-in using the user interface, perform the following steps:
 1. In **IBM DevOps Velocity**, click **Settings** > **Integrations** > **Installed**.
 2. In the **Action** column for the ServiceNow plug-in, click **Add Integration**.
-3. On the Add Integration page enter values for the fields used to configure the integration and define communication.
+3. On the Add Integration dialog, enter values for the fields used to configure the integration and define communication.
 4. Click **Add**.
 
-### Using a JSON file
+### Integrating the plug-in by using JSON file
+The JSON file contains the information for creating a value stream. Within the JSON
+file is a section for integrations. It is in this section that plugin properties can be
+defined. Refer to the sample JSON code.
 
-The JSON file contains the information for creating a value stream and integrating with the ServiceNow server. The following table describes the information for the creating a IBM DevOps Velocity value stream map.
-
-1. From a value stream page, download the value stream map. The value stream map is a JSON file used to define integrations.
-2. Edit the JSON file to include the plug-in configuration properties.
-3. Save and upload the JSON file. This replaces the current JSON file with the new content.
-4. View the new integration on the Integrations page.
+To integrate the plug-in using a JSON, perform the following steps:
+1. Navigate to value stream page, and then click the necessary value stream.
+2. Click icon, and then Select Edit value stream to modify the JSON file in
+the code or tree view editors.
+3. Alternatively, you can also click Download JSON option to download the
+JSON file, and then select the Import JSON option to upload the revised
+JSON file.
+4. Edit the integration information in the JSON file to add the plug-in
+configuration properties. Refer to JSON sample code in the Configuration
+Properties section more details.
+5. Click Save.
 
 ## Automation Tasks
 
@@ -169,38 +182,6 @@ Some properties might not be displayed in the user interface, to see all propert
 | Refresh Token | Secure | The refresh token used for authentication with the ServiceNow server using OAuth2.0. | No | refresh_token |
 | Resource types and sys_params | String | The type/parameters of events to be synced from ServiceNow. Example:[{"table": "change_request", "sys_params": { "category": "Software" }},...] | Yes | resourceTypesAndSys_params
 
-## Example
-
-The following example can be used as as template to include the ServiceNow plug-in integration into the JSON file. Copy and paste the template into the JSON file and make the appropriate changes.
-
-```
-integrations": [ 
-    { 
-      "type": "ucv-ext-servicenow", 
-      "name": "Plugin for ServiceNow", 
-      "tenant_id": "tenant_id", 
-      "logginglevel": "info", 
-      "properties": { 
-        "ucvAccessKey": "devopsvelocity_user_accesskey", 
-        "baseUrl": "url_servicenow_server", 
-        "username": "user_name", 
-        "password": "pass_word",
-        "client_id": "client_Id", 
-        "client_secret": "client_secret",
-        "refresh_token": "refresh_token",
-        "resourceTypesAndSys_params": "[   
-             { "table": "table_name"}, 
-         ]" 
-        "accessToken": "access_token" 
-        "proxyServer": "proxy_server_url", 
-        "proxyUsername": "proxy_server_user_name", 
-        "proxyPassword": "proxy_server_password"  
-      } 
-    } 
-  ] 
-
-```
-
 ## Example using the access key 
 
 ```
@@ -240,6 +221,7 @@ integrations": [
         "baseUrl": "url_servicenow_server",
         "client_id": "client_Id", 
         "client_secret": "client_secret",
+        "username": "user_name",
         "refresh_token": "refresh_token",
         "resourceTypesAndSys_params": "[   
              { "table": "table_name"}, 
@@ -253,6 +235,7 @@ integrations": [
 ```
 
 
-|Back to ...|  |Latest Version|ServiceNow |  |   |   |
-|----| ---- | ---- | --- | --- | ---- |----|
+|Back to ...||Latest Version|ServiceNow |||
+| :---: | :---: | :---: | :---: | :---: | :---: |
+
 |[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.1.10-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.1.10.tar.7z.001)[and 1.1.10-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.1.10.tar.7z.002)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

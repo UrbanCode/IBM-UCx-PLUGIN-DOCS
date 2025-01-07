@@ -11,30 +11,44 @@ The Jira plug-in supports scheduled events integration which are listed in the f
 | --- | --- |
 | SyncJiraDataEvent | Synchronize data from a Jira server. |
 
+## Minimum permission to integrate with Jira
+
+The Jira Account used to generate the access token must have access to the project which is being integrated with IBM DevOps Velocity.
+
 ## Integration
+
+To install the plug-in, perform the following steps:
+
+1. In IBM DevOps Velocity, click **Settings** > **Integrations** > **Available**.
+2. In the **Action** column for the Jira plug-in, click **Install**.
 
 There are two methods to integrate the plug-in:
 
-* Using the user interface
-* Using a JSON file
+1. Using the user interface.
+2. Using a JSON file
 
 The tables in the Configuration properties topic describe the properties used to define the integration.
 
-### Using the user interface
+## Integrating the plug-in by using user interface
 
-1. From the Plugins page, click **Settings** > **Integrations** > **Plugins**.
-2. Under the **Action** column for the plug-in, click **Add Integration**.
-3. On the Add Integration page enter values for the fields used to configure the integration and define communication.
+To integrate the plug-in using the user interface, perform the following steps:
+
+1. In IBM DevOps Velocity, click **Settings** > **Integrations** > **Installed**.
+2. In the **Action** column for the Jira plug-in, click **Add Integration**.
+3. On the Add Integration dialog, enter the values for the fields to configure the integration and define communication.
+4. Click **Add**.
+
+## Integrating the plug-in by using JSON file
+
+The JSON file contains the information for creating a value stream. Within the JSON file is a section for integrations. It is in this section that plugin properties can be defined. Refer to the JSON sample code in the Configuration Properties section.
+
+To integrate the plug-in using a JSON, perform the following steps:
+
+1. Navigate to **value stream page**, and then click the necessary **value stream**.
+2. Click  **wrench icon**, and then Select **Edit value stream** to modify the JSON file in the code or tree view editors.
+Alternatively, you can also click Download JSON option to download the JSON file, and then select the Import JSON option to upload the revised JSON file.
+3. Edit the integration information in the JSON file to add the plug-in configuration properties. Refer to JSON sample code in the Configuration Properties section more details.
 4. Click **Save**.
-
-### Using a JSON file
-
-The JSON file contains the information for creating a value stream. Within the JSON file is a section for integrations. It is in this section that plug-in properties can be defined.
-
-1. From a value stream page, download the value stream map. The value stream map is a JSON file used to define integrations.
-2. Edit the JSON file to include the plug-in configuration properties.
-3. Save and upload the JSON file. This replaces the current JSON file with the new content.
-4. View the new integration on the Integrations page.
 
 ## Configuration properties
 
@@ -45,14 +59,15 @@ The following tables describe the properties used to configure the integration. 
 
 ### General Configuration table
 
-| Name | Description | Required |
-| --- | --- | --- |
-| image | The version of the plug-in that you want to use. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-jira/tags). If a value is not specified, the latest version is used. | No |
-| name | An assigned name to the value stream. | Yes |
-| loggingLevel | The level of Log4j messages to log. Valid values are: all, debug, info, warn, error, fatal, off, and trace. The default is info. | No |
-| properties | List of plug-in configuration properties used to connect and communicate with the Jira server. Enclose the properties within braces. | Yes |
-| tenant_id | The name of the tenant. | Yes |
-| type | Unique identifier assigned to the plug-in. The value for the Jira plug-in is `ucv-ext-jira` | Yes |
+| Name | Description | Required | Property Name |
+| --- | --- | --- | --- |
+| NA | The version of the plug-in that you want to use. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-jira/tags). If a value is not specified, the latest version is used. | No | image |
+| Integration Name | An assigned name to the value stream. | Yes | name |
+| Logging Level | The level of Log4j messages to log. Valid values are: all, debug, info, warn, error, fatal, off, and trace. The default is info. | No | loggingLevel |
+| NA | List of plug-in configuration properties used to connect and communicate with the Jira server. Enclose the properties within braces. | Yes | properties |
+| NA | The name of the tenant. | Yes | tenant_id |
+| | Unique identifier assigned to the plugin. The value for the Jira plugin is ucv-ext-jira. | yes | type |
+| IBM DevOps Velocity User Access Key | Unique identifier assigned to the plug-in. The value for the Jira plug-in is `ucv-ext-jira` | Yes | NA |
 
 ### Jira Configuration Properties table
 
@@ -75,7 +90,7 @@ The following tables describe the properties used to configure the integration. 
 | Custom Field Mapping | Multiline | Map Jira fields to the fields expected by this server as a Name Value pair, eg: "Epic Link": "Epic field in Jira", "Sprint": "Sprint field in Jira", "Story Points": "Story field in Jira". | No | fieldMapping |
 
 
-## Example
+## JSON sample code
 
 The following example can be used as a template to include the Jira plug-in integration into the JSON file. Copy and paste the template into the JSON file
 and make the appropriate changes.
@@ -104,4 +119,4 @@ and make the appropriate changes.
 
 |Back to ...||Latest Version|Jira |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[2.3.20-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jira/ucv-ext-jira%3A2.3.20.tar.7z.001)[and 2.3.20-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jira/ucv-ext-jira%3A2.3.20.tar.7z.002)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[2.3.24-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jira/ucv-ext-jira%3A2.3.24.tar.7z.001)[and 2.3.24-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jira/ucv-ext-jira%3A2.3.24.tar.7z.002)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
