@@ -59,11 +59,11 @@ The service module is used to manage services on remote systems. It offers a con
 [![Service](media/service.png)]
 
 ## **Shell**
-The shell module is used to execute shell commands on target Unix-based hosts. Unlike the command module, the shell module supports more complex commands, including those with pipes, redirection, and other advanced shell features. It also allows you to run shell scripts on remote systems.</br>
-Ex: Shell script execution.</br>
+The shell module is used to execute shell commands on target Unix-based hosts. Unlike the command module, the shell module supports more complex commands, including those with pipes, redirection, and other advanced shell features. It also allows you to run shell scripts on remote systems.  <br/>
+Ex: Shell script execution.  <br/>
 [![Shell](media/shell1.png)]
-</br>
-Ex: Two commands execution with pipe.</br>
+  <br/>
+Ex: Two commands execution with pipe.  <br/>
 [![Shell](media/shell2.png)]
 
 ## **Unarchive**
@@ -88,10 +88,10 @@ This step is used to read built-in Ansible variables (ansible_facts). It functio
 ## **Apt Key**
 The apt_key module is for manage the keys for APT repositories on Debian-based systems (such as Debian, Ubuntu, and their derivatives). APT (Advanced Package Tool) uses keys to verify the authenticity of packages in repositories. The apt_key module allows you to add, remove, or manage these keys on remote hosts.
 
-Requirements: The below requirements are needed on the host that executes this module.</br>
+Requirements: The below requirements are needed on the host that executes this module.  <br/>
 * gpg
 
-Ex: Add a key from a file on the Ansible server.</br>
+Ex: Add a key from a file on the Ansible server.  <br/>
 [![Apt Key](media/apt-key.png)]
 
 
