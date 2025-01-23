@@ -46,6 +46,16 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 ### History
 
+#### Version 95
+
+* Z Inventory update now supported based on Server version instead of Agent version
+* Minor improvements in ISPF Gateway
+* Removed input to pass library path in Submit Job and Wait For Job steps
+* Removed duplicate logs during backup stage in Deploy Data set step
+* Fixed Rollback issue when there are no resources in container
+* Added deployType attribute to resource and container tag to Rollback Manifest file
+* `Submit job`/`Wait for job` steps now throws exception when Job was not found instead of failing with timeout error
+
 #### Version 94
 
 * Added debug logging capability
@@ -403,4 +413,4 @@ This release includes the following updates:
 
 |          Back to ...          |                                |                                                        Latest Version                                                         |    z/OS Utility     |                                       |                   |                   |                           |
 |:-----------------------------:|:------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------:|:-------------------:|:-------------------------------------:|:-----------------:|:-----------------:|:-------------------------:|
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [94.1172507](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-94.1172507.zip) | [Readme](README.md) | [Troubleshooting](troubleshooting.md) | [Steps](steps.md) | [Usage](usage.md) | [Downloads](downloads.md) |
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [95.1173661](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-95.1173661.zip) | [Readme](README.md) | [Troubleshooting](troubleshooting.md) | [Steps](steps.md) | [Usage](usage.md) | [Downloads](downloads.md) |
