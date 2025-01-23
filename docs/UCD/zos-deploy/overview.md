@@ -54,7 +54,7 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 * Removed duplicate logs during backup stage in Deploy Data set step
 * Fixed Rollback issue when there are no resources in container
 * Added deployType attribute to resource and container tag to Rollback Manifest file
-* `Submit job`/`Wait for job` steps now throws exception when Job was not found instead of failing with timeout error
+* `Submit job`/`Wait for job` steps now throws exception when Job is not found instead of failing with timeout error
 
 #### Version 94
 
