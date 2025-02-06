@@ -6,7 +6,6 @@ For more questions and answers, see the [UrbanCode forum](https://community.ibm.
 ### Troubleshooting sections
 
 - [CICS TS - Troubleshooting](#cics-ts---troubleshooting)
-    - [Troubleshooting sections](#troubleshooting-sections)
     - [FAQ](#faq)
     - [Using the step logs](#using-the-step-logs)
     - [Resources which operate asynchronously](#resources-which-operate-asynchronously)
