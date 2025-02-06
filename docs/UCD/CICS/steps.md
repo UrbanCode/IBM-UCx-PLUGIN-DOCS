@@ -313,7 +313,7 @@ Undeploy CICS bundles. Requires CICS TS V5.1 or V5.2 with APAR PI56706, or V5.3 
 
 ### Overview of output properties
 
-A step in UrbanCode Deploy is able to return output properties. These can be used in the step post-processing script and to pass information between steps. For an example workflow using output properties, see [Properties](http://www.ibm.com/support/knowledgecenter/SS4GSP_7.2.0/com.ibm.udeploy.doc/topics/ud_properties_overview.html "Properties") in the UrbanCode Deploy documentation.
+A step in UrbanCode Deploy is able to return output properties. These can be used in the step post-processing script and to pass information between steps. For an example workflow using output properties, see [Properties](https://www.ibm.com/docs/en/devops-deploy/8.1.0?topic=deployment-properties "Properties") in the UrbanCode Deploy documentation.
 
 ### The cics.response.errors output property
 
@@ -350,7 +350,7 @@ The following is a sample of the cics.response.errors output when NEWCOPY fails 
 
 ### Use cics.response.errors in a post-processing script
 
-You can configure a post-processing script to run after a step finishes. Post-processing scripts can be used to ensure that the expected results occurred, and to pass properties between steps. For more information on using and storing reusable post-processing scripts, see the [Post-processing scripts](https://www.ibm.com/docs/en/urbancode-deploy/7.2.3?topic=processes-component#intro_component_processes) section of the Urban Code Deploy documentation.
+You can configure a post-processing script to run after a step finishes. Post-processing scripts can be used to ensure that the expected results occurred, and to pass properties between steps. For more information on using and storing reusable post-processing scripts, see the [Post-processing scripts](https://www.ibm.com/docs/en/devops-deploy/8.1.0?topic=processes-component) section of the Urban Code Deploy documentation.
 
 The following is a usage example of a post-processing script for the *New copy resources* step in the CICS TS plug-in:
 

@@ -25,7 +25,7 @@ You can bind your component to a specific version of the template to avoid autom
 
 ### More information
 
-For more information about creating, using, and editing component templates, see the [Component Templates](https://www.ibm.com/support/knowledgecenter/SS4GSP_7.1.1/com.ibm.udeploy.doc/topics/comp_template.html "Component Templates") section of the UrbanCode Deploy documentation or watch the introductory video, [Component Templates in IBM UrbanCode Deploy v6.0](https://mediacenter.ibm.com/media/Component+Templates+in+IBM+UrbanCode+Deploy+v6.0/0_m7rucqyz "Component Templates in IBM UrbanCode Deploy v6.0").
+For more information about creating, using, and editing component templates, see the [Component Templates](https://www.ibm.com/docs/en/devops-deploy/8.1.0?topic=components-component-templates "Component Templates") section of the UrbanCode Deploy documentation or watch the introductory video, [Component Templates in IBM UrbanCode Deploy v6.0](https://mediacenter.ibm.com/media/Component+Templates+in+IBM+UrbanCode+Deploy+v6.0/0_m7rucqyz "Component Templates in IBM UrbanCode Deploy v6.0").
 
 ### CICS TS template
 

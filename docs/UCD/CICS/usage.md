@@ -8,7 +8,7 @@
 
 Before you begin, ensure the following:
 
-* Ensure your UCD agent is installed. For more information on installing UCD agents, see [Installing agents from the command line](http://www.ibm.com/support/knowledgecenter/SS4GSP_7.2.0/com.ibm.udeploy.install.doc/topics/agentInstall.html?).
+* Ensure your UCD agent is installed. For more information on installing UCD agents, see [Installing agents from the command line](https://www.ibm.com/docs/en/devops-deploy/8.1.0?topic=agents-installing-from-command-line).
 * Ensure that the CICS region or CICSplex you want to connect to is available through the CICS Management Client Interface (CMCI).
 
 #### About this task
@@ -32,7 +32,7 @@ For CICS steps, it may be useful to set up a resource tree as previously describ
 | ```cics.username``` | Sysplex                           |
 | ```cics.password``` | Sysplex                           |
 
-For more general information on property inheritance, see [Referring to properties](https://www.ibm.com/docs/en/urbancode-deploy/7.2.3?topic=deployment-properties).
+For more general information on property inheritance, see [Referring to properties](https://www.ibm.com/docs/en/devops-deploy/8.1.0?topic=deployment-properties).
 
 ### Deploying new load modules and performing a NEWCOPY on the related programs
 
@@ -60,7 +60,7 @@ Diagram showing a process with Copy Artifacts,Deploy Data Sets, and New copy res
 
 #### Component and component version for a CICS application
 
-Components represent deployable items and the processes, properties, and other configuration that operate on them. For additional information, see [Components](https://www.ibm.com/support/knowledgecenter/SS4GSP_7.2.0/com.ibm.udeploy.doc/topics/comp_ch.html) in the product documentation.
+Components represent deployable items and the processes, properties, and other configuration that operate on them. For additional information, see [Components](https://www.ibm.com/docs/en/devops-deploy/8.1.0?topic=deployment-components) in the product documentation.
 
 Create a Component to store your CICS application ready for deployment. The component name should match the CICS application name. For example: `com.ibm.cics.minibank.application`
 
