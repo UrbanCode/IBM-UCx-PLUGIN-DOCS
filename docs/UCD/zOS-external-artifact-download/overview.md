@@ -24,6 +24,11 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ## History
 
+### Version 12
+
+* Added support for Token for Artifactory as API Key is deprecated.
+Read [api-key-deprecation-and-the-new-reference-tokens](https://jfrog.com/help/r/platform-api-key-deprecation-and-the-new-reference-tokens/jfrog-s-legacy-of-api-keys) for more details.
+
 ### Version 11
 
 * Validate checksum for zOS component versions created on server version 8.1.0 or higher
