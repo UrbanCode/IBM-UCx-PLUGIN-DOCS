@@ -2521,7 +2521,6 @@ The z/OS Multi Generate Artifact Information plug-in scans version artifacts and
 ## z/OS Shell [Deprecated]
 
 > **Deprecation Notice**: The z/OS Shell plugin is deprecated. It is recommended to use the [Shell plugin](#Shell) instead.
-To download the plug-in, click the following version-specific links.
 
 The z/OS Shell plug-in is for the z/OS only operating system. It performs the same functions as the [Shell plug-in](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/Shell/) for DevOps Deploy. The plug-in reduces the CPU consumption in the z/OS environment by using Java code instead of Groovy code.
 

@@ -2,7 +2,6 @@
 # z/OS Shell - Steps
 
 > **Deprecation Notice**: The z/OS Shell plugin is deprecated. It is recommended to use the [Shell plugin](../Shell/README.md) instead.
-To download the plug-in, click the following version-specific links.
 
 ### Process steps in the Java Shell plug-in
 

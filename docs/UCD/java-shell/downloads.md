@@ -3,7 +3,6 @@
 
 
 > **Deprecation Notice**: The z/OS Shell plugin is deprecated. It is recommended to use the [Shell plugin](../Shell/README.md) instead.
-To download the plug-in, click the following version-specific links.
 
 - [ucd-java-shell-2.1133862.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/java-shell/ucd-java-shell-2.1133862.zip)
 - [ucd-java-shell-1.1133860.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/java-shell/ucd-java-shell-1.1133860.zip)
