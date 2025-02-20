@@ -1,6 +1,8 @@
 
 # z/OS USS Utility - Usage
 
+> **Deprecation Notice**: The z/OS USS Utility plugin is deprecated. It is recommended to use `Replace Tokens` step from `File Utils` plugin instead.
+
 The z/OS USS plug-in contains the following step:
 
 * Replace Tokens USS

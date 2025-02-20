@@ -1,5 +1,8 @@
 
 # z/OS USS Utility - Downloads
+
+> **Deprecation Notice**: The z/OS USS Utility plugin is deprecated. It is recommended to use `Replace Tokens` step from `File Utils` plugin instead.
+
 To download the plug-in, click the following version-specific links.
 
 - [ucd-plugins-zos-replacetokens-uss-1.1162235.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-replacetokens-uss/ucd-plugins-zos-replacetokens-uss-1.1162235.zip)

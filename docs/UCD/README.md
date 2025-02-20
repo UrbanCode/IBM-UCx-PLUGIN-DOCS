@@ -234,7 +234,7 @@
 	- [z/OS Management Facility](#zos-management-facility)
 	- [z/OS Multi Generate Artifact Information](#zos-multi-generate-artifact-information)
 	- [z/OS Shell \[Deprecated\]](#zos-shell-deprecated)
-	- [z/OS USS Utility](#zos-uss-utility)
+	- [z/OS USS Utility \[Deprecated\]](#zos-uss-utility-deprecated)
 	- [z/OS Utility](#zos-utility)
 	- [z/OS Rexx Executor](#zos-rexx-executor)
 
@@ -2530,7 +2530,9 @@ The z/OS Shell plug-in is for the z/OS only operating system. It performs the sa
 |:--------------------------:|:----------------:|:------------------------------:| :---: |
 | [All Plugins](../index.md) | [Top](#contents) | [Readme](java-shell/README.md) |[2.1133862](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/java-shell/ucd-java-shell-2.1133862.zip)|
 
-## z/OS USS Utility
+## z/OS USS Utility [Deprecated]
+
+> **Deprecation Notice**: The z/OS USS Utility plugin is deprecated. It is recommended to use `Replace Tokens` step from [File Utils](#file-utils) plugin instead.
 
 The z/OS USS Utility plug-in automates working with USS files on the z/OS operating system. This plug-in supports working with the IBM z/OS version 2.2 and later and requires DevOps Deploy agent on the z/OS server.
 

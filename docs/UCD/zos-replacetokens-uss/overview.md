@@ -1,6 +1,8 @@
 
 # z/OS USS Utility - Overview
 
+> **Deprecation Notice**: The z/OS USS Utility plugin is deprecated. It is recommended to use `Replace Tokens` step from `File Utils` plugin instead.
+
 The z/OS USS Utility plug-in automates the manipulation of files and directories. This plug-in runs on an z/OS Mainframe System supported by the IBM DevOps Deploy agent.
 
 ### Compatibility
