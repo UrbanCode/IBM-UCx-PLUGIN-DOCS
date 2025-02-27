@@ -16,6 +16,10 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ### Release Note
 
+#### Version 87
+
+ Updating Jettison library to 1.5.4.
+
 #### Version 77
 
 Update for API changes in server.
@@ -54,4 +58,4 @@ Fixes APAR PI57417. Plug-in now checks the agent settings for acceptance of self
 
 |Back to ...||Latest Version|IBM DevOps Deploy Applications ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[84.1132353](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Application/ucd-uDeploy-Application-84.1132353.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[87.1155713](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Application/ucd-uDeploy-Application-87.1155713.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

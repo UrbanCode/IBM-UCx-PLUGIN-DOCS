@@ -24,6 +24,10 @@ This plug-in is installed when installing IBM DevOps Deploy. When new plug-in ve
 
 ### History
 
+#### Version 13
+
+Updating Jettison library to 1.5.4 for CVE-2023-1436
+
 #### Version 12
 
 Jettison dependency updated.
@@ -46,4 +50,4 @@ Preserve Execution Permissions option.
 
 |Back to ...||Latest Version|File System ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[12.1150687](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileSystemSourceConfig/ucd-FileSystemSourceConfig-12.1150687.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[13.1155763](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileSystemSourceConfig/ucd-FileSystemSourceConfig-13.1155763.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

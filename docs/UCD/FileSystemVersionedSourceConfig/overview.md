@@ -23,6 +23,10 @@ This plug-in is installed when installing IBM DevOps Deploy. When new plug-in ve
 
 ### History
 
+#### Version 19
+
+*  Updating Jettison library to 1.5.4 
+
 #### Version 18
 
 * Jettison dependency updated.
@@ -61,4 +65,4 @@ This plug-in is installed when installing IBM DevOps Deploy. When new plug-in ve
 
 |Back to ...||Latest Version|File System (Versioned) ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[18.1150658](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileSystemVersionedSourceConfig/ucd-FileSystemVersionedSourceConfig-18.1150658.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[19.1155762](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileSystemVersionedSourceConfig/ucd-FileSystemVersionedSourceConfig-19.1155762.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

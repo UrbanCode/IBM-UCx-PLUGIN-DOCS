@@ -15,6 +15,46 @@ No special steps are required for installation. See [Installing plug-ins in IBM 
 
 ### History
 
+#### Version 14
+
+Updating Jettison library to 1.5.4 for CVE-2023-1436.
+
+#### Version 13
+
+Updating jettison library for CVE-2022-45693 and CVE-2022-45685.
+
+#### Version 12
+
+Updating jettison library for CVE-2022-40150 CVE-2022-40149.
+
+#### Version 11
+
+Update for java 17 compatibility.
+
+#### Version 10
+
+Update udclient and uDeployRestClient.
+
+#### Version 9
+
+Remove log4j functionality related to: CVE-2019-17571, CVE-2020-9488. CVE-2021-4104, CVE-2022-23302, CVE-2022-23305, CVE-2022-23307.
+
+#### Version 8
+
+Fixing CVE:CVE-2019-4233.
+
+#### Version 7
+
+Plugin name changed.
+
+#### Version 6
+
+Fixes APAR PI85191. Plugin no longer retries on successful request.
+
+#### Version 5
+
+Support Plug-in step auto upgrade.
+
 #### Version 4
 
 Add retry for setting request property.
@@ -34,4 +74,4 @@ Initial release of the plug-in.
 
 |Back to ...||Latest Version|IBM DevOps Deploy Process ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[11.1132356](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Process/ucd-uDeploy-Process-11.1132356.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[14.1155709](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Process/ucd-uDeploy-Process-14.1155709.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

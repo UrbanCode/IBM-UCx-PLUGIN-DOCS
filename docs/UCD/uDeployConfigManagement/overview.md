@@ -15,6 +15,38 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ### History
 
+#### Version 20
+
+Updating Jettison library to 1.5.4 for CVE-2023-1436
+
+#### Version 19
+
+Updating jettison library for CVE-2022-45693 and CVE-2022-45685
+
+#### Version 18
+
+Updating jettison library for CVE-2022-40150 CVE-2022-40149
+
+#### Version 17
+
+Update for java 17 compatibility
+
+#### Version 16
+
+Update log4j 2.17 and uDeployRestClient libraries
+
+#### Version 15
+
+Fixes APAR PH45332 - Restore file permissions after token substitution.
+
+#### Version 14
+
+Remove log4j functionality related to: CVE-2019-17571, CVE-2020-9488. CVE-2021-4104, CVE-2022-23302, CVE-2022-23305, CVE-2022-23307
+
+#### Version 13
+
+Fixing CVE:CVE-2019-4233
+
 #### Version 12
 
 Plugin Name updated.
@@ -46,4 +78,4 @@ This release includes a fix for a compatibility defect with IBM DevOps Deploy ve
 
 |Back to ...||Latest Version|IBM DevOps Deploy Configuration Management ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[17.1132359](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeployConfigManagement/ucd-uDeployConfigManagement-17.1132359.zip)|[Readme](README.md)|[Troubleshooting](troubleshooting.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[20.1155711](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeployConfigManagement/ucd-uDeployConfigManagement-20.1155711.zip)|[Readme](README.md)|[Troubleshooting](troubleshooting.md)|[Steps](steps.md)|[Downloads](downloads.md)|

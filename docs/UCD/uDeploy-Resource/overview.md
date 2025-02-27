@@ -15,6 +15,38 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ### History
 
+#### Version 86
+
+Updating Jettison library to 1.5.4 for CVE-2023-1436.
+
+#### Version 85
+
+Updating jettison library for CVE-2022-45693 and CVE-2022-45685.
+
+#### Version 84
+
+Updating jettison library for CVE-2022-40150 CVE-2022-40149.
+
+#### Version 83
+
+Update uDeployRestClient for new SSH Install Agent API.
+
+#### Version 82
+
+Update for java 17 compatibility.
+
+#### Version 81
+
+Update udclient and uDeployRestClient.
+
+#### Version 80
+
+ Remove log4j functionality related to: CVE-2019-17571, CVE-2020-9488. CVE-2021-4104, CVE-2022-23302, CVE-2022-23305, CVE-2022-23307.
+
+#### Version 79
+
+Fixed 'Install Agent with SSH' and it now installs web agents.
+
 #### Version 78
 
 ‘Install Agent with SSH’ step does not work.
@@ -70,4 +102,4 @@ The contextual help was updated to reflect the new resource model.
 
 |Back to ...||Latest Version|IBM DevOps Deploy Resources ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[83.1133534](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Resource/ucd-uDeploy-Resource-83.1133534.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[86.1155708](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Resource/ucd-uDeploy-Resource-86.1155708.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
