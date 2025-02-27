@@ -17,4 +17,4 @@
 
 |Back to ...||Latest Version|IBM DataPower Configuration Manager ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[v26](https://github.com/ibm-datapower/datapower-configuration-manager/releases/download/Datapower26/datapower-v26.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[v27](https://github.com/ibm-datapower/datapower-configuration-manager/releases/download/Datapower27/datapower-v27.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

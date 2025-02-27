@@ -2,6 +2,7 @@
 # IBM DataPower Configuration Manager - Downloads
 
 To download the plug-in, click the following version-specific links.
+- [datapower-v27.zip](https://github.com/ibm-datapower/datapower-configuration-manager/releases/download/Datapower27/datapower-v27.zip)
 - [datapower-v26.zip](https://github.com/ibm-datapower/datapower-configuration-manager/releases/download/Datapower26/datapower-v26.zip)
 - [datapower-v25.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/datapower/datapower-v25.zip)
 - [datapower-v24.4cfd2d7.zip](https://github.com/ibm-datapower/datapower-configuration-manager/releases/download/24/datapower-v24.4cfd2d7.zip)

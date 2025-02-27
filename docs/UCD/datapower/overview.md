@@ -25,6 +25,15 @@ View the [GitHub projects wiki page](https://github.com/ibm-datapower/datapower-
 
 #### Version 26
 
+*DataPower plugin is now bundled with Ant v1.9.15 due to CVEs.
+*Removed vulnerability: CVE-2022-34169
+*Removed vulnerability: sonatype-2018-0330
+*Removed vulnerability: CVE-2020-1945
+*Removed vulnerability: CVE-2021-36373
+*Removed vulnerability: CVE-2022-34169
+
+#### Version 26
+
 *Added "upload directory" step a a duplicate step to "upload files" to avoid confusion for a users.
 
 #### Version 25
@@ -119,4 +128,4 @@ Initial release of the standard version of the plug-in.
 
 |Back to ...||Latest Version|IBM DataPower Configuration Manager ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[[v26](https://github.com/ibm-datapower/datapower-configuration-manager/releases/download/Datapower26/datapower-v26.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[v27](https://github.com/ibm-datapower/datapower-configuration-manager/releases/download/Datapower27/datapower-v27.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
