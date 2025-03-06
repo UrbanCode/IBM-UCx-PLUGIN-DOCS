@@ -82,6 +82,9 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 #### Version 91
 
 * Added support for single source to multiple targets mapping
+
+> Read [Deploying To Multiple Target Datasets on z/OS](https://community.ibm.com/community/user/wasdevops/blogs/bharath-kumar3/2024/11/06/deploying-to-multiple-target-dataset-on-zos) for more details
+
 * Improvements in ISPF gateway error handling
 * User can set MAX-RC for copy dataset step
 * Improvements in HFS Deployment

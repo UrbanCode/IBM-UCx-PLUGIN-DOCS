@@ -128,6 +128,7 @@ For each artifact in a delta deployment, the following attributes are compared t
 
 * To prevent adding inputs data to Z Inventory table follow [Disable inputs for Z Inventory](troubleshooting.md#disable-inputs-for-z-inventory). 
   This will keep the size of the Z Inventory table in check.
+* Read [Deploying To Multiple Target Datasets on z/OS](https://community.ibm.com/community/user/wasdevops/blogs/bharath-kumar3/2024/11/06/deploying-to-multiple-target-dataset-on-zos) for more details on how to deploy artifacts to multiple target datasets on z/OS
 
 ### FTP Artifacts
 
