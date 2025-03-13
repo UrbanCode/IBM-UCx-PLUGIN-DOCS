@@ -23,14 +23,14 @@ View the [GitHub projects wiki page](https://github.com/ibm-datapower/datapower-
 
 ### History
 
-#### Version 26
+#### Version 27
 
-*DataPower plugin is now bundled with Ant v1.9.15 due to CVEs.
-*Removed vulnerability: CVE-2022-34169
-*Removed vulnerability: sonatype-2018-0330
-*Removed vulnerability: CVE-2020-1945
-*Removed vulnerability: CVE-2021-36373
-*Removed vulnerability: CVE-2022-34169
+* DataPower plugin is now bundled with Ant v1.9.15 due to CVEs.
+* Removed vulnerability: CVE-2022-34169
+* Removed vulnerability: sonatype-2018-0330
+* Removed vulnerability: CVE-2020-1945
+* Removed vulnerability: CVE-2021-36373
+* Removed vulnerability: CVE-2022-34169
 
 #### Version 26
 
