@@ -23,6 +23,10 @@ IBM DevOps Velocity plug-in images are located in DockerHub. To view available v
 
 ### History
 
+### Version 2.4.2
+
+* **Bug fix**: Fixed issues with deletion of old history records in the issue collection normalization. Retaining history entries before the last run is necessary for agile churn analysis.
+
 ### Version 2.3.24
 
 * **Bug fix**: Fixed the issue that prevented users from mapping custom field names for Epic Link, Sprint, and Story Points in Jira. Previously, if your Jira instance used custom field names such as "Story Point Estimate" instead of "Story Points", then the system not allowing you to import story points. This fix now ensures that custom field names are mapped correctly during import.
@@ -142,4 +146,4 @@ IBM DevOps Velocity plug-in images are located in DockerHub. To view available v
 
 |Back to ...||Latest Version|Jira |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[2.3.24-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jira/ucv-ext-jira%3A2.3.24.tar.7z.001)[and 2.3.24-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jira/ucv-ext-jira%3A2.3.24.tar.7z.002)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[2.4.2-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jira/ucv-ext-jira%3A2.4.2.tar.7z.001)[and 2.4.2-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jira/ucv-ext-jira%3A2.4.2.tar.7z.002)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
