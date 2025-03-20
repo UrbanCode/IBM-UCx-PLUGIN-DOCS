@@ -2112,7 +2112,7 @@ The **wldeploy** Ant task is used to complete **weblogic.Deployer** functions by
 
 |Back to ...||Oracle WebLogic WLDeploy |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](WLDeploy/README.md)|[25.1103454](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WLDeploy/WLDeploy-25.1103454.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](WLDeploy/README.md)|[26.1175365](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WLDeploy/ucd-WLDeploy-26.1175365.zip)|
 
 ## PVCS
 

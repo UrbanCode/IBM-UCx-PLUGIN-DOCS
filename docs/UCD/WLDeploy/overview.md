@@ -32,6 +32,14 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ### History
 
+#### Version 26
+
+* Fixed issue with Groovy 3.x.
+
+#### Version 25
+
+* Fixed CVE:CVE-2019-4233.
+
 #### Version 24.971637
 
 * Fixed APAR PI93543 List Applications on Target step resulting in JSONException.
@@ -113,4 +121,4 @@ Version 12.699360 includes the following features and fixes:
 
 |Back to ...||Latest Version|Oracle WebLogic WLDeploy ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[25.1103454](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WLDeploy/WLDeploy-25.1103454.zip)|[Readme](README.md)|[Steps](steps.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[26.1175365](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WLDeploy/ucd-WLDeploy-26.1175365.zip)|[Readme](README.md)|[Steps](steps.md)|[Usage](usage.md)|[Downloads](downloads.md)|
