@@ -298,8 +298,9 @@ Set a new size for a deployment or replication controller.
 | Project | String | The OpenShift project that contains the application to scale. | No |
 | Resource Name | String | The name of the resource to scale in OpenShift. | Yes |
 | Resource Type | Enumeration: | The type of resource to scale in OpenShift. | Yes |
-| | | * dc |
+| | | * deploy |
 | | | * replicationcontrollers |
+| | | * sts |
 | Step Flags | String | A list of flags to set when running the scale command. Specify each flag on a new line. | No |
 | User Name | String | The user name to access the OpenShift server. | No |
 
