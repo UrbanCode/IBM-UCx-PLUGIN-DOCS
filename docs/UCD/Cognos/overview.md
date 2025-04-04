@@ -18,6 +18,10 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ### History
 
+#### Version 12
+
+Fixed issues with method getStepProperties of AirPluginTool.
+
 #### Version 11
 
 Fixed APAR PH13993 Cognos 10.2.1 SDK missing jar files.
@@ -66,4 +70,4 @@ Initial release.
 
 |Back to ...||Latest Version|IBM Cognos |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[11.1107116](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Cognos/Cognos-11.1107116.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[12.1175694](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Cognos/ucd-Cognos-12.1175694.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|

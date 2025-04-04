@@ -48,4 +48,4 @@ Import content from an archive to the Cognos content store.
 
 |Back to ...||Latest Version|IBM Cognos |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[11.1107116](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Cognos/Cognos-11.1107116.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[12.1175694](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Cognos/ucd-Cognos-12.1175694.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

@@ -2,6 +2,7 @@
 # IBM Cognos - Downloads
 
 To download the plug-in, click the version-specific links.
+- [ucd-Cognos-12.1175694.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Cognos/ucd-Cognos-12.1175694.zip)
 - [Cognos-11.1107116.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Cognos/Cognos-11.1107116.zip)
 - [Cognos-11.1100718.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Cognos/Cognos-11.1100718.zip)
 - [Cognos-11.1027569.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Cognos/Cognos-11.1027569.zip)
@@ -19,4 +20,4 @@ To download the plug-in, click the version-specific links.
 
 |Back to ...||Latest Version|IBM Cognos |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[11.1107116](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Cognos/Cognos-11.1107116.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[12.1175694](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Cognos/ucd-Cognos-12.1175694.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|

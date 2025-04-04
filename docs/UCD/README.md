@@ -938,7 +938,7 @@ The IBM Cognos plug-in exports and imports content to and from a Cognos content
 
 |Back to ...||IBM Cognos |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](Cognos/README.md)|[11.1107116](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Cognos/Cognos-11.1107116.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](Cognos/README.md)|[12.1175694](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Cognos/ucd-Cognos-12.1175694.zip)|
 
 ## IBM Cognos Analytics
 
