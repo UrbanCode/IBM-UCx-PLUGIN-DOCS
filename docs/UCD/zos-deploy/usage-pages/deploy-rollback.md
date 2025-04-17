@@ -20,13 +20,13 @@ For zOS deployment, create a component process with __Process Type__ as __Deploy
 Following steps are mandatory for deploying a zOS Component version stored on DevOps Deploy codestation.
 
 * [Download Artifacts for zOS](../../UrbancodeVFS/steps.md#download-artifacts-for-zos) step to download the version artifacts
-* [Deploy Data sets](../steps.md#deploy-data-sets) step to deploy datasets to mapped target Dataset/HFS Directory
+* [Deploy Data sets](../steps.md#deploy-datasets-and-uss-files) step to deploy datasets to mapped target Dataset/HFS Directory
 
 Component process design will be as below.
 
 [![deploy-zos](../media/deploy-zos.png)](../media/deploy-zos.png)
 
-Post-processing steps can be added as per the requirement after [Deploy Data sets](../steps.md#deploy-data-sets) step with below steps
+Post-processing steps can be added as per the requirement after [Deploy Data sets](../steps.md#deploy-datasets-and-uss-files) step with below steps
 
 * [Generate Artifact Information](../steps.md#generate-artifact-information) step to generate text based on the passed template.
 * [Submit Job](../steps.md#submit-job) step to run DB2 Bind job
@@ -52,9 +52,9 @@ Application process design will be as below.
 ### Component process setup for rolling back a component version
 
 For rollback, create a component process with __Process Type__ as __Uninstall__.
-A sample component process design starts with [Rollback Data sets](../steps.md#rollback-data-sets) step and ends with [Cleanup Backup Files](../steps.md#cleanup-backup-files) step.
+A sample component process design starts with [Rollback Data sets](../steps.md#rollback-datasets-and-uss-files) step and ends with [Cleanup Backup Files](../steps.md#cleanup-backup-files) step.
 
-Post-processing steps can be added as per the requirements after [Rollback data sets](../steps.md#rollback-data-sets) step with below steps
+Post-processing steps can be added as per the requirements after [Rollback data sets](../steps.md#rollback-datasets-and-uss-files) step with below steps
 
 * [Generate Artifact Information](../steps.md#generate-artifact-information) step to generate text based on the passed template.
 * [Submit Job](../steps.md#submit-job) step to run DB2 Bind job

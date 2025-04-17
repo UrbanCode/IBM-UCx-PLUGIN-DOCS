@@ -10,13 +10,13 @@
     - [Allocate SMS Managed Data Set](#allocate-sms-managed-data-set)
     - [Copy Artifacts](#copy-artifacts)
     - [Copy Data Set](#copy-data-set)
-    - [Deploy Data Sets](#deploy-data-sets)
+    - [Deploy Datasets and USS Files](#deploy-datasets-and-uss-files)
     - [FTP Artifacts](#ftp-artifacts)
     - [Generate Artifact Information](#generate-artifact-information)
     - [Remove All Versions](#remove-all-versions)
     - [Remove Redundant Versions](#remove-redundant-versions)
     - [Replace Tokens MVS](#replace-tokens-mvs)
-    - [Rollback Data Sets](#rollback-data-sets)
+    - [Rollback Datasets and USS Files](#rollback-datasets-and-uss-files)
     - [Run MVS Command](#run-mvs-command)
     - [Run TSO or ISPF Command](#run-tso-or-ispf-command)
     - [Submit Job](#submit-job)
@@ -90,9 +90,9 @@ Copy a data set.
 | Load Module Dataset | Boolean | Select to use the IEBCOPY COPYMOD control statement when copying load modules.                                                                                                                                                                                                                                                                                                                                     | No       |
 | To PDS              | String  | Specify the name of the target PDS.                                                                                                                                                                                                                                                                                                                                                                                | Yes      |
 
-### Deploy Data Sets
+### Deploy Datasets and USS Files
 
-Deploy data sets and HFS files
+Deploy datasets and USS files
 
 | Name                                 | Type                                                               | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | Required |
 |--------------------------------------|--------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
@@ -120,11 +120,11 @@ Deploy data sets and HFS files
 
 For each artifact in a delta deployment, the following attributes are compared to the latest inventory version of the same artifact.
 
-| Parameter                                                                  | Where Used | Description                                                                                                                                                                                                                                                                                                                                                                                                                             |
-|----------------------------------------------------------------------------|------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Parameter                                                                  | Where Used | Description                                                                                                                                                                                                                                                                                                                                                                                                                          |
+|----------------------------------------------------------------------------|------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Last Modified Timestamp                                                    | INVENTORY  | IBM DevOps Deploy reads the **Last Modified Timestamp** value when the version is packaged. All load modules that are build by RTC have **Last Modified Timestamp** values stored in SSI. If SSI has no **Last Modified Timestamp** values, **ZLM4DATE**, **ZLMTIME** and **ZLMSEC** statistical values are read from ISPF. Note that the JCL-built or third-party tool load modules have a **Last Modified Timestamp** value of NO. |
-| Custom properties starting with **SYS.id** (aka identification properties) | INVENTORY  | These properties provide an open framework for the customer or provider to add additional attributes to indicate whether two artifacts are the same. Two artifacts are considered the same when all attributes that are used for comparison match exactly.                                                                                                                                                                              |
-| checksum                                                                   | RUNTIME    | The checksum value is determined when the version is packaged. During a **RUNTIME** deployment, the checksum is calculated for the artifact in the target environment and compared with the checksum calculated during the version creation. These properties can be hash or binder information for load modules.                                                                                                                       |
+| Custom properties starting with **SYS.id** (aka identification properties) | INVENTORY  | These properties provide an open framework for the customer or provider to add additional attributes to indicate whether two artifacts are the same. Two artifacts are considered the same when all attributes that are used for comparison match exactly.                                                                                                                                                                           |
+| checksum                                                                   | RUNTIME    | The checksum value is determined when the version is packaged. During a **RUNTIME** deployment, the checksum is calculated for the artifact in the target environment and compared with the checksum calculated during the version creation. These properties can be hash or binder information for load modules.                                                                                                                    |
 
 * To prevent adding inputs data to Z Inventory table follow [Disable inputs for Z Inventory](troubleshooting.md#disable-inputs-for-z-inventory). 
   This will keep the size of the Z Inventory table in check.
@@ -142,7 +142,7 @@ Load artifacts from a remote repository using FTP.
 
 > **Note:**
 > ---------
->* Deployment Action filter is applicable only if **Backup** is enabled in [Deploy Data Sets](../zos-deploy/steps.md#deploy-data-sets) step
+>* Deployment Action filter is applicable only if **Backup** is enabled in [Deploy Data Sets](../zos-deploy/steps.md#deploy-datasets-and-uss-files) step
 >* Deployment Action filter is applicable only for loop types **Sequential Datasets** or **PDS Members**
 >* Target Dataset Name filter is applicable for only **Dataset/PDS Member** loop types
 
@@ -201,13 +201,13 @@ Replace tokens in MVS data set using properties.
 | Property Prefix       | String  | Specify a prefix to use to determine which properties are included in token replacement. Leave blank to use all properties.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | No       |
 | Start Token Delimiter | String  | The start delimiter character to use for identifying tokens.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | No       |
 
-### Rollback Data Sets
+### Rollback Datasets and USS Files
 
-Rollback data sets and HFS files to a backup created in the previous deployment.
+Rollback datasets and USS files to a backup created in the previous deployment.
 
 **NOTE:**
 Uncheck **Delete Backup Data** check box in the Rollback step.
-Instead add [Cleanup Backup Files](#cleanup-backup-files) step as a last step in the rollback process design.
+Instead, add [Cleanup Backup Files](#cleanup-backup-files) step as a last step in the rollback process design.
 To delete backup files from z/OS Unix system.
 
 | Name                   | Type                                                       | Description                                                                                                                                                                                                                                                                       | Required |
@@ -347,4 +347,4 @@ Restored datasets from backup taken during deployment
 
 |          Back to ...          |                                |                                                        Latest Version                                                         |    z/OS Utility     |                         |                                       |                   |                           |
 |:-----------------------------:|:------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------:|:-------------------:|:-----------------------:|:-------------------------------------:|:-----------------:|:-------------------------:|
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [96.1174531](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-96.1174531.zip) | [Readme](README.md) | [Overview](overview.md) | [Troubleshooting](troubleshooting.md) | [Usage](usage.md) | [Downloads](downloads.md) |
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [97.1175894](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-97.1175894.zip) | [Readme](README.md) | [Overview](overview.md) | [Troubleshooting](troubleshooting.md) | [Usage](usage.md) | [Downloads](downloads.md) |

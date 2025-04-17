@@ -10,8 +10,8 @@ The plug-in includes steps that are related to deploying z/OS artifacts, such as
 
 * Copy Artifacts
 * FTP Artifacts
-* Deploy Data Sets
-* Rollback Data Sets
+* Deploy Datasets and USS Files
+* Rollback Datasets and USS Files
 * Cleanup Backup Files
 
 The plug-in also includes steps that are related to running z/OS commands, submitting and tracking jobs, and working with data sets, such as the following steps:
@@ -46,9 +46,17 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ### History
 
+#### Version 97
+
+* Renamed `Deploy Data Sets` step to `Deploy Datasets and USS Files`
+* Renamed `Rollback Data Sets` to `Rollback Datasets and USS Files`
+* Skip backup option for a full type version
+
 #### Version 96
 
 * Backup and Rollback use `cp` command instead of `XMIT/RECEIVE` for `v2` format
+* Fixed issue with setting output properties
+* Set `socket timeout` to `15 minutes` to fix read timeout
 
 #### Version 95
 
@@ -420,4 +428,4 @@ This release includes the following updates:
 
 |          Back to ...          |                                |                                                        Latest Version                                                         |    z/OS Utility     |                                       |                   |                   |                           |
 |:-----------------------------:|:------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------:|:-------------------:|:-------------------------------------:|:-----------------:|:-----------------:|:-------------------------:|
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [96.1174531](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-96.1174531.zip) | [Readme](README.md) | [Troubleshooting](troubleshooting.md) | [Steps](steps.md) | [Usage](usage.md) | [Downloads](downloads.md) |
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [97.1175894](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-97.1175894.zip) | [Readme](README.md) | [Troubleshooting](troubleshooting.md) | [Steps](steps.md) | [Usage](usage.md) | [Downloads](downloads.md) |
