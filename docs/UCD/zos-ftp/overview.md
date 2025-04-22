@@ -24,6 +24,10 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ### History
 
+### Version 2
+
+* Removed input to pass IRRRacf library path
+
 ### Version 1
 
 * Initial release
@@ -33,4 +37,4 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 |          Back to ...          |                                |                                                  Latest Version                                                   |  z/OS FTP Utility   |||
 |:-----------------------------:|:------------------------------:|:-----------------------------------------------------------------------------------------------------------------:|:-------------------:| :---: | :---: |
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [1.1100685](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-ftp/zos-ftp-1.1100685.zip) | [Readme](README.md) |[Steps](steps.md)|[Downloads](downloads.md)|
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [2.1173218](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-ftp/zos-ftp-2.1173218.zip) | [Readme](README.md) |[Steps](steps.md)|[Downloads](downloads.md)|

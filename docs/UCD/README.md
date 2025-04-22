@@ -2486,7 +2486,7 @@ The zOS FTP plug-in automates the importing of hierarchical file system (HFS) ar
 
 |        Back to ...         || z/OS FTP Utility |       Latest Version        |
 |:--------------------------:|:----------------:|:---------------------------:| :---: |
-| [All Plugins](../index.md) | [Top](#contents) | [Readme](zos-ftp/README.md) |[1.1100685](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-ftp/zos-ftp-1.1100685.zip)|
+| [All Plugins](../index.md) | [Top](#contents) | [Readme](zos-ftp/README.md) |[2.1173218](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-ftp/zos-ftp-2.1173218.zip)|
 
 ## z/OS File Source Config
 
