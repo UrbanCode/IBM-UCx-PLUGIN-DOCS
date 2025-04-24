@@ -906,9 +906,9 @@ This plug-in provides steps to interact with the Auto-Scaling for Bluemix servic
 
 ---
 
-|Back to ...||IBM Bluemix Auto-Scaling |Latest Version|
-| :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](bluemix-autoscale/README.md)|[2.1174433](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/bluemix-autoscale/bluemix-autoscale-2.1174433.zip)|
+|Back to ...||IBM Bluemix Auto-Scaling |                                                              Latest Version                                                               |
+| :---: | :---: | :---: |:-----------------------------------------------------------------------------------------------------------------------------------------:|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](bluemix-autoscale/README.md)| [2.1174433](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ucd-bluemix-autoscale/bluemix-autoscale-2.1174433.zip) |
 
 ## IBM Business Process Manager (WebSphere BPM)
 
