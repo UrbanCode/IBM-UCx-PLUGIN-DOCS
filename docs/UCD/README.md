@@ -1432,7 +1432,7 @@ This plugin provides various utilities for use in your DevOps Deploy process.
 
 |Back to ...||IBM DevOps Deploy General Utilites |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](general-utilities/README.md)|[5.1155731](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/general-utilities/general-utilities-5.1155731.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](general-utilities/README.md)|[5.1155731](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/general-utilities/ucd-general-utilities-5.1155731.zip)|
 
 ## IBM DevOps Deploy Process
 
