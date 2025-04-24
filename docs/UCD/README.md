@@ -1752,7 +1752,7 @@ The Mesos Marathon plug-in uses the Marathon REST API to interact with and manip
 
 |Back to ...||Mesos Marathon |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](mesos-marathon/README.md)|[4.1174443](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/mesos-marathon/mesos-marathon-4.1174443.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](mesos-marathon/README.md)|[4.1174443](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/mesos-marathon/ucd-mesos-marathon-4.1174443.zip)|
 
 ## MicroFocus ALM (formerly HP Quality Center)
 
