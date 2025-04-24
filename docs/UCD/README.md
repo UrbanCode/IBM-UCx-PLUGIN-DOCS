@@ -601,7 +601,7 @@ The Docker Compose plug-in for IBM DevOps Deploy automates deployment and resour
 
 |Back to ...||Docker Compose |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](docker-compose/README.md)|[24.1174442](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/docker-compose/docker-compose-24.1174442.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](docker-compose/README.md)|[24.1174442](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/docker-compose/ucd-docker-compose-24.1174442.zip)|
 
 ## Docker Registry
 
