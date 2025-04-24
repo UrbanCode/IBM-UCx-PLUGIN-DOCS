@@ -3,7 +3,7 @@
 
 To download the plug-in, click the following version-specific links.
 
-- [docker-compose-24.1174442.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/docker-compose/ucd-docker-compose-24.1174442.zip)
+- [ucd-docker-compose-24.1174442.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/docker-compose/ucd-docker-compose-24.1174442.zip)
 - [docker-compose-24.1103426.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/docker-compose/docker-compose-24.1103426.zip)
 - [docker-compose-24.1026795.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/docker-compose/docker-compose-24.1026795.zip)
 - [docker-compose-23.974549.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/docker-compose/docker-compose-23.974549.zip)

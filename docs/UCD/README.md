@@ -898,7 +898,7 @@ IBM BigFix helps reduce the time, cost and risk of managing virtually any mix of
 
 |Back to ...||IBM BigFix |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](bigfix/README.md)|[2.1174440](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/bigfix/bigfix-2.1174440.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](bigfix/README.md)|[2.1174440](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/bigfix/ucd-bigfix-2.1174440.zip)|
 
 ## IBM Bluemix Auto-Scaling
 

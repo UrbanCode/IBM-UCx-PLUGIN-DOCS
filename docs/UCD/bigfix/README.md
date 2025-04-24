@@ -8,4 +8,4 @@ Use the IBM BigFix plug-in to start BigFix actions from IBM DevOps Deploy proces
 
 |Back to ...||Latest Version||||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[2.1174440](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/bigfix/bigfix-2.1174440.zip)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[2.1174440](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/bigfix/ucd-bigfix-2.1174440.zip)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|
