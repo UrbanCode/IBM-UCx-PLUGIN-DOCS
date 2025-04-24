@@ -23,4 +23,4 @@ Write to Sequential Dataset
 
 |          Back to ...          |                                |                                                                   Latest Version                                                                    |||||
 |:-----------------------------:|:------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------:| :---: | :---: | :---: | :---: |
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [4.1162523](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-dataset-writer/ucd-plugins-zos-dataset-writer-4.1162523.zip) |[Overview](overview.md)|[Steps](steps.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [4.1176024](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-dataset-writer/ucd-plugins-zos-dataset-writer-4.1176024.zip) |[Overview](overview.md)|[Steps](steps.md)|[Usage](usage.md)|[Downloads](downloads.md)|

@@ -2466,7 +2466,7 @@ Apart from copying content to a mainframe dataset, this plug-in provides the fol
 
 |        Back to ...         || z/OS Dataset Writer |             Latest Version             |
 |:--------------------------:|:-------------------:|:--------------------------------------:| :---: |
-| [All Plugins](../index.md) |  [Top](#contents)   | [Readme](zos-dataset-writer/README.md) |[4.1162523](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-dataset-writer/ucd-plugins-zos-dataset-writer-4.1162523.zip)|
+| [All Plugins](../index.md) |  [Top](#contents)   | [Readme](zos-dataset-writer/README.md) |[4.1176024](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-dataset-writer/ucd-plugins-zos-dataset-writer-4.1176024.zip)|
 
 ## z/OS External Artifact Repository
 
@@ -2476,7 +2476,7 @@ The External Artifact Repository plug-in includes the step to download artifacts
 
 |        Back to ...         |                  |         z/OS External Artifact Repository          |                                                                  Latest Version                                                                   |
 |:--------------------------:|:----------------:|:--------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------:|
-| [All Plugins](../index.md) | [Top](#contents) | [Readme](zOS-external-artifact-download/README.md) | [12.1174510](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOS-external-artifact-download/ucd-ExtArtRepo-12.1174510.zip) |
+| [All Plugins](../index.md) | [Top](#contents) | [Readme](zOS-external-artifact-download/README.md) | [12.1176020](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOS-external-artifact-download/ucd-ExtArtRepo-12.1176020.zip) |
 
 ## z/OS FTP Utility
 
@@ -2516,7 +2516,7 @@ The z/OS Multi Generate Artifact Information plug-in scans version artifacts and
 
 |        Back to ...         || z/OS Multi Generate Artifact Information |                    Latest Version                    |
 |:--------------------------:|:----------------------------------------:|:----------------------------------------------------:| :---: |
-| [All Plugins](../index.md) |             [Top](#contents)             | [Readme](zos-multi-generate-artifact-info/README.md) |[9.1168826](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-multi-generate-artifact-info/ucd-plugins-zos-multi-generate-artifact-info-9.1168826.zip)|
+| [All Plugins](../index.md) |             [Top](#contents)             | [Readme](zos-multi-generate-artifact-info/README.md) |[9.1176022](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-multi-generate-artifact-info/ucd-plugins-zos-multi-generate-artifact-info-9.1176022.zip)|
 
 ## z/OS Shell [Deprecated]
 
@@ -2560,4 +2560,4 @@ The z/OS Rexx Executor plugin executes REXX program from a Dataset (or) specifie
 
 |        Back to ...         |                  |      z/OS Rexx Executor      |                                                         Latest Version                                                          |
 |:--------------------------:|:----------------:|:----------------------------:|:-------------------------------------------------------------------------------------------------------------------------------:|
-| [All Plugins](../index.md) | [Top](#contents) | [Readme](zos-rexx/README.md) | [2.1168947](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-rexx/ucd-plugins-zos-rexx-2.1168947.zip) |
+| [All Plugins](../index.md) | [Top](#contents) | [Readme](zos-rexx/README.md) | [2.1176018](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-rexx/ucd-plugins-zos-rexx-2.1176018.zip) |

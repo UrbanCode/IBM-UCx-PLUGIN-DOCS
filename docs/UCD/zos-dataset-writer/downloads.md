@@ -2,6 +2,7 @@
 
 To download the plug-in, click the following version-specific links.
 
+- [ucd-plugins-zos-dataset-writer-4.1176024.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-dataset-writer/ucd-plugins-zos-dataset-writer-4.1176024.zip)
 - [ucd-plugins-zos-dataset-writer-4.1162523.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-dataset-writer/ucd-plugins-zos-dataset-writer-4.1162523.zip)
 - [ucd-plugins-zos-dataset-writer-4.1138411.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-dataset-writer/ucd-plugins-zos-dataset-writer-4.1138411.zip)
 - [ucd-plugins-zos-dataset-writer-4.1134355.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-dataset-writer/ucd-plugins-zos-dataset-writer-4.1134355.zip)
@@ -12,4 +13,4 @@ To download the plug-in, click the following version-specific links.
 
 |          Back to ...          |                                |                                                                   Latest Version                                                                    | z/OS Dataset Writer ||||
 |:-----------------------------:|:------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------:| :---: | :---: | :---: |
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [4.1162523](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-dataset-writer/ucd-plugins-zos-dataset-writer-4.1162523.zip) | [Readme](README.md) |[Overview](overview.md)|[Steps](steps.md)|[Usage](usage.md)|
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [4.1176024](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-dataset-writer/ucd-plugins-zos-dataset-writer-4.1176024.zip) | [Readme](README.md) |[Overview](overview.md)|[Steps](steps.md)|[Usage](usage.md)|
