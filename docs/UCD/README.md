@@ -1142,7 +1142,7 @@ The Maximo plugin allows the user to upload and deploy configuration using migra
 
 |Back to ...||IBM Maximo |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ibm-maximo/README.md)|[1.1088514](https://github.com/UrbanCode/IBM-UCD-PLUGINS/raw/main/files/maximo/plugins-maximo-1.1088514.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ibm-maximo/README.md)|[1.1088514](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/maximo/plugins-maximo-1.1088514.zip)|
 
 ## IBM MobileFirst Platform (formerly Worklight)
 
