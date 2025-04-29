@@ -2526,9 +2526,9 @@ The z/OS Shell plug-in is for the z/OS only operating system. It performs the sa
 
 ---
 
-|        Back to ...         ||    z/OS Shell    |         Latest Version         |
-|:--------------------------:|:----------------:|:------------------------------:| :---: |
-| [All Plugins](../index.md) | [Top](#contents) | [Readme](java-shell/README.md) |[2.1133862](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/java-shell/ucd-java-shell-2.1133862.zip)|
+|        Back to ...         |                  |           z/OS Shell           |
+|:--------------------------:|:----------------:|:------------------------------:|
+| [All Plugins](../index.md) | [Top](#contents) | [Readme](java-shell/README.md) |
 
 ## z/OS USS Utility [Deprecated]
 
@@ -2538,9 +2538,9 @@ The z/OS USS Utility plug-in automates working with USS files on the z/OS operat
 
 ---
 
-|        Back to ...         || z/OS USS Utility |              Latest Version               |
-|:--------------------------:|:----------------:|:-----------------------------------------:| :---: |
-| [All Plugins](../index.md) | [Top](#contents) | [Readme](zos-replacetokens-uss/README.md) |[1.1162235](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-replacetokens-uss/ucd-plugins-zos-replacetokens-uss-1.1162235.zip)|
+|        Back to ...         |                  |             z/OS USS Utility              |
+|:--------------------------:|:----------------:|:-----------------------------------------:|
+| [All Plugins](../index.md) | [Top](#contents) | [Readme](zos-replacetokens-uss/README.md) |
 
 ## z/OS Utility
 
