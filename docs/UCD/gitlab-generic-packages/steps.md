@@ -24,4 +24,4 @@ Download all files under a specified version of a repository.
 
 |          Back to ...          | |         Latest Version         |GitLab Generic Packages|||
 |:-----------------------------:|:------------------------------:| :---: | :---: | :---: | :---: |
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) |[1.1155527](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/gitlab-generic-packages/ucd-plugins-gitlab-generic-packages-1.1155527.zip)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) |[1.1148660](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/gitlab-generic-packages/ucd-plugins-gitlab-generic-packages-1.1148660.zip)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

@@ -692,7 +692,7 @@ Initial release of this plugin.
 
 |Back to ...||Gitlab Generic Packages |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](gitlab-generic-packages/README.md)|[1.1155527](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/gitlab-generic-packages/ucd-plugins-gitlab-generic-packages-1.1155527.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](gitlab-generic-packages/README.md)|[1.1148660](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/gitlab-generic-packages/ucd-plugins-gitlab-generic-packages-1.1148660.zip)|
 
 ## GitLab-Sourceconfig-Generic-Packages  
 
