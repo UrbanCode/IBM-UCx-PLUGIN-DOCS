@@ -19,6 +19,10 @@ No special steps are required for installation. This plug-in is included with th
 
 ### History
 
+#### Version 16
+
+* Updating Jettison library to 1.5.4 for CVE-2023-1436
+
 #### Version 15
 
 * Updated Jettison library for CVE-2022-45693 and CVE-2022-45685.
@@ -63,4 +67,4 @@ This release includes a fix for a defect that is related to running Groovy on Mi
 
 |Back to ...||Latest Version|Groovy ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[15.1151773](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Groovy/ucd-Groovy-15.1151773.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[16.1155716](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Groovy/ucd-Groovy-16.1155716.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
