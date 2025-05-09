@@ -16,6 +16,46 @@ No special steps are required for installation. See [Installing plug-ins in IBM 
 
 ### History
 
+#### Version 89
+
+Fixes APAR PH55636 - Create Multiple Environments not creating with expected color.
+
+#### Version 88
+
+Updating Jettison library to 1.5.4 for CVE-2023-1436
+
+#### Version 87
+
+Updating jettison library for CVE-2022-45693 and CVE-2022-45685
+
+#### Version 86
+
+Updating jettison library for CVE-2022-40150 CVE-2022-40149
+
+#### Version 85
+
+Update for java 17 compatibility
+
+#### Version 84
+
+Update udclient and uDeployRestClient
+
+#### Version 83
+
+Remove log4j functionality related to: CVE-2019-17571, CVE-2020-9488. CVE-2021-4104, CVE-2022-23302, CVE-2022-23305, CVE-2022-23307
+
+#### Version 82
+
+Fixing CVE:CVE-2019-4233
+
+#### Version 81
+
+Add "Secure Value" field to "Create Environment Property" step.
+
+#### Version 80
+
+Fixed APAR PI97913 - Create Environment can accept more than 20 properties
+
 #### Version 79
 
 RFE 121148 Removed isSecure property from Set Component Environment Property to support property definition type.

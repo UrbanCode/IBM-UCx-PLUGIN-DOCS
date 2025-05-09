@@ -3,10 +3,11 @@
 
 To download theh plug-in, click the following version-specific links.
 - [ucd-uDeploy-Environment-89.1159271.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Environment/ucd-uDeploy-Environment-89.1159271.zip)
+- [ucd-uDeploy-Environment-88.1155710.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Environment/ucd-uDeploy-Environment-88.1155710.zip)
+- [ucd-uDeploy-Environment-87.1150660.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Environment/ucd-uDeploy-Environment-87.1150660.zip)
+- [ucd-uDeploy-Environment-86.1142534.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Environment/ucd-uDeploy-Environment-86.1142534.zip)
 - [ucd-uDeploy-Environment-85.1132355.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Environment/ucd-uDeploy-Environment-85.1132355.zip)
-- [ucd-uDeploy-Environment-84.1131562.zip]
-- [ucd-uDeploy-Environment-84.1131562.zip]
-(https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Environment/ucd-uDeploy-Environment-84.1131562.zip)
+- [ucd-uDeploy-Environment-84.1131562.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Environment/ucd-uDeploy-Environment-84.1131562.zip)
 - [ucd-uDeploy-Environment-83.1128764.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Environment/ucd-uDeploy-Environment-83.1128764.zip)
 - [uDeploy-Environment-82.1106940.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Environment/uDeploy-Environment-82.1106940.zip)
 - [uDeploy-Environment-82.1102022.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Environment/uDeploy-Environment-82.1102022.zip)
