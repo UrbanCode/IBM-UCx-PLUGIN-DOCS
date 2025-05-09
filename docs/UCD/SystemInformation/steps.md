@@ -53,6 +53,6 @@ Check if a value matches a Regex. If it does the matched groups will be set as o
 
 
 
-|Back to ...||Latest Version|System Information |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[5.1122816](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SystemInformation/SystemInformation-5.1122816.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
+|Back to ...||                                                             Latest Version                                                              |System Information |||
+| :---: | :---: |:---------------------------------------------------------------------------------------------------------------------------------------:| :---: | :---: | :---: |
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[9.1171671](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SystemInformation/ucd-SystemInformation-9.1171671.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

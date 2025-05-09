@@ -17,6 +17,22 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ### History
 
+#### Version 9
+
+Updating commons-io library to 2.17.0 for CVE-2024-47554.
+
+#### Version 8
+
+Updating Jettison library to 1.5.4 for CVE-2023-1436.
+
+#### Version 7
+
+Updating jettison library for CVE-2022-45693 and CVE-2022-45685.
+
+#### Version 6
+
+Updating jettison library for CVE-2022-40150 CVE-2022-40149.
+
 #### Version 5
 
 Fixes APAR PI94880Updated from Apache Commons IO 1.4 to latest (2.2 as of now).
@@ -38,6 +54,6 @@ Add a step to check if a value matches a regex and create output properties base
 Initial release of the System Information plugin.
 
 
-|Back to ...||Latest Version|System Information |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[5.1122816](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SystemInformation/SystemInformation-5.1122816.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|Back to ...||                                                             Latest Version                                                              |System Information |||
+| :---: | :---: |:---------------------------------------------------------------------------------------------------------------------------------------:| :---: | :---: | :---: |
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[9.1171671](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SystemInformation/ucd-SystemInformation-9.1171671.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|

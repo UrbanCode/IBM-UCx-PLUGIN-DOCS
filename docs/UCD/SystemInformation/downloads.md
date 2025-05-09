@@ -2,6 +2,10 @@
 # System Information - Downloads
 
 To download the plug-in, click the following version-specific links.
+- [ucd-SystemInformation-9.1171671.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SystemInformation/ucd-SystemInformation-9.1171671.zip)
+- [ucd-SystemInformation-8.1155714.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SystemInformation/ucd-SystemInformation-8.1155714.zip)
+- [ucd-SystemInformation-7.1150682.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SystemInformation/ucd-SystemInformation-7.1150682.zip)
+- [ucd-SystemInformation-6.1142528.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SystemInformation/ucd-SystemInformation-6.1142528.zip)
 - [SystemInformation-5.1122816.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SystemInformation/SystemInformation-5.1122816.zip)
 - [SystemInformation-5.1100754.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SystemInformation/SystemInformation-5.1100754.zip)
 - [SystemInformation-5.1056534.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SystemInformation/SystemInformation-5.1056534.zip)
@@ -13,6 +17,6 @@ To download the plug-in, click the following version-specific links.
 - [SystemInformation-3.641616.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SystemInformation/SystemInformation-3.641616.zip)
 - [SystemInformation-2.455048.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SystemInformation/SystemInformation-2.455048.zip)
 
-|Back to ...||Latest Version|System Information |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[5.1122816](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SystemInformation/SystemInformation-5.1122816.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|
+|Back to ...||                                                             Latest Version                                                              |System Information |||
+| :---: | :---: |:---------------------------------------------------------------------------------------------------------------------------------------:| :---: | :---: | :---: |
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[9.1171671](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SystemInformation/ucd-SystemInformation-9.1171671.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|
