@@ -2331,9 +2331,9 @@ The System Information plugin includes a variety of checks to perform against th
 
 ---
 
-|Back to ...||System Information |Latest Version|
-| :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](SystemInformation/README.md)|[5.1122816](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SystemInformation/SystemInformation-5.1122816.zip)|
+|Back to ...||System Information |                                                             Latest Version                                                              |
+| :---: | :---: | :---: |:---------------------------------------------------------------------------------------------------------------------------------------:|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](SystemInformation/README.md)|[9.1171671](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SystemInformation/ucd-SystemInformation-9.1171671.zip)|
 
 ## TIBCO  [partner plugin]
 
