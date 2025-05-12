@@ -1472,7 +1472,7 @@ The Deploy Tools plug-in provides several steps that help verify the successful 
 
 |Back to ...||IBM DevOps Deploy Tools |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](DeployTools/README.md)|[10.1177004.](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/DeployTools/ucd-DeployTools-10.1177004.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](DeployTools/README.md)|[10.1177004](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/DeployTools/ucd-DeployTools-10.1177004.zip)|
 
 ## IBM DevOps Deploy Versioned File Storage
 
