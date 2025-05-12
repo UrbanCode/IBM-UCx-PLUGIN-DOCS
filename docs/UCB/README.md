@@ -18,6 +18,7 @@
 	- [Clover](#clover)
 	- [Cobertura](#cobertura)
 	- [CodeStation](#codestation)
+	- [Control](#control)
 	- [CppUnit](#cppunit)
 	- [Cucumber](#cucumber)
 	- [DevOps Insights – Deployment Risk Analytics (DRA)](#devops-insights--deployment-risk-analytics-dra)
@@ -195,6 +196,16 @@ The CodeStation plug-in provides steps to download artifacts from and upload art
 |Back to ...||CodeStation |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](CodeStation/README.md)|[25.1165172](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/CodeStation/codestation-25.1165172.zip)|
+
+## Control
+
+Control is a Source Code Management tool. The Control plug-in automates cloning a Control repository, tagging source artifacts, and publishing source artifact changes to the Changes page of the build life.
+
+---
+
+|Back to ...||Control for IBM UrbanCode Build |Latest Version|
+| :---: | :---: | :---: | :---: |
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](Control/README.md)|[1.1177008](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Control/Control-1.1177008.zip)|
 
 ## CppUnit
 
