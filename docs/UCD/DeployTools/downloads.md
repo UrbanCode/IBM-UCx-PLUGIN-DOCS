@@ -12,4 +12,4 @@ To download the plug-in, click the following version-specific links.
 
 |Back to ...||Latest Version|IBM DevOps Deploy Tools |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[10.1177004.](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/DeployTools/ucd-DeployTools-10.1177004.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[10.1177004](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/DeployTools/ucd-DeployTools-10.1177004.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|

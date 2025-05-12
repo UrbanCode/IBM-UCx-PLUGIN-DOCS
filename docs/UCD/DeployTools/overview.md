@@ -48,4 +48,4 @@ This version includes a Character Encoding property for the Verify Deployment St
 
 |Back to ...||Latest Version|IBM DevOps Deploy Tools |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[10.1177004.](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/DeployTools/ucd-DeployTools-10.1177004..zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[10.1177004](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/DeployTools/ucd-DeployTools-10.1177004..zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|
