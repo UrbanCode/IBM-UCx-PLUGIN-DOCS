@@ -25,6 +25,14 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ### History
 
+#### Version 10
+
+Updated log4j and Jettison libs.
+
+#### Version 9
+
+Support property file encryption.
+
 #### Version 8
 
 This version adds proxy compatibility, and includes a fix for a build issue related to a missing log4j library.
@@ -40,4 +48,4 @@ This version includes a Character Encoding property for the Verify Deployment St
 
 |Back to ...||Latest Version|IBM DevOps Deploy Tools |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[9.1056566](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/DeployTools/DeployTools-9.1056566.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[10.1177004](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/DeployTools/ucd-DeployTools-10.1177004.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|
