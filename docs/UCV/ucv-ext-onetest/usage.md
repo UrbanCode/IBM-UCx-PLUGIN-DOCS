@@ -1,133 +1,118 @@
 
-# HCL DevOps Test - Usage
+# IBM DevOps Test - Usage
 
-To use the HCL DevOps Test plug-in, the plug-in must be loaded and an instance created before you can configure the plug-in integration. Configuration properties are defined using the product user interface or a JSON file.
-
-
-To use the plug-in upload a code coverage results file to DevOps Velocity to parse. Whenever DevOps Velocity receives the file, the plug-in parses the data and creates a metric entry.
+To use the IBM DevOps Test plug-in, the plug-in must be loaded and an instance created. Load the plug-in into the IBM DevOps Velocity container if necessary.
 
 ## Integration type
 
-The HCL DevOps Test plug-in parses data from the HCL DevOps Test tool.
+The IBM DevOps Test plug-in is a parser type plug-in, and it parses data from the following test tools:
 
 ## Invoking the plug-in
 
-You can invoke the plug-in manually using a REST Call or by [using a Jenkins plug-in](#invokejenkins) to integrate DevOps Velocity in a Jenkins environment.
+To install the plug-in, perform the following steps:
 
-### Invoke using Jenkins plug-in
+1. From the home page, click **Settings** > **Integrations** > **Available**.
+2. In the Action column for the IBM DevOps Test plug-in, click **Install**.
 
-Install the [DevOps Velocity plug-in](https://plugins.jenkins.io/urbancode-velocity) into your Jenkins server. In your freestyle job or pipeline use the **UCV-Upload Metrics File to DevOps Velocity** step and provide the required fields. This step allows your build job to upload generated coverage results files to DevOps Velocity.
+The plug-in is now listed in the Installed tab and available for invoking.
 
-#### Example
+To invoke the IBM DevOps Test plug-in send an HTTP Post request with the data to parse. Whenever there is a hit to the endpoint, the data is parsed and displayed as metrics in IBM DevOps Velocity. You can use various methods such as Postman, REST calls, CURL, and CI/CD tools like Jenkins to invoke the plug-in endpoints.
 
+### Invoke using Jenkins
+
+Install the Jenkin’s DevOps Velocity plug-in into your Jenkins server. In your freestyle job or pipeline use the **UCV-Upload Metrics File to UrbanCode Velocity** step and provide the required fields. This step allows your build job to upload generated coverage results files to IBM DevOps Velocity
+
+```
+pipeline {
+   agent any
+   stages {
+      stage('oneTestMetrics') {
+         steps {
+            step([$class: 'UploadMetricsFile',  appName: 'My DevOps Test', dataFormat: 'onetestFTJSON', filePath: '<location of the DevOps Test report>', name: 'my-onetest-test', pluginType: 'onetest', tenantId: '<tenant Id>', testSetName: 'onetest', metricsRecordUrl: "${env.BUILD_URL}"])
+         }
+      }
+   }
+}
 
 ```
 
-pipeline {
-agent any
+### Invoke using a Rest call
 
-stages {
-stage('oneTestMetrics') {
-steps {
-step([$class: 'UploadMetricsFile',  appName:
-'My Onetest Test', dataFormat: 'onetestFTJSON', filePath: '<location of the onetest report>', name: 'my-onetest-test',
-pluginType: 'onetest', tenantId: '<tenant Id>', testSetName: 'onetest', metricsRecordUrl: "``${env.BUILD_URL}``"])
-
-}``
-}``
-}``
-}``
-
-```
-
-### Invoke the plug-in using a Rest call
-
-When using a REST call to invoke the Code Coverage plug-in, it must be a POST method and include the location of the DevOps Velocity quality data endpoint.
+When using a REST call to invoke the IBM DevOps Test plug-in, it must be a POST method and include the location of the IBM DevOps Velocity quality data endpoint.
 
 The following request sample shows a REST call that you can copy and update as necessary. Key points about the snippet:
 
-* The URL points to the DevOps Velocity quality data endpoint. Update with the server location for your installation of DevOps Velocity.
+* The URL points to the IBM DevOps Velocity quality data endpoint. Update with the server location for your installation of IBM DevOps Velocity.
 * The BODY of the call is a multipart/form data. It includes information about the payload.
 
-
 ```
 
-METHOD: POST
-URL: https://<url_DevOpsvelocity_server>/reporting-consumer/metrics
-BODY
-(multipart/form-data):
-{
-payload: <json_object_string> // See below for schema format
-testArtifact:
-<HCL_OneTest_JSON_file>
-}``
+METHOD: POST 
+URL: https://<url_devops_velocity_server>/reporting-consumer/metrics
+BODY (multipart/form-data):
+ {
+  payload: <json_object_string> // See below for schema format
+ testArtifact: <IBM_DevOps_Test_JSON_file> // test results json file which needs to be parsed
+ }
 
 ```
-
 
 The following shows the schema for the payload. Replace the angle brackets with your values for the parameters.
 
-
 ```
 
 {
-"tenant_id": "<tenant_id>",    // required Tenant ID
-"metricName":
-"<metric_name>", // optional: name for recurring test set
-"application": {
-"name": "<application_name>"  //Name
-of application
-}``,
-"record": {
-"recordName": "<record_name>", // optional: Name for this record
-
-"executionDate": 1547983466015, // optional: UNIX Epoch
-"pluginType": "onetest",
-"dataFormat": "<data_type>",
-// onetestFTJSON or onetestPTJSON or onetestUIJSON
-"metricsRecordUrl": "<Jenkins_build_url>" // optional: To link
-the Jenkins build with test results
-}``,
-"build": {  // Optional: One of the following fields must be included
-
-"buildId": "<build_id>",
-"jobExternalId": "<external_job_id>",
-"url": "<build_url>",
-}``,
-
-"commitId": "<commit_id>",  // optional
-"pullRequestId": "<pullrequest_id>", // optional
-"environment":
-"<environment_name>" // optional
-}``
+  "tenant_id": "<tenant_id>",    // required Tenant ID
+  "metricName": "<metric_name>", // optional: name for recurring test set
+  "application": {
+    "name": "<application_name>"  //Name of application
+  },
+  "record": {
+    "recordName": "<record_name>", // optional: Name for this record
+    "executionDate": 1547983466015, // optional: UNIX Epoch
+    "pluginType": "onetest",
+    "dataFormat": "<data_type>",  // onetestFTJSON or onetestPTJSON or onetestUIJSON
+    "metricsRecordUrl": "<Jenkins_build_url>" // optional: To link the Jenkins build with test results
+ },
+  "build": {  // Optional: One of the following fields must be included 
+    "buildId": "<build_id>",
+    "jobExternalId": "<external_job_id>",
+    "url": "<build_url>",
+  },
+  "commitId": "<commit_id>",  // optional
+  "pullRequestId": "<pullrequest_id>", // optional
+  "environment": "<environment_name>" // optional
+}
 
 ```
 
 ### Data format details
 
 * onetestFTJSON is for Functional test results
-* onetestPTJSON is for Performance test results &
+* onetestPTJSON is for Performance test results
 * onetestUIJSON is for Web UI test results
 
-### Example: Invoking using Curl
-```
-curl –request POST \
-–url https:///reporting-consumer/metrics \
-–form ‘payload={
-“tenant_id”: “5ade13625558f2c6688d15ce”,
-“application”: {
-“name”: “My Application”
-},
-“record”: {
-“pluginType”: “onetest”,
-“dataFormat”: “onetestFTJSON”
-}
-}
-‘ \
-–form testArtifact=@test-result/oneTest.json
+### Invoke using Curl
 
 ```
 
-|Back to ...||Latest Version|HCL DevOps Test |||
+curl --request POST \
+  --url https://<DevOps_Velocity_Base_URL>/reporting-consumer/metrics \
+  --form 'payload={
+  "tenant_id": "5ade13625558f2c6688d15ce",
+  "application": {
+    "name": "My Application"
+  },
+  "record": {
+    "pluginType": "onetest",
+    "dataFormat": "onetestFTJSON"
+  }
+}
+' \
+  --form testArtifact=@<file path>
+
+```
+
+|Back to ...||Latest Version|IBM DevOps Test |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.37-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest/ucv-ext-onetest%3A1.0.37.tar.7z.001)[and 1.0.37-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest/ucv-ext-onetest%3A1.0.37.tar.7z.002)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.40-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest/ucv-ext-onetest%3A1.0.40.tar.7z.001)[and 1.0.40-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest/ucv-ext-onetest%3A1.0.40.tar.7z.002)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
