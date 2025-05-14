@@ -30,11 +30,39 @@ Updating Jettison library to 1.5.4 for CVE-2023-1436
 
 #### Version 12
 
-Jettison dependency updated.
+Updating jettison library for CVE-2022-45693 and CVE-2022-45685
+
+#### Version 11
+
+Updating jettison library for CVE-2022-40150 CVE-2022-40149
+
+#### Version 10
+
+Update log4j 2.17, udclient, and uDeployRestClient libraries
+
+#### Version 9
+
+Remove log4j functionality related to: CVE-2019-17571, CVE-2020-9488. CVE-2021-4104, CVE-2022-23302, CVE-2022-23305, CVE-2022-23307
+
+#### Version 8
+
+Allow specifying custom java opts
+
+#### Version 7
+
+Fixing CVE:CVE-2019-4233
+
+#### Version 6
+
+APAR PI89045: add support for setting isFinished flag when importing versions.
+
+#### Version 5
+
+Fixes APAR PI87707, a regression where the user who requested a manual version import was not being tracked.
 
 #### Version 4
 
-Preserve Execution Permissions option.
+Fixes APAR PI67556. Added missing "Preserve Execution Permissions" option
 
 #### Verion 3
 
