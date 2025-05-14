@@ -1,23 +1,22 @@
 
-# HCL DevOps Test Server - Overview
+# IBM DevOps Test Hub - Overview
 
-The HCL DevOps Test Server plug-in provides for integration with an DevOps Test server. This plug-in imports test result data from an DevOps Test server and saves the data as DevOps Velocity issues. The data is used to generate metrics. Data between the DevOps Test server and the DevOps Velocity server is synchronized every five minutes.
-
+The IBM DevOps Test Hub plug-in provides an integration with IBM DevOps Test Hub. This plug-in imports the test result data from IBM DevOps Test Hub and saves the data as metrics in IBM DevOps Velocity insights.
 
 ## Compatibility
 
-Must be running DevOps Velocity version 1.3.0 and later to use the plug-in. HCL DevOps Test Server 10.0.2 and later is supported.
+Must be running DevOps Velocity version 2.5.0 and later to use the plug-in. IBM DevOps Test Hub 10.0.2 and later is supported.
 
 ## Versions
 
-There is no install process for this plug-in. The HCL DevOps Test Server plug-in is identified to DevOps Velocity as a value stream integration. DevOps Velocity plug-in images are located in DockerHub and the IBM DevOps Velocity code accesses the version that you select. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-onetest-server/tags).
+There is no install process for this plug-in. The IBM DevOps Test Hub plug-in is identified to DevOps Velocity as a value stream integration. DevOps Velocity plug-in images are located in DockerHub and the IBM DevOps Velocity code accesses the version that you select. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-onetest-server/tags).
 
 
 ## History
 
 ### Version 1.0.27
 
-* **Rebranding** :Name of the Plugin is changed from HCL OneTest Server to HCL DevOps Test server.
+* **Rebranding** :Name of the Plugin is changed from HCL OneTest Server to IBM DevOps Test Hub.
 
 ### Version 1.0.26
 
@@ -52,6 +51,6 @@ There is no install process for this plug-in. The HCL DevOps Test Server plug-in
 * Initial release
 
 
-|Back to ...||Latest Version|HCL DevOps Test Server |||
+|Back to ...||Latest Version|IBM DevOps Test Hub |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
 |[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.27-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest-server/ucv-ext-onetest-server%3A1.0.27.tar.7z.001)[and 1.0.27-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest-server/ucv-ext-onetest-server%3A1.0.27.tar.7z.002)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|

@@ -55,10 +55,6 @@ To install the plug-in, perform the following steps:
 1. In **IBM DevOps Velocity**, click **Settings** > **Integrations** > **Available**
 2. In the **Action** column for the ServiceNow plug-in, click **Install**.
 
-There are two methods to integrate the plug-in:
-* Using the user interface
-* Using a JSON file
-
 ### Integrating the plug-in by using user interface
 
 To integrate the plug-in using the user interface, perform the following steps:
@@ -74,7 +70,7 @@ defined. Refer to the sample JSON code.
 
 To integrate the plug-in using a JSON, perform the following steps:
 1. Navigate to value stream page, and then click the necessary value stream.
-2. Click icon, and then Select Edit value stream to modify the JSON file in
+2. Click wrench icon, and then Select Edit value stream to modify the JSON file in
 the code or tree view editors.
 3. Alternatively, you can also click Download JSON option to download the
 JSON file, and then select the Import JSON option to upload the revised

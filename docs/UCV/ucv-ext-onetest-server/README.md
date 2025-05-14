@@ -1,7 +1,7 @@
 
-# HCL DevOps Test Server
+# IBM DevOps Test Hub
 
-The HCL DevOps Test Server plug-in imports test results as metrics into the DevOps Velocity server.
+The IBM DevOps Test Hub plug-in imports test results as metrics into the DevOps Velocity server.
 
 |Back to ...||Latest Version||||
 | :---: | :---: | :---: | :---: | :---: | :---: |
