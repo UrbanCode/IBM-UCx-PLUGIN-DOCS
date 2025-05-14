@@ -1492,7 +1492,7 @@ This plugin provides capabilities for editing Component Versions in IBM DevOps D
 
 |Back to ...||IBM DevOps Deploy Versions |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](uDeploy-Version/README.md)|[76.1176673](https://github.com/UrbanCode/IBM-UCD-PLUGINS/raw/refs/heads/main/files/uDeploy-Version/ucd-uDeploy-Version-76.1176673.zip))|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](uDeploy-Version/README.md)|[76.1176673](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Version/ucd-uDeploy-Version-76.1176673.zip))|
 
 ## IBM DevOps PHP CLI Tool  [community plugin]
 
