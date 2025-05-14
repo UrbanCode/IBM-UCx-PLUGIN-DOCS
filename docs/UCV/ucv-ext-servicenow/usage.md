@@ -142,7 +142,7 @@ After the plug-in is integrated automated tasks are available to add as a task w
 
 ## Custom field mapping
 
-* ServiceNow now supports user-defined fields, to enable mapping of these fields to Velocity fields, a custom field mapping option is introduced within the ServiceNow plug-in. Additionally, ServiceNow allows custom values for any field. To implement the change failure rate matrix, it is essential to determine which change requests have a failed status, making value mapping necessary.
+* ServiceNow now supports user-defined fields, to enable mapping of these fields to Velocity fields, a custom field mapping option is introduced within the ServiceNow plug-in. Additionally, ServiceNow allows custom values for any field. To implement the change failure rate metric, it is essential to determine which change requests have a failed status, making value mapping necessary.
 
 For example
 
