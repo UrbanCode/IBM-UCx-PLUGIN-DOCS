@@ -201,9 +201,9 @@ The Deploy Plugin for DevOps Velocity imports deployment data from DevOps Deploy
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-ucd/README.md)|[4.0.9 -File 1](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-ucd/ucv-ext-ucd%3A4.0.9.tar.7z.001) [and 4.0.9 -File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-ucd/ucv-ext-ucd%3A4.0.9.tar.7z.002)|
 
-## DevOps Plan
+## IBM DevOps Plan
 
-Plan is an issue tracking product. The Plan plug-in provides an integration with Plan to import and work with Plan work items.
+IBM DevOps Plan is a comprehensive change tracking system for software development environments. The IBM DevOps Plan plug-in provides an integration with IBM DevOps Plan server to import and synchronize IBM DevOps Plan issues into an IBM DevOps Velocity server.
 
 ---
 
