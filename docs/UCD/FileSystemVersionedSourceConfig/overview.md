@@ -25,35 +25,44 @@ This plug-in is installed when installing IBM DevOps Deploy. When new plug-in ve
 
 #### Version 19
 
-*  Updating Jettison library to 1.5.4 for CVE-2023-1436 
+* Updating Jettison library to 1.5.4 for CVE-2023-1436
 
 #### Version 18
 
 * Updating jettison library for CVE-2022-45693 and CVE-2022-45685
+
 #### Version 17
 
 * Updating jettison library for CVE-2022-40150 CVE-2022-40149
+
 #### Version 16
 
 * Update udclient and uDeployRestClient
+
 #### Version 15
 
-* Remove log4j functionality related to: CVE-2019-17571, CVE-2020-9488. CVE-2021-4104, CVE-2022-23302, CVE-2022-23305, CVE-2022-23307
+* Remove log4j functionality related to: CVE-2019-17571, CVE-2020-9488. CVE-2021-4104, CVE-2022-23302, CVE-2022-23305,
+  CVE-2022-23307
+
 #### Version 14
 
 * Allow specifying custom java opts
+
 #### Version 13
 
 * New versions not copied to codestation will call finishImporting to allow executing deployment triggers.
+
 #### Version 12
 
 * Fixing CVE:CVE-2019-4233
+
 #### Version 11
 
 * Update property descriptions.
+
 #### Version 10
 
-*  APAR PI89045: add support for setting isFinished flag flag when importing versions.
+* APAR PI89045: add support for setting isFinished flag flag when importing versions.
 
 #### Version 9
 
@@ -77,7 +86,8 @@ This plug-in is installed when installing IBM DevOps Deploy. When new plug-in ve
 
 #### Version 4
 
-* Fixed defect where older components configured with this plugin could not import new versions after upgrading to 6.2.0.2.
+* Fixed defect where older components configured with this plugin could not import new versions after upgrading to
+  6.2.0.2.
 
 #### Version 3
 
