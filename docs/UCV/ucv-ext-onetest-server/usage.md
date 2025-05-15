@@ -127,6 +127,8 @@ To integrate the plug-in using a JSON, perform the following steps:
 4. Edit the integration information in the JSON file to add the plug-in configuration properties. Refer to JSON sample code in the Configuration Properties section more details.
 5. Click **Save**.
 
+For **JSON sample** refer set up section.
+
 ## Configuration Properties
 
 The following tables describe the properties used to configure the integration. Each table contains the field name when using the user interface and the property name when using a JSON file.
@@ -156,28 +158,6 @@ Some properties might not be displayed in the user interface, to see all propert
 | Build Label Pattern | String | A regular expression pattern that will match a build ID on a test execution label. For example: ([A-Z]+-[0-9]+). | No | buildRegExp |
 | Workflow Id | String | The value stream that this metric is associated. | No | workflowId |
 
-### JSON code sample
-
-The following sample code can be used as a template to define the integration within the JSON file for a value stream. Copy and paste the template into the JSON file Integration section and make the appropriate changes.
-
-```
-
-"integrations": [
-{
-"type": "ucv-ext-onetest-server",
-"tenant_id": "tenant_id",
-"name": "TestHub creation",
-"disabled": false,
-"properties": {
-"oneTestUrl": "URL",
-"oneTestRefreshToken": "token",
-"buildRegExp": "",
-"workflowId": ""
-}
-}
-]
-
-```
 
 |Back to ...||Latest Version|IBM DevOps Test Hub |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
