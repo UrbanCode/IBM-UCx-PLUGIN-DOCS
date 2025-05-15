@@ -651,7 +651,7 @@ The File Utils plug-in provides useful steps for manipulating files and director
 
 |Back to ...||File Utils |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](FileUtils/README.md)| [100.1175039](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileUtils/ucd-FileUtils-100.1175039.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](FileUtils/README.md)| [100.1176430](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileUtils/ucd-FileUtils-100.1176430.zip)|
 
 ## FileNet - IBM Case Manager
 
@@ -1852,7 +1852,7 @@ Microsoft Software Installer (MSI) is a software component that is used for the 
 
 |Back to ...||Microsoft Software Installer (MSI) |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](MSI/README.md)|[3.911818](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/MSI/MSI-3.911818.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](MSI/README.md)|[3.1176465](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/MSI/MSI-3.1176465.zip)|
 
 ## Microsoft TFS (Team Foundation Server)
 
