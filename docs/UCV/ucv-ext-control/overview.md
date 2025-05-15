@@ -1,11 +1,11 @@
 
 # IBM DevOps Control - Overview
 
-The IBM DevOps Control plug-in provides for integration with a IBM DevOps Control server. This plug-in imports pull requests and commit data from a IBM DevOps Control server and saves them as IBM DevOps Velocity issues. Data between the IBM DevOps Control server and the IBM DevOps Velocity server is synchronized every five minutes.
+The IBM DevOps Control plug-in provides for integration with a IBM DevOps Control server. This plug-in imports pull requests and commit data from a IBM DevOps Control server and saves them as IBM DevOps Velocity pull requests and commits. Data between the IBM DevOps Control server and the IBM DevOps Velocity server is synchronized every five minutes.
 
 ## Compatibility
 
-Must be running IBM DevOps Velocity version 5.0.10 and later to use the plug-in.
+Must be running IBM DevOps Velocity version 5.0.0 and later to use the plug-in.
 
 ## Versions
 
