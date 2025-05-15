@@ -179,7 +179,7 @@ Some properties might not be displayed in the user interface, to see all propert
 ### General Configuration properties
 
 | Name | Description | Required | Property Name |
-| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- |
 | Image | The version of the plug-in that you want to use. To view available versions, click the Version History tab. If a value is not specified, the latest version is used. | No | image |
 | Integration Name | An assigned name to the value stream. | Yes | name |
 | Logging Level | The level of Log4j messages to display in the log file. Valid values are all, debug, info, warn, error, fatal, off, and trace. | No | loggingLevel |

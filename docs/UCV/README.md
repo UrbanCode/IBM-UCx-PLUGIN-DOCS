@@ -20,7 +20,6 @@
 	- [Cypress](#cypress)
 	- [Digital.ai Agility](#digitalai-agility)
 	- [DevOps Deploy](#urbancode-deploy)
-	- [DevOps Plan](#devops-plan)
 	- [Fortify SSC](#fortify-ssc)
 	- [GenAI summary release-IBM](#genai-summary-release-ibm) 
 	- [GenAI summary release-OpenAI](#genai-summary-release-openai)
@@ -32,6 +31,7 @@
 	- [Handlebar Reporter](#handlebar-reporter)
 	- [IBM DevOps Control](#ibm-devops-control)
 	- [IBM Engineering Workflow Management (EWM)](#ibm-engineering-workflow-management-ewm)
+	- [IBM DevOps Plan](#ibm-devops-plan)
     - [IBM DevOps Test](#ibm-devops-test)
 	- [IBM DevOps Test Hub](#ibm-devops-test-hub)
 	- [Jenkins](#jenkins)
@@ -201,16 +201,6 @@ The Deploy Plugin for DevOps Velocity imports deployment data from DevOps Deploy
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-ucd/README.md)|[4.0.9 -File 1](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-ucd/ucv-ext-ucd%3A4.0.9.tar.7z.001) [and 4.0.9 -File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-ucd/ucv-ext-ucd%3A4.0.9.tar.7z.002)|
 
-## IBM DevOps Plan
-
-IBM DevOps Plan is a comprehensive change tracking system for software development environments. The IBM DevOps Plan plug-in provides an integration with IBM DevOps Plan server to import and synchronize IBM DevOps Plan issues into an IBM DevOps Velocity server.
-
----
-
-|Back to ...||Plan |Latest Version|
-| :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-plan/README.md)|[1.1.57-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-compass/ucv-ext-compass%3A1.1.57.tar.7z.001)[and 1.1.57-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-compass/ucv-ext-compass%3A1.1.57.tar.7z.002)|
-
 ## Fortify SSC
 
 Fortify Software security center (SSC) enables teams with the application security program automation capabilities. It enables to manage, develop, and provide security for the software protection activities.
@@ -317,6 +307,16 @@ The IBM Engineering Workflow Management (EWM) plug-in, previously known as the I
 |Back to ...||IBM Engineering Workflow Management (EWM) |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-ewm/README.md)|[1.1.32-File 1](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-ewm/ucv-ext-ewm%3A1.1.32.tar.7z.001)[and 1.1.32-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-ewm/ucv-ext-ewm%3A1.1.32.tar.7z.002)[and 1.1.32-File 3](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-ewm/ucv-ext-ewm%3A1.1.32.tar.7z.003)|
+
+## IBM DevOps Plan
+
+IBM DevOps Plan is a comprehensive change tracking system for software development environments. The IBM DevOps Plan plug-in provides an integration with IBM DevOps Plan server to import and synchronize IBM DevOps Plan issues into an IBM DevOps Velocity server.
+
+---
+
+|Back to ...||Plan |Latest Version|
+| :---: | :---: | :---: | :---: |
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-plan/README.md)|[1.1.57-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-compass/ucv-ext-compass%3A1.1.57.tar.7z.001)[and 1.1.57-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-compass/ucv-ext-compass%3A1.1.57.tar.7z.002)|
 
 ## IBM DevOps Test
 
