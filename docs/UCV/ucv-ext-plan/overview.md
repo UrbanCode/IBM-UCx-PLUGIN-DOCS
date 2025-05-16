@@ -11,15 +11,15 @@ Must be running IBM DevOps Velocity version 2.5.0 and later and IBM DevOps plan 
 
 ## Prerequisites
 
-You must have completed the following tasks before you integrate the HCL DevOps Plan plug-in in:
+You must have completed the following tasks before you integrate the IBM DevOps Plan plug-in in:
 1. Created an application in a teamspace.
-2. Created a project in HCL DevOps Plan with the following work statuses:
+2. Created a project in IBM DevOps Plan with the following work statuses:
 * Submitted
 * Backlog
 * Active
 * Resolved
 * Closed
-3. Generated a personal access token in your HCL DevOps Plan account.
+3. Generated a personal access token in your IBM DevOps Plan account.
 
 ## Versions
 

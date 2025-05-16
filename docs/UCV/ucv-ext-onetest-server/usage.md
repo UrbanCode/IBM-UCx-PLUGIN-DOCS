@@ -55,7 +55,6 @@ You will need to "install" the plug-in in DevOps Velocity. You can do this in on
     "name": "<integration-name>",
     "logginglevel": "INFO",
     "properties":{
-        "ucvAccessKey": "<ucv-user-access-key>",
         "oneTestUrl" : "<DevOps Test-Hub-url>",
         "oneTestRefreshToken":"<DevOps Test-Hub-refresh-token>",
         "buildRegExp": "([A-Z]+-[0-9]+)",
@@ -117,14 +116,14 @@ To integrate the plug-in using the user interface, perform the following steps:
 
 ## Integrating the plug-in by using JSON file
 
-The JSON file contains the information for creating a value stream. Within the JSON file is a section for integrations. It is in this section that plug-in properties can be defined. Refer to the JSON sample code in the Configuration Properties section.
+The JSON file contains the information for creating a value stream. Within the JSON file is a section for integrations. It is in this section that plug-in properties can be defined. For JSON sample refer set up section.
 
 To integrate the plug-in using a JSON, perform the following steps:
 
 1. Navigate to value stream page, and then click the necessary value stream.
 2. Click **wrench icon**, and then Select **Edit value stream** to modify the JSON file in the code or tree view editors.
 3. Alternatively, you can also click **Download JSON** option to download the JSON file, and then select the Import JSON option to upload the revised JSON file.
-4. Edit the integration information in the JSON file to add the plug-in configuration properties. Refer to JSON sample code in the Configuration Properties section more details.
+4. Edit the integration information in the JSON file to add the plug-in configuration properties. Refer to JSON sample code in the Configuration Properties section for more details.
 5. Click **Save**.
 
 For **JSON sample** refer set up section.
