@@ -2470,13 +2470,13 @@ Apart from copying content to a mainframe dataset, this plug-in provides the fol
 
 ## z/OS External Artifact Repository
 
-The External Artifact Repository plug-in includes the step to download artifacts from a Nexus or JFrog Artifactory repository into an DevOps z/OS type component.
+The zOS External Artifact Utility plug-in includes steps to integrate with external repositories like Nexus or JFrog for zOS.
 
 ---
 
 |        Back to ...         |                  |         z/OS External Artifact Repository          |                                                                  Latest Version                                                                   |
 |:--------------------------:|:----------------:|:--------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------:|
-| [All Plugins](../index.md) | [Top](#contents) | [Readme](zOS-external-artifact-download/README.md) | [12.1176020](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOS-external-artifact-download/ucd-ExtArtRepo-12.1176020.zip) |
+| [All Plugins](../index.md) | [Top](#contents) | [Readme](zOS-external-artifact-download/README.md) | [13.1177041](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOS-external-artifact-download/ucd-ExtArtRepo-13.1177041.zip) |
 
 ## z/OS FTP Utility
 
