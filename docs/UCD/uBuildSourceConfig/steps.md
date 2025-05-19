@@ -11,7 +11,7 @@ Create a new component version and import artifacts.
 This step has no input properties.
 
 
-### Roles in the uBuild plug-in
+### Roles in the DevOps Build plug-in
 
 The plug-in adds these roles automatically to resources. You cannot add these roles manually.
 
