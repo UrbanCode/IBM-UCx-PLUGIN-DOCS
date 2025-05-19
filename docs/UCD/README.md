@@ -133,7 +133,7 @@
 	- [IBM DevOps PHP CLI Tool  \[community plugin\]](#ibm-devops-php-cli-tool--community-plugin)
 	- [IBM DevOps Package Manager](#ibm-devops-package-manager)
 	- [IBM DevOps Release](#ibm-devops-release)
-	- [IBM DevOps uBuild](#ibm-devops-ubuild)
+	- [IBM DevOps Build](#ibm-devops-build)
 	- [IBM VDP  \[partner plugin\]](#ibm-vdp--partner-plugin)
 	- [IBM WebSphere Commerce](#ibm-websphere-commerce)
 	- [IBM WebSphere Liberty](#ibm-websphere-liberty)
@@ -1362,7 +1362,7 @@ Get artifacts from IBM DevOps Build.
 
 |Back to ...||IBM DevOps Build |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](uBuildSourceConfig/README.md)|[12.1131550](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uBuildSourceConfig/ucd-uBuildSourceConfig-12.1131550.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](BuildSourceConfig/README.md)|[12.1131550](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uBuildSourceConfig/ucd-uBuildSourceConfig-12.1131550.zip)|
 
 ## IBM DevOps DBUpgrader
 
@@ -1524,15 +1524,15 @@ This plug-in provides several steps for retrieving and updating information in I
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ucr-plugin/README.md)|[9.1056530](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ucr-plugin/ucr-plugin-9.1056530.zip)|
 
-## IBM DevOps uBuild
+## IBM DevOps Build
 
-The IBM DevOps Build plugin for Deploy provides steps to download artifacts from DevOps Build and run uBuild workflows.
+The IBM DevOps Build plugin for Deploy provides steps to download artifacts from DevOps Build and run Build workflows.
 
 ---
 
-|Back to ...||IBM DevOps uBuild |Latest Version|
+|Back to ...||IBM DevOps Build |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](uBuild/README.md)|[8.1056531](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uBuild/uBuild-8.1056531.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](Build/README.md)|[8.1056531](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uBuild/uBuild-8.1056531.zip)|
 
 ## IBM VDP  [partner plugin]
 
