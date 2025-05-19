@@ -89,7 +89,7 @@ Some properties might not be displayed in the user interface, to see all propert
 | Proxy Server | String | The URL of the proxy server including the port number. | No | proxyServer |
 | Proxy User Name | String | The username used to authenticate with the proxy server. | No | proxyUsername |
 | Proxy Password | String | The password used to authenticate with the proxy server. | No | proxyPassword |
-| User Access Key | Secure | User access key for authentication with this server (Prior to version 2.4.0) | No | ucvAccessKey |
+| User Access Key | Secure | User access key for authentication with this server | No | ucvAccessKey |
 
 ### JSON code example
 

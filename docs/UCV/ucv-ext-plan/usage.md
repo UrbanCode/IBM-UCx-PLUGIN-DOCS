@@ -28,7 +28,7 @@ The tables in the Configuration properties topic describe the properties used to
 The Add IBM DevOps Plan Integration dialog is displayed.
 3. Specify the properties by referring to the following table:
 
-The following table lists the required fields that you must provide to integrate the HCL DevOps Plan plug-in.
+The following table lists the required fields that you must provide to integrate the IBM DevOps Plan plug-in.
 
 | Fields | Action |
 | --- | --- |
@@ -187,7 +187,7 @@ Some properties might not be displayed in the user interface, to see all propert
 | Tenant ID | The name of the tenant. | Yes | tenant_id |
 | NA | Unique identifier assigned to the plug-in. The value for the IBM DevOps Plan plug-in is ucv-ext-compass | Yes | type |
 
-### HCL DevOps Plan Configuration Properties
+### IBM DevOps Plan Configuration Properties
 
 | Name | Type | Description | Required | Property Name |
 | --- | --- | --- | --- | --- |
