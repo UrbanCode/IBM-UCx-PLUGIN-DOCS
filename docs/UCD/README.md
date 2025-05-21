@@ -1852,7 +1852,7 @@ Microsoft Software Installer (MSI) is a software component that is used for the 
 
 |Back to ...||Microsoft Software Installer (MSI) |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](MSI/README.md)|[3.1176465](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/MSI/MSI-3.1176465.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](MSI/README.md)|[3.1176465](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/MSI/ucd-MSI-3.1176465.zip)|
 
 ## Microsoft TFS (Team Foundation Server)
 
