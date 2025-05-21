@@ -17,4 +17,4 @@ Install Microsoft .NET Framework 3.5 on the agent computer where the plug-in is 
 
 |Back to ...||Latest Version|Microsoft TFS_SCM (Team Foundation Server) |||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[17.1154009](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/TFS_SCM-SourceConfig/ucd-TFS_SCM-SourceConfig-17.1154009.zip)|[Readme](README.md)|[Overview](overview.md)|[Settings](settings.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[19.1171672](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/TFS_SCM-SourceConfig/ucd-TFS_SCM-SourceConfig-19.1171672.zip)|[Readme](README.md)|[Overview](overview.md)|[Settings](settings.md)|[Usage](usage.md)|[Downloads](downloads.md)|
