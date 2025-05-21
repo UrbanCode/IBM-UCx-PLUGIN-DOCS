@@ -1862,7 +1862,7 @@ Microsoft Team Foundation Server (TFS) is a software development collaboration t
 
 |Back to ...||Microsoft TFS (Team Foundation Server) |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](TFS-SourceConfig/README.md)|[22.1131551](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/TFS-SourceConfig/ucd-TFS-SourceConfig-25.1154010.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](TFS-SourceConfig/README.md)|[22.1131551](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/TFS-SourceConfig/ucd-TFS-SourceConfig-26.1155758.zip)|
 
 ## Microsoft TFS Work Items
 
