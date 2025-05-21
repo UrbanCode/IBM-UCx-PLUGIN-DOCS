@@ -53,8 +53,7 @@ See [Installing plug-ins](https://www.ibm.com/docs/en/devops-deploy/8.1.1?topic=
 
 
 
-
-|          Back to ...          |                                |                                                                                 Latest Version                                                                                  | z/OS File Source Config |                   |                   |                   |                           |
-|:-----------------------------:|:------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------:|:-----------------:|:-----------------:|:-----------------:|:-------------------------:|
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [8.1159269](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOSFileSourceConfig/ucd-zOSFileSourceConfig-8.1174630.zip) |           [Readme](README.md)            | [Steps](steps.md) | [Usage](usage.md) |[Roles](roles.md) |[Downloads](downloads.md) |
+|          Back to ...          |                                |                                                                Latest Version                                                                 |                     |                           |
+|:-----------------------------:|:------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------:|:-------------------------:|
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [8.1174630](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOSFileSourceConfig/ucd-zOSFileSourceConfig-8.1174630.zip) | [Readme](README.md) | [Downloads](downloads.md) |
 
