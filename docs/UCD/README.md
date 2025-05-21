@@ -1882,7 +1882,7 @@ The Microsoft TFS\_SCM plug-in imports version artifacts from a Team Foundation 
 
 |Back to ...||Microsoft TFS_SCM (Team Foundation Server) |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](TFS_SCM-SourceConfig/README.md)|[17.1154009](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/TFS_SCM-SourceConfig/ucd-TFS_SCM-SourceConfig-17.1154009.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](TFS_SCM-SourceConfig/README.md)|[19.1171672](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/TFS_SCM-SourceConfig/ucd-TFS_SCM-SourceConfig-19.1171672.zip)|
 
 ## Microsoft Visual Studio Team Services (VSTS)  [partner plugin]
 
