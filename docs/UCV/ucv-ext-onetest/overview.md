@@ -1,11 +1,11 @@
 
-# HCL DevOps Test - Overview
+# IBM DevOps Test - Overview
 
-The HCL DevOps Test plug-in allows for parsing of data from the HCL DevOps Test testing tool. Data is uploaded to the DevOps Velocity server using an HTTP Post request.
+The IBM DevOps Test plug-in allows for parsing of data from the IBM DevOps Test testing tool. Data is uploaded to the IBM DevOps Velocity server using an HTTP Post request.
 
 ## Compatibility
 
-Must be running DevOps Velocity version 1.2.1 and later to use this plug-in.
+IBM UrbanCode Velocity 3.0.x to 4.0.x; IBM Devops Velocity 5.0.0 or later.
 
 ## Versions
 
@@ -13,9 +13,13 @@ DevOps Velocity plug-in images are located in DockerHub. To view available versi
 
 ## History
 
+### Version 1.0.40
+
+* npm wrapper version update for Argo Replacement.
+
 ### Version 1.0.37
 
-* **Rebranding**: Name of the plugin has been changed from HCL OneTest to HCL DevOps Test.
+* **Rebranding**: Name of the plugin has been changed from HCL OneTest to IBM DevOps Test.
 
 ### Version 1.0.34
 
@@ -47,4 +51,4 @@ DevOps Velocity plug-in images are located in DockerHub. To view available versi
 
 |Back to ...||Latest Version|HCL DevOps Test |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.37-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest/ucv-ext-onetest%3A1.0.37.tar.7z.001)[and 1.0.37-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest/ucv-ext-onetest%3A1.0.37.tar.7z.002)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.40-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest/ucv-ext-onetest%3A1.0.40.tar.7z.001)[and 1.0.40-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest/ucv-ext-onetest%3A1.0.40.tar.7z.002)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|

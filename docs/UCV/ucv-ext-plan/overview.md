@@ -1,17 +1,25 @@
 
-# Plan - Overview
+# IBM DevOps Plan - Overview
 
 ## Overview
 
-The Plan plug-in provides for integration with a Plan server. This plug-in imports Plan issues and saves them as DevOps Velocity issues. Data between the Plan server and the DevOps Velocity server is synchronized every five minutes.
+The plug-in imports work items as issues from IBM DevOps Plan server into IBM DevOps Velocity. The data between IBM DevOps Velocity and IBM DevOps Plan synchronizes for every 5 minutes by default. For quick sync up of data, you must disable and enable the integration in Integration page.
 
 ## Compatibility
 
-Must be running DevOps Velocity version 2.0.0 and later to use the plug-in.
+Must be running IBM DevOps Velocity version 2.5.0 and later and IBM DevOps plan server 1.0.14 or later.
 
-## Upgrade notes
+## Prerequisites
 
-Beginning with DevOps Velocity version 2.4.0 users must enter a user access key is required to connect with the DevOps Velocity server. If you are upgrading from a previous version, you must obtain and add the key to the DevOps Velocity configuration property. If the user access key is not added, the integration fails.
+You must have completed the following tasks before you integrate the IBM DevOps Plan plug-in in:
+1. Created an application in a teamspace.
+2. Created a project in IBM DevOps Plan with the following work statuses:
+* Submitted
+* Backlog
+* Active
+* Resolved
+* Closed
+3. Generated a personal access token in your IBM DevOps Plan account.
 
 ## Versions
 
@@ -31,6 +39,6 @@ DevOps Velocity plug-in images are located in DockerHub. To view available versi
 
 * Initial release
 
-|Back to ...||Latest Version|Plan |||
+|Back to ...||Latest Version|IBM DevOps Plan |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
 |[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.1.57-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-compass/ucv-ext-compass%3A1.1.57.tar.7z.001)[and 1.1.57-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-compass/ucv-ext-compass%3A1.1.57.tar.7z.002)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|

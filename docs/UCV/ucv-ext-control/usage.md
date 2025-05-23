@@ -52,6 +52,9 @@ Alternatively, you can also click Download JSON option to download the JSON file
 ## Minimum permission to integrate with IBM DevOps Control
 
 The access token generated from IBM DevOps Control server requires the full control of repositories permission to connect to the Control.
+
+![images/control-1.png](images/control-1.png)
+
 ## Configuration properties
 
 The following tables describe the properties used to configure the integration. Each table contains the field name when using the user interface and the property name when using a JSON file.
@@ -77,15 +80,16 @@ Some properties might not be displayed in the user interface, to see all propert
 
 | Name | Type | Description | Required | Project Name |
 | --- | --- | --- | --- | --- |
-| API URL | String | The URL to the REST API for the IBM DevOps Control instance. | Yes | apiUrl |
+| API URL | String | The URL for the REST API v3 of the DevOps Control application instance (add /api/v1 at the end of base url). | Yes | apiUrl |
 | Organization | String | The organization name of the IBM DevOps Control repository. | Yes | organization |
-| Repositories | Array | Comma separated list of IBM DevOps Control Repository names (separated by comma). | Yes | repositories |
+| Repositories | Array | List of DevOps Control Repository names (separated by comma). Regular expression is enabled (Example: ucv-ext-*, repo-name*, *repo*-abc) | Yes | repositories |
 | Branch | String | IBM DevOps Control repositories branch, the branch to pull commits from. | No | branch |
-| Personal access token | String | The token to use to authenticate with the IBM DevOps Control repository. | Yes | token |
-| Additional branches | Array | Comma separated additional branches to collect commits from besides the main one, leave blank if not needed. | No | otherBranches |
+| Personal access token | Secure | The token to use to authenticate with the IBM DevOps Control repository. | Yes | token |
+| Additional branches | Array | List of Branches (separated by comma) to collect commits from besides the main one. Leave blank if not needed | No | otherBranches |
 | Proxy Server | String | The URL of the proxy server including the port number. | No | proxyServer |
 | Proxy User Name | String | The username used to authenticate with the proxy server. | No | proxyUsername |
 | Proxy Password | String | The password used to authenticate with the proxy server. | No | proxyPassword |
+| User Access Key | Secure | User access key for authentication with this server | No | ucvAccessKey |
 
 ### JSON code example
 
