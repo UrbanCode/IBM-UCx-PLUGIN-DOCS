@@ -1,5 +1,5 @@
 
-### Oracle Service Bus Configuration Management - Process Steps
+# Oracle Service Bus Configuration Management - Process Steps
 
 * [Apply Customization](#apply_customization)
 * [Import Configuration](#import_configuration)

@@ -1,5 +1,4 @@
-
-Amazon EC2 - Process Steps
+# Amazon EC2 - Process Steps
 
 - [Amazon EC2 - Steps](#amazon-ec2---steps)
 - [Steps](#steps)
