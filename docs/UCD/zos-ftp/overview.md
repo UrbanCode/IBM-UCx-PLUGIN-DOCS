@@ -24,11 +24,11 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ## History
 
-## Version 2
+### Version 2
 
 * Removed input to pass IRRRacf library path
 
-## Version 1
+### Version 1
 
 * Initial release
 
