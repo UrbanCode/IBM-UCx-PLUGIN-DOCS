@@ -3,7 +3,7 @@
 
 * [Run RIT Test](#run_rit_test)
 
-### Run RIT Test
+## Run RIT Test
 
 Use this step to run a test using IBM Rational Integration Tester.
 

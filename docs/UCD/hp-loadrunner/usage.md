@@ -6,7 +6,7 @@
 * [Customizing Analysis Templates](#customizing-analysis-templates)
 * [Uploading Reports to Codestation](#uploading-reports-to-codestation)
 
-### Uploading Reports to Codestation
+## Uploading Reports to Codestation
 
 
 
@@ -44,7 +44,7 @@ After this process runs, a new version is created on the component with the name
 [![](media/screen-shot-2018-11-15-at-3.18.19-pm.png)](media/screen-shot-2018-11-15-at-3.18.19-pm.png)
 
 
-### Customizing Analysis Templates
+## Customizing Analysis Templates
 
 
 
@@ -64,7 +64,7 @@ You can generate a MicroFocus LoadRunner Result File in one of two ways:
 2. Run your Test Scenario in the HP LoadRunner Controller directly
 * You can find more information for running HP LoadRunner Test Scenarios from the Micro Focus [Running Scenarios in Controller](https://admhelp.microfocus.com/lr/en/12.60/help/WebHelp/Content/Controller/toc_running_scenarios.htm) documentation.
 
-### Creating the analysis template in HP LoadRunner
+## Creating the analysis template in HP LoadRunner
 
 After you open the LRR file in your HP LoadRunner Controller you can open the templates tool under the tools tab.
 
@@ -83,7 +83,7 @@ To use the template in the plugins Run Test Scenario step, you can specify the n
 [![](media/screen-shot-2018-11-15-at-1.49.01-pm.png)](media/screen-shot-2018-11-15-at-1.49.01-pm.png)
 
 
-### Default UCD Analysis Template
+## Default UCD Analysis Template
 
 
 

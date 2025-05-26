@@ -21,7 +21,7 @@
 * [Update XML File with XPath](#update-xml-file-with-xpath)
 
 
-### Copy Directory
+## Copy Directory
 
 Copy the contents of a directory to other directories. This step overwrites files but does not delete files.
 
@@ -40,7 +40,7 @@ Copy the contents of a directory to other directories. This step overwrites file
 
 
 
-### Create .zip File
+## Create .zip File
 
 Create a .zip file.
 
@@ -58,7 +58,7 @@ Create a .zip file.
 
 
 
-### Create Directories
+## Create Directories
 
 Create a set of directories, including nested directories.
 
@@ -69,7 +69,7 @@ Create a set of directories, including nested directories.
 
 
 
-### Create File
+## Create File
 
 Create a text file.
 
@@ -83,7 +83,7 @@ Create a text file.
 
 
 
-### Delete Files and Directories
+## Delete Files and Directories
 
 Delete files and directories.
 
@@ -98,7 +98,7 @@ Delete files and directories.
 
 
 
-### Flip Line Endings
+## Flip Line Endings
 
 Convert file line endings between UNIX and Microsoft Windows formats.
 
@@ -111,7 +111,7 @@ Convert file line endings between UNIX and Microsoft Windows formats.
 
 
 
-### Get text of XML text node
+## Get text of XML text node
 
 Get text of XML text node using xpath
 
@@ -124,7 +124,7 @@ Get text of XML text node using xpath
 
 
 
-### Monitor File Contents
+## Monitor File Contents
 
 Monitor a file for a token. The step continues when the token is found, and fails if the token is not found in the specified time. This step is similar to the UNIX tail command, and ignores content in the file that is present before the step starts.
 
@@ -139,7 +139,7 @@ Monitor a file for a token. The step continues when the token is found, and fail
 
 
 
-### Move Directory
+## Move Directory
 
 Move the contents of a directory to another directory.
 
@@ -154,7 +154,7 @@ Move the contents of a directory to another directory.
 
 
 
-### Read Properties From XML File
+## Read Properties From XML File
 
 Parse an XML file to search for properties defined by element names.
 
@@ -168,7 +168,7 @@ Parse an XML file to search for properties defined by element names.
 
 
 
-### Read Property File
+## Read Property File
 
 Read properties from a file and set them as output properties for the step.
 
@@ -180,7 +180,7 @@ Read properties from a file and set them as output properties for the step.
 
 
 
-###  Replace Tokens
+## Replace Tokens
 
 Replace tokens in files using properties.
 
@@ -200,7 +200,7 @@ Replace tokens in files using properties.
 
 
 
-### Search Files and Folders
+## Search Files and Folders
 
 Search for Files and Folders in a custom directory or default working directory.
 
@@ -214,7 +214,7 @@ Search for Files and Folders in a custom directory or default working directory.
 
 
 
-### Synchronize Directories
+## Synchronize Directories
 
 Move new files in a source directory to a destination directory, and delete files in the destination directory that are not in the source directory. Synchronization is based on the time stamp of the file.
 
@@ -231,7 +231,7 @@ Move new files in a source directory to a destination directory, and delete file
 
 
 
-### Untar Tarball
+## Untar Tarball
 
 Extract a .tar file.
 
@@ -245,7 +245,7 @@ Extract a .tar file.
 
 
 
-### Unzip
+## Unzip
 
 Extract a .zip file.
 
@@ -261,7 +261,7 @@ Extract a .zip file.
 
 
 
-### Update INI File
+## Update INI File
 
 Update a file in the Microsoft Windows INI format. This step supports property sections.
 
@@ -278,7 +278,7 @@ Update a file in the Microsoft Windows INI format. This step supports property s
 
 
 
-### Update Java Properties File
+## Update Java Properties File
 
 Add, remove, or update properties in a Java properties file.
 
@@ -297,7 +297,7 @@ Add, remove, or update properties in a Java properties file.
 
 
 
-### Update XML File with XPath
+## Update XML File with XPath
 
 Update XML files using XPath to locate items to edit.
 

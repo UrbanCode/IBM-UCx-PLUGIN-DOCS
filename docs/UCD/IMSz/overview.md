@@ -11,15 +11,15 @@ This plug-in requires agents that run on the z/OS platform. For more information
 * [Deploying to the z/OS Platform](https://www.ibm.com/docs/en/urbancode-deploy/7.2.3?topic=integrating-deploying-components-zos-platform)
 The plug-in includes the Execute IMS Command step that can be used to submit IMS operator commands to members of an IMSplex. This step can be added to your application deployment process by issuing the UPDATE PGM command.
 
-### Compatibility
+## Compatibility
 
 This plug-in requires version 6.1 of IBM DevOps Deploy.
 
-### Installation
+## Installation
 
 No special steps are required for installation. See [Installing plug-ins in DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy").
 
-### Related information
+## Related information
 
 IMS information resources:
 

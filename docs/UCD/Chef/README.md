@@ -9,7 +9,7 @@ This plug-in provides steps that enable you to integrate existing automation for
 * This plug-in is supported to run against Chef v11.6.0-1 or higher
 
 
-### Available Steps
+## Available Steps
 
 Install ChefInstalls Chef Solo (11.6.0-1)
 

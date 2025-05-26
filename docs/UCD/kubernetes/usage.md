@@ -3,11 +3,11 @@
 
 Use this plug-in to work with resources and images in Kubernetes.
 
-### Step Palette
+## Step Palette
 
 To access this plug-in in the palette, click **Cloud** > **Kubernetes**.
 
-### Learning activities
+## Learning activities
 
 * [Getting Started with IBM DevOps Deploy and Containers](https://community.ibm.com/community/user/wasdevops/blogs/osman-burucu/2022/07/22/getting-started-with-urbancode-deploy-and-containe)
 * [Enhance your Kubernetes Experience with DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/osman-burucu/2022/06/07/enhance-your-kubernetes-experience-with-urbancode)  tutorial on how you can use the plug-in to enhance your Kubernetes experience

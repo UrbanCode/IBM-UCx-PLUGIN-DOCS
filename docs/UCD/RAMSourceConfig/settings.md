@@ -5,24 +5,24 @@ IBM Rational Asset Manager for IBM DevOps Deploy - Settings
 # Settings
 
 
-### Settings
+## Settings
 
 
 
 
-### Process steps in the Rational Asset Manager plug-in
+## Process steps in the Rational Asset Manager plug-in
 
 * [Import Version](#import_version)
 
 
-### Import Version
+## Import Version
 
 Creates a new component version and imports artifacts
 
 This step has no input properties.
 
 
-### Roles in the Rational Asset Manager plug-in
+## Roles in the Rational Asset Manager plug-in
 
 The plug-in adds these roles automatically to resources. You cannot add these roles manually.
 
@@ -31,7 +31,7 @@ The plug-in adds these roles automatically to resources. You cannot add these ro
 * [RAMImportProperties](#ramimportproperties_role)
 
 
-### RAMComponentProperties
+## RAMComponentProperties
 
 
 | Name | Type | Description |
@@ -49,7 +49,7 @@ The plug-in adds these roles automatically to resources. You cannot add these ro
 | User | String |  |
 | Version Pattern | String | A regular expression that represents the version of the Rational Asset Manager asset to load as a component source. If set, only versions with names matching the regular expression are imported. For example, (1\.[0-9]+).\* matches versions such as 1.2 and 1.2.3.4A. If the expression matches more than one version, all versions are imported, up to the number in the Latest Build Count field. |
 
-### RAMImportProperties
+## RAMImportProperties
 
 
 | Name | Type | Description |

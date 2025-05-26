@@ -8,11 +8,11 @@ The WebLogic Server Resource Management plug-in provides steps to work with bean
 **Configuration files for objects** A JMX properties file must be created to define the objects and the path to the file that is included in the **JMX Properties Path** property. The plug-in contains an example of this file that is located in the `extras` folder of the plug-in `.zip` file.
 
 
-### Step palette
+## Step palette
 
 To access this plug-in in the palette, click **Application Server** > **WebLogic** > **WLS Resource Management**.
 
-### Compatibility
+## Compatibility
 
 This plug-in requires IBM DevOps Deploy version 6.0.1 or later.
 
@@ -20,13 +20,13 @@ This plug-in supports Oracle WebLogic server version 10g and later.
 
 This plug-in runs on all operating systems that DevOps Deploy supports.
 
-### Installation
+## Installation
 
 No special steps are required for installation. See [Installing plug-ins in DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy").
 
-### History
+## History
 
-#### Version 5.767528 released on March 30, 2016
+### Version 5.767528 released on March 30, 2016
 
 Version 5.767528 includes the following features and fixes:
 

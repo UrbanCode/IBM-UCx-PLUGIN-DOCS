@@ -2,7 +2,7 @@
 # IBM DevOps Release - Usage
 
 
-### IBM DevOps Release
+## IBM DevOps Release
 
 * [Before you begin](#before_you_begin)
 * [Adding comments to a task](#adding-comments-task)
@@ -11,12 +11,12 @@
 * [Obtaining the appropriate release for an environment](#obtaining-appropriate-release-environment)
 
 
-### **Before you begin**
+## **Before you begin**
 
 Optionally, you can define authentication properties that the plug-in requires as system properties. System properties are accessible from anywhere and are automatically updated throughout all process steps that use them.
 
 
-### Applying a status to an application version
+## Applying a status to an application version
 
 
 
@@ -25,13 +25,13 @@ Use the Add Snapshot Status step to apply a status or stamp to an application ve
 
 You can manually add statuses, comments, and attachments to application versions in IBM DevOps Release. With the Add Snapshot Status step, you can automate those manual steps with a single deployment process.
 
-#### **Before you start**
+### **Before you start**
 
 The Add Snapshot Status step requires the ID of the target snapshot.This value is found in the **snapshot.id** property accessible at the application process scope. To make it available at the component process scope, create a component process property by using the same process as in the Add Comment to Task step.
 
 If the selected snapshot does not exist in IBM DevOps Release, the process fails. You can ensure that the snapshot exists by running an integration process before you run the application or use the Update Application step to the workflow. By using the Update Application step, you ensure that the snapshot exists in the IBM DevOps Release inventory before it is referred to.
 
-### **Example: Add a status to a snapshot**
+## **Example: Add a status to a snapshot**
 
 In this example, the Add Snapshot Status step is used to apply a status to a snapshot, based on the test results of the Install Notification Manager application. This application is an automated Selenium test that is run on a snapshot version.The application process is triggered by a scheduled deployment in IBM DevOps Release. When the test runs, the results are posted to an external web page. Using the Add Snapshot steps also provides the external URL as a comment and attaches a file that contains additional test details.
 
@@ -48,7 +48,7 @@ In the following figure, you see that the comment and the attachment have been a
 
 [![release-plugin-add-status-snapshot-status-detail](media/release-plugin-add-status-snapshot-status-detail.jpg)](media/release-plugin-add-status-snapshot-status-detail.jpg)
 
-### Obtaining the appropriate release for an environment
+## Obtaining the appropriate release for an environment
 
 
 
@@ -64,11 +64,11 @@ The Get Release for Environment step addresses several issues.
 * You can reserve an environment by using the IBM DevOps Release environment reservation feature. A release environment is reserved for a specific period. After an environment is reserved, the Get Release for Environment step can identify the release that has a reservation for the current time.
 After the release is identified and its name retrieved, the value can be stored in an output property and passed to the next step in the process.
 
-#### **Before you start**
+### **Before you start**
 
 The Add Snapshot Status step requires the environment ID, which is located in the **snapshot.id** property and accessible at the application process scope. To make it available at the component process scope, create a component process property by using the same process as in the [Add Comment to Task](#id_4_component) step.
 
-### **Example: Determine the active release for an environment**
+## **Example: Determine the active release for an environment**
 
 This example demonstrates how to use the Get Release for Environment step in a process that creates a snapshot that can be used by a recurring rule for auto progression.It uses a naming pattern to name a snapshot and depends on the IBM DevOps Release reservation feature being used.
 
@@ -97,7 +97,7 @@ The following figure shows a post-processing script that stores the date in an o
 The date can be accessed by the following step that uses these properties:**Snapshot\_``${p:environment.name}``\_``${p:GenerateDate/GeneratedDate}``**. The generated name will be similar to `Snapshot_DEV_ 20142702`.
 
 
-### Updating an application inventory
+## Updating an application inventory
 
 
 
@@ -106,7 +106,7 @@ Use the Update Application step to update the inventory in IBM DevOps Release to
 
 An IBM DevOps Deploy application can also run an integration process as part of its process workflow. For example, if an application creates a snapshot during deployment processing, it can use the Update Application step to update the IBM DevOps Release inventory and access the snapshot later in the workflow. This can be important if the next scheduled integration is minutes or hours away.
 
-### **Example: Update inventory during processing**
+## **Example: Update inventory during processing**
 
 This example shows how to update the inventory without using the Update Application step. In the example, an IBM DevOps Deploy deployment process creates a snapshot that contains all component versions that are deployed to a DEV environment. By using the Update Application step,the IBM DevOps Release inventory is updatedas soon as the snapshot is created.
 
@@ -114,7 +114,7 @@ This example shows how to update the inventory without using the Update Applicat
 On the IBM DevOps Deploy Properties page, specify **``${p:application:id}``** in the **Application UUID** property. This is a unique number that is assigned when a new application is created in IBM DevOps Deploy.
 
 
-### Adding comments to a task
+## Adding comments to a task
 
 
 
@@ -122,7 +122,7 @@ On the IBM DevOps Deploy Properties page, specify **``${p:application:id}``** in
 Use the Add Comment to Task step to add comments to automated tasks that are started from a scheduled deployment. This step displays the output of IBM DevOps Deploy deployment processes directly in IBM DevOps Release task rows.On the IBM DevOps Release scheduled deployment page, you can access IBM DevOps Deploy task execution logs byclicking the **View Process Request** link that is associated with the task.The link redirects you to the IBM DevOps Deploy Process Request logs, whereyou can update task comments in real time. When IBM DevOps Release starts an automated task, an application process request that contains task-related properties is sent to IBM DevOps Deploy.
 
 
-### **Before you start**
+## **Before you start**
 
 The task ID is a required input to the Add Comment to Task step. The task ID is contained in the **post-deploy-message** property. You can view this property on the **Properties** tab for the application process request.
 
@@ -132,7 +132,7 @@ To create the component process:
 
 1. In IBM DevOps Deploy, create a component process property without a default value for the property. In the example, the created property is called **taskPostMessage**.  [![release-plugin-property](media/release-plugin-property.jpg)](media/release-plugin-property.jpg)
 2. In the application process, use the new property to pass the value of the **post-deploy-message** property. On the Edit Properties page for the application process, specify **``${p:post-deploy-message}``** as the value for the created property.  [![release-plugin-add-comment-task-form](media/release-plugin-add-comment-task-form.jpg)](media/release-plugin-add-comment-task-form.jpg)
-### **Example: Add a comment to automated task**
+## **Example: Add a comment to automated task**
 
 In this example, comments are added to an IBM DevOps Release automated task in a scheduled deployment. The comments are generated from the output logs of two steps in an IBM DevOps Deploy component process. The following figure shows the requesting automated task in IBM DevOps Release.
 
@@ -142,7 +142,7 @@ The following figure shows the workflow of the corresponding component process i
 [![release-plugin-add-comment-task-workflow](media/release-plugin-add-comment-task-workflow.jpg)](media/release-plugin-add-comment-task-workflow.jpg)
 TheExportBackupLogs step uses an external tool to archive backup logs to a web server during processing. An automatically-generated URL is included in the steps output. By using a post processing script, you can scan the steps output and retrieve the URL and save it to a property that can be passed to the subsequent step. The following step, Add Comment with backup logs URL, uses the output property to create a comment in IBM DevOps Release.
 
-### **Example: Scan step output by using post-processing script**
+## **Example: Scan step output by using post-processing script**
 
 This example demonstrates how to scan the output of a step and save it to an output property that is accessible by the subsequent step. Every automation plug-in step has a post-processing element. By using a post-processing script, you can save the step output to an output property.
 

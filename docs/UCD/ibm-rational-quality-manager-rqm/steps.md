@@ -1,13 +1,13 @@
 
 # IBM Rational Quality Manager (RQM) - Steps
 
-### Process steps in the Rational Quality Manager plug-in
+## Process steps in the Rational Quality Manager plug-in
 
 * [Execute Test Case](#execute_test_case)
 * [Execute Test Suite](#execute_test_suite)
 
 
-### Execute Test Case
+## Execute Test Case
 
 Execute a test case.
 
@@ -24,7 +24,7 @@ Execute a test case.
 | Test Case Execution Record ID | String | The numeric ID of the test case execution record to run. | Yes |
 | Test Script ID | String | The numeric ID of the test script to run in the test case. | No |
 
-### Execute Test Suite
+## Execute Test Suite
 
 Execute a test suite.
 

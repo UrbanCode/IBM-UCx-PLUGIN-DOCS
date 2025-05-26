@@ -17,7 +17,7 @@
 * [Update Installation Information](#update_installation_information)
 
 
-### Create Generic Install Package
+## Create Generic Install Package
 
 Creates a generic installation package for a process application or toolkit snapshot that is not targeted to a specific Process Server. (BPMExportInstallPackage)
 
@@ -32,7 +32,7 @@ Creates a generic installation package for a process application or toolkit snap
 | Process application track | String | The process application track name or acronym. | Yes |
 | Use soap.client.props file | Boolean | Select to use the soap.client.props file for the WebSphere Application Server administrator credentials. | No |
 
-### Deactivate Snapshot
+## Deactivate Snapshot
 
 Deactivates an activate snapshot. (BPMDeactivate)
 
@@ -48,7 +48,7 @@ Deactivates an activate snapshot. (BPMDeactivate)
 | Suspend all BPD instances | Boolean | Immediately suspend all instances associated with the given context. The instances remain suspended until you resume them. Not supported when Tip is used for the snapshot acronym. | No |
 | Use soap.client.props file | Boolean | Select to use the soap.client.props file for the WebSphere Application Server administrator credentials. | No |
 
-### Deploy Offline Package
+## Deploy Offline Package
 
 Deploys the process application snapshot package to an offline Process Server. (BPMInstallOfflinePackage and BPMSetDefaultSnapshot)
 
@@ -63,7 +63,7 @@ Deploys the process application snapshot package to an offline Process Server. (
 | Process application snapshot | String | The process application snapshot name or acronym if this snapshot is set as the default. | No |
 | Use soap.client.props file | Boolean | Select to use the soap.client.props file for the WebSphere Application Server administrator credentials. | No |
 
-### Deploy Process Application Snapshot
+## Deploy Process Application Snapshot
 
 Deploys the process application snapshot to an online Process Server. (BPMInstall)
 
@@ -78,7 +78,7 @@ Deploys the process application snapshot to an online Process Server. (BPMInstal
 | Skip all governance processes | Boolean | If selected, the process application snapshot deployment skips all governance processes, including the approval processes defined by the administrator. Not supported for WebSphere Business Process Manager earlier than version 8.5. | No |
 | Use soap.client.props file | Boolean | Select to use the soap.client.props file for the WebSphere Application Server administrator credentials. | No |
 
-### Export Process Application
+## Export Process Application
 
 Exports a process application from a Process Center server. (BPMExport)
 
@@ -92,7 +92,7 @@ Exports a process application from a Process Center server. (BPMExport)
 | Process application track | String | The process application track name or acronym. | No |
 | Use soap.client.props file | Boolean | Select to use the soap.client.props file for the WebSphere Application Server administrator credentials. | No |
 
-### Extract Migration Policy
+## Extract Migration Policy
 
 Extracts the migration policy from Process Center. Use this step to extract the information used to migrate instances from other snapshots to the newly installed snapshot. (BPMExtractMigrationPolicy)
 
@@ -107,7 +107,7 @@ Extracts the migration policy from Process Center. Use this step to extract the 
 | Target process application snapshot | String | The source process application snapshot name or acronym. | Yes |
 | Use soap.client.props file | Boolean | Select to use the soap.client.props file for the WebSphere Application Server administrator credentials. | No |
 
-### Generate Offline Package
+## Generate Offline Package
 
 Creates a .zip file on Process Center that contains a process application snapshot package. (BPMCreateOfflinePackage and BPMExtractOfflinePackage)
 
@@ -123,7 +123,7 @@ Creates a .zip file on Process Center that contains a process application snapsh
 | Skip all governance processes | Boolean | If selected, the process application snapshot deployment skips all governance processes, including the approval processes defined by the administrator. Not supported for WebSphere Business Process Manager earlier than version 8.5. | No |
 | Use soap.client.props file | Boolean | Select to use the soap.client.props file for the WebSphere Application Server administrator credentials. | No |
 
-### Import Process Application
+## Import Process Application
 
 Imports a process application into a Process Center server. (BPMImport)
 
@@ -134,7 +134,7 @@ Imports a process application into a Process Center server. (BPMImport)
 | Process application package | String | The name of the .twx file that contains the process application package. If blank, the component name is used. Including the .twx file extension in the name is optional. | No |
 | Use soap.client.props file | Boolean | Select to use the soap.client.props file for the WebSphere Application Server administrator credentials. | No |
 
-### Install Process Application Snapshot
+## Install Process Application Snapshot
 
 Installs a process application snapshot from Process Center to a Process Server. (BPMInstallPackage)
 
@@ -146,7 +146,7 @@ Installs a process application snapshot from Process Center to a Process Server.
 | Show Snapshot Info | Boolean | If selected, the command returns the acronyms of the process application, track, and snapshot that were installed. | No |
 | Use soap.client.props file | Boolean | Select to use the soap.client.props file for the WebSphere Application Server administrator credentials. | No |
 
-### Migrate Instances
+## Migrate Instances
 
 Migrates all instances on all nodes in the network deployment environment. Equivalent to clicking Migrate Inflight Data in the Process Admin Console. (BPMMigrateInstances)
 
@@ -166,7 +166,7 @@ Migrates all instances on all nodes in the network deployment environment. Equiv
 | Optional: Select TRUE if the policy file is larger than 100 KB. Save the policy file in a path that is accessible to all nodes. | No |
 | Use soap.client.props file | Boolean | Select to use the soap.client.props file for the WebSphere Application Server administrator credentials. | No |
 
-### Set Default Snapshot
+## Set Default Snapshot
 
 Designates a default snapshot on the Process Center or the Process Server. (BPMSetDefaultSnapshot)
 
@@ -178,7 +178,7 @@ Designates a default snapshot on the Process Center or the Process Server. (BPMS
 | Process application snapshot | String | The process application snapshot name or acronym. | Yes |
 | Use soap.client.props file | Boolean | Select to use the soap.client.props file for the WebSphere Application Server administrator credentials. | No |
 
-### Stop Snapshot
+## Stop Snapshot
 
 Stops a deactivated snapshot on a Process Server. (BPMStop)
 
@@ -190,7 +190,7 @@ Stops a deactivated snapshot on a Process Server. (BPMStop)
 | Process application snapshot | String | The process application snapshot name or acronym. | Yes |
 | Use soap.client.props file | Boolean | Select to use the soap.client.props file for the WebSphere Application Server administrator credentials. | No |
 
-### Sync Values, Variables, and Team Bindings
+## Sync Values, Variables, and Team Bindings
 
 Synchronize team bindings, environment variables, and exposed process values between a source and target snapshot. (BPMSyncEnvironmentVariables, BPMSyncEPVValues, and BPMSyncTeamBindings) Do not run this step using the deployment manager profile.
 
@@ -207,7 +207,7 @@ Synchronize team bindings, environment variables, and exposed process values bet
 | Target process application snapshot | String | The target process application track name or acronym. | Yes |
 | Use soap.client.props file | Boolean | Select to use the soap.client.props file for the WebSphere Application Server administrator credentials. | No |
 
-### Update Installation Information
+## Update Installation Information
 
 Associates an installation package with a specific server, to enable installing the snapshot installation on the server. (BPMUpdateInstallationInformation)
 

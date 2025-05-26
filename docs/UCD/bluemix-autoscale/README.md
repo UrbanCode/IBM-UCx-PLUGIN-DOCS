@@ -10,7 +10,7 @@ This plug-in provides steps to interact with the Auto-Scaling for Bluemix servic
 * The Auto-Scaling service must first be configured on your Bluemix workspace or application.
 
 
-### Available Steps
+## Available Steps
 
 
 **Add Auto-Scale Policy to Application**: Attach an Auto-Scale policy to a Bluemix application.

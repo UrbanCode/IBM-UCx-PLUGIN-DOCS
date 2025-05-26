@@ -8,7 +8,7 @@ The QTP plugin executes QTP tests and can set a status of fail on a deployment i
 Refer to the linked documentation for platform requirements.
 
 
-### Available Steps
+## Available Steps
 
 Refer to the documentation link on right for a complete set of steps.
 

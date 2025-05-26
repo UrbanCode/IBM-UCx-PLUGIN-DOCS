@@ -4,7 +4,7 @@
 * [Run Functional Test](#run_functional_test)
 
 
-### Run Functional Test
+## Run Functional Test
 
 Run test using Rational Functional Tester
 

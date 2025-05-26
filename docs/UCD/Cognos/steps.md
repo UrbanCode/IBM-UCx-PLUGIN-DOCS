@@ -5,7 +5,7 @@
 * [Import](#import)
 
 
-### Export
+## Export
 
 Export content from the content store to an archive file in the deployment directory within your Cognos home.
 
@@ -25,7 +25,7 @@ Export content from the content store to an archive file in the deployment direc
 | Password | Password | The password of the administrator user. (default: ``${p:resource/crnPassword}``) | Yes |
 | UserID | String | An administrator user ID that is capable of importing/exporting content. | Yes |
 
-### Import
+## Import
 
 Import content from an archive to the Cognos content store.
 

@@ -7,7 +7,7 @@
 * [Create Defect](#create_defect)
 
 
-### Add Comments
+## Add Comments
 
 Add comments to Rally defects, tasks, and stories.
 
@@ -29,7 +29,7 @@ Add comments to Rally defects, tasks, and stories.
 | User Name | String | The user name for the Rally server. | No |
 | User Story IDs | String | A list of user story IDs, separated by commas, to add a comment to. | No |
 
-### Change Rally Artifact Property
+## Change Rally Artifact Property
 
 Update a Rally artifact property.
 
@@ -51,7 +51,7 @@ Update a Rally artifact property.
 | Rally Workspace Name | String | The Rally workspace to use. | Yes |
 | User Name | String | The user name for the Rally server. | No |
 
-### Change Status
+## Change Status
 
 Update the status of a Rally defect
 
@@ -76,7 +76,7 @@ Update the status of a Rally defect
 | Rally Workspace Name | String | The Rally workspace to use. | Yes |
 | User Name | String | The user name for the Rally server. | No |
 
-### Create Defect
+## Create Defect
 
 Create a defect in Rally.
 

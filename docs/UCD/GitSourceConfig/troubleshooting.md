@@ -3,7 +3,7 @@
 
 For more questions and answers about plug-ins, see the [DevOps forum on IBM developerWorks](https://community.ibm.com/community/user/wasdevops/urbancode-discussion "DevOps forum").
 
-#### Import process fails when using GitHub Enterprise
+## Import process fails when using GitHub Enterprise
 
 When using the Git source configuration plug-in with GitHub Enterprise, the import process can lock up or fail with the following error message:
 

@@ -2,7 +2,7 @@
 # IBM WebSphere Portal - Usage
 
 
-#### Before you begin
+## Before you begin
 
 * The IBM DevOps Deploy agent must be installed on the system that hosts the Portal Node.
 * If WebSphere Portal Server is deployed in a directory other than the default directory, you must set a property on the agent before you can run the WebSphere Topology Discovery step.
@@ -10,7 +10,7 @@
 2. Add a property that is named `wsadmin.path`.
 3. Set `wsadmin.path` to the fully qualified path to the wsadmin script (including the script name).
 
-#### Procedure
+## Procedure
 
 1. Install the WebSphere Application ServerDeployment plug-in. Skip this step if the plug-in is already installed.
 2. Add an agent.

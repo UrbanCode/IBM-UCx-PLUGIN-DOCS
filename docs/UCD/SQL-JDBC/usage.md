@@ -4,25 +4,25 @@
 The SQL-JDBC plug-in is a database-independent plug-in. Use the **Execute SQL Scripts** or **Execute SQL Scripts with PassTicket Authenitcation** step to connect to a database and run SQL scripts by using a JDBC driver. You can specify that the SQL scripts run in a specific order or in any order.
 
 
-### **Step palette**
+## **Step palette**
 
 To access this plug-in in the palette, click **Database** > **SQL JDBC**.
 
-### **Use Passticket Authentication with DB2 for zOS**
+## **Use Passticket Authentication with DB2 for zOS**
 
 When used with DB2 for zOS, Execute SQL Script step supports two authentication methods, password and passticket.
 
-#### **Authenticating with a Password or Password Script**
+### **Authenticating with a Password or Password Script**
 
 To use Password, use the Execute SQL Scripts step. Fill in the User and either the Password or Password Script field.
 
-#### **Authenticating with a PassTicket**
+### **Authenticating with a PassTicket**
 
 To use Passticket, use the Execute SQL Scripts with PassTicket Authentication step. Fill in the fields: User, PassTicket Application ID, IRRRacf.jar File and IRRRacf Native Library Path.
 
 Passticket authentication eliminates the need to store password and send passwords across the network. Make the following system configurations to allow PassTickets:
 
-#### **RACF Setup for PassTicket Generation and Authentication**
+### **RACF Setup for PassTicket Generation and Authentication**
 
 1. Activate the RACF PTKTDATA class if its not already active. Sample RACF commands: ``SETROPTS GENERIC(PTKTDATA) SETROPTS CLASSACT(PTKTDATA) RACLIST(PTKTDATA)``
 2. Define a PTKTDATA profile for a DB2 system. PassTickets are generated and evaluated using a secret key. A PTKTDATA profile defines the secret key and the application ID that it applies to. The application ID for a DB2 system can be found in the LINKNAME column in the SYSIBM.LOCATIONS table. See the Sending RACF PassTickets topic in DB2 for zOS Knowledge Center to learn more. The key is a 64-bit number (16 hex characters). Replace the key16 placeholder with a user-supplied 16 character hex string (characters 0-9 and A-F) in the following sample RACF commands. Sample RACF commands for DB2 system DB2A: `RDEFINE PTKTDATA FEKAPPL UACC(NONE) SSIGNON(KEYMASKED(key16)) APPLDATA('NO REPLAY PROTECTIONDO NOT CHANGE') DATA('DevOps DEPLOY')`

@@ -6,7 +6,7 @@ A shell is software that provides an interface for users of an operating system 
 With the Shell plug-in, you can run custom shell scripts during the deployment process.
 
 
-### Available Steps
+## Available Steps
 
 ShellRun a shell or batch script.
 

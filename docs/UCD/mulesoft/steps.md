@@ -4,7 +4,7 @@
 * [Deploy to Cloudhub](#deploy_to_cloudhub)
 
 
-### Deploy to Cloudhub
+## Deploy to Cloudhub
 
 Use this step to deploy an application to a CloudHub.
 

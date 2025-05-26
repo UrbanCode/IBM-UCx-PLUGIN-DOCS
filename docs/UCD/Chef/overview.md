@@ -8,7 +8,7 @@ In the context of Chef automation, a *node* represents a computer system. A Chef
 
 To use this plug-in, first run the Install Chef step. Then, run the Install Chef Node step to configure the target system according to a Chef node file. You can run this step multiple times on the same target system to apply multiple Chef node files.
 
-### Compatibility
+## Compatibility
 
 Version 1 of this plug-in requires version 6.0.0 of IBM DevOps Deploy.
 
@@ -17,7 +17,7 @@ This plug-in is supported to run on all operating systems that are supported by 
 This plug-in is supported to run against Chef v11.6.0-1 or higher.
 
 
-### Installation
+## Installation
 
 No special steps are required for installation. See [Installing plug-ins in DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy").
 

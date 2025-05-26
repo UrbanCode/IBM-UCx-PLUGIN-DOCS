@@ -14,7 +14,7 @@
     - [Wait for instances](#wait-for-instances)
 
 
-### Associate IPs
+## Associate IPs
 
 Associate Elastic IP addresses with instances.
 
@@ -27,7 +27,7 @@ Associate Elastic IP addresses with instances.
 | Instance IDs | String | A list of IDs that corresponds to the elastic IP addresses to associate with instances. Separate each ID with a comma. | Yes |
 | Secret Key | String | The EC2 secret key. | Yes |
 
-### Create Security Group
+## Create Security Group
 
 Create a security group from a file.
 
@@ -49,7 +49,7 @@ Create a security group from a file.
 | Secret Key | String | The EC2 secret key value. | Yes |
 | VPC ID | String | The ID of the virtual private cloud (VPC) to use, if you are not using a file to add permissions. | No |
 
-### Deregister Instances with LoadBalancer
+## Deregister Instances with LoadBalancer
 
 This step deregisters instances with an Amazon load balancing feature.
 
@@ -61,7 +61,7 @@ This step deregisters instances with an Amazon load balancing feature.
 | Load Balancer Name | String | The name of the EC2 account load balancer to deregister the instances from. | Yes |
 | Secret Key | String | The EC2 secret key | Yes |
 
-### Get Public DNS
+## Get Public DNS
 
 Get the public Domain Name System (DNS) hostname for the specified instance IDs. Results are returned in a comma-separated list in the **dns** property.
 
@@ -72,7 +72,7 @@ Get the public Domain Name System (DNS) hostname for the specified instance IDs.
 | Instance IDs | String | A list of instance IDs for which the DNS hostname is to be retrieved. Separate each instance ID with a comma. The returned DNS hostnames are in the same order that the IDs are specified. | Yes |
 | Secret Key | String | The EC2 secret key value. | Yes |
 
-### Launch Instances
+## Launch Instances
 
 Launch instances of the given Amazon Machine Image (AMI).
 
@@ -89,7 +89,7 @@ Launch instances of the given Amazon Machine Image (AMI).
 | Security Group | String | A list of security group names to use. Separate each group name with a comma. | No |
 | User data | String | The user data to pass to the instance. | No |
 
-### Register Instances with LoadBalancer
+## Register Instances with LoadBalancer
 
 Register an instance with an Amazon Load Balancer.
 
@@ -101,7 +101,7 @@ Register an instance with an Amazon Load Balancer.
 | Load Balancer Name | String | The load balancer name that is associated with the EC2 account to register the instances with. | Yes |
 | Secret Key | String | The EC2 secret key | Yes |
 
-### Terminate Instances
+## Terminate Instances
 
 Terminate instances with the given instance IDs.
 
@@ -112,7 +112,7 @@ Terminate instances with the given instance IDs.
 | Instance IDs | String | A list of instance IDs to be terminated. Separate each instance ID with a comma. | Yes |
 | Secret Key | String | The EC2 secret key. | Yes |
 
-### Wait for instances
+## Wait for instances
 
 Wait for instances to be in a certain state.
 

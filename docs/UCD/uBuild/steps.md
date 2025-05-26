@@ -7,7 +7,7 @@
 * [Run Secondary Process](#run_secondary_process)
 
 
-### Assign Label
+## Assign Label
 
 Use this step to assign a label to a build life in uBuild.
 
@@ -18,7 +18,7 @@ Use this step to assign a label to a build life in uBuild.
 | Label Dependency | Enumeration | The label dependency applied to the label. Specify either None, Direct, or All. | Yes |
 | Label Name | String | The name of the label to be applied. | Yes |
 
-### Assign Status
+## Assign Status
 
 Use this step to assign a status to a build life in uBuild.
 
@@ -29,7 +29,7 @@ Use this step to assign a status to a build life in uBuild.
 | External Message | String | The external message for the status. | Yes |
 | Status Name | String | The name of the status to be applied. | Yes |
 
-### Download Artifacts
+## Download Artifacts
 
 Use this step to download artifact set files from uBuild.
 
@@ -41,7 +41,7 @@ Use this step to download artifact set files from uBuild.
 | Build Life with Stamp | String | The stamp pattern to use for selecting a build life to download. | No |
 | Permissions | Enumeration | Select how you would like the Codestation to handle setting file permissions on download: NoneDo not copy any permissions Set AllSet all permissions from the original file Set Execute Bits OnlySet only the execute bits from the original file. | Yes |
 
-### Run Secondary Process
+## Run Secondary Process
 
 Use this step to run a secondary process in uBuild.
 

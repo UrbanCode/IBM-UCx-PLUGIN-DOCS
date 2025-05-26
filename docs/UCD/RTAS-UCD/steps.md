@@ -6,7 +6,7 @@ Process steps in the IBM Rational Test Automation Server plug-in:
 * [Start a job on IBM Rational Test Automation Server](#start_job)
 
 
-### Start a job on IBM Rational Test Automation Server
+## Start a job on IBM Rational Test Automation Server
 
 Use this step to start a job on the Rational Test Automation Server.
 
@@ -36,4 +36,3 @@ Use this step to start a job on the Rational Test Automation Server.
 |Back to ...||Latest Version|IBM Rational Test Automation Server (RTAS) ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 |[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[3.3](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/RTAS-UCD/RTAS-UCD-3.3.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|
-

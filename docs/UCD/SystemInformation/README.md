@@ -4,7 +4,7 @@
 The System Information plugin includes a variety of checks to perform against the operating system. These steps can be used to verify that a deployment can succeed or has succeeded.
 
 
-### Available Steps
+## Available Steps
 
 Check Available Disk SpaceEnsure that there is enough available disk space.
 

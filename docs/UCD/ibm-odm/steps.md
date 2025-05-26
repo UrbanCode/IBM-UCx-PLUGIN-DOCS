@@ -1,5 +1,5 @@
 
-#  IBM Operational Decision Manager (ODM) - Process Steps
+# IBM Operational Decision Manager (ODM) - Process Steps
 
 
 * [Delete XOM](#delete_data_model)
@@ -11,7 +11,7 @@
 * [Set Property](#set_property)
 
 
-### Delete XOM
+## Delete XOM
 
 Delete a XOM from a Rule Execution Server.
 
@@ -32,7 +32,7 @@ Delete a XOM from a Rule Execution Server.
 | Client ID | String | The Client ID for the oAuth server. | No |
 | Client Secret | String | The Cleint secret for the oAuth server. | No |
 
-### Delete Rule Archive
+## Delete Rule Archive
 
 Delete a ruleset or ruleapp archive from a Rule Execution Server.
 
@@ -53,7 +53,7 @@ Delete a ruleset or ruleapp archive from a Rule Execution Server.
 | Client ID | String | The Client ID for the oAuth server. | No |
 | Client Secret | String | The Cleint secret for the oAuth server. | No |
 
-### Deploy Data Model
+## Deploy Data Model
 
 Deploy an XOM resource to a Rule Execution Server instance of IBM Operational Decision Manager.
 
@@ -75,7 +75,7 @@ Deploy an XOM resource to a Rule Execution Server instance of IBM Operational De
 | Client ID | String | The Client ID for the oAuth server. | No |
 | Client Secret | String | The Cleint secret for the oAuth server. | No |
 
-### Deploy Rule Archive
+## Deploy Rule Archive
 
 Deploy a RuleSet or RuleApp archive to IBM Operational Decision Manager.
 
@@ -111,7 +111,7 @@ Deploy a RuleSet or RuleApp archive to IBM Operational Decision Manager.
 | Client ID | String | The Client ID for the oAuth server. | No |
 | Client Secret | String | The Cleint secret for the oAuth server. | No |
 
-### Fetch Rule Archive
+## Fetch Rule Archive
 
 Fetch a ruleset or ruleapp archive from a Rule Execution Server.
 
@@ -131,7 +131,7 @@ Fetch a ruleset or ruleapp archive from a Rule Execution Server.
 | Client ID | String | The Client ID for the oAuth server. | No |
 | Client Secret | String | The Cleint secret for the oAuth server. | No |
 
-### Fetch XOM
+## Fetch XOM
 
 Fetch a XOM resource from a Rule Execution Server.
 
@@ -151,7 +151,7 @@ Fetch a XOM resource from a Rule Execution Server.
 | Client ID | String | The Client ID for the oAuth server. | No |
 | Client Secret | String | The Cleint secret for the oAuth server. | No |
 
-### Set Property
+## Set Property
 
 Create or update a property value for a RuleApp or RuleSet on a Rule Execution Server instance of IBM Operational Decision Manager.
 

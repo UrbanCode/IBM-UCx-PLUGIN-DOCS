@@ -4,14 +4,14 @@
 * [Import Version](#import_version)
 
 
-### Import Version
+## Import Version
 
 Creates a new component version and imports artifacts from Nexus.
 
 This step has no input properties.
 
 
-### Roles in the Nexus Repository Manager V3 plug-in
+## Roles in the Nexus Repository Manager V3 plug-in
 
 The plug-in adds these roles automatically to resources. You cannot add these roles manually.
 
@@ -20,7 +20,7 @@ The plug-in adds these roles automatically to resources. You cannot add these ro
 * [ImportProperties](#importproperties_role)
 
 
-### ComponentProperties
+## ComponentProperties
 
 
 | Name | Type | Description |
@@ -38,7 +38,7 @@ The plug-in adds these roles automatically to resources. You cannot add these ro
 | Server URL | String | Base URL and port for the Nexus server(I.E. http://localhost:8081). |
 | User | String | The user name for the Nexus user. |
 
-### ImportProperties
+## ImportProperties
 
 
 | Name | Type | Description |

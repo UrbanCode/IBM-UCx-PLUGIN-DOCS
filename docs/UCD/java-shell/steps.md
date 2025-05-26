@@ -3,12 +3,12 @@
 
 > **Deprecation Notice**: The z/OS Shell plugin is deprecated. It is recommended to use the [Shell plugin](../Shell/README.md) instead.
 
-### Process steps in the Java Shell plug-in
+## Process steps in the Java Shell plug-in
 
 * [Shell](#shell)
 
 
-### Shell
+## Shell
 
 
 This step runs a shell or batch script.

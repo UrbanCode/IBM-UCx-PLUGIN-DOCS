@@ -4,14 +4,14 @@
 * [Import Version](#import_version)
 
 
-### Import Version
+## Import Version
 
 Creates a new component version and imports artifacts
 
 This step has no input properties.
 
 
-### Roles in the Maven plug-in
+## Roles in the Maven plug-in
 
 The plug-in adds these roles automatically to resources. You cannot add these roles manually.
 
@@ -20,7 +20,7 @@ The plug-in adds these roles automatically to resources. You cannot add these ro
 * [MavenImportProperties](#mavenimportproperties_role)
 
 
-### MavenComponentProperties
+## MavenComponentProperties
 
 
 | Name | Type | Description |
@@ -41,7 +41,7 @@ The plug-in adds these roles automatically to resources. You cannot add these ro
 | User | String | The user name for the Maven-credentialed user. |
 | Version Name Pattern | String | The range of build versions to import. Versions are defined by regular expressions. For example, to import all 1.1.\*, and 1.2.\* versions, you might type (1.[0-9]+).\*. A number of versions that is equal to the value in the Latest Build Count field is imported for each matching version. This property is only necessary when tracking older branches. |
 
-### MavenImportProperties
+## MavenImportProperties
 
 
 | Name | Type | Description |

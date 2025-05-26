@@ -14,7 +14,7 @@ Each step is self-contained. That is, connection credentials that are required t
 * This plug-in requires IBM DevOps Deploy version 6.0.1 or later.
 
 
-### Available Steps
+## Available Steps
 
 Refer to the [documentation](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/plugin-air-WLS-Resource-Management/steps.html "Installing plug-ins in DevOps Deploy") for a list of available steps.
 

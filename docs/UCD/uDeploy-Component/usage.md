@@ -1,7 +1,7 @@
 
 # IBM DevOps Deploy Components - Usage
 
-### Create Multiple Components
+## Create Multiple Components
 
 The Create Multiple Components step provides the ability to create multiple components using one JSON file or JSON text body. The format of this JSON body follows the IBM DevOps Deploy component/create REST endpoint. The documentation for this endpoint can be found in the knowledge center: [IBM DevOps Deploy component/create REST endpoint](https://www.ibm.com/support/knowledgecenter/SS4GSP_6.2.7/com.ibm.udeploy.api.doc/topics/rest_cli_component_create_put.html)
 

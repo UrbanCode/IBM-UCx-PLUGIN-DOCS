@@ -10,7 +10,7 @@ Apache Ant is a command line tool that is used to automate the build and deploym
 * This plug-in is supported to run against Apache Ant v1.6.5 or higher
 
 
-### Available Steps
+## Available Steps
 
 Ant – Execute an Ant script.
 

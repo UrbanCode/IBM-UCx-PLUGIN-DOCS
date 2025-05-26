@@ -6,7 +6,7 @@ SQL\*Plus (commonly known as sqlplus) is an Oracle database client that can run 
 The SQL\*Plus plugin allows uDeploy to execute SQL scripts during a deployment.
 
 
-### Available Steps
+## Available Steps
 
 Run SQLPlus script: Run SQLPlus script
 

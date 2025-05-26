@@ -13,7 +13,7 @@ Each of these types of users must have different types of permissions:
 * Permissions to perform actions in WebSphere Application Server, according to the user roles described in: [Administrative Roles](https://www.ibm.com/support/knowledgecenter/en/SSAW57_9.0.0/com.ibm.websphere.nd.multiplatform.doc/ae/rsec_adminroles.html)
 * Permissions to read, create, execute objects inside DevOps Deploy
 
-#### Discovery of the WebSphere Cell
+## Discovery of the WebSphere Cell
 
 This task is executed when you add the Agent to a Resource or when you execute the step: **Deployment** > **WebSphere Discovery**
 
@@ -21,7 +21,7 @@ This task is executed when you add the Agent to a Resource or when you execute t
 * This task does not execute wsadmin, and the WebSphere Application Server does not need to be running.
 * The DevOps Deploy user that executes this step needs permissions to create Resources in the Resource Tree in DevOps Deploy.
 
-#### Topology Discovery
+## Topology Discovery
 
 This task is executed when you select the menu: **Actions** > **Configure with WebSphere Topology Discovery** or when you execute the step: **Deployment** > **WebSphere Topology Discovery**
 
@@ -29,7 +29,7 @@ This task is executed when you select the menu: **Actions** > **Configure with W
 * This task executes wsadmin, and it needs the WebSphere Application Server to be running. The user passed to the wsadmin command needs permissions to list the properties of the cell, nodes, clusters, cluster members and servers. This requires executing the **AdminControl** and **AdminConfig** wsadmin objects.
 * The DevOps Deploy user that executes this step needs permissions to create Resources in the Resource Tree in DevOps Deploy.
 
-#### Other steps
+## Other steps
 
 * All other steps require the permission to access the files in the WebSphere Application Server profile:  `[read, execute] bin/wsadmin.sh or bin\wsadmin.bat`
 * All other steps require the WebSphere Application Server to be running.Depending on the specific step, the user that is passed to wsadmin needs to have specific rights in the WebSphere Application Server security model.
@@ -42,4 +42,3 @@ The step **Deployment** > **Execute wsadmin script** can execute an arbitrary sc
 |Back to ...||Latest Version|WebSphere Application Server - Deployment |||||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 |[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[131.1165947](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/ucd-WebSphere-131.1165947.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|[Roles](roles.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|
-

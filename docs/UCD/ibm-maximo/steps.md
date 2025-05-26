@@ -4,7 +4,7 @@
 - Deploy Package
 - Upload Package
 
-### Deploy Package
+## Deploy Package
 
 - Deploy package to maximo migration manager target environment
   
@@ -18,7 +18,7 @@ Input properties for the Deploy Package step:
 | Port | String | The port of Maximo instance.  | No |
 | User Name | String | The user name for login to Maximo instance. | Yes |
 
-### Upload Package
+## Upload Package
 
 - Uploads package to maximo migration manager
 

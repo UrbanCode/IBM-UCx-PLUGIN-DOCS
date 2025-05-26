@@ -6,7 +6,7 @@
 * [Example: Check the status of a child change task of a change request](#example-check-the-status-of-a-change-request)
 * [Configuring Service Now to Trigger Deployments in UCD](#configuring-service-now-to-trigger-deployments-in-ucd)
 
-### Configuring Service Now to Trigger Deployments in UCD
+## Configuring Service Now to Trigger Deployments in UCD
 
 
 
@@ -39,7 +39,7 @@ Business Rule for Deployment to UCD
 6. Now our settings are complete.We can go into a Change Request item, change its approval status to Approved using the proper roles, and we can see that our REST call was made and our Deployment started in DevOps Deploy.
 
 
-### Example: Check the status of a Change Request
+## Example: Check the status of a Change Request
 
 
 
@@ -67,7 +67,7 @@ The final process design should look like this: [![](media/screen-shot-2017-03-1
 **Note:** The status value in the last step is an integer key that corresponds to the state value-key pair that is used by ServiceNow. By default, -5 is Pending, 1 is Open, 2 is Work in Progress, 3 is Closed Complete, 4 is Closed Incomplete, and 7 is Closed Skipped. To find your specific key-value pairs, open a task in ServiceNow. Click **Additional actions** next to the task title, then click **Configure > Form Design**. Click **edit this field**, which is displayed when you select the state field.
 
 
-### Component and Agent Configuration
+## Component and Agent Configuration
 
 
 

@@ -15,7 +15,7 @@ We are currently looking into the prospect of open sourcing this particular plug
 * This plug-in is supported for use with WebLogic Server version 10.3 or later.
 
 
-### Available Steps
+## Available Steps
 
 **Deploy:**Deploy an application to the Weblogic server.
 

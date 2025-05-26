@@ -4,19 +4,19 @@
 
 
 
-### Process steps in the File System (Versioned) plug-in
+## Process steps in the File System (Versioned) plug-in
 
 * [Import Version](#import_version)
 
 
-### Import Version
+## Import Version
 
 Description
 
 This step has no input properties.
 
 
-### Roles in the File System (Versioned) plug-in
+## Roles in the File System (Versioned) plug-in
 
 The plug-in adds these roles automatically to resources. You cannot add these roles manually.
 
@@ -24,7 +24,7 @@ The plug-in adds these roles automatically to resources. You cannot add these ro
 * [FileSystemVersionedComponentProperties](#filesystemversionedcomponentproperties_role)
 
 
-### FileSystemVersionedComponentProperties
+## FileSystemVersionedComponentProperties
 
 
 | Name | Type | Description |

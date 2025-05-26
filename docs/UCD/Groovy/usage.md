@@ -8,12 +8,12 @@ You can use the Groovy plug-in to run Groovy scripts as IBM DevOps Deploy proces
 * [Examples](#examples)
 
 
-### **Step palette**
+## **Step palette**
 
 To access this plug-in in the palette, click **Scripting**.
 
 
-### **Examples**
+## **Examples**
 
 You can use this plug-in to create a simple or complex step. For example, the following script obtains the date and time, formats that data, and passes it into an output variable that is named **date**. The output variable can be use in a later process step.
 

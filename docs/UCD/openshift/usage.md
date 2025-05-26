@@ -11,19 +11,19 @@ The source can be a local or remote git repository, source code path, image, tem
 
 ![](media/openshif_outputlog.jpg)
 
-### Using the Set Triggers step
+## Using the Set Triggers step
 
 Use the Set Triggers step to set or remove triggers for build configurations, deployment configurations, and other workload objects. The triggers can create a new build or deployment when an image changes. The image below shows the step properties. The RESOURCE/NAME property is used to specify which resource are needed to set triggers and the Step Flags property to specify options like manual, auto or remove triggers.
 
 ![](media/openshift_set_trigger_properties.jpg)
 
-### Using the Set Image step
+## Using the Set Image step
 
 The Set Image step updates the existing container images of resources. The following image shows the configuration to update the deployment configuration image **alpine** which exists in Openshift.
 
 ![](media/openshif_set_image_properties.jpg)
 
-### Set Env step
+## Set Env step
 
 The Set Env step updates environment variables on a pod template or a build configuration. The following image shows the step configuration to update environment variables for the Openshift **cakephp-ex** deployment configuration.
 

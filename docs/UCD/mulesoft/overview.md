@@ -7,21 +7,21 @@ This plug-in contains one step:
 
 * Deploy to Cloudhub
 
-### Step palette
+## Step palette
 
 To access this plug-in in the palette, click **Deployment** > **Mulesoft**.
 
-### Installation
+## Installation
 
 No special steps are required for installation. See [Installing plug-ins in DevOps products](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps products").
 
-### History
+## History
 
-#### Version 2
+### Version 2
 
 * Fixed issues with methods setOutputProperties and getStepProperties of AirPluginTool.
 
-#### Version 1
+### Version 1
 
 * Initial release
 

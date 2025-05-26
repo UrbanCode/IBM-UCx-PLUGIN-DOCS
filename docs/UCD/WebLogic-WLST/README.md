@@ -10,7 +10,7 @@ The WebLogic Scripting Tool (WLST) plug-in provides steps to automate the follow
 **Requirements** The plug-in is supported for use with Oracle WebLogic Server versions 11g and later.
 
 
-### Available steps
+## Available steps
 
 Check Server Status – Start a deployed application.
 

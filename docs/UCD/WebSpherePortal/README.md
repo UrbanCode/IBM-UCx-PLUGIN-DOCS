@@ -6,7 +6,7 @@ WebSphere Portal is a framework that includes a runtime server, services, tools,
 The WebSphere Portal plug-in deploys WebSphere Portal artifacts such as themes, skins, portlets, and Portal Application Archive files.
 
 
-### Available Steps
+## Available Steps
 
 Deploy Portal WARDeploys a WAR on a WebSphere Portal Server
 

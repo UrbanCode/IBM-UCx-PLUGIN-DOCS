@@ -1,7 +1,7 @@
 
 # Perforce Helix - Settings
 
-### Create Component
+## Create Component
 
 The following settings are available when you create a component by using the Perforce Helix plug-in.
 

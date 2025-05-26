@@ -12,7 +12,7 @@
 * [Upload Application to Application Center](#upload_application_to_application_center)
 
 
-### Change Application Configuration
+## Change Application Configuration
 
 
 Changes an applications configuration on IBM MobileFirst. Note: This step is for server 6.2 or later.
@@ -31,7 +31,7 @@ Changes an applications configuration on IBM MobileFirst. Note: This step is for
 | Version | String | The name of the version. | Yes |
 | Worklight Ant JAR File Path | String | The path to the Worklight Ant Deployer JAR (worklight-ant-deployer.jar) file. The Worklight 6.0.0 Server can use the value: ``${PLUGIN\_HOME}``/lib/worklight-ant.jar. Required for server versions less than 8.0. | No |
 
-### Delete Adapter
+## Delete Adapter
 
 
 Deletes the adapter from the IBM MobileFirst server. Note: This step is for Worklight and IBM MobileFirst servers 6.2 and later.
@@ -47,7 +47,7 @@ Deletes the adapter from the IBM MobileFirst server. Note: This step is for Work
 | User | String | The user name that is required to access a secure IBM MobileFirst server. Note: This property is required for Worklight 6.2 and later. | No |
 | Worklight Ant JAR File Path | String | The path to the Worklight Ant Deployer JAR (worklight-ant-deployer.jar) file. The Worklight 6.0.0 Server can use the value: ``${PLUGIN\_HOME}``/lib/worklight-ant.jar. Required for server versions less than 8.0. | No |
 
-### Delete Application
+## Delete Application
 
 
 Delete an application from IBM MobileFirst. Note: This step is for Worklight Server 6.2 or later.
@@ -65,7 +65,7 @@ Delete an application from IBM MobileFirst. Note: This step is for Worklight Ser
 | Version | String | The applications version number. Only required if using IBM MobileFirst v8+. | No |
 | Worklight Ant JAR File Path | String | The path to the Worklight Ant Deployer JAR (worklight-ant-deployer.jar) file. The Worklight 6.0.0 Server can use the value: ``${PLUGIN\_HOME}``/lib/worklight-ant.jar. Required for IBM MobileFirst versions less than 8.0. | No |
 
-### Deploy Adapter
+## Deploy Adapter
 
 Deploys the adapter to IBM MobileFirst.
 
@@ -80,7 +80,7 @@ Deploys the adapter to IBM MobileFirst.
 | User | String | The user name that is required to access a secure IBM MobileFirst server. Note: This property is required for Worklight 6.2 and later. | No |
 | Worklight Ant JAR File Path | String | The path to the Worklight Ant Deployer JAR (worklight-ant-deployer.jar) file. The Worklight 6.0.0 Server can use the value: ``${PLUGIN\_HOME}``/lib/worklight-ant.jar. Required for server versions less than 8.0. | No |
 
-### Deploy Application
+## Deploy Application
 
 Deploys an application to IBM MobileFirst.
 
@@ -95,7 +95,7 @@ Deploys an application to IBM MobileFirst.
 | User | String | The user name that is required to access a secure IBM MobileFirst server. Note: This property is required for Worklight 6.2 and later. | No |
 | Worklight Ant JAR File Path | String | The path to the Worklight Ant Deployer JAR (worklight-ant-deployer.jar) file. The Worklight 6.0.0 Server can use the value: ``${PLUGIN\_HOME}``/lib/worklight-ant.jar. Required for IBM MobileFirst versions less than 8.0. | No |
 
-### Deploy Web Resource
+## Deploy Web Resource
 
 
 Deploys a web resource compressed file (.zip) for a specific application version. Note: This step is for MobileFirst 8.0 or later.
@@ -112,7 +112,7 @@ Deploys a web resource compressed file (.zip) for a specific application version
 | Version | String | The MobileFirst applications version number in which to deploy the web resource archive. | Yes |
 | Web Resource File | String | The name of the web resource (.zip) file to deploy to the IBM MobileFirst Server. | Yes |
 
-### Remove Application from Application Center
+## Remove Application from Application Center
 
 Removes the native application from the IBM MobileFirst Application Center.
 
@@ -134,7 +134,7 @@ Removes the native application from the IBM MobileFirst Application Center.
 | User | String | The user name that is required to access the Application Center. | Yes |
 | Version | String | The internal version (not the commercial version) of the application to remove from the Application Center. | No |
 
-### Upload Application to Application Center
+## Upload Application to Application Center
 
 Uploads the application to the IBM MobileFirst Application Center.
 

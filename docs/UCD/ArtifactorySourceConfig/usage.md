@@ -14,7 +14,7 @@ To create a component by importing from Artifactory, complete the following step
 5. Click the **Versions** tab for the component.
 6. Click **Import New Versions**.
 
-### Step palette
+## Step palette
 
 To access this plugin in the palette, click **Source and Repositories** > **Artifactory**.
 

@@ -7,7 +7,7 @@ The HP LoadRunner plugin provides steps to integrate with HP LoadRunner. Using t
 * If there are no search results, submit your issue as a question to our [answers page](https://community.ibm.com/community/user/wasdevops/urbancode-discussion). Use the following tags: DevOps | deploy | plugins | loadrunner.
 
 
-### Available Steps
+## Available Steps
 
 Run Test Scenario Invoke the HP LoadRunner controller using the WLRun command-line utility and analyze the results with the AnalysisUI command-line utility. This step will execute a test scenario, save the results, and generate an HTML report.
 

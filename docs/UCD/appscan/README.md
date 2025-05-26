@@ -4,7 +4,7 @@
 IBM AppScan Enterprise enables organizations to mitigate application security risk and achieve regulatory compliance. This plug-in includes steps to run AppScan Enterprise scans and retrieve scan results in IBM DevOps Deploy processes.
 
 
-### Available Steps
+## Available Steps
 
 
 **Configure Job Options**: Configure scan job options. **Create Scan**: Create an AppScan security scan. **Delete Folder Item**: Delete a folder item, such as a Scan or Report, from the AppScan Scans view. **List Templates**: Retrieve and print a list of available job templates. **Retrieve PDF Report**: Retrieve report from AppScan Enterprise. Reports are saved as a PDF file named [reportFIID]-[date]-[time].txt **Retrieve Reports**: Retrieve reports from AppScan Enterprise. **Run Scan**: Run an AppScan security scan. **Wait for Scan or Report Pack**: Wait for an AppScan Scan or Report Pack to complete.

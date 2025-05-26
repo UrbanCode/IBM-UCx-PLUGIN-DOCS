@@ -8,24 +8,24 @@ For information on usage, including a sample of how to install IBM Integration B
 This plugin supports only version 10 of IBM Integration Bus (IIB).
 
 
-### Step palette
+## Step palette
 
 To access this plug-in in the palette, click **Middleware > Enterprise Service Bus > zOS WebSphere Message Broker**.
 
-### plug-in steps
+## plug-in steps
 
 **zOS Deploy**
 
-### Compatibility
+## Compatibility
 
 * This plug-in can be used only with IBM Integration Bus versions 10
 * This plug-in requires version 7.0.0 or later of IBM DevOps Deploy.
 * The IBM DevOps Deploy agent must run on an IBM Java Runtime Environment (JRE) or Java Development Kit (JDK). Other JREs and JDKs are not supported. This is a requirement of the IBM Integration API.
 * This plug-in runs on only z/OS operating system and DevOps Deploy agent running on a z/OS.
 
-### History
+## History
 
-#### Version 1.0
+### Version 1.0
 
 * Release Notes: (Released December 8, 2021) Initial Release
 * Removed Jettison Library with vulnerability

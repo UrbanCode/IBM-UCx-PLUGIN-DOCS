@@ -5,7 +5,7 @@
 * [Importing from Classic Rule Project](#import_classic_ruleapp)
 * [Importing from Decision Services](#import_decision_service)
 
-### Create a Component importing from an Operational Decision Manager Classic Rule Project
+## Create a Component importing from an Operational Decision Manager Classic Rule Project
 
 The following settings are available when you create a component by using the IBM ODM Source Config plug-in for importing from Classic Rule App Projects (Version 3 and before).
 
@@ -23,7 +23,7 @@ The following settings are available when you create a component by using the IB
 | Username | String | Decision Center username. |
 | Version Name Pattern | String | Specify a pattern for each version name.For example, the ibm-ucd pattern produces versions such as ibm-ucd-1, ibm-ucd-2, and so on, based on the Next Version Number. |
 
-### Import New Version
+## Import New Version
 
 The following settings are available when you import component versions.
 
@@ -32,7 +32,7 @@ The following settings are available when you import component versions.
 | --- | --- | --- |
 | ODM Snapshot | String | Name of an existing ODM snapshot to pull archive from. This will create a version with this name, overriding the next version numbering scheme. |
 
-### Create a Component importing from IBM Decision Services
+## Create a Component importing from IBM Decision Services
 
 The following settings are available when you create a component by using the IBM ODM Source Config plug-in for importing from Decision Services (Version 4 and later)
 
@@ -54,7 +54,7 @@ The following settings are available when you create a component by using the IB
 | Username | String | Decision Center username. |
 | Version Name Pattern | String | Specify a pattern for each version name.For example, the ibm-ucd pattern produces versions such as ibm-ucd-1, ibm-ucd-2, and so on, based on the Next Version Number. |
 
-### Import New Version
+## Import New Version
 
 The following settings are available when you import component versions.
 

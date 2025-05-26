@@ -3,7 +3,7 @@
 * [GitLab Generic Packages Component Properties](#comp-prop)
 
 
-### GitLab Generic Packages Component Properties
+## GitLab Generic Packages Component Properties
 
 Create versions and import packaged files from GitLab.
 

@@ -4,7 +4,7 @@
 * [Run QuickTest Pro tests](#run_quicktest_pro_tests)
 
 
-### Run QuickTest Pro tests
+## Run QuickTest Pro tests
 
 Run QuickTest Pro tests
 

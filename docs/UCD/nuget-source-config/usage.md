@@ -7,7 +7,7 @@
 * [Change the artifact version name when importing](#change-the-artifact-version-name-when-importing)
 
 
-### Create a component
+## Create a component
 
 
 
@@ -27,7 +27,7 @@ To create a component by importing from a NuGet repository, complete the followi
 * For v3: `https://*[server\_ip or domain\_name]*/artifactory/api/nuget/v3/nuget-hosted`
 7. Click **Save**.
 
-### Import a version
+## Import a version
 
 When the artifacts are imported, a component version is created using the version of the package. You can specify to import a specific package version or import all versions. If importing all versions, a component version is created for each version.
 
@@ -37,7 +37,7 @@ When the artifacts are imported, a component version is created using the versio
 4. Click **Save**.
 
 
-### Change the artifact version name when importing
+## Change the artifact version name when importing
 
 
 
@@ -52,7 +52,7 @@ In the **Import New Version** window, specify the version name in the NuGet repo
 In the preceding example, instead of the version number 1.0.1, the artifacts are renamed to onePointZeroOne.
 
 
-### Nexus Repository Manager support
+## Nexus Repository Manager support
 
 
 
@@ -60,7 +60,7 @@ Starting with the NuGet source configuration plug-in version 3, DevOps Deploy pr
 
 The NuGet plug-in uses the NuGet REST API v2. For information about the API, see [NuGet API](https://docs.microsoft.com/en-us/nuget/api/overview). Specifying the correct NuGet URL is necessary for utilizing the REST API calls. For Nexus configuration, you will need to specify the full repository URL. Specifying the Nexus servers host name is insufficient because it is a repository manager and supports multiple repository types. However, if referencing a standalone NuGet server, then the host name is expected.
 
-### Sample Configuration
+## Sample Configuration
 
 The following sample configuration demonstrates how to configure a Nexus server import process.
 
@@ -81,7 +81,7 @@ Specifications for the Nexus Repository Manager varies based on the version. To 
 
 After configuring the Nexus Repository Manager, you can use the information to verify that the GetNu repository is accessible, see [Confirm NuGet URL](#id=confirm).
 
-### Nexus Repository Manager v2
+## Nexus Repository Manager v2
 
 For a Nexus v2 repository, the value specified for the **NuGet URL** property in the component is considered the package source of a repository. Place this value, in the **Package Source** field of the Nexus Repository Manage OSS panel. Specify in the format: `http://SERVER:PORT/nexus/service/local/nuget/REPOSITORY_NAME/`.
 
@@ -89,13 +89,13 @@ Identify the URL by navigating to the NuGet repository with the package to impor
 
 [![](media/2.png)](media/2.png)
 
-### Nexus Repository Manager v3
+## Nexus Repository Manager v3
 
 In Nexus v3, the user interface changed significantly and the repository URL was simplified. The URL is now in the format: `http://SERVER:PORT/repository/REPOSITORY_NAME/`. However, this link is slightly harder to identify and confirm. Identify your URL by navigating to a package version in a browser. Hover over its path to see the full download link for this package at the bottom of the screen. Transpose the URL, up to the repository name, into the **NuGet URL** property configuration field.
 
 [![](media/3.png)](media/3.png)
 
-### Confirm NuGet URL
+## Confirm NuGet URL
 
 The NuGet repository URL must be accessible through the version 2 of the NuGet REST API. This can be verified by placing the Nexus URL, identified above, in a browser. The response will look similar to the screenshot below. If the request requires authentication, then credentials should also be specified in the plug-ins source configuration. This quick test can be confirmed outside of IBM DevOps Deploy.
 

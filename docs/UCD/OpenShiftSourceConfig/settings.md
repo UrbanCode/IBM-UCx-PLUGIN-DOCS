@@ -1,7 +1,7 @@
 
 # OpenShift - Settings
 
-### Import Version
+## Import Version
 
 
 | Name | Type | Description |

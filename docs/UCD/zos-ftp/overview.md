@@ -8,27 +8,27 @@ This plug-in includes one step:
 * FTP Artifacts
 
 
-### Step palette
+## Step palette
 
 To access this plug-in in the palette, click **Utilities** > **zOS FTP**.
 
-### Compatibility
+## Compatibility
 
 This plug-in requires IBM DevOps Deploy version 6.0.1 or later.
 
 The steps in this plug-in run on any agents that the IBM DevOps Deploy server supports.
 
-### Installation
+## Installation
 
 No special steps are required for installation. See [Installing plug-ins in DevOps products](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins).
 
-### History
+## History
 
-### Version 2
+## Version 2
 
 * Removed input to pass IRRRacf library path
 
-### Version 1
+## Version 1
 
 * Initial release
 

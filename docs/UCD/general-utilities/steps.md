@@ -4,7 +4,7 @@
 * [Wait](#wait)
 
 
-### Wait
+## Wait
 
 Use this step to tell the process to wait for the specified number of seconds before the process resumes.
 

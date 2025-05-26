@@ -9,7 +9,7 @@ The Git source config plug-in enables you to manually or automatically import ar
 * This plug-in is supported to run against all versions of the Git client.
 
 
-### Available Steps
+## Available Steps
 
 
 Import Version: Import a new version from a Git repository.

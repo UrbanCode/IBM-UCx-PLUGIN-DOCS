@@ -1,7 +1,7 @@
 
 # IBM InfoSphere DataStage - Process Steps
 
-### Process steps in the DataStage plug-in
+## Process steps in the DataStage plug-in
 
 * [Compile Job or Routine](#compile_job_or_routine)
 * [DSX Import Service](#dsx_import_service)
@@ -13,7 +13,7 @@
 * [List DSX File Contents](#list_dsx_file_contents)
 
 
-### Compile Job or Routine
+## Compile Job or Routine
 
 Compile a DataStage job or routine silently. Note: All environmental dependencies must be set before this step runs, otherwise dialog boxes are displayed on the agent server and the process stops. The step continues normally after the dialog boxes are confirmed.
 
@@ -37,7 +37,7 @@ Compile a DataStage job or routine silently. Note: All environmental dependencie
 | Rule Set | String | Specify rule set(s) to provision. Use \* to provision all rule sets. | No |
 | Username | String | The user name to use to attach to the project. | Yes |
 
-### DSX Import Service
+## DSX Import Service
 
 Import objects from a .dsx file to a repository. This step works only on tiers where the ASBNode node agent is installed. You can specify multiple projects and files in the step.
 
@@ -60,7 +60,7 @@ Import objects from a .dsx file to a repository. This step works only on tiers w
 | Username | String | The user name to use to connect to the domain. | No |
 | Verbose | Boolean | Select to generate a full report of the objects imported. By default, only import errors are reported. | No |
 
-### Delete Assets
+## Delete Assets
 
 Delete InfoSphere DataStage or QualityStage assets.
 
@@ -85,7 +85,7 @@ Delete InfoSphere DataStage or QualityStage assets.
 | Username | String | The name of a user on the domain. | No |
 | istool Path | String | Full path to the InformationServer/istools/cli folder where the istool script is located. | Yes |
 
-### Export DSX Project
+## Export DSX Project
 
 Export InfoSphere DataStage project level components to a .dsx file.
 
@@ -100,7 +100,7 @@ Export InfoSphere DataStage project level components to a .dsx file.
 | Username | String | The user name to use to connect to the application server. | No |
 | Verbose | Boolean | Select to switch the verbose option on. | No |
 
-### Export ISX Project
+## Export ISX Project
 
 Export InfoSphere DataStage or QualityStage assets to a specified .isx file.
 
@@ -128,7 +128,7 @@ Export InfoSphere DataStage or QualityStage assets to a specified .isx file.
 | Username | String | The name of a user on the domain. | No |
 | istool Path | String | Full path to the InformationServer/istools/cli folder where the istool script is located. | Yes |
 
-### Import DSX Project
+## Import DSX Project
 
 Import InfoSphere DataStage project level components from a .dsx or .xml file into a repository. You can specify one project and a list of file names to import. If the DSX Import Service is available, use it to import .dsx files.
 
@@ -145,7 +145,7 @@ Import InfoSphere DataStage project level components from a .dsx or .xml file in
 | Username | String | The user name to use to connect to the service tier computer. | No |
 | Verbose | Boolean | Select to generate a full report of the objects imported. By default, only import errors are reported. | No |
 
-### Import ISX Project
+## Import ISX Project
 
 Import InfoSphere DataStage or QualityStage assets from a previously exported .isx file.
 
@@ -178,7 +178,7 @@ Import InfoSphere DataStage or QualityStage assets from a previously exported .i
 | Username | String | The name of a user on the domain. | No |
 | istool Path | String | Full path to the InformationServer/istools/cli folder where the istool script is located. | Yes |
 
-### List DSX File Contents
+## List DSX File Contents
 
 List the objects that a .dsx file contains. This step works only on tiers where the ASBNode node agent is installed.
 

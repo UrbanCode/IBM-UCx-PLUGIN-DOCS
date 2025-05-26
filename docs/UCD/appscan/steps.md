@@ -12,7 +12,7 @@
 * [Wait for Scan](#wait_for_scan)
 
 
-### Configure Job Options
+## Configure Job Options
 
 Configure scan job options.
 
@@ -35,7 +35,7 @@ Configure scan job options.
 | Site URL | String | URL of site to scan. If there is already at least one starting URL associated with the scan, input here will add to the list of URLs. | No |
 | User | String | Username to log into ASE. | Yes |
 
-### Create Scan
+## Create Scan
 
 Create an AppScan security scan.
 
@@ -53,7 +53,7 @@ Create an AppScan security scan.
 | Test Policy ID | String | The Test Policy ID. Used to associate the job with an application. | No |
 | User | String | Username to log into ASE. | Yes |
 
-### Delete Folder Item
+## Delete Folder Item
 
 Delete a folder item, such as a Scan or Report, from the AppScan Scans view.
 
@@ -65,7 +65,7 @@ Delete a folder item, such as a Scan or Report, from the AppScan Scans view.
 | Password | Password | Password to log into ASE. | Yes |
 | User | String | Username to log into ASE. | Yes |
 
-### List Templates
+## List Templates
 
 Retrieve and print a list of available job templates.
 
@@ -76,7 +76,7 @@ Retrieve and print a list of available job templates.
 | Password | Password | Password to log into ASE. | Yes |
 | User | String | Username to log into ASE. | Yes |
 
-### Retrieve PDF Report
+## Retrieve PDF Report
 
 Retrieve report from AppScan Enterprise. Reports are saved as a PDF file named AppScanReportOutput-[date]-[time].zip
 
@@ -91,7 +91,7 @@ Retrieve report from AppScan Enterprise. Reports are saved as a PDF file named A
 | Scan Name | String | The name of the scan within the application. The format is {scanName}`` ({scanFIID}``). For example, Test Scan (171). | No |
 | User | String | Username to log into ASE. | Yes |
 
-### Retrieve Report
+## Retrieve Report
 
 For Plugin v24 and above: Reports are saved as a json files named [reportFIID]-Summary.json.
 
@@ -108,7 +108,7 @@ Upto Plugin v23:Retrieve report pack summary and specific report information fro
 | Report Name | String | The name of the report within the report pack to retrieve the issue counts. If empty, then no report counts will be retrieved. | No |
 | User | String | Username to log into ASE. | Yes |
 
-### Run Scan
+## Run Scan
 
 Run an AppScan security scan.
 
@@ -123,7 +123,7 @@ Run an AppScan security scan.
 | Timeout | String | Timeout, in minutes, at which the step will fail if the scan is not yet complete. Minimum is 5 minutes. | No |
 | User | String | Username to log into ASE. | Yes |
 
-### Wait for Scan
+## Wait for Scan
 
 Wait for an AppScan Scan to complete.
 

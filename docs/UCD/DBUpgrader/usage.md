@@ -16,7 +16,7 @@ Follow the below documentation to learn about the DBUpgrader plug-in.
 * [Tutorials](#education)
 
 
-### **Before you begin**
+## **Before you begin**
 
 You must create a database version table on every target database either manually before you run the DBUpgrader plug-in steps for the first time or as part of the first change.
 
@@ -25,7 +25,7 @@ The XML file contains the SQL code that is required to produce a different datab
 For details about the version table and XML file, see [Database Version table and XML file](#release-table-database-xml-file).
 
 
-### **Upgrading a database**
+## **Upgrading a database**
 
 You can make database changes in an incremental manner by using an XML file. The plug-in steps read the XML file and apply the defined changes.
 
@@ -39,7 +39,7 @@ The upgrade process is as follows:
 6. Repeat steps 35 until all changes are applied.
 
 
-### **Returning a database to a previous version**
+## **Returning a database to a previous version**
 
 The DB Rollback step reverts the database to a specified version. This step has the same parameters as the Upgrade DB step. However, the version to return the database is specified.
 
@@ -55,7 +55,7 @@ The rollback process follows:
 If an error occurs while you are applying a change, the <rollback> element is not used and the process fails. The state of the database after failure might vary depending on the type of database that you are using. It is possible for the database to be left in a half-applied state. Proceed by either restoring the database to a backed-up version; or by applying the rest of the version manually.
 
 
-### **Working with multiple releases**
+## **Working with multiple releases**
 
 The DBUpgrader steps support tracking database changes over multiple releases. Each release will have its own row in the Database Version table, and its own upgrade XML file. Using multiple release XML files can help you keep your database changes organized and easy to maintain.For example, Product x has two code streams one for version 1 and another for version 2. Version 2 is currently in development along with an update with fixes for version 1. Version 2 includes changes to the database, such as new tables and columns. Two XML files are being maintained:
 
@@ -67,17 +67,17 @@ When DB Upgrader runs on Product x Version 1, it uses only the `upgrade_1.0.xml`
 When DB Upgrader runs on Product Version 2, it uses both XML files. Because each release refers to a different row in the Database Version table, they are both applied separately. Both Version 1 updates and Version 2 features are included.
 
 
-### **Tutorials**
+## **Tutorials**
 
 The Deploying a simple web application tutorial in the DevOps Deploy documentation uses the DBUpgrader plug-in [Lesson 2: Creating component processes](https://www.ibm.com/docs/en/urbancode-deploy/7.2.3?topic=tutorials-deploying-simple-web-application). Go to the section that is labeled Creating a component process for the database component within the lesson.
 
 
-### Database Version table and XML file
+## Database Version table and XML file
 
 
 
 
-### **Database Version table**
+## **Database Version table**
 
 The Database Version table must have at least two columns.
 
@@ -88,7 +88,7 @@ The Database Version table must have at least two columns.
 
 Table name, column names, and types are relatively flexible, because you provide SQL statements to interact with this table.
 
-### **XML file**
+## **XML file**
 
 The XML file is typically created by a developer or database administrator who is responsible for maintaining the database-writing upgrades for the product.The XML filecontains the SQL information that is required to achieve a version. The XML file content evolves as the corresponding product evolves.New XML files are required when you create a new release path.
 

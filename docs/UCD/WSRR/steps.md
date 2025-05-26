@@ -7,7 +7,7 @@
 * [Register Service](#register_service)
 
 
-### Activate Configuration Profile
+## Activate Configuration Profile
 
 This step archives the currently active profile, and then makes the specified configuration profile active. The configuration profile that was previously active is saved in WSRR.
 
@@ -24,7 +24,7 @@ This step archives the currently active profile, and then makes the specified co
 | WSRR Home | String | The WSRR\_INSTALL\_ROOT directory. This parameter is optional and, if omitted, defaults to the current directory. You must provide a value for this parameter if you are not running the script from the WAS\_INSTALL\_ROOT\WSRR\admin\scripts\_cell directory. | Yes |
 | WSRR User | String | The user name of the account that will interact with WSRR system | Yes |
 
-### Delete Configuration Profile
+## Delete Configuration Profile
 
 This script removes a configuration profile from WSRR.
 
@@ -40,7 +40,7 @@ This script removes a configuration profile from WSRR.
 | WSRR Home | String | The WSRR\_INSTALL\_ROOT directory. This parameter is optional and, if omitted, defaults to the current directory. You must provide a value for this parameter if you are not running the script from the WAS\_INSTALL\_ROOT\WSRR\admin\scripts\_cell directory. | Yes |
 | WSRR User | String | The user name of the account that will interact with WSRR system | Yes |
 
-### Load Configuration Profile
+## Load Configuration Profile
 
 This step loads a configuration profile, from a configuration profile compressed file, into WSRR.
 
@@ -59,7 +59,7 @@ This step loads a configuration profile, from a configuration profile compressed
 | WSRR Home | String | The WSRR\_INSTALL\_ROOT directory. This parameter is optional and, if omitted, defaults to the current directory. You must provide a value for this parameter if you are not running the script from the WAS\_INSTALL\_ROOT\WSRR\admin\scripts\_cell directory. | Yes |
 | WSRR User | String | The user name of the account that will interact with WSRR system | Yes |
 
-### Register Service
+## Register Service
 
 This script registers service using WSDL document onto WSRR.
 

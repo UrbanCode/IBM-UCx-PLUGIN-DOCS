@@ -5,7 +5,7 @@
 * [Execute SQL Scripts with PassTicket Authentication](#execute-sql-scripts-with-passticket-authentication)
 
 
-### Execute SQL Scripts
+## Execute SQL Scripts
 
 Execute SQL scripts using JDBC driver.
 
@@ -27,7 +27,7 @@ Execute SQL scripts using JDBC driver.
 | SQL Statement Delimiter   | String                           | String that separates SQL statements.                                                                                                                                                                                  | Yes      |
 | User                      | String                           | The user name used to connect to the database.                                                                                                                                                                         | Yes      |
 
-### Execute SQL Scripts with PassTicket Authentication
+## Execute SQL Scripts with PassTicket Authentication
 
 Execute SQL scripts using JDBC driver and PassTicket authentication.
 

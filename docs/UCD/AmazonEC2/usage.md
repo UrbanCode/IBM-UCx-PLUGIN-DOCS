@@ -12,7 +12,7 @@ Use this plug-in to manage Amazon Elastic Cloud (EC2) instances as a process ste
 * Terminate an instance, which removes the instance and all associated data.
 
 
-### **Step palette**
+## **Step palette**
 
 To access this plug-in in the palette, click **Cloud** > **AmazonEC2**.
 

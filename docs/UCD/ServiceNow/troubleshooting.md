@@ -3,7 +3,7 @@
 
 You can use HTTP status codes to troubleshoot issues when using the plug-in. Status codes are displayed in the console. For more information on status codes, see the [REST API topic](https://wiki.servicenow.com/index.php?title=REST_API#REST_Response_HTTP_Status_Codes) in the ServiceNow documentation.
 
-#### ServiceNow Administrators
+## ServiceNow Administrators
 
 1. Ensure that you have REST access in ServiceNow. If you do not have REST access, complete the following steps:
 1. Click **User Administration > Users**.
@@ -14,7 +14,7 @@ You can use HTTP status codes to troubleshoot issues when using the plug-in. Sta
 6. Click **Save**.
 2. Ensure that the user account has table access. To learn more about table access, see the [REST API topic](https://wiki.servicenow.com/index.php?title=REST_API#Table_Access) in the ServiceNow documentation.
 
-#### IBM DevOps Deploy Administrators
+## IBM DevOps Deploy Administrators
 
 1. Test using the REST API Explorer.
 1. Click **System Web Services > REST API Explorer**.
@@ -52,4 +52,3 @@ You can use HTTP status codes to troubleshoot issues when using the plug-in. Sta
 |Back to ...||Latest Version|ServiceNow |||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 |[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[40.1168551](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ServiceNow/ucd-ServiceNow-40.1168551.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
-

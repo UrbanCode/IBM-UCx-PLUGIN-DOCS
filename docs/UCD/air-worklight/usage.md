@@ -4,7 +4,7 @@
 The IBM MobileFirst Platform plug-in for IBM DevOps Deploy is part of a complete process for building and deploying mobile applications.
 
 
-### Important properties in plug-in steps
+## Important properties in plug-in steps
 
 
 
@@ -48,7 +48,7 @@ The version of the Ant JAR file you use must match the version on the target ser
 
 
 
-### Rolling back mobile applications
+## Rolling back mobile applications
 
 
 
@@ -57,7 +57,7 @@ There are a number of ways to roll back a mobile application that is deployed to
 
 You can choose an automated or manual method to roll back a mobile application deployment.
 
-### Automated rollback
+## Automated rollback
 
 To automate rolling back a mobile application deployment, create processes that use the following general steps:
 
@@ -69,7 +69,7 @@ To automate rolling back a mobile application deployment, create processes that 
 * Change Worklight Application Access Rule on Worklight Server
 2. At the application process level, create a process that includes the desired **Rollback Component** step and configure the step to call the component process that you created in the preceding steps. **The Rollback Component** step replaces the component version with an earlier version.
 
-### Manual rollback
+## Manual rollback
 
 To manually roll back a mobile application deployment:
 
@@ -77,14 +77,14 @@ To manually roll back a mobile application deployment:
 2. In the Worklight Console, delete the adapters and applications. For details, see the topics in the section [Administering adapters and apps in Worklight Console](http://www-01.ibm.com/support/knowledgecenter/api/content/SSZH4A_6.1.0/com.ibm.worklight.deploy.doc/devref/t_working_with_the_ibm_worklight1.html) in the Worklight Information Center.
 3. Redeploy the previous version of the mobile application from DevOps Deploy.
 
-### Deploying mobile applications
+## Deploying mobile applications
 
 
 
 
 You can use the process steps in the IBM Worklight plug-in to deploy mobile applications to IBM Worklight Server.
 
-### Before you begin
+## Before you begin
 
 * If it is not already installed, install the IBM Worklight plug-in.
 * Install the plug-in that corresponds to the application server that is running your Worklight Server for deploying the WAR file to the Worklight Server. For example:
@@ -102,7 +102,7 @@ Used to interact with an Application Center installed on an IBM Worklight Versio
 `json4j.jar`
 Used with the IBM Worklight Server Version 6.0.0 or later
 
-### About this task
+## About this task
 
 In the process editor, you can modify component processes to include steps to deploy the following mobile application artifacts to your Worklight Server:
 
@@ -119,7 +119,7 @@ The following sequence is a suggested order for deploying the mobile application
 * Deploy the Worklight Application (`.wlapp`) file to the Worklight Server Console by using the Deploy Worklight Application to Worklight Server step.
 3. Deploy the Android application package (`.apk`) or iOS application (`.ipa`) file to the Application Center by using the Upload Application to Application Center step.
 
-### Example
+## Example
 
 The following simple example process deploys a mobile application to the Worklight Server Console and Application Center.
 
@@ -128,7 +128,7 @@ The following simple example process deploys a mobile application to the Worklig
 3. In parallel, the `.adapter` and `.wlapp` files are deployed to the Worklight Server Console by the Deploy Adapter to Worklight Server step and the Deploy Worklight Application to Worklight Server step.
 4. The `.apk` (Android) or `.ipa` (iOS) file is deployed to the Application Center by the Upload Native Application to the Application Center step.
 
-### Configuring the Worklight server
+## Configuring the Worklight server
 
 
 
@@ -184,7 +184,7 @@ To configure the Worklight Server for a Worklight project:To configure the Workl
 **Note:**  The Worklight project WAR file deployment that is described in this step is a one time configuration. When you deploy your mobile application, update the WAR file on the application server by using the plug-in process steps.
 
 
-### Adding mobile artifacts to DevOps Deploy
+## Adding mobile artifacts to DevOps Deploy
 
 
 
@@ -241,7 +241,7 @@ Copy the build artifacts into a source-code management system, such as:
 [addVersionFiles](https://www.ibm.com/docs/en/urbancode-deploy/7.2.3?topic=commands-addversionfiles)
 
 
-### Building mobile applications
+## Building mobile applications
 
 
 
@@ -262,11 +262,11 @@ The following topics are covered in sections below:
 [Building with Jazz Team Build](http://www-01.ibm.com/support/knowledgecenter/SSYMRC_4.0.5/com.ibm.team.build.doc/topics/t_build_overview.html?lang=en)
 
 
-### Build computer resources
+## Build computer resources
 
 Before you run a mobile application build script on a build computer, you must ensure that the required resources exist on the build computer.
 
-### Workspace resources
+## Workspace resources
 
 The following workspace resources must exist on the build computer:
 
@@ -281,7 +281,7 @@ Changes to source code and build scripts can be requested, developed, reviewed, 
 *Build automation advantages*
 The Jazz Build Engine automatically loads the workspace to build onto the build computer early in the processing of a build request. You can create and use a dedicated build workspace for each build definition. Do not point a build definition directly to a stream or to a workspace that is meant for another purpose. For example, do not point a build definition directory to the personal workspace of a user or a team integration workspace.**Note:** The Jazz Build Engine is a component of the Build System Toolkit; it refers to the process that runs on a build computer and runs Ant scripts.
 
-### Static resources
+## Static resources
 
 The build administrator must manually install the static resources on each build computer.
 
@@ -317,7 +317,7 @@ Install the Dojo Toolkit on each build computer in the following situations:
 * The mobile application projects either include the Dojo Toolkit (in the workspace project) or access it over a Content Delivery Network.
 
 
-### SDKs
+## SDKs
 
 Install one of the following SDKs on each build computer:
 
@@ -332,11 +332,11 @@ Install on build computers that run builds to produce Android APK applications. 
 [Best practices: Setting up Jazz team build](http://pic.dhe.ibm.com/infocenter/clmhelp/v4r0/index.jsp?topic=/com.ibm.team.build.doc/topics/cbestpractices.html)
 
 
-### Build scripts
+## Build scripts
 
 You can create Ant build scripts for Worklight projects that contain applications and adapters. By using these build scripts, you can automate your mobile application builds.
 
-### Build script tasks
+## Build script tasks
 
 You can create build scripts that use the following types of Ant tasks:
 
@@ -363,7 +363,7 @@ These tasks provide information to the build results. Tasks include:
 * `<artifactPublisher>`
 
 
-### Sample build script task flow
+## Sample build script task flow
 
 You can create build scripts for Worklight projects that contain different numbers of applications or adapters. The following sample task flow describes the overall design of a build script for a Worklight project that has a single Worklight application and a single adapter.
 
@@ -396,7 +396,7 @@ You can create build scripts for Worklight projects that contain different numbe
 [Jazz build Ant task reference](http://www-01.ibm.com/support/knowledgecenter/SSYMRC_4.0.5/com.ibm.team.build.doc/topics/r_ant-tasks.html)
 
 
-### Jazz Team Build
+## Jazz Team Build
 
 The Jazz Team Build system defines resources that are used to describe and manage builds.
 
@@ -407,7 +407,7 @@ This section describes the following Jazz Team Build facilities:
 * [Build definitions](#jazz_build_definitions)
 
 
-### Logical resources for builds
+## Logical resources for builds
 
 The Jazz Team Build system in Rational Team Concert defines the following types of logical resources that are used to describe and manage builds:
 
@@ -428,7 +428,7 @@ A build request represents a scheduled or explicitly issued request to run a bui
 Build result
 A build result represents the output of a build.
 
-### Build system toolkit
+## Build system toolkit
 
 Each build computer contains an installation of the Rational Team Concert Build System Toolkit.
 
@@ -447,7 +447,7 @@ The build agent is a lightweight process that handles agent-based builds that su
 [Building with Jazz Team Build](http://www-01.ibm.com/support/knowledgecenter/SSYMRC_4.0.5/com.ibm.team.build.doc/topics/t_build_overview.html)
 
 
-### Build definitions
+## Build definitions
 
 In Rational Team Concert, a build definition describes the key components of a build.
 
@@ -498,7 +498,7 @@ The parameters are defined as follows:
 [Getting Started with IBM WorklightUsing Rational Team Concert to build your applications](http://public.dhe.ibm.com/software/mobile-solutions/worklight/docs/v610/11_01_Using_Rational_Team_Concert_to_build_your_applications.pdf)
 
 
-### Building and deploying mobile applications
+## Building and deploying mobile applications
 
 
 

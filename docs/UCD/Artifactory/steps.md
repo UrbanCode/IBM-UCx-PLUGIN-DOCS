@@ -10,7 +10,7 @@
 * [Set Item Properties](#set_item_properties)
 
 
-### Download Latest Build for SNAPSHOT
+## Download Latest Build for SNAPSHOT
 
 Retrieve the latest build artifact within a SNAPSHOT.
 
@@ -28,7 +28,7 @@ Retrieve the latest build artifact within a SNAPSHOT.
 | User Name | String | The user name to authenticate with the Artifactory server. | No | username |
 | Version | String | The version of the build artifact. For example: 3.8-SNAPSHOT | Yes | version |
 
-### Download NuGet Package
+## Download NuGet Package
 
 Download a NuGet package from a NuGet repository.
 
@@ -43,7 +43,7 @@ Download a NuGet package from a NuGet repository.
 | Repository User name | String | The user name to authenticate with Artifactory. | No | username |
 | Verify Hash | Boolean | Select to verify hash values after the files are downloaded. | No | checkHash |
 
-### Download version (Maven build)
+## Download version (Maven build)
 
 Download all files under a specified version of a repository that was built with Maven.
 
@@ -61,7 +61,7 @@ Download all files under a specified version of a repository that was built with
 | Verify Hash | Boolean | Select to verify hash values after the files are downloaded. | No | checkHash |
 | Versions | String | A list of versions to download, separated by newline characters. Use the following format: groupId/artifactId/version | Yes | artifacts |
 
-### Download version (non-Maven build)
+## Download version (non-Maven build)
 
 Download all files under specified version of a repository (non-Maven).
 
@@ -80,7 +80,7 @@ Download all files under specified version of a repository (non-Maven).
 | Verify Hash | Boolean | Select to verify hash values after the files are downloaded. | No | checkHash |
 | Versions | String | A list of folders and subfolders to download, separated by newline characters. Use the following format: path/to/artifact/version | Yes | artifacts |
 
-### Promote Build
+## Promote Build
 
 Change the status of a build, optionally moving or copying the build to a target repository.
 
@@ -104,7 +104,7 @@ Change the status of a build, optionally moving or copying the build to a target
 | Target Repository | String | The target repository for the build artifacts and dependencies. | Yes | buildTarget |
 | User Name | String | The user name to authenticate with the Artifactory server. | No | username |
 
-### Retrieve Build Artifacts Archive
+## Retrieve Build Artifacts Archive
 
 Retrieve an archive file that contains all the artifacts for a specific build.
 
@@ -127,7 +127,7 @@ Retrieve an archive file that contains all the artifacts for a specific build.
 | Status | String | Specify the build to download by status. Cannot be used with Build Number. | No | buildStatus |
 | User Name | String | The user name to authenticate with the Artifactory server. | No | username |
 
-### Set Item Properties
+## Set Item Properties
 
 Attach properties to a file or folder.
 

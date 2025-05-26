@@ -7,7 +7,7 @@ The InfoSphere Information Services Director (ISD) plugin integrates with IBM In
 * If there are no search results, submit your issue as a question to our [answers page](https://community.ibm.com/community/user/wasdevops/urbancode-discussion). Use the following tags: DevOps | deploy | plugins | isd.
 
 
-### Available Steps
+## Available Steps
 
 Design Time Export Export all or selected applications and services from projects in your InfoSphere Information Services Director server into an XML output file.
 

@@ -15,7 +15,7 @@ To create a component, complete the following steps. For more information about 
 6. Specify the properties for the component. See [Settings](./settings.md#roles-in-the-git-plug-in) for property descriptions. When referencing plug-in properties, you must specify the scope for the property. The scope is the type of artifact that contains the property, which for the Git plug-in is component. For example:  ```${p:component/GitComponentProperties/password}```
 7. Click **Save**.
 
-### Import a version
+## Import a version
 
 When the artifacts are imported, a component version is created using the version of the package. You can specify to import a specific package version or import all versions. If importing all versions, a component version is created for each version.
 

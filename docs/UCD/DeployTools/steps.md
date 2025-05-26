@@ -7,7 +7,7 @@
 * [Wait for web page](#wait_for_web_page)
 
 
-### Check Total Application Process Execution Time
+## Check Total Application Process Execution Time
 
 Check the run time of the application process and fail if the time is greater than the specified threshold.
 
@@ -17,7 +17,7 @@ Check the run time of the application process and fail if the time is greater th
 | Component Process Request ID | String |  | Yes |
 | Timeout | String | The number of seconds that the application process is allowed to run. | Yes |
 
-### Check Total Component Process Execution Time
+## Check Total Component Process Execution Time
 
 Check the run time of the component process and fail if the time is greater than a specified threshold.
 
@@ -27,7 +27,7 @@ Check the run time of the component process and fail if the time is greater than
 | Component Process Request ID | String |  | Yes |
 | Timeout | String | The number of seconds that the component process is allowed to run. | Yes |
 
-### Verify Deployment
+## Verify Deployment
 
 Verify the deployment of an application by using the HTTP interface.
 
@@ -43,7 +43,7 @@ Verify the deployment of an application by using the HTTP interface.
 | User Name | String | The user name to use for authentication. | No |
 | Verification String | String | The string to search for in the response to verify the correct deployment. | Yes |
 
-### Wait for web page
+## Wait for web page
 
 Wait for a web page to become accessible and to contain specified text.
 
