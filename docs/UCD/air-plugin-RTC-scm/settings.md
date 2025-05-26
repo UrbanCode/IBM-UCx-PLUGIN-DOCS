@@ -1,5 +1,5 @@
 
-IBM Rational Team Concert - SCM - Settings
+# IBM Rational Team Concert - SCM - Settings
 ==========================================
 
 
