@@ -6,7 +6,7 @@ IBM Case Manager simplifies the job of designing and building a case management 
 The IBM Case Manager plug-in for DevOps deploy utilizes the configmgr\_cl command-line interface to automate the tasks normally completed via the configmgr UI.All of the steps were tested with IBM Case Manager version 5.3.1. In order for all commands to function properly, version 5.2.1 or later is required.
 
 
-### Available Steps
+## Available Steps
 
 Deploy Solution Runs a Deploy Solution task via the execute command for a specified production profile.
 

@@ -5,7 +5,7 @@
 * [SQLPlus through Control File](#sqlplus_through_control_file)
 
 
-### Run SQLPlus script
+## Run SQLPlus script
 
 Run SQLPlus script
 
@@ -27,7 +27,7 @@ Run SQLPlus script
 | Ignore any PLS, SP2, and ORA errors encountered during script execution. Select True to skip error, or false to fail on errors. You may also select the parameterized value ``${p?:skipSqlErrors}``, which will look for the skipSqlErrors property in UCD. If the property isnt defined, the value will be false. | No |
 | User name | String | The user name for the scripts to be run as. Leave this property blank, and specify Oracle Home, if you wish to use Oracle Wallet authentication. | No |
 
-### SQLPlus through Control File
+## SQLPlus through Control File
 
 Run SQLPlus scripts using control files for orchestration.
 

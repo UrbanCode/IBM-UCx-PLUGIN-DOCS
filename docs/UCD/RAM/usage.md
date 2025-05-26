@@ -6,12 +6,12 @@
 * [Running Rational AppScan tests](#example2)
 
 
-### **Before you begin**
+## **Before you begin**
 
 To use this plug-in, a supported version of Rational Asset Manager must be installed.
 
 
-### **Example: Deploying an application and running Selenium test**
+## **Example: Deploying an application and running Selenium test**
 
 The following example is a component process that completes three actions:
 
@@ -31,7 +31,7 @@ This example requires that the application binary files are in the component and
 5. The **Create Relationship to an Asset** step creates a relationship between the Selenium test results and the application component. The step uses the environment properties that were stored when the application was deployed to access the correct application component and version.
 
 
-### **Example: Running Rational AppScan tests**
+## **Example: Running Rational AppScan tests**
 
 In this example, the component process deploys an application, runs an associated IBM Security AppScan test on the deployment, and updates the status of the asset in the library server, basing the status on the test results.
 

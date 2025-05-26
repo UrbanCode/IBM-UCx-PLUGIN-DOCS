@@ -15,7 +15,7 @@
 - [GetBuiltInAnsibleProperties](#getbuiltinansibleproperties)
 - [Apt Key](#apt-key)
 
-### Command
+## Command
 
 Use this step to apply the **command module** in Ansible.
 
@@ -27,7 +27,7 @@ Use this step to apply the **command module** in Ansible.
 | chdir       | textBox     | Change into this directory before running the command.                                                                                                                                         | No       |
 | become      | textBox     | The become keyword uses existing privilege escalation tools like sudo, su, pfexec, doas, pbrun, dzdo, ksu, runas, machinectl and others. set to true OR yes to activate privilege escalation.  | No       |
 
-### Copy
+## Copy
 
 Use this step to apply the **copy module** in Ansible.
 
@@ -40,7 +40,7 @@ Use this step to apply the **copy module** in Ansible.
 | mode       | textBox     | The permissions of the destination file or directory.   <br/> For those used to /usr/bin/chmod remember that modes are actually octal numbers. You must either add a leading zero so that Ansible’s YAML parser knows it is an octal number (like 0644 or 01777) or quote it (like '644' or '1777') so Ansible receives a string and can do its own conversion from string into number. Giving Ansible a number without following one of these rules will end up with a decimal number which will have unexpected results.   <br/> As of Ansible 1.8, the mode may be specified as a symbolic mode (for example, u+rwx or u=rw,g=r,o=r).   <br/> As of Ansible 2.3, the mode may also be the special string preserve.   <br/> preserve means that the file will be given the same permissions as the source file.   <br/> When doing a recursive copy, see also directory_mode.   <br/> If mode is not specified and the destination file does not exist, the default umask on the system will be used when setting the mode for the newly created file.   <br/> If mode is not specified and the destination file does exist, the mode of the existing file will be used.   <br/> Specifying mode is the best way to ensure files are created with the correct permissions. | No       |
 | with_items | textAreaBox | with_items is a collection variable that can be used to store input values for verification against actual data.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | No       |
 
-### File
+## File
 
 Use this step to apply the **file module** in Ansible.
 
@@ -56,7 +56,7 @@ Use this step to apply the **file module** in Ansible.
 | mode       | textBox     | The permissions of the destination file or directory.   <br/> For those used to /usr/bin/chmod remember that modes are actually octal numbers. You must either add a leading zero so that Ansible’s YAML parser knows it is an octal number (like 0644 or 01777) or quote it (like '644' or '1777') so Ansible receives a string and can do its own conversion from string into number. Giving Ansible a number without following one of these rules will end up with a decimal number which will have unexpected results.   <br/> As of Ansible 1.8, the mode may be specified as a symbolic mode (for example, u+rwx or u=rw,g=r,o=r).   <br/> As of Ansible 2.3, the mode may also be the special string preserve.   <br/> preserve means that the file will be given the same permissions as the source file.   <br/> When doing a recursive copy, see also directory_mode.   <br/> If mode is not specified and the destination file does not exist, the default umask on the system will be used when setting the mode for the newly created file.   <br/> If mode is not specified and the destination file does exist, the mode of the existing file will be used.   <br/> Specifying mode is the best way to ensure files are created with the correct permissions.                                                                                                                                                                                               | No       |
 | with_items | textAreaBox | with_items is a collection variable that can be used to store input values for verification against actual data.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | No       |
 
-### Get URL
+## Get URL
 
 Use this step to apply the **get_url module** in Ansible.
 
@@ -69,7 +69,7 @@ Use this step to apply the **get_url module** in Ansible.
 | group    | textBox | Name of the group that should own the filesystem object, as would be fed to chown.    <br/> When left unspecified, it uses the current group of the current user unless you are root, in which case it can preserve the previous ownership.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | No       |
 | mode     | textBox | The permissions of the destination file or directory.   <br/> For those used to /usr/bin/chmod remember that modes are actually octal numbers. You must either add a leading zero so that Ansible’s YAML parser knows it is an octal number (like 0644 or 01777) or quote it (like '644' or '1777') so Ansible receives a string and can do its own conversion from string into number. Giving Ansible a number without following one of these rules will end up with a decimal number which will have unexpected results.   <br/> As of Ansible 1.8, the mode may be specified as a symbolic mode (for example, u+rwx or u=rw,g=r,o=r).   <br/> As of Ansible 2.3, the mode may also be the special string preserve.   <br/> preserve means that the file will be given the same permissions as the source file.   <br/> When doing a recursive copy, see also directory_mode.   <br/> If mode is not specified and the destination file does not exist, the default umask on the system will be used when setting the mode for the newly created file.   <br/> If mode is not specified and the destination file does exist, the mode of the existing file will be used.   <br/> Specifying mode is the best way to ensure files are created with the correct permissions. | No       |
 
-### Line In File
+## Line In File
 
 Use this step to apply the **lineinfile module** in Ansible.
 
@@ -82,7 +82,7 @@ Use this step to apply the **lineinfile module** in Ansible.
 | insertbefore | textBox     | Used with state=present.   <br/>If specified, the line will be inserted before the last match of specified regular expression.   <br/> If the first match is required, use firstmatch=yes.   <br/> A value is available; BOF for inserting the line at the beginning of the file.   <br/> If specified regular expression has no matches, the line will be inserted at the end of the file.    <br/> If regular expressions are passed to both regexp and insertbefore, insertbefore is only honored if no match for regexp is found.   <br/> May not be used with backrefs or insertafter.                                                     | No       |
 | with_items   | textAreaBox | with_items is a collection variable that can be used to store input values for verification against actual data.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | No       |
 
-### Pip
+## Pip
 
 Use this step to apply the **pip module** in Ansible.
 
@@ -92,7 +92,7 @@ Use this step to apply the **pip module** in Ansible.
 | state      | textBox     | The state of module.   <br/> The forcereinstall option is only available in Ansible 2.1 and above.   <br/> Choices:   <br/> absent   <br/> forcereinstall   <br/> latest   <br/> present ← (default) | No       |
 | with_items | textAreaBox | with_items is a collection variable that can be used to store input values for verification against actual data.                                                                                     | No       |
 
-### Apt
+## Apt
 
 Use this step to apply the **apt module** in Ansible.
 
@@ -106,7 +106,7 @@ Use this step to apply the **apt module** in Ansible.
 | with_items   | textAreaBox | with_items is a collection variable that can be used to store input values for verification against actual data.                                                                                                                                                                                                                                                                              | No       |
 
 
-### Service
+## Service
 
 Use this step to apply the **service module** in Ansible.
 
@@ -116,7 +116,7 @@ Use this step to apply the **service module** in Ansible.
 | enabled | textBox | Whether the service should start on boot.   <br/> At least one of state and enabled are required.   <br/>Choices:   <br/> false   <br/> true                                                                                                                                                                                                                                                                                                              | No       |
 | state   | textBox | started/stopped are idempotent actions that will not run commands unless necessary.   <br/> restarted will always bounce the service.   <br/> reloaded will always reload.   <br/> At least one of state and enabled are required.   <br/> Note that reloaded will start the service if it is not already started, even if your chosen init system wouldn’t normally.   <br/> Choices:   <br/> reloaded   <br/> restarted   <br/> started   <br/> stopped | No       |
 
-### Shell
+## Shell
 
 Use this step to apply the **shell module** in Ansible.
 
@@ -127,7 +127,7 @@ Use this step to apply the **shell module** in Ansible.
 | poll  | textBox | The Poll keyword is auto-enabled whenever you use async and it has a default value as 10 seconds   <br/> Which means If you are not defining the poll keyword with customized time period. By default Ansible would track the status of the async task every 10 seconds.   <br/> If you think 10 seconds polling is too frequent and you want Ansible to test the status of the job every 60 seconds It is possible.   <br/> The poll keyword accepts a numeric value to know how many seconds it should wait before polling or following up with the long-running asynchronous task.   <br/> In other words, The value of the poll indicates how often to poll and check if the tasks are completed. The default poll value is 10 seconds. | No       |
 | chdir | textBox | Change into this directory before running the command.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | No       |
 
-### Unarchive
+## Unarchive
 
 Use this step to apply the **unarchive module** in Ansible.
 
@@ -141,7 +141,7 @@ Use this step to apply the **unarchive module** in Ansible.
 | group   | textBox | Name of the group that should own the filesystem object, as would be fed to chown.    <br/> When left unspecified, it uses the current group of the current user unless you are root, in which case it can preserve the previous ownership.                                                                                                                                                                                                    | No       |
 | become  | textBox | The become keyword uses existing privilege escalation tools like sudo, su, pfexec, doas, pbrun, dzdo, ksu, runas, machinectl and others. set to true OR yes to activate privilege escalation.                                                                                                                                                                                                                                                  | No       |
 
-### AShell
+## AShell
 
 Use this step for **Automation shell** using raw Ansible step script.   <br/>
 The Ansible plugin allows Deploy to execute various Ansible module commands, any missing commands can be executed through an AShell plugin step.
@@ -150,7 +150,7 @@ The Ansible plugin allows Deploy to execute various Ansible module commands, any
 |---------|--------------|------------------------|----------|
 | script  | textAreaBox  | Ansible-styple script  | Yes      |
 
-### GetBuiltInAnsibleProperties
+## GetBuiltInAnsibleProperties
 
 Use this step for **Read Built-in Ansible variables(ansible_facts)**.
 It is similar to the **Ansible setup module**, where the queryKey parameter is equivalent to the filter parameter.
@@ -160,7 +160,7 @@ It is similar to the **Ansible setup module**, where the queryKey parameter is e
 | queryKey   | textBox  | query key can be ansible_lsb                         | Yes      |
 | resultKey  | textBox  | result key can be codename for ansible_lsb.codename  | Yes      |
 
-### Apt Key
+## Apt Key
 
 Use this step to apply the **apt_key module** in Ansible.
 

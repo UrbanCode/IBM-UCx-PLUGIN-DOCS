@@ -1,7 +1,7 @@
 
 # IBM IMS - Usage
 
-### Using the IMS plug-in in DevOps Deploy
+## Using the IMS plug-in in DevOps Deploy
 
 This IMS plug-in allows execution of IMS type-1 and type-2 commands. You can use this plug-in for various scenarios where IMS commands are traditionally used, but a common scenario that takes advantage of DevOps Deploy is IMS application deployment. See [Deploying IMS application programs](#deploy_application) below for an example.
 
@@ -9,13 +9,13 @@ This IMS plug-in allows execution of IMS type-1 and type-2 commands. You can use
 The following information assumes basic knowledge of DevOps Deploy and its user interface.
 
 
-### Before you begin
+## Before you begin
 
 * Ensure the IBM DevOps Deploy server and the z/OS deployment tools are installed.
 * Ensure the IMS plug-in is installed.
 
 
-### Setting up resources for IMS application programs
+## Setting up resources for IMS application programs
 
 In DevOps Deploy:
 
@@ -24,7 +24,7 @@ In DevOps Deploy:
 3. Under each agent, add the components that correspond to your application programs. For more information about how components are used in Urban Code Deploy, see [Creating components.](https://www.ibm.com/docs/en/urbancode-deploy/7.2.3?topic=deployment-components)
 
 
-### Process development using the IMS plug-in
+## Process development using the IMS plug-in
 
 To start using the IMS plug-in, create a new or edit an existing DevOps Deploy process.
 
@@ -37,7 +37,7 @@ Drag and drop the Execute IMS Command step onto the process editing screen.
 [![ims2](media/ims2.png)](media/ims2.png)
 
 
-### Configuring IMS plug-in properties
+## Configuring IMS plug-in properties
 
 When the Execute IMS Command step is added to a process, the Edit Properties dialog opens. Provide the following required parameters specific to the IMS plug-in:
 
@@ -60,7 +60,7 @@ When the Execute IMS Command step is added to a process, the Edit Properties dia
 
 
 
-### Deploying IMS application programs
+## Deploying IMS application programs
 
 For the deployment processes to work, it is assumed that the DevOps Deploy agents are installed in the UNIX System Services side of IMS.
 
@@ -76,7 +76,7 @@ Then, after the data sets for the new version of the application are copied into
 
 [![ims9](media/ims9.png)](media/ims9.png)
 
-### Related information
+## Related information
 
 [IMS command: UPDATE PGM](http://www-01.ibm.com/support/knowledgecenter/SSEPH2_13.1.0/com.ibm.ims13.doc.cr/imscmds/ims_updatepgm.htm)
 

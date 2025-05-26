@@ -3,7 +3,7 @@
 
 The OpenShift source configuration plug-in supports creating component version from OpenShift.
 
-### Compatibility
+## Compatibility
 
 This plug-in requires version 6.0 or later of IBM DevOps Deploy.
 
@@ -11,13 +11,13 @@ This plug-in works with [OpenShift CLI 3.1](https://docs.openshift.com/enterpris
 
 The OpenShift server must be accessible from the IBM DevOps Deploy agent or the agent must be installed on the OpenShift server.
 
-### Installation
+## Installation
 
 No special steps are required for installation. See [Installing plug-ins in DevOps products](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps products").
 
-### History
+## History
 
-#### Version 1
+### Version 1
 
 Initial release of the OpenShift Source Configuration plug-in.
 

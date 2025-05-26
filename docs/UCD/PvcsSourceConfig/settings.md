@@ -2,7 +2,7 @@
 # PVCS - Settings
 
 
-### Create Component
+## Create Component
 
 The following settings are available when you create a component by using the PVCS plug-in.
 
@@ -21,7 +21,7 @@ The following settings are available when you create a component by using the PV
 | Project Path | String | Path to the project. |
 | User | String |  |
 
-### Import New Versions
+## Import New Versions
 
 The following settings are available when you import new component versions by using the PVCS plug-in.
 

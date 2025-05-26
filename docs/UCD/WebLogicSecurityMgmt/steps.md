@@ -14,7 +14,7 @@
     - [Update Realm](#update-realm)
 
 
-### Create Role Mapper
+## Create Role Mapper
 
 Use this step to create a role mapper on a WebLogic server.
 
@@ -32,7 +32,7 @@ Use this step to create a role mapper on a WebLogic server.
 | WebLogic Hostname | String | The host name of the computer where the WebLogic server is installed. | Yes |
 | WebLogic Port | String | The port number of the WebLogic server. | Yes |
 
-### Create or Update Authentication Provider
+## Create or Update Authentication Provider
 
 Use this step to create an authentication provider on the WebLogic server.
 
@@ -50,7 +50,7 @@ Use this step to create an authentication provider on the WebLogic server.
 | WebLogic Hostname | String | The host name of the computer where the WebLogic server is installed. | Yes |
 | Weblogic Port | String | The port number of the WebLogic server. | Yes |
 
-### Create or Update Realm
+## Create or Update Realm
 
 Use this step to create or update a realm on a WebLogic server.
 
@@ -66,7 +66,7 @@ Use this step to create or update a realm on a WebLogic server.
 | WebLogic Hostname | String | The host name of the computer where the WebLogic server is installed. | Yes |
 | WebLogic Port | String | The port number of the WebLogic server. | Yes |
 
-### Manage Users and or Groups
+## Manage Users and or Groups
 
 Use this step to manage users and groups that are associated with a security realm by using an XML file.
 
@@ -82,7 +82,7 @@ Use this step to manage users and groups that are associated with a security rea
 | WebLogic Port | String | The port number of the WebLogic server. | Yes |
 | XML File Path | String | The path to the XML file that defines the actions to take for the specified users and groups. An example XML file, which is named `users_groups.xml`, is located in the `/extras` directory. | Yes |
 
-### Manages Roles
+## Manages Roles
 
 Use this step to manages roles on a WebLogic server using an XML file.
 
@@ -97,7 +97,7 @@ Use this step to manages roles on a WebLogic server using an XML file.
 | WebLogic Hostname | String | The host name of the computer where the WebLogic server is installed. | Yes |
 | WebLogic Port | String | The port number of the WebLogic server. | Yes |
 
-### Update Authentication Provider
+## Update Authentication Provider
 
 Use this step to update an authentication provider on a WebLogic server.
 
@@ -115,7 +115,7 @@ Use this step to update an authentication provider on a WebLogic server.
 | WebLogic Hostname | String | The host name of the computer where the WebLogic server is installed. | Yes |
 | WebLogic Port | String | The port number of the WebLogic server. | Yes |
 
-### Update Realm
+## Update Realm
 
 Use this step to update a security realm on a WebLogic server.
 

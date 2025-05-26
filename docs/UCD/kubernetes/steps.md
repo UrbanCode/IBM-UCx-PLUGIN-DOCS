@@ -28,7 +28,7 @@
 * [Use Context](#use_context)
 
 
-### Apply Resources
+## Apply Resources
 
 Apply a configuration to a resource by filename. This resource will be created if it doesnt exist yet. To use, always create the resource initially with this step
 
@@ -41,7 +41,7 @@ Apply a configuration to a resource by filename. This resource will be created i
 | URL | String | The URL of the Kubernetes server. For example: https://10.2.2.2:8443. | No |
 | User Name | String | The user name to access the Kubernetes server. | No |
 
-### Auto Scale
+## Auto Scale
 
 Creates an autoscaler that automatically chooses and sets the number of pods that run in a kubernetes cluster.
 
@@ -54,7 +54,7 @@ Creates an autoscaler that automatically chooses and sets the number of pods tha
 | URL | String | The URL of the Kubernetes server. For example: https://10.2.2.2:8443. | No |
 | User Name | String | The user name to access the Kubernetes server. | No |
 
-### Create Image Components from Helm Release
+## Create Image Components from Helm Release
 
 Creates UCD components for each container image found in a Helm release
 
@@ -65,7 +65,7 @@ Creates UCD components for each container image found in a Helm release
 | Component Template | String | The template to use when creating components from Kubernetes application resources. You can use component templates to store different sets of registry credentials. | No |
 | Release Name | String | Name of the Helm release to be inspected. | Yes |
 
-### Create Kubernetes Cluster Resource
+## Create Kubernetes Cluster Resource
 
 Create a Kubernetes cluster resource in the Resource Tree.
 
@@ -87,7 +87,7 @@ Create a Kubernetes cluster resource in the Resource Tree.
 | Password | Password | Password for basic authentication to the API server. | No |
 | User Name | String | Username for basic authentication to the API server. | No |
 
-### Create Resources
+## Create Resources
 
 Create a resource by file name.
 
@@ -100,7 +100,7 @@ Create a resource by file name.
 | URL | String | The URL of the Kubernetes server. For example: https://10.2.2.2:8443. | No |
 | User Name | String | The user name to access the Kubernetes server. | No |
 
-### Delete Resources
+## Delete Resources
 
 Delete resources by file names, resource types and names, or resource types and labels.
 
@@ -119,7 +119,7 @@ Delete resources by file names, resource types and names, or resource types and 
 | URL | String | The URL of the Kubernetes server. For example: https://10.2.2.2:8443. | No |
 | User Name | String | The user name to access the Kubernetes server. | No |
 
-### Expose Resource
+## Expose Resource
 
 Expose a replication controller, service, or pod as a new Kubernetes service.
 
@@ -133,7 +133,7 @@ Expose a replication controller, service, or pod as a new Kubernetes service.
 | URL | String | The URL of the Kubernetes server. For example: https://10.2.2.2:8443. | No |
 | User Name | String | The user name to access the Kubernetes server. | No |
 
-### Get Current Context
+## Get Current Context
 
 Gets the current-context and sets it as an output property in the format ``${p:stepName/current-context}``
 
@@ -145,7 +145,7 @@ Gets the current-context and sets it as an output property in the format ``${p:s
 | URL | String | The URL of the Kubernetes server. For example: https://10.2.2.2:8443. | No |
 | User Name | String | The user name to access the Kubernetes server. | No |
 
-### Get Kube Config File IBM Cloud
+## Get Kube Config File IBM Cloud
 
 Initializes the IBM Cloud Container Services plug-in and downloads Kubernetes configuration data and certificates to connect to your cluster by using kubectl commands. Output of this step is a property in the format ``${p:stepName/kubeconfig}`` which points to the downloaded Kubernetes config file.
 
@@ -154,7 +154,7 @@ Initializes the IBM Cloud Container Services plug-in and downloads Kubernetes co
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Cluster Name | String | Name of the Kubernetes cluster for which to download configuration data and certificates for. | No |
 
-### Helm Delete
+## Helm Delete
 
 Deletes a release from Kubernetes
 
@@ -164,7 +164,7 @@ Deletes a release from Kubernetes
 | Flags | String | A newline-seperated list of flags to set when running the helm command. For example: purge | No |
 | Release | String | Name of the release to be deleted. | Yes |
 
-### Helm Does Release Exist
+## Helm Does Release Exist
 
 Runs a helm status [RELEASE\_NAME] command to determine if a release exists or not. Sets an output property in the format ``${p:stepName/release-exists}`` to a value of true if the release does exist or false if the release does not exist
 
@@ -174,7 +174,7 @@ Runs a helm status [RELEASE\_NAME] command to determine if a release exists or n
 | Flags | String | A newline-seperated list of flags to set when running the helm command. For example: tls | No |
 | Release | String | Name of the release to check | Yes |
 
-### Helm Init
+## Helm Init
 
 Sets up local configuration in $HELM\_HOME. If the client-only flag is not set, this step will install the latest version of Tiller onto your Kubernetes cluster.
 
@@ -184,7 +184,7 @@ Sets up local configuration in $HELM\_HOME. If the client-only flag is not set, 
 | Cluster Name | String | By default, Tiller will be installed to the Kubernetes cluster with the current context. To install to a differnet cluster, enter the clusters name in this field. | No |
 | Flags | String | A newline-seperated list of flags to set when running the helm command. For example: local-repo-url http://127.0.0.1:8879/charts | No |
 
-### Helm Install
+## Helm Install
 
 Installs a chart archive. The release name is set as an output property in the format ``${p:stepName/helm.release}`` and may be set as a component property if desired.
 
@@ -196,7 +196,7 @@ Installs a chart archive. The release name is set as an output property in the f
 | Release Name | String | Name of the release. If unspecified, a release name will be autogenerated for you. | No |
 | Version | String | If the Chart field specifies a chart reference, a version may be specified in this field. If the Chart field specifies a chart reference and the Version field is left blank, the latest version of the chart will be installed. | No |
 
-### Helm Upgrade
+## Helm Upgrade
 
 Upgrades a release to a new version of a chart
 
@@ -207,7 +207,7 @@ Upgrades a release to a new version of a chart
 | Flags | String | A newline-seperated list of flags to set when running the helm command. For example: purge | No |
 | Release | String | Name of the release to be upgraded | Yes |
 
-### Patch Resources
+## Patch Resources
 
 Update field(s) of a resource using strategic merge patch
 
@@ -221,7 +221,7 @@ Update field(s) of a resource using strategic merge patch
 | URL | String | The URL of the Kubernetes server. For example: https://10.2.2.2:8443. | No |
 | User Name | String | The user name to access the Kubernetes server. | No |
 
-### Process YAML File
+## Process YAML File
 
 Reads a Kubernetes YAML file, creates DevOps Deploy components and resources representing container images found in the YAML file, and creates a updated YAML file with dynamically updated container image versions.
 
@@ -232,7 +232,7 @@ Reads a Kubernetes YAML file, creates DevOps Deploy components and resources rep
 | Component Template | String | The template to use when creating components from Kubernetes application resources. You can use component templates to store different sets of registry credentials. | No |
 | YAML File(s) | String | Path and name of your Kubernetes yaml file or a directory containing multiple yaml files. If left blank, all .yaml and .yml files in the working directory will be processed. | No |
 
-### Replace Resources
+## Replace Resources
 
 Replace (update) a resource by file name.
 
@@ -245,7 +245,7 @@ Replace (update) a resource by file name.
 | URL | String | The URL of the Kubernetes server. For example: https://10.2.2.2:8443. | No |
 | User Name | String | The user name to access the Kubernetes server. | No |
 
-### Rolling Update
+## Rolling Update
 
 Perform a rolling update of the given Replication Controller.
 
@@ -259,7 +259,7 @@ Perform a rolling update of the given Replication Controller.
 | URL | String | The URL of the Kubernetes server. For example: https://10.2.2.2:8443. | No |
 | User Name | String | The user name to access the Kubernetes server. | No |
 
-### Rollout
+## Rollout
 
 Manage a deployment using subcommands like kubectl rollout undo deployment/abc. If performing kubectl rollout history, the history is set as an output property in the format ``${p:stepName/history}``
 
@@ -273,7 +273,7 @@ Manage a deployment using subcommands like kubectl rollout undo deployment/abc. 
 | URL | String | The URL of the Kubernetes server. For example: https://10.2.2.2:8443. | No |
 | User Name | String | The user name to access the Kubernetes server. | No |
 
-### Run Image
+## Run Image
 
 Create and run a particular image.
 
@@ -287,7 +287,7 @@ Create and run a particular image.
 | URL | String | The URL of the Kubernetes server. For example: https://10.2.2.2:8443. | No |
 | User Name | String | The user name to access the Kubernetes server. | No |
 
-### Scale
+## Scale
 
 Set a new size for a Deployment, ReplicaSet, Replication Controller, or Job.
 
@@ -300,7 +300,7 @@ Set a new size for a Deployment, ReplicaSet, Replication Controller, or Job.
 | URL | String | The URL of the Kubernetes server. For example: https://10.2.2.2:8443. | No |
 | User Name | String | The user name to access the Kubernetes server. | No |
 
-### Set Cluster
+## Set Cluster
 
 Sets a cluster entry in kubeconfig
 
@@ -313,7 +313,7 @@ Sets a cluster entry in kubeconfig
 | URL | String | The URL of the Kubernetes server. For example: https://10.2.2.2:8443. | No |
 | User Name | String | The user name to access the Kubernetes server. | No |
 
-### Set Credentials
+## Set Credentials
 
 Sets a user entry in kubeconfig
 
@@ -326,7 +326,7 @@ Sets a user entry in kubeconfig
 | User Entry | String | Entry to set credentials on. | Yes |
 | User Name | String | The user name to access the Kubernetes server. | No |
 
-### Set a Context Entry
+## Set a Context Entry
 
 Sets a context entry in kubeconfig
 
@@ -339,7 +339,7 @@ Sets a context entry in kubeconfig
 | URL | String | The URL of the Kubernetes server. For example: https://10.2.2.2:8443. | No |
 | User Name | String | The user name to access the Kubernetes server. | No |
 
-### Use Context
+## Use Context
 
 Sets the current-context in a kubeconfig file
 
@@ -353,12 +353,12 @@ Sets the current-context in a kubeconfig file
 | User Name | String | The user name to access the Kubernetes server. | No |
 
 
-### Roles in the Kubernetes plug-in
+## Roles in the Kubernetes plug-in
 
 * [KubernetesCluster](#kubernetescluster_role)
 
 
-### KubernetesCluster
+## KubernetesCluster
 
 Role for resources that represents a Kubernetes Cluster.
 

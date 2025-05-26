@@ -18,7 +18,7 @@ files
 
 ```
 
-#### Example
+## Example
 
 The following file structure shows a component with two versions and two files in each version. The two component versions are 1.0 and 2.0.
 
@@ -37,7 +37,7 @@ logo.gif
 After the component is created use the **Components** page in the user interface to import a version of the artifacts if automatic import was not selected.
 
 
-### Create a component
+## Create a component
 
 
 
@@ -54,7 +54,7 @@ To create a component, complete the following steps. For more information about 
 6. Specify the properties for the component. See [Settings](#steps) for property descriptions.
 7. Click **Save**.
 
-### Import a version
+## Import a version
 
 When the artifacts are imported, a component version is created using the version of the package. You can specify to import a specific package version or import all versions. If importing all versions, a component version is created for each version.
 

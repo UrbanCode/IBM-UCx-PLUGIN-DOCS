@@ -13,7 +13,7 @@ The[DevOps Deploy Blueprint Designer](/product/deploy/blueprint-designer/) can i
 **Note:** The IBM DevOps Deploy blueprint designer also provides an integration with Amazon EC2. For more information, see the [IBM DevOps Deploy product help](https://www-01.ibm.com/support/knowledgecenter/#!/SS4GSP_6.2.0/com.ibm.edt.doc/topics/cloud_connect_amazon_server.html).
 
 
-### Available Steps
+## Available Steps
 
 Associate IPs -  Associate Elastic IPs with instances.
 

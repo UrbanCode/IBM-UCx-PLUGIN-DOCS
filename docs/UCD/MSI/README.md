@@ -6,7 +6,7 @@ Microsoft Software Installer (MSI) is a software component that is used for the 
 The Microsoft Software Installer plug-in installs and uninstalls MSI and runs MSIexec.
 
 
-### Available Steps
+## Available Steps
 
 * Execute MSIexec
 * Install MSI

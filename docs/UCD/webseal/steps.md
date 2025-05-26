@@ -4,7 +4,7 @@
 * [Reverse Proxy: Update Configuration Entry](#reverse_proxy:_update_configuration_entry)
 
 
-### Reverse Proxy: Update Configuration Entry
+## Reverse Proxy: Update Configuration Entry
 
 Update one or more configuration entries by stanza on the Reverse Proxy Instances resource.
 

@@ -9,7 +9,7 @@
 * [msdeploy](#msdeploy)
 
 
-### Delete
+## Delete
 
 Delete an IIS object.
 
@@ -30,7 +30,7 @@ Delete an IIS object.
 * appHostConfig
 | The provider type for the destination argument of the delete. | Yes |
 
-### Recycle Application
+## Recycle Application
 
 Recycle an application in IIS.
 
@@ -40,7 +40,7 @@ Recycle an application in IIS.
 | Command Path | String | The directory location of the msdeploy.exe command-line executable: e.g., C:\Program Files\IIS\Microsoft Web Deploy V2\ | No |
 | Target Name | String | The name of the Web Site or Application, i.e. WebSite/MyApp | Yes |
 
-### Start Application
+## Start Application
 
 Start an application in IIS.
 
@@ -50,7 +50,7 @@ Start an application in IIS.
 | Command Path | String | The directory location of the msdeploy.exe command-line executable: e.g., C:\Program Files\IIS\Microsoft Web Deploy V2\ | No |
 | Target Name | String | The name of the Web Site or Application, i.e. WebSite/MyApp | Yes |
 
-### Stop Application
+## Stop Application
 
 Stop an application in IIS.
 
@@ -60,7 +60,7 @@ Stop an application in IIS.
 | Command Path | String | The directory location of the msdeploy.exe command-line executable: e.g., C:\Program Files\IIS\Microsoft Web Deploy V2\ | No |
 | Target Name | String | The name of the Web Site or Application, i.e. WebSite/MyApp | Yes |
 
-### Synchronize
+## Synchronize
 
 Synchronize two IIS objects.
 
@@ -99,7 +99,7 @@ Synchronize two IIS objects.
 * appHostConfig
 | The provider type for the source argument of the synchronize. | Yes |
 
-### msdeploy
+## msdeploy
 
 Run an msdeploy command
 

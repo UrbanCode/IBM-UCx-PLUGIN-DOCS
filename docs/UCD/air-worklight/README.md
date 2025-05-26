@@ -6,7 +6,7 @@ The IBM MobileFirst Platform plug-in provides functionality for deploying artifa
 You can use IBM DevOps Deploy to define a DevOps deployment solution for IBM MobileFirst mobile artifacts. By defining a deployment using IBM DevOps Deploy with the IBM MobileFirst Platform plugin, mobile teams can respond to feedback faster and have a repeatable process with reduced risk. Check out how to go from manual to continuous automated deployment of mobile MobileFirst Platform applications in this [article](http://www.ibm.com/developerworks/rational/library/worklight-mobile-devops/index.html).
 
 
-### Available Steps
+## Available Steps
 
 * Change Application Configuration
 * Delete Adapter

@@ -4,14 +4,14 @@
 * [Import Version](#import_version)
 
 
-### Import Version
+## Import Version
 
 Import a new version from Team Foundation Server.
 
 This step has no input properties.
 
 
-### Roles in the Team Foundation Server (TFS) plug-in
+## Roles in the Team Foundation Server (TFS) plug-in
 
 The plug-in adds these roles automatically to resources. You cannot add these roles manually.
 
@@ -20,7 +20,7 @@ The plug-in adds these roles automatically to resources. You cannot add these ro
 * [TFSImportProperties](#tfsimportproperties_role)
 
 
-### TFSComponentProperties
+## TFSComponentProperties
 
 
 | Name | Type | Description |
@@ -40,7 +40,7 @@ The plug-in adds these roles automatically to resources. You cannot add these ro
 | TFS Username | String | The user name for the account that has access to the TFS. |
 | Text File Extensions | String | To convert text-type files into another character set, list file extensions to be converted. Matching file types are converted into the default or system character set of the system where the agent is located. |
 
-### TFSImportProperties
+## TFSImportProperties
 
 
 | Name | Type | Description |

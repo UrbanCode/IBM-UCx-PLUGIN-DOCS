@@ -4,14 +4,14 @@
 * [Setting up resources for simple management of properties](#setting-up-resources-for-simple-management-of-properties)
 * [Deploying new load modules and performing a NEWCOPY on the related programs](#deploying-new-load-modules-and-performing-a-newcopy-on-the-related-programs)
 
-### Setting up resources for simple management of properties
+## Setting up resources for simple management of properties
 
 Before you begin, ensure the following:
 
 * Ensure your UCD agent is installed. For more information on installing UCD agents, see [Installing agents from the command line](http://www.ibm.com/support/knowledgecenter/SS4GSP_7.2.0/com.ibm.udeploy.install.doc/topics/agentInstall.html?).
 * Ensure that the CICS region or CICSplex you want to connect to is available through the CICS Management Client Interface (CMCI).
 
-#### About this task
+### About this task
 
 You can use Resources in DevOps Deploy to reduce the manual configuration needed in each of your deployment processes. Resources contain properties that you can use within the steps of your processes. The properties defined within a given resource are inherited by their descendants.
 
@@ -34,14 +34,14 @@ For CICS steps, it may be useful to set up a resource tree as previously describ
 
 For more general information on property inheritance, see [Referring to properties](https://www.ibm.com/docs/en/urbancode-deploy/7.2.3?topic=deployment-properties).
 
-### Deploying new load modules and performing a NEWCOPY on the related programs
+## Deploying new load modules and performing a NEWCOPY on the related programs
 
 Before you begin, ensure the following:
 
 * Ensure your UCD agent is running. (You can check this by clicking on the **Resources** tab, then clicking on the **Agents** tab. The status of the agent should be Online.)
 * Ensure that the CICS region or CICSplex you want to connect to is available through the CICS Management Client Interface (CMCI).
 
-#### Process
+### Process
 
 1. The Copy Artifacts step loads the artifacts that make up the z/OS component version. Use the FTP Artifacts step if build and deployment are on two different z/OS systems.
 2. __Deploy Data Sets__ step deploys the component version to z/OS by copying datasets and members to their required location.
@@ -51,14 +51,14 @@ Before you begin, ensure the following:
 
 Diagram showing a process with Copy Artifacts,Deploy Data Sets, and New copy resources steps
 
-### Deploying and undeploying CICS applications
+## Deploying and undeploying CICS applications
 
 * [Component and component version for a CICS application](#component-and-component-version-for-a-cics-application)
 * [Component process to deploy a CICS application](#component-process-to-deploy-a-cics-application)
 * [Component process to undeploy a CICS application](#component-process-to-undeploy-a-cics-application)
 * [Required properties](#required-properties)
 
-#### Component and component version for a CICS application
+### Component and component version for a CICS application
 
 Components represent deployable items and the processes, properties, and other configuration that operate on them. For additional information, see [Components](https://www.ibm.com/support/knowledgecenter/SS4GSP_7.2.0/com.ibm.udeploy.doc/topics/comp_ch.html) in the product documentation.
 
@@ -66,7 +66,7 @@ Create a Component to store your CICS application ready for deployment. The comp
 
 A version of the *Component* is created by your build script. The script typically extracts the Eclipse projects that consist of the source of the CICS application (including the binding, application, and bundles) from your source code management (SCM) system. The script then calls the [CICS TS build toolkit](https://www.ibm.com/docs/en/cics-ts/6.x?topic=applications-cics-application-build-automation-cics-build-toolkit) to build the application. The build output directories and files are stored in UCD as a new *Component Version*.
 
-#### Component process to deploy a CICS application
+### Component process to deploy a CICS application
 
 A CICS application is deployed using **Deploy application** step.
 
@@ -80,7 +80,7 @@ Define your component process to take the following actions:
 ![Image showing the default values for the Deploy application step](media/deploy_app.png?resize=541%2C294)
 
 Image showing the default values for Deploy application step
-### Component process to undeploy a CICS application
+## Component process to undeploy a CICS application
 
 You can undeploy a CICS application by using the **Undeploy application** step.
 
@@ -89,7 +89,7 @@ Optionally, you can use the component process to remove the application and appl
 ![default values for the Deploy application step](media/undeploy_app.png?resize=573%2C509)
 
 Image showing the default values for theUndeploy application step
-#### Required properties
+### Required properties
 
 The following properties are required by **Deploy application** and **Undeploy application** steps:
 
@@ -104,21 +104,21 @@ The following properties are required by **Deploy application** and **Undeploy a
 | cics.platform.definition.name      | Environment                                                                                                                                   | prod                                                                                                              |
 | cics.platform.home                 | Environment                                                                                                                                   | /var/cics/CICSPLX1/prod                                                                                           |
 
-### Connecting securely with SSL
+## Connecting securely with SSL
 
 * [Overview](#overview)
 * [Configuring a keystore and truststore](#configuring-a-keystore-and-truststore)
 * [Configuring SSL in CICS](#configuring-ssl-in-cics)
 * [Configuring SSL in the CICS TS plug-in](#configuring-ssl-in-the-cics-ts-plug-in)
 
-#### Overview
+### Overview
 
 You can use SSL to provide additional security when connecting between the DevOps Deploy agent on z/OS and CICS. Connecting with SSL is available using client certificates or HTTP basic authentication. Connecting with client certificates stored on z/OS in a security manager such as RACF or zFS has the benefit of avoiding the storage and maintenance of user IDs and passwords on the DevOps Deploy server.
 
 * For SSL with HTTP basic authentication, skip to [Configuring SSL in CICS](#configuring-ssl-in-cics).
 * For SSL with certificates, start with [Configuring a keystore and truststore.](#configuring-a-keystore-and-truststore)
 
-#### Configuring a keystore and truststore
+### Configuring a keystore and truststore
 
 Firstly, in your security manager, configure a key ring and certificate for the CICS regions user ID.
 
@@ -133,7 +133,7 @@ Finally, in order to complete the handshake, connect the CA certificate of the C
 
 For details on using RACF commands, see [RACF command syntax](https://www.ibm.com/docs/en/zos/3.1.0?topic=reference-racf-command-syntax "RACF command syntax") in the z/OS product documentation.
 
-#### Configuring SSL in CICS
+### Configuring SSL in CICS
 
 1. If you are using a CICSplex, you must enable CPSM security. To do this, update your CMAS CICSplex EYUPARM file with SEC(YES).
 2. Configure your CMCI TCPIPSERVICE resource with SSL support.
@@ -157,7 +157,7 @@ CMCISSL(SSL)
 
 For details of available configurations, see [Configuring CICS to use SSL](https://www.ibm.com/docs/en/cics-ts/6.x?topic=layers-configuring-cics-use-ssl) in the CICS product documentation.
 
-#### Configuring SSL in the CICS TS plug-in
+### Configuring SSL in the CICS TS plug-in
 
 Each CICS step has default,hidden properties. In order to use SSL, update the relevant properties with the following values.
 

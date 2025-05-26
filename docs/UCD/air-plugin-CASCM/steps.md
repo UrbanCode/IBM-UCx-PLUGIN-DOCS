@@ -3,7 +3,7 @@
 * [Harvest Checkout](#harvest_checkout)
 
 
-### Harvest Checkout
+## Harvest Checkout
 
 Use hco to checkout files from CA SCM
 

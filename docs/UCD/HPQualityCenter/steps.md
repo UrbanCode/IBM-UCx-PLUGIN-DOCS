@@ -13,7 +13,7 @@
     - [Update Issues](#update-issues)
 
 
-### Add Comments
+## Add Comments
 
 Add comments to a defect in HP Quality Center.
 
@@ -33,7 +33,7 @@ Add comments to a defect in HP Quality Center.
 | Server URL | String | The base URL of the Quality Center instance. It usually ends with /qcbin. | Yes |
 | Username | String | The username to authenticate with Quality Center. | Yes |
 
-### Check Status
+## Check Status
 
 Ensure the status of issues are in the expected state.
 
@@ -53,7 +53,7 @@ Ensure the status of issues are in the expected state.
 | Server URL | String | The base URL of the Quality Center instance. It usually ends with /qcbin. | Yes |
 | Username | String | The username to authenticate with Quality Center. | Yes |
 
-### Create Issue
+## Create Issue
 
 Create a new defect in HP Quality Center.
 
@@ -78,7 +78,7 @@ Create a new defect in HP Quality Center.
 | Summary | String | A summary for the new defect. Default max length is 255. | Yes |
 | Username | String | The username to authenticate with Quality Center. | Yes |
 
-### Query Defects
+## Query Defects
 
 Query and return
 
@@ -93,7 +93,7 @@ Query and return
 | Server URL | String | The base URL of the Quality Center instance. It usually ends with /qcbin. | Yes |
 | Username | String | The username to authenticate with Quality Center. | Yes |
 
-### Run Test Set
+## Run Test Set
 
 Run a Test Set using HP Quality Center. This step is only functional on a Windows system capable of executing Visual Basic scripts. If a test doesnt have a Planned Host in the HP ALM Test Lab, you must provide a Remote Host or check the Run Locally option to run the tests on your local HP ALM server.
 
@@ -113,7 +113,7 @@ Run a Test Set using HP Quality Center. This step is only functional on a Window
 | Timeout | String | Test run timeout, in minutes. | Yes |
 | Username | String | The username to authenticate with Quality Center. | Yes |
 
-### Update Issues
+## Update Issues
 
 Update one or more defects in HP Quality Center.
 

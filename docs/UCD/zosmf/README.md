@@ -11,7 +11,7 @@ The zOS Management Facility plug-in includes steps to create and manage z/OSMF w
 * This plug-in requires DevOps Deploy 6.2.0 or later.Specific resource icons for z/OS software instances are used in DevOps Deploy 6.2.6 and later
 
 
-### Available Steps
+## Available Steps
 
 Create Workflow: Create a workflow.
 

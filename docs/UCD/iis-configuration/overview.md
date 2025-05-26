@@ -5,7 +5,7 @@ The IISConfigure plug-in includes steps to discover IIS configurations, and to a
 
 To add the IISConfigure plug-in steps to processes, click **IISConfiguration > Discovery** in the step palette of the process editor.
 
-### Prerequisites
+## Prerequisites
 
 * IIS and Microsoft Web Deploy must be installed on the agent computer.
 * The [File Utils plug-in](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/FileUtils/) (version 49 or later) must be installed.
@@ -13,7 +13,7 @@ To add the IISConfigure plug-in steps to processes, click **IISConfiguration > D
 * The [Groovy plug-in](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/Groovy/) (version 7 or later) must be installed.
 * The [IBM DevOps Deploy Versions plug-in](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/uDeploy-Version/) (version 62 or later) must be installed.
 
-### Compatibility
+## Compatibility
 
 This version of the IISConfigure plug-in was tested with Microsoft IIS versions 8.0 and 8.5 on Windows Server 2012 and Windows Server 2012 R2.
 
@@ -21,7 +21,7 @@ This plug-in requires version 6.2.0.2 or later of IBM DevOps Deploy.
 
 This plug-in supports agents that are running on Microsoft Windows.
 
-### Installation
+## Installation
 
 No special steps are required for installation. See [Installing plug-ins in DevOps products](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps products").
 

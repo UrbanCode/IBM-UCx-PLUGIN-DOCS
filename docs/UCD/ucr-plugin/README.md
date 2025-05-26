@@ -9,7 +9,7 @@ This plug-in provides several steps for retrieving and updating information in I
 * This plug-in is supported to run against IBM DevOps Release v6.0.1.2 or higher
 
 
-### Available Steps
+## Available Steps
 
 Add Comment to Task: Add a comment to an automated task that was started from a scheduled deployment.
 

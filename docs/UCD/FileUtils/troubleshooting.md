@@ -5,13 +5,13 @@
 * [Copy Directory on Windows](#copy-directory-on-windows)
 
 
-### Copy Directory on Windows
+## Copy Directory on Windows
 
 
 
 Due to the innate case insensitivity of the Windows OSs file system, the Copy Directory step cannot support the renaming of files or folders when the same case-insensitive file or folder name exists in the destination directory. This inability holds true whether the file or folder is being renamed in place or in a different destination directory. This issue is documented in [Apache Ants Copy step](https://ant.apache.org/manual/Tasks/copy.html).
 
-### Work Arounds
+## Work Arounds
 
 If you intend to rename a file or folder in a destination folder, then delete the file first in the destination directory before the files and folders are copied.
 

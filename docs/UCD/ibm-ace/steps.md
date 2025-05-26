@@ -15,7 +15,7 @@
 - [Stop Integration Node](#stop-integration-node)
 - [Stop Integration Server](#stop-integration-server)
 
-### Create Integration Node
+## Create Integration Node
 
 Create an Integration Node (Broker). This command creates the WebSphere MQ queues required by the broker if they do not already exist.
 
@@ -28,7 +28,7 @@ Create an Integration Node (Broker). This command creates the WebSphere MQ queue
 | Service Password | String | The password for the service user ID. | No |
 | Service User ID | String | The user ID under which the broker runs. | No |
 
-### Create Integration Server
+## Create Integration Server
 
 Create integration servers.
 
@@ -38,7 +38,7 @@ Create integration servers.
 | Integration Servers | String | A list of integration servers to create. The servers must be defined on the broker. Seperate each with a comma or new line. | Yes |
 | Port | String | The port of the target integration node. | Yes |
 
-### Delete Integration Node
+## Delete Integration Node
 
 Delete an Integration Node (Broker).
 
@@ -49,7 +49,7 @@ Delete an Integration Node (Broker).
 | Delete WebSphere MQ Queues | Boolean | Check this box to delete all current integration server administration security WebSphere MQ queues along with the integration node. | No |
 | Integration Node (Broker) | String | The name of the integration node to delete. | Yes |
 
-### Delete Integration Server
+## Delete Integration Server
 
 Create integration servers.
 
@@ -59,7 +59,7 @@ Create integration servers.
 | Integration Servers | String | A list of integration servers to delete. The servers must be defined on the broker. Seperate each with a comma or new line. | Yes |
 | Port | String | The port of the target integration node. | Yes |
 
-### Deploy
+## Deploy
 
 Deploy a Broker Archive.
 
@@ -77,7 +77,7 @@ Deploy a Broker Archive.
 | Timeout Value | String |  This parameter specifies the maximum time in seconds that the command waits for the integration node to complete the request before returning. | No |
 | Trace File Name | String | This parameter sends internal debug trace information about a command to the specified file. | No |
 
-### Does Integration Server Exist
+## Does Integration Server Exist
 
 Does Integration Server Exist.
 
@@ -87,7 +87,7 @@ Does Integration Server Exist.
 | Integration Server | String | Integration Server name to identify its existence. | Yes |
 | Port | String | The port of the target integration node. | Yes |
 
-### Start Integration Node
+## Start Integration Node
 
 Starts an integration node (broker).
 
@@ -96,7 +96,7 @@ Starts an integration node (broker).
 | ACE Installation Directory | String | The installation directory of the IBM ACE server. For example: /opt/ibm/server. | Yes |
 | Integration Node (Broker) | String | The name of the integration node to start. | Yes |
 
-### Start Integration Server
+## Start Integration Server
 
 Start integration servers.
 
@@ -106,7 +106,7 @@ Start integration servers.
 | Integration Servers | String | A list of integration servers to start. The servers must be defined on the broker. Seperate each with a comma or new line. | Yes |
 | Port | String | The port of the target integration node. | Yes |
 
-### Re-start Integration Server
+## Re-start Integration Server
 
 Re-start integration servers.
 
@@ -116,7 +116,7 @@ Re-start integration servers.
 | Integration Servers | String | A list of integration servers to start. The servers must be defined on the broker. Seperate each with a comma or new line. | Yes |
 | Port | String | The port of the target integration node. | Yes |
 
-### Stop Integration Node
+## Stop Integration Node
 
 Stops an integration node (broker).
 
@@ -125,7 +125,7 @@ Stops an integration node (broker).
 | ACE Installation Directory | String | The installation directory of the IBM ACE server. For example: /opt/ibm/server. | Yes |
 | Integration Node (Broker) | String | The name of the integration node to stop. | Yes |
 
-### Stop Integration Server
+## Stop Integration Server
 
 Stop integration servers.
 

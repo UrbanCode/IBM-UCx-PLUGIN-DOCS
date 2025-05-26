@@ -17,13 +17,13 @@ To use the plug-in, the apiconnect (apic) command line toolkit must be installed
 
 The directions below to demonstrate how to deploy your applications through DevOps Deploy.
 
-### API ConnectPublish Loopback Application
+## API ConnectPublish Loopback Application
 
 ####
 
 The Publish Loopback Application process takes a previously created Loopback application and publishes it to an API Connect instance. The catalog and application must be previously created on API Manager. Log into your [Bluemix account](https://new-console.ng.bluemix.net/apis/apiconnect) for API Manager. Follow the prerequisite steps to prepare an application for deployment. If the prerequisite steps are followed, many of the predefined values in the template are untouched.
 
-#### Prerequisites
+### Prerequisites
 
 The following prerequisites must be completed.
 
@@ -32,7 +32,7 @@ The following prerequisites must be completed.
 * The name of the Catalog is Sandbox, with an ID of sb
 * The name of the Application is Acme Bank, with an ID of acme-bank**Note:** Do not follow any steps that point to using the command line.
 
-#### DevOps Deploy steps
+### DevOps Deploy steps
 
 
 After the prerequisites are completed, the following tasks are done in DevOps Deploy.
@@ -49,7 +49,7 @@ After the prerequisites are completed, the following tasks are done in DevOps De
 
 **Note:** In apic version 1.0.2, you may experience an authentication error when deploying a Loopback app. If so, refer to the troubleshooting page to resolve the issue.
 
-#### Template Process
+### Template Process
 
 
 This template is composed of six steps:
@@ -61,12 +61,12 @@ This template is composed of six steps:
 5. Publish an Application
 6. Logout
 
-### API ConnectRelease API Product Definitions from Drafts
+## API ConnectRelease API Product Definitions from Drafts
 
 ###
 The Release API Product Definitions from Drafts template takes a previously definition YAML file, saves it to Drafts, and then publishes it to an API Connect instance. The catalog and application must be previously created on [API Manager](https://new-console.ng.bluemix.net/apis/apiconnect).
 
-#### Prerequisite Steps
+### Prerequisite Steps
 
 The following prerequisites steps prepare a definition for deployment. If the prerequisite steps are followed, many of the templates predefined values may be left untouched.
 
@@ -77,7 +77,7 @@ The following prerequisites steps prepare a definition for deployment. If the pr
 3. `apic create --type product --title "Banking Services" --apis loans.yaml` to create the final product definition named: banking-services.yaml. Record the location of this file, this information is needed later.
 3. Create a catalog on API Connect. Follow the first set of steps one through four [here](https://www.ibm.com/support/knowledgecenter/SSMNED_5.0.0/com.ibm.apic.toolkit.doc/tutorial_cli_project_stage_command.html?cp=SSMNED_5.0.0%2F1-2-0-1-4&lang=en). It is not necessary to save the catalog and application identifiers. When completed, the name of the Catalog is Sandbox, with an ID of sb. The same Sandbox catalog may be reused if it has been previously created.
 
-#### DevOps Deploy steps
+### DevOps Deploy steps
 
 
 After the prerequisites are completed, the following tasks are done in DevOps Deploy.
@@ -94,7 +94,7 @@ After the prerequisites are completed, the following tasks are done in DevOps De
 
 **Note:** The `loans.yaml` file created in the prerequisite steps, might not have the correct gateway assigned causing an error to occur while pushing or publishing a API definition. Refer to the troubleshooting page to resolve this issue.
 
-#### Template Process
+### Template Process
 
 
 This template is composed of four steps:

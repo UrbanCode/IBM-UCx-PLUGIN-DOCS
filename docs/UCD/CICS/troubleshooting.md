@@ -3,7 +3,7 @@
 
 For more questions and answers, see the [DevOps forum](https://community.ibm.com/community/user/integration/communities/community-home?communitykey=9adfe6b6-2e23-4895-8b27-38b93b5e152c&tab=groupdetails "DevOps forum").
 
-### Troubleshooting sections
+## Troubleshooting sections
 
 - [CICS TS - Troubleshooting](#cics-ts---troubleshooting)
     - [Troubleshooting sections](#troubleshooting-sections)
@@ -15,13 +15,13 @@ For more questions and answers, see the [DevOps forum](https://community.ibm.com
     - [Resolving Unsupported CICS release message](#resolving-unsupported-cics-release-message)
     - [Error loading plugin](#error-loading-plugin)
 
-### FAQ
+## FAQ
 
 **If a step fails, is there a rollback mechanism provided?**
 
 The CICS TS plug-in does not provide a specific rollback mechanism for a failed process or step. When a step fails, the context of the failure is important. First, check the step logs for more details on how the step failed. Then you can either manually rollback the relevant steps, or preferably, you can build and run a process that will take your environment back to the state it was in prior to the process having run.
 
-### Using the step logs
+## Using the step logs
 
 Most failures can be detected by inspecting the step output logs in IBM DevOps Deploy. If an error occurs within the UCD set up, the step output log typically contains an error message similar to authentication failed, which often indicates an incorrect username and password.
 
@@ -55,7 +55,7 @@ Details for *any* EXEC CICS command and respective RESP and RESP2 codes are avai
 
 **Note:** If the target scope of a step is more than one region, the step will fail when *one or more regions* fail to complete a request. Use the step log to determine the scope, then use the CICS logs to determine the specific regions in which the failures occurred, and confirm the cause.
 
-### Resources which operate asynchronously
+## Resources which operate asynchronously
 
 When a CICS TS plug-in step completes, it is generally true that the action also completes in CICS TS, as the operation is synchronous. However, there are a number of CICS resources where steps run asynchronously.
 
@@ -73,17 +73,17 @@ Here is a list of steps, with respective resources that complete asynchronously:
 
 **Close resources** Data Table, File, TCP/IP Service.
 
-### Checking the status of a resource that was installed in the previous step
+## Checking the status of a resource that was installed in the previous step
 
 After a resource is installed in CICS, it might take a few seconds for the existence of the resource to be returned by CICSPlex SM. To help ensure that the steps which check the status of a resource return an accurate status, the default timeout value is 15 seconds. If you decrease this timeout value, the step might not return the correct status of the resource, and you might receive the following error:
 
 `BUZCP0046E Resource "MYRESO01" does not exist in the target scope`
 
-### Collecting data for plug-in problems
+## Collecting data for plug-in problems
 
 If you need to open a service request(SR)or problem management record (PMR), please collect the process logs associated with the failure and the logs for the UCD agent.
 
-### Resolving Unsupported CICS release message
+## Resolving Unsupported CICS release message
 
 If you have recently updated CICS, you might receive the following error when you use the plug-in:
 
@@ -91,7 +91,7 @@ If you have recently updated CICS, you might receive the following error when yo
 
 To resolve this issue, upgrade to the latest version of the CICS TS plug-in.
 
-### Error loading plugin
+## Error loading plugin
 
 If you receive the following error:
 

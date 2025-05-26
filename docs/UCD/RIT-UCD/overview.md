@@ -5,7 +5,7 @@ With the Rational Integration Tester (RIT) plug-in you can automate invoking a t
 
 This plugin includes one or more steps, click **Steps** for step details and properties.
 
-### Compatibility
+## Compatibility
 
 This plug-in works with IBM Rational Integration Testerv8.5 or later.
 
@@ -15,7 +15,7 @@ This plug-in runs on all operating systems that are supported by both the IBM De
 
 The Run RIT Test step must be ran on the same system that the Rational Integration Tester is installed.
 
-### Installation
+## Installation
 
 No special steps are required for installation. See [Installing plug-ins in DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy").
 

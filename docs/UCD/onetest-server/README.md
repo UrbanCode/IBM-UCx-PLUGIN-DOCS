@@ -8,7 +8,7 @@ The HCL OneTest Server plug-in for DevOps Deploy provides a step to Run HCL OneT
 * This plug-in works with HCL OneTest 9.2.1 or higher.
 
 
-### Available Steps
+## Available Steps
 
 Run HCL OneTest Server test
 

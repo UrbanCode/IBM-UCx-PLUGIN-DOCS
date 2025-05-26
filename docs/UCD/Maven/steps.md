@@ -5,7 +5,7 @@
 * [Maven Resolve](#maven_resolve)
 
 
-### Maven Resolve
+## Maven Resolve
 
 Resolve artifacts from Maven.
 

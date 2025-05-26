@@ -13,35 +13,35 @@ This plug-in includes the following steps.
 
 To add the Deploy Tools plug-in steps to processes, click **Quality > Functional Testing > Simple Web Test** in the step palette of the process editor
 
-### Compatibility
+## Compatibility
 
 This plug-in requires IBM DevOps Deploy version 6.0 or later.
 
 This plug-in runs on all operating systems that the DevOps Deploy agents supports, except for IBM z/OS.
 
-### Installation
+## Installation
 
 No special steps are required for installation. See [Installing plug-ins in DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy").
 
-### History
+## History
 
-#### Version 10
+### Version 10
 
 Updated log4j and Jettison libs.
 
-#### Version 9
+### Version 9
 
 Support property file encryption.
 
-#### Version 8
+### Version 8
 
 This version adds proxy compatibility, and includes a fix for a build issue related to a missing log4j library.
 
-#### Version 7
+### Version 7
 
 This version includes a fix for APAR PI35342compatibility defect with IBM DevOps Deploy version 6.1.0.4 and later.
 
-#### Version 6
+### Version 6
 
 This version includes a Character Encoding property for the Verify Deployment Step. This property specifies the character encoding to use when reading the response body from a website.
 

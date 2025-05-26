@@ -10,7 +10,7 @@ In an UNIX environment, the **apachectl** script is used to start and stop the A
 In a Windows environment, the Apache HTTP server is installed as a service automatically during the installation. The plug-in steps calls the Apache Service Monitor to process starting and stopping the server.
 
 
-### **Step palette**
+## **Step palette**
 
 To access this plug-in in the palette, click **Application Server** > **Apache**.
 

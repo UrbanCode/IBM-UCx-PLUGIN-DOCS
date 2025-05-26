@@ -4,14 +4,14 @@
 * [Import Version](#import_version)
 
 
-### Import Version
+## Import Version
 
 Creates a new component version and downloads the archive to the CodeStation.
 
 This step has no input properties.
 
 
-### Roles in the GitHub Release plug-in
+## Roles in the GitHub Release plug-in
 
 The plug-in adds these roles automatically to resources. You cannot add these roles manually.
 
@@ -20,7 +20,7 @@ The plug-in adds these roles automatically to resources. You cannot add these ro
 * [GitHubReleaseImportProperties](#githubreleaseimportproperties_role)
 
 
-### GitHubReleaseComponentProperties
+## GitHubReleaseComponentProperties
 
 
 | Name | Type | Description |
@@ -33,7 +33,7 @@ The plug-in adds these roles automatically to resources. You cannot add these ro
 | Preserve Execute Permissions | Boolean | For Linux and UNIX operating systems, select this property to retain the execute permissions of each file. |
 | User | String | The username to use to connect to the GitHub repository, if authentication is required. |
 
-### GitHubReleaseImportProperties
+## GitHubReleaseImportProperties
 
 
 | Name | Type | Description |

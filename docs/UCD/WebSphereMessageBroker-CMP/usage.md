@@ -1,17 +1,17 @@
 
 # IBM Integration Bus (formerly WebSphere Message Broker) - CMP - Usage
 
-### IIB Integration With DevOps Deploy
+## IIB Integration With DevOps Deploy
 
 The [IIB Integration With DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/07/27/iib-integration-with-urbancode-deploy) blog post contains in depth usage of the IIB plugin.
 
-### Usage Documentation
+## Usage Documentation
 
 * [Deploy a BAR File](#deploy-bar-file)
 * [Concurrently Deploy BAR Files](#concurrently-deploy-bar-files)
 * [Common Step Properties](#common-step-properties)
 
-### IBM Integration API JAR files
+## IBM Integration API JAR files
 
 
 
@@ -49,7 +49,7 @@ The following table list the JAR files required based on the IBM Integration Bus
 |
 
 
-### IIB Security with UCD
+## IIB Security with UCD
 
 
 
@@ -87,12 +87,12 @@ This means that UserA only has access to run processes in the DEV environment of
 [![](media/iib-mappings.png)](media/iib-mappings.png)
 
 
-### Deploy a BAR File
+## Deploy a BAR File
 
 
 
 
-### Example
+## Example
 
 In this process example, the broker archive (.bar) file includes overrides as needed for the target environment. A target execution group exists, and has a JVM heap size sufficient for the .bar file. Alternately, you can run a process step to create an execution group that has the appropriate properties.
 
@@ -105,7 +105,7 @@ In this process example, the broker archive (.bar) file includes overrides as ne
 7. As required, run the [WMB Set Message Flows Property](#wmb_set_message_flows_property) step to set runtime properties on message flows.
 8. As required, run the [WMB Stop Message Flows](#wmb_stop_message_flows) and [WMB Start Message Flows](#wmb_start_message_flows) steps to stop and start message flows.
 
-### Concurrently Deploy BAR Files
+## Concurrently Deploy BAR Files
 
 
 
@@ -119,7 +119,7 @@ Below I have outlined an Application Process example that can mitigate this depl
 * Generic Process and with a single Create Application Property step.
 * Component Process with the Deployment process. For the issue outlined above, this process should contain the IIB plug-ins Deploy step.
 
-### Application Process Overview
+## Application Process Overview
 
 [![](media/applicationproc-1.png)](media/applicationproc-1.png)
 Application Process Designer
@@ -131,7 +131,7 @@ The above screenshot outlines the application process that will control the BAR 
 The Default, or left, branch is followed the first time the application process is run. Here the Deploy Sequentially step will run each components Deploy BAR process one at a time. This ensures that there will be no conflicting deployments and all BAR files will be imported successfully. After all deployments are complete, the **Set alreadyDeployed as True** generic process step is run. Utilizing a separate generic process, the application will become updated with the new **alreadyDeployed** property. This property will then be used in all following application processes in the Switch step. Once set to `true`, subsequent application processes will begin to follow the true, or right, branch. This side of the application process allows all component deploy processes to run in parallel. Since a BAR file has been deployed at least one time, deployment conflicts in IIB are no longer a concern and all files are deployed quickly. After the first deployment, the total time will be a factor of 1 rather than N.
 
 
-### Install Multiple Components Steps
+## Install Multiple Components Steps
 
 [![](media/deploymulti.png)](media/deploymulti.png)
 Deploy Sequentially and Deploy Concurrently step configurations
@@ -140,7 +140,7 @@ Deploy Sequentially and Deploy Concurrently step configurations
 The Deploy Sequentially and Deploy Concurrently steps are very similar, but contain two major differences in their configuration. Highlighted by the red squares in the above step configuration, the **Max # of Concurrent Components.** and **Max. # of Concurrent Jobs.** have different values. In the Deploy Sequentially step, both of these values are set to 1. This forces IBM DevOps Deploy to only run a single deployment at a time. These properties are critical to ensure that there are no conflicts during BAR deployments. The Deploy Concurrently step however, may use the default values. Here IBM DevOps Deploy is enabled to run all components simultaneously and drastically decrease future deployment times. Notice that both of these configurations use the same Component Tag and Component Process. In my example, I have tagged my components **iib.bar**.
 
 
-### Create Application Property: Generic Process
+## Create Application Property: Generic Process
 
 
 Download JSON: [Create alreadyDeployed Application Property](CreatealreadyDeployedApplicationProperty.txt) process
@@ -156,7 +156,7 @@ The Applications Generic Process Configuration
 The above screenshot shows the application processs step configuration defining the **Create alreadyDeployed Application Property** process. You will need to use a specific application step type found under: **Utility Steps > Run Generic Process** . During configuration and in the above screenshot, you can see a special dynamic property called `Application ID`. This property was initialized in the Create Application Property process that we previously installed. Specifying ```${application.id}``` here enables the generic process to know on which application to create the **alreadyDeploy** property. If you specified a Default Resource in the **Create alreadyDeployed Application Property** process, you can leave the Resource Path blank. Otherwise, it will need to be updated with a direct path to an agent.
 
 
-### Example Deployments
+## Example Deployments
 
 
 Below are the DevOps deployment logs from two different deployments. In this example, I have deployed two different components labeled **IIB BAR 1** and **IIB BAR 2**. In the first screenshot, where the **deployedAlready** property was not specified, the Deploy Sequentially (Default) branch was followed. Notice that the two Deploy BAR component processes start times, which about a minute each, do not overlap. IIB BAR 1 is run separately and to completion before IIB BAR 2 begins. Once all component processes are completed, the Create Application Property process is run and the **alreadyDeploy** property is set.
@@ -174,7 +174,7 @@ Now that the deployment scenario has run once, the Deploy Concurrently (true) br
 Concurrent Deployment Logs
 
 
-### Environment Based Concurrency
+## Environment Based Concurrency
 
 
 This same overall process can be used, with small changes, to solve the same BAR deployment concurrency issues from the environment level. While the application property is simple because it uses a single property, in reality, you will deploying these files to different environments. Inevitably, you will have the same concurrency issues on these other servers as well. To fix this, you will want to create an `alreadyDeployed` property on the environment, rather than application. Follow the screenshots below to see the necessary changes to the above single application property process.
@@ -197,13 +197,13 @@ Update Application Processs Generic Process step
 Once these changes have been made, you can add any number of new environments and the process will know whether or not the BARs should be sequentially or concurrently deployed. On deployments to these environments, you will see the `alreadyDeployed` property on each of these environments.
 
 
-### Community Involvement
+## Community Involvement
 
 
 The [IBM Integration Bus plug-in](https://github.com/IBM-UrbanCode/IBM-Integration-Bus-UCD) for IBM DevOps Deploy is a fully supported open source project that is accepting contributions. Please ask any questions about the documentation or plug-in usage on the [GitHub Issues page](https://github.com/IBM-UrbanCode/IBM-Integration-Bus-UCD/issues).
 
 
-### Common step properties
+## Common step properties
 
 
 

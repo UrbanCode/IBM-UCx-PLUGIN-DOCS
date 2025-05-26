@@ -10,7 +10,7 @@
 * [Update Transient Environment](#update_transient_environment)
 
 
-### Create Transient Environment
+## Create Transient Environment
 
 Create a transient Rational Integration Tester environment.
 
@@ -22,7 +22,7 @@ Create a transient Rational Integration Tester environment.
 | Domain | String | The name of the domain. | Yes |
 | Rational Test Control Panel URL | String | The URL of the Rational Test Control Panel. | Yes |
 
-### Delete Transient Environment
+## Delete Transient Environment
 
 Delete a transient Rational Integration Tester environment.
 
@@ -34,7 +34,7 @@ Delete a transient Rational Integration Tester environment.
 | Rational Test Control Panel URL | String | The URL of Rational Test Control Panel. | Yes |
 | User name | String | The user name that has permission to perform the operation. | No |
 
-### Start Scenario
+## Start Scenario
 
 Start a scenario
 
@@ -54,7 +54,7 @@ Start a scenario
 | Specify ALL to stop all stubs in the environment; OPERATIONS to stop the stubs for the operations in the scenario; defaults to NONE to leave any existing stubs running  | No |
 | User name | String | The user name under which to perform the operation to get through environment locks | No |
 
-### Start Stub
+## Start Stub
 
 Start a stub.
 
@@ -71,7 +71,7 @@ Start a stub.
 | User name | String | The user name under which to perform the operation to get past environment locks | No |
 | Version | String | The version of the stub (virtual service) to start | No |
 
-### Stop Scenario
+## Stop Scenario
 
 Stop a scenario.
 
@@ -85,7 +85,7 @@ Stop a scenario.
 | Scenario owner | String | Filters the scenarios by owner | No |
 | User name | String | The user name under which to perform the operation to get past environment locks | No |
 
-### Stop Stub
+## Stop Stub
 
 Stop a stub.
 
@@ -101,7 +101,7 @@ Stop a stub.
 | User name | String | The user name under which to perform the operation to get past environment locks | No |
 | Version | String | The version of the stub (virtual service) to stop | No |
 
-### Update Transient Environment
+## Update Transient Environment
 
 Update a Rational Integration Tester transient environment.
 

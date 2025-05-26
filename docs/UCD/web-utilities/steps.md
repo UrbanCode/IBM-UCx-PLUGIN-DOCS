@@ -4,7 +4,7 @@
 * [Send HTTP Call](#send_http_call)
 * [Upload to FTP Server](#upload_to_ftp_server)
 
-### Delete from FTP Server
+## Delete from FTP Server
 
 
 Delets a file from an FTP server.
@@ -20,7 +20,7 @@ Delets a file from an FTP server.
 | Port | String | The port the FTP server listens on. | Yes |
 | Username | String | Username to authenticate with the FTP server. | Yes |
 
-### Send HTTP Call
+## Send HTTP Call
 
 
 Sends an HTTP request to a URL, with headers and data.
@@ -40,7 +40,7 @@ Sends an HTTP request to a URL, with headers and data.
 | timeout | Integer | The HTTP operation will timeout if it does not complete after the time specified here. Default timeout is 5 minutes. | No |
 
 
-### Upload to FTP Server
+## Upload to FTP Server
 
 Uploads a file to an FTP server.
 

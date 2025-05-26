@@ -18,7 +18,7 @@ This plug-in is developed and supported by IBM DevOps with assistance from the I
 * [Source project](https://github.com/IBM-UrbanCode/IBM-Installation-Manager-UCD)
 
 
-### Available Steps
+## Available Steps
 
 Execute Response FileExecute a response file using IBM Installation Manager.
 

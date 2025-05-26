@@ -8,21 +8,21 @@ The Microsoft IIS MS-Deploy plug-in automates synchronizing and deleting servers
 
 To add the Microsoft IIS MS-Deploy plug-in steps to processes, click **Application Server > IIS > IIS MSDeploy** in the step palette of the process editor.
 
-### Installation
+## Installation
 
 No special steps are required for installation. See [Installing plug-ins in DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy").
 
-### History
+## History
 
-#### Version 6
+### Version 6
 
 Updated plugin for groovy3 support.
 
-#### Version 5
+### Version 5
 
 Log4j and Jettison dependency updated .
 
-#### Version 3
+### Version 3
 
 Version 3 includes a fix for an issue related to white space in path names.
 

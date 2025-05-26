@@ -15,7 +15,7 @@ The Rally plug-in includes the following step that is related to creating Rally 
 
 To add the Rally plug-in steps to processes, click **Issue Tracking > Rally** in the step palette of the process editor.
 
-### Compatibility
+## Compatibility
 
 The IBM DevOps Deploy automation plug-in for Rally works with Rally Community, Enterprise, and Unlimited versions.
 
@@ -23,17 +23,17 @@ This plug-in requires version 6.0 or later of IBM DevOps Deploy.
 
 This plug-in runs on all operating systems that IBM DevOps Deploy supports.
 
-### Installation
+## Installation
 
 No special steps are required for installation. See [Installing plug-ins in DevOps products](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps products").
 
-### History
+## History
 
-#### Version 4.772117
+### Version 4.772117
 
 Version 4 includes support for authenticating with tokens (API keys).
 
-#### Version 1.0.0b.672870
+### Version 1.0.0b.672870
 
 Version 1.0.0b supports IBM DevOps Deploy version 6.0. The following features were added:
 

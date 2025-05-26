@@ -4,7 +4,7 @@
 * [Run RPT Test](#run_rpt_test)
 
 
-### Run RPT Test
+## Run RPT Test
 
 Execute Web UI Tests from IBM Rational Test Workbench
 

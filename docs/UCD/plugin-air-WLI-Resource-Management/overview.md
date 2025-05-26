@@ -18,7 +18,7 @@ The plug-in includes the following steps:
 * [Update JMS EG](#update_jms_eg)
 * [Update XML Cache Entry](#update_xml_cache_entry)
 
-### Compatibility
+## Compatibility
 
 This plug-in requires version 6.0.1 and later of IBM DevOps Deploy.
 
@@ -26,13 +26,13 @@ This plug-in supports WebLogic Server versions 10g and later.
 
 The steps in this plug-in run on any agents that the IBM DevOps Deploy server supports.
 
-### Installation
+## Installation
 
 No special steps are required for installation. See [Installing plug-ins in DevOps products](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy").
 
-### History
+## History
 
-#### Initial version 1.485262 released on May 22, 2014
+### Initial version 1.485262 released on May 22, 2014
 
 
 |Back to ...||Latest Version|Oracle WebLogic Integration Resource Management |||||

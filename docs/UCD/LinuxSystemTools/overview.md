@@ -5,7 +5,7 @@ Linux System Tools - Overview
 # Overview
 
 
-### Overview
+## Overview
 
 
 
@@ -13,23 +13,23 @@ The Linux System Tools plug-in includes steps to automate several Linux operatin
 
 This plugin includes one or more steps, click **Steps** for step details and properties.
 
-### Compatibility
+## Compatibility
 
 This plug-in requires IBM DevOps Deploy version 6.0 or later.
 
 This plug-in runs on the Linux operating systems that DevOps Deploy supports.
 
-### Installation
+## Installation
 
 No special steps are required for installation. See [Installing plug-ins in DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy").
 
-### History
+## History
 
-#### Version 14
+### Version 14
 
 * Log4j and Jettison dependency updated
 
-#### Version 13
+### Version 13
 
 * Fixed the reboot step from failing intermittently
 

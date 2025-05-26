@@ -11,7 +11,7 @@
     - [File Path field](#file-path-field)
     - [Autodiscovery fails and no logs are available](#autodiscovery-fails-and-no-logs-are-available)
 
-### General Troubleshooting
+## General Troubleshooting
 
 If a step in this plugin fails, the first check is to verify that it is possible to run wsadmin on the command line, with the same user that runs the step and with the same connection parameters. You should run the wsadmin command on the same system where the UCD agent is running.
 
@@ -45,17 +45,17 @@ If this command fails, contact IBM Support and request WebSphere Application Sup
 - output of clicking on Download All on the process execution page in DevOps Deploy. This action produces a zip file that contains the output of each step in the process.
 - additional information can be found at [MustGather: DevOps Deploy WebSphere Deploy and Configure plugins](http://www.ibm.com/support/docview.wss?uid=swg2C1000185)
 
-### Start Server step
+## Start Server step
 
 The Start Server step works only with WebSphere Application Server Network Deployment. The Start Server step does not work on WebSphere Application Server Base.
 
-### WebSphere Topology Discovery step
+## WebSphere Topology Discovery step
 
 You must use the Update from Live Configuration wrapper step to call this step. Do not add this step directly to processes. Click **Configuration Discovery > Update from Live Configuration** in the step palette, and then drag the step to the process diagram. In the **Plugin Step** list, select **WebSphere Topology Discovery**. If you are creating a generic process, specify``${p:resource.path}`` for the **Resource** field. When the process runs, the wrapper step populates the resource tree with the data that is discovered by the WebSphere Topology Discovery step.
 
 Note: If you call this step from a generic process, the resource that you specify must be a cell resource. If you call this step from a component process, the component must be under the cell resource in the resource tree.
 
-### Additional CommandLine Arguments field
+## Additional CommandLine Arguments field
 
 The **Additional CommandLine Arguments** field for process steps that install or update applications is a text box. Enter each argument on a separate line of the text box. For example, to send the arguments -javaoption -Xms256m -javaoption -Xmx512m, specify the following text for the **Additional CommandLine Arguments** field:
 
@@ -66,11 +66,11 @@ The **Additional CommandLine Arguments** field for process steps that install or
 -Xmx512m
 ```
 
-### File Path field
+## File Path field
 
 The **File Path** field for the **Export Application** step must be an absolute path. On Microsoft Windows, specify the path by using forward slashes or double backward slashes. For example: `C:/myapps/exported.ear` or `C:\\myapps\\exported.ear`.
 
-### Autodiscovery fails and no logs are available
+## Autodiscovery fails and no logs are available
 
 If discovery fails and no logs are available, complete this troubleshooting procedure to resolve the issue:
 
@@ -83,4 +83,3 @@ This video also shows provides information about [the autodiscovery process](htt
 |Back to ...||Latest Version|WebSphere Application Server - Deployment |||||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 |[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[131.1165947](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/ucd-WebSphere-131.1165947.zip)|[Readme](README.md)|[Overview](overview.md)|[User permissions](user permissions.md)|[Usage](usage.md)|[Steps](steps.md)|[Roles](roles.md)|[Downloads](downloads.md)|
-

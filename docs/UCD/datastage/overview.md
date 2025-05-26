@@ -6,43 +6,43 @@ This plug-in includes steps to import and export .isx and .dsx files, list a .ds
 
 To add the IBM InfoSphere DataStage plug-in steps to processes, click **InfoSphere> DataStage** in the step palette of the process editor.
 
-### Compatibility
+## Compatibility
 
 The IBM DevOps Deploy automation plug-in for IBM InfoSphere DataStage versions 8.1 and higher. This plug-in requires version 6.0.1 or later of IBM DevOps Deploy.
 
-### Installation
+## Installation
 
 No special steps are required for installation. See [Installing plug-ins in DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy").
 
-### History
+## History
 
-#### Version 10
+### Version 10
 
 *Made correction for default values of few attributes
 *URBANCODE-I-486: Enhancing plugin to handle false import error from DataStage.
 
-#### Version 9
+### Version 9
 
 Fixes APAR PH02989 - Delete asset not working.
 
-#### Version 8
+### Version 8
 
 * Fixes APAR PI99404Added options to configure the -qs and -qspa flags for the dscc command in the Compile Job or Routine step.
 * RFE 103645Added the Delete Assets step.
 * The Default value of the Abort After # Errors property in all istool steps will no longer cause errors.
 * The Export ISX Project will create archives with the timestamp instead of a random number.
 
-#### Version 7
+### Version 7
 
 * Fixes APAR PI8647Export ISX Project and Import ISX Project steps fail with Unknown Operation error.
 
-#### Version 6
+### Version 6
 
 The following update has been made to the Export and Import DSX Project steps:
 
 * RFE 94749Allow the user to enable the creation of a log file, to which the DataStage script output will be written.
 
-#### Version 5
+### Version 5
 
 The following updates have been made to the Export and Import ISX Project steps:
 
@@ -57,7 +57,7 @@ The following updates have been made to the Export ISX Project steps:
 * Generated archive file names are saved as Output Properties.
 * If the -nodesign flag is set, -includeexecutable will be set automatically.
 
-#### Version 4
+### Version 4
 
 Fixed the following bugs with the Export and Import ISX Project steps:
 
@@ -65,15 +65,15 @@ Fixed the following bugs with the Export and Import ISX Project steps:
 * The istool path is now used properly to run the istool script.
 * Small updates to reading in .dsx, .xml, or .isx files.
 
-#### Version 3
+### Version 3
 
 Support property file encryption.
 
-#### Version 2
+### Version 2
 
 Added functionality for importing and exporting .isx files. Support added to either warn or crash if a file is not found for DSX Import Service step. MissingMethodException error has been resolved for the DSX Import Service step.
 
-#### Version 1
+### Version 1
 
 Initial Release. Added functionality for importing and export .dsx files, listing .dsx contents, and compiling DataStage projects.
 

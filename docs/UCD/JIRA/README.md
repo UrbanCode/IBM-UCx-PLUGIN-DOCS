@@ -6,7 +6,7 @@ JIRA is an issue tracking tool. You can use the tool to capture and organize iss
 The JIRA plug-in provides integrations with JIRA. You can create and update issues, add comments to an issue, and create reports.
 
 
-### Available Steps
+## Available Steps
 
 Add Comments Add a comment to one or more JIRA issues.
 

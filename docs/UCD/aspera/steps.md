@@ -5,7 +5,7 @@
 * [Upload Artifacts](#upload_artifacts)
 
 
-### Download Artifacts
+## Download Artifacts
 
 Runs an Aspera FASP transfer process from an Aspera server to the localhost computer.
 
@@ -40,7 +40,7 @@ Runs an Aspera FASP transfer process from an Aspera server to the localhost comp
 
 
 
-### Upload Artifacts
+## Upload Artifacts
 
 Runs an Aspera FASP transfer process from the localhost computer to an Aspera server.
 

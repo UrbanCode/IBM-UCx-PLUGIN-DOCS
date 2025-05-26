@@ -8,7 +8,7 @@
 * [Update Work Item](#update_work_item)
 
 
-### Add Comment
+## Add Comment
 
 Use this step to add comments from the current changelog to matching Microsoft TFS defects.
 
@@ -22,7 +22,7 @@ Use this step to add comments from the current changelog to matching Microsoft T
 | TFS Version | Enumeration | The version of the TFS server. Specify one of these versions: 2012 2010 2008 2005 | No |
 | Work Item ID | String | The ID of the work item to change. | Yes |
 
-### Change Work Item State
+## Change Work Item State
 
 Use this step to change the state of a Microsoft TFS work item.
 
@@ -37,7 +37,7 @@ Use this step to change the state of a Microsoft TFS work item.
 | TFS Version | Enumeration | The version of the TFS server. Specify one of these versions: 2012 2010 2008 2005 | No |
 | Work Item ID | String | The ID of the work item to change. | Yes |
 
-### Create Work Item
+## Create Work Item
 
 Use this step to create a new Microsoft TFS work item.
 
@@ -54,7 +54,7 @@ Use this step to create a new Microsoft TFS work item.
 | Title | String | The title of the new work item. | Yes |
 | Type | String | The type of the new work item, for example, Bug, Issue, Task, User Story, or Test Case. | Yes |
 
-### Display Work Item Status
+## Display Work Item Status
 
 Use this step to show the summary of a work item or list of work items.
 
@@ -67,7 +67,7 @@ Use this step to show the summary of a work item or list of work items.
 | TFS Version | Enumeration | The version of the TFS server. Specify one of these versions: 2012 2010 2008 2005 | No |
 | Work Item IDs | String | A comma-separated list of work item IDs. | Yes |
 
-### Update Work Item
+## Update Work Item
 
 Use this step to update fields in a Microsoft TFS work item.
 

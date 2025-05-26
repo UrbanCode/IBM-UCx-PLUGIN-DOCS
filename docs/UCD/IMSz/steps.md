@@ -2,12 +2,12 @@
 # IBM IMS - Steps
 
 
-### Process steps in the IMS plug-in
+## Process steps in the IMS plug-in
 
 * Execute IMS Command
 
 
-### Execute IMS Command
+## Execute IMS Command
 
 Allows execution of IMS type-1 and type-2 commands.
 

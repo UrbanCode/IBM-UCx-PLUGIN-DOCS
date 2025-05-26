@@ -24,7 +24,7 @@ The steps in the Service Virtualization plug-in use the Rational Test Control Pa
 The [Start scenario](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/RTVS-UCD/steps.html#start_scenario) and [Stop scenario](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/RTVS-UCD/steps.html#stop_scenario) steps do not work within a transient environment.
 
 
-### Available Steps
+## Available Steps
 
 [Create a transient environment](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/RTVS-UCD/steps.html#create_transient_environment)
 

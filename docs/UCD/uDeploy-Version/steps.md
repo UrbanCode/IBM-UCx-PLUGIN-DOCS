@@ -10,7 +10,7 @@
 * [Get Version Status Information](#get_version_status_information)
 
 
-### Add Status to Version
+## Add Status to Version
 
 Add a status to a Component Version
 
@@ -19,7 +19,7 @@ Add a status to a Component Version
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Status | String | The status to be applied to the Component Version. | No |
 
-### Add Version Link
+## Add Version Link
 
 Creates or removes a link on a component version which can direct users to supplementary information related to the execution.
 
@@ -33,7 +33,7 @@ Creates or removes a link on a component version which can direct users to suppl
 | URL | String | The website the user will be directed to when the link title is clicked. | Yes |
 | Version Name/ID | String | Name or ID of version where link will be assigned. Ignored if ‘Component’s latest version’ is selected | Yes |
 
-### Create Version
+## Create Version
 
 Create a Component Version and optionally upload files into it.
 
@@ -47,7 +47,7 @@ Create a Component Version and optionally upload files into it.
 | Upload Files | Boolean | Upload files from the current working directory to the version after creation? | No |
 | Version Name | String | The name of the version to remove the status from. | Yes |
 
-### Get Version Properties
+## Get Version Properties
 
 Get the properties of a specific Version in the output properties of this step.
 
@@ -57,7 +57,7 @@ Get the properties of a specific Version in the output properties of this step.
 | Component | String | (Optional) The name or ID of the component whose version has desired properties. | No |
 | Version | String | The name or ID of the version with desired properties. If specifying a version name, you must specify a component. | Yes |
 
-### Remove Status from Version
+## Remove Status from Version
 
 Remove a status from a Component Version
 
@@ -66,7 +66,7 @@ Remove a status from a Component Version
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Status | String | The status to be removed from the Component Version. | No |
 
-### Get Version Status Information
+## Get Version Status Information
 
 Retrieve the status information for a Version and sets the output properties: versionLatestStatus, versionStatuses, and versionStatusIds. The versionStatuses and versionStatusIds. properties will contain a comman-separated-values list of all statuses on the Version. Optionally, print a message and fail this step unless a required Status is present on the Version.
 

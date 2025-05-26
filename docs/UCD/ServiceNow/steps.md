@@ -15,7 +15,7 @@
 * [Update Records](#update_records)
 
 
-### Check Change Request Approval
+## Check Change Request Approval
 
 
 Check that the Approval field of a record.
@@ -34,7 +34,7 @@ Check that the Approval field of a record.
 | Trust All Certificates | Boolean | Select to trust all unsecure certificates. | No |
 | User Name | String | The user name to be used to connect to the ServiceNow server. | No |
 
-### Check Change Request State
+## Check Change Request State
 
 
 Check that the State field of a change record.
@@ -53,7 +53,7 @@ Check that the State field of a change record.
 | Trust All Certificates | Boolean | Select to trust all unsecure certificates. | No |
 | User Name | String | The user name to be used to connect to the ServiceNow server. | No |
 
-### Check Change Requests Child Tasks States
+## Check Change Requests Child Tasks States
 
 Check the states of the tasks related to a given Change Request.
 
@@ -71,7 +71,7 @@ Check the states of the tasks related to a given Change Request.
 | Trust All Certificates | Boolean | Select to trust all unsecure certificates. | No |
 | User Name | String | The user name to be used to connect to the ServiceNow server. | No |
 
-### Check Deployment Window
+## Check Deployment Window
 
 
 Check that the current time falls within the start and end date of the change request.
@@ -91,7 +91,7 @@ Check that the current time falls within the start and end date of the change re
 | Trust All Certificates | Boolean | Select to trust all unsecure certificates. | No |
 | User Name | String | The user name to be used to connect to the ServiceNow server. | No |
 
-### Check Records
+## Check Records
 
 Check records in a specified table against specified field values.
 
@@ -111,7 +111,7 @@ Check records in a specified table against specified field values.
 | Trust All Certificates | Boolean | Select to trust all unsecure certificates. | No |
 | User Name | String | The user name to be used to connect to the ServiceNow server. | Yes |
 
-### Create Records
+## Create Records
 
 Creates records by table name and specified fields.
 
@@ -129,7 +129,7 @@ Creates records by table name and specified fields.
 | Table Name | String | The Name (not the Label) of the table to be updated. Example: change\_request | Yes |
 | Trust All Certificates | Boolean | Select to trust all unsecure certificates. | No |
 
-### Delete Multiple Table Records with Query
+## Delete Multiple Table Records with Query
 
 Deprecated. Please use the Run Encoded Query and Delete Records step instead.
 
@@ -147,7 +147,7 @@ Deprecated. Please use the Run Encoded Query and Delete Records step instead.
 | Table Name | String | The name of the table to update. Example: change\_request | Yes |
 | Trust All Certificates | Boolean | Select to trust all unsecure certificates. | No |
 
-### Delete Records
+## Delete Records
 
 Deletes records by table name and record number.
 
@@ -165,7 +165,7 @@ Deletes records by table name and record number.
 | Table Name | String | The Name (not the Label) of the table to update. Example: change\_request | Yes |
 | Trust All Certificates | Boolean | Select to trust all unsecure certificates. | No |
 
-### Run Encoded Query
+## Run Encoded Query
 
 Run an encoded query and receive a newline list of record system IDs to pass to subsequent steps.
 
@@ -184,7 +184,7 @@ Run an encoded query and receive a newline list of record system IDs to pass to 
 | Trust All Certificates | Boolean | Select to trust all unsecure certificates. | No |
 | User Name | String | The user name to be used to connect to the ServiceNow server. | Yes |
 
-### Set Change Request State
+## Set Change Request State
 
 
 Set the status field of a change request.
@@ -203,7 +203,7 @@ Set the status field of a change request.
 | Trust All Certificates | Boolean | Select to trust all unsecure certificates. | No |
 | User Name | String | The user name to be used to connect to the ServiceNow server. | No |
 
-### Set Task Status
+## Set Task Status
 
 
 Update the state of a task item.
@@ -222,7 +222,7 @@ Update the state of a task item.
 | Trust All Certificates | Boolean | Select to trust all unsecure certificates. | No |
 | User Name | String | The user name to be used to connect to the ServiceNow server. | No |
 
-### Update Records
+## Update Records
 
 Update records by specifying field values.
 
@@ -246,4 +246,3 @@ Update records by specifying field values.
 |Back to ...||Latest Version|ServiceNow |||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 |[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[40.1168551](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ServiceNow/ucd-ServiceNow-40.1168551.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|
-

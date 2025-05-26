@@ -9,7 +9,7 @@
 * [Upload Asset](#upload_asset)
 
 
-### Categorize an Asset
+## Categorize an Asset
 
 Assign one or more categories to an asset.
 
@@ -23,7 +23,7 @@ Assign one or more categories to an asset.
 | User | String | The user name to authenticate with the repository. | No |
 | Version | String | The version for the asset. | Yes |
 
-### Create Relationship to an Asset
+## Create Relationship to an Asset
 
 Create a relationship from one asset to another asset.
 
@@ -39,7 +39,7 @@ Create a relationship from one asset to another asset.
 | Repository URL | String | The URL of the Rational Asset Manager repository. | Yes |
 | User | String | The user name to authenticate with the repository. | Yes |
 
-### Download Assets
+## Download Assets
 
 Download assets from the IBM Rational Asset Manager repository.
 
@@ -55,7 +55,7 @@ If the ID contains a forward slash (/), prefix the forward slash with a backslas
 | Repository URL | String | The URL of the Rational Asset Manager repository. | Yes |
 | User | String | The user name to authenticate with the repository. | No |
 
-### Download Related Assets
+## Download Related Assets
 
 Download related assets of an asset.
 
@@ -72,7 +72,7 @@ Download related assets of an asset.
 | Repository URL | String | The URL of the Rational Asset Manager repository. | Yes |
 | User | String | The user name to authenticate with the repository. | Yes |
 
-### Set Attribute
+## Set Attribute
 
 Set attribute on an asset.
 
@@ -87,7 +87,7 @@ Set attribute on an asset.
 | User | String | The user name to authenticate with the repository. | No |
 | Version | String | The version for the asset. | Yes |
 
-### Upload Asset
+## Upload Asset
 
 Upload asset to a Rational Asset Manager repository.
 

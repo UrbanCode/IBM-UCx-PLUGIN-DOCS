@@ -20,7 +20,7 @@ The plug-in also includes a component template as an aid in setting up deploymen
 * The location of the artifacts to deploy
 * The Oracle WebLogic server to use
 
-### Compatibility
+## Compatibility
 
 This plug-in requires Oracle WebLogic Server.
 
@@ -30,31 +30,31 @@ This plug-in supports WebLogic Server versions 10g or later.
 
 The steps in this plug-in run on any agents that the IBM DevOps Deploy server supports.
 
-### Installation
+## Installation
 
 No special steps are required for installation. See [Installing plug-ins in DevOps products](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy").
 
-### History
+## History
 
-#### Version 8 released on July 14, 2020
+### Version 8 released on July 14, 2020
 
 Version 8 includes the following features and fixes:
 
 * Fixes APAR PH25731 – SSL URL DESTINATION UNREACHABLE.
 
-#### Version 6.657204 released on April 15, 2015
+### Version 6.657204 released on April 15, 2015
 
 Version 6.657204 includes the following features and fixes:
 
 * Fixes a command failure when a single argument is provided in **Additional Arguments** property for all steps except the Deploy step.
 
-#### Version 5.640918
+### Version 5.640918
 
 Version 5.640918 includes the following features and fixes:
 
 * Fixes a compatibility problem with IBM DevOps Deploy version 6.1.0.4 and later.
 
-#### Version 4.596018
+### Version 4.596018
 
 Version 4.596018 includes the following features and fixes:
 

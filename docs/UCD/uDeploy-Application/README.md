@@ -9,7 +9,7 @@ IBM DevOps Deploy is an *Application Deployment Automation* tool that provides 
 * Starting with plug-in version 77, DevOps Deploy version 6.2.7.1 or greater is required. Follow the “Download Past Plug-in Versions” button to find plug-ins compatible with older versions of DevOps Deploy.
 
 
-### Available Steps
+## Available Steps
 
 Refer to documentation link on right for a complete list of steps.
 

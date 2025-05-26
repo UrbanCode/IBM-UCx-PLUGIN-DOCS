@@ -29,7 +29,7 @@ The Android SDK plug-in includes steps to achieve continuous delivery of Androi
 * Android
 
 
-### Available Steps
+## Available Steps
 
 Install Application: Installs the Android APK application.
 

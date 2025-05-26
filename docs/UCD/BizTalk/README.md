@@ -12,7 +12,7 @@ If you encounter issues with the plug-in and want to send feedback:
 * If there are no search results, submit your issue as a question to our [answers page](https://community.ibm.com/community/user/wasdevops/urbancode-discussion). Use the following tags: DevOps | deploy | plugins | biztalk
 
 
-### Available Steps
+## Available Steps
 
 Add Biztalk ApplicationCreate a BizTalk application in the BizTalk Management database
 

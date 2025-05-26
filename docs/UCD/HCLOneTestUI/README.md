@@ -8,7 +8,7 @@ The HCL OneTest UI plug-in for DevOps Deploy provides a step to run functional t
 * This plug-in works with HCL OneTest 9.2.1 or higher.
 
 
-### Available Steps
+## Available Steps
 
 Run Functional Test
 

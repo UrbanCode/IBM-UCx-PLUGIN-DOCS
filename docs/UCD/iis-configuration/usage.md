@@ -5,16 +5,16 @@
 * [Discovering and applying configurations](#discovering-and-applying-configurations)
 * [Comparing configurations with live IIS instances](#comparing-configurations-with-live-iis-instances)
 
-### Comparing configurations with live IIS instances
+## Comparing configurations with live IIS instances
 
 You can use the live comparison feature of the IIS Configure plug-in to compare the properties from previously discovered IIS configurations against the current live configuration. A live comparison shows the specific properties that changed, which can help you investigate problems with the current configuration. Differences in the stored configuration versus the live configuration are sometimes known as *configuration drift*.
 
-### Before you begin
+## Before you begin
 
 * Discover an existing IIS configuration and store the configuration as component version in IBM DevOps Deploy. For more information, see [Discovering and applying configurations](#discovering-and-applying-configurations).
 * Change several properties in either the live IIS configuration or in the component version so that the changes can be detected during a comparison.
 
-### Running the live comparison
+## Running the live comparison
 
 Map the relevant component to your application environments resource tree, as shown in **Figure 1**. The comparison process skips the request if you do not have a component that is mapped to the resource tree. The application process iterates through each component in the resource tree. For each component in the resource tree, the version that you select is compared to the live configuration.
 
@@ -26,7 +26,7 @@ Figure 1. IIS application component that is mapped to the resource tree.
 [![Figure 2. The Run Process window for a live comparison process.](media/iiscompare2.png)](media/iiscompare2.png)
 Figure 2. The Run Process window for a live comparison process.
 
-### Analyzing changes
+## Analyzing changes
 
 After the live comparison process completes, you can review and analyze the results. Click the **History** tab in the IISApp application to return to the process request window. Click **View Request** in the Actions column to return to the last request that you made.
 
@@ -41,11 +41,11 @@ Figure 4. The Differences window that is displayed after you click the compare i
 [![Figure 5. The Compare Properties window that is displayed after you click View Properties. The Compare Properties window shows the changed properties.](media/iiscompare5.png)](media/iiscompare5.png)
 Figure 5. The Compare Properties window that is displayed after you click View Properties. The Compare Properties window shows the changed properties.
 
-### Result
+## Result
 
 You compared a previously discovered configuration to the live configuration. You can use this feature to detect unexpected changes to your live configuration, and to detect changes that were made since your previous component version. After you determine exactly which properties changed, you can fix any problems that occurred because of those changes.
 
-### Discovering and applying configurations
+## Discovering and applying configurations
 
 You can use the IISConfigure plug-in to manage IIS configurations with IBM DevOps Deploy. The plug-in includes steps to discover configurations and package them into .zip files by using Microsoft Web Deploy, which is integrated into the plug-in. You can modify the configuration file in the .zip archive file by using tokenization steps that the plug-in provides. After you modify a configuration, you can apply it to the original environment or to a different environment. You can work with entire IIS configurations, or at a specific scope such as Sites, Apps, or App Pools.
 
@@ -57,16 +57,16 @@ The following steps describe a standard process of discovery, tokenization, and 
 4. Apply the modified configuration to a new environment and examine the result.
 5. Test the new environment to confirm that the configuration was applied successfully.
 
-### Prerequisites
+## Prerequisites
 
 * 2 Windows computers that are running IIS and Microsoft Web Deploy.
 * A preconfigured, working application installed on one computer.
 * IBM DevOps Deploy agents that are installed and running on both computers and connected to an IBM DevOps Deploy server.
 * The IISConfigure plug-in running on the IBM DevOps Deploy server. For more information, see [Installing plug-ins in DevOps products](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins).
 
-### Procedure
+## Procedure
 
-### Create a resource tree topology
+## Create a resource tree topology
 
 Create a top-level group in the resource tree in IBM DevOps Deploy. The top-level group is the backbone of the resources that represent the IIS environment. In the following example screen capture, the top-level group is called `IIS-Test`.
 
@@ -84,7 +84,7 @@ For the webServer object, click **Actions > Configure using IIS Configuration Co
 [![Full topology](media/fig2.png)](media/fig2.png)
 Figure 2. The resource tree with full topology (left) after the configure step completes. On the right, the topology on IIS Manager for comparison. The topologies should match.
 
-### Discover an IIS configuration
+## Discover an IIS configuration
 
 After you set up the IIS topology on the resource tree in IBM DevOps Deploy, you can discover the configuration from your IIS computer. You use a generic process to discover the configuration of an application on the IIS computer. After you discover a configuration, you can use the `Tokenize Configuration File` plug-in step to create variables in the configuration file.
 
@@ -94,7 +94,7 @@ First, go to Processes. Then, click `Example 2: IIS App Discovery (IIS APPS ONLY
 
 The generic process includes the `Tokenize Configuration File` step. If you click the console output icon (at the right of the row), you can see that the applicationPool property was replaced with the @applicationPool@ token. When you deploy this application to a new environment, you can replace that token with an application pool of your choice by using IBM DevOps Deploy properties.
 
-### Deploy an application to a new environment
+## Deploy an application to a new environment
 
 You can now apply the configuration to a new environment. The first step is to attach the `IIS Application Config` component to the topology resource tree that you created previously.
 
@@ -121,11 +121,11 @@ Next, you associate the new resource tree to the Production environment in the I
 
 You can now run the deployment. Go back to the Environments page for your application by clicking the breadcrumbs below the tabs at the top. Click **Deploy** for IIS Prod. In the window that opens, select the **Apply** process, and for **Choose Versions** select the latest version for IIS Application Config, then click **OK**. Click **Submit** to deploy the application to new production environment.
 
-### Verify the application
+## Verify the application
 
 Run the new application from the browser on your Production IIS computer and verify that it works correctly.
 
-### Result
+## Result
 
 The application from the test environment is now deployed to the production environment.
 

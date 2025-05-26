@@ -1,20 +1,20 @@
 
 # HCL-ASOC UCD PLugin for UCD
 
-### This is a open-source Plugin. Link: https://github.com/UrbanCode/HCL-ASoC-UCD
+## This is a open-source Plugin. Link: https://github.com/UrbanCode/HCL-ASoC-UCD
 
 HCL Launch can process the output of the ASoC plugin and treat the build accordingly. If your build was deployed successfully to a lower level environment but failed the Dynamic ASoC scan with high severity issues, HCL Launch will automatically rollback to the last deployed version and mark the build with a status indicating there are problems. If ASoC identifies lesser severity issues in your build, HCL Launch with slap a “deployment warning” onto it but leave it installe don the target machines. And if ASoC spots no major issues, HCL Launch will give that version an app status that signifies it’s passed all AppScan scans. In other words, HCL Launch creates environment gates that can prevent deployments to Prod or other high-level environments if it doesn’t pass AppScan approval.
 
 
-### History
+## History
 
-#### Version 14
+### Version 14
 
 * Fixed a json parser related issue.
 * Base appscan url property added for all steps
 
 
-#### Version 13
+### Version 13
 
 
 * Plugin renamed to HCL AppScan on Cloud.
@@ -22,15 +22,15 @@ HCL Launch can process the output of the ASoC plugin and treat the build accordi
 * Added new 'Scan Name' property to the Start Dynamic Analyzer ASoC Scan step.
 
 
-#### Version 12
+### Version 12
 
 Updated to the new ASoC domain 'cloud.appscan.com'.
 
-#### Version 11
+### Version 11
 
 Set high, medium, low, informational issue count output properties on dynamic scan.
 
-#### Version 10
+### Version 10
 
 * Complete rewrite of former plugin to fix broken scan steps.
 * Added Application ID property to scan steps.
@@ -42,39 +42,39 @@ Set high, medium, low, informational issue count output properties on dynamic sc
 * Added support for Staging and Production DAST scans.
 
 
-#### Version 9
+### Version 9
 
 Remove old deprecated "projectLocation" and "workspaceScheme" fields from "Start iOS Scan" step ("ipaFileLocation" already replaced them)
 
-#### Version 8
+### Version 8
 
 Add "testPolicy" to "Start Dynamic Analyzer ASoC Scan" step. Migrate the "Start iOS Analyzer ASoC Scan" from working with IPAX generator, to working with "ipa" file
 
-#### Version 7
+### Version 7
 
 Add step "Start iOS Analyzer ASoC Scan"
 
-#### Version 6
+### Version 6
 
 Rename the step "Start Mobile Analyzer Scan" into "Start Android Mobile Analyzer ASoC Scan"
 
-#### Version 5
+### Version 5
 
 Rename plugin from "Application Security Testing (Smartcloud Exchange)" to "IBM Application Security on Cloud" and add  support for running a DAST(Domain Verification not supported) and SAST scans
 
-#### Version 4
+### Version 4
 
 Upgrade to http-builder-0.7.2-uc.jar, and change our portal domain from appscan.bluemix.net to appscan.ibmcloud.com
 
-#### Version 3
+### Version 3
 
 Changing our portal domain from appscan.ibmcloud.com to appscan.bluemix.net (and adding hidden experimental feature 'PSS')
 
-#### Version 2
+### Version 2
 
 Migrate internal logic to work with cloud V2 APIs
 
-#### Version 1
+### Version 1
 
 Initial release of the plug-in.
 

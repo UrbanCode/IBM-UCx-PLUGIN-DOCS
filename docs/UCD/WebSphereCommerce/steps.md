@@ -6,7 +6,7 @@
 * [Run server deployment process](#run_server_deployment_process)
 
 
-### Configure server deployment settings (Deprecated)
+## Configure server deployment settings (Deprecated)
 
 Configures the customization package deployment settings (Deprecated)
 
@@ -21,7 +21,7 @@ Configures the customization package deployment settings (Deprecated)
 | Target Environment/Customization name | String | The name of the customization to deploy. This is also referred to as the Target Environment. | Yes |
 | WAS home | String | The WAS installation directory on the runtime machine | No |
 
-### Install server deployment package (Deprecated)
+## Install server deployment package (Deprecated)
 
 Extracts the customization package archive (ZIP) on the target machine (Deprecated)
 
@@ -30,7 +30,7 @@ Extracts the customization package archive (ZIP) on the target machine (Deprecat
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Build Label | String | The build label or name of the customization to deploy | Yes |
 
-### Run server deployment process
+## Run server deployment process
 
 Triggers the customization package deployment process on the target machine
 

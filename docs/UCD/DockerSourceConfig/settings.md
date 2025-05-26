@@ -1,24 +1,24 @@
 
 # Docker Registry - Settings
 
-### Process steps in the Docker plug-in
+## Process steps in the Docker plug-in
 
 * [Import Version](#import_version)
 
 
-### Import Version
+## Import Version
 
 Creates a new component version for a tag
 
 This step has no input properties.
 
 
-### Roles in the Docker plug-in
+## Roles in the Docker plug-in
 
 * [DockerTagImport](#dockertagimport_role)
 
 
-### DockerTagImport
+## DockerTagImport
 
 
 | Name | Type | Description |

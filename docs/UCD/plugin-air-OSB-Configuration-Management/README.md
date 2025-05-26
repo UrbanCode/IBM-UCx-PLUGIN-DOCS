@@ -18,7 +18,7 @@ The plug-in provides steps to support automated application and import of Oracle
 For information on platform requirements, see the [plug-in documentation](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/plugin-air-OSB-Configuration-Management/).
 
 
-### Available Steps
+## Available Steps
 
 Refer to the linked documentation for a comprehensive list of available steps.
 

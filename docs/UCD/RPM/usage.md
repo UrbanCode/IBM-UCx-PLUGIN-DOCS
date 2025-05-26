@@ -6,12 +6,12 @@ Use the RPM plug-in to automate installing, uninstalling, and updating packages 
 You can include RPM command options on the steps. See the [RPM Guide](http://rpm5.org/docs/rpm-guide.html) for list and description of options that can be included on each command.
 
 
-### **Step palette**
+## **Step palette**
 
 To access this plug-in in the palette, click **Installers** > **RPM**.
 
 
-### **Tips**
+## **Tips**
 
 When you remove packages, if there is a dependency on another package an error message is issued.
 

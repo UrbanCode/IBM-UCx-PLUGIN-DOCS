@@ -5,7 +5,7 @@
 * [Shell (with xargs)](#shell_(with_xargs))
 
 
-### Shell
+## Shell
 
 Use this step to run a shell or batch script.
 
@@ -18,7 +18,7 @@ Use this step to run a shell or batch script.
 | Output File | String | Specify this property only if the **Daemon** property is enabled.The path of the file to which the command output is directed. To discard the output, leave this property blank. The output is captured if an output file is specified. | No |
 | Shell Script | String | The script code to execute. | Yes |
 
-### Shell (with xargs)
+## Shell (with xargs)
 
 Use this step to run a shell or batch script a number of times equal to a multi-valued input.
 

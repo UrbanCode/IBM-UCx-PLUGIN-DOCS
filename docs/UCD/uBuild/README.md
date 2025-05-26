@@ -4,7 +4,7 @@
 The IBM DevOps Build plugin for Deploy provides steps to download artifacts from DevOps Build and run uBuild workflows.
 
 
-### Available Steps
+## Available Steps
 
 Assign Label: Assign a label to a BuildLife in DevOps Build.
 

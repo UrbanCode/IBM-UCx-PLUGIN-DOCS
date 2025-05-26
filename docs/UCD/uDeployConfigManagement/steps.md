@@ -7,7 +7,7 @@
 * [Install Template](#install_template)
 
 
-### Batch Import Properties
+## Batch Import Properties
 
 Import Component Environment Properties from a properties file.
 
@@ -18,7 +18,7 @@ Import Component Environment Properties from a properties file.
 | Excludes | String | Property files or directories containing property files to exclude. | No |
 | Includes | String | Property files or directories containing property files to include. | Yes |
 
-### Import Properties
+## Import Properties
 
 Import Component Environment Properties from a properties file.
 
@@ -30,7 +30,7 @@ Import Component Environment Properties from a properties file.
 | Properties File | String | The properties file to import. | Yes |
 | Template File | String | The property file to output property resolution values to. | Yes |
 
-### Import Resource Properties
+## Import Resource Properties
 
 Import Resource Properties from a properties file.
 
@@ -40,7 +40,7 @@ Import Resource Properties from a properties file.
 | Properties File | String | The properties file to import. This file must be in EBCDIC format for z/OS systems. | Yes |
 | Resource Name | String | The path/id of the resource to import properties to. | Yes |
 
-### Install Template
+## Install Template
 
 Install a configuration template from IBM DevOps Deploy.
 

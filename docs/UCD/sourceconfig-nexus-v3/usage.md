@@ -4,7 +4,7 @@
 * [NRM V3 Rest API Versions](#nrm-v3-rest-api-versions)
 * [Plugin Demonstration Video](#plugin-demonstration-video)
 
-### NRM V3 Rest API Versions
+## NRM V3 Rest API Versions
 
 
 
@@ -25,12 +25,12 @@ The plugin will first try to connect to the V1 REST API. If the connection fails
 
 
 
-### Plugin Demonstration Video
+## Plugin Demonstration Video
 
 
 
 
-### Full Demonstration of the Nexus Repository Manager V3 Plugin
+## Full Demonstration of the Nexus Repository Manager V3 Plugin
 
 
 

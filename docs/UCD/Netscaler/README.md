@@ -5,12 +5,12 @@ Citrix NetScaler is a platform that includes the following features: load balanc
 
 The NetScaler plug-in includes steps to enable and disable servers, server groups, and services on NetScaler servers.
 
-### Compatibility
+## Compatibility
 
 Versions 1 through 7 of the Citrix NetScaler plugin support uDeploy 4 and 5. Versions 7 and up of the Citrix NetScaler plugin support IBM DevOps Deploy 6.2.1 and up.
 
 
-### Available Steps
+## Available Steps
 
 Check Service Group Bindings: Check the status of servers bound to a given service group
 

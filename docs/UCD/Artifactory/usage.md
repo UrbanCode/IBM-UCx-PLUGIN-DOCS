@@ -6,11 +6,11 @@ To use the Artifactory plug-in, you must create resources and define a deploymen
 
 For additional information on using Artifactory and DevOps Deploy, see [Integrating Artifactory with IBM DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/07/22/integrating-artifactory-with-ibm-urbancode-deploy)
 
-### Before you begin
+## Before you begin
 
 The IBM DevOps Deploy agent must be installed on the target system where the artifacts is to be downloaded.
 
-### Using the Artifactory plug-in
+## Using the Artifactory plug-in
 
 Complete the following steps to create resources and define a deployment process.
 

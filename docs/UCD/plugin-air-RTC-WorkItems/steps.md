@@ -7,7 +7,7 @@
 * [Create Work Item](#create_work_item)
 
 
-### Add Work Item Comments
+## Add Work Item Comments
 
 Add Comments to an RTC Work Item
 
@@ -22,7 +22,7 @@ Add Comments to an RTC Work Item
 | User Name | String | The user name to be used to connect to the RTC server. | Yes |
 | Work Item ID | String | The ID number of the RTC work item to add comments to. | Yes |
 
-### Change Work Item Status
+## Change Work Item Status
 
 Change the status of an RTC Work Item
 
@@ -37,7 +37,7 @@ Change the status of an RTC Work Item
 | User Name | String | The user name to be used to connect to the RTC server. | Yes |
 | Work Item ID | String | The ID number of the RTC work item to add comments to. | Yes |
 
-### Check Work Item Status
+## Check Work Item Status
 
 Check a work item for a specific status.
 
@@ -51,7 +51,7 @@ Check a work item for a specific status.
 | User Name | String | The user name to use to connect to the Rational Team Concert server. | Yes |
 | Work Item ID | String | The ID number of the Rational Team Concert work item to check. | Yes |
 
-### Create Work Item
+## Create Work Item
 
 Create an RTC Work Item
 

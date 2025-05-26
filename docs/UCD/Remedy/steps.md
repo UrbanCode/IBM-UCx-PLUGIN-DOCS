@@ -8,7 +8,7 @@
 * [Update Entry](#update_entry)
 
 
-### Check Entry
+## Check Entry
 
 Check an entry in a form in BMC Remedy.
 
@@ -24,7 +24,7 @@ Check an entry in a form in BMC Remedy.
 | Server Host | String | The server that BMC ARSystem resides on | Yes |
 | User | String | The user to authenticate in BMC Remedy. | Yes |
 
-### Create Entry
+## Create Entry
 
 Create an entry in a form in BMC Remedy.
 
@@ -39,7 +39,7 @@ Create an entry in a form in BMC Remedy.
 | Server Host | String | The server that BMC ARSystem resides on | Yes |
 | User | String | The user to authenticate in BMC Remedy. | Yes |
 
-### Import Definitions
+## Import Definitions
 
 Import the definitions from a file to the server. Objects already defined will be replaced. Administrator privleges on the server are required for this command.
 
@@ -54,7 +54,7 @@ Import the definitions from a file to the server. Objects already defined will b
 | Server Host | String | The server that BMC ARSystem resides on | Yes |
 | User | String | The user to authenticate in BMC Remedy. | Yes |
 
-### Update Entry
+## Update Entry
 
 Update an entry in a form in BMC Remedy.
 

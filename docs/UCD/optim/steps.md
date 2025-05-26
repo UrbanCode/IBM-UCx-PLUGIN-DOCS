@@ -6,7 +6,7 @@
 * [Insert Request](#insert_request)
 
 
-### Convert Request
+## Convert Request
 
 Runs an convert request against a database to mask values.
 
@@ -20,7 +20,7 @@ Runs an convert request against a database to mask values.
 | Override / Override File | String | Either the file name of an override file or the contents of an override file. | No |
 | Request Name | String | The name of the convert request stored in Optim. | Yes |
 
-### Extract Request
+## Extract Request
 
 Runs an extract request against a database.
 
@@ -34,7 +34,7 @@ Runs an extract request against a database.
 | Override / Override File | String | Either the file name of an override file or the contents of an override file. | No |
 | Request Name | String | The name of the extract request stored in Optim. | Yes |
 
-### Insert Request
+## Insert Request
 
 Runs an insert request against a database.
 

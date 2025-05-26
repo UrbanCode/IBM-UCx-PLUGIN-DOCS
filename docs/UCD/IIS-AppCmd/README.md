@@ -6,7 +6,7 @@ The IIS-AppCmd plugin is an automation based plugin. It is used during the deplo
 Microsoft’s IIS 7 is packaged with Windows Server 2008. Microsoft’s IIS 7.5 is packaged with Windows Server 2008r2. Microsoft’s IIS 8 is packaged with Windows Server 2010.
 
 
-### Available Steps
+## Available Steps
 
 AppCmdRun an arbitrary appcmd command.
 

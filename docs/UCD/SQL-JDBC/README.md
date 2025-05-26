@@ -8,7 +8,7 @@ The SQL-JDBC plug-in is an automation based plugin. It is executed as part of th
 **Limitations**: The SQL statements supported depend on the database vendor and the JDBC drivers being used.
 
 
-### Available Steps
+## Available Steps
 
 Execute SQL Scripts: Execute SQL scripts using JDBC driver.
 

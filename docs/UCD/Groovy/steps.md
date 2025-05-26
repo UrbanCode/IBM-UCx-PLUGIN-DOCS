@@ -7,7 +7,7 @@ Process steps in the Groovy plug-in:
 * [Run Groovy Script](#run_groovy_script)
 
 
-### Run Groovy Script
+## Run Groovy Script
 
 This step runs a groovy script.
 

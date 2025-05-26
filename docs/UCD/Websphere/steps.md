@@ -112,7 +112,7 @@ Process steps in the WAS Deploy plug-in
     - [WebSphere Discovery](#websphere-discovery)
     - [WebSphere Topology Discovery](#websphere-topology-discovery)
 
-### Activate Application Edition
+## Activate Application Edition
 
 Activate an edition of a WebSphere enterprise application.
 
@@ -137,7 +137,7 @@ Activate an edition of a WebSphere enterprise application.
 | Server Name | String | The name of the server to administer. | No |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Add Asset to BLA
+## Add Asset to BLA
 
 Add an asset to a business-level application.
 
@@ -166,7 +166,7 @@ Add an asset to a business-level application.
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 | Virtual Host Mappings | String | Specify a list of mappings from web modules to virtual hosts, separated by newline characters. Use the following format: modulename->virtualhost | No |
 
-### Add BLA to BLA
+## Add BLA to BLA
 
 Add and associate a business-level application to another business-level application.
 
@@ -191,7 +191,7 @@ Add and associate a business-level application to another business-level applica
 | Server Name | String | The name of the server to administer. | No |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Add Shared Library to Application
+## Add Shared Library to Application
 
 Add a shared library to an application.
 
@@ -217,7 +217,7 @@ Add a shared library to an application.
 | Shared Library Name(s) | String | A list of names, separated by newline characters, of shared libraries to add. | Yes |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Add Shared Library to Module
+## Add Shared Library to Module
 
 Add a shared library to a module.
 
@@ -244,7 +244,7 @@ Add a shared library to a module.
 | Shared Library Name(s) | String | A list of names, separated by newline characters, of shared libraries to add. | Yes |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Add Target To Module
+## Add Target To Module
 
 Map a target server or cluster to a module of an enterprise application.
 
@@ -270,7 +270,7 @@ Map a target server or cluster to a module of an enterprise application.
 | Server Name | String | The name of the server to administer. | No |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Add Target to Composition Unit
+## Add Target to Composition Unit
 
 Add a target to composition unit.
 
@@ -293,7 +293,7 @@ Add a target to composition unit.
 | Server Name | String | The name of the server to administer. | No |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Apply Configuration Properties
+## Apply Configuration Properties
 
 Apply the properties in the specified properties file to the WebSphere configuration.
 
@@ -316,7 +316,7 @@ Apply the properties in the specified properties file to the WebSphere configura
 | Variables Map File Name | String | The name of the variables map file. This file contains values for variables that the system uses from the properties file. | No |
 | Zip File Name | String | The name of the compressed file that contains the policy sets that you want applied to the cell. | No |
 
-### Cancel Application Edition Validation
+## Cancel Application Edition Validation
 
 Cancel the validation of an edtion of a WebSphere enterprise application.
 
@@ -341,7 +341,7 @@ Cancel the validation of an edtion of a WebSphere enterprise application.
 | Server Name | String | The name of the server to administer. | No |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Check Application is Installed
+## Check Application is Installed
 
 Check that an application is installed.
 
@@ -360,7 +360,7 @@ Check that an application is installed.
 | Port | String | The port to connect to. | No |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Check Application is not running
+## Check Application is not running
 
 Check that an application is not running.
 
@@ -385,7 +385,7 @@ Check that an application is not running.
 | Server Name | String | The name of the server to administer. | No |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Check Application is running
+## Check Application is running
 
 Check that an application is running.
 
@@ -410,7 +410,7 @@ Check that an application is running.
 | Server Name | String | The name of the server to administer. | No |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Check If BLA Exists
+## Check If BLA Exists
 
 Check if a business-level application exists in a cell.
 
@@ -432,7 +432,7 @@ Check if a business-level application exists in a cell.
 | Server Name | String | The name of the server to administer. | No |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Check If Composition Unit Exists
+## Check If Composition Unit Exists
 
 Check if a composition unit exists in a business-level application.
 
@@ -455,7 +455,7 @@ Check if a composition unit exists in a business-level application.
 | Server Name | String | The name of the server to administer. | No |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Check If Config Object Exists DEPRECATED
+## Check If Config Object Exists DEPRECATED
 
 DEPRECATED. Check if a config object exists in the WebSphere Configuration by Containment Path. This step is deprecated. Use the WebSphere Application Server Configure plug-in to work with configurations in WebSphere.
 
@@ -472,7 +472,7 @@ DEPRECATED. Check if a config object exists in the WebSphere Configuration by Co
 | Port | String | The port to connect to. | No |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Check Initial Heap Size DEPRECATED
+## Check Initial Heap Size DEPRECATED
 
 DEPRECATED. Check that initial heap size. This step is deprecated. Use the WebSphere Application Server Configure plug-in to work with configurations in WebSphere.
 
@@ -491,7 +491,7 @@ DEPRECATED. Check that initial heap size. This step is deprecated. Use the WebSp
 | Server Name | String | The name of the Server whose heap size to check. | Yes |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Check Maximum Heap Size DEPRECATED
+## Check Maximum Heap Size DEPRECATED
 
 DEPRECATED. Check that maximum heap size. This step is deprecated. Use the WebSphere Application Server Configure plug-in to work with configurations in WebSphere.
 
@@ -510,7 +510,7 @@ DEPRECATED. Check that maximum heap size. This step is deprecated. Use the WebSp
 | Server Name | String | The name of the Server whose heap size to check. | Yes |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Check Node Status
+## Check Node Status
 
 Check the status of nodes in a cell.
 
@@ -533,7 +533,7 @@ Check the status of nodes in a cell.
 | Server Name | String | The name of the server to administer. | No |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Check Status
+## Check Status
 
 Check the status of a WebSphere server or cluster.
 
@@ -555,7 +555,7 @@ Check the status of a WebSphere server or cluster.
 | Server Name | String | The name of the server to administer. | No |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Clear Target Mappings For Application
+## Clear Target Mappings For Application
 
 Clear all target mappings for an enterprise application and associated modules.
 
@@ -580,7 +580,7 @@ Clear all target mappings for an enterprise application and associated modules.
 | Server Name | String | The name of the server to administer. | No |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Create BLA
+## Create BLA
 
 Create a business-level application.
 
@@ -603,7 +603,7 @@ Create a business-level application.
 | Server Name | String | The name of the server to administer. | No |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Create Cluster
+## Create Cluster
 
 Create a cluster.
 
@@ -620,7 +620,7 @@ Create a cluster.
 | Port | String | The port to connect to. | No |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Create Cluster Member
+## Create Cluster Member
 
 Create a cluster member.
 
@@ -639,7 +639,7 @@ Create a cluster member.
 | Port | String | The port to connect to. | No |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Create DataSource DEPRECATED
+## Create DataSource DEPRECATED
 
 DEPRECATED. Create a DataSource on a given JDBCProvider. This step is deprecated. Use the WebSphere Application Server Configure plug-in to work with configurations in WebSphere.
 
@@ -665,7 +665,7 @@ DEPRECATED. Create a DataSource on a given JDBCProvider. This step is deprecated
 | Resource Properties | String | The resource properties to configure this data source with. Newline separated list of properties in the form name|type|value | Yes |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Create DataSource For Cluster DEPRECATED
+## Create DataSource For Cluster DEPRECATED
 
 DEPRECATED. Create a data source on a cluster. This step is deprecated. Use the WebSphere Application Server Configure plug-in to work with configurations in WebSphere.
 
@@ -695,7 +695,7 @@ DEPRECATED. Create a data source on a cluster. This step is deprecated. Use the 
 | Server Name | String | The Server Name for this DataSource to connect to. This is for legacy support. Please use the Resource Properties text area. | No |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Create IHS Web Server
+## Create IHS Web Server
 
 Create an IBM HTTP Server definition with a template, and configure the web server definition properties. Web server definitions generate and propagate the plugin-config.xml file for each web server. For IBM HTTP Server only, you can use web server definitions to administer and configure IBM HTTP Server web servers with the administrative console. These functions include: Start, Stop, View logs, View and Edit configuration files.
 
@@ -732,7 +732,7 @@ Create an IBM HTTP Server definition with a template, and configure the web serv
 |                 | * HTTPS   |                                                      |     |
 | Windows Service Name | String | The Windows service name to use for IBM HTTP Server. | Yes |
 
-### Create JDBCProvider DEPRECATED
+## Create JDBCProvider DEPRECATED
 
 DEPRECATED. Create a JDBCProvider with specified scope. This step is deprecated. Use the WebSphere Application Server Configure plug-in to work with configurations in WebSphere.
 
@@ -756,7 +756,7 @@ DEPRECATED. Create a JDBCProvider with specified scope. This step is deprecated.
 | Scope | String | The scope at which to create teh JDBCProvider. Format: type=name. Type can be Cell, Node, Server, Application, or Cluster, and name is the name of the specific instance of the cell, node, server, application, or cluster that you are using. | Yes |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Create JDBCProvider For Cluster DEPRECATED
+## Create JDBCProvider For Cluster DEPRECATED
 
 DEPRECATED. Create a JDBCProvider on a cluster. This step is deprecated. Use the WebSphere Application Server Configure plug-in to work with configurations in WebSphere.
 
@@ -780,7 +780,7 @@ DEPRECATED. Create a JDBCProvider on a cluster. This step is deprecated. Use the
 | Provider Type | String | The Type of the JDBCPRovider to create. | Yes |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Create SIBJMSConnectionFactory DEPRECATED
+## Create SIBJMSConnectionFactory DEPRECATED
 
 DEPRECATED. Create a SIBJMSConnectionFactory on a given scope. This step is deprecated. Use the WebSphere Application Server Configure plug-in to work with configurations in WebSphere.
 
@@ -801,7 +801,7 @@ DEPRECATED. Create a SIBJMSConnectionFactory on a given scope. This step is depr
 | Type | String | The type of the Connection Factory to create. Use Queue or Topic. | Yes |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Create SIBJMSQueue DEPRECATED
+## Create SIBJMSQueue DEPRECATED
 
 DEPRECATED. Create a SIBJMSQueue on a given scope. This step is deprecated. Use the WebSphere Application Server Configure plug-in to work with configurations in WebSphere.
 
@@ -821,7 +821,7 @@ DEPRECATED. Create a SIBJMSQueue on a given scope. This step is deprecated. Use 
 | Scope | String | The containment path to the parent on which to create this SIBJMSQueue. i.e. /Cell:cellName/ServerCluster:clusterName/. Note, it must end with a / | Yes |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Create SIBJMSTopic DEPRECATED
+## Create SIBJMSTopic DEPRECATED
 
 DEPRECATED. Create a SIBJMSTopic on a given scope. This step is deprecated. Use the WebSphere Application Server Configure plug-in to work with configurations in WebSphere.
 
@@ -840,7 +840,7 @@ DEPRECATED. Create a SIBJMSTopic on a given scope. This step is deprecated. Use 
 | Scope | String | The containment path to the parent on which to create this SIBJMSTopic. i.e. /Cell:cellName/ServerCluster:clusterName/. Note, it must end with a / | Yes |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Create Shared Library
+## Create Shared Library
 
 Create a shared library at the cell level.
 
@@ -865,7 +865,7 @@ Create a shared library at the cell level.
 | Shared Library Name | String | The name of the shared library to create. | Yes |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Create Unmanaged Node
+## Create Unmanaged Node
 
 Create a new unmanaged node in the configuration. An unmanaged node is a node that does not have a node agent or a Deployment Manager. Unmanaged nodes can contain Web servers, such as IBM HTTP Server.
 
@@ -893,7 +893,7 @@ Create a new unmanaged node in the configuration. An unmanaged node is a node th
 | Script File | String | The name of the script file to create or append to. | No |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Deactivate Application Edition
+## Deactivate Application Edition
 
 Deactivate an edition of a WebSphere enterprise application.
 
@@ -918,7 +918,7 @@ Deactivate an edition of a WebSphere enterprise application.
 | Server Name | String | The name of the server to administer. | No |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Delete Asset
+## Delete Asset
 
 Delete an asset from an enterprise bundle archive (EBA) file.
 
@@ -942,7 +942,7 @@ Delete an asset from an enterprise bundle archive (EBA) file.
 | Server Name | String | The name of the server to administer. | No |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Delete BLA
+## Delete BLA
 
 Delete a business-level application.
 
@@ -964,7 +964,7 @@ Delete a business-level application.
 | Server Name | String | The name of the server to administer. | No |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Delete Composition Unit
+## Delete Composition Unit
 
 Delete a composition unit from a business-level application.
 
@@ -988,7 +988,7 @@ Delete a composition unit from a business-level application.
 | Server Name | String | The name of the server to administer. | No |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Delete Configuration Properties
+## Delete Configuration Properties
 
 Delete the properties in the specified properties file from the WebSphere configuration.
 
@@ -1010,7 +1010,7 @@ Delete the properties in the specified properties file from the WebSphere config
 | Variables Map | String | The values of the variables to use with the properties file. | No |
 | Variables Map File Name | String | The name of the variables map file. This file contains values for variables that the system uses from the properties file. | No |
 
-### Delete Server
+## Delete Server
 
 Delete the WebSphere server running on the specified node.
 
@@ -1031,7 +1031,7 @@ Delete the WebSphere server running on the specified node.
 | Server Name | String | The name of the server to delete. | Yes |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Disable Auto Start of an Application
+## Disable Auto Start of an Application
 
 Disable automatic start/loading of the application
 
@@ -1048,7 +1048,7 @@ Disable automatic start/loading of the application
 | Port | String | The port to connect to. | No |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Disable AutoSync
+## Disable AutoSync
 
 Disable automatic synchronization on nodes.
 
@@ -1072,7 +1072,7 @@ Disable automatic synchronization on nodes.
 | Server Name | String | The name of the server to administer. | No |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Display Application Deployment Options
+## Display Application Deployment Options
 
 Echo the options used to install a currently installed application.
 
@@ -1094,7 +1094,7 @@ Echo the options used to install a currently installed application.
 | Server Name | String | The name of the server to administer. | No |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Enable Auto Start of an Application
+## Enable Auto Start of an Application
 
 Enable automatic start/loading of the application
 
@@ -1111,7 +1111,7 @@ Enable automatic start/loading of the application
 | Port | String | The port to connect to. | No |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Enable AutoSync
+## Enable AutoSync
 
 Enable automatic synchronization on nodes.
 
@@ -1135,7 +1135,7 @@ Enable automatic synchronization on nodes.
 | Server Name | String | The name of the server to administer. | No |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Execute Batch Script
+## Execute Batch Script
 
 Run a batch script generated from plug-in steps.
 
@@ -1157,7 +1157,7 @@ Run a batch script generated from plug-in steps.
 | Server Name | String | The name of the server to administer. | No |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Execute wsadmin Script
+## Execute wsadmin Script
 
 Run a Jython or JACL script with the wsadmin tool.
 
@@ -1184,7 +1184,7 @@ Run a Jython or JACL script with the wsadmin tool.
 | Server Name | String | The name of the server to administer. | No |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Export Application
+## Export Application
 
 Export an application from the WebSphere server.
 
@@ -1210,7 +1210,7 @@ Export an application from the WebSphere server.
 | Server Name | String | The name of the server to administer. | No |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Export DataSource Properties from Cluster DEPRECATED
+## Export DataSource Properties from Cluster DEPRECATED
 
 DEPRECATED. Export the data source properties from a Cluster. This step is deprecated. Use the WebSphere Application Server Configure plug-in to work with configurations in WebSphere.
 
@@ -1229,7 +1229,7 @@ DEPRECATED. Export the data source properties from a Cluster. This step is depre
 | Port | String | The port to connect to. | No |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Export JVMHeapSizes from Server DEPRECATED
+## Export JVMHeapSizes from Server DEPRECATED
 
 DEPRECATED. Export the JVM Heap Size values from a server. This step is deprecated. Use the WebSphere Application Server Configure plug-in to work with configurations in WebSphere.
 
@@ -1246,7 +1246,7 @@ DEPRECATED. Export the JVM Heap Size values from a server. This step is deprecat
 | Server Name | String | The name of the Server whose heap size to export. | Yes |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Extract Configuration Properties
+## Extract Configuration Properties
 
 Extracts configuration data in the form of a properties file
 
@@ -1278,7 +1278,7 @@ Extracts configuration data in the form of a properties file
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 | Zip File Name | String | Specifies the name of the compressed file into which you want to extract policy sets. | No |
 
-### Generate Plugin
+## Generate Plugin
 
 Generate a WebSphere plug-in for web servers.
 
@@ -1306,7 +1306,7 @@ Generate a WebSphere plug-in for web servers.
 | Server Scope | Boolean | Select to generate a plug-in for a web server that is defined by the server property instead of the cell scope. | No |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Import Asset
+## Import Asset
 
 Import an asset from an enterprise bundle archive (EBA) file
 
@@ -1332,7 +1332,7 @@ Import an asset from an enterprise bundle archive (EBA) file
 |                 | - NONE      |                                                      |     |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Import DataSource Properties into Cluster DEPRECATED
+## Import DataSource Properties into Cluster DEPRECATED
 
 DEPRECATED. Import the data source properties into a Cluster. This step is deprecated. Use the WebSphere Application Server Configure plug-in to work with configurations in WebSphere.
 
@@ -1353,7 +1353,7 @@ DEPRECATED. Import the data source properties into a Cluster. This step is depre
 | Statement Cache Size | String | The Statement Cache Size to use. | Yes |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Import JVMHeapSizes for Cluster DEPRECATED
+## Import JVMHeapSizes for Cluster DEPRECATED
 
 DEPRECATED. Import the JVM Heap Size values for all servers in a cluster. This step is deprecated. Use the WebSphere Application Server Configure plug-in to work with configurations in WebSphere.
 
@@ -1372,7 +1372,7 @@ DEPRECATED. Import the JVM Heap Size values for all servers in a cluster. This s
 | Port | String | The port to connect to. | No |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Install Application
+## Install Application
 
 Install an application to a WebSphere server or cluster. If you are installing an application at the cell scope, then the Options String must contain a -MapModulesToServers argument to indicate which servers/clusters are affected.
 
@@ -1402,7 +1402,7 @@ Install an application to a WebSphere server or cluster. If you are installing a
 | Server Name | String | The name of the server to administer. | No |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Install OSGI Bundle
+## Install OSGI Bundle
 
 Install an OSGI bundle to WebSphere Application Server.
 
@@ -1424,7 +1424,7 @@ Install an OSGI bundle to WebSphere Application Server.
 | Server Name | String | The name of the server to administer. | No |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Install Or Update Application
+## Install Or Update Application
 
 Install or update an application on a WebSphere server or cluster. If you are installing or updating an application at the cell scope, then the Options String must contain a -MapModulesToServers argument to indicate which servers/clusters are affected.
 
@@ -1455,7 +1455,7 @@ Install or update an application on a WebSphere server or cluster. If you are in
 | Server Name | String | The name of the server to administer. | No |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Intelligent Management Add Conditional Trace Rule
+## Intelligent Management Add Conditional Trace Rule
 
 Sets the conditional trace specification for a web server. Use this operation to configure conditional tracing from the web server plug-in.
 
@@ -1476,7 +1476,7 @@ Sets the conditional trace specification for a web server. Use this operation to
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 | WebSphere Application Server Install Path | String | The full path to the installation directory of WebSphere Application Server For example: /opt/IBM/WebSphere/AppServer/ | Yes |
 
-### Intelligent Management Add Remote Cell
+## Intelligent Management Add Remote Cell
 
 Adds a remote cell to the list of cells for a web server. This operation enables a web server to extend the Intelligent Management service to multiple cells.
 
@@ -1507,7 +1507,7 @@ Adds a remote cell to the list of cells for a web server. This operation enables
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 | WebSphere Application Server Install Path | String | The full path to the installation directory of WebSphere Application Server For example: /opt/IBM/WebSphere/AppServer/ | Yes |
 
-### Intelligent Management Delete Remote Cell
+## Intelligent Management Delete Remote Cell
 
 Removes a remote cell from the list of cells for this web server
 
@@ -1531,7 +1531,7 @@ Removes a remote cell from the list of cells for this web server
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 | WebSphere Application Server Install Path | String | The full path to the installation directory of WebSphere Application Server For example: /opt/IBM/WebSphere/AppServer/ | Yes |
 
-### Intelligent Management Disable
+## Intelligent Management Disable
 
 Disable the Websphere application server Intelligent management.
 
@@ -1550,7 +1550,7 @@ Disable the Websphere application server Intelligent management.
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 | WebSphere Application Server Install Path | String | The full path to the installation directory of WebSphere Application Server For example: /opt/IBM/WebSphere/AppServer/ | Yes |
 
-### Intelligent Management Enable
+## Intelligent Management Enable
 
 Enable the Websphere application server Intelligent management.
 
@@ -1572,7 +1572,7 @@ Enable the Websphere application server Intelligent management.
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 | WebSphere Application Server Install Path | String | The full path to the installation directory of WebSphere Application Server For example: /opt/IBM/WebSphere/AppServer/ | Yes |
 
-### Intelligent Management Generate Plugin
+## Intelligent Management Generate Plugin
 
 Generates a plug-in that is required by the web server. The plug-in configuration file stores all your Intelligent Management settings.
 
@@ -1593,7 +1593,7 @@ Generates a plug-in that is required by the web server. The plug-in configuratio
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 | WebSphere Application Server Install Path | String | The full path to the installation directory of WebSphere Application Server For example: /opt/IBM/WebSphere/AppServer/ | Yes |
 
-### Intelligent Management List Remote Cells
+## Intelligent Management List Remote Cells
 
 Lists the remote cells for a web server which are available for Intelligent Management service
 
@@ -1612,7 +1612,7 @@ Lists the remote cells for a web server which are available for Intelligent Mana
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 | WebSphere Application Server Install Path | String | The full path to the installation directory of WebSphere Application Server For example: /opt/IBM/WebSphere/AppServer/ | Yes |
 
-### Intelligent Management List Trace Rules
+## Intelligent Management List Trace Rules
 
 List Trace Rules for a web server.
 
@@ -1631,7 +1631,7 @@ List Trace Rules for a web server.
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 | WebSphere Application Server Install Path | String | The full path to the installation directory of WebSphere Application Server For example: /opt/IBM/WebSphere/AppServer/ | Yes |
 
-### Intelligent Management Modify
+## Intelligent Management Modify
 
 Modifies Intelligent Management properties for a web server. Use this operation to configure your Intelligent Management service
 
@@ -1653,7 +1653,7 @@ Modifies Intelligent Management properties for a web server. Use this operation 
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 | WebSphere Application Server Install Path | String | The full path to the installation directory of WebSphere Application Server For example: /opt/IBM/WebSphere/AppServer/ | Yes |
 
-### Intelligent Management Modify Remote Cell
+## Intelligent Management Modify Remote Cell
 
 Modifies a remote cell for a web server. Use this operation to change remote cell properties.
 
@@ -1679,7 +1679,7 @@ Modifies a remote cell for a web server. Use this operation to change remote cel
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 | WebSphere Application Server Install Path | String | The full path to the installation directory of WebSphere Application Server For example: /opt/IBM/WebSphere/AppServer/ | Yes |
 
-### Intelligent Management Refresh Local Cell
+## Intelligent Management Refresh Local Cell
 
 Use this operation to refresh the local cell connectors for your web server.
 
@@ -1698,7 +1698,7 @@ Use this operation to refresh the local cell connectors for your web server.
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 | WebSphere Application Server Install Path | String | The full path to the installation directory of WebSphere Application Server For example: /opt/IBM/WebSphere/AppServer/ | Yes |
 
-### Intelligent Management Refresh Remote Cell
+## Intelligent Management Refresh Remote Cell
 
 Use this operation to refresh the remote cell connectors for your web server.
 
@@ -1721,7 +1721,7 @@ Use this operation to refresh the remote cell connectors for your web server.
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 | WebSphere Application Server Install Path | String | The full path to the installation directory of WebSphere Application Server For example: /opt/IBM/WebSphere/AppServer/ | Yes |
 
-### Intelligent Management Remove Conditional Trace Rule
+## Intelligent Management Remove Conditional Trace Rule
 
 Removes a conditional trace rule from your web server. Use this operation to manage the conditional trace rules in your environment.
 
@@ -1740,7 +1740,7 @@ Removes a conditional trace rule from your web server. Use this operation to man
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 | WebSphere Application Server Install Path | String | The full path to the installation directory of WebSphere Application Server For example: /opt/IBM/WebSphere/AppServer/ | Yes |
 
-### Intelligent Management Set Default Trace Rule
+## Intelligent Management Set Default Trace Rule
 
 Sets the default trace rule for a web server.
 
@@ -1760,7 +1760,7 @@ Sets the default trace rule for a web server.
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 | WebSphere Application Server Install Path | String | The full path to the installation directory of WebSphere Application Server For example: /opt/IBM/WebSphere/AppServer/ | Yes |
 
-### List Cluster Nodes
+## List Cluster Nodes
 
 Return the list of nodes the cluster is running on and set it as an output property in the format ``${p:stepName/nodeList}``
 
@@ -1777,7 +1777,7 @@ Return the list of nodes the cluster is running on and set it as an output prope
 | Port | String | The port to connect to. | No |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Map Resource References to EJB for Application
+## Map Resource References to EJB for Application
 
 Update the resource reference mappings for an enterprise application.
 
@@ -1803,7 +1803,7 @@ Update the resource reference mappings for an enterprise application.
 | Server Name | String | The name of the server to administer. | No |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Map Users And Groups to Roles for Application
+## Map Users And Groups to Roles for Application
 
 Map users to roles for an enterprise application.
 
@@ -1829,7 +1829,7 @@ Map users to roles for an enterprise application.
 | Server Name | String | The name of the server to administer. | No |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Modify Application ClassLoaders
+## Modify Application ClassLoaders
 
 Modify the class loader settings for an application and associated web modules.
 
@@ -1857,7 +1857,7 @@ Modify the class loader settings for an application and associated web modules.
 | WAR Classloader Policy | String | The policy that the classloader is to use to load the WAR modules of the application. Specify SINGLE or MULTIPLE. | No |
 | Web Module ClassLoader | String | The class loader mode to use for the web modules in the application. Specify PARENT\_FIRST or PARENT\_LAST. | No |
 
-### Remove OSGI Bundle
+## Remove OSGI Bundle
 
 Remove an OSGI bundle from WebSphere Application Server.
 
@@ -1880,7 +1880,7 @@ Remove an OSGI bundle from WebSphere Application Server.
 | Server Name | String | The name of the server to administer. | No |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Restart Application
+## Restart Application
 
 Restart an application on a WebSphere server or cluster.
 
@@ -1905,7 +1905,7 @@ Restart an application on a WebSphere server or cluster.
 | Server Name | String | The name of the server to administer. | No |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Restart Server
+## Restart Server
 
 Restart a WebSphere server or cluster.
 
@@ -1927,7 +1927,7 @@ Restart a WebSphere server or cluster.
 | Server Name | String | The name of the server to administer. | No |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Rollout Edition Atomically
+## Rollout Edition Atomically
 
 Atomically roll out an edition of a WebSphere enterprise application.
 
@@ -1955,7 +1955,7 @@ Atomically roll out an edition of a WebSphere enterprise application.
 | Server Name | String | The name of the server to administer. | No |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Rollout Edition In Groups
+## Rollout Edition In Groups
 
 Roll out an edition of a WebSphere enterprise application in groups.
 
@@ -1984,7 +1984,7 @@ Roll out an edition of a WebSphere enterprise application in groups.
 | Server Name | String | The name of the server to administer. | No |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Set Application Defaults
+## Set Application Defaults
 
 Generate default IBM WebSphere Bindings for the specified EAR file.
 
@@ -2005,7 +2005,7 @@ Generate default IBM WebSphere Bindings for the specified EAR file.
 | Strategy | String | Path to a custom strategy file that further affects the bindings. See the properties/dfltbndngs.dtd of your WebSphere installation for more details. | No |
 | Virtual Host | String | The virtual host for all wars in the application. | No |
 
-### Start Application
+## Start Application
 
 Start an application on a WebSphere server or cluster. If you are starting an application at the cell scope, the module list of the installed application is checked to determine which servers/clusters are started.
 
@@ -2030,7 +2030,7 @@ Start an application on a WebSphere server or cluster. If you are starting an ap
 | Server Name | String | The name of the server to administer. | No |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Start BLA
+## Start BLA
 
 Start a business-level application.
 
@@ -2053,7 +2053,7 @@ Start a business-level application.
 | Server Name | String | The name of the server to administer. | No |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Start Server
+## Start Server
 
 Start a WebSphere server or cluster.
 
@@ -2076,7 +2076,7 @@ Start a WebSphere server or cluster.
 | Server Name | String | The name of the server to administer. | No |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Stop Application
+## Stop Application
 
 Stop an application on a WebSphere server or cluster. If you are stopping an application at the cell scope, the module list of the installed application is checked to determine which servers/clusters are stopped.
 
@@ -2100,7 +2100,7 @@ Stop an application on a WebSphere server or cluster. If you are stopping an app
 | Server Name | String | The name of the server to administer. | No |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Stop BLA
+## Stop BLA
 
 Stop a business-level application.
 
@@ -2123,7 +2123,7 @@ Stop a business-level application.
 | Server Name | String | The name of the server to administer. | No |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Stop Server
+## Stop Server
 
 Stop a WebSphere server or cluster.
 
@@ -2146,7 +2146,7 @@ Stop a WebSphere server or cluster.
 | Server Name | String | The name of the server to administer. | No |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Synchronize nodes
+## Synchronize nodes
 
 Synchronize all nodes in a cell.
 
@@ -2171,7 +2171,7 @@ Synchronize all nodes in a cell.
 | Synchronize All Nodes | Boolean | Select to synchronize every node. Clear to synchronize only the node specified in the Node Name property. | No |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Terminate Server or Cluster
+## Terminate Server or Cluster
 
 Stop a WebSphere server or cluster. For advanced users only. Use this step only after a Stop Server or Stop Cluster step has failed to stop the server or cluster. Sets the output property only if any of the node agents are inactive ``${p:stepName/checkNodeAgent}``
 
@@ -2193,7 +2193,7 @@ Stop a WebSphere server or cluster. For advanced users only. Use this step only 
 | Server Name | String | The name of the server to administer. | No |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Uninstall Application
+## Uninstall Application
 
 Uninstall an application from a WebSphere server or cluster.
 
@@ -2218,7 +2218,7 @@ Uninstall an application from a WebSphere server or cluster.
 | Server Name | String | The name of the server to administer. | No |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Update Application
+## Update Application
 
 Update an application on a WebSphere server or cluster.
 
@@ -2256,7 +2256,7 @@ Update an application on a WebSphere server or cluster.
 | Server Name | String | The name of the server to administer. | No |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Update Application On Cluster
+## Update Application On Cluster
 
 Call the AdminTask.updateAppOnCluster command to start a rolling update of an application.
 
@@ -2282,7 +2282,7 @@ Call the AdminTask.updateAppOnCluster command to start a rolling update of an ap
 | Timeout | String | The timeout in seconds. | Yes |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Update Context Root For Web Modules
+## Update Context Root For Web Modules
 
 Update the context root for the specified web module(s) of the installed application.
 
@@ -2308,7 +2308,7 @@ Update the context root for the specified web module(s) of the installed applica
 | Server Name | String | The name of the server to administer. | No |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Update J2EEResourceProperty on Object DEPRECATED
+## Update J2EEResourceProperty on Object DEPRECATED
 
 DEPRECATED. Create or Update J2EEResourceProperty on a config object. This step is deprecated. Use the WebSphere Application Server Configure plug-in to work with configurations in WebSphere.
 
@@ -2328,7 +2328,7 @@ DEPRECATED. Create or Update J2EEResourceProperty on a config object. This step 
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 | Value | String | The value to set the property to. | Yes |
 
-### Update Simple Attribute on Object DEPRECATED
+## Update Simple Attribute on Object DEPRECATED
 
 DEPRECATED. Update simple attribute on a config object. This step is deprecated. Use the WebSphere Application Server Configure plug-in to work with configurations in WebSphere.
 
@@ -2347,7 +2347,7 @@ DEPRECATED. Update simple attribute on a config object. This step is deprecated.
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 | Value | String | The value to set the attribute to. | Yes |
 
-### Update Virtual Host For Web Modules
+## Update Virtual Host For Web Modules
 
 Update the virtual host for the specified web module(s) of the installed application.
 
@@ -2373,7 +2373,7 @@ Update the virtual host for the specified web module(s) of the installed applica
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 | Virtual Host For Web Module | String | The web modules and virtual hosts to update. Specify a list, separated by newline characters, in the following format: moduleName->uri->virtualHost. For example: PlantsByWebSphere Web Application->PlantsByWebSphere.war,WEB-INF/web.xml->default\_host | Yes |
 
-### Update soap.client.props File
+## Update soap.client.props File
 
 Update the properties in WebSpheres soap.client.props file.
 
@@ -2393,7 +2393,7 @@ Update the properties in WebSpheres soap.client.props file.
 |                  | - true       |                                                                                                 |    |
 | User Name | String | The user name for connecting to the WebSphere node. Set to update the com.ibm.SOAP.loginUserid property. | No |
 
-### Validate Configuration Properties
+## Validate Configuration Properties
 
 Validate the WebSphere configuration properties in the specified properties file.
 
@@ -2415,7 +2415,7 @@ Validate the WebSphere configuration properties in the specified properties file
 | Variables Map File Name | String | The name of the variables map file. This file contains values for variables that the system uses from the properties file. | No |
 | Zip File Name | String | The name of the compressed file that contains the policy sets that you want applied to the cell. | No |
 
-### Validate Edition Using Dynamic Cluster
+## Validate Edition Using Dynamic Cluster
 
 Validate an edition using a dynamic cluster.
 
@@ -2442,7 +2442,7 @@ Validate an edition using a dynamic cluster.
 | Server Name | String | The name of the server to administer. | No |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Validate Edition Using Static Cluster
+## Validate Edition Using Static Cluster
 
 Validate an edition using a static cluster.
 
@@ -2468,7 +2468,7 @@ Validate an edition using a static cluster.
 | Server Name | String | The name of the server to administer. | No |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Wait for Application
+## Wait for Application
 
 Wait for an application to be ready on the WebSphere server or cluster.
 
@@ -2494,7 +2494,7 @@ Wait for an application to be ready on the WebSphere server or cluster.
 | Timeout(Seconds) | String | The time, in seconds, to wait for the application to be in the ready state before the step fails. | Yes |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Wait for server or cluster
+## Wait for server or cluster
 
 Wait for a server or cluster to start.
 
@@ -2518,7 +2518,7 @@ Wait for a server or cluster to start.
 | Timeout(Seconds) | String | The time, in seconds, to wait for the server or cluster to start before the step fails. | Yes |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### Wait for server or cluster to stop
+## Wait for server or cluster to stop
 
 Wait for a server or cluster to stop.
 
@@ -2542,7 +2542,7 @@ Wait for a server or cluster to stop.
 | Timeout(Seconds) | String | The time, in seconds, to wait for the server or cluster to stop before the step fails. | Yes |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 
-### WebSphere Discovery
+## WebSphere Discovery
 
 This step discovers if Websphere is on an agent by checking common installation paths. If WebSphere is installed, the step assigns the WebSphereCell role to the resource and sets the command path property.
 
@@ -2553,7 +2553,7 @@ This step discovers if Websphere is on an agent by checking common installation 
 | Profile Path Resource | String | Specify an additional path to search for the wsadmin tool for creating profile resources. By default, the path from the property websphere.profilePath defined on the resource is searched. | No |
 | Resource | String | The resource to configure. | No |
 
-### WebSphere Topology Discovery
+## WebSphere Topology Discovery
 
 This step discovers all the nodes, servers, and clusters in a cell and creates resources for each under a root resource, applies the correct roles, and sets the role properties. This step can be called directly or from an Update from Live Configuration wrapper step.
 
@@ -2575,4 +2575,3 @@ This step discovers all the nodes, servers, and clusters in a cell and creates r
 |Back to ...||Latest Version|WebSphere Application Server - Deployment |||||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 |[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[131.1165947](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/ucd-WebSphere-131.1165947.zip)|[Readme](README.md)|[Overview](overview.md)|[User permissions](user permissions.md)|[Usage](usage.md)|[Roles](roles.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|
-

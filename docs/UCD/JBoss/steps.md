@@ -21,7 +21,7 @@
 * [Undeploy Application](#undeploy_application)
 
 
-### Add Data Source
+## Add Data Source
 
 Add a new Data Source to JBoss
 
@@ -48,7 +48,7 @@ Add a new Data Source to JBoss
 | User Name | String | The user name to the database to be used. | Yes |
 | Username | String | The username to authenticate with. | No |
 
-### Add JMS Connection Factory
+## Add JMS Connection Factory
 
 Add a JMS Connection Factory to JBoss
 
@@ -67,7 +67,7 @@ Add a JMS Connection Factory to JBoss
 | Profile | String | The profile to add the Factory to. Required if JBoss is in Domain Mode. | No |
 | Username | String | The username to authenticate with. | No |
 
-### Add JMS Queue
+## Add JMS Queue
 
 Add a JMS Queue to JBoss
 
@@ -85,7 +85,7 @@ Add a JMS Queue to JBoss
 | Queue Name | String | The name of the Queue to be created. | Yes |
 | Username | String | The username to authenticate with. | No |
 
-### Add JMS Topic
+## Add JMS Topic
 
 Add a JMS Topic to JBoss
 
@@ -103,7 +103,7 @@ Add a JMS Topic to JBoss
 | Topic Name | String | The name of the Topic to be created. | Yes |
 | Username | String | The username to authenticate with. | No |
 
-### Check Deployment Status
+## Check Deployment Status
 
 Get the status information on a deployment
 
@@ -121,7 +121,7 @@ Get the status information on a deployment
 | Server Name | String | Required in Domain mode. The Name of the server the deployment is on. | No |
 | Username | String | The username to authenticate with. | No |
 
-### Create Server
+## Create Server
 
 Create a server and add it to a server group
 
@@ -141,7 +141,7 @@ Create a server and add it to a server group
 | Socket Offset | String | The socket offset for this server. | Yes |
 | Username | String | The username to authenticate with. | No |
 
-### Create Server Group
+## Create Server Group
 
 Create Server Group on a JBoss Domain instance
 
@@ -159,7 +159,7 @@ Create Server Group on a JBoss Domain instance
 | Socket Binding Group | String | The name of the socket binding group to use for the server group. | Yes |
 | Username | String | The username to authenticate with. | No |
 
-### Deploy Application
+## Deploy Application
 
 Deploy application to JBoss.
 
@@ -180,7 +180,7 @@ Deploy application to JBoss.
 | Runtime name | String | The runtime name of the application to be deployed. Should end with the file ending of the deployment source. | No |
 | Username | String | The username to authenticate with. | No |
 
-### Deploy JDBC Driver
+## Deploy JDBC Driver
 
 Deploy JDBC Driver to JBoss.
 
@@ -198,7 +198,7 @@ Deploy JDBC Driver to JBoss.
 | Password | Password | The password to authenticate with. Default value is ``${p?:resource/JBoss.password}``. | No |
 | Username | String | The username to authenticate with. | No |
 
-### Disable Application
+## Disable Application
 
 Disable an application that has been deployed to JBoss, Standalone Only.
 
@@ -214,7 +214,7 @@ Disable an application that has been deployed to JBoss, Standalone Only.
 | Password | Password | The password to authenticate with. Default value is ``${p?:resource/JBoss.password}``. | No |
 | Username | String | The username to authenticate with. | No |
 
-### Enable Application
+## Enable Application
 
 Enable an application that has been deployed to JBoss, Standalone Only.
 
@@ -230,7 +230,7 @@ Enable an application that has been deployed to JBoss, Standalone Only.
 | Password | Password | The password to authenticate with. Default value is ``${p?:resource/JBoss.password}``. | No |
 | Username | String | The username to authenticate with. | No |
 
-### Remove JMS Connection Factory
+## Remove JMS Connection Factory
 
 Remove a JMS Connection Factory from JBoss
 
@@ -247,7 +247,7 @@ Remove a JMS Connection Factory from JBoss
 | Profile | String | The profile to remove the Factory from. Required if JBoss is in Domain Mode. | No |
 | Username | String | The username to authenticate with. | No |
 
-### Restart Server
+## Restart Server
 
 Restart a JBoss Server.
 
@@ -264,7 +264,7 @@ Restart a JBoss Server.
 | Timeout | String | How long to wait (in milliseconds) to bring the server up before failing. | No |
 | Username | String | The username to authenticate with. | No |
 
-### Restart Server Group
+## Restart Server Group
 
 Restart a JBoss Server Group.
 
@@ -281,7 +281,7 @@ Restart a JBoss Server Group.
 | Timeout | String | How long to wait (in milliseconds) to bring the server up before failing. | No |
 | Username | String | The username to authenticate with. | No |
 
-### Run Script
+## Run Script
 
 Run a custom script on JBoss using the CLI
 
@@ -297,7 +297,7 @@ Run a custom script on JBoss using the CLI
 | Script Data | String | The script to be executed. | Yes |
 | Username | String | The username to authenticate with. | No |
 
-### Start JBoss
+## Start JBoss
 
 Start JBoss in either Standalone or Domain mode.
 
@@ -314,7 +314,7 @@ Start JBoss in either Standalone or Domain mode.
 * domain
 | Choose whether to start in Standalone or Domain mode. | Yes |
 
-### Stop JBoss
+## Stop JBoss
 
 Stop JBoss in either standalone or domain mode.
 
@@ -332,7 +332,7 @@ Stop JBoss in either standalone or domain mode.
 | Management Hostname | String | The JBoss management hostname for connecting to a standalone server. | No |
 | Management Port | String | The JBoss management port for connecting to a standalone server. | No |
 
-### Undeploy Application
+## Undeploy Application
 
 Undeploy application in JBoss.
 

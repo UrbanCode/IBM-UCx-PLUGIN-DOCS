@@ -4,7 +4,7 @@
 * [Run Test Suite](#run_test_suite)
 
 
-### Run Test Suite
+## Run Test Suite
 
 Run a Selenium test suite
 

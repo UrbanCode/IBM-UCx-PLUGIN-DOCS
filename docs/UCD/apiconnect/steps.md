@@ -13,7 +13,7 @@
 * [Create a Product](#create_a_product)
 
 
-### Login
+## Login
 
 
 Authenticate with an API Connect cloud through the management server. This step is a prerequisite for all other steps in the IBM API Connect plug-in. (apic login)
@@ -28,7 +28,7 @@ Authenticate with an API Connect cloud through the management server. This step 
 | Server | String | The API Connect management server endpoint to authenticate with. For example, the IBM Bluemix endpoint is us.apiconnect.ibmcloud.com. | Yes |
 | Username | String | The user name to use to authenticate with the API Connect management server. | Yes |
 
-### Logout
+## Logout
 
 
 Remove local authentication credentials for an API Connect cloud. Run this step at the end of each deployment process. (apic logout)
@@ -39,7 +39,7 @@ Remove local authentication credentials for an API Connect cloud. Run this step 
 | APIC Tool Path | String | The full path to the apic command-line tool. For example: C:\Users\John\AppData\Roaming\npm\apic.cmd | No |
 | Server | String | The API Connect management server endpoint to remove credentials from. For example, the IBM Bluemix endpoint is us.apiconnect.ibmcloud.com. | Yes |
 
-### Create a product (for API Connect v10.x)
+## Create a product (for API Connect v10.x)
 
 
 Create a new product in API Connect (apic create:product).
@@ -53,7 +53,7 @@ Create a new product in API Connect (apic create:product).
 | Product Version | String | Specify a version with which you want to craete a new Product in IBM API connect. Ex: 1.0.0. | Yes |
 | Product Version | String | Specify a title with which you want to craete a new Product in IBM API connect . Ex: Test Product.| Yes |
 
-### Publish API Product Definitions
+## Publish API Product Definitions
 
 Publish the API product and referenced APIs to a catalog. (apic products:publish)
 
@@ -68,7 +68,7 @@ Publish the API product and referenced APIs to a catalog. (apic products:publish
 | Space | String | Enter a space to deploy to (if applicable for this catalog) | No |
 | Stage Status | Boolean | Select to keep the product in the staged state, instead of moving to published state. | No |
 
-### Publish an Application (API Connect v5.x)
+## Publish an Application (API Connect v5.x)
 
 
 Publish a Node.js (LoopBack) application to a provider application (apic apps:publish). Note: This command is not supported if using API Connect v2018.x.
@@ -82,7 +82,7 @@ Publish a Node.js (LoopBack) application to a provider application (apic apps:pu
 | Organization | String | The name of the provider organization. | Yes |
 | Server | String | The management server endpoint to publish to. For example, the IBM Bluemix endpoint is us.apiconnect.ibmcloud.com. | Yes |
 
-### Push API Product Definitions to Drafts (API Connect v5.x)
+## Push API Product Definitions to Drafts (API Connect v5.x)
 
 
 Push API product definitions to drafts on an API Connect cloud (apic drafts:push). Note: This command is not supported with API Connect v2018.x.
@@ -97,7 +97,7 @@ Push API product definitions to drafts on an API Connect cloud (apic drafts:push
 | Replace Named Version | String | The name and version of a definition to replace. Use the following format: Name:Version. For example: climbon:1.0.0 | No |
 | Server | String | The management server endpoint to push to. For example, the IBM Bluemix endpoint is us.apiconnect.ibmcloud.com. | Yes |
 
-### Replace Product in Catalog
+## Replace Product in Catalog
 
 
 Replace a published or deprecated product in a catalog with another product (apic products:replace) The old product will be retired. The new product must be either staged, published, or deprecated.
@@ -114,7 +114,7 @@ Replace a published or deprecated product in a catalog with another product (api
 | Server | String | The management server endpoint to set the variable on. For example, the IBM Bluemix endpoint is us.apiconnect.ibmcloud.com. | Yes |
 | Space | String | Enter a space to replace in (if applicable for this catalog). | No |
 
-### Set Configuration Variable
+## Set Configuration Variable
 
 
 Set a configuration variable. You do not need to run the Login step before running this step. This is a wrapper step for the App and Catalog Identifier. If you have access to the Identifier, run that command through the Shell step. (apic config:set)
@@ -133,7 +133,7 @@ Set a configuration variable. You do not need to run the Login step before runni
 | Organization | String | The name of the provider organization. | Yes |
 | Server | String | The management server endpoint to set the variable on. For example, the IBM Bluemix endpoint is us.apiconnect.ibmcloud.com. | Yes |
 
-### Supersede Product in Catalog
+## Supersede Product in Catalog
 
 
 Supersede a published product in a catalog with another product (apic products:replace). The old product is deprecated. The new product must be either staged, published, or deprecated.

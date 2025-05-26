@@ -6,7 +6,7 @@ The Web Deploy tool (msdeploy) simplifies the migration, management and deployme
 The MSDeploy plug-in automates synchronizing and deleting servers, sites, applications, packages, and starting, stopping and recycling application pools by using the msdeploy tool.
 
 
-### Available Steps
+## Available Steps
 
 Delete: Delete an IIS object.
 
