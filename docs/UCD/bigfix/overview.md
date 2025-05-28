@@ -5,7 +5,7 @@ This plug-in includes a step to create and start an action in IBM BigFix. The pl
 
 To add the IBM BigFix plug-in steps to processes, click **IT Management > BigFix** in the step palette of the process editor.
 
-### Compatibility
+## Compatibility
 
 This plug-in works with IBM BigFix version 9.0 and later.
 
@@ -13,13 +13,13 @@ The IBM BigFix server must be accessible from the IBM DevOps Deploy agent.
 
 This plug-in requires version 6.0.1 or later of IBM DevOps Deploy.
 
-### Installation
+## Installation
 
 No special steps are required for installation. See [Installing plug-ins in DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy").
 
-### History
+## History
 
-#### Version 1
+### Version 1
 
 Initial Release. Includes a step to create and start a BigFix action.
 

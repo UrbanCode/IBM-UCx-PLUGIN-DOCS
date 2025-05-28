@@ -1,7 +1,7 @@
 
 # IBM DevOps Deploy Environments - Usage
 
-### Create Multiple Environments
+## Create Multiple Environments
 
 The Create Multiple Environments step provides the ability to create multiple environments using one JSON file or JSON text body. The format of this JSON body allows you to either create environments from a template or without a template. When creating from a template, the format of this JSON body follows the IBM DevOps Deploy createEnvironmentFromTemplate REST endpoint. The documentation for this endpoint can be found in the knowledge center: [IBM DevOps Deploy createEnvironmentFromTemplate REST endpoint](https://www.ibm.com/support/knowledgecenter/SS4GSP_6.2.7/com.ibm.udeploy.api.doc/topics/rest_cli_environment_createenvironmentfromtemplate_put.html)
 

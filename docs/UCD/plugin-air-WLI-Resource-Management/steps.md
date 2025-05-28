@@ -15,7 +15,7 @@
 * [Update XML Cache Entry](#update_xml_cache_entry)
 
 
-### Create FTP EG
+## Create FTP EG
 
 Create an FTP Event Generator onthe WebLogic Integration server.
 
@@ -30,7 +30,7 @@ Create an FTP Event Generator onthe WebLogic Integration server.
 | WebLogic Bin Directory | String | The fully-qualified path to the bin directory containing the wlst executable | Yes |
 | WebLogic setDomainEnv Path | String | The fully-qualified path to the setDomainEnv executable in your WebLogic installation. | Yes |
 
-### Create File EG
+## Create File EG
 
 Create a file event generator on WebLogic server.
 
@@ -45,7 +45,7 @@ Create a file event generator on WebLogic server.
 | WebLogic Bin Directory | String | The fully-qualified path to the bin directory containing the wlst executable. | Yes |
 | WebLogic setDomainEnv Path | String | The fully-qualified path to the setDomainEnv executable in your WebLogic installation. | Yes |
 
-### Create JMS EG
+## Create JMS EG
 
 Create a JMS event generator on the WebLogic Integration server.
 
@@ -60,7 +60,7 @@ Create a JMS event generator on the WebLogic Integration server.
 | WebLogic Bin Directory | String | The fully-qualified path to the bin directory containing the wlst executable | Yes |
 | WebLogic setDomainEnv Path | String | The fully-qualified path to the setDomainEnv executable in your WebLogic installation. | Yes |
 
-### Create XML Cache Entry
+## Create XML Cache Entry
 
 Create an entry in the XML cache.
 
@@ -75,7 +75,7 @@ Create an entry in the XML cache.
 | WebLogic setDomainEnv Path | String | The fully-qualified path to the setDomainEnv executable in your WebLogic installation. | Yes |
 | XML File Path | String | The fully-qualified path for the XML file to be added to the XML cache. | Yes |
 
-### Delete FTP EG
+## Delete FTP EG
 
 Use this step to delete an FTP event generator on the WebLogic Integration server.
 
@@ -90,7 +90,7 @@ Use this step to delete an FTP event generator on the WebLogic Integration serve
 | WebLogic Bin Directory | String | The fully-qualified path to the bin directory containing the wlst executable | Yes |
 | WebLogic setDomainEnv Path | String | The fully-qualified path to the setDomainEnv executable in your WebLogic installation. | Yes |
 
-### Delete File EG
+## Delete File EG
 
 Delete a file event generator on the WebLogic Integration server.
 
@@ -105,7 +105,7 @@ Delete a file event generator on the WebLogic Integration server.
 | WebLogic Bin Directory | String | Path to the bin directory containing the wlst executable | Yes |
 | WebLogic setDomainEnv Path | String | Full path to the setDomainEnv executable in your WebLogic installation. | Yes |
 
-### Delete JMS EG
+## Delete JMS EG
 
 Delete a JMS event generator on the WebLogic Integration server.
 
@@ -120,7 +120,7 @@ Delete a JMS event generator on the WebLogic Integration server.
 | WebLogic Bin Directory | String | The fully-qualified path to the bin directory containing the wlst executable | Yes |
 | WebLogic setDomainEnv Path | String | The fully-qualified path to the setDomainEnv executable in your WebLogic installation. | Yes |
 
-### Delete XML Cache Entry
+## Delete XML Cache Entry
 
 Delete an entry from the XML Cache.
 
@@ -134,7 +134,7 @@ Delete an entry from the XML Cache.
 | WebLogic Bin Directory | String | The fully-qualified path to the bin directory containing the wlst executable | Yes |
 | WebLogic setDomainEnv Path | String | The fully-qualified path to the setDomainEnv executable in your WebLogic installation. | Yes |
 
-### Update FTP EG
+## Update FTP EG
 
 Update an FTP event generator onthe WebLogic Integration server.
 
@@ -150,7 +150,7 @@ Update an FTP event generator onthe WebLogic Integration server.
 | WebLogic Bin Directory | String | The fully-qualified path to the bin directory containing the wlst executable | Yes |
 | WebLogic setDomainEnv Path | String | The fully-qualified path to the setDomainEnv executable in your WebLogic installation. | Yes |
 
-### Update File EG
+## Update File EG
 
 Update a file event generator on the WebLogic integration server.
 
@@ -166,7 +166,7 @@ Update a file event generator on the WebLogic integration server.
 | WebLogic Bin Directory | String | The fully-qualified path to the bin directory containing the wlst executable | Yes |
 | WebLogic setDomainEnv Path | String | The fully-qualified path to the setDomainEnv executable in your WebLogic installation. | Yes |
 
-### Update JMS EG
+## Update JMS EG
 
 Update an JMS event generator on the WebLogic Integration server.
 
@@ -182,7 +182,7 @@ Update an JMS event generator on the WebLogic Integration server.
 | WebLogic Bin Directory | String | The fully-qualified path to the bin directory containing the wlst executable | Yes |
 | WebLogic setDomainEnv Path | String | The fully-qualified path to the setDomainEnv executable in your WebLogic installation. | Yes |
 
-### Update XML Cache Entry
+## Update XML Cache Entry
 
 Update an entry in the XML Cache.
 

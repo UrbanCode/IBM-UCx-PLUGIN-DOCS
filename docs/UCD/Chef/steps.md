@@ -6,13 +6,13 @@
 * [Install Chef Node](#install_chef_node)
 
 
-### Install Chef
+## Install Chef
 
 Installs Chef Solo (11.6.0-1)
 
 This step has no input properties.
 
-### Install Chef Node
+## Install Chef Node
 
 Executes a chef node.
 

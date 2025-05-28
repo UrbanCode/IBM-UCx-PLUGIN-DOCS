@@ -5,7 +5,7 @@ IBM Rational Asset Manager for IBM DevOps Deploy - Usage
 # Usage
 
 
-### Usage
+## Usage
 
 
 
@@ -24,7 +24,7 @@ To create a component, complete the following steps. For more information about 
 6. Specify the properties for the component. See [Settings](#steps) for property descriptions.
 7. Click **Save**.
 
-### Import a version
+## Import a version
 
 When the artifacts are imported, a component version is created using the version of the package. You can specify to import a specific package version or import all versions. If importing all versions, a component version is created for each version.
 

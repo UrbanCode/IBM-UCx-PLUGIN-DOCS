@@ -17,7 +17,7 @@ child.sh < /dev/null > tempout 2>&1
 cat tempout
 ```
 
-### **Step palette**
+## **Step palette**
 
 To access this plug-in in the palette, click **Scripting** > **Shell**.
 

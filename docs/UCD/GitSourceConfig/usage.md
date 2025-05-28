@@ -15,7 +15,7 @@ To create a component, complete the following steps. For more information about 
 6. Specify the properties for the component. See [Settings](./settings.md#roles-in-the-git-plug-in) for property descriptions. When referencing plug-in properties, you must specify the scope for the property. The scope is the type of artifact that contains the property, which for the Git plug-in is component. For example:  ```${p:component/GitComponentProperties/password}```
 7. Click **Save**.
 
-### Import a version
+## Import a version
 
 When the artifacts are imported, a component version is created using the version of the package. You can specify to import a specific package version or import all versions. If importing all versions, a component version is created for each version.
 
@@ -26,4 +26,4 @@ When the artifacts are imported, a component version is created using the versio
 
 |Back to ...||Latest Version|Git |||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[28.1164116](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/GitSourceConfig/ucd-GitSourceConfig-28.1164116.zip)|[Readme](README.md)|[Overview](overview.md)|[Troubleshooting](troubleshooting.md)|[Settings](settings.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[28.1176784](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/GitSourceConfig/ucd-GitSourceConfig-28.1176784.zip)|[Readme](README.md)|[Overview](overview.md)|[Troubleshooting](troubleshooting.md)|[Settings](settings.md)|[Downloads](downloads.md)|

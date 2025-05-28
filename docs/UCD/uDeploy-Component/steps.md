@@ -12,7 +12,7 @@
 * [Create Multiple Components](#create_multiple_comp)
 
 
-### Add Component To Team
+## Add Component To Team
 
 Adds a component to a team for a given type classification.
 
@@ -23,7 +23,7 @@ Adds a component to a team for a given type classification.
 | Team | String |  | Yes |
 | Type | String | The type classification to add. Leave blank to use the type Standard Component. | No |
 
-### Check If Component Exists
+## Check If Component Exists
 
 This step will succeed if the component exists and fail if it doesnt.
 
@@ -32,7 +32,7 @@ This step will succeed if the component exists and fail if it doesnt.
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Component | String |  | Yes |
 
-### Create Component
+## Create Component
 
 Creates a new component.
 
@@ -66,7 +66,7 @@ Creates a new component.
 | Template Name | String | If this component uses a template, enter its name here. | No |
 | Template Version | String | If this component uses a template version, enter the version number here. | No |
 
-### Create Component Property
+## Create Component Property
 
 Creates or sets an existing component property.
 
@@ -78,7 +78,7 @@ Creates or sets an existing component property.
 | Property Value | String | value of the property to set. | No |
 | Secure? | Boolean | check if the property should be secure. | No |
 
-### Delete Component
+## Delete Component
 
 Deletes a component
 
@@ -87,7 +87,7 @@ Deletes a component
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Component | String | Name or ID of the component to delete | Yes |
 
-### Get Applications Using Component
+## Get Applications Using Component
 
 Get a list of applications using a component name or ID.
 
@@ -96,7 +96,7 @@ Get a list of applications using a component name or ID.
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Component | String | Name or ID of the component | Yes |
 
-### Get Component Details
+## Get Component Details
 
 Retrieve basic configuration information about a component.
 
@@ -105,7 +105,7 @@ Retrieve basic configuration information about a component.
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Component | String | Component name or ID | Yes |
 
-### Get Component Properties
+## Get Component Properties
 
 Retrieve the basic properties for a component.
 
@@ -114,7 +114,7 @@ Retrieve the basic properties for a component.
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Component | String |  | Yes |
 
-### Create Multiple Components
+## Create Multiple Components
 
 Creates multiple components.
 

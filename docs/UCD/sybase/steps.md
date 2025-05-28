@@ -4,7 +4,7 @@
 * [Run SQL Scripts](#run_sql_scripts)
 
 
-### Run SQL Scripts
+## Run SQL Scripts
 
 Execute one or more SQL scripts on the server.
 

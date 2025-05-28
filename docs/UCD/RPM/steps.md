@@ -6,7 +6,7 @@
 * [Update RPM](#update_rpm)
 
 
-### Install RPM
+## Install RPM
 
 Install an RPM package.
 
@@ -16,7 +16,7 @@ Install an RPM package.
 | Install Options | String | One or more options to be used when installing the package. Put each option on a separate line. See the [RPM Guide](http://rpm5.org/docs/rpm-guide.html) for a list of options. | No |
 | RPM packages | String | A list of one or more packages to be installed. Put each package name on a separate line. | Yes |
 
-### Uninstall RPM
+## Uninstall RPM
 
 Remove a package.
 
@@ -26,7 +26,7 @@ Remove a package.
 | Erase Options | String | One or more options to use when removing the package. Put each option on a separate line.See the [RPM Guide](http://rpm5.org/docs/rpm-guide.html) for a list of options. | No |
 | Package name | String | A list of one or more packages to be uninstalled. Put each package name on a separate line. | Yes |
 
-### Update RPM
+## Update RPM
 
 Update a package.
 

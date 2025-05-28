@@ -6,7 +6,7 @@ This plug-in manipulates Windows Services. On Microsoft Windows operating system
 The Service Control Manager plug-in is an automation based plugin. It is used during the deployment to automate Windows Services.
 
 
-### Available Steps
+## Available Steps
 
 **Check If Service Exists:** Checks to see if one or more windows services exists.
 

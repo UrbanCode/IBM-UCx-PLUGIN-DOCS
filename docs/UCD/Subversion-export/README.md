@@ -6,7 +6,7 @@ Subversion is an open source version control system. Developers use Subversion t
 This plug-in allows IBM DevOps Deploy to checkout and export code from Subversion.
 
 
-### Available Steps
+## Available Steps
 
 Svn ExportPerform a Subversion checkout or export
 

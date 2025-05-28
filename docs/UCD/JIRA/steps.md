@@ -10,7 +10,7 @@
 * [Transition Issue](#transition_issue)
 
 
-### Add Comments
+## Add Comments
 
 Use this step to add comments from the current changelog to the matching JIRA issues.
 
@@ -33,7 +33,7 @@ Use this step to add comments from the current changelog to the matching JIRA is
 | Trust All Certificates | Boolean | Select this option to allow insecure connections to the server. | No |
 | User Name | String | The user name to use to connect to the JIRA server. | No |
 
-### Check Status
+## Check Status
 
 Check JIRA Issues
 
@@ -57,7 +57,7 @@ Check JIRA Issues
 | Trust All Certificates | Boolean | Select this option to allow insecure connections to the server. | No |
 | User Name | String | The user name to use to connect to the JIRA server. | No |
 
-### Create Issue
+## Create Issue
 
 Use this step to create a new issue in a JIRA Bug Tracker.
 
@@ -85,7 +85,7 @@ Use this step to create a new issue in a JIRA Bug Tracker.
 | Trust All Certificates | Boolean | Select this option to allow insecure connections to the server. | No |
 | User Name | String | The user name to use to connect to the JIRA server. | No |
 
-### Does issues exist
+## Does issues exist
 
 Check if issues with specified issue type exists
 
@@ -119,7 +119,7 @@ Check if issues with specified issue type exists
 | Trust All Certificates | Boolean | Select this option to allow insecure connections to the server. | No |
 | User Name | String | The user name to use to connect to the JIRA server. | No |
 
-### Edit Issue
+## Edit Issue
 
 Use this step to edit fields on an existing JIRA issue.
 
@@ -145,7 +145,7 @@ Use this step to edit fields on an existing JIRA issue.
 | Trust All Certificates | Boolean | Select this option to allow insecure connections to the server. | No |
 | User Name | String | The user name to use to connect to the JIRA server. | No |
 
-### Transition Issue
+## Transition Issue
 
 Use this step to perform JIRA issue transitions.
 

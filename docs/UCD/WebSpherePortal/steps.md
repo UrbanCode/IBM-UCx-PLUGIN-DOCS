@@ -8,7 +8,7 @@
 * [Invoke XMLAccess script](#invoke_xmlaccess_script)
 
 
-### Deploy Portal WAR
+## Deploy Portal WAR
 
 Deploys a WAR on a WebSphere Portal server
 
@@ -28,7 +28,7 @@ Deploys a WAR on a WebSphere Portal server
 | WebSphere portal server administrator username | String | WebSphere portal server administrator username | No |
 | WebSphere portal server configuration port | String | WebSphere portal server configuration port | No |
 
-### Deploy Theme
+## Deploy Theme
 
 Deploys the static contents of a theme along with the related skins on a WebSphere Portal server
 
@@ -54,7 +54,7 @@ Deploys the static contents of a theme along with the related skins on a WebSphe
 | WebSphere portal server administrator username | String | WebSphere portal server administrator username | No |
 | WebSphere portal server configuration port | String | WebSphere portal server configuration port | No |
 
-### Execute ConfigEngine command
+## Execute ConfigEngine command
 
 Executes the specified ConfigEngine command on a WebSphere Portal server
 
@@ -68,7 +68,7 @@ Executes the specified ConfigEngine command on a WebSphere Portal server
 | WebSphere application server administrator password | Password | WebSphere application server administrator user password | No |
 | WebSphere portal server administrator password | Password | WebSphere portal server administrator user password | No |
 
-### Install PAA
+## Install PAA
 
 Installs a portal application archive (.paa) on a WebSphere Portal server
 
@@ -88,7 +88,7 @@ Installs a portal application archive (.paa) on a WebSphere Portal server
 | WebSphere application server administrator password | Password | WebSphere application server administrator user password | No |
 | WebSphere portal server administrator password | Password | WebSphere portal server administrator user password | No |
 
-### Invoke XMLAccess script
+## Invoke XMLAccess script
 
 Executes an XMLAccess script on a WebSphere Portal server
 

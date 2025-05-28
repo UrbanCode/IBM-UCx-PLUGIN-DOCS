@@ -34,7 +34,7 @@
       - [Upload Files](#upload-files)
       - [Upload from Definition](#upload-from-definition)
 
-#### Backup Device
+## Backup Device
 
 Backup all domains on a device (minus key/certificate files)
 
@@ -42,7 +42,7 @@ Backup all domains on a device (minus key/certificate files)
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Backup file | String | DataPower export file to create/overwrite | No |
 
-#### Backup Domains
+## Backup Domains
 
 Backup one or more domains on a device (minus key/certificate files)
 
@@ -52,7 +52,7 @@ Backup one or more domains on a device (minus key/certificate files)
 | Backup file | String | DataPower export file to create/overwrite | No |
 | Domain name | String | Name of the first domain to backup | No |
 
-#### Checkpoint Delete
+## Checkpoint Delete
 
 Delete a checkpoint in a domain
 
@@ -61,7 +61,7 @@ Delete a checkpoint in a domain
 | Checkpoint name | String | Name of checkpoint | No |
 | Domain name | String | Name of a domain containing the checkpoint | No |
 
-#### Checkpoint Restore
+## Checkpoint Restore
 
 Restore a domain from a checkpoint
 
@@ -70,7 +70,7 @@ Restore a domain from a checkpoint
 | Checkpoint name | String | Name of checkpoint | No |
 | Domain name | String | Name of a domain to restore from a checkpoint | No |
 
-#### Checkpoint Save
+## Checkpoint Save
 
 Checkpoint the current state of a domain
 
@@ -79,7 +79,7 @@ Checkpoint the current state of a domain
 | Checkpoint name | String | Name of checkpoint | No |
 | Domain name | String | Name of a domain to checkpoint | No |
 
-#### Create Domain
+## Create Domain
 
 Create a new domain
 
@@ -87,7 +87,7 @@ Create a new domain
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | New domain name | String | Name of the domain to create (letters, numbers, hyphen, underscore, no blanks) | No |
 
-#### Crypto Identity Credential from Definition
+## Crypto Identity Credential from Definition
 
 Create/overwrite a crypto identity credential based on a definition file
 
@@ -96,7 +96,7 @@ Create/overwrite a crypto identity credential based on a definition file
 | Definition file | String | Definition file for crypto identity credential | No |
 | Domain name | String | Name of the target domain | No |
 
-#### Crypto Validation Credential from Definition
+## Crypto Validation Credential from Definition
 
 Create/overwrite a crypto validation credential based on a definition file
 
@@ -105,7 +105,7 @@ Create/overwrite a crypto validation credential based on a definition file
 | Definition file | String | Definition file for crypto validation credential | No |
 | Domain name | String | Name of the target domain | No |
 
-#### Delete Domain
+## Delete Domain
 
 Delete a domain
 
@@ -113,7 +113,7 @@ Delete a domain
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Domain name | String | Name of the domain to delete | No |
 
-#### Download Files
+## Download Files
 
 Download target files or all files from a filestore
 
@@ -124,7 +124,7 @@ Download target files or all files from a filestore
 | Target files (blank means all) | String | All files if empty or target files e.g. <downloadFiles><file>/folderA/fileA.xml</file></downloadFiles> | No |
 | To directory | String | This local directory will contain the downloaded files | Yes |
 
-#### Export Object
+## Export Object
 
 Export an object from a domain on a device
 
@@ -138,7 +138,7 @@ Export an object from a domain on a device
 | Object Class | String | Object class. Specify ‘all-classes’ to export every class. e.g. MultiProtocolGateway or WSGateway | Yes |
 | Object Name | String | Object name. Specify ‘all-objects’ to export every object. e.g. name of service | Yes |
 
-#### Export Objects
+## Export Objects
 
 Export objects from a domain on a device
 
@@ -151,7 +151,7 @@ Export objects from a domain on a device
 | Include reference files? | Boolean | Include referenced files when exporting? | No |
 | Include reference objects? | Boolean | Include referenced objects when exporting? | No |
 
-#### Flush Document Cache
+## Flush Document Cache
 
 Flush the domain’s document cache. Optionally specify a XML Manager.
 
@@ -160,7 +160,7 @@ Flush the domain’s document cache. Optionally specify a XML Manager.
 | Domain name | String | Name of the domain to flush. | Yes |
 | XML Manager | String | The name of a XML Manager to flush. Optional. | No |
 
-#### Flush Stylesheet Cache
+## Flush Stylesheet Cache
 
 Flush the domain’s stylesheet cache. Optionally specify a XML Manager.
 
@@ -169,7 +169,7 @@ Flush the domain’s stylesheet cache. Optionally specify a XML Manager.
 | Domain name | String | Name of the domain to flush. | Yes |
 | XML Manager | String | The name of a XML Manager to flush. Optional. | No |
 
-#### Host Alias Remove
+## Host Alias Remove
 
 Remove a host alias
 
@@ -177,7 +177,7 @@ Remove a host alias
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Host alias name | String | Host alias (e.g. www.ibm.com) | No |
 
-#### Host Alias Set
+## Host Alias Set
 
 Set a host alias
 
@@ -190,7 +190,7 @@ Set a host alias
 |  |  | * enabled | | |
 |  |  | * disabled | | |
 
-#### Import (Basic)
+## Import (Basic)
 
 Import a DataPower export file (e.g. .zip) into a domain
 
@@ -199,7 +199,7 @@ Import a DataPower export file (e.g. .zip) into a domain
 | Domain name | String | Name of the target domain | No |
 | Import File | String | DataPower export file to import | No |
 
-#### Import (Definition)
+## Import (Definition)
 
 Import a DataPower export file (e.g. .zip) into a domain
 
@@ -209,7 +209,7 @@ Import a DataPower export file (e.g. .zip) into a domain
 | Domain name | String | Name of the target domain | No |
 | Import File | String | DataPower export file to import | No |
 
-#### Import (Deployment Policy Object)
+## Import (Deployment Policy Object)
 
 Import a DataPower export file (e.g. .zip) into a domain using a deployment policy object
 
@@ -220,7 +220,7 @@ Import a DataPower export file (e.g. .zip) into a domain using a deployment poli
 | Domain name | String | Name of the target domain | No |
 | Import File | String | DataPower export file to import | No |
 
-#### Invoke any deploy.ant.xml target
+## Invoke any deploy.ant.xml target
 
 Invoke any deploy.ant.xml target – prefer predefined steps to this one
 
@@ -232,7 +232,7 @@ Invoke any deploy.ant.xml target – prefer predefined steps to this one
 | Target Environment | String | Target environment (e.g. dev, sit, uat, prod) | No |
 | Target name | String | Name of the target (e.g. domain-restart) | No |
 
-#### Load Balancer Group from Definition
+## Load Balancer Group from Definition
 
 Create/overwrite a load balancer group based on a definition file
 
@@ -241,7 +241,7 @@ Create/overwrite a load balancer group based on a definition file
 | Definition file | String | Definition file for load balancer group | No |
 | Domain name | String | Name of the target domain | No |
 
-#### Quiesce Domain
+## Quiesce Domain
 
 Quiesce a domain
 
@@ -249,7 +249,7 @@ Quiesce a domain
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Domain name | String | Name of the domain to quiesce | No |
 
-#### Restart Domain
+## Restart Domain
 
 Restart a domain
 
@@ -257,7 +257,7 @@ Restart a domain
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Domain name | String | Name of the domain to restart | No |
 
-#### Restore Backup
+## Restore Backup
 
 Restore one or more domains from backup file (see Backup Device or Backup Domains)
 
@@ -267,7 +267,7 @@ Restore one or more domains from backup file (see Backup Device or Backup Domain
 | Backup file | String | DataPower export file | No |
 | Domain name | String | Name of the first domain to restore | No |
 
-#### Save Configuration
+## Save Configuration
 
 Save the in-memory configuration in a domain to permanent storage
 
@@ -275,7 +275,7 @@ Save the in-memory configuration in a domain to permanent storage
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Domain name | String | Name of the domain | No |
 
-#### Set Log Level
+## Set Log Level
 
 Set the log level for the default log in a domain
 
@@ -292,7 +292,7 @@ Set the log level for the default log in a domain
 |           |    * alert   |                             |    |
 |           |    * emerg   |                             |    |
 
-#### Unquiesce Domain
+## Unquiesce Domain
 
 Unquiesce a domain
 
@@ -300,7 +300,7 @@ Unquiesce a domain
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Domain name | String | Name of the domain to unquiesce | No |
 
-#### Upload Files
+## Upload Files
 
 Upload files
 
@@ -312,7 +312,7 @@ Upload files
 | Include Files | String | A list of patterns, separated by newline characters, that describe the files to upload. The default, \*\*/\*, includes all files. | Yes |
 | To directory | String | Target directory | No |
 
-#### Upload from Definition
+## Upload from Definition
 
 Create/overwrite files/directories based on a definition file
 

@@ -14,13 +14,13 @@ This plug-in includes these steps:
 * [Run Test Set](#run_test_set)
 * [Update Issues](#update_issues)
 
-### Compatibility
+## Compatibility
 
 This plug-in requires IBM DevOps Deploy version 6.0.1 or later.
 
 This plug-in runs on all operating systems that DevOps Deploy supports. However, it works only with HP Quality Center agents that are installed on a Windows operating system.The HP Quality Center agent uses the Internet Explorer browser. Supported versions of the Internet Explorer browser are 11.0 and 11.5.
 
-### Installation
+## Installation
 
 No special steps are required for installation. See [Installing plug-ins in DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy").
 

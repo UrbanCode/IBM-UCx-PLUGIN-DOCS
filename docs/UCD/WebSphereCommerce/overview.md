@@ -11,7 +11,7 @@ A typical deployment includes the following procedures:
 * Define components, applications, and environments to automate deployment.
 * Deploy.
 
-### Compatibility
+## Compatibility
 
 This plug-in requires version 6.0.1 or later of IBM DevOps Deploy.
 
@@ -21,13 +21,13 @@ The IBM DevOps Deploy plug-in for WebSphere Commerce works with WebSphere Commer
 
 The steps in this plug-in run on any agents that the IBM DevOps Deploy server supports.
 
-### Installation
+## Installation
 
 No special steps are required for installation. See [Installing plug-ins in DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy").
 
-### History
+## History
 
-#### Version 3
+### Version 3
 
 This release includes a component template that can help demonstrate how to use the plug-in.
 

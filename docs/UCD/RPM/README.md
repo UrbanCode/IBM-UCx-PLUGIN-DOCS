@@ -6,7 +6,7 @@ The RPM Package Manager (RPM) is a toolset used to install a single package, tra
 The RPM plug-in automates installing, updating, and uninstalling RPM packages.
 
 
-### Available Steps
+## Available Steps
 
 Install RPM 
 

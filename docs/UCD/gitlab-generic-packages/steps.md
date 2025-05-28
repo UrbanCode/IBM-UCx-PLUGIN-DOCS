@@ -3,7 +3,7 @@
 * [Download version](#step)
 
 
-### GitLab Generic Packages Component Properties
+## GitLab Generic Packages Component Properties
 
 Download all files under a specified version of a repository.
 

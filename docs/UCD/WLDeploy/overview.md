@@ -18,7 +18,7 @@ The plug-in includes the following steps:
 * [Stop Targets](#stop_targets "Ant")
 * [Wait for Application](#wait_for_application_on_targets "Ant")
 
-### Compatibility
+## Compatibility
 
 This plug-in requires IBM DevOps Deploy version 6.0.1 or later.
 
@@ -26,35 +26,35 @@ This plug-in supports Oracle WebLogic server version 10.3 and later.
 
 This plug-in runs on all operating systems that DevOps Deploy supports.
 
-### Installation
+## Installation
 
 No special steps are required for installation. See [Installing plug-ins in DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy").
 
-### History
+## History
 
-#### Version 26
+### Version 26
 
 * Fixed issue with Groovy 3.x.
 
-#### Version 25
+### Version 25
 
 * Fixed CVE:CVE-2019-4233.
 
-#### Version 24.971637
+### Version 24.971637
 
 * Fixed APAR PI93543 List Applications on Target step resulting in JSONException.
 * Removed all unnecessary stream handling of input properties files.
 
-#### Version 23.971404
+### Version 23.971404
 
 * Updated auto-discovery to search the MW\_HOME environment variable for a weblogic installation.
 * Changed the wldeploy.path and wldeploy.mwHome Auto Discovery fields to derive from agent properties.
 
-#### Version 22.947258
+### Version 22.947258
 
 * Fixed APAR PI90465 UCD encrypted output properties require decryption key.
 
-#### Version 21.909738
+### Version 21.909738
 
 * Removed unused URLs from steps.
 * Fixed NullPointer issue on auto discovery.
@@ -63,54 +63,54 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 * List Applications step now returns correct applications.
 * Wait For Application step now avoids infinite loop.
 
-#### Version 19.897205
+### Version 19.897205
 
 Version 19.897205 includes the following features and fixes:
 
 * Added timeout property to Stop Targets step.
 * Fixed Run WLDeploy step so System Properties can be passed in.
 
-#### Version 18.891315
+### Version 18.891315
 
 Version 18.891315 includes the following features and fixes:
 
 * Fixed bug in start/stop steps involving starting and stopping clusters that are already in desired state.
 
-#### Version 17.885521
+### Version 17.885521
 
 Version 17.885521 includes the following features and fixes:
 
 * Fixed infinite loop errors in starting/stopping clusters.
 
-#### Version 16.868519
+### Version 16.868519
 
 Version 16.868519 includes the following features and fixes:
 
 * Added support for property file encryption.
 * Added support for different inputs of JMX URL.
 
-#### Version 15.844984
+### Version 15.844984
 
 Version 15.844984 includes the following features and fixes:
 
 * Fixed problem involving mismatched Groovy versions causing java errors.
 
-#### Version 14.830557
+### Version 14.830557
 
 Version 14.830557 includes the following features and fixes:
 
 * Added auto-discovery of a WebLogic installation and auto-configuration of all domains, servers, and clusters managed by the administration server.
 
-#### Version 13.799123 of the plug-in was released on June 21, 2016
+### Version 13.799123 of the plug-in was released on June 21, 2016
 
-#### Version 13.712081
+### Version 13.712081
 
 Version 13.712081 includes the following features and fixes:
 
 * Added ability to fail or warn when Start Targets step fails to start one or more targets.
 * Fixed defect in **Stop Target** step. The step no longer fails when a target is already in SHUTDOWN state.
 
-#### Version 12.699360
+### Version 12.699360
 
 Version 12.699360 includes the following features and fixes:
 

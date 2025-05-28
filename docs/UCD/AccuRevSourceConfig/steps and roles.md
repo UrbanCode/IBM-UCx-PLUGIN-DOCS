@@ -2,19 +2,19 @@
 # AccuRev SCM - Steps and Roles
 
 
-### Process steps in the AccuRev plug-in
+## Process steps in the AccuRev plug-in
 
 * [Import Version](#import_version)
 
 
-### Import Version
+## Import Version
 
 Creates a new component version and imports artifacts from AccuRev.
 
 This step has no input properties.
 
 
-### Roles in the AccuRev plug-in
+## Roles in the AccuRev plug-in
 
 The plug-in adds these roles automatically to resources. You cannot add these roles manually.
 
@@ -23,7 +23,7 @@ The plug-in adds these roles automatically to resources. You cannot add these ro
 * [AccuRevImportProperties](#accurevimportproperties_role)
 
 
-### AccuRevComponentProperties
+## AccuRevComponentProperties
 
 
 | Name | Type | Description |
@@ -41,7 +41,7 @@ The plug-in adds these roles automatically to resources. You cannot add these ro
 | Stream | String | Specify a Stream or Workspace to retrieve artifacts from. If empty, the Depot name will be used. If a Workspace is specified, the checkboxes and manual import values for Promote Transactions, Issues, and Snapshot will be ignored. A version will be created based on the runtime timestamp and file contents of the Workspace. |
 | Username | String | Specify a user with permissions to access the AccuRev Depot and Stream. |
 
-### AccuRevImportProperties
+## AccuRevImportProperties
 
 
 | Name | Type | Description |

@@ -4,7 +4,7 @@
 * [Run SQLCmd scripts](#run_sqlcmd_scripts)
 
 
-### Run SQLCmd scripts
+## Run SQLCmd scripts
 
 Run SQLCmd scripts in sorted order
 

@@ -6,13 +6,13 @@ IBM Rational Functional Tester offers automated capabilities for functional, reg
 
 To use this plug-in, you must have an installation of Rational Functional Tester on an DevOps Deploy Agent computer.
 
-### Compatibility
+## Compatibility
 
 This plug-in requires IBM DevOps Deploy version 6.1 or later and IBM Rational Functional Tester version 8.6.0.3 or later.
 
 The steps in this plug-in run on any agents that are supported by both the IBM DevOps Deploy and the Rational Functional Tester.
 
-### Installation
+## Installation
 
 No special steps are required for installation. See [Installing plug-ins in DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy").
 

@@ -11,45 +11,45 @@ To add the Maven Resolve plug-in steps to processes, click **Repositories > Arti
 
 To use a Maven repository with the Codestation repository in IBM DevOps Deploy, see the [Maven source configuration plug-in](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/MavenSourceConfig/).
 
-### Compatibility
+## Compatibility
 
 This plug-in requires version 6.0.1 or later of IBM DevOps Deploy.
 
-### Installation
+## Installation
 
 No special steps are required for installation. See [Installing plug-ins in DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy").
 
-### History
+## History
 
-#### Version 11
+### Version 11
 
 Log4j and Jettison dependency updated.
 
-#### Version 10
+### Version 10
 
 Log4j issue addressed.
 
-#### Version 9
+### Version 9
 
 Fixes APAR PI98904 Support resolving Maven snapshot versions using hidden property. Function requires Maven Source Config plug-in version 13+.
 
-#### Version 8
+### Version 8
 
 Support property file encryption.
 
-#### Version 7
+### Version 7
 
 Update Maven resolve step to split artifacts properly.
 
-#### Version 6
+### Version 6
 
 Version 6 includes a fix for APAR PI50033 related to cleaning up temporary files.
 
-#### Version 2
+### Version 2
 
 Version 2 of the plug-in points to component source configuration by default.
 
-#### Version 1
+### Version 1
 
 Version 1 is the initial release of the plug-in.
 

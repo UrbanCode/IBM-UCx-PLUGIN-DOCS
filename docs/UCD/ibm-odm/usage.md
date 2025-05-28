@@ -3,7 +3,7 @@
 
 For a full ODM plug-in usage tutorial, refer to [IBM Operational Decision Manager (ODM) with DevOps Deploy](https://www.urbancode.com/2017/08/02/ibm-operational-decision-manager-odm-urbancode-deploy/)
 
-### Version Import
+## Version Import
 
 
 We suggest two approaches for creating new versions and importing ODM artifacts into IBM DevOps Deploy.

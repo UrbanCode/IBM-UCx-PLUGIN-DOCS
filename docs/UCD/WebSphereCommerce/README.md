@@ -20,12 +20,12 @@ The following steps are an overview of the process that you follow:
 The IBM DevOps Deploy plug-in for WebSphere Commerce works with WebSphere Commerce versions 7.0 and earlier. All editions, which include Express, Enterprise and Professional, are supported.
 
 
-### Available Steps
+## Available Steps
 
 Refer to the documentation for a comprehensive list of available steps.
 
 
-### Sample Component Template
+## Sample Component Template
 
 This plug-in provides a sample component template that includes sample processes. The goal of this component template is to demonstrate how to use the steps to complete a deployment to WebSphere Commerce. The component template must be modified to work in your environment. See the documentation for a more in-depth look at the sample processes.
 

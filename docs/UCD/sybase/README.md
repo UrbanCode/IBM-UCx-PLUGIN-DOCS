@@ -11,7 +11,7 @@ For more information about this plugin:
 * For general plug-in issues, submit questions to the [dW Answers page](https://developer.ibm.com/answers/search.html?f=&type=question&redirect=search%2Fsearch&sort=relevance&q=%5Burbancode%5Dsybase). Use the following tags: DevOps | ucdev | plugins
 
 
-### Available Steps
+## Available Steps
 
 Run SQL Scripts: Execute one or more SQL scripts on the server.
 

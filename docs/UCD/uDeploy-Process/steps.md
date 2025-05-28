@@ -6,7 +6,7 @@
 * [Set Process Request Property](#set_process_request_property)
 
 
-### Set Link on Process Request
+## Set Link on Process Request
 
 Creates or removes a link on a process request that can direct users to supplementary information related to the process execution.
 
@@ -18,7 +18,7 @@ Creates or removes a link on a process request that can direct users to suppleme
 | Process Request ID | String | The ID of the process request to update. You can use this field to set a property on a parent or unrelated process request. | Yes |
 | URL | String | The URL to link to. If blank, the link is removed. | No |
 
-### Set Process Request Property
+## Set Process Request Property
 
 Sets a property on a process request.
 

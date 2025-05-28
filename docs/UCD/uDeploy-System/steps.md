@@ -8,7 +8,7 @@
 * [Set System Configuration](#set_system_configuration)
 
 
-### Add Group To Team
+## Add Group To Team
 
 Adds a group to a team for a given type classification.
 
@@ -19,7 +19,7 @@ Adds a group to a team for a given type classification.
 | Team | String |  | Yes |
 | Type | String | The type classification to add. | Yes |
 
-### Add User To Team
+## Add User To Team
 
 Adds a user to a team for a given type classification.
 
@@ -30,7 +30,7 @@ Adds a user to a team for a given type classification.
 | Type | String | The type classification to add. | Yes |
 | User | String |  | Yes |
 
-### Create System Property
+## Create System Property
 
 Creates a system-wide property.
 
@@ -41,13 +41,13 @@ Creates a system-wide property.
 | Property Value | String | value of the property to set. | No |
 | Secure? | Boolean | check if the property should be secure. | No |
 
-### Get System Configuration
+## Get System Configuration
 
 Get all system configuration values
 
 This step has no input properties.
 
-### Set System Configuration
+## Set System Configuration
 
 Set some system configuration values.
 

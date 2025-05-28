@@ -8,7 +8,7 @@ The step response is available in the **responseBody** property. A payload with 
 Use the **Upload to FTP Server** step to specify a file on the agents local file system to upload to an FTP server specified by the Hostname. The file will be uploaded to the directory on the FTP server specified by the File Path. You can optionally rename the file by specifying the Rename File. Note the extension must be explicitly stated in the Rename File property (i.e. newFileName.zip instead of just newFileName).
 
 
-### **Step palette**
+## **Step palette**
 
 To access this plug-in step in the palette, click **Utilities** > **Web Utilities**.
 

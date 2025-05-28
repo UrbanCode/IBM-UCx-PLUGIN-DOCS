@@ -10,7 +10,7 @@ Users experience a minimum of disruptions in service.
 This plugin provides steps for managing Windows Server failover clusters, a feature found in Windows Server Enterprise editions beginning with Windows Server 2008 R2.
 
 
-### Available Steps
+## Available Steps
 
 Bring Resources Online: Bring clustered resources online.
 

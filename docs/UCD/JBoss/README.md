@@ -9,7 +9,7 @@ JBoss Application Server is a open-source application server for Java EE. This p
 * This plug-in is supported to run against JBoss Application Server v6.1 or higher
 
 
-### Available Steps
+## Available Steps
 
 * Add Data Source
 * Add JMS Connection Factory

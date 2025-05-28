@@ -1,18 +1,16 @@
 # z/OS External Artifact Repository - Overview
 
+The zOS External Artifact Utility plug-in includes steps to integrate with external repositories like Nexus or JFrog for zOS.
 
+This plug-in includes the following steps:
 
-The External Artifact Repository plug-in automates the downloading of IBM z/OS artifacts from a [Nexus](https://www.sonatype.com/product-nexus-repository) or [JFrog Artifactory](https://jfrog.com/artifactory/) repository.
-
-
-This plug-in includes one step:
-
-* Download z/OS Package
-
+* Download Artifacts for zOS External Repo
+* Create a Merged Version for JFrog Artifactory
+* Create a Merged Version for Nexus
 
 ## Step palette
 
-To access this plug-in in the palette, click **Repositories** > **Artifact** > **zOS ExternalArtifactsDownload**.
+To access this plug-in in the palette, click **Utilities** > **zOS External Artifacts Utility**
 
 ## Compatibility
 
@@ -23,6 +21,12 @@ This plug-in requires 7.0.4 or later of DevOps Deploy.
 No special steps are required for installation. See [Installing plug-ins in DevOps](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps").
 
 ## History
+
+### Version 13
+
+* Added steps to create a merged version for JFrog and Nexus
+* Renamed plugin from **zOS Utility to download external artifacts** to **zOS External Artifacts Utility**
+* The plugin has been moved from tag **Repositories/Artifact/zOS ExternalArtifactsDownload** to **Utilities/zOS External Artifacts Utility** 
 
 ### Version 12
 
@@ -79,6 +83,6 @@ Read [api-key-deprecation-and-the-new-reference-tokens](https://jfrog.com/help/r
 Plugin is used to download artifacts from external repository like NEXUS/ARTIFACTORY then we can use Deploy Data Sets step for zOS deployment.
 
 
-|          Back to ...          |                                |                                                                   Latest Version                                                                   | z/OS External Artifact Repository ||||
-|:-----------------------------:|:------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------:| :---: | :---: | :---: |
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [12.1176020](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOS-external-artifact-download/ucd-ExtArtRepo-12.1176020.zip)  |        [Readme](README.md)        |[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|          Back to ...          |                                |                                                                  Latest Version                                                                   | z/OS External Artifact Repository |                   |                   |                           |
+|:-----------------------------:|:------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------:|:-----------------:|:-----------------:|:-------------------------:|
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [13.1177041](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOS-external-artifact-download/ucd-ExtArtRepo-13.1177041.zip) |        [Readme](README.md)        | [Usage](usage.md) | [Steps](steps.md) | [Downloads](downloads.md) |

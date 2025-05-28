@@ -7,7 +7,7 @@
 * [Runtime Import](#runtime_import)
 
 
-### Design Time Export
+## Design Time Export
 
 
 Export all or selected applications and services from projects in your InfoSphere Information Services Director server into an XML output file.
@@ -25,7 +25,7 @@ Export all or selected applications and services from projects in your InfoSpher
 | Services | String | A comma or newline delimited list of service names to export from IIS. If multiple projects or applications are given this field will be ignored. | No |
 | Username | String | Your IBM InfoSphere Information Server user ID. | No |
 
-### Design Time Import
+## Design Time Import
 
 
 Import projects, applications, and services into your InfoSphere Information Services Director server from an XML input file.
@@ -43,7 +43,7 @@ Import projects, applications, and services into your InfoSphere Information Ser
 | Services | String | A comma or newline delimited list of service names to export from IIS. If multiple projects or applications are being imported this field will be ignored. | No |
 | Username | String | Your IBM InfoSphere Information Server user ID. | No |
 
-### Runtime Export
+## Runtime Export
 
 
 Export selected runtime applications from your InfoSphere Information Services Director server into a DAT output file.
@@ -59,7 +59,7 @@ Export selected runtime applications from your InfoSphere Information Services D
 | Password | String | Your IBM InfoSphere Information Server user ID. | No |
 | Username | String | Your IBM InfoSphere Information Server user ID. | No |
 
-### Runtime Import
+## Runtime Import
 
 
 Import runtime applications into your InfoSphere Information Services Director server from a DAT input file.

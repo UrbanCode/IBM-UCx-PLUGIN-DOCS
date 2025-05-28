@@ -6,7 +6,7 @@ IBM Business Process Manager is a comprehensive business process management plat
 Plugin to deploy process application snapshots on an online or offline Process Server. Refer to the Documentation Usage page for walkthroughs.
 
 
-### Available Steps
+## Available Steps
 
 Refer to steps under the documentation link on the right.
 

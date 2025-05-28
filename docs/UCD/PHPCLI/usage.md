@@ -2,7 +2,7 @@
 # IBM DevOps PHP CLI Tool - Usage
 
 
-### Run an application process
+## Run an application process
 
 
 
@@ -19,14 +19,14 @@ This entry point will print in the console the ID and link of the process reques
 
 php uCommand.php run application\_process.json
 
-################################## # DevOps PHP CLI # # Urban Code Deploy PHP CLI Tool # # by SalesConnectDublin # ##################################
+### # DevOps PHP CLI # # Urban Code Deploy PHP CLI Tool # # by SalesConnectDublin # ##################################
 
 [INFO] Default output to: /home/csitadmin/Documents/uCommand/backups
 
 [ID] 6916dd6f-d061-4c07-9071-2db64bcaaa29 [LINK] https://myUrbanCodeServer:8443/#applicationProcess/6916dd6f-d061-4c07-9071-2db64bcaaa29
 
 
-### Promote a snapshot
+## Promote a snapshot
 
 
 
@@ -83,7 +83,7 @@ If a component version has artifacts, they are uploaded on the destination DevOp
 User will then be notified of the success or failure. In case of success, a link to the just created snapshot will be displayed in the console.
 
 
-### Promote DevOps Deploy configuration
+## Promote DevOps Deploy configuration
 
 
 
@@ -121,7 +121,7 @@ Directory to server promotion
 php uCommand.php promoteConfig [full\_path\_for\_source\_directory] clean
 
 
-### Perform a restore
+## Perform a restore
 
 
 
@@ -139,7 +139,7 @@ php uCommand.php restore path\_for\_backup\_folder clean
 **Warning:**Please mind that the restore process is returning a false-positive when checking the success of the restore process. Please ignore this message and check for errors in the process output to determine if the restore was successful.
 
 
-### Perform a backup
+## Perform a backup
 
 
 

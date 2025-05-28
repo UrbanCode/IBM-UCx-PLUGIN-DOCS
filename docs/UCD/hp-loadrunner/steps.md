@@ -5,7 +5,7 @@
 * [Run Test Scenario](#run_test_scenario)
 
 
-### Run Test Scenario
+## Run Test Scenario
 
 Invoke the HP LoadRunner controller using the WLRun command-line utility and analyze the results with the AnalysisUI command-line utility. This step will execute a test scenario, save the results, and generate an HTML report.
 

@@ -8,7 +8,7 @@ The Deploy Tools plug-in provides several steps that help verify the successful 
 * This plug-in is supported to run on all operating systems that are supported by the IBM DevOps Deploy agent, except for z/OS.
 
 
-### Available Steps
+## Available Steps
 
 
 Check Total Application Process Execution Time - Check how long the application process has ran and fail if above a certain threshold.

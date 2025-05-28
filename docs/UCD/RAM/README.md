@@ -8,7 +8,7 @@ This plug-in provides steps that enable you to work with Rational Asset Manager 
 * This plug-in is supported to run on all operating systems that are supported by both the IBM DevOps Deploy agent
 
 
-### Available Steps
+## Available Steps
 
 Categorize an Asset: Assign one or more categories on an asset.
 

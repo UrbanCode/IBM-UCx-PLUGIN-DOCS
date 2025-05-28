@@ -8,7 +8,7 @@ SQLCMD is a command line application that comes with Microsoft SQL Server, and e
 This plugin currently supports up to MSSQL 2012.
 
 
-### Available Steps
+## Available Steps
 
 RunSQLCmd scriptsRun SQLCmd scripts in sorted order
 

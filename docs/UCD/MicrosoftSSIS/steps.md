@@ -4,7 +4,7 @@
 * [Deploy](#deploy)
 
 
-### Deploy
+## Deploy
 
 Deploy a DTSX file from a local file system to a Microsoft SQL database.
 

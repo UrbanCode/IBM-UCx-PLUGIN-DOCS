@@ -7,12 +7,12 @@
     - [Hybrid API DevOps](#hybrid-api-devops)
     - [Using the API Connect plug-in video](#using-the-api-connect-plug-in-video)
 
-### Using the plug-in with API Connect Version 2018
+## Using the plug-in with API Connect Version 2018
 
 There are differences in using the IBM API Connect plug-in with the API Connect Version 2018 from the previous versions. The following video demonstrates how to use the plug-in with API Connect Version 2018.
 [![IBM DevOps Deploy APIC 2018 Support](https://www.youtube.com/embed/9cRXjnsAV6w)](https://www.youtube.com/embed/9cRXjnsAV6w "IBM DevOps Deploy APIC 2018 Support")
 
-### Hybrid API DevOps
+## Hybrid API DevOps
 
 A DevOps platform for APIs provides the ability to streamline and automate the process of developing, building, testing and deploying APIs onto the API runtime cloud platform either when these APIs are organically developed or when they are exposed endpoints to existing backend services.
 
@@ -20,7 +20,7 @@ The GitHub repository [refarch-hybridcloud-blueportal-api](https://github.com/ib
 
 [![](media/deployment_sample.png)](media/deployment_sample.png)
 
-### Using the API Connect plug-in video
+## Using the API Connect plug-in video
 
 The Using the API Connect plug-in video complements the information on the [Usage](usage.md) page.
 [![Using the API Connect plug-in](https://www.youtube.com/embed/JtJYFszcGs4)](https://www.youtube.com/embed/JtJYFszcGs4 "Using the API Connect plug-in")

@@ -19,7 +19,7 @@
 * [Stop Site](#stop_site)
 
 
-### AppCmd
+## AppCmd
 
 Run an arbitrary appcmd command.
 
@@ -33,7 +33,7 @@ Run an arbitrary appcmd command.
 | Object Type | String | The object type that the command should be run against. | Yes |
 | Timeout | Integer | Timeout, in seconds, at which the step will fail if action is not yet complete. | No |
 
-### Create Application
+## Create Application
 
 Create an Application in IIS.
 
@@ -46,7 +46,7 @@ Create an Application in IIS.
 | Virtual Path | String | The virtual path that this application should be created under. | Yes |
 | Timeout | Integer | Timeout, in seconds, at which the step will fail if action is not yet complete. | No |
 
-### Create Application Pool
+## Create Application Pool
 
 Create an Application Pool in IIS.
 
@@ -58,7 +58,7 @@ Create an Application Pool in IIS.
 | Command Path | String | The directory location of the AppCmd command-line executable: e.g., C:\Windows\system32\inetsrv\ | No |
 | Timeout | Integer | Timeout, in seconds, at which the step will fail if action is not yet complete. | No |
 
-### Create Site
+## Create Site
 
 Create a new Web Site in IIS.
 
@@ -70,7 +70,7 @@ Create a new Web Site in IIS.
 | Site Name | String | The name of the Web Site to create, e.g. DefaultWebSite. | Yes |
 | Timeout | Integer | Timeout, in seconds, at which the step will fail if action is not yet complete. | No |
 
-### Create Virtual Directory
+## Create Virtual Directory
 
 Create a new Virtual Directory in IIS.
 
@@ -84,7 +84,7 @@ Create a new Virtual Directory in IIS.
 | Virtual Path | String | The virtual path of the virtual directory. | Yes |
 | Timeout | Integer | Timeout, in seconds, at which the step will fail if action is not yet complete. | No |
 
-### Create or update application from XML
+## Create or update application from XML
 
 Create or update existing application using user supplied XML
 
@@ -97,7 +97,7 @@ Create or update existing application using user supplied XML
 | Command Path | String | The directory location of the AppCmd command-line executable: e.g., C:\Windows\system32\inetsrv\ | No |
 | Timeout | Integer | Timeout, in seconds, at which the step will fail if action is not yet complete. | No |
 
-### Delete Application
+## Delete Application
 
 Delete an Application from IIS.
 
@@ -109,7 +109,7 @@ Delete an Application from IIS.
 | ID | String | The Application path or URL of the application to delete, e.g. Default Web Site/Application. | Yes |
 | Timeout | Integer | Timeout, in seconds, at which the step will fail if action is not yet complete. | No |
 
-### Delete Application Pool
+## Delete Application Pool
 
 Delete an Application Pool from IIS.
 
@@ -121,7 +121,7 @@ Delete an Application Pool from IIS.
 | Command Path | String | The directory location of the AppCmd command-line executable: e.g., C:\Windows\system32\inetsrv\ | No |
 | Timeout | Integer | Timeout, in seconds, at which the step will fail if action is not yet complete. | No |
 
-### Delete Site
+## Delete Site
 
 Delete a Web Site from IIS.
 
@@ -133,7 +133,7 @@ Delete a Web Site from IIS.
 | Site Name | String | The name of the Web Site to delete, e.g. DefaultWebSite. | Yes |
 | Timeout | Integer | Timeout, in seconds, at which the step will fail if action is not yet complete. | No |
 
-### Delete Virtual Directory
+## Delete Virtual Directory
 
 Delete a Virtual Directory from IIS.
 
@@ -145,7 +145,7 @@ Delete a Virtual Directory from IIS.
 | Virtual Directory Path | String | Virtual Directory Path or URL to be deleted, e.g. Default Web Site/subdir. | Yes |
 | Timeout | Integer | Timeout, in seconds, at which the step will fail if action is not yet complete. | No |
 
-### Recycle Application Pool
+## Recycle Application Pool
 
 Recycle an Application Pool in IIS.
 
@@ -157,7 +157,7 @@ Recycle an Application Pool in IIS.
 | Command Path | String | The directory location of the AppCmd command-line executable: e.g., C:\Windows\system32\inetsrv\ | No |
 | Timeout | Integer | Timeout, in seconds, at which the step will fail if action is not yet complete. | No |
 
-### Start Application Pool
+## Start Application Pool
 
 Start an Application Pool in IIS.
 
@@ -169,7 +169,7 @@ Start an Application Pool in IIS.
 | Command Path | String | The directory location of the AppCmd command-line executable: e.g., C:\Windows\system32\inetsrv\ | No |
 | Timeout | Integer | Timeout, in seconds, at which the step will fail if action is not yet complete. | No |
 
-### Start Site
+## Start Site
 
 Start a Web Site in IIS.
 
@@ -181,7 +181,7 @@ Start a Web Site in IIS.
 | Site Name | String | The name of the Web Site to delete, e.g. DefaultWebSite. | Yes |
 | Timeout | Integer | Timeout, in seconds, at which the step will fail if action is not yet complete. | No |
 
-### Stop Application Pool
+## Stop Application Pool
 
 Stop an Application Pool in IIS.
 
@@ -193,7 +193,7 @@ Stop an Application Pool in IIS.
 | Command Path | String | The directory location of the AppCmd command-line executable: e.g., C:\Windows\system32\inetsrv\ | No |
 | Timeout | Integer | Timeout, in seconds, at which the step will fail if action is not yet complete. | No |
 
-### Stop Site
+## Stop Site
 
 Stop a Web Site in IIS.
 

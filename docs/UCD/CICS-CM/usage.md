@@ -2,7 +2,7 @@
 # CICS CM (Beta) - Usage
 
 
-### Migrating resource definitions
+## Migrating resource definitions
 
 To deploy specific resource definitions to selected target configurations, complete the following steps:
 
@@ -14,11 +14,11 @@ To deploy specific resource definitions to selected target configurations, compl
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-### Dynamic migration example
+## Dynamic migration example
 
 In the following example, the component that is going to be deployed is called *Core Banking*.
 
-### Before you deploy
+## Before you deploy
 
 You need to have an existing version or create a version in the component that you want to use for the change package. Each version includes the change package name and the source configuration name.
 
@@ -45,13 +45,13 @@ Under CICS CM, in the Design Step Palette, drag and drop the relevant steps for 
 The following screen captures show the dynamic migration steps and the properties for the **Create migration scheme** step. [![Dynamic_Migration_Process(Bigger image)](media/dynamic_migration_processbigger-image.png)](dynamic_migration_processbigger-image.png) [![Create_Migration_Scheme_Properties](media/create_migration_scheme_properties.png)](create_migration_scheme_properties.png)
 
 
-### Install component step
+## Install component step
 
 The **Install Component** step is a **Process** within an **Application**. You can choose which process within the component that you want to install or deploy to your target environment. In this example, the **Dynamic Migration Process** is selected for the Core Banking component.
 
 The following screen captures show the install component step and properties for Core Banking. When you include an install step in your deployment process, set the Max # of concurrent jobs to 1 because it is a sequential process. [![InstallComponent](media/installcomponent.png)](installcomponent.png)![InstallComponentProperties](media/installcomponentproperties.png)
 
-### Deploy the component
+## Deploy the component
 
 Ensure that the version you want to use exists, that you have added the base resources to your environment, included your component, and created a process for your application.
 
@@ -60,12 +60,12 @@ Now, click the play icon for the environment within your application and select 
 The **Applications** view changes to show the progress of the migration. You can expand the process to view the different process steps. As each step completes, the status is updated to show whether the step was successful. A log file for each step is created if you need to view the contents.
 
 
-### CICS CM properties
+## CICS CM properties
 
 
 
 
-### CICS CM properties
+## CICS CM properties
 
 When you add a new CICS CM step to a process, the step contains a number of default values that refer to properties.
 

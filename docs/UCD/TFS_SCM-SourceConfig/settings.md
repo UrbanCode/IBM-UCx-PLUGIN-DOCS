@@ -4,14 +4,14 @@
 * [Import Version](#import_version)
 
 
-### Import Version
+## Import Version
 
 Import a new version from TFS\_SCM
 
 This step has no input properties.
 
 
-### Roles in the TFS\_SCM plug-in
+## Roles in the TFS\_SCM plug-in
 
 The plug-in adds these roles automatically to resources. You cannot add these roles manually.
 
@@ -20,7 +20,7 @@ The plug-in adds these roles automatically to resources. You cannot add these ro
 * [TFS\_SCMImportProperties](#tfs_scmimportproperties_role)
 
 
-### TFS\_SCMComponentProperties
+## TFS\_SCMComponentProperties
 
 
 | Name | Type | Description |
@@ -35,7 +35,7 @@ The plug-in adds these roles automatically to resources. You cannot add these ro
 | User | String | The user name for the account that has access to the Team Foundation Server or Visual Studio Online repository. |
 | Workspace | String | TThe name of the Team Foundation Server or Visual Studio Online workspace. To get a list of workspace namesfrom the server, run the following command: TF workspaces /server:Repository\_URL /login:user,password.For Visual Studio Online, alternate authentication credentials must be enabled. |
 
-### TFS\_SCMImportProperties
+## TFS\_SCMImportProperties
 
 
 | Name | Type | Description |
@@ -47,4 +47,4 @@ The plug-in adds these roles automatically to resources. You cannot add these ro
 
 |Back to ...||Latest Version|Microsoft TFS_SCM (Team Foundation Server) |||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[17.1154009](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/TFS_SCM-SourceConfig/ucd-TFS_SCM-SourceConfig-17.1154009.zip)|[Readme](README.md)|[Overview](overview.md)|[Troubleshooting](troubleshooting.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[19.1171672](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/TFS_SCM-SourceConfig/ucd-TFS_SCM-SourceConfig-19.1171672.zip)|[Readme](README.md)|[Overview](overview.md)|[Troubleshooting](troubleshooting.md)|[Usage](usage.md)|[Downloads](downloads.md)|

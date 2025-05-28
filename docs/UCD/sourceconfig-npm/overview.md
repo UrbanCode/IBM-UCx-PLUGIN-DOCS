@@ -7,21 +7,21 @@ This plug-in includes one step:
 
 * [Import Version](#import_version)
 
-### Step palette
+## Step palette
 
 To access this plug-in in the palette, click **Utilities** > **NPM**.
 
-### Compatibility
+## Compatibility
 
 This plug-in requires that NPM be installed on the DevOps Deploy agent.
 
-### Installation
+## Installation
 
 See [Installing plug-ins in DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy") for installation information.
 
-### History
+## History
 
-#### Version 1
+### Version 1
 
 * Initial release of this plug-in.
 

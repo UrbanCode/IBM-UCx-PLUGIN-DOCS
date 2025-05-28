@@ -12,7 +12,7 @@ This plug-in includes these steps.
 * [Transition Issue](#transition_issue)
 * [Does issues exist](#does_issues_exist)
 
-### Compatibility
+## Compatibility
 
 This plug-in requires IBM DevOps Deploy version 6.0 or later.
 
@@ -20,82 +20,82 @@ This plug-in runs on all operating systems that DevOps Deploy supports.
 
 For JIRA version older than v5.0, please use plugin v5 which uses the SOAP API.
 
-### Installation
+## Installation
 
 No special steps are required for installation. See [Installing plug-ins in DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy").
 
-### History
+## History
 
-#### Version 19
+### Version 19
 
 * RFE - URBANCODE-I-635.
 
-#### Version 18
+### Version 18
 
 * RFE - URBANCODE-I-586.
 
-#### Version 17
+### Version 17
 
 * Log4j and Jettison dependency updated.
 
-#### Version 16
+### Version 16
 
 * RFE 146322 – Modified “project” field in “Does issues exists” to handle multiple project keys.
 
-#### Version 15
+### Version 15
 
 * RFE 144997 – Add “project” field to step “Does issues exists”.
 
-#### Version 14
+### Version 14
 
 * RFE 143944 – Add support for “Does issues exists for an issue type and mark failure if they exist otherwise success”.
 
-#### Version 13
+### Version 13
 
 * RFE 119842Add support for setting additional standard and custom field values on issue create/transition.
 * Rename the Update Issue step to Transition Issue.
 * Add a new Edit Issue step, for editing fields on an existing issue.
 * When creating an issue, only set the Due Date field if the specified project and issue type allow it.
 
-#### Version 12
+### Version 12
 
 Fix issue with setting proxy port.
 
-#### Version 11
+### Version 11
 
 Add the ability to trust all certificates.
 
-#### Version 10
+### Version 10
 
 Fixes APAR PI84297: Fix response text encoding.
 
-#### Version 9
+### Version 9
 
 * Fixes APAR PI79900Support added for Http Web Proxies.
 * Added ability to create issues with Parent IDs and attach labels.
 * The Create Issues step now uses a text box, instead of a select box, to define Properties. All steps will need to be updated with the appropriate priority label.
 
-#### Version 8
+### Version 8
 
 Support property file encryption.
 
-#### Version 7
+### Version 7
 
 Updated step and property descriptions.
 
-#### Version 6
+### Version 6
 
 Fixes Story 107389Change WSDL/SOAP to RESTful services. The REST API requires JIRA v5.0+. For JIRA version older than v5.0, please use plugin v5.
 
-#### Version 5
+### Version 5
 
 Fixes APAR PI37115Steps failing with Assertion Error
 
-#### Version 4
+### Version 4
 
 Fixes APAR PI35342compatibility defect with IBM DevOps Deploy version 6.1.0.4 and later.
 
-#### Version 3
+### Version 3
 
 The JIRA integration provides component process steps to create, comment and resolve issues found in JIRA and publish a list of issues that were addressed in the deployment.
 

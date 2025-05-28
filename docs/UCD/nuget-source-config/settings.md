@@ -2,19 +2,19 @@
 # NuGet - Settings
 
 
-### Process steps in the NuGet plug-in
+## Process steps in the NuGet plug-in
 
 * [Import Version](#import_version)
 
 
-### Import Version
+## Import Version
 
 Create a new component version and import artifacts from a NuGet repository.
 
 This step has no input properties.
 
 
-### Roles in the NuGet plug-in
+## Roles in the NuGet plug-in
 
 The plug-in adds these roles automatically to resources. You cannot add these roles manually.
 
@@ -22,7 +22,7 @@ The plug-in adds these roles automatically to resources. You cannot add these ro
 * [NuGetImportProperties](#nugetimportproperties_role)
 
 
-### NuGetComponentProperties
+## NuGetComponentProperties
 
 
 | Name | Type | Description |
@@ -40,7 +40,7 @@ The plug-in adds these roles automatically to resources. You cannot add these ro
 | Trust All Certificates | Boolean | Select to accept all SSL certificates when authenticating with the NuGet repository. |
 | User | String | The user name used to authenticate with the NuGet repository. |
 
-### NuGetImportProperties
+## NuGetImportProperties
 
 
 | Name | Type | Description |

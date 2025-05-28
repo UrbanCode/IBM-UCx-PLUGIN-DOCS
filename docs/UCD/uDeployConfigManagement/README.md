@@ -8,7 +8,7 @@ This plug-in will also read in properties from a file.
 Plug-in for downloading and uploading configuration templates from/to IBM DevOps Deploy.
 
 
-### Available Steps
+## Available Steps
 
 Batch Import Properties: Import Component Environment Properties from a properties file.
 

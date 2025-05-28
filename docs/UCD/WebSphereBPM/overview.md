@@ -23,7 +23,7 @@ The following steps are an overview of the typical process to follow:
 3. Define components, applications, and environments to automate deployment.
 4. Deploy.
 
-### Compatibility
+## Compatibility
 
 This plug-in requires version 6.0.1 of IBM DevOps Deploy.
 
@@ -31,48 +31,48 @@ The IBM DevOps Deploy plug-in for WebSphere Business Process Manager supports Bu
 
 The steps in this plug-in run on any agents that the IBM DevOps Deploy server supports.
 
-### Installation
+## Installation
 
 No special steps are required for installation. See [Installing plug-ins in DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy").
 
-### History
+## History
 
-#### Version 13
+### Version 13
 
 Fixes APAR PH08137: Exception WASX8009E Invalid Parameter with BPM Deploy Process Application Snapshot step with spaces in Process Server Name
 
-#### Version 12
+### Version 12
 
 Warn the user when either conflicting credential properties or no credential properties are set. General refactoring.
 
-#### Version 11
+### Version 11
 
 * Updated all descriptions to specify whether the step connects to a Process Server or Process Center server.
 * All step descriptions have the BPM command they are utilizing. If you are having trouble, we recommend referencing the WebSphere BPM documentation for CLI specific help. Many questions can be answered by following WebSphere BPMs official CLI documentation.
 * Most steps will connect to and run against the Process Center server. However, we recommend that there is at least one agent is installed on every Process Server and Process Center server. By running against the agent located on the correct server, this will eliminate the need to specify each steps Host property. This is achievable through proper DevOps Deploy environment and resource management.
 * The Update Installation Information steps Process application track property is now optional for Process Center servers. It is still required for Process Servers.
 
-#### Version 10
+### Version 10
 
 All step descriptions now include their wsadmin scriptings commands.
 
-#### Version 9
+### Version 9
 
 Fixes APAR PI78360Updated acronym parsing and identification.
 
-#### Version 8
+### Version 8
 
 Support encrypted properties.
 
-#### Version 7
+### Version 7
 
 Added timeout to Generate Offline Package to prevent BPM command line race conditions. The Track, Container, and Snapshot acronym finder will return the entered value if not found.
 
-#### Version 6
+### Version 6
 
 Version 6 adds a verbose mode to display additional troubleshooting output. Updated finder for identifying the track, snapshot, or container acronym from its full name.
 
-#### Version 5
+### Version 5
 
 Version 5 adds functionality for the following BPM functions:
 
@@ -90,7 +90,7 @@ Version 5 adds functionality for the following BPM functions:
 
 Minor fixes to Deploy Offline Package and Deploy Process Application Snapshot steps.
 
-#### Version 4
+### Version 4
 
 Version 4 adds functionality to pass the host name to the wsadmin script for all process steps.
 

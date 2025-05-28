@@ -23,7 +23,7 @@ As well as the following build-time libraries:
 
 If no errors occur during a step, the plug-in activates the changes made to the Oracle Service Bus session. You do not need to activate the session manually.
 
-### Compatibility
+## Compatibility
 
 This plug-in requires version 6.0.1 of IBM DevOps Deploy.
 
@@ -31,25 +31,25 @@ This plug-in supports Oracle Service Bus versions 10g and 11g.
 
 The steps in this plug-in run on any agents that the IBM DevOps Deploy server supports.
 
-### Installation
+## Installation
 
 No special steps are required for installation. See [Installing plug-ins in IBM DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in IBM DevOps Deploy").
 
-### History
+## History
 
-#### Version 13
+### Version 13
 
 Fixes missing property exception in Import Configuration step.
 
-#### Version 12
+### Version 12
 
 Support property file encryption.
 
-#### Version 11
+### Version 11
 
 This version of the plug-in includes a step that imports configuration files and applies customization in the same step, which is a fix for APAR PI61865.
 
-#### Version 8
+### Version 8
 
 Initial release of the plug-in.
 

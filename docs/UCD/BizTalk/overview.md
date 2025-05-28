@@ -25,20 +25,20 @@ The Microsoft BizTalk plug-in includes the following step that is related to Biz
 
 To add the Microsoft BizTalk plug-in steps to processes, click **Middleware > Enterprise Service Bus > BizTalk** in the step palette of the process editor.
 
-### Compatibility
+## Compatibility
 
 The IBM DevOps Deploy automation plug-in for Microsoft BizTalk works with BizTalk Server 2010.
 
 This plug-in requires version 6.1 or later of IBM DevOps Deploy.
 
 
-### Installation
+## Installation
 
 No special steps are required for installation. See [Installing plug-ins in DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy").
 
-### History
+## History
 
-#### Version 5
+### Version 5
 
 Initial release
 

@@ -18,7 +18,7 @@
     - [IISSite](#iissite)
     - [IISWebServer](#iiswebserver)
 
-### IIS Configuration Apply
+## IIS Configuration Apply
 
 Apply a configuration or application to an IIS instance.
 
@@ -28,14 +28,14 @@ Apply a configuration or application to an IIS instance.
 | Resource Path | String | The path to the resource to configure in IBM DevOps Deploy. | Yes |
 | Web Deploy Path | String | The full path to the msdeploy.exe executable file. | Yes |
 
-### IIS Configuration Auto-Discovery
+## IIS Configuration Auto-Discovery
 
 Discover an IIS configuration.
 
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 
-### IIS Configuration Discovery
+## IIS Configuration Discovery
 
 Configure detailed information in IIS.
 
@@ -48,7 +48,7 @@ Configure detailed information in IIS.
 | Resource | String | The resource to configure. | No |
 | Web Deploy Path | String | The full path to the msdeploy.exe executable file. For example: C:\Program Files\IIS\Microsoft Web Deploy V2\ | No |
 
-### IIS Configuration Live Compare
+## IIS Configuration Live Compare
 
 Compare an IIS configuration stored in a component version with a live IIS instance
 
@@ -62,7 +62,7 @@ Compare an IIS configuration stored in a component version with a live IIS insta
 | Token Delimiter | String | The delimiter to denote tokens inside the file. The default delimiter is the at sign (@). This delimiter must match any delimiter that is used by the IIS Configuration Tokenize Configuration File step (by default, also the at sign). | No |
 | Web Deploy Path | String | The full path to the msdeploy.exe executable file. For example: C:\Program Files\IIS\Microsoft Web Deploy V2\ | No |
 
-### IIS Configuration Replace Tokens
+## IIS Configuration Replace Tokens
 
 Replace tokens in the configuration file.
 
@@ -74,7 +74,7 @@ Replace tokens in the configuration file.
 | Property Prefix | String | Specify a prefix to use to determine which properties are included in token replacement. Leave blank to include all properties. | No |
 | Token Delimiter | String | The delimiter to denote tokens inside the file. The default delimiter is the at sign (@). This delimiter must match any delimiter that is used by the IIS Configuration Tokenize Configuration File step (by default, also the at sign). | No |
 
-### IIS Configuration Tokenize Configuration File
+## IIS Configuration Tokenize Configuration File
 
 Replace property values with tokens in Web Deploy configuration files.
 
@@ -83,7 +83,7 @@ Replace property values with tokens in Web Deploy configuration files.
 | Properties To Tokenize | String | Specify a list of properties and their replacement tokens, separated by newline characters. Use the following format: property=token. For example: aProperty=@token@\nanotherProperty=@anotherToken@ | Yes |
 | Token Delimiter | String | The delimiter to denote tokens inside the file. The default delimiter is the at sign (@). This delimiter must match the delimiter that is used by the IIS Configuration Replace Tokens step (by default, also the at sign). | Yes |
 
-### IIS Configuration Topology Discovery
+## IIS Configuration Topology Discovery
 
 Discover an IIS configuration.
 
@@ -91,7 +91,7 @@ Discover an IIS configuration.
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | AppCmd Path | String | The full path to the AppCmd.exe executable file. | Yes |
 
-### Roles in the IIS-Configuration plug-in
+## Roles in the IIS-Configuration plug-in
 
 The plug-in adds these roles automatically to resources. You cannot add these roles manually.
 
@@ -100,7 +100,7 @@ The plug-in adds these roles automatically to resources. You cannot add these ro
 * [IISSite](#iissite_role)
 * [IISWebServer](#iiswebserver_role)
 
-### IISApp
+## IISApp
 
 Role for resources that represents an IIS application
 
@@ -109,7 +109,7 @@ Role for resources that represents an IIS application
 | iis.app.name | String | The name for this resource role |
 | applicationPool | String | Application pool that this application belongs to. Retrieved from AppCmd list command during topology discovery. |
 
-### IISAppPool
+## IISAppPool
 
 Role for resources that represents an IIS application pool
 
@@ -120,7 +120,7 @@ Role for resources that represents an IIS application pool
 | MgdMode | String | Managed mode. Retrieved from AppCmd list command during topology discovery. |
 | state | String | State of the application pool. Retrieved from AppCmd list command during topology discovery. |
 
-### IISSite
+## IISSite
 
 Role for resources that represents an IIS Site
 
@@ -131,7 +131,7 @@ Role for resources that represents an IIS Site
 | bindings | String | Bindings of the site. Retrieved from AppCmd list command during topology discovery. |
 | state | String | State of the site. Retrieved from AppCmd list command during topology discovery. |
 
-### IISWebServer
+## IISWebServer
 
 Role for resources that represents an IIS root
 

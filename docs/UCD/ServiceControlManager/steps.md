@@ -11,7 +11,7 @@
 * [Stop Service](#stop_service)
 
 
-### Check If Service Exists
+## Check If Service Exists
 
 Checks to see if one or more services exists.
 
@@ -20,7 +20,7 @@ Checks to see if one or more services exists.
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Services | String | A comma-separated list of services to check for. | Yes |
 
-### Check Service Status
+## Check Service Status
 
 Gets the status of one or more services.
 
@@ -29,7 +29,7 @@ Gets the status of one or more services.
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Service Name | String | A comma-separated list of services to check for. | Yes |
 
-### Create Service
+## Create Service
 
 Create a service.
 
@@ -39,7 +39,7 @@ Create a service.
 | Arguments | String | A newline-separated list of arguments to add to the sc.exe call. For example: /start=\nauto\n/binpath=\nC:\temp\n/ | No |
 | Service Name | String | The name of the service to create. | Yes |
 
-### Delete Service
+## Delete Service
 
 Delete one or more services.
 
@@ -49,7 +49,7 @@ Delete one or more services.
 | Arguments | String | A newline-separated list of arguments to add to the sc.exe call. For example: /start=\nauto\n/binpath=\nC:\temp\n/ | No |
 | Services | String | A comma-separated list of services to delete. | Yes |
 
-### Disable Service
+## Disable Service
 
 Disable one or more services.
 
@@ -59,7 +59,7 @@ Disable one or more services.
 | Arguments | String | A newline-separated list of arguments to add to the sc.exe call. For example: /error=\nsevere\n/binpath=\nC:\temp\n/ | No |
 | Services | String | A comma-separated list of services to disable. | Yes |
 
-### Enable Service
+## Enable Service
 
 Enable one or more services.
 
@@ -76,7 +76,7 @@ Enable one or more services.
 * delayed-auto
 | Start-up type for the service. | Yes |
 
-### Start Service
+## Start Service
 
 Start one or more services.
 
@@ -87,7 +87,7 @@ Start one or more services.
 | Services | String | A comma-separated list of services to start. | Yes |
 | Wait for Started | Boolean | When selected, the step waits for the service to run before proceeding. | No |
 
-### Stop Service
+## Stop Service
 
 Stop one or more services.
 

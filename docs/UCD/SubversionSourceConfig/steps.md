@@ -4,14 +4,14 @@
 * [Import Version](#import_version)
 
 
-### Import Version
+## Import Version
 
 Import artifacts from a subversion repository.
 
 This step has no input properties.
 
 
-### Roles in the Subversion plug-in
+## Roles in the Subversion plug-in
 
 The plug-in adds these roles automatically to resources. You cannot add these roles manually.
 
@@ -20,7 +20,7 @@ The plug-in adds these roles automatically to resources. You cannot add these ro
 * [SubversionImportProperties](#subversionimportproperties_role)
 
 
-### SubversionComponentProperties
+## SubversionComponentProperties
 
 
 | Name | Type | Description |
@@ -39,7 +39,7 @@ The plug-in adds these roles automatically to resources. You cannot add these ro
 | User | String | The user name use to authenticate with the subversion repository. |
 | Watch for tags | Boolean | Use tags as the basis for new component versions. |
 
-### SubversionImportProperties
+## SubversionImportProperties
 
 
 | Name | Type | Description |

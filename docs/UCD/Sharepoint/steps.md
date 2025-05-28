@@ -8,7 +8,7 @@
 * [Export SharePoint Content](#export_sharepoint_content)
 
 
-### Activate SharePoint Feature
+## Activate SharePoint Feature
 
 Activates SharePoint Feature
 
@@ -22,7 +22,7 @@ Activates SharePoint Feature
 | Path to Stsadmin Executable | String | Path to stsadmin executable if not identified in a system path (e.g. C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\14\BIN\STSADM.EXE) | No |
 | SharePoint Url | String | URL of the Web application, site collection, or Web site to which the feature is being activated | No |
 
-### Deploy SharePoint CMP File
+## Deploy SharePoint CMP File
 
 Deploys SharePoint content from CMP packages
 
@@ -33,7 +33,7 @@ Deploys SharePoint content from CMP packages
 | Path to Stsadmin Executable | String | Path to stsadmin executable if not identified in a system path (e.g. C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\14\BIN\STSADM.EXE) | No |
 | SharePoint Url | String | specifify the SharePoint url if url deployment is checked | No |
 
-### Deploy SharePoint WSP File
+## Deploy SharePoint WSP File
 
 Installs, Upgrades, and Deploys SharePoint WSP packages
 
@@ -54,7 +54,7 @@ Installs, Upgrades, and Deploys SharePoint WSP packages
 | locale ID | String | Specifies a language for the Web Part package when a Web Part package is deployed. If this parameter is not specified the Web Part package should be deployed as being language agnostic. | No |
 | time | String | if time is selected this field must be filled out (e.g. 2/16/2011 14:15:12) | No |
 
-### Deploy SharePoint WSP File To Sandbox
+## Deploy SharePoint WSP File To Sandbox
 
 Deploys SharePoint content from CMP packages
 
@@ -65,7 +65,7 @@ Deploys SharePoint content from CMP packages
 | SharePoint Collection URL | String | Specify which SharePoint collection Url to Deploy the sandbox solution | Yes |
 | WSP File Name | String | Specify the WSP File (e.g.mysolution.wsp) | No |
 
-### Export SharePoint Content
+## Export SharePoint Content
 
 Exports SharePoint content to a CMP package
 

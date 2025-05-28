@@ -9,7 +9,7 @@ This plug-in includes these steps.
 * [Start](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/Apache/steps.html#stop "Start")
 * [Stop](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/Apache/steps.html#start "Stop")
 
-### Compatibility
+## Compatibility
 
 This plug-in requires IBM DevOps Deploy version 6.0 or later.
 

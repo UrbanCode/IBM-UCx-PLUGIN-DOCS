@@ -7,7 +7,7 @@
 * [Out of memory errors during configuration discovery](#out_of_memory_errors)
 * [Configuration discovery seems complete, but a JSONException is shown and the configuration file is empty](#config-disc-error)
 
-### DB2 errors
+## DB2 errors
 
 Database queries are used to create roles when you install this plug-in. If DB2 SQL error messages are logged when you install the plug-in, increase the transaction log size in DB2.
 
@@ -21,17 +21,17 @@ Database queries are used to create roles when you install this plug-in. If DB2 
 4. Start the IBM DevOps Deploy server.
 5. Install the plug-in again.
 
-### Null pointer exception during Apply Configuration Processing
+## Null pointer exception during Apply Configuration Processing
 
 If you apply a configuration to a WebSphere 8.5.5 environment and your configuration contains a Dynamic Cluster definition, then you may encounter a null pointer exception during the apply processing. This issue is fixed by an update that is included in the WebSphere 8.5.5.7 fixpack and later.
 
-### Out of memory errors during configuration discovery
+## Out of memory errors during configuration discovery
 
 Starting with version 25 of the plug-in, the default maximum heap size used by the wsadmin command during configuration discovery is 512 MB. This value supports typical configurations. If configuration discovery does not complete on a large cell, specify a higher **wsadmin Max Heap** value for the WebSphere Configuration Discovery step. For example, to set the maximum heap size to 2 GB, specify -Xmx2048m for the **wsadmin Max Heap** value.
 
 Additionally, ensure that the wsadmin.sh script does not override the **wsadmin Max Heap** value. The **wsadmin Max Heap** value is passed to the wsadmin.sh script in the -javaoption argument. If the *$PERF\_JVM\_OPTIONS* variable is passed to the JVM after the *$javaOption* variable in the wsadmin.sh script, or if you add options to the *$javaOption* variable in the wsadmin.sh script, then the **wsadmin Max Heap** value that you specify for the WebSphere Configuration Discovery step is not used. For more information, see [PK70783: JAVAOPTIONS ARGUMENTS PASSED INTO WSADMIN.SH ARE IGNORED](https://www.ibm.com/support/docview.wss?uid=swg1PK70783).
 
-### Configuration discovery seems complete, but a JSONException is shown and the configuration file is empty
+## Configuration discovery seems complete, but a JSONException is shown and the configuration file is empty
 
 **Problem**
 

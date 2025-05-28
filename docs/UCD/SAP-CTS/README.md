@@ -10,7 +10,7 @@ This plug-in is designed to interact with the SAP Change and Transport System.
 * [GitHub Issues](https://github.com/IBM-UrbanCode/SAP-CTS/issues)
 
 
-### Available Steps
+## Available Steps
 
 Add to Buffer: Add transport requests to the CTS buffer
 

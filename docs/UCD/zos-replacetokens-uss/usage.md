@@ -17,7 +17,7 @@ When specifying a property file, the property file is modified when the step run
 
 To replace tokens in multiple files, specify the file names in the **Include Files** property.
 
-### **Step palette**
+## **Step palette**
 
 To access this plug-in in the palette, click **Utilities > zOS USS Utility**.
 

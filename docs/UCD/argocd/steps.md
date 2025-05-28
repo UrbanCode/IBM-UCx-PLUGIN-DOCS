@@ -13,7 +13,7 @@
 * [AppSet Get](#appset-get)
 
 
-### App Create
+## App Create
 
 Create an Argo CD application.
 
@@ -23,7 +23,7 @@ Create an Argo CD application.
 | Argo CD Application Name | String | The name of the Argo CD application to create. | Yes |
 | Additional application create flags | String | A list of flags to set when running the application create step.  For example: '--config=path'. Specify each flag on a new line.  If the flag takes an argument, put the argument on a separate line or use an equal '=' (not whitespace) between the flag and argument. | Yes |
 
-### App Get
+## App Get
 
 Get information about an Argo CD application.
 
@@ -34,7 +34,7 @@ Get information about an Argo CD application.
 | Additional application get flags | String | A list of flags to set when running the application get step.  For example: '--config=path'. Specify each flag on a new line.  If the flag takes an argument, put the argument on a separate line or use an equal '=' (not whitespace) between the flag and argument. | Yes |
 
 
-### App Rollback
+## App Rollback
 
 Rollback an Argo CD application to a previous deployed version.
 
@@ -45,7 +45,7 @@ Rollback an Argo CD application to a previous deployed version.
 | Argo CD Application History ID | String | The Argo CD application history ID to rollback to. | Yes |
 | Additional application rollback flags | String | A list of flags to set when running the application rollback step.  For example: '--config=path'. Specify each flag on a new line.  If the flag takes an argument, put the argument on a separate line or use an equal '=' (not whitespace) between the flag and argument. | Yes |
 
-### App Set
+## App Set
 
 Set Argo CD application parameters.
 
@@ -55,7 +55,7 @@ Set Argo CD application parameters.
 | Argo CD Application Name | String | The name of the Argo CD application to modify. | Yes |
 | Additional application set flags | String | A list of flags to set when running the application set step.  For example: '--config=path'. Specify each flag on a new line.  If the flag takes an argument, put the argument on a separate line or use an equal '=' (not whitespace) between the flag and argument. | Yes |
 
-### App Sync
+## App Sync
 
 Sync an Argo CD application.
 
@@ -67,7 +67,7 @@ Sync an Argo CD application.
 | Component Template | String | The name of the Argo CD application to sync. | Yes |
 
 
-### Login
+## Login
 
 Login to an Argo CD instance.
 
@@ -80,7 +80,7 @@ Login to an Argo CD instance.
 | Additional login flags | String | A list of flags to set when running the login step.  For example: '--config=path'. Specify each flag on a new line.  If the flag takes an argument, put the argument on a separate line or use an equal '=' (not whitespace) between the flag and argument. | Yes |
 
 
-### AppSet Create
+## AppSet Create
 
 Create one or more Argo CD ApplicationSets.
 
@@ -91,7 +91,7 @@ Create one or more Argo CD ApplicationSets.
 | Additional appset create flags | String | A list of flags to set when running the appset create step.  For example: '--config=path'. Specify each flag on a new line.  If the flag takes an argument, put the argument on a separate line or use an equal '=' (not whitespace) between the flag and argument. | Yes | 
 
 
-### AppSet Delete
+## AppSet Delete
 
 Delete one or more Argo CD ApplicationSets.
 
@@ -102,7 +102,7 @@ Delete one or more Argo CD ApplicationSets.
 | Additional appset delete flags | String | A list of flags to set when running the appset delete step.  For example: '--config=path'. Specify each flag on a new line.  If the flag takes an argument, put the argument on a separate line or use an equal '=' (not whitespace) between the flag and argument. | Yes | 
 
 
-### AppSet List
+## AppSet List
 
 List one or more Argo CD ApplicationSets.
 
@@ -111,7 +111,7 @@ List one or more Argo CD ApplicationSets.
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional appset list flags | String | A list of flags to set when running the appset list step.  For example: '--config=path'. Specify each flag on a new line.  If the flag takes an argument, put the argument on a separate line or use an equal '=' (not whitespace) between the flag and argument. | Yes | 
 
-### AppSet Get
+## AppSet Get
 
 Get Argo CD ApplicationSet.
 

@@ -1,9 +1,9 @@
 
-IBM Rational Team Concert - SCM - Settings
+# IBM Rational Team Concert - SCM - Settings
 ==========================================
 
 
-### Create Component
+## Create Component
 
 The following settings are available when you create a component by using the IBM Rational Team Concert SCM plug-in.
 
@@ -26,7 +26,7 @@ The following settings are available when you create a component by using the IB
 
 
 
-### Import New Versions
+## Import New Versions
 
 The following settings are available when you import component versions manually by using the IBM Rational Team Concert SCM plug-in.
 

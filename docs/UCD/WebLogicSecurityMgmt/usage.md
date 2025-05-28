@@ -7,17 +7,17 @@
 * [About this plug-in](#about)
 
 
-### **Before you begin**
+## **Before you begin**
 
 To use this plug-in, the Oracle WebLogic Server version 10g or later and agent must be installed.
 
 
-### **Step palette**
+## **Step palette**
 
 To access this plug-in in the palette, click **Application Server** > **WebLogic** > **WebLogic Security Management**.
 
 
-### **About this plug-in**
+## **About this plug-in**
 
 All steps have a required property, which points to the location of a Java bean configuration file. The file contains information for accessing the WebLogic server. The plug-in contains a example file that you can use; however, you can use your own file. The example file is `wlsMetadata.xml`.
 

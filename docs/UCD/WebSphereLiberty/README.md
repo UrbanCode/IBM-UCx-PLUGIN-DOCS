@@ -4,7 +4,7 @@
 This plug-in includes steps for installing and updating applications in the IBM WebSphere Liberty Profile, working with the profile configuration and managing Liberty collectives.
 
 
-### Available Steps
+## Available Steps
 
 **Create Collective:**Create a collective controller configuration in the WebSphere Liberty Profile.
 

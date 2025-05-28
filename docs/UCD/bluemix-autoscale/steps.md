@@ -1,12 +1,12 @@
 
 # IBM Bluemix Auto-Scaling - Steps
 
-### Process steps in the IBM BlueMix Auto-Scaling plug-in
+## Process steps in the IBM BlueMix Auto-Scaling plug-in
 
 * [Add Auto-Scale Policy to Application](#add_auto-scale_policy_to_application)
 
 
-### Add Auto-Scale Policy to Application
+## Add Auto-Scale Policy to Application
 
 Attach an Auto-Scale policy to a Bluemix application.
 

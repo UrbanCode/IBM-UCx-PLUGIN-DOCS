@@ -4,7 +4,7 @@
 
 **Tip:** For more questions and answers, see the [DevOps forum on IBM developerWorks](https://community.ibm.com/community/user/wasdevops/urbancode-discussion "DevOps forum").
 
-#### Truststore file does not exist
+## Truststore file does not exist
 
 When running plug-in steps on the Windows operating system, the step can fail and generate a stack trace similar to the following text:
 

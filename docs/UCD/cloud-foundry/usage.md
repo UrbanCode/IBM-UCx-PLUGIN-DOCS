@@ -1,7 +1,7 @@
 
 # Cloud Foundry - Usage
 
-### Cloud Foundry Auto-Discovery
+## Cloud Foundry Auto-Discovery
 
 
 

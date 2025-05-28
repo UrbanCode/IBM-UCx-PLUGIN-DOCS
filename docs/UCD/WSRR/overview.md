@@ -21,7 +21,7 @@ The following steps provide and overview of the process you follow
 
 Refer to plugin documentation for system requirements and a complete list of steps available.
 
-### Compatibility
+## Compatibility
 
 This plug-in requires version 6.1 of IBM DevOps Deploy.
 
@@ -29,7 +29,7 @@ The DevOps Deploy plug-in for WSRR works with WebSphere Service Registry and Rep
 
 The steps in this plug-in run on any agents that the IBM DevOps Deploy server supports.
 
-### Installation
+## Installation
 
 No special steps are required for installation. See [Installing plug-ins in DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy").
 

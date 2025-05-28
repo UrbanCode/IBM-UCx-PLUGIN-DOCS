@@ -8,7 +8,7 @@
 * [Undeploy](#undeploy)
 
 
-### Deploy
+## Deploy
 
 Use this step to deploy an application to the WebLogic server.
 
@@ -27,7 +27,7 @@ Use this step to deploy an application to the WebLogic server.
 | User Name | String | The user name to use to authenticate with the WebLogic server. | Yes |
 | WebLogic JAR File | String | The path to the WebLogic JAR file that executes deployments. The `weblogic.jar` file is located in the `/server/lib` directory. Specify the complete directory structure, for example: `WebLogicServer_directory/server/lib/weblogic.jar`. | Yes |
 
-### Redeploy
+## Redeploy
 
 Use this step to redeploy an application on the WebLogic server.
 
@@ -44,7 +44,7 @@ Use this step to redeploy an application on the WebLogic server.
 | User Name | String | The user name to use to authenticate with the WebLogic server. | Yes |
 | WebLogic JAR File | String | The path to the WebLogic JAR file that executes deployments. The `weblogic.jar` file is located in the `/server/lib` directory. Specify the complete directory structure, for example: `WebLogicServer_directory/server/lib/weblogic.jar`. | Yes |
 
-### Start
+## Start
 
 Use this step to start an application on the WebLogic Server.
 
@@ -60,7 +60,7 @@ Use this step to start an application on the WebLogic Server.
 | User Name | String | The user name to use to authenticate with the WebLogic server. | Yes |
 | WebLogic JAR File | String | The path to the WebLogic JAR file that executes deployments. The `weblogic.jar` file is located in the `/server/lib` directory. Specify the complete directory structure, for example: `WebLogicServer_directory/server/lib/weblogic.jar`. | Yes |
 
-### Stop
+## Stop
 
 Stop action to be performed on the WebLogic Server.
 
@@ -76,7 +76,7 @@ Stop action to be performed on the WebLogic Server.
 | User Name | String | The user name to use to authenticate with the WebLogic server. | Yes |
 | WebLogic JAR File | String | The path to the WebLogic JAR file that executes deployments. The `weblogic.jar` file is located in the `/server/lib` directory. Specify the complete directory structure, for example: `WebLogicServer_directory/server/lib/weblogic.jar`. | Yes |
 
-### Undeploy
+## Undeploy
 
 Use this step to undeploy an applicaton on the WebLogic Server.
 

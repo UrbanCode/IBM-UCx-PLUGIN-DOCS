@@ -8,7 +8,7 @@ The HCL OneTest API plug-in for DevOps Deploy provides a step to run integration
 * This plug-in works with HCL OneTest 9.2.1 or higher.
 
 
-### Available Steps
+## Available Steps
 
 Run Integration Tests
 

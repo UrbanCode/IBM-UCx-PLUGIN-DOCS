@@ -3,7 +3,7 @@
 
 Youll need to define an DevOps Deploy component which defines the source and processes for the NPM repository. The component contains the information for importing the artifacts and any processes to perform on the artifacts.
 
-### Create a component
+## Create a component
 
 To create a component, complete the following steps. For more information about components, see [Creating components](http://www-01.ibm.com/support/knowledgecenter/SS4GSP_7.0.2/com.ibm.udeploy.doc/topics/comp_create.html "Creating components") in the product documentation.
 
@@ -15,7 +15,7 @@ To create a component, complete the following steps. For more information about 
 6. Specify the properties for the component.See [Settings](#steps) for property descriptions.
 7. Click **Save**.
 
-### Import a version
+## Import a version
 
 When the artifacts are imported, a component version is created using the version of the package. You can specify to import a specific package version or import all versions. If importing all versions, a component version is created for each version.
 

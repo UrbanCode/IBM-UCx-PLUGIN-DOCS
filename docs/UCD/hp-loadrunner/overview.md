@@ -7,19 +7,19 @@ This plug-in includes the following step:
 
 * Run Test Scenario
 
-### Compatibility
+## Compatibility
 
 This plug-in requires IBM DevOps Deploy version 6.0 or later.
 
 You must run this plug-in in an agent environment with an instance of HP LoadRunner installed. This means that the agent running the plugin steps must be installed on your HP LoadRunner machine.
 
-### Installation
+## Installation
 
 Installing this plug-in requires no special steps. See [Installing plug-ins in DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy").
 
-### History
+## History
 
-#### Version 1
+### Version 1
 
 * RFE 100953Initial release of the HP LoadRunner plugin.
 

@@ -12,7 +12,7 @@
     - [List Metadata](#list-metadata)
     - [Retrieve](#retrieve)
 
-### Bulk Retrieve
+## Bulk Retrieve
 
 Download a large number of components of a single metadata type into a set of local files.
 
@@ -37,7 +37,7 @@ Download a large number of components of a single metadata type into a set of lo
 | Unzip | String | If set to true, the retrieved components are unzipped. If set to false, the retrieved components are saved as a zip file in the retrieveTarget directory. | No |
 | User | String | SFDC User Name | Yes |
 
-### Deploy
+## Deploy
 
 Deploy components, code, or recent validations into your org.
 
@@ -59,7 +59,7 @@ Deploy components, code, or recent validations into your org.
 | Test Names | String | Ignored if Test Level not set to RunSpecifiedTests.A list of Apex classes containing tests run after deployment. Separate each test with a new line. | No |
 | User | String | SFDC User Name | No |
 
-### Describe Metadata
+## Describe Metadata
 
 Describe and list all metadata types and their existing objects.
 
@@ -77,7 +77,7 @@ Describe and list all metadata types and their existing objects.
 | Socks Proxy Port | String | The port for socks connections. If left empty, 1080 is used. | No |
 | User | String | SFDC User Name | No |
 
-### Deploy Recent Validation
+## Deploy Recent Validation
 
 Deploy recently validated components.
 
@@ -97,7 +97,7 @@ Deploy recently validated components.
 | Socks Proxy Port | String | The port for socks connections. If left empty, 1080 is used. | No |
 | User | String | SFDC User Name | Yes |
 
-### List Metadata
+## List Metadata
 
 List information on a given metadata type.
 
@@ -119,7 +119,7 @@ List information on a given metadata type.
 | Trace | String | The path of the output file where results are stored. The default output is the console. Directing the output to a file makes it easier to extract the relevant information for your package.xml manifest file. | No |
 | User | String | SFDC User Name | No |
 
-### Retrieve
+## Retrieve
 
 Retrieve unpackaged, managed or unmanaged packages.
 

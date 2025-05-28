@@ -2,7 +2,7 @@
 # IBM Rational Quality Manager (RQM) - Usage
 
 
-### Example: Running tests in Rational Quality Manager
+## Example: Running tests in Rational Quality Manager
 
 The following component process runs a test case in Rational Quality Manager.
 

@@ -1,7 +1,7 @@
 
 # z/OS FTP Utility - Steps
 
-### Process steps in the zOS FTP Utility plug-in
+## Process steps in the zOS FTP Utility plug-in
 
 * [FTP Artifacts](#ftp-artifacts)
 

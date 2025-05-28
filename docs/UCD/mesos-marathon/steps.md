@@ -7,7 +7,7 @@
 * [Scale Application](#scale_application)
 
 
-### Kill Tasks
+## Kill Tasks
 
 End all tasks in an application.
 
@@ -19,7 +19,7 @@ End all tasks in an application.
 
 
 
-### Launch Application
+## Launch Application
 
 Start an application on Marathon.
 
@@ -31,7 +31,7 @@ Start an application on Marathon.
 
 
 
-### Remove Application
+## Remove Application
 
 Remove an application from Marathon.
 
@@ -43,7 +43,7 @@ Remove an application from Marathon.
 
 
 
-### Scale Application
+## Scale Application
 
 Scale an application within Marathon.
 

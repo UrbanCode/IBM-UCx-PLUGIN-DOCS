@@ -2,7 +2,7 @@
 # Microsoft IIS MS-Deploy (Azure App Service) - Usage
 
 
-### Integrating with Azure App Service
+## Integrating with Azure App Service
 
 To use the plug-in with an Azure App Service website, complete the following steps to download the publish profile for the website:
 

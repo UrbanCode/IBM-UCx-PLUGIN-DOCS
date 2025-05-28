@@ -651,7 +651,7 @@ The File Utils plug-in provides useful steps for manipulating files and director
 
 |Back to ...||File Utils |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](FileUtils/README.md)| [100.1175039](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileUtils/ucd-FileUtils-100.1175039.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](FileUtils/README.md)| [100.1176430](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileUtils/ucd-FileUtils-100.1176430.zip)|
 
 ## FileNet - IBM Case Manager
 
@@ -671,7 +671,7 @@ The Git source config plug-in enables you to manually or automatically import ar
 
 |Back to ...||Git |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](GitSourceConfig/README.md)|[28.1164116](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/GitSourceConfig/ucd-GitSourceConfig-28.1164116.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](GitSourceConfig/README.md)|[28.1176784](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/GitSourceConfig/ucd-GitSourceConfig-28.1176784.zip)|
 
 ## Git Install  [community plugin]
 
@@ -1222,7 +1222,7 @@ The IBM Rational Clearcase plug-in enables you to manually or automatically impo
 
 |Back to ...||IBM Rational ClearCase |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ClearCaseSourceConfig/README.md)|[16.1154103](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ClearCaseSourceConfig/ucd-ClearCaseSourceConfig-16.1154103.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ClearCaseSourceConfig/README.md)|[17.1155764](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ClearCaseSourceConfig/ucd-ClearCaseSourceConfig-17.1155764.zip)|
 
 ## IBM Rational ClearQuest  [community plugin]
 
@@ -1362,7 +1362,7 @@ Get artifacts from IBM DevOps Build.
 
 |Back to ...||IBM DevOps Build |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](uBuildSourceConfig/README.md)|[12.1131550](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uBuildSourceConfig/ucd-uBuildSourceConfig-12.1131550.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](uBuildSourceConfig/README.md)|[16.1176344](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uBuildSourceConfig/ucd-uBuildSourceConfig-16.1176344.zip)|
 
 ## IBM DevOps DBUpgrader
 
@@ -1492,7 +1492,7 @@ This plugin provides capabilities for editing Component Versions in IBM DevOps D
 
 |Back to ...||IBM DevOps Deploy Versions |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](uDeploy-Version/README.md)|[76.1176673](https://github.com/UrbanCode/IBM-UCD-PLUGINS/raw/refs/heads/main/files/uDeploy-Version/ucd-uDeploy-Version-76.1176673.zip))|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](uDeploy-Version/README.md)|[76.1176673](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Version/ucd-uDeploy-Version-76.1176673.zip))|
 
 ## IBM DevOps PHP CLI Tool  [community plugin]
 
@@ -1852,7 +1852,7 @@ Microsoft Software Installer (MSI) is a software component that is used for the 
 
 |Back to ...||Microsoft Software Installer (MSI) |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](MSI/README.md)|[3.911818](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/MSI/MSI-3.911818.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](MSI/README.md)|[3.1176465](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/MSI/ucd-MSI-3.1176465.zip)|
 
 ## Microsoft TFS (Team Foundation Server)
 
@@ -1862,7 +1862,7 @@ Microsoft Team Foundation Server (TFS) is a software development collaboration t
 
 |Back to ...||Microsoft TFS (Team Foundation Server) |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](TFS-SourceConfig/README.md)|[22.1131551](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/TFS-SourceConfig/ucd-TFS-SourceConfig-25.1154010.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](TFS-SourceConfig/README.md)|[22.1131551](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/TFS-SourceConfig/ucd-TFS-SourceConfig-26.1155758.zip)|
 
 ## Microsoft TFS Work Items
 
@@ -1882,7 +1882,7 @@ The Microsoft TFS\_SCM plug-in imports version artifacts from a Team Foundation 
 
 |Back to ...||Microsoft TFS_SCM (Team Foundation Server) |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](TFS_SCM-SourceConfig/README.md)|[17.1154009](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/TFS_SCM-SourceConfig/ucd-TFS_SCM-SourceConfig-17.1154009.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](TFS_SCM-SourceConfig/README.md)|[19.1171672](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/TFS_SCM-SourceConfig/ucd-TFS_SCM-SourceConfig-19.1171672.zip)|
 
 ## Microsoft Visual Studio Team Services (VSTS)  [partner plugin]
 
@@ -2470,13 +2470,13 @@ Apart from copying content to a mainframe dataset, this plug-in provides the fol
 
 ## z/OS External Artifact Repository
 
-The External Artifact Repository plug-in includes the step to download artifacts from a Nexus or JFrog Artifactory repository into an DevOps z/OS type component.
+The zOS External Artifact Utility plug-in includes steps to integrate with external repositories like Nexus or JFrog for zOS.
 
 ---
 
 |        Back to ...         |                  |         z/OS External Artifact Repository          |                                                                  Latest Version                                                                   |
 |:--------------------------:|:----------------:|:--------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------:|
-| [All Plugins](../index.md) | [Top](#contents) | [Readme](zOS-external-artifact-download/README.md) | [12.1176020](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOS-external-artifact-download/ucd-ExtArtRepo-12.1176020.zip) |
+| [All Plugins](../index.md) | [Top](#contents) | [Readme](zOS-external-artifact-download/README.md) | [13.1177041](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOS-external-artifact-download/ucd-ExtArtRepo-13.1177041.zip) |
 
 ## z/OS FTP Utility
 
@@ -2550,7 +2550,7 @@ The z/OS Utility plug-in includes steps for retrieving and deploying IBM z/OS ar
 
 |        Back to ...         ||   z/OS Utility   |         Latest Version         |
 |:--------------------------:|:----------------:|:------------------------------:| :---: |
-| [All Plugins](../index.md) | [Top](#contents) | [Readme](zos-deploy/README.md) |[97.1175894](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-97.1175894.zip)|
+| [All Plugins](../index.md) | [Top](#contents) | [Readme](zos-deploy/README.md) |[97.1175894](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/devops-deploy-zos-deploy-97.1177303.zip)|
 
 ## z/OS Rexx Executor
 

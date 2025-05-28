@@ -13,7 +13,7 @@ Component for creating and managing IBM DevOps Deploy components.
 * Starting with plug-in version 71, DevOps Deploy version 6.2.7.1 or greater is required. Follow the “Download Past Plug-in Versions” button to find plug-ins compatible with older versions of DevOps Deploy.
 
 
-### Available Steps
+## Available Steps
 
 Add Component To Team: Adds a component to a team for a given type classification.
 

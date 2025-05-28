@@ -1,19 +1,19 @@
 
 # NPM - Settings
 
-### Process steps in the NPM plug-in
+## Process steps in the NPM plug-in
 
 * [Import Version](#import_version)
 
 
-### Import Version
+## Import Version
 
 Import NPM packages as TAR files.
 
 This step has no input properties.
 
 
-### Roles in the NPM plug-in
+## Roles in the NPM plug-in
 
 The plug-in adds these roles automatically to resources. You cannot add these roles manually.
 
@@ -22,7 +22,7 @@ The plug-in adds these roles automatically to resources. You cannot add these ro
 * [ImportProperties](#importproperties_role)
 
 
-### ComponentProperties
+## ComponentProperties
 
 
 | Name | Type | Description | Reference |
@@ -43,7 +43,7 @@ The plug-in adds these roles automatically to resources. You cannot add these ro
 | Username | String | The user name to authenticate with the registry. |
 ``${p:component/ComponentProperties/username}`` |
 
-### ImportProperties
+## ImportProperties
 
 
 | Name | Type | Description | Reference |

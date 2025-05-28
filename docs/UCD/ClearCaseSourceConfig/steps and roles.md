@@ -1,19 +1,19 @@
 
 # IBM Rational ClearCase - Process Steps and Roles
 
-### Process steps in the ClearCase plug-in
+## Process steps in the ClearCase plug-in
 
 * [Import Version](#import_version)
 
 
-### Import Version
+## Import Version
 
 Import a new version from ClearCase
 
 This step has no input properties.
 
 
-### Roles in the ClearCase plug-in
+## Roles in the ClearCase plug-in
 
 The plug-in adds these roles automatically to resources. You cannot add these roles manually.
 
@@ -22,7 +22,7 @@ The plug-in adds these roles automatically to resources. You cannot add these ro
 * [ClearCaseUCMImportProperties](#clearcaseucmimportproperties_role)
 
 
-### ClearCaseUCMComponentProperties
+## ClearCaseUCMComponentProperties
 
 
 | Name | Type | Description |
@@ -35,7 +35,7 @@ The plug-in adds these roles automatically to resources. You cannot add these ro
 | Preserve Execute Permissions | Boolean | For Linux and UNIX operating systems, retain the execute permissions for each file. |
 | Snapshot View | Boolean | The connection is to a Snapshot View. |
 
-### ClearCaseUCMImportProperties
+## ClearCaseUCMImportProperties
 
 
 | Name | Type | Description |
@@ -46,4 +46,4 @@ The plug-in adds these roles automatically to resources. You cannot add these ro
 
 |Back to ...||Latest Version|IBM Rational ClearCase ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[16.1154103](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ClearCaseSourceConfig/ucd-ClearCaseSourceConfig-16.1154103.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[17.1155764](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ClearCaseSourceConfig/ucd-ClearCaseSourceConfig-17.1155764.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

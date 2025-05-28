@@ -5,7 +5,7 @@ WebSphere Application Server - Configure - Example Processes
 # Example Processes
 
 
-### Example Processes
+## Example Processes
 
 
 
@@ -60,7 +60,7 @@ This process converts configuration data from a WebSphere Application Server ser
 This process converts configuration data from a WebSphere Application Server cluster into a template that can be applied to other WebSphere Application Server instances.
 
 
-### WebSphere – Example 11 – Discover & Templatize Cluster Configuration Data
+## WebSphere – Example 11 – Discover & Templatize Cluster Configuration Data
 
 
 
@@ -99,7 +99,7 @@ The steps in this process follow this general flow:
 * This process creates a component with the following naming convention: Cluster - *cluster\_name*. The cluster configuration data is stored as a component version artifact, as shown in the following screen capture.[![Cluster JSON files](media/process11.png)](media/process11.png)
 
 
-### WebSphere – Example 10 – Discover & Templatize Server Configuration Data
+## WebSphere – Example 10 – Discover & Templatize Server Configuration Data
 
 
 
@@ -136,7 +136,7 @@ The steps in this process follow this general flow:
 * This process creates a component with the following naming convention: Server - *server\_name*. The server configuration data is stored as a component version artifact, as shown in the following screen capture.[![Server JSON file](media/process10.png)](media/process10.png)
 
 
-### WebSphere – Example 9 – Discover & Templatize Node Configuration Data
+## WebSphere – Example 9 – Discover & Templatize Node Configuration Data
 
 
 
@@ -174,7 +174,7 @@ The steps in this process follow this general flow:
 * This process creates a component with the following naming convention: Node - *node\_name*. The node configuration data is stored as a component version artifact, as shown in the following screen capture.[![Node JSON file](media/process9.png)](media/process9.png)
 
 
-### WebSphere – Example 8 – Discover & Templatize Cell Configuration Data
+## WebSphere – Example 8 – Discover & Templatize Cell Configuration Data
 
 
 
@@ -238,7 +238,7 @@ The following example code shows a node name (`NODE_NAME`) and node host name (`
 * This process creates a component with the following naming convention: Cell - *cell\_name*. The cell configuration data is stored as a component version artifact, as shown in the following screen capture.[![Cell JSON file](media/process8.png)](media/process8.png)
 
 
-### WebSphere – Example 7 – Discover & Templatize Configuration Data (WAS ND with Dynamic Cluster)
+## WebSphere – Example 7 – Discover & Templatize Configuration Data (WAS ND with Dynamic Cluster)
 
 
 
@@ -284,7 +284,7 @@ The steps in this process follow this general flow:
 * The dynamic cluster server template configuration data is stored as a separate file in the Cluster Config No Multiplicity component version artifacts, as shown in the following screen capture.[![component version artifacts](media/process7.png)](media/process7.png)
 
 
-### WebSphere – Example 6 – Discover & Templatize Cluster Configuration Data Only (No Multiplicity)
+## WebSphere – Example 6 – Discover & Templatize Cluster Configuration Data Only (No Multiplicity)
 
 
 
@@ -351,7 +351,7 @@ The steps in this process follow this general flow:
 * This process creates components for each cluster member that you templatize. The components are based on the provided WebSphere Server Config component template.
 
 
-### WebSphere – Example 5 – Discover & Templatize Cluster Configuration Data Only (Multiplicity)
+## WebSphere – Example 5 – Discover & Templatize Cluster Configuration Data Only (Multiplicity)
 
 
 
@@ -402,7 +402,7 @@ The steps in this process follow this general flow:
 * This process creates component versions for the Cluster Config component that is provided with the plug-in. To create other components that are based on the provided component template WebSphere Cluster Config, update the steps that create component versions.
 
 
-### WebSphere – Example 4 – Discover & Templatize Configuration Data (WAS ND with Cluster – No Multiplicity)
+## WebSphere – Example 4 – Discover & Templatize Configuration Data (WAS ND with Cluster – No Multiplicity)
 
 
 
@@ -456,7 +456,7 @@ The steps in this process follow this general flow:
 * If there are no major differences between cluster members, consider using the multiplicity feature. See the example process [WebSphere Example 1 Discover & Templatize Configuration Data (WAS ND with Cluster)](#websphere--example-1--discover--templatize-configuration-data-was-nd-with-cluster).
 
 
-### WebSphere – Example 3 – Discover & Templatize Configuration Data (WAS Base)
+## WebSphere – Example 3 – Discover & Templatize Configuration Data (WAS Base)
 
 
 
@@ -499,7 +499,7 @@ The steps in this process follow this general flow:
 * This process is designed to templatize one WebSphere Application Server instance. The server configuration data is saved as a component version artifact for the provided Server Config component. To templatize additional servers, create additional components with the provided WebSphere Server Config component template. The sample process [WebSphere Example 4 Discover & Templatize Configuration Data (WAS ND with Cluster No Multiplicity)](#websphere--example-4--discover--templatize-configuration-data-was-nd-with-cluster--no-multiplicity) contains steps that create components, which you can use as a reference.
 
 
-### WebSphere – Example 2 – Discover & Templatize Configuration Data (WAS ND with standalone server)
+## WebSphere – Example 2 – Discover & Templatize Configuration Data (WAS ND with standalone server)
 
 
 
@@ -542,7 +542,7 @@ The steps in this process follow this general flow:
 * This process is designed to templatize one WebSphere Application Server instance. The server configuration data is saved as a component version artifact for the provided Server Config component. To templatize additional servers, create additional components with the provided WebSphere Server Config component template. The sample process [WebSphere Example 4 Discover & Templatize Configuration Data (WAS ND with Cluster No Multiplicity)](#websphere--example-4--discover--templatize-configuration-data-was-nd-with-cluster--no-multiplicity) contains steps that create components, which you can use as a reference.
 
 
-### WebSphere – Example 1 – Discover & Templatize Configuration Data (WAS ND with Cluster)
+## WebSphere – Example 1 – Discover & Templatize Configuration Data (WAS ND with Cluster)
 
 
 

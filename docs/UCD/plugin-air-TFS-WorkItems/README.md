@@ -9,7 +9,7 @@ This plug-in provides steps that enable one to create and update work items in a
 * This plug-in is supported to run against Microsoft Team Foundation Server versions 2008, 2010, 2012, 2013 and 2015.
 
 
-### Available Steps
+## Available Steps
 
 Create Work Item: Creates a new work item
 

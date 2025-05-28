@@ -9,18 +9,18 @@ With the **Run WLDeploy** step, you can run the Oracle `wldeploy` Ant Task, and 
 * [Step palette](#palette)
 
 
-### **Before you begin**
+## **Before you begin**
 
 
 Verify that a Java SDK is installed.
 
 
-### **Step palette**
+## **Step palette**
 
 To access this plug-in in the palette, click **Application Server** > **Java** > **WebLogic WLDeploy**.
 
 
-### WebLogic Auto-Discovery
+## WebLogic Auto-Discovery
 
 
 

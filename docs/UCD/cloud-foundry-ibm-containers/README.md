@@ -4,7 +4,7 @@
 The IBM Containers plug-in uses the Cloud Foundry IBM® Containers command-line utility (cf ic) to interact with containers running in IBM Bluemix®.
 
 
-### Available Steps
+## Available Steps
 
 
 Install IBM Containers PluginInstall the IBM containers plugin to run native docker commands from within the Cloud Foundry CLI

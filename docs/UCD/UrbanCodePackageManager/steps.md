@@ -8,7 +8,7 @@
 * [Verify Install](#verify_install)
 
 
-### Create Package
+## Create Package
 
 Create package from files.
 
@@ -23,7 +23,7 @@ Create package from files.
 | Package Type | String | The type of the package. | Yes |
 | Package Version | String | The version of the package. | Yes |
 
-### Install Package
+## Install Package
 
 Install package on target.
 
@@ -39,7 +39,7 @@ Install package on target.
 | User impersonation name | String | User account name on the agent to impersonate. | No |
 | User impersonation password | Password | Password for the impersonated account on the agent. Only needed on Windows. | No |
 
-### Rollback Package
+## Rollback Package
 
 Rollback package on target.
 
@@ -54,7 +54,7 @@ Rollback package on target.
 | User impersonation name | String | User account name on the agent to impersonate. | No |
 | User impersonation password | Password | Password for the impersonated account on the agent. Only needed on Windows. | No |
 
-### Uninstall Package
+## Uninstall Package
 
 Uninstall package on target.
 
@@ -69,7 +69,7 @@ Uninstall package on target.
 | User impersonation name | String | User account name on the agent to impersonate. | No |
 | User impersonation password | Password | Password for the impersonated account on the agent. Only needed on Windows. | No |
 
-### Verify Install
+## Verify Install
 
 Verify installed files.
 

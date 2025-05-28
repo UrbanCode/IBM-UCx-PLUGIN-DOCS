@@ -20,7 +20,7 @@ As a tester, you might have a large number of services to be virtualized against
 + [Example: Virtualizing services in a component process](#component_process)
 + [Example: Virtualizing services with Rational Test Workbench](#RTW)
 
-### Example: Virtualizing services in a component process
+## Example: Virtualizing services in a component process
 
 This component process creates and updates an environment in IBM Rational Test Control Panel. You can use a similar process as part of an [overall scenario that includes virtualized services](#RTW). This process assumes that the application binary files are in the component. It also assumes that the environment contains an installation of Rational Integration Tester. The process runs the following steps in order:
 
@@ -30,19 +30,19 @@ This component process creates and updates an environment in IBM Rational Test C
 4. The [Stop Stub](../stepssv#stop_stub) step shuts down the virtualized service.
 5. The [Delete Transient Environment](../stepssv#delete_transient_environment) step deletes the transient environment.
 
-### Example: Virtualizing services with Rational Test Workbench
+## Example: Virtualizing services with Rational Test Workbench
 
 The following example describes a scenario that includes a component process that uses virtualized services. In this example, an application in IBM DevOps Deploy comprises two components. One component is the user interface for a web application running on an application server. The second component is a virtual representation of a web service.
 
-#### Before you begin
+### Before you begin
 
 You must install IBM Rational Test Workbench, including IBM Rational Test Control Panel and IBM Rational Integration Tester. To learn more about Rational Test Workbench, see the [Rational Test Workbench Knowledge Center](http://www.ibm.com/support/knowledgecenter/SSBLQQ/welcome).
 
-#### About this task
+### About this task
 
 To virtualize the web service, you can use the Green Hat plug-in to create a transient environment that mimics the behavior of the actual web service. The user interface component is deployed as any other component to a node where the IBM DevOps Deploy agent is installed, either on a specific host or on the cloud. When the application server is configured on the user interface component, the proxy is installed so that HTTP calls are routed to the IBM Rational Test Control Panel server, which then returns the data from the stub.
 
-#### Procedure
+### Procedure
 
 1. Use IBM Rational Test Control Panel to record and publish the virtual services that you want to emulate. These virtual services are also known as stubs. When you create the stubs, add environment tags to replace the recorded data with dynamic data, such as the host name. To learn more about stubs, see [Stubs](http://www.ibm.com/support/knowledgecenter/SSBLQQ_8.7.0/com.ibm.rational.rtvs.ref.doc/topics/c_virtualization_overview.html) in the Rational Integration Tester documentation.
 2. In IBM DevOps Deploy, create an application with two components, one for the user interface component and one for the virtualized service. To learn more about creating applications, see [DevOps Deploy documentation](http://www.ibm.com/support/knowledgecenter/SS4GSP/ucd_welcome.html).
@@ -59,7 +59,7 @@ To virtualize the web service, you can use the Green Hat plug-in to create a tra
 4. [Stop Stub](../stepssv#stop_stub) Shut down the virtualized service.
 5. [Delete Transient Environment](../stepssv#delete_transient_environment) Delete the transient environment.
 
-#### Results
+### Results
 
 When you run the application process, the user interface component is deployed and then the virtual services component is deployed.
 
