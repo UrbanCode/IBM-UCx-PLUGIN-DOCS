@@ -29,6 +29,10 @@ plug-ins in UrbanCode").
 
 ### History
 
+#### Version 10
+
+Changes done in plugin in order to migrate ucr to java 11.
+
 #### Version 9
 
 Logs enhancement and Import of snapshots in batches for integration.
