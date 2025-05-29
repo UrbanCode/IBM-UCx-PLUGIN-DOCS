@@ -37,7 +37,6 @@ The following table lists the required fields that you must provide to integrate
 | Team Space | Enter the Team Space Id of IBM DevOps Plan tenant. |
 | Application Name | Enter the name of the IBM DevOps Plan application. |
 | Personal Access Token | Enter the personal access token that you generated in your IBM DevOps Plan account. |
-| DevOps Plan Server Timezone | Select the time zone offset from the Coordinated Universal Time (UTC). For example, if the IBM DevOps Plan server timezone is Asia/Kolkata, select UTC+05:30. |
 | Logging level | Select ALL from the drop-down list. |
 
 4. Click **Add** to add the integration.
@@ -195,7 +194,6 @@ Some properties might not be displayed in the user interface, to see all propert
 | Personal Access Token | Secure | Personal Access Token to authenticate with an application in DevOps Plan. |  Yes | pat |
 | Team Space | String | Team Space Id of the DevOps Plan tenant. | Yes | repo |
 | Application Name | String | The name of the DevOps Plan Application. | Yes | db |
-| DevOps Plan Server Timezone | Dropdown | The time zone offset from the Coordinated Universal Time (UTC). For example, if the plan server timezone is Asia/Kolkata select UTC+05:30 | Yes | timezone |
 | Import issues or work items from a specified number of months | String | Issues or work items are imported for the specified number of months when the plug-in runs for the first time. | No | since |
 
 ### JSON code sample
@@ -218,7 +216,6 @@ The following example can be used as a template to include the IBM DevOps Plan p
       "pat": "<personal-access-token>",
       "repo": "<repo>",
       "db": "<db>",
-      "timezone": "<timezone>",
       "since": "<since>"
     }
   }
@@ -242,7 +239,6 @@ The following example can be used as a template to include the IBM DevOps Plan p
       "pat": "<personal-access-token>",
       "repo": "<repo>",
       "db": "<db>",
-      "timezone": "<timezone>",
       "since": "<since>"
     }
   }
@@ -266,7 +262,6 @@ The following example can be used as a template to include the IBM DevOps Plan p
       "pat": "<personal-access-token>",
       "repo": "<repo>",
       "db": "<db>",
-      "timezone": "<timezone>",
       "since": "<since>"
     }
   }
@@ -277,4 +272,4 @@ The following example can be used as a template to include the IBM DevOps Plan p
 
 |Back to ...||Latest Version|IBM DevOps Plan |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.1.57-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-compass/ucv-ext-compass%3A1.1.57.tar.7z.001)[and 1.1.57-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-compass/ucv-ext-compass%3A1.1.57.tar.7z.002)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.1.58-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-compass/ucv-ext-compass%3A1.1.58.tar.7z.001)[and 1.1.58-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-compass/ucv-ext-compass%3A1.1.58.tar.7z.002)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

@@ -20,8 +20,8 @@ The IBM DevOps Test Hub plug-in supports endpoint integration which are listed i
 
 You will need to "install" the plug-in in DevOps Velocity. You can do this in one of two ways.
 * Perhaps the easiest way is to create a new Value Stream in DevOps Velocity.
+* You can use the following template for creating your integration
 
-    * You can use the following template for creating your integration
     ```
     "integrations": [
   {
@@ -40,12 +40,12 @@ You will need to "install" the plug-in in DevOps Velocity. You can do this in on
     ]
 
     ```
-    * In the above example, provide all of your own values for the values inside of < > brackets.
-    * The buildRegExp field can be used to map a build to a metric. The tags on the IBM DevOps Test Hub test will be evaluated against the regular expression.
-    * For instance, if your buildRegExp is defined as "([A-Z]+-[0-9]+)" and you tag your test with "BUILD-123" this will map the build with ID BUILD-123 in the Velocity server to the newly created metric.
-    * For help forming a regular expression based on your build ID, you can test out patterns at the following web page: https://regexr.com
+* In the above example, provide all of your own values for the values inside of < > brackets.
+* The buildRegExp field can be used to map a build to a metric. The tags on the IBM DevOps Test Hub test will be evaluated against the regular expression.
+* For instance, if your buildRegExp is defined as "([A-Z]+-[0-9]+)" and you tag your test with "BUILD-123" this will map the build with ID BUILD-123 in the Velocity server to the newly created metric.
+* For help forming a regular expression based on your build ID, you can test out patterns at the following web page: https://regexr.com
 
-    * Another option for creating is to hit the https://<velocity-url>/integration url with the integration definition as your payload:
+* Another option for creating is to hit the https://<velocity-url>/integration url with the integration definition as your payload:
 
     ```
 
