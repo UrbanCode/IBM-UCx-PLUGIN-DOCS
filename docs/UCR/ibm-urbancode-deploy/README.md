@@ -15,8 +15,7 @@ components, component versions, snapshots, environments, deployment processes fr
 management purposes and allow the execution of UrbanCode Deploy deployment processes from IBM UrbanCode Release
 scheduled deployments.
 
-The plug-in is compatible with IBM UrbanCode Release version 6.1.1.5 and later. It requires IBM
-UrbanCode Deploy version 6.1.1.4 and later.
+This plug-in requires IBM UrbanCode Release version 7.0.0.4 and later.
 
 
 |Back to ...||Latest Version|||||
