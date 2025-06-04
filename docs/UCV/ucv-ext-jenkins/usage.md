@@ -20,6 +20,8 @@ To integrate the Jenkins plug-in, perform the following steps:
 3.	On the Add Integration page, enter values for the fields used to configure the integration and define communication.
 4.	Click **Save**.
 
+**Note**: You must not integrate the same instance of Jenkins using Jenkins (Legacy) and Jenkins (ucv-ext-jenkins) plug-in in IBM DevOps Velocity. Integrating the same Jenkins instance using Jenkins (Legacy) and Jenkins plug-in in IBM DevOps Velocity can result in data corruption.
+
 ## Using Jenkins jobs as input for the release pipelines
 
 To use Jenkins jobs as input for the release pipelines, perform the following steps:
