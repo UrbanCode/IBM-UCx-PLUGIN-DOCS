@@ -15,8 +15,7 @@ an IBM UrbanCode Deploy server.
 
 ### Compatibility
 
-This plug-in requires IBM UrbanCode Release version 6.1.1.5 and
-later. It also requires IBM UrbanCode Deploy version 6.1.1.4 and later.
+This plug-in requires IBM UrbanCode Release version 7.0.0.4 and later.
 
 This plug-in runs on the operating systems
 that UrbanCode Release supports.
