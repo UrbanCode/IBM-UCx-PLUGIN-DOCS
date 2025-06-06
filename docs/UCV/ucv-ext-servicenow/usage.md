@@ -46,8 +46,6 @@ There are two methods to integrate the plug-in:
 * Using the user interface
 * Using a JSON file
 
-### Using the user interface
-
 The tables in the Configuration properties section describe the properties used to define the integration.
 
 To install the plug-in, perform the following steps:
@@ -64,21 +62,16 @@ To integrate the plug-in using the user interface, perform the following steps:
 4. Click **Add**.
 
 ### Integrating the plug-in by using JSON file
-The JSON file contains the information for creating a value stream. Within the JSON
-file is a section for integrations. It is in this section that plugin properties can be
-defined. Refer to the sample JSON code.
+
+The JSON file contains the information for creating a value stream. Within the JSON file is a section for integrations. It is in this section that plugin properties can be defined. Refer to the sample JSON code.
 
 To integrate the plug-in using a JSON, perform the following steps:
-1. Navigate to value stream page, and then click the necessary value stream.
-2. Click wrench icon, and then Select Edit value stream to modify the JSON file in
-the code or tree view editors.
-3. Alternatively, you can also click Download JSON option to download the
-JSON file, and then select the Import JSON option to upload the revised
-JSON file.
-4. Edit the integration information in the JSON file to add the plug-in
-configuration properties. Refer to JSON sample code in the Configuration
-Properties section more details.
-5. Click Save.
+
+1. Navigate to **value stream page**, and then click the necessary **value stream**.
+2. Click **wrench** icon, and then Select **Edit value stream** to modify the JSON file in the code or tree view editors.
+3. Alternatively, you can also click **Download JSON** option to download the JSON file, and then select the Import JSON option to upload the revised JSON file.
+4. Edit the **integration information** in the JSON file to add the plug-in configuration properties. Refer to JSON sample code in the Configuration Properties section more details.
+5. Click **Save**.
 
 ## Automation Tasks
 
