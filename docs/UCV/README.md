@@ -19,7 +19,8 @@
 	- [Cucumber](#cucumber)
 	- [Cypress](#cypress)
 	- [Digital.ai Agility](#digitalai-agility)
-	- [DevOps Deploy](#urbancode-deploy)
+	- [DevOps Deploy](#devops-deploy)
+	- [DevOps Build](#devops-build)
 	- [Fortify SSC](#fortify-ssc)
 	- [GenAI summary release-IBM](#genai-summary-release-ibm) 
 	- [GenAI summary release-OpenAI](#genai-summary-release-openai)
@@ -135,7 +136,7 @@ CircleCI is a modern continuous integration and continuous delivery (CI/CD) plat
 
 ---
 
-|Back to ...||Code Coverage |Latest Version|
+|Back to ...||CircleCI |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-circleci/README.md)|[1.0.24](https://raw.githubusercontent.com//UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-circleci/ucv-ext-circleci%3A1.0.24.tar.7z.001)|
 
@@ -200,6 +201,18 @@ The Deploy Plugin for DevOps Velocity imports deployment data from DevOps Deploy
 |Back to ...||DevOps Deploy |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-ucd/README.md)|[4.0.9 -File 1](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-ucd/ucv-ext-ucd%3A4.0.9.tar.7z.001) [and 4.0.9 -File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-ucd/ucv-ext-ucd%3A4.0.9.tar.7z.002)|
+
+## DevOps Build
+
+DevOps Build is a distributed, multi-platform, enterprise-scale build management tool for configuring and running software builds.
+
+The DevOps Build plug-in for IBM DevOps Velocity imports build data from DevOps Build into IBM DevOps Velocity. Build activities can be mapped in the IBM DevOps Velocity pipeline and build results can be tracked from the pipeline.
+
+---
+
+|Back to ...||DevOps Build |Latest Version|
+| :---: | :---: | :---: | :---: |
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-build/README.md)|[1.0.2-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-build/ucv-ext-build%3A1.0.2.tar.7z.001)[and 1.0.2-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-build/ucv-ext-build%3A1.0.2.tar.7z.002)|
 
 ## Fortify SSC
 
@@ -544,5 +557,5 @@ The YAML Executor plug-in automates the initial setup process for integrating di
 
 |Back to ...||YAML Executor |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-yaml-executor/README.md)|[0.0.6-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-yaml-executor/ucv-ext-yaml-executor%3A0.0.6.tar.7z.001)[and 0.0.6-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-yaml-executor/ucv-ext-yaml-executor%3A0.0.6.tar.7z.002)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-yaml-executor/README.md)|[0.0.12-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-yaml-executor/ucv-ext-yaml-executor%3A0.0.12.tar.7z.001)[and 0.0.12-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-yaml-executor/ucv-ext-yaml-executor%3A0.0.12.tar.7z.002)|
 
