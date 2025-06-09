@@ -2242,7 +2242,7 @@ This community plugin provides a mechanism to send SMTP emails in your deploymen
 
 |Back to ...||Send SMTP Email |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](send-smtp-email/README.md)|[3](https://github.com/UrbanCode/Send-SMTP-Email-UCD/releases/download/v3.0/smtp-email-open-3.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](send-smtp-email/README.md)|[4.1178408](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Send-SMTP-Email/devops-deploy-Send-SMTP-Email-4.1178408.zip)|
 
 ## ServiceNow
 
@@ -2550,7 +2550,7 @@ The z/OS Utility plug-in includes steps for retrieving and deploying IBM z/OS ar
 
 |        Back to ...         ||   z/OS Utility   |         Latest Version         |
 |:--------------------------:|:----------------:|:------------------------------:| :---: |
-| [All Plugins](../index.md) | [Top](#contents) | [Readme](zos-deploy/README.md) |[97.1178369](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/devops-deploy-zos-deploy-97.1178369.zip)|
+| [All Plugins](../index.md) | [Top](#contents) | [Readme](zos-deploy/README.md) |[97.1178432](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/devops-deploy-zos-deploy-97.1178432.zip)|
 
 ## z/OS Rexx Executor
 
