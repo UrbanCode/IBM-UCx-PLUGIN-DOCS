@@ -247,8 +247,8 @@ The 7-Zip plug-in is a community plug-in. Community plug-ins are open source pro
 ---
 
 |Back to ...||7-Zip |Latest Version|
-| :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](7-zip/README.md)|[0]()|
+| :---: | :---: | :---: |:-----------:|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](7-zip/README.md)|      [2](https://github.com/UrbanCode/7-Zip-UCD/releases/download/2.38a023d/7-Zip-UCD-v2.38a023d.zip)       |
 
 ## AccuRev SCM
 
