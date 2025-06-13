@@ -1,7 +1,7 @@
 
-# IBM DevOps Test Hub
+# DevOps Test Hub
 
-The IBM DevOps Test Hub plug-in imports test results as metrics into the DevOps Velocity server.
+The DevOps Test Hub plug-in imports test results as metrics into the DevOps Velocity server.
 
 |Back to ...||Latest Version||||
 | :---: | :---: | :---: | :---: | :---: | :---: |

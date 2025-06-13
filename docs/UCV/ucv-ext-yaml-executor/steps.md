@@ -124,7 +124,7 @@ integrations:
     attributes:
       auto-config: true
     configs:
-      name: Launch Integration
+      name: Deploy Integration
       loggingLevel: DEBUG
       deltaTime: '2023-05-15T18:30:00.000Z'
       # Additional integration-specific fields for Launch Integration

@@ -18,9 +18,10 @@
 	- [CollabNet VersionOne](#collabnet-versionone)
 	- [Cucumber](#cucumber)
 	- [Cypress](#cypress)
-	- [Digital.ai Agility](#digitalai-agility)
 	- [DevOps Deploy](#devops-deploy)
 	- [DevOps Build](#devops-build)
+	- [DevOps Test Hub](#devops-test-hub)
+	- [Digital.ai Agility](#digitalai-agility)
 	- [Fortify SSC](#fortify-ssc)
 	- [GenAI summary release-IBM](#genai-summary-release-ibm) 
 	- [GenAI summary release-OpenAI](#genai-summary-release-openai)
@@ -34,7 +35,6 @@
 	- [IBM Engineering Workflow Management (EWM)](#ibm-engineering-workflow-management-ewm)
 	- [IBM DevOps Plan](#ibm-devops-plan)
     - [IBM DevOps Test](#ibm-devops-test)
-	- [IBM DevOps Test Hub](#ibm-devops-test-hub)
 	- [Jenkins](#jenkins)
 	- [JUnit](#junit)
 	- [Jira](#jira)
@@ -180,16 +180,6 @@ Cypress provides a testing framework for the Java programming language. The Cypr
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-cypress/README.md)|[1.0.1-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-cypress/ucv-ext-cypress%3A1.0.1.tar.7z.001)[and 1.0.1-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-cypress/ucv-ext-cypress%3A1.0.1.tar.7z.002)|
 
-## Digital.ai Agility
-
-Digital.ai.Agility is Enterprise level planning and tracking platform to build agile practices that scale across the  enterprise.
-
----
-
-|Back to ...||Digital.ai Agility |Latest Version|
-| :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-agility/README.md)|[1.0.20](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-agility/ucv-ext-agility-1.0.20.tar.zip)|
-
 ## DevOps Deploy
 
 DevOps Deploy is engineered to handle the most complex deployment situations with push-button automation and controlled auditing needed in production. DevOps Deploy automates application deployments across varying IT environments.
@@ -213,6 +203,26 @@ The DevOps Build plug-in for IBM DevOps Velocity imports build data from DevOps 
 |Back to ...||DevOps Build |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-build/README.md)|[1.0.2-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-build/ucv-ext-build%3A1.0.2.tar.7z.001)[and 1.0.2-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-build/ucv-ext-build%3A1.0.2.tar.7z.002)|
+
+## DevOps Test Hub
+
+DevOps Test Hub is a web-based continuous testing platform built on modern, cloud native technologies that enables test teams to run a breadth of tests that includes API, functional, and performance tests and to benefit from a holistic view of test progress
+
+---
+
+|Back to ...||DevOps Test Hub |Latest Version|
+| :---: | :---: | :---: | :---: |
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-onetest-server/README.md)|[1.0.27-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest-server/ucv-ext-onetest-server%3A1.0.27.tar.7z.001)[and 1.0.27-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest-server/ucv-ext-onetest-server%3A1.0.27.tar.7z.002)|
+
+## Digital.ai Agility
+
+Digital.ai.Agility is Enterprise level planning and tracking platform to build agile practices that scale across the  enterprise.
+
+---
+
+|Back to ...||Digital.ai Agility |Latest Version|
+| :---: | :---: | :---: | :---: |
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-agility/README.md)|[1.0.20](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-agility/ucv-ext-agility-1.0.20.tar.zip)|
 
 ## Fortify SSC
 
@@ -340,16 +350,6 @@ The IBM DevOps Test tool provides automated software testing. This plug-in provi
 |Back to ...||IBM DevOps Test |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-onetest/README.md)|[1.0.40-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest/ucv-ext-onetest%3A1.0.40.tar.7z.001)[and 1.0.40-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest/ucv-ext-onetest%3A1.0.40.tar.7z.002)|
-
-## IBM DevOps Test Hub
-
-IBM DevOps Test Hub is a web-based continuous testing platform built on modern, cloud native technologies that enables test teams to run a breadth of tests that includes API, functional, and performance tests and to benefit from a holistic view of test progress
-
----
-
-|Back to ...||IBM DevOps Test Hub |Latest Version|
-| :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-onetest-server/README.md)|[1.0.27-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest-server/ucv-ext-onetest-server%3A1.0.27.tar.7z.001)[and 1.0.27-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest-server/ucv-ext-onetest-server%3A1.0.27.tar.7z.002)|
 
 ## Jenkins
 

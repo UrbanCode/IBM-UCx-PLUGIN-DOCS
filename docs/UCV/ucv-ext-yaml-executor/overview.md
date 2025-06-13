@@ -18,7 +18,7 @@ view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/
 
 ### Version 0.0.12
 
-* **Bug fix**: The issue involving the triggering of the existing integrated Launch Plug-in through the YAML Executor plugin has been resolved.
+* **Bug fix**: The issue involving the triggering of the existing integrated Deploy Plug-in through the YAML Executor plugin has been resolved.
 
 ### Version 0.0.11
 
