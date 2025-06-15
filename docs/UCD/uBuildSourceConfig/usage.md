@@ -11,7 +11,7 @@ To create a component, complete the following steps. For more information about 
 2. In the Create Component window, specify a name and description for the component.
 3. In the **Teams** fields, specify the access information for the new component.
 4. To use a template for the new component, select a template from the Template list. In this case, the component inherits source configuration, properties, and processes from the template.
-5. In the **Source Config Type** list, select **uBuild**.
+5. In the **Source Config Type** list, select **DevOps Build**.
 6. Specify the properties for the component. See [Steps](#steps) for property descriptions.
 7. Click **Save**.
 
