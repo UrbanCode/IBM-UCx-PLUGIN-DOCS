@@ -6,13 +6,19 @@
 
 When you use the Copy Artifacts step, you can copy only in the same logical partition (LPAR). To transfer artifacts between different LPARs, use the FTP Artifacts step.
 
+---
+
 ## Missing return code for Run TSO or ISPF Command step
 
 If you use the Run TSO or ISPF Command step to run a TSO command, the return code might not be displayed in IBM DevOps Deploy because the ISPF gateway does not support passing return codes when in TSO mode. To work around this behavior, in the **TSO Or ISPF** list, select **ISPF** instead of **TSO**.
 
+---
+
 ## Repository field for Copy Artifacts and FTP Artifacts steps
 
 The local repository referred to in the Copy Artifacts and FTP Artifacts steps is not the Codestation repository, but rather the z/OS deployment tools artifact repository. You specify this directory when you install the z/OS deployment tools. By default, the artifact repository is the following directory: *agent\_installation\_directory*/var/repository. To learn more, see [Completing the installation of the z/OS deployment tools](http://www-01.ibm.com/support/knowledgecenter/SS4GSP_6.2.1/com.ibm.udeploy.doc/topics/zos_installing_finish.html?lang=en).
+
+---
 
 ## Disable inputs for Z Inventory
 
@@ -29,6 +35,8 @@ Follow below steps to disable inputs for Z Inventory.
 * Restart the Agent for changes to be applied.
 
 **Note:** This will also fix APAR PH57385 - Error deploying version.Status code - 400 
+
+---
 
 ## Setting Temporary DSN prefix
 
@@ -59,6 +67,25 @@ This will set prefix to the given value (`UCD.TMP`). After the changes, agent re
 
 Modify the hidden input in the plugin step `Temporary DSN Prefix` to allowed dataset prefix on the MVS system. 
 
+---
+
+## Configuring Timeout To Fix SocketTimeoutException
+
+When working with a large number of artifacts, deployment or rollback fails with below error
+
+```
+java.net.SocketTimeoutException: Read timed out
+```
+
+The default timeout is `five minutes`. To increase the value set the environment variable `UC_HTTP_TIMEOUT` to a value in milliseconds 
+in `<AGENT_HOME>/bin/setenv-zos.sh` script like below.
+
+```
+# Setting timeout to 15 minutes
+export UC_HTTP_TIMEOUT=900000
+```
+
+After adding timeout value, `restart` the agent.
 
 
 
