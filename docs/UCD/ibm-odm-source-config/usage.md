@@ -15,4 +15,4 @@ To create a component by importing from Decision Center, complete the following 
 
 |Back to ...||Latest Version|IBM Operational Decision Manager (ODM) Source Config ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[14.1149407](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-odm-source-config/ucd-ibm-odm-source-config-14.1149407.zip)|[Readme](README.md)|[Overview](overview.md)|[Settings](settings.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[15.1178699](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-odm-source-config/devops-deploy-ibm-odm-source-config-15.1178699.zip)|[Overview](overview.md)|[Settings](settings.md)|[Usage](usage.md)|[Downloads](downloads.md)|
