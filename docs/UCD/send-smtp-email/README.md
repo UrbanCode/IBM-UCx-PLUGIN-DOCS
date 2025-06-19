@@ -35,4 +35,4 @@ To build a local plug-in, follow the short directions at the bottom of the GitHu
 
 |Back to ...||Latest Version|
 | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[4.1178408](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Send-SMTP-Email/devops-deploy-Send-SMTP-Email-4.1178408.zip)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[4.1178408](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Send-SMTP-Email/devops-deploy-Send-SMTP-Email-4.1178408.zip)|[Downloads](downloads.md)|
