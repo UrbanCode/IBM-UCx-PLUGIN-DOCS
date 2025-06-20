@@ -48,7 +48,7 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 #### Version 98
 
-* Support for Rollback for non-risky artifacts starting server and agent version 812 
+* Support Rollback for non-risky artifacts starting server and agent version 812 
 
 
 #### Version 97
