@@ -2,25 +2,24 @@
 
 This plugin provides a mechanism to send SMTP emails in your deployment process.
 
-### History
+## History
 
-#### Version 4
+### Version 4
 
 * Converted code from Groovy to Java.
 
-#### Version 3
+### Version 3
 
 * Added sending attachment support in an email to the plugin.
 
-#### Version 2
+### Version 2
 
 * updated dependency groovy-plugin-utils.jar.
 
-#### Version 1
+### Version 1
 
 * Initial Release.
 
-Converted the code from Groovy to Java.
 
 |Back to ...||Latest Version|
 | :---: | :---: | :---: | :---: | :---: | :---: |:---: |
