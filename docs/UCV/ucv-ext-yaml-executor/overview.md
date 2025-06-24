@@ -16,6 +16,10 @@ view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/
 
 ## History
 
+### Version 0.0.12
+
+* **Bug fix**: The issue involving the triggering of the existing integrated Deploy Plug-in through the YAML Executor plugin has been resolved.
+
 ### Version 0.0.11
 
 * **Feature enhancement**: Added a new parameter, appEnvOrder, within the attributes section of the configuration. This parameter enables users to explicitly specify the sequence in which environments are created, ensuring that the environment creation process adheres to the defined order.

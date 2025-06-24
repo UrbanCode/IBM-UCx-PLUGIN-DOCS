@@ -1,22 +1,22 @@
 
-# IBM DevOps Test - Usage
+# DevOps Test - Usage
 
-To use the IBM DevOps Test plug-in, the plug-in must be loaded and an instance created. Load the plug-in into the IBM DevOps Velocity container if necessary.
+To use the DevOps Test plug-in, the plug-in must be loaded and an instance created. Load the plug-in into the IBM DevOps Velocity container if necessary.
 
 ## Integration type
 
-The IBM DevOps Test plug-in is a parser type plug-in, and it parses data from the following test tools:
+The DevOps Test plug-in is a parser type plug-in, and it parses data from the following test tools:
 
 ## Invoking the plug-in
 
 To install the plug-in, perform the following steps:
 
 1. From the home page, click **Settings** > **Integrations** > **Available**.
-2. In the Action column for the IBM DevOps Test plug-in, click **Install**.
+2. In the Action column for the DevOps Test plug-in, click **Install**.
 
 The plug-in is now listed in the Installed tab and available for invoking.
 
-To invoke the IBM DevOps Test plug-in send an HTTP Post request with the data to parse. Whenever there is a hit to the endpoint, the data is parsed and displayed as metrics in IBM DevOps Velocity. You can use various methods such as Postman, REST calls, CURL, and CI/CD tools like Jenkins to invoke the plug-in endpoints.
+To invoke the DevOps Test plug-in send an HTTP Post request with the data to parse. Whenever there is a hit to the endpoint, the data is parsed and displayed as metrics in IBM DevOps Velocity. You can use various methods such as Postman, REST calls, CURL, and CI/CD tools like Jenkins to invoke the plug-in endpoints.
 
 ### Invoke using Jenkins
 
@@ -38,7 +38,7 @@ pipeline {
 
 ### Invoke using a Rest call
 
-When using a REST call to invoke the IBM DevOps Test plug-in, it must be a POST method and include the location of the IBM DevOps Velocity quality data endpoint.
+When using a REST call to invoke the DevOps Test plug-in, it must be a POST method and include the location of the IBM DevOps Velocity quality data endpoint.
 
 The following request sample shows a REST call that you can copy and update as necessary. Key points about the snippet:
 
@@ -52,7 +52,7 @@ URL: https://<url_devops_velocity_server>/reporting-consumer/metrics
 BODY (multipart/form-data):
  {
   payload: <json_object_string> // See below for schema format
- testArtifact: <IBM_DevOps_Test_JSON_file> // test results json file which needs to be parsed
+ testArtifact: <DevOps_Test_JSON_file> // test results json file which needs to be parsed
  }
 
 ```
@@ -113,6 +113,6 @@ curl --request POST \
 
 ```
 
-|Back to ...||Latest Version|IBM DevOps Test |||
+|Back to ...||Latest Version|DevOps Test |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
 |[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.40-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest/ucv-ext-onetest%3A1.0.40.tar.7z.001)[and 1.0.40-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest/ucv-ext-onetest%3A1.0.40.tar.7z.002)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
