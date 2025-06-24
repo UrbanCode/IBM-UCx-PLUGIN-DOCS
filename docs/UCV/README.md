@@ -20,6 +20,7 @@
 	- [Cypress](#cypress)
 	- [DevOps Deploy](#devops-deploy)
 	- [DevOps Build](#devops-build)
+	- [DevOps Test](#devops-test)
 	- [DevOps Test Hub](#devops-test-hub)
 	- [Digital.ai Agility](#digitalai-agility)
 	- [Fortify SSC](#fortify-ssc)
@@ -34,7 +35,6 @@
 	- [IBM DevOps Control](#ibm-devops-control)
 	- [IBM Engineering Workflow Management (EWM)](#ibm-engineering-workflow-management-ewm)
 	- [IBM DevOps Plan](#ibm-devops-plan)
-    - [IBM DevOps Test](#ibm-devops-test)
 	- [Jenkins](#jenkins)
 	- [JUnit](#junit)
 	- [Jira](#jira)
@@ -204,6 +204,17 @@ The DevOps Build plug-in for IBM DevOps Velocity imports build data from DevOps 
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-build/README.md)|[1.0.2-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-build/ucv-ext-build%3A1.0.2.tar.7z.001)[and 1.0.2-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-build/ucv-ext-build%3A1.0.2.tar.7z.002)|
 
+
+## DevOps Test
+
+The DevOps Test tool provides automated software testing. This plug-in provides integration of Functional, Performance and Web UI test results (JSON) into the IBM DevOps Velocity.
+
+---
+
+|Back to ...||DevOps Test |Latest Version|
+| :---: | :---: | :---: | :---: |
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-onetest/README.md)|[1.0.40-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest/ucv-ext-onetest%3A1.0.40.tar.7z.001)[and 1.0.40-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest/ucv-ext-onetest%3A1.0.40.tar.7z.002)|
+
 ## DevOps Test Hub
 
 DevOps Test Hub is a web-based continuous testing platform built on modern, cloud native technologies that enables test teams to run a breadth of tests that includes API, functional, and performance tests and to benefit from a holistic view of test progress
@@ -340,16 +351,6 @@ IBM DevOps Plan is a comprehensive change tracking system for software developme
 |Back to ...||Plan |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-plan/README.md)|[1.1.58-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-compass/ucv-ext-compass%3A1.1.58.tar.7z.001)[and 1.1.58-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-compass/ucv-ext-compass%3A1.1.58.tar.7z.002)|
-
-## IBM DevOps Test
-
-The IBM DevOps Test tool provides automated software testing. This plug-in provides integration of Functional, Performance and Web UI test results (JSON) into the IBM DevOps Velocity.
-
----
-
-|Back to ...||IBM DevOps Test |Latest Version|
-| :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-onetest/README.md)|[1.0.40-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest/ucv-ext-onetest%3A1.0.40.tar.7z.001)[and 1.0.40-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest/ucv-ext-onetest%3A1.0.40.tar.7z.002)|
 
 ## Jenkins
 

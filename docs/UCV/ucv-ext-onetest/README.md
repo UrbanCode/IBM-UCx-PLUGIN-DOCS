@@ -1,7 +1,7 @@
 
-# IBM DevOps Test
+# DevOps Test
 
-The IBM DevOps Test tool provides automated software testing tools. This plug-in provides integration of Functional, Performance and Web UI testing results (JSON) into the DevOps Velocity server.
+The DevOps Test tool provides automated software testing tools. This plug-in provides integration of Functional, Performance and Web UI testing results (JSON) into the DevOps Velocity server.
 
 |Back to ...||Latest Version||||
 | :---: | :---: | :---: | :---: | :---: | :---: |
