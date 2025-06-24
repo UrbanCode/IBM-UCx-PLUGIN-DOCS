@@ -18,8 +18,10 @@
 	- [CollabNet VersionOne](#collabnet-versionone)
 	- [Cucumber](#cucumber)
 	- [Cypress](#cypress)
-	- [DevOps Deploy](#devops-deploy)
 	- [DevOps Build](#devops-build)
+	- [DevOps Control](#devops-control)
+	- [DevOps Deploy](#devops-deploy)
+	- [DevOps Plan](#devops-plan)
 	- [DevOps Test](#devops-test)
 	- [DevOps Test Hub](#devops-test-hub)
 	- [Digital.ai Agility](#digitalai-agility)
@@ -32,9 +34,7 @@
 	- [HCL AppScan Enterprise (ASE)](#hcl-appscan-enterprise-ase)
 	- [HCL AppScan on Cloud (ASoC)](#hcl-appscan-on-cloud-asoc)
 	- [Handlebar Reporter](#handlebar-reporter)
-	- [IBM DevOps Control](#ibm-devops-control)
 	- [IBM Engineering Workflow Management (EWM)](#ibm-engineering-workflow-management-ewm)
-	- [IBM DevOps Plan](#ibm-devops-plan)
 	- [Jenkins](#jenkins)
 	- [JUnit](#junit)
 	- [Jira](#jira)
@@ -180,6 +180,28 @@ Cypress provides a testing framework for the Java programming language. The Cypr
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-cypress/README.md)|[1.0.1-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-cypress/ucv-ext-cypress%3A1.0.1.tar.7z.001)[and 1.0.1-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-cypress/ucv-ext-cypress%3A1.0.1.tar.7z.002)|
 
+## DevOps Build
+
+DevOps Build is a distributed, multi-platform, enterprise-scale build management tool for configuring and running software builds.
+
+The DevOps Build plug-in for IBM DevOps Velocity imports build data from DevOps Build into IBM DevOps Velocity. Build activities can be mapped in the IBM DevOps Velocity pipeline and build results can be tracked from the pipeline.
+
+---
+
+|Back to ...||DevOps Build |Latest Version|
+| :---: | :---: | :---: | :---: |
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-build/README.md)|[1.0.2-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-build/ucv-ext-build%3A1.0.2.tar.7z.001)[and 1.0.2-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-build/ucv-ext-build%3A1.0.2.tar.7z.002)|
+
+## DevOps Control
+
+DevOps Control is a Git repository hosting service. The DevOps Control plug-in enables users to import Git artifacts by querying pull requests and commit, facilitating seamless integration and management of project resources.
+
+---
+
+|Back to ...||DevOps Control |Latest Version|
+| :---: | :---: | :---: | :---: |
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-control/README.md)|[1.0.5-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-control/ucv-ext-control%3A1.0.5.tar.7z.001)[and 1.0.5-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-control/ucv-ext-control%3A1.0.5.tar.7z.002)|
+
 ## DevOps Deploy
 
 DevOps Deploy is engineered to handle the most complex deployment situations with push-button automation and controlled auditing needed in production. DevOps Deploy automates application deployments across varying IT environments.
@@ -192,17 +214,15 @@ The Deploy Plugin for DevOps Velocity imports deployment data from DevOps Deploy
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-ucd/README.md)|[4.0.9 -File 1](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-ucd/ucv-ext-ucd%3A4.0.9.tar.7z.001) [and 4.0.9 -File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-ucd/ucv-ext-ucd%3A4.0.9.tar.7z.002)|
 
-## DevOps Build
+## DevOps Plan
 
-DevOps Build is a distributed, multi-platform, enterprise-scale build management tool for configuring and running software builds.
-
-The DevOps Build plug-in for IBM DevOps Velocity imports build data from DevOps Build into IBM DevOps Velocity. Build activities can be mapped in the IBM DevOps Velocity pipeline and build results can be tracked from the pipeline.
+DevOps Plan is a comprehensive change tracking system for software development environments. The DevOps Plan plug-in provides an integration with DevOps Plan server to import and synchronize DevOps Plan issues into an IBM DevOps Velocity server.
 
 ---
 
-|Back to ...||DevOps Build |Latest Version|
+|Back to ...||Plan |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-build/README.md)|[1.0.2-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-build/ucv-ext-build%3A1.0.2.tar.7z.001)[and 1.0.2-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-build/ucv-ext-build%3A1.0.2.tar.7z.002)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-plan/README.md)|[1.1.58-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-compass/ucv-ext-compass%3A1.1.58.tar.7z.001)[and 1.1.58-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-compass/ucv-ext-compass%3A1.1.58.tar.7z.002)|
 
 
 ## DevOps Test
@@ -322,15 +342,6 @@ Handlebars is a simple templating language. It can be used to generate HTML or o
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-handlebars-reporter/README.md)|[2.0.1](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-handlebars-reporter/ucv-ext-handlebars-reporter%3A2.0.1.tar.7z.001)|
 
-## IBM DevOps Control
-
-IBM DevOps Control is a Git repository hosting service. The IBM DevOps Control plug-in enables users to import Git artifacts by querying pull requests and commit, facilitating seamless integration and management of project resources.
-
----
-
-|Back to ...||IBM DevOps Control |Latest Version|
-| :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-control/README.md)|[1.0.5-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-control/ucv-ext-control%3A1.0.5.tar.7z.001)[and 1.0.5-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-control/ucv-ext-control%3A1.0.5.tar.7z.002)|
 
 ## IBM Engineering Workflow Management (EWM)
 
@@ -342,15 +353,6 @@ The IBM Engineering Workflow Management (EWM) plug-in, previously known as the I
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-ewm/README.md)|[1.1.32-File 1](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-ewm/ucv-ext-ewm%3A1.1.32.tar.7z.001)[and 1.1.32-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-ewm/ucv-ext-ewm%3A1.1.32.tar.7z.002)[and 1.1.32-File 3](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-ewm/ucv-ext-ewm%3A1.1.32.tar.7z.003)|
 
-## IBM DevOps Plan
-
-IBM DevOps Plan is a comprehensive change tracking system for software development environments. The IBM DevOps Plan plug-in provides an integration with IBM DevOps Plan server to import and synchronize IBM DevOps Plan issues into an IBM DevOps Velocity server.
-
----
-
-|Back to ...||Plan |Latest Version|
-| :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-plan/README.md)|[1.1.58-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-compass/ucv-ext-compass%3A1.1.58.tar.7z.001)[and 1.1.58-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-compass/ucv-ext-compass%3A1.1.58.tar.7z.002)|
 
 ## Jenkins
 
