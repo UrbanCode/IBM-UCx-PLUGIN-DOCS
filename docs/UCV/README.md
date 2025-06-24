@@ -243,7 +243,7 @@ DevOps Test Hub is a web-based continuous testing platform built on modern, clou
 
 |Back to ...||DevOps Test Hub |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-onetest-server/README.md)|[1.0.27-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest-server/ucv-ext-onetest-server%3A1.0.27.tar.7z.001)[and 1.0.27-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest-server/ucv-ext-onetest-server%3A1.0.27.tar.7z.002)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-onetest-server/README.md)|[1.0.28-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest-server/ucv-ext-onetest-server%3A1.0.28.tar.7z.001)[and 1.0.28-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest-server/ucv-ext-onetest-server%3A1.0.28.tar.7z.002)|
 
 ## Digital.ai Agility
 
