@@ -755,7 +755,7 @@ HCL DevOps Test Performance is a performance testing solution that validates the
 
 |Back to ...||HCL DevOps Test Performance |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](HCLDevOpsTestPerf/README.md)|[10.2](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/HCLDevOpsTestPerf/DTPerf-DD-HCL-10.2.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](HCLDevOpsTestPerf/README.md)|[10.3](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/HCLDevOpsTestPerf/DTPerf-DD-HCL-10.3.zip)|
 
 ## HCL DevOps Test UI
 
@@ -766,7 +766,7 @@ The IBM DevOps Deploy plug-in for Test UI includes process steps for running the
 
 |Back to ...||HCL DevOps Test UI |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](HCLDevOpsTestUI/README.md)|[7.2](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/HCLDevOpsTestUI/DTUI-FunctionalTest-DD-HCL-7.2.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](HCLDevOpsTestUI/README.md)|[7.3](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/HCLDevOpsTestUI/DTUI-FunctionalTest-DD-HCL-7.3.zip)|
 
 ## HCL DevOps Test UI-WebUI
 
@@ -777,7 +777,7 @@ The IBM DevOps Deploy plug-in for HCL DevOps Test UI - WebUI includes process st
 
 |Back to ...||HCL DevOps Test UI-WebUI |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](HCLDevOpsTestUIWebUI/README.md)|[12.2](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/HCLDevOpsTestUIWebUI/DTUI-UITest-DD-HCL-12.2.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](HCLDevOpsTestUIWebUI/README.md)|[12.3](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/HCLDevOpsTestUIWebUI/DTUI-UITest-DD-HCL-12.3.zip)|
 
 ## HCL DevOps Test Virtualization
 
@@ -788,7 +788,7 @@ You can use this plug-in to integrate DevOps Test Vitualization server with DevO
 
 |Back to ...||HCL DevOps Test Virtualization |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](HCLDevOpsTestVirtualization/README.md)|[5.2](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/HCLDevOpsTestVirtualization/DTVirtualization-DD-HCL-5.2.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](HCLDevOpsTestVirtualization/README.md)|[5.3](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/HCLDevOpsTestVirtualization/DTVirtualization-DD-HCL-5.3.zip)|
 
 ## HCL OneTest API
 
@@ -998,7 +998,7 @@ IBM DevOps Test Performance is a performance testing solution that validates the
 
 |Back to ...||IBM DevOps Test Performance |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](IBMDevOpsTestPerf/README.md)|[10.2](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IBMDevOpsTestPerf/DTPerf-DD-IBM-10.2.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](IBMDevOpsTestPerf/README.md)|[10.3](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IBMDevOpsTestPerf/DTPerf-DD-IBM-10.3.zip)|
 
 ## IBM DevOps Test UI
 
@@ -1009,7 +1009,7 @@ The IBM DevOps Deploy plug-in for Test UI includes process steps for running the
 
 |Back to ...||IBM DevOps Test UI |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](IBMDevOpsTestUI/README.md)|[7.2](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IBMDevOpsTestUI/DTUI-FunctionalTest-DD-IBM-7.2.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](IBMDevOpsTestUI/README.md)|[7.3](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IBMDevOpsTestUI/DTUI-FunctionalTest-DD-IBM-7.3.zip)|
 
 ## IBM DevOps Test UI-WebUI
 
@@ -1020,7 +1020,7 @@ The IBM DevOps Deploy plug-in for IBM DevOps Test UI - WebUI includes process st
 
 |Back to ...||IBM DevOps Test UI-WebUI |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](IBMDevOpsTestUIWebUI/README.md)|[12.2](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IBMDevOpsTestUIWebUI/DTUI-UITest-DD-IBM-12.2.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](IBMDevOpsTestUIWebUI/README.md)|[12.3](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IBMDevOpsTestUIWebUI/DTUI-UITest-DD-IBM-12.3.zip)|
 
 ## IBM DevOps Test Virtualization
 
@@ -1031,7 +1031,7 @@ You can use this plug-in to integrate DevOps Test Vitualization server with DevO
 
 |Back to ...||IBM DevOps Test Virtualization |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](IBMDevOpsTestVirtualization/README.md)|[5.2](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IBMDevOpsTestVirtualization/DTVirtualization-DD-IBM-5.2.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](IBMDevOpsTestVirtualization/README.md)|[5.3](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IBMDevOpsTestVirtualization/DTVirtualization-DD-IBM-5.3.zip)|
 
 ## IBM Globalization Pipeline  [community plugin]
 
