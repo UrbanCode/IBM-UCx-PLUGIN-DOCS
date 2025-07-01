@@ -115,27 +115,21 @@ For additional configuration properties depending on integration type, navigate 
 
 ### Sample YAML configuration file
 
-Following is the sample YAML configuration file with two integrations:
+Following is the sample YAML configuration file with existing integration.
 
 ```
 version: "8.0.0"
 integrations:
   - type: ucv-ext-launch
+    name: Test
     attributes:
       auto-config: true
-    configs:
-      name: Deploy Integration
-      loggingLevel: DEBUG
-      deltaTime: '2023-05-15T18:30:00.000Z'
-      # Additional integration-specific fields for Launch Integration
-
-  - type: another-integration
-    attributes:
-      auto-config: true
-    configs:
-      name: Another Integration
-      loggingLevel: INFO
-      # Additional integration-specific fields for Another Integration
+      application: [
+         "Test1"
+      ],
+      appEnvOrder: ["QA", "DEV", "PROD"]
+      integrationId: 12345678,
+      team: Loop3
 ```
 
 Replace the property values in the sample file with the actual values specific to your configuration.
@@ -147,11 +141,13 @@ Perform the following steps to customize the YAML configuration file for your re
 1. Open the YAML configuration file in a text editor.
 2. Update `version` property with the appropriate version number.
 3. Under `integrations` property, add or remove any property as required.
-4. For each integration, add `type`, `attributes`, and `configs` property.
-5. Under `configs` property, you must add the required properties based on the integration type.
-6. Set the `auto-config` attribute to **true** for enabling automatic setup of pipeline applications processes and environments after creating a new integration.
-7. Save the YAML configuration file.
+4. For each integration, add `type`, `attributes`, and `configs` property. `name` is optional if we want to overwrite valuestream name.
+5. In valuestream, To filter pipeline based on application add `applications` and `teams` to map value stream against the team.
+6. Under `configs` property, you must add the required properties based on the integration type. if `integrationId` is specified then configs is optional.
+7. To order the environment while syncing, use the `appEnvOrder` property.
+8. Set the `auto-config` attribute to **true** for enabling automatic setup of pipeline applications processes and environments after creating a new integration.
+9. Save the YAML configuration file.
 
 |Back to ...||Latest Version|YAML Executor |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[0.0.12-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-yaml-executor/ucv-ext-yaml-executor%3A0.0.12.tar.7z.001)[and 0.0.12-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-yaml-executor/ucv-ext-yaml-executor%3A0.0.12.tar.7z.002)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[0.0.13-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-yaml-executor/ucv-ext-yaml-executor%3A0.0.13.tar.7z.001)[and 0.0.13-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-yaml-executor/ucv-ext-yaml-executor%3A0.0.13.tar.7z.002)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
