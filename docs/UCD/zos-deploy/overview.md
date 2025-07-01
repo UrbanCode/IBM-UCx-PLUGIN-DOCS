@@ -48,7 +48,8 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 #### Version 98
 
-* Support Rollback for non-risky artifacts starting server and agent version 812 
+* Support Rollback for non-risky artifacts starting server and agent version 812. See [Non Risky Rollback](https://community.ibm.com/community/user/blogs/bharath-kumar3/2025/06/25/introducing-smarter-zos-rollbacks-in-devops-deploy). 
+* Logging is now consistent under 'Deploy Reports' section in the 'Deploy Datasets and USS files' step
 
 
 #### Version 97
@@ -437,4 +438,4 @@ This release includes the following updates:
 
 |          Back to ...          |                                |                                                        Latest Version                                                         |    z/OS Utility     |                                       |                   |                   |                           |
 |:-----------------------------:|:------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------:|:-------------------:|:-------------------------------------:|:-----------------:|:-----------------:|:-------------------------:|
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [98.1178697](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/devops-deploy-zos-deploy-98.1178697.zip) | [Readme](README.md) | [Troubleshooting](troubleshooting.md) | [Steps](steps.md) | [Usage](usage.md) | [Downloads](downloads.md) |
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [98.1178819](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/devops-deploy-zos-deploy-98.1178819.zip) | [Readme](README.md) | [Troubleshooting](troubleshooting.md) | [Steps](steps.md) | [Usage](usage.md) | [Downloads](downloads.md) |
