@@ -36,4 +36,4 @@ Invoke Buztool Invoke Buztool for uploading artifacts to z/OS component versions
 
 |Back to ...||Latest Version||||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[52.1071101](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/ibmucd/ibm-ucd-52.1071101.zip)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[56.1175564](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/ibmucd/DevOps-deploy-56.1175564.zip)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

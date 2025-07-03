@@ -365,7 +365,7 @@ IBM UrbanCode Deploy provides release management and automation to improve speed
 
 |Back to ...||IBM UrbanCode Deploy for IBM UrbanCode Build |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ibmucd/README.md)|[52.1071101](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/ibmucd/ibm-ucd-52.1071101.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ibmucd/README.md)|[56.1175564](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/ibmucd/DevOps-deploy-56.1175564.zip)|
 
 ## Job As Code
 
