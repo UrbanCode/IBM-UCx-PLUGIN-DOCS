@@ -13,6 +13,14 @@ IBM Devops Velocity 5.0.0 or later.
 
 IBM DevOps Velocity plug-in images are located in DockerHub. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-jira-service-management/tags).
 
+## User Advantages with integrating Jira Service Management
+
+With the integration of Jira Service Management, incident data is now accessible directly within the VSM Dot setup. This feature allows users to:
+* **Track the progression** of dots as they move through different stages of the incident management workflow.
+* **Identify bottlenecks** where incidents may be delayed or stuck.
+* **Monitor resolution time** by easily viewing how long it takes for incidents to be closed.
+* **All Dot View** offers comprehensive details for each individual incident, enabling users to review incident-specific information quickly and efficiently.
+
 ### History
 
 ### Version 1.0.1
