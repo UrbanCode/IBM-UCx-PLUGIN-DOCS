@@ -14,6 +14,10 @@ There is no install process for this plug-in. The DevOps Test Hub plug-in is ide
 
 ## History
 
+### Version 1.0.30
+
+* **Bug fix**: Fixed an issue where the callback step failed when a trailing slash (/) was present at the end of the URL. The plugin now automatically detects and removes trailing slashes to ensure proper URL formatting and successful callback execution.
+
 ### Version 1.0.28
 
 * **Plugin name update**: The plugin name has been changed from HCL DevOps Test Server to DevOps Test Hub.
@@ -57,4 +61,4 @@ There is no install process for this plug-in. The DevOps Test Hub plug-in is ide
 
 |Back to ...||Latest Version|DevOps Test Hub |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.28-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest-server/ucv-ext-onetest-server%3A1.0.28.tar.7z.001)[and 1.0.28-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest-server/ucv-ext-onetest-server%3A1.0.28.tar.7z.002)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.30-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest-server/ucv-ext-onetest-server%3A1.0.30.tar.7z.001)[and 1.0.30-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest-server/ucv-ext-onetest-server%3A1.0.30.tar.7z.002)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|

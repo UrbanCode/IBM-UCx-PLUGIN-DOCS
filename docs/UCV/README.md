@@ -244,7 +244,7 @@ DevOps Test Hub is a web-based continuous testing platform built on modern, clou
 
 |Back to ...||DevOps Test Hub |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-onetest-server/README.md)|[1.0.28-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest-server/ucv-ext-onetest-server%3A1.0.28.tar.7z.001)[and 1.0.28-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest-server/ucv-ext-onetest-server%3A1.0.28.tar.7z.002)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-onetest-server/README.md)|[1.0.30-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest-server/ucv-ext-onetest-server%3A1.0.30.tar.7z.001)[and 1.0.30-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest-server/ucv-ext-onetest-server%3A1.0.30.tar.7z.002)|
 
 ## Digital.ai Agility
 
@@ -393,7 +393,7 @@ Jira Service Management is an issue tracking product, developed by Atlassian. Th
 
 |Back to ...||Jira Servicement Management |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-jira/README.md)|[1.0.1-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jira-service-management/ucv-ext-jira-service-management%3A1.0.1.tar.7z.001)[and 1.0.1-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jira-service-management/ucv-ext-jira-service-management%3A1.0.1.tar.7z.002)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-jira-service-management/README.md)|[1.0.1-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jira-service-management/ucv-ext-jira-service-management%3A1.0.1.tar.7z.001)[and 1.0.1-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jira-service-management/ucv-ext-jira-service-management%3A1.0.1.tar.7z.002)|
 
 ## Microsoft Visual Studio Testing
 
