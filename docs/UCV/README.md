@@ -38,6 +38,7 @@
 	- [Jenkins](#jenkins)
 	- [JUnit](#junit)
 	- [Jira](#jira)
+	- [Jira Service Management](#jira-service-management)
 	- [Microsoft Visual Studio Testing](#microsoft-visual-studio-testing)
 	- [Milestone Risk Estimator](#milestone-risk-estimator)
 	- [Njs-Unit](#Njs-Unit) 
@@ -384,6 +385,16 @@ Jira is an issue tracking product, developed by Atlassian. The Jira plug-in prov
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-jira/README.md)|[2.4.2-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jira/ucv-ext-jira%3A2.4.2.tar.7z.001)[and 2.4.2-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jira/ucv-ext-jira%3A2.4.2.tar.7z.002)|
 
+## Jira Service Management
+
+Jira Service Management is an issue tracking product, developed by Atlassian. The Jira Service Management plug-in provides an integration with Jira Service Management to import and work with Jira Service Management incidents.
+
+---
+
+|Back to ...||Jira Servicement Management |Latest Version|
+| :---: | :---: | :---: | :---: |
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-jira/README.md)|[1.0.1-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jira-service-management/ucv-ext-jira-service-management%3A1.0.1.tar.7z.001)[and 1.0.1-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jira-service-management/ucv-ext-jira-service-management%3A1.0.1.tar.7z.002)|
+
 ## Microsoft Visual Studio Testing
 
 Microsoft Visual Studio is a testing framework which is used to define and run unit tests to verify and maintain code integerty. 
@@ -560,5 +571,5 @@ The YAML Executor plug-in automates the initial setup process for integrating di
 
 |Back to ...||YAML Executor |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-yaml-executor/README.md)|[0.0.12-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-yaml-executor/ucv-ext-yaml-executor%3A0.0.12.tar.7z.001)[and 0.0.12-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-yaml-executor/ucv-ext-yaml-executor%3A0.0.12.tar.7z.002)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-yaml-executor/README.md)|[0.0.13-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-yaml-executor/ucv-ext-yaml-executor%3A0.0.13.tar.7z.001)[and 0.0.13-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-yaml-executor/ucv-ext-yaml-executor%3A0.0.13.tar.7z.002)|
 

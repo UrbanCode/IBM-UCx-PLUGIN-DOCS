@@ -217,7 +217,7 @@ Some properties might not be displayed in the user interface, to see all propert
 | URL | String | The URL of the ServiceNow server. | Yes | baseUrl |
 | Page Size | String | The number of issues retrieved per page. | No | pageSize |
 | Resource types and sys_params | String | The type/parameters of events to be synced from ServiceNow. Example:[{"table": "change_request", "sys_params": { "category": "Software" }},...] | Yes | resourceTypesAndSys_params |
-| Custom Field Mapping | Json | Map ServiceNow fields to HCL DevOps Velocity as a JSON Object. | No | fieldMapping |
+| Custom Field Mapping | Json | Map ServiceNow fields to IBM DevOps Velocity as a JSON Object. | No | fieldMapping |
 | Replica Server Name | String | Any non-empty string value to replica server name would enable read only replica. An Empty string will disable read only replica. | No | replicaServerName |
 | Proxy Server | String | The URL of the proxy server including the port number. | No | proxyServer |
 | Proxy User Name | String | The user name used to authenticate with the proxy server. | No | proxyUsername |
