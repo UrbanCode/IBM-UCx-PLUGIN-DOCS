@@ -1,15 +1,11 @@
 
-# Rational Test Automation Server - Usage
+# IBM DevOps Test Hub - Usage
 
-To use the Rational Test Automation Server plug-in, the plug-in must be loaded and an instance created
-before you can configure the plug-in integration. You define configuration properties in the user interface or in a JSON
-file.To invoke the plug-in, you must send an HTTP Post to request the plug-in endpoint.
+To use the IBM DevOps Test Hub plug-in, the plug-in must be loaded and an instance created before you can configure the plug-in integration. You define configuration properties in the user interface or in a JSON file.To invoke the plug-in, you must send an HTTP Post to request the plug-in endpoint.
 
 ## Integration type
 
-The Rational Test Automation Server plug-in supports endpoint integration which are listed in the
-following table.
-
+The IBM DevOps Test Hub plug-in supports endpoint integration which are listed in the following table.
 
 | Name | Path | Method |
 | --- | --- | --- |
@@ -17,16 +13,67 @@ following table.
 
 ## Invoking the plugin
 
-To gather data, send an HTTP POST request to your endpoint:  `https://<pluginEndpoint>/rtas/callback`
+## Set Up
 
-The payload for this POST must be in the following format:
+You will need to "install" the plug-in in IBM DevOps Velocity. You can do this in one of two ways.
+* Perhaps the easiest way is to create a new Value Stream in IBM DevOps Velocity.
+* You can use the following template for creating your integration
 
+    ```
+    "integrations": [
+  {
+    "type": "ucv-ext-rtas",
+    "tenant_id": "<tenant-id>",
+    "name": "<integration-name>",
+    "logginglevel": "INFO",
+    "properties":{
+      "_userAccessKey": "<ucv-user-access-key>",
+      "rtasUrl" : "<IBM DevOps Test-Hub-url>",
+      "rtasOfflineToken":"<IBM DevOps Test-Hub-offline-token>",
+      "buildRegExp": "([A-Z]+-[0-9]+)",
+      "workflowId" : "<value_stream_id>"
+        }
+    }
+    ]
+
+    ```
+* In the above example, provide all of your own values for the values inside of < > brackets.
+* The buildRegExp field can be used to map a build to a metric. The tags on the IBM DevOps Test Hub test will be evaluated against the regular expression.
+* For instance, if your buildRegExp is defined as "([A-Z]+-[0-9]+)" and you tag your test with "BUILD-123" this will map the build with ID BUILD-123 in the Velocity server to the newly created metric.
+* For help forming a regular expression based on your build ID, you can test out patterns at the following web page: https://regexr.com
+
+* Another option for creating is to hit the https://<velocity-url>/integration url with the integration definition as your payload:
+
+    ```
+
+    {
+    "type": "ucv-ext-rtas",
+    "tenant_id": "<tenant-id>",
+    "name": "<integration-name>",
+    "logginglevel": "INFO",
+    "properties":{
+        "rtasUrl" : "<IBM DevOps Test-Hub-url>",
+        "rtasOfflineToken":"<IBM DevOps Test-Hub-offline-token>",
+        "buildRegExp": "([A-Z]+-[0-9]+)",
+        "workflowId" : "<value_stream_id>"
+    }
+    }
+
+    ```
+* Either option will allow you to create an IBM DevOps Test Hub integration instance.
+
+## Running the Integration
+
+After going through the "Set Up" portion above, you can send an HTTP POST request to your new endpoint: https://<velocity-url>/pluginEndpoint/<integrationId>/rtas/callback
+
+* The payload for this POST must be in the following format
 
 ```
+
 {
   "project": {
-    "name":"<name of Rational Test Automation Server project>",
-    "id": "<id of Rational Test Automation Server project>"
+    "name":"<name of IBM DevOps Test Hub project>",
+    "id": "<id of IBM DevOps Test Hub project>"
     (either project name or project id must be specified)
   },
   "test": {
@@ -36,19 +83,12 @@ The payload for this POST must be in the following format:
   },
   "commitId": "<sha of a commit>" (optional),
   "build": {
-    "id": "<id of build in DevOps Velocity>",
-    "url": "<url of build in DevOps Velocity>"
+    "id": "<id of build in IBM DevOps Velocity>",
+    "url": "<url of build in IBM DevOps Velocity>"
   } (optional, this will override buildRegExp if specified)
 }
 
 ```
-
-
-**commitID** is the SHA of the commit. You can either not link it to anything in DevOps Velocity, or you can link it to a build, or to a commit (will accomplish the same thing in the end, by making the metric show up on the DOT). There are some IDs that are readily available when orchestrating from a Jenkins job for instance (such as the BUILD\_ID).
-
-You can map a build to a metric using tags defined on the Rational Test Automation Server by evaluating the tag against a regular express. Use the
-
-**Build Label Pattern** field to define the regular expression. For example, a build expression of “([A-Z]+-[0-9]+)” and a test has a tag of “BUILD-123”, the build is mapped with ID BUILD-123 in the DevOps Velocity server to the newly created metric. For assistance in forming a regular expression, see the [Regular expression tester](https://regexr.com) website. You can use the website to help form and test a regular expression based on your build ID.
 
 ## Integration
 
@@ -57,28 +97,42 @@ There are two methods to integrate the plug-in:
 * Using the user interface
 * Using a JSON file
 
-### Using the user interface
+The tables in the Configuration Properties section describe the properties used to define the integration.
 
-1. From the Plugins page, click **Settings** > **Integrations** > **Plugins**.
-2. Under the Action column for the plug-in, click **Add Integration**.
-3. On the Add Integration page enter values for the fields used to configure the integration and define communication.
-4. Click **Save**.
+## Integrating the plug-in by using user interface
 
-### Using a JSON file
+To install the plug-in, perform the following steps:
 
-The JSON file contains the information for creating a value stream and integrating with the IBM Rational Test Automation Server server. The following table describes the information for the creating a IBM DevOps Velocity value stream map.
+* In IBM DevOps Velocity, click **Settings** > **Integrations** > **Available**.
+* In the Action column for the IBM DevOps Test Hub, click **Install**.
 
-1. Download the value stream map. The value stream map is a JSON file used to define integrations.
-2. Edit the JSON file to include the plug-in configuration properties.
-3. Save and upload the JSON file. This replaces the current JSON file with the new content.
-4. View the new integration on the Integrations page.
+To integrate the plug-in using the user interface, perform the following steps:
+
+1. In IBM DevOps Velocity, click **Settings** > **Integrations** > **Installed**.
+2. In the Action column for the IBM DevOps Test Hub plug-in, and then click **Add Integration**.
+3. On the Add Integration dialog, enter the values for the fields to configure the integration and define communication.
+4. Click **Add**.
+
+## Integrating the plug-in by using JSON file
+
+The JSON file contains the information for creating a value stream. Within the JSON file is a section for integrations. It is in this section that plug-in properties can be defined. For JSON sample refer set up section.
+
+To integrate the plug-in using a JSON, perform the following steps:
+
+1. Navigate to value stream page, and then click the necessary value stream.
+2. Click **wrench icon**, and then Select **Edit value stream** to modify the JSON file in the code or tree view editors.
+3. Alternatively, you can also click **Download JSON** option to download the JSON file, and then select the Import JSON option to upload the revised JSON file.
+4. Edit the integration information in the JSON file to add the plug-in configuration properties. Refer to JSON sample code in the Configuration Properties section for more details.
+5. Click **Save**.
+
+For **JSON sample** refer set up section.
 
 ## Configuration properties
 
 The following tables describe the properties used to configure the integration. Each table contains the field name when using the user interface and the property name when using a JSON file.
 
 * The General Configuration Properties table describes configuration properties used by all plug-in integrations.
-* The Rational Test Automation Server Configuration Properties table describes the configuration properties that define the connection and communications with the Rational Test Automation Server server. When using the JSON method to integrate the plug-in these properties are coded within the `properties` configuration property.
+* The IBM DevOps Test Hub Configuration Properties table describes the configuration properties that define the connection and communications with the IBM DevOps Test Hub server. When using the JSON method to integrate the plug-in these properties are coded within the `properties` configuration property.
 
 ### General Configuration Properties
 
@@ -87,50 +141,20 @@ The following tables describe the properties used to configure the integration. 
 | NA | The version of the plug-in that you want to use. To view available versions, click the **Version History** tab. If a value is not specified, the version named latest is used. | No | image |
 | Integration Name | An assigned name to the value stream. | Yes | name |
 | Logging Level | The level of Log4j messages to display in the log file. Valid values are: all, debug, info, warn, error, fatal, off, and trace. | No | loggingLevel |
-| NA | List of plug-in configuration properties used to connect and communicate with the Rational Test Automation Server server. Enclose the properties within braces. | Yes | properties |
+| NA | List of plug-in configuration properties used to connect and communicate with the IBM DevOps Test Hub. Enclose the properties within braces. | Yes | properties |
 |  | The name of the tenant. | Yes | tenant\_id |
-| NA | Unique identifier assigned to the plug-in. The value for the Rational Test Automation Server plug-in is `ucv-ext-rtas` | Yes | type |
+| NA | Unique identifier assigned to the plug-in. The value for the IBM DevOps Test Hub plug-in is `ucv-ext-rtas` | Yes | type |
 
-### Rational Test Automation Server Configuration Properties
+### IBM DevOps Test Hub Configuration Properties
 
 | Name | Property Name | Type | Description | Required |
 | --- | --- | --- | --- | --- |
 | Build Label Pattern | buildRegExp | String | A regular expression pattern to match a build ID on a test execution label. For example: ([A-Z]+-[0-9]+). | No|
-| Rational Test Automation Server Offline User Token | rtasOfflineToken | String | The offline user token created in the Rational Test Automation Server user interface by clicking the Create Token button. | Yes |
-| Rational Test Automation Server URL | rtasUrl | String | The base URL of the Rational Test Automation Server. For example: https://tp- cicd2.nonprod.hclpnp.com. | Yes |
-| DevOps Velocity User Access Key | ucvAccessKey | String | The user access key used to authenticate with the DevOps Velocity server. | Yes |
+| IBM DevOps Test Hub Offline User Token | rtasOfflineToken | Secure | The offline user token created in the IBM DevOps Test Hub user interface by clicking the Create Token button. | Yes |
+| IBM DevOps Test Hub Server URL | rtasUrl | String | The base URL of the IBM DevOps Test Hub Server. For example: https://tp- cicd2.nonprod.domain.com/test. | Yes |
 | Workflow Id | workflowId | String | The value stream that this metric is associated. | No |
-| Log Level | logLevel | String | The level of Log4j messages to display on the console. Valid values are: all, debug, info, warn, error, fatal, off, and trace. | No |
-
-## Example
-
-The following example can be used as as template to include the AppScan plug-in integration into the JSON file. Copy and paste the template into the JSON file and make the appropriate changes.
 
 
-```
-
-"integrations": [
-{
-"type": "ucv-ext-rtas",
-"tenant_id":
-"*tenant-id*",
-"name": "*integration-name*",
-"logginglevel": "*log\_level\_value*",
-"properties":{
-
-"ucvAccessKey": "*ucv-user-access-key*",
-"rtasUrl" : "*rtas-url*",
-"rtasOfflineToken":"*rtas-
-offline-token*",
-"buildRegExp": "([A-Z]+-[0-9]+)"
-}``
-}``
-]
-
-```
-
-
-
-|Back to ...||Latest Version|Rational Test Automation Server |||
+|Back to ...||Latest Version|IBM DevOps Test Hub |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.34-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-rtas/ucv-ext-rtas%3A1.0.34.tar.7z.001)[and 1.0.34-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-rtas/ucv-ext-rtas%3A1.0.34.tar.7z.002)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.38-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-rtas/ucv-ext-rtas%3A1.0.38.tar.7z.001)[and 1.0.38-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-rtas/ucv-ext-rtas%3A1.0.38.tar.7z.002)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

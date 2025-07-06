@@ -34,6 +34,7 @@
 	- [HCL AppScan Enterprise (ASE)](#hcl-appscan-enterprise-ase)
 	- [HCL AppScan on Cloud (ASoC)](#hcl-appscan-on-cloud-asoc)
 	- [Handlebar Reporter](#handlebar-reporter)
+	- [IBM DevOps Test Hub](#ibm-devops-test-hub)
 	- [IBM Engineering Workflow Management (EWM)](#ibm-engineering-workflow-management-ewm)
 	- [Jenkins](#jenkins)
 	- [JUnit](#junit)
@@ -44,7 +45,6 @@
 	- [Njs-Unit](#Njs-Unit) 
 	- [Planview Leankit](#planview-leankit)
 	- [Rally](#rally)
-	- [Rational Test Automation Server](#rational-test-automation-server)
 	- [SAP ChaRM](#sap-charm)
 	- [Selenium](#selenium)
 	- [ServiceNow](#servicenow)
@@ -343,6 +343,16 @@ Handlebars is a simple templating language. It can be used to generate HTML or o
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-handlebars-reporter/README.md)|[2.0.1](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-handlebars-reporter/ucv-ext-handlebars-reporter%3A2.0.1.tar.7z.001)|
 
+## IBM DevOps Test Hub
+
+IBM DevOps Test Hub is a fully-containerized (Docker) server component used by test teams to consolidate  testing from each of the Test Workbench products into a single view.
+
+---
+
+|Back to ...||IBM DevOps Test Hub |Latest Version|
+| :---: | :---: | :---: | :---: |
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-rtas/README.md)|[1.0.38-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-rtas/ucv-ext-rtas%3A1.0.38.tar.7z.001)[and 1.0.38-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-rtas/ucv-ext-rtas%3A1.0.38.tar.7z.002)|
+
 
 ## IBM Engineering Workflow Management (EWM)
 
@@ -444,16 +454,6 @@ Rally is an Agile project management tool for planning, scheduling, and tracking
 |Back to ...||Rally |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-rally/README.md)|[1.0.43](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-rally/ucv-ext-rally%3A1.0.43.tar.7z.001)|
-
-## Rational Test Automation Server
-
-Rational Test Automation Server is a fully-containerized (Docker) server component used by test teams to consolidate  testing from each of the Test Workbench products into a single view.
-
----
-
-|Back to ...||Rational Test Automation Server |Latest Version|
-| :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-rtas/README.md)|[1.0.34-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-rtas/ucv-ext-rtas%3A1.0.34.tar.7z.001)[and 1.0.34-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-rtas/ucv-ext-rtas%3A1.0.34.tar.7z.002)|
 
 ## SAP ChaRM
 
