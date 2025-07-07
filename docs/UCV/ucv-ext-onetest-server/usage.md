@@ -154,12 +154,12 @@ Some properties might not be displayed in the user interface, to see all propert
 
 | Name | Type | Description | Required | Property Name |
 | --- | --- | --- | --- | --- |
-| DevOps Test Hub URL | String | The base URL of the DevOps Test Hub. For example: https://tp-cicd2.nonprod.hclpnp.com. | Yes | oneTestUrl |
-| DevOps Test Offline User Token | String | The offline user token created in the DevOps Test user interface by clicking the Create Token button. | Yes | oneTestRefreshToken |
+| DevOps Test Hub URL | String | The base URL of the DevOps Test Hub. For example: https://tp-cicd2.nonprod.hclpnp.com/test. | Yes | oneTestUrl |
+| DevOps Test Offline User Token | Secure | The offline user token created in the DevOps Test user interface by clicking the Create Token button. | Yes | oneTestRefreshToken |
 | Build Label Pattern | String | A regular expression pattern that will match a build ID on a test execution label. For example: ([A-Z]+-[0-9]+). | No | buildRegExp |
 | Workflow Id | String | The value stream that this metric is associated. | No | workflowId |
 
 
 |Back to ...||Latest Version|DevOps Test Hub |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.28-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest-server/ucv-ext-onetest-server%3A1.0.28.tar.7z.001)[and 1.0.28-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest-server/ucv-ext-onetest-server%3A1.0.28.tar.7z.002)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.30-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest-server/ucv-ext-onetest-server%3A1.0.30.tar.7z.001)[and 1.0.30-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest-server/ucv-ext-onetest-server%3A1.0.30.tar.7z.002)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
