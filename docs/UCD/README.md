@@ -2476,7 +2476,7 @@ The zOS External Artifact Utility plug-in includes steps to integrate with exter
 
 |        Back to ...         |                  |         z/OS External Artifact Repository          |                                                                  Latest Version                                                                   |
 |:--------------------------:|:----------------:|:--------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------:|
-| [All Plugins](../index.md) | [Top](#contents) | [Readme](zOS-external-artifact-download/README.md) | [13.1177041](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOS-external-artifact-download/ucd-ExtArtRepo-13.1177041.zip) |
+| [All Plugins](../index.md) | [Top](#contents) | [Readme](zOS-external-artifact-download/README.md) | [13.1178924](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOS-external-artifact-download/ucd-ExtArtRepo-13.1178924.zip) |
 
 ## z/OS FTP Utility
 
