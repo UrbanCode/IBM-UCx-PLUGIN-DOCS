@@ -24,6 +24,7 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ### Version 13
 
+* Fixed download issue occurring on server versions 7.2.X
 * Added steps to create a merged version for JFrog and Nexus
 * Renamed plugin from **zOS Utility to download external artifacts** to **zOS External Artifacts Utility**
 * The plugin has been moved from tag **Repositories/Artifact/zOS ExternalArtifactsDownload** to **Utilities/zOS External Artifacts Utility** 
@@ -83,6 +84,6 @@ Read [api-key-deprecation-and-the-new-reference-tokens](https://jfrog.com/help/r
 Plugin is used to download artifacts from external repository like NEXUS/ARTIFACTORY then we can use Deploy Data Sets step for zOS deployment.
 
 
-|          Back to ...          |                                |                                                                  Latest Version                                                                   | z/OS External Artifact Repository |                   |                   |                           |
-|:-----------------------------:|:------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------:|:-----------------:|:-----------------:|:-------------------------:|
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [13.1177041](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOS-external-artifact-download/ucd-ExtArtRepo-13.1177041.zip) |        [Readme](README.md)        | [Usage](usage.md) | [Steps](steps.md) | [Downloads](downloads.md) |
+|          Back to ...          |                                |                                                                       Latest Version                                                                        | z/OS External Artifact Repository |                   |                   |                           |
+|:-----------------------------:|:------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------:|:-----------------:|:-----------------:|:-------------------------:|
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [13.1178924](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOS-external-artifact-download/devops-deploy-ExtArtRepo-13.1178924.zip) |        [Readme](README.md)        | [Usage](usage.md) | [Steps](steps.md) | [Downloads](downloads.md) |
