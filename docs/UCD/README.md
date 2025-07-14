@@ -2242,7 +2242,7 @@ This community plugin provides a mechanism to send SMTP emails in your deploymen
 
 |Back to ...||Send SMTP Email |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](send-smtp-email/README.md)|[4.1178408](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Send-SMTP-Email/devops-deploy-Send-SMTP-Email-4.1178408.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](send-smtp-email/README.md)|[4.1179024](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Send-SMTP-Email/devops-deploy-Send-SMTP-Email-4.1179024.zip)|
 
 ## ServiceNow
 
