@@ -1,7 +1,5 @@
 # z/OS Multi Generate Artifact Information - Overview
 
-
-
 The z/OS Multi Generate Artifact Information plug-in scans version artifacts and generates text based on a template. You can use the generated output text as input to subsequent steps. The plug-in processes data sets and members in a component version.
 
 This plug-in is an extension of the z/OS Utility plug-in for generating artifact information. The z/OS Multiple Generate Artifact Information plug-in have additional features given below.
@@ -17,7 +15,7 @@ Use the Generate Multiple Artifact Information step to select a set of artifacts
 
 ## Compatibility
 
-This plug-in requires DevOps Deploy version 6.1.1 or later and an DevOps Deploy agent on z/OS.
+This plug-in requires DevOps Deploy version 6.1.1 or later and a DevOps Deploy agent on z/OS.
 
 This plug-in works with IBM z/OS version 1.9 or later.
 
@@ -30,6 +28,10 @@ To access this plug-in in the palette, click **Utilities** > **zOS Multi Generat
 This plug-in is installed when installing IBM DevOps Deploy. When new plug-in versions are available, follow the [installation instructions](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy") to update the plug-in.
 
 ## History
+
+### Version 10
+
+* New step to pass filters in YAML format and generate artifact information
 
 ### Version 9
 
@@ -74,6 +76,6 @@ This plug-in is installed when installing IBM DevOps Deploy. When new plug-in ve
 * Initial release
 
 
-|          Back to ...          |                                |                                                                                 Latest Version                                                                                  | z/OS Multi Generate Artifact Information |                   |                   |                           |
-|:-----------------------------:|:------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------:|:-----------------:|:-----------------:|:-------------------------:|
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [9.1176022](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-multi-generate-artifact-info/ucd-plugins-zos-multi-generate-artifact-info-9.1176022.zip) |           [Readme](README.md)            | [Steps](steps.md) | [Usage](usage.md) | [Downloads](downloads.md) |
+|          Back to ...          |                                |                                                                                   Latest Version                                                                                    | z/OS Multi Generate Artifact Information |                   |                   |                           |
+|:-----------------------------:|:------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------:|:-----------------:|:-----------------:|:-------------------------:|
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [10.1179047](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-multi-generate-artifact-info/devops-deploy-zos-multi-generate-artifact-info-10.1179047.zip) |           [Readme](README.md)            | [Steps](steps.md) | [Usage](usage.md) | [Downloads](downloads.md) |
