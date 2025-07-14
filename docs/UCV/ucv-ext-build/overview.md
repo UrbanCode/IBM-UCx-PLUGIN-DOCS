@@ -15,6 +15,10 @@ IBM DevOps Velocity plug-in images are located in DockerHub and the IBM DevOps V
 
 ## History
 
+### Version 1.0.3
+
+* **Plugin name update**: Rename of plugin from IBM DevOps Build to DevOps Build.
+
 ### Version 1.0.2
 
 * **Initial release**: This is the first release of the DevOps Build plug-in for IBM DevOps Velocity. The plug-in facilitates integration between DevOps Build and IBM DevOps Velocity, providing enhanced visibility into build processes within CI/CD pipelines.
@@ -22,4 +26,4 @@ IBM DevOps Velocity plug-in images are located in DockerHub and the IBM DevOps V
 
 |Back to ...||Latest Version|DevOps Build |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All plug-ins](../../index.md)|[Velocity plug-ins](../README.md)|[1.0.2-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-build/ucv-ext-build%3A1.0.2.tar.7z.001)[and 1.0.2-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-build/ucv-ext-build%3A1.0.2.tar.7z.002)|
+|[All plug-ins](../../index.md)|[Velocity plug-ins](../README.md)|[1.0.3-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-build/ucv-ext-build%3A1.0.3.tar.7z.001)[and 1.0.3-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-build/ucv-ext-build%3A1.0.3.tar.7z.002)|

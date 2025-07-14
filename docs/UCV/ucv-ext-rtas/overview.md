@@ -1,19 +1,24 @@
 
-# Rational Test Automation Server - Overview
+# IBM DevOps Test Hub - Overview
 
-The Rational Test Automation Server plug-in provides for integration with an Rational Test Automation Server server. This plug-in imports test result data from an Rational Test Automation Server server and saves the data as DevOps Velocity issues. The data is used to generate metrics. Data between the Rational Test Automation server and the DevOps Velocity server is synchronized every five minutes.
+The IBM DevOps Test Hub plug-in provides for integration with an IBM DevOps Test Hub server. This plug-in imports test result data from an IBM DevOps Test Hub server and saves the data as IBM DevOps Velocity issues. The data is used to generate metrics. Data between the IBM DevOps Test Hub and the IBM DevOps Velocity server is synchronized every five minutes.
 
 ## Compatibility
 
-Must be running DevOps Velocity version 1.3.0 and later to use the plug-in.
+Must be running IBM DevOps Velocity version 2.5.0 and later to use the plug-in.
 
-Rational Test Automation Server 10.1.0 or higher and later is supported.
+IBM DevOps Test Hub 10.1.0 or higher and later is supported.
 
 ## Versions
 
-DevOps Velocity plug-in images are located in DockerHub. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-rtas/tags).
+IBM DevOps Velocity plug-in images are located in DockerHub. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-rtas/tags).
 
 ## History
+
+### Version 1.0.38
+
+* **Bug fix**: Fixed an issue where the callback step failed when a trailing slash (/) was present at the end of the URL. The plugin now automatically detects and removes trailing slashes to ensure proper URL formatting and successful callback execution.
+* **Rebranding**: The plug-in name is changed from Rational Test Automation Server to IBM DevOps Test Hub.
 
 ### Version 1.0.34
 
@@ -38,7 +43,6 @@ DevOps Velocity plug-in images are located in DockerHub. To view available versi
 * Initial release
 
 
-
-|Back to ...||Latest Version|Rational Test Automation Server |||
+|Back to ...||Latest Version|IBM DevOps Test Hub |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.34-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-rtas/ucv-ext-rtas%3A1.0.34.tar.7z.001)[and 1.0.34-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-rtas/ucv-ext-rtas%3A1.0.34.tar.7z.002)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.38-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-rtas/ucv-ext-rtas%3A1.0.38.tar.7z.001)[and 1.0.38-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-rtas/ucv-ext-rtas%3A1.0.38.tar.7z.002)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|

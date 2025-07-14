@@ -8,6 +8,6 @@ The IBM DevOps Deploy plug-in for Test UI includes process steps for running the
 
 |Latest Version||Back to ...||
 | :---: | :---: | :---: | :---: |
-|[12.2](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/HCLDevOpsTestUIWebUI/DTUI-UITest-DD-HCL-12.2.zip)|[DTUI-WebUI-Downloads](downloads.md)|[All Deploy Plugins](../README.md)|[All Plugins](../../index.md)|
+|[12.3](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/HCLDevOpsTestUIWebUI/DTUI-UITest-DD-HCL-12.3.zip)|[DTUI-WebUI-Downloads](downloads.md)|[All Deploy Plugins](../README.md)|[All Plugins](../../index.md)|
 
 For Functional tests, you can download the plugin from [UCD plugin for Functional tests](https://github.com/UrbanCode/IBM-UCx-PLUGIN-DOCS/blob/main/docs/UCD/HCLDevOpsTestUI/README.md) 

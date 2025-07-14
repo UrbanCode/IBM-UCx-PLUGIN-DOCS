@@ -1,7 +1,7 @@
 
-# IBM DevOps Test - Overview
+# DevOps Test - Overview
 
-The IBM DevOps Test plug-in allows for parsing of data from the IBM DevOps Test testing tool. Data is uploaded to the IBM DevOps Velocity server using an HTTP Post request.
+The DevOps Test plug-in allows for parsing of data from the DevOps Test testing tool. Data is uploaded to the IBM DevOps Velocity server using an HTTP Post request.
 
 ## Compatibility
 
@@ -19,7 +19,7 @@ DevOps Velocity plug-in images are located in DockerHub. To view available versi
 
 ### Version 1.0.37
 
-* **Rebranding**: Name of the plugin has been changed from HCL OneTest to IBM DevOps Test.
+* **Rebranding**: Name of the plugin has been changed from HCL OneTest to HCL DevOps Test.
 
 ### Version 1.0.34
 
@@ -49,6 +49,6 @@ DevOps Velocity plug-in images are located in DockerHub. To view available versi
 
 
 
-|Back to ...||Latest Version|HCL DevOps Test |||
+|Back to ...||Latest Version|DevOps Test |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
 |[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.40-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest/ucv-ext-onetest%3A1.0.40.tar.7z.001)[and 1.0.40-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest/ucv-ext-onetest%3A1.0.40.tar.7z.002)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|

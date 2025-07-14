@@ -5,31 +5,44 @@ To use the ServiceNow plug-in, the plug-in must be loaded and an instance create
 
 See the **Automation Tasks** section for information about automation tasks.
 
-## OAuth authentation
+## Authentication Type
 
-You must provide the following details during integration of service now plug-in to set up OAuth 2.0 authentication: 
+Choose required authentication type from drop down listed i.e:-
+
+* Basic Authentication : Provide user name and password.
+* OAuth Authentication : Provide client_id, client_secret and refresh token (refer oauth authentication heading)
+* Bearer Authentication : Provide access token
+Note: This filtering will only be applicable for velocity version 5.1.6, for below version feature will not work.
+
+#### OAuth authentation
+
+You must provide the following details during integration of ServiceNow plug-in to set up OAuth 2.0 authentication: 
 
 * client_id
 * client_secret
 * refresh_token
 
-### Generating the OAuth credentials in ServiceNow 
+#### Generating the OAuth credentials in ServiceNow 
 
 To obtain the client_id and client_secret from your ServiceNow instance, perform the following steps: 
 
-* Log in to the ServiceNow instance.
-* On the left-hand navigation pane, search for OAuth, and then select Application Registry.
-* Click New, and then select Create an OAuth API endpoint for external clients.
-* Fill in the required details, and then click Submit.
-* Navigate to the newly created OAuth record, and then click on it to view the client_id and client_secret.
+* **Log in** to the ServiceNow instance.
+* On the left-hand navigation pane, search for **OAuth**, and then select **Application Registry**.
+* Click **New**, and then select Create an **OAuth API endpoint for external clients**.
+* Fill in the required details, and then click **Submit**.
+* Navigate to the newly created **OAuth record**, and then click on it to view the client_id and client_secret.
 
-* For refreshToken use <https://instanceURL/oauth_token.do>
+For refreshToken use <https://instanceURL/oauth_token.do>
 * select body x-www-form-urlencoded -> select BulkEdit
-* `grant_type:password
+
+```
+`grant_type:password
 client_id:'yourclientId'
 client_secret:'yourClientSecret'
 username:'yourUsername'
 password:'yourPassword`
+
+```
 
 ## Integration type
 
@@ -83,49 +96,54 @@ The following automation tasks are available in the ServiceNow plug-in:
 * ServiceNow – Wait Change Task
 
 ### ServiceNow – Create Change Request and Change Task
+
 Use this step to create a ServiceNow change request and change task.
 
-| Name | Description | Required |
-| --- | --- | --- |
-| Short Description | A short description of the ServiceNow change request.| Yes |
-| Request type | The type of request type for the ServiceNow application. For example: Standard, Normal, and Emergency.| Yes |
-| Assignment group | The assignment group for the ServiceNow application. | Yes |
-| Additional properties | A list of additional properties for the change request in the format for each list item is {“property”:”value”}. For example: {“short_description”:”Created by DevOps Velocity”}. Separate each list item with a comma (,). See the ServiceNow API documentation for additional properties. | No |
-| Create change task | To create change task , provide necessary properties. Example:[{“short_description”:”createtask”,”change_task_type”:”planning”,”description”:”changetask”,”start_date”:”2024-01-30 08:05:04″,”end_date”:”2024-01-31 08:05:13″,”outputProperty”:”example”}]. Here outputProperty holds sys_id of change task created. To create multiple change task provide comma separated objects. Example: [{},{},{}].To create under existing change request mention “parent”:”CHG0030008″,”change_request”:”CHG0030008″ along with other properties. | No |
-| Output property | The name of the property that the sys_id of the created change request is saved. |No |
+| Name | Type | Description | Required | Property Name |
+| --- | --- | --- | --- | --- |
+| Short Description | String | A short description of the ServiceNow change request.| Yes | short_description |
+| Request type | String | The type of request type for the ServiceNow application. For example: Standard, Normal, and Emergency.| Yes | requestType |
+| Standard template id for change request | String | Standard template id for servicenow change request.Note: This field is required when change request type is standard. | False | standardTemplateId |
+| Assignment group | String | The assignment group for the ServiceNow application. | False | assignmentGroup |
+| Additional properties | Json | A list of additional properties for the change request in the format for each list item is {“property”:”value”}. For example: {“short_description”:”Created by DevOps Velocity”}. Separate each list item with a comma (,). See the ServiceNow API documentation for additional properties. | No | additionalProperties |
+| Create change task | Json | To create change task , provide necessary properties. Example:[{“short_description”:”createtask”,”change_task_type”:”planning”,”description”:”changetask”,”start_date”:”2024-01-30 08:05:04″,”end_date”:”2024-01-31 08:05:13″,”outputProperty”:”example”}]. Here outputProperty holds sys_id of change task created. To create multiple change task provide comma separated objects. Example: [{},{},{}].To create under existing change request mention “parent”:”CHG0030008″,”change_request”:”CHG0030008″ along with other properties. | No | changeTaskProps |
+| Output property | String | The name of the property that the sys_id of the created change request is saved. | No | outputProperty |
 
 ### ServiceNow – Update Change Request and Change Task
 Use this step to update a ServiceNow change request in IBM DevOps Velocity.
 
-| Name | Description | Required |
-| --- | --- | --- |
-| Change Request Number | Enter the change request number. Note: Either change request number or property reference must be provided | No |
-| Change request system id from property reference|	Enter the property reference to system id. Note: Either change request number or property reference must be provided | No |
-| Change request properties | Enter properties for the change request to be updated in the format for each list item is {“property”:”value”}. For example: {“short_description”:”change request description”,”planned_end_date”:”2024-01-31 07:52:53″,”planned_start_date”:”2024-01-30 07:52:47″}. Separate each list item with a comma (,). See the ServiceNow API documentation for additional properties. | No |
-| Update change task | To update change task , provide necessary properties. Example to update:[{"sys_id":"abcd123","change_task_type":"planning","state":"1","planned_end_date":"2024-05-17 02:36:44","planned_start_date":"2024-05-17 02:36:30"}] Example to create:[{"short_description":"createtask","change_task_type":"planning","description":"changetask","planned_end_date":"2024-05-17 02:36:44","planned_start_date":"2024-05-17 02:36:30","outputProperty":"example"}]. If sys_id not given, it creates change task. To update multiple change task provide comma separated objects.Example: [{},{},{}] | No |
+| Name | type | Description | Required | Property Name |
+| --- | --- | --- | --- | --- |
+| Change Request Number | String | Enter the change request number. Note: Either change request number or property reference must be provided | No | changeRequestNumber |
+| Change request system id from property reference | String | Enter the property reference to system id. Note: Either change request number or property reference must be provided | No | propertySysId |
+| Assignment group for change request | String | Assignment group for ServiceNow Application. | No | assignmentGroup |
+| Change request properties | Json | Enter properties for the change request to be updated in the format for each list item is {“property”:”value”}. For example: {“short_description”:”change request description”,”planned_end_date”:”2024-01-31 07:52:53″,”planned_start_date”:”2024-01-30 07:52:47″}. Separate each list item with a comma (,). See the ServiceNow API documentation for additional properties. | No | changeRequestProperties |
+| Update change task | Json | To update change task , provide necessary properties. Example to update:[{"sys_id":"abcd123","change_task_type":"planning","state":"1","planned_end_date":"2024-05-17 02:36:44","planned_start_date":"2024-05-17 02:36:30"}] Example to create:[{"short_description":"createtask","change_task_type":"planning","description":"changetask","planned_end_date":"2024-05-17 02:36:44","planned_start_date":"2024-05-17 02:36:30","outputProperty":"example"}]. If sys_id not given, it creates change task. To update multiple change task provide comma separated objects.Example: [{},{},{}] | No | updateChangeTaskProps |
 
 ### ServiceNow – Wait Change Request
 Use this task to wait ServiceNow change request in DevOps Velocity.
 
-| Name | Description | Required |
-| --- | --- | --- |
-| Change Request Number | Enter the change request number. Note: Either change request number or property reference must be provided | No |
-| Change request system id from property reference. | Enter the property reference to system id. Note: Either change request number or property reference must be provided | No |
-| Field | The change request field to wait for a match. | Yes |
-| Value | The value to match with the change request field. | Yes |
+| Name | Type | Description | Required | Property Name |
+| --- | --- | --- | --- | --- |
+| Change Request Number | String | Enter the change request number. Note: Either change request number or property reference must be provided | No | changeRequestNumber |
+| Change request system id from property reference. | String | Enter the property reference to system id. Note: Either change request number or property reference must be provided | No | propertySysId |
+| Field | String | The change request field to wait for a match. | Yes | field |
+| Value | String | The value to match with the change request field. | Yes | value |
 
 ### ServiceNow – Wait Change Task
 Use this step to create a ServiceNow wait change task.
 
-| Name | Description | Required |
-| --- | --- | --- |
-| Change task system id from property reference.| Enter the property reference to system id.| Yes |
-| Change Request Number | Enter the change request number. Note: Either change request number or property reference must be provided | No |
-| Change request system id from property reference.| Enter the property reference to system id. Note: Either change request number or property reference must be provided | No |
-| field	| Enter the change task field to wait for a match | Yes |
-| Value	| Enter the value to match the change task field | Yes |
+| Name | Type | Description | Required | Property Name |
+| --- | --- | --- | --- | --- |
+| Change task number | String | Enter the change task number. Note: Either change task number or property reference must be provided | No | changeTaskNumber |
+| Change task system id from property reference.| String | Enter the property reference to system id.| No | taskPropSysId |
+| Change Request Number | String | Enter the change request number. Note: Either change request number or property reference must be provided | No | changeRequestNumber |
+| Change request system id from property reference.| String | Enter the property reference to system id. Note: Either change request number or property reference must be provided | No | propertySysId |
+| field	| String | Enter the change task field to wait for a match | Yes | field |
+| Value	| String | Enter the value to match the change task field | Yes | value |
 
 ## Adding automation tasks to a release
+
 After the plug-in is integrated automated tasks are available to add as a task within a release.
 
 * Verify that the ServiceNow server is connected to IBM DevOps Velocity.
@@ -196,27 +214,29 @@ Some properties might not be displayed in the user interface, to see all propert
 
 | Name | Type | Description | Required | Property Name |
 | --- | --- | --- | --- | --- |
-| Access Token | Secure | The access token used to authenticate with the ServiceNow server. You can use either this property or the Password property for authentication. NOTE: When using OAuth 2.0, the Access Token will be ignored. | No | accessToken |
-| Password | Secure | The password used to authenticate with the ServiceNow server. | No | password |
 | URL | String | The URL of the ServiceNow server. | Yes | baseUrl |
-| User Name | String | The username used to authenticate with the ServiceNow server. | No | username |
+| Page Size | String | The number of issues retrieved per page. | No | pageSize |
+| Resource types and sys_params | String | The type/parameters of events to be synced from ServiceNow. Example:[{"table": "change_request", "sys_params": { "category": "Software" }},...] | Yes | resourceTypesAndSys_params |
+| Custom Field Mapping | Json | Map ServiceNow fields to IBM DevOps Velocity as a JSON Object. | No | fieldMapping |
+| Replica Server Name | String | Any non-empty string value to replica server name would enable read only replica. An Empty string will disable read only replica. | No | replicaServerName |
 | Proxy Server | String | The URL of the proxy server including the port number. | No | proxyServer |
 | Proxy User Name | String | The user name used to authenticate with the proxy server. | No | proxyUsername |
 | Proxy Password | String | The password used to authenticate with the proxy server. | No | proxyPassword |
-| Page Size | String | The number of issues retrieved per page. | No | pageSize |
-| Client Id | String | The client ID used to authenticate with the ServiceNow server using OAuth2.0. | No | client_id |
-| Client Secret | Secure | The client secret used for authentication with the ServiceNow server using OAuth2.0. | No | client_secret |
-| Refresh Token | Secure | The refresh token used for authentication with the ServiceNow server using OAuth2.0. | No | refresh_token |
-| Resource types and sys_params | String | The type/parameters of events to be synced from ServiceNow. Example:[{"table": "change_request", "sys_params": { "category": "Software" }},...] | Yes | resourceTypesAndSys_params
-| Custom Field Mapping | Json | Map ServiceNow fields to HCL DevOps Velocity as a JSON Object. | No | fieldMapping |
-| Replica Server Name | String | Any non-empty string value to replica server name would enable read only replica. An Empty string will disable read only replica. | No | replicaServerName |
+| Authentication Type | Dropdown | Select required authentication type. | Yes | authentication |
+|..........When Basic Authentication selected..........|
+| User Name | String | The username used to authenticate with the ServiceNow server. | Yes | username |
+| Password | Secure | The password used to authenticate with the ServiceNow server. | Yes | password |
+|..........When OAuth Authentication selected..........|
+| Client Id | String | The client ID used to authenticate with the ServiceNow server using OAuth2.0. | Yes | client_id |
+| Client Secret | Secure | The client secret used for authentication with the ServiceNow server using OAuth2.0. | Yes | client_secret |
+| Refresh Token | Secure | The refresh token used for authentication with the ServiceNow server using OAuth2.0. | Yes | refresh_token |
+|..........When Bearer Authentication selected..........|
+| Access Token | Secure | The access token used to authenticate with the ServiceNow server. You can use either this property or the Password property for authentication. NOTE: When using OAuth 2.0, the Access Token will be ignored. | Yes | accessToken |
 
 ### JSON code sample
 
 The following sample code can be used as a template to define the integration within the JSON file for a value stream. Copy and paste the template into the JSON file Integration section and make the appropriate changes.
 
-## Example using the access key 
-
 ```
 integrations": [
     {
@@ -225,37 +245,10 @@ integrations": [
       "tenant_id": "tenant_id",
       "logginglevel": "info",
       "properties": {
-        "ucvAccessKey": "IBM_DevOps_velocity_user_accesskey",
         "baseUrl": "url_servicenow_server",
-        "username": "user_name",
-        "accessToken": "access_token",
-        "resourceTypesAndSys_params": "[   
-             { "table": "table_name"}, 
-         ]"
-        "fieldMapping": "custom field mapping",
-        "proxyServer": "proxy_server_url",
-        "proxyUsername": "proxy_server_user_name",
-        "proxyPassword": "proxy_server_password"
-        } 
-    }
-]
-```
-
-## Example using OAuth
-
-```
-integrations": [
-    {
-      "type": "ucv-ext-servicenow",
-      "name": "Plugin for ServiceNow",
-      "tenant_id": "tenant_id",
-      "logginglevel": "info",
-      "properties": {
-        "ucvAccessKey": "IBM_DevOps_velocity_user_accesskey",
-        "baseUrl": "url_servicenow_server",
+        "authentication": "authentication_type (basicAuth OR oauth OR bearerAuth)",
         "client_id": "client_Id", 
         "client_secret": "client_secret",
-        "username": "user_name",
         "refresh_token": "refresh_token",
         "resourceTypesAndSys_params": "[   
              { "table": "table_name"}, 
@@ -270,7 +263,7 @@ integrations": [
 ```
 
 
-|Back to ...||Latest Version|ServiceNow |||
+| Back to ... || Latest Version | ServiceNow |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
 
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.1.13-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.1.13.tar.7z.001)[and 1.1.13-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.1.13.tar.7z.002)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
+| [All Plugins](../../index.md) | [Velocity Plugins](../README.md) | [1.1.16-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.1.16.tar.7z.001)[and 1.1.16-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.1.16.tar.7z.002) | [Readme](README.md) | [Overview](overview.md) | [Downloads](downloads.md) |

@@ -1,7 +1,7 @@
 
-# IBM DevOps Control - Overview
+# DevOps Control - Overview
 
-The IBM DevOps Control plug-in provides for integration with a IBM DevOps Control server. This plug-in imports pull requests and commit data from a IBM DevOps Control server and saves them as IBM DevOps Velocity pull requests and commits. Data between the IBM DevOps Control server and the IBM DevOps Velocity server is synchronized every five minutes.
+The DevOps Control plug-in provides for integration with a DevOps Control server. This plug-in imports pull requests and commit data from a DevOps Control server and saves them as IBM DevOps Velocity pull requests and commits. Data between the DevOps Control server and the IBM DevOps Velocity server is synchronized every five minutes.
 
 ## Compatibility
 
@@ -25,6 +25,6 @@ IBM DevOps Velocity plug-in images are located in DockerHub. To view available v
 
 * Initial release
 
-|Back to ...||Latest Version|IBM DevOps Control |||
+|Back to ...||Latest Version|DevOps Control |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
 |[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.5-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-control/ucv-ext-control%3A1.0.5.tar.7z.001)[and 1.0.5-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-control/ucv-ext-control%3A1.0.5.tar.7z.002)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|

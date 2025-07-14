@@ -1,13 +1,13 @@
 
-# IBM DevOps Test Hub - Usage
+# DevOps Test Hub - Usage
 
 ## usage
 
-To use the IBM DevOps Test Hub plug-in, the plug-in must be loaded and an instance created before you can configure the plug-in integration. Configuration properties are defined using the product user interface or a JSON file. After the integration is complete, to invoke the plug-in send an HTTP Post request to the plug-in endpoint.
+To use the DevOps Test Hub plug-in, the plug-in must be loaded and an instance created before you can configure the plug-in integration. Configuration properties are defined using the product user interface or a JSON file. After the integration is complete, to invoke the plug-in send an HTTP Post request to the plug-in endpoint.
 
 ## Integration type
 
-The IBM DevOps Test Hub plug-in supports endpoint integration which are listed in the following table.
+The DevOps Test Hub plug-in supports endpoint integration which are listed in the following table.
 
 
 | Name | Path | Method |
@@ -30,7 +30,7 @@ You will need to "install" the plug-in in DevOps Velocity. You can do this in on
     "name": "<integration-name>",
     "logginglevel": "INFO",
     "properties":{
-      "ucvAccessKey": "<ucv-user-access-key>",
+      "_userAccessKey": "<ucv-user-access-key>",
       "oneTestUrl" : "<DevOps Test-Hub-url>",
       "oneTestRefreshToken":"<DevOps Test-Hub-refresh-token>",
       "buildRegExp": "([A-Z]+-[0-9]+)",
@@ -41,7 +41,7 @@ You will need to "install" the plug-in in DevOps Velocity. You can do this in on
 
     ```
 * In the above example, provide all of your own values for the values inside of < > brackets.
-* The buildRegExp field can be used to map a build to a metric. The tags on the IBM DevOps Test Hub test will be evaluated against the regular expression.
+* The buildRegExp field can be used to map a build to a metric. The tags on the DevOps Test Hub test will be evaluated against the regular expression.
 * For instance, if your buildRegExp is defined as "([A-Z]+-[0-9]+)" and you tag your test with "BUILD-123" this will map the build with ID BUILD-123 in the Velocity server to the newly created metric.
 * For help forming a regular expression based on your build ID, you can test out patterns at the following web page: https://regexr.com
 
@@ -63,7 +63,9 @@ You will need to "install" the plug-in in DevOps Velocity. You can do this in on
     }
 
     ```
-* Either option will allow you to create an IBM DevOps Test Hub integration instance.
+* Either option will allow you to create an DevOps Test Hub integration instance.
+
+## Running the Integration
 
 After going through the "Set Up" portion above, you can send an HTTP POST request to your new endpoint: https://<velocity-url>/pluginEndpoint/<integrationId>/onetest/callback
 
@@ -73,8 +75,8 @@ After going through the "Set Up" portion above, you can send an HTTP POST reques
 
 {
   "project": {
-    "name":"<name of IBM DevOps Test Hub project>",
-    "id": "<id of IBM DevOps Test Hub project>"
+    "name":"<name of DevOps Test Hub project>",
+    "id": "<id of DevOps Test Hub project>"
     (either project name or project id must be specified)
   },
   "test": {
@@ -104,13 +106,13 @@ The tables in the Configuration Properties section describe the properties used 
 
 To install the plug-in, perform the following steps:
 
-* In IBM DevOps Velocity, click **Settings** > **Integrations** > **Available**.
-* In the Action column for the IBM DevOps Test Hub, click **Install**.
+* In DevOps Velocity, click **Settings** > **Integrations** > **Available**.
+* In the Action column for the DevOps Test Hub, click **Install**.
 
 To integrate the plug-in using the user interface, perform the following steps:
 
-1. In IBM DevOps Velocity, click **Settings** > **Integrations** > **Installed**.
-2. In the Action column for the IBM DevOps Test Hub plug-in, and then click **Add Integration**.
+1. In DevOps Velocity, click **Settings** > **Integrations** > **Installed**.
+2. In the Action column for the DevOps Test Hub plug-in, and then click **Add Integration**.
 3. On the Add Integration dialog, enter the values for the fields to configure the integration and define communication.
 4. Click **Add**.
 
@@ -133,7 +135,7 @@ For **JSON sample** refer set up section.
 The following tables describe the properties used to configure the integration. Each table contains the field name when using the user interface and the property name when using a JSON file.
 
 * The General Configuration Properties table describes configuration properties used by all plug-in integrations.
-* The IBM DevOps Test Hub Configuration Properties table describes the configuration properties that define the connection and communications with the IBM DevOps Test Hub server. When using the JSON method to integrate the plug-in these properties are coded within the properties configuration property.
+* The DevOps Test Hub Configuration Properties table describes the configuration properties that define the connection and communications with the DevOps Test Hub server. When using the JSON method to integrate the plug-in these properties are coded within the properties configuration property.
 
 Some properties might not be displayed in the user interface, to see all properties enable the **Show Hidden Properties** field.
 
@@ -144,20 +146,20 @@ Some properties might not be displayed in the user interface, to see all propert
 | NA | The version of the plug-in that you want to use. To view available versions, click the Version History tab. If a value is not specified, the version named latest is used. | No | image |
 | Integration Name | An assigned name to the value stream. | Yes | name |
 | Logging Level | The level of Log4j messages to display in the log file. Valid values are: all, debug, info, warn, error, fatal, off, and trace. | No | loggingLevel |
-| NA | List of plug-in configuration properties used to connect and communicate with the IBM DevOps Test Hub. Enclose the properties within braces. | Yes | properties |
+| NA | List of plug-in configuration properties used to connect and communicate with the DevOps Test Hub. Enclose the properties within braces. | Yes | properties |
 || The name of the tenant. | Yes | tenant_id |
-| NA | Unique identifier assigned to the plug-in. The value for the IBM DevOps Test Hub plug-in is ucv-ext-onetest-server. | Yes | type |
+| NA | Unique identifier assigned to the plug-in. The value for the DevOps Test Hub plug-in is ucv-ext-onetest-server. | Yes | type |
 
-### IBM DevOps Test Hub Configuration properties
+### DevOps Test Hub Configuration properties
 
 | Name | Type | Description | Required | Property Name |
 | --- | --- | --- | --- | --- |
-| IBM DevOps Test Hub URL | String | The base URL of the IBM DevOps Test Hub. For example: https://tp-cicd2.nonprod.hclpnp.com. | Yes | oneTestUrl |
-| IBM DevOps Test Offline User Token | String | The offline user token created in the IBM DevOps Test user interface by clicking the Create Token button. | Yes | oneTestRefreshToken |
+| DevOps Test Hub URL | String | The base URL of the DevOps Test Hub. For example: https://tp-cicd2.nonprod.hclpnp.com/test. | Yes | oneTestUrl |
+| DevOps Test Offline User Token | Secure | The offline user token created in the DevOps Test user interface by clicking the Create Token button. | Yes | oneTestRefreshToken |
 | Build Label Pattern | String | A regular expression pattern that will match a build ID on a test execution label. For example: ([A-Z]+-[0-9]+). | No | buildRegExp |
 | Workflow Id | String | The value stream that this metric is associated. | No | workflowId |
 
 
-|Back to ...||Latest Version|IBM DevOps Test Hub |||
+|Back to ...||Latest Version|DevOps Test Hub |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.27-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest-server/ucv-ext-onetest-server%3A1.0.27.tar.7z.001)[and 1.0.27-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest-server/ucv-ext-onetest-server%3A1.0.27.tar.7z.002)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.30-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest-server/ucv-ext-onetest-server%3A1.0.30.tar.7z.001)[and 1.0.30-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest-server/ucv-ext-onetest-server%3A1.0.30.tar.7z.002)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

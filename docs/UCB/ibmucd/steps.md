@@ -273,4 +273,4 @@ The plug-in adds these roles automatically to resources. You cannot add these ro
 
 |Back to ...||Latest Version|IBM UrbanCode Deploy for IBM UrbanCode Build |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[52.1071101](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/ibmucd/ibm-ucd-52.1071101.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[56.1175564](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/ibmucd/DevOps-deploy-56.1175564.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

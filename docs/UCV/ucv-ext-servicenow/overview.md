@@ -7,13 +7,20 @@ The ServiceNow plug-in provides for integration with a ServiceNow server. This p
 
 The plugin is compatible with following versions:
 
-IBM DevOps Velocity 5.0.10 or later
+IBM DevOps Velocity 5.1.6 or later
 
 ## Versions
 
 IBM DevOps Velocity plug-in images are located in DockerHub and the IBM DevOps Velocity code accesses the version that you select. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-servicenow/tags).
 
 ## History
+
+### Version 1.1.16
+
+* **Authentication Type Selection**: Added a dropdown feature to allow users to select the desired authentication method (Basic, Bearer, or OAuth) when configuring plugin integrations.
+**Note**: This feature requires Velocity version 5.1.6 or higher.
+* **Bug fix**: Resolved an issue where the Executed By column did not display the username for non-admin users running automation tasks. Additionally the tasks were not completing as expected—this has now been fixed.
+* **Error Handling**: Improved error detection for hibernated ServiceNow instances. Previously the plugin reported success with no data synced. Now it properly throws an error when the instance is hibernated.
 
 ### Version 1.1.13
 
@@ -112,4 +119,4 @@ Implemented OAuth 2.0 authentication for secure communication with third-party s
 
 |Back to ...||Latest Version|ServiceNow |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All plug-ins](../../index.md)|[Velocity plug-ins](../README.md)|[1.1.13-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.1.13.tar.7z.001)[and 1.1.13-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.1.13.tar.7z.002)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All plug-ins](../../index.md)|[Velocity plug-ins](../README.md)|[1.1.16-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.1.16.tar.7z.001)[and 1.1.16-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.1.16.tar.7z.002)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
