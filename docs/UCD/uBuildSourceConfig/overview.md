@@ -10,7 +10,7 @@ This plug-in includes one step which has no input properties:
 
 ## Step palette
 
-To access this plug-in in the palette, click **Source and Repositories** > **uBuild**.
+To access this plug-in in the palette, click **Source and Repositories** > **Build**.
 
 ## Installation
 
