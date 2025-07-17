@@ -15,6 +15,10 @@ DevOps Velocity plug-in images are located in DockerHub. To view available versi
 
 ## History
 
+### Version 1.1.34
+
+* **Feature Enhancement**: The EWM plugin now supports syncing release and sprint data to Velocity, enabling dot filtering by sprints and releases within the Value Stream Map (VSM).
+
 ### Version 1.1.32
 
 * Fixed an issue where invalid date formats were causing errors in date processing due to a change in the EWM API date format.
@@ -57,4 +61,4 @@ DevOps Velocity plug-in images are located in DockerHub. To view available versi
 
 |Back to ...||Latest Version|IBM Engineering Workflow Management (EWM) |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.1.32-File 1](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-ewm/ucv-ext-ewm%3A1.1.32.tar.7z.001)[and 1.1.32-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-ewm/ucv-ext-ewm%3A1.1.32.tar.7z.002)[and 1.1.32-File 3](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-ewm/ucv-ext-ewm%3A1.1.32.tar.7z.003)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.1.34-File 1](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-ewm/ucv-ext-ewm%3A1.1.34.tar.7z.001)[and 1.1.34-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-ewm/ucv-ext-ewm%3A1.1.34.tar.7z.002)[and 1.1.34-File 3](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-ewm/ucv-ext-ewm%3A1.1.34.tar.7z.003)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
