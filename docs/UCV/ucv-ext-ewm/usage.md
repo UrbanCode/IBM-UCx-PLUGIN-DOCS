@@ -19,8 +19,6 @@ There are two methods to integrate the plug-in:
 
 * Using a JSON file
 
-For details see [Using plug-ins in DevOps Velocity](https://community.ibm.com/community/user/wasdevops/blogs/osman-burucu/2022/07/20/using-plug-ins-in-urbancode-velocity&preview=true).
-
 ### Using the user interface
 
 To install the plug-in, perform the following steps:
