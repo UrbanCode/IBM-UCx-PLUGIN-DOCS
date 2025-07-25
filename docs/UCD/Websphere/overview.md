@@ -55,7 +55,7 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ### History
 
-#### Version 131
+#### Version 132
 
 * URBANCODE-I-710 Extend Role Mappings for "Map Users and Groups to Roles" Step
 
