@@ -18,7 +18,7 @@ This repository holds the IBM DevOps products plugin documentation.
 
 ### [Index Document for all Plugins](docs/index.md)
 
-#### [IBM UrbanCode Build Plugin List](docs/UCB/README.md)
+#### [IBM DevOps Build Plugin List](docs/UCB/README.md)
 
 #### [IBM DevOps Deploy Plugin List](docs/UCD/README.md)
 

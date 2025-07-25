@@ -225,7 +225,6 @@
 	- [WebSphere Application Server - Deployment](#websphere-application-server---deployment)
 	- [WebSphere Application Server - Install](#websphere-application-server---install)
 	- [WinRS Agent Install](#winrs-agent-install)
-	- [CyberArk](#cyberark)
 	- [eggPlant  \[partner plugin\]](#eggplant--partner-plugin)
 	- [z/OS Dataset Writer](#zos-dataset-writer)
 	- [z/OS External Artifact Repository](#zos-external-artifact-repository)
@@ -2435,18 +2434,6 @@ Plugin for installing agent to remote windows machine using WinRS.
 |Back to ...||WinRS Agent Install |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](WinRSAgentInstall/README.md)|[12.1131558](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WinRSAgentInstall/ucd-WinRSAgentInstall-12.1131558.zip)|
-
-## CyberArk
-
-CyberArk Application Identity Manager, part of the CyberArk Privileged Account Security Solution, enables organizations to protect critical business systems by eliminating hard-coded credentials from application scripts, configuration files and software code, and removing SSH keys from servers where they are used by applications and scripts. Application Identity Manager offers agent and agentless deployment options to best meet the security and availability requirements of various business applications. The product is built on the CyberArk Shared Technology Platform, delivering scalability, high availability and centralized management and reporting.
-
-This is a partner plugin.
-
----
-
-|        Back to ...         ||     CyberArk     |        Latest Version        |
-|:--------------------------:|:----------------:|:----------------------------:| :---: |
-| [All Plugins](../index.md) | [Top](#contents) | [Readme](cyberark/README.md) |[4.1098501](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/cyberark/cyberark-4.1098501.zip)|
 
 ## eggPlant  [partner plugin]
 

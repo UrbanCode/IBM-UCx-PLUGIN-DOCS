@@ -1,5 +1,5 @@
 
-IBM UrbanCode Deploy for IBM UrbanCode Build - Overview
+IBM DevOps Deploy for IBM DevOps Build - Overview
 =======================================================
 
 # Overview
@@ -10,12 +10,12 @@ IBM UrbanCode Deploy for IBM UrbanCode Build - Overview
 
 
 
-This plug-in includes steps to create component versions and upload files to component versions in IBM UrbanCode Deploy.
+This plug-in includes steps to create component versions and upload files to component versions in IBM DevOps Deploy.
 
 
 ### Step palette
 
-To access this plug-in in the palette, click **Deploy** > **Tools** **UrbanCode Deploy**.
+To access this plug-in in the palette, click **Deploy** > **Tools** **DevOps Deploy**.
 
 ### Compatibility
 
@@ -23,7 +23,7 @@ The steps in this plug-in run on all supported platforms.
 
 ### Installation
 
-No special steps are required for installation. See [Installing plug-ins in UrbanCode Build](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Build").
+No special steps are required for installation. See [Installing plug-ins in DevOps Build](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Build").
 
 ### History
 
@@ -73,7 +73,7 @@ Add new step for invoking Buztool.
 
 #### Version 45
 
-Add new steps for creating and deleting user authentication tokens in the UrbanCode Deploy server.
+Add new steps for creating and deleting user authentication tokens in the DevOps Deploy server.
 
 #### Version 44
 
@@ -109,7 +109,7 @@ Fix incompatibility issue with Groovy 2.4.10.
 
 #### Version 36
 
-Make syncing of statuses between UrbanCode Build/UrbanCode Deploy fail-safe for UCB servers older than 6.1.2.2
+Make syncing of statuses between DevOps Build/DevOps Deploy fail-safe for UCB servers older than 6.1.2.2
 
 #### Version 35
 
@@ -121,7 +121,7 @@ Support encrypted input and output properties.
 
 #### Version 33
 
-Add retry logic when uploading artifacts to IBM Urbancode Deploy server fails with a network exception.
+Add retry logic when uploading artifacts to IBM DevOps Deploy server fails with a network exception.
 
 #### Version 32
 
@@ -129,17 +129,17 @@ Fix for getVersionStatus to handle versions with non-url-safe characters properl
 
 #### Version 31
 
-This release includes an Update the Create Component Version step to set the property that indicates to the IBM UrbanCode Build server that artifacts are stored on an IBM UrbanCode Deploy server. This feature requires IBM UrbanCode Build 6.1.2 or later and IBM UrbanCode Deploy 6.2.0.2 or later. This release also includes a fix for an issue where not providing version properties caused an error.
+This release includes an Update the Create Component Version step to set the property that indicates to the IBM DevOps Build server that artifacts are stored on an IBM DevOps Deploy server. This feature requires IBM DevOps Build 6.1.2 or later and IBM DevOps Deploy 6.2.0.2 or later. This release also includes a fix for an issue where not providing version properties caused an error.
 
 #### Version 30
 
-This release adds the ability to store artifacts on the IBM UrbanCode Deploy server. This feature requires IBM UrbanCode Build 6.1.2 or later and IBM UrbanCode Deploy 6.2.0.2 or later.
+This release adds the ability to store artifacts on the IBM DevOps Deploy server. This feature requires IBM DevOps Build 6.1.2 or later and IBM DevOps Deploy 6.2.0.2 or later.
 
 #### Version 29
 
 This release includes translated steps and properties.
 
 
-|Back to ...||Latest Version|IBM UrbanCode Deploy for IBM UrbanCode Build |||
+|Back to ...||Latest Version|IBM DevOps Deploy for IBM DevOps Build |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
 |[All Plugins](../../index.md)|[Build Plugins](../README.md)|[56.1175564](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/ibmucd/DevOps-deploy-56.1175564.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|
