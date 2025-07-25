@@ -1,5 +1,5 @@
 
-Control for IBM UrbanCode Build
+Control for IBM DevOps Build
 ===========================
 
 Control is a Source Code Management tool. The Control plug-in automates cloning a Control repository, tagging source artifacts, and publishing source artifact changes to the Changes page of the build life.

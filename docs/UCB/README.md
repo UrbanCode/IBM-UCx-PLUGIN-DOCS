@@ -1,15 +1,15 @@
 
-# Welcome to UrbanCode Build Plug-ins
+# Welcome to DevOps Build Plug-ins
 
 ## Contents
 
-- [Welcome to UrbanCode Build Plug-ins](#welcome-to-urbancode-build-plug-ins)
+- [Welcome to DevOps Build Plug-ins](#welcome-to-devops-build-plug-ins)
 	- [Contents](#contents)
 - [List of all Plugins](#list-of-all-plugins)
 	- [AccuRev](#accurev)
 	- [AccuWork](#accuwork)
 	- [Ant](#ant)
-	- [Artifactory for IBM UrbanCode Build](#artifactory-for-ibm-urbancode-build)
+	- [Artifactory for IBM DevOps Build](#artifactory-for-ibm-devops-build)
 	- [CA Harvest SCM](#ca-harvest-scm)
 	- [Checkstyle](#checkstyle)
 	- [ClearCase Base Snapshot](#clearcase-base-snapshot)
@@ -23,53 +23,53 @@
 	- [Cucumber](#cucumber)
 	- [DevOps Insights – Deployment Risk Analytics (DRA)](#devops-insights--deployment-risk-analytics-dra)
 	- [Docker Build](#docker-build)
-	- [File System for IBM UrbanCode Build](#file-system-for-ibm-urbancode-build)
-	- [File Utils for IBM UrbanCode Build](#file-utils-for-ibm-urbancode-build)
+	- [File System for IBM DevOps Build](#file-system-for-ibm-devops-build)
+	- [File Utils for IBM DevOps Build](#file-utils-for-ibm-devops-build)
 	- [FindBugs](#findbugs)
 	- [Gerrit](#gerrit)
-	- [Git for IBM UrbanCode Build](#git-for-ibm-urbancode-build)
-	- [Gradle for IBM UrbanCode Build](#gradle-for-ibm-urbancode-build)
-	- [Groovy for IBM UrbanCode Build](#groovy-for-ibm-urbancode-build)
+	- [Git for IBM DevOps Build](#git-for-ibm-devops-build)
+	- [Gradle for IBM DevOps Build](#gradle-for-ibm-devops-build)
+	- [Groovy for IBM DevOps Build](#groovy-for-ibm-devops-build)
 	- [HP Fortify](#hp-fortify)
 	- [HP Quality Center](#hp-quality-center)
 	- [IBM Dependency Based Build](#ibm-dependency-based-build)
 	- [IBM Security AppScan Source](#ibm-security-appscan-source)
-	- [IBM UrbanCode Deploy for IBM UrbanCode Build](#ibm-urbancode-deploy-for-ibm-urbancode-build)
+	- [IBM DevOps Deploy for IBM DevOps Build](#ibm-devops-deploy-for-ibm-devops-build)
 	- [Job As Code](#job-as-code)
-	- [JIRA for IBM UrbanCode Build](#jira-for-ibm-urbancode-build)
-	- [JUnit for IBM UrbanCode Build](#junit-for-ibm-urbancode-build)
+	- [JIRA for IBM DevOps Build](#jira-for-ibm-devops-build)
+	- [JUnit for IBM DevOps Build](#junit-for-ibm-devops-build)
 	- [JaCoCo](#jacoco)
-	- [LogiGear TestArchitect for IBM UrbanCode Build](#logigear-testarchitect-for-ibm-urbancode-build)
+	- [LogiGear TestArchitect for IBM DevOps Build](#logigear-testarchitect-for-ibm-devops-build)
 	- [MSBuild](#msbuild)
 	- [MSTest](#mstest)
 	- [Make](#make)
-	- [Maven for IBM UrbanCode Build](#maven-for-ibm-urbancode-build)
+	- [Maven for IBM DevOps Build](#maven-for-ibm-devops-build)
 	- [Mercurial](#mercurial)
 	- [Mocha](#mocha)
 	- [NAnt](#nant)
 	- [NCover](#ncover)
-	- [NPM for IBM UrbanCode Build](#npm-for-ibm-urbancode-build)
+	- [NPM for IBM DevOps Build](#npm-for-ibm-devops-build)
 	- [NUnit](#nunit)
 	- [PMD](#pmd)
 	- [Perforce](#perforce)
 	- [Preflight](#preflight)
 	- [QTP](#qtp)
 	- [Rake](#rake)
-	- [Rally for IBM UrbanCode Build](#rally-for-ibm-urbancode-build)
+	- [Rally for IBM DevOps Build](#rally-for-ibm-devops-build)
 	- [Rational Team Concert SCM](#rational-team-concert-scm)
 	- [Rational Team Concert Work Items](#rational-team-concert-work-items)
 	- [Report Publisher](#report-publisher)
 	- [Reporting](#reporting)
 	- [Salesforce](#salesforce)
-	- [Selenium for IBM UrbanCode Build](#selenium-for-ibm-urbancode-build)
-	- [Shell for IBM UrbanCode Build](#shell-for-ibm-urbancode-build)
+	- [Selenium for IBM DevOps Build](#selenium-for-ibm-devops-build)
+	- [Shell for IBM DevOps Build](#shell-for-ibm-devops-build)
 	- [SonarQube (formerly Sonar)](#sonarqube-formerly-sonar)
 	- [Sonargraph](#sonargraph)
-	- [Subversion for IBM UrbanCode Build](#subversion-for-ibm-urbancode-build)
+	- [Subversion for IBM DevOps Build](#subversion-for-ibm-devops-build)
 	- [TFS Work Items](#tfs-work-items)
 	- [Team Foundation Server](#team-foundation-server)
 	- [UCB Utilities](#ucb-utilities)
-	- [UrbanCode Velocity](#urbancode-velocity)
+	- [DevOps Velocity](#devops-velocity)
 	- [Visual Studio](#visual-studio)
 	- [Xcode](#xcode)
 
@@ -105,7 +105,7 @@ Apache Ant is a software tool that automates software processes during the build
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](Ant/README.md)|[10.1165571](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Ant/Ant-10.1165571.zip)|
 
-## Artifactory for IBM UrbanCode Build
+## Artifactory for IBM DevOps Build
 
 The Artifactory automation plug-in includes steps to complete the following tasks:
 
@@ -113,13 +113,13 @@ The Artifactory automation plug-in includes steps to complete the following task
 
 ---
 
-|Back to ...||Artifactory for IBM UrbanCode Build |Latest Version|
+|Back to ...||Artifactory for IBM DevOps Build |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](Artifactory/README.md)|[11.930715](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Artifactory/Artifactory-11.930715.zip)|
 
 ## CA Harvest SCM
 
-The CA Harvest SCM plug-in automates integration with a CA Harvest repository. Using the plug-in you can checkout and publish source changes to the Changes tab of the BuildLife. This UrbanCode Build plug-in works with all current
+The CA Harvest SCM plug-in automates integration with a CA Harvest repository. Using the plug-in you can checkout and publish source changes to the Changes tab of the BuildLife. This DevOps Build plug-in works with all current
 
 ---
 
@@ -129,7 +129,7 @@ The CA Harvest SCM plug-in automates integration with a CA Harvest repository. U
 
 ## Checkstyle
 
-Checkstyle is an analytic tool that programmers can use to verify that Java code adheres to a coding standard. It provides an automated process for enforcing a coding standard. The IBM UrbanCode Build Checkstyle plug-in uploads the
+Checkstyle is an analytic tool that programmers can use to verify that Java code adheres to a coding standard. It provides an automated process for enforcing a coding standard. The IBM DevOps Build Checkstyle plug-in uploads the
 
 ---
 
@@ -139,7 +139,7 @@ Checkstyle is an analytic tool that programmers can use to verify that Java code
 
 ## ClearCase Base Snapshot
 
-IBM Rational ClearCase provides tools for supporting software configuration management (SCM) of source code and other software development assets. The ClearCase Base Snapshot plug-in integrates IBM UrbanCode Build with IBM Rational
+IBM Rational ClearCase provides tools for supporting software configuration management (SCM) of source code and other software development assets. The ClearCase Base Snapshot plug-in integrates IBM DevOps Build with IBM Rational
 
 ---
 
@@ -149,7 +149,7 @@ IBM Rational ClearCase provides tools for supporting software configuration mana
 
 ## ClearCase UCM
 
-IBM Rational ClearCase provides tools for supporting software configuration management (SCM) of source code and other software development assets. The ClearCase UCM plug-in integrates IBM UrbanCode Build with Rational ClearCase allowing
+IBM Rational ClearCase provides tools for supporting software configuration management (SCM) of source code and other software development assets. The ClearCase UCM plug-in integrates IBM DevOps Build with Rational ClearCase allowing
 
 ---
 
@@ -203,7 +203,7 @@ Control is a Source Code Management tool. The Control plug-in automates cloning 
 
 ---
 
-|Back to ...||Control for IBM UrbanCode Build |Latest Version|
+|Back to ...||Control for IBM DevOps Build |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](Control/README.md)|[1.1177008](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Control/Control-1.1177008.zip)|
 
@@ -239,7 +239,7 @@ DevOps Insights aggregates data from multiple tools and provides insights to imp
 
 ## Docker Build
 
-Docker is an open platform for distributed applications for developers and sysadmins. Leverage this plugin to build Docker images with UrbanCode Build
+Docker is an open platform for distributed applications for developers and sysadmins. Leverage this plugin to build Docker images with DevOps Build
 
 ---
 
@@ -247,23 +247,23 @@ Docker is an open platform for distributed applications for developers and sysad
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](Docker/README.md)|[6.1036529](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Docker/docker-plugin-6.1036529.zip)|
 
-## File System for IBM UrbanCode Build
+## File System for IBM DevOps Build
 
 Instead of using a SCM system, the File System repository expects files to be present in the working directory.
 
 ---
 
-|Back to ...||File System for IBM UrbanCode Build |Latest Version|
+|Back to ...||File System for IBM DevOps Build |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](FileSystem/README.md)|[5.913286](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/FileSystem/FileSystem-5.913286.zip)|
 
-## File Utils for IBM UrbanCode Build
+## File Utils for IBM DevOps Build
 
 The File Utils plug-in includes steps that automate folder and file tasks as part of a deployment process. For example, this plug-in includes steps for deleting or creating directories and for replacing tokens in a file.
 
 ---
 
-|Back to ...||File Utils for IBM UrbanCode Build |Latest Version|
+|Back to ...||File Utils for IBM DevOps Build |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](FileUtils/README.md)|[44.754293](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/FileUtils/FileUtils-44.754293.zip)|
 
@@ -287,33 +287,33 @@ Gerrit is a web based code review system, facilitating online code reviews for p
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](Gerrit/README.md)|[2.749192](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Gerrit/gerrit-2.749192.zip)|
 
-## Git for IBM UrbanCode Build
+## Git for IBM DevOps Build
 
 Git is a distributed revision control system. Git was initially designed and developed by Linus Torvalds for Linux kernel development. The Git plug-in automates cloning a Git repository, tagging source artifacts, and publishing source artifact changes to the Changes page of the build life.
 
 ---
 
-|Back to ...||Git for IBM UrbanCode Build |Latest Version|
+|Back to ...||Git for IBM DevOps Build |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](Git/README.md)|[29.1127031](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Git/Git-29.1127031.zip)|
 
-## Gradle for IBM UrbanCode Build
+## Gradle for IBM DevOps Build
 
-Loading the Gradle plugin will give users access to the Gradle Job steps for use when designing your build. This plug- in is developed and supported by the UrbanCode Build Community on GitHub. Click the “Visit Project” button at the top of
+Loading the Gradle plugin will give users access to the Gradle Job steps for use when designing your build. This plug- in is developed and supported by the DevOps Build Community on GitHub. Click the “Visit Project” button at the top of
 
 ---
 
-|Back to ...||Gradle for IBM UrbanCode Build |Latest Version|
+|Back to ...||Gradle for IBM DevOps Build |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](gradle-2/README.md)|[0]()|
 
-## Groovy for IBM UrbanCode Build
+## Groovy for IBM DevOps Build
 
 Groovy is an object-oriented programming language for the Java platform. It is a dynamic language and can be used as a scripting language. The Groovy plug-in is an automation-type plug-in that provides a step for running user-defined
 
 ---
 
-|Back to ...||Groovy for IBM UrbanCode Build |Latest Version|
+|Back to ...||Groovy for IBM DevOps Build |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](Groovy/README.md)|[16.1164697](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Groovy/Groovy-16.1164697.zip)|
 
@@ -339,7 +339,7 @@ HP Quality Center (QC) is a set of web-based test management software offerings 
 
 ## IBM Dependency Based Build
 
-The UrbanCode Build IBM Dependency Based Build plug-in automates inclusion of building traditional z/OS applications such as COBOL and PL/I.
+The DevOps Build IBM Dependency Based Build plug-in automates inclusion of building traditional z/OS applications such as COBOL and PL/I.
 
 ---
 
@@ -357,19 +357,19 @@ IBM® Security AppScan® Source helps organizations lower costs and reduce risk 
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](RationalAppScan/README.md)|[1.772903](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/RationalAppScan/RationalAppScan-1.772903.zip)|
 
-## IBM UrbanCode Deploy for IBM UrbanCode Build
+## IBM DevOps Deploy for IBM DevOps Build
 
-IBM UrbanCode Deploy provides release management and automation to improve speed, correctness, and traceability of complex application deployments. This plug-in includes steps to create component versions in IBM UrbanCode Deploy and
+IBM DevOps Deploy provides release management and automation to improve speed, correctness, and traceability of complex application deployments. This plug-in includes steps to create component versions in IBM DevOps Deploy and
 
 ---
 
-|Back to ...||IBM UrbanCode Deploy for IBM UrbanCode Build |Latest Version|
+|Back to ...||IBM DevOps Deploy for IBM DevOps Build |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ibmucd/README.md)|[56.1175564](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/ibmucd/DevOps-deploy-56.1175564.zip)|
 
 ## Job As Code
 
-The Job As Config Plugin helps user to configure the job using a script file of YAML or JSON format. The Script file should be of UrbanCode Build pre-defined format
+The Job As Config Plugin helps user to configure the job using a script file of YAML or JSON format. The Script file should be of DevOps Build pre-defined format
 
 ---
 
@@ -377,23 +377,23 @@ The Job As Config Plugin helps user to configure the job using a script file of 
 | :---: | :---: | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](jac/README.md)|[1.1070875](https://github.com/UrbanCode/IBM-UCB-PLUGINS/raw/main/files/jac/plugins-jac-1.1070875.zip)|
 
-## JIRA for IBM UrbanCode Build
+## JIRA for IBM DevOps Build
 
 JIRA is an issue tracking product, developed by Atlassian. It is used for bug tracking, issue tracking and project management. This plugin provides a integrations with JIRA. Issues can be reported on, commented on, updated and
 
 ---
 
-|Back to ...||JIRA for IBM UrbanCode Build |Latest Version|
+|Back to ...||JIRA for IBM DevOps Build |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](JIRA/README.md)|[7.876389](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/JIRA/JIRA-7.876389.zip)|
 
-## JUnit for IBM UrbanCode Build
+## JUnit for IBM DevOps Build
 
 JUnit is a unit testing framework for the Java programming language. The JUnit plug-in publishes results of a JUnit test into a report.
 
 ---
 
-|Back to ...||JUnit for IBM UrbanCode Build |Latest Version|
+|Back to ...||JUnit for IBM DevOps Build |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](JUnit/README.md)|[10.1071521](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/JUnit/JUnit-10.1071521.zip)|
 
@@ -407,13 +407,13 @@ Plugin to upload JaCoCo report results. This plugin version also now supports gr
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](Jacoco/README.md)|[7.950839](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Jacoco/JaCoCo-7.950839.zip)|
 
-## LogiGear TestArchitect for IBM UrbanCode Build
+## LogiGear TestArchitect for IBM DevOps Build
 
-The LogiGear TestArchitect plug-in for IBM UrbanCode Deploy and Build provides steps to run tests using the TestArchitect command line interface.
+The LogiGear TestArchitect plug-in for IBM DevOps Deploy and Build provides steps to run tests using the TestArchitect command line interface.
 
 ---
 
-|Back to ...||LogiGear TestArchitect for IBM UrbanCode Build |Latest Version|
+|Back to ...||LogiGear TestArchitect for IBM DevOps Build |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](logigear-testarchitect-2/README.md)|[0]()|
 
@@ -447,13 +447,13 @@ Plugin to allow running of Make files. Available Steps
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](Make/README.md)|[3.752874](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Make/Make-3.752874.zip)|
 
-## Maven for IBM UrbanCode Build
+## Maven for IBM DevOps Build
 
 Apache Maven is a software project management and comprehension tool. Based on the concept of a project object model (POM), Maven can manage building, reporting and documenting a project from a central piece of information. The Maven
 
 ---
 
-|Back to ...||Maven for IBM UrbanCode Build |Latest Version|
+|Back to ...||Maven for IBM DevOps Build |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](Maven/README.md)|[9.913233](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Maven/Maven-9.913233.zip)|
 
@@ -497,7 +497,7 @@ Plugin to upload NCover test results. Available Steps
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](NCover/README.md)|[1.759854](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/NCover/NCover-1.759854.zip)|
 
-## NPM for IBM UrbanCode Build
+## NPM for IBM DevOps Build
 
 NPM is the package manager for JavaScript. The NPM plugin provides command steps to perform the following operations:
 
@@ -505,7 +505,7 @@ NPM is the package manager for JavaScript. The NPM plugin provides command steps
 
 ---
 
-|Back to ...||NPM for IBM UrbanCode Build |Latest Version|
+|Back to ...||NPM for IBM DevOps Build |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](NPM/README.md)|[1.1098517](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/NPM/NPM-1.1098517.zip)|
 
@@ -569,13 +569,13 @@ Rake is a utility that controls the generation of executables and other nonsourc
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](Rake/README.md)|[3.752923](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Rake/Rake-3.752923.zip)|
 
-## Rally for IBM UrbanCode Build
+## Rally for IBM DevOps Build
 
 Rally is an agile project management tool that tracks project requirements, tests and defects. The Rally plug-in contains steps to create and update Rally defects. It also provides steps to create a report of defects and build
 
 ---
 
-|Back to ...||Rally for IBM UrbanCode Build |Latest Version|
+|Back to ...||Rally for IBM DevOps Build |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](Rally/README.md)|[17.1126865](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Rally/ucd-Rally-17.1126865.zip)|
 
@@ -621,7 +621,7 @@ The Reporting plug-in includes a step to run saved reports in workflows. Availab
 
 ## Salesforce
 
-The Salesforce plug-in for UrbanCode Build uses the Force.com Migration Tool to perform file-based deployment of metadata changes and Apex classes.
+The Salesforce plug-in for DevOps Build uses the Force.com Migration Tool to perform file-based deployment of metadata changes and Apex classes.
 
 ---
 
@@ -629,23 +629,23 @@ The Salesforce plug-in for UrbanCode Build uses the Force.com Migration Tool to 
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](salesforce/README.md)|[2.1056278](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/salesforce/salesforce-2.1056278.zip)|
 
-## Selenium for IBM UrbanCode Build
+## Selenium for IBM DevOps Build
 
 Selenium provides a set of tools to automate testing web applications. It can also be used to automate basic browser functions and administration tasks. Testing is accomplished through a set of Selenium commands that are stored in a HTML text file.
 
 ---
 
-|Back to ...||Selenium for IBM UrbanCode Build |Latest Version|
+|Back to ...||Selenium for IBM DevOps Build |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](Selenium/README.md)|[6.752852](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Selenium/Selenium-6.752852.zip)|
 
-## Shell for IBM UrbanCode Build
+## Shell for IBM DevOps Build
 
 A shell provides an interface for users of an operating system that provides access to the services of a kernel. Operating system shells generally fall into one of two categories: command-line and graphical. Command-line shells provide a command-line interface (CLI) to the operating system, while graphical shells provide a graphical user interface (GUI). In either category, the primary purpose of the shell is to invoke or launch another program; however, shells frequently have additional capabilities such as viewing the contents of directories.
 
 ---
 
-|Back to ...||Shell for IBM UrbanCode Build |Latest Version|
+|Back to ...||Shell for IBM DevOps Build |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](Shell/README.md)|[7.913337](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Shell/Shell-7.913337.zip)|
 
@@ -669,13 +669,13 @@ The Sonargraph plugin uploads the Sonargraph results to the Analytics tab of the
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](Sonargraph/README.md)|[5.752915](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Sonargraph/Sonargraph-5.752915.zip)|
 
-## Subversion for IBM UrbanCode Build
+## Subversion for IBM DevOps Build
 
 Subversion is an open source version control software. It is used to maintain current and previous versions of source code, web pages, and documentation. Subversion was previously developed under the Subversion software project. It is
 
 ---
 
-|Back to ...||Subversion for IBM UrbanCode Build |Latest Version|
+|Back to ...||Subversion for IBM DevOps Build |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](Subversion/README.md)|[11.1023828](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Subversion/Subversion-11.1023828.zip)|
 
@@ -701,7 +701,7 @@ Microsoft Team Foundation Server (TFS) is a source code management product for c
 
 ## UCB Utilities
 
-The UCB Utilities plugin can be used to interact with different aspects of UrbanCode Build, including setting properties in different scopes and writing JSON files.
+The UCB Utilities plugin can be used to interact with different aspects of DevOps Build, including setting properties in different scopes and writing JSON files.
 
 ---
 
@@ -709,13 +709,13 @@ The UCB Utilities plugin can be used to interact with different aspects of Urban
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](UCBUtils/README.md)|[2.1058205](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/UCBUtils/UCBUtils-2.1058205.zip)|
 
-## UrbanCode Velocity
+## DevOps Velocity
 
-UrbanCode Velocity provides tools to help you visualize and understand your DevOps pipelines and processes. The UrbanCode Velocity plug-in uploads build data into the UrbanCode Velocity server.
+DevOps Velocity provides tools to help you visualize and understand your DevOps pipelines and processes. The DevOps Velocity plug-in uploads build data into the DevOps Velocity server.
 
 ---
 
-|Back to ...||UrbanCode Velocity |Latest Version|
+|Back to ...||DevOps Velocity |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](urbancode-velocity/README.md)|[0]()|
 
