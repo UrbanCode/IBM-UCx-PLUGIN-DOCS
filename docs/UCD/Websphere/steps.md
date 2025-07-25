@@ -1824,7 +1824,7 @@ Map users to roles for an enterprise application.
 | Node Name | String | The name of the node to administer. | No |
 | Password | Password | The password for connecting to the WebSphere node. | No |
 | Port | String | The port to connect to. | No |
-| Role Mappings | String | The role mappings to update. Specify a list, separated by newline characters, in the following format: roleName->Allow Access To everyone(yes|no)->Allow Access To authenticated users(yes|no)->user1|user2->group1|group2. Get this information for your application by using the following command: wsadmin print AdminApp.taskInfo(EarFileLocation, MapRolesToUsers) | Yes |
+| Role Mappings | String | The role mappings to update. Specify a list, separated by newline characters, in one of the following formats: Application Realm (5 params): roleName->Allow Everyone (yes|no)->Allow Authenticated (yes|no)->user1|user2->group1|group2. Trusted Realm (8 params): roleName->Allow Everyone (yes|no)->Allow Authenticated (yes|no)->user1|user2->group1|group2->Allow Trusted Realm Users (yes|no)->mappedUser1|mappedUser2->mappedGroup1|mappedGroup2. Use '|' to separate multiple users/groups. Leave fields blank if not applicable. View current mappings with: wsadmin print AdminApp.taskInfo('EarFileLocation', 'MapRolesToUsers')
 | Script File | String | The name of the script file to create or append to. | No |
 | Server Name | String | The name of the server to administer. | No |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
