@@ -2503,7 +2503,7 @@ The z/OS Multi Generate Artifact Information plug-in scans version artifacts and
 
 |        Back to ...         || z/OS Multi Generate Artifact Information |                    Latest Version                    |
 |:--------------------------:|:----------------------------------------:|:----------------------------------------------------:| :---: |
-| [All Plugins](../index.md) |             [Top](#contents)             | [Readme](zos-multi-generate-artifact-info/README.md) |[10.1179047](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-multi-generate-artifact-info/devops-deploy-zos-multi-generate-artifact-info-10.1179047.zip)|
+| [All Plugins](../index.md) |             [Top](#contents)             | [Readme](zos-multi-generate-artifact-info/README.md) |[11.1179290](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-multi-generate-artifact-info/devops-deploy-zos-multi-generate-artifact-info-11.1179290.zip)|
 
 ## z/OS Shell [Deprecated]
 
