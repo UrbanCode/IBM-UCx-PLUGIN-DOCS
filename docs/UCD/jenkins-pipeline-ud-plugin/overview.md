@@ -26,6 +26,10 @@ The [Jenkins Pipeline Plug-in Tutorial](https://community.ibm.com/community/user
 
 ## History
 
+### Version 2.29
+
+* RFE-URBANCODE-I-682 Added ability to create snapshot using component version.
+
 ### Version 2.28
 
 * Added : Update Component version in existing Snapshot feature.
@@ -155,4 +159,4 @@ The [Jenkins Pipeline Plug-in Tutorial](https://community.ibm.com/community/user
 
 |Back to ...||Latest Version|Jenkins Pipeline |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[2.27.1134919](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/jenkins-pipeline-ud-plugin/ibm-ucdeploy-build-steps-2.27.1134919.hpi)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[2.29.1179629](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/jenkins-pipeline-ud-plugin/ibm-ucdeploy-build-steps-2.29.1179629.hpi)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
