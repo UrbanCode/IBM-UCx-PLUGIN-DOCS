@@ -2,6 +2,7 @@
 
 To download the plug-in, click the following version-specific links.
 
+- [devops-deploy-ExtArtRepo-13.1179643.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOS-external-artifact-download/devops-deploy-ExtArtRepo-13.1179643.zip)
 - [devops-deploy-ExtArtRepo-13.1178924.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOS-external-artifact-download/devops-deploy-ExtArtRepo-13.1178924.zip)
 - [ucd-ExtArtRepo-13.1177041.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOS-external-artifact-download/ucd-ExtArtRepo-13.1177041.zip)
 - [ucd-ExtArtRepo-12.1176020.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOS-external-artifact-download/ucd-ExtArtRepo-12.1176020.zip)
@@ -22,4 +23,4 @@ To download the plug-in, click the following version-specific links.
 
 |          Back to ...          |                                |                                                                       Latest Version                                                                        | z/OS External Artifact Repository |                         |                   |                   |
 |:-----------------------------:|:------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------:|:-----------------------:|:-----------------:|:-----------------:|
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [13.1178924](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOS-external-artifact-download/devops-deploy-ExtArtRepo-13.1178924.zip) |        [Readme](README.md)        | [Overview](overview.md) | [Usage](usage.md) | [Steps](steps.md) |
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [13.1179643](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOS-external-artifact-download/devops-deploy-ExtArtRepo-13.1179643.zip) |        [Readme](README.md)        | [Overview](overview.md) | [Usage](usage.md) | [Steps](steps.md) |

@@ -1481,7 +1481,7 @@ The IBM DevOps Versioned File Storage plug-in includes steps to upload and downl
 
 |Back to ...||IBM DevOps Deploy Versioned File Storage |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](UrbancodeVFS/README.md)|[48.1172096](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/UrbancodeVFS/ucd-UrbancodeVFS-48.1172096.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](UrbancodeVFS/README.md)|[49.1179566](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/UrbancodeVFS/devops-deploy-UrbancodeVFS-49.1179566.zip)|
 
 ## IBM DevOps Deploy Versions
 
@@ -2463,7 +2463,7 @@ The zOS External Artifact Utility plug-in includes steps to integrate with exter
 
 |        Back to ...         |                  |         z/OS External Artifact Repository          |                                                                       Latest Version                                                                        |
 |:--------------------------:|:----------------:|:--------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| [All Plugins](../index.md) | [Top](#contents) | [Readme](zOS-external-artifact-download/README.md) | [13.1178924](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOS-external-artifact-download/devops-deploy-ExtArtRepo-13.1178924.zip) |
+| [All Plugins](../index.md) | [Top](#contents) | [Readme](zOS-external-artifact-download/README.md) | [13.1179643](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOS-external-artifact-download/devops-deploy-ExtArtRepo-13.1179643.zip) |
 
 ## z/OS FTP Utility
 
