@@ -1481,7 +1481,7 @@ The IBM DevOps Versioned File Storage plug-in includes steps to upload and downl
 
 |Back to ...||IBM DevOps Deploy Versioned File Storage |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](UrbancodeVFS/README.md)|[48.1172096](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/UrbancodeVFS/ucd-UrbancodeVFS-48.1172096.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](UrbancodeVFS/README.md)|[49.1179566](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/UrbancodeVFS/devops-deploy-UrbancodeVFS-49.1179566.zip)|
 
 ## IBM DevOps Deploy Versions
 
@@ -1671,7 +1671,7 @@ The Jenkins Pipeline plug-in allows for interaction with DevOps Deploy component
 
 |Back to ...||Jenkins Pipeline |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](jenkins-pipeline-ud-plugin/README.md)|[2.28](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/jenkins-pipeline-ud-plugin/ibm-ucdeploy-build-steps-2.28.1161061.hpi)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](jenkins-pipeline-ud-plugin/README.md)|[2.29](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/jenkins-pipeline-ud-plugin/ibm-ucdeploy-build-steps-2.29.1179629.hpi)|
 
 ## Jenkins Publisher
 
@@ -1971,7 +1971,7 @@ Nexus is a repository manager, developed by SonaType, designed to store artifact
 
 |Back to ...||Nexus Repository Manager V3 |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](sourceconfig-nexus-v3/README.md)|[5.1164218](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/sourceconfig-nexus-v3/ucd-sourceconfig-nexus-v3-5.1164218.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](sourceconfig-nexus-v3/README.md)|[6.1179697](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/sourceconfig-nexus-v3/devops-deploy-sourceconfig-nexus-v3-6.1179697.zip)|
 
 ## Nexus Source Config
 
@@ -2463,7 +2463,7 @@ The zOS External Artifact Utility plug-in includes steps to integrate with exter
 
 |        Back to ...         |                  |         z/OS External Artifact Repository          |                                                                       Latest Version                                                                        |
 |:--------------------------:|:----------------:|:--------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| [All Plugins](../index.md) | [Top](#contents) | [Readme](zOS-external-artifact-download/README.md) | [13.1178924](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOS-external-artifact-download/devops-deploy-ExtArtRepo-13.1178924.zip) |
+| [All Plugins](../index.md) | [Top](#contents) | [Readme](zOS-external-artifact-download/README.md) | [13.1179643](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOS-external-artifact-download/devops-deploy-ExtArtRepo-13.1179643.zip) |
 
 ## z/OS FTP Utility
 
@@ -2503,7 +2503,7 @@ The z/OS Multi Generate Artifact Information plug-in scans version artifacts and
 
 |        Back to ...         || z/OS Multi Generate Artifact Information |                    Latest Version                    |
 |:--------------------------:|:----------------------------------------:|:----------------------------------------------------:| :---: |
-| [All Plugins](../index.md) |             [Top](#contents)             | [Readme](zos-multi-generate-artifact-info/README.md) |[10.1179047](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-multi-generate-artifact-info/devops-deploy-zos-multi-generate-artifact-info-10.1179047.zip)|
+| [All Plugins](../index.md) |             [Top](#contents)             | [Readme](zos-multi-generate-artifact-info/README.md) |[11.1179290](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-multi-generate-artifact-info/devops-deploy-zos-multi-generate-artifact-info-11.1179290.zip)|
 
 ## z/OS Shell [Deprecated]
 
