@@ -5,5 +5,5 @@ The WebSphere Application Server – Deployment plug-in provides a number of ste
 
 |Back to ...||Latest Version||||||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[132.1179210](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/WAS-Deploy-132.1179210.zip)|[Overview](overview.md)|[User permissions](user permissions.md)|[Usage](usage.md)|[Steps](steps.md)|[Roles](roles.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[133.1179765](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/devops-deploy-WebSphere-133.1179765.zip)|[Overview](overview.md)|[User permissions](user permissions.md)|[Usage](usage.md)|[Steps](steps.md)|[Roles](roles.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|
 
