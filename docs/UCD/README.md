@@ -2412,7 +2412,7 @@ The WebSphere Application Server – Deployment plug-in provides a number of ste
 
 |Back to ...||WebSphere Application Server - Deployment |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](Websphere/README.md)|[133.1180000](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/WAS-Deploy-133.1180000.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](Websphere/README.md)|[133.1179765](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/devops-deploy-WebSphere-133.1179765.zip)|
 
 
 ## WebSphere Application Server - Install
