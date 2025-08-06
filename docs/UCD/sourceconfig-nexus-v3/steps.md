@@ -13,7 +13,7 @@ This step has no input properties.
 
 ## Roles in the Nexus Repository Manager V3 plug-in
 
-The plug-in adds these roles automatically to resources. You cannot add these roles manuallyThe plug-in adds these roles automatically to resources. You cannot add these roles manually.
+The plug-in adds these roles automatically to resources. You cannot add these roles manually
 
 
 * [ComponentProperties](#componentproperties_role)
