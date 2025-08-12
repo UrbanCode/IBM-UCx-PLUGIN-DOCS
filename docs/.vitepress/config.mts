@@ -16,7 +16,7 @@ export default defineConfig({
   lastUpdated: true,
   vite: {
     build: {
-      chunkSizeWarningLimit: 4000, // Set your desired limit in KB
+      chunkSizeWarningLimit: 6000, // Set your desired limit in KB
     },
     assetsInclude: ['**/*.PNG', '**/*.png']
   },
