@@ -13,7 +13,3 @@ To download the plug-in, click the following version-specific links.
 - [WinRSAgentInstall-8.855636.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WinRSAgentInstall/WinRSAgentInstall-8.855636.zip)
 - [WinRSAgentInstall-7.844054.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WinRSAgentInstall/WinRSAgentInstall-7.844054.zip)
 - [WinRSAgentInstall-6.786202.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WinRSAgentInstall/WinRSAgentInstall-6.786202.zip)
-
-|Back to ...||Latest Version|WinRS Agent Install |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[12.1131558](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WinRSAgentInstall/ucd-WinRSAgentInstall-12.1131558.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|

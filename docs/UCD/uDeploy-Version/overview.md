@@ -65,7 +65,3 @@ Support property file encryption.
 
 Fixes APAR PI57417. Plug-in now checks the agent settings for acceptance of self signed certificates.
 
-
-|Back to ...||Latest Version|IBM DevOps Deploy Versions |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[76.1176673](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Version/ucd-uDeploy-Version-76.1176673.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|

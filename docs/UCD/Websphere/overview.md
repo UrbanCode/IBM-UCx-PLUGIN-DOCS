@@ -55,9 +55,13 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ### History
 
+#### Version 133
+
+* Added Default Bindings to the update step and removed property note.
+
 #### Version 132
 
-* URBANCODE-I-710 Extend Role Mappings for "Map Users and Groups to Roles" Step
+* URBANCODE-I-710 Extend Role Mappings for "Map Users and Groups to Roles" Step.
 
 #### Version 131
 
@@ -254,8 +258,3 @@ The following features were added in version 96:
 
 * Support for installing, updating, starting, and stopping applications at the cell scope.
 * Updates to plug-in steps to support traditional WebSphere Application Server version 9 environments.
-
-|Back to ...||Latest Version|WebSphere Application Server - Deployment |||||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[132.1179210](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/WAS-Deploy-132.1179210.zip)|[Readme](README.md)|[User permissions](user permissions.md)|[Usage](usage.md)|[Steps](steps.md)|[Roles](roles.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|
-

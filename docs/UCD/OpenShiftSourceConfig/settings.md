@@ -15,7 +15,3 @@
 | Registry Username | String | The username used to login to the OpenShift Server. |
 
 
-
-|Back to ...||Latest Version|OpenShift |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[6.1034331](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/OpenShiftSourceConfig/OpenShiftSourceConfig-6.1034331.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

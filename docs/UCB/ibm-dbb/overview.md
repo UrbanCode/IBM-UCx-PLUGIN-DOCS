@@ -38,7 +38,3 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 #### Version 1.1
 
 * Initial release.
-
-|Back to ...||Latest Version|IBM Dependency Based Build |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[2.1053929](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/ibm-dbb/ibm-dbb-2.1053929.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|

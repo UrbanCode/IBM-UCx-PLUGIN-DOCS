@@ -132,7 +132,3 @@ No special steps are required for installation. See [Installing plug-ins in IBM 
 ### Version 2.776497*April 18, 2016*
 
 * Promote Build Step AddedChange the status of a build, optionally moving or copying the build to a target repository.
-
-|Back to ...||Latest Version|Artifactory ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[26.1176841](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Artifactory/ucd-Artifactory-26.1176841.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

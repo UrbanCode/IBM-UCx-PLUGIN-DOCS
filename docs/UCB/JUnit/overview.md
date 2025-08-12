@@ -71,7 +71,3 @@ Version 4 includes the following features and fixes:
 Version 3 includes the following features and fixes:
 
 * Update to a newer version of a library for HTTP communication.
-
-|Back to ...||Latest Version|JUnit for IBM UrbanCode Build |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[10.1071521](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/JUnit/JUnit-10.1071521.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|

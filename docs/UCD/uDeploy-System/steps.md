@@ -57,7 +57,3 @@ Set some system configuration values.
 | Values to Set | String | Values to set, using Java property file syntax. The names of the values must match those returned by the Get System Configuration step. Any settings not provided here will be left unchanged. | Yes |
 
 
-
-|Back to ...||Latest Version|IBM DevOps Deploy System |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[65.1102020](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-System/uDeploy-System-65.1102020.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

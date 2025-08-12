@@ -37,7 +37,3 @@ If you have multiple products installed on one target machine, either in the sam
 
 [![rpt-multiprodtest](media/rpt-multiprodtest.png)](media/rpt-multiprodtest.png)
 
-
-|Back to ...||Latest Version|IBM Rational Performance Tester (RPT) ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[9.3](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/RPT-UCD/RPT-UCD-9.3.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

@@ -53,7 +53,3 @@ This plug-in includes steps for installing and updating applications in the IBM 
 **Wait for Application to be Started:**Wait for an application to run (have a status of Started).
 
 
-
-|Back to ...||Latest Version||||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[23.1174431](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereLiberty/ucd-WebSphereLiberty-23.1174431.zip)|[Overview](overview.md)|[Troubleshooting](troubleshooting.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

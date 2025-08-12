@@ -101,7 +101,3 @@ The NuGet repository URL must be accessible through the version 2 of the NuGet R
 
 [![](media/capture.png)](media/capture.png)
 
-
-|Back to ...||Latest Version|NuGet ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[17.1154071](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/nuget-source-config/ucd-nuget-source-config-17.1154071.zip)|[Readme](README.md)|[Overview](overview.md)|[Settings](settings.md)|[Downloads](downloads.md)|

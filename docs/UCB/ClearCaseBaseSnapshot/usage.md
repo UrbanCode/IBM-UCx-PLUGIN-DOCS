@@ -15,7 +15,3 @@ The IBM UrbanCode Build ClearCase Base Snapshot plug-in provides integration pro
 
 The repository is configured based on a workflow.
 
-
-|Back to ...||Latest Version|ClearCase Base Snapshot |||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[14.767774](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/ClearCaseBaseSnapshot/ClearCaseBaseSnapshot-14.767774.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Settings](settings.md)|[Downloads](downloads.md)|

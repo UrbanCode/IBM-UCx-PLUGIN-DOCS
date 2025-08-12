@@ -38,7 +38,3 @@ Update JMS EG: Update an JMS EG on WLI.
 Update XML Cache Entry: Update an Entry in the XML Cache
 
 
-
-|Back to ...||Latest Version||||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[35.1056548](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/plugin-air-WLI-Resource-Management/plugin-air-WLI-Resource-Management-35.1056548.zip)|[Overview](overview.md)|[Troubleshooting](troubleshooting.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

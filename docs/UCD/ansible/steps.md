@@ -175,7 +175,3 @@ Use this step to apply the **apt_key module** in Ansible.
 |-------|----------|----------------------------------------------|----------|
 | data  | textBox  | The keyfile contents to add to the keyring.  | Yes      |
 
-
-|          Back to ...          |                                |                                                          Latest Version                                                          |   Ansible Plug-In   |                         |                   |                           |
-|:-----------------------------:|:------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------:|:-------------------:|:-----------------------:|:-----------------:|:-------------------------:|
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [55.1173239](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Ansible/ucd-plugins-ansible-55.1173239.zip)  | [Readme](README.md) | [Overview](overview.md) | [Usage](usage.md) | [Downloads](downloads.md) |

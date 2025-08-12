@@ -19,7 +19,3 @@ To download the plug-in, click the following version-specific links.
 - [TeamCitySourceConfig-8.898827.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/TeamCitySourceConfig/TeamCitySourceConfig-8.898827.zip)
 - [TeamCitySourceConfig-7.856038.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/TeamCitySourceConfig/TeamCitySourceConfig-7.856038.zip)
 - [TeamCitySourceConfig-6.786814.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/TeamCitySourceConfig/TeamCitySourceConfig-6.786814.zip)
-
-|Back to ...||Latest Version|TeamCity ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[20.1153959](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/TeamCitySourceConfig/ucd-TeamCitySourceConfig-20.1153959.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|

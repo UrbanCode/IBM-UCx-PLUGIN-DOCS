@@ -38,7 +38,3 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 #### Version 1
 
 * Initial release.
-
-|Back to ...||Latest Version|Mocha |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[2.1007779](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Mocha/Mocha-2.1007779.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|

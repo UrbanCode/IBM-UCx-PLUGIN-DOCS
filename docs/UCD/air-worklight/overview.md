@@ -59,7 +59,3 @@ Version 6 of the plug-in adds support for IBM MobileFirst Platform Foundation ve
 
 Version 5 of the plug-in includes a fix for a compatibility defect with IBM DevOps Deploy version 6.1.0.4 and later.
 
-
-|Back to ...||Latest Version|IBM MobileFirst Platform (formerly Worklight) |||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[13.1174444](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/air-worklight/ucd-ibm-mobilefirst-13.1174444.zip)|[Readme](README.md)|[Steps](steps.md)|[Usage](usage.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|

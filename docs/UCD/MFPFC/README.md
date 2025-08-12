@@ -11,7 +11,3 @@ You can use IBM DevOps Deploy to define a DevOps deployment solution for your Mo
 Refer to the plug-in documentation.
 
 
-
-|Back to ...||Latest Version||||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[1.0](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/MFPFC/MobileFirstContainerAutomate-1.0.zip)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

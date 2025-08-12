@@ -43,7 +43,3 @@ Run a shell or batch script a number of times equal to a multi-valued input.
 | xargs | String | The comma-separated values to use as input to the script. The values are passed as input to the script. | Yes |
 
 
-
-|Back to ...||Latest Version|Shell for IBM UrbanCode Build |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[7.913337](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Shell/Shell-7.913337.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

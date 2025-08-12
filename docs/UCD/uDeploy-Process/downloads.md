@@ -18,7 +18,3 @@ To download the plug-in, click the following version-specific links.
 - [uDeploy-Process-3.858566.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Process/uDeploy-Process-3.858566.zip)
 - [uDeploy-Process-3.855626.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Process/uDeploy-Process-3.855626.zip)
 - [uDeploy-Process-2.786822.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Process/uDeploy-Process-2.786822.zip)
-
-|Back to ...||Latest Version|IBM DevOps Deploy Process ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[14.1155709](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Process/ucd-uDeploy-Process-14.1155709.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|

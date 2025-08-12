@@ -37,7 +37,3 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 ### Version 8
 
 * Add timeout to stop service step and have it check service status before attempting to stop the service so it doesn't fail on already stopped services.
-
-|Back to ...||Latest Version|Microsoft Windows Services |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[12.1155989](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ServiceControlManager/ucd-ServiceControlManager-12.1155989.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|

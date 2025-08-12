@@ -169,7 +169,3 @@ Uninstalls a local Biztalk Application
 | Powershell Executable location | String | If the Powershell executable is not in the system path please specify (e.g. C:\winnt\powershell.exe | No |
 
 
-
-|Back to ...||Latest Version|Microsoft BizTalk |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[7.869016](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/BizTalk/BizTalk-7.869016.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

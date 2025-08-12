@@ -134,7 +134,3 @@ Version 1
 
 This is the initial release of the plug-in.
 
-
-|Back to ...||Latest Version|Jira for IBM UrbanCode Release |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Release Plugins](../README.md)|[18.1079383](https://raw.githubusercontent.com/UrbanCode/IBM-UCR-PLUGINS/main/files/ucr-plugin-jira/ucr-plugin-jira-18.1079383.zip)|[Readme](README.md)|[Settings](settings.md)|[Downloads](downloads.md)|

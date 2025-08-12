@@ -13,7 +13,3 @@ Available Steps
 Maven Build Run a Maven build
 
 
-
-|Back to ...||Latest Version||||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[9.913233](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Maven/Maven-9.913233.zip)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

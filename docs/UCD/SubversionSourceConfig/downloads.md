@@ -21,7 +21,3 @@ To download the plug-in, click the following versoin-specific links.
 - [SubversionSourceConfig-10.856039.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SubversionSourceConfig/SubversionSourceConfig-10.856039.zip)
 - [SubversionSourceConfig-9.786809.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SubversionSourceConfig/SubversionSourceConfig-9.786809.zip)
 - [SubversionSourceConfig-8.769512.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SubversionSourceConfig/SubversionSourceConfig-8.769512.zip)
-
-|Back to ...||Latest Version|Subversion ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[26.1159798](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SubversionSourceConfig/ucd-SubversionSourceConfig-26.1159798.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|

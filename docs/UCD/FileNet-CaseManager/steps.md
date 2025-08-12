@@ -87,7 +87,3 @@ The applySolutionSecurityManifest command applies a solution security configurat
 | Manifest Name | String | Specifies the name of the security manifest. | Yes |
 
 
-
-|Back to ...||Latest Version|FileNet - IBM Case Manager ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[1.1100878](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileNet-CaseManager/FileNet-CaseManager-1.1100878.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

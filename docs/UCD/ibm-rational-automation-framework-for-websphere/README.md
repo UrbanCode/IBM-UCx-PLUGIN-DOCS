@@ -10,7 +10,3 @@ This plug-in is developed and supported by the DevOps Deploy Community on the IB
 ## Available Steps
 
 Run RAF Action
-
-|Back to ...||Latest Version|
-| :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[0]()|

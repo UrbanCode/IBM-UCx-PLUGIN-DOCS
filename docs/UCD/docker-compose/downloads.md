@@ -14,7 +14,3 @@ To download the plug-in, click the following version-specific links.
 - [docker-compose-12.796498.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/docker-compose/docker-compose-12.796498.zip)
 - [docker-compose-11.779353.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/docker-compose/docker-compose-11.779353.zip)
 - [docker-compose-11.778752.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/docker-compose/docker-compose-11.778752.zip)
-
-|Back to ...||Latest Version|Docker Compose |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[24.1174442](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/docker-compose/ucd-docker-compose-24.1174442.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|

@@ -109,7 +109,3 @@ The following tables describe the properties used to configure the integration. 
 | Excluded Repository Parameters |	String | Specify the jenkins job parameter names as a comma-separated list to identify repositories that should be disregarded in the context of the job. |	No |
 
 
-
-|Back to ...||Latest Version|Jenkins |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.1.7-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jenkins/ucv-ext-jenkins%3A1.1.7.tar.7z.001)[and 1.1.7-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jenkins/ucv-ext-jenkins%3A1.1.7.tar.7z.002)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

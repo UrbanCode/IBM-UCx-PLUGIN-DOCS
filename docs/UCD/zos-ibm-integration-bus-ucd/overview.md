@@ -29,7 +29,3 @@ To access this plug-in in the palette, click **Middleware > Enterprise Service B
 
 * Release Notes: (Released December 8, 2021) Initial Release
 * Removed Jettison Library with vulnerability
-
-|          Back to ...          |                                |                                                                          Latest Version                                                                          | IBM Integration Bus (IIB) plugin Deploy step for zOS ||||
-|:-----------------------------:|:------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------:| :---: | :---: | :---: |
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [1.1162414](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-ibm-integration-bus-ucd/ucd-zOS-WebSphereMessageBroker-CMP-1.1162414.zip) |                 [Readme](README.md)                  |[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

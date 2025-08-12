@@ -79,7 +79,3 @@ Retrieve the status information for a Version and sets the output properties: ve
 
 
 
-
-|Back to ...||Latest Version|IBM DevOps Deploy Versions |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[76.1176673](https://github.com/UrbanCode/IBM-UCD-PLUGINS/raw/refs/heads/main/files/uDeploy-Version/ucd-uDeploy-Version-76.1176673.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

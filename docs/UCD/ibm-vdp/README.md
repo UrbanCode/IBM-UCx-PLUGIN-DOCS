@@ -18,7 +18,3 @@ If you encounter issues with the plug-in, or want to send feedback:
 ## Available Steps
 
 SQL Server database provisioning Oracle database provisioning (standalone/RAC, file system/ASM)
-
-|Back to ...||Latest Version|
-| :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[0]()|

@@ -95,7 +95,3 @@ Fixes running a process after creating a version.
 ### Version 1
 
 Initial release of the ClearCaseUCM source configuration plugin .
-
-|Back to ...||Latest Version|IBM Rational ClearCase ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[17.1155764](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ClearCaseSourceConfig/ucd-ClearCaseSourceConfig-17.1155764.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps and Roles](steps and roles.md)|[Downloads](downloads.md)|

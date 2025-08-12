@@ -27,7 +27,3 @@ DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-dependabot/tags).
 - Show data in insights
 - Used GraphQL queries
 - GitHub Personal access token required
-
-|Back to ...||Latest Version|GitHub Dependabot |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-dependabot/ucv-ext-dependabot%3A1.0.2.tar.7z.001)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|

@@ -27,7 +27,3 @@ No special steps are required for installation. See [Installing plug-ins in IBM 
 
 Version 1 is the initial release of the plug-in. It includes a step to attach Auto-Scaling policies.
 
-
-|Back to ...||Latest Version|IBM Bluemix Auto-Scaling |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[2.1174433](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/bluemix-autoscale/ucd-bluemix-autoscale-2.1174433.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|

@@ -48,7 +48,3 @@ You can use HTTP status codes to troubleshoot issues when using the plug-in. Sta
 
 1. Optionally, to add a proxy, add the argument --proxy [*protocol*://][*user*:*password*@]*proxyhost*[:*port*] to the end of the curl command.
 2. Save the process, and then run the process using the same resource and agent that the ServiceNow step uses.
-
-|Back to ...||Latest Version|ServiceNow |||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[40.1168551](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ServiceNow/ucd-ServiceNow-40.1168551.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

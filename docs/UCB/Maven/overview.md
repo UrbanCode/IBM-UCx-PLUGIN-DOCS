@@ -36,7 +36,3 @@ This version of the plug-in includes Maven 3.3.0 as a selectable version.
 
 This version of the plug-in includes a fix for an issue where Maven builds failed when the Maven Concurrent Local Repo field was specified.
 
-
-|Back to ...||Latest Version|Maven for IBM UrbanCode Build |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[9.913233](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Maven/Maven-9.913233.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|

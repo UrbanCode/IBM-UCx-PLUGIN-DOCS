@@ -31,7 +31,3 @@ JBoss Application Server is a open-source application server for Java EE. This p
 * Undeploy Application
 
 
-
-|Back to ...||Latest Version|||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[25.1155393](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/JBoss/ucd-JBoss-25.1155393.zip)|[Overview](overview.md)|[Steps](steps.md)|[Usage](usage.md)|[Downloads](downloads.md)|

@@ -10,7 +10,3 @@ MSTest - Downloads
 - [MSTest-4.604301.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/MSTest/MSTest-4.604301.zip)
 - [MSTest-3.410714.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/MSTest/MSTest-3.410714.zip)
 - [MSTest-2.359876.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/MSTest/MSTest-2.359876.zip)
-
-|Back to ...||Latest Version|MSTest |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[7.752751](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/MSTest/MSTest-7.752751.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|

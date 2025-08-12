@@ -52,7 +52,3 @@ Version 5.474440 includes the following features and fixes:
 
 * Prevent duplicate process changes.
 * Fix a memory leak that causes problems with large number of changes.
-
-|Back to ...||Latest Version|AccuWork |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[8.1096129](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/AccuWork/AccuWork-8.1096129.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|

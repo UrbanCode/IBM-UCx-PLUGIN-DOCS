@@ -14,7 +14,3 @@ To download the plug-in, click the following version-specific links.
 - [ClearCaseSourceConfig-8.1002531.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ClearCaseSourceConfig/ClearCaseSourceConfig-8.1002531.zip)
 - [ClearCaseSourceConfig-6.856047.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ClearCaseSourceConfig/ClearCaseSourceConfig-6.856047.zip)
 - [ClearCaseSourceConfig-5.786799.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ClearCaseSourceConfig/ClearCaseSourceConfig-5.786799.zip)
-
-|Back to ...||Latest Version|IBM Rational ClearCase ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[17.1155764](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ClearCaseSourceConfig/ucd-ClearCaseSourceConfig-17.1155764.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Steps and Roles](steps and roles.md)|

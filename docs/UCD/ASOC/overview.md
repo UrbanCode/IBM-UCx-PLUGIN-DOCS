@@ -78,7 +78,3 @@ Migrate internal logic to work with cloud V2 APIs
 
 Initial release of the plug-in.
 
-
-|Back to ...||Latest Version|HCL-ASOC UCD PLugin for UCD|||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[14.1152459](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ASOC/ucd-HCL-ASoC-UCD-14.1152459.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|

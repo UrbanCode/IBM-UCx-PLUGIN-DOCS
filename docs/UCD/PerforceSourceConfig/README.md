@@ -7,7 +7,3 @@ Use this source configuration plug-in to manually or automatically import artifa
 
 
 
-
-|Back to ...||Latest Version|||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[9.1026768](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/PerforceSourceConfig/PerforceSourceConfig-9.1026768.zip)|[Overview](overview.md)|[Settings](settings.md)|[Usage](usage.md)|[Downloads](downloads.md)|

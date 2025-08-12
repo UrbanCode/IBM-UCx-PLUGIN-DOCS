@@ -51,7 +51,3 @@ Some properties might not be displayed in the user interface, to see all propert
 | Organisation IDs      | String | At least one Snyk organisation ID should be provided . For adding multiple IDs , separate IDs by a line .                                        | Yes      |
 | Project Names         | String | Add Snyk project names to run plug-in for specific projects (line separated) . By default it will get data for all projects in the organisation . | No       |
 
-
-|Back to ...||Latest Version|Snyk |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.1](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-snyk/ucv-ext-snyk:1.0.1.tar.7z.001)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

@@ -84,7 +84,3 @@ The plug-in adds these roles automatically to resources. You cannot add these ro
 | SonarQube Version | String | The version of SonarQube if it is less than 1.8 or want to use a specific version. |
 
 
-
-|Back to ...||Latest Version|SonarQube (formerly Sonar) |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[8.838525](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Sonar/SonarQube-8.838525.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

@@ -53,7 +53,3 @@ Version 6.673610 includes the following features and fixes:
 Version 5.638529 includes the following features and fixes:
 
 * Fixed a.n issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE.
-
-|Back to ...||Latest Version|Subversion for IBM UrbanCode Build |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[11.1023828](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Subversion/Subversion-11.1023828.zip)|[Readme](README.md)|[Steps and Settings](steps and settings.md)|[Downloads](downloads.md)|

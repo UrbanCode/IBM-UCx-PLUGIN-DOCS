@@ -19,7 +19,3 @@ Plugin for managing IBM DevOps Deploy system properties and global settings.
 Add Group To TeamAdds a group to a team for a given type classification. Add User To TeamAdds a user to a team for a given type classification. Create System PropertyCreates a system-wide property. Get System ConfigurationGet all system configuration values. Set System ConfigurationSet some system configuration values.
 
 
-
-|Back to ...||Latest Version||||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[65.1102020](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-System/uDeploy-System-65.1102020.zip)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

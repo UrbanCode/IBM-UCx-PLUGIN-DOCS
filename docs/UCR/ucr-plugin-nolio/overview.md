@@ -60,7 +60,3 @@ define when items will be imported.
 * The initial release of the
 plug-in.
 
-
-|Back to ...||Latest Version|CA Nolio ||
-| :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Release Plugins](../README.md)|[4.1036957](https://raw.githubusercontent.com/UrbanCode/IBM-UCR-PLUGINS/main/files/ucr-plugin-nolio/ucr-plugin-nolio-4.1036957.zip)|[Readme](README.md)|[Downloads](downloads.md)|

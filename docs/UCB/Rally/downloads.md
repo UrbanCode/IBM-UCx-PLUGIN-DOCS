@@ -13,7 +13,3 @@ Rally for IBM UrbanCode Build - Downloads
 - [Rally-7.383642.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Rally/Rally-7.383642.zip)
 - [Rally-6.375200.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Rally/Rally-6.375200.zip)
 - [Rally-3.358078.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Rally/Rally-3.358078.zip)
-
-|Back to ...||Latest Version|Rally for IBM UrbanCode Build |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[17.1126865](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Rally/ucd-Rally-17.1126865.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps and Settings](steps and settings.md)|

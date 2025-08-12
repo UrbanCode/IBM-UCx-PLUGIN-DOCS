@@ -20,7 +20,3 @@ If you encounter issues with the plug-in, or want to send feedback:
 Run TestArchitect batch fileRun a batch file of TestArchitect commands then collect the result.
 
 Run TestArchitect via Command LineCalls a Logigear TestArchitect call via the command line. See Logigear TestArchitect for the official documentation on the command line.
-
-|Back to ...||Latest Version|
-| :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[0]()|

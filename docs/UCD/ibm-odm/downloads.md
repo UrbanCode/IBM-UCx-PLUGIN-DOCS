@@ -18,7 +18,3 @@ To download the plug-in, click the following version-specific links.
 - [ibm-odm-2.794665.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-odm/ibm-odm-2.794665.zip)
 - [ibm-odm-1.779503.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-odm/ibm-odm-1.779503.zip)
 - [ibm-odm-1.779116.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-odm/ibm-odm-1.779116.zip)
-
-|Back to ...||Latest Version|IBM Operational Decision Manager (ODM) ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[15.1174432](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-odm/ucd-ibm-odm-15.1174432.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|

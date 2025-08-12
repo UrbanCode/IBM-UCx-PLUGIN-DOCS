@@ -28,7 +28,3 @@ Publish CppUnit results as a Report
 | Source Directory | String | Please specify the Base Directory | Yes |
 
 
-
-|Back to ...||Latest Version|CppUnit |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[3.736890](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/CppUnit/CppUnit-3.736890.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

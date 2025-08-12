@@ -67,7 +67,3 @@ This release includes a fix for APAR PI55878, Import/Export not pulling existing
 
 Initial release.
 
-
-|Back to ...||Latest Version|IBM Cognos |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[12.1175694](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Cognos/ucd-Cognos-12.1175694.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|

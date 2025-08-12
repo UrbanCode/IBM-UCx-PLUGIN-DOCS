@@ -11,7 +11,3 @@ The following process downloads the application code and the Chef code. Then, it
 A simple process that downloads code, installs Chef, and installs two Chef nodes
 
 
-
-|Back to ...||Latest Version|Chef ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[3.1056568](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Chef/Chef-3.1056568.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

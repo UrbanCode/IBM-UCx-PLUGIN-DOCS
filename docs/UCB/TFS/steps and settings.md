@@ -102,7 +102,3 @@ The following settings are available when you import component versions by using
 | Workspace Name | String | The name of the TFS workspace. |
 
 
-
-|Back to ...||Latest Version|Team Foundation Server |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[11.1049734](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/TFS/TFS-11.1049734.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

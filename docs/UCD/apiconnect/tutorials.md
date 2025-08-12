@@ -25,7 +25,3 @@ The GitHub repository [refarch-hybridcloud-blueportal-api](https://github.com/ib
 The Using the API Connect plug-in video complements the information on the [Usage](usage.md) page.
 [![Using the API Connect plug-in](https://www.youtube.com/embed/JtJYFszcGs4)](https://www.youtube.com/embed/JtJYFszcGs4 "Using the API Connect plug-in")
 [![API Connect plug-in tutorial](https://www.youtube.com/watch?v=wqoPHkxCNSY)](https://www.youtube.com/watch?v=wqoPHkxCNSY "API Connect plug-in Tutorial")
-
-|Back to ...||Latest Version|IBM API Connect ||||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[8.1171240](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/apiconnect/ucd-apiconnect-8.1171240.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|

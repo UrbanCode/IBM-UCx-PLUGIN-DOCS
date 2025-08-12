@@ -33,7 +33,3 @@ view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/
 ### Version 1.0.14
 
 * Bug fix
-
-|Back to ...||Latest Version|WhiteSource |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[2.0.15](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-whitesource/ucv-ext-whitesource-2.0.15.tar.zip)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|

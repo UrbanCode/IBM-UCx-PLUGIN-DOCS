@@ -43,7 +43,3 @@ This example requires that the application binary files are in the component.
 3. The **Execute Test Case** step runs the specified IBM Security AppScan tests.
 4. The **Upload Asset** step publishes the IBM Security AppScan test results to the Rational Asset Manager server.
 5. The **Create Relationship to an Asset** step creates a relationship between the IBM Security AppScan test results and the application component. The step uses the environment properties that were stored when the application was deployed to access the correct application component and version.
-
-|Back to ...||Latest Version|IBM Rational Asset Manager ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[0](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/RAM/com.ibm.udeploy.plugin.ram.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

@@ -17,7 +17,3 @@ Change StatusUpdate the status of a Rally defect
 Create DefectCreate a new issue in Rally
 
 
-
-|Back to ...||Latest Version||||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[6.1056546](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Rally/Rally-6.1056546.zip)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

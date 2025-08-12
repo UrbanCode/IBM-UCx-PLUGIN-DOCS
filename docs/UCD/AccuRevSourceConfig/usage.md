@@ -37,7 +37,3 @@ If using the automatic import feature, the latest identified artifact set will b
 
 Otherwise, if using the manual import feature, you can specify a transaction, issue, or stream value to import a desired version. You can specify one or more values for each property.
 
-
-|Back to ...||Latest Version|AccuRev SCM ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[9.1100795](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/AccuRevSourceConfig/AccuRevSourceConfig-9.1100795.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps and Roles](steps and roles.md)|[Downloads](downloads.md)|

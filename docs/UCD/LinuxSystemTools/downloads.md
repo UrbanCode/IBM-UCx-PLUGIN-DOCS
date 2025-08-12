@@ -10,7 +10,3 @@ To download the plug-in, click the following version-specific links.
 - [LinuxSystemTools-10.868958.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/LinuxSystemTools/LinuxSystemTools-10.868958.zip)
 - [LinuxSystemTools-9.631844.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/LinuxSystemTools/LinuxSystemTools-9.631844.zip)
 - [LinuxSystemTools-8.423698.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/LinuxSystemTools/LinuxSystemTools-8.423698.zip)
-
-|Back to ...||Latest Version|Linux System Tools ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[14.1154088](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/LinuxSystemTools/ucd-LinuxSystemTools-14.1154088.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Usage](usage.md)|

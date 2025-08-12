@@ -125,7 +125,3 @@ Create a defect in Rally.
 | User Story ID | String | Specify a Rally user story to create a defect for a specific user story. You must specify a user story ID or a project key in the Project Name field. | No |
 
 
-
-|Back to ...||Latest Version|Rally for IBM DevOps Deploy |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[6.1056546](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Rally/Rally-6.1056546.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

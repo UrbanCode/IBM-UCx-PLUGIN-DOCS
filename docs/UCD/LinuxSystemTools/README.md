@@ -19,7 +19,3 @@ Developed by DevOps, the Linux Tools plugin allows Urban CodeDeploy to automate 
 **Update fstab:**Update, add, or remove rules from file system table (fstab) file.
 
 
-
-|Back to ...||Latest Version|||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[14.1154088](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/LinuxSystemTools/ucd-LinuxSystemTools-14.1154088.zip)|[Overview](overview.md)|[Steps](steps.md)|[Usage](usage.md)|[Downloads](downloads.md)|

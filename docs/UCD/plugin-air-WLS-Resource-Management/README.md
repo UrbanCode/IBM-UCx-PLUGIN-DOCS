@@ -19,7 +19,3 @@ Each step is self-contained. That is, connection credentials that are required t
 Refer to the [documentation](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/plugin-air-WLS-Resource-Management/steps.html "Installing plug-ins in DevOps Deploy") for a list of available steps.
 
 
-
-|Back to ...||Latest Version||||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[6.1056547](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/plugin-air-WLS-Resource-Management/plugin-air-WLS-Resource-Management-6.1056547.zip)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

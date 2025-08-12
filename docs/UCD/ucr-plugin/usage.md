@@ -164,7 +164,3 @@ During the execution of the IBM DevOps Deploy deployment process, the comments a
 
 [![release-plugin-add-comment-task-result](media/release-plugin-add-comment-task-result.jpg)](media/release-plugin-add-comment-task-result.jpg)
 
-
-|Back to ...||Latest Version|IBM DevOps Release ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[9.1056530](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ucr-plugin/ucr-plugin-9.1056530.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

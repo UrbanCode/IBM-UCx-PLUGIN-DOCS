@@ -40,7 +40,3 @@ This version of the plug-in includes a fix for an issue related to running scrip
 
 This version of the plug-in includes the ability to run JUnit test cases in Groovy steps.
 
-
-|Back to ...||Latest Version|Groovy for IBM UrbanCode Build |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[16.1164697](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Groovy/Groovy-16.1164697.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|

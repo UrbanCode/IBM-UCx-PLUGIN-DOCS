@@ -26,7 +26,3 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 RFE 103489Initial release of InfoSphere Information Services Directory plug-in.
 
-
-|Back to ...||Latest Version|InfoSphere-ISD |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[1.1174436](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/infosphere-isd/ucd-plugins-infosphere-isd-1.1174436.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|

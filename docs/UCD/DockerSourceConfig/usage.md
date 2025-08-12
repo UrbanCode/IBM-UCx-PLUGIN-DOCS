@@ -168,7 +168,3 @@ To create a component by importing from Docker, complete the following steps. Fo
 4. Click **Save**.
 5. Click the **Versions** tab for the component.
 6. Click **Import New Versions**.
-
-|Back to ...||Latest Version|Docker Registry ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[44.1167750](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/DockerSourceConfig/ucd-DockerSourceConfig-44.1167750.zip)|[Readme](README.md)|[Overview](overview.md)|[Settings](settings.md)|[Downloads](downloads.md)|

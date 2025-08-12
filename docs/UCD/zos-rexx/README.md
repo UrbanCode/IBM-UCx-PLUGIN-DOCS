@@ -19,7 +19,3 @@ The plug-in is compatible with:
 
 * Execute a REXX program
 
-
-|          Back to ...          |                                |                                                         Latest Version                                                          | z/OS Rexx Executor  |                         |                   |                   |                          |
-|:-----------------------------:|:------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------:|:-------------------:|:-----------------------:|:-----------------:|:-----------------:|--------------------------|
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [2.1176018](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-rexx/ucd-plugins-zos-rexx-2.1176018.zip) | [Readme](README.md) | [Overview](overview.md) | [Steps](steps.md) | [Usage](usage.md) | [download](downloads.md) |

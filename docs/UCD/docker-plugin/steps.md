@@ -364,7 +364,3 @@ Role for resources that represents a Container Image Registry.
 | Password | Password | Password used to access the image registery. When using IBM Containers, provide IBM Cloud Credentials. For Amazon ECR, use AWS access key as username and secret key as password. |
 | Registry Type | Enumeration: | Specify which API to connect with the Image Registry. When using IBM Containers, provide IBM Cloud Credentials. For Amazon ECR, use AWS access key as username and secret key as password. |
 | User Name | String | User name used to access the image registery. When using IBM Containers, provide IBM Cloud Credentials. For Amazon ECR, use AWS access key as username and secret key as password. |
-
-|Back to ...||Latest Version|Docker |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[11.1154926](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/docker-plugin/ucd-docker-plugin-11.1154926.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

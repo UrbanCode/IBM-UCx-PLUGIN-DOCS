@@ -45,7 +45,3 @@ Update Java Properties FileAdd, remove, and update properties in a Java properti
 Update XML File with XPathUpdate XML files using XPath to locate items to edit.
 
 
-
-|Back to ...||Latest Version||||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[44.754293](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/FileUtils/FileUtils-44.754293.zip)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

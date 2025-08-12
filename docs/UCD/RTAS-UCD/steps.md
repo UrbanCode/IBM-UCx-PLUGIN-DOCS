@@ -32,7 +32,3 @@ Use this step to start a job on the Rational Test Automation Server.
 | HTTP Proxy User name | String | The username to authenticate with HTTP proxy. | No |
 | HTTP Proxy Password | Password | The password to authenticate with HTTP proxy. | No |
 
-
-|Back to ...||Latest Version|IBM Rational Test Automation Server (RTAS) ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[3.3](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/RTAS-UCD/RTAS-UCD-3.3.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

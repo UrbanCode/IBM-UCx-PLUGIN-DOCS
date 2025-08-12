@@ -109,7 +109,3 @@ TFS Work Items - Steps and Settings
 >
 >
 
-
-|Back to ...||Latest Version|TFS Work Items |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[4.752909](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/TFS-WorkItems/TFS-WorkItems-4.752909.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

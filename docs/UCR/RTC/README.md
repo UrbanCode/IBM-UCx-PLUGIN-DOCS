@@ -13,7 +13,3 @@ Compatibility:
 server. There is no need to install this plug-in. For more information on the built-in integration, see [the product
 help](http://www.ibm.com/support/knowledgecenter/SS4GCC_6.1.2/com.ibm.urelease.doc/topics/rtcintegrat_cpt.html).
 
-
-|Back to ...||Latest Version|||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Release Plugins](../README.md)|[3.969559](https://raw.githubusercontent.com/UrbanCode/IBM-UCR-PLUGINS/main/files/RTC/ucr-plugin-rtc-3.969559.zip)|[Overview](overview.md)|[Usage](usage.md)|[Settings](settings.md)|[Downloads](downloads.md)|

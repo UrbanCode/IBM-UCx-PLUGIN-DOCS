@@ -66,7 +66,3 @@ To download the plug-in, click the following version-specific links.
 - [FileUtils-34.545196.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileUtils/FileUtils-34.545196.zip)
 - [FileUtils-31.455052.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileUtils/FileUtils-31.455052.zip)
 - [FileUtils-29.423657.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileUtils/FileUtils-29.423657.zip)
-
-|          Back to ...          ||         Latest Version         |                                                         File Utils                                                          |||||
-|:-----------------------------:|:------------------------------:|:---------------------------------------------------------------------------------------------------------------------------:| :---: | :---: | :---: | :---: | :---: |
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) |  [100.1176430](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileUtils/ucd-FileUtils-100.1176430.zip) |[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|[Troubleshooting](troubleshooting.md)|

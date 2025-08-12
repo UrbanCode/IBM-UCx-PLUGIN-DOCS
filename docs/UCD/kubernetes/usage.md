@@ -18,7 +18,3 @@ To access this plug-in in the palette, click **Cloud** > **Kubernetes**.
 + [Kubernetes Blue-Green Deployments Working Example](https://community.ibm.com/community/user/wasdevops/blogs/osman-burucu/2022/07/13/kubernetes-blue-green-deployments-working-example")
 * [Deploying Kubernetes Helm Charts to Kubernetes](https://www.urbancode.com/2017/09/25/deploying-kubernetes-helm-charts/) to build a working Helm chart deployment
 
-
-|Back to ...||Latest Version|Kubernetes ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[33.1176035](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/kubernetes/ucd-kubernetes-33.1176035.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

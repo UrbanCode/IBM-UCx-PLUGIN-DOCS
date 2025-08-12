@@ -78,7 +78,3 @@ Some properties might not be displayed in the user interface, to see all propert
 | All workitem types | Boolean | If true, every work item type will be considered for risk assessment | false | USE_EVERY_JYRA_TYPE |
 | Selected workitem types | Array | Comma separated list of work item types to consider for risk assessment | false | JYRA_TYPE |
 
-
-|Back to ...||Latest Version|Milestone Risk Estimator |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[2.0.4](https://hub.docker.com/r/urbancode/ucv-ext-milestone-risk-estimator/tags)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

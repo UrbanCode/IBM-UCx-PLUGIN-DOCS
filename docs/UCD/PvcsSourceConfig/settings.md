@@ -34,7 +34,3 @@ The following settings are available when you import new component versions by u
 | Version Name | String | Name of the resulting component version. |
 
 
-
-|Back to ...||Latest Version|PVCS ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[7.1026780](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/PvcsSourceConfig/PvcsSourceConfig-7.1026780.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

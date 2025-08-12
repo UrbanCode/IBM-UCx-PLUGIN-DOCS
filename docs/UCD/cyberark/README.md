@@ -20,7 +20,3 @@ Get Password from CP (CLI Utility) Retrieve a password from CyberArk AIM Credent
 Authenticate Conjur Authenticate Conjur using API Key to get a short-lived access token.
 
 Get Variable from Conjur Get a variable from Conjur.
-
-|Back to ...||Latest Version||||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[4.1098501](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/cyberark/cyberark-4.1098501.zip)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|

@@ -58,7 +58,3 @@ Fixes APAR PI35342compatibility defect with IBM DevOps Deploy version 6.1.0.4 an
 
 Installing this plugin will give you access to the Run Test Suite step. This step will be available for use in processes.
 
-
-|Back to ...||Latest Version|Selenium ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[9.1154067](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Selenium/ucd-Selenium-9.1154067.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

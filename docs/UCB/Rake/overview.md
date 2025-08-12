@@ -41,7 +41,3 @@ Version 3.75293 includes the following features and fixes:
 
 Version 2.358076 is the initial release of this plug-in. Released on February 2, 2014.
 
-
-|Back to ...||Latest Version|Rake |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[3.752923](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Rake/Rake-3.752923.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|

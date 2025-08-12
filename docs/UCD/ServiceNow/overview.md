@@ -161,7 +161,3 @@ This version uses manual API checking. This version also enforces tighter passin
 #### Version 10
 
 This version includes a fix for a defect related to the ServiceNow REST API in the Eureka and Fuji releases. This version of the plug-in automatically checks the ServiceNow API version.
-
-|Back to ...||Latest Version|ServiceNow |||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[40.1168551](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ServiceNow/ucd-ServiceNow-40.1168551.zip)|[Readme](README.md)|[Usage](usage.md)|[Troubleshooting](troubleshooting.md)|[Steps](steps.md)|[Downloads](downloads.md)|

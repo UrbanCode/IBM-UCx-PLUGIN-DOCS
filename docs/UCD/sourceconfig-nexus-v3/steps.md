@@ -35,7 +35,7 @@ The plug-in adds these roles automatically to resources. You cannot add these ro
 | Nexus Component | String | The component name in Nexus. Specifying this value will import only versions of the given Nexus component name. This field should be used when you have multiple components in the same repository, as is the case for NPM repositories. |
 | Password | Password | The password for the Nexus user. |
 | Repository | String | The name of the repository in Nexus from which to import versions. |
-| Server URL | String | Base URL and port for the Nexus server(I.E. http://localhost:8081). |
+| Server URL | String | Base URL and port for the Nexus server(i.e., `http://localhost:8081`). |
 | User | String | The user name for the Nexus user. |
 
 ## ImportProperties
@@ -46,7 +46,3 @@ The plug-in adds these roles automatically to resources. You cannot add these ro
 | Specific version to import. | String |  |
 
 
-
-|Back to ...||Latest Version|Nexus Repository Manager V3 ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[6.1179697](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/sourceconfig-nexus-v3/devops-deploy-sourceconfig-nexus-v3-6.1179697.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

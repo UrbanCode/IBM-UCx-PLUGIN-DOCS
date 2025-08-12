@@ -24,7 +24,3 @@ No special steps are required for installation. See [Installing plug-ins in IBM 
 ### Version 1.730108*March 3, 2016*
 
 * Initial release of the plug-in.
-
-|Back to ...||Latest Version|Microsoft SSIS |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[2.1005733](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/MicrosoftSSIS/MicrosoftSSIS-2.1005733.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|

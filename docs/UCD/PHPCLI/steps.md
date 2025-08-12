@@ -35,7 +35,3 @@ cd $DevOps PHP CLI php DevOps PHP CLI .php action argument
 | ver |  | Prints information about DevOps PHP CLI version and supported DevOps Deployversions |
 | waitRequestCompletion | [required] ID of process request | Polls the request until its completed. Returns completion status. |
 
-
-|Back to ...||Latest Version|IBM DevOps PHP CLI Tool |||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[6.714879](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/PHPCLI/SubversionSourceConfig-6.714879.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Setup](setup.md)|[Downloads](downloads.md)|

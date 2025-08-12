@@ -9,7 +9,3 @@ The IBM DevOps Deploy plug-ins for Rational Functional Tester includes process s
 
 In addition to the Functional test plugin download above, it and the Web UI ones are available from: [UCD plugin for Web UI tests](https://github.com/UrbanCode/IBM-UCD-PLUGINS/blob/main/files/RFT-WebUI-UCD/RFT-WebUI-UCD-4.0.zip) [UCD plugin for Functional tests](https://github.com/UrbanCode/IBM-UCD-PLUGINS/blob/main/files/RFT-UCD/RFT-UCD-4.0.zip)
 
-
-|Back to ...||Latest Version|||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[6.1](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/RFT-UCD/RFT-UCD-FunctionalTest-6.1.zip)|[Overview](overview.md)|[Steps](steps.md)|[Usage](usage.md)|[Downloads](downloads.md)|

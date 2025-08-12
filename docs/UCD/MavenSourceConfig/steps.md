@@ -52,7 +52,3 @@ The plug-in adds these roles automatically to resources. You cannot add these ro
 | Version Description | String | An optional description to add to the versions that are imported into DevOps Deploy. |
 
 
-
-|Back to ...||Latest Version|Maven ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[30.1167665](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/MavenSourceConfig/ucd-MavenSourceConfig-30.1167665.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

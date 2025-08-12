@@ -20,7 +20,3 @@ This can occur because F5 BIG-IP hardcodes the location of the .keystore file to
 
 You can now run the F5 BIG-IP step to completion.
 
-
-|Back to ...||Latest Version|F5 BIG-IP ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[24.1107123](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/F5/F5-24.1107123.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

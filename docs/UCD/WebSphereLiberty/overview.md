@@ -143,7 +143,3 @@ This release includes the following features and fixes:
 * A fix for attribute names that are used in the `quickStartSecurity` node.
 * A new **optionalArgs** field for the Create Collective step.
 * A fix for APAR PI60739Start Server step does not complete if started on Windows.
-
-|Back to ...||Latest Version|IBM WebSphere Liberty |||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[23.1174431](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereLiberty/ucd-WebSphereLiberty-23.1174431.zip)|[Readme](README.md)|[Troubleshooting](troubleshooting.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

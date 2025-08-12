@@ -51,7 +51,3 @@ The plug-in adds these roles automatically to resources. You cannot add these ro
 | Version to Import | String | The version of a package to import. |  |
 
 
-
-|Back to ...||Latest Version|NPM ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[3.1053076](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/sourceconfig-npm/sourceconfig-npm-3.1053076.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

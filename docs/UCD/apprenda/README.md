@@ -7,7 +7,3 @@ This is a partner plug-in.
 
 * [Apprenda plug-in distribution](https://github.com/apprenda/Urbancode-Automation-Plugin/releases)
 * [Source project](https://github.com/apprenda/Urbancode-Automation-Plugin)
-
-|Back to ...||Latest Version|
-| :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[0]()|

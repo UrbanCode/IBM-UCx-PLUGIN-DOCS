@@ -561,7 +561,3 @@ What to do next
 
 Optionally, create extra component and application processes in DevOps Deploy to roll back deployments (for example, to recover from an error condition or an incomplete deployment.) See [Rolling back mobile applications](#rolling-back-mobile-applications).
 
-
-|Back to ...||Latest Version|IBM MobileFirst Platform (formerly Worklight) |||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[13.1174444](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/air-worklight/ucd-ibm-mobilefirst-13.1174444.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|

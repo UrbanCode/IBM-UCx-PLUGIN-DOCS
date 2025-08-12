@@ -26,7 +26,3 @@ To download the plug-in, click the following version-specific links.
 - [uDeploy-Resource-71.855625.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Resource/uDeploy-Resource-71.855625.zip)
 - [uDeploy-Resource-70.818220.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Resource/uDeploy-Resource-70.818220.zip)
 - [uDeploy-Resource-69.786827.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Resource/uDeploy-Resource-69.786827.zip)
-
-|Back to ...||Latest Version|IBM DevOps Deploy Resources ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[86.1155708](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Resource/ucd-uDeploy-Resource-86.1155708.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|

@@ -19,7 +19,3 @@ regular interval and only objects that have changed since the last import are up
 background. After an import is complete, the Jenkins jobs can included in a deployment by selecting the **Add Task** >
 **Plugin Task**. Click the drop-down arrow for the **Task** field to select a job.
 
-
-|Back to ...||Latest Version|Jenkins for IBM UrbanCode Release ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Release Plugins](../README.md)|[2.1124702](https://raw.githubusercontent.com/UrbanCode/IBM-UCR-PLUGINS/main/files/ucr-jenkins-ci/plugins-ucr-jenkins-ci-2.1124702.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

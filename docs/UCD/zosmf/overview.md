@@ -66,7 +66,3 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 * Fixed a problem in Start Workflow step that Perform Subsequent parameter does not work.
 * Fixed a problem in Start Workflow step that partially completed workflow gives a step failure.
 * Enhanced Start Workflow step to display job logs.
-
-|          Back to ...          | |         Latest Version         |                                                             z/OS Management Facility                                                              ||||
-|:-----------------------------:|:------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------:| :---: | :----: |:-------------------------:|
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [15.1174435](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zosmf/ucd-zosmf-15.1174435) | [Readme](README.md) | [Usage](usage.md) | [Steps](steps.md) | [Downloads](downloads.md)|

@@ -100,7 +100,3 @@ Stop one or more services.
 | Wait for Stopped | Boolean | When selected, the step waits for the service to stop before proceeding. | No |
 
 
-
-|Back to ...||Latest Version|Microsoft Windows Services |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[12.1155989](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ServiceControlManager/ucd-ServiceControlManager-12.1155989.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

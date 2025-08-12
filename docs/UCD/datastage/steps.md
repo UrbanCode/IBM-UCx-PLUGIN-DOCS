@@ -190,7 +190,3 @@ List the objects that a .dsx file contains. This step works only on tiers where 
 | DataStage Script Path | String | Specify the full path to the node agent \bin directory where the DataStage scripts are located. | Yes |
 
 
-
-|Back to ...||Latest Version|IBM InfoSphere DataStage ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[10.1164467](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/datastage/ucd-datastage-10.1164467.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

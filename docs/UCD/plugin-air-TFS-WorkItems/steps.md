@@ -83,7 +83,3 @@ Use this step to update fields in a Microsoft TFS work item.
 | Work Item ID | String | The ID of the work item to change. | Yes |
 
 
-
-|Back to ...||Latest Version|Microsoft TFS Work Items ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[3.1056533](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/plugin-air-TFS-WorkItems/TFS-WorkItems-3.1056533.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

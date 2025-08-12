@@ -75,7 +75,3 @@ Fixes APAR PI67556. Added missing "Preserve Execution Permissions" option
 ### Verion 1
 
 * Initial Release of File System source configuration plug-in.
-
-|Back to ...||Latest Version|File System ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[13.1155763](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileSystemSourceConfig/ucd-FileSystemSourceConfig-13.1155763.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

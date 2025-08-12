@@ -53,7 +53,3 @@ Version 19.672547 includes the following features and fixes:
 Version 19.612820 includes the following features and fixes:
 
 * Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK and IBM JRE.
-
-|Back to ...||Latest Version|Rational Team Concert SCM |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[24.1013888](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/RationalTeamConcert/RTC-scm-24.1013888.zip)|[Readme](README.md)|[Steps and Settings](steps and settings.md)|[Downloads](downloads.md)|

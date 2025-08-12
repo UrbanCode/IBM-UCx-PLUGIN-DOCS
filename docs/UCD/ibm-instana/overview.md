@@ -29,7 +29,3 @@ No special steps are required for installation. See [Installing plug-ins in IBM 
 #### Version 1
 
 * Initial release of the plug-in, which includes a step to add a release maker in Instana.
-
-|Back to ...||Latest Version|IBM Instana  ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[2.1158245](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-instana/ucd-Instana-2.1158245.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

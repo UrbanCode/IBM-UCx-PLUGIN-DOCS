@@ -19,7 +19,3 @@ If you encounter issues with the plug-in, or want to send feedback:
 ## Available Steps
 
 **Update**: Applies given count of change sets is specified. Else updates database to current version. **Rollback**: Rolls back change sets. **dbDoc**: Execute Liquibase in dbDoc mode to produce or update database reference documentation. **DropAll**: Drops all database objects owned by the user. **Tag**: Tags the current database state for future rollback. **Generate Changelog**: Generates change log of the database. **Export Data**: Export the data from the targeted database. **Changelog Sync**: Mark all changes as executed in the database. **Update Testing Rollback**: Updates the database, then rolls back changes before updating again. **Validate**: Checks the changelog for errors.
-
-|Back to ...||Latest Version|
-| :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[0]()|

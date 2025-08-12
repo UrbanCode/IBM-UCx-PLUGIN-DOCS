@@ -5,7 +5,3 @@ IBM BigFix helps reduce the time, cost and risk of managing virtually any mix of
 
 Use the IBM BigFix plug-in to start BigFix actions from IBM DevOps Deploy processes.
 
-
-|Back to ...||Latest Version||||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[2.1174440](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/bigfix/ucd-bigfix-2.1174440.zip)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

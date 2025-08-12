@@ -130,7 +130,3 @@ Query a change package for names, groups, and types of resource definitions with
 | resourceTypes | String | A single string of all the different types of resource definitions contained within the change package, separated by commas. |
 
 
-
-|Back to ...||Latest Version|CICS CM (Beta) |||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[0](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/CICS-CM/UCD_CM_Plugin.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Component Templates](component_templates.md)|[Downloads](downloads.md)|

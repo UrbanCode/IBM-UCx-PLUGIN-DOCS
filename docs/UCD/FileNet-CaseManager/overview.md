@@ -35,7 +35,3 @@ The DevOps Deploy agent running the Case Manager plug-in steps must be installed
 
 Initial release of the FileNetIBM Case Manager plug-in.
 
-
-|Back to ...||Latest Version|FileNet - IBM Case Manager ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[1.1100878](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileNet-CaseManager/FileNet-CaseManager-1.1100878.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

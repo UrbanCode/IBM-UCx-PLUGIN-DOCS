@@ -30,7 +30,3 @@ This version of the plug-in includes translated steps and properties.
 
 This version of the plug-in includes a fix for an issue where communication with the IBM UrbanCode Build server would fail when using an IBM JDK or JRE.
 
-
-|Back to ...||Latest Version|File System for IBM UrbanCode Build |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[5.913286](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/FileSystem/FileSystem-5.913286.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|

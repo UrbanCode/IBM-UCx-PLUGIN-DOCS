@@ -13,7 +13,3 @@ Available Steps
 Run Groovy Script Run a Groovy script.
 
 
-
-|Back to ...||Latest Version||||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[16.1164697](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Groovy/Groovy-16.1164697.zip)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

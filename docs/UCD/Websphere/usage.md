@@ -80,7 +80,3 @@ The plug-in now includes component templates. The component templates include pr
 10. The **Wait for Application** step introduces a delay to allow time for the application to start.
 
 [![DeployEARprocess](media/deployearprocess.gif)](media/deployearprocess.gif)
-
-|Back to ...||Latest Version|WebSphere Application Server - Deployment |||||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[132.1179210](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/WAS-Deploy-132.1179210.zip)|[Readme](README.md)|[Overview](overview.md)|[User permissions](user permissions.md)|[Steps](steps.md)|[Roles](roles.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|

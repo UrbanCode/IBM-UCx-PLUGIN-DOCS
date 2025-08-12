@@ -380,7 +380,3 @@ Role for resources that represents a Kubernetes Cluster.
 | User Name | String | Username for basic authentication to the API server. |
 
 
-
-|Back to ...||Latest Version|Kubernetes ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[33.1176035](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/kubernetes/ucd-kubernetes-33.1176035.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

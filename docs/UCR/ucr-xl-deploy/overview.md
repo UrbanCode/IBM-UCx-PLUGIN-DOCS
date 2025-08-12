@@ -64,7 +64,3 @@ Check Authentication task.
 
 
 * Initial release of plug-in.
-
-|Back to ...||Latest Version|XL Deploy ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Release Plugins](../README.md)|[6.1039808](https://raw.githubusercontent.com/UrbanCode/IBM-UCR-PLUGINS/main/files/ucr-xl-deploy/plugins-ucr-xl-deploy-6.1039808.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

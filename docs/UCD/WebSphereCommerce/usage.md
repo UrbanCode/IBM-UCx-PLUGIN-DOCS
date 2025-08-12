@@ -35,7 +35,3 @@ The IBM DevOps Deploy agent must be installed on the system that hosts the WebSp
 * Select the process for the component. For example, select **Profit Margin package deployment process**.
 * Click **Save**.
 8. Run the process to test the new component.
-
-|Back to ...||Latest Version|IBM WebSphere Commerce ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[6.1100872](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereCommerce/WebSphereCommerce-6.1100872.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

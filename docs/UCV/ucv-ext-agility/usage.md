@@ -110,7 +110,3 @@ Product"],
 ```
 
 
-
-|Back to ...||Latest Version|Digital.ai Agility |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.20](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-agility/ucv-ext-agility-1.0.20.tar.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

@@ -88,7 +88,3 @@
 + Choose the process for the component. For example, choose **Online snapshot deployment process**.
 * Click **Save**.
 8. Run the process to test the new component.
-
-|Back to ...||Latest Version|IBM Business Process Manager (WebSphere BPM) for IBM DevOps Deploy ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[13.1100894](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereBPM/WebSphereBPM-13.1100894.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

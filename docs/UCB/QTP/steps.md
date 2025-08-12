@@ -30,7 +30,3 @@ Run QuickTest Pro tests
 | Web Application URL | String | This will override the applications URL if testing a web application. | No |
 
 
-
-|Back to ...||Latest Version|QTP |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[3.752827](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/QTP/QTP-3.752827.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

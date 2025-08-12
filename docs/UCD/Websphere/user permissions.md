@@ -38,7 +38,3 @@ You can find a description of the possible user tthe WebSphere Application Serve
 The step **Deployment** > **Execute wsadmin script** can execute an arbitrary script, and in general will require a user in the Administrator role.
 * The DevOps Deploy user that executes these steps only need to be able to execute the process on the Environment.
 
-
-|Back to ...||Latest Version|WebSphere Application Server - Deployment |||||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[132.1179210](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/WAS-Deploy-132.1179210.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|[Roles](roles.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|

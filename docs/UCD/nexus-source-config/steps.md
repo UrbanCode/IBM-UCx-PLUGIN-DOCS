@@ -31,7 +31,3 @@ This step has no input properties.
 | Specific version | String |  |
 
 
-
-|Back to ...||Latest Version|Nexus Source Config ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[4.1053075](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/nexus-source-config/Nexus-Source-Config-4.1053075.zip)|[Readme](README.md)|[Overview](overview.md)|[Configuration](configuration.md)|[Downloads](downloads.md)|

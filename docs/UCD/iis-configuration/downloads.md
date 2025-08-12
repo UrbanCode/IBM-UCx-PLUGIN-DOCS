@@ -17,7 +17,3 @@ To download the plug-in, click the following version-specific links.
 - [IIS-Configuration-3.828537.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/iis-configuration/IIS-Configuration-3.828537.zip)
 - [IIS-Configuration-2.827368.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/iis-configuration/IIS-Configuration-2.827368.zip)
 - [IIS-Configuration-1.822837.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/iis-configuration/IIS-Configuration-1.822837.zip)
-
-|Back to ...||Latest Version|Microsoft IIS - Configure |||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[13.1127381](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/iis-configuration/ucd-IIS-Configuration-13.1127381.zip)|[Readme](README.md)|[Overview](overview.md)|[Troubleshooting](troubleshooting.md)|[Usage](usage.md)|[Steps](steps.md)|

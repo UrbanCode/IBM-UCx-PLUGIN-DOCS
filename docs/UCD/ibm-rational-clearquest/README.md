@@ -12,7 +12,3 @@ The IBM Rational ClearQuest plug-in contains a simple step to add Related Change
 ## Available Steps
 
 Add Related Change RequestAdd a Related Change Request link to a record. (Note: This will remove all other links.)
-
-|Back to ...||Latest Version|
-| :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[0]()|

@@ -100,7 +100,3 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 ### Version 5
 
 - Add support for wildcards when specifying SQL scripts.
-
-|Back to ...||Latest Version|Oracle SQLPlus ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[24.1163812](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SQLPlus/ucd-SQLPlus-24.1163812.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

@@ -29,7 +29,3 @@ Enable Service Groups: Enable one or more service groups in NetScaler
 Enable Services: Enable one or more services in NetScaler
 
 
-
-|Back to ...||Latest Version||
-| :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[8.858051](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Netscaler/Netscaler-8.858051.zip)|[Downloads](downloads.md)|

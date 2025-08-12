@@ -105,7 +105,3 @@ Global settings for accessing Harvest repositories.
 | View Path | String | The path to the Harvest repository in the Harvest server. For example: \TestRepo. |
 
 
-
-|Back to ...||Latest Version|CA Harvest SCM |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[7.1098511](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Harvest/Harvest-hcl-7.1098511.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

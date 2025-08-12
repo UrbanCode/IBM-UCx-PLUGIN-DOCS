@@ -20,7 +20,3 @@ To download the plug-in, click the following version-specific links.
 - [Groovy-5.670713.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Groovy/Groovy-5.670713.zip)
 - [Groovy-4.641570.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Groovy/Groovy-4.641570.zip)
 - [Groovy-2.423689.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Groovy/Groovy-2.423689.zip)
-
-|Back to ...||Latest Version|Groovy ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[16.1155716](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Groovy/ucd-Groovy-16.1155716.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|

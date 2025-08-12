@@ -25,7 +25,3 @@ The plug-in runs on any agents that the IBM UrbanCode Build server supports.
 
 No special steps are required for installation. See [Installing plug-ins in UrbanCode](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode").
 
-
-|Back to ...||Latest Version|ClearCase Base Snapshot |||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[14.767774](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/ClearCaseBaseSnapshot/ClearCaseBaseSnapshot-14.767774.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Settings](settings.md)|[Downloads](downloads.md)|

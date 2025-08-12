@@ -21,7 +21,3 @@ If you encounter issues with the plug-in, or want to send feedback:
 
 * Apply one or more manifest through puppet
 * Run puppet agent to get updates from master
-
-|Back to ...||Latest Version|
-| :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[0]()|

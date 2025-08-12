@@ -106,7 +106,3 @@ Undeploy a web application on Tomcat.
 | Tomcat Manager User Name | String | The user name to use to log in to the Tomcat Manager interface. | Yes |
 
 
-
-|Back to ...||Latest Version|Apache Tomcat ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[8.1150600](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Tomcat/ucd-Tomcat-8.1150600.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

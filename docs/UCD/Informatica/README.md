@@ -34,7 +34,3 @@ The Informatica plug-in is an open source project that is maintained by the IBM 
 * Roll Back Deployment Group
 * Run PMREP Command
 * Validate Deployment Group
-
-|Back to ...||Latest Version||||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[v31](https://github.com/UrbanCode/Informatica-UCD/releases/download/31/Informatica-UCD-v31.ad2156b.zip)|[Overview](overview.md)|[Steps](steps.md)|[Usage](usage.md)|

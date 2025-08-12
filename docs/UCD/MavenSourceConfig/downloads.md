@@ -29,7 +29,3 @@ To download the plug-in, click the following version-specific links.
 - [MavenSourceConfig-6.866599.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/MavenSourceConfig/MavenSourceConfig-6.866599.zip)
 - [MavenSourceConfig-6.856048.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/MavenSourceConfig/MavenSourceConfig-6.856048.zip)
 - [MavenSourceConfig-5.786806.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/MavenSourceConfig/MavenSourceConfig-5.786806.zip)
-
-|Back to ...||Latest Version|Maven ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[30.1167665](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/MavenSourceConfig/ucd-MavenSourceConfig-30.1167665.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|

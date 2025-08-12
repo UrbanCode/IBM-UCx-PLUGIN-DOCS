@@ -34,7 +34,3 @@ Version 5.767528 includes the following features and fixes:
 * Fixed APAR PI27734: Errors using the Update JDBC Data Source step in the WebLogic Server Resource Management plug-in with DevOps Deploy.
 * Fixed APAR PI27734: Correction to the bean attributes.
 * Updates to the documentation.
-
-|Back to ...||Latest Version|Oracle WebLogic Server Resource Management |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[6.1056547](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/plugin-air-WLS-Resource-Management/plugin-air-WLS-Resource-Management-6.1056547.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|

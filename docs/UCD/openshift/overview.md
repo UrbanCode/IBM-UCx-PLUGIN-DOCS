@@ -115,7 +115,3 @@ Version 13
 
 * The initial release of the plug-in includes steps to deploy, roll back, scale and tag an application in OpenShift.
 
-
-|Back to ...||Latest Version|OpenShift for IBM DevOps Deploy ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[25.1176034](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/openshift/ucd-openshift-25.1176034.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

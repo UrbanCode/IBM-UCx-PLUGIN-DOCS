@@ -19,7 +19,3 @@ Jira for IBM UrbanCode Release - Downloads
 - [ucr-plugin-jira-5.927256.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCR-PLUGINS/main/files/ucr-plugin-jira/ucr-plugin-jira-5.927256.zip)
 - [ucr-plugin-jira-2.869688.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCR-PLUGINS/main/files/ucr-plugin-jira/ucr-plugin-jira-2.869688.zip)
 - [ucr-plugin-jira-1.834579.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCR-PLUGINS/main/files/ucr-plugin-jira/ucr-plugin-jira-1.834579.zip)
-
-|Back to ...||Latest Version|Jira for IBM UrbanCode Release |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Release Plugins](../README.md)|[18.1079383](https://raw.githubusercontent.com/UrbanCode/IBM-UCR-PLUGINS/main/files/ucr-plugin-jira/ucr-plugin-jira-18.1079383.zip)|[Readme](README.md)|[Overview](overview.md)|[Settings](settings.md)|

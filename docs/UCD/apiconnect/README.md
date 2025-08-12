@@ -24,7 +24,3 @@ The IBM API Connect plug-in is an open source project that is fully supported by
 LoginAuthenticate with an API Connect cloud through the management server. LogoutRemove local authentication credentials for an API Connect cloud. Publish API and Product DefinitionsPublish and deploy a product and its referenced APIs to a catalog. Publish Application to Provider AppPublish a Node.js (Loopback) application to a provider app. Push Local API or Product Definitions to DraftsPush a local API or product definition to drafts on an API Connect cloud. Replace Product in CatalogReplace a product in a catalog with another product. Set Configuration VariableSet one configuration variable. The ‘Login’ step is not required. This is a wrapper step for the App and Catalog Identifier. If you understand and have access to the Identifier command, use the Shell step to run that command.
 
 
-
-|Back to ...||Latest Version|||||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[8.1171240](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/apiconnect/ucd-apiconnect-8.1171240.zip)|[Overview](overview.md)|[Usage](usage.md)|[Tutorials](tutorials.md)|[Steps](steps.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|

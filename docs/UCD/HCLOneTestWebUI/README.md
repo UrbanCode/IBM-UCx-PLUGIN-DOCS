@@ -13,7 +13,3 @@ The HCL OneTest WebUI plug-in for DevOps Deploy provides a step to run functiona
 Run WebUI Functional Test
 
 
-
-|Back to ...||Latest Version||
-| :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[11.1](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/HCLOneTestWebUI/HOT-UI-UCD-UITest-11.1.zip)|[Downloads](downloads.md)|

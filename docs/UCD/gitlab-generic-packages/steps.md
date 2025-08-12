@@ -21,7 +21,3 @@ Download all files under a specified version of a repository.
 | Log4j Logging Level | Boolean | Configure the level of Log4j messages to output to the console. Specify the logging level as ALL, TRACE, DEBUG, INFO, WARN, ERROR, FATAL, or OFF. | No |
 
 
-
-|          Back to ...          | |         Latest Version         |GitLab Generic Packages|||
-|:-----------------------------:|:------------------------------:| :---: | :---: | :---: | :---: |
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) |[1.1148660](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/gitlab-generic-packages/ucd-plugins-gitlab-generic-packages-1.1148660.zip)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

@@ -24,7 +24,3 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 * Initial release
 
 
-
-|Back to ...| |Latest Version|GitLab Generic Packages|||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[1.1148660](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/gitlab-generic-packages/ucd-plugins-gitlab-generic-packages-1.1148660.zip)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|

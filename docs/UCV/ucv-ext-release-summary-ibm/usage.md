@@ -119,7 +119,3 @@ The following tables describe the properties used to configure the integration. 
 | WATSONX_URL | String | Depending on the region of your provisioned service instance, use one of the urls described in the documentation (https://ibm.github.io/watsonx-ai-python-sdk/setup_cloud.html#authentication) | Yes | WATSONX_URL |
 | Token Budget | Number | Set a monthly budget per number of tokens. If the current integration exceeds the budget, subsequent summary generation request will be rejected. | No | TOKEN_BUDGET | 
 
-
-|Back to ...||Latest Version|GenAI Summary Release-IBM|||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.7](https://hub.docker.com/r/urbancode/ucv-ext-release-summary-ibm/tags)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

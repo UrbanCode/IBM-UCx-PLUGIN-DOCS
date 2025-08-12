@@ -65,7 +65,3 @@ Additionally, a new parameter called 'Build Polling Timeout' has been added to t
 
 * Initial release.
 
-
-|Back to ...||Latest Version|IBM DevOps Deploy |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[4.0.9 -File 1](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-ucd/ucv-ext-ucd%3A4.0.9.tar.7z.001) [and 4.0.9 -File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-ucd/ucv-ext-ucd%3A4.0.9.tar.7z.002)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|

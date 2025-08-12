@@ -84,7 +84,3 @@ Version 6 includes a fix for APAR PI35342. The plug-in is now compatible with IB
 
 Version 5 includes a fix for a defect where the Shell plug-in was not upgraded when users upgraded to IBM DevOps Deploy 6.1.0.2.
 
-
-|Back to ...||Latest Version|Shell ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[21.1167618](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Shell/ucd-Shell-21.1167618.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

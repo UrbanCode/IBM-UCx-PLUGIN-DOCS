@@ -78,7 +78,3 @@ Other Versions:
 * Fixed issue where plug-in might not automatically import example processes, component templates, and applications.
 * Added plug-in dependencies for various plug-in steps that are used in example processes, component templates, and applications.
 * Fixed issue where topology discovery resource role attributes did not parse colons (:) properly.
-
-|Back to ...||Latest Version|Microsoft IIS - Configure |||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[13.1127381](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/iis-configuration/ucd-IIS-Configuration-13.1127381.zip)|[Readme](README.md)|[Troubleshooting](troubleshooting.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

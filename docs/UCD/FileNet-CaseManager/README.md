@@ -21,7 +21,3 @@ Import Security Manifest Imports a security configuration package into another e
 Apply Security Manifest Applies a solution security configuration that you have previously created.
 
 
-
-|Back to ...||Latest Version|||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[1.1100878](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileNet-CaseManager/FileNet-CaseManager-1.1100878.zip)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

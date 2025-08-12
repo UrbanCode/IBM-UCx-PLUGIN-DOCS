@@ -14,7 +14,3 @@ Supports IBM Security AppScan Enterprise version 9.0.3 and greater.
 
 AppScan’s webhook functionality will call the specified REST API endpoint with given payload and Basic authentication following the completion of a content scan job. A hidden field has been added to the `Create Scan` step to configure the webhook. [Learn more about the webhook functionality here.](https://www-01.ibm.com/support/docview.wss?uid=swg22015122) The webhook beta functionality was added in IBM Security AppScan Enterprise version 9.0.3.9.
 
-
-|Back to ...||Latest Version||||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[27.1174441](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/appscan/ucd-appscan-27.1174441.zip)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

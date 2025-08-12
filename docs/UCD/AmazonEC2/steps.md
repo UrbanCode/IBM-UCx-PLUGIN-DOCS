@@ -124,7 +124,3 @@ Wait for instances to be in a certain state.
 | Secret Key | String | The EC2 secret key value. | Yes |
 | State | String | The expected instance state. | Yes |
 | Timeout | String | The timeout value for this step. | Yes |
-
-|Back to ...||Latest Version|Amazon EC2 ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[6.1100863](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/AmazonEC2/AmazonEC2-6.1100863.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

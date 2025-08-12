@@ -45,7 +45,3 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 * Version 4 adds an option to specify the CATALINA\_BASE property for the Start Tomcat and Stop Tomcat steps.
 
-
-|Back to ...||Latest Version|Apache Tomcat ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[8.1150600](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Tomcat/ucd-Tomcat-8.1150600.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

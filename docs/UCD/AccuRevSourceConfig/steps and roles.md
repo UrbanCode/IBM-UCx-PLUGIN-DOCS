@@ -52,7 +52,3 @@ The plug-in adds these roles automatically to resources. You cannot add these ro
 | Version Name Tag | String | Specify a tag to append to the versions name. |
 
 
-
-|Back to ...||Latest Version|AccuRev SCM ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[9.1100795](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/AccuRevSourceConfig/AccuRevSourceConfig-9.1100795.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

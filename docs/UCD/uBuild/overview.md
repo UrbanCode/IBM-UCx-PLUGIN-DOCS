@@ -34,7 +34,3 @@ Support property file encryption.
 
 Fixes APAR PI35342Compatibility defect with IBM DevOps Deploy version 6.1.0.4 and later.
 
-
-|Back to ...||Latest Version|IBM DevOps uBuild ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[8.1056531](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uBuild/uBuild-8.1056531.zip)|[Readme](README.md)|[Steps](steps.md)|[Usage](usage.md)|[Downloads](downloads.md)|

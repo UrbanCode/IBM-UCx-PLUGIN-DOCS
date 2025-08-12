@@ -75,7 +75,3 @@ This plug-in is installed when installing IBM DevOps Deploy. When new plug-in ve
 ### Version 1
 
 * Initial release of Rational Asset Manager source configuration plugin for DevOps Deploy
-
-|Back to ...||Latest Version|IBM Rational Asset Manager for IBM DevOps Deploy ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[14.1153919](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/RAMSourceConfig/ucd-RAMSourceConfig-14.1153919.zip)|[Readme](README.md)|[Usage](usage.md)|[Settings](settings.md)|[Downloads](downloads.md)|

@@ -24,7 +24,3 @@ The Ansible Toolkit is now built through Gradle. All Ant and Ivy build pieces ha
 
 Initial release.
 
-
-|          Back to ...          |                                |                                                          Latest Version                                                          |   Ansible Plug-In   |                           |                   |                   |
-|:-----------------------------:|:------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------:|:-------------------:|:-------------------------:|:-----------------:|:-----------------:|
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [55.1173239](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Ansible/ucd-plugins-ansible-55.1173239.zip)  | [Readme](README.md) | [Downloads](downloads.md) | [Steps](steps.md) | [Usage](usage.md) |

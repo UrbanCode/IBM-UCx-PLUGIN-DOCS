@@ -44,7 +44,3 @@ The plug-in adds these roles automatically to resources. You cannot add these ro
 | Label | String | Optional: The name of the version label to load. |
 
 
-
-|Back to ...||Latest Version|Microsoft TFS_SCM (Team Foundation Server) |||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[19.1171672](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/TFS_SCM-SourceConfig/ucd-TFS_SCM-SourceConfig-19.1171672.zip)|[Readme](README.md)|[Overview](overview.md)|[Troubleshooting](troubleshooting.md)|[Usage](usage.md)|[Downloads](downloads.md)|

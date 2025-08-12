@@ -47,7 +47,3 @@ Version 5.669681 includes the following features and fixes:
 Version 4.604289 includes the following features and fixes:
 
 * Fixed a communication issue where the UrbanCode Build server would fail if it was running with an IBM JDK or JRE.
-
-|Back to ...||Latest Version|AccuRev |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[6.752929](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/AccuRev/AccuRev-6.752929.zip)|[Readme](README.md)|[Settings](settings.md)|[Downloads](downloads.md)|

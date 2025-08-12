@@ -25,7 +25,3 @@ Allows execution of IMS type-1 and type-2 commands.
 | Wait For Command | Boolean | Whether to wait for the command to complete. If Wait for Command is unchecked, the input for Timeout, Show Output, Max Lines, and Max Return Code are ignored. | No |
 
 
-
-|Back to ...||Latest Version|IBM IMS |||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[1](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IMSz/IMS_Plugin_v1.zip)|[Readme](README.md)|[Overview](overview.md)|[Troubleshooting](troubleshooting.md)|[Usage](usage.md)|[Downloads](downloads.md)|

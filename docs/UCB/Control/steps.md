@@ -126,7 +126,3 @@ Global settings for accessing control repositories.
 | Repository |  | Select the Control Repository |
 
 
-
-|Back to ...||Latest Version|Control for IBM DevOps Build |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[1.1177008](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Control/Control-1.1177008.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

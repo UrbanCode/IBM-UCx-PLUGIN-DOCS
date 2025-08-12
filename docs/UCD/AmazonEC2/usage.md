@@ -16,7 +16,3 @@ Use this plug-in to manage Amazon Elastic Cloud (EC2) instances as a process ste
 
 To access this plug-in in the palette, click **Cloud** > **AmazonEC2**.
 
-
-|Back to ...||Latest Version|Amazon EC2 ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[6.1100863](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/AmazonEC2/AmazonEC2-6.1100863.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

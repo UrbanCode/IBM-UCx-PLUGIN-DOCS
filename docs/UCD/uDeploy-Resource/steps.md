@@ -308,7 +308,3 @@ Creates multiple resources using JSON format.
 | JSON File/Text | String | Body of JSON text or a file to define resources. | No |
 
 
-
-|Back to ...||Latest Version|IBM DevOps Deploy Resources ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[86.1155708](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Resource/ucd-uDeploy-Resource-86.1155708.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

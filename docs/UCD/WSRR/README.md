@@ -21,7 +21,3 @@ The following steps provide and overview of the process you follow
 
 Refer to plug-in documentation for system requirements and a complete list of steps available.
 
-
-|Back to ...||Latest Version|||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[9.1056551](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WSRR/WSRR-9.1056551.zip)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

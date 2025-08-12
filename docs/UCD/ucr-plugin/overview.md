@@ -54,7 +54,3 @@ Version 5 includes the Check Gate Status step, which checks lifecycle phase gate
 
 Version 4 fixes a defect with compatibility with IBM DevOps Deploy 6.1.0.4 and later.
 
-
-|Back to ...||Latest Version|IBM DevOps Release ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[9.1056530](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ucr-plugin/ucr-plugin-9.1056530.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

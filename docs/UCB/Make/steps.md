@@ -28,7 +28,3 @@ Execute a Make script
 | Make Targets | String | The target(s) to execute in the Make file. The default target will be executed if you do not specify any here. If entering multiple targets, separate each target with a space just as you would on the command line. (optional). | No |
 
 
-
-|Back to ...||Latest Version|Make |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[3.752874](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Make/Make-3.752874.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

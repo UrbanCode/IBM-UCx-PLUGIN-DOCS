@@ -29,7 +29,3 @@ Run TestArchitect batch fileRun a batch file of TestArchitect commands then coll
 Run TestArchitect via Command LineCalls a Logigear TestArchitect call via the command line. See Logigear TestArchitect for the official documentation on the command line.
 
 
-
-|Back to ...||Latest Version|
-| :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[0]()|

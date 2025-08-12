@@ -19,7 +19,3 @@ The Ansible plugin enables seamless integration of Ansible environment into the 
 - GetBuiltInAnsibleProperties
 - Apt Key
 
-
-|          Back to ...          |                                |                                                          Latest Version                                                          |                           |                         |                   |                   |
-|:-----------------------------:|:------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------:|:-------------------------:|:-----------------------:|:-----------------:|:-----------------:|
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [55.1173239](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Ansible/ucd-plugins-ansible-55.1173239.zip)  | [Downloads](downloads.md) | [Overview](overview.md) | [Steps](steps.md) | [Usage](usage.md) |

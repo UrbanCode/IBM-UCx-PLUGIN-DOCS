@@ -134,7 +134,3 @@ The following integration settings are available when you install the Rally plug
 | User Name | String | The user name to use to connect to the Rally server. |
 
 
-
-|Back to ...||Latest Version|Rally for IBM UrbanCode Build |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[17.1126865](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Rally/ucd-Rally-17.1126865.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

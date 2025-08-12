@@ -99,7 +99,3 @@ The Java Home default value was changed to clarify that shell variables are not 
 
 The contextual help was updated to reflect the new resource model.
 
-
-|Back to ...||Latest Version|IBM DevOps Deploy Resources ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[86.1155708](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Resource/ucd-uDeploy-Resource-86.1155708.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

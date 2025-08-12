@@ -132,7 +132,3 @@ Use this step to update a security realm on a WebLogic server.
 | WebLogic Port | String | The port number of the WebLogic server. | Yes |
 
 
-
-|Back to ...||Latest Version|Oracle WebLogic Server Security Management |||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[2.504117](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebLogicSecurityMgmt/WLS-Security-Management-2.504117.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|

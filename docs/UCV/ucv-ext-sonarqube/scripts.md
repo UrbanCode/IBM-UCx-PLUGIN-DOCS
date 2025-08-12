@@ -31,7 +31,3 @@ https://$velocityHost/reporting-consumer/integration \ --header 'content-type: a
 }`` }``"
 ```
 
-
-|Back to ...||Latest Version|SonarQube |||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.50](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-sonarqube/ucv-ext-sonarqube-1.0.50.tar.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Certificate](certificate.md)|[Downloads](downloads.md)|

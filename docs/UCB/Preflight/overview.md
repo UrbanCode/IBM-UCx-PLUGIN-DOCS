@@ -34,7 +34,3 @@ This release uses a new plug-in ID.
 
 This release includes a fix for an issue related to access to the JAVA\_HOME variable.
 
-
-|Back to ...||Latest Version|Preflight |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[4.752928](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Preflight/preflight-plugin-4.752928.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|

@@ -95,7 +95,3 @@ Once you invoke the plug-in, perform the following steps to add the chart for un
   4. Under the **Quality** category, add **Unit Tests** charts.
   5. You can see the Unit Test chart added to the dashboard. Analyze the data in the unit test chart to view the unit test results.
 
-
-|Back to ...||Latest Version|Njs-Unit |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.4-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-njs-unit/ucv-ext-njs-unit%3A1.0.4.tar.7z.001)[and 1.0.4-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-njs-unit/ucv-ext-njs-unit%3A1.0.4.tar.7z.002)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

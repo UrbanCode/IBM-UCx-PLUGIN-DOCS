@@ -18,7 +18,3 @@ To download the plugins, click the following version specific links.
 **Instructions to load plugin image from tar file:**
 - Load the docker image from tar file using: ```docker load < tar_file_name```
 - Go to **Velocity** -> **Settings** -> **Integrations** -> **Available** -> **Load plugin** -> Added the image name and click **Submit**
-
-|Back to ...||Latest Version|Handlebar Reporter |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[2.0.1](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-handlebars-reporter/ucv-ext-handlebars-reporter%3A2.0.1.tar.7z.001)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|

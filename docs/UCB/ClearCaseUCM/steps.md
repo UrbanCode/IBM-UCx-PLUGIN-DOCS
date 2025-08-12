@@ -124,7 +124,3 @@ A placeholder for using the scm system. The repository is configured on a per wo
 | View Name | String | The name of the view. |
 
 
-
-|Back to ...||Latest Version|ClearCase UCM ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[16.973040](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/ClearCaseUCM/ClearCaseUCM-16.973040.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

@@ -243,7 +243,3 @@ execute, a comment is left with a link to the associated ServiceNow ticket.
 When running the Wait for Approval of Service Now Ticket task, the task starts and remains in progress until the
 approvals are complete in ServiceNow.
 
-
-|Back to ...||Latest Version|ServiceNow |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Release Plugins](../README.md)|[0]()|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|

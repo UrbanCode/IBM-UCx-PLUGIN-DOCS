@@ -25,7 +25,3 @@ To download theh plug-in, click the following version-specific links.
 - [uDeploy-Environment-73.858565.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Environment/uDeploy-Environment-73.858565.zip)
 - [uDeploy-Environment-73.855566.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Environment/uDeploy-Environment-73.855566.zip)
 - [uDeploy-Environment-72.786836.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Environment/uDeploy-Environment-72.786836.zip)
-
-|Back to ...||Latest Version|IBM DevOps Deploy Environments ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[89.1159271](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Environment/ucd-uDeploy-Environment-89.1159271.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|

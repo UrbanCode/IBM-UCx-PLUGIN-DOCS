@@ -104,7 +104,3 @@ No special steps are required for installing the plug-in. See [Installing plug-i
 ## Version 1
 
 * Initial release of the TFS source configuration plugin.
-
-|Back to ...||Latest Version|Microsoft TFS_SCM (Team Foundation Server) |||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[19.1171672](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/TFS_SCM-SourceConfig/ucd-TFS_SCM-SourceConfig-19.1171672.zip)|[Readme](README.md)|[Troubleshooting](troubleshooting.md)|[Settings](settings.md)|[Usage](usage.md)|[Downloads](downloads.md)|

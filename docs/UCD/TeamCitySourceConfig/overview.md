@@ -92,7 +92,3 @@ This plug-in is installed when installing IBM DevOps Deploy. When new plug-in ve
 #### Version 1
 
 * Initial release of TeamCity source configuration plugin.
-
-|Back to ...||Latest Version|TeamCity ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[20.1153959](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/TeamCitySourceConfig/ucd-TeamCitySourceConfig-20.1153959.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

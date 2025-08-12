@@ -36,7 +36,3 @@ The plug-in adds these roles automatically to resources. You cannot add these ro
 | Text File Extensions | String | A list of file extensions to convert into another character set. Separate each fle extension with a comma. Specify this property if you have text-type files that must be converted into another character set. Matching file types are converted into the default character set of the system where the agent is located. |
 
 
-
-|Back to ...||Latest Version|File System (Versioned) ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[19.1155762](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileSystemVersionedSourceConfig/ucd-FileSystemVersionedSourceConfig-19.1155762.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

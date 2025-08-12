@@ -17,7 +17,3 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 Version 3 includes a fix for APAR PI57417. The plug-in now checks the agent settings for acceptance of self-signed certificates.
 
-
-|Back to ...||Latest Version|PVCS ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[7.1026780](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/PvcsSourceConfig/PvcsSourceConfig-7.1026780.zip)|[Readme](README.md)|[Usage](usage.md)|[Settings](settings.md)|[Downloads](downloads.md)|

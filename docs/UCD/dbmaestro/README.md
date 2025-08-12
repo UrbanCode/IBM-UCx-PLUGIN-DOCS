@@ -19,7 +19,3 @@ This is a partner provided plugin.
 ## Website
 
 * [dbmaestro website](https://www.dbmaestro.com/)
-
-|Back to ...||Latest Version|
-| :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[0]()|

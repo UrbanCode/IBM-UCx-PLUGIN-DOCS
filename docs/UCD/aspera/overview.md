@@ -30,7 +30,3 @@ Version 2 of the plug-in adds support for defining files to upload and download 
 
 Version 1 of the plug-in includes steps for uploading and downloading files from an Aspera server.
 
-
-|Back to ...||Latest Version|Aspera |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[3.1100729](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/aspera/aspera-3.1100729.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|

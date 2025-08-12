@@ -83,7 +83,3 @@ Version 6 includes multiple updates:
 * Alter Topic
 * Define Namelist
 * Delete Namelist
-
-|Back to ...||Latest Version|IBM-MQ |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[13.1154095](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereMQ/ucd-WebSphereMQ-13.1154095.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|

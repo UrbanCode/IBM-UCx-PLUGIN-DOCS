@@ -22,7 +22,3 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 ## History
 
 Please view [IBM MQ for zOSGenerate MQSC Commands - History](https://github.com/UrbanCode/IBM-MQ-zOS-UCD#history)
-
-|          Back to ...          ||         Latest Version         | IBM MQ for z/OS - Generate MQSC Commands |||
-|:-----------------------------:|:------------------------------:|:----------------------------------------:| :---: | :---: | :---: |
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) |                  [0]()                   |[Readme](README.md)|[Steps](steps.md)|[Usage](usage.md)|

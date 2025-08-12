@@ -17,7 +17,3 @@ Change Work Item StatusUpdate the status of RTC work items. \*Note\* If updating
 Publish Work Item ReportCreate a report of RTC work items from the build life’s changelog on the build life.
 
 
-
-|Back to ...||Latest Version||||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[10.866824](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/RTCWorkItems/RTC-WorkItems-10.866824.zip)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

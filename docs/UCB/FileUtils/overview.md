@@ -36,7 +36,3 @@ This version of the plug-in includes translated steps and properties.
 
 This version of the plug-in includes a fix for APAR PI51450Update Java Properties File plugin does not create files if they do not exist.
 
-
-|Back to ...||Latest Version|File Utils for IBM UrbanCode Build |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[44.754293](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/FileUtils/FileUtils-44.754293.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|

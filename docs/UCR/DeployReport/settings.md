@@ -24,7 +24,3 @@ list of email addresses for report recipients. | Yes |
 Specify GlobalReleaseStatus or GlobalReleaseExecutiveSummary. | Yes |
 
 
-
-|Back to ...||Latest Version|Deployment Reports ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Release Plugins](../README.md)|[7.1018228](https://raw.githubusercontent.com/UrbanCode/IBM-UCR-PLUGINS/main/files/DeployReport/ucr-plugin-deployment-reports-7.1018228.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

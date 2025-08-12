@@ -14,7 +14,3 @@ To download the plug-in, click the following version-specific links.
 - [RFT-WebUI-UCD-5.0.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/RFT-WebUI-UCD/RFT-WebUI-UCD-5.0.zip)
 - [RFT-WebUI-UCD-4.0.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/RFT-WebUI-UCD/RFT-WebUI-UCD-4.0.zip)
 - [IBM-RFT-WebUI_1010_UCD.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/RFT-WebUI-UCD/IBM-RFT-WebUI_1010_UCD.zip)
-
-|Back to ...||Latest Version|IBM Rational Test Workbench Web UI Tester ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[11.1](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/RFT-WebUI-UCD/RFT-UCD-UITest-11.1.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Usage](usage.md)|

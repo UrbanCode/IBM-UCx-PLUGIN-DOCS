@@ -69,7 +69,3 @@ Version 2 of the plug-in includes a defect fix.
 
 Initial release of the plug-in.
 
-
-|Back to ...||Latest Version|Oracle WebLogic Scripting Tool (WLST) |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[9.1100786](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebLogic-WLST/WebLogic-WLST-9.1100786.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|

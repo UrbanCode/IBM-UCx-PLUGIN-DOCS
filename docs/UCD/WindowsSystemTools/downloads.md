@@ -13,7 +13,3 @@
 - [WindowsSystemTools-17.553828.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WindowsSystemTools/WindowsSystemTools-17.553828.zip)
 - [WindowsSystemTools-15.530305.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WindowsSystemTools/WindowsSystemTools-15.530305.zip)
 - [WindowsSystemTools-13.455110.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WindowsSystemTools/WindowsSystemTools-13.455110.zip)
-
-|Back to ...||Latest Version|Microsoft Windows System Tools |||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[24.1127383](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WindowsSystemTools/ucd-WindowsSystemTools-24.1127383.zip)|[Readme](README.md)|[Overview](overview.md)|[Troubleshooting](troubleshooting.md)|[Usage](usage.md)|[Steps](steps.md)|

@@ -376,7 +376,3 @@ Wait for an application to run (have a status of Started).
 | User Name | String | The user name for WebSphere Liberty. | Yes |
 
 
-
-|Back to ...||Latest Version|IBM WebSphere Liberty |||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[23.1174431](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereLiberty/ucd-WebSphereLiberty-23.1174431.zip)|[Readme](README.md)|[Overview](overview.md)|[Troubleshooting](troubleshooting.md)|[Usage](usage.md)|[Downloads](downloads.md)|

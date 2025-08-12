@@ -116,7 +116,3 @@ Update a Rational Integration Tester transient environment.
 | User name | String | The user name under which to perform the operation to get past environment locks | No |
 
 
-
-|Back to ...||Latest Version|IBM Rational Test Virtualization Server (RTVS) ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[4.0](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/RTVS-UCD/RTVS-UCD-4.0.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

@@ -26,7 +26,3 @@ IMS information resources:
 + [IMS command: UPDATE PGM](http://www-01.ibm.com/support/knowledgecenter/SSEPH2_13.1.0/com.ibm.ims13.doc.cr/imscmds/ims_updatepgm.htm)
 + [IMS Command Language Overview](http://www-01.ibm.com/support/knowledgecenter/SSEPH2_13.1.0/com.ibm.ims13.doc.cr/imscmdsintro/ims_overview.htm)
 
-
-|Back to ...||Latest Version|IBM IMS |||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[1](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IMSz/IMS_Plugin_v1.zip)|[Readme](README.md)|[Troubleshooting](troubleshooting.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

@@ -27,7 +27,3 @@ Version 4 includes updates for compatibility with Rational Quality Manager 6.1.
 
 Version 2 fixes a compatibility defect with IBM DevOps Deploy version 6.1.0.4 and later.
 
-
-|Back to ...||Latest Version|BMC Remedy Action Request System |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[5.1056545](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Remedy/Remedy-5.1056545.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|

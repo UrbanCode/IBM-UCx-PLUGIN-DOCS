@@ -41,7 +41,3 @@ The plug-in adds these roles automatically to resources. You cannot add these ro
 | GitHub Release Tag Name | String | Import the GitHub tag name. For example:20. |
 
 
-
-|Back to ...||Latest Version|GitHub-Release |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[5.1154619](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/sourceconfig-github-release/ucd-GitHubReleaseSourceConfig-5.1154619.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

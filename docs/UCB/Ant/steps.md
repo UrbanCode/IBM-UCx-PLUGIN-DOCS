@@ -32,7 +32,3 @@ Run an Ant script.
 | Targets | String | The names of the targets to run in the Ant script file. If blank, the default target is used. | No |
 
 
-
-|Back to ...||Latest Version|Ant |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[10.1165571](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Ant/Ant-10.1165571.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

@@ -53,7 +53,3 @@ Version 8.679324 includes the following features and fixes:
 Version 7.604315 includes the following features and fixes:
 
 * Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE.
-
-|Back to ...||Latest Version|Team Foundation Server |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[11.1049734](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/TFS/TFS-11.1049734.zip)|[Readme](README.md)|[Steps and Settings](steps and settings.md)|[Downloads](downloads.md)|

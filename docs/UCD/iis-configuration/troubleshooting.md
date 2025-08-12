@@ -16,7 +16,3 @@ If you see null messages in the output log, copy the `cmd.exe` command that is p
 ## Messages about unrecognized attributes are displayed when you use the deployment command from the output log at a command prompt
 
 If you are trying to use troubleshoot a problem by using the previous method, and a message about unrecognized attributes is displayed, the agent might be attempting to apply an IIS 8.5 configuration to IIS 8.0. More generally, this message can be displayed when you try to apply a configuration from a later version of IIS to an earlier version of IIS. The plug-in does not support this scenario.
-
-|Back to ...||Latest Version|Microsoft IIS - Configure |||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[13.1127381](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/iis-configuration/ucd-IIS-Configuration-13.1127381.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

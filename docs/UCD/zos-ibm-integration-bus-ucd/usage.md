@@ -21,7 +21,3 @@ In this process example, the broker archive (.bar) file includes overrides as ne
 
 **8.**  As required, run the [WMB Stop Message Flows](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/WebSphereMessageBroker-CMP//#wmb_stop_message_flows) and [WMB Start Message Flows](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/WebSphereMessageBroker-CMP//#wmb_start_message_flows) steps to stop and start message flows.
 
-
-|Back to ...||Latest Version|IBM Integration Bus (IIB) plugin Deploy step for zOS ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[1.1162414](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-ibm-integration-bus-ucd/ucd-zOS-WebSphereMessageBroker-CMP-1.1162414.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

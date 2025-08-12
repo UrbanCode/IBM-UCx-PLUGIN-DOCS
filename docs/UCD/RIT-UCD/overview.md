@@ -19,7 +19,3 @@ The Run RIT Test step must be ran on the same system that the Rational Integrati
 
 No special steps are required for installation. See [Installing plug-ins in DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy").
 
-
-|Back to ...||Latest Version|IBM Rational Integration Tester (RIT) ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[5.0](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/RIT-UCD/RIT-UCD-5.0.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

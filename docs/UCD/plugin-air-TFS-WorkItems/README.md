@@ -22,7 +22,3 @@ Display Work Item Status: Outputs a summary of a work item(s) to the log
 Update Work Item: Update any field in a specified work item, overwriting or appending to the existing value
 
 
-
-|Back to ...||Latest Version|||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[3.1056533](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/plugin-air-TFS-WorkItems/TFS-WorkItems-3.1056533.zip)|[Overview](overview.md)|[Steps](steps.md)|[Usage](usage.md)|[Downloads](downloads.md)|

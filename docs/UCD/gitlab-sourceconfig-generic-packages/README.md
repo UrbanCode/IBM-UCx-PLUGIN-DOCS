@@ -12,7 +12,3 @@ This plug-in is supported to run on all operating systems that are supported by 
 For a complete list of steps, refer to the Steps documentation link below.
 
 
-
-|          Back to ...          | |         Latest Version         |GitLab Generic Packages||||
-|:-----------------------------:|:------------------------------:| :---: | :---: | :---: | :---: | :---: |
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) |[3.1158910](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/gitlab-sourceconfig-generic-packages/ucd-plugins-sourceconfig-gitlab-generic-packages-3.1158910.zip)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

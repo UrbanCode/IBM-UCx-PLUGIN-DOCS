@@ -28,7 +28,3 @@ No special steps are required for installation. See Installing plug-ins in DevOp
 
 - Add step - Upload migration package.
 - Add step - Deploy migration package.
-
-|Back to ...||Latest Version|IBM Maximo  ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[1.1088514](https://github.com/UrbanCode/IBM-UCD-PLUGINS/raw/main/files/maximo/plugins-maximo-1.1088514.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

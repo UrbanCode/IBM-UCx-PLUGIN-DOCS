@@ -198,7 +198,3 @@ Update an entry in the XML Cache.
 | XML File Path | String | The fully-qualified path for the XML file to be added to the XML cache. | Yes |
 
 
-
-|Back to ...||Latest Version|Oracle WebLogic Integration Resource Management |||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[35.1056548](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/plugin-air-WLI-Resource-Management/plugin-air-WLI-Resource-Management-35.1056548.zip)|[Readme](README.md)|[Overview](overview.md)|[Troubleshooting](troubleshooting.md)|[Usage](usage.md)|[Downloads](downloads.md)|

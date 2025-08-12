@@ -53,7 +53,3 @@ Version 2 of the plug-in points to component source configuration by default.
 
 Version 1 is the initial release of the plug-in.
 
-
-|Back to ...||Latest Version|Maven Resolve ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[11.1167755](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Maven/ucd-Maven-11.1167755.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

@@ -19,7 +19,3 @@ To download the plug-in, click the following version-specific links.
 - [web-utilities-7.863752.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/web-utilities/web-utilities-7.863752.zip)
 - [web-utilities-6.838888.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/web-utilities/web-utilities-6.838888.zip)
 - [web-utilities-5.772688.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/web-utilities/web-utilities-5.772688.zip)
-
-|Back to ...||Latest Version|Web Utilities ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[18.1151823](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/web-utilities/ucd-web-utilities-18.1151823.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Usage](usage.md)|

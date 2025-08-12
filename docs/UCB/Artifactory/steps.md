@@ -74,7 +74,3 @@ The plug-in adds these roles automatically to resources. You cannot add these ro
 | Password Script | String | The property script to use instead of the Password property to connect to the Artifactory repository. If using this property, do not specify a value for the Password property. |
 
 
-
-|Back to ...||Latest Version|Artifactory for IBM UrbanCode Build |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[11.930715](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Artifactory/Artifactory-11.930715.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

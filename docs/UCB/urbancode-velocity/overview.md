@@ -37,7 +37,3 @@ History
 ### Version 1
 
 * Initial release
-
-|Back to ...||Latest Version|UrbanCode Velocity ||
-| :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[0]()|[Readme](README.md)|[Steps](steps.md)|

@@ -24,7 +24,3 @@ Create versions and import packaged files from GitLab.
 | Log4j Logging Level | Boolean | Configure the level of Log4j messages to output to the console. Specify the logging level as ALL, TRACE, DEBUG, INFO, WARN, ERROR, FATAL, or OFF. | No |
 
 
-
-|          Back to ...          | |         Latest Version         |GitLab Generic Packages|||
-|:-----------------------------:|:------------------------------:| :---: | :---: | :---: | :---: |
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) |[3.1158910](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/gitlab-sourceconfig-generic-packages/ucd-plugins-sourceconfig-gitlab-generic-packages-3.1158910.zip)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

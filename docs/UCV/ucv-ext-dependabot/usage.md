@@ -51,7 +51,3 @@ Some properties might not be displayed in the user interface, to see all propert
 | API URL (GraphQL Endpoint Url) | String | For GitHub Enterprise edition , replace it with Enterprise GraphQL endpoint. Example: `http(s)://_\[hostname\]_/api/graphql` or use the default value. (Default value :  `https://api.github.com/graphql`) | Yes      |
 | Repositories                   | Array  | List of GitHub repositories as comma separated, Use either Repositories field or name field to specify the repositories .                                                                            | No       |
 
-
-|Back to ...||Latest Version|GitHub Dependabot |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-dependabot/ucv-ext-dependabot%3A1.0.2.tar.7z.001)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

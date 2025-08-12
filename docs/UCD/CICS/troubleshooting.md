@@ -99,7 +99,3 @@ If you receive the following error:
 
 Add the parameter: com.urbancode.air.property.prop\_def.PropDef.disableAllowedValuesCheck=true
 
-
-|          Back to ...          |                                |                                                      Latest Version                                                       |       CICS TS       ||||||
-|:-----------------------------:|:------------------------------:|:-------------------------------------------------------------------------------------------------------------------------:|:-------------------:| :---: | :---: | :---: | :---: | :---: |
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [45.20240620-1707](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/CICS/cics-45.20240620-1707.zip) | [Readme](README.md) |[Overview](overview.md)|[Usage](usage.md)|[Component Templates](component_templates.md)|[Steps](steps.md)|[Downloads](downloads.md)|

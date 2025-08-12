@@ -6,7 +6,3 @@ IBM® MQ is robust messaging middleware that simplifies and accelerates the inte
 ## Available Steps
 
 See plug-in documentation for a [complete list of available steps](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/WebSphereMQ/steps.html).
-
-|Back to ...||Latest Version||||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[13.1154095](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereMQ/ucd-WebSphereMQ-13.1154095.zip)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

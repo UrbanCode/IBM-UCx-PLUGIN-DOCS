@@ -100,7 +100,3 @@ This is an RTC source configuration.
 | Workspace Name | String | The name of the workspace to use. If the workspace does not exist, it is created. You can use an alias for existing workspaces. |
 
 
-
-|Back to ...||Latest Version|Rational Team Concert SCM |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[24.1013888](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/RationalTeamConcert/RTC-scm-24.1013888.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

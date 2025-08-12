@@ -151,7 +151,3 @@ Supersede a published product in a catalog with another product (apic products:r
 | Space | String | Enter a space to supersede in (if applicable for this catalog). | No |
 
 
-
-|Back to ...||Latest Version|IBM API Connect ||||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[8.1171240](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/apiconnect/ucd-apiconnect-8.1171240.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Tutorials](tutorials.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|

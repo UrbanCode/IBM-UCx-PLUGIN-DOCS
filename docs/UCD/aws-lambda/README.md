@@ -20,7 +20,3 @@ Create Function Create an AWS Lambda function.
 Delete Function Delete an AWS Lambda function.
 
 Invoke Invoke an AWS Lambda function.
-
-|Back to ...||Latest Version||
-| :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[1.920392](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/aws-lambda/aws-lambda-1.920392.zip)|[Downloads](downloads.md)|

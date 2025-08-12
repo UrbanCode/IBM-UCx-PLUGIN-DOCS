@@ -60,7 +60,3 @@ Version 4.596018 includes the following features and fixes:
 
 * Added the **No Stage** and **Library** properties to the Deploy step.
 * The **Additional Arguments** property in the Deploy step updated to allow arguments that do not require values.
-
-|Back to ...||Latest Version|Oracle WebLogic Application Deployment ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[8.1061630](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/plugin-air-WebLogic-Application-Deployment/plugin-air-WebLogic-Application-Deployment-8.1061630.zip)|[Readme](README.md)|[Steps](steps.md)|[Usage](usage.md)|[Downloads](downloads.md)|

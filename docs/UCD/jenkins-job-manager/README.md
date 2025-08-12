@@ -16,7 +16,3 @@ Disable JobDisable a Jenkins Job
 Enable JobEnable a Jenkins Job
 
 Start JobStart a Jenkins Job
-
-|Back to ...||Latest Version|
-| :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[0]()|

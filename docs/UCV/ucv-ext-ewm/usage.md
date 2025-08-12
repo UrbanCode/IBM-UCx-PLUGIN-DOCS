@@ -104,7 +104,3 @@ The following example can be used as as template to include the Engineering Work
 ## Demonstration
 
 View a [video](https://www.youtube.com/watch?v=mY14Kn1R0EI) demonstrating the use of the EWM plug-in.
-
-|Back to ...||Latest Version|IBM Engineering Workflow Management (EWM) |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.1.34-File 1](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-ewm/ucv-ext-ewm%3A1.1.34.tar.7z.001)[and 1.1.34-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-ewm/ucv-ext-ewm%3A1.1.34.tar.7z.002)[and 1.1.34-File 3](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-ewm/ucv-ext-ewm%3A1.1.34.tar.7z.003)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

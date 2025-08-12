@@ -113,7 +113,3 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 #### Version 13
 
 * Version 13 is the first release of the standard plug-in (as opposed to the community plug-in).
-
-|Back to ...||Latest Version|Cloud Foundry |||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[35.1122072](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/cloud-foundry/cloud-foundry-35.1122072.zip)|[Readme](README.md)|[Usage](usage.md)|[Troubleshooting](troubleshooting.md)|[Steps](steps.md)|[Downloads](downloads.md)|

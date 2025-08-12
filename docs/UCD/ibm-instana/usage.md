@@ -56,7 +56,3 @@ However, teams may want to include additional information in the marker name by 
 
 Complete list of System Properties is available here: <https://www.ibm.com/docs/en/urbancode-deploy/7.3.0?topic=properties-default>
 
-
-|Back to ...||Latest Version|IBM Instana  ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[2.1158245](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-instana/ucd-Instana-2.1158245.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

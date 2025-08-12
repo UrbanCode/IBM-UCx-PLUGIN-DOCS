@@ -26,7 +26,3 @@ The CICS CM Beta plug-in requires DevOps Deploy 6.1.1.1, or later.
 
 The CICS CM Beta plug-in can be installed by following the steps outlined in [Installing plug-ins in DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy").
 
-
-|Back to ...||Latest Version||||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[0](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/CICS-CM/UCD_CM_Plugin.zip)|[Overview](overview.md)|[Steps](steps.md)|[Usage](usage.md)|[Component Templates](component_templates.md)|[Downloads](downloads.md)|

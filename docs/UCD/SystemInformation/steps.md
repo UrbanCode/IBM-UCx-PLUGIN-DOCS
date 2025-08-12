@@ -52,7 +52,3 @@ Check if a value matches a Regex. If it does the matched groups will be set as o
 | Value | String | The value you want to check the regex against. | Yes |
 
 
-
-|Back to ...||                                                             Latest Version                                                              |System Information |||
-| :---: | :---: |:---------------------------------------------------------------------------------------------------------------------------------------:| :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[9.1171671](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SystemInformation/ucd-SystemInformation-9.1171671.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

@@ -21,7 +21,3 @@ Mercurial Create TagCreate a tag in Mercurial of the specified working copy.
 Mercurial Quiet PeriodPerform a Mercurial changelog for quiet period detection and publish most recent change date within the period.
 
 
-
-|Back to ...||Latest Version||||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[6.753091](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Mercurial/Mercurial-6.753091.zip)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

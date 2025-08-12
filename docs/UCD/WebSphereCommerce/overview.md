@@ -31,7 +31,3 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 This release includes a component template that can help demonstrate how to use the plug-in.
 
-
-|Back to ...||Latest Version|IBM WebSphere Commerce ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[6.1100872](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereCommerce/WebSphereCommerce-6.1100872.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

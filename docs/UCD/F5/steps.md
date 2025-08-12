@@ -440,7 +440,3 @@ Remove a node from a pool.
 | User Name | String | The username for the F5 appliance. | Yes |
 
 
-
-|Back to ...||Latest Version|F5 BIG-IP ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[24.1107123](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/F5/F5-24.1107123.zip)|[Readme](README.md)|[Overview](overview.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|

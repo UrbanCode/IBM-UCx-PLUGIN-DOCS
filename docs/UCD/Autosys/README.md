@@ -28,7 +28,3 @@ If you encounter issues with the plug-in, or want to send feedback:
 Check Autosys Server Runs the chk\_auto\_up command Execute JIL Script Runs a JIL Script on the CA WAAE server. Send Autosys Event Sends event to CA Workload Automation AE Application Server.
 
 
-
-|Back to ...||Latest Version||
-| :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[3.937202](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Autosys/Autosys-3.937202.zip)|[Downloads](downloads.md)|

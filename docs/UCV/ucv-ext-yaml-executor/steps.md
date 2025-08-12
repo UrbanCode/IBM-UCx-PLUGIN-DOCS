@@ -147,7 +147,3 @@ Perform the following steps to customize the YAML configuration file for your re
 7. To order the environment while syncing, use the `appEnvOrder` property.
 8. Set the `auto-config` attribute to **true** for enabling automatic setup of pipeline applications processes and environments after creating a new integration.
 9. Save the YAML configuration file.
-
-|Back to ...||Latest Version|YAML Executor |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[0.0.13-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-yaml-executor/ucv-ext-yaml-executor%3A0.0.13.tar.7z.001)[and 0.0.13-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-yaml-executor/ucv-ext-yaml-executor%3A0.0.13.tar.7z.002)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

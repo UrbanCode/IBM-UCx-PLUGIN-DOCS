@@ -23,7 +23,3 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 Version 2 includes a fix for APAR PI35342, a compatibility defect with IBM DevOps Deploy version 6.1.0.4 and later.
 
-
-|Back to ...||Latest Version|IBM InfoSphere Optim |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[3.868971](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/optim/optim-3.868971.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|

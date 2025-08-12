@@ -6,7 +6,3 @@ IBM Globalization Pipeline is an IBM Bluemix service that provides rapid machine
 This plug-in is a community plug-in.
 
 * [Source project](https://github.com/IBM-Bluemix/gp-ucd-plugin)
-
-|Back to ...||Latest Version|
-| :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[0]()|

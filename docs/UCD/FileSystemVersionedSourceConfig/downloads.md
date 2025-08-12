@@ -16,7 +16,3 @@ To download the plug-in, click the following version-specific links.
 - [FileSystemVersionedSourceConfig-7.856034.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileSystemVersionedSourceConfig/FileSystemVersionedSourceConfig-7.856034.zip)
 - [FileSystemVersionedSourceConfig-5.786812.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileSystemVersionedSourceConfig/FileSystemVersionedSourceConfig-5.786812.zip)
 - [FileSystemVersionedSourceConfig-4.758975.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileSystemVersionedSourceConfig/FileSystemVersionedSourceConfig-4.758975.zip)
-
-|Back to ...||Latest Version|File System (Versioned) ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[19.1155762](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileSystemVersionedSourceConfig/ucd-FileSystemVersionedSourceConfig-19.1155762.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|

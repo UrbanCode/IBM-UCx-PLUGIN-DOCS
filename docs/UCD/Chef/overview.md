@@ -21,7 +21,3 @@ This plug-in is supported to run against Chef v11.6.0-1 or higher.
 
 No special steps are required for installation. See [Installing plug-ins in DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy").
 
-
-|Back to ...||Latest Version|Chef ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[3.1056568](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Chef/Chef-3.1056568.zip)|[Readme](README.md)|[Steps](steps.md)|[Usage](usage.md)|[Downloads](downloads.md)|

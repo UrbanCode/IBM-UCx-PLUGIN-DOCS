@@ -15,7 +15,3 @@ Compile step definitionCompile the test definitions.
 Run TestingRuns the Cucumber test definitions.
 
 
-
-|Back to ...||Latest Version||||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[1.922549](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Cucumber/Cucumber-1.922549.zip)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

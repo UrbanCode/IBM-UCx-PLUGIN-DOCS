@@ -22,7 +22,3 @@ If you encounter issues with the plug-in, or want to send feedback:
 * Convert file from XML to JSON: Convert file from XML format to JSON format.
 * Search and Replace: Search for a string, replace it with another and write to the file.
 * Search and Replace with Regex: Search for a string with regular expressions, replace it with another and write to the file.
-
-|Back to ...||Latest Version|
-| :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[0]()|

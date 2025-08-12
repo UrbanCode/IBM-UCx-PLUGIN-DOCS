@@ -20,7 +20,3 @@ If you encounter issues with the plug-in, or want to send feedback:
 ## Available Steps
 
 Check Status: Check the status of a JBoss ON service. Configure Resources: Configure properties on JBoss ON Resources. Execute JavaScript: Execute a JavaScript file on the JBoss ON server.
-
-|Back to ...||Latest Version|
-| :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[0]()|

@@ -9,7 +9,3 @@ You can also use this plugin for IBM Rational Test Workbench Mobile Test Edition
 
 From version 9.0, Rational Test Workbench Web UI Tester is the new name for Rational Test Workbench Eclipse Client.
 
-
-|Back to ...||Latest Version|||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[11.1](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/RFT-WebUI-UCD/RFT-UCD-UITest-11.1.zip)|[Overview](overview.md)|[Steps](steps.md)|[Usage](usage.md)|[Downloads](downloads.md)|

@@ -12,7 +12,3 @@ CA Harvest SCM - Downloads
 - [Harvest-3.752910.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Harvest/Harvest-3.752910.zip)
 - [Harvest-3.749197.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Harvest/Harvest-3.749197.zip)
 - [Harvest-1.683942.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Harvest/Harvest-1.683942.zip)
-
-|Back to ...||Latest Version|CA Harvest SCM |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[7.1098511](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Harvest/Harvest-hcl-7.1098511.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|

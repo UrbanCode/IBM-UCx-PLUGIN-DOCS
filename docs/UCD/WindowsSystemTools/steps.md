@@ -280,7 +280,3 @@ Run a scheduled task.
 | Task Name | String | The Name of the scheduled task. | Yes |
 
 
-
-|Back to ...||Latest Version|Microsoft Windows System Tools |||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[24.1127383](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WindowsSystemTools/ucd-WindowsSystemTools-24.1127383.zip)|[Readme](README.md)|[Overview](overview.md)|[Troubleshooting](troubleshooting.md)|[Usage](usage.md)|[Downloads](downloads.md)|

@@ -231,7 +231,3 @@ Runs an application process.
 | Wait For Application Process To Finish | Boolean | Check this if you want this step to wait until the application process finishes. If checked, the result of this step will be the result of the application process (success or failure). | No |
 
 
-
-|Back to ...||Latest Version|IBM DevOps Deploy Applications ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[87.1155713](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Application/ucd-uDeploy-Application-87.1155713.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

@@ -13,7 +13,3 @@ Available Steps
 Run Test SuiteRun a Selenium test suite
 
 
-
-|Back to ...||Latest Version|||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[6.752852](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Selenium/Selenium-6.752852.zip)|[Overview](overview.md)|[Steps](steps.md)|[Usage](usage.md)|[Downloads](downloads.md)|

@@ -37,7 +37,3 @@ Update a package.
 | Update Options | String | One or more options to use when updating the package. Put each option on a separate line.See the [RPM Guide](http://rpm5.org/docs/rpm-guide.html) for a list of options. | No |
 
 
-
-|Back to ...||Latest Version|RPM ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[4.1100816](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/RPM/RPM-4.1100816.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

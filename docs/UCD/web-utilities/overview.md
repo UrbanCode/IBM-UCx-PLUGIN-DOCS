@@ -5,9 +5,9 @@ Use the Web Utilities plug-in to send HTTP requests to web servers in IBM DevOps
 
 This plug-in includes the following steps:
 
-* [Send HTTP Call](steps/#send_http_call)
-* [Upload to FTP Server](steps/#upload_to_ftp_server)
-* [Delete from FTP Server](steps/#delete_from_ftp_server)
+* [Send HTTP Call](steps.md#send-http-call)
+* [Upload to FTP Server](steps.md#upload-to-ftp-server)
+* [Delete from FTP Server](steps.md#delete-from-ftp-server)
 
 ## Compatibility
 
@@ -98,7 +98,3 @@ This release includes the ability to specify a content type and fixes a defect r
 
 Initial release of the plug-in.
 
-
-|Back to ...||Latest Version|Web Utilities ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[18.1151823](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/web-utilities/ucd-web-utilities-18.1151823.zip)|[Readme](README.md)|[Steps](steps.md)|[Usage](usage.md)|[Downloads](downloads.md)|

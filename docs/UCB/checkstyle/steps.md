@@ -29,7 +29,3 @@ Use this step to publish Checkstyle results to a buildlife. The Checkstyle resul
 | Summary Counts | Boolean | Include the number of occurrences for each finding in the report. Individual finding details are not included. The default value for this property is enabled. | No |
 
 
-
-|Back to ...||Latest Version|Checkstyle |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[3.753093](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/checkstyle/checkstyle-3.753093.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

@@ -22,7 +22,3 @@ Installing this plug-in requires no special steps. See [Installing plug-ins in D
 ### Version 1
 
 * RFE 100953Initial release of the HP LoadRunner plugin.
-
-|Back to ...||Latest Version|HP LoadRunner ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[1.1004896](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/hp-loadrunner/plugins-hp-loadrunner-1.1004896.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

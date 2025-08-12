@@ -141,7 +141,3 @@ Role for resources that represent a software instance.
 | State             | String | The current state of the software. The Resource Role property name is instance.state.                                         |
 | Tenant Name       | String | The name of the tenant. The Resource Role property name is instance.tenant-name.                                              |
 | Type              | String | The type of software instance.                                                                                                |
-
-|          Back to ...          ||         Latest Version         |                                              z/OS Management Facility                                               ||||
-|:-----------------------------:|:------------------------------:|:-------------------------------------------------------------------------------------------------------------------:| :---: | :---: | :---: | :---: |
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [15.1174435](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zosmf/ucd-zosmf-15.1174435.zip) |[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

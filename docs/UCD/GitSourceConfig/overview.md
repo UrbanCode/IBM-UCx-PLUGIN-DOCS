@@ -145,7 +145,3 @@ This plug-in is installed when installing IBM DevOps Deploy. When new plug-in ve
 ### Version 1
 
 * Initial release of the Git source configuration plugin.
-
-|Back to ...||Latest Version|Git |||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[28.1176784](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/GitSourceConfig/ucd-GitSourceConfig-28.1176784.zip)|[Readme](README.md)|[Troubleshooting](troubleshooting.md)|[Settings](settings.md)|[Usage](usage.md)|[Downloads](downloads.md)|

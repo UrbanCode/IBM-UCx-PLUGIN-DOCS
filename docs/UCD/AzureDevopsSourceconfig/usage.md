@@ -14,7 +14,3 @@ Visual Studio Online (VSO) an SaaS offering of Azure DevOps requires enabling th
 
 
 
-
-|Back to ...||Latest Version|Azure DevOps ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[1.1112501](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/AzureDevopsSourceconfig/plugins-sourceconfig-azure-1.1112501.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

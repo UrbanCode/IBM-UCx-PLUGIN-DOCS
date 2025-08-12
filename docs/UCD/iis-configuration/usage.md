@@ -128,7 +128,3 @@ Run the new application from the browser on your Production IIS computer and ver
 ## Result
 
 The application from the test environment is now deployed to the production environment.
-
-|Back to ...||Latest Version|Microsoft IIS - Configure |||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[13.1127381](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/iis-configuration/ucd-IIS-Configuration-13.1127381.zip)|[Readme](README.md)|[Overview](overview.md)|[Troubleshooting](troubleshooting.md)|[Steps](steps.md)|[Downloads](downloads.md)|

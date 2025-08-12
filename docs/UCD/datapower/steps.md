@@ -320,7 +320,3 @@ Create/overwrite files/directories based on a definition file
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Definition file | String | Definition file for files and directories to upload | No |
 | Domain name | String | Name of the target domain | No |
-
-|Back to ...||Latest Version|IBM DataPower Configuration Manager ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[v27](https://github.com/ibm-datapower/datapower-configuration-manager/releases/download/Datapower27/datapower-v27.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

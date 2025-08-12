@@ -29,7 +29,3 @@ If you encounter issues with the plug-in, or want to send feedback:
 * Submit Custom Fields to Venafi: Supplement a previously submitted certificate request with custom field values.
 * Submit CSR to Venafi: Submit the previously created CSR to Venafi for processing.
 * Validate Remaining Days: Validate the remaining days of a certificate before expiry. If the certificate is valid for less than the indicated number of days then the step will fail.
-
-|Back to ...||Latest Version|
-| :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[0]()|

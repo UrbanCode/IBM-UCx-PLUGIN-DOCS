@@ -24,7 +24,3 @@ CodeStation - Downloads
 - [codestation-6.382046.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/CodeStation/codestation-6.382046.zip)
 - [codestation-5.357765.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/CodeStation/codestation-5.357765.zip)
 - [codestation-4.349446.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/CodeStation/codestation-4.349446.zip)
-
-|Back to ...||Latest Version|CodeStation |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[25.1165172](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/CodeStation/codestation-25.1165172.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|

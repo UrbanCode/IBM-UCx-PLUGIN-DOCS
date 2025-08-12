@@ -20,7 +20,3 @@ IBM DevOps Velocity plug-in images are located in DockerHub. To view available v
 
 * Initial Release of Aha! plugin.
 
-
-|Back to ...||Latest Version|Aha! |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.1-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-aha/ucv-ext-aha%3A1.0.1.tar.7z.001)[and 1.0.1-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-aha/ucv-ext-aha%3A1.0.1.tar.7z.002)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|

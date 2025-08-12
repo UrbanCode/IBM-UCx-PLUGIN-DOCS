@@ -18,7 +18,3 @@ The following settings are available when you create a component by using the Pe
 | User | String |  |
 
 
-
-|Back to ...||Latest Version|Perforce Helix ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[9.1026768](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/PerforceSourceConfig/PerforceSourceConfig-9.1026768.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

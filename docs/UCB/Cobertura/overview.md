@@ -51,7 +51,3 @@ Fixed a communication issue that causes the UrbanCode Build server to fail if it
 Version 3.542772 includes the following features and fixes:
 
 * Update to a newer library version for HTTP communication.
-
-|Back to ...||Latest Version|Cobertura |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[5.752901](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Cobertura/cobertura-5.752901.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|

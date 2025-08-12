@@ -93,7 +93,3 @@ Use this step to undeploy an applicaton on the WebLogic Server.
 | WebLogic JAR File | String | The path to the WebLogic JAR file that executes deployments. The `weblogic.jar` file is located in the `/server/lib` directory. Specify the complete directory structure, for example: `WebLogicServer_directory/server/lib/weblogic.jar`. | Yes |
 
 
-
-|Back to ...||Latest Version|Oracle WebLogic Application Deployment ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[8.1061630](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/plugin-air-WebLogic-Application-Deployment/plugin-air-WebLogic-Application-Deployment-8.1061630.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

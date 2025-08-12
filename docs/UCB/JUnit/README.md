@@ -11,7 +11,3 @@ Available Steps
 JUnit ReportPublish JUnit results as a report.
 
 
-
-|Back to ...||Latest Version||||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[10.1071521](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/JUnit/JUnit-10.1071521.zip)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

@@ -131,7 +131,3 @@ $config[json\_check] = false; // If true, run a scan of exported files and verif
 
 $config[apply\_impersonation] = ; // If true, apply impersonation
 
-
-|Back to ...||Latest Version|IBM DevOps PHP CLI Tool |||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[6.714879](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/PHPCLI/SubversionSourceConfig-6.714879.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

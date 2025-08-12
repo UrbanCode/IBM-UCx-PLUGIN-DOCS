@@ -77,7 +77,3 @@ Version 9 includes a hidden **iControl Jar Location** property for some steps. Y
 
 Version 8 is the initial release of the plug-in.
 
-
-|Back to ...||Latest Version|F5 BIG-IP ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[24.1107123](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/F5/F5-24.1107123.zip)|[Readme](README.md)|[Troubleshooting](troubleshooting.md)|[Steps](steps.md)|[Downloads](downloads.md)|

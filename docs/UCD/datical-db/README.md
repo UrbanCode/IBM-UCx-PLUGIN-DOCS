@@ -61,7 +61,3 @@ View Datical DB Status - Reports on the current Status of a Server.
 View Datical DB Status Details - Reports on the detailed current Status of a Server.
 
 
-
-|Back to ...||Latest Version|
-| :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[0]()|

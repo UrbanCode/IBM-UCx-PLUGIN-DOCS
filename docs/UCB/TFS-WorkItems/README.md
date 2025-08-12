@@ -19,7 +19,3 @@ Create Work ItemCreate a TFS work item.
 Publish Work Item ReportCreate an issue report for work items.
 
 
-
-|Back to ...||Latest Version||||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[4.752909](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/TFS-WorkItems/TFS-WorkItems-4.752909.zip)|[Overview](overview.md)|[Steps and Settings](steps and settings.md)|[Downloads](downloads.md)|

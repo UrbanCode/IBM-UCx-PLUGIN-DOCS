@@ -16,7 +16,3 @@
 - [ibm-odm-source-config-3.897523.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-odm-source-config/ibm-odm-source-config-3.897523.zip)
 - [ibm-odm-source-config-2.868967.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-odm-source-config/ibm-odm-source-config-2.868967.zip)
 - [ibm-odm-source-config-1.837193.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-odm-source-config/ibm-odm-source-config-1.837193.zip)
-
-|Back to ...||Latest Version|IBM Operational Decision Manager (ODM) Source Config ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[15.1178699](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-odm-source-config/devops-deploy-ibm-odm-source-config-15.1178699.zip)|[Readme](README.md)|[Overview](overview.md)|[Settings](settings.md)|[Usage](usage.md)|

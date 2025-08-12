@@ -20,7 +20,3 @@ To download the plug-in, click the following version-specific links.
 - [uBuildSourceConfig-5.898821.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uBuildSourceConfig/uBuildSourceConfig-5.898821.zip)
 - [uBuildSourceConfig-4.856035.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uBuildSourceConfig/uBuildSourceConfig-4.856035.zip)
 - [uBuildSourceConfig-3.786803.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uBuildSourceConfig/uBuildSourceConfig-3.786803.zip)
-
-|Back to ...||Latest Version|IBM DevOps Build ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[16.1176344](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uBuildSourceConfig/ucd-uBuildSourceConfig-16.1176344.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|

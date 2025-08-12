@@ -29,7 +29,3 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ### Initial version 2.504117 released on May 22, 2014
 
-
-|Back to ...||Latest Version|Oracle WebLogic Server Security Management |||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[2.504117](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebLogicSecurityMgmt/WLS-Security-Management-2.504117.zip)|[Readme](README.md)|[Usage](usage.md)|[Troubleshooting](troubleshooting.md)|[Steps](steps.md)|[Downloads](downloads.md)|

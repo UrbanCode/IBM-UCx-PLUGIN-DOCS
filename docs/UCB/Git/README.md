@@ -21,7 +21,3 @@ Git Quiet Period Perform a Git changelog for quiet period detection and publish 
 Create GitHub Status Create a commit status in GitHub or GitHub Enterprise.
 
 
-
-|Back to ...||Latest Version||||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[29.1127031](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Git/Git-29.1127031.zip)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

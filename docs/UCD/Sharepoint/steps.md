@@ -77,7 +77,3 @@ Exports SharePoint content to a CMP package
 | SharePoint Url | String | specifify the SharePoint url if url deployment is checked | Yes |
 
 
-
-|Back to ...||Latest Version|Microsoft SharePoint |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[8.1056539](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Sharepoint/Sharepoint-8.1056539.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

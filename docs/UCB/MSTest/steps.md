@@ -28,7 +28,3 @@ Publish MSTest results as a report.
 | Report Name | String | The name of the report published by the Anthill build life. | Yes |
 
 
-
-|Back to ...||Latest Version|MSTest |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[7.752751](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/MSTest/MSTest-7.752751.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

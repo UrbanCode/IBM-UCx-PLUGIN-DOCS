@@ -63,7 +63,3 @@ The following features are included in second beta release of the plug-in:
 * Improved help descriptions
 * Tutorial uncommented and improved
 
-
-|Back to ...||Latest Version|PowerShell |||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[9.1025820](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/powershell-integration/PowerShell-Integration-9.1025820.zip)|[Readme](README.md)|[Steps](steps.md)|[Troubleshooting](troubleshooting.md)|[Usage](usage.md)|[Downloads](downloads.md)|

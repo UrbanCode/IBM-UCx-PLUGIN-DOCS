@@ -15,7 +15,3 @@ Uninstall RPM
 RPM Update
 
 
-
-|Back to ...||Latest Version|||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[4.1100816](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/RPM/RPM-4.1100816.zip)|[Overview](overview.md)|[Steps](steps.md)|[Usage](usage.md)|[Downloads](downloads.md)|

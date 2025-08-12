@@ -28,7 +28,3 @@ No special steps are required for installation. See [Installing plug-ins in IBM 
 ### Version 1
 
 * Initial release of the Nexus Source Configuration plug-in.
-
-|Back to ...||Latest Version|Nexus Source Config ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[4.1053075](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/nexus-source-config/Nexus-Source-Config-4.1053075.zip)|[Readme](README.md)|[Configuration](configuration.md)|[Steps](steps.md)|[Downloads](downloads.md)|

@@ -21,7 +21,3 @@ If you encounter issues with the plug-in, or want to send feedback:
 Find Resource Properties Without ValuesFind resource and / or resource role properties that do not have a value (within a given resource tree scope). Find Specific PropertiesFind instances of specific properties on resources and report the values. List ResourcesList IBM DevOps Deploy resources under a specific root resource.
 
 
-
-|Back to ...||Latest Version||
-| :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[1.0](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/resource-utilities/Resource-Utilities-UCD-1.0.zip)|[Downloads](downloads.md)|

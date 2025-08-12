@@ -15,7 +15,3 @@ IBM UrbanCode Deploy - Downloads
 - [ucr-plugin-deploy-1.782064.zip](https://github.com/UrbanCode/IBM-UCR-PLUGINS/blob/main/files/ucr-plugin-deploy/ucr-plugin-deploy-1.782064.zip)
 - [ucr-plugin-deploy-1.933451.zip](https://github.com/UrbanCode/IBM-UCR-PLUGINS/blob/main/files/ucr-plugin-deploy/ucr-plugin-deploy-1.933451.zip)
 - [ucr-plugin-deploy-1.946637.zip](https://github.com/UrbanCode/IBM-UCR-PLUGINS/blob/main/files/ucr-plugin-deploy/ucr-plugin-deploy-1.946637.zip)
-
-|Back to ...|Latest Version|IBM UrbanCode Deploy ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Release Plugins](../README.md)|[10.1175503](https://github.com/UrbanCode/IBM-UCR-PLUGINS/blob/main/files/ucr-plugin-deploy/ucr-plugin-deploy-10.1175503.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Settings](settings.md)|

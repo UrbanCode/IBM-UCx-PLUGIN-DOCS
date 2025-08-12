@@ -43,7 +43,3 @@ Added failure property to determine what action to take on SQL errors.
 
 Initial release of the Sybase Plugin.
 
-
-|Back to ...||Latest Version|Sybase |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[6.1100960](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/sybase/plugins-sybase-6.1100960.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|

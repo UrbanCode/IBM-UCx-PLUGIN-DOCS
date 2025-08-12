@@ -38,7 +38,3 @@ Run SQLPlus scripts using control files for orchestration.
 | SQLPlus Executable | String | The full path to the sqlplus executable scripts to be run or the command to run if it is on the path. | Yes |
 
 
-
-|Back to ...||Latest Version|Oracle SQLPlus ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[24.1163812](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SQLPlus/ucd-SQLPlus-24.1163812.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

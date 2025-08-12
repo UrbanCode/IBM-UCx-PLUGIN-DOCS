@@ -118,7 +118,3 @@ A placeholder for using the hg scm system. The remote repository is configured o
 | Repository |  | Select the Mercurial Repository |
 
 
-
-|Back to ...||Latest Version|Mercurial |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[6.753091](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Mercurial/Mercurial-6.753091.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

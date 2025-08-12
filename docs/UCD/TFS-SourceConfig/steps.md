@@ -50,7 +50,3 @@ The plug-in adds these roles automatically to resources. You cannot add these ro
 | Build URI | String | A build URI to import a specific build. It must be in the form of vstfs:///Build/Build/176. You must also specify the build definition in the Build Defintion property field. |
 
 
-
-|Back to ...||Latest Version|Microsoft TFS (Team Foundation Server) ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[26.1155758](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/TFS-SourceConfig/ucd-TFS-SourceConfig-26.1155758.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

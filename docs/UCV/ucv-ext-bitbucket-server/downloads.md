@@ -18,7 +18,3 @@ To download the plugins, click the following version specific links.
 * Click on "Unzip to..." and choose the location you want to save the file to.
 * Click "Unzip" which will open up the contents of the TAR GZ file.
 
-
-|Back to ...||Latest Version|BitBucket Server |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.1.26](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bitbucket-server/ucv-ext-bitbucket-server%3A1.1.26.tar.7z.001)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|

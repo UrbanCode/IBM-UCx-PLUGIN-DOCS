@@ -81,7 +81,3 @@ For earlier versions of IBM DevOps Deploy, download version 1.0.2 of the plug-in
 ### Version 1.2.9
 
 Fix issue where single build updated properties on all versions. Fixed exception handling.
-
-|Back to ...||Latest Version|Jenkins Publisher |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[1.16.1107398](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/jenkins-ud-plugin/ibm-ucdeploy-publisher-1.16.1107398.hpi)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|

@@ -132,7 +132,3 @@ This plug-in is installed when installing IBM DevOps Deploy. When new plug-in ve
 ### Version 1
 
 * Initial release of the TFS source configuration plugin.
-
-|Back to ...||Latest Version|Microsoft TFS (Team Foundation Server) ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[26.1155758](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/TFS-SourceConfig/ucd-TFS-SourceConfig-26.1155758.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

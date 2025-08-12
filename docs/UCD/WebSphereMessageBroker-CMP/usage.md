@@ -234,7 +234,3 @@ The properties that are required to connect to the integration node change based
 | Port | String | The WebSphere MQ listener port of the target server for a remote connection. | Yes |
 | Queue Manager | String | The WebSphere MQ queue manager that the broker is using. | Yes |
 
-
-|Back to ...||Latest Version|IBM Integration Bus (formerly WebSphere Message Broker) - CMP |||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[47.1156618](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereMessageBroker-CMP/WebSphereMessageBroker-CMP-47.1156618.zip)|[Readme](README.md)|[Overview](overview.md)|[Troubleshooting](troubleshooting.md)|[Steps](steps.md)|[Downloads](downloads.md)|

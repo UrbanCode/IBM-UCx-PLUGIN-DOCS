@@ -37,7 +37,3 @@ The JVM Properties field was removed.
 Ant failures are resolved.
 
 
-
-|Back to ...||Latest Version|Ant |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[10.1165571](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Ant/Ant-10.1165571.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|

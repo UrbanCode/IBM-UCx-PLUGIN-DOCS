@@ -30,7 +30,3 @@ Query DefectsEnsure the status of issues are in the expected state
 
 * Search on our answers page (note that the Open Link in New Tab function can interfere with the search terms in the link): [IBM DevOps Community](https://community.ibm.com/community/user/wasdevops/communities/community-home?communitykey=9adfe6b6-2e23-4895-8b27-38b93b5e152c)
 * If there are no search results, submit your issue as a question to our [Discussions page](https://community.ibm.com/community/user/wasdevops/communities/community-home/digestviewer?communitykey=9adfe6b6-2e23-4895-8b27-38b93b5e152c). Use the following tags: ```DevOps | deploy | plugins | hp | quality | center```
-
-|Back to ...||Latest Version||||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[16.1011648](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/HPQualityCenter/HPQualityCenter-16.1011648.zip)|[Overview](overview.md)|[Troubleshooting](troubleshooting.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

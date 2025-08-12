@@ -50,7 +50,3 @@ The plug-in adds these roles automatically to resources. You cannot add these ro
 | Version Description | String | An optional description to add to the versions that are imported into DevOps Deploy. |
 
 
-
-|Back to ...||Latest Version|NuGet ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[17.1154071](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/nuget-source-config/ucd-nuget-source-config-17.1154071.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

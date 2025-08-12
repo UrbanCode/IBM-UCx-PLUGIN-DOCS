@@ -333,7 +333,3 @@ Version 37 includes fixes for the following APARs:
 * APAR PI65985 While you are creating a Java Platform, Enterprise Edition property value that begins with a [, a java.lang.IllegalArgumentException was received.
 * APAR PI65140 J2EEResourcePropertySet is not applied for J2C Connection Factories.
 
-
-|Back to ...||Latest Version|WebSphere Application Server - Configure ||||||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[94.1165946](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereConfiguration/ucd-WebSphereConfiguration-94.1165946.zip)|[Readme](README.md)|[Usage](usage.md)|[Example Applications](example applications.md)|[Example Processes](example processes.md)|[Steps](steps.md)|[Roles](roles.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|

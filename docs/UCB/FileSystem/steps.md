@@ -94,7 +94,3 @@ Instead of using a SCM system, the File System repository expects files to be pr
 | Repository |  | Select the File System Repository |
 
 
-
-|Back to ...||Latest Version|File System for IBM UrbanCode Build |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[5.913286](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/FileSystem/FileSystem-5.913286.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

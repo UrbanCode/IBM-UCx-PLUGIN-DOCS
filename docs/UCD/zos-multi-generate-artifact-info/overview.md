@@ -29,10 +29,6 @@ This plug-in is installed when installing IBM DevOps Deploy. When new plug-in ve
 
 ## History
 
-### Version 11
-
-* Minor improvements and bug fixes in the new YAML step
-
 ### Version 10
 
 * New step to pass filters in YAML format and generate artifact information
@@ -79,7 +75,3 @@ This plug-in is installed when installing IBM DevOps Deploy. When new plug-in ve
 
 * Initial release
 
-
-|          Back to ...          |                                |                                                                                   Latest Version                                                                                    | z/OS Multi Generate Artifact Information |                   |                   |                           |
-|:-----------------------------:|:------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------:|:-----------------:|:-----------------:|:-------------------------:|
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [11.1179290](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-multi-generate-artifact-info/devops-deploy-zos-multi-generate-artifact-info-11.1179290.zip) |           [Readme](README.md)            | [Steps](steps.md) | [Usage](usage.md) | [Downloads](downloads.md) |

@@ -40,7 +40,3 @@ The plug-in adds these roles automatically to resources. You cannot add these ro
 | --- | --- | --- | --- |
 | The build ID for the target build. | String |  |  |
 | The name of the version. | String |  |  |
-
-|Back to ...||Latest Version|TeamCity ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[20.1153959](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/TeamCitySourceConfig/ucd-TeamCitySourceConfig-20.1153959.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

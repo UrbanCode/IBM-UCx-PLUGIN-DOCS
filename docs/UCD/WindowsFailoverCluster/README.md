@@ -31,7 +31,3 @@ Take Resources Offline: Take clustered resources offline.
 Take Services or Applications Offline: Take clustered services or applications (resource groups) offline.
 
 
-
-|Back to ...||Latest Version||||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[6.1103479](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WindowsFailoverCluster/WindowsFailoverCluster-6.1103479.zip)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

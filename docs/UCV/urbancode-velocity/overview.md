@@ -32,7 +32,3 @@ Must be running DevOps Velocity version 2.0 or later to use the plugin.
 ### Version 2.0.0
 
 * Initial release
-
-|Back to ...||Latest Version|urbancode-velocity |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[3.0.1](https://github.com/jenkinsci/urbancode-velocity-plugin/releases/download/3.0.1/urbancode-velocity-3.0.1.hpi)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|

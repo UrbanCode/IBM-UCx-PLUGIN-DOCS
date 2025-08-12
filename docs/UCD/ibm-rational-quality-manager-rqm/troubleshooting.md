@@ -39,7 +39,3 @@ In these two properties, specify the folder or file path containing the RQMExecu
 
 The plugin takes advantage of two different jars the RQMExecutionTool.jar and RQMUrlUtility.jar. The output from the RQMExecutionTool is fed into the RQMUrlUtility to acquire various result data. However, the RQMExecutionTool.jar may return an UNKNOWN status which is when the RQM server reports an execution state other than define/predictable states. The RQMUrlUtility is unable to find result data from a test with an UNKNOWN result verdict. This status indicates something went wrong with the specific test case or suite within RQM. The RQM server log could be useful to analyze the issue in detail [(Log file location)](https://jazz.net/help-dev/clm/index.jsp?topic=%2Fcom.ibm.rational.test.qm.doc%2Ftopics%2Fc_rqm_logfiles_loc.html).
 
-
-|Back to ...||Latest Version|IBM Rational Quality Manager (RQM) ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[11.1101668](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/RationalQualityManager/RQM-11.1101668.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

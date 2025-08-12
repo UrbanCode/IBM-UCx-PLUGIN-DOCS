@@ -15,7 +15,3 @@ Check Environment VariableEnsure that an environment variable is set to an expec
 Check RegexCheck if a value matches a Regex. If it does the matched groups will be set as output properties with the names group0, group1, etc.
 
 
-
-|Back to ...||                                                              Latest Version                                                               ||||
-| :---: | :---: |:-----------------------------------------------------------------------------------------------------------------------------------------:| :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)| [9.1171671](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SystemInformation/ucd-SystemInformation-9.1171671.zip) |[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

@@ -36,7 +36,3 @@ view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/
 
 * Initial release
 
-
-|Back to ...||Latest Version|TestNG |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.13](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-testng/ucv-ext-testng-1.0.13.tar.zip)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|

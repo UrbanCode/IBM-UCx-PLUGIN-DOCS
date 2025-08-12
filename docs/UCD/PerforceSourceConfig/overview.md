@@ -30,7 +30,3 @@ Version 4 includes a fix for APAR PI57417. The plug-in now checks the agent sett
 
 Initial release of the plug-in.
 
-
-|Back to ...||Latest Version|Perforce Helix ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[9.1026768](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/PerforceSourceConfig/PerforceSourceConfig-9.1026768.zip)|[Readme](README.md)|[Settings](settings.md)|[Usage](usage.md)|[Downloads](downloads.md)|

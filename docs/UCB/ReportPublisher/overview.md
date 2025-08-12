@@ -40,7 +40,3 @@ This release includes a fix for an issue where communication with the IBM UrbanC
 
 This release includes a fix for an issue with uploading reports.
 
-
-|Back to ...||Latest Version|Report Publisher |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[8.1164837](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/ReportPublisher/Report-Publisher-8.1164837.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|

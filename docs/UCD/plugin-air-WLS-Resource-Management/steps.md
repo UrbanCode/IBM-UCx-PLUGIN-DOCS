@@ -1034,7 +1034,3 @@ Use this step to update a work manager on the WebLogic server. If the work manag
 | Work Manager Name | String | The name of the Work Manager to update. | Yes |
 
 
-
-|Back to ...||Latest Version|Oracle WebLogic Server Resource Management |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[6.1056547](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/plugin-air-WLS-Resource-Management/plugin-air-WLS-Resource-Management-6.1056547.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

@@ -13,7 +13,6 @@ To create a component, complete the following steps. For more information, see [
 3. In the **Teams** fields, specify the access information for the new component.
 4. To use a template for the new component, select a template from the Template list. In this case, the component inherits source configuration, properties, and processes from the template.
 5. In the **Source Config Type** list, select **ClearCase**.
-![](url_image_not_found?resize=300%2C95&ssl=1)
 6. Specify the properties for the component.See the **Setting** tab for descriptions.
 7. Click **Save**.
 
@@ -30,7 +29,3 @@ When the artifacts are imported, a component version is created using the versio
 
 To access this plug-in in the palette, click **Source and Repositories** > **ClearCase**.
 
-
-|Back to ...||Latest Version|IBM Rational ClearCase ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[17.1155764](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ClearCaseSourceConfig/ucd-ClearCaseSourceConfig-17.1155764.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps and Roles](steps and roles.md)|[Downloads](downloads.md)|

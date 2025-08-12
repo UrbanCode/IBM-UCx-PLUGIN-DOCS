@@ -17,7 +17,3 @@ To download the plug-in, click the following links.
 - [zosmf-6.934842.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zosmf/zosmf-6.934842.zip)
 - [zosmf-5.868918.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zosmf/zosmf-5.868918.zip)
 - [zosmf-4.839888.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zosmf/zosmf-4.839888.zip)
-
-|          Back to ...          ||         Latest Version         |                                              z/OS Management Facility                                               ||||
-|:-----------------------------:|:------------------------------:|:-------------------------------------------------------------------------------------------------------------------:| :---: | :---: | :---: | :---: |
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [15.1174435](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zosmf/ucd-zosmf-15.1174435.zip) |[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|

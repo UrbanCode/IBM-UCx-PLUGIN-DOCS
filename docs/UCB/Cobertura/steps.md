@@ -27,7 +27,3 @@ Use this step to upload a Cobertura report.
 | Report Name | String | The name of the report to publish. | No |
 
 
-
-|Back to ...||Latest Version|Cobertura |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[5.752901](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Cobertura/cobertura-5.752901.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

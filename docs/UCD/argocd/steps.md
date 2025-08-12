@@ -121,7 +121,3 @@ Get Argo CD ApplicationSet.
 | Argo CD ApplicationSet Name | String | The name of the Argo CD ApplicationSet to get. | Yes |
 | Additional appset get flags | String | A list of flags to set when running the appset get step.  For example: '--config=path'. Specify each flag on a new line.  If the flag takes an argument, put the argument on a separate line or use an equal '=' (not whitespace) between the flag and argument. | Yes | 
 
-
-|Back to ...||Latest Version|Argo CD ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[4.1167795](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/argocd/ucd-plugins-argocd-4.1167795.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

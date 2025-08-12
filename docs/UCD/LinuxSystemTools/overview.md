@@ -33,7 +33,3 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 * Fixed the reboot step from failing intermittently
 
-
-|Back to ...||Latest Version|Linux System Tools ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[14.1154088](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/LinuxSystemTools/ucd-LinuxSystemTools-14.1154088.zip)|[Readme](README.md)|[Steps](steps.md)|[Usage](usage.md)|[Downloads](downloads.md)|

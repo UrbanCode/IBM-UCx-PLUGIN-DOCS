@@ -46,7 +46,3 @@ Fixed PI38873WINDOWS SYSTEM TOOLS DOES NOT LOG OFF SESSIONS IN DISCONNECTED STAT
 
 Fixed PI32983WINDOWS SYSTEM TOOLS PLUGIN HAS A SPELLING ERROR (REG\_MUTLI\_SZ INSTEAD OF REG\_MULTI\_SZ) IN PLUGIN.XML
 
-
-|Back to ...||Latest Version|Microsoft Windows System Tools |||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[24.1127383](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WindowsSystemTools/ucd-WindowsSystemTools-24.1127383.zip)|[Readme](README.md)|[Troubleshooting](troubleshooting.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

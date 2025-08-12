@@ -77,7 +77,3 @@ Use this step to update, add, or remove rules from the file system table (fstab)
 | fstab file path | String | The the path, including the file name, to the fstab file if it is not located at `/etc/fstab`. | No |
 
 
-
-|Back to ...||Latest Version|Linux System Tools ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[14.1154088](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/LinuxSystemTools/ucd-LinuxSystemTools-14.1154088.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

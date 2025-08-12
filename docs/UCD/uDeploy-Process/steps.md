@@ -31,7 +31,3 @@ Sets a property on a process request.
 | Secure Property Value | Password | A secure value to set for this property. If this value is set, the resulting property will be secure and the contents of the Property Value field will be ignored. | No |
 
 
-
-|Back to ...||Latest Version|IBM DevOps Deploy Process ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[14.1155709](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Process/ucd-uDeploy-Process-14.1155709.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

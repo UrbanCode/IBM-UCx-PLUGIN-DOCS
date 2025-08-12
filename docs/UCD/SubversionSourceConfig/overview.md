@@ -127,7 +127,3 @@ This plug-in is installed when installing IBM DevOps Deploy. When new plug-in ve
 
 * Initial release of Subversion source configuration plugin.
 
-
-|Back to ...||Latest Version|Subversion ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[26.1159798](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SubversionSourceConfig/ucd-SubversionSourceConfig-26.1159798.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

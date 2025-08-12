@@ -23,9 +23,9 @@ To access this plug-in in the palette, click **Quality** > **Functional Testing*
 In this tutorial, we will show how to run a simple Selenium test through the Run Test Suite plug-in step. In the test suite, shown below, we will run a single test called `ucd-selenium-test` which will start at the [IBM DevOps Plugins page](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/) and navigate to this Selenium usage page. Along with version 8 of the Selenium plug-in, both below .html files and a browsers matching driver are required for this demo.
 
 
-**Download the tutorials Selenium Test Suite file**: [ucd-selenium-test-suite](ucd-selenium-test-suite.html) `<?xml version="1.0" encoding="UTF-8"?>` `<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">` `<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">` `<head>` `<meta content="text/html; charset=UTF-8" http-equiv="content-type" />` `<title>Test Suite</title>` `</head>` `<body>` `<table id="suiteTable" cellpadding="1" cellspacing="1" border="1" class="selenium"><tbody>` `<tr><td><b>Test Suite</b></td></tr>` `<tr><td><a href="ucd-selenium-test.html">ucd-selenium-test</a></td></tr>` `</tbody></table>` `</body>` `</html>`
+**Download the tutorials Selenium Test Suite file**: [ucd-selenium-test-suite](/selenium/ucd-selenium-test-suite.html)
 
-**Download the tutorials Selenium Test file**: [ucd-selenium-test](ucd-selenium-test.html)  `<?xml version="1.0" encoding="UTF-8"?>`   `<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">`   `<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">`   `<head profile="http://selenium-ide.openqa.org/profiles/test-case">`   `<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />`   `<link rel="selenium.base" href="https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/" />`   `<title>ucd-selenium-test </title>`   `</head>`   `<body>`   `<table cellpadding="1" cellspacing="1" border="1">`   `<thead>`   `<tr> <td rowspan="1" colspan="3">ucd-selenium-test </td> </tr>`   `</thead> <tbody>`   `<tr>`   `<td>open </td>`   `<td>https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/ </td>`   `<td> </td>`   `</tr>`   `<tr>`   `<td>set window size </td>`   `<td>1550x838 </td>`   `<td> </td>`   `</tr>`   `<tr>`   `<td>click </td>`   `<td>css=#post-1004041 .uc-grid-excerpt </td>`   `<td> </td>`   `</tr>`   `</tbody> </table>`   `</body>`   `</html>`
+**Download the tutorials Selenium Test file**: [ucd-selenium-test](/selenium/ucd-selenium-test.html)
 
 The appropriate browsers driver must be downloaded and installed the Selenium test suite. A list of 3rd party driver can be found on [Seleniums download page](http://www.seleniumhq.org/download/). Follow the drivers instructions to configuration on your own environment.
 
@@ -120,7 +120,3 @@ One option is to configure a virtual frame buffer (such as xvfb) to act as a dum
 
 There exists a second option to solve the headless environment dilemma. As an alternative to the virtual frame buffer option, you may update your tests to use headless web drivers. The following guide from DevOps Zone covers headless web drivers in detail ([Headless Execution of Selenium Tests in Jenkins](https://dzone.com/articles/headless-execution-of-selenium-tests-in-jenkins)). The guide mentions Jenkins specifically, but most of the content covers Selenium tests as a whole. See the section entitled *Quick Solution* for information on headless web drivers.
 
-
-|Back to ...||Latest Version|Selenium ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[9.1154067](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Selenium/ucd-Selenium-9.1154067.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

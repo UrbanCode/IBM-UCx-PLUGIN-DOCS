@@ -21,7 +21,3 @@ Update Transient Environment
 Start Scenario
 
 Stop Scenario
-
-|Latest Version||Back to ...||
-| :---: | :---: | :---: | :---: |
-|[5.3](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IBMDevOpsTestVirtualization/DTVirtualization-DD-IBM-5.3.zip)|[DTVirtualization-Downloads](downloads.md)|[All Deploy Plugins](../README.md)|[All Plugins](../../index.md)|

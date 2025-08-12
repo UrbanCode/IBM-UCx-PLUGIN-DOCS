@@ -15,7 +15,3 @@ This plug-in supports Team Foundation Server 2010 – 2017 using XAML builds.
 
 **Note**: XAML builds have been deprecated since TFS 2015 and new ones cannot be created. If using a different TFS build type, use the [Microsoft Visual Studio Team Services (VSTS) plug-in](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/microsoft-visual-studio-team-services-vsts/). The VSTS plug-in supports all build types.
 
-
-|Back to ...||Latest Version|||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[26.1155758](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/TFS-SourceConfig/ucd-TFS-SourceConfig-26.1155758.zip)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

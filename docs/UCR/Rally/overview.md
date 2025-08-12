@@ -34,7 +34,3 @@ ins](http://www.ibm.com/support/knowledgecenter/SS4GCC_6.1.1/com.ibm.urelease.do
 This is the initial public
 release of the plug-in.
 
-
-|Back to ...||Latest Version|Rally ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Release Plugins](../README.md)|[2.690437](https://raw.githubusercontent.com/UrbanCode/IBM-UCR-PLUGINS/main/files/Rally/ucr-plugin-rally-2.690437.zip)|[Readme](README.md)|[Usage](usage.md)|[Settings](settings.md)|[Downloads](downloads.md)|

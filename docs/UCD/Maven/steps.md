@@ -23,7 +23,3 @@ Resolve artifacts from Maven.
 | Verify Hash | Boolean | Verify hashes after the file is downloaded. | No |
 
 
-
-|Back to ...||Latest Version|Maven Resolve ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[11.1167755](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Maven/ucd-Maven-11.1167755.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

@@ -16,7 +16,3 @@ Install ChefInstalls Chef Solo (11.6.0-1)
 Install Chef NodeExecutes a chef node.
 
 
-
-|Back to ...||Latest Version|||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[3.1056568](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Chef/Chef-3.1056568.zip)|[Overview](overview.md)|[Steps](steps.md)|[Usage](usage.md)|[Downloads](downloads.md)|

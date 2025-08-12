@@ -24,11 +24,11 @@ As a tester, you might have a large number of services to be virtualized against
 
 This component process creates and updates an environment in IBM Rational Test Control Panel. You can use a similar process as part of an [overall scenario that includes virtualized services](#RTW). This process assumes that the application binary files are in the component. It also assumes that the environment contains an installation of Rational Integration Tester. The process runs the following steps in order:
 
-1. The [Create Transient Environment](../stepssv#create_transient_environment) step uses a base environment stored in Rational Test Control Panel to create a transient environment.
-2. The [Update Transient Environment](../stepssv#update_transient_environment) step updates the host name tag in the transient environment to correspond to the host where the environment is deployed, which could be in the cloud.
-3. The [Start Stub](../stepssv#start_stub) step initiates the virtualized service.
-4. The [Stop Stub](../stepssv#stop_stub) step shuts down the virtualized service.
-5. The [Delete Transient Environment](../stepssv#delete_transient_environment) step deletes the transient environment.
+1. The [Create Transient Environment](steps.md#create_transient_environment) step uses a base environment stored in Rational Test Control Panel to create a transient environment.
+2. The [Update Transient Environment](steps.md#update_transient_environment) step updates the host name tag in the transient environment to correspond to the host where the environment is deployed, which could be in the cloud.
+3. The [Start Stub](steps.md#start_stub) step initiates the virtualized service.
+4. The [Stop Stub](steps.md#stop_stub) step shuts down the virtualized service.
+5. The [Delete Transient Environment](steps.md#delete_transient_environment) step deletes the transient environment.
 
 ## Example: Virtualizing services with Rational Test Workbench
 
@@ -53,17 +53,13 @@ To virtualize the web service, you can use the Green Hat plug-in to create a tra
 4. Use the Modify Tomcat Artifacts step in the Tomcat plug-in to update the WSDL host name that the user interface application uses for calls to web services.
 5. Use the Update Config File step in the Tomcat plug-in to add the proxy information for IBM Rational Test Control Panel to the tomcat6 configuration file. For Tomcat, you change the JAVA\_OPTS properties for http.proxyHost and http.proxyPort to point to the host name and port number of the IBM Rational Test Control Panel proxy.
 6. Use the Start Tomcat step in the Tomcat plug-in to start the application server.
-1. [Create Transient Environment](../stepssv#create_transient_environment) Use a base environment that you have created in IBM Rational Test Control Panel to create a transient environment. The transient environment is used to start the stub with dynamic property values.
-2. [Update Transient Environment](../stepssv#update_transient_environment) Update the environment with properties specific to the deployment environment.
-3. [Start Stub](../stepssv#start_stub) Start the virtualized service in the transient environment.
-4. [Stop Stub](../stepssv#stop_stub) Shut down the virtualized service.
-5. [Delete Transient Environment](../stepssv#delete_transient_environment) Delete the transient environment.
+1. [Create Transient Environment](steps.md#create_transient_environment) Use a base environment that you have created in IBM Rational Test Control Panel to create a transient environment. The transient environment is used to start the stub with dynamic property values.
+2. [Update Transient Environment](steps.md#update_transient_environment) Update the environment with properties specific to the deployment environment.
+3. [Start Stub](steps.md#start_stub) Start the virtualized service in the transient environment.
+4. [Stop Stub](steps.md#stop_stub) Shut down the virtualized service.
+5. [Delete Transient Environment](steps.md#delete_transient_environment) Delete the transient environment.
 
 ### Results
 
 When you run the application process, the user interface component is deployed and then the virtual services component is deployed.
 
-
-|Back to ...||Latest Version|IBM Rational Test Virtualization Server (RTVS) ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[4.0](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/RTVS-UCD/RTVS-UCD-4.0.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

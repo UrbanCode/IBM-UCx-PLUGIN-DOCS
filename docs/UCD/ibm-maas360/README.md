@@ -26,7 +26,3 @@ If you encounter issues with the plug-in, or want to send feedback:
 * Request Authentication
 * Upgrade App
 * Upgrade App Plus
-
-|Back to ...||Latest Version|
-| :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[0]()|

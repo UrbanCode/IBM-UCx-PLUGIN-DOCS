@@ -43,7 +43,3 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 Initial release
 
 
-
-|Back to ...||Latest Version|Microsoft BizTalk |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[7.869016](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/BizTalk/BizTalk-7.869016.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|

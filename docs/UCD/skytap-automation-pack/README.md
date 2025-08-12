@@ -6,7 +6,3 @@ Skytap expands the devops flexibility of IBM DevOps Deploy with the Skytap Autom
 This is a partner provided plugin.
 
 * [Source project](https://github.com/skytap/Skytap-UCD-Plugin)
-
-|Back to ...||Latest Version|
-| :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[0]()|

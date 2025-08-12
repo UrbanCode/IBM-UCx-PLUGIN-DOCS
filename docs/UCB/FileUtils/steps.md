@@ -262,7 +262,3 @@ Update XML files using XPath to locate items to edit.
 | Source Directory Offset | String | The directory relative to the current working directory that contains the files to operate on. | No |
 
 
-
-|Back to ...||Latest Version|File Utils for IBM UrbanCode Build |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[44.754293](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/FileUtils/FileUtils-44.754293.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

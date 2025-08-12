@@ -104,7 +104,3 @@ Some properties might not be displayed in the user interface, to see all propert
 | Aha Request Batch Size | Number | The number of items to request at a time from the Aha server. An increased batch size may result in excessive network traffic and performance loss or instability. | No | requestAhaBatchSize |
 | Request Retries | Number | Number of times to attempt each request to the Aha server (to help eliminate one-off request errors failing entire sync) | No | requestRetries |
 
-
-|Back to ...||Latest Version|Aha! |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.1-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-aha/ucv-ext-aha%3A1.0.1.tar.7z.001)[and 1.0.1-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-aha/ucv-ext-aha%3A1.0.1.tar.7z.002)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

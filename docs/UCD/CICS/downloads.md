@@ -16,7 +16,3 @@ To download the plug-in, click the following version-specific links.
 - [cics-22.20150419-0417.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/CICS/cics-22.20150419-0417.zip)
 - [cics-17.20150213-1527.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/CICS/cics-17.20150213-1527.zip)
 - [cics-6.20141205-0846.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/CICS/cics-6.20141205-0846.zip)
-
-|          Back to ...          |                                |                                                      Latest Version                                                       |       CICS TS       ||||||
-|:-----------------------------:|:------------------------------:|:-------------------------------------------------------------------------------------------------------------------------:|:-------------------:| :---: | :---: | :---: | :---: | :---: |
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [45.20240620-1707](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/CICS/cics-45.20240620-1707.zip) | [Readme](README.md) |[Overview](overview.md)|[Usage](usage.md)|[Component Templates](component_templates.md)|[Steps](steps.md)|[Troubleshooting](troubleshooting.md)|

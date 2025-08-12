@@ -108,7 +108,3 @@ The plug-in adds these roles automatically to resources. You cannot add these ro
 | User Name | String | The user name to be used to connect to the JIRA server. |
 
 
-
-|Back to ...||Latest Version|JIRA for IBM UrbanCode Build |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[7.876389](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/JIRA/JIRA-7.876389.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

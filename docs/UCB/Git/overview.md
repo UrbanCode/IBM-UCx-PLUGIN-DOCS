@@ -111,7 +111,3 @@ This release includes a fix for the triggering script.
 
 This release includes support for triggering builds by using GitHub or GitLab webhooks.
 
-
-|Back to ...||Latest Version|Git for IBM UrbanCode Build |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[29.1127031](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Git/Git-29.1127031.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|

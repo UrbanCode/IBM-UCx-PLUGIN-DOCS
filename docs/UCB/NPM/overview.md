@@ -24,7 +24,3 @@ No special steps are required for installation.
 
 Version 1 is the initial, publicly available version of the plugin.
 
-
-|Back to ...||Latest Version|NPM for IBM UrbanCode Build |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[1.1098517](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/NPM/NPM-1.1098517.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|

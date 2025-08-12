@@ -179,7 +179,3 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 * Initial release of the Artifactory Source Config plug-in.
 
-
-|Back to ...||Latest Version|Artifactory Source Config |||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[33.1167705](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ArtifactorySourceConfig/ucd-ArtifactorySourceConfig-33.1167705.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Roles](roles.md)|[Downloads](downloads.md)|

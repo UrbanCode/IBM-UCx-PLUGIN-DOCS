@@ -22,7 +22,3 @@ Deploy a DTSX file from a local file system to a Microsoft SQL database.
 | SQL Username | String | The username with package deployment permissions on the Microsoft SQL database. This is required only if SQL authentication is being used. If this is not specified, Windows authentication will be used. | No |
 
 
-
-|Back to ...||Latest Version|Microsoft SSIS |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[2.1005733](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/MicrosoftSSIS/MicrosoftSSIS-2.1005733.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

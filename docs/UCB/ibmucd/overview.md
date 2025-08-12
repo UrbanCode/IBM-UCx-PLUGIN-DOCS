@@ -139,7 +139,3 @@ This release adds the ability to store artifacts on the IBM DevOps Deploy server
 
 This release includes translated steps and properties.
 
-
-|Back to ...||Latest Version|IBM DevOps Deploy for IBM DevOps Build |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[56.1175564](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/ibmucd/DevOps-deploy-56.1175564.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|

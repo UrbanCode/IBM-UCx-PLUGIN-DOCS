@@ -587,7 +587,3 @@ The steps in this process follow this general flow:
 * To templatize cluster configuration data only (and not cell and node configuration data), see sample processes [WebSphere Example 5 Discover & Templatize Cluster Configuration Data Only (Multiplicity)](#websphere--example-5--discover--templatize-cluster-configuration-data-only-multiplicity) and [WebSphere Example 6 Discover & Templatize Cluster Configuration Data Only (No Multiplicity)](#websphere--example-6--discover--templatize-cluster-configuration-data-only-no-multiplicity).
 * This process creates component versions for components that are provided with the plug-in. To create other components, possibly based on the provided component templates, update the steps that create component versions.
 
-
-|Back to ...||Latest Version|WebSphere Application Server - Configure ||||||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[94.1165946](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereConfiguration/ucd-WebSphereConfiguration-94.1165946.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Example Applications](example applications.md)|[Steps](steps.md)|[Roles](roles.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|

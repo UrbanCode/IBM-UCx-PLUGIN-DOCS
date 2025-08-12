@@ -19,7 +19,3 @@ If you encounter issues with the plug-in, or want to send feedback:
 ## Available Steps
 
 * Post Notification to Slack Post Attachment Notification to Slack
-
-|Back to ...||Latest Version|
-| :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[0]()|

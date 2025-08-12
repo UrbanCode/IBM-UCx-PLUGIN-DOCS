@@ -95,7 +95,3 @@ You can use the following example as a template to define the integration within
     }  ]
 
 ```
-
-|Back to ...||Latest Version|CircleCI |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.24](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-circleci/ucv-ext-circleci%3A1.0.24.tar.7z.001)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

@@ -17,7 +17,3 @@ openssl req -newkey rsa:2048 -nodes -keyout server.key -x509 -days 365 -out serv
 3. Restart the **velocity-router** container in docker-compose, **host nginx** and any other proxies that need to load the new SSL certificate.
 4. Run `docker-compose up -d --build`. You must specify the **–build** parameter to ensure that the image is rebuilt.
 
-
-|Back to ...||Latest Version|SonarQube |||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.50](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-sonarqube/ucv-ext-sonarqube-1.0.50.tar.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Scripts](scripts.md)|[Downloads](downloads.md)|

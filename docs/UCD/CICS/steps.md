@@ -342,7 +342,7 @@ You can view a steps output properties in the **Log** tab of the **Process Reque
 Image showing the location output properties in the Process Request window
 The following is a sample of the cics.response.errors output when NEWCOPY fails with a NODATA error:
 
-```CICS
+```
 
 [{"action":"NEWCOPY","attribute":"","errorCode":"","reasonName":"","resourceName":"NOTEXIST","resourceType":"PROGRAM","resp1Name":"","resp2":"","responseName":"NODATA"}``]
 
@@ -504,7 +504,3 @@ safkeyring:///<keyring name>
 safkeyringhw:///<keyring name>
 
 ```
-
-|          Back to ...          |                                |                                                      Latest Version                                                       |       CICS TS       ||||||
-|:-----------------------------:|:------------------------------:|:-------------------------------------------------------------------------------------------------------------------------:|:-------------------:| :---: | :---: | :---: | :---: | :---: |
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [45.20240620-1707](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/CICS/cics-45.20240620-1707.zip) | [Readme](README.md) |[Overview](overview.md)|[Usage](usage.md)|[Component Templates](component_templates.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|

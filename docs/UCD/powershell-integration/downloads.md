@@ -10,7 +10,3 @@ To download the plug-in, click the following version-specific links.
 - [PowerShell-Integration-5.930003.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/powershell-integration/PowerShell-Integration-5.930003.zip)
 - [PowerShell-Integration-4.770502.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/powershell-integration/PowerShell-Integration-4.770502.zip)
 - [PowerShell-Integration-3.756775.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/powershell-integration/PowerShell-Integration-3.756775.zip)
-
-|Back to ...||Latest Version|PowerShell |||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[9.1025820](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/powershell-integration/PowerShell-Integration-9.1025820.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Troubleshooting](troubleshooting.md)|[Usage](usage.md)|

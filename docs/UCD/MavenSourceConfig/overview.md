@@ -123,7 +123,3 @@ This plug-in is installed when installing IBM DevOps Deploy. When new plug-in ve
 ### Version 1
 
 * Initial release of Maven source configuration plugin
-
-|Back to ...||Latest Version|Maven ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[30.1167665](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/MavenSourceConfig/ucd-MavenSourceConfig-30.1167665.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

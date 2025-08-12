@@ -23,7 +23,3 @@ This step runs a shell or batch script.
 | Shell Script               | String  | The script code to run.                                                                                                                                                                                                                                                                                                                                                           | Yes      |
 
 
-
-|          Back to ...          |                                |                                                       Latest Version                                                        |     z/OS Shell      ||||
-|:-----------------------------:|:------------------------------:|:---------------------------------------------------------------------------------------------------------------------------:|:-------------------:| :---: | :---: | :---: |
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [2.1133862](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/java-shell/ucd-java-shell-2.1133862.zip) | [Readme](README.md) |[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

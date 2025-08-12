@@ -355,7 +355,3 @@ Apps and adapters provided with comma separated, are undeployed from the specifi
 | Server Runtime Name | String | Runtime that need to be modified | Yes |
 
 
-
-|Back to ...||Latest Version|IBM MobileFirst Platform Foundation on IBM Containers |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[1.0](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/MFPFC/MobileFirstContainerAutomate-1.0.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

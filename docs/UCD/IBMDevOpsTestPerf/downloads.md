@@ -5,7 +5,3 @@ To download the plug-in, click the following version-specific links.
 - [DTPerf-DD-IBM-10.1.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IBMDevOpsTestPerf/DTPerf-DD-IBM-10.1.zip)
 - [DTPerf-DD-IBM-10.2.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IBMDevOpsTestPerf/DTPerf-DD-IBM-10.2.zip)
 - [DTPerf-DD-IBM-10.3.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IBMDevOpsTestPerf/DTPerf-DD-IBM-10.3.zip)
-
-|Latest Version|IBM DevOps Test Performance|Back to ...||
-| :---: | :---: | :---: | :---: |
-|[10.3](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IBMDevOpsTestPerf/DTPerf-DD-IBM-10.3.zip)|[Readme](README.md)|[All Deploy Plugins](../README.md)|[All Plugins](../../index.md)|

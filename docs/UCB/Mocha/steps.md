@@ -28,7 +28,3 @@ Run unit tests.
 | Test Directory | String | The directory that contains the test files. | Yes |
 
 
-
-|Back to ...||Latest Version|Mocha |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[2.1007779](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Mocha/Mocha-2.1007779.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

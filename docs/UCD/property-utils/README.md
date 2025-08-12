@@ -21,7 +21,3 @@ If you encounter issues with the plug-in, or want to send feedback:
 * Export Properties From UCD: Export properties From UCD
 * Read All Properties From Property: FileParse a Property file to retrieve all properties defined by key names
 * Read Properties From Property: FileParse a Property file to retrieve properties defined by key names
-
-|Back to ...||Latest Version|
-| :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[0]()|

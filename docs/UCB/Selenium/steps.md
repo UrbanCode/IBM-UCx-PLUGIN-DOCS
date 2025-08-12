@@ -31,7 +31,3 @@ Run a Selenium test suite
 | Web Browser | String | The web browser to run the tests. For example: `*firefox`. For list of supported browsers, see the Selenium website. | Yes |
 
 
-
-|Back to ...||Latest Version|Selenium for IBM UrbanCode Build ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[6.752852](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Selenium/Selenium-6.752852.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

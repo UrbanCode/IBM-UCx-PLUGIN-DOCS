@@ -31,7 +31,3 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 ## History
 
 Release notes can be found on the [Informatica GitHub project](https://github.com/IBM-UrbanCode/Informatica-UCD).
-
-|Back to ...||Latest Version|Informatica |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[v31](https://github.com/UrbanCode/Informatica-UCD/releases/download/31/Informatica-UCD-v31.ad2156b.zip)|[Readme](README.md)|[Steps](steps.md)|[Usage](usage.md)|

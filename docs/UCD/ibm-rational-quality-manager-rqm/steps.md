@@ -15,7 +15,7 @@ Execute a test case.
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Adapter ID | String | The numeric ID or name of the adapter to use to run the test script in the test case. | No |
-| Execution Arguments | String | List of optional, blank space-separated arguments. The arguments can be as follows: 1. -exitOnComplete=< true or false >. if true, command will not exit until execution is completed or canceled. If false (default), command will exit immediately after triggering execution. 2. -printResultUrl=<true or false> : If true the URL for the associated execution result will be logged. Note: For automated test case execution, this option also requires -exitOnComplete=true to be specified. 3. -variables=<var1Name:var1Value,var2Name:,va3Name:var3Value> : Specify Execution variable and optional values to be passed to execution. Note: Variable name and value are separated by colon :, if value is provided. | No |
+| Execution Arguments | String | List of optional, blank space-separated arguments. The arguments can be as follows: 1. -exitOnComplete=true or false. if true, command will not exit until execution is completed or canceled. If false (default), command will exit immediately after triggering execution. 2. -printResultUrl=true or false : If true the URL for the associated execution result will be logged. Note: For automated test case execution, this option also requires -exitOnComplete=true to be specified. 3. -variables=var1Name:var1Value,var2Name:,va3Name:var3Value : Specify Execution variable and optional values to be passed to execution. Note: Variable name and value are separated by colon :, if value is provided. | No |
 | Password | Password | The password to use when connecting to Rational Quality Manager. | Yes |
 | Project Area Name | String | The project area to use in Rational Quality Manager. | Yes |
 | RQM User | String | The user name to use when connecting to Rational Quality Manager. | Yes |
@@ -32,7 +32,7 @@ Execute a test suite.
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Adapter IDs | String | The numeric IDs or names of the adapters, separated by commas, to use to run the test scripts in the test suite. | No |
-| Execution Arguments | String | List of optional, blank space-separated arguments. The arguments can be as follows: 1. -exitOnComplete=< true or false >. if true, command will not exit until execution is completed or canceled. If false (default), command will exit immediately after triggering execution. 2. -printResultUrl=<true or false> : If true the URL for the associated execution result will be logged. Note: For automated test case execution, this option also requires -exitOnComplete=true to be specified. 3. -variables=<var1Name:var1Value,var2Name:,va3Name:var3Value> : Specify Execution variable and optional values to be passed to execution. Note: Variable name and value are separated by colon :, if value is provided. | No |
+| Execution Arguments | String | List of optional, blank space-separated arguments. The arguments can be as follows: 1. -exitOnComplete=true or false. if true, command will not exit until execution is completed or canceled. If false (default), command will exit immediately after triggering execution. 2. -printResultUrl=true or false : If true the URL for the associated execution result will be logged. Note: For automated test case execution, this option also requires -exitOnComplete=true to be specified. 3. -variables=var1Name:var1Value,var2Name:,va3Name:var3Value : Specify Execution variable and optional values to be passed to execution. Note: Variable name and value are separated by colon :, if value is provided. | No |
 | Password | Password | The password to use when connecting to Rational Quality Manager. | Yes |
 | Project Area Name | String | The project area to use in Rational Quality Manager. | Yes |
 | RQM User | String | The user name to use when connecting to Rational Quality Manager. | Yes |
@@ -42,7 +42,3 @@ Execute a test suite.
 | Test Suite Execution Record ID | String | The numeric ID of the test suite execution record to run. | Yes |
 
 
-
-|Back to ...||Latest Version|IBM Rational Quality Manager (RQM) ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[11.1101668](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/RationalQualityManager/RQM-11.1101668.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

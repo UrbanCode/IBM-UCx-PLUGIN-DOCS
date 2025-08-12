@@ -166,7 +166,3 @@ Wait for the status of application on target servers and clusters to be running
 | WLDeploy Ant Task JAR | String | The fully-qualified path to the WebLogic WLDeploy Ant Task JAR file or full client JAR file. This property is required when you start, stop, and check the status of targets. | Yes |
 
 
-
-|Back to ...||Latest Version|Oracle WebLogic WLDeploy ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[26.1175365](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WLDeploy/ucd-WLDeploy-26.1175365.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

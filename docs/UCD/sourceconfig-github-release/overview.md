@@ -7,7 +7,7 @@ When creating the component, youll supply information described on the Import Ve
 
 This plug-in includes one step which has no input properties:
 
-* [Import Version](Steps/#import_version)
+* [Import Version](steps.md#import-version)
 
 
 ## Step palette
@@ -40,7 +40,3 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 ### Version 1
 
 * Initial release of GitHub Release source configuration plugin.
-
-|Back to ...||Latest Version|GitHub-Release |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[5.1154619](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/sourceconfig-github-release/ucd-GitHubReleaseSourceConfig-5.1154619.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|

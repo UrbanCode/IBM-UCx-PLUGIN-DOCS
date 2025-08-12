@@ -26,7 +26,3 @@ Run Script Run an IBM Security AppScan Source script with the AppScanSrcCli comm
 Report Results Upload scan report results to IBM UrbanCode Build.
 
 
-
-|Back to ...||Latest Version||
-| :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[1.772903](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/RationalAppScan/RationalAppScan-1.772903.zip)|[Downloads](downloads.md)|

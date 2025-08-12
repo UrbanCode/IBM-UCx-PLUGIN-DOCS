@@ -14,7 +14,3 @@ To access this plugin in the palette, click **Application Server** > **Java** > 
 The Deploying a simple web application tutorial in the DevOps Deploy documentation uses the Apache Tomcat as the application server in [Lesson 2: Creating component processes](https://www.ibm.com/docs/en/urbancode-deploy/7.1.2?topic=tutorials-deploying-simple-web-application).
 
 
-
-|Back to ...||Latest Version|Apache Tomcat ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[8.1150600](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Tomcat/ucd-Tomcat-8.1150600.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

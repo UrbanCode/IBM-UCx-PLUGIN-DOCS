@@ -13,7 +13,3 @@ Available Steps
 Run Test Run a Mocha test file.
 
 
-
-|Back to ...||Latest Version||||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[2.1007779](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Mocha/Mocha-2.1007779.zip)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

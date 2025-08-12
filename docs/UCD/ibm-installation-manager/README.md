@@ -27,7 +27,3 @@ Install or Upgrade IBM Installation ManagerInstall or upgrade IBM Installation M
 Uninstall IBM Installation ManagerUninstall IBM Installation Manager.
 
 
-
-|Back to ...||Latest Version|||
-| :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[0]()|[Overview](overview.md)|[Steps](steps.md)|

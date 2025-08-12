@@ -39,7 +39,3 @@ Step properties also specify the following information.
 
 * `roles.xml`
 * `users_groups.xml`
-
-|Back to ...||Latest Version|Oracle WebLogic Server Security Management |||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[2.504117](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebLogicSecurityMgmt/WLS-Security-Management-2.504117.zip)|[Readme](README.md)|[Overview](overview.md)|[Troubleshooting](troubleshooting.md)|[Steps](steps.md)|[Downloads](downloads.md)|

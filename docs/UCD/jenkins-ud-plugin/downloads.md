@@ -16,7 +16,3 @@ To download the plug-in, click the following version-specific links.
 - [ibm-ucdeploy-publisher-1.4.883552.hpi](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/jenkins-ud-plugin/ibm-ucdeploy-publisher-1.4.883552.hpi)
 - [ibm-ucdeploy-publisher-1.3.874419.hpi](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/jenkins-ud-plugin/ibm-ucdeploy-publisher-1.3.874419.hpi)
 - [ibm-ucdeploy-publisher-1.3.873275.hpi](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/jenkins-ud-plugin/ibm-ucdeploy-publisher-1.3.873275.hpi)
-
-|Back to ...||Latest Version|Jenkins Publisher |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[1.16.1107398](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/jenkins-ud-plugin/ibm-ucdeploy-publisher-1.16.1107398.hpi)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|

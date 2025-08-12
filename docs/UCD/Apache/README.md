@@ -19,7 +19,3 @@ Start the Apache HTTP server.
 Stop the Apache HTTP server.
 
 
-
-|Back to ...||Latest Version|||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[4.1154066](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Apache/ucd-Apache-4.1154066.zip)|[Overview](overview.md)|[Steps](steps.md)|[Usage](usage.md)|[Downloads](downloads.md)|

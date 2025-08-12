@@ -105,7 +105,3 @@ The following settings are available when you import component versions by using
 | Tags | String | The path to the project tags directory relative to the repository URL. |
 
 
-
-|Back to ...||Latest Version|Subversion for IBM UrbanCode Build |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[11.1023828](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Subversion/Subversion-11.1023828.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

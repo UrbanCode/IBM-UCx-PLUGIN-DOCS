@@ -13,7 +13,3 @@ Available Steps
 Ant Run an Ant script.
 
 
-
-|Back to ...||Latest Version||||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[10.1165571](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Ant/Ant-10.1165571.zip)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

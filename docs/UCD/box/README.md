@@ -18,7 +18,3 @@ If you encounter issues with the plug-in, or want to send feedback:
 ## Available Steps
 
 Create App User Create Folder Get File Download Url Request App User Authentication Request Enterprise Authentication Upload File
-
-|Back to ...||Latest Version|
-| :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[0]()|

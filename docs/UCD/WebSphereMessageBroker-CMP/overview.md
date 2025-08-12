@@ -214,7 +214,3 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 ### Version 12
 
 * Fix for an issue with incremental deployments.
-
-|Back to ...||Latest Version|IBM Integration Bus (formerly WebSphere Message Broker) - CMP |||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[47.1156618](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereMessageBroker-CMP/WebSphereMessageBroker-CMP-47.1156618.zip)|[Readme](README.md)|[Troubleshooting](troubleshooting.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

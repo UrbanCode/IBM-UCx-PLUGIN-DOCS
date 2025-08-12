@@ -14,7 +14,7 @@ Database queries are used to create roles when you install this plug-in. If DB2 
 1. Stop the IBM DevOps Deploy server.
 2. Log in to the DB2 server with the account that has permissions to administer the IBM DevOps Deploy server database. For example, log in with the db2inst1 account.
 3. From the DB2 command line, type the following commands:
-1. db2 connect to <database>
+1. db2 connect to `<database>`
 2. db2 update db cfg using logfilsiz 30720 logprimary 100
 3. db2stop force
 4. db2start
@@ -51,7 +51,3 @@ User rights for the `**wsadmin**` tool do not have permission to write to the co
 
 See [Getting started with wsadmin scripting](https://www.ibm.com/support/knowledgecenter/SSAW57_8.5.5/com.ibm.websphere.nd.doc/ae/txml_script.html) for more information about `**wsadmin**` tool user rights.
 
-
-|Back to ...||Latest Version|WebSphere Application Server - Configure ||||||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[94.1165946](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereConfiguration/ucd-WebSphereConfiguration-94.1165946.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Example Applications](example applications.md)|[Example Processes](example processes.md)|[Steps](steps.md)|[Roles](roles.md)|[Downloads](downloads.md)|

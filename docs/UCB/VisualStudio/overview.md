@@ -50,7 +50,3 @@ Version 4.707042 includes the following features and fixes:
 Version 3.431223 includes the following features and fixes:
 
 * Updated to print the log from the build even after a build failure.
-
-|Back to ...||Latest Version|Visual Studio |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[9.1056675](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/VisualStudio/VisualStudio-9.1056675.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|

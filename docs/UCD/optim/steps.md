@@ -49,7 +49,3 @@ Runs an insert request against a database.
 | Request Name | String | The name of the insert request stored in Optim. | Yes |
 
 
-
-|Back to ...||Latest Version|IBM InfoSphere Optim |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[3.868971](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/optim/optim-3.868971.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

@@ -19,7 +19,3 @@ DevOps Velocity plug-in images are located in DockerHub. To view available versi
 
 ### Version 1.0.30
 * Updated npm-wrapper version.
-
-|Back to ...||Latest Version|Microsoft Visual Studio Testing |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.31](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-vs-quality/ucv-ext-vs-quality-1.0.31.tar.zip)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|

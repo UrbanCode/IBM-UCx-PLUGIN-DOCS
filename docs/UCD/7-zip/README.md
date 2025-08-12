@@ -13,7 +13,3 @@ If you encounter issues with the plug-in, or want to send feedback:
 
 Extract archiveExtract 7-Zip archive files.
 
-
-|          Back to ...          |                                |                                                          Latest Version                                                          |                           |                         |                   |                   |
-|:-----------------------------:|:------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------:|:-------------------------:|:-----------------------:|:-----------------:|:-----------------:|
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [2](https://github.com/UrbanCode/7-Zip-UCD/releases/download/2.38a023d/7-Zip-UCD-v2.38a023d.zip)  | [Downloads](downloads.md) | [Overview](overview.md) | [Steps](steps.md) | [Usage](usage.md) |

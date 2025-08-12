@@ -229,7 +229,3 @@ Version 48 of the plug-in includes a fix for APAR PI63669, by adding the ability
 
 Version 47 of the plug-in includes a fix for APAR PI62114 Set custom file encoding for Unzip File step.
 
-
-|Back to ...||Latest Version|File Utils |||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)| [100.1176430](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileUtils/ucd-FileUtils-100.1176430.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|

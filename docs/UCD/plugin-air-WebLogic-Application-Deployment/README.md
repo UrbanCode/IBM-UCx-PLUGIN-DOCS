@@ -28,7 +28,3 @@ We are currently looking into the prospect of open sourcing this particular plug
 **Undeploy:**Remove a deployed application from the Weblogic server.
 
 
-
-|Back to ...||Latest Version|||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[8.1061630](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/plugin-air-WebLogic-Application-Deployment/plugin-air-WebLogic-Application-Deployment-8.1061630.zip)|[Overview](overview.md)|[Steps](steps.md)|[Usage](usage.md)|[Downloads](downloads.md)|

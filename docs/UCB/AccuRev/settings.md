@@ -34,7 +34,3 @@ The following settings are available when you import component versions by using
 | Stream | String | The stream that is to be checked out. |
 
 
-
-|Back to ...||Latest Version|AccuRev |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[6.752929](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/AccuRev/AccuRev-6.752929.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

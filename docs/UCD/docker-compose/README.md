@@ -9,7 +9,3 @@ Read our [Docker Compose Deployments for the Enterprise](https://developer.ibm.c
 
 Jump start your deployment strategy with our preconfigured [Docker templates](https://github.com/IBM-UrbanCode/Templates-UCD).
 
-
-|Back to ...||Latest Version||||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[24.1174442](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/docker-compose/ucd-docker-compose-24.1174442.zip)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

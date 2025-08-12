@@ -50,7 +50,3 @@ Create a merged version for Nexus from a set of existing versions in external re
 > * Select Proxy checkbox to enable proxy connection to artifactory using passed Proxy Host and Port. Proxy does not work for Nexus.
 > * Review with your security admins before allowing insecure connection. On default, it is disabled.
 > * When USE_ATTLS property is set to TRUE, plugin will not handle encryption and will rely on server AT_TLS to encrypt the network communication with external repository. Default is FALSE.
-
-|          Back to ...          |                                |                                                                       Latest Version                                                                        | z/OS External Artifact Repository |                         |                   |                           |
-|:-----------------------------:|:------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------:|:-----------------------:|:-----------------:|:-------------------------:|
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [13.1179643](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOS-external-artifact-download/devops-deploy-ExtArtRepo-13.1179643.zip) |        [Readme](README.md)        | [Overview](overview.md) | [Usage](usage.md) | [Downloads](downloads.md) |

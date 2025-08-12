@@ -70,7 +70,3 @@ Build an Xcode project using the xcodebuild command.
 | xcodebuild Path | String | The full path to xcodebuild. | Yes |
 
 
-
-|Back to ...||Latest Version|Xcode ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[5.1098513](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Xcode/Xcode-hcl-5.1098513.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

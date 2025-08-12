@@ -55,7 +55,3 @@ Enable for all labels to be created global. You can specify the versioned object
 | The view strategy to use. Specify one of the following: Every Time to create a new view every time there is a build Doesnt Exist to create a new view only if one does not exist already Already Exists to not create a new view |
 
 
-
-|Back to ...||Latest Version|ClearCase Base Snapshot |||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[14.767774](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/ClearCaseBaseSnapshot/ClearCaseBaseSnapshot-14.767774.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

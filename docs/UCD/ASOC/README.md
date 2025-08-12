@@ -15,7 +15,3 @@ HCL AppScan on Cloud (ASoC) is an application security offering that allows you 
 * [Source project](https://github.com/UrbanCode/HCL-ASoC-UCD)
 
 This open source plug-in uses Gradle as its build tool. [Install the latest version of Gradle](https://gradle.org/install) to build the plug-in locally. Build the plug-in by running the `gradle` command in the plug-in's root directory. The plug-in distributable will be placed under the `build/distributions` folder.
-
-|Back to ...||Latest Version||||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[14.1152459](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ASOC/ucd-HCL-ASoC-UCD-14.1152459.zip)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

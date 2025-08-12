@@ -25,7 +25,3 @@ The plug-in runs on any agents that the IBM UrbanCode Build server supports.
 
 No special steps are required for installation.
 
-
-|Back to ...||Latest Version|ClearCase UCM ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[16.973040](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/ClearCaseUCM/ClearCaseUCM-16.973040.zip)|[Readme](README.md)|[Steps](steps.md)|[Usage](usage.md)|[Downloads](downloads.md)|

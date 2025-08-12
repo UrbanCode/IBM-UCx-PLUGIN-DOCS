@@ -27,7 +27,3 @@ Before you can run this step, you must configure the target system as described 
 | Username | String | The username of the machine to install an agent to. | Yes |
 
 
-
-|Back to ...||Latest Version|WinRS Agent Install |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[12.1131558](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WinRSAgentInstall/ucd-WinRSAgentInstall-12.1131558.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

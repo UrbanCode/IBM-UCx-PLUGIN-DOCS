@@ -68,7 +68,3 @@ The apic toolkit must be downloaded and installed separately. Directions can be 
 ### Version 1
 
 * Initial beta release containing steps to deploy API Definitions, Products, and Loopback apps to IBM API Connect.
-
-|Back to ...||Latest Version|IBM API Connect ||||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[8.1171240](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/apiconnect/ucd-apiconnect-8.1171240.zip)|[Readme](README.md)|[Usage](usage.md)|[Tutorials](tutorials.md)|[Steps](steps.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|

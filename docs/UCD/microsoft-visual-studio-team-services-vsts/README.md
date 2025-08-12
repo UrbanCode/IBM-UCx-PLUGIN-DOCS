@@ -9,7 +9,3 @@ This is a partner provided plugin.
 * [Documentation](https://github.com/UrbanCode/vsts-urbancode-deploy/blob/master/README.md)
 
 Complete directions on configuration and usage can be found on Microsoft’s download page or the GitHub project.
-
-|Back to ...||Latest Version|
-| :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[0]()|

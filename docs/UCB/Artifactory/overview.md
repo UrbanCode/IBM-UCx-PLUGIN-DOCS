@@ -18,7 +18,3 @@ The IBM UrbanCode Build automation plug-in for Artifactory works with Artifactor
 
 No special steps are required for installation.
 
-
-|Back to ...||Latest Version|Artifactory for IBM UrbanCode Build |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[11.930715](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Artifactory/Artifactory-11.930715.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|

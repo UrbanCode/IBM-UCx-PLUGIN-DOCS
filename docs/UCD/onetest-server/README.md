@@ -13,7 +13,3 @@ The HCL OneTest Server plug-in for DevOps Deploy provides a step to Run HCL OneT
 Run HCL OneTest Server test
 
 
-
-|Back to ...||Latest Version||
-| :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[3.3](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/HCLOneTestServer/OTS-UCD-3.3.zip)|[Downloads](downloads.md)|

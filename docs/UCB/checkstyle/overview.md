@@ -52,7 +52,3 @@ Version 2.604291 includes the following features and fixes:
 
 Version 1.462541 is the initial release of this plug-in.
 
-
-|Back to ...||Latest Version|Checkstyle |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[3.753093](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/checkstyle/checkstyle-3.753093.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|

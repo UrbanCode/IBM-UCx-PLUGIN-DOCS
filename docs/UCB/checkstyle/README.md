@@ -13,7 +13,3 @@ Available Steps
 Publish Checkstyle ResultsPublish Checkstyle results to a buildlife.
 
 
-
-|Back to ...||Latest Version||||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[3.753093](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/checkstyle/checkstyle-3.753093.zip)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

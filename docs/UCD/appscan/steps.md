@@ -137,7 +137,3 @@ Wait for an AppScan Scan to complete.
 | User | String | Username to log into ASE. | Yes |
 
 
-
-|Back to ...||Latest Version|IBM AppScan Enterprise |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[27.1174441](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/appscan/ucd-appscan-27.1174441.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

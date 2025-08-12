@@ -91,7 +91,3 @@ Update a package.
 | NPM Executable | String | The location of the NPM executable. If left empty, the NPM executable should be in the path environment variable. | No |
 
 
-
-|Back to ...||Latest Version|NPM for IBM UrbanCode Build |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[1.1098517](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/NPM/NPM-1.1098517.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

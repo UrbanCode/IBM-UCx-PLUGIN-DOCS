@@ -111,7 +111,3 @@ Take clustered services or applications (resource groups) offline.
 | Service or Application List | String | A comma-separated list of services and/or applications to bring offline. | Yes |
 
 
-
-|Back to ...||Latest Version|Microsoft Windows Failover Clusters |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[6.1103479](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WindowsFailoverCluster/WindowsFailoverCluster-6.1103479.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

@@ -62,7 +62,3 @@ The property file is affected by the **Start Token Delimiter**, **End Token Deli
 
 **Note:** When you run the Replace Tokens step and specify a property file, the property file is modified when the step runs. The delimiters and prefixes are added to tokens that match tokens in the target files. To ensure repeatable behavior, download the property file to the agent computer each time before you run the Replace Tokens step.
 
-
-|          Back to ...          |                                |                                                       Latest Version                                                        |     File Utils      |||||
-|:-----------------------------:|:------------------------------:|:---------------------------------------------------------------------------------------------------------------------------:|:-------------------:| :---: | :---: | :---: | :---: |
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) |  [100.1176430](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileUtils/ucd-FileUtils-100.1176430.zip)| [Readme](README.md) |[Overview](overview.md)|[Steps](steps.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|

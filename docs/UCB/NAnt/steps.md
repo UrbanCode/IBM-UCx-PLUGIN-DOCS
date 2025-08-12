@@ -32,7 +32,3 @@ Execute a NAnt script
 | Target Name | String | The name of the target(s) to run in the nant script file. | No |
 
 
-
-|Back to ...||Latest Version|NAnt |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[3.752793](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/NAnt/Nant-3.752793.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

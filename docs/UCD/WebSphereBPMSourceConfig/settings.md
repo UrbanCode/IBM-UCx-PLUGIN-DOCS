@@ -23,7 +23,3 @@
 | Snapshot Name | String | Specify a Snapshots name or acronym to import. |
 
 
-
-|Back to ...||Latest Version|IBM Business Process Manager (WebSphere BPM) ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[8.1056527](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereBPMSourceConfig/WebSphereBPMSourceConfig-8.1056527.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

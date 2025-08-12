@@ -51,7 +51,3 @@ Version 3.604316 includes the following features and fixes:
 Version 2.409515 includes the following features and fixes:
 
 * Updated to new HTTP library version.
-
-|Back to ...||Latest Version|TFS Work Items |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[4.752909](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/TFS-WorkItems/TFS-WorkItems-4.752909.zip)|[Readme](README.md)|[Steps and Settings](steps and settings.md)|[Downloads](downloads.md)|

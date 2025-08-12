@@ -83,7 +83,3 @@ __Component Inventory Update__ step must be the last step in the application pro
 Application process design will be as below.
 
 [![rollback-zos2](../media/rollback-zos2.png)](../media/rollback-zos2.png)
-
-| Back to ...          |
-|----------------------|
-| [Usage](../usage.md) |

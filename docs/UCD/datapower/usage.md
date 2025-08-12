@@ -14,7 +14,3 @@
 - `write mem;`
 * [Domain Deployment Architecture and Implementation using IBM DataPower and DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/07/26/domain-deployment-architecture-and-implementation?CommunityKey=9adfe6b6-2e23-4895-8b27-38b93b5e152c): Best practices around domain deployment implementation and architectural organization using IBM DataPower and DevOps Deploy.
 * [IBM Datapower GatewaysDevops with DevOps Deploy](https://www.slideshare.net/JaredPutman1/ibm-datapower-gateways-devops-with-urbancode-deploy): Slideshow describing the capabilities of IBM DevOps Deploy and IBM DataPower Gateways.
-
-|Back to ...||Latest Version|IBM DataPower Configuration Manager ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[v27](https://github.com/ibm-datapower/datapower-configuration-manager/releases/download/Datapower27/datapower-v27.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

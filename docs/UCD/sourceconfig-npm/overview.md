@@ -24,7 +24,3 @@ See [Installing plug-ins in DevOps Deploy](https://community.ibm.com/community/u
 ### Version 1
 
 * Initial release of this plug-in.
-
-|Back to ...||Latest Version|NPM ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[3.1053076](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/sourceconfig-npm/sourceconfig-npm-3.1053076.zip)|[Readme](README.md)|[Usage](usage.md)|[Settings](settings.md)|[Downloads](downloads.md)|

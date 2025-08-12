@@ -76,7 +76,3 @@ This version of the plug-in includes translated steps and properties.
 
 This version of the plug-in uses a newer version of the CodeStation client, which handles excludes correctly and can handle uploads of a large number of files.
 
-
-|Back to ...||Latest Version|CodeStation |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[25.1165172](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/CodeStation/codestation-25.1165172.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|

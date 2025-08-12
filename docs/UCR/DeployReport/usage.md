@@ -22,7 +22,3 @@ capabilities of the plug-in, two additional functions are provided to generate a
 previously generated data. To use these functions, open the configuration window for the plug-in and then click **Create
 Sample Data** or **Delete Sample Data**.
 
-
-|Back to ...||Latest Version|Deployment Reports ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Release Plugins](../README.md)|[7.1018228](https://raw.githubusercontent.com/UrbanCode/IBM-UCR-PLUGINS/main/files/DeployReport/ucr-plugin-deployment-reports-7.1018228.zip)|[Readme](README.md)|[Overview](overview.md)|[Settings](settings.md)|[Downloads](downloads.md)|

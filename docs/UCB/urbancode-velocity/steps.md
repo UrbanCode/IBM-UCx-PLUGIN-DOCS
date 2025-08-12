@@ -69,7 +69,3 @@ UrbanCode Velocity
 | Tenant Id | String | The tenant Id of the UrbanCode Velocity server. |  |
 | URL | String | The UrbanCode Velocity server URL including protocol and port, if needed. Example: https://ucv.domain.com:8444 |  |
 
-
-|Back to ...||Latest Version|UrbanCode Velocity ||
-| :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[0]()|[Readme](README.md)|[Overview](overview.md)|

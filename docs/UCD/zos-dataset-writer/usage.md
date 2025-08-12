@@ -44,7 +44,3 @@ For Sequential dataset as input
 ![dataset_writer_new_03b.jpg](media/dataset_writer_new_03b.jpg)
 
 The plugin step copies the data from a PDS member or input Sequential dataset to the Output Sequential dataset.
-
-|          Back to ...          |                                |                                                                   Latest Version                                                                    | z/OS Dataset Writer ||||
-|:-----------------------------:|:------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------:| :---: | :---: | :---: |
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [4.1176024](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-dataset-writer/ucd-plugins-zos-dataset-writer-4.1176024.zip) | [Readme](README.md) |[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

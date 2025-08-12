@@ -167,7 +167,3 @@ Version 5 includes a fix for APAR PI57417. The plug-in now checks the agent sett
 
 Version 4 supports the IBM Containers service.
 
-
-|Back to ...||Latest Version|Docker Registry ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[44.1167750](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/DockerSourceConfig/ucd-DockerSourceConfig-44.1167750.zip)|[Readme](README.md)|[Usage](usage.md)|[Settings](settings.md)|[Downloads](downloads.md)|

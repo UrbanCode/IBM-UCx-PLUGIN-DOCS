@@ -53,7 +53,3 @@ Add a step to check if a value matches a regex and create output properties base
 
 Initial release of the System Information plugin.
 
-
-|Back to ...||                                                             Latest Version                                                              |System Information |||
-| :---: | :---: |:---------------------------------------------------------------------------------------------------------------------------------------:| :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[9.1171671](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SystemInformation/ucd-SystemInformation-9.1171671.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|

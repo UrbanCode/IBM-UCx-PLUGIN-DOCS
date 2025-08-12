@@ -15,7 +15,3 @@ Run SonarQubeRun SonarQube to get information about source and tests from SonarQ
 Run SonarQube for .NETRun SonarQube to get information about source and tests from SonarQube for .NET
 
 
-
-|Back to ...||Latest Version||||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[8.838525](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Sonar/SonarQube-8.838525.zip)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

@@ -33,7 +33,7 @@ All steps except the Run Test Sets step of the HP ALM plugin are executed using 
 
 ## HP ALM Client Registration
 
-To register your agent with HP ALM, you must visit the HP ALM Client Registration page from the Tools menu of your HP ALM Server. This process must be executed using an Internet Explorer 10 or 11 browser from the agent machine. This page is located at *http://<hp-alm-server-name>:<port>/qcbin/CommonMode\_index.html*. You can also find the client registration page in the Tools menu of you HP Application Lifecycle Management home page at *http://<hp-alm-server-name>:<port>/qcbin*.
+To register your agent with HP ALM, you must visit the HP ALM Client Registration page from the Tools menu of your HP ALM Server. This process must be executed using an Internet Explorer 10 or 11 browser from the agent machine. This page is located at `http://<hp-alm-server-name>:<port>/qcbin/CommonMode\_index.html`. You can also find the client registration page in the Tools menu of you HP Application Lifecycle Management home page at `http://<hp-alm-server-name>:<port>/qcbin`.
 
 After visiting the HP ALM Client Registration page, you will be greeted with the following instructions on how to register your machine:
 
@@ -42,12 +42,8 @@ Follow the instructions, and then click Register HP ALM.
 
 ## Downloading the OTAClient.dll Library
 
-The process of HP ALM Client Registration downloads the OTAClient.dll and places it into the following path: *C:\Users\<client user name>\AppData\Local\HP\ALM-Client\<server name>\OTAClient.dll*. This will allow the UCD agent machine to access the OTAClient.dll, and execute the Run Test Sets step of the HP ALM plugin.
+The process of HP ALM Client Registration downloads the OTAClient.dll and places it into the following path: `C:\Users\<client user name>\AppData\Local\HP\ALM-Client\<server name>\OTAClient.dll`. This will allow the UCD agent machine to access the OTAClient.dll, and execute the Run Test Sets step of the HP ALM plugin.
 
 ## More Information
 
 For more information on the ALM Open Test Architecture API, please visit [HP ALM API References Page](http://alm-help.saas.hpe.com/en/12.50/online_help/Content/api_guides_main_page.htm) in the HP ALM Help Center.
-
-|Back to ...||Latest Version|MicroFocus ALM (formerly HP Quality Center) |||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[16.1011648](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/HPQualityCenter/HPQualityCenter-16.1011648.zip)|[Readme](README.md)|[Overview](overview.md)|[Troubleshooting](troubleshooting.md)|[Steps](steps.md)|[Downloads](downloads.md)|

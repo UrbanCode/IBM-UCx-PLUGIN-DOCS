@@ -40,7 +40,3 @@ This step has no input properties.
 | Regular Expression for Tag Selection | String | Provide regular expression to select tags to create component versions for. |
 
 
-
-|Back to ...||Latest Version|Docker Registry ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[44.1167750](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/DockerSourceConfig/ucd-DockerSourceConfig-44.1167750.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

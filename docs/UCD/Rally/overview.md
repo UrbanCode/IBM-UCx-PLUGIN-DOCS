@@ -39,7 +39,3 @@ Version 1.0.0b supports IBM DevOps Deploy version 6.0. The following features we
 
 * Adds support for IBM DevOps Deploy version 6.1.0.4 and later.
 
-
-|Back to ...||Latest Version|Rally for IBM DevOps Deploy |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[6.1056546](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Rally/Rally-6.1056546.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|

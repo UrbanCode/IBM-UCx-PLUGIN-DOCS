@@ -27,7 +27,3 @@ With the integration of Jira Service Management, incident data is now accessible
 
 * Sync incidents.
 
-
-|Back to ...||Latest Version|Jira Service Management |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.1-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jira-service-management/ucv-ext-jira-service-management%3A1.0.1.tar.7z.001)[and 1.0.1-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jira-service-management/ucv-ext-jira-service-management%3A1.0.1.tar.7z.002)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|

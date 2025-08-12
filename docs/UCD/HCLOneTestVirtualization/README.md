@@ -25,7 +25,3 @@ Start Scenario
 Stop Scenario
 
 
-
-|Back to ...||Latest Version||
-| :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[4.0](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/HCLOneTestVirtualization/HOT-Virtualization-UCD-4.0.zip)|[Downloads](downloads.md)|

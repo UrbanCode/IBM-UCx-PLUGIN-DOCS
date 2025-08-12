@@ -25,7 +25,3 @@ Update IssuesUpdate one or more defects in HP Quality Center.
 Verify Issues Fieldn Verify that all of the Issues associated with the current Build Life have a given field values
 
 
-
-|Back to ...||Latest Version|||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[8.752924](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/HPQualityCenter/HPQualityCenter-8.752924.zip)|[Overview](overview.md)|[Steps](steps.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|

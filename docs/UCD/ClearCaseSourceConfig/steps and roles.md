@@ -43,7 +43,3 @@ The plug-in adds these roles automatically to resources. You cannot add these ro
 | Name | String | The name for the version being created. |
 
 
-
-|Back to ...||Latest Version|IBM Rational ClearCase ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[17.1155764](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ClearCaseSourceConfig/ucd-ClearCaseSourceConfig-17.1155764.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

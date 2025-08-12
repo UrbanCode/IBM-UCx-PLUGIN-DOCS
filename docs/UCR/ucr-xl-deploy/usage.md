@@ -32,7 +32,3 @@ Demonstration
 
 View a [demonstration](https://youtu.be/FJ5Ta2dSTm4) of the UrbanCode Release XL Deploy plug-in.
 
-
-|Back to ...||Latest Version|XL Deploy ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Release Plugins](../README.md)|[6.1039808](https://raw.githubusercontent.com/UrbanCode/IBM-UCR-PLUGINS/main/files/ucr-xl-deploy/plugins-ucr-xl-deploy-6.1039808.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

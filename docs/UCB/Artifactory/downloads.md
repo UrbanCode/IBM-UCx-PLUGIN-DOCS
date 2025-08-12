@@ -13,7 +13,3 @@ Artifactory for IBM UrbanCode Build - Downloads
 - [Artifactory-4.912937.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Artifactory/Artifactory-4.912937.zip)
 - [Artifactory-3.904735.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Artifactory/Artifactory-3.904735.zip)
 - [Artifactory-1.838500.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Artifactory/Artifactory-1.838500.zip)
-
-|Back to ...||Latest Version|Artifactory for IBM UrbanCode Build |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[11.930715](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Artifactory/Artifactory-11.930715.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|

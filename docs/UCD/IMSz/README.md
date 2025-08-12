@@ -8,7 +8,3 @@ IBM Information Management System (IMS), built on IBM System z, is the lowest co
 * This plug-in is supported to run on the z/OS platform.
 * This plug-in requires DevOps Deploy 6.1.1 or later.
 
-
-|Back to ...||Latest Version||||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[1](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IMSz/IMS_Plugin_v1.zip)|[Overview](overview.md)|[Troubleshooting](troubleshooting.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

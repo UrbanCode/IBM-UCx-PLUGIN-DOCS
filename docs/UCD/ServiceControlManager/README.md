@@ -25,7 +25,3 @@ The Service Control Manager plug-in is an automation based plugin. It is used du
 **Stop Service:** Stop one or more windows services.
 
 
-
-|Back to ...||Latest Version||||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[12.1155989](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ServiceControlManager/ucd-ServiceControlManager-12.1155989.zip)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

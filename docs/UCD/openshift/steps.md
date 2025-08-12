@@ -361,7 +361,3 @@ Start a new build for the provided build configuration or copy an existing build
 | Project | String | The OpenShift project that contains the application to start a build. | No |
 | Step Flags | String | A list of flags to set when running the start-build command. Specify each flag on a new line. | No |
 | User Name | String | The user name used to authenicate with the OpenShift server. | No |
-
-|Back to ...||Latest Version|OpenShift for IBM DevOps Deploy ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[25.1176034](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/openshift/ucd-openshift-25.1176034.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

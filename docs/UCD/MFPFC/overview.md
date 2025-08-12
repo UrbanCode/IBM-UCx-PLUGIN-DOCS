@@ -23,7 +23,3 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 Initial release of the plug-in.
 
-
-|Back to ...||Latest Version|IBM MobileFirst Platform Foundation on IBM Containers |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[1.0](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/MFPFC/MobileFirstContainerAutomate-1.0.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|

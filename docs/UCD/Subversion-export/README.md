@@ -11,7 +11,3 @@ This plug-in allows IBM DevOps Deploy to checkout and export code from Subversio
 Svn ExportPerform a Subversion checkout or export
 
 
-
-|Back to ...||Latest Version|||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[5.1100775](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Subversion-export/Subversion-export-5.1100775.zip)|[Overview](overview.md)|[Steps](steps.md)|[Usage](usage.md)|[Downloads](downloads.md)|

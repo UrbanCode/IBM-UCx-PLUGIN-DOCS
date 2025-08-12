@@ -96,7 +96,3 @@ Use this step to update the inventory for an application in IBM DevOps Release.
 | User Name | String | The user name to access IBM DevOps Release. | Yes |
 
 
-
-|Back to ...||Latest Version|IBM DevOps Release ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[9.1056530](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ucr-plugin/ucr-plugin-9.1056530.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

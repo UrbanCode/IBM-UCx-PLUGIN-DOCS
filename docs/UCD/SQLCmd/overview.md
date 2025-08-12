@@ -43,7 +43,3 @@ Support property file encryption.
 
 Fixes APAR PI35342compatibility defect with IBM DevOps Deploy version 6.1.0.4 and later.
 
-
-|Back to ...||Latest Version|Microsoft SQL Server SQLCmd ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[10.1154073](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SQLCmd/ucd-SQLCmd-10.1154073.zip)|[Readme](README.md)|[Steps](steps.md)|[Usage](usage.md)|[Downloads](downloads.md)|

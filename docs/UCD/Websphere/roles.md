@@ -135,7 +135,3 @@ Role for resources that represents a WebSphere server
 | Server Name Formats | String | A list of server name formats, separated by newline characters. Use the following form: nodename->pattern. Patterns can contain %c, %n and %i where %c represents the clustername, %n represents the nodename, and %i is the index. The values for the pattern can be specified in any order. | ``${p?:resource/websphere.server.servernameformats}`` |
 | Server Type | String | The server type for this WebSphere server. | ``${p?:resource/websphere.server.servertype}`` |
 | Short Name | String | The short name for this WebSphere server. | ``${p?:resource/websphere.server.shortname}`` |
-
-|Back to ...||Latest Version|WebSphere Application Server - Deployment |||||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[132.1179210](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/WAS-Deploy-132.1179210.zip)|[Readme](README.md)|[Overview](overview.md)|[User permissions](user permissions.md)|[Usage](usage.md)|[Steps](steps.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|

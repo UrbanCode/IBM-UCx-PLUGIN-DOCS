@@ -31,7 +31,3 @@ DevOps Velocity plug-in images are located in DockerHub. To view available versi
 ### Version 0.0.31
 
 * Initial release
-
-|Back to ...||Latest Version|Apache JMeter |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.55](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jmeter/ucv-ext-jmeter-1.0.55.tar.zip)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|

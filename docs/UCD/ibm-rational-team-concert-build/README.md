@@ -19,7 +19,3 @@ Then, you can configure the post-build deploy option to have IBM DevOps Deploy r
 
 When the build is complete, the application process runs, and customers can continuously use the latest features.
 
-
-|Back to ...||Latest Version|
-| :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[0]()|

@@ -14,7 +14,3 @@ Jump start your deployment strategy with our preconfigured [Docker templates](ht
 The Docker Source Plug-in may be found [here](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/DockerSourceConfig/ "Docker Source Plugin").
 
 The previous community project can be found [here](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/DockerSourceConfig/overview.html "Docker Community Plugin").
-
-|Back to ...||Latest Version||||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[11.1154926](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/docker-plugin/ucd-docker-plugin-11.1154926.zip)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

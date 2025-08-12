@@ -75,7 +75,3 @@ Runs an Aspera FASP transfer process from the localhost computer to an Aspera se
 
 
 
-
-|Back to ...||Latest Version|Aspera |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[3.1100729](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/aspera/aspera-3.1100729.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

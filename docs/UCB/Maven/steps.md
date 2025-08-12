@@ -34,7 +34,3 @@ Run a Maven build
 | Script Content | String | Optional: Specify the content of the Maven script. The content is written to the file specified by the Maven POM File field, and then run. | No |
 
 
-
-|Back to ...||Latest Version|Maven for IBM UrbanCode Build |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[9.913233](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Maven/Maven-9.913233.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

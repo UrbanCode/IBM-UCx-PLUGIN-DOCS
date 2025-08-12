@@ -142,7 +142,3 @@ Retrieve unpackaged, managed or unmanaged packages.
 | Socks Proxy Port | String | The port for socks connections. If left empty, 1080 is used. | No |
 | Unpackaged | String | Required if Unpackaged is specified. The path and name of a file manifest that specifies the components to retrieve. You must specify either Unpackaged or Package Names, but not both. (i.e. codepkg/package.xml) | No |
 | User | String | SFDC User Name | No |
-
-|Back to ...||Latest Version|Salesforce ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[10.1138575](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SalesForce/ucd-salesforce-10.1138575.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

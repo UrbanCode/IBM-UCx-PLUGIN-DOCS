@@ -99,7 +99,3 @@ Fixes APAR PI35342compatibility defect with IBM DevOps Deploy version 6.1.0.4 an
 
 The JIRA integration provides component process steps to create, comment and resolve issues found in JIRA and publish a list of issues that were addressed in the deployment.
 
-
-|Back to ...||Latest Version|JIRA for IBM DevOps Deploy ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[19.1167047](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/JIRA/ucd-JIRA-19.1167047.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

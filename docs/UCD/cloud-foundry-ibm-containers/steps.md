@@ -248,7 +248,3 @@ Update specific options for a container group. You can update only one parameter
 | Minimum Instances | String | The minimum number of container instances. | No |
 
 
-
-|Back to ...||Latest Version|IBM Containers ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[6.1103420](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/cloud-foundry-ibm-containers/cloud-foundry-containers-6.1103420.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

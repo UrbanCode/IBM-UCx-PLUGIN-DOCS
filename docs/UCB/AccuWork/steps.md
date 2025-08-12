@@ -67,7 +67,3 @@ The following settings are available when you import component versions by using
 | User Name | String | The user name to be used to connect to the AccuWork server. |
 
 
-
-|Back to ...||Latest Version|AccuWork |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[8.1096129](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/AccuWork/AccuWork-8.1096129.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

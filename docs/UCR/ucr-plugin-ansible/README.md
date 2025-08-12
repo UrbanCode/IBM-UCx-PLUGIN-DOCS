@@ -12,7 +12,3 @@ workflows from Ansible Tower as plugin tasks to be executed in UrbanCode Release
 This plug-in requires IBM UrbanCode
 Release version 6.2.5.1 or later.
 
-
-|Back to ...||Latest Version|||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Release Plugins](../README.md)|[3.1145832](https://raw.githubusercontent.com/UrbanCode/IBM-UCR-PLUGINS/main/files/ucr-plugin-ansible/ucr-plugin-ansible-tower-3.1145832.zip)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

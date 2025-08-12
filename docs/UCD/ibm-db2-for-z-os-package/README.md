@@ -15,7 +15,3 @@ This package also discusses how to integrate the services with different SCM sys
 Download and unzip the package. See the white paper in the package for usage documentation.
 
 **This is a package, not a plug-in. Do not attempt to load this content in IBM DevOps Deploy as a plug-in.**
-
-|Back to ...||Latest Version|
-| :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[v5](https://github.com/UrbanCode/IBM-UCD-PLUGINS/raw/main/files/DB2z/db2-application-deployment-template-package-v5.zip)|

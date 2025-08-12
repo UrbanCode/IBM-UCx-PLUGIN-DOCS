@@ -21,7 +21,3 @@ Update one or more configuration entries by stanza on the Reverse Proxy Instance
 | Username | String | The user name to log on to the ISAM server. | Yes |
 
 
-
-|Back to ...||Latest Version|IBM Security Access Manager (WebSEAL) |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[1.769633](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/webseal/webseal-1.769633.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

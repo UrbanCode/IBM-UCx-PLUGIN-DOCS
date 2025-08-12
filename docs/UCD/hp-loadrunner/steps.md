@@ -19,7 +19,3 @@ Invoke the HP LoadRunner controller using the WLRun command-line utility and ana
 | Test Scenario Path | String | The path to your test scenario file (.LRS file).Either specify an absolute path(i.e. C:\Users\Administrator\Controller\scenario\Test Scenario.lrs) or a path that is relative to your working directory (i.e. Test Scenario.lrs). | Yes |
 
 
-
-|Back to ...||Latest Version|HP LoadRunner ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[1.1004896](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/hp-loadrunner/plugins-hp-loadrunner-1.1004896.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

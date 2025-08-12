@@ -17,7 +17,3 @@ To download the plug-in, click the following version-specific links.
 - [nuget-source-config-3.869084.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/nuget-source-config/nuget-source-config-3.869084.zip)
 - [nuget-source-config-2.786798.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/nuget-source-config/nuget-source-config-2.786798.zip)
 - [nuget-source-config-1.782369.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/nuget-source-config/nuget-source-config-1.782369.zip)
-
-|Back to ...||Latest Version|NuGet ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[17.1154071](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/nuget-source-config/ucd-nuget-source-config-17.1154071.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Settings](settings.md)|

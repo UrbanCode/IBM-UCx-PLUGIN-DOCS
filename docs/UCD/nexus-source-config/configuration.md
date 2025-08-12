@@ -13,7 +13,7 @@ The configuration requirements for this plug-in are very similar to the Maven So
 
 ## Required Properties
 
-* **Nexus Server URL**:The base URL to the Nexus server. Typically, for Nexus version 2, it will take the form: https://IP\_ADDRESS:PORT/nexus. For example: https://localhost:8081/nexus. Unlike the Maven Source Configuration plug-in, do not specify the full repository URL path.
+* **Nexus Server URL**:The base URL to the Nexus server. Typically, for Nexus version 2, it will take the form: https://IP\_ADDRESS:PORT/nexus. For example: `https://localhost:8081/nexus`. Unlike the Maven Source Configuration plug-in, do not specify the full repository URL path.
 * **Repository ID**: The identifier for your Maven repository. Generally, this does not match the Repositorys name.
 * **Group ID**:The Group ID to identify the Maven project. Each folder in the path can be delimited by forward slashes or dots. Example: com.ibm.urbancode.commons
 * **Artifact ID**: The Artifact ID to identify the Maven project. This is the last folder name before the version list. Example: uDeployRestClient
@@ -53,7 +53,3 @@ The Nexus Source Configuration plug-in allows the import of entire Release or Sn
 [![](media/snapshot-project.png)](media/snapshot-project.png)
 Maven Snapshot Grouping
 
-
-|Back to ...||Latest Version|Nexus Source Config ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[4.1053075](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/nexus-source-config/Nexus-Source-Config-4.1053075.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

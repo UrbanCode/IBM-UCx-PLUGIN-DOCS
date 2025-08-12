@@ -51,7 +51,3 @@ Uninstall IBM Installation Manager
 | Administrator/root or nonadministrator are supported. Group is not supported. | Yes |
 
 
-
-|Back to ...||Latest Version|IBM Installation Manager ||
-| :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[0]()|[Readme](README.md)|[Overview](overview.md)|

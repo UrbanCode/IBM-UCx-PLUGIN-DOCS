@@ -34,7 +34,3 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ### Initial version 1.485262 released on May 22, 2014
 
-
-|Back to ...||Latest Version|Oracle WebLogic Integration Resource Management |||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[35.1056548](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/plugin-air-WLI-Resource-Management/plugin-air-WLI-Resource-Management-35.1056548.zip)|[Readme](README.md)|[Troubleshooting](troubleshooting.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

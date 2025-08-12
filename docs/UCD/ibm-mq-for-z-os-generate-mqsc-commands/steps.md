@@ -20,7 +20,3 @@ Generate MQSC commands from the base, overrides and properties files.
 | --- | --- | --- |
 | mqscResourceDefinitions | String | Set to the MQSC form of the resource definitions. This property is used as input to the next step in the UCD process. |
 
-
-|Back to ...||Latest Version|IBM MQ for z/OS - Generate MQSC Commands |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[0]()|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|

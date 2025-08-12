@@ -28,7 +28,3 @@ Run a report and save the output.
 | Report | String | The name of the report to run. | Yes |
 
 
-
-|Back to ...||Latest Version|Reporting |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[6.913227](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Reporting/urbancode-reporting-6.913227.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

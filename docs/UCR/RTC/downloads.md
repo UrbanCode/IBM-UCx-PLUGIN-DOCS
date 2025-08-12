@@ -17,7 +17,3 @@ Rational Team Concert v6 - Downloads
 - [ucr-plugin-rtc-1.773952.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCR-PLUGINS/main/files/RTC/ucr-plugin-rtc-1.773952.zip)
 - [ucr-plugin-rtc-1.751917.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCR-PLUGINS/main/files/RTC/ucr-plugin-rtc-1.751917.zip)
 - [ucr-plugin-rtc-1.615897.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCR-PLUGINS/main/files/RTC/ucr-plugin-rtc-1.615897.zip)
-
-|Back to ...||Latest Version|Rational Team Concert v6 ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Release Plugins](../README.md)|[3.969559](https://raw.githubusercontent.com/UrbanCode/IBM-UCR-PLUGINS/main/files/RTC/ucr-plugin-rtc-3.969559.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Settings](settings.md)|

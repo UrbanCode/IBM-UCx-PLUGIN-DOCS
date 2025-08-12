@@ -10,7 +10,3 @@ To download the plug-ins, click the following version-specific links.
 - [Ant-7.845537.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Ant/Ant-7.845537.zip)
 - [Ant-5.682747.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Ant/Ant-5.682747.zip)
 - [Ant-4.641556.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Ant/Ant-4.641556.zip)
-
-|Back to ...||Latest Version|Apache Ant ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[10.1154069](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Ant/ucd-Ant-10.1154069.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|

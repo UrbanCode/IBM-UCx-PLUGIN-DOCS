@@ -23,7 +23,3 @@ Svn Quiet PeriodPerform a Subversion changelog for quiet period detection and pu
 Svn TagCreate a branch or tag in Subversion.
 
 
-
-|Back to ...||Latest Version||||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[11.1023828](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Subversion/Subversion-11.1023828.zip)|[Overview](overview.md)|[Steps and Settings](steps and settings.md)|[Downloads](downloads.md)|

@@ -8,7 +8,3 @@ To download the plug-in, click the following version-specific links.
 - [GitHubReleaseSourceConfig-2.1033758.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/sourceconfig-github-release/GitHubReleaseSourceConfig-2.1033758.zip)
 - [GitHubReleaseSourceConfig-2.1026829.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/sourceconfig-github-release/GitHubReleaseSourceConfig-2.1026829.zip)
 - [GitHubReleaseSourceConfig-1.1011965.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/sourceconfig-github-release/GitHubReleaseSourceConfig-1.1011965.zip)
-
-|Back to ...||Latest Version|GitHub-Release |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[5.1154619](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/sourceconfig-github-release/ucd-GitHubReleaseSourceConfig-5.1154619.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|

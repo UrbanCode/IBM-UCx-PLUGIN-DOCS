@@ -23,7 +23,3 @@ Publish Defect Report Create a report of Rally defects based on the current chan
 Report Build Status Report the build status.
 
 
-
-|Back to ...||Latest Version||||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[17.1126865](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Rally/ucd-Rally-17.1126865.zip)|[Overview](overview.md)|[Steps and Settings](steps and settings.md)|[Downloads](downloads.md)|

@@ -54,7 +54,3 @@ Start Emulator: Starts an emulator.
 Stop Emulator: Stop an emulator.
 
 
-
-|Back to ...||Latest Version||
-| :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[3.1107122](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/plugin-air-Android/plugin-air-Android-3.1107122.zip)|[Downloads](downloads.md)|

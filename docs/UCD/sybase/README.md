@@ -16,7 +16,3 @@ For more information about this plugin:
 Run SQL Scripts: Execute one or more SQL scripts on the server.
 
 
-
-|Back to ...||Latest Version||||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[6.1100960](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/sybase/plugins-sybase-6.1100960.zip)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

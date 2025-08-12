@@ -126,7 +126,3 @@ Global settings for accessing git repositories.
 | Repository |  | Select the Git Repository |
 
 
-
-|Back to ...||Latest Version|Git for IBM UrbanCode Build |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[29.1127031](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Git/Git-29.1127031.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

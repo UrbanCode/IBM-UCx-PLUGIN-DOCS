@@ -18,7 +18,3 @@ Use hco to checkout files from CA SCM
 | View Path | String | The view path to use. | Yes |
 
 
-
-|Back to ...||Latest Version|CA SCM (formerly Harvest) |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[3.860070](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/air-plugin-CASCM/air-plugin-CASCM-3.860070.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

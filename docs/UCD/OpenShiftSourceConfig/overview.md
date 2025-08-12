@@ -22,7 +22,3 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 Initial release of the OpenShift Source Configuration plug-in.
 
 
-
-|Back to ...||Latest Version|OpenShift |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[6.1034331](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/OpenShiftSourceConfig/OpenShiftSourceConfig-6.1034331.zip)|[Readme](README.md)|[Settings](settings.md)|[Downloads](downloads.md)|

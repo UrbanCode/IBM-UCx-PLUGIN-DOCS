@@ -85,7 +85,3 @@ This version of the plug-in includes the following features:
 
 * A fix for an issue that is related to the Docker Login step.
 * The ability to set Docker environment variables.
-
-|Back to ...||Latest Version|Docker |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[11.1154926](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/docker-plugin/ucd-docker-plugin-11.1154926.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|

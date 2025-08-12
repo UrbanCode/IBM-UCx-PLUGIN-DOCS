@@ -26,7 +26,3 @@ To access this plug-in in the palette, click **Quality** > **Functional Testing*
 
 No special steps are required for installation. See [Installing plug-ins in IBM UrbanCode.](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in IBM UrbanCode").
 
-
-|Back to ...||Latest Version|Selenium for IBM UrbanCode Build ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[6.752852](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Selenium/Selenium-6.752852.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

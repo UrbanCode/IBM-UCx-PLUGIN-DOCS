@@ -13,7 +13,3 @@ The Microsoft Software Installer plug-in installs and uninstalls MSI and runs MS
 * Uninstall MSI
 
 
-
-|Back to ...||Latest Version||
-| :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[3.1176465](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/MSI/ucd-MSI-3.1176465.zip)|[Downloads](downloads.md)|

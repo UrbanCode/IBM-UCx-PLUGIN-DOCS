@@ -270,7 +270,3 @@ The plug-in adds these roles automatically to resources. You cannot add these ro
 | The version of IBM DevOps Deploy server. |
 
 
-
-|Back to ...||Latest Version|IBM DevOps Deploy for IBM DevOps Build |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[56.1175564](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/ibmucd/DevOps-deploy-56.1175564.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

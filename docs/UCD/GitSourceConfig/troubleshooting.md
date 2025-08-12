@@ -23,7 +23,3 @@ To create a personal access token, complete the following steps.
 
 **Note:** To use this token with other deployments, you must save the token. If you do not save the token, you must follow the previous steps to generate a token again.
 
-
-|Back to ...||Latest Version|Git |||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[28.1176784](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/GitSourceConfig/ucd-GitSourceConfig-28.1176784.zip)|[Readme](README.md)|[Overview](overview.md)|[Settings](settings.md)|[Usage](usage.md)|[Downloads](downloads.md)|

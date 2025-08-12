@@ -24,7 +24,3 @@ DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-snyk/tags).
 - Imports Snyk vulnerability data
 - Works with GitHub, GitLab, and BitBucket integrations
 - Vulnerabilities will be displayed as Application vulnerabilities in metrics bar
-
-|Back to ...||Latest Version|Snyk |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.1](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-snyk/ucv-ext-snyk:1.0.1.tar.7z.001)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|

@@ -31,7 +31,3 @@ IBM DevOps Deploy for IBM DevOps Build - Downloads
 - [ibm-ucd-23.618652.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/ibmucd/ibm-ucd-23.618652.zip)
 - [ibm-ucd-22.593716.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/ibmucd/ibm-ucd-22.593716.zip)
 - [ibm-ucd-18.538542.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/ibmucd/ibm-ucd-18.538542.zip)
-
-|Back to ...||Latest Version|IBM DevOps Deploy for IBM DevOps Build |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[56.1175564](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/ibmucd/DevOps-deploy-56.1175564.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|

@@ -56,7 +56,3 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 #### Version 1
 
 * Install the MSTest plugin to gain access to the steps listed below.
-
-|Back to ...||Latest Version|MSTest |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[7.752751](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/MSTest/MSTest-7.752751.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|

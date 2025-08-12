@@ -23,7 +23,3 @@ This version includes a fix for APAR PI35342, a compatibility defect with IBM De
 
 Initial release of the plug-in.
 
-
-|Back to ...||Latest Version|Microsoft SharePoint |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[8.1056539](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Sharepoint/Sharepoint-8.1056539.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|

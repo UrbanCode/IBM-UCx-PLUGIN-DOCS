@@ -10,7 +10,3 @@ The Aspera plug-in uses the Aspera ascp (Aspera secure copy) client to upload an
 Download Artifacts Upload Artifacts
 
 
-
-|Back to ...||Latest Version||||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[3.1100729](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/aspera/aspera-3.1100729.zip)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

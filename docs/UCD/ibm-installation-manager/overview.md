@@ -21,7 +21,3 @@ This release adds support for installing, uninstalling, and upgrading IBM Instal
 
 Initial release of the standard version of the plug-in.
 
-
-|Back to ...||Latest Version|IBM Installation Manager ||
-| :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[0]()|[Readme](README.md)|[Steps](steps.md)|

@@ -29,7 +29,3 @@ If you encounter issues with the plug-in, or want to send feedback:
 * Restart Windows Service
 * Start B2Bi
 * Stop B2Bi
-
-|Back to ...||Latest Version|
-| :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[0]()|

@@ -53,7 +53,3 @@ IBM UrbanCode Release based on the mappings.
    7. Under Severities, for each severity level in the selected Rational Team Concert project area, select a corresponding severity level in IBM UrbanCode Release.
 
 After you configure the integration provider, the Rational Team Concert server is polled based on the specified frequency. The results of the query are stored as change items in IBM UrbanCode Release. You can see items that are imported from Rational Team Concert on the Releases page and Changes page in IBM UrbanCode Release.
-
-|Back to ...||Latest Version|Rational Team Concert v6 ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Release Plugins](../README.md)|[3.969559](https://raw.githubusercontent.com/UrbanCode/IBM-UCR-PLUGINS/main/files/RTC/ucr-plugin-rtc-3.969559.zip)|[Readme](README.md)|[Overview](overview.md)|[Settings](settings.md)|[Downloads](downloads.md)|

@@ -20,7 +20,3 @@ Rational Team Concert SCM - Downloads
 - [RTC-scm-5.382073.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/RationalTeamConcert/RTC-scm-5.382073.zip)
 - [RTC-scm-4.373166.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/RationalTeamConcert/RTC-scm-4.373166.zip)
 - [RTC-scm-1.349687.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/RationalTeamConcert/RTC-scm-1.349687.zip)
-
-|Back to ...||Latest Version|Rational Team Concert SCM |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[24.1013888](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/RationalTeamConcert/RTC-scm-24.1013888.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps and Settings](steps and settings.md)|

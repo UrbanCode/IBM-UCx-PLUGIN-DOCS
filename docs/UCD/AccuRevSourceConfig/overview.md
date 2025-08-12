@@ -50,7 +50,3 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 * Initial release of the AccuRev Source Config plug-in importing Promote Transaction, Issue Change set, and Snapshot artifacts.
 
-
-|Back to ...||Latest Version|AccuRev SCM ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[9.1100795](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/AccuRevSourceConfig/AccuRevSourceConfig-9.1100795.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps and Roles](steps and roles.md)|[Downloads](downloads.md)|

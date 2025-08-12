@@ -18,7 +18,3 @@ Create Directory – Creates Directory in DFS
 Copy Inputs – Copy inputs into DFS
 
 Run Jar – Runs Jar file on Hadoop
-
-|Back to ...||Latest Version|
-| :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[0]()|

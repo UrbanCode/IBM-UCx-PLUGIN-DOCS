@@ -12,7 +12,3 @@ The HP LoadRunner plugin provides steps to integrate with HP LoadRunner. Using t
 Run Test Scenario Invoke the HP LoadRunner controller using the WLRun command-line utility and analyze the results with the AnalysisUI command-line utility. This step will execute a test scenario, save the results, and generate an HTML report.
 
 
-
-|Back to ...||Latest Version|||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[1.1004896](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/hp-loadrunner/plugins-hp-loadrunner-1.1004896.zip)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

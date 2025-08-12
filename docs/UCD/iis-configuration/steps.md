@@ -141,7 +141,3 @@ Role for resources that represents an IIS root
 | iis.wwwroot.path | String | Path to wwwroot on the agents environment. This is used to locate the wwwroot path to perform configuration discover/apply actions |
 | iis.appCmdFile | String | Path to the AppCmd.exe file. This is used to locate the AppCmd.exe file so that it can be utilized in topology discoveries |
 | iis.webDeployPath | String | Path to the MSDeploy.exe file. This is used to locate MSDeploy.exe so that we can utilize it for configuration discover/apply actions |
-
-|Back to ...||Latest Version|Microsoft IIS - Configure |||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[13.1127381](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/iis-configuration/ucd-IIS-Configuration-13.1127381.zip)|[Readme](README.md)|[Overview](overview.md)|[Troubleshooting](troubleshooting.md)|[Usage](usage.md)|[Downloads](downloads.md)|

@@ -126,7 +126,3 @@ The following example can be used as a template to define the integration within
 **Note**:
 
 Altering the ‘repositories’ field in the settings will not automatically eliminate any pre-existing data from older integrations. If your goal is to solely display information related to the newly updated repository, it’s necessary to first remove the old integration. After that, you can create a new integration that includes the updated list of repositories.
-
-|Back to ...||Latest Version|GitHub |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.5.1-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-github/ucv-ext-github%3A1.5.1.tar.7z.001)[and 1.5.1-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-github/ucv-ext-github%3A1.5.1.tar.7z.002)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

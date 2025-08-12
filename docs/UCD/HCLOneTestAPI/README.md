@@ -13,7 +13,3 @@ The HCL OneTest API plug-in for DevOps Deploy provides a step to run integration
 Run Integration Tests
 
 
-
-|Back to ...||Latest Version||
-| :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[5.0](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/HCLOneTestAPI/HOT-API-UCD-5.0.zip)|[Downloads](downloads.md)|

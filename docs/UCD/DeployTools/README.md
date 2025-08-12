@@ -23,7 +23,3 @@ Verify Deployment - Verify the deployment of an application through http interfa
 Wait for web page - Wait for a web page to be accessible and have certain contents.
 
 
-
-|Back to ...||Latest Version||||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[10.1177004](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/DeployTools/ucd-DeployTools-10.1177004.zip)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

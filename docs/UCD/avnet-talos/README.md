@@ -13,7 +13,3 @@ Talos includes:
 * Integration with 3rd party cloud providers
 * Integration with IBM DevOps Deploy to automatically generate deployable components and resources for inclusion in Deployment workflow
 * Create, clone, compare and mirror template based middleware environments for rapid environment build and change management
-
-|Back to ...||Latest Version|
-| :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[0]()|

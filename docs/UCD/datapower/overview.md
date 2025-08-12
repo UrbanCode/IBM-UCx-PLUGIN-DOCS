@@ -125,7 +125,3 @@ Export Object step added. Added support for the back tick (`) character.
 ### Version 8
 
 Initial release of the standard version of the plug-in.
-
-|Back to ...||Latest Version|IBM DataPower Configuration Manager ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[v27](https://github.com/ibm-datapower/datapower-configuration-manager/releases/download/Datapower27/datapower-v27.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

@@ -19,7 +19,3 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 Initial Release. Added functionality for entry configuration of a Reverse Proxy.
 
-
-|Back to ...||Latest Version|IBM Security Access Manager (WebSEAL) |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[1.769633](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/webseal/webseal-1.769633.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|

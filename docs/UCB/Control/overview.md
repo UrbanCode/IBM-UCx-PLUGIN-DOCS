@@ -25,7 +25,3 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 Initial Control Plugin Release
 
-
-|Back to ...||Latest Version|Control for IBM DevOps Build |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[1.1177008](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Control/Control-1.1177008.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|

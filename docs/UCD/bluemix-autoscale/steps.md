@@ -19,7 +19,3 @@ Attach an Auto-Scale policy to a Bluemix application.
 
 
 
-
-|Back to ...||Latest Version|IBM Bluemix Auto-Scaling |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[2.1174433](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/bluemix-autoscale/ucd-bluemix-autoscale-2.1174433.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

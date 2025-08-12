@@ -30,7 +30,3 @@ Use this step to build a Visual Studio solution file in headless mode.
 | Solution File | String | The location of the solution file. | Yes |
 
 
-
-|Back to ...||Latest Version|Visual Studio |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[9.1056675](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/VisualStudio/VisualStudio-9.1056675.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

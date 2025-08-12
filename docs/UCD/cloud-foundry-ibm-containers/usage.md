@@ -11,7 +11,3 @@ After these steps have run, the plug-in is installed and initialized. You can no
 
 The following screen capture shows an example process that installs and initializes the plug-in, and then runs a container: [![Cloud Foundry process](media/usage_example_process.gif)](media/usage_example_process.gif)
 
-
-|Back to ...||Latest Version|IBM Containers ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[6.1103420](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/cloud-foundry-ibm-containers/cloud-foundry-containers-6.1103420.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

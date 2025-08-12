@@ -24,7 +24,3 @@ generated data.
 
 No special steps are required for installing the plug-in.
 
-
-|Back to ...||Latest Version|Deployment Reports ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Release Plugins](../README.md)|[7.1018228](https://raw.githubusercontent.com/UrbanCode/IBM-UCR-PLUGINS/main/files/DeployReport/ucr-plugin-deployment-reports-7.1018228.zip)|[Readme](README.md)|[Usage](usage.md)|[Settings](settings.md)|[Downloads](downloads.md)|

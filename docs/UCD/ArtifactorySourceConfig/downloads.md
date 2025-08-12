@@ -40,7 +40,3 @@ To download the plug-in, click the following version-specific links.
 - [ArtifactorySourceConfig-3.738121.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ArtifactorySourceConfig/ArtifactorySourceConfig-3.738121.zip)
 - [ArtifactorySourceConfig-2.641670.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ArtifactorySourceConfig/ArtifactorySourceConfig-2.641670.zip)
 - [ArtifactorySourceConfig-1.496700.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ArtifactorySourceConfig/ArtifactorySourceConfig-1.496700.zip)
-
-|Back to ...||Latest Version|Artifactory Source Config |||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[33.1167705](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ArtifactorySourceConfig/ucd-ArtifactorySourceConfig-33.1167705.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|[Roles](roles.md)|

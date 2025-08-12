@@ -81,7 +81,3 @@ Support property file encryption.
 Initial release of the plug-in.
 
 
-
-|Back to ...||Latest Version|IBM Operational Decision Manager (ODM) Source Config ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[15.1178699](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-odm-source-config/devops-deploy-ibm-odm-source-config-15.1178699.zip)|[Readme](README.md)|[Settings](settings.md)|[Usage](usage.md)|[Downloads](downloads.md)|

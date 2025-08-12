@@ -80,7 +80,3 @@ Check ClearCase history for quiet period detection and publish the results.
 | Source Config |  |  | No |
 | Start Date | String | Start the changelog at this date (‘yyyy-MM-dd HH:mm:ss z’ OR ‘E MMM dd HH:mm:ss zzz yyyy’ OR milliseconds since Unix Epoch) | No |
 
-
-|Back to ...||Latest Version|ClearCase Base Snapshot |||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[14.767774](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/ClearCaseBaseSnapshot/ClearCaseBaseSnapshot-14.767774.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Settings](settings.md)|[Downloads](downloads.md)|

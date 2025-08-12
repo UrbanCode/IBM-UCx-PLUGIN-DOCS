@@ -80,7 +80,3 @@ Version 4 includes support for specifying adapters by name, and fixes APAR PI540
 
 This release of the plug-in includes a fix for a compatibility defect with IBM DevOps Deploy version 6.1.0.4 and later, and a fix for an issue where steps succeed even when the test execution record fails.
 
-
-|Back to ...||Latest Version|IBM Rational Quality Manager (RQM) ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[11.1101668](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/RationalQualityManager/RQM-11.1101668.zip)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

@@ -21,7 +21,7 @@ Using this default configuration youll find the analysis results in the UCD\_LR\
 
 [![](media/screen-shot-2018-11-15-at-2.30.26-pm.png)](media/screen-shot-2018-11-15-at-2.30.26-pm.png)
 
-Note that if you were to provide a different working directory, the folder would be created there instead of in the <agent\_install\_dir>/var/work/ directory.
+Note that if you were to provide a different working directory, the folder would be created there instead of in the `agent_install_dir`/var/work/ directory.
 
 To upload the report generated in this folder to codestation, you can utilize the Create Version step of the IBM DevOps Deploy Versions plugin. Further documentation on this step can be found in the [IBM DevOps Deploy Versions steps document](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/uDeploy-Version/steps.html#create_version).
 
@@ -92,7 +92,7 @@ This plugin comes with a predefined HP LoadRunner analysis template called UCD\_
 
 [![](media/screen-shot-2018-11-15-at-1.43.59-pm.png)](media/screen-shot-2018-11-15-at-1.43.59-pm.png)
 
-In order to use the default template, the agent user must have privileges to read and write to the LRAnalysis80.ini file. This configuration file can be found at the following system path <LoadRunnerInstallDir>\config\LRAnalysis80.ini.
+In order to use the default template, the agent user must have privileges to read and write to the LRAnalysis80.ini file. This configuration file can be found at the following system path `<LoadRunnerInstallDir>`\config\LRAnalysis80.ini.
 
 [![](media/screen-shot-2018-11-14-at-2.53.18-pm.png)](media/screen-shot-2018-11-14-at-2.53.18-pm.png)
 
@@ -106,7 +106,3 @@ You can view all of the preconfigured settings of the UCD\_ANALYSIS\_TEMPLATE. I
 
 After the step runs it will generate an HTML report file called An\_Report1.html in your working directory. This directory will be the components working directory in the UCD agent by default.
 
-
-|Back to ...||Latest Version|HP LoadRunner ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[1.1004896](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/hp-loadrunner/plugins-hp-loadrunner-1.1004896.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

@@ -17,7 +17,3 @@ This will cause the step to set the recentValidationId as an output property.Fro
 
 [![Example Deploy Recent Validation step references a recentValidationId](media/deploy-recent-validation.png)](media/deploy-recent-validation.png)
 Example Deploy Recent Validation step references a recentValidationId
-
-|Back to ...||Latest Version|Salesforce ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[10.1138575](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SalesForce/ucd-salesforce-10.1138575.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

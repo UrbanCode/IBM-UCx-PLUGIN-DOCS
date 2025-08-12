@@ -77,7 +77,3 @@ Added functionality for importing and exporting .isx files. Support added to eit
 
 Initial Release. Added functionality for importing and export .dsx files, listing .dsx contents, and compiling DataStage projects.
 
-
-|Back to ...||Latest Version|IBM InfoSphere DataStage ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[10.1164467](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/datastage/ucd-datastage-10.1164467.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

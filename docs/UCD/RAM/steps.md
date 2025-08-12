@@ -104,7 +104,3 @@ Upload asset to a Rational Asset Manager repository.
 | Version | String | The version for the asset. | Yes |
 
 
-
-|Back to ...||Latest Version|IBM Rational Asset Manager ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[0](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/RAM/com.ibm.udeploy.plugin.ram.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

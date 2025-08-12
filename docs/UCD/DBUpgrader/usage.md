@@ -52,7 +52,7 @@ The rollback process follows:
 5. After the change is complete, go into the database and update the release version value to be the previous version value.
 6. Repeat steps 3-5 until the target version is reached.
 
-If an error occurs while you are applying a change, the <rollback> element is not used and the process fails. The state of the database after failure might vary depending on the type of database that you are using. It is possible for the database to be left in a half-applied state. Proceed by either restoring the database to a backed-up version; or by applying the rest of the version manually.
+If an error occurs while you are applying a change, the `<rollback>` element is not used and the process fails. The state of the database after failure might vary depending on the type of database that you are using. It is possible for the database to be left in a half-applied state. Proceed by either restoring the database to a backed-up version; or by applying the rest of the version manually.
 
 
 ## **Working with multiple releases**
@@ -103,9 +103,9 @@ The following table lists the elements and attributes that are used in the XML f
 
 | Element | Description | Attributes | Attribute description |
 | --- | --- | --- | --- |
-| <change-set> | The root element. | release | Provide the name of the release that this upgrade XML file corresponds to. This name is the same name as the one given in the Database Version table. |
-| <library> | A child of the <change-set> element that defines dependencies that also use DB Upgrader. With this element and the <changeref> element, you can define which version to use for a dependency database. | name | Required. The element is a unique name to refer to the library by. |
-|  |  | release | Corresponds to the librarys release attribute in the <change-set> element. |
+| `<change-set>` | The root element. | release | Provide the name of the release that this upgrade XML file corresponds to. This name is the same name as the one given in the Database Version table. |
+| `<library>` | A child of the `<change-set>` element that defines dependencies that also use DB Upgrader. With this element and the `<changeref>` element, you can define which version to use for a dependency database. | name | Required. The element is a unique name to refer to the library by. |
+|  |  | release | Corresponds to the librarys release attribute in the `<change-set>` element. |
 |  |  | base-dir | The root directory that holds the librarys DB Upgrader files. |
 |  |  | file | The root directory that holds the librarys DB Upgrader files. |
 |  |  | base-dir | The root directory that holds the librarys DB Upgrader files. |
@@ -113,26 +113,22 @@ The following table lists the elements and attributes that are used in the XML f
 |  |  | version table | The name of the libarys Database Version table. |
 |  |  | release-column | The name of the column that holds the name of the change-set release, for example, RELEASE\_NAME. |
 |  |  | version-column | The name of the column that holds the current version, for example, VERSION. |
-| <change> | A child of the <change-set> element that defines each separate version. | number | Provide the database version number that this change defines. Make sure that each subsequent <change> element increases this value by 1. When this change is applied, the Database Version table is updated so that the corresponding release is marked as having this version. |
-| <description> | A child of the <change> element. Information that describes the purpose of this change. The information is printed out when the change is applied. |  |  |
-| <sql> | A child of the <change> element or <rollback> element. The element contains the SQL statements that are required to apply the change. | separator | Optional. The default value is two semicolons (;;). This element defines how to separate each SQL statement. For example, if the separator is ;;, then each SQL statement must end with ;;.
+| `<change>` | A child of the `<change-set>` element that defines each separate version. | number | Provide the database version number that this change defines. Make sure that each subsequent `<change>` element increases this value by 1. When this change is applied, the Database Version table is updated so that the corresponding release is marked as having this version. |
+| `<description>` | A child of the `<change>` element. Information that describes the purpose of this change. The information is printed out when the change is applied. |  |  |
+| `<sql>` | A child of the `<change>` element or `<rollback>` element. The element contains the SQL statements that are required to apply the change. | separator | Optional. The default value is two semicolons (;;). This element defines how to separate each SQL statement. For example, if the separator is ;;, then each SQL statement must end with ;;.
 
-Within the <SQL> tags are the SQL statements that are required to apply the change to the database. Each SQL statement must be separated by the separator that is defined in the separator attribute.The SQL statements can be defined in a separate file, which is identified by using the file attribute.
+Within the `<SQL>` tags are the SQL statements that are required to apply the change to the database. Each SQL statement must be separated by the separator that is defined in the separator attribute.The SQL statements can be defined in a separate file, which is identified by using the file attribute.
 |
 |  |  | file | Optional. The path to a file that contains the SQL statement to run for this change. |
-| <groovy> | A child of the <change> or <rollback> element. This element calls a groovy script to complete changes. The groovy script contains special objects that enable it to communicate with the database.  | file | Name of the groovy file to run. |
-| <changeref> | A child of the <change> element. Indicates when the DBUpgrader is to run a dependency library upgrade. | library | Required. The name attribute of the corresponding <library> element. |
-|  |  | change | Required. The number attribute of the<change> element from the  element. |
-| <rollback> | A child of the <change> element. This statement is used to contain the SQL statements that are used to return the database to a previous version. For example, if the change defines an <sql> element that contains a CREATE TABLE FOO statement, then the rollback element might contain an <sql> element with a DROP TABLE FOO statement. |  |  |
+| `<groovy>` | A child of the `<change>` or `<rollback>` element. This element calls a groovy script to complete changes. The groovy script contains special objects that enable it to communicate with the database.  | file | Name of the groovy file to run. |
+| `<changeref>` | A child of the `<change>` element. Indicates when the DBUpgrader is to run a dependency library upgrade. | library | Required. The name attribute of the corresponding `<library>` element. |
+|  |  | change | Required. The number attribute of the `<change>` element from the element. |
+| `<rollback>` | A child of the `<change>` element. This statement is used to contain the SQL statements that are used to return the database to a previous version. For example, if the change defines an `<sql>` element that contains a CREATE TABLE FOO statement, then the rollback element might contain an `<sql>` element with a DROP TABLE FOO statement. |  |  |
 
 
 **Notes:**
 
-* Changes can hold multiple elements. For example, a single <change> element might hold an <sql> element, a <groovy> element, and another <sql> element. These elements contain the SQL statements that are required to conduct a single version upgrade.
-* The number attribute on the <change> element is used to control the processing order of the <change> elements. Changes are executed in a sequential order, as determined by the number attribute. For example, the number attribute runs change 1, then changes 2, 3, 4, and so on.
+* Changes can hold multiple elements. For example, a single `<change>` element might hold an `<sql>` element, a `<groovy>` element, and another `<sql>` element. These elements contain the SQL statements that are required to conduct a single version upgrade.
+* The number attribute on the `<change>` element is used to control the processing order of the `<change>` elements. Changes are executed in a sequential order, as determined by the number attribute. For example, the number attribute runs change 1, then changes 2, 3, 4, and so on.
 
-Each SQL statement inside a <change> element is run in the order it is provided, as any other SQL script.
-
-|Back to ...||Latest Version|IBM DevOps DBUpgrader ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[5.1151802](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/DBUpgrader/ucd-DBUpgrader-5.1151802.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+Each SQL statement inside a `<change>` element is run in the order it is provided, as any other SQL script.

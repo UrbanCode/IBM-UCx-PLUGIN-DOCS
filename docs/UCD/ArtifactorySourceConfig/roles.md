@@ -49,7 +49,3 @@ The following roles are added automatically to resources. You cannot add these r
 | Version Description | String | An optional description to add to the versions that are imported into DevOps Deploy. |  |
 
 
-
-|Back to ...||Latest Version|Artifactory Source Config |||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[33.1167705](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ArtifactorySourceConfig/ucd-ArtifactorySourceConfig-33.1167705.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

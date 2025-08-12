@@ -28,7 +28,3 @@ Execute Eclipse Client Tests from IBM Rational Test Workbench
 | Workspace | String | Complete path to Eclipse workspace. | Yes |
 
 
-
-|Back to ...||Latest Version|IBM Rational Test Workbench Web UI Tester ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[11.1](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/RFT-WebUI-UCD/RFT-UCD-UITest-11.1.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

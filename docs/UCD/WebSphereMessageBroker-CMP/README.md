@@ -11,7 +11,3 @@ The IBM Integration Bus plug-in has been replaced by the [App Connect Enterprise
 * If there are no search results, submit your issue as a [question](https://community.ibm.com/community/user/wasdevops/communities/community-home/digestviewer?communitykey=9adfe6b6-2e23-4895-8b27-38b93b5e152c). 
 Use the following tags: DevOps | deploy | plugins | IBM Integration Bus.
 
-
-|Back to ...||Latest Version||||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[47.1156618](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereMessageBroker-CMP/WebSphereMessageBroker-CMP-47.1156618.zip)|[Overview](overview.md)|[Troubleshooting](troubleshooting.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

@@ -11,7 +11,3 @@ The Salesforce plug-in for IBM DevOps Deploy uses the Force.com Migration Tool t
 - Describe Metadata: Retrieves all metadata which describes your organization.
 - List Metadata: Retrieves property information about metadata components given a metadata type.
 - Retrieve: Retrieve unpackaged, managed or unmanaged packages.
-
-|Back to ...||Latest Version|||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[10.1138575](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SalesForce/ucd-salesforce-10.1138575.zip)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

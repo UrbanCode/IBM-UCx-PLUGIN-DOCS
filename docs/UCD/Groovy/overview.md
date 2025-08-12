@@ -64,7 +64,3 @@ Version 7 includes translated content.
 
 This release includes a fix for a defect that is related to running Groovy on Microsoft Windows.
 
-
-|Back to ...||Latest Version|Groovy ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[16.1155716](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Groovy/ucd-Groovy-16.1155716.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

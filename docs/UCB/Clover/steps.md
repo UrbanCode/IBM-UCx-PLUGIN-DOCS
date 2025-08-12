@@ -26,7 +26,3 @@ Use this step to upload a Clover report.
 | Report Directory | String | The directory containing the `coverage.xml` file. | No |
 
 
-
-|Back to ...||Latest Version|Clover |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[2.752899](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Clover/clover-2.752899.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

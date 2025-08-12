@@ -21,7 +21,3 @@ To download the plug-in, click the following version-specific links.
 - [WLDeploy-13.712081.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WLDeploy/WLDeploy-13.712081.zip)
 - [WLDeploy-12.699360.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WLDeploy/WLDeploy-12.699360.zip)
 - [WLDeploy-12.698353.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WLDeploy/WLDeploy-12.698353.zip)
-
-|Back to ...||Latest Version|Oracle WebLogic WLDeploy ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[26.1175365](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WLDeploy/ucd-WLDeploy-26.1175365.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Usage](usage.md)|

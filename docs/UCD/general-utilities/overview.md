@@ -40,7 +40,3 @@ Support property file encryption.
 ### Version 1
 
 Initial release of the plugin. Contains the "Wait" step.
-
-|Back to ...||Latest Version|IBM DevOps Deploy General Utilites ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[5.1155731](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/general-utilities/ucd-general-utilities-5.1155731.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

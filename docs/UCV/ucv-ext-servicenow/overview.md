@@ -116,7 +116,3 @@ Implemented OAuth 2.0 authentication for secure communication with third-party s
 
 * Initial release
 
-
-|Back to ...||Latest Version|ServiceNow |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All plug-ins](../../index.md)|[Velocity plug-ins](../README.md)|[1.1.16-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.1.16.tar.7z.001)[and 1.1.16-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.1.16.tar.7z.002)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|

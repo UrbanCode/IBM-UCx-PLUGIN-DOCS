@@ -21,7 +21,3 @@ RTC Create BaselineCreate a baseline in Rational Team Concert.
 RTC Quiet PeriodCheck the Rational Team Concert history for quiet period detection and publish the results.
 
 
-
-|Back to ...||Latest Version||||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[24.1013888](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/RationalTeamConcert/RTC-scm-24.1013888.zip)|[Overview](overview.md)|[Steps and Settings](steps and settings.md)|[Downloads](downloads.md)|

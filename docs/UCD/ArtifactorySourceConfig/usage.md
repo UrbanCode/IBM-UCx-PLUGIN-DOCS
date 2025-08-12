@@ -18,7 +18,3 @@ To create a component by importing from Artifactory, complete the following step
 
 To access this plugin in the palette, click **Source and Repositories** > **Artifactory**.
 
-
-|Back to ...||Latest Version|Artifactory Source Config |||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[33.1167705](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ArtifactorySourceConfig/ucd-ArtifactorySourceConfig-33.1167705.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Roles](roles.md)|[Downloads](downloads.md)|

@@ -124,7 +124,3 @@ Creates multiple components.
 | JSON File/Text | String | A body of JSON text or a file to define components. | Yes |
 
 
-
-|Back to ...||Latest Version|IBM DevOps Deploy Components ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[81.1155712](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Component/ucd-uDeploy-Component-81.1155712.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

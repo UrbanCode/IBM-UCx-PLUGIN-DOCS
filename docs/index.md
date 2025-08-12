@@ -14,10 +14,10 @@ This repository holds the IBM UrbanCode products plugin documentation.
 
 ## Product Specific Plug-In List
 
-### [IBM UrbanCode Build Plug-in List](UCB/README.md)
+### [IBM UrbanCode Build Plug-in List](UCB/index.md)
 
-### [IBM UrbanCode Deploy Plug-in List](UCD/README.md)
+### [IBM UrbanCode Deploy Plug-in List](UCD/index.md)
 
-### [IBM UrbanCode Release Plug-in List](UCR/README.md)
+### [IBM UrbanCode Release Plug-in List](UCR/index.md)
 
-### [IBM DevOps Velocity Plug-in List](UCV/README.md)
+### [IBM DevOps Velocity Plug-in List](UCV/index.md)

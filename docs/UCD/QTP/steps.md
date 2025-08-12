@@ -19,7 +19,3 @@ Run QuickTest Pro tests
 | Web Application URL | String | This will override the applications URL if testing a web application. | No |
 
 
-
-|Back to ...||Latest Version|HP Unified Functional Testing (QTP) |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[7.1154086](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/QTP/ucd-QTP-7.1154086.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

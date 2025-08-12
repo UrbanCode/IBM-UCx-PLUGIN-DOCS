@@ -17,7 +17,3 @@ UrbanCode Release. The integration is not bi-directional; you cannot export from
 * The built-in Jira
 integration for the IBM Urban Code Release server is deprecated. Install this plugin for Jira integration.
 
-
-|Back to ...||Latest Version||||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Release Plugins](../README.md)|[18.1079383](https://raw.githubusercontent.com/UrbanCode/IBM-UCR-PLUGINS/main/files/ucr-plugin-jira/ucr-plugin-jira-18.1079383.zip)|[Overview](overview.md)|[Settings](settings.md)|[Downloads](downloads.md)|

@@ -54,7 +54,3 @@ Use this step to run a secondary process in uBuild.
 | Properties | String | Additional properties to pass to the workflow. These are sets of name, value, and secure.For example, `[{"name": "user", "value": "admin", "secure": "true"}``]`. | No |
 
 
-
-|Back to ...||Latest Version|IBM DevOps uBuild ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[8.1056531](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uBuild/uBuild-8.1056531.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

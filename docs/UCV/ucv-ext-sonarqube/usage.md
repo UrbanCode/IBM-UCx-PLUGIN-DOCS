@@ -78,7 +78,3 @@ The SonarQube webhook must target the Velocity integration’s endpoint URL whic
 
 What you have available will depend on your version of SonarQube but it is good to be aware that a global webhook will send data for all projects, while a project scoped webhook will only send data for the specific project to which it belongs. Also, in general, SonarQube limits its number of webhooks at both the project and global levels. Refer to your SonarQube documentation for details of webhook management.
 
-
-|Back to ...||Latest Version|SonarQube |||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.50](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-sonarqube/ucv-ext-sonarqube-1.0.50.tar.zip)|[Readme](README.md)|[Overview](overview.md)|[Scripts](scripts.md)|[Certificate](certificate.md)|[Downloads](downloads.md)|

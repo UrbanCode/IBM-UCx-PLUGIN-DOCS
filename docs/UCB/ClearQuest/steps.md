@@ -88,7 +88,3 @@ The plug-in adds these roles automatically to resources. You cannot add these ro
 | Username | String | The username to connect to the ClearQuest database. |
 
 
-
-|Back to ...||Latest Version|ClearQuest |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[5.752905](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/ClearQuest/ClearQuest-5.752905.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

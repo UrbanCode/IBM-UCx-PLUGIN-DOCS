@@ -106,7 +106,3 @@ Executes an XMLAccess script on a WebSphere Portal server
 | XML script file name | String | The name of the file containing the XML script for XMLAccess tool. If left blank, the name of the component is used. | No |
 
 
-
-|Back to ...||Latest Version|IBM WebSphere Portal |||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[8.1100783](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSpherePortal/WebSpherePortal-8.1100783.zip)|[Readme](README.md)|[Overview](overview.md)|[Troubleshooting](troubleshooting.md)|[Usage](usage.md)|[Downloads](downloads.md)|

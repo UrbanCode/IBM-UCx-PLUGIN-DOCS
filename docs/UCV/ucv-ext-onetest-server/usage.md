@@ -26,39 +26,39 @@ You will need to "install" the plug-in in DevOps Velocity. You can do this in on
     "integrations": [
   {
     "type": "ucv-ext-onetest-server",
-    "tenant_id": "<tenant-id>",
-    "name": "<integration-name>",
+    "tenant_id": "`<tenant-id>`",
+    "name": "`<integration-name>`",
     "logginglevel": "INFO",
     "properties":{
-      "_userAccessKey": "<ucv-user-access-key>",
-      "oneTestUrl" : "<DevOps Test-Hub-url>",
-      "oneTestRefreshToken":"<DevOps Test-Hub-refresh-token>",
+      "_userAccessKey": "`<ucv-user-access-key>`",
+      "oneTestUrl" : "`<DevOps Test-Hub-url>`",
+      "oneTestRefreshToken":"`<DevOps Test-Hub-refresh-token>`",
       "buildRegExp": "([A-Z]+-[0-9]+)",
-      "workflowId" : "<value_stream_id>"
+      "workflowId" : "`<value_stream_id>`"
         }
     }
     ]
 
     ```
-* In the above example, provide all of your own values for the values inside of < > brackets.
+* In the above example, provide all of your own values for the values inside of `<` `>` brackets.
 * The buildRegExp field can be used to map a build to a metric. The tags on the DevOps Test Hub test will be evaluated against the regular expression.
 * For instance, if your buildRegExp is defined as "([A-Z]+-[0-9]+)" and you tag your test with "BUILD-123" this will map the build with ID BUILD-123 in the Velocity server to the newly created metric.
 * For help forming a regular expression based on your build ID, you can test out patterns at the following web page: https://regexr.com
 
-* Another option for creating is to hit the https://<velocity-url>/integration url with the integration definition as your payload:
+* Another option for creating is to hit the `https://<velocity-url>/integration` url with the integration definition as your payload:
 
     ```
 
     {
     "type": "ucv-ext-onetest-server",
-    "tenant_id": "<tenant-id>",
-    "name": "<integration-name>",
+    "tenant_id": "`<tenant-id>`",
+    "name": "`<integration-name>`",
     "logginglevel": "INFO",
     "properties":{
-        "oneTestUrl" : "<DevOps Test-Hub-url>",
-        "oneTestRefreshToken":"<DevOps Test-Hub-refresh-token>",
+        "oneTestUrl" : "`<DevOps Test-Hub-url>`",
+        "oneTestRefreshToken":"`<DevOps Test-Hub-refresh-token>`",
         "buildRegExp": "([A-Z]+-[0-9]+)",
-        "workflowId" : "<value_stream_id>"
+        "workflowId" : "`<value_stream_id>`"
     }
     }
 
@@ -67,7 +67,7 @@ You will need to "install" the plug-in in DevOps Velocity. You can do this in on
 
 ## Running the Integration
 
-After going through the "Set Up" portion above, you can send an HTTP POST request to your new endpoint: https://<velocity-url>/pluginEndpoint/<integrationId>/onetest/callback
+After going through the "Set Up" portion above, you can send an HTTP POST request to your new endpoint: `https://<velocity-url>/pluginEndpoint/<integrationId>/onetest/callback`
 
 * The payload for this POST must be in the following format
 
@@ -75,19 +75,19 @@ After going through the "Set Up" portion above, you can send an HTTP POST reques
 
 {
   "project": {
-    "name":"<name of DevOps Test Hub project>",
-    "id": "<id of DevOps Test Hub project>"
+    "name":"`<name of DevOps Test Hub project>`",
+    "id": "`<id of DevOps Test Hub project>`"
     (either project name or project id must be specified)
   },
   "test": {
-    "name":"<name of test>",
-    "path":"<path to test>"
+    "name":"`<name of test>`",
+    "path":"`<path to test>`"
     (either test name or test path must be specified)
   },
-  "commitId": "<sha of a commit>" (optional),
+  "commitId": "`<sha of a commit>`" (optional),
   "build": {
-    "id": "<id of build in DevOps Velocity>",
-    "url": "<url of build in DevOps Velocity>"
+    "id": "`<id of build in DevOps Velocity>`",
+    "url": "`<url of build in DevOps Velocity>`"
   } (optional, this will override buildRegExp if specified)
 }
 
@@ -159,7 +159,3 @@ Some properties might not be displayed in the user interface, to see all propert
 | Build Label Pattern | String | A regular expression pattern that will match a build ID on a test execution label. For example: ([A-Z]+-[0-9]+). | No | buildRegExp |
 | Workflow Id | String | The value stream that this metric is associated. | No | workflowId |
 
-
-|Back to ...||Latest Version|DevOps Test Hub |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.30-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest-server/ucv-ext-onetest-server%3A1.0.30.tar.7z.001)[and 1.0.30-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest-server/ucv-ext-onetest-server%3A1.0.30.tar.7z.002)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

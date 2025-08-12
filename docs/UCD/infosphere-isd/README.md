@@ -18,7 +18,3 @@ Design Time Import Import projects, applications, and services into your InfoSph
 Runtime Import Import runtime applications into your InfoSphere Information Services Director server from a DAT input file.
 
 
-
-|Back to ...||Latest Version||||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[1.1174436](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/infosphere-isd/ucd-plugins-infosphere-isd-1.1174436.zip)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

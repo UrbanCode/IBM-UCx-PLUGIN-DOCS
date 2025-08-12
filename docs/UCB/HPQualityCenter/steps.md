@@ -160,7 +160,3 @@ This represents the connectivity settings for a HP Quality Center. In order for 
 | Username | String | The username to authenticate with Quality Center. |
 
 
-
-|Back to ...||Latest Version|HP Quality Center ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[8.752924](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/HPQualityCenter/HPQualityCenter-8.752924.zip)|[Readme](README.md)|[Overview](overview.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|

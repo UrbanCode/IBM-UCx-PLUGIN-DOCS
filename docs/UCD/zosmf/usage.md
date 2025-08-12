@@ -32,8 +32,6 @@ Open zOSMFService resource and click **Configuration**>**Basic Settings**. The r
 
 **Note:** The ID is an MVS user ID with proper permissions setup. To ensure the user ID is working properly, use it to log into the z/OSMF web interface and list the software services instances.
 
-[![](zosmf-specify-userid-password.jpg)](media/zosmf-specify-userid-password.jpg)
-
 Go back to the Resource Tree view, click the**Actions**button that is associated with the zOSMFServiceresource, and then click**Configure using Software Services Instance Discovery**. The discovery step runs. A log displays to show progress.When the discovery process completes, close the log window, and refresh the resource tree.Resources that represent the software services instancesare displayed in the resource tree. Thenew resources are organized in structure `plex\system\software type\instance name`.
 
 [![](media/zosmf-discover-step-2.jpg)](media/zosmf-discover-step-2.jpg)
@@ -98,7 +96,3 @@ After the process completes, refresh the resource tree.Resources that represent 
 You can now provision a software services instanceand have the resources automatically created in DevOps Deploy to represent the subsystem. You can use the resource or you can further enhance theautomation. For example you can map a component to the resource, createenvironment and start initial deployments.
 
 **Note:**If you prefer to usez/OSPTto provision software, you can replace the **Run Published Software Service Template** step with a **Shell** step and input the corresponding z/OSPT commands. You will need to parse the z/OSPT output to find the name of the instance.
-
-|          Back to ...          ||         Latest Version         |                                              z/OS Management Facility                                               ||||
-|:-----------------------------:|:------------------------------:|:-------------------------------------------------------------------------------------------------------------------:| :---: | :---: | :---: | :---: |
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [15.1174435](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zosmf/ucd-zosmf-15.1174435.zip) |[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

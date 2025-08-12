@@ -29,7 +29,3 @@ There is no install process for this plug-in. The Black Duck plug-in is identifi
 
 * Initial release
 
-
-|Back to ...||Latest Version|Black Duck |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.17](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-blackduck/ucv-ext-blackduck-1.0.17.tar.zip)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|

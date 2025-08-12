@@ -37,7 +37,3 @@ Each step action performs only one action. Using a step for different actions ca
 * Do not use a create step to update an object.
 * Do not use an update step to create an object.
 * A Delete step will fail if the object to delete does not exist.
-
-|Back to ...||Latest Version|Oracle WebLogic Integration Resource Management |||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[35.1056548](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/plugin-air-WLI-Resource-Management/plugin-air-WLI-Resource-Management-35.1056548.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

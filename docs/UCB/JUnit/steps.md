@@ -30,7 +30,3 @@ Use this step to publish JUnit results as a report.
 | Truncate Test Suite Name | Boolean | Remove the package name from the published test suite name. If this property is not enabled, the full class name of the test suite is included. | No |
 
 
-
-|Back to ...||Latest Version|JUnit for IBM UrbanCode Build |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[10.1071521](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/JUnit/JUnit-10.1071521.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

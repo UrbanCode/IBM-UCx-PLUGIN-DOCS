@@ -48,7 +48,3 @@ view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/
 ### Version 0.0.5
 
 * Initial release
-
-|Back to ...||Latest Version|YAML Executor |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[0.0.13-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-yaml-executor/ucv-ext-yaml-executor%3A0.0.13.tar.7z.001)[and 0.0.13-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-yaml-executor/ucv-ext-yaml-executor%3A0.0.13.tar.7z.002)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|

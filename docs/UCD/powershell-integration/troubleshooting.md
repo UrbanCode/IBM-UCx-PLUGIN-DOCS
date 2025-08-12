@@ -57,7 +57,3 @@ Perform the following:
 
 **Why is script output not displayed in the IBM DevOps Deploy log?**
 The IBM DevOps Deploy log stores all PowerShell output. You may need to change the PowerShell output preferences. To learn more, refer to the Microsoft documentation here: <https://technet.microsoft.com/en-us/library/hh847796.aspx>.
-
-|Back to ...||Latest Version|PowerShell |||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[9.1025820](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/powershell-integration/PowerShell-Integration-9.1025820.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Usage](usage.md)|[Downloads](downloads.md)|

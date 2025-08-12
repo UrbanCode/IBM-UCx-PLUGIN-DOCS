@@ -18,7 +18,3 @@ Apple Generic Versioning Apply a technical or marketing version to a project usi
 Package ApplicationPackage the application to a .ipa file using the xcrun tool.
 
 
-
-|Back to ...||Latest Version|||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[5.1098513](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Xcode/Xcode-hcl-5.1098513.zip)|[Overview](overview.md)|[Steps](steps.md)|[Usage](usage.md)|[Downloads](downloads.md)|

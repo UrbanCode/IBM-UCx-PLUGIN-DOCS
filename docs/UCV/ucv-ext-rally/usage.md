@@ -101,7 +101,3 @@ The following example can be used as as template to include the Rally plug-in in
 }
 ]
 ```
-
-|Back to ...||Latest Version|Rally |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.43](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-rally/ucv-ext-rally%3A1.0.43.tar.7z.001)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

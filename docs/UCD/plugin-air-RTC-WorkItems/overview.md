@@ -74,7 +74,3 @@ Fixes APAR PI68389Invalid recognition of non-generic path element.
 
 Added Check Work Item Status step.
 
-
-|Back to ...||Latest Version|IBM Rational Team Concert Work Items |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[15.1142216](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/plugin-air-RTC-WorkItems/ucd-plugin-air-RTC-WorkItems-15.1142216.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|

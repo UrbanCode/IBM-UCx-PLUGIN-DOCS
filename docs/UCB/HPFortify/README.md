@@ -19,7 +19,3 @@ Fortify ScanRun a scan using Fortify and upload the results to uBuild
 Fortify UploadUpload the Fortify scan output to the HP Fortify and UrbanCode Build servers
 
 
-
-|Back to ...||Latest Version||||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[4.752922](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/HPFortify/Fortify-4.752922.zip)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

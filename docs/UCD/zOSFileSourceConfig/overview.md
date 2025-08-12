@@ -52,8 +52,3 @@ See [Installing plug-ins](https://www.ibm.com/docs/en/devops-deploy/8.1.1?topic=
 * Initial Release of zOS File source configuration.
 
 
-
-|          Back to ...          |                                |                                                                Latest Version                                                                 |                     |                           |
-|:-----------------------------:|:------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------:|:-------------------------:|
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [8.1174630](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOSFileSourceConfig/ucd-zOSFileSourceConfig-8.1174630.zip) | [Readme](README.md) | [Downloads](downloads.md) |
-

@@ -17,7 +17,3 @@ Publish Build Publish build result to DevOps Insights – Deployment Risk Analyt
 Publish Test Publish test files to DevOps – Insights Deployment Risk Analytics.
 
 
-
-|Back to ...||Latest Version||
-| :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[1.939632](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/bluemix-deployment-risk-analytics/devops-insights-deployment-risk-analytics-ubuild-1.939632.zip)|[Downloads](downloads.md)|

@@ -71,7 +71,3 @@ Version 2 includes a fix for APAR PI57417. The plug-in now checks and uses the a
 
 Initial release of the plug-in.
 
-
-|Back to ...||Latest Version|IBM DevOps Deploy Process ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[14.1155709](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Process/ucd-uDeploy-Process-14.1155709.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

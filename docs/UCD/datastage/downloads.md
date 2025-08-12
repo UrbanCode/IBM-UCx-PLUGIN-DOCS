@@ -13,7 +13,3 @@ To download the plug-in, click the following version-specific links.
 - [datastage-2.823955.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/datastage/datastage-2.823955.zip)
 - [datastage-2.787466.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/datastage/datastage-2.787466.zip)
 - [datastage-2.769561.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/datastage/datastage-2.769561.zip)
-
-|Back to ...||Latest Version|IBM InfoSphere DataStage ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[10.1164467](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/datastage/ucd-datastage-10.1164467.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|

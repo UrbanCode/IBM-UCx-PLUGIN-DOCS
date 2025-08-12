@@ -226,7 +226,3 @@ Validate a deployed deployment group in the target server.
 | Username | String | The username to use to authenticate with Informatica. | Yes |
 | Validation File | String | The name of the file to output validated object to. | Yes |
 | Validation Query | String | The name of the query to run to query the invalid objects of the deployment. | Yes |
-
-|Back to ...||Latest Version|Informatica |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[v31](https://github.com/UrbanCode/Informatica-UCD/releases/download/31/Informatica-UCD-v31.ad2156b.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|

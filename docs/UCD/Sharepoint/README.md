@@ -19,7 +19,3 @@ Deploy SharePoint WSP File To Sandbox: Deploys SharePoint content from CMP packa
 Export SharePoint Content: Exports SharePoint content to a CMP package
 
 
-
-|Back to ...||Latest Version||||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[8.1056539](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Sharepoint/Sharepoint-8.1056539.zip)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

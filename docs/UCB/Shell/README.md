@@ -15,7 +15,3 @@ Shell Run a shell or batch script.
 Shell (with xargs) Run a shell or batch script a number of times equal to a multi-valued input.
 
 
-
-|Back to ...||Latest Version||||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[7.913337](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Shell/Shell-7.913337.zip)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

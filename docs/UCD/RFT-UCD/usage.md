@@ -49,7 +49,3 @@ Video: Running functional tests
 The following video shows how to use the Rational Functional Tester plug-in for DevOps Deploy to remotely run functional tests.
 
 
-
-|Back to ...||Latest Version|IBM Rational Functional Tester (RFT) ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[6.1](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/RFT-UCD/RFT-UCD-FunctionalTest-6.1.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

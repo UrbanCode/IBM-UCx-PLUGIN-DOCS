@@ -31,7 +31,3 @@ The [Start scenario](#start_scenario) and [Stop scenario](#stop_scenario) steps 
 Updates to allow only secure API calls.
 ### Version 1
 Initial release of the IBM Rational Test Automation Server plug-in.
-
-|Back to ...||Latest Version|IBM Rational Test Automation Server (RTAS) ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[3.3](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/RTAS-UCD/RTAS-UCD-3.3.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

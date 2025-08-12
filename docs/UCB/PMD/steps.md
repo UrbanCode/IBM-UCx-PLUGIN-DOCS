@@ -28,7 +28,3 @@ Publish PMD results to a build life. The step reads the XML output gathered by t
 | Report Name | String | The name of the report to published to the build life. | Yes |
 
 
-
-|Back to ...||Latest Version|PMD |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[5.752822](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/PMD/Pmd-5.752822.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

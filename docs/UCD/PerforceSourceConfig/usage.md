@@ -9,7 +9,3 @@ To create a component by importing from Perforce, complete the following steps. 
 4. Click **Save**.
 5. Click the **Versions** tab for the component.
 6. Click **Import New Versions**.
-
-|Back to ...||Latest Version|Perforce Helix ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[9.1026768](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/PerforceSourceConfig/PerforceSourceConfig-9.1026768.zip)|[Readme](README.md)|[Overview](overview.md)|[Settings](settings.md)|[Downloads](downloads.md)|

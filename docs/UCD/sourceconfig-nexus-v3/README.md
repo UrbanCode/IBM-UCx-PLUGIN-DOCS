@@ -7,7 +7,3 @@ This plug-in integrates with Nexus to retrieve artifacts hosted in a Maven repos
 
 Compatibility The Nexus Repository Manager V3 plugin is compatible with Nexus Repository manager versions 3.0 and up. Please use the [Nexus V2 Source Config Plugin](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/nexus-source-config/) if your server is version 2.x.
 
-
-|Back to ...||Latest Version|||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[6.1179697](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/sourceconfig-nexus-v3/devops-deploy-sourceconfig-nexus-v3-6.1179697.zip)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

@@ -85,7 +85,3 @@ Read [api-key-deprecation-and-the-new-reference-tokens](https://jfrog.com/help/r
 
 Plugin is used to download artifacts from external repository like NEXUS/ARTIFACTORY then we can use Deploy Data Sets step for zOS deployment.
 
-
-|          Back to ...          |                                |                                                                       Latest Version                                                                        | z/OS External Artifact Repository |                   |                   |                           |
-|:-----------------------------:|:------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------:|:-----------------:|:-----------------:|:-------------------------:|
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [13.1179643](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOS-external-artifact-download/devops-deploy-ExtArtRepo-13.1179643.zip) |        [Readme](README.md)        | [Usage](usage.md) | [Steps](steps.md) | [Downloads](downloads.md) |

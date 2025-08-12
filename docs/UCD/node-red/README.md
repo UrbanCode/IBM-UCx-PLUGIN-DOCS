@@ -22,7 +22,3 @@ If you encounter issues with the plug-in, or want to send feedback:
 ## Available Steps
 
 Install Node-RED Uninstall Node-RED Start Node-RED Stop Node-RED Deploy Flow to Node-RED
-
-|Back to ...||Latest Version|
-| :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[0]()|

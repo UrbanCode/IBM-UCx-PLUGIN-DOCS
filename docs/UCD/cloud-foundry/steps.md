@@ -453,7 +453,3 @@ Role for resources that represents a Cloud Foundry space within an organization 
 | Name | Type | Description | Reference |
 | --- | --- | --- | --- |
 | cf.space | String | The Name of the Cloud Foundry space. | ``${p:resource/cf.space}`` |
-
-|Back to ...||Latest Version|Cloud Foundry |||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[35.1122072](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/cloud-foundry/cloud-foundry-35.1122072.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|

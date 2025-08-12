@@ -39,7 +39,3 @@ Version 7
 
 * Initial release
 
-
-|Back to ...||Latest Version|ServiceNow |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Release Plugins](../README.md)|[0]()|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|

@@ -27,7 +27,3 @@ Run SQLCmd scripts in sorted order
 | User name | String | The user name for the scripts to be run as. | No |
 
 
-
-|Back to ...||Latest Version|Microsoft SQL Server SQLCmd ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[10.1154073](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SQLCmd/ucd-SQLCmd-10.1154073.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

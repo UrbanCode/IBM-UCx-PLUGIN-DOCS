@@ -25,7 +25,3 @@ The command apic create --type api --title Loans, which is used in the tutorial,
 
 The apic toolkit is frequently being upgraded and improved. Ensure that your version of the apic toolkit is supported by this plug-in. Supported versions and installation instructions can be found on the plug-ins Overview documentation page.
 
-
-|Back to ...||Latest Version|IBM API Connect ||||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[8.1171240](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/apiconnect/ucd-apiconnect-8.1171240.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Tutorials](tutorials.md)|[Steps](steps.md)|[Downloads](downloads.md)|

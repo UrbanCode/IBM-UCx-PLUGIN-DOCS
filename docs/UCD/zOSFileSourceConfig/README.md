@@ -7,7 +7,3 @@ The z/OS File Source Config plug-in automates uploading data sets, UNIX files an
 
 **Pre-requisite:** This plug-in requires DevOps Deploy 6.2.2 or later.  The DevOps Deploy z/OS deployment tools must be installed to the version import agent.
 
-
-|          Back to ...          |                                |                                                                Latest Version                                                                 |                         |                           |
-|:-----------------------------:|:------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------:|:-----------------------:|:-------------------------:|
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [8.1174630](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOSFileSourceConfig/ucd-zOSFileSourceConfig-8.1174630.zip) | [Overview](overview.md) | [Downloads](downloads.md) |

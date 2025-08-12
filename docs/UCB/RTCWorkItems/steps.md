@@ -73,7 +73,3 @@ The plug-in adds these roles automatically to resources. You cannot add these ro
 | User Name | String | The user name to be used to connect to the RTC server. |
 
 
-
-|Back to ...||Latest Version|Rational Team Concert Work Items |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[10.866824](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/RTCWorkItems/RTC-WorkItems-10.866824.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

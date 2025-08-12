@@ -158,7 +158,3 @@ Uploads the application to the IBM MobileFirst Application Center.
 | User | String | The user name that is required to access the Application Center. | Yes |
 
 
-
-|Back to ...||Latest Version|IBM MobileFirst Platform (formerly Worklight) |||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[13.1174444](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/air-worklight/ucd-ibm-mobilefirst-13.1174444.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|

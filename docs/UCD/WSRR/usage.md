@@ -91,7 +91,3 @@ Before you begin, you must have
    * Click **Save**.
 7. Save the process. You can then run the deployment process and check the status and logs for each step.
 8. Check the new Configuration Profile status on the WebSphere Service Registry and Repository server.
-
-|          Back to ...          |                                |                                               Latest Version                                                | IBM WebSphere Service Registry and Repository |                         |                   |                           |
-| :---------------------------: | :----------------------------: | :---------------------------------------------------------------------------------------------------------: | :-------------------------------------------: | :---------------------: | :---------------: | :-----------------------: |
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [9.1056551](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WSRR/WSRR-9.1056551.zip) |              [Readme](README.md)              | [Overview](overview.md) | [Steps](steps.md) | [Downloads](downloads.md) |

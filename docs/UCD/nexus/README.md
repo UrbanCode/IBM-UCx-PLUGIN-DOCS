@@ -15,7 +15,3 @@ The Nexus automation plug-in works with IBM DevOps Deploy 6.0+ and Nexus version
 Download NuGet package Download a NuGet package from a Nexus repository.
 
 
-
-|Back to ...||Latest Version||||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[3.1101667](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/nexus/Nexus-3.1101667.zip)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

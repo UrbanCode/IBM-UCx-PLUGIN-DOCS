@@ -15,7 +15,3 @@ The IBM UrbanCode Build ClearCase UCM plug-in plug-in, provides integration prop
 
 The repository is configured based on a workflow.
 
-
-|Back to ...||Latest Version|ClearCase UCM ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[16.973040](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/ClearCaseUCM/ClearCaseUCM-16.973040.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

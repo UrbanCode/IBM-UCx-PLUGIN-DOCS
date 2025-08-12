@@ -60,7 +60,3 @@ The following component process installs a Java EE application on the WebSphere 
 
 [![A component process that uses the steps in the Liberty Profile plug-in to an install an application](media/examples_websphereliberty_install_app_a.gif)](media/examples_websphereliberty_install_app_a.gif)
 A component process that uses the steps in the Liberty Profile plug-in to install an application
-
-|Back to ...||Latest Version|IBM WebSphere Liberty |||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[23.1174431](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereLiberty/ucd-WebSphereLiberty-23.1174431.zip)|[Readme](README.md)|[Overview](overview.md)|[Troubleshooting](troubleshooting.md)|[Steps](steps.md)|[Downloads](downloads.md)|

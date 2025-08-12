@@ -40,7 +40,3 @@ Complete the following steps to create resources and define a deployment process
 + Select the process for the component. For example, select **Download My Maven package from Artifactory**.
 * Click **Save** to save the process.
 8. Run the process to test the new component.
-
-|Back to ...||Latest Version|Artifactory ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[26.1176841](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Artifactory/ucd-Artifactory-26.1176841.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

@@ -19,7 +19,3 @@ Run a Selenium test suite
 | Web Browser | String | The web browser to run the tests. For example: \*firefox. | Yes |
 
 
-
-|Back to ...||Latest Version|Selenium ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[9.1154067](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Selenium/ucd-Selenium-9.1154067.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

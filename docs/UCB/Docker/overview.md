@@ -14,8 +14,8 @@ Docker is an open platform for distributed applications for developers and sysad
 
 The Docker plug-in includes the following steps that are related to Docker:
 
-* [Docker Build](steps/#docker_build "docker_build")
-* [Docker Push](steps/#docker_push "docker_push")
+* [Docker Build](steps#docker-build)
+* [Docker Push](steps#docker-push)
 
 To add the Docker plug-in steps to processes, click **Build > Build Tools > Docker** when adding new steps to a job.
 
@@ -42,7 +42,3 @@ Version 2 supports IBM UrbanCode Build version 6.1.0.0. The following features w
 Version 1 supports IBM UrbanCode Build version 6.1.0.0.
 
 * Initial release supporting building Docker images
-
-|Back to ...||Latest Version|Docker Build |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[6.1036529](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Docker/docker-plugin-6.1036529.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|

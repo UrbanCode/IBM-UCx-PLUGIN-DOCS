@@ -67,7 +67,3 @@ The following example screen capture shows a portlet WAR file that is stored in 
 
 Open WebSphere Portal, and then search for the portlet by name. The portlet is displayed, as shown in the following screen capture. You can now add the portlet to a page.[![Portal portlet](media/portal10.png)](media/portal10.png)
 
-
-|Back to ...||Latest Version|IBM WebSphere Portal |||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[8.1100783](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSpherePortal/WebSpherePortal-8.1100783.zip)|[Readme](README.md)|[Overview](overview.md)|[Troubleshooting](troubleshooting.md)|[Steps](steps.md)|[Downloads](downloads.md)|

@@ -39,7 +39,3 @@ The following settings are available when you import component versions manually
 | Use a snapshot or stream as the initial workspace history. |
 | Version Name | String | The name given to the imported component version. If snapshot is selected, it will search RTC for this snapshot name. If left blank, the latest snapshots name or ID will be used. |
 
-
-|Back to ...||Latest Version|IBM Rational Team Concert - SCM ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[8.1101694](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/air-plugin-RTC-scm/air-plugin-RTC-scm-8.1101694.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

@@ -12,7 +12,3 @@ Use the **Upload to FTP Server** step to specify a file on the agents local file
 
 To access this plug-in step in the palette, click **Utilities** > **Web Utilities**.
 
-
-|Back to ...||Latest Version|Web Utilities ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[18.1151823](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/web-utilities/ucd-web-utilities-18.1151823.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

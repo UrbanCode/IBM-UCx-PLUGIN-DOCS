@@ -32,7 +32,3 @@ Input properties for the Upload Package step
 | Password | Password | The password for login to Maximo instance. | Yes |
 | Port | String | The port of Maximo instance. | No |
 | User Name | String | The user name for login to Maximo instance. | Yes  |
-
-|Back to ...||Latest Version|IBM Maximo  ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[1.1088514](https://github.com/UrbanCode/IBM-UCD-PLUGINS/raw/main/files/maximo/plugins-maximo-1.1088514.zip)|[Readme](README.md)|[Usage](usage.md)||[Downloads](downloads.md)|

@@ -66,7 +66,3 @@ The Rally integration runs at the frequency that
 you specified in step 4. To run the integration manually, select the integration on the Integrations page, click the
 **Edit** icon, and then click **Run Integration**.
 
-
-|Back to ...||Latest Version|Rally ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Release Plugins](../README.md)|[2.690437](https://raw.githubusercontent.com/UrbanCode/IBM-UCR-PLUGINS/main/files/Rally/ucr-plugin-rally-2.690437.zip)|[Readme](README.md)|[Overview](overview.md)|[Settings](settings.md)|[Downloads](downloads.md)|

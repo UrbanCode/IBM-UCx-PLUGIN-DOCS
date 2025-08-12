@@ -85,7 +85,3 @@ Verify installed files.
 | Verification Properties | String | Properties given to the package manager during verify. Enter each property on a separate line. Entries will most likely be in the form: -Dkey=value | No |
 
 
-
-|Back to ...||Latest Version|IBM DevOps Package Manager |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[3.455115](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/UrbanCodePackageManager/Urbancode_Package_Manager-3.455115.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

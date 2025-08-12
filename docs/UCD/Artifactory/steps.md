@@ -144,7 +144,3 @@ Attach properties to a file or folder.
 | User Name | String | The user name to authenticate with the Artifactory server. | No | username |
 
 
-
-|Back to ...||Latest Version|Artifactory ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[26.1176841](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Artifactory/ucd-Artifactory-26.1176841.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

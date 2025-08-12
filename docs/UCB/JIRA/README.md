@@ -21,7 +21,3 @@ Publish Issue ReportCreate a report of JIRA issues detected by parsing the sourc
 Update IssueUpdate JIRA issues detected by parsing the source change comments of the build life.
 
 
-
-|Back to ...||Latest Version||||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[7.876389](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/JIRA/JIRA-7.876389.zip)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

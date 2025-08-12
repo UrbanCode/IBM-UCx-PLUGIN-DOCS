@@ -24,7 +24,3 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 * Removed unused log4j jar file
 * Removed Jettison Library with vulnerability
 
-
-|          Back to ...          |                                |                                                                      Latest Version                                                                       |  z/OS USS Utility   ||||
-|:-----------------------------:|:------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------:| :---: | :---: | :---: |
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [1.1162235](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-replacetokens-uss/ucd-plugins-zos-replacetokens-uss-1.1162235.zip) | [Readme](README.md) |[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

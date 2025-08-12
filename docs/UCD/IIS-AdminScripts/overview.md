@@ -26,7 +26,3 @@ Log4j and Jettison dependency updated .
 
 Version 8 fixes a compatibility defect with IBM DevOps Deploy version 6.1.0.4 and later.
 
-
-|Back to ...||Latest Version|Microsoft IIS AdminScripts |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[10.1154089](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IIS-AdminScripts/ucd-IIS-AdminScripts-10.1154089.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|

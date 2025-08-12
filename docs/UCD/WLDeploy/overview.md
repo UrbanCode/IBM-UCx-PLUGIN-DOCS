@@ -118,7 +118,3 @@ Version 12.699360 includes the following features and fixes:
 * A new output property is set for each target in the step and contains the value of the state of the target.
 * Added a property to the **Run WLDeploy** step that contains the path to the configuration file where the encrypted user name and password are stored.
 * Added ability to set JAVA\_HOME system environment variable.
-
-|Back to ...||Latest Version|Oracle WebLogic WLDeploy ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[26.1175365](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WLDeploy/ucd-WLDeploy-26.1175365.zip)|[Readme](README.md)|[Steps](steps.md)|[Usage](usage.md)|[Downloads](downloads.md)|

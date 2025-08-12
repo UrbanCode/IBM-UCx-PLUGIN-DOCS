@@ -19,7 +19,3 @@ FileSystem Quiet PeriodGet the latest modified date for the working directory
 FileSystem TagDoes nothing.
 
 
-
-|Back to ...||Latest Version||||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[5.913286](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/FileSystem/FileSystem-5.913286.zip)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

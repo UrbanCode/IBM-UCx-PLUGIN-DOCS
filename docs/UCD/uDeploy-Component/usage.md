@@ -7,7 +7,3 @@ The Create Multiple Components step provides the ability to create multiple comp
 
 To create multiple components, specify multiple JSON component objects inside of a JSON array as follows:  `[{"name": "Component One", "sourceConfigPlugin": "File System", "defaultVersionType": "INCREMENTAL", "importAutomatically": "TRUE", "useVfs": "TRUE", "properties": {"FileSystemComponentProperties\/basePath" : "/opt/test", "FileSystemComponentProperties\/extensions" : ".txt"}`` }``, {"name": "Component Two", "sourceConfigPlugin": "Maven", "defaultVersionType": "FULL", "importAutomatically": "TRUE", "useVfs": "TRUE", "properties": {"MavenComponentProperties\/artifactId":"MyArtifact", "MavenComponentProperties\/groupId":"MyGroup", "MavenComponentProperties\/extension":"ext", "MavenComponentProperties\/repoUrl":"http:\/\/myserver.com"}`` }``]`
 
-
-|Back to ...||Latest Version|IBM DevOps Deploy Components ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[81.1155712](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Component/ucd-uDeploy-Component-81.1155712.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

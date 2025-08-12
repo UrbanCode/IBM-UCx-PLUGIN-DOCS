@@ -55,7 +55,3 @@ Some properties might not be displayed in the user interface, to see all propert
 | Board IDS       | Array  | The Planview LeanKit board ID to pull the data from Planview LeanKit board. To pull data from multiple boards, enter the board ID’s separated with comma. For example, 1400100201, 1112053040, 1999999789.       | No       |
 | User Access Key | Secure | The user access key to authenticate with DevOps Velocity server. This property is applicable for DevOps Velocity version earlier to 2.4.0.                                                                          | No       |
 
-
-|Back to ...||Latest Version|Planview Leankit |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.1](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-leankit/ucv-ext-leankit%3A1.0.1.tar.7z.001)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

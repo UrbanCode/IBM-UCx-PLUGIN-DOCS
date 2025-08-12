@@ -20,7 +20,3 @@ Import Definitions: Import the definitions from a file to the server. Objects al
 Update Entry: Update an entry in a form in BMC Remedy.
 
 
-
-|Back to ...||Latest Version||||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[5.1056545](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Remedy/Remedy-5.1056545.zip)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

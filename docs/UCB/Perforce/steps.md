@@ -128,7 +128,3 @@ This is a p4 source configuration.There are three basic modes of operation: 1) E
 | Repository |  | Select the Perforce Repository |
 
 
-
-|Back to ...||Latest Version|Perforce |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[16.752926](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Perforce/Perforce-16.752926.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

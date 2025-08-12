@@ -43,7 +43,3 @@ Publish a Docker image to a registry.
 | Server | String | The registry server. e.g. localhost:5000. If no server is specified, https://index.docker.io/v1 is the default. | No |
 
 
-
-|Back to ...||Latest Version|Docker Build |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[6.1036529](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Docker/docker-plugin-6.1036529.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

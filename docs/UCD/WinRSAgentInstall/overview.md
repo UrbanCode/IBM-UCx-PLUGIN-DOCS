@@ -36,7 +36,3 @@ Plug-in now obfuscates WinRS service password.
 
 Fixes APAR PI57417. Plug-in now checks the agent settings for acceptance of self signed certificates.
 
-
-|Back to ...||Latest Version|WinRS Agent Install |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[12.1131558](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WinRSAgentInstall/ucd-WinRSAgentInstall-12.1131558.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|

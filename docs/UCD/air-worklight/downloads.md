@@ -14,7 +14,3 @@ To download the plug-in, click the following version-specific links.
 - [air-worklight-8.786835.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/air-worklight/air-worklight-8.786835.zip)
 - [air-worklight-7.767132.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/air-worklight/air-worklight-7.767132.zip)
 - [air-worklight-7.753780.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/air-worklight/air-worklight-7.753780.zip)
-
-|Back to ...||Latest Version|IBM MobileFirst Platform (formerly Worklight) |||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[13.1174444](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/air-worklight/ucd-ibm-mobilefirst-13.1174444.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Usage](usage.md)|[Troubleshooting](troubleshooting.md)|

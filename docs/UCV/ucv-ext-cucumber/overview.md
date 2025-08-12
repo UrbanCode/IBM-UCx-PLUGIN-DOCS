@@ -34,7 +34,3 @@ There is no install process for this plug-in. DevOps Velocity plug-in images are
 
 * Initial release.
 
-
-|Back to ...||Latest Version|Cucumber |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.8](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-cucumber/ucv-ext-cucumber-1.0.8.tar.zip)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|

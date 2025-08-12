@@ -23,7 +23,3 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 Initial Release. Includes a step to create and start a BigFix action.
 
-
-|Back to ...||Latest Version|IBM BigFix |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[2.1174440](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/bigfix/ucd-bigfix-2.1174440.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|

@@ -21,7 +21,3 @@ Use this step to checkout or export data from the Subversion repository.
 | Revision | String | Revision level to export. If nothing is specified for this property, the export is at the head level. | No |
 
 
-
-|Back to ...||Latest Version|Subversion-Export ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[5.1100775](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Subversion-export/Subversion-export-5.1100775.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

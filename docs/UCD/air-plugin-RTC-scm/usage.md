@@ -11,7 +11,3 @@ To create a component by importing from Rational Team Concert source-code manage
 5. Click the **Versions** tab for the component.
 6. Click **Import New Versions**.
 
-
-|Back to ...||Latest Version|IBM Rational Team Concert - SCM ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[8.1101694](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/air-plugin-RTC-scm/air-plugin-RTC-scm-8.1101694.zip)|[Readme](README.md)|[Overview](overview.md)|[Settings](settings.md)|[Downloads](downloads.md)|

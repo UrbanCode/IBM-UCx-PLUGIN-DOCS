@@ -55,7 +55,3 @@ sAdds five minute timeout and fault-tolerance to running application processes.
 
 Fixes APAR PI57417. Plug-in now checks the agent settings for acceptance of self signed certificates.
 
-
-|Back to ...||Latest Version|IBM DevOps Deploy Applications ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[87.1155713](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Application/ucd-uDeploy-Application-87.1155713.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

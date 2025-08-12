@@ -21,7 +21,3 @@ Perforce Label
 Perforce Quiet PeriodPerform a Perforce changelog for quiet period detection and publish the results.
 
 
-
-|Back to ...||Latest Version||||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[16.752926](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Perforce/Perforce-16.752926.zip)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

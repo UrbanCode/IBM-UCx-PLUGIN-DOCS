@@ -11,7 +11,3 @@ Available Steps
 MSTest Report PublisherPublish MSTest results as a report
 
 
-
-|Back to ...||Latest Version||||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[7.752751](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/MSTest/MSTest-7.752751.zip)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

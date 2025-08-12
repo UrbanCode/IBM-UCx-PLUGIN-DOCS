@@ -68,7 +68,3 @@ then the output properties can be referred by the successive steps as below
 
 From plugin version 2, an output property __RexxReturnCode__ will store the return/exit code from REXX program.
 
-
-|          Back to ...          |                                |                                                         Latest Version                                                          | z/OS Rexx Executor  |                         |                   |                           |
-|:-----------------------------:|:------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------:|:-------------------:|:-----------------------:|:-----------------:|:-------------------------:|
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [2.1176018](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-rexx/ucd-plugins-zos-rexx-2.1176018.zip) | [Readme](README.md) | [Overview](overview.md) | [Steps](steps.md) | [Downloads](downloads.md) |

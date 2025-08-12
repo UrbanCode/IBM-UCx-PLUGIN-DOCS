@@ -44,7 +44,3 @@ No special steps are required for installation. See [Installing plug-ins in IBM 
 ### Version 1.11125015
 
 * Initial release.
-
-|Back to ...||Latest Version|Azure DevOps ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[1.11125015](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/AzureDevopsSourceconfig/plugins-sourceconfig-azure-1.1112501.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

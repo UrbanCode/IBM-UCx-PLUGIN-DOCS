@@ -36,7 +36,3 @@ If the created authentication provider has a name that matches the provider type
 
 You can set up and use a `wlfullclient.jar` file. See the instructions in the Oracle documentation.
 
-
-|Back to ...||Latest Version|Oracle WebLogic Server Security Management |||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[2.504117](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebLogicSecurityMgmt/WLS-Security-Management-2.504117.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

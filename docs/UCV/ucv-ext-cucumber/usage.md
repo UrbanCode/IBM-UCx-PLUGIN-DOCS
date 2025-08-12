@@ -150,7 +150,3 @@ The following shows the schema for the payload. Replace the angle brackets with 
 | external\_job\_id |  | No|
 | build\_url |  | No |
 
-
-|Back to ...||Latest Version|Cucumber |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.8](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-cucumber/ucv-ext-cucumber-1.0.8.tar.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

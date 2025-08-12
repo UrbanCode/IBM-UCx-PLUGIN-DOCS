@@ -20,7 +20,3 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 Version 3.455115 is the initial public release of the plug-in.
 
 
-
-|Back to ...||Latest Version|IBM DevOps Package Manager |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[3.455115](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/UrbanCodePackageManager/Urbancode_Package_Manager-3.455115.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|

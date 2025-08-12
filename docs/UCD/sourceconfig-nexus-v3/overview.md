@@ -38,10 +38,6 @@ The previous version of the plugin doesn't support this feature and creates vers
 
 ## History
 
-### Version 6
-
-* RFE-URBANCODE-I-735: Importing versions from raw nexus repository .
-
 ### Version 5
 
 * RFE-URBANCODE-I-598: Updated plugin to support multiple application files import from a Raw   repository in Nexus.
@@ -65,7 +61,3 @@ The previous version of the plugin doesn't support this feature and creates vers
 
 Initial release of this plug-in.
 
-
-|Back to ...||Latest Version|Nexus Repository Manager V3 ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[6.1179697](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/sourceconfig-nexus-v3/devops-deploy-sourceconfig-nexus-v3-6.1179697.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

@@ -23,7 +23,3 @@ If you encounter issues with the plug-in, or want to send feedback:
 ## Available Steps
 
 Generate MQSC CommandsGenerate MQSC commands from the base file, overrides file and property file.
-
-|          Back to ...          ||         Latest Version         ||||
-|:-----------------------------:|:------------------------------:| :---: | :---: | :---: | :---: |
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) |[0]()|[Overview](overview.md)|[Steps](steps.md)|[Usage](usage.md)|

@@ -71,9 +71,9 @@ in Service Now | No | approvalName |
 | Change Information
 |  | Change information fields can be defined in this section | No | changeInformation |
 | Create SNOW Record when
-Deployment is Created |  | <div style=” margin-left: 25px; “><ul style=”list-style-type: disc;”><li>Create record of a
-specified type when a deployment to specified phase is created </li><li>Updates the record’s state when deployment
-starts and finishes</li><li>Uses SNOW approvals to complete phase approvals (optional)</li></ul></div> | No |
+Deployment is Created |  | * Create record of a
+specified type when a deployment to specified phase is created * Updates the record’s state when deployment
+starts and finishes * Uses SNOW approvals to complete phase approvals (optional) | No |
 createSNOWRecordLabel |
 | HTTP Proxy Host | String | Provide the hostname of the HTTP proxy to use to connect to
 ServiceNow. Eg proxy.domain.com | No | proxyHost |
@@ -136,10 +136,9 @@ made. This section allows you to input the names of those fields for UCR to retr
 |
 Default environment if none is specified in SNOW | String | This environment will be used if a release is specified but
 an environment is not. | No | defaultEnv |
-| Fetch SNOW Records and Create Deployments |  | <div style=” margin-left:
-25px; “><ul style=”list-style-type: disc;”><li>Creates UCR Deployment when a SNOW record reaches a specified
-state</li><li>Updates the record’s state when deployment starts and finishes</li><li>Uses SNOW approvals to complete
-phase approvals (optional)</li></ul></div> | No | createSNOWRecordLabel |
+| Fetch SNOW Records and Create Deployments |  | * Creates UCR Deployment when a SNOW record reaches a specified
+state * Updates the record’s state when deployment starts and finishes * Uses SNOW approvals to complete
+phase approvals (optional) | No | createSNOWRecordLabel |
 | Field to use for environemnt | String | This
 field in SNOW will contain the name of the UCR environment to which this integration will create a deployment. | No |
 envField |
@@ -274,7 +273,3 @@ Gets available states for workflows
 This step has no input properties.
 
 
-
-|Back to ...||Latest Version|ServiceNow |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Release Plugins](../README.md)|[0]()|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|

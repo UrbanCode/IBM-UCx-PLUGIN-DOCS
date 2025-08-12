@@ -77,7 +77,3 @@ Version 11 of the plug-in includes updates from RFE 104196:
 ### Version 1
 
 * Initial release of the plug-in, which includes a step to deploy a rule set.
-
-|Back to ...||Latest Version|IBM Operational Decision Manager (ODM) ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[15.1174432](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-odm/ucd-ibm-odm-15.1174432.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

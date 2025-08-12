@@ -92,7 +92,3 @@ Scale a service by assigning a number of available containers.(docker-compose sc
 | docker-compose Command Path | String | Full path to the docker-compose executable, or command name (docker-compose) if it is on the $PATH environment variable. Default value is docker-compose. | No |
 
 
-
-|Back to ...||Latest Version|Docker Compose |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[24.1174442](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/docker-compose/ucd-docker-compose-24.1174442.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

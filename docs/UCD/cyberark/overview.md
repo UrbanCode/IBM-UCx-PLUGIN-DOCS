@@ -34,7 +34,3 @@ Added hidden SSL configuration properties.
 #### Version 1
 
 Initial release of the CyberArk plugin.
-
-|Back to ...||Latest Version|CyberArk |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[4.1098501](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/cyberark/cyberark-4.1098501.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|

@@ -23,7 +23,3 @@ Run test using Rational Functional Tester
 | User Arguments | String | Additional user arguments for playback. | No |
 
 
-
-|Back to ...||Latest Version|IBM Rational Functional Tester (RFT) ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[6.1](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/RFT-UCD/RFT-UCD-FunctionalTest-6.1.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

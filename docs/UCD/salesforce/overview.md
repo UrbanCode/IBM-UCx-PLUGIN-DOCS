@@ -60,7 +60,3 @@ Version 2 of the plug-in includes the following steps: List Metadata, Describe M
 ### Version 1
 
 Version 1 is the initial release of the plug-in.
-
-|Back to ...||Latest Version|Salesforce ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[10.1138575](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SalesForce/ucd-salesforce-10.1138575.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

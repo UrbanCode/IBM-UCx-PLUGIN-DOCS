@@ -95,7 +95,3 @@ Compare artifacts on local machine with inventory.
 | Includes         | String | The patterns to match files to upload. The wildcard \*\* indicates every directory and the wildcard \* indicates every file. So the pattern dist/\*\*/\* would retrieve the entire file tree underneath the dist directory. | Yes      |
 
 
-
-|          Back to ...          ||         Latest Version         |                                           IBM DevOps Deploy Versioned File Storage                                            |||
-|:-----------------------------:|:------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------:| :---: | :---: | :---: |
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [49.1179566](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/UrbancodeVFS/devops-deploy-UrbancodeVFS-49.1179566.zip) |[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

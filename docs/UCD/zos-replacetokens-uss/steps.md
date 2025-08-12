@@ -26,7 +26,3 @@ Replace tokens in files using properties.
 | Start Token Delimiter | String | The start delimiter character used to identify tokens.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | No       | startDelimiter |
 
 
-
-|          Back to ...          |                                |                                                                      Latest Version                                                                       |  z/OS USS Utility   ||||
-|:-----------------------------:|:------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------:| :---: | :---: | :---: |
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [1.1162235](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-replacetokens-uss/ucd-plugins-zos-replacetokens-uss-1.1162235.zip) | [Readme](README.md) |[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

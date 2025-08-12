@@ -15,7 +15,3 @@ Execute SQL Scripts: Execute SQL scripts using JDBC driver.
 Execute SQL Scripts with PassTicket Authentication: Execute SQL scripts using JDBC driver and PassTicket Authentication.
 
 
-
-|          Back to ...          |                                |                                                    Latest Version                                                     ||||||
-|:-----------------------------:|:------------------------------:|:---------------------------------------------------------------------------------------------------------------------:| :---: | :---: | :---: | :---: | :---: |
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [13.1154072](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SQLJDBC/ucd-SQL-JDBC-13.1154072.zip) |[Overview](overview.md)|[Troubleshooting](troubleshooting.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

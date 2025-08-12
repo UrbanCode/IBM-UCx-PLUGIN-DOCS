@@ -13,7 +13,3 @@ To use the plug-in:
 
 To access this plugin in the palette, click **Quality** > **RTAS**.
 
-
-|Back to ...||Latest Version|IBM Rational Test Automation Server (RTAS) ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[3.3](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/RTAS-UCD/RTAS-UCD-3.3.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

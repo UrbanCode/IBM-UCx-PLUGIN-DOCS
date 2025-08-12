@@ -33,7 +33,3 @@ Suspend Server – Suspend a running WebLogic server.
 Undeploy – Undeploy an application on the WebLogic server.
 
 
-
-|Back to ...||Latest Version||||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[9.1100786](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebLogic-WLST/WebLogic-WLST-9.1100786.zip)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

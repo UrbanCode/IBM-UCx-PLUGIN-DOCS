@@ -190,7 +190,3 @@ After the plugin is integrated automated tasks are available to add as a task wi
 * On the Create Task page, select the automation task from the Type field drop-down list.
 * Complete the properties required for the task.
 * Click Save.
-
-|Back to ...||Latest Version|Azure DevOps |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[4.0.45-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-azure/ucv-ext-azure%3A4.0.45.tar.7z.001)[and 4.0.45-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-azure/ucv-ext-azure%3A4.0.45.tar.7z.002)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|

@@ -21,7 +21,3 @@ Control Quiet Period Perform a Control changelog for quiet period detection and 
 Create Control Status Create a commit status in Control or Control Enterprise.
 
 
-
-|Back to ...||Latest Version||||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[1.1177008](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Control/Control-1.1177008.zip)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

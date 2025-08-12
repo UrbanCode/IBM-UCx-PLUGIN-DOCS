@@ -30,7 +30,3 @@ Run a Rakefile file.
 | Targets | String | The names of the targets to run in the Rakefile file. | Yes |
 
 
-
-|Back to ...||Latest Version|Rake |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[3.752923](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Rake/Rake-3.752923.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

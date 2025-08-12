@@ -52,7 +52,3 @@ Version 4 includes the following features and fixes:
 Version 3 includes the following features and fixes:
 
 * Update to a newer version of a library for HTTP communication.
-
-|Back to ...||Latest Version|CA Harvest SCM |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[7.1098511](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Harvest/Harvest-hcl-7.1098511.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|

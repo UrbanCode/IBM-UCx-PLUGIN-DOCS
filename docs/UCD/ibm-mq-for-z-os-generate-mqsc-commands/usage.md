@@ -44,7 +44,3 @@ Depending on the target environment being deployed to, the IBM MQ for z/OS Gener
 Deployment of resources to target environments
 
 Notice how the maximum depth of Queue PAYQ varies depending on the target deployment environment.
-
-|Back to ...||Latest Version|IBM MQ for z/OS - Generate MQSC Commands |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[0]()|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|

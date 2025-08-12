@@ -93,7 +93,3 @@ Once you invoke the plug-in, perform the following steps to add the chart for fu
 * Click **Add charts**.
 * Under the **Quality** category, add **Functional Tests** charts.
 * You can see the functional test chart added to the dashboard. Analyze the data in the functional test chart to view the functional test results.
-
-|Back to ...||Latest Version|Cypress |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.1-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-cypress/ucv-ext-cypress%3A1.0.1.tar.7z.001)[and 1.0.1File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-cypress/ucv-ext-cypress%3A1.0.1.tar.7z.002)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

@@ -43,7 +43,3 @@ Triggers the customization package deployment process on the target machine
 | Target Environment/Customization name | String | The name of the customization to deploy. This is also referred to as the Target Environment. | Yes |
 
 
-
-|Back to ...||Latest Version|IBM WebSphere Commerce ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[6.1100872](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereCommerce/WebSphereCommerce-6.1100872.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

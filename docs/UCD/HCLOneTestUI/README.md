@@ -13,7 +13,3 @@ The HCL OneTest UI plug-in for DevOps Deploy provides a step to run functional t
 Run Functional Test
 
 
-
-|Back to ...||Latest Version||
-| :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[6.1](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/HCLOneTestUI/HOT-UI-UCD-FunctionalTest-6.1.zip)|[Downloads](downloads.md)|

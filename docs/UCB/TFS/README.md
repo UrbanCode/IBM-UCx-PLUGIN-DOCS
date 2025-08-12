@@ -21,7 +21,3 @@ TFS Get Source Perform a TFS get source
 TFS Quiet Period Perform a TFS changelog for quiet period detection and publish the most recent change date within the period.
 
 
-
-|Back to ...||Latest Version||||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[11.1049734](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/TFS/TFS-11.1049734.zip)|[Overview](overview.md)|[Steps and Settings](steps and settings.md)|[Downloads](downloads.md)|

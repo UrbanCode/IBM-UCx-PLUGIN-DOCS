@@ -32,7 +32,3 @@ Initial release of the plugin. The following steps are added:
 
 * Set properties in various scope levels
 * Write JSON content to file
-
-|Back to ...||Latest Version|UCB Utilities |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[2.1058205](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/UCBUtils/UCBUtils-2.1058205.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|

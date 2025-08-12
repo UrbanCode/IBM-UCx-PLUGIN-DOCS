@@ -35,7 +35,3 @@ view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/
 ### Version 1.0.1
 
 * Initial release of the GenAI Summary Release - OpenAI plug-in
-
-|Back to ...||Latest Version|GenAI Summary Release-OpenAI ||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.3](https://hub.docker.com/r/urbancode/ucv-ext-release-summary-openai/tags)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)

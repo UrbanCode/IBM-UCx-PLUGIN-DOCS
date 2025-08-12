@@ -51,7 +51,3 @@ By default, configure the impersonation settings with the following values:
 
 * There is no need to select the “Always use default impersonation” check box unless a Resource overrides it in an incompatible way.
 
-
-|Back to ...||Latest Version|||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[6.1100872](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereCommerce/WebSphereCommerce-6.1100872.zip)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

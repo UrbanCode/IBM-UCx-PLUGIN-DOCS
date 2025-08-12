@@ -30,7 +30,3 @@ Fixes APAR PI57417. Plug-in now checks the agent settings for acceptance of self
 Version 61 includes a fix for APAR PI35342, a compatibility defect with IBM DevOps Deploy version 6.1.0.4 and later.
 
 
-
-|Back to ...||Latest Version|IBM DevOps Deploy System |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[65.1102020](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-System/uDeploy-System-65.1102020.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|

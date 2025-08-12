@@ -11,7 +11,3 @@ Click on the below link to navigate to the source project for further informatio
 [Source project](https://github.com/UrbanCode/Gradle-UCB)
 
 
-
-|Back to ...||Latest Version|
-| :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[0]()|

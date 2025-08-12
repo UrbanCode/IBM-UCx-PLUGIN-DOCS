@@ -19,7 +19,3 @@ Import: Import transport requests from the CTS buffer to the target system
 Add File to Transport: Add files to existing transport requests
 
 
-
-|Back to ...||Latest Version||
-| :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[3.1079021](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SAP-CTS/SAP-CTS-3.1079021.zip)|[Downloads](downloads.md)|

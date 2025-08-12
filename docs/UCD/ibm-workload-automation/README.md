@@ -19,7 +19,3 @@ If you encounter issues with the plug-in, or want to send feedback:
 ## Available Steps
 
 **Import Job Stream Definition (Distributed)**: Deploy job streams on distributed engines. **Generate JCL to import Job Stream Definition (zOS)**: Generate the JCL to deploy job streams on zOS engines.
-
-|Back to ...||Latest Version|
-| :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[0]()|

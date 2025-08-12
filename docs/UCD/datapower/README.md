@@ -21,7 +21,3 @@ This plug-in is developed and supported by IBM DevOps with assistance from the I
 * This plugin is supported for the distributed Linux and Windows [operating systems](http://www.ibm.com/software/reports/compatibility/clarity-reports/report/html/softwareReqsForProduct?deliverableId=2406E700824311E5AB634073CD75C1C8&duComponentIds=Miscellaneous_24267CF0824311E5AB634073CD75C1C8) supported by the IBM DevOps Deploy agent
 * This plugin supports, via DataPower Configuration Manager, all IBM DataPower appliances currently supported by IBM, with the exception of the XC10, and all supported versions of DataPower firmware
 
-
-|Back to ...||Latest Version|||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[v27](https://github.com/ibm-datapower/datapower-configuration-manager/releases/download/Datapower27/datapower-v27.zip)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

@@ -70,7 +70,3 @@ Create a new process in the application template. Add **Uninstall Multiple Compo
 
 To rollback Z Artifacts, run [Rollback Z Artifacts process](#application-template-process-for-rollback) to run all the rollback steps under component process.
 The Component process triggers [Remove Version From Inventory process](#application-template-process-for-uninstall) only when artifacts are rolled back and all the steps ran successfully.
-
-| Back to ...          |
-|----------------------|
-| [Usage](../usage.md) |

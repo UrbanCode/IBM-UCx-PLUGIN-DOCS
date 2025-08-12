@@ -52,7 +52,3 @@ Version 4 includes a fix for APAR PI57417. The plug-in now checks the agent sett
 
 Version 3 can import snapshots or live streams from the Rational Team Concert server. The Import Versions Automatically function is improved.
 
-
-|Back to ...||Latest Version|IBM Rational Team Concert - SCM ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[8.1101694](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/air-plugin-RTC-scm/air-plugin-RTC-scm-8.1101694.zip)|[Readme](README.md)|[Usage](usage.md)|[Settings](settings.md)|[Downloads](downloads.md)|

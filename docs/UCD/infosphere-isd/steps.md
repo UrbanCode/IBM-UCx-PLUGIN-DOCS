@@ -75,7 +75,3 @@ Import runtime applications into your InfoSphere Information Services Director s
 | Username | String | Your IBM InfoSphere Information Server user ID. | No |
 
 
-
-|Back to ...||Latest Version|InfoSphere-ISD |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[1.1174436](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/infosphere-isd/ucd-plugins-infosphere-isd-1.1174436.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

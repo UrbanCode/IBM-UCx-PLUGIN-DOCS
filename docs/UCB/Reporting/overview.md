@@ -36,7 +36,3 @@ This release includes a fix for an issue where communication with the IBM UrbanC
 
 This release includes an update to a library that is used for HTTP communication.
 
-
-|Back to ...||Latest Version|Reporting |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[6.913227](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Reporting/urbancode-reporting-6.913227.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|

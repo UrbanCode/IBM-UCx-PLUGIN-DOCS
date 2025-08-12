@@ -123,7 +123,3 @@ all-datasets: # property name which contains the generated information
 
 `\n` in template adds new line in the generated text.
 
-
-|          Back to ...          |                                |                                                                                   Latest Version                                                                                    | z/OS Multi Generate Artifact Information |                         |                   |                           |
-|:-----------------------------:|:------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------:|:-----------------------:|:-----------------:|:-------------------------:|
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [11.1179290](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-multi-generate-artifact-info/devops-deploy-zos-multi-generate-artifact-info-11.1179290.zip) |           [Readme](README.md)            | [Overview](overview.md) | [Steps](steps.md) | [Downloads](downloads.md) |

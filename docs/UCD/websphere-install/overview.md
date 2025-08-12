@@ -60,7 +60,3 @@ This version of the plug-in includes the following features:
 
 This version of the plug-in includes a new Start Node step, updates to the component template, and defect fixes.
 
-
-|Back to ...||Latest Version|WebSphere Application Server - Install ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[11.1154050](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/websphere-install/ucd-WAS-Install-11.1154050.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

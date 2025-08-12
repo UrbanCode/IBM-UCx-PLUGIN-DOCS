@@ -1008,7 +1008,3 @@ Stop a queue manager.
 | Additional Arguments | String | Any additional arguments to pass to the start queue manager command. | No |
 | Command Directory | String | The full path to the directory that contains the WebSphere MQ commands. | Yes |
 | Queue Manager Name | String | The name of the queue manager to stop. | Yes |
-
-|Back to ...||Latest Version|IBM-MQ |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[13.1154095](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereMQ/ucd-WebSphereMQ-13.1154095.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

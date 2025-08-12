@@ -13,7 +13,3 @@ The SQL-JDBC plugin does not support deploying stored procedures. We recommend u
 
 For more advanced database deployments, consider using an intermediary tool such as Datical, DBMaestro and Liquibase.
 
-
-|          Back to ...          |                                |                                                    Latest Version                                                     |      SQL-JDBC       |||||
-|:-----------------------------:|:------------------------------:|:---------------------------------------------------------------------------------------------------------------------:|:-------------------:| :---: | :---: | :---: | :---: |
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [13.1154072](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SQLJDBC/ucd-SQL-JDBC-13.1154072.zip) | [Readme](README.md) |[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

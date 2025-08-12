@@ -53,7 +53,3 @@ This version of the plug-in includes a step that imports configuration files and
 
 Initial release of the plug-in.
 
-
-|Back to ...||Latest Version|Oracle Service Bus Configuration Management |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[13.914640](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/plugin-air-OSB-Configuration-Management/plugin-air-OSB-Configuration-Management-13.914640.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|

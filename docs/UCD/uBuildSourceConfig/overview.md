@@ -81,7 +81,3 @@ This plug-in is installed when installing IBM DevOps Deploy. When new plug-in ve
 ### Version 1
 
 * Initial release of the uBuild source configuration plugin.
-
-|Back to ...||Latest Version|IBM DevOps Build ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[16.1176344](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uBuildSourceConfig/ucd-uBuildSourceConfig-16.1176344.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

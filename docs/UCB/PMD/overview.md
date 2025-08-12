@@ -51,7 +51,3 @@ Version 3.604308 includes the following features and fixes:
 Version 2.410048 includes the following features and fixes:
 
 * Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE.
-
-|Back to ...||Latest Version|PMD |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[5.752822](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/PMD/Pmd-5.752822.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|

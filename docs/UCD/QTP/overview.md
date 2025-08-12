@@ -45,7 +45,3 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 ### Version 1
 
 * Installing this plugin will give you access to the steps listed below. These steps can be used when designing a job.
-
-|Back to ...||Latest Version|HP Unified Functional Testing (QTP) |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[7.1154086](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/QTP/ucd-QTP-7.1154086.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|

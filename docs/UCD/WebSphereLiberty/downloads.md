@@ -31,7 +31,3 @@ To download the plug-in, click the following version-specific links.
 - [CreateCollectiveSampleApp.zip.003](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereLiberty/SampleApplications/CreateCollectiveSampleApp.zip.003)
 - [CreateCollectiveSampleApp.zip.002](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereLiberty/SampleApplications/CreateCollectiveSampleApp.zip.002)
 - [CreateCollectiveSampleApp.zip.001](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereLiberty/SampleApplications/CreateCollectiveSampleApp.zip.001)
-
-|Back to ...||Latest Version|IBM WebSphere Liberty |||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[23.1174431](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereLiberty/ucd-WebSphereLiberty-23.1174431.zip)|[Readme](README.md)|[Overview](overview.md)|[Troubleshooting](troubleshooting.md)|[Usage](usage.md)|[Steps](steps.md)|

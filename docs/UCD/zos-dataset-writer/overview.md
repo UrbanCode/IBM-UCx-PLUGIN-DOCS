@@ -31,7 +31,3 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 #### Version 1
 
 * Initial release (November 11, 2021)
-
-|          Back to ...          |                                |                                                                   Latest Version                                                                    | z/OS Dataset Writer ||||
-|:-----------------------------:|:------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------:| :---: | :---: | :---: |
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [4.1176024](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-dataset-writer/ucd-plugins-zos-dataset-writer-4.1176024.zip) | [Readme](README.md) |[Steps](steps.md)|[Usage](usage.md)|[Downloads](downloads.md)|

@@ -33,7 +33,3 @@ If you have installed multiple products on one target machine, either in the sam
 
 [![rtw-ucd-multiprodtest](media/rtw-ucd-multiprodtest.png)](media/rtw-ucd-multiprodtest.png)
 
-
-|Back to ...||Latest Version|IBM Rational Test Workbench Web UI Tester ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[11.1](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/RFT-WebUI-UCD/RFT-UCD-UITest-11.1.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

@@ -39,7 +39,3 @@ To download the plug-in, click the following version-specific links.
 - [UrbancodeVFS-28.855630.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/UrbancodeVFS/UrbancodeVFS-28.855630.zip)
 - [UrbancodeVFS-27.816399.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/UrbancodeVFS/UrbancodeVFS-27.816399.zip)
 - [UrbancodeVFS-26.785274.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/UrbancodeVFS/UrbancodeVFS-26.785274.zip)
-
-|          Back to ...          |                                |                                                          Latest Version                                                           | IBM DevOps Deploy Versioned File Storage |||
-|:-----------------------------:|:------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------:| :---: | :---: |
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [49.1179566](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/UrbancodeVFS/devops-deploy-UrbancodeVFS-49.1179566.zip) |             [Readme](README.md)             |[Overview](overview.md)|[Steps](steps.md)|

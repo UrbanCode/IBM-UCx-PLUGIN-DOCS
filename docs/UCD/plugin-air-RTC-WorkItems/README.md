@@ -15,7 +15,3 @@ Check Work Item Status Check the status of an RTC Work Item
 Create Work Item Create an RTC Work Item
 
 
-
-|Back to ...||Latest Version||||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[15.1142216](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/plugin-air-RTC-WorkItems/ucd-plugin-air-RTC-WorkItems-15.1142216.zip)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

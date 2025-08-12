@@ -54,7 +54,3 @@ view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/
 
 * Initial release of milestone risk estimator plug-in.
 
-
-|Back to ...||Latest Version|Milestone Risk Estimator |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[2.0.4](https://hub.docker.com/r/urbancode/ucv-ext-milestone-risk-estimator/tags)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)

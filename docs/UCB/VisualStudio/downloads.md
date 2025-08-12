@@ -11,7 +11,3 @@ Visual Studio - Downloads
 - [VisualStudio-4.707042.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/VisualStudio/VisualStudio-4.707042.zip)
 - [VisualStudio-3.431223.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/VisualStudio/VisualStudio-3.431223.zip)
 - [VisualStudio-2.360901.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/VisualStudio/VisualStudio-2.360901.zip)
-
-|Back to ...||Latest Version|Visual Studio |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[9.1056675](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/VisualStudio/VisualStudio-9.1056675.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|

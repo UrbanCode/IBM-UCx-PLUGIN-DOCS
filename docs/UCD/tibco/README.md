@@ -6,7 +6,3 @@ A plug-in for management of TIBCO applications – includes steps for deployment
 This is a community plug-in.
 
 * [Source project](https://github.com/UrbanCode/Tibco-UCD)
-
-|Back to ...||Latest Version|
-| :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[0]()|

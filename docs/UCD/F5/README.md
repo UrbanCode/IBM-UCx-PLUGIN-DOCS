@@ -19,7 +19,3 @@ Node, Pool, and Pool Member Management **Create Pool**: Create a pool. **Delete 
 iRule and Data Group Management **Create iRule**: Create the specified iRule. **Delete iRule**: Delete an iRule. **Get iRule Statistics**: Retrieve statistics for an iRule. **Create Address Data Group**: Create or modify an address data group. A data group is also known as a class. **Create External Data Group**: Create an external data group from a file in the data group file list. A data group is also known as a class. **Create String Data Group**: Create or modify a string data group. A data group is also known as a class. **Create Value Data Group**: Create or modify a value data group. A data group is also known as a class. A value is also known as an integer. **Modify External Data Group**: Modify the file format and mode of an external data group. A data group is also known as a class. **Delete Data Group**: Delete a data group. A data group is also known as a class.
 
 
-
-|Back to ...||Latest Version|||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[24.1107123](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/F5/F5-24.1107123.zip)|[Overview](overview.md)|[Troubleshooting](troubleshooting.md)|[Steps](steps.md)|[Downloads](downloads.md)|

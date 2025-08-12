@@ -18,7 +18,3 @@ Use this step to run a test using IBM Rational Integration Tester.
 | Results Publishers | String | A list of results publishers. Separate each list item with a comma. | No | resultsPublishers |
 | Results server logging | Enumeration | Specifies how the Results Server URL for executed items is written to the console. Valid values are absolute, ignore, and relative. | No | resultsServerLogging |
 | Test Resources | String | A list of IBM Rational Integration Tester test resources. Specify each full path for each test resource.Separate each list item with a semi-colon. | Yes | testResources |
-
-|Back to ...||Latest Version|IBM Rational Integration Tester (RIT) ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[5.0](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/RIT-UCD/RIT-UCD-5.0.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

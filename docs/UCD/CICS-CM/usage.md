@@ -123,7 +123,3 @@ cicscm.sourceConfig
 
 By default, the Transformation Rule property is blank. If you want to use a Transformation Rule property, define the property at the environment level. For more information, see [Referring to properties](https://www.ibm.com/docs/en/urbancode-deploy/7.2.3?topic=deployment-properties).
 
-
-|Back to ...||Latest Version|CICS CM (Beta) |||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[0](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/CICS-CM/UCD_CM_Plugin.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Component Templates](component_templates.md)|[Downloads](downloads.md)|

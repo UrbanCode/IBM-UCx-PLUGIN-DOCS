@@ -17,7 +17,3 @@ When you remove packages, if there is a dependency on another package an error m
 
 An upgrade operation installs a new version of a package and removes all previous versions of the same package. If a package is not installed, the upgrade operation installs the package.
 
-
-|Back to ...||Latest Version|RPM ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[4.1100816](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/RPM/RPM-4.1100816.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

@@ -193,7 +193,3 @@ Use this step to undeploy an application from the WebLogic server.
 | WLST Path | String | The fully-qualified path of the Weblogic Scripting Tool directory. (ex. {oracle\_home}``/oracle\_common/common/bin/) | Yes |
 
 
-
-|Back to ...||Latest Version|Oracle WebLogic Scripting Tool (WLST) |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[9.1100786](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebLogic-WLST/WebLogic-WLST-9.1100786.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

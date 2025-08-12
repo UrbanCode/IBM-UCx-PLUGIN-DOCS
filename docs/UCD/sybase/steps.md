@@ -26,7 +26,3 @@ Execute one or more SQL scripts on the server.
 | Username | String | The case-sensitive username to authenticate with Sybase. | Yes |
 
 
-
-|Back to ...||Latest Version|Sybase |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[6.1100960](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/sybase/plugins-sybase-6.1100960.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

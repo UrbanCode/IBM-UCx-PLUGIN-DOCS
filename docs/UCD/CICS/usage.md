@@ -23,14 +23,14 @@ When you add a new CICS step to a process, the step contains a number of default
 For CICS steps, it may be useful to set up a resource tree as previously described, defining properties at the following resource levels:
 
 
-| Property            | Resource with tag                 |
-|---------------------|-----------------------------------|
-| ```cics.host```     | Agent                             |
-| ```cics.cmciport``` | WUI                               |
-| ```cics.cicsplex``` | CICSplex                          |
-| ```cics.scope```    | CICSplex, System Group, or Region |
-| ```cics.username``` | Sysplex                           |
-| ```cics.password``` | Sysplex                           |
+| Property      | Resource with tag                 |
+|---------------|-----------------------------------|
+| cics.host     | Agent                             |
+| cics.cmciport | WUI                               |
+| cics.cicsplex | CICSplex                          |
+| cics.scope    | CICSplex, System Group, or Region |
+| cics.username | Sysplex                           |
+| cics.password | Sysplex                           |
 
 For more general information on property inheritance, see [Referring to properties](https://www.ibm.com/docs/en/urbancode-deploy/7.2.3?topic=deployment-properties).
 
@@ -190,7 +190,3 @@ safkeyringjce:///<keyring name>
 ```
 safkeyringhw:///<keyring name>
 ```
-
-|          Back to ...          |                                |                                                      Latest Version                                                       |       CICS TS       ||||||
-|:-----------------------------:|:------------------------------:|:-------------------------------------------------------------------------------------------------------------------------:|:-------------------:| :---: | :---: | :---: | :---: | :---: |
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [45.20240620-1707](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/CICS/cics-45.20240620-1707.zip) | [Readme](README.md) |[Overview](overview.md)|[Component Templates](component_templates.md)|[Steps](steps.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|

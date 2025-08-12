@@ -18,8 +18,8 @@ The Cucumber plug-in contains two step that use the Cucumber command line interf
 
 This plug-in included the following steps:
 
-* [Compile step definition](Steps/#compile_step_definition)
-* [Run Testing](Steps/#run_testing)
+* [Compile step definition](steps#compile-step-definition)
+* [Run Testing](steps#run-testing)
 
 
 ### Step palette
@@ -41,7 +41,3 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 #### Version 1
 
 * Initial release.
-
-|Back to ...||Latest Version|Cucumber |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[1.922549](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Cucumber/Cucumber-1.922549.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|

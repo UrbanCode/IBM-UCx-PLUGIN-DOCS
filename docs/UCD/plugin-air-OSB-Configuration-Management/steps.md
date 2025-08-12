@@ -57,7 +57,3 @@ Import a configuration into Oracle Service Bus with a JAR file and customize Ora
 | WebLogic Dependencies | String | The class path to the WebLogic dependencies that are required to run Oracle Service Bus commands. | Yes |
 
 
-
-|Back to ...||Latest Version|Oracle Service Bus Configuration Management |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[13.914640](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/plugin-air-OSB-Configuration-Management/plugin-air-OSB-Configuration-Management-13.914640.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

@@ -35,7 +35,3 @@ Use this step to run a shell or batch script a number of times equal to a multi-
 | xargs delimiter | String | The delimiter that is used to separate the input values to the script. The default delimiter used is the comma (,). | Yes |
 
 
-
-|Back to ...||Latest Version|Shell ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[21.1167618](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Shell/ucd-Shell-21.1167618.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

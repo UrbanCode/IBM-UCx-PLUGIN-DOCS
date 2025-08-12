@@ -29,7 +29,3 @@ Below are the steps for a typical import process.
 1. Download component artifacts from the DevOps Deploy server to the agent working directory.
 2. Use a shell command step to copy the ZIP file to the `deployment` directory.
 3. Use the **Import** step to import the content from the zip archive into the specified Cognos content store.
-
-|Back to ...||Latest Version|IBM Cognos Analytics ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[1.1107117](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/cognos-analytics/Cognos-Analytics-1.1107117.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

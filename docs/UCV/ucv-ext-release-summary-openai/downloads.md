@@ -32,7 +32,3 @@ To download tar files directly for 1.0.1 (use below links)
 **Instructions to load plug-in image**
 - Go to **IBM DevOps Velocity** > **Settings** > **Integrations** > **Installed** > **Load plugin**.
 - Add the image name and click **Submit**.
-
-|Back to ...||Latest Version|GenAI Summary Release-OpenAI |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.3](https://hub.docker.com/r/urbancode/ucv-ext-release-summary-openai/tags)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|

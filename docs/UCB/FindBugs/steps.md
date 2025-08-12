@@ -29,7 +29,3 @@ Publish FindBugs results to a build life. This reads the XML output of FindBugs.
 | Report Name | String | The name of the report published to the build life | Yes |
 
 
-
-|Back to ...||Latest Version|FindBugs |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[11.753113](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/FindBugs/FindBugs-11.753113.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

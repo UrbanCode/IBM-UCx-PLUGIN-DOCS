@@ -37,7 +37,3 @@ Remove the JVM Properties property because Ant ignores JAVA\_OPTS
 
 This release includes the ability to specify the ANT\_OPT environment variable.
 
-
-|Back to ...||Latest Version|Apache Ant ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[10.1154069](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Ant/ucd-Ant-10.1154069.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

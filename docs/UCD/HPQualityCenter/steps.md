@@ -139,7 +139,3 @@ Update one or more defects in HP Quality Center.
 | Summary | String | A new summary for the defect or blank to not change. Default max length is 255. | No |
 | Username | String | The username to authenticate with Quality Center. | Yes |
 
-
-|Back to ...||Latest Version|MicroFocus ALM (formerly HP Quality Center) |||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[16.1011648](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/HPQualityCenter/HPQualityCenter-16.1011648.zip)|[Readme](README.md)|[Overview](overview.md)|[Troubleshooting](troubleshooting.md)|[Usage](usage.md)|[Downloads](downloads.md)|

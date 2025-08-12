@@ -27,7 +27,3 @@ Publish some files as a report
 | Report Name | String | The name of the report for all uploaded documents to be filed under. | Yes |
 
 
-
-|Back to ...||Latest Version|Report Publisher |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[8.1164837](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/ReportPublisher/Report-Publisher-8.1164837.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

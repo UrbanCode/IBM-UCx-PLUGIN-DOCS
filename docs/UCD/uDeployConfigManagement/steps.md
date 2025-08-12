@@ -53,7 +53,3 @@ Install a configuration template from IBM DevOps Deploy.
 | Request Id | String | The request Id to lookup the correct template to download. | Yes |
 
 
-
-|Back to ...||Latest Version|IBM DevOps Deploy Configuration Management ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[20.1155711](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeployConfigManagement/ucd-uDeployConfigManagement-20.1155711.zip)|[Readme](README.md)|[Overview](overview.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|

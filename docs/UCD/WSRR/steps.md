@@ -74,7 +74,3 @@ This script registers service using WSDL document onto WSRR.
 | WSRR User | String | The user name of the account that will interact with WSRR system | Yes |
 
 
-
-|Back to ...||Latest Version|IBM WebSphere Service Registry and Repository ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[9.1056551](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WSRR/WSRR-9.1056551.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

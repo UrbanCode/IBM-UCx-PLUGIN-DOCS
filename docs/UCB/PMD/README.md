@@ -13,7 +13,3 @@ Available Steps
 Publish PMD ResultsPublish PMD results to a build life.
 
 
-
-|Back to ...||Latest Version||||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[5.752822](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/PMD/Pmd-5.752822.zip)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

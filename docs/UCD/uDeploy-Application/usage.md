@@ -7,7 +7,3 @@ The Create Multiple Applications step provides the ability to create multiple ap
 
 To create multiple applications, create multiple JSON application objects inside of a JSON array as follows:  `[{"name": "Application One", "notificationScheme": "DEFAULT"}``, {"name": "Application Two", "notificationScheme": "DEFAULT"}``, {"name": "Application Three", "notificationScheme": "DEFAULT"}``]`
 
-
-|Back to ...||Latest Version|IBM DevOps Deploy Applications ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[87.1155713](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Application/ucd-uDeploy-Application-87.1155713.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

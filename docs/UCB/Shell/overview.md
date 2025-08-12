@@ -36,7 +36,3 @@ The duplicate directory offset property was removed from this release.
 
 This release includes a fix for a defect related to the name of the xargs step.
 
-
-|Back to ...||Latest Version|Shell for IBM UrbanCode Build |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[7.913337](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Shell/Shell-7.913337.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|

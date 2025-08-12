@@ -11,7 +11,3 @@ JUnit for IBM UrbanCode Build - Downloads
 - [JUnit-4.604299.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/JUnit/JUnit-4.604299.zip)
 - [JUnit-3.410927.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/JUnit/JUnit-3.410927.zip)
 - [JUnit-2.359909.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/JUnit/JUnit-2.359909.zip)
-
-|Back to ...||Latest Version|JUnit for IBM UrbanCode Build |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[10.1071521](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/JUnit/JUnit-10.1071521.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|

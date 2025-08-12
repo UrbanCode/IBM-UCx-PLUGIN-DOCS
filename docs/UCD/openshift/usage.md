@@ -29,7 +29,3 @@ The Set Env step updates environment variables on a pod template or a build conf
 
 ![](media/openshift_set_env_properties.jpg)
 
-
-|Back to ...||Latest Version|OpenShift for IBM DevOps Deploy ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[25.1176034](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/openshift/ucd-openshift-25.1176034.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

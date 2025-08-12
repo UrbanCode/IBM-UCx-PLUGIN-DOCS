@@ -47,7 +47,3 @@ errors in the Rational Team Concert Client and Rational Team Concert Client Auto
 
 Version 1 is the initial release of the plug-in.
 
-
-|Back to ...||Latest Version|Rational Team Concert v6 ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Release Plugins](../README.md)|[3.969559](https://raw.githubusercontent.com/UrbanCode/IBM-UCR-PLUGINS/main/files/RTC/ucr-plugin-rtc-3.969559.zip)|[Readme](README.md)|[Usage](usage.md)|[Settings](settings.md)|[Downloads](downloads.md)|

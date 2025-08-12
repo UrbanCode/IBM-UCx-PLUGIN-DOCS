@@ -59,7 +59,3 @@ These pages provide usage information about this plug-in:
 * [Drawbacks of using the Partial Apply/Remove Steps](https://community.ibm.com/community/user/wasdevops/blogs/osman-burucu/2023/01/05/drawbacks-of-using-partial-applyremove)
 * [Applying and removing partial configurations](https://community.ibm.com/community/user/wasdevops/blogs/osman-burucu/2022/07/06/applying-and-removing-partial-configurations/)
 * Video: [Partial Apply and Partial Remove Steps](https://youtu.be/https://www.youtube.com/watch?v=Qhf1r8_mljc)
-
-|Back to ...||Latest Version|WebSphere Application Server - Configure ||||||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[94.1165946](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereConfiguration/ucd-WebSphereConfiguration-94.1165946.zip)|[Readme](README.md)|[Overview](overview.md)|[Example Applications](example applications.md)|[Example Processes](example processes.md)|[Steps](steps.md)|[Roles](roles.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|

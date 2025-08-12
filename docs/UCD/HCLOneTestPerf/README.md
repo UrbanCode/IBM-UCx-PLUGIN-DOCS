@@ -13,7 +13,3 @@ The HCL OneTest Performance plug-in for DevOps Deploy provides a step to run per
 Run Performance Test
 
 
-
-|Back to ...||Latest Version||
-| :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[9.3](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/HCLOneTestPerf/HOT-PERF-UCD-9.3.zip)|[Downloads](downloads.md)|

@@ -30,7 +30,3 @@ No special steps are required for installation. See [Installing plug-ins in IBM 
 ### Version 1
 
 * Initial release of the Nexus plug-in, with support for downloading NuGet packages.
-
-|Back to ...||Latest Version|Nexus |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[3.1101667](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/nexus/Nexus-3.1101667.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|

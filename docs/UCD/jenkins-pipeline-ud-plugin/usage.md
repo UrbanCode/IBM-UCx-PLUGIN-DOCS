@@ -74,7 +74,7 @@ To create a component version, create and configure a Jenkins job. In the Jenkin
 
 The following pipeline script example defines a new component named Jenkins and attaches it to the Jenkins application. All ZIP files are pushed from the `jobs\\test-ucd\\workspace\\build\\distributions` directory.
 
-```jenkins
+```
 node {
 step([$class: 'UCDeployPublisher', // Class name of the Jenkins pipeline
 siteName: 'local',// Name of DevOps Deploy server
@@ -125,7 +125,7 @@ After you create a component with a version, you can deploy the component from J
 
 The following pipeline script automatically starts a deploy process for a successful import.
 
-```jenkins
+```
 
 node {
 step([$class: 'UCDeployPublisher',//Class name of the Jenkins pipeline
@@ -172,7 +172,7 @@ This user case demonstrates using Jenkins to create a component source configura
 
 #### Method: Pipeline script
 
-```jenkins
+```
 
 node {
 step([$class: 'UCDeployPublisher', //Class name of the Jenkins pipeline
@@ -217,7 +217,7 @@ For both component and import properties, their definitions are defined in the s
 
 After the properties are configured, you can use the Jenkins Pipeline plug-in to import new component versions. Component properties are not configurable from the Jeninks Pipeline plug-in, they must be set on the component beforehand. However, you can specify the import properties during runtime and when using the Jenkins Pipeline plug-in. They are defined using the **pullProperties** property. The following is an example for starting an import of a component configured with Nexus Repository Manager V3. **Note:** The **pullSourceType** property is no longer required.
 
-```jenkins
+```
 {
 step([$class: 'UCDeployPublisher', // Class name of the Jenkins pipeline
 siteName: 'UCD', // Name of DevOps Deploy server
@@ -243,7 +243,7 @@ The above syntax works for any source configuration plug-in that is configured. 
 
 Using alternative credentials in a pipeline script requires usage of the `Hudson.util.Secret` class to properly encrypt an alternative password. The script writer needs to employ the `Hudson.util.Secret.fromString()`  method to encrypt the alternative password. Below is an example script that uses an alternative user with the username user and password password.
 
-```jenkins
+```
 node {
 step([$class: 'UCDeployPublisher',
 siteName: 'UCD',
@@ -283,7 +283,3 @@ To alert the administrative user that a job is attempting to use the static meth
 After you click **Approve**, the static method call is listed in the **Signatures already approved** section. This means that the specified method signature can be called in Jenkins pipeline scripts and all future Jenkin pipeline scripts calling this method are approved.
 
 ![Approved](media/jenkinspipeline_approved.png)
-
-|Back to ...||Latest Version|Jenkins Pipeline |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[2.29](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/jenkins-pipeline-ud-plugin/ibm-ucdeploy-build-steps-2.29.1179629.hpi)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

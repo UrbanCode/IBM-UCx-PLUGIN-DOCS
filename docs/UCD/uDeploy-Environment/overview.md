@@ -94,7 +94,3 @@ Version 72 includes a fix for APAR PI45948, Set environment property step may fa
 * This version includes a step that retrieves basic information about an environment.
 * The Create Environment step can now provision environments with blueprints.
 * You can specify an environment profile when you create an environment.
-
-|Back to ...||Latest Version|IBM DevOps Deploy Environments ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[89.1159271](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Environment/ucd-uDeploy-Environment-89.1159271.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

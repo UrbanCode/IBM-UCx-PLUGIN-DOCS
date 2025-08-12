@@ -19,7 +19,3 @@ If you encounter issues with the plug-in, or want to send feedback:
 
 * Deploy IPADeploys an IPA to a AirWatch instance.
 * Assign IPA to groupAssigns an IPA to an AirWatch group.
-
-|Back to ...||Latest Version|
-| :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[0]()|

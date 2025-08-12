@@ -92,7 +92,3 @@ Version 9.596950 includes additional output for the Deploy Application and Deplo
 
 Version 9.554208 supports IBM DevOps Deploy version 6.0.1 and later. This release includes support for username/password authentication.
 
-
-|Back to ...||Latest Version|JBoss Application Server ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[25.1155393](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/JBoss/ucd-JBoss-25.1155393.zip)|[Readme](README.md)|[Steps](steps.md)|[Usage](usage.md)|[Downloads](downloads.md)|

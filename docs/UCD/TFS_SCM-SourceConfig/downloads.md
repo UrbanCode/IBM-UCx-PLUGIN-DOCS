@@ -17,7 +17,3 @@ To download the plug-in, click the following version-specific links.
 - [TFS_SCM-SourceConfig-7.931993.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/TFS_SCM-SourceConfig/TFS_SCM-SourceConfig-7.931993.zip)
 - [TFS_SCM-SourceConfig-5.856036.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/TFS_SCM-SourceConfig/TFS_SCM-SourceConfig-5.856036.zip)
 - [TFS_SCM-SourceConfig-4.786804.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/TFS_SCM-SourceConfig/TFS_SCM-SourceConfig-4.786804.zip)
-
-|Back to ...||Latest Version|Microsoft TFS_SCM (Team Foundation Server) |||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[19.1171672](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/TFS_SCM-SourceConfig/ucd-TFS_SCM-SourceConfig-19.1171672.zip)|[Readme](README.md)|[Overview](overview.md)|[Troubleshooting](troubleshooting.md)|[Settings](settings.md)|[Usage](usage.md)|

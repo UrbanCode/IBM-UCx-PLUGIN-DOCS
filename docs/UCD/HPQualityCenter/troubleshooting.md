@@ -29,7 +29,3 @@ To resolve the problem, locate the `OTAClient.dll` file, which is typically loca
 
 Occasionally, the Microsoft Windows Script Host stops working on the system that the Urban CodeDeploy agent is installed on, which causes unexpected behavior with the plug-in. If this happens, close the Windows Script Host dialog box on that system, and try again.
 
-
-|Back to ...||Latest Version|MicroFocus ALM (formerly HP Quality Center) |||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[16.1011648](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/HPQualityCenter/HPQualityCenter-16.1011648.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

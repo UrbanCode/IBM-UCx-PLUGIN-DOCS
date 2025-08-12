@@ -55,7 +55,3 @@ Version 12.697482 includes the following features and fixes:
 Version 11.578704 includes the following features and fixes:
 
 * Fix some issues when using HTTP proxies requiring authentication. Support detection of types in the Change Status step and fix available states.
-
-|Back to ...||Latest Version|Rally for IBM UrbanCode Build |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[17.1126865](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Rally/ucd-Rally-17.1126865.zip)|[Readme](README.md)|[Steps and Settings](steps and settings.md)|[Downloads](downloads.md)|

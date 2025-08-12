@@ -55,7 +55,3 @@ Uploads a file to an FTP server.
 | Rename File | String | Upload the local file to the FTP server with another name. File extension needs to be included. | No |
 | Upload Directory | String | The structure for the directory destination on the FTP server, relative to the server root directory. For example: /dir1/dir2/dir3/ | Yes |
 | Username | String | User name to authenticate with the FTP server. | Yes |
-
-|          Back to ...          |                                |                                                           Latest Version                                                            |    Web Utilities    |                         |                   |                           |
-| :---------------------------: | :----------------------------: | :---------------------------------------------------------------------------------------------------------------------------------: | :-----------------: | :---------------------: | :---------------: | :-----------------------: |
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [18.1151823](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/web-utilities/ucd-web-utilities-18.1151823.zip) | [Readme](README.md) | [Overview](overview.md) | [Usage](usage.md) | [Downloads](downloads.md) |

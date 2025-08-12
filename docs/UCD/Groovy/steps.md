@@ -19,7 +19,3 @@ This step runs a groovy script.
 | ClassPath | String | List the classpaths to include. Separate multiple classpaths using commas or new lines. | No |
 
 
-
-|Back to ...||Latest Version|Groovy ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[16.1155716](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Groovy/ucd-Groovy-16.1155716.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

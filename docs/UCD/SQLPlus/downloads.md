@@ -22,7 +22,3 @@ To download the plug-in, click the following version-specific links.
 - [SQLPlus-10.899035.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SQLPlus/SQLPlus-10.899035.zip)
 - [SQLPlus-9.869022.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SQLPlus/SQLPlus-9.869022.zip)
 - [SQLPlus-8.796676.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SQLPlus/SQLPlus-8.796676.zip)
-
-|Back to ...||Latest Version|Oracle SQLPlus ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[24.1163812](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SQLPlus/ucd-SQLPlus-24.1163812.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|

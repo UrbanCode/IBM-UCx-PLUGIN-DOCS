@@ -18,7 +18,3 @@ Perforce - Downloads
 - [Perforce-5.414563.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Perforce/Perforce-5.414563.zip)
 - [Perforce-4.410059.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Perforce/Perforce-4.410059.zip)
 - [Perforce-3.358068.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Perforce/Perforce-3.358068.zip)
-
-|Back to ...||Latest Version|Perforce |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[16.752926](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Perforce/Perforce-16.752926.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|

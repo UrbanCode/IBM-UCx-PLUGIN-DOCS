@@ -28,7 +28,3 @@ Publish NUnit test results for reporting and trending.
 | Source Directory | String | A offset location of where the NUnit XML files are located. | Yes |
 
 
-
-|Back to ...||Latest Version|NUnit |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[4.752916](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/NUnit/NUnit-4.752916.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

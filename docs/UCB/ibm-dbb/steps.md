@@ -31,7 +31,3 @@ Run a build using IBM Dependency Based Build.
 
 
 
-
-|Back to ...||Latest Version|IBM Dependency Based Build |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[2.1053929](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/ibm-dbb/ibm-dbb-2.1053929.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

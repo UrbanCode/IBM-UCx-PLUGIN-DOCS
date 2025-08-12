@@ -48,7 +48,3 @@ Support property file encryption.
 
 This is the initial release of the plug-in.
 
-
-|Back to ...||Latest Version|HP Quality Center (ALM) |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Release Plugins](../README.md)|[5.942932](https://raw.githubusercontent.com/UrbanCode/IBM-UCR-PLUGINS/main/files/ucr-plugin-hp-alm/HP-ALM-5.942932.zip)|[Readme](README.md)|[Settings](settings.md)|[Downloads](downloads.md)|

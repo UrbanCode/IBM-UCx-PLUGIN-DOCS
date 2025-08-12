@@ -40,7 +40,3 @@ The sap-charm plug-in supports scheduled events integration which are listed in 
 | Jira Personal Access Token | Secure | Personal Access Token to authenticate with the Jira server. If supplied, Username and Password will be ignored.\n NOTE: For Jira cloud version provide username and password.\n For Jira server provide personal access token. | No | pat |
 | SAP Url (ES1) | String | The base URL of the SAP ES1 server | No | sapUrl |
 | Jira Custom Field Mapping | Multiline | Map Jira fields to the fields expected by this server as a Name Value pair, eg: "Epic Link": "Epic field in Jira", "Sprint": "Sprint field in Jira", "Story Points": "Story field in Jira". | No | fieldMapping |
-
-|Back to ...||Latest Version|SAP ChaRM ||
-| :---: | :---: | :---: | :---: | :---: | 
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.1](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-sap-charm/ucv-ext-sap-charm:1.0.1.tar.7z.001)|[Readme](README.md)|[Downloads](downloads.md)|

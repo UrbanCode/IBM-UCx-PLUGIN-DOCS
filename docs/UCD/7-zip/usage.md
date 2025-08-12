@@ -29,7 +29,3 @@ Here is how to use the plugin:
 17. Select your resource from the drop down menu.
 18. Press the "Submit" button.
 
-
-|          Back to ...          |                                |                                                          Latest Version                                                          |                     |                         |                         |               |
-|:-----------------------------:|:------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------:|:-------------------:|:-----------------------:|:-----------------------:|:-------------:|
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [2](https://github.com/UrbanCode/7-Zip-UCD/releases/download/2.38a023d/7-Zip-UCD-v2.38a023d.zip)  | [Readme](README.md) | [Downloads](downloads.md) | [Overview](overview.md) | [Steps](steps.md) |
