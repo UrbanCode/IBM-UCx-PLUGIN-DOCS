@@ -1,0 +1,37 @@
+
+# IBM WebSphere Liberty - Downloads
+
+To download the plug-in, click the following version-specific links.
+
+- [ucd-WebSphereLiberty-23.1174431.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereLiberty/ucd-WebSphereLiberty-23.1174431.zip)
+- [ucd-WebSphereLiberty-23.1154049.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereLiberty/ucd-WebSphereLiberty-23.1154049.zip)
+- [ucd-WebSphereLiberty-22.1134888.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereLiberty/ucd-WebSphereLiberty-22.1134888.zip)
+- [WebSphereLiberty-21.1100824.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereLiberty/WebSphereLiberty-21.1100824.zip)
+- [WebSphereLiberty-21.1056525.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereLiberty/WebSphereLiberty-21.1056525.zip)
+- [WebSphereLiberty-21.1026759.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereLiberty/WebSphereLiberty-21.1026759.zip)
+- [WebSphereLiberty-19.978387.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereLiberty/WebSphereLiberty-19.978387.zip)
+- [WebSphereLiberty-18.974811.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereLiberty/WebSphereLiberty-18.974811.zip)
+- [WebSphereLiberty-17.943072.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereLiberty/WebSphereLiberty-17.943072.zip)
+- [WebSphereLiberty-16.930005.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereLiberty/WebSphereLiberty-16.930005.zip)
+- [WebSphereLiberty-15.915950.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereLiberty/WebSphereLiberty-15.915950.zip)
+- [WebSphereLiberty-14.912008.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereLiberty/WebSphereLiberty-14.912008.zip)
+- [WebSphereLiberty-13.909701.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereLiberty/WebSphereLiberty-13.909701.zip)
+- [WebSphereLiberty-12.891854.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereLiberty/WebSphereLiberty-12.891854.zip)
+- [WebSphereLiberty-11.869067.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereLiberty/WebSphereLiberty-11.869067.zip)
+- [WebSphereLiberty-10.848664.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereLiberty/WebSphereLiberty-10.848664.zip)
+- [WebSphereLiberty-9.828195.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereLiberty/WebSphereLiberty-9.828195.zip)
+- [WebSphereLiberty-9.827833.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereLiberty/WebSphereLiberty-9.827833.zip)
+- [WebSphereLiberty-8.802646.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereLiberty/WebSphereLiberty-8.802646.zip)
+- [WebSphereLiberty-8.801347.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereLiberty/WebSphereLiberty-8.801347.zip)
+- [WebSphereLiberty-7.778014.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereLiberty/WebSphereLiberty-7.778014.zip)
+- [WebSphereLiberty-5.776152.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereLiberty/WebSphereLiberty-5.776152.zip)
+- [WebSphere-Liberty-3.641636.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereLiberty/WebSphere-Liberty-3.641636.zip)
+- [WebSphereLiberty-2.455142.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereLiberty/WebSphereLiberty-2.455142.zip)
+- [WebSphereLiberty-1.423643.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereLiberty/WebSphereLiberty-1.423643.zip)
+- [CreateCollectiveSampleApp.zip.003](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereLiberty/SampleApplications/CreateCollectiveSampleApp.zip.003)
+- [CreateCollectiveSampleApp.zip.002](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereLiberty/SampleApplications/CreateCollectiveSampleApp.zip.002)
+- [CreateCollectiveSampleApp.zip.001](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereLiberty/SampleApplications/CreateCollectiveSampleApp.zip.001)
+
+|Back to ...||Latest Version|IBM WebSphere Liberty |||||
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[23.1174431](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereLiberty/ucd-WebSphereLiberty-23.1174431.zip)|[Readme](README.md)|[Overview](overview.md)|[Troubleshooting](troubleshooting.md)|[Usage](usage.md)|[Steps](steps.md)|

@@ -1,0 +1,53 @@
+
+# WebSphere Application Server - Deployment - Downloads
+
+To download the plug-in, click the following version-specific links.
+- [ucd-WebSphere-132.1179210.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/WAS-Deploy-132.1179210.zip)
+- [ucd-WebSphere-131.1165947.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/ucd-WebSphere-131.1165947.zip)
+- [ucd-WebSphere-130.1164187.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/ucd-WebSphere-130.1164187.zip)
+- [ucd-WebSphere-129.1158192.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/ucd-WebSphere-129.1158192.zip)
+- [ucd-WebSphere-128.1154038.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/ucd-WebSphere-128.1154038.zip)
+- [ucd-WebSphere-127.1131367.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/ucd-WebSphere-127.1131367.zip)
+- [WAS-Deploy-126.1100956.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/WAS-Deploy-126.1100956.zip)
+- [WAS-Deploy-126.1074081.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/WAS-Deploy-126.1074081.zip)
+- [WAS-Deploy-125.1056569.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/WAS-Deploy-125.1056569.zip)
+- [WAS-Deploy-125.1055743.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/WAS-Deploy-125.1055743.zip)
+- [WAS-Deploy-124.1055120.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/WAS-Deploy-124.1055120.zip)
+- [WAS-Deploy-123.1033691.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/WAS-Deploy-123.1033691.zip)
+- [WAS-Deploy-121.1026762.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/WAS-Deploy-121.1026762.zip)
+- [WAS-Deploy-120.1008037.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/WAS-Deploy-120.1008037.zip)
+- [WAS-Deploy-119.1006526.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/WAS-Deploy-119.1006526.zip)
+- [WAS-Deploy-118.1004419.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/WAS-Deploy-118.1004419.zip)
+- [WAS-Deploy-117.987411.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/WAS-Deploy-117.987411.zip)
+- [WAS-Deploy-116.983733.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/WAS-Deploy-116.983733.zip)
+- [WAS-Deploy-115.982520.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/WAS-Deploy-115.982520.zip)
+- [WAS-Deploy-114.974513.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/WAS-Deploy-114.974513.zip)
+- [WAS-Deploy-113.955440.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/WAS-Deploy-113.955440.zip)
+- [WAS-Deploy-112.952713.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/WAS-Deploy-112.952713.zip)
+- [WAS-Deploy-111.946458.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/WAS-Deploy-111.946458.zip)
+- [WAS-Deploy-110.942667.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/WAS-Deploy-110.942667.zip)
+- [WAS-Deploy-109.937145.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/WAS-Deploy-109.937145.zip)
+- [WAS-Deploy-108.935970.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/WAS-Deploy-108.935970.zip)
+- [WAS-Deploy-107.927943.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/WAS-Deploy-107.927943.zip)
+- [WAS-Deploy-106.922204.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/WAS-Deploy-106.922204.zip)
+- [WAS-Deploy-105.921026.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/WAS-Deploy-105.921026.zip)
+- [WAS-Deploy-104.911654.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/WAS-Deploy-104.911654.zip)
+- [WAS-Deploy-103.895669.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/WAS-Deploy-103.895669.zip)
+- [WAS-Deploy-102.884132.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/WAS-Deploy-102.884132.zip)
+- [WAS-Deploy-101.874481.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/WAS-Deploy-101.874481.zip)
+- [WAS-Deploy-100.863581.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/WAS-Deploy-100.863581.zip)
+- [WAS-Deploy-99.851974.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/WAS-Deploy-99.851974.zip)
+- [WAS-Deploy-98.824844.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/WAS-Deploy-98.824844.zip)
+- [WAS-Deploy-97.812548.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/WAS-Deploy-97.812548.zip)
+- [WAS-Deploy-96.805833.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/WAS-Deploy-96.805833.zip)
+- [WAS-Deploy-95.801822.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/WAS-Deploy-95.801822.zip)
+- [WAS-Deploy-94.782176.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/WAS-Deploy-94.782176.zip)
+- [WAS-Deploy-93.780444.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/WAS-Deploy-93.780444.zip)
+- [WAS-Deploy-92.773768.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/WAS-Deploy-92.773768.zip)
+- [WAS-Deploy-91.771602.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/WAS-Deploy-91.771602.zip)
+- [WAS-Deploy-90.760844.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/WAS-Deploy-90.760844.zip)
+
+|Back to ...||Latest Version|WebSphere Application Server - Deployment |||||||
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[132.1179210](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/WAS-Deploy-132.1179210.zip)|[Readme](README.md)|[Overview](overview.md)|[User permissions](user permissions.md)|[Usage](usage.md)|[Steps](steps.md)|[Roles](roles.md)|[Troubleshooting](troubleshooting.md)|
+

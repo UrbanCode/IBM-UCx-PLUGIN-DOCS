@@ -1,0 +1,17 @@
+
+# IBM DevOps Deploy Environments - Usage
+
+## Create Multiple Environments
+
+The Create Multiple Environments step provides the ability to create multiple environments using one JSON file or JSON text body. The format of this JSON body allows you to either create environments from a template or without a template. When creating from a template, the format of this JSON body follows the IBM DevOps Deploy createEnvironmentFromTemplate REST endpoint. The documentation for this endpoint can be found in the knowledge center: [IBM DevOps Deploy createEnvironmentFromTemplate REST endpoint](https://www.ibm.com/support/knowledgecenter/SS4GSP_6.2.7/com.ibm.udeploy.api.doc/topics/rest_cli_environment_createenvironmentfromtemplate_put.html)
+
+When not using a template to create an environment, the format of the JSON body follows the IBM DevOps Deploy createEnvironment REST endpoint. The documentation for this endpoint can be found in the knowledge center: [IBM DevOps Deploy createEnvironment REST endpoint](https://www.ibm.com/support/knowledgecenter/SS4GSP_6.2.7/com.ibm.udeploy.api.doc/topics/rest_cli_environment_createenvironment_put.html)
+
+Note that if either the templateName or templateId fields are supplied in the JSON text for an environment, the createEnvironmentFromTemplate will be used automatically.
+
+To create multiple environments, create multiple JSON environment objects inside of a JSON array as follows:  `[{"application": "Application assigned to the environment.", "name": "Environment name or ID.", "description": "Description of the environment", "requireApprovals": "True/false to specify whether environment requires approvals.", "noSelfApprovals": "True/false to specify whether environment allows self approvals.", "nodeProperties": {"Node property name": "Property value"}``, "properties": {"Environment property name": "Property value"}``, "templateName": "(Optional) Supply either the templateId or templateName to use a template.", "templateId": "(Optional) Supply either the templateId or templateName to use a template."}``, {"application": "Application assigned to the environment.", "name": "Environment name or ID.", "description": "Description of the environment", "requireApprovals": "True/false to specify whether environment requires approvals.", "noSelfApprovals": "True/false to specify whether environment allows self approvals.", "nodeProperties": {"Node property name": "Property value"}``, "properties": {"Environment property name": "Property value"}``, "templateName": "(Optional) Supply either the templateId or templateName to use a template.", "templateId": "(Optional) Supply either the templateId or templateName to use a template."}``]`
+
+
+|Back to ...||Latest Version|IBM DevOps Deploy Environments ||||
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[89.1159271](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Environment/ucd-uDeploy-Environment-89.1159271.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

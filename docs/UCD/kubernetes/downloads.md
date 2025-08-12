@@ -1,0 +1,40 @@
+
+# Kubernetes - Downloads
+
+To download the plug-in, click the following version-specific links.
+- [ucd-kubernetes-33.1176035.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/kubernetes/ucd-kubernetes-33.1176035.zip)
+- [ucd-kubernetes-32.1154499.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/kubernetes/ucd-kubernetes-32.1154499.zip)
+- [ucd-kubernetes-31.1145303.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/kubernetes/ucd-kubernetes-31.1145303.zip)
+- [ucd-kubernetes-29.1130033.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/kubernetes/ucd-kubernetes-29.1130033.zip)
+- [ucd-kubernetes-27.1127391.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/kubernetes/ucd-kubernetes-27.1127391.zip)
+- [kubernetes-26.1108797.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/kubernetes/kubernetes-26.1108797.zip)
+- [kubernetes-25.1105369.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/kubernetes/kubernetes-25.1105369.zip)
+- [kubernetes-25.1103863.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/kubernetes/kubernetes-25.1103863.zip)
+- [kubernetes-24.1098508.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/kubernetes/kubernetes-24.1098508.zip)
+- [kubernetes-24.1049532.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/kubernetes/kubernetes-24.1049532.zip)
+- [kubernetes-23.1049264.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/kubernetes/kubernetes-23.1049264.zip)
+- [kubernetes-22.1026797.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/kubernetes/kubernetes-22.1026797.zip)
+- [kubernetes-21.1014772.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/kubernetes/kubernetes-21.1014772.zip)
+- [kubernetes-20.1011154.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/kubernetes/kubernetes-20.1011154.zip)
+- [kubernetes-19.997809.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/kubernetes/kubernetes-19.997809.zip)
+- [kubernetes-18.988429.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/kubernetes/kubernetes-18.988429.zip)
+- [kubernetes-17.987867.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/kubernetes/kubernetes-17.987867.zip)
+- [kubernetes-16.986745.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/kubernetes/kubernetes-16.986745.zip)
+- [kubernetes-15.980476.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/kubernetes/kubernetes-15.980476.zip)
+- [kubernetes-14.974657.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/kubernetes/kubernetes-14.974657.zip)
+- [kubernetes-13.952300.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/kubernetes/kubernetes-13.952300.zip)
+- [kubernetes-12.944537.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/kubernetes/kubernetes-12.944537.zip)
+- [kubernetes-11.935934.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/kubernetes/kubernetes-11.935934.zip)
+- [kubernetes-10.930495.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/kubernetes/kubernetes-10.930495.zip)
+- [kubernetes-9.926112.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/kubernetes/kubernetes-9.926112.zip)
+- [kubernetes-8.922543.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/kubernetes/kubernetes-8.922543.zip)
+- [kubernetes-7.919826.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/kubernetes/kubernetes-7.919826.zip)
+- [kubernetes-6.915815.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/kubernetes/kubernetes-6.915815.zip)
+- [kubernetes-5.894685.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/kubernetes/kubernetes-5.894685.zip)
+- [kubernetes-4.860737.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/kubernetes/kubernetes-4.860737.zip)
+- [kubernetes-2.796497.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/kubernetes/kubernetes-2.796497.zip)
+- [kubernetes-1.769602.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/kubernetes/kubernetes-1.769602.zip)
+
+|Back to ...||Latest Version|Kubernetes ||||
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[33.1176035](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/kubernetes/ucd-kubernetes-33.1176035.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|
