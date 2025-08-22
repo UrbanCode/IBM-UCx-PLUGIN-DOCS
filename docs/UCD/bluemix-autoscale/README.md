@@ -6,7 +6,7 @@ This plug-in provides steps to interact with the Auto-Scaling for Bluemix servic
 **Platform Support:**
 
 * This plug-in is supported to run on all operating systems that are supported by both the IBM DevOps Deploy agent (except for z/OS) and the IBM Containers command-line interface.
-* The [IBM Containers plug-in](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/cloud-foundry-ibm-containers/) is an installation prerequisite for the IBM Bluemix Auto-Scaling plug-in. The IBM Containers plug-in is required to log in to and log out from the Bluemix console.
+* The [IBM Containers plug-in](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS-BETA/UCD/cloud-foundry-ibm-containers/) is an installation prerequisite for the IBM Bluemix Auto-Scaling plug-in. The IBM Containers plug-in is required to log in to and log out from the Bluemix console.
 * The Auto-Scaling service must first be configured on your Bluemix workspace or application.
 
 

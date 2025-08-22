@@ -31,7 +31,7 @@ This plug-in provides a sample component template that includes sample processes
 
 **Prerequisites:**
 
-* This plug-in requires [IBM Websphere Application Server – Deployment](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/Websphere/) version 80 or higher to run.
+* This plug-in requires [IBM Websphere Application Server – Deployment](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS-BETA/UCD/Websphere/) version 80 or higher to run.
 
 **Impersonation:**
 

@@ -36,7 +36,7 @@ The CICS TS plug-in is supported to run against any of the following CICS editio
 
 Additionally, you must also have configured a CICS management client interface (CMCI) port, as described in topic [Setting up access for CICS Explorer](https://www.ibm.com/docs/en/cics-ts/6.x?topic=configuring-setting-up-cmci) in the IBM Knowledge Center.
 
-This plug-in requires DevOps Deploy 6.2.5 or later, and the [zOS Utility](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/zos-deploy/) 10 plug-in or later. Using this plug-in requires the DevOps Deploy agent to be running with Java 8; for details of how to upgrade the version of Java used by the agent, see [Changing or updating the JRE of agents](https://www.ibm.com/support/knowledgecenter/SS4GSP_6.2.4/com.ibm.udeploy.doc/topics/jre_change_agent.html).
+This plug-in requires DevOps Deploy 6.2.5 or later, and the [zOS Utility](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS-BETA/UCD/zos-deploy/) 10 plug-in or later. Using this plug-in requires the DevOps Deploy agent to be running with Java 8; for details of how to upgrade the version of Java used by the agent, see [Changing or updating the JRE of agents](https://www.ibm.com/support/knowledgecenter/SS4GSP_6.2.4/com.ibm.udeploy.doc/topics/jre_change_agent.html).
 
 ## Installation
 

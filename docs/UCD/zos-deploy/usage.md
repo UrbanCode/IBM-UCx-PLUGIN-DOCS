@@ -104,9 +104,9 @@ In this example, the Run TSO or ISPF Command step uses the following settings:
 
 In this process example, the z/OS data sets must be in the component. Also, the environment contains agents that are running z/OS. In addition to the z/OS Utility plug-in, the CICS TS plug-in must be installed. The process runs the following steps in order:
 
-1. The [Copy Artifacts](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/zos-deploy/steps.html) step loads the artifacts that make up the z/OS component version.
-2. The [Deploy Data Sets](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/zos-deploy/steps.html) step deploys the component version to z/OS.
-3. The [Generate Artifact Information](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/zos-deploy/steps.html) step generates a list of CICS members.
+1. The [Copy Artifacts](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS-BETA/UCD/zos-deploy/steps.html) step loads the artifacts that make up the z/OS component version.
+2. The [Deploy Data Sets](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS-BETA/UCD/zos-deploy/steps.html) step deploys the component version to z/OS.
+3. The [Generate Artifact Information](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS-BETA/UCD/zos-deploy/steps.html) step generates a list of CICS members.
 4. The [NEWCOPY Programs](https://community.ibm.com/community/user/wasdevops/blogs/ibm-ibm-devops-expert/2022/04/27/steps-to-install-ucd-702-agent-on-zos-and-ucd-serv) step, in the CICS TS plug-in, runs the NEWCOPY command on the members.
 
 [![zos_cics_1](media/zos_cics_1.png)](media/zos_cics_1.png)
@@ -163,7 +163,7 @@ Summary:15 NEWCOPY request(s) succeeded, 0 NEWCOPY request(s) failed.
 
 ## Submitting JCL jobs from a template
 
-To submit a JCL job from a template, use the [Submit Job](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/zos-deploy/steps.html#submit_job) step, and then set up the step properties similar to the following example:
+To submit a JCL job from a template, use the [Submit Job](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS-BETA/UCD/zos-deploy/steps.html#submit_job) step, and then set up the step properties similar to the following example:
 
 [![submit_job_template](media/submit_job_template.gif)](media/submit_job_template.gif)
 
@@ -261,9 +261,9 @@ The z/OS Utility plug-in includes the MVSTEMPLATE component template. The templa
 
 The process runs the following steps in order:
 
-1. The [Submit Job](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/zos-deploy/steps.html) step starts the JCL job.
+1. The [Submit Job](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS-BETA/UCD/zos-deploy/steps.html) step starts the JCL job.
 2. The Shell step represents other processing steps to take while the JCL job runs.
-3. The [Wait For Job](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/zos-deploy/steps.html) step stops processing until the JCL job completes.
+3. The [Wait For Job](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS-BETA/UCD/zos-deploy/steps.html) step stops processing until the JCL job completes.
 
 [![submit_job_wait](media/submit_job_wait.gif)](media/submit_job_wait.gif)
 

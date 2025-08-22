@@ -9,7 +9,7 @@ You can use the Maven Resolve plug-in if you already have a Maven repository in 
 
 To add the Maven Resolve plug-in steps to processes, click **Repositories > Artifact > Maven** in the step palette of the process editor.
 
-To use a Maven repository with the Codestation repository in IBM DevOps Deploy, see the [Maven source configuration plug-in](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/MavenSourceConfig/).
+To use a Maven repository with the Codestation repository in IBM DevOps Deploy, see the [Maven source configuration plug-in](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS-BETA/UCD/MavenSourceConfig/).
 
 ## Compatibility
 

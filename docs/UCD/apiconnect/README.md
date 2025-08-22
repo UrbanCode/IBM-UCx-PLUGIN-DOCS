@@ -9,7 +9,7 @@ The IBM API Connection plug-in provides steps to publish API Definitions and Loo
 
 * This plug-in is supported to run on all operating systems that are supported by both the IBM DevOps Deploy agent except for z/OS and the apic toolkit.
 * The apic toolkit must be downloaded and installed separately. Directions can be found [Installing the toolkit](https://www.ibm.com/support/knowledgecenter/SSMNED_5.0.0/com.ibm.apic.toolkit.doc/tapim_cli_install.html) topic in the product documentation. This plug-in supports apic v2.0.18 and higher.
-* Authentication issues exist within the apic toolkit. Refer to the [Troubleshooting](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/apiconnect/troubleshooting.html) page for a secure workaround.
+* Authentication issues exist within the apic toolkit. Refer to the [Troubleshooting](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS-BETA/UCD/apiconnect/troubleshooting.html) page for a secure workaround.
 
 ## Technical Support:
 

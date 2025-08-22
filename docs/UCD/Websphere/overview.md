@@ -9,7 +9,7 @@ This plug-in requires WebSphere Application Server. Most of the steps include th
 
 Aside from providing steps for processes, this plug-in can import information about a WebSphere Application Server cell as a resource in IBM DevOps Deploy. See [Importing resources from WebSphere Application Server](http://www.ibm.com/support/knowledgecenter/SS4GSP_6.2.1/com.ibm.udeploy.doc/topics/resources_import_was.html) in IBM Knowledge Center.
 
-The plug-in includes steps that are related to installing, configuring, and uninstalling applications, such as [Install Application](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/Websphere/steps.html#install_application).
+The plug-in includes steps that are related to installing, configuring, and uninstalling applications, such as [Install Application](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS-BETA/UCD/Websphere/steps.html#install_application).
 
 The plug-in also includes steps that are related to configuring and maintaining WebSphere Application Server, such as the following steps:
 

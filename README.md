@@ -1,6 +1,4 @@
-# IBM-UCx-PLUGIN-DOCS
-
-## Intro to IBM UrbanCode Plug-In Documentation
+# Intro to IBM UrbanCode Plug-In Documentation
 
 This repository holds the IBM DevOps products plugin documentation.
 
@@ -51,6 +49,6 @@ This repository holds the IBM DevOps products plugin documentation.
 
 ## Documentation Links
 
-### [Link to Pages](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/)
+### [Link to Pages](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS-BETA/)
 
 ### [Index Document for all Plugins](docs/index.md)

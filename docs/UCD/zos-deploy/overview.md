@@ -335,7 +335,7 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 * Ported following steps to run from a non-zOS agent as well
 + Submit job
 + Wait for job
-* Moved FTP plugin step into a new plugin ( https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/zos-ftp/ )
+* Moved FTP plugin step into a new plugin ( https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS-BETA/UCD/zos-ftp/ )
 * Added permission checks for ISPF work directory and file
 * Fixed incompatible code with Java 7 (Earlier versions of this plugin required Java 8. Based on a request, we ported the plugins to run with Java 7 & 8 as well.
 * Enhancement on runtime delta deployment

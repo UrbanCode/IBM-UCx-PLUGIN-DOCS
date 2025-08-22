@@ -16,7 +16,7 @@ The IBM Dependency Based Build (DBB) plug-in allow for inclusion of builds for z
 
 This plug-in includes one step:
 
-* [Build](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCB/ibm-dbb/steps.html#build)
+* [Build](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS-BETA/UCB/ibm-dbb/steps.html#build)
 
 
 ### Step palette

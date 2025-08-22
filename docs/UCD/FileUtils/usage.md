@@ -15,11 +15,11 @@ For examples, see the tutorials [Create a simple helloWorld deployment](http://w
 
 ## Copy Directory step
 
-When you use the [Copy Directory](steps.md#copy-directory) step, the permissions of the original directory are not copied. Instead, the default umask values are used. To copy directories and preserve the original permissions, use the cp command in a Shell step. The Shell step is available in the [Shell](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/Shell/) plug-in.
+When you use the [Copy Directory](steps.md#copy-directory) step, the permissions of the original directory are not copied. Instead, the default umask values are used. To copy directories and preserve the original permissions, use the cp command in a Shell step. The Shell step is available in the [Shell](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS-BETA/UCD/Shell/) plug-in.
 
 ## Replace Tokens step
 
-To learn more about using the [Replace Tokens](steps.md#replace-tokens) step, see [Using the Replace Tokens step](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/FileUtils/usage.html#token-replace-step).
+To learn more about using the [Replace Tokens](steps.md#replace-tokens) step, see [Using the Replace Tokens step](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS-BETA/UCD/FileUtils/usage.html#token-replace-step).
 
 ## Update XML with XPath step
 

@@ -18,7 +18,7 @@ To access this plug-in in the palette, click **Application Server** > **WebLogic
 
 ## **Example: Deploying an application on Oracle WebLogic Server**
 
-When you deploy an application using the WebLogic Application Server plug-in, you only need to use the [Deploy](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/plugin-air-WebLogic-Application-Deployment/steps.html#deploy) step:
+When you deploy an application using the WebLogic Application Server plug-in, you only need to use the [Deploy](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS-BETA/UCD/plugin-air-WebLogic-Application-Deployment/steps.html#deploy) step:
 
 [![deployweblogic](media/deployweblogic.gif)](media/deployweblogic.gif)
 

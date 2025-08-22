@@ -21,7 +21,7 @@ To access this plug-in in the palette, click **IBM API Management** > **IBM API 
 
 ## Compatibility
 
-This plug-in is supported to run on all operating systems that are supported by both the IBM DevOps Deploy agent (except for z/OS) and the apic toolkit. This plug-in supports apic v10.0.x and higher. If you are using apic v5 or apic v2018 please use the Version 7 plugin available on the [Download Page](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/apiconnect/downloads.html) . Authentication issues exist within the apic toolkit. See [Troubleshooting](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/apiconnect/troubleshooting.html) for a workaround.
+This plug-in is supported to run on all operating systems that are supported by both the IBM DevOps Deploy agent (except for z/OS) and the apic toolkit. This plug-in supports apic v10.0.x and higher. If you are using apic v5 or apic v2018 please use the Version 7 plugin available on the [Download Page](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS-BETA/UCD/apiconnect/downloads.html) . Authentication issues exist within the apic toolkit. See [Troubleshooting](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS-BETA/UCD/apiconnect/troubleshooting.html) for a workaround.
 
 This plug-in requires version 6.0.1 or later of IBM DevOps Deploy.
 

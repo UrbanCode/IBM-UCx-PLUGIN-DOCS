@@ -7,7 +7,7 @@ To add the Docker plug-in steps to processes, click **Cloud > Docker** in the st
 
 ## Prerequisites
 
-The Docker automation plug-in requires the [Docker source-configuration plug-in](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/DockerSourceConfig/).
+The Docker automation plug-in requires the [Docker source-configuration plug-in](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS-BETA/UCD/DockerSourceConfig/).
 
 ## Compatibility
 

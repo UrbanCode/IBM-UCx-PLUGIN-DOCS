@@ -1,7 +1,7 @@
 
 # Microsoft TFS_SCM (Team Foundation Server)
 
-The Microsoft TFS\_SCM plug-in imports version artifacts from a Team Foundation Server (TFS) server. TFS is supported both as a source of builds with the [TFS plug-in](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/TFS-SourceConfig/), and by direct retrieval of deployable artifacts from source control.
+The Microsoft TFS\_SCM plug-in imports version artifacts from a Team Foundation Server (TFS) server. TFS is supported both as a source of builds with the [TFS plug-in](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS-BETA/UCD/TFS-SourceConfig/), and by direct retrieval of deployable artifacts from source control.
 
 **Note:** Microsoft .NET Framework 3.5 must be installed on the agent computer where the plug-in is installed. If Microsoft .NET Framework 3.5 is not installed on the agent computer, the following error message is displayed when you attempt to import version artifacts: Error Creating New Version: Error retrieving latest build.
 
