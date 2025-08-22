@@ -4,6 +4,43 @@
 
 This repository holds the IBM DevOps products plugin documentation.
 
+## Prerequisite for build
+
+* Git
+* Nodejs
+
+## Steps to build
+
+* Clone the repository locally using `git clone` command
+
+```shell
+  git clone <repo-url>
+```
+
+* Change directory to `IBM-UCx-PLUGIN-DOCS-BETA`
+
+```shell
+  cd IBM-UCx-PLUGIN-DOCS-BETA
+```
+
+* Install and resolve dependencies for the project using below `npm` command
+
+```shell
+   npm ci
+```
+
+* To host the project locally, run in developer mode
+
+```shell
+   npm run docs:dev
+```
+
+* To build the project run below build command.
+
+```shell
+   npm run docs:build
+```
+
 ## Terms and Conditions
 
 **Please read the Terms and Conditions documents before downloading.**
@@ -17,11 +54,3 @@ This repository holds the IBM DevOps products plugin documentation.
 ### [Link to Pages](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/)
 
 ### [Index Document for all Plugins](docs/index.md)
-
-#### [IBM DevOps Build Plugin List](docs/UCB/README.md)
-
-#### [IBM DevOps Deploy Plugin List](docs/UCD/README.md)
-
-#### [IBM UrbanCode Release Plugin List](docs/UCR/README.md)
-
-#### [IBM DevOps Velocity Plugin List](docs/UCV/README.md)
