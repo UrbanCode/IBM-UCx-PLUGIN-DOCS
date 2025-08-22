@@ -21,6 +21,15 @@ export default defineConfig({
     assetsInclude: ['**/*.PNG', '**/*.png']
   },
   themeConfig: {
+    nav: [{
+	    text: 'Product',
+	    items: [
+	      { text: 'DevOps Build', link: 'UCB/index.md' },
+	      { text: 'DevOps Deploy', link: 'UCD/index.md' },
+	      { text: 'DevOps Release', link: 'UCR/index.md' },
+	      { text: 'DevOps Velocity', link: 'UCV/index.md' }
+	    ]
+    }],
     editLink: {
       pattern: 'https://github.com/UrbanCode/IBM-UCx-PLUGIN-DOCS-BETA/edit/main/docs/:path'
     },
@@ -5036,14 +5045,11 @@ export default defineConfig({
         }
       ]
     },
-    
-
     socialLinks: [
       { icon: 'github', link: 'https://github.com/UrbanCode/IBM-UCx-PLUGIN-DOCS-BETA' }
     ],
     footer: {
       copyright: "©️ IBM Corp. 2011, 2017. <br> ©️ HCL Technologies Limited 2018, 2025.",
-
     }
   }
 })

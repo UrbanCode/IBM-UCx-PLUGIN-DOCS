@@ -1,6 +1,6 @@
-# Intro to IBM UrbanCode Plug-In Documentation
+# Intro to IBM DevOps Products Plug-In Documentation
 
-This repository holds the IBM DevOps products plugin documentation.
+This repository holds the IBM DevOps products plugin documentation. The static site is generated using [VitePress](https://vitepress.dev/).
 
 ## Prerequisite for build
 
@@ -47,8 +47,10 @@ This repository holds the IBM DevOps products plugin documentation.
 * [General Terms and Conditions](docs/UrbanCode_General_Plugin_Terms_and_Conditions.md)
 * [IBM DevOps Deploy Plugins Terms and Conditions](docs/UrbanCode_Deploy_Plugin_Terms_and_Conditions.md)
 
-## Documentation Links
+## Documentation Link
 
-### [Link to Pages](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS-BETA/)
-
-### [Index Document for all Plugins](docs/index.md)
+### [Homepage](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS-BETA/)
+### [IBM DevOps Build Plugins](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS-BETA/UCB/)
+### [IBM DevOps Deploy Plugins](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS-BETA/UCD/)
+### [IBM DevOps Release Plugins](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS-BETA/UCR/)
+### [IBM DevOps Velocity Plugins](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS-BETA/UCV/)
