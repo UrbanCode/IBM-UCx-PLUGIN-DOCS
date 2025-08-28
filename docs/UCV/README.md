@@ -129,7 +129,7 @@ The DevOps Velocity bottleneck detection plug-in monitors, detects, and alerts t
 
 |Back to ...||Black Duck |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-bottleneck-detection/README.md)|[1.0.3-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bottleneck-detection/ucv-ext-bottleneck-detection%3A1.0.3.tar.7z.001)[and 1.0.3-File 2 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bottleneck-detection/ucv-ext-bottleneck-detection%3A1.0.3.tar.7z.002)[and 1.0.3-File 3 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bottleneck-detection/ucv-ext-bottleneck-detection%3A1.0.3.tar.7z.003)[and 1.0.3-File 4 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bottleneck-detection/ucv-ext-bottleneck-detection%3A1.0.3.tar.7z.004)[and 1.0.3-File 5 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bottleneck-detection/ucv-ext-bottleneck-detection%3A1.0.3.tar.7z.005)[and 1.0.3-File 6](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bottleneck-detection/ucv-ext-bottleneck-detection%3A1.0.3.tar.7z.006)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-bottleneck-detection/README.md)|[1.0.12-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bottleneck-detection/ucv-ext-bottleneck-detection%3A1.0.12.tar.7z.001)[and 1.0.12-File 2 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bottleneck-detection/ucv-ext-bottleneck-detection%3A1.0.12.tar.7z.002)[and 1.0.12-File 3 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bottleneck-detection/ucv-ext-bottleneck-detection%3A1.0.12.tar.7z.003)[and 1.0.12-File 4 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bottleneck-detection/ucv-ext-bottleneck-detection%3A1.0.12.tar.7z.004)[and 1.0.12-File 5 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bottleneck-detection/ucv-ext-bottleneck-detection%3A1.0.12.tar.7z.005)[and 1.0.12-File 6](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bottleneck-detection/ucv-ext-bottleneck-detection%3A1.0.12.tar.7z.006)|
 
 ## CircleCI
 
@@ -549,7 +549,7 @@ With this Jenkins plugin, you can run Jenkins jobs as a part of a deployment pla
 
 |Back to ...||urbancode-velocity |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](urbancode-velocity/README.md)|[3.0.1](https://github.com/jenkinsci/urbancode-velocity-plugin/releases/download/3.0.1/urbancode-velocity-3.0.1.hpi)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](urbancode-velocity/README.md)|[3.0.2](https://github.com/jenkinsci/urbancode-velocity-plugin/releases/download/3.0.2/urbancode-velocity-3.0.2.hpi)|
 
 ## WhiteSource
 

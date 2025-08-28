@@ -215,4 +215,4 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 |Back to ...||Latest Version|urbancode-velocity |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[3.0.1](https://github.com/jenkinsci/urbancode-velocity-plugin/releases/download/3.0.1/urbancode-velocity-3.0.1.hpi)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[3.0.2](https://github.com/jenkinsci/urbancode-velocity-plugin/releases/download/3.0.2/urbancode-velocity-3.0.2.hpi)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

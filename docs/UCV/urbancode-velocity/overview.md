@@ -17,6 +17,10 @@ Must be running DevOps Velocity version 2.0 or later to use the plugin.
 
 ## History
 
+### Version 3.0.2
+
+* **Bug fix**: Resolved an issue that prevented users from adding Jenkins jobs to pipelines using the legacy Jenkins integration. The system now accurately detects the active integration status, eliminating incorrect integration not configured error messages.
+
 ### Version 3.0.1
 
 * **Improving UI logging and Messaging**: Plugin logging information has been improved. Also cross validation of DevOps Velocity instance credentials has been made.
@@ -35,4 +39,4 @@ Must be running DevOps Velocity version 2.0 or later to use the plugin.
 
 |Back to ...||Latest Version|urbancode-velocity |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[3.0.1](https://github.com/jenkinsci/urbancode-velocity-plugin/releases/download/3.0.1/urbancode-velocity-3.0.1.hpi)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[3.0.2](https://github.com/jenkinsci/urbancode-velocity-plugin/releases/download/3.0.2/urbancode-velocity-3.0.2.hpi)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|

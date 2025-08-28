@@ -5,5 +5,5 @@ With this Jenkins plugin, you can run Jenkins jobs as a part of a deployment pla
 
 |Back to ...||Latest Version||||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[3.0.1](https://github.com/jenkinsci/urbancode-velocity-plugin/releases/download/3.0.1/urbancode-velocity-3.0.1.hpi)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[3.0.2](https://github.com/jenkinsci/urbancode-velocity-plugin/releases/download/3.0.2/urbancode-velocity-3.0.2.hpi)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|
 
