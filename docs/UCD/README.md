@@ -1971,7 +1971,7 @@ Nexus is a repository manager, developed by SonaType, designed to store artifact
 
 |Back to ...||Nexus Repository Manager V3 |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](sourceconfig-nexus-v3/README.md)|[6.1179697](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/sourceconfig-nexus-v3/devops-deploy-sourceconfig-nexus-v3-6.1179697.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](sourceconfig-nexus-v3/README.md)|[6.1180968](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/sourceconfig-nexus-v3/devops-deploy-sourceconfig-nexus-v3-6.1180968.zip)|
 
 ## Nexus Source Config
 
