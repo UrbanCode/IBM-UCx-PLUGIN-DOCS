@@ -38,6 +38,10 @@ The previous version of the plugin doesn't support this feature and creates vers
 
 ## History
 
+### Version 6
+
+* RFE-URBANCODE-I-735: Importing versions from raw nexus repository .
+
 ### Version 5
 
 * RFE-URBANCODE-I-598: Updated plugin to support multiple application files import from a Raw   repository in Nexus.
