@@ -26,6 +26,13 @@ IBM DevOps Velocity plug-in images are located in DockerHub. To view available v
 
 ### History
 
+### Version 1.0.12
+
+* **Query Size Limitations**: Added a configurable query size parameter (default 10,000) to getStageChangesSince to handle large datasets reliably and prevent incomplete data or timeouts.
+* **Stage Validation**: Implemented validation logic to ensure only proper start and end stages are extracted for accurate bottleneck analysis.
+* **Lead Time Stage Filtering**: Introduced leadTimeStagesOnly equal to True to include only relevant lead time stages, improving analysis accuracy.
+* **Enhancement**: Updated the Bottleneck plugin Jenkinsfile to align with other plugins Jenkinsfile.
+
 ### Version 1.0.3
 
 * **Removed Manual User Access Key** : From current version onwards this plugin will only support Auto Generated User Access Key feature of Devops Velocity.
@@ -42,4 +49,4 @@ IBM DevOps Velocity plug-in images are located in DockerHub. To view available v
 
 |Back to ...||Latest Version|Bottleneck Detection |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.3-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bottleneck-detection/ucv-ext-bottleneck-detection%3A1.0.3.tar.7z.001)[and 1.0.3-File 2 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bottleneck-detection/ucv-ext-bottleneck-detection%3A1.0.3.tar.7z.002)[and 1.0.3-File 3 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bottleneck-detection/ucv-ext-bottleneck-detection%3A1.0.3.tar.7z.003)[and 1.0.3-File 4 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bottleneck-detection/ucv-ext-bottleneck-detection%3A1.0.3.tar.7z.004)[and 1.0.3-File 5 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bottleneck-detection/ucv-ext-bottleneck-detection%3A1.0.3.tar.7z.005)[and 1.0.3-File 6](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bottleneck-detection/ucv-ext-bottleneck-detection%3A1.0.3.tar.7z.006)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.12-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bottleneck-detection/ucv-ext-bottleneck-detection%3A1.0.12.tar.7z.001)[and 1.0.12-File 2 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bottleneck-detection/ucv-ext-bottleneck-detection%3A1.0.12.tar.7z.002)[and 1.0.12-File 3 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bottleneck-detection/ucv-ext-bottleneck-detection%3A1.0.12.tar.7z.003)[and 1.0.12-File 4 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bottleneck-detection/ucv-ext-bottleneck-detection%3A1.0.12.tar.7z.004)[and 1.0.12-File 5 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bottleneck-detection/ucv-ext-bottleneck-detection%3A1.0.12.tar.7z.005)[and 1.0.12-File 6](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bottleneck-detection/ucv-ext-bottleneck-detection%3A1.0.12.tar.7z.006)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
