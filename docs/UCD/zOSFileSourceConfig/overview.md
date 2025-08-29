@@ -17,6 +17,10 @@ See [Installing plug-ins](https://www.ibm.com/docs/en/devops-deploy/8.1.1?topic=
 
 ## History
 
+### Version 9
+
+* Remove Apache Commons-Lang 2.x resolves finding for non-exploitable CVE-2025-48924
+* Print buztool script messages during failure for diagnosis
 
 ### Version 8
 
