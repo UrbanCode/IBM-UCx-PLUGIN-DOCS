@@ -121,7 +121,8 @@ After you create a component with a version, you can deploy the component from J
    8. Save the step configuration, and then run a build.
 5. A new deployment is displayed in your applications history.
 
-#### Method: Pipeline script
+#### Method: Pipeline script(Create/Update Snapshot of Build Environment) 
+
 
 The following pipeline script automatically starts a deploy process for a successful import.
 
@@ -148,6 +149,32 @@ deployVersions: 'Jenkins:``${BUILD_NUMBER}``', //Versions to deploy. Specify mul
 deployOnlyChanged: false
 ]
 ])
+}``
+
+```
+
+#### Method: Pipeline script(Create As New Snapshot with Component Versions) 
+
+
+The following pipeline script automatically starts a deploy process for a successful import.
+
+```jenkins
+
+node {
+    step([$class: 'UCDeployPublisher',
+        siteName: 'local',
+        deploy: [
+            $class: 'com.urbancode.jenkins.plugins.ucdeploy.DeployHelper$DeployBlock',
+            createSnapshotComponent: [
+                snapshotComponent1: 'new-snap-01'
+            ],
+            deployApp: 'helloApplication',
+            deployEnv: 'helloDeploy',
+            deployProc: 'hello App Process',
+            deployVersions: 'helloWorld:1', // Specify multiple on a new line in the format component:version
+            deployOnlyChanged: false
+        ]
+    ])
 }``
 
 ```
