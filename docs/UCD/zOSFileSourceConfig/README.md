@@ -10,4 +10,4 @@ The z/OS File Source Config plug-in automates uploading data sets, UNIX files an
 
 |          Back to ...          |                                |                                                                Latest Version                                                                 |                         |                           |
 |:-----------------------------:|:------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------:|:-----------------------:|:-------------------------:|
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [8.1174630](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOSFileSourceConfig/ucd-zOSFileSourceConfig-8.1174630.zip) | [Overview](overview.md) | [Downloads](downloads.md) |
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [9.1181052](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOSFileSourceConfig/devops-deploy-zOSFileSourceConfig-9.1181052.zip) | [Overview](overview.md) | [Downloads](downloads.md) |

@@ -17,6 +17,10 @@ See [Installing plug-ins](https://www.ibm.com/docs/en/devops-deploy/8.1.1?topic=
 
 ## History
 
+### Version 9
+
+* Remove Apache Commons-Lang 2.x resolves finding for non-exploitable CVE-2025-48924
+* Print buztool script messages during failure for diagnosis
 
 ### Version 8
 
@@ -55,5 +59,5 @@ See [Installing plug-ins](https://www.ibm.com/docs/en/devops-deploy/8.1.1?topic=
 
 |          Back to ...          |                                |                                                                Latest Version                                                                 |                     |                           |
 |:-----------------------------:|:------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------:|:-------------------------:|
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [8.1174630](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOSFileSourceConfig/ucd-zOSFileSourceConfig-8.1174630.zip) | [Readme](README.md) | [Downloads](downloads.md) |
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [9.1181052](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOSFileSourceConfig/devops-deploy-zOSFileSourceConfig-9.1181052.zip) | [Readme](README.md) | [Downloads](downloads.md) |
 
