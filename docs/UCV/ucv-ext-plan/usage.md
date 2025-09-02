@@ -35,6 +35,7 @@ The following table lists the required fields that you must provide to integrate
 | Integration name | Enter the name for the integration. |
 | URL | Enter the URL of DevOps Plan server. |
 | Team Space | Enter the Team Space Id of DevOps Plan tenant. |
+| Team Id | Loop Id of the DevOps Plan tenant. |
 | Application Name | Enter the name of the DevOps Plan application. |
 | Personal Access Token | Enter the personal access token that you generated in your DevOps Plan account. |
 | Logging level | Select ALL from the drop-down list. |
@@ -192,7 +193,8 @@ Some properties might not be displayed in the user interface, to see all propert
 | --- | --- | --- | --- | --- |
 | URL | String | The URL of the DevOps Plan Application. | Yes | serverUrl |
 | Personal Access Token | Secure | Personal Access Token to authenticate with an application in DevOps Plan. |  Yes | pat |
-| Team Space | String | Team Space Id of the DevOps Plan tenant. | Yes | repo |
+| Team Space | String | Team Space Id of the DevOps Plan tenant. | Yes | teamspaceId |
+| Team Id | String | Loop Id of the DevOps Plan tenant. | No | teamId |
 | Application Name | String | The name of the DevOps Plan Application. | Yes | db |
 | Import issues or work items from a specified number of months | String | Issues or work items are imported for the specified number of months when the plug-in runs for the first time. | No | since |
 
@@ -214,7 +216,8 @@ The following example can be used as a template to include the DevOps Plan plug-
       "_userAccessKey": "<User Access Key>",
       "serverUrl": "<devops-plan-server-url>",
       "pat": "<personal-access-token>",
-      "repo": "<repo>",
+      "teamspaceId": "<teamspaceId>",
+      "teamId": "<teamId>",
       "db": "<db>",
       "since": "<since>"
     }
@@ -237,7 +240,8 @@ The following example can be used as a template to include the DevOps Plan plug-
       "_userAccessKey": "<User Access Key>",
       "serverUrl": "<devops-paln-server-url>",
       "pat": "<personal-access-token>",
-      "repo": "<repo>",
+      "teamspaceId": "<teamspaceId>",
+      "teamId": "<teamId>",
       "db": "<db>",
       "since": "<since>"
     }
@@ -260,7 +264,8 @@ The following example can be used as a template to include the DevOps Plan plug-
       "_userAccessKey": "<User Access Key>",
       "serverUrl": "<devops-plan-server-url>",
       "pat": "<personal-access-token>",
-      "repo": "<repo>",
+      "teamspaceId": "<teamspaceId>",
+      "teamId": "<teamId>",
       "db": "<db>",
       "since": "<since>"
     }
@@ -272,4 +277,4 @@ The following example can be used as a template to include the DevOps Plan plug-
 
 |Back to ...||Latest Version|DevOps Plan |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.1.58-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-compass/ucv-ext-compass%3A1.1.58.tar.7z.001)[and 1.1.58-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-compass/ucv-ext-compass%3A1.1.58.tar.7z.002)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.2.1-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-compass/ucv-ext-compass%3A1.2.1.tar.7z.001)[and 1.2.1-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-compass/ucv-ext-compass%3A1.2.1.tar.7z.002)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
