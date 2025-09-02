@@ -5,13 +5,17 @@ The DevOps Control plug-in provides for integration with a DevOps Control server
 
 ## Compatibility
 
-Must be running IBM DevOps Velocity version 5.0.0 and later to use the plug-in.
+Must be running IBM DevOps Velocity version 5.1.9 and later to use the plug-in.
 
 ## Versions
 
 IBM DevOps Velocity plug-in images are located in DockerHub. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-control/tags).
 
 ## History
+
+### Version 1.1.1
+
+* **Enhancement**: Added teamId and teamspaceId to integration properties for data access control support.
 
 ### Version 1.0.5
 
@@ -27,4 +31,4 @@ IBM DevOps Velocity plug-in images are located in DockerHub. To view available v
 
 |Back to ...||Latest Version|DevOps Control |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.5-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-control/ucv-ext-control%3A1.0.5.tar.7z.001)[and 1.0.5-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-control/ucv-ext-control%3A1.0.5.tar.7z.002)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.1.1-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-control/ucv-ext-control%3A1.1.1.tar.7z.001)[and 1.1.1-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-control/ucv-ext-control%3A1.1.1.tar.7z.002)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
