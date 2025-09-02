@@ -18,6 +18,10 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ## History
 
+### Version 14
+
+URBANCODE-I-660 - Add ability to run sql text in addition to sql files.
+
 ### Version 13
 
 Log4j and Jettison dependency updated.
@@ -56,4 +60,4 @@ This release includes a new step to run SQL scripts using PassTicket authenticat
 
 |          Back to ...          |                                |                                                    Latest Version                                                     |      SQL-JDBC       |||||
 |:-----------------------------:|:------------------------------:|:---------------------------------------------------------------------------------------------------------------------:|:-------------------:| :---: | :---: | :---: | :---: |
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [13.1154072](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SQLJDBC/ucd-SQL-JDBC-13.1154072.zip) | [Readme](README.md) |[Troubleshooting](troubleshooting.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [14.1180493](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SQLJDBC/devops-deploy-SQL-JDBC-14.1180493.zip) | [Readme](README.md) |[Troubleshooting](troubleshooting.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
