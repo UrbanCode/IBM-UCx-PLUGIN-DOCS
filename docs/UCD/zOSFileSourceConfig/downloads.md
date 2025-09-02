@@ -2,6 +2,7 @@
 # z/OS File Source Config - Downloads
 
 To download the plug-in, click the following version-specific links.
+- [devops-deploy-zOSFileSourceConfig-10.1181082.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOSFileSourceConfig/devops-deploy-zOSFileSourceConfig-10.1181082.zip)
 - [devops-deploy-zOSFileSourceConfig-9.1181052.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOSFileSourceConfig/devops-deploy-zOSFileSourceConfig-9.1181052.zip)
 - [devops-deploy-zOSFileSourceConfig-9.1179520.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOSFileSourceConfig/devops-deploy-zOSFileSourceConfig-9.1179520.zip)
 - [ucd-zOSFileSourceConfig-8.1174630.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOSFileSourceConfig/ucd-zOSFileSourceConfig-8.1174630.zip)
@@ -15,4 +16,4 @@ To download the plug-in, click the following version-specific links.
 
 |          Back to ...          |                                |                                                                Latest Version                                                                 |                         |                     |
 |:-----------------------------:|:------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------:|:-----------------------:|:-------------------:|
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [9.1181052](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOSFileSourceConfig/devops-deploy-zOSFileSourceConfig-9.1181052.zip) | [Overview](overview.md) | [Readme](README.md) |
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [10.1181082](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOSFileSourceConfig/devops-deploy-zOSFileSourceConfig-10.1181082.zip) | [Overview](overview.md) | [Readme](README.md) |

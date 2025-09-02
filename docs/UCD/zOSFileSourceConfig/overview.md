@@ -17,6 +17,10 @@ See [Installing plug-ins](https://www.ibm.com/docs/en/devops-deploy/8.1.1?topic=
 
 ## History
 
+### Version 10
+
+* Added support for new buztool parameters
+
 ### Version 9
 
 * Remove Apache Commons-Lang 2.x resolves finding for non-exploitable CVE-2025-48924
@@ -59,5 +63,5 @@ See [Installing plug-ins](https://www.ibm.com/docs/en/devops-deploy/8.1.1?topic=
 
 |          Back to ...          |                                |                                                                Latest Version                                                                 |                     |                           |
 |:-----------------------------:|:------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------:|:-------------------------:|
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [9.1181052](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOSFileSourceConfig/devops-deploy-zOSFileSourceConfig-9.1181052.zip) | [Readme](README.md) | [Downloads](downloads.md) |
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [10.1181082](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOSFileSourceConfig/devops-deploy-zOSFileSourceConfig-10.1181082.zip) | [Readme](README.md) | [Downloads](downloads.md) |
 
