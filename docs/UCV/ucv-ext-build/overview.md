@@ -7,13 +7,17 @@ DevOps Build plug-in for IBM DevOps Velocity synchronizes projects, build proces
 
 The DevOps Build plug-in requires DevOps Build version 7.1.0-1177383 or later.
 
-IBM DevOps Velocity 5.1.0 or later
+IBM DevOps Velocity 5.1.9 or later
 
 ## Versions
 
 IBM DevOps Velocity plug-in images are located in DockerHub and the IBM DevOps Velocity code accesses the version that you select. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-build/tags).
 
 ## History
+
+### Version 1.1.2
+
+* **Enhancement**: Added teamId and teamspaceId in application collection for data access control support.
 
 ### Version 1.0.3
 
@@ -26,4 +30,4 @@ IBM DevOps Velocity plug-in images are located in DockerHub and the IBM DevOps V
 
 |Back to ...||Latest Version|DevOps Build |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All plug-ins](../../index.md)|[Velocity plug-ins](../README.md)|[1.0.3-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-build/ucv-ext-build%3A1.0.3.tar.7z.001)[and 1.0.3-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-build/ucv-ext-build%3A1.0.3.tar.7z.002)|
+|[All plug-ins](../../index.md)|[Velocity plug-ins](../README.md)|[1.1.2-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-build/ucv-ext-build%3A1.1.2.tar.7z.001)[and 1.1.2-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-build/ucv-ext-build%3A1.1.2.tar.7z.002)|
