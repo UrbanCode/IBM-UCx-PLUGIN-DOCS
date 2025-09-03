@@ -5,7 +5,7 @@ The DevOps Test Hub plug-in provides an integration with DevOps Test Hub. This p
 
 ## Compatibility
 
-Must be running DevOps Velocity version 2.5.0 and later to use the plug-in. DevOps Test Hub 10.0.2 and later is supported.
+Must be running DevOps Velocity version 3.0.0 and later to use the plug-in. DevOps Test Hub 10.0.2 and later is supported.
 
 ## Versions
 
@@ -13,6 +13,10 @@ There is no install process for this plug-in. The DevOps Test Hub plug-in is ide
 
 
 ## History
+
+### Version 1.0.31
+
+* **Enhancement**: Enhanced the DevOps Test Hub plugin to adopt new webhook structure.
 
 ### Version 1.0.30
 
@@ -61,4 +65,4 @@ There is no install process for this plug-in. The DevOps Test Hub plug-in is ide
 
 |Back to ...||Latest Version|DevOps Test Hub |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.30-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest-server/ucv-ext-onetest-server%3A1.0.30.tar.7z.001)[and 1.0.30-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest-server/ucv-ext-onetest-server%3A1.0.30.tar.7z.002)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.31-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest-server/ucv-ext-onetest-server%3A1.0.31.tar.7z.001)[and 1.0.31-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest-server/ucv-ext-onetest-server%3A1.0.31.tar.7z.002)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
