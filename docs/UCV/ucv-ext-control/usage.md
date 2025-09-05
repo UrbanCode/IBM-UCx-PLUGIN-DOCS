@@ -86,10 +86,11 @@ Some properties might not be displayed in the user interface, to see all propert
 | Branch | String | DevOps Control repositories branch, the branch to pull commits from. | No | branch |
 | Personal access token | Secure | The token to use to authenticate with the DevOps Control repository. | Yes | token |
 | Additional branches | Array | List of Branches (separated by comma) to collect commits from besides the main one. Leave blank if not needed | No | otherBranches |
+| Team Space Id | String | Team Space Id of the DevOps Control tenant. | No | teamspaceId |
+| Team Id | String | Loop Id of the DevOps Control tenant. | No | teamId |
 | Proxy Server | String | The URL of the proxy server including the port number. | No | proxyServer |
 | Proxy User Name | String | The username used to authenticate with the proxy server. | No | proxyUsername |
 | Proxy Password | String | The password used to authenticate with the proxy server. | No | proxyPassword |
-| User Access Key | Secure | User access key for authentication with this server | No | ucvAccessKey |
 
 ### JSON code example
 
@@ -110,7 +111,7 @@ The following sample code can be used as a template to define the integration wi
         ],
         "apiUrl":"control-api-url",
         "token":"generated-token",
-        "ucvAccessKey":"generated-access-key",
+        "_userAccessKey":"auto-generated-access-key",
         "proxyServer": "*proxy_server_url*",
         "proxyUsername": "*proxy_server_user_name*",
         "proxyPassword": "*proxy_server_password*"
@@ -121,4 +122,4 @@ The following sample code can be used as a template to define the integration wi
 
 |Back to ...||Latest Version|DevOps Control |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.5-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-control/ucv-ext-control%3A1.0.5.tar.7z.001)[and 1.0.5-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-control/ucv-ext-control%3A1.0.5.tar.7z.002)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.1.1-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-control/ucv-ext-control%3A1.1.1.tar.7z.001)[and 1.1.1-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-control/ucv-ext-control%3A1.1.1.tar.7z.002)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

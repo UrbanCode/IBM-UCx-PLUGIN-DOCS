@@ -19,7 +19,6 @@ The DevOps Test Hub plug-in supports endpoint integration which are listed in th
 ## Set Up
 
 You will need to "install" the plug-in in DevOps Velocity. You can do this in one of two ways.
-* Perhaps the easiest way is to create a new Value Stream in DevOps Velocity.
 * You can use the following template for creating your integration
 
     ```
@@ -80,9 +79,19 @@ After going through the "Set Up" portion above, you can send an HTTP POST reques
     (either project name or project id must be specified)
   },
   "test": {
-    "name":"<name of test>",
-    "path":"<path to test>"
-    (either test name or test path must be specified)
+    "name":"<name of test>"
+  },
+  "application": {
+    "name":"<application name>"
+  },
+  "result": {
+    "id": "<test result id>",
+    "status": "<test result status>",
+    "verdict": "<test result verdict>",
+    "startDate": <test result start date>,
+    "endDate": <test result end date>,
+    "duration": <test result duration>,
+    "url": "<test result url>"
   },
   "commitId": "<sha of a commit>" (optional),
   "build": {
@@ -92,6 +101,8 @@ After going through the "Set Up" portion above, you can send an HTTP POST reques
 }
 
 ```
+
+* Following successful integration, test results are categorized into Functional Tests, Unit Tests, API Tests, and Performance Test metrics.
 
 ## Integration
 
@@ -162,4 +173,4 @@ Some properties might not be displayed in the user interface, to see all propert
 
 |Back to ...||Latest Version|DevOps Test Hub |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.30-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest-server/ucv-ext-onetest-server%3A1.0.30.tar.7z.001)[and 1.0.30-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest-server/ucv-ext-onetest-server%3A1.0.30.tar.7z.002)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.32-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest-server/ucv-ext-onetest-server%3A1.0.32.tar.7z.001)[and 1.0.32-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest-server/ucv-ext-onetest-server%3A1.0.32.tar.7z.002)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

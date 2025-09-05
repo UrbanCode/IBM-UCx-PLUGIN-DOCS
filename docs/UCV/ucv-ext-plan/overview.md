@@ -7,7 +7,7 @@ The plug-in imports work items as issues from DevOps Plan server into IBM DevOps
 
 ## Compatibility
 
-Must be running IBM DevOps Velocity version 2.5.0 and later and DevOps plan server 1.0.14 or later.
+Must be running IBM DevOps Velocity version 5.1.9 and later and DevOps plan server 1.0.14 or later.
 
 ## Prerequisites
 
@@ -27,6 +27,14 @@ DevOps Velocity plug-in images are located in DockerHub. To view available versi
 
 ### History
 
+### Version 1.2.2
+
+* **Enhancement**: The plugin has been updated to use an optimized API, enhancing data retrieval and normalization performance. It now runs faster and consistently within the expected time frame.
+
+### Version 1.2.1
+
+* **Enhancement**: Added teamId and teamspaceId for integration properties for data access control support
+
 ### Version 1.1.58
 
 * **Removal of timezone field**: Previously, the timezone was configured during plug-in integration setup in Velocity. This option has now been removed, and the timezone is instead retrieved directly from the API.
@@ -45,4 +53,4 @@ DevOps Velocity plug-in images are located in DockerHub. To view available versi
 
 |Back to ...||Latest Version|DevOps Plan |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.1.58-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-compass/ucv-ext-compass%3A1.1.58.tar.7z.001)[and 1.1.58-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-compass/ucv-ext-compass%3A1.1.58.tar.7z.002)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.2.2-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-compass/ucv-ext-compass%3A1.2.2.tar.7z.001)[and 1.2.2-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-compass/ucv-ext-compass%3A1.2.2.tar.7z.002)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
