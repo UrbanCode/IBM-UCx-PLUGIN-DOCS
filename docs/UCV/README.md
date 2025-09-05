@@ -223,7 +223,7 @@ DevOps Plan is a comprehensive change tracking system for software development e
 
 |Back to ...||Plan |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-plan/README.md)|[1.2.1-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-compass/ucv-ext-compass%3A1.2.1.tar.7z.001)[and 1.2.1-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-compass/ucv-ext-compass%3A1.2.1.tar.7z.002)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-plan/README.md)|[1.2.2-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-compass/ucv-ext-compass%3A1.2.2.tar.7z.001)[and 1.2.2-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-compass/ucv-ext-compass%3A1.2.2.tar.7z.002)|
 
 
 ## DevOps Test
