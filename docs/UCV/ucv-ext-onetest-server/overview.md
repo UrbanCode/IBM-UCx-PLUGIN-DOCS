@@ -14,6 +14,10 @@ There is no install process for this plug-in. The DevOps Test Hub plug-in is ide
 
 ## History
 
+### Version 1.0.32
+
+* Reverted changes related metric field names , removed error column included under failed . Now we have Passed, Failed, Inconclusive fields.
+
 ### Version 1.0.31
 
 * **Enhancement**: Enhanced the DevOps Test Hub plugin to adopt new webhook structure.
@@ -65,4 +69,4 @@ There is no install process for this plug-in. The DevOps Test Hub plug-in is ide
 
 |Back to ...||Latest Version|DevOps Test Hub |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.31-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest-server/ucv-ext-onetest-server%3A1.0.31.tar.7z.001)[and 1.0.31-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest-server/ucv-ext-onetest-server%3A1.0.31.tar.7z.002)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.32-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest-server/ucv-ext-onetest-server%3A1.0.32.tar.7z.001)[and 1.0.32-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest-server/ucv-ext-onetest-server%3A1.0.32.tar.7z.002)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
