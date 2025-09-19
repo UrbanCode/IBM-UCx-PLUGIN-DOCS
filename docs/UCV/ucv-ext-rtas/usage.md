@@ -23,21 +23,21 @@ You will need to "install" the plug-in in IBM DevOps Velocity. You can do this i
     "integrations": [
   {
     "type": "ucv-ext-rtas",
-    "tenant_id": "`<tenant-id>`",
-    "name": "`<integration-name>`",
+    "tenant_id": "<tenant-id>",
+    "name": "<integration-name>",
     "logginglevel": "INFO",
     "properties":{
-      "_userAccessKey": "`<ucv-user-access-key>`",
-      "rtasUrl" : "`<IBM DevOps Test-Hub-url>`",
-      "rtasOfflineToken":"`<IBM DevOps Test-Hub-offline-token>`",
+      "_userAccessKey": "<ucv-user-access-key>",
+      "rtasUrl" : "<IBM DevOps Test-Hub-url>",
+      "rtasOfflineToken":"<IBM DevOps Test-Hub-offline-token>",
       "buildRegExp": "([A-Z]+-[0-9]+)",
-      "workflowId" : "`<value_stream_id>`"
+      "workflowId" : "<value_stream_id>"
         }
     }
     ]
 
     ```
-* In the above example, provide all of your own values for the values inside of `<` `>` brackets.
+* In the above example, provide all of your own values for the values inside of `< >` brackets.
 * The buildRegExp field can be used to map a build to a metric. The tags on the IBM DevOps Test Hub test will be evaluated against the regular expression.
 * For instance, if your buildRegExp is defined as "([A-Z]+-[0-9]+)" and you tag your test with "BUILD-123" this will map the build with ID BUILD-123 in the Velocity server to the newly created metric.
 * For help forming a regular expression based on your build ID, you can test out patterns at the following web page: https://regexr.com
@@ -48,14 +48,14 @@ You will need to "install" the plug-in in IBM DevOps Velocity. You can do this i
 
     {
     "type": "ucv-ext-rtas",
-    "tenant_id": "`<tenant-id>`",
-    "name": "`<integration-name>`",
+    "tenant_id": "<tenant-id>",
+    "name": "<integration-name>",
     "logginglevel": "INFO",
     "properties":{
-        "rtasUrl" : "`<IBM DevOps Test-Hub-url>`",
-        "rtasOfflineToken":"`<IBM DevOps Test-Hub-offline-token>`",
+        "rtasUrl" : "<IBM DevOps Test-Hub-url>",
+        "rtasOfflineToken":"<IBM DevOps Test-Hub-offline-token>",
         "buildRegExp": "([A-Z]+-[0-9]+)",
-        "workflowId" : "`<value_stream_id>`"
+        "workflowId" : "<value_stream_id>"
     }
     }
 
@@ -72,19 +72,19 @@ After going through the "Set Up" portion above, you can send an HTTP POST reques
 
 {
   "project": {
-    "name":"`<name of IBM DevOps Test Hub project>`",
-    "id": "`<id of IBM DevOps Test Hub project>`"
+    "name":"<name of IBM DevOps Test Hub project>",
+    "id": "<id of IBM DevOps Test Hub project>"
     (either project name or project id must be specified)
   },
   "test": {
-    "name":"`<name of test>`",
-    "path":"`<path to test>`"
+    "name":"<name of test>",
+    "path":"<path to test>"
     (either test name or test path must be specified)
   },
-  "commitId": "`<sha of a commit>`" (optional),
+  "commitId": "<sha of a commit>" (optional),
   "build": {
-    "id": "`<id of build in IBM DevOps Velocity>`",
-    "url": "`<url of build in IBM DevOps Velocity>`"
+    "id": "<id of build in IBM DevOps Velocity>",
+    "url": "<url of build in IBM DevOps Velocity>"
   } (optional, this will override buildRegExp if specified)
 }
 
