@@ -5,13 +5,17 @@ The IBM DevOps Deploy plugin for DevOps Velocity synchronizes applications, proc
 
 ## Compatibility
 
-The IBM DevOps Deploy plug-in requires DevOps Velocity version 2.3 or later.
+The IBM DevOps Deploy plug-in requires DevOps Velocity version 5.1.9 or later.
 
 ## Versions
 
 DevOps Velocity plug-in images are located in DockerHub. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-ucd/tags).
 
 ## History
+
+### Version 4.1.1
+
+* **Enhancement**: Added teamId and teamspaceId field to application collection for data access control support.
 
 ### Version 4.0.9
 

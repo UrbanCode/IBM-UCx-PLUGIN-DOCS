@@ -5,7 +5,7 @@ The DevOps Test Hub plug-in provides an integration with DevOps Test Hub. This p
 
 ## Compatibility
 
-Must be running DevOps Velocity version 2.5.0 and later to use the plug-in. DevOps Test Hub 10.0.2 and later is supported.
+Must be running DevOps Velocity version 3.0.0 and later to use the plug-in. DevOps Test Hub 10.0.2 and later is supported.
 
 ## Versions
 
@@ -13,6 +13,14 @@ There is no install process for this plug-in. The DevOps Test Hub plug-in is ide
 
 
 ## History
+
+### Version 1.0.32
+
+* Reverted changes related metric field names , removed error column included under failed . Now we have Passed, Failed, Inconclusive fields.
+
+### Version 1.0.31
+
+* **Enhancement**: Enhanced the DevOps Test Hub plugin to adopt new webhook structure.
 
 ### Version 1.0.30
 
