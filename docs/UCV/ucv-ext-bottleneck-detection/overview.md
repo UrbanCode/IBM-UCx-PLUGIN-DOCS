@@ -26,6 +26,13 @@ IBM DevOps Velocity plug-in images are located in DockerHub. To view available v
 
 ### History
 
+### Version 1.0.12
+
+* **Query Size Limitations**: Added a configurable query size parameter (default 10,000) to getStageChangesSince to handle large datasets reliably and prevent incomplete data or timeouts.
+* **Stage Validation**: Implemented validation logic to ensure only proper start and end stages are extracted for accurate bottleneck analysis.
+* **Lead Time Stage Filtering**: Introduced leadTimeStagesOnly equal to True to include only relevant lead time stages, improving analysis accuracy.
+* **Enhancement**: Updated the Bottleneck plugin Jenkinsfile to align with other plugins Jenkinsfile.
+
 ### Version 1.0.3
 
 * **Removed Manual User Access Key** : From current version onwards this plugin will only support Auto Generated User Access Key feature of Devops Velocity.

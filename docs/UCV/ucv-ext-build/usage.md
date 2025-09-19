@@ -74,17 +74,21 @@ Some properties might not be displayed in the user interface, to see all propert
 | Name | Type | Description | Required | Property Name |
 | --- | --- | --- | --- | --- |
 | DevOps Build Server URL | String | Base URL of the Build server. | yes | baseUrl |
-| Username | String | Username to authenticate with the IBM DevOps Build server. If username and password supplied, access token will be ignored | No | username |
-| Password | Secure | Token to authenticate against IBM DevOps Build. If supplied, username and password can be ignored. | No | password |
-| Access Token | Secure | Token to authenticate against IBM DevOps Build. If supplied, username and password can be ignored. | No | buildToken |
+| Username | String | Username to authenticate with the DevOps Build server. If username and password supplied, access token will be ignored | No | username |
+| Password | Secure | Password to authenticate with the DevOps Build. If username and password supplied, access token will be ignored. | No | password |
+| Access Token | Secure | Token to authenticate against DevOps Build. If supplied, username and password can be ignored. | No | buildToken |
 | Project Name | String | Comma-separated list of project name(s) to import. Example: project1,project2 | yes | projects |
 | Use Build Stamp as version | Boolean | If checked, the build stamp will be used as the version. If unchecked, the build ID will be used as the version. (default value = true) | No | version |
+
+* **Note**:
+* If using username and password, set the username to 'PasswordIsAuthToken' and use the personal access token as the password.
+* If using only an access token, omit the username and password fields and provide just the personal access token as access token.
 
 ### JSON code sample
 
 The following sample code can be used as a template to define the integration within the JSON file for a value stream. Copy and paste the template into the JSON file Integration section and make the appropriate changes.
 
-## Example using the access key 
+## Example using the access key
 
 ```
 integrations": [
@@ -105,6 +109,3 @@ integrations": [
     }
 ]
 ```
-
-|Back to ...||Latest Version|DevOps Build |||
-| :---: | :---: | :---: | :---: | :---: | :---: |

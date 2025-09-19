@@ -17,6 +17,10 @@ Must be running DevOps Velocity version 2.0 or later to use the plugin.
 
 ## History
 
+### Version 3.0.2
+
+* **Bug fix**: Resolved an issue that prevented users from adding Jenkins jobs to pipelines using the legacy Jenkins integration. The system now accurately detects the active integration status, eliminating incorrect integration not configured error messages.
+
 ### Version 3.0.1
 
 * **Improving UI logging and Messaging**: Plugin logging information has been improved. Also cross validation of DevOps Velocity instance credentials has been made.

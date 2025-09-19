@@ -2,6 +2,14 @@
 # Bottleneck Detection - Downloads
 
 To download the plugins, click the following version specific links.
+
+- [ucv-ext-bottleneck-detection:1.0.12.tar.7z.006](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bottleneck-detection/ucv-ext-bottleneck-detection%3A1.0.12.tar.7z.006)
+- [ucv-ext-bottleneck-detection:1.0.12.tar.7z.005](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bottleneck-detection/ucv-ext-bottleneck-detection%3A1.0.12.tar.7z.005)
+- [ucv-ext-bottleneck-detection:1.0.12.tar.7z.004](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bottleneck-detection/ucv-ext-bottleneck-detection%3A1.0.12.tar.7z.004)
+- [ucv-ext-bottleneck-detection:1.0.12.tar.7z.003](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bottleneck-detection/ucv-ext-bottleneck-detection%3A1.0.12.tar.7z.003)
+- [ucv-ext-bottleneck-detection:1.0.12.tar.7z.002](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bottleneck-detection/ucv-ext-bottleneck-detection%3A1.0.12.tar.7z.002)
+- [ucv-ext-bottleneck-detection:1.0.12.tar.7z.001](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bottleneck-detection/ucv-ext-bottleneck-detection%3A1.0.12.tar.7z.001)
+
 - [ucv-ext-bottleneck-detection:1.0.3.tar.7z.006](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bottleneck-detection/ucv-ext-bottleneck-detection%3A1.0.3.tar.7z.006)
 - [ucv-ext-bottleneck-detection:1.0.3.tar.7z.005](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bottleneck-detection/ucv-ext-bottleneck-detection%3A1.0.3.tar.7z.005)
 - [ucv-ext-bottleneck-detection:1.0.3.tar.7z.004](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bottleneck-detection/ucv-ext-bottleneck-detection%3A1.0.3.tar.7z.004)
