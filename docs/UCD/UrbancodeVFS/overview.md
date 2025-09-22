@@ -24,6 +24,7 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 * Update commons-lang to 3.18 resolves finding for non-exploitable CVE-2025-48924
 * Replace pax command with untar for zOS artifacts download
+* Fixed checksum verification failure when hash is less than 64 chars
 
 ### Version 48
 
@@ -129,4 +130,4 @@ This release includes a fix for an issue where the initial character in a file n
 
 |          Back to ...          |                                |                                                          Latest Version                                                           | IBM DevOps Deploy Versioned File Storage |||
 |:-----------------------------:|:------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------:| :---: | :---: |
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [49.1179566](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/UrbancodeVFS/devops-deploy-UrbancodeVFS-49.1179566.zip) |             [Readme](README.md)             |[Steps](steps.md)|[Downloads](downloads.md)|
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [49.1181646](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/UrbancodeVFS/devops-deploy-UrbancodeVFS-49.1181646.zip) |             [Readme](README.md)             |[Steps](steps.md)|[Downloads](downloads.md)|

@@ -98,4 +98,4 @@ Compare artifacts on local machine with inventory.
 
 |          Back to ...          ||         Latest Version         |                                           IBM DevOps Deploy Versioned File Storage                                            |||
 |:-----------------------------:|:------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------:| :---: | :---: | :---: |
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [49.1179566](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/UrbancodeVFS/devops-deploy-UrbancodeVFS-49.1179566.zip) |[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [49.1181646](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/UrbancodeVFS/devops-deploy-UrbancodeVFS-49.1181646.zip) |[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
