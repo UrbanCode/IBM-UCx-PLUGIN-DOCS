@@ -30,6 +30,7 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 * The plugin has been moved from tag **Repositories/Artifact/zOS ExternalArtifactsDownload** to **Utilities/zOS External Artifacts Utility**
 * Replace pax command with untar for zOS artifacts download
 * Added support for creating a merged version for package format v2
+* Fixed checksum verification failure when hash is less than 64 chars
 
 ### Version 12
 

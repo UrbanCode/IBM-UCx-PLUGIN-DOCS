@@ -50,6 +50,9 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 * Support Rollback for non-risky artifacts starting server and agent version 812. See [Non Risky Rollback](https://community.ibm.com/community/user/blogs/bharath-kumar3/2025/06/25/introducing-smarter-zos-rollbacks-in-devops-deploy). 
 * Logging is now consistent under 'Deploy Reports' section in the 'Deploy Datasets and USS files' step
+* Replaced zip extract to Ant UnTar from native Pax command
+* Minor improvements in shell command execution
+* Fixed mismatch of hash values for inventory delta deploy
 
 
 #### Version 97

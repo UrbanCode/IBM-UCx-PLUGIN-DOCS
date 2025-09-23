@@ -24,6 +24,7 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 * Update commons-lang to 3.18 resolves finding for non-exploitable CVE-2025-48924
 * Replace pax command with untar for zOS artifacts download
+* Fixed checksum verification failure when hash is less than 64 chars
 
 ### Version 48
 
