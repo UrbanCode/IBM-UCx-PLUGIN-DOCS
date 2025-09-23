@@ -30,6 +30,7 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 * The plugin has been moved from tag **Repositories/Artifact/zOS ExternalArtifactsDownload** to **Utilities/zOS External Artifacts Utility**
 * Replace pax command with untar for zOS artifacts download
 * Added support for creating a merged version for package format v2
+* Fixed checksum verification failure when hash is less than 64 chars
 
 ### Version 12
 
@@ -88,4 +89,4 @@ Plugin is used to download artifacts from external repository like NEXUS/ARTIFAC
 
 |          Back to ...          |                                |                                                                       Latest Version                                                                        | z/OS External Artifact Repository |                   |                   |                           |
 |:-----------------------------:|:------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------:|:-----------------:|:-----------------:|:-------------------------:|
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [13.1179643](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOS-external-artifact-download/devops-deploy-ExtArtRepo-13.1179643.zip) |        [Readme](README.md)        | [Usage](usage.md) | [Steps](steps.md) | [Downloads](downloads.md) |
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [13.1181645](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOS-external-artifact-download/devops-deploy-ExtArtRepo-13.1181645.zip) |        [Readme](README.md)        | [Usage](usage.md) | [Steps](steps.md) | [Downloads](downloads.md) |
