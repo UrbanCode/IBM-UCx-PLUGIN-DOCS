@@ -70,7 +70,7 @@ The IBM UrbanCode Deploy plug-in provides a full integration between IBM UrbanCo
 
 |Back to ...||IBM UrbanCode Deploy |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ibm-urbancode-deploy/README.md)|[10.1175503](https://github.com/UrbanCode/IBM-UCR-PLUGINS/blob/main/files/ucr-plugin-deploy/ucr-plugin-deploy-10.1175503.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ibm-urbancode-deploy/README.md)|[11.1181219](https://github.com/UrbanCode/IBM-UCR-PLUGINS/blob/main/files/ucr-plugin-deploy/ucr-plugin-deploy-11.1181219.zip)|
 
 ## Jenkins for IBM UrbanCode Release
 

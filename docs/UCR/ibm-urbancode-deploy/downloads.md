@@ -4,6 +4,7 @@ IBM UrbanCode Deploy - Downloads
 
 # Downloads
 
+- [ucr-plugin-deploy-11.1181219.zip](https://github.com/UrbanCode/IBM-UCR-PLUGINS/blob/main/files/ucr-plugin-deploy/ucr-plugin-deploy-11.1181219.zip)
 - [ucr-plugin-deploy-10.1175503.zip](https://github.com/UrbanCode/IBM-UCR-PLUGINS/blob/main/files/ucr-plugin-deploy/ucr-plugin-deploy-10.1175503.zip)
 - [ucr-plugin-deploy-9.1158051.zip](https://github.com/UrbanCode/IBM-UCR-PLUGINS/blob/main/files/ucr-plugin-deploy/ucr-plugin-deploy-9.1158051.zip)
 - [ucr-plugin-deploy-1.1141582.ifix01.zip](https://github.com/UrbanCode/IBM-UCR-PLUGINS/blob/main/files/ucr-plugin-deploy/ucr-plugin-deploy-1.1141582.ifix01.zip)
@@ -18,4 +19,4 @@ IBM UrbanCode Deploy - Downloads
 
 |Back to ...|Latest Version|IBM UrbanCode Deploy ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Release Plugins](../README.md)|[10.1175503](https://github.com/UrbanCode/IBM-UCR-PLUGINS/blob/main/files/ucr-plugin-deploy/ucr-plugin-deploy-10.1175503.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Settings](settings.md)|
+|[All Plugins](../../index.md)|[Release Plugins](../README.md)|[11.1181219](https://github.com/UrbanCode/IBM-UCR-PLUGINS/blob/main/files/ucr-plugin-deploy/ucr-plugin-deploy-11.1181219.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Settings](settings.md)|
