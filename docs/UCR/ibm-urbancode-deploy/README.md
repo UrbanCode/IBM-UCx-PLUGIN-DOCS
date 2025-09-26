@@ -15,11 +15,7 @@ components, component versions, snapshots, environments, deployment processes fr
 management purposes and allow the execution of UrbanCode Deploy deployment processes from IBM UrbanCode Release
 scheduled deployments.
 
-IBM Urbancode Deploy plugin version 9 or earlier requires IBM Urbancode Release version 6.1.1.5 to 7.0.0.3
-
-IBM Urbancode Deploy plugin version 10 or later requires IBM Urbancode Release version 7.0.0.4 or later.
-
 
 |Back to ...||Latest Version|||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Release Plugins](../README.md)|[10.1175503](https://github.com/UrbanCode/IBM-UCR-PLUGINS/blob/main/files/ucr-plugin-deploy/ucr-plugin-deploy-10.1175503.zip)|[Overview](overview.md)|[Usage](usage.md)|[Settings](settings.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Release Plugins](../README.md)|[11.1181219](https://github.com/UrbanCode/IBM-UCR-PLUGINS/blob/main/files/ucr-plugin-deploy/ucr-plugin-deploy-11.1181219.zip)|[Overview](overview.md)|[Usage](usage.md)|[Settings](settings.md)|[Downloads](downloads.md)|
