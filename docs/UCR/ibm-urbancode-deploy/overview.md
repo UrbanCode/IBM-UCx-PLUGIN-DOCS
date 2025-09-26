@@ -35,7 +35,7 @@ plug-ins in UrbanCode").
 
 #### Version 11
 
-New functionality: Fetching application properties is now supported.
+Added support to fetch the application properties.
 
 #### Version 10
 
