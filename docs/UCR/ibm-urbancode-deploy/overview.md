@@ -15,9 +15,11 @@ an IBM UrbanCode Deploy server.
 
 ### Compatibility
 
-IBM Urbancode Deploy plugin version 9 or earlier requires IBM Urbancode Release version 6.1.1.5 to 7.0.0.3
+* IBM Urbancode Deploy plugin version 11 or later requires IBM Urbancode Release version 7.0.0.5 or later.
 
-IBM Urbancode Deploy plugin version 10 or later requires IBM Urbancode Release version 7.0.0.4 or later.
+* IBM Urbancode Deploy plugin version 10 or later requires IBM Urbancode Release version 7.0.0.4 or later.
+
+* IBM Urbancode Deploy plugin version 9 or earlier requires IBM Urbancode Release version 6.1.1.5 to 7.0.0.3.
 
 This plug-in runs on the operating systems
 that UrbanCode Release supports.
@@ -29,6 +31,10 @@ plug-ins in UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops
 plug-ins in UrbanCode").
 
 ### History
+
+#### Version 11
+
+Added support to fetch the application properties.
 
 #### Version 10
 
