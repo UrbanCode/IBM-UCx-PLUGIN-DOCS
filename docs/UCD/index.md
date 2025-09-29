@@ -29,6 +29,13 @@ hero:
 
 features:
 -
+  title: Configuration As Code
+  icon:
+    light: "/runProcess-dark.png"
+    dark: "/runProcess-white.png"
+  details: ""
+  link: "https://urbancode.github.io/plugin-docs-paac/"
+-
   title: 7-Zip
   icon:
     light: "/runProcess-dark.png"
