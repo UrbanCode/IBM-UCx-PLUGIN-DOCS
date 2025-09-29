@@ -22,7 +22,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/7-zip` directory.
     [`/${DEPLOY_BASE_DIR}/7-zip/`]: [
         {
-            text: '7 zip',
+            text: '7-Zip [community plugin]',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/7-zip/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/7-zip/overview` },
@@ -37,7 +37,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/ASOC` directory.
     [`/${DEPLOY_BASE_DIR}/ASOC/`]: [
         {
-            text: 'ASOC',
+            text: 'ASOC [community plugin]',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/ASOC/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/ASOC/overview` },
@@ -51,7 +51,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/AccuRevSourceConfig` directory.
     [`/${DEPLOY_BASE_DIR}/AccuRevSourceConfig/`]: [
         {
-            text: 'AccuRevSourceConfig',
+            text: 'AccuRev SCM',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/AccuRevSourceConfig/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/AccuRevSourceConfig/overview` },
@@ -78,7 +78,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/AmazonEC2` directory.
     [`/${DEPLOY_BASE_DIR}/AmazonEC2/`]: [
         {
-            text: 'AmazonEC2',
+            text: 'Amazon EC2',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/AmazonEC2/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/AmazonEC2/overview` },
@@ -93,7 +93,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/Ant` directory.
     [`/${DEPLOY_BASE_DIR}/Ant/`]: [
         {
-            text: 'Ant',
+            text: 'Apache Ant',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/Ant/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/Ant/overview` },
@@ -108,7 +108,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/Apache` directory.
     [`/${DEPLOY_BASE_DIR}/Apache/`]: [
         {
-            text: 'Apache',
+            text: 'Apache HTTP Server',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/Apache/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/Apache/overview` },
@@ -138,7 +138,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/ArtifactorySourceConfig` directory.
     [`/${DEPLOY_BASE_DIR}/ArtifactorySourceConfig/`]: [
         {
-            text: 'ArtifactorySourceConfig',
+            text: 'Artifactory Source Config',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/ArtifactorySourceConfig/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/ArtifactorySourceConfig/overview` },
@@ -166,7 +166,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/AzureDevopsSourceconfig` directory.
     [`/${DEPLOY_BASE_DIR}/AzureDevopsSourceconfig/`]: [
         {
-            text: 'AzureDevopsSourceconfig',
+            text: 'Azure DevOps Sourceconfig',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/AzureDevopsSourceconfig/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/AzureDevopsSourceconfig/overview` },
@@ -181,7 +181,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/BizTalk` directory.
     [`/${DEPLOY_BASE_DIR}/BizTalk/`]: [
         {
-            text: 'BizTalk',
+            text: 'Microsoft BizTalk',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/BizTalk/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/BizTalk/overview` },
@@ -195,7 +195,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/CICS-CM` directory.
     [`/${DEPLOY_BASE_DIR}/CICS-CM/`]: [
         {
-            text: 'CICS CM',
+            text: 'CICS CM (Beta)',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/CICS-CM/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/CICS-CM/overview` },
@@ -211,7 +211,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/CICS` directory.
     [`/${DEPLOY_BASE_DIR}/CICS/`]: [
         {
-            text: 'CICS',
+            text: 'CICS TS',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/CICS/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/CICS/overview` },
@@ -243,7 +243,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/ClearCaseSourceConfig` directory.
     [`/${DEPLOY_BASE_DIR}/ClearCaseSourceConfig/`]: [
         {
-            text: 'ClearCaseSourceConfig',
+            text: 'IBM Rational ClearCase',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/ClearCaseSourceConfig/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/ClearCaseSourceConfig/overview` },
@@ -258,7 +258,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/Cognos` directory.
     [`/${DEPLOY_BASE_DIR}/Cognos/`]: [
         {
-            text: 'Cognos',
+            text: 'IBM Cognos',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/Cognos/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/Cognos/overview` },
@@ -272,7 +272,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/DBUpgrader` directory.
     [`/${DEPLOY_BASE_DIR}/DBUpgrader/`]: [
         {
-            text: 'DBUpgrader',
+            text: 'IBM DevOps DBUpgrader',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/DBUpgrader/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/DBUpgrader/overview` },
@@ -287,7 +287,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/DeployTools` directory.
     [`/${DEPLOY_BASE_DIR}/DeployTools/`]: [
         {
-            text: 'DeployTools',
+            text: 'IBM DevOps Deploy Tools',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/DeployTools/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/DeployTools/overview` },
@@ -301,7 +301,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/DimensionsSourceConfig` directory.
     [`/${DEPLOY_BASE_DIR}/DimensionsSourceConfig/`]: [
         {
-            text: 'DimensionsSourceConfig',
+            text: 'Dimensions',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/DimensionsSourceConfig/` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/DimensionsSourceConfig/downloads` }
@@ -313,7 +313,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/DockerSourceConfig` directory.
     [`/${DEPLOY_BASE_DIR}/DockerSourceConfig/`]: [
         {
-            text: 'DockerSourceConfig',
+            text: 'Docker Registry',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/DockerSourceConfig/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/DockerSourceConfig/overview` },
@@ -328,7 +328,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/F5` directory.
     [`/${DEPLOY_BASE_DIR}/F5/`]: [
         {
-            text: 'F5',
+            text: 'F5 BIG-IP',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/F5/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/F5/overview` },
@@ -343,7 +343,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/FileNet-CaseManager` directory.
     [`/${DEPLOY_BASE_DIR}/FileNet-CaseManager/`]: [
         {
-            text: 'FileNet CaseManager',
+            text: 'FileNet - IBM Case Manager',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/FileNet-CaseManager/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/FileNet-CaseManager/overview` },
@@ -358,7 +358,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/FileSystemSourceConfig` directory.
     [`/${DEPLOY_BASE_DIR}/FileSystemSourceConfig/`]: [
         {
-            text: 'FileSystemSourceConfig',
+            text: 'File System',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/FileSystemSourceConfig/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/FileSystemSourceConfig/overview` },
@@ -373,7 +373,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/FileSystemVersionedSourceConfig` directory.
     [`/${DEPLOY_BASE_DIR}/FileSystemVersionedSourceConfig/`]: [
         {
-            text: 'FileSystemVersionedSourceConfig',
+            text: 'File System (Versioned)',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/FileSystemVersionedSourceConfig/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/FileSystemVersionedSourceConfig/overview` },
@@ -388,7 +388,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/FileUtils` directory.
     [`/${DEPLOY_BASE_DIR}/FileUtils/`]: [
         {
-            text: 'FileUtils',
+            text: 'File Utils',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/FileUtils/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/FileUtils/overview` },
@@ -404,7 +404,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/GitSourceConfig` directory.
     [`/${DEPLOY_BASE_DIR}/GitSourceConfig/`]: [
         {
-            text: 'GitSourceConfig',
+            text: 'Git',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/GitSourceConfig/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/GitSourceConfig/overview` },
@@ -435,7 +435,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/HCLDevOpsTestHub` directory.
     [`/${DEPLOY_BASE_DIR}/HCLDevOpsTestHub/`]: [
         {
-            text: 'HCLDevOpsTestHub',
+            text: 'HCL DevOps Test Hub',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/HCLDevOpsTestHub/` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/HCLDevOpsTestHub/downloads` }
@@ -447,7 +447,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/HCLDevOpsTestPerf` directory.
     [`/${DEPLOY_BASE_DIR}/HCLDevOpsTestPerf/`]: [
         {
-            text: 'HCLDevOpsTestPerf',
+            text: 'HCL DevOps Test Performance',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/HCLDevOpsTestPerf/` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/HCLDevOpsTestPerf/downloads` }
@@ -459,7 +459,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/HCLDevOpsTestUI` directory.
     [`/${DEPLOY_BASE_DIR}/HCLDevOpsTestUI/`]: [
         {
-            text: 'HCLDevOpsTestUI',
+            text: 'HCL DevOps Test UI',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/HCLDevOpsTestUI/` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/HCLDevOpsTestUI/downloads` }
@@ -471,7 +471,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/HCLDevOpsTestUIWebUI` directory.
     [`/${DEPLOY_BASE_DIR}/HCLDevOpsTestUIWebUI/`]: [
         {
-            text: 'HCLDevOpsTestUIWebUI',
+            text: 'HCL DevOps Test UI WebUI',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/HCLDevOpsTestUIWebUI/` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/HCLDevOpsTestUIWebUI/downloads` }
@@ -483,7 +483,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/HCLDevOpsTestVirtualization` directory.
     [`/${DEPLOY_BASE_DIR}/HCLDevOpsTestVirtualization/`]: [
         {
-            text: 'HCLDevOpsTestVirtualization',
+            text: 'HCL DevOps Test Virtualization',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/HCLDevOpsTestVirtualization/` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/HCLDevOpsTestVirtualization/downloads` }
@@ -495,7 +495,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/HCLOneTestAPI` directory.
     [`/${DEPLOY_BASE_DIR}/HCLOneTestAPI/`]: [
         {
-            text: 'HCLOneTestAPI',
+            text: 'HCL OneTest API',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/HCLOneTestAPI/` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/HCLOneTestAPI/downloads` }
@@ -507,7 +507,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/HCLOneTestPerf` directory.
     [`/${DEPLOY_BASE_DIR}/HCLOneTestPerf/`]: [
         {
-            text: 'HCLOneTestPerf',
+            text: 'HCL OneTest Performance',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/HCLOneTestPerf/` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/HCLOneTestPerf/downloads` }
@@ -519,7 +519,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/HCLOneTestUI` directory.
     [`/${DEPLOY_BASE_DIR}/HCLOneTestUI/`]: [
         {
-            text: 'HCLOneTestUI',
+            text: 'HCL OneTest UI',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/HCLOneTestUI/` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/HCLOneTestUI/downloads` }
@@ -531,7 +531,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/HCLOneTestVirtualization` directory.
     [`/${DEPLOY_BASE_DIR}/HCLOneTestVirtualization/`]: [
         {
-            text: 'HCLOneTestVirtualization',
+            text: 'HCL OneTest Virtualization',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/HCLOneTestVirtualization/` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/HCLOneTestVirtualization/downloads` }
@@ -543,7 +543,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/HCLOneTestWebUI` directory.
     [`/${DEPLOY_BASE_DIR}/HCLOneTestWebUI/`]: [
         {
-            text: 'HCLOneTestWebUI',
+            text: 'HCL OneTest WebUI',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/HCLOneTestWebUI/` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/HCLOneTestWebUI/downloads` }
@@ -555,7 +555,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/HPQualityCenter` directory.
     [`/${DEPLOY_BASE_DIR}/HPQualityCenter/`]: [
         {
-            text: 'HPQualityCenter',
+            text: 'MicroFocus ALM (formerly HP Quality Center)',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/HPQualityCenter/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/HPQualityCenter/overview` },
@@ -571,7 +571,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/IBMDevOpsTestHub` directory.
     [`/${DEPLOY_BASE_DIR}/IBMDevOpsTestHub/`]: [
         {
-            text: 'IBMDevOpsTestHub',
+            text: 'IBM DevOps Test Hub',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/IBMDevOpsTestHub/` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/IBMDevOpsTestHub/downloads` }
@@ -583,7 +583,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/IBMDevOpsTestPerf` directory.
     [`/${DEPLOY_BASE_DIR}/IBMDevOpsTestPerf/`]: [
         {
-            text: 'IBMDevOpsTestPerf',
+            text: 'IBM DevOps Test Performance',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/IBMDevOpsTestPerf/` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/IBMDevOpsTestPerf/downloads` }
@@ -595,7 +595,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/IBMDevOpsTestUI` directory.
     [`/${DEPLOY_BASE_DIR}/IBMDevOpsTestUI/`]: [
         {
-            text: 'IBMDevOpsTestUI',
+            text: 'IBM DevOps Test UI',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/IBMDevOpsTestUI/` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/IBMDevOpsTestUI/downloads` }
@@ -607,7 +607,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/IBMDevOpsTestUIWebUI` directory.
     [`/${DEPLOY_BASE_DIR}/IBMDevOpsTestUIWebUI/`]: [
         {
-            text: 'IBMDevOpsTestUIWebUI',
+            text: 'IBM DevOps Test UI WebUI',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/IBMDevOpsTestUIWebUI/` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/IBMDevOpsTestUIWebUI/downloads` }
@@ -619,7 +619,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/IBMDevOpsTestVirtualization` directory.
     [`/${DEPLOY_BASE_DIR}/IBMDevOpsTestVirtualization/`]: [
         {
-            text: 'IBMDevOpsTestVirtualization',
+            text: 'IBM DevOps Test Virtualization',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/IBMDevOpsTestVirtualization/` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/IBMDevOpsTestVirtualization/downloads` }
@@ -631,7 +631,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/IIS-AdminScripts` directory.
     [`/${DEPLOY_BASE_DIR}/IIS-AdminScripts/`]: [
         {
-            text: 'IIS AdminScripts',
+            text: 'Microsoft IIS AdminScripts',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/IIS-AdminScripts/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/IIS-AdminScripts/overview` },
@@ -645,7 +645,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/IIS-AppCmd` directory.
     [`/${DEPLOY_BASE_DIR}/IIS-AppCmd/`]: [
         {
-            text: 'IIS AppCmd',
+            text: 'Microsoft IIS AppCmd',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/IIS-AppCmd/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/IIS-AppCmd/overview` },
@@ -659,7 +659,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/IIS-MSDeploy` directory.
     [`/${DEPLOY_BASE_DIR}/IIS-MSDeploy/`]: [
         {
-            text: 'IIS MSDeploy',
+            text: 'Microsoft IIS MS-Deploy (Azure App Service)',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/IIS-MSDeploy/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/IIS-MSDeploy/overview` },
@@ -674,7 +674,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/IMSz` directory.
     [`/${DEPLOY_BASE_DIR}/IMSz/`]: [
         {
-            text: 'IMSz',
+            text: 'IBM IMS',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/IMSz/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/IMSz/overview` },
@@ -690,7 +690,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/Informatica` directory.
     [`/${DEPLOY_BASE_DIR}/Informatica/`]: [
         {
-            text: 'Informatica',
+            text: 'Informatica [community plugin]',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/Informatica/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/Informatica/overview` },
@@ -704,7 +704,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/JBoss` directory.
     [`/${DEPLOY_BASE_DIR}/JBoss/`]: [
         {
-            text: 'JBoss',
+            text: 'JBoss Application Server',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/JBoss/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/JBoss/overview` },
@@ -719,7 +719,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/JIRA` directory.
     [`/${DEPLOY_BASE_DIR}/JIRA/`]: [
         {
-            text: 'JIRA',
+            text: 'JIRA for IBM DevOps Deploy',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/JIRA/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/JIRA/overview` },
@@ -734,7 +734,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/LinuxSystemTools` directory.
     [`/${DEPLOY_BASE_DIR}/LinuxSystemTools/`]: [
         {
-            text: 'LinuxSystemTools',
+            text: 'Linux System Tools',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/LinuxSystemTools/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/LinuxSystemTools/overview` },
@@ -749,7 +749,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/MFPFC` directory.
     [`/${DEPLOY_BASE_DIR}/MFPFC/`]: [
         {
-            text: 'MFPFC',
+            text: 'IBM MobileFirst Platform Foundation on IBM Containers',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/MFPFC/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/MFPFC/overview` },
@@ -763,7 +763,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/MSI` directory.
     [`/${DEPLOY_BASE_DIR}/MSI/`]: [
         {
-            text: 'MSI',
+            text: 'Microsoft Software Installer (MSI)',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/MSI/` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/MSI/downloads` }
@@ -790,7 +790,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/MavenSourceConfig` directory.
     [`/${DEPLOY_BASE_DIR}/MavenSourceConfig/`]: [
         {
-            text: 'MavenSourceConfig',
+            text: 'Maven Resolve',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/MavenSourceConfig/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/MavenSourceConfig/overview` },
@@ -805,7 +805,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/MicrosoftSSIS` directory.
     [`/${DEPLOY_BASE_DIR}/MicrosoftSSIS/`]: [
         {
-            text: 'MicrosoftSSIS',
+            text: 'Microsoft SSIS',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/MicrosoftSSIS/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/MicrosoftSSIS/overview` },
@@ -819,7 +819,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/Netscaler` directory.
     [`/${DEPLOY_BASE_DIR}/Netscaler/`]: [
         {
-            text: 'Netscaler',
+            text: 'Citrix NetScaler',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/Netscaler/` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/Netscaler/downloads` }
@@ -831,7 +831,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/OpenShiftSourceConfig` directory.
     [`/${DEPLOY_BASE_DIR}/OpenShiftSourceConfig/`]: [
         {
-            text: 'OpenShiftSourceConfig',
+            text: 'OpenShift for IBM DevOps Deploy',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/OpenShiftSourceConfig/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/OpenShiftSourceConfig/overview` },
@@ -845,7 +845,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/PHPCLI` directory.
     [`/${DEPLOY_BASE_DIR}/PHPCLI/`]: [
         {
-            text: 'PHPCLI',
+            text: 'IBM DevOps PHP CLI Tool [community plugin]',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/PHPCLI/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/PHPCLI/overview` },
@@ -861,7 +861,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/PerforceSourceConfig` directory.
     [`/${DEPLOY_BASE_DIR}/PerforceSourceConfig/`]: [
         {
-            text: 'PerforceSourceConfig',
+            text: 'Perforce Helix',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/PerforceSourceConfig/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/PerforceSourceConfig/overview` },
@@ -876,7 +876,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/PvcsSourceConfig` directory.
     [`/${DEPLOY_BASE_DIR}/PvcsSourceConfig/`]: [
         {
-            text: 'PvcsSourceConfig',
+            text: 'PVCS',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/PvcsSourceConfig/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/PvcsSourceConfig/overview` },
@@ -891,7 +891,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/QTP` directory.
     [`/${DEPLOY_BASE_DIR}/QTP/`]: [
         {
-            text: 'QTP',
+            text: 'HP Unified Functional Testing (QTP)',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/QTP/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/QTP/overview` },
@@ -905,7 +905,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/RAM` directory.
     [`/${DEPLOY_BASE_DIR}/RAM/`]: [
         {
-            text: 'RAM',
+            text: 'IBM Rational Asset Manager',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/RAM/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/RAM/overview` },
@@ -920,7 +920,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/RAMSourceConfig` directory.
     [`/${DEPLOY_BASE_DIR}/RAMSourceConfig/`]: [
         {
-            text: 'RAMSourceConfig',
+            text: 'IBM Rational Asset Manager for IBM DevOps Deploy',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/RAMSourceConfig/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/RAMSourceConfig/overview` },
@@ -935,7 +935,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/RFT-UCD` directory.
     [`/${DEPLOY_BASE_DIR}/RFT-UCD/`]: [
         {
-            text: 'RFT UCD',
+            text: 'IBM Rational Functional Tester (RFT)',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/RFT-UCD/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/RFT-UCD/overview` },
@@ -950,7 +950,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/RFT-WebUI-UCD` directory.
     [`/${DEPLOY_BASE_DIR}/RFT-WebUI-UCD/`]: [
         {
-            text: 'RFT WebUI UCD',
+            text: 'IBM Rational Test Workbench Web UI Tester',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/RFT-WebUI-UCD/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/RFT-WebUI-UCD/overview` },
@@ -965,7 +965,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/RIT-UCD` directory.
     [`/${DEPLOY_BASE_DIR}/RIT-UCD/`]: [
         {
-            text: 'RIT UCD',
+            text: 'IBM Rational Integration Tester (RIT)',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/RIT-UCD/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/RIT-UCD/overview` },
@@ -995,7 +995,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/RPT-UCD` directory.
     [`/${DEPLOY_BASE_DIR}/RPT-UCD/`]: [
         {
-            text: 'RPT UCD',
+            text: 'IBM Rational Performance Tester (RPT)',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/RPT-UCD/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/RPT-UCD/overview` },
@@ -1010,7 +1010,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/RTAS-UCD` directory.
     [`/${DEPLOY_BASE_DIR}/RTAS-UCD/`]: [
         {
-            text: 'RTAS UCD',
+            text: 'IBM Rational Test Automation Server (RTAS)',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/RTAS-UCD/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/RTAS-UCD/overview` },
@@ -1025,7 +1025,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/RTVS-UCD` directory.
     [`/${DEPLOY_BASE_DIR}/RTVS-UCD/`]: [
         {
-            text: 'RTVS UCD',
+            text: 'IBM Rational Test Virtualization Server (RTVS)',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/RTVS-UCD/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/RTVS-UCD/overview` },
@@ -1040,7 +1040,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/Rally` directory.
     [`/${DEPLOY_BASE_DIR}/Rally/`]: [
         {
-            text: 'Rally',
+            text: 'Rally for IBM DevOps Deploy',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/Rally/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/Rally/overview` },
@@ -1054,7 +1054,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/Remedy` directory.
     [`/${DEPLOY_BASE_DIR}/Remedy/`]: [
         {
-            text: 'Remedy',
+            text: 'BMC Remedy Action Request System',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/Remedy/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/Remedy/overview` },
@@ -1068,7 +1068,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/SAP-CTS` directory.
     [`/${DEPLOY_BASE_DIR}/SAP-CTS/`]: [
         {
-            text: 'SAP CTS',
+            text: 'SAP Change and Transport System (CTS)',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/SAP-CTS/` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/SAP-CTS/downloads` }
@@ -1080,7 +1080,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/SQL-JDBC` directory.
     [`/${DEPLOY_BASE_DIR}/SQL-JDBC/`]: [
         {
-            text: 'SQL JDBC',
+            text: 'SQL-JDBC',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/SQL-JDBC/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/SQL-JDBC/overview` },
@@ -1096,7 +1096,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/SQLCmd` directory.
     [`/${DEPLOY_BASE_DIR}/SQLCmd/`]: [
         {
-            text: 'SQLCmd',
+            text: 'Microsoft SQL Server SQLCmd',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/SQLCmd/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/SQLCmd/overview` },
@@ -1111,7 +1111,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/SQLPlus` directory.
     [`/${DEPLOY_BASE_DIR}/SQLPlus/`]: [
         {
-            text: 'SQLPlus',
+            text: 'Oracle SQLPlus',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/SQLPlus/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/SQLPlus/overview` },
@@ -1141,7 +1141,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/ServiceControlManager` directory.
     [`/${DEPLOY_BASE_DIR}/ServiceControlManager/`]: [
         {
-            text: 'ServiceControlManager',
+            text: 'Microsoft Windows Services',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/ServiceControlManager/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/ServiceControlManager/overview` },
@@ -1171,7 +1171,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/Sharepoint` directory.
     [`/${DEPLOY_BASE_DIR}/Sharepoint/`]: [
         {
-            text: 'Sharepoint',
+            text: 'Microsoft SharePoint',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/Sharepoint/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/Sharepoint/overview` },
@@ -1200,7 +1200,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/Subversion-export` directory.
     [`/${DEPLOY_BASE_DIR}/Subversion-export/`]: [
         {
-            text: 'Subversion export',
+            text: 'Subversion-Export',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/Subversion-export/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/Subversion-export/overview` },
@@ -1215,7 +1215,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/SubversionSourceConfig` directory.
     [`/${DEPLOY_BASE_DIR}/SubversionSourceConfig/`]: [
         {
-            text: 'SubversionSourceConfig',
+            text: 'Subversion',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/SubversionSourceConfig/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/SubversionSourceConfig/overview` },
@@ -1230,7 +1230,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/SystemInformation` directory.
     [`/${DEPLOY_BASE_DIR}/SystemInformation/`]: [
         {
-            text: 'SystemInformation',
+            text: 'System Information',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/SystemInformation/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/SystemInformation/overview` },
@@ -1244,7 +1244,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/TFS-SourceConfig` directory.
     [`/${DEPLOY_BASE_DIR}/TFS-SourceConfig/`]: [
         {
-            text: 'TFS SourceConfig',
+            text: 'Microsoft TFS (Team Foundation Server)',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/TFS-SourceConfig/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/TFS-SourceConfig/overview` },
@@ -1259,7 +1259,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/TFS_SCM-SourceConfig` directory.
     [`/${DEPLOY_BASE_DIR}/TFS_SCM-SourceConfig/`]: [
         {
-            text: 'TFS_SCM SourceConfig',
+            text: 'Microsoft TFS_SCM (Team Foundation Server)',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/TFS_SCM-SourceConfig/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/TFS_SCM-SourceConfig/overview` },
@@ -1275,7 +1275,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/TeamCitySourceConfig` directory.
     [`/${DEPLOY_BASE_DIR}/TeamCitySourceConfig/`]: [
         {
-            text: 'TeamCitySourceConfig',
+            text: 'TeamCity',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/TeamCitySourceConfig/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/TeamCitySourceConfig/overview` },
@@ -1290,7 +1290,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/Tomcat` directory.
     [`/${DEPLOY_BASE_DIR}/Tomcat/`]: [
         {
-            text: 'Tomcat',
+            text: 'Apache Tomcat',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/Tomcat/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/Tomcat/overview` },
@@ -1305,7 +1305,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/UrbanCodePackageManager` directory.
     [`/${DEPLOY_BASE_DIR}/UrbanCodePackageManager/`]: [
         {
-            text: 'UrbanCodePackageManager',
+            text: 'IBM DevOps Package Manager',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/UrbanCodePackageManager/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/UrbanCodePackageManager/overview` },
@@ -1319,7 +1319,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/UrbancodeVFS` directory.
     [`/${DEPLOY_BASE_DIR}/UrbancodeVFS/`]: [
         {
-            text: 'UrbancodeVFS',
+            text: 'IBM DevOps Deploy Versioned File Storage',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/UrbancodeVFS/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/UrbancodeVFS/overview` },
@@ -1333,7 +1333,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/WLDeploy` directory.
     [`/${DEPLOY_BASE_DIR}/WLDeploy/`]: [
         {
-            text: 'WLDeploy',
+            text: 'Oracle WebLogic WLDeploy',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/WLDeploy/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/WLDeploy/overview` },
@@ -1348,7 +1348,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/WSRR` directory.
     [`/${DEPLOY_BASE_DIR}/WSRR/`]: [
         {
-            text: 'WSRR',
+            text: 'IBM WebSphere Service Registry and Repository',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/WSRR/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/WSRR/overview` },
@@ -1363,7 +1363,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/WebLogic-WLST` directory.
     [`/${DEPLOY_BASE_DIR}/WebLogic-WLST/`]: [
         {
-            text: 'WebLogic WLST',
+            text: 'Oracle WebLogic Scripting Tool (WLST)',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/WebLogic-WLST/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/WebLogic-WLST/overview` },
@@ -1377,7 +1377,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/WebLogicSecurityMgmt` directory.
     [`/${DEPLOY_BASE_DIR}/WebLogicSecurityMgmt/`]: [
         {
-            text: 'WebLogicSecurityMgmt',
+            text: 'Oracle WebLogic Server Security Management',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/WebLogicSecurityMgmt/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/WebLogicSecurityMgmt/overview` },
@@ -1393,7 +1393,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/WebSphereBPM` directory.
     [`/${DEPLOY_BASE_DIR}/WebSphereBPM/`]: [
         {
-            text: 'WebSphereBPM',
+            text: 'IBM Business Process Manager (WebSphere BPM)',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/WebSphereBPM/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/WebSphereBPM/overview` },
@@ -1408,7 +1408,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/WebSphereBPMSourceConfig` directory.
     [`/${DEPLOY_BASE_DIR}/WebSphereBPMSourceConfig/`]: [
         {
-            text: 'WebSphereBPMSourceConfig',
+            text: 'IBM Business Process Manager (WebSphere BPM) for IBM DevOps Deploy',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/WebSphereBPMSourceConfig/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/WebSphereBPMSourceConfig/overview` },
@@ -1423,7 +1423,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/WebSphereCommerce` directory.
     [`/${DEPLOY_BASE_DIR}/WebSphereCommerce/`]: [
         {
-            text: 'WebSphereCommerce',
+            text: 'IBM WebSphere Commerce',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/WebSphereCommerce/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/WebSphereCommerce/overview` },
@@ -1438,7 +1438,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/WebSphereConfiguration` directory.
     [`/${DEPLOY_BASE_DIR}/WebSphereConfiguration/`]: [
         {
-            text: 'WebSphereConfiguration',
+            text: 'WebSphere Application Server - Configure',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/WebSphereConfiguration/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/WebSphereConfiguration/overview` },
@@ -1457,7 +1457,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/WebSphereLiberty` directory.
     [`/${DEPLOY_BASE_DIR}/WebSphereLiberty/`]: [
         {
-            text: 'WebSphereLiberty',
+            text: 'IBM WebSphere Liberty',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/WebSphereLiberty/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/WebSphereLiberty/overview` },
@@ -1473,7 +1473,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/WebSphereMQ` directory.
     [`/${DEPLOY_BASE_DIR}/WebSphereMQ/`]: [
         {
-            text: 'WebSphereMQ',
+            text: 'IBM-MQ',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/WebSphereMQ/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/WebSphereMQ/overview` },
@@ -1487,7 +1487,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/WebSphereMessageBroker-CMP` directory.
     [`/${DEPLOY_BASE_DIR}/WebSphereMessageBroker-CMP/`]: [
         {
-            text: 'WebSphereMessageBroker CMP',
+            text: 'IBM Integration Bus (formerly WebSphere Message Broker) - CMP',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/WebSphereMessageBroker-CMP/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/WebSphereMessageBroker-CMP/overview` },
@@ -1503,7 +1503,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/WebSpherePortal` directory.
     [`/${DEPLOY_BASE_DIR}/WebSpherePortal/`]: [
         {
-            text: 'WebSpherePortal',
+            text: 'IBM WebSphere Portal',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/WebSpherePortal/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/WebSpherePortal/overview` },
@@ -1519,7 +1519,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/Websphere` directory.
     [`/${DEPLOY_BASE_DIR}/Websphere/`]: [
         {
-            text: 'Websphere',
+            text: 'WebSphere Application Server - Deployment',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/Websphere/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/Websphere/overview` },
@@ -1537,7 +1537,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/WinRSAgentInstall` directory.
     [`/${DEPLOY_BASE_DIR}/WinRSAgentInstall/`]: [
         {
-            text: 'WinRSAgentInstall',
+            text: 'WinRS Agent Install',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/WinRSAgentInstall/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/WinRSAgentInstall/overview` },
@@ -1551,7 +1551,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/WindowsFailoverCluster` directory.
     [`/${DEPLOY_BASE_DIR}/WindowsFailoverCluster/`]: [
         {
-            text: 'WindowsFailoverCluster',
+            text: 'Microsoft Windows Failover Clusters',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/WindowsFailoverCluster/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/WindowsFailoverCluster/overview` },
@@ -1565,7 +1565,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/WindowsSystemTools` directory.
     [`/${DEPLOY_BASE_DIR}/WindowsSystemTools/`]: [
         {
-            text: 'WindowsSystemTools',
+            text: 'Microsoft Windows System Tools',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/WindowsSystemTools/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/WindowsSystemTools/overview` },
@@ -1581,7 +1581,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/actifio` directory.
     [`/${DEPLOY_BASE_DIR}/actifio/`]: [
         {
-            text: 'Actifio',
+            text: 'Actifio [partner plugin]',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/actifio/` }
             ]
@@ -1592,7 +1592,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/air-plugin-CASCM` directory.
     [`/${DEPLOY_BASE_DIR}/air-plugin-CASCM/`]: [
         {
-            text: 'Air plugin CASCM',
+            text: 'CA SCM (formerly Harvest)',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/air-plugin-CASCM/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/air-plugin-CASCM/overview` },
@@ -1606,7 +1606,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/air-plugin-RTC-scm` directory.
     [`/${DEPLOY_BASE_DIR}/air-plugin-RTC-scm/`]: [
         {
-            text: 'Air plugin RTC scm',
+            text: 'IBM Rational Team Concert - SCM',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/air-plugin-RTC-scm/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/air-plugin-RTC-scm/overview` },
@@ -1621,7 +1621,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/air-worklight` directory.
     [`/${DEPLOY_BASE_DIR}/air-worklight/`]: [
         {
-            text: 'Air worklight',
+            text: 'IBM MobileFirst Platform (formerly Worklight)',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/air-worklight/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/air-worklight/overview` },
@@ -1652,7 +1652,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/apache-hadoop` directory.
     [`/${DEPLOY_BASE_DIR}/apache-hadoop/`]: [
         {
-            text: 'Apache hadoop',
+            text: 'Apache Hadoop [community plugin]',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/apache-hadoop/` }
             ]
@@ -1663,7 +1663,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/apiconnect` directory.
     [`/${DEPLOY_BASE_DIR}/apiconnect/`]: [
         {
-            text: 'Apiconnect',
+            text: 'IBM API Connect',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/apiconnect/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/apiconnect/overview` },
@@ -1680,7 +1680,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/apple-xcode` directory.
     [`/${DEPLOY_BASE_DIR}/apple-xcode/`]: [
         {
-            text: 'Apple xcode',
+            text: 'Apple Xcode [community plugin]',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/apple-xcode/` }
             ]
@@ -1691,7 +1691,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/apprenda` directory.
     [`/${DEPLOY_BASE_DIR}/apprenda/`]: [
         {
-            text: 'Apprenda',
+            text: 'Apprenda [partner plugin]',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/apprenda/` }
             ]
@@ -1702,7 +1702,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/appscan` directory.
     [`/${DEPLOY_BASE_DIR}/appscan/`]: [
         {
-            text: 'Appscan',
+            text: 'IBM AppScan Enterprise',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/appscan/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/appscan/overview` },
@@ -1716,7 +1716,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/argocd` directory.
     [`/${DEPLOY_BASE_DIR}/argocd/`]: [
         {
-            text: 'Argocd',
+            text: 'Argo CD',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/argocd/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/argocd/overview` },
@@ -1745,7 +1745,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/avnet-talos` directory.
     [`/${DEPLOY_BASE_DIR}/avnet-talos/`]: [
         {
-            text: 'Avnet talos',
+            text: 'Avnet Talos [partner plugin]',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/avnet-talos/` }
             ]
@@ -1756,7 +1756,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/aws-lambda` directory.
     [`/${DEPLOY_BASE_DIR}/aws-lambda/`]: [
         {
-            text: 'Aws lambda',
+            text: 'Amazon Web Services (AWS) Lambda [community plugin]',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/aws-lambda/` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/aws-lambda/downloads` }
@@ -1768,7 +1768,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/bigfix` directory.
     [`/${DEPLOY_BASE_DIR}/bigfix/`]: [
         {
-            text: 'Bigfix',
+            text: 'IBM BigFix',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/bigfix/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/bigfix/overview` },
@@ -1782,7 +1782,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/bluemix-autoscale` directory.
     [`/${DEPLOY_BASE_DIR}/bluemix-autoscale/`]: [
         {
-            text: 'Bluemix autoscale',
+            text: 'IBM Bluemix Auto-Scaling',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/bluemix-autoscale/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/bluemix-autoscale/overview` },
@@ -1796,7 +1796,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/box` directory.
     [`/${DEPLOY_BASE_DIR}/box/`]: [
         {
-            text: 'Box',
+            text: 'Box [community plugin]',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/box/` }
             ]
@@ -1807,7 +1807,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/cloud-foundry-ibm-containers` directory.
     [`/${DEPLOY_BASE_DIR}/cloud-foundry-ibm-containers/`]: [
         {
-            text: 'Cloud foundry ibm containers',
+            text: 'IBM Containers',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/cloud-foundry-ibm-containers/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/cloud-foundry-ibm-containers/overview` },
@@ -1822,7 +1822,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/cloud-foundry` directory.
     [`/${DEPLOY_BASE_DIR}/cloud-foundry/`]: [
         {
-            text: 'Cloud foundry',
+            text: 'Cloud Foundry [community plugin]',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/cloud-foundry/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/cloud-foundry/overview` },
@@ -1838,7 +1838,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/cloudant` directory.
     [`/${DEPLOY_BASE_DIR}/cloudant/`]: [
         {
-            text: 'Cloudant',
+            text: 'Cloudant [community plugin]',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/cloudant/` }
             ]
@@ -1849,7 +1849,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/cognos-analytics` directory.
     [`/${DEPLOY_BASE_DIR}/cognos-analytics/`]: [
         {
-            text: 'Cognos analytics',
+            text: 'IBM Cognos Analytics',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/cognos-analytics/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/cognos-analytics/overview` },
@@ -1864,7 +1864,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/cyberark` directory.
     [`/${DEPLOY_BASE_DIR}/cyberark/`]: [
         {
-            text: 'Cyberark',
+            text: 'CyberArk [partner plugin]',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/cyberark/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/cyberark/overview` },
@@ -1878,7 +1878,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/datapower` directory.
     [`/${DEPLOY_BASE_DIR}/datapower/`]: [
         {
-            text: 'Datapower',
+            text: 'IBM DataPower Configuration Manager',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/datapower/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/datapower/overview` },
@@ -1893,7 +1893,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/datastage` directory.
     [`/${DEPLOY_BASE_DIR}/datastage/`]: [
         {
-            text: 'Datastage',
+            text: 'IBM InfoSphere DataStage',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/datastage/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/datastage/overview` },
@@ -1908,7 +1908,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/datical-db` directory.
     [`/${DEPLOY_BASE_DIR}/datical-db/`]: [
         {
-            text: 'Datical db',
+            text: 'Datical DB [partner plugin]',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/datical-db/` }
             ]
@@ -1919,7 +1919,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/dbmaestro` directory.
     [`/${DEPLOY_BASE_DIR}/dbmaestro/`]: [
         {
-            text: 'Dbmaestro',
+            text: 'DBmaestro [partner plugin]',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/dbmaestro/` }
             ]
@@ -1930,7 +1930,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/docker-compose` directory.
     [`/${DEPLOY_BASE_DIR}/docker-compose/`]: [
         {
-            text: 'Docker compose',
+            text: 'Docker Compose',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/docker-compose/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/docker-compose/overview` },
@@ -1944,7 +1944,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/docker-plugin` directory.
     [`/${DEPLOY_BASE_DIR}/docker-${DEPLOY_BASE_DIR}/`]: [
         {
-            text: 'Docker plugin',
+            text: 'Docker',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/docker-${DEPLOY_BASE_DIR}/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/docker-${DEPLOY_BASE_DIR}/overview` },
@@ -1958,7 +1958,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/eggplant` directory.
     [`/${DEPLOY_BASE_DIR}/eggplant/`]: [
         {
-            text: 'Eggplant',
+            text: 'eggPlant [partner plugin]',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/eggplant/` }
             ]
@@ -1969,7 +1969,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/general-utilities` directory.
     [`/${DEPLOY_BASE_DIR}/general-utilities/`]: [
         {
-            text: 'General utilities',
+            text: 'IBM DevOps Deploy General Utilites',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/general-utilities/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/general-utilities/overview` },
@@ -1984,7 +1984,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/git-install` directory.
     [`/${DEPLOY_BASE_DIR}/git-install/`]: [
         {
-            text: 'Git install',
+            text: 'Git Install [community plugin]',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/git-install/` }
             ]
@@ -1995,7 +1995,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/gitlab-generic-packages` directory.
     [`/${DEPLOY_BASE_DIR}/gitlab-generic-packages/`]: [
         {
-            text: 'Gitlab generic packages',
+            text: 'GitLab-Generic-Packages',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/gitlab-generic-packages/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/gitlab-generic-packages/overview` },
@@ -2010,7 +2010,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/gitlab-sourceconfig-generic-packages` directory.
     [`/${DEPLOY_BASE_DIR}/gitlab-sourceconfig-generic-packages/`]: [
         {
-            text: 'Gitlab sourceconfig generic packages',
+            text: 'GitLab-Sourceconfig-Generic-Packages',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/gitlab-sourceconfig-generic-packages/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/gitlab-sourceconfig-generic-packages/overview` },
@@ -2025,7 +2025,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/hp-loadrunner` directory.
     [`/${DEPLOY_BASE_DIR}/hp-loadrunner/`]: [
         {
-            text: 'Hp loadrunner',
+            text: 'HP LoadRunner',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/hp-loadrunner/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/hp-loadrunner/overview` },
@@ -2040,7 +2040,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/ibm-ace` directory.
     [`/${DEPLOY_BASE_DIR}/ibm-ace/`]: [
         {
-            text: 'Ibm ace',
+            text: 'App Connect Enterprise',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/ibm-ace/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/ibm-ace/overview` },
@@ -2055,7 +2055,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/ibm-db2-for-z-os-package` directory.
     [`/${DEPLOY_BASE_DIR}/ibm-db2-for-z-os-package/`]: [
         {
-            text: 'Ibm db2 for z os package',
+            text: 'IBM Db2 for z/OS Package',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/ibm-db2-for-z-os-package/` }
             ]
@@ -2066,7 +2066,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/ibm-globalization-pipeline` directory.
     [`/${DEPLOY_BASE_DIR}/ibm-globalization-pipeline/`]: [
         {
-            text: 'Ibm globalization pipeline',
+            text: 'IBM Globalization Pipeline [community plugin]',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/ibm-globalization-pipeline/` }
             ]
@@ -2077,7 +2077,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/ibm-installation-manager` directory.
     [`/${DEPLOY_BASE_DIR}/ibm-installation-manager/`]: [
         {
-            text: 'Ibm installation manager',
+            text: 'IBM Installation Manager',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/ibm-installation-manager/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/ibm-installation-manager/overview` },
@@ -2090,7 +2090,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/ibm-instana` directory.
     [`/${DEPLOY_BASE_DIR}/ibm-instana/`]: [
         {
-            text: 'Ibm instana',
+            text: 'IBM Instana',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/ibm-instana/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/ibm-instana/overview` },
@@ -2105,7 +2105,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/ibm-maas360` directory.
     [`/${DEPLOY_BASE_DIR}/ibm-maas360/`]: [
         {
-            text: 'Ibm maas360',
+            text: 'IBM MaaS360 [community plugin]',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/ibm-maas360/` }
             ]
@@ -2116,7 +2116,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/ibm-maximo` directory.
     [`/${DEPLOY_BASE_DIR}/ibm-maximo/`]: [
         {
-            text: 'Ibm maximo',
+            text: 'IBM Maximo',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/ibm-maximo/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/ibm-maximo/overview` },
@@ -2131,7 +2131,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/ibm-mq-for-z-os-generate-mqsc-commands` directory.
     [`/${DEPLOY_BASE_DIR}/ibm-mq-for-z-os-generate-mqsc-commands/`]: [
         {
-            text: 'Ibm mq for z os generate mqsc commands',
+            text: 'IBM MQ for z/OS - Generate MQSC Commands [community plugin]',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/ibm-mq-for-z-os-generate-mqsc-commands/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/ibm-mq-for-z-os-generate-mqsc-commands/overview` },
@@ -2145,7 +2145,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/ibm-odm-source-config` directory.
     [`/${DEPLOY_BASE_DIR}/ibm-odm-source-config/`]: [
         {
-            text: 'Ibm odm source config',
+            text: 'IBM Operational Decision Manager (ODM) Source Config',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/ibm-odm-source-config/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/ibm-odm-source-config/overview` },
@@ -2160,7 +2160,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/ibm-odm` directory.
     [`/${DEPLOY_BASE_DIR}/ibm-odm/`]: [
         {
-            text: 'Ibm odm',
+            text: 'IBM Operational Decision Manager (ODM)',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/ibm-odm/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/ibm-odm/overview` },
@@ -2175,7 +2175,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/ibm-rational-automation-framework-for-websphere` directory.
     [`/${DEPLOY_BASE_DIR}/ibm-rational-automation-framework-for-websphere/`]: [
         {
-            text: 'Ibm rational automation framework for websphere',
+            text: 'IBM Rational Automation Framework for WebSphere [community plugin]',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/ibm-rational-automation-framework-for-websphere/` }
             ]
@@ -2186,7 +2186,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/ibm-rational-clearquest` directory.
     [`/${DEPLOY_BASE_DIR}/ibm-rational-clearquest/`]: [
         {
-            text: 'Ibm rational clearquest',
+            text: 'IBM Rational ClearQuest [community plugin]',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/ibm-rational-clearquest/` }
             ]
@@ -2197,7 +2197,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/ibm-rational-quality-manager-rqm` directory.
     [`/${DEPLOY_BASE_DIR}/ibm-rational-quality-manager-rqm/`]: [
         {
-            text: 'Ibm rational quality manager rqm',
+            text: 'IBM Rational Quality Manager (RQM)',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/ibm-rational-quality-manager-rqm/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/ibm-rational-quality-manager-rqm/overview` },
@@ -2212,7 +2212,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/ibm-rational-team-concert-build` directory.
     [`/${DEPLOY_BASE_DIR}/ibm-rational-team-concert-build/`]: [
         {
-            text: 'Ibm rational team concert build',
+            text: 'IBM Rational Team Concert - Build',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/ibm-rational-team-concert-build/` }
             ]
@@ -2223,7 +2223,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/ibm-sterling-b2b-integrator` directory.
     [`/${DEPLOY_BASE_DIR}/ibm-sterling-b2b-integrator/`]: [
         {
-            text: 'Ibm sterling b2b integrator',
+            text: 'IBM Sterling B2B Integrator [community plugin]',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/ibm-sterling-b2b-integrator/` }
             ]
@@ -2234,7 +2234,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/ibm-vdp` directory.
     [`/${DEPLOY_BASE_DIR}/ibm-vdp/`]: [
         {
-            text: 'Ibm vdp',
+            text: 'IBM VDP [partner plugin]',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/ibm-vdp/` }
             ]
@@ -2245,7 +2245,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/ibm-workload-automation` directory.
     [`/${DEPLOY_BASE_DIR}/ibm-workload-automation/`]: [
         {
-            text: 'Ibm workload automation',
+            text: 'IBM Workload Automation [community plugin]',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/ibm-workload-automation/` }
             ]
@@ -2256,7 +2256,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/iis-configuration` directory.
     [`/${DEPLOY_BASE_DIR}/iis-configuration/`]: [
         {
-            text: 'Iis configuration',
+            text: 'Microsoft IIS - Configure',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/iis-configuration/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/iis-configuration/overview` },
@@ -2272,7 +2272,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/infosphere-isd` directory.
     [`/${DEPLOY_BASE_DIR}/infosphere-isd/`]: [
         {
-            text: 'Infosphere isd',
+            text: 'InfoSphere-ISD',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/infosphere-isd/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/infosphere-isd/overview` },
@@ -2301,7 +2301,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/jboss-on` directory.
     [`/${DEPLOY_BASE_DIR}/jboss-on/`]: [
         {
-            text: 'Jboss on',
+            text: 'JBoss-ON [community plugin]',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/jboss-on/` }
             ]
@@ -2312,7 +2312,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/jenkins-job-manager` directory.
     [`/${DEPLOY_BASE_DIR}/jenkins-job-manager/`]: [
         {
-            text: 'Jenkins job manager',
+            text: 'Jenkins Job Manager [community plugin]',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/jenkins-job-manager/` }
             ]
@@ -2323,7 +2323,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/jenkins-pipeline-ud-plugin` directory.
     [`/${DEPLOY_BASE_DIR}/jenkins-pipeline-ud-${DEPLOY_BASE_DIR}/`]: [
         {
-            text: 'Jenkins pipeline ud plugin',
+            text: 'Jenkins Pipeline',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/jenkins-pipeline-ud-${DEPLOY_BASE_DIR}/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/jenkins-pipeline-ud-${DEPLOY_BASE_DIR}/overview` },
@@ -2337,7 +2337,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/jenkins-ud-plugin` directory.
     [`/${DEPLOY_BASE_DIR}/jenkins-ud-${DEPLOY_BASE_DIR}/`]: [
         {
-            text: 'Jenkins ud plugin',
+            text: 'Jenkins Publisher',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/jenkins-ud-${DEPLOY_BASE_DIR}/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/jenkins-ud-${DEPLOY_BASE_DIR}/overview` },
@@ -2366,7 +2366,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/liquibase` directory.
     [`/${DEPLOY_BASE_DIR}/liquibase/`]: [
         {
-            text: 'Liquibase',
+            text: 'Liquibase [community plugin]',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/liquibase/` }
             ]
@@ -2377,7 +2377,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/logigear-testarchitect` directory.
     [`/${DEPLOY_BASE_DIR}/logigear-testarchitect/`]: [
         {
-            text: 'Logigear testarchitect',
+            text: 'LogiGear TestArchitect [community plugin]',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/logigear-testarchitect/` }
             ]
@@ -2388,7 +2388,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/mesos-marathon` directory.
     [`/${DEPLOY_BASE_DIR}/mesos-marathon/`]: [
         {
-            text: 'Mesos marathon',
+            text: 'Mesos Marathon',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/mesos-marathon/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/mesos-marathon/overview` },
@@ -2402,7 +2402,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/microsoft-visual-studio-team-services-vsts` directory.
     [`/${DEPLOY_BASE_DIR}/microsoft-visual-studio-team-services-vsts/`]: [
         {
-            text: 'Microsoft visual studio team services vsts',
+            text: 'Microsoft Visual Studio Team Services (VSTS) [partner plugin]',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/microsoft-visual-studio-team-services-vsts/` }
             ]
@@ -2427,7 +2427,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/new-relic` directory.
     [`/${DEPLOY_BASE_DIR}/new-relic/`]: [
         {
-            text: 'New relic',
+            text: 'New Relic [community plugin]',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/new-relic/` }
             ]
@@ -2438,7 +2438,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/nexus-source-config` directory.
     [`/${DEPLOY_BASE_DIR}/nexus-source-config/`]: [
         {
-            text: 'Nexus source config',
+            text: 'Nexus Source Config',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/nexus-source-config/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/nexus-source-config/overview` },
@@ -2467,7 +2467,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/node-js` directory.
     [`/${DEPLOY_BASE_DIR}/node-js/`]: [
         {
-            text: 'Node js',
+            text: 'Node.js [community plugin]',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/node-js/` }
             ]
@@ -2478,7 +2478,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/node-red` directory.
     [`/${DEPLOY_BASE_DIR}/node-red/`]: [
         {
-            text: 'Node red',
+            text: 'Node-RED [community plugin]',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/node-red/` }
             ]
@@ -2489,7 +2489,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/nuget-source-config` directory.
     [`/${DEPLOY_BASE_DIR}/nuget-source-config/`]: [
         {
-            text: 'Nuget source config',
+            text: 'NuGet',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/nuget-source-config/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/nuget-source-config/overview` },
@@ -2504,7 +2504,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/onetest-server` directory.
     [`/${DEPLOY_BASE_DIR}/onetest-server/`]: [
         {
-            text: 'Onetest server',
+            text: 'HCL OneTest Server',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/onetest-server/` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/onetest-server/downloads` }
@@ -2516,7 +2516,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/openshift` directory.
     [`/${DEPLOY_BASE_DIR}/openshift/`]: [
         {
-            text: 'Openshift',
+            text: 'OpenShift',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/openshift/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/openshift/overview` },
@@ -2531,7 +2531,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/optim` directory.
     [`/${DEPLOY_BASE_DIR}/optim/`]: [
         {
-            text: 'Optim',
+            text: 'IBM InfoSphere Optim',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/optim/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/optim/overview` },
@@ -2545,7 +2545,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/plugin-air-Android` directory.
     [`/${DEPLOY_BASE_DIR}/plugin-air-Android/`]: [
         {
-            text: 'Plugin air Android',
+            text: 'Google Android SDK',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/plugin-air-Android/` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/plugin-air-Android/downloads` }
@@ -2557,7 +2557,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/plugin-air-OSB-Configuration-Management` directory.
     [`/${DEPLOY_BASE_DIR}/plugin-air-OSB-Configuration-Management/`]: [
         {
-            text: 'Plugin air OSB Configuration Management',
+            text: 'Oracle Service Bus Configuration Management',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/plugin-air-OSB-Configuration-Management/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/plugin-air-OSB-Configuration-Management/overview` },
@@ -2571,7 +2571,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/plugin-air-RTC-WorkItems` directory.
     [`/${DEPLOY_BASE_DIR}/plugin-air-RTC-WorkItems/`]: [
         {
-            text: 'Plugin air RTC WorkItems',
+            text: 'IBM Rational Team Concert Work Items',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/plugin-air-RTC-WorkItems/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/plugin-air-RTC-WorkItems/overview` },
@@ -2585,7 +2585,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/plugin-air-TFS-WorkItems` directory.
     [`/${DEPLOY_BASE_DIR}/plugin-air-TFS-WorkItems/`]: [
         {
-            text: 'Plugin air TFS WorkItems',
+            text: 'Microsoft TFS Work Items',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/plugin-air-TFS-WorkItems/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/plugin-air-TFS-WorkItems/overview` },
@@ -2600,7 +2600,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/plugin-air-WLI-Resource-Management` directory.
     [`/${DEPLOY_BASE_DIR}/plugin-air-WLI-Resource-Management/`]: [
         {
-            text: 'Plugin air WLI Resource Management',
+            text: 'Oracle WebLogic Integration Resource Management',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/plugin-air-WLI-Resource-Management/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/plugin-air-WLI-Resource-Management/overview` },
@@ -2616,7 +2616,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/plugin-air-WLS-Resource-Management` directory.
     [`/${DEPLOY_BASE_DIR}/plugin-air-WLS-Resource-Management/`]: [
         {
-            text: 'Plugin air WLS Resource Management',
+            text: 'Oracle WebLogic Server Resource Management',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/plugin-air-WLS-Resource-Management/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/plugin-air-WLS-Resource-Management/overview` },
@@ -2630,7 +2630,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/plugin-air-WebLogic-Application-Deployment` directory.
     [`/${DEPLOY_BASE_DIR}/plugin-air-WebLogic-Application-Deployment/`]: [
         {
-            text: 'Plugin air WebLogic Application Deployment',
+            text: 'Oracle WebLogic Application Deployment',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/plugin-air-WebLogic-Application-Deployment/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/plugin-air-WebLogic-Application-Deployment/overview` },
@@ -2645,7 +2645,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/powershell-integration` directory.
     [`/${DEPLOY_BASE_DIR}/powershell-integration/`]: [
         {
-            text: 'Powershell integration',
+            text: 'PowerShell',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/powershell-integration/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/powershell-integration/overview` },
@@ -2661,7 +2661,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/property-utils` directory.
     [`/${DEPLOY_BASE_DIR}/property-utils/`]: [
         {
-            text: 'Property utils',
+            text: 'Property Utils [community plugin]',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/property-utils/` }
             ]
@@ -2672,7 +2672,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/puppet` directory.
     [`/${DEPLOY_BASE_DIR}/puppet/`]: [
         {
-            text: 'Puppet',
+            text: 'Puppet [community plugin]',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/puppet/` }
             ]
@@ -2683,7 +2683,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/resource-utilities` directory.
     [`/${DEPLOY_BASE_DIR}/resource-utilities/`]: [
         {
-            text: 'Resource utilities',
+            text: 'Resource Utilities',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/resource-utilities/` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/resource-utilities/downloads` }
@@ -2710,7 +2710,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/send-smtp-email` directory.
     [`/${DEPLOY_BASE_DIR}/send-smtp-email/`]: [
         {
-            text: 'Send smtp email',
+            text: 'Send SMTP Email',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/send-smtp-email/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/send-smtp-email/overview` },
@@ -2725,7 +2725,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/siebel` directory.
     [`/${DEPLOY_BASE_DIR}/siebel/`]: [
         {
-            text: 'Siebel',
+            text: 'Siebel [community plugin]',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/siebel/` }
             ]
@@ -2736,7 +2736,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/skytap-automation-pack` directory.
     [`/${DEPLOY_BASE_DIR}/skytap-automation-pack/`]: [
         {
-            text: 'Skytap automation pack',
+            text: 'Skytap Automation Pack [partner plugin]',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/skytap-automation-pack/` }
             ]
@@ -2747,7 +2747,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/slack` directory.
     [`/${DEPLOY_BASE_DIR}/slack/`]: [
         {
-            text: 'Slack',
+            text: 'Slack [community plugin]',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/slack/` }
             ]
@@ -2758,7 +2758,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/sourceconfig-github-release` directory.
     [`/${DEPLOY_BASE_DIR}/sourceconfig-github-release/`]: [
         {
-            text: 'Sourceconfig github release',
+            text: 'GitHub-Release',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/sourceconfig-github-release/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/sourceconfig-github-release/overview` },
@@ -2772,7 +2772,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/sourceconfig-nexus-v3` directory.
     [`/${DEPLOY_BASE_DIR}/sourceconfig-nexus-v3/`]: [
         {
-            text: 'Sourceconfig nexus v3',
+            text: 'Nexus Repository Manager V3',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/sourceconfig-nexus-v3/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/sourceconfig-nexus-v3/overview` },
@@ -2787,7 +2787,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/sourceconfig-npm` directory.
     [`/${DEPLOY_BASE_DIR}/sourceconfig-npm/`]: [
         {
-            text: 'Sourceconfig npm',
+            text: 'NPM',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/sourceconfig-npm/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/sourceconfig-npm/overview` },
@@ -2816,7 +2816,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/text-utility` directory.
     [`/${DEPLOY_BASE_DIR}/text-utility/`]: [
         {
-            text: 'Text utility',
+            text: 'Text Utility [community plugin]',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/text-utility/` }
             ]
@@ -2827,7 +2827,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/tibco` directory.
     [`/${DEPLOY_BASE_DIR}/tibco/`]: [
         {
-            text: 'Tibco',
+            text: 'TIBCO [partner plugin]',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/tibco/` }
             ]
@@ -2838,7 +2838,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/uBuild` directory.
     [`/${DEPLOY_BASE_DIR}/uBuild/`]: [
         {
-            text: 'UBuild',
+            text: 'IBM DevOps Build',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/uBuild/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/uBuild/overview` },
@@ -2853,7 +2853,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/uBuildSourceConfig` directory.
     [`/${DEPLOY_BASE_DIR}/uBuildSourceConfig/`]: [
         {
-            text: 'UBuildSourceConfig',
+            text: 'IBM DevOps uBuild',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/uBuildSourceConfig/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/uBuildSourceConfig/overview` },
@@ -2868,7 +2868,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/uDeploy-Application` directory.
     [`/${DEPLOY_BASE_DIR}/uDeploy-Application/`]: [
         {
-            text: 'UDeploy Application',
+            text: 'IBM DevOps Deploy Applications',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/uDeploy-Application/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/uDeploy-Application/overview` },
@@ -2883,7 +2883,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/uDeploy-Component` directory.
     [`/${DEPLOY_BASE_DIR}/uDeploy-Component/`]: [
         {
-            text: 'UDeploy Component',
+            text: 'IBM DevOps Deploy Components',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/uDeploy-Component/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/uDeploy-Component/overview` },
@@ -2898,7 +2898,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/uDeploy-Environment` directory.
     [`/${DEPLOY_BASE_DIR}/uDeploy-Environment/`]: [
         {
-            text: 'UDeploy Environment',
+            text: 'IBM DevOps Deploy Environments',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/uDeploy-Environment/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/uDeploy-Environment/overview` },
@@ -2913,7 +2913,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/uDeploy-Process` directory.
     [`/${DEPLOY_BASE_DIR}/uDeploy-Process/`]: [
         {
-            text: 'UDeploy Process',
+            text: 'IBM DevOps Deploy Process',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/uDeploy-Process/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/uDeploy-Process/overview` },
@@ -2928,7 +2928,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/uDeploy-Resource` directory.
     [`/${DEPLOY_BASE_DIR}/uDeploy-Resource/`]: [
         {
-            text: 'UDeploy Resource',
+            text: 'IBM DevOps Deploy Resources',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/uDeploy-Resource/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/uDeploy-Resource/overview` },
@@ -2943,7 +2943,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/uDeploy-System` directory.
     [`/${DEPLOY_BASE_DIR}/uDeploy-System/`]: [
         {
-            text: 'UDeploy System',
+            text: 'IBM DevOps Deploy System',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/uDeploy-System/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/uDeploy-System/overview` },
@@ -2957,7 +2957,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/uDeploy-Version` directory.
     [`/${DEPLOY_BASE_DIR}/uDeploy-Version/`]: [
         {
-            text: 'UDeploy Version',
+            text: 'IBM DevOps Deploy Versions',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/uDeploy-Version/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/uDeploy-Version/overview` },
@@ -2971,7 +2971,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/uDeployConfigManagement` directory.
     [`/${DEPLOY_BASE_DIR}/uDeployConfigManagement/`]: [
         {
-            text: 'UDeployConfigManagement',
+            text: 'IBM DevOps Deploy Configuration Management',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/uDeployConfigManagement/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/uDeployConfigManagement/overview` },
@@ -2986,7 +2986,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/ucr-plugin` directory.
     [`/${DEPLOY_BASE_DIR}/ucr-${DEPLOY_BASE_DIR}/`]: [
         {
-            text: 'Ucr plugin',
+            text: 'IBM DevOps Release',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/ucr-${DEPLOY_BASE_DIR}/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/ucr-${DEPLOY_BASE_DIR}/overview` },
@@ -3001,7 +3001,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/venafi` directory.
     [`/${DEPLOY_BASE_DIR}/venafi/`]: [
         {
-            text: 'Venafi',
+            text: 'Venafi [community plugin]',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/venafi/` }
             ]
@@ -3012,7 +3012,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/vmware-airwatch` directory.
     [`/${DEPLOY_BASE_DIR}/vmware-airwatch/`]: [
         {
-            text: 'Vmware airwatch',
+            text: 'VMware AirWatch [community plugin]',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/vmware-airwatch/` }
             ]
@@ -3023,7 +3023,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/web-utilities` directory.
     [`/${DEPLOY_BASE_DIR}/web-utilities/`]: [
         {
-            text: 'Web utilities',
+            text: 'Web Utilities',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/web-utilities/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/web-utilities/overview` },
@@ -3038,7 +3038,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/webseal` directory.
     [`/${DEPLOY_BASE_DIR}/webseal/`]: [
         {
-            text: 'Webseal',
+            text: 'IBM Security Access Manager (WebSEAL) [community plugin]',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/webseal/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/webseal/overview` },
@@ -3052,7 +3052,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/websphere-install` directory.
     [`/${DEPLOY_BASE_DIR}/websphere-install/`]: [
         {
-            text: 'Websphere install',
+            text: 'WebSphere Application Server - Install',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/websphere-install/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/websphere-install/overview` },
@@ -3067,7 +3067,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/zOS-external-artifact-download` directory.
     [`/${DEPLOY_BASE_DIR}/zOS-external-artifact-download/`]: [
         {
-            text: 'ZOS external artifact download',
+            text: 'z/OS External Artifact Repository',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/zOS-external-artifact-download/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/zOS-external-artifact-download/overview` },
@@ -3082,7 +3082,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/zOSFileSourceConfig` directory.
     [`/${DEPLOY_BASE_DIR}/zOSFileSourceConfig/`]: [
         {
-            text: 'ZOSFileSourceConfig',
+            text: 'z/OS File Source Config',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/zOSFileSourceConfig/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/zOSFileSourceConfig/overview` },
@@ -3095,7 +3095,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/zos-dataset-writer` directory.
     [`/${DEPLOY_BASE_DIR}/zos-dataset-writer/`]: [
         {
-            text: 'Zos dataset writer',
+            text: 'z/OS Dataset Writer',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/zos-dataset-writer/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/zos-dataset-writer/overview` },
@@ -3110,7 +3110,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/zos-deploy` directory.
     [`/${DEPLOY_BASE_DIR}/zos-deploy/`]: [
         {
-            text: 'Zos deploy',
+            text: 'z/OS Utility',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/zos-deploy/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/zos-deploy/overview` },
@@ -3126,7 +3126,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/zos-ftp` directory.
     [`/${DEPLOY_BASE_DIR}/zos-ftp/`]: [
         {
-            text: 'Zos ftp',
+            text: 'z/OS FTP Utility',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/zos-ftp/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/zos-ftp/overview` },
@@ -3140,7 +3140,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/zos-ibm-integration-bus-ucd` directory.
     [`/${DEPLOY_BASE_DIR}/zos-ibm-integration-bus-ucd/`]: [
         {
-            text: 'Zos ibm integration bus ucd',
+            text: 'IBM Integration Bus (IIB) plugin Deploy step for zOS',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/zos-ibm-integration-bus-ucd/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/zos-ibm-integration-bus-ucd/overview` },
@@ -3155,7 +3155,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/zos-multi-generate-artifact-info` directory.
     [`/${DEPLOY_BASE_DIR}/zos-multi-generate-artifact-info/`]: [
         {
-            text: 'Zos multi generate artifact info',
+            text: 'z/OS Multi Generate Artifact Information',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/zos-multi-generate-artifact-info/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/zos-multi-generate-artifact-info/overview` },
@@ -3170,7 +3170,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/zos-replacetokens-uss` directory.
     [`/${DEPLOY_BASE_DIR}/zos-replacetokens-uss/`]: [
         {
-            text: 'Zos replacetokens uss',
+            text: 'z/OS USS Utility [Deprecated]',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/zos-replacetokens-uss/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/zos-replacetokens-uss/overview` },
@@ -3185,7 +3185,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/zos-rexx` directory.
     [`/${DEPLOY_BASE_DIR}/zos-rexx/`]: [
         {
-            text: 'Zos rexx',
+            text: 'z/OS Rexx Executor',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/zos-rexx/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/zos-rexx/overview` },
@@ -3200,7 +3200,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/zosmf` directory.
     [`/${DEPLOY_BASE_DIR}/zosmf/`]: [
         {
-            text: 'Zosmf',
+            text: 'z/OS Management Facility',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/zosmf/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/zosmf/overview` },
