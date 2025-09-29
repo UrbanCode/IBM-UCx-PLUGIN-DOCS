@@ -34,7 +34,7 @@ features:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "https://urbancode.github.io/plugin-docs-paac/"
+  link: "cac/"
 -
   title: 7-Zip
   icon:

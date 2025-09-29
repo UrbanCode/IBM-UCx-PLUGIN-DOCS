@@ -2,6 +2,22 @@ import type { DefaultTheme } from 'vitepress';
 import { DEPLOY_BASE_DIR } from '../constants';
 
 export const ucd: DefaultTheme.Sidebar = {
+
+    // This sidebar gets displayed when a user
+    // is on `${DEPLOY_BASE_DIR}/cac` directory.
+    [`/${DEPLOY_BASE_DIR}/cac/`]: [
+        {
+            text: 'Configuration As Code',
+            items: [
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/cac/` },
+                { text: 'Integrations', link: `/${DEPLOY_BASE_DIR}/cac/integrations` },
+                { text: 'Limitations', link: `/${DEPLOY_BASE_DIR}/cac/limitations` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/cac/usage` },
+                { text: 'Download', link: `/${DEPLOY_BASE_DIR}/cac/download` }
+            ]
+        }
+    ],
+
     // This sidebar gets displayed when a user
     // is on `${DEPLOY_BASE_DIR}/7-zip` directory.
     [`/${DEPLOY_BASE_DIR}/7-zip/`]: [
