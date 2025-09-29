@@ -6,8 +6,8 @@ hero:
   name: "IBM DevOps Velocity"
   text: "Plugins Documentation"
   image:
-    light: "velocity_black.png"
-    dark: "velocity_white.png"
+    light: "/velocity_black.png"
+    dark: "/velocity_white.png"
     alt: "DevOps Velocity"
   actions:
     - theme: brand
