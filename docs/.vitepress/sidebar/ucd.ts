@@ -13,7 +13,7 @@ export const ucd: DefaultTheme.Sidebar = {
                 { text: 'Integrations', link: `/${DEPLOY_BASE_DIR}/cac/integrations` },
                 { text: 'Limitations', link: `/${DEPLOY_BASE_DIR}/cac/limitations` },
                 { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/cac/usage` },
-                { text: 'Download', link: `/${DEPLOY_BASE_DIR}/cac/download` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/cac/downloads` }
             ]
         }
     ],
