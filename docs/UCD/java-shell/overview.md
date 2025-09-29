@@ -1,7 +1,7 @@
 
 # z/OS Shell - Overview
 
-> **Deprecation Notice**: The z/OS Shell plugin is deprecated. It is recommended to use the [Shell plugin](../Shell/README.md) instead.
+> **Deprecation Notice**: The z/OS Shell plugin is deprecated. It is recommended to use the [Shell plugin](../Shell/index.md) instead.
 
 The z/OS Shell plug-in includes steps that automate running commands on the target system. With the Shell plug-in, you can run custom shell scripts during the deployment process.
 

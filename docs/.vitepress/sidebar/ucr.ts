@@ -8,7 +8,7 @@ export const ucr: DefaultTheme.Sidebar = {
         {
             text: 'Deployment Reports', // Changed title
             items: [
-                { text: 'About', link: `${RELEASE_BASE_DIR}/DeployReport/README` },
+                { text: 'About', link: `${RELEASE_BASE_DIR}/DeployReport/` },
                 { text: 'Overview', link: `${RELEASE_BASE_DIR}/DeployReport/overview` },
                 { text: 'Usage', link: `${RELEASE_BASE_DIR}/DeployReport/usage` },
                 { text: 'Downloads', link: `${RELEASE_BASE_DIR}/DeployReport/downloads` },
@@ -23,7 +23,7 @@ export const ucr: DefaultTheme.Sidebar = {
         {
             text: 'Rational Team Concert v6', // Changed title
             items: [
-                { text: 'About', link: `${RELEASE_BASE_DIR}/RTC/README` },
+                { text: 'About', link: `${RELEASE_BASE_DIR}/RTC/` },
                 { text: 'Overview', link: `${RELEASE_BASE_DIR}/RTC/overview` },
                 { text: 'Usage', link: `${RELEASE_BASE_DIR}/RTC/usage` },
                 { text: 'Downloads', link: `${RELEASE_BASE_DIR}/RTC/downloads` },
@@ -38,7 +38,7 @@ export const ucr: DefaultTheme.Sidebar = {
         {
             text: 'Rally', // Changed title
             items: [
-                { text: 'About', link: `${RELEASE_BASE_DIR}/Rally/README` },
+                { text: 'About', link: `${RELEASE_BASE_DIR}/Rally/` },
                 { text: 'Overview', link: `${RELEASE_BASE_DIR}/Rally/overview` },
                 { text: 'Usage', link: `${RELEASE_BASE_DIR}/Rally/usage` },
                 { text: 'Downloads', link: `${RELEASE_BASE_DIR}/Rally/downloads` },
@@ -53,7 +53,7 @@ export const ucr: DefaultTheme.Sidebar = {
         {
             text: 'IBM UrbanCode Deploy', // Changed title
             items: [
-                { text: 'About', link: `${RELEASE_BASE_DIR}/ibm-urbancode-deploy/README` },
+                { text: 'About', link: `${RELEASE_BASE_DIR}/ibm-urbancode-deploy/` },
                 { text: 'Overview', link: `${RELEASE_BASE_DIR}/ibm-urbancode-deploy/overview` },
                 { text: 'Usage', link: `${RELEASE_BASE_DIR}/ibm-urbancode-deploy/usage` },
                 { text: 'Downloads', link: `${RELEASE_BASE_DIR}/ibm-urbancode-deploy/downloads` },
@@ -68,7 +68,7 @@ export const ucr: DefaultTheme.Sidebar = {
         {
             text: 'ServiceNow', // Changed title
             items: [
-                { text: 'About', link: `${RELEASE_BASE_DIR}/servicenow-4/README` },
+                { text: 'About', link: `${RELEASE_BASE_DIR}/servicenow-4/` },
                 { text: 'Overview', link: `${RELEASE_BASE_DIR}/servicenow-4/overview` },
                 { text: 'Usage', link: `${RELEASE_BASE_DIR}/servicenow-4/usage` },
                 { text: 'Steps', link: `${RELEASE_BASE_DIR}/servicenow-4/steps` }
@@ -82,7 +82,7 @@ export const ucr: DefaultTheme.Sidebar = {
         {
             text: 'Jenkins for IBM UrbanCode Release', // Changed title
             items: [
-                { text: 'About', link: `${RELEASE_BASE_DIR}/ucr-jenkins-ci/README` },
+                { text: 'About', link: `${RELEASE_BASE_DIR}/ucr-jenkins-ci/` },
                 { text: 'Overview', link: `${RELEASE_BASE_DIR}/ucr-jenkins-ci/overview` },
                 { text: 'Usage', link: `${RELEASE_BASE_DIR}/ucr-jenkins-ci/usage` },
                 { text: 'Steps', link: `${RELEASE_BASE_DIR}/ucr-jenkins-ci/steps` },
@@ -97,7 +97,7 @@ export const ucr: DefaultTheme.Sidebar = {
         {
             text: 'Ansible Tower', // Changed title
             items: [
-                { text: 'About', link: `${RELEASE_BASE_DIR}/ucr-plugin-ansible/README` },
+                { text: 'About', link: `${RELEASE_BASE_DIR}/ucr-plugin-ansible/` },
                 { text: 'Overview', link: `${RELEASE_BASE_DIR}/ucr-plugin-ansible/overview` },
                 { text: 'Usage', link: `${RELEASE_BASE_DIR}/ucr-plugin-ansible/usage` },
                 { text: 'Steps', link: `${RELEASE_BASE_DIR}/ucr-plugin-ansible/steps` },
@@ -112,7 +112,7 @@ export const ucr: DefaultTheme.Sidebar = {
         {
             text: 'HP Quality Center (ALM)', // Changed title
             items: [
-                { text: 'About', link: `${RELEASE_BASE_DIR}/ucr-plugin-hp-alm/README` },
+                { text: 'About', link: `${RELEASE_BASE_DIR}/ucr-plugin-hp-alm/` },
                 { text: 'Overview', link: `${RELEASE_BASE_DIR}/ucr-plugin-hp-alm/overview` },
                 { text: 'Downloads', link: `${RELEASE_BASE_DIR}/ucr-plugin-hp-alm/downloads` },
                 { text: 'Settings', link: `${RELEASE_BASE_DIR}/ucr-plugin-hp-alm/settings` } // Other items
@@ -126,7 +126,7 @@ export const ucr: DefaultTheme.Sidebar = {
         {
             text: 'Jira for IBM UrbanCode Release', // Changed title
             items: [
-                { text: 'About', link: `${RELEASE_BASE_DIR}/ucr-plugin-jira/README` },
+                { text: 'About', link: `${RELEASE_BASE_DIR}/ucr-plugin-jira/` },
                 { text: 'Overview', link: `${RELEASE_BASE_DIR}/ucr-plugin-jira/overview` },
                 { text: 'Downloads', link: `${RELEASE_BASE_DIR}/ucr-plugin-jira/downloads` },
                 { text: 'Settings', link: `${RELEASE_BASE_DIR}/ucr-plugin-jira/settings` } // Other items
@@ -140,7 +140,7 @@ export const ucr: DefaultTheme.Sidebar = {
         {
             text: 'CA Nolio', // Changed title
             items: [
-                { text: 'About', link: `${RELEASE_BASE_DIR}/ucr-plugin-nolio/README` },
+                { text: 'About', link: `${RELEASE_BASE_DIR}/ucr-plugin-nolio/` },
                 { text: 'Overview', link: `${RELEASE_BASE_DIR}/ucr-plugin-nolio/overview` },
                 { text: 'Downloads', link: `${RELEASE_BASE_DIR}/ucr-plugin-nolio/downloads` }
             ]
@@ -153,7 +153,7 @@ export const ucr: DefaultTheme.Sidebar = {
         {
             text: 'Slack for IBM UrbanCode Release', // Changed title
             items: [
-                { text: 'About', link: `${RELEASE_BASE_DIR}/ucr-plugin-slack/README` },
+                { text: 'About', link: `${RELEASE_BASE_DIR}/ucr-plugin-slack/` },
                 { text: 'Overview', link: `${RELEASE_BASE_DIR}/ucr-plugin-slack/overview` },
                 { text: 'Usage', link: `${RELEASE_BASE_DIR}/ucr-plugin-slack/usage` },
                 { text: 'Steps', link: `${RELEASE_BASE_DIR}/ucr-plugin-slack/steps` },
@@ -168,7 +168,7 @@ export const ucr: DefaultTheme.Sidebar = {
         {
             text: 'Microsoft Team Foundation Server (TFS)', // Changed title
             items: [
-                { text: 'About', link: `${RELEASE_BASE_DIR}/ucr-plugin-tfs/README` },
+                { text: 'About', link: `${RELEASE_BASE_DIR}/ucr-plugin-tfs/` },
                 { text: 'Overview', link: `${RELEASE_BASE_DIR}/ucr-plugin-tfs/overview` },
                 { text: 'Downloads', link: `${RELEASE_BASE_DIR}/ucr-plugin-tfs/downloads` },
                 { text: 'Settings', link: `${RELEASE_BASE_DIR}/ucr-plugin-tfs/settings` } // Other items
@@ -182,7 +182,7 @@ export const ucr: DefaultTheme.Sidebar = {
         {
             text: 'XL Deploy', // Changed title
             items: [
-                { text: 'About', link: `${RELEASE_BASE_DIR}/ucr-xl-deploy/README` },
+                { text: 'About', link: `${RELEASE_BASE_DIR}/ucr-xl-deploy/` },
                 { text: 'Overview', link: `${RELEASE_BASE_DIR}/ucr-xl-deploy/overview` },
                 { text: 'Usage', link: `${RELEASE_BASE_DIR}/ucr-xl-deploy/usage` },
                 { text: 'Steps', link: `${RELEASE_BASE_DIR}/ucr-xl-deploy/steps` },

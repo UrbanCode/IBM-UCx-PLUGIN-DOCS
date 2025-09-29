@@ -1,7 +1,7 @@
 
 # z/OS Shell - Steps
 
-> **Deprecation Notice**: The z/OS Shell plugin is deprecated. It is recommended to use the [Shell plugin](../Shell/README.md) instead.
+> **Deprecation Notice**: The z/OS Shell plugin is deprecated. It is recommended to use the [Shell plugin](../Shell/index.md) instead.
 
 ## Process steps in the Java Shell plug-in
 

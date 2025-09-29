@@ -34,1602 +34,1602 @@ features:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: "Community Plugin"
-  link: "UCD/7-zip/README"
+  link: "7-zip/"
 -
   title: AccuRev SCM
   icon:
     light: "/configure-dark.png"
     dark: "/configure-white.png"
   details: ""
-  link: "UCD/AccuRevSourceConfig/README"
+  link: "AccuRevSourceConfig/"
 -
   title: Actifio
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: "Partner Plugin"
-  link: "UCD/actifio/README"
+  link: "actifio/"
 -
   title: Amazon EC2
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/AmazonEC2/README"
+  link: "AmazonEC2/"
 -
   title: Amazon Web Services (AWS) Lambda
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: "Community Plugin"
-  link: "UCD/aws-lambda/README"
+  link: "aws-lambda/"
 -
   title: Ansible
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/ansible/README"
+  link: "ansible/"
 -
   title: Apache Ant
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/Ant/README"
+  link: "Ant/"
 -
   title: Apache HTTP Server
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/Apache/README"
+  link: "Apache/"
 -
   title: Apache Hadoop
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: "Community Plugin"
-  link: "UCD/apache-hadoop/README"
+  link: "apache-hadoop/"
 -
   title: Apache Tomcat
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/Tomcat/README"
+  link: "Tomcat/"
 -
   title: App Connect Enterprise
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/ibm-ace/README"
+  link: "ibm-ace/"
 -
   title: Apple Xcode
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: "Community Plugin"
-  link: "UCD/apple-xcode/README"
+  link: "apple-xcode/"
 -
   title: Apprenda
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: "Partner Plugin"
-  link: "UCD/apprenda/README"
+  link: "apprenda/"
 -
   title: ArgoCD
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/argocd/README"
+  link: "argocd/"
 -
   title: Artifactory
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/Artifactory/README"
+  link: "Artifactory/"
 -
   title: Artifactory Source Config
   icon:
     light: "/configure-dark.png"
     dark: "/configure-white.png"
   details: ""
-  link: "UCD/ArtifactorySourceConfig/README"
+  link: "ArtifactorySourceConfig/"
 -
   title: ASOC
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: "Community Plugin"
-  link: "UCD/ASOC/README"
+  link: "ASOC/"
 -
   title: Aspera
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/aspera/README"
+  link: "aspera/"
 -
   title: Autosys
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/Autosys/README"
+  link: "Autosys/"
 -
   title: Avnet Talos
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: "Partner Plugin"
-  link: "UCD/avnet-talos/README"
+  link: "avnet-talos/"
 -
   title: Azure DevOps Sourceconfig
   icon:
     light: "/configure-dark.png"
     dark: "/configure-white.png"
   details: ""
-  link: "UCD/AzureDevopsSourceconfig/README"
+  link: "AzureDevopsSourceconfig/"
 -
   title: BMC Remedy Action Request System
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/Remedy/README"
+  link: "Remedy/"
 -
   title: Box
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: "Community Plugin"
-  link: "UCD/box/README"
+  link: "box/"
 -
   title: CA SCM (formerly Harvest)
   icon:
     light: "/configure-dark.png"
     dark: "/configure-white.png"
   details: ""
-  link: "UCD/air-plugin-CASCM/README"
+  link: "air-plugin-CASCM/"
 -
   title: CICS CM (Beta)
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/CICS-CM/README"
+  link: "CICS-CM/"
 -
   title: CICS TS
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/CICS/README"
+  link: "CICS/"
 -
   title: Chef
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/Chef/README"
+  link: "Chef/"
 -
   title: Citrix NetScaler
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/Netscaler/README"
+  link: "Netscaler/"
 -
   title: Cloud Foundry
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: "Community Plugin"
-  link: "UCD/cloud-foundry/README"
+  link: "cloud-foundry/"
 -
   title: Cloudant
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: "Community Plugin"
-  link: "UCD/cloudant/README"
+  link: "cloudant/"
 -
   title: CyberArk
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: "Partner Plugin"
-  link: "UCD/cyberark/README"
+  link: "cyberark/"
 -
   title: DBmaestro
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: "Partner Plugin"
-  link: "UCD/dbmaestro/README"
+  link: "dbmaestro/"
 -
   title: Datical DB
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: "Partner Plugin"
-  link: "UCD/datical-db/README"
+  link: "datical-db/"
 -
   title: Dimensions
   icon:
     light: "/configure-dark.png"
     dark: "/configure-white.png"
   details: ""
-  link: "UCD/DimensionsSourceConfig/README"
+  link: "DimensionsSourceConfig/"
 -
   title: Docker
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/docker-plugin/README"
+  link: "docker-plugin/"
 -
   title: Docker Compose
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/docker-compose/README"
+  link: "docker-compose/"
 -
   title: Docker Registry
   icon:
     light: "/configure-dark.png"
     dark: "/configure-white.png"
   details: ""
-  link: "UCD/DockerSourceConfig/README"
+  link: "DockerSourceConfig/"
 -
   title: F5 BIG-IP
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/F5/README"
+  link: "F5/"
 -
   title: File System
   icon:
     light: "/configure-dark.png"
     dark: "/configure-white.png"
   details: ""
-  link: "UCD/FileSystemSourceConfig/README"
+  link: "FileSystemSourceConfig/"
 -
   title: File System (Versioned)
   icon:
     light: "/configure-dark.png"
     dark: "/configure-white.png"
   details: ""
-  link: "UCD/FileSystemVersionedSourceConfig/README"
+  link: "FileSystemVersionedSourceConfig/"
 -
   title: File Utils
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/FileUtils/README"
+  link: "FileUtils/"
 -
   title: FileNet - IBM Case Manager
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/FileNet-CaseManager/README"
+  link: "FileNet-CaseManager/"
 -
   title: Git
   icon:
     light: "/configure-dark.png"
     dark: "/configure-white.png"
   details: ""
-  link: "UCD/GitSourceConfig/README"
+  link: "GitSourceConfig/"
 -
   title: Git Install
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: "Community Plugin"
-  link: "UCD/git-install/README"
+  link: "git-install/"
 -
   title: GitLab-Generic-Packages
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/gitlab-generic-packages/README"
+  link: "gitlab-generic-packages/"
 -
   title: GitLab-Sourceconfig-Generic-Packages
   icon:
     light: "/configure-dark.png"
     dark: "/configure-white.png"
   details: ""
-  link: "UCD/gitlab-sourceconfig-generic-packages/README"
+  link: "gitlab-sourceconfig-generic-packages/"
 -
   title: GitHub-Release
   icon:
     light: "/configure-dark.png"
     dark: "/configure-white.png"
   details: ""
-  link: "UCD/sourceconfig-github-release/README"
+  link: "sourceconfig-github-release/"
 -
   title: Google Android SDK
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/plugin-air-Android/README"
+  link: "plugin-air-Android/"
 -
   title: Groovy
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/Groovy/README"
+  link: "Groovy/"
 -
   title: HCL DevOps Test Hub
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/HCLDevOpsTestHub/README"
+  link: "HCLDevOpsTestHub/"
 -
   title: HCL DevOps Test Performance
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/HCLDevOpsTestPerf/README"
+  link: "HCLDevOpsTestPerf/"
 -
   title: HCL DevOps Test UI
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/HCLDevOpsTestUI/README"
+  link: "HCLDevOpsTestUI/"
 -
   title: HCL DevOps Test UI-WebUI
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/HCLDevOpsTestUIWebUI/README"
+  link: "HCLDevOpsTestUIWebUI/"
 -
   title: HCL DevOps Test Virtualization
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/HCLDevOpsTestVirtualization/README"
+  link: "HCLDevOpsTestVirtualization/"
 -
   title: HCL OneTest API
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/HCLOneTestAPI/README"
+  link: "HCLOneTestAPI/"
 -
   title: HCL OneTest Performance
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/HCLOneTestPerf/README"
+  link: "HCLOneTestPerf/"
 -
   title: HCL OneTest Server
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/onetest-server/README"
+  link: "onetest-server/"
 -
   title: HCL OneTest UI
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/HCLOneTestUI/README"
+  link: "HCLOneTestUI/"
 -
   title: HCL OneTest Virtualization
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/HCLOneTestVirtualization/README"
+  link: "HCLOneTestVirtualization/"
 -
   title: HCL OneTest WebUI
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/HCLOneTestWebUI/README"
+  link: "HCLOneTestWebUI/"
 -
   title: HP LoadRunner
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/hp-loadrunner/README"
+  link: "hp-loadrunner/"
 -
   title: HP Unified Functional Testing (QTP)
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/QTP/README"
+  link: "QTP/"
 -
   title: IBM API Connect
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/apiconnect/README"
+  link: "apiconnect/"
 -
   title: IBM AppScan Enterprise
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/appscan/README"
+  link: "appscan/"
 -
   title: IBM BigFix
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/bigfix/README"
+  link: "bigfix/"
 -
   title: IBM Bluemix Auto-Scaling
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/bluemix-autoscale/README"
+  link: "bluemix-autoscale/"
 -
   title: IBM Business Process Manager (WebSphere BPM)
   icon:
     light: "/configure-dark.png"
     dark: "/configure-white.png"
   details: ""
-  link: "UCD/WebSphereBPMSourceConfig/README"
+  link: "WebSphereBPMSourceConfig/"
 -
   title: IBM Business Process Manager (WebSphere BPM) for IBM DevOps Deploy
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/WebSphereBPM/README"
+  link: "WebSphereBPM/"
 -
   title: IBM Cognos
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/Cognos/README"
+  link: "Cognos/"
 -
   title: IBM Cognos Analytics
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/cognos-analytics/README"
+  link: "cognos-analytics/"
 -
   title: IBM Containers
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/cloud-foundry-ibm-containers/README"
+  link: "cloud-foundry-ibm-containers/"
 -
   title: IBM DataPower Configuration Manager
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/datapower/README"
+  link: "datapower/"
 -
   title: IBM Db2 for z/OS Package
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/ibm-db2-for-z-os-package/README"
+  link: "ibm-db2-for-z-os-package/"
 -
   title: IBM DevOps Test Hub
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/IBMDevOpsTestHub/README"
+  link: "IBMDevOpsTestHub/"
 -
   title: IBM DevOps Test Performance
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/IBMDevOpsTestPerf/README"
+  link: "IBMDevOpsTestPerf/"
 -
   title: IBM DevOps Test UI
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/IBMDevOpsTestUI/README"
+  link: "IBMDevOpsTestUI/"
 -
   title: IBM DevOps Test UI-WebUI
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/IBMDevOpsTestUIWebUI/README"
+  link: "IBMDevOpsTestUIWebUI/"
 -
   title: IBM DevOps Test Virtualization
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/IBMDevOpsTestVirtualization/README"
+  link: "IBMDevOpsTestVirtualization/"
 -
   title: IBM Globalization Pipeline
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: "Community Plugin"
-  link: "UCD/ibm-globalization-pipeline/README"
+  link: "ibm-globalization-pipeline/"
 -
   title: IBM IMS
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/IMSz/README"
+  link: "IMSz/"
 -
   title: IBM InfoSphere DataStage
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/datastage/README"
+  link: "datastage/"
 -
   title: IBM InfoSphere Optim
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/optim/README"
+  link: "optim/"
 -
   title: IBM Installation Manager
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/ibm-installation-manager/README"
+  link: "ibm-installation-manager/"
 -
   title: IBM Instana
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/ibm-instana/README"
+  link: "ibm-instana/"
 -
   title: IBM Integration Bus (IIB) plugin Deploy step for zOS
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/zos-ibm-integration-bus-ucd/README"
+  link: "zos-ibm-integration-bus-ucd/"
 -
   title: IBM Integration Bus (formerly WebSphere Message Broker) - CMP
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/WebSphereMessageBroker-CMP/README"
+  link: "WebSphereMessageBroker-CMP/"
 -
   title: IBM MQ for z/OS - Generate MQSC Commands
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: "Community Plugin"
-  link: "UCD/ibm-mq-for-z-os-generate-mqsc-commands/README"
+  link: "ibm-mq-for-z-os-generate-mqsc-commands/"
 -
   title: IBM MaaS360
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: "Community Plugin"
-  link: "UCD/ibm-maas360/README"
+  link: "ibm-maas360/"
 -
   title: IBM Maximo
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/ibm-maximo/README"
+  link: "ibm-maximo/"
 -
   title: IBM MobileFirst Platform (formerly Worklight)
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/air-worklight/README"
+  link: "air-worklight/"
 -
   title: IBM MobileFirst Platform Foundation on IBM Containers
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/MFPFC/README"
+  link: "MFPFC/"
 -
   title: IBM Operational Decision Manager (ODM)
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/ibm-odm/README"
+  link: "ibm-odm/"
 -
   title: IBM Operational Decision Manager (ODM) Source Config
   icon:
     light: "/configure-dark.png"
     dark: "/configure-white.png"
   details: ""
-  link: "UCD/ibm-odm-source-config/README"
+  link: "ibm-odm-source-config/"
 -
   title: IBM Rational Asset Manager
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/RAM/README"
+  link: "RAM/"
 -
   title: IBM Rational Asset Manager for IBM DevOps Deploy
   icon:
     light: "/configure-dark.png"
     dark: "/configure-white.png"
   details: ""
-  link: "UCD/RAMSourceConfig/README"
+  link: "RAMSourceConfig/"
 -
   title: IBM Rational Automation Framework for WebSphere
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: "Community Plugin"
-  link: "UCD/ibm-rational-automation-framework-for-websphere/README"
+  link: "ibm-rational-automation-framework-for-websphere/"
 -
   title: IBM Rational ClearCase
   icon:
     light: "/configure-dark.png"
     dark: "/configure-white.png"
   details: ""
-  link: "UCD/ClearCaseSourceConfig/README"
+  link: "ClearCaseSourceConfig/"
 -
   title: IBM Rational ClearQuest
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: "Community Plugin"
-  link: "UCD/ibm-rational-clearquest/README"
+  link: "ibm-rational-clearquest/"
 -
   title: IBM Rational Functional Tester (RFT)
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/RFT-UCD/README"
+  link: "RFT-UCD/"
 -
   title: IBM Rational Integration Tester (RIT)
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/RIT-UCD/README"
+  link: "RIT-UCD/"
 -
   title: IBM Rational Performance Tester (RPT)
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/RPT-UCD/README"
+  link: "RPT-UCD/"
 -
   title: IBM Rational Quality Manager (RQM)
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/ibm-rational-quality-manager-rqm/README"
+  link: "ibm-rational-quality-manager-rqm/"
 -
   title: IBM Rational Team Concert - Build
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/ibm-rational-team-concert-build/README"
+  link: "ibm-rational-team-concert-build/"
 -
   title: IBM Rational Team Concert - SCM
   icon:
     light: "/configure-dark.png"
     dark: "/configure-white.png"
   details: ""
-  link: "UCD/air-plugin-RTC-scm/README"
+  link: "air-plugin-RTC-scm/"
 -
   title: IBM Rational Team Concert Work Items
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/plugin-air-RTC-WorkItems/README"
+  link: "plugin-air-RTC-WorkItems/"
 -
   title: IBM Rational Test Automation Server (RTAS)
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/RTAS-UCD/README"
+  link: "RTAS-UCD/"
 -
   title: IBM Rational Test Virtualization Server (RTVS)
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/RTVS-UCD/README"
+  link: "RTVS-UCD/"
 -
   title: IBM Rational Test Workbench Web UI Tester
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/RFT-WebUI-UCD/README"
+  link: "RFT-WebUI-UCD/"
 -
   title: IBM Security Access Manager (WebSEAL)
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: "Community Plugin"
-  link: "UCD/webseal/README"
+  link: "webseal/"
 -
   title: IBM Sterling B2B Integrator
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: "Community Plugin"
-  link: "UCD/ibm-sterling-b2b-integrator/README"
+  link: "ibm-sterling-b2b-integrator/"
 -
   title: IBM DevOps Build
   icon:
     light: "/configure-dark.png"
     dark: "/configure-white.png"
   details: ""
-  link: "UCD/uBuildSourceConfig/README"
+  link: "uBuildSourceConfig/"
 -
   title: IBM DevOps DBUpgrader
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/DBUpgrader/README"
+  link: "DBUpgrader/"
 -
   title: IBM DevOps Deploy Agent Package for Dynamic Cloud Environments
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/AgentScript/README"
+  link: "AgentScript/"
 -
   title: IBM DevOps Deploy Applications
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/uDeploy-Application/README"
+  link: "uDeploy-Application/"
 -
   title: IBM DevOps Deploy Components
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/uDeploy-Component/README"
+  link: "uDeploy-Component/"
 -
   title: IBM DevOps Deploy Configuration Management
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/uDeployConfigManagement/README"
+  link: "uDeployConfigManagement/"
 -
   title: IBM DevOps Deploy Environments
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/uDeploy-Environment/README"
+  link: "uDeploy-Environment/"
 -
   title: IBM DevOps Deploy General Utilites
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/general-utilities/README"
+  link: "general-utilities/"
 -
   title: IBM DevOps Deploy Process
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/uDeploy-Process/README"
+  link: "uDeploy-Process/"
 -
   title: IBM DevOps Deploy Resources
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/uDeploy-Resource/README"
+  link: "uDeploy-Resource/"
 -
   title: IBM DevOps Deploy System
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/uDeploy-System/README"
+  link: "uDeploy-System/"
 -
   title: IBM DevOps Deploy Tools
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/DeployTools/README"
+  link: "DeployTools/"
 -
   title: IBM DevOps Deploy Versioned File Storage
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/UrbancodeVFS/README"
+  link: "UrbancodeVFS/"
 -
   title: IBM DevOps Deploy Versions
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/uDeploy-Version/README"
+  link: "uDeploy-Version/"
 -
   title: IBM DevOps PHP CLI Tool
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: "Community Plugin"
-  link: "UCD/PHPCLI/README"
+  link: "PHPCLI/"
 -
   title: IBM DevOps Package Manager
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/UrbanCodePackageManager/README"
+  link: "UrbanCodePackageManager/"
 -
   title: IBM DevOps Release
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/ucr-plugin/README"
+  link: "ucr-plugin/"
 -
   title: IBM DevOps uBuild
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/uBuild/README"
+  link: "uBuild/"
 -
   title: IBM VDP
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: "Partner Plugin"
-  link: "UCD/ibm-vdp/README"
+  link: "ibm-vdp/"
 -
   title: IBM WebSphere Commerce
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/WebSphereCommerce/README"
+  link: "WebSphereCommerce/"
 -
   title: IBM WebSphere Liberty
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/WebSphereLiberty/README"
+  link: "WebSphereLiberty/"
 -
   title: IBM WebSphere Portal
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/WebSpherePortal/README"
+  link: "WebSpherePortal/"
 -
   title: IBM WebSphere Service Registry and Repository
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/WSRR/README"
+  link: "WSRR/"
 -
   title: IBM Workload Automation
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: "Community Plugin"
-  link: "UCD/ibm-workload-automation/README"
+  link: "ibm-workload-automation/"
 -
   title: IBM-MQ
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/WebSphereMQ/README"
+  link: "WebSphereMQ/"
 -
   title: InfoSphere-ISD
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/infosphere-isd/README"
+  link: "infosphere-isd/"
 -
   title: Informatica
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: "Community Plugin"
-  link: "UCD/Informatica/README"
+  link: "Informatica/"
 -
   title: JBoss Application Server
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/JBoss/README"
+  link: "JBoss/"
 -
   title: JBoss-ON
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: "Community Plugin"
-  link: "UCD/jboss-on/README"
+  link: "jboss-on/"
 -
   title: JIRA for IBM DevOps Deploy
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/JIRA/README"
+  link: "JIRA/"
 -
   title: Jenkins Job Manager
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: "Community Plugin"
-  link: "UCD/jenkins-job-manager/README"
+  link: "jenkins-job-manager/"
 -
   title: Jenkins Pipeline
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/jenkins-pipeline-ud-plugin/README"
+  link: "jenkins-pipeline-ud-plugin/"
 -
   title: Jenkins Publisher
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/jenkins-ud-plugin/README"
+  link: "jenkins-ud-plugin/"
 -
   title: Kubernetes
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/kubernetes/README"
+  link: "kubernetes/"
 -
   title: Linux System Tools
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/LinuxSystemTools/README"
+  link: "LinuxSystemTools/"
 -
   title: Liquibase
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: "Community Plugin"
-  link: "UCD/liquibase/README"
+  link: "liquibase/"
 -
   title: LogiGear TestArchitect
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: "Community Plugin"
-  link: "UCD/logigear-testarchitect/README"
+  link: "logigear-testarchitect/"
 -
   title: Maven
   icon:
     light: "/configure-dark.png"
     dark: "/configure-white.png"
   details: ""
-  link: "UCD/MavenSourceConfig/README"
+  link: "MavenSourceConfig/"
 -
   title: Maven Resolve
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/Maven/README"
+  link: "Maven/"
 -
   title: Mesos Marathon
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/mesos-marathon/README"
+  link: "mesos-marathon/"
 -
   title: MicroFocus ALM (formerly HP Quality Center)
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/HPQualityCenter/README"
+  link: "HPQualityCenter/"
 -
   title: Microsoft BizTalk
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/BizTalk/README"
+  link: "BizTalk/"
 -
   title: Microsoft IIS - Configure
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/iis-configuration/README"
+  link: "iis-configuration/"
 -
   title: Microsoft IIS AdminScripts
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/IIS-AdminScripts/README"
+  link: "IIS-AdminScripts/"
 -
   title: Microsoft IIS AppCmd
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/IIS-AppCmd/README"
+  link: "IIS-AppCmd/"
 -
   title: Microsoft IIS MS-Deploy (Azure App Service)
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/IIS-MSDeploy/README"
+  link: "IIS-MSDeploy/"
 -
   title: Microsoft SQL Server SQLCmd
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/SQLCmd/README"
+  link: "SQLCmd/"
 -
   title: Microsoft SSIS
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/MicrosoftSSIS/README"
+  link: "MicrosoftSSIS/"
 -
   title: Microsoft SharePoint
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/Sharepoint/README"
+  link: "Sharepoint/"
 -
   title: Microsoft Software Installer (MSI)
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/MSI/README"
+  link: "MSI/"
 -
   title: Microsoft TFS (Team Foundation Server)
   icon:
     light: "/configure-dark.png"
     dark: "/configure-white.png"
   details: ""
-  link: "UCD/TFS-SourceConfig/README"
+  link: "TFS-SourceConfig/"
 -
   title: Microsoft TFS Work Items
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/plugin-air-TFS-WorkItems/README"
+  link: "plugin-air-TFS-WorkItems/"
 -
   title: Microsoft TFS_SCM (Team Foundation Server)
   icon:
     light: "/configure-dark.png"
     dark: "/configure-white.png"
   details: ""
-  link: "UCD/TFS_SCM-SourceConfig/README"
+  link: "TFS_SCM-SourceConfig/"
 -
   title: Microsoft Visual Studio Team Services (VSTS)
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: "Partner Plugin"
-  link: "UCD/microsoft-visual-studio-team-services-vsts/README"
+  link: "microsoft-visual-studio-team-services-vsts/"
 -
   title: Microsoft Windows Failover Clusters
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/WindowsFailoverCluster/README"
+  link: "WindowsFailoverCluster/"
 -
   title: Microsoft Windows Services
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/ServiceControlManager/README"
+  link: "ServiceControlManager/"
 -
   title: Microsoft Windows System Tools
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/WindowsSystemTools/README"
+  link: "WindowsSystemTools/"
 -
   title: Mulesoft
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/mulesoft/README"
+  link: "mulesoft/"
 -
   title: NPM
   icon:
     light: "/configure-dark.png"
     dark: "/configure-white.png"
   details: ""
-  link: "UCD/sourceconfig-npm/README"
+  link: "sourceconfig-npm/"
 -
   title: New Relic
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: "Community Plugin"
-  link: "UCD/new-relic/README"
+  link: "new-relic/"
 -
   title: Nexus
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/nexus/README"
+  link: "nexus/"
 -
   title: Nexus Repository Manager V3
   icon:
     light: "/configure-dark.png"
     dark: "/configure-white.png"
   details: ""
-  link: "UCD/sourceconfig-nexus-v3/README"
+  link: "sourceconfig-nexus-v3/"
 -
   title: Nexus Source Config
   icon:
     light: "/configure-dark.png"
     dark: "/configure-white.png"
   details: ""
-  link: "UCD/nexus-source-config/README"
+  link: "nexus-source-config/"
 -
   title: Node-RED
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: "Community Plugin"
-  link: "UCD/node-red/README"
+  link: "node-red/"
 -
   title: Node.js
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: "Community Plugin"
-  link: "UCD/node-js/README"
+  link: "node-js/"
 -
   title: NuGet
   icon:
     light: "/configure-dark.png"
     dark: "/configure-white.png"
   details: ""
-  link: "UCD/nuget-source-config/README"
+  link: "nuget-source-config/"
 -
   title: OpenShift
   icon:
     light: "/configure-dark.png"
     dark: "/configure-white.png"
   details: ""
-  link: "UCD/OpenShiftSourceConfig/README"
+  link: "OpenShiftSourceConfig/"
 -
   title: OpenShift for IBM DevOps Deploy
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/openshift/README"
+  link: "openshift/"
 -
   title: Oracle SQLPlus
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/SQLPlus/README"
+  link: "SQLPlus/"
 -
   title: Oracle Service Bus Configuration Management
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/plugin-air-OSB-Configuration-Management/README"
+  link: "plugin-air-OSB-Configuration-Management/"
 -
   title: Oracle WebLogic Application Deployment
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/plugin-air-WebLogic-Application-Deployment/README"
+  link: "plugin-air-WebLogic-Application-Deployment/"
 -
   title: Oracle WebLogic Integration Resource Management
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/plugin-air-WLI-Resource-Management/README"
+  link: "plugin-air-WLI-Resource-Management/"
 -
   title: Oracle WebLogic Scripting Tool (WLST)
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/WebLogic-WLST/README"
+  link: "WebLogic-WLST/"
 -
   title: Oracle WebLogic Server Resource Management
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/plugin-air-WLS-Resource-Management/README"
+  link: "plugin-air-WLS-Resource-Management/"
 -
   title: Oracle WebLogic Server Security Management
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/WebLogicSecurityMgmt/README"
+  link: "WebLogicSecurityMgmt/"
 -
   title: Oracle WebLogic WLDeploy
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/WLDeploy/README"
+  link: "WLDeploy/"
 -
   title: PVCS
   icon:
     light: "/configure-dark.png"
     dark: "/configure-white.png"
   details: ""
-  link: "UCD/PvcsSourceConfig/README"
+  link: "PvcsSourceConfig/"
 -
   title: Perforce Helix
   icon:
     light: "/configure-dark.png"
     dark: "/configure-white.png"
   details: ""
-  link: "UCD/PerforceSourceConfig/README"
+  link: "PerforceSourceConfig/"
 -
   title: PowerShell
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/powershell-integration/README"
+  link: "powershell-integration/"
 -
   title: Property Utils
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: "Community Plugin"
-  link: "UCD/property-utils/README"
+  link: "property-utils/"
 -
   title: Puppet
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: "Community Plugin"
-  link: "UCD/puppet/README"
+  link: "puppet/"
 -
   title: RPM
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/RPM/README"
+  link: "RPM/"
 -
   title: Rally for IBM DevOps Deploy
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/Rally/README"
+  link: "Rally/"
 -
   title: Resource Utilities
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/resource-utilities/README"
+  link: "resource-utilities/"
 -
   title: SAP Change and Transport System (CTS)
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/SAP-CTS/README"
+  link: "SAP-CTS/"
 -
   title: SQL-JDBC
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/SQL-JDBC/README"
+  link: "SQL-JDBC/"
 -
   title: Salesforce
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/salesforce/README"
+  link: "salesforce/"
 -
   title: Selenium
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/Selenium/README"
+  link: "Selenium/"
 -
   title: Send SMTP Email
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/send-smtp-email/README"
+  link: "send-smtp-email/"
 -
   title: ServiceNow
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/ServiceNow/README"
+  link: "ServiceNow/"
 -
   title: Shell
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/Shell/README"
+  link: "Shell/"
 -
   title: Siebel
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: "Community Plugin"
-  link: "UCD/siebel/README"
+  link: "siebel/"
 -
   title: Skytap Automation Pack
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: "Partner Plugin"
-  link: "UCD/skytap-automation-pack/README"
+  link: "skytap-automation-pack/"
 -
   title: Slack
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: "Community Plugin"
-  link: "UCD/slack/README"
+  link: "slack/"
 -
   title: Subversion
   icon:
     light: "/configure-dark.png"
     dark: "/configure-white.png"
   details: ""
-  link: "UCD/SubversionSourceConfig/README"
+  link: "SubversionSourceConfig/"
 -
   title: Subversion-Export
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/Subversion-export/README"
+  link: "Subversion-export/"
 -
   title: Sybase
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/sybase/README"
+  link: "sybase/"
 -
   title: System Information
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/SystemInformation/README"
+  link: "SystemInformation/"
 -
   title: TIBCO
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: "Partner Plugin"
-  link: "UCD/tibco/README"
+  link: "tibco/"
 -
   title: TeamCity
   icon:
     light: "/configure-dark.png"
     dark: "/configure-white.png"
   details: ""
-  link: "UCD/TeamCitySourceConfig/README"
+  link: "TeamCitySourceConfig/"
 -
   title: Text Utility
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: "Community Plugin"
-  link: "UCD/text-utility/README"
+  link: "text-utility/"
 -
   title: VMware AirWatch
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: "Community Plugin"
-  link: "UCD/vmware-airwatch/README"
+  link: "vmware-airwatch/"
 -
   title: Venafi
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: "Community Plugin"
-  link: "UCD/venafi/README"
+  link: "venafi/"
 -
   title: Web Utilities
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/web-utilities/README"
+  link: "web-utilities/"
 -
   title: WebSphere Application Server - Configure
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/WebSphereConfiguration/README"
+  link: "WebSphereConfiguration/"
 -
   title: WebSphere Application Server - Deployment
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/Websphere/README"
+  link: "Websphere/"
 -
   title: WebSphere Application Server - Install
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/websphere-install/README"
+  link: "websphere-install/"
 -
   title: WinRS Agent Install
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/WinRSAgentInstall/README"
+  link: "WinRSAgentInstall/"
 -
   title: eggPlant
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: "Partner Plugin"
-  link: "UCD/eggplant/README"
+  link: "eggplant/"
 -
   title: z/OS Dataset Writer
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/zos-dataset-writer/README"
+  link: "zos-dataset-writer/"
 -
   title: z/OS External Artifact Repository
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/zOS-external-artifact-download/README"
+  link: "zOS-external-artifact-download/"
 -
   title: z/OS FTP Utility
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/zos-ftp/README"
+  link: "zos-ftp/"
 -
   title: z/OS File Source Config
   icon:
     light: "/configure-dark.png"
     dark: "/configure-white.png"
   details: ""
-  link: "UCD/zOSFileSourceConfig/README"
+  link: "zOSFileSourceConfig/"
 -
   title: z/OS Management Facility
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/zosmf/README"
+  link: "zosmf/"
 -
   title: z/OS Multi Generate Artifact Information
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/zos-multi-generate-artifact-info/README"
+  link: "zos-multi-generate-artifact-info/"
 -
   title: z/OS Shell [Deprecated]
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/java-shell/README"
+  link: "java-shell/"
 -
   title: z/OS USS Utility [Deprecated]
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/zos-replacetokens-uss/README"
+  link: "zos-replacetokens-uss/"
 -
   title: z/OS Utility
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/zos-deploy/README"
+  link: "zos-deploy/"
 -
   title: z/OS Rexx Executor
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
   details: ""
-  link: "UCD/zos-rexx/README"
+  link: "zos-rexx/"
 ---
 

@@ -8,7 +8,7 @@ export const ucb: DefaultTheme.Sidebar = {
         {
             text: 'AccuRev',
             items: [
-                { text: 'About', link: `${BUILD_BASE_DIR}/AccuRev/README` },
+                { text: 'About', link: `${BUILD_BASE_DIR}/AccuRev/` },
                 { text: 'Overview', link: `${BUILD_BASE_DIR}/AccuRev/overview` },
                 { text: 'Settings', link: `${BUILD_BASE_DIR}/AccuRev/settings` },
                 { text: 'Downloads', link: `${BUILD_BASE_DIR}/AccuRev/downloads` }
@@ -22,7 +22,7 @@ export const ucb: DefaultTheme.Sidebar = {
         {
             text: 'AccuWork',
             items: [
-                { text: 'About', link: `${BUILD_BASE_DIR}/AccuWork/README` },
+                { text: 'About', link: `${BUILD_BASE_DIR}/AccuWork/` },
                 { text: 'Overview', link: `${BUILD_BASE_DIR}/AccuWork/overview` },
                 { text: 'Steps', link: `${BUILD_BASE_DIR}/AccuWork/steps` },
                 { text: 'Downloads', link: `${BUILD_BASE_DIR}/AccuWork/downloads` }
@@ -36,7 +36,7 @@ export const ucb: DefaultTheme.Sidebar = {
         {
             text: 'Ant',
             items: [
-                { text: 'About', link: `${BUILD_BASE_DIR}/Ant/README` },
+                { text: 'About', link: `${BUILD_BASE_DIR}/Ant/` },
                 { text: 'Overview', link: `${BUILD_BASE_DIR}/Ant/overview` },
                 { text: 'Steps', link: `${BUILD_BASE_DIR}/Ant/steps` },
                 { text: 'Downloads', link: `${BUILD_BASE_DIR}/Ant/downloads` }
@@ -50,7 +50,7 @@ export const ucb: DefaultTheme.Sidebar = {
         {
             text: 'Artifactory for IBM DevOps Build',
             items: [
-                { text: 'About', link: `${BUILD_BASE_DIR}/Artifactory/README` },
+                { text: 'About', link: `${BUILD_BASE_DIR}/Artifactory/` },
                 { text: 'Overview', link: `${BUILD_BASE_DIR}/Artifactory/overview` },
                 { text: 'Steps', link: `${BUILD_BASE_DIR}/Artifactory/steps` },
                 { text: 'Downloads', link: `${BUILD_BASE_DIR}/Artifactory/downloads` }
@@ -64,7 +64,7 @@ export const ucb: DefaultTheme.Sidebar = {
         {
             text: 'ClearCase Base Snapshot',
             items: [
-                { text: 'About', link: `${BUILD_BASE_DIR}/ClearCaseBaseSnapshot/README` },
+                { text: 'About', link: `${BUILD_BASE_DIR}/ClearCaseBaseSnapshot/` },
                 { text: 'Overview', link: `${BUILD_BASE_DIR}/ClearCaseBaseSnapshot/overview` },
                 { text: 'Usage', link: `${BUILD_BASE_DIR}/ClearCaseBaseSnapshot/usage` },
                 { text: 'Steps', link: `${BUILD_BASE_DIR}/ClearCaseBaseSnapshot/steps` },
@@ -80,7 +80,7 @@ export const ucb: DefaultTheme.Sidebar = {
         {
             text: 'ClearCase UCM',
             items: [
-                { text: 'About', link: `${BUILD_BASE_DIR}/ClearCaseUCM/README` },
+                { text: 'About', link: `${BUILD_BASE_DIR}/ClearCaseUCM/` },
                 { text: 'Overview', link: `${BUILD_BASE_DIR}/ClearCaseUCM/overview` },
                 { text: 'Usage', link: `${BUILD_BASE_DIR}/ClearCaseUCM/usage` },
                 { text: 'Steps', link: `${BUILD_BASE_DIR}/ClearCaseUCM/steps` },
@@ -95,7 +95,7 @@ export const ucb: DefaultTheme.Sidebar = {
         {
             text: 'ClearQuest',
             items: [
-                { text: 'About', link: `${BUILD_BASE_DIR}/ClearQuest/README` },
+                { text: 'About', link: `${BUILD_BASE_DIR}/ClearQuest/` },
                 { text: 'Overview', link: `${BUILD_BASE_DIR}/ClearQuest/overview` },
                 { text: 'Steps', link: `${BUILD_BASE_DIR}/ClearQuest/steps` },
                 { text: 'Downloads', link: `${BUILD_BASE_DIR}/ClearQuest/downloads` }
@@ -109,7 +109,7 @@ export const ucb: DefaultTheme.Sidebar = {
         {
             text: 'Clover',
             items: [
-                { text: 'About', link: `${BUILD_BASE_DIR}/Clover/README` },
+                { text: 'About', link: `${BUILD_BASE_DIR}/Clover/` },
                 { text: 'Overview', link: `${BUILD_BASE_DIR}/Clover/overview` },
                 { text: 'Steps', link: `${BUILD_BASE_DIR}/Clover/steps` },
                 { text: 'Downloads', link: `${BUILD_BASE_DIR}/Clover/downloads` }
@@ -123,7 +123,7 @@ export const ucb: DefaultTheme.Sidebar = {
         {
             text: 'Cobertura',
             items: [
-                { text: 'About', link: `${BUILD_BASE_DIR}/Cobertura/README` },
+                { text: 'About', link: `${BUILD_BASE_DIR}/Cobertura/` },
                 { text: 'Overview', link: `${BUILD_BASE_DIR}/Cobertura/overview` },
                 { text: 'Steps', link: `${BUILD_BASE_DIR}/Cobertura/steps` },
                 { text: 'Downloads', link: `${BUILD_BASE_DIR}/Cobertura/downloads` }
@@ -137,7 +137,7 @@ export const ucb: DefaultTheme.Sidebar = {
         {
             text: 'CodeStation',
             items: [
-                { text: 'About', link: `${BUILD_BASE_DIR}/CodeStation/README` },
+                { text: 'About', link: `${BUILD_BASE_DIR}/CodeStation/` },
                 { text: 'Overview', link: `${BUILD_BASE_DIR}/CodeStation/overview` },
                 { text: 'Steps', link: `${BUILD_BASE_DIR}/CodeStation/steps` },
                 { text: 'Downloads', link: `${BUILD_BASE_DIR}/CodeStation/downloads` }
@@ -151,7 +151,7 @@ export const ucb: DefaultTheme.Sidebar = {
         {
             text: 'Control',
             items: [
-                { text: 'About', link: `${BUILD_BASE_DIR}/Control/README` },
+                { text: 'About', link: `${BUILD_BASE_DIR}/Control/` },
                 { text: 'Overview', link: `${BUILD_BASE_DIR}/Control/overview` },
                 { text: 'Steps', link: `${BUILD_BASE_DIR}/Control/steps` },
                 { text: 'Downloads', link: `${BUILD_BASE_DIR}/Control/downloads` }
@@ -165,7 +165,7 @@ export const ucb: DefaultTheme.Sidebar = {
         {
             text: 'CppUnit',
             items: [
-                { text: 'About', link: `${BUILD_BASE_DIR}/CppUnit/README` },
+                { text: 'About', link: `${BUILD_BASE_DIR}/CppUnit/` },
                 { text: 'Overview', link: `${BUILD_BASE_DIR}/CppUnit/overview` },
                 { text: 'Steps', link: `${BUILD_BASE_DIR}/CppUnit/steps` },
                 { text: 'Downloads', link: `${BUILD_BASE_DIR}/CppUnit/downloads` }
@@ -179,7 +179,7 @@ export const ucb: DefaultTheme.Sidebar = {
         {
             text: 'Cucumber',
             items: [
-                { text: 'About', link: `${BUILD_BASE_DIR}/Cucumber/README` },
+                { text: 'About', link: `${BUILD_BASE_DIR}/Cucumber/` },
                 { text: 'Overview', link: `${BUILD_BASE_DIR}/Cucumber/overview` },
                 { text: 'Steps', link: `${BUILD_BASE_DIR}/Cucumber/steps` },
                 { text: 'Downloads', link: `${BUILD_BASE_DIR}/Cucumber/downloads` }
@@ -193,7 +193,7 @@ export const ucb: DefaultTheme.Sidebar = {
         {
             text: 'Docker Build',
             items: [
-                { text: 'About', link: `${BUILD_BASE_DIR}/Docker/README` },
+                { text: 'About', link: `${BUILD_BASE_DIR}/Docker/` },
                 { text: 'Overview', link: `${BUILD_BASE_DIR}/Docker/overview` },
                 { text: 'Steps', link: `${BUILD_BASE_DIR}/Docker/steps` },
                 { text: 'Downloads', link: `${BUILD_BASE_DIR}/Docker/downloads` }
@@ -207,7 +207,7 @@ export const ucb: DefaultTheme.Sidebar = {
         {
             text: 'File System for IBM DevOps Build',
             items: [
-                { text: 'About', link: `${BUILD_BASE_DIR}/FileSystem/README` },
+                { text: 'About', link: `${BUILD_BASE_DIR}/FileSystem/` },
                 { text: 'Overview', link: `${BUILD_BASE_DIR}/FileSystem/overview` },
                 { text: 'Steps', link: `${BUILD_BASE_DIR}/FileSystem/steps` },
                 { text: 'Downloads', link: `${BUILD_BASE_DIR}/FileSystem/downloads` }
@@ -221,7 +221,7 @@ export const ucb: DefaultTheme.Sidebar = {
         {
             text: 'File Utils for IBM DevOps Build',
             items: [
-                { text: 'About', link: `${BUILD_BASE_DIR}/FileUtils/README` },
+                { text: 'About', link: `${BUILD_BASE_DIR}/FileUtils/` },
                 { text: 'Overview', link: `${BUILD_BASE_DIR}/FileUtils/overview` },
                 { text: 'Steps', link: `${BUILD_BASE_DIR}/FileUtils/steps` },
                 { text: 'Downloads', link: `${BUILD_BASE_DIR}/FileUtils/downloads` }
@@ -235,7 +235,7 @@ export const ucb: DefaultTheme.Sidebar = {
         {
             text: 'FindBugs',
             items: [
-                { text: 'About', link: `${BUILD_BASE_DIR}/FindBugs/README` },
+                { text: 'About', link: `${BUILD_BASE_DIR}/FindBugs/` },
                 { text: 'Overview', link: `${BUILD_BASE_DIR}/FindBugs/overview` },
                 { text: 'Steps', link: `${BUILD_BASE_DIR}/FindBugs/steps` },
                 { text: 'Downloads', link: `${BUILD_BASE_DIR}/FindBugs/downloads` }
@@ -249,7 +249,7 @@ export const ucb: DefaultTheme.Sidebar = {
         {
             text: 'Gerrit',
             items: [
-                { text: 'About', link: `${BUILD_BASE_DIR}/Gerrit/README` },
+                { text: 'About', link: `${BUILD_BASE_DIR}/Gerrit/` },
                 { text: 'Overview', link: `${BUILD_BASE_DIR}/Gerrit/overview` },
                 { text: 'Steps', link: `${BUILD_BASE_DIR}/Gerrit/steps` },
                 { text: 'Downloads', link: `${BUILD_BASE_DIR}/Gerrit/downloads` }
@@ -263,7 +263,7 @@ export const ucb: DefaultTheme.Sidebar = {
         {
             text: 'Git for IBM DevOps Build',
             items: [
-                { text: 'About', link: `${BUILD_BASE_DIR}/Git/README` },
+                { text: 'About', link: `${BUILD_BASE_DIR}/Git/` },
                 { text: 'Overview', link: `${BUILD_BASE_DIR}/Git/overview` },
                 { text: 'Steps', link: `${BUILD_BASE_DIR}/Git/steps` },
                 { text: 'Downloads', link: `${BUILD_BASE_DIR}/Git/downloads` }
@@ -277,7 +277,7 @@ export const ucb: DefaultTheme.Sidebar = {
         {
             text: 'Groovy for IBM DevOps Build',
             items: [
-                { text: 'About', link: `${BUILD_BASE_DIR}/Groovy/README` },
+                { text: 'About', link: `${BUILD_BASE_DIR}/Groovy/` },
                 { text: 'Overview', link: `${BUILD_BASE_DIR}/Groovy/overview` },
                 { text: 'Steps', link: `${BUILD_BASE_DIR}/Groovy/steps` },
                 { text: 'Downloads', link: `${BUILD_BASE_DIR}/Groovy/downloads` }
@@ -291,7 +291,7 @@ export const ucb: DefaultTheme.Sidebar = {
         {
             text: 'HP Fortify',
             items: [
-                { text: 'About', link: `${BUILD_BASE_DIR}/HPFortify/README` },
+                { text: 'About', link: `${BUILD_BASE_DIR}/HPFortify/` },
                 { text: 'Overview', link: `${BUILD_BASE_DIR}/HPFortify/overview` },
                 { text: 'Steps', link: `${BUILD_BASE_DIR}/HPFortify/steps` },
                 { text: 'Downloads', link: `${BUILD_BASE_DIR}/HPFortify/downloads` }
@@ -305,7 +305,7 @@ export const ucb: DefaultTheme.Sidebar = {
         {
             text: 'HP Quality Center',
             items: [
-                { text: 'About', link: `${BUILD_BASE_DIR}/HPQualityCenter/README` },
+                { text: 'About', link: `${BUILD_BASE_DIR}/HPQualityCenter/` },
                 { text: 'Overview', link: `${BUILD_BASE_DIR}/HPQualityCenter/overview` },
                 { text: 'Steps', link: `${BUILD_BASE_DIR}/HPQualityCenter/steps` },
                 { text: 'Downloads', link: `${BUILD_BASE_DIR}/HPQualityCenter/downloads` },
@@ -320,7 +320,7 @@ export const ucb: DefaultTheme.Sidebar = {
         {
             text: 'CA Harvest SCM',
             items: [
-                { text: 'About', link: `${BUILD_BASE_DIR}/Harvest/README` },
+                { text: 'About', link: `${BUILD_BASE_DIR}/Harvest/` },
                 { text: 'Overview', link: `${BUILD_BASE_DIR}/Harvest/overview` },
                 { text: 'Steps', link: `${BUILD_BASE_DIR}/Harvest/steps` },
                 { text: 'Downloads', link: `${BUILD_BASE_DIR}/Harvest/downloads` }
@@ -334,7 +334,7 @@ export const ucb: DefaultTheme.Sidebar = {
         {
             text: 'JIRA for IBM DevOps Build',
             items: [
-                { text: 'About', link: `${BUILD_BASE_DIR}/JIRA/README` },
+                { text: 'About', link: `${BUILD_BASE_DIR}/JIRA/` },
                 { text: 'Overview', link: `${BUILD_BASE_DIR}/JIRA/overview` },
                 { text: 'Steps', link: `${BUILD_BASE_DIR}/JIRA/steps` },
                 { text: 'Downloads', link: `${BUILD_BASE_DIR}/JIRA/downloads` }
@@ -348,7 +348,7 @@ export const ucb: DefaultTheme.Sidebar = {
         {
             text: 'JUnit for IBM DevOps Build',
             items: [
-                { text: 'About', link: `${BUILD_BASE_DIR}/JUnit/README` },
+                { text: 'About', link: `${BUILD_BASE_DIR}/JUnit/` },
                 { text: 'Overview', link: `${BUILD_BASE_DIR}/JUnit/overview` },
                 { text: 'Steps', link: `${BUILD_BASE_DIR}/JUnit/steps` },
                 { text: 'Downloads', link: `${BUILD_BASE_DIR}/JUnit/downloads` }
@@ -362,7 +362,7 @@ export const ucb: DefaultTheme.Sidebar = {
         {
             text: 'JaCoCo',
             items: [
-                { text: 'About', link: `${BUILD_BASE_DIR}/Jacoco/README` },
+                { text: 'About', link: `${BUILD_BASE_DIR}/Jacoco/` },
                 { text: 'Overview', link: `${BUILD_BASE_DIR}/Jacoco/overview` },
                 { text: 'Steps', link: `${BUILD_BASE_DIR}/Jacoco/steps` },
                 { text: 'Downloads', link: `${BUILD_BASE_DIR}/Jacoco/downloads` }
@@ -376,7 +376,7 @@ export const ucb: DefaultTheme.Sidebar = {
         {
             text: 'MSBuild',
             items: [
-                { text: 'About', link: `${BUILD_BASE_DIR}/MSBuild/README` },
+                { text: 'About', link: `${BUILD_BASE_DIR}/MSBuild/` },
                 { text: 'Overview', link: `${BUILD_BASE_DIR}/MSBuild/overview` },
                 { text: 'Steps', link: `${BUILD_BASE_DIR}/MSBuild/steps` },
                 { text: 'Downloads', link: `${BUILD_BASE_DIR}/MSBuild/downloads` }
@@ -390,7 +390,7 @@ export const ucb: DefaultTheme.Sidebar = {
         {
             text: 'MSTest',
             items: [
-                { text: 'About', link: `${BUILD_BASE_DIR}/MSTest/README` },
+                { text: 'About', link: `${BUILD_BASE_DIR}/MSTest/` },
                 { text: 'Overview', link: `${BUILD_BASE_DIR}/MSTest/overview` },
                 { text: 'Steps', link: `${BUILD_BASE_DIR}/MSTest/steps` },
                 { text: 'Downloads', link: `${BUILD_BASE_DIR}/MSTest/downloads` }
@@ -404,7 +404,7 @@ export const ucb: DefaultTheme.Sidebar = {
         {
             text: 'Make',
             items: [
-                { text: 'About', link: `${BUILD_BASE_DIR}/Make/README` },
+                { text: 'About', link: `${BUILD_BASE_DIR}/Make/` },
                 { text: 'Overview', link: `${BUILD_BASE_DIR}/Make/overview` },
                 { text: 'Steps', link: `${BUILD_BASE_DIR}/Make/steps` },
                 { text: 'Downloads', link: `${BUILD_BASE_DIR}/Make/downloads` }
@@ -418,7 +418,7 @@ export const ucb: DefaultTheme.Sidebar = {
         {
             text: 'Maven for IBM DevOps Build',
             items: [
-                { text: 'About', link: `${BUILD_BASE_DIR}/Maven/README` },
+                { text: 'About', link: `${BUILD_BASE_DIR}/Maven/` },
                 { text: 'Overview', link: `${BUILD_BASE_DIR}/Maven/overview` },
                 { text: 'Steps', link: `${BUILD_BASE_DIR}/Maven/steps` },
                 { text: 'Downloads', link: `${BUILD_BASE_DIR}/Maven/downloads` }
@@ -432,7 +432,7 @@ export const ucb: DefaultTheme.Sidebar = {
         {
             text: 'Mercurial',
             items: [
-                { text: 'About', link: `${BUILD_BASE_DIR}/Mercurial/README` },
+                { text: 'About', link: `${BUILD_BASE_DIR}/Mercurial/` },
                 { text: 'Overview', link: `${BUILD_BASE_DIR}/Mercurial/overview` },
                 { text: 'Steps', link: `${BUILD_BASE_DIR}/Mercurial/steps` },
                 { text: 'Downloads', link: `${BUILD_BASE_DIR}/Mercurial/downloads` }
@@ -446,7 +446,7 @@ export const ucb: DefaultTheme.Sidebar = {
         {
             text: 'Mocha',
             items: [
-                { text: 'About', link: `${BUILD_BASE_DIR}/Mocha/README` },
+                { text: 'About', link: `${BUILD_BASE_DIR}/Mocha/` },
                 { text: 'Overview', link: `${BUILD_BASE_DIR}/Mocha/overview` },
                 { text: 'Steps', link: `${BUILD_BASE_DIR}/Mocha/steps` },
                 { text: 'Downloads', link: `${BUILD_BASE_DIR}/Mocha/downloads` }
@@ -460,7 +460,7 @@ export const ucb: DefaultTheme.Sidebar = {
         {
             text: 'NAnt',
             items: [
-                { text: 'About', link: `${BUILD_BASE_DIR}/NAnt/README` },
+                { text: 'About', link: `${BUILD_BASE_DIR}/NAnt/` },
                 { text: 'Overview', link: `${BUILD_BASE_DIR}/NAnt/overview` },
                 { text: 'Steps', link: `${BUILD_BASE_DIR}/NAnt/steps` },
                 { text: 'Downloads', link: `${BUILD_BASE_DIR}/NAnt/downloads` }
@@ -474,7 +474,7 @@ export const ucb: DefaultTheme.Sidebar = {
         {
             text: 'NCover',
             items: [
-                { text: 'About', link: `${BUILD_BASE_DIR}/NCover/README` },
+                { text: 'About', link: `${BUILD_BASE_DIR}/NCover/` },
                 { text: 'Downloads', link: `${BUILD_BASE_DIR}/NCover/downloads` }
             ]
         }
@@ -486,7 +486,7 @@ export const ucb: DefaultTheme.Sidebar = {
         {
             text: 'NPM for IBM DevOps Build',
             items: [
-                { text: 'About', link: `${BUILD_BASE_DIR}/NPM/README` },
+                { text: 'About', link: `${BUILD_BASE_DIR}/NPM/` },
                 { text: 'Overview', link: `${BUILD_BASE_DIR}/NPM/overview` },
                 { text: 'Steps', link: `${BUILD_BASE_DIR}/NPM/steps` },
                 { text: 'Downloads', link: `${BUILD_BASE_DIR}/NPM/downloads` }
@@ -500,7 +500,7 @@ export const ucb: DefaultTheme.Sidebar = {
         {
             text: 'NUnit',
             items: [
-                { text: 'About', link: `${BUILD_BASE_DIR}/NUnit/README` },
+                { text: 'About', link: `${BUILD_BASE_DIR}/NUnit/` },
                 { text: 'Overview', link: `${BUILD_BASE_DIR}/NUnit/overview` },
                 { text: 'Steps', link: `${BUILD_BASE_DIR}/NUnit/steps` },
                 { text: 'Downloads', link: `${BUILD_BASE_DIR}/NUnit/downloads` }
@@ -514,7 +514,7 @@ export const ucb: DefaultTheme.Sidebar = {
         {
             text: 'PMD',
             items: [
-                { text: 'About', link: `${BUILD_BASE_DIR}/PMD/README` },
+                { text: 'About', link: `${BUILD_BASE_DIR}/PMD/` },
                 { text: 'Overview', link: `${BUILD_BASE_DIR}/PMD/overview` },
                 { text: 'Steps', link: `${BUILD_BASE_DIR}/PMD/steps` },
                 { text: 'Downloads', link: `${BUILD_BASE_DIR}/PMD/downloads` }
@@ -528,7 +528,7 @@ export const ucb: DefaultTheme.Sidebar = {
         {
             text: 'Perforce',
             items: [
-                { text: 'About', link: `${BUILD_BASE_DIR}/Perforce/README` },
+                { text: 'About', link: `${BUILD_BASE_DIR}/Perforce/` },
                 { text: 'Overview', link: `${BUILD_BASE_DIR}/Perforce/overview` },
                 { text: 'Steps', link: `${BUILD_BASE_DIR}/Perforce/steps` },
                 { text: 'Downloads', link: `${BUILD_BASE_DIR}/Perforce/downloads` }
@@ -542,7 +542,7 @@ export const ucb: DefaultTheme.Sidebar = {
         {
             text: 'Preflight',
             items: [
-                { text: 'About', link: `${BUILD_BASE_DIR}/Preflight/README` },
+                { text: 'About', link: `${BUILD_BASE_DIR}/Preflight/` },
                 { text: 'Overview', link: `${BUILD_BASE_DIR}/Preflight/overview` },
                 { text: 'Steps', link: `${BUILD_BASE_DIR}/Preflight/steps` },
                 { text: 'Downloads', link: `${BUILD_BASE_DIR}/Preflight/downloads` }
@@ -556,7 +556,7 @@ export const ucb: DefaultTheme.Sidebar = {
         {
             text: 'QTP',
             items: [
-                { text: 'About', link: `${BUILD_BASE_DIR}/QTP/README` },
+                { text: 'About', link: `${BUILD_BASE_DIR}/QTP/` },
                 { text: 'Overview', link: `${BUILD_BASE_DIR}/QTP/overview` },
                 { text: 'Steps', link: `${BUILD_BASE_DIR}/QTP/steps` },
                 { text: 'Downloads', link: `${BUILD_BASE_DIR}/QTP/downloads` }
@@ -570,7 +570,7 @@ export const ucb: DefaultTheme.Sidebar = {
         {
             text: 'Rational Team Concert Work Items',
             items: [
-                { text: 'About', link: `${BUILD_BASE_DIR}/RTCWorkItems/README` },
+                { text: 'About', link: `${BUILD_BASE_DIR}/RTCWorkItems/` },
                 { text: 'Overview', link: `${BUILD_BASE_DIR}/RTCWorkItems/overview` },
                 { text: 'Steps', link: `${BUILD_BASE_DIR}/RTCWorkItems/steps` },
                 { text: 'Downloads', link: `${BUILD_BASE_DIR}/RTCWorkItems/downloads` }
@@ -584,7 +584,7 @@ export const ucb: DefaultTheme.Sidebar = {
         {
             text: 'Rake',
             items: [
-                { text: 'About', link: `${BUILD_BASE_DIR}/Rake/README` },
+                { text: 'About', link: `${BUILD_BASE_DIR}/Rake/` },
                 { text: 'Overview', link: `${BUILD_BASE_DIR}/Rake/overview` },
                 { text: 'Steps', link: `${BUILD_BASE_DIR}/Rake/steps` },
                 { text: 'Downloads', link: `${BUILD_BASE_DIR}/Rake/downloads` }
@@ -598,7 +598,7 @@ export const ucb: DefaultTheme.Sidebar = {
         {
             text: 'Rally for IBM DevOps Build',
             items: [
-                { text: 'About', link: `${BUILD_BASE_DIR}/Rally/README` },
+                { text: 'About', link: `${BUILD_BASE_DIR}/Rally/` },
                 { text: 'Overview', link: `${BUILD_BASE_DIR}/Rally/overview` },
                 { text: 'Steps and settings', link: `${BUILD_BASE_DIR}/Rally/steps and settings` },
                 { text: 'Downloads', link: `${BUILD_BASE_DIR}/Rally/downloads` }
@@ -612,7 +612,7 @@ export const ucb: DefaultTheme.Sidebar = {
         {
             text: 'IBM Security AppScan Source',
             items: [
-                { text: 'About', link: `${BUILD_BASE_DIR}/RationalAppScan/README` },
+                { text: 'About', link: `${BUILD_BASE_DIR}/RationalAppScan/` },
                 { text: 'Downloads', link: `${BUILD_BASE_DIR}/RationalAppScan/downloads` }
             ]
         }
@@ -624,7 +624,7 @@ export const ucb: DefaultTheme.Sidebar = {
         {
             text: 'Rational Team Concert SCM',
             items: [
-                { text: 'About', link: `${BUILD_BASE_DIR}/RationalTeamConcert/README` },
+                { text: 'About', link: `${BUILD_BASE_DIR}/RationalTeamConcert/` },
                 { text: 'Overview', link: `${BUILD_BASE_DIR}/RationalTeamConcert/overview` },
                 { text: 'Steps and settings', link: `${BUILD_BASE_DIR}/RationalTeamConcert/steps and settings` },
                 { text: 'Downloads', link: `${BUILD_BASE_DIR}/RationalTeamConcert/downloads` }
@@ -638,7 +638,7 @@ export const ucb: DefaultTheme.Sidebar = {
         {
             text: 'Report Publisher',
             items: [
-                { text: 'About', link: `${BUILD_BASE_DIR}/ReportPublisher/README` },
+                { text: 'About', link: `${BUILD_BASE_DIR}/ReportPublisher/` },
                 { text: 'Overview', link: `${BUILD_BASE_DIR}/ReportPublisher/overview` },
                 { text: 'Steps', link: `${BUILD_BASE_DIR}/ReportPublisher/steps` },
                 { text: 'Downloads', link: `${BUILD_BASE_DIR}/ReportPublisher/downloads` }
@@ -652,7 +652,7 @@ export const ucb: DefaultTheme.Sidebar = {
         {
             text: 'Reporting',
             items: [
-                { text: 'About', link: `${BUILD_BASE_DIR}/Reporting/README` },
+                { text: 'About', link: `${BUILD_BASE_DIR}/Reporting/` },
                 { text: 'Overview', link: `${BUILD_BASE_DIR}/Reporting/overview` },
                 { text: 'Steps', link: `${BUILD_BASE_DIR}/Reporting/steps` },
                 { text: 'Downloads', link: `${BUILD_BASE_DIR}/Reporting/downloads` }
@@ -666,7 +666,7 @@ export const ucb: DefaultTheme.Sidebar = {
         {
             text: 'Selenium for IBM DevOps Build',
             items: [
-                { text: 'About', link: `${BUILD_BASE_DIR}/Selenium/README` },
+                { text: 'About', link: `${BUILD_BASE_DIR}/Selenium/` },
                 { text: 'Overview', link: `${BUILD_BASE_DIR}/Selenium/overview` },
                 { text: 'Usage', link: `${BUILD_BASE_DIR}/Selenium/usage` },
                 { text: 'Steps', link: `${BUILD_BASE_DIR}/Selenium/steps` },
@@ -681,7 +681,7 @@ export const ucb: DefaultTheme.Sidebar = {
         {
             text: 'Shell for IBM DevOps Build',
             items: [
-                { text: 'About', link: `${BUILD_BASE_DIR}/Shell/README` },
+                { text: 'About', link: `${BUILD_BASE_DIR}/Shell/` },
                 { text: 'Overview', link: `${BUILD_BASE_DIR}/Shell/overview` },
                 { text: 'Steps', link: `${BUILD_BASE_DIR}/Shell/steps` },
                 { text: 'Downloads', link: `${BUILD_BASE_DIR}/Shell/downloads` }
@@ -695,7 +695,7 @@ export const ucb: DefaultTheme.Sidebar = {
         {
             text: 'SonarQube (formerly Sonar)',
             items: [
-                { text: 'About', link: `${BUILD_BASE_DIR}/Sonar/README` },
+                { text: 'About', link: `${BUILD_BASE_DIR}/Sonar/` },
                 { text: 'Overview', link: `${BUILD_BASE_DIR}/Sonar/overview` },
                 { text: 'Steps', link: `${BUILD_BASE_DIR}/Sonar/steps` },
                 { text: 'Downloads', link: `${BUILD_BASE_DIR}/Sonar/downloads` }
@@ -709,7 +709,7 @@ export const ucb: DefaultTheme.Sidebar = {
         {
             text: 'Sonargraph',
             items: [
-                { text: 'About', link: `${BUILD_BASE_DIR}/Sonargraph/README` },
+                { text: 'About', link: `${BUILD_BASE_DIR}/Sonargraph/` },
                 { text: 'Overview', link: `${BUILD_BASE_DIR}/Sonargraph/overview` },
                 { text: 'Steps', link: `${BUILD_BASE_DIR}/Sonargraph/steps` },
                 { text: 'Downloads', link: `${BUILD_BASE_DIR}/Sonargraph/downloads` }
@@ -723,7 +723,7 @@ export const ucb: DefaultTheme.Sidebar = {
         {
             text: 'Subversion for IBM DevOps Build',
             items: [
-                { text: 'About', link: `${BUILD_BASE_DIR}/Subversion/README` },
+                { text: 'About', link: `${BUILD_BASE_DIR}/Subversion/` },
                 { text: 'Overview', link: `${BUILD_BASE_DIR}/Subversion/overview` },
                 { text: 'Steps and settings', link: `${BUILD_BASE_DIR}/Subversion/steps and settings` },
                 { text: 'Downloads', link: `${BUILD_BASE_DIR}/Subversion/downloads` }
@@ -737,7 +737,7 @@ export const ucb: DefaultTheme.Sidebar = {
         {
             text: 'TFS Work Items',
             items: [
-                { text: 'About', link: `${BUILD_BASE_DIR}/TFS-WorkItems/README` },
+                { text: 'About', link: `${BUILD_BASE_DIR}/TFS-WorkItems/` },
                 { text: 'Overview', link: `${BUILD_BASE_DIR}/TFS-WorkItems/overview` },
                 { text: 'Steps and settings', link: `${BUILD_BASE_DIR}/TFS-WorkItems/steps and settings` },
                 { text: 'Downloads', link: `${BUILD_BASE_DIR}/TFS-WorkItems/downloads` }
@@ -751,7 +751,7 @@ export const ucb: DefaultTheme.Sidebar = {
         {
             text: 'Team Foundation Server',
             items: [
-                { text: 'About', link: `${BUILD_BASE_DIR}/TFS/README` },
+                { text: 'About', link: `${BUILD_BASE_DIR}/TFS/` },
                 { text: 'Overview', link: `${BUILD_BASE_DIR}/TFS/overview` },
                 { text: 'Steps and settings', link: `${BUILD_BASE_DIR}/TFS/steps and settings` },
                 { text: 'Downloads', link: `${BUILD_BASE_DIR}/TFS/downloads` }
@@ -765,7 +765,7 @@ export const ucb: DefaultTheme.Sidebar = {
         {
             text: 'UCB Utilities',
             items: [
-                { text: 'About', link: `${BUILD_BASE_DIR}/UCBUtils/README` },
+                { text: 'About', link: `${BUILD_BASE_DIR}/UCBUtils/` },
                 { text: 'Overview', link: `${BUILD_BASE_DIR}/UCBUtils/overview` },
                 { text: 'Steps', link: `${BUILD_BASE_DIR}/UCBUtils/steps` },
                 { text: 'Downloads', link: `${BUILD_BASE_DIR}/UCBUtils/downloads` }
@@ -779,7 +779,7 @@ export const ucb: DefaultTheme.Sidebar = {
         {
             text: 'Visual Studio',
             items: [
-                { text: 'About', link: `${BUILD_BASE_DIR}/VisualStudio/README` },
+                { text: 'About', link: `${BUILD_BASE_DIR}/VisualStudio/` },
                 { text: 'Overview', link: `${BUILD_BASE_DIR}/VisualStudio/overview` },
                 { text: 'Steps', link: `${BUILD_BASE_DIR}/VisualStudio/steps` },
                 { text: 'Downloads', link: `${BUILD_BASE_DIR}/VisualStudio/downloads` }
@@ -793,7 +793,7 @@ export const ucb: DefaultTheme.Sidebar = {
         {
             text: 'Xcode',
             items: [
-                { text: 'About', link: `${BUILD_BASE_DIR}/Xcode/README` },
+                { text: 'About', link: `${BUILD_BASE_DIR}/Xcode/` },
                 { text: 'Overview', link: `${BUILD_BASE_DIR}/Xcode/overview` },
                 { text: 'Usage', link: `${BUILD_BASE_DIR}/Xcode/usage` },
                 { text: 'Steps', link: `${BUILD_BASE_DIR}/Xcode/steps` },
@@ -808,7 +808,7 @@ export const ucb: DefaultTheme.Sidebar = {
         {
             text: 'DevOps Insights – Deployment Risk Analytics (DRA)',
             items: [
-                { text: 'About', link: `${BUILD_BASE_DIR}/bluemix-deployment-risk-analytics/README` },
+                { text: 'About', link: `${BUILD_BASE_DIR}/bluemix-deployment-risk-analytics/` },
                 { text: 'Downloads', link: `${BUILD_BASE_DIR}/bluemix-deployment-risk-analytics/downloads` }
             ]
         }
@@ -820,7 +820,7 @@ export const ucb: DefaultTheme.Sidebar = {
         {
             text: 'Checkstyle',
             items: [
-                { text: 'About', link: `${BUILD_BASE_DIR}/checkstyle/README` },
+                { text: 'About', link: `${BUILD_BASE_DIR}/checkstyle/` },
                 { text: 'Overview', link: `${BUILD_BASE_DIR}/checkstyle/overview` },
                 { text: 'Steps', link: `${BUILD_BASE_DIR}/checkstyle/steps` },
                 { text: 'Downloads', link: `${BUILD_BASE_DIR}/checkstyle/downloads` }
@@ -834,7 +834,7 @@ export const ucb: DefaultTheme.Sidebar = {
         {
             text: 'Gradle for IBM DevOps Build',
             items: [
-                { text: 'About', link: `${BUILD_BASE_DIR}/gradle-2/README` }
+                { text: 'About', link: `${BUILD_BASE_DIR}/gradle-2/` }
             ]
         }
     ],
@@ -845,7 +845,7 @@ export const ucb: DefaultTheme.Sidebar = {
         {
             text: 'IBM Dependency Based Build',
             items: [
-                { text: 'About', link: `${BUILD_BASE_DIR}/ibm-dbb/README` },
+                { text: 'About', link: `${BUILD_BASE_DIR}/ibm-dbb/` },
                 { text: 'Overview', link: `${BUILD_BASE_DIR}/ibm-dbb/overview` },
                 { text: 'Steps', link: `${BUILD_BASE_DIR}/ibm-dbb/steps` },
                 { text: 'Downloads', link: `${BUILD_BASE_DIR}/ibm-dbb/downloads` }
@@ -859,7 +859,7 @@ export const ucb: DefaultTheme.Sidebar = {
         {
             text: 'IBM DevOps Deploy for IBM DevOps Build',
             items: [
-                { text: 'About', link: `${BUILD_BASE_DIR}/ibmucd/README` },
+                { text: 'About', link: `${BUILD_BASE_DIR}/ibmucd/` },
                 { text: 'Overview', link: `${BUILD_BASE_DIR}/ibmucd/overview` },
                 { text: 'Steps', link: `${BUILD_BASE_DIR}/ibmucd/steps` },
                 { text: 'Downloads', link: `${BUILD_BASE_DIR}/ibmucd/downloads` }
@@ -873,7 +873,7 @@ export const ucb: DefaultTheme.Sidebar = {
         {
             text: 'Job As Code',
             items: [
-                { text: 'About', link: `${BUILD_BASE_DIR}/jac/README` }
+                { text: 'About', link: `${BUILD_BASE_DIR}/jac/` }
             ]
         }
     ],
@@ -884,7 +884,7 @@ export const ucb: DefaultTheme.Sidebar = {
         {
             text: 'LogiGear TestArchitect for IBM DevOps Build',
             items: [
-                { text: 'About', link: `${BUILD_BASE_DIR}/logigear-testarchitect-2/README` }
+                { text: 'About', link: `${BUILD_BASE_DIR}/logigear-testarchitect-2/` }
             ]
         }
     ],
@@ -895,7 +895,7 @@ export const ucb: DefaultTheme.Sidebar = {
         {
             text: 'Salesforce',
             items: [
-                { text: 'About', link: `${BUILD_BASE_DIR}/salesforce/README` },
+                { text: 'About', link: `${BUILD_BASE_DIR}/salesforce/` },
                 { text: 'Overview', link: `${BUILD_BASE_DIR}/salesforce/overview` },
                 { text: 'Steps', link: `${BUILD_BASE_DIR}/salesforce/steps` },
                 { text: 'Downloads', link: `${BUILD_BASE_DIR}/salesforce/downloads` }
@@ -909,7 +909,7 @@ export const ucb: DefaultTheme.Sidebar = {
         {
             text: 'DevOps Velocity',
             items: [
-                { text: 'About', link: `${BUILD_BASE_DIR}/urbancode-velocity/README` },
+                { text: 'About', link: `${BUILD_BASE_DIR}/urbancode-velocity/` },
                 { text: 'Overview', link: `${BUILD_BASE_DIR}/urbancode-velocity/overview` },
                 { text: 'Steps', link: `${BUILD_BASE_DIR}/urbancode-velocity/steps` }
             ]
