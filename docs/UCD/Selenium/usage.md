@@ -20,7 +20,7 @@ To access this plug-in in the palette, click **Quality** > **Functional Testing*
 ## **Sample Artifacts and Downloads**
 
 
-In this tutorial, we will show how to run a simple Selenium test through the Run Test Suite plug-in step. In the test suite, shown below, we will run a single test called `ucd-selenium-test` which will start at the [IBM DevOps Plugins page](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS-BETA/) and navigate to this Selenium usage page. Along with version 8 of the Selenium plug-in, both below .html files and a browsers matching driver are required for this demo.
+In this tutorial, we will show how to run a simple Selenium test through the Run Test Suite plug-in step. In the test suite, shown below, we will run a single test called `ucd-selenium-test` which will start at the [IBM DevOps Plugins page](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/) and navigate to this Selenium usage page. Along with version 8 of the Selenium plug-in, both below .html files and a browsers matching driver are required for this demo.
 
 
 **Download the tutorials Selenium Test Suite file**: [ucd-selenium-test-suite](/selenium/ucd-selenium-test-suite.html)
@@ -57,7 +57,7 @@ The Run Test Suite step has four required properties.
 
 * **Selenium Jar Location**: This is the full path to the `selenium-server-standalone-2.XX.X.jar` or `selenium-html-runner-3.XX.X.jar` files. This file is found on Seleniums download page.
 * **Web Browser**: This is the type of browser the test suite should run against. There are too many browsers to list here, but they all start with a start (\*) character followed by some variation of the browser name. Each browser requires its own separate driver. `*firefox` is a common option that requires the GeckoDriver. Many 3rd party browser drivers can be found on [Seleniums download page](http://www.seleniumhq.org/download/).
-* **Starting URL**: The specified URL is the page where all Selenium tests should start. Because we are running a search test against the IBM DevOps Plugins page, we should start at https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS-BETA/.
+* **Starting URL**: The specified URL is the page where all Selenium tests should start. Because we are running a search test against the IBM DevOps Plugins page, we should start at https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/.
 * **Test Suite**: This file is created and exported using Seleniums IDE. A sample test suite can be found above. Within each suite, is the listing of the tests to run. The full path must be specified.
 
 The Run Test Suite step has three optional properties.

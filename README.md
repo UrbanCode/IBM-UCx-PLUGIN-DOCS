@@ -15,10 +15,10 @@ This repository holds the IBM DevOps products plugin documentation. The static s
   git clone <repo-url>
 ```
 
-* Change directory to `IBM-UCx-PLUGIN-DOCS-BETA`
+* Change directory to `IBM-UCx-PLUGIN-DOCS`
 
 ```shell
-  cd IBM-UCx-PLUGIN-DOCS-BETA
+  cd IBM-UCx-PLUGIN-DOCS
 ```
 
 * Install and resolve dependencies for the project using below `npm` command
@@ -49,8 +49,8 @@ This repository holds the IBM DevOps products plugin documentation. The static s
 
 ## Documentation Link
 
-### [Homepage](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS-BETA/)
-### [IBM DevOps Build Plugins](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS-BETA/UCB/)
-### [IBM DevOps Deploy Plugins](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS-BETA/UCD/)
-### [IBM DevOps Release Plugins](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS-BETA/UCR/)
-### [IBM DevOps Velocity Plugins](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS-BETA/UCV/)
+### [Homepage](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/)
+### [IBM DevOps Build Plugins](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCB/)
+### [IBM DevOps Deploy Plugins](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/)
+### [IBM DevOps Release Plugins](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCR/)
+### [IBM DevOps Velocity Plugins](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/)

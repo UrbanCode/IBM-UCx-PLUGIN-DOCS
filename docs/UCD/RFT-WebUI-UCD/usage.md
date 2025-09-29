@@ -18,7 +18,7 @@ After deploying the Rational Test WorkbenchWeb UI Tester plugin on the server, c
 
 1. To create a workflow for the newly created component process, click the component process. The Tools view displays the available plugin steps.
 2. From Rational Test Workbench > Eclipse Client, drag the **Run RTWec Test** step to the design space.
-3. Specify the properties for the step. For information about the properties, see the [Steps](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS-BETA/UCD/RFT-WebUI-UCD/steps.html) page.
+3. Specify the properties for the step. For information about the properties, see the [Steps](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/RFT-WebUI-UCD/steps.html) page.
 4. After you configure the step properties, save the step by clicking Save.
 
 A typical process for the Rational Test Workbench Web UI Testerplugin will look like the following snapshot:

@@ -15,7 +15,7 @@ The plug-in provides steps to support automated application and import of Oracle
 * `<OracleServerDirectory>`/Oracle\_OSB1/lib/sb-kernel-api.jar (on Oracle Service Bus versions 10g through 11g)
 * `<OracleServerDirectory>`/Oracle\_OSB1/modules/com.bea.common.configfwk\_1.7.0.0.jar
 
-For information on platform requirements, see the [plug-in documentation](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS-BETA/UCD/plugin-air-OSB-Configuration-Management/).
+For information on platform requirements, see the [plug-in documentation](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/plugin-air-OSB-Configuration-Management/).
 
 
 ## Available Steps

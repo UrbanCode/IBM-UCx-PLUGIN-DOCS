@@ -6,10 +6,10 @@ The Deploy Tools plug-in provides automated post deployment verification steps t
 
 This plug-in includes the following steps.
 
-* [Check Total Application Process Execution Time](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS-BETA/UCD/DeployTools/steps.html#check_total_application_process_execution_time)
-* [Check Total Component Process Execution Time](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS-BETA/UCD/DeployTools/steps.html#check_total_component_process_execution_time)
-* [Verify Deployment](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS-BETA/UCD/DeployTools/steps.html#verify_deployment)
-* [Wait for web page](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS-BETA/UCD/DeployTools/steps.html#wait_for_web_page)
+* [Check Total Application Process Execution Time](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/DeployTools/steps.html#check_total_application_process_execution_time)
+* [Check Total Component Process Execution Time](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/DeployTools/steps.html#check_total_component_process_execution_time)
+* [Verify Deployment](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/DeployTools/steps.html#verify_deployment)
+* [Wait for web page](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/DeployTools/steps.html#wait_for_web_page)
 
 To add the Deploy Tools plug-in steps to processes, click **Quality > Functional Testing > Simple Web Test** in the step palette of the process editor
 

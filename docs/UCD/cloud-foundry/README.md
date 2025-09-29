@@ -51,4 +51,4 @@ Unmap RouteRemoves a URL route from an application.
 
 There is also an DevOps Deploy Community supported plugin for cloud foundry: [DevOps Deploy Community Cloud Foundry Plugin](https://github.com/IBM-UrbanCode/Cloud-Foundry-UCD)
 
-Please see the [Troubleshooting Documentation](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS-BETA/UCD/cloud-foundry/troubleshooting.html) for information about migrating properties from the community plugin.
+Please see the [Troubleshooting Documentation](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/cloud-foundry/troubleshooting.html) for information about migrating properties from the community plugin.

@@ -14,7 +14,7 @@ The IBM Rational Asset Manager plug-in automates importing of artifacts from a R
 
 This plug-in includes one step which has no input properties:
 
-* [Import Version](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS-BETA/UCD/FileSystemSourceConfig/steps.html#import_version)
+* [Import Version](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/FileSystemSourceConfig/steps.html#import_version)
 
 
 ## Step palette

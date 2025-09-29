@@ -5,12 +5,12 @@ The Microsoft BizTalk plug-in contains steps that can import, uninstall, and rem
 
 The Microsoft BizTalk plug-in includes the following steps that are related to BizTalk applications:
 
-* [Add Biztalk Application](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS-BETA/UCD/BizTalk/steps.html#add_biztalk_application "Add Biztalk Application")
-* [Add Biztalk Resource](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS-BETA/UCD/BizTalk/steps.html#add_biztalk_resource "Add Biztalk Resource")
-* [Export Biztalk Application](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS-BETA/UCD/BizTalk/steps.html#export_biztalk_application "Export Biztalk Application")
+* [Add Biztalk Application](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/BizTalk/steps.html#add_biztalk_application "Add Biztalk Application")
+* [Add Biztalk Resource](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/BizTalk/steps.html#add_biztalk_resource "Add Biztalk Resource")
+* [Export Biztalk Application](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/BizTalk/steps.html#export_biztalk_application "Export Biztalk Application")
 * [Import or Upgrade Biztalk Application](#import_or_upgrade_biztalk_application "Import or Upgrade Biztalk Application")
-* [Remove Biztalk Application](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS-BETA/UCD/BizTalk/steps.html#remove_biztalk_application "Remove Biztalk Application")
-* [Start Biztalk Application](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS-BETA/UCD/BizTalk/steps.html#start_biztalk_application "Start Biztalk Application")
+* [Remove Biztalk Application](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/BizTalk/steps.html#remove_biztalk_application "Remove Biztalk Application")
+* [Start Biztalk Application](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/BizTalk/steps.html#start_biztalk_application "Start Biztalk Application")
 * [Stop Biztalk Application](#stop_biztalk_application "Stop Biztalk Application")
 * [Uninstall Biztalk Application](#uninstall_biztalk_application "Uninstall Biztalk Application")
 

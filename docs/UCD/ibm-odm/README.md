@@ -11,7 +11,7 @@ This plug-in includes steps to work with rules and versions in IBM Operational D
 
 The IBM-ODM plug-in can be installed by following the steps that are outlined in [Installing plug-ins in DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy").
 
-For importing component versions from IBM Decision Center, also install the [IBM Operational Decision Manager Source Config plug-in](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS-BETA/UCD/ibm-odm-source-config/ "IBM Operational Decision Manager Source Config plug-in").
+For importing component versions from IBM Decision Center, also install the [IBM Operational Decision Manager Source Config plug-in](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/ibm-odm-source-config/ "IBM Operational Decision Manager Source Config plug-in").
 
 
 

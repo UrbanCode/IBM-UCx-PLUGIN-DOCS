@@ -3,7 +3,7 @@
 
 Use the Create New-App step to generate OpenShift Container Platform objects that build, deploy, and run the application being created. For more information, see the [Openshift](https://docs.openshift.com/container-platform/3.11/dev_guide/application_lifecycle/new_app.html) documentation.
 
-The following example demonstrates using the step to create an application using a remote git repository. While this demonstration uses a generic process, a component process part of a component can be created using the [Openshift source configuration](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS-BETA/UCD/openshift/) plug-in. The following image shows the plug-in step properties where we specify the source.
+The following example demonstrates using the step to create an application using a remote git repository. While this demonstration uses a generic process, a component process part of a component can be created using the [Openshift source configuration](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/openshift/) plug-in. The following image shows the plug-in step properties where we specify the source.
 
 ![](media/openshift_properties.jpg)
 

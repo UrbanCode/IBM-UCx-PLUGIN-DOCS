@@ -409,7 +409,7 @@ else {
 
 ## Defining and deleting resource definitions
 
-Using the [z/OS Utility plug-in](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS-BETA/UCD/zos-deploy/ "z/OS Utility plug-in") **Submit Job** step you can perform the following actions in CICS:
+Using the [z/OS Utility plug-in](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/zos-deploy/ "z/OS Utility plug-in") **Submit Job** step you can perform the following actions in CICS:
 
 * Run DFHCSDUP to define or delete resource definitions in the CSD.
 * Run EYU9XDBT to define or delete resource definitions in the CPSM data repository.
@@ -423,7 +423,7 @@ Image showing the Submit Job step configured to define some CICS resources
 
 For example, a token such as *@CSD@* can be linked to a matching DevOps Deploy property, *cics.jcl.csd*. This property is then assigned a value, such as *CICSTS53.CICS.DFHCSD*, which can be set at the environment level, or wherever is most suitable.
 
-For more details on the **Submit Job** and **Wait For Job** steps, see the Steps page for the [z/OS Utility plug-in](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS-BETA/UCD/zos-deploy/).
+For more details on the **Submit Job** and **Wait For Job** steps, see the Steps page for the [z/OS Utility plug-in](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/zos-deploy/).
 
 ## Default input properties
 

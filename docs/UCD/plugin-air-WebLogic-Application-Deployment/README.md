@@ -7,7 +7,7 @@ The Oracle WebLogic Application Deployment plug-in provides processes to deploy,
 
 **This plugin has been deprecated**
 
-We are currently looking into the prospect of open sourcing this particular plugin so that users who want to continue using it can maintain their own versions. However, the [DevOps Deploy WLDeploy Plugin](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS-BETA/UCD/WLDeploy/) will be actively supported and we encourage users to transition over. Another option is [DevOps Deploy WebLogic-WLST Plugin](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS-BETA/UCD/WebLogic-WLST/), which uses Oracle’s [WebLogic Scripting Tool](https://docs.oracle.com/cd/E29542_01/web.1111/e13715/toc.htm).
+We are currently looking into the prospect of open sourcing this particular plugin so that users who want to continue using it can maintain their own versions. However, the [DevOps Deploy WLDeploy Plugin](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/WLDeploy/) will be actively supported and we encourage users to transition over. Another option is [DevOps Deploy WebLogic-WLST Plugin](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/WebLogic-WLST/), which uses Oracle’s [WebLogic Scripting Tool](https://docs.oracle.com/cd/E29542_01/web.1111/e13715/toc.htm).
 
 
 **Platform Support:**

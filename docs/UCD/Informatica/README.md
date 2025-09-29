@@ -18,7 +18,7 @@ Downloads:
 
 The Informatica plug-in is an open source project that is maintained by the IBM DevOps Development Community. If you encounter issues or want to send feedback:
 
-* See the [plug-in documentation](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS-BETA/UCD/Informatica/).
+* See the [plug-in documentation](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/Informatica/).
 * Ask Informatica plug-in specific questions on the [GitHub Issues](https://github.com/UrbanCode/Informatica-UCD/issues) page.
 * For general plug-in issues, submit questions to our [dW Answers page](https://community.ibm.com/community/user/wasdevops/urbancode-discussion). Use the following tags: DevOps | ucdev | plugins
 

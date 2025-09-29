@@ -8,10 +8,10 @@ To add the IISConfigure plug-in steps to processes, click **IISConfiguration > D
 ## Prerequisites
 
 * IIS and Microsoft Web Deploy must be installed on the agent computer.
-* The [File Utils plug-in](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS-BETA/UCD/FileUtils/) (version 49 or later) must be installed.
-* The [IBM DevOps Deploy Versioned File Storage plug-in](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS-BETA/UCD/UrbancodeVFS/) (version 25 or later) must be installed.
-* The [Groovy plug-in](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS-BETA/UCD/Groovy/) (version 7 or later) must be installed.
-* The [IBM DevOps Deploy Versions plug-in](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS-BETA/UCD/uDeploy-Version/) (version 62 or later) must be installed.
+* The [File Utils plug-in](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/FileUtils/) (version 49 or later) must be installed.
+* The [IBM DevOps Deploy Versioned File Storage plug-in](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/UrbancodeVFS/) (version 25 or later) must be installed.
+* The [Groovy plug-in](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/Groovy/) (version 7 or later) must be installed.
+* The [IBM DevOps Deploy Versions plug-in](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/uDeploy-Version/) (version 62 or later) must be installed.
 
 ## Compatibility
 

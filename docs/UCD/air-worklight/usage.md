@@ -88,9 +88,9 @@ You can use the process steps in the IBM Worklight plug-in to deploy mobile appl
 
 * If it is not already installed, install the IBM Worklight plug-in.
 * Install the plug-in that corresponds to the application server that is running your Worklight Server for deploying the WAR file to the Worklight Server. For example:
-+ [Apache Tomcat](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS-BETA/UCD/Tomcat/)
-+ [Application Deployment for IBM](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS-BETA/UCD/Websphere/)WebSphere
-+ [IBM WebSphere Application Server Liberty](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS-BETA/UCD/WebSphereLiberty/)Profile
++ [Apache Tomcat](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/Tomcat/)
++ [Application Deployment for IBM](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/Websphere/)WebSphere
++ [IBM WebSphere Application Server Liberty](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/WebSphereLiberty/)Profile
 * Verify that your process steps use the path to the JAR files that correspond to your IBM Worklight Server version. For example, if you are using IBM Worklight plug-in Version 2.0 or later and a version of IBM Worklight Server later than 6.0.0, you must update your process steps.**Note:** Worklight plug-in version 4.0 and later verifies that the provided JAR file matches the target Worklight server. If the versions do not match, a deployment can fail. This does not apply to steps for the application center.**Tip:** The following JAR files are available for use with IBM Worklight plug-in Version 2.0 or later:
 
 `worklight-ant.jar`

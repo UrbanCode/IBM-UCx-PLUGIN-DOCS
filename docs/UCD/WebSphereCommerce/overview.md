@@ -15,7 +15,7 @@ A typical deployment includes the following procedures:
 
 This plug-in requires version 6.0.1 or later of IBM DevOps Deploy.
 
-This plug-in also requires version 80 or later of the [WebSphere Application ServerDeployment](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS-BETA/UCD/Websphere/) plug-in.
+This plug-in also requires version 80 or later of the [WebSphere Application ServerDeployment](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/Websphere/) plug-in.
 
 The IBM DevOps Deploy plug-in for WebSphere Commerce works with WebSphere Commerce versions 7.0 and earlier. All editions are supported, including the Express, Enterprise and Professional editions.
 

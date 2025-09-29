@@ -6,7 +6,7 @@
 
 The Microsoft TFS\_SCM (Team Foundation Server) source configuration plug-in can be used to import artifacts from a TFS projects repository. This plug-in will retrieve artifacts from Team Foundation Version Control (TFVC), not compiled code or built .zip files from a TFS build process. Visual Studio Online and all TFS versions up to 2017 to are supported by the TFS\_SCM v6 plug-in. The plug-in requires the agent to have access to the `tf` tool. More information about this tool is documented below.
 
-Details for using the plug-in are located in the [Creating components from Microsoft Team Foundation Server SCM](https://www.ibm.com/docs/en/urbancode-deploy/7.2.3?topic=ccfscms-creating-components-from-microsoft-team-foundation-server-scm) topic. When creating the component, youll supply information described on the [Import Version](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS-BETA/UCD/FileSystemSourceConfig/steps.html#import_version) step. After the component is created use the **Components** page in the user interface to import a version of the artifacts if automatic import was not selected.
+Details for using the plug-in are located in the [Creating components from Microsoft Team Foundation Server SCM](https://www.ibm.com/docs/en/urbancode-deploy/7.2.3?topic=ccfscms-creating-components-from-microsoft-team-foundation-server-scm) topic. When creating the component, youll supply information described on the [Import Version](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/FileSystemSourceConfig/steps.html#import_version) step. After the component is created use the **Components** page in the user interface to import a version of the artifacts if automatic import was not selected.
 
 ## Requirements
 

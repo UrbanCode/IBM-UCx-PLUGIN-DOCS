@@ -9,7 +9,7 @@ This plug-in includes the following step:
 
 ## Compatibility
 
-This plug-in requires IBM DevOps Deploy version 6.0 or later. Please note that this plugin was written against the Nexus Repository Manager V3 REST API, and will not work with V2. For Nexus Repository Manager V2 support, please see the [Nexus Source Config Plugin](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS-BETA/UCD/nexus-source-config/).
+This plug-in requires IBM DevOps Deploy version 6.0 or later. Please note that this plugin was written against the Nexus Repository Manager V3 REST API, and will not work with V2. For Nexus Repository Manager V2 support, please see the [Nexus Source Config Plugin](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/nexus-source-config/).
 
 This plug-in runs on all operating systems that DevOps Deploy supports.
 

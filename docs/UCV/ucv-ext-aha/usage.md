@@ -5,7 +5,7 @@ To use the Aha! plug-in, the plug-in must be loaded, and an instance created bef
 
 ## Prerequisites:
 
-* Jira Integration (Refer: https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS-BETA/UCV/ucv-ext-jira/).
+* Jira Integration (Refer: https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-jira/).
 * VSM configuration for pulling Jira issues into Value Streams
 
 ## Integration type
@@ -53,7 +53,7 @@ Also notice the “Product Value” field (which is set to 10 in the picture). T
 
 linking:
 ![](media/Picture2.png)
-* The second prerequisite to configuring the Velocity AHA! Integration is that you will need a Velocity Jira integration that is pulling in the Jira issues to which your AHA features are linked (https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS-BETA/UCV/ucv-ext-jira/).
+* The second prerequisite to configuring the Velocity AHA! Integration is that you will need a Velocity Jira integration that is pulling in the Jira issues to which your AHA features are linked (https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-jira/).
 * This integration needs to be created before you setup your AHA! Integration. The AHA! Integration will use the imported Jira issues and add the “Product Value” coming from AHA! as a new field on our issues in Velocity called “Business Value”.
 * After your Velocity Jira integration is setup and importing your issues that your AHA! Jira integration is linked to, you can now setup your Velocity AHA! integration. All you need for this is the URL of your AHA! server and an API token from AHA!
 

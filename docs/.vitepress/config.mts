@@ -7,7 +7,7 @@ import { ucv } from './sidebar/ucv';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: "/IBM-UCx-PLUGIN-DOCS-BETA/",
+  base: "/IBM-UCx-PLUGIN-DOCS/",
   title: "DevOps Plugins",
   description: "UrbanCode related Plug-In documentation site",
   appearance: "dark",
@@ -29,7 +29,7 @@ export default defineConfig({
       ]
     }],
     editLink: {
-      pattern: 'https://github.com/UrbanCode/IBM-UCx-PLUGIN-DOCS-BETA/edit/main/docs/:path'
+      pattern: 'https://github.com/UrbanCode/IBM-UCx-PLUGIN-DOCS/edit/main/docs/:path'
     },
     search: {
       provider: 'local'
@@ -42,7 +42,7 @@ export default defineConfig({
       ...ucv
     },
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/UrbanCode/IBM-UCx-PLUGIN-DOCS-BETA' }
+      { icon: 'github', link: 'https://github.com/UrbanCode/IBM-UCx-PLUGIN-DOCS' }
     ],
     footer: {
       copyright: "©️ IBM Corp. 2011, 2017. <br> ©️ HCL Technologies Limited 2018, 2025.",
