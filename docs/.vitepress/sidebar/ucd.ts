@@ -24,11 +24,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: '7 zip',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/7-zip/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/7-zip/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/7-zip/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/7-zip/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/7-zip/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/7-zip/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/7-zip/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/7-zip/downloads` }
             ]
         }
     ],
@@ -39,10 +39,10 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'ASOC',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/ASOC/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/ASOC/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/ASOC/` },
-                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/ASOC/steps` }
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/ASOC/overview` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/ASOC/steps` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/ASOC/downloads` }
             ]
         }
     ],
@@ -53,11 +53,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'AccuRevSourceConfig',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/AccuRevSourceConfig/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/AccuRevSourceConfig/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/AccuRevSourceConfig/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/AccuRevSourceConfig/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/AccuRevSourceConfig/usage` },
                 { text: 'Steps and roles', link: `/${DEPLOY_BASE_DIR}/AccuRevSourceConfig/steps and roles` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/AccuRevSourceConfig/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/AccuRevSourceConfig/downloads` }
             ]
         }
     ],
@@ -68,8 +68,8 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'AgentScript',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/AgentScript/downloads` },
-                { text: 'About', link: `/${DEPLOY_BASE_DIR}/AgentScript/` }
+                { text: 'About', link: `/${DEPLOY_BASE_DIR}/AgentScript/` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/AgentScript/downloads` }
             ]
         }
     ],
@@ -80,11 +80,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'AmazonEC2',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/AmazonEC2/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/AmazonEC2/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/AmazonEC2/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/AmazonEC2/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/AmazonEC2/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/AmazonEC2/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/AmazonEC2/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/AmazonEC2/downloads` }
             ]
         }
     ],
@@ -95,11 +95,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Ant',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/Ant/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/Ant/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/Ant/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/Ant/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/Ant/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/Ant/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/Ant/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/Ant/downloads` }
             ]
         }
     ],
@@ -110,11 +110,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Apache',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/Apache/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/Apache/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/Apache/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/Apache/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/Apache/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/Apache/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/Apache/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/Apache/downloads` }
             ]
         }
     ],
@@ -125,11 +125,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Artifactory',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/Artifactory/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/Artifactory/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/Artifactory/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/Artifactory/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/Artifactory/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/Artifactory/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/Artifactory/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/Artifactory/downloads` }
             ]
         }
     ],
@@ -140,12 +140,12 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'ArtifactorySourceConfig',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/ArtifactorySourceConfig/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/ArtifactorySourceConfig/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/ArtifactorySourceConfig/` },
-                { text: 'Roles', link: `/${DEPLOY_BASE_DIR}/ArtifactorySourceConfig/roles` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/ArtifactorySourceConfig/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/ArtifactorySourceConfig/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/ArtifactorySourceConfig/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/ArtifactorySourceConfig/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/ArtifactorySourceConfig/downloads` },
+                { text: 'Roles', link: `/${DEPLOY_BASE_DIR}/ArtifactorySourceConfig/roles` }
             ]
         }
     ],
@@ -156,8 +156,8 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Autosys',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/Autosys/downloads` },
-                { text: 'About', link: `/${DEPLOY_BASE_DIR}/Autosys/` }
+                { text: 'About', link: `/${DEPLOY_BASE_DIR}/Autosys/` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/Autosys/downloads` }
             ]
         }
     ],
@@ -168,11 +168,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'AzureDevopsSourceconfig',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/AzureDevopsSourceconfig/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/AzureDevopsSourceconfig/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/AzureDevopsSourceconfig/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/AzureDevopsSourceconfig/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/AzureDevopsSourceconfig/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/AzureDevopsSourceconfig/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/AzureDevopsSourceconfig/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/AzureDevopsSourceconfig/downloads` }
             ]
         }
     ],
@@ -183,10 +183,10 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'BizTalk',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/BizTalk/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/BizTalk/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/BizTalk/` },
-                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/BizTalk/steps` }
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/BizTalk/overview` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/BizTalk/steps` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/BizTalk/downloads` }
             ]
         }
     ],
@@ -197,12 +197,12 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'CICS CM',
             items: [
-                { text: 'Component_templates', link: `/${DEPLOY_BASE_DIR}/CICS-CM/component_templates` },
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/CICS-CM/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/CICS-CM/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/CICS-CM/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/CICS-CM/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/CICS-CM/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/CICS-CM/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/CICS-CM/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/CICS-CM/downloads` },
+                { text: 'Component_templates', link: `/${DEPLOY_BASE_DIR}/CICS-CM/component_templates` }
             ]
         }
     ],
@@ -213,13 +213,13 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'CICS',
             items: [
-                { text: 'Component_templates', link: `/${DEPLOY_BASE_DIR}/CICS/component_templates` },
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/CICS/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/CICS/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/CICS/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/CICS/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/CICS/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/CICS/steps` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/CICS/downloads` },
                 { text: 'Troubleshooting', link: `/${DEPLOY_BASE_DIR}/CICS/troubleshooting` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/CICS/usage` }
+                { text: 'Component_templates', link: `/${DEPLOY_BASE_DIR}/CICS/component_templates` }
             ]
         }
     ],
@@ -230,11 +230,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Chef',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/Chef/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/Chef/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/Chef/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/Chef/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/Chef/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/Chef/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/Chef/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/Chef/downloads` }
             ]
         }
     ],
@@ -245,11 +245,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'ClearCaseSourceConfig',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/ClearCaseSourceConfig/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/ClearCaseSourceConfig/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/ClearCaseSourceConfig/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/ClearCaseSourceConfig/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/ClearCaseSourceConfig/usage` },
                 { text: 'Steps and roles', link: `/${DEPLOY_BASE_DIR}/ClearCaseSourceConfig/steps and roles` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/ClearCaseSourceConfig/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/ClearCaseSourceConfig/downloads` }
             ]
         }
     ],
@@ -260,10 +260,10 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Cognos',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/Cognos/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/Cognos/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/Cognos/` },
-                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/Cognos/steps` }
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/Cognos/overview` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/Cognos/steps` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/Cognos/downloads` }
             ]
         }
     ],
@@ -274,11 +274,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'DBUpgrader',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/DBUpgrader/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/DBUpgrader/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/DBUpgrader/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/DBUpgrader/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/DBUpgrader/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/DBUpgrader/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/DBUpgrader/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/DBUpgrader/downloads` }
             ]
         }
     ],
@@ -289,10 +289,10 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'DeployTools',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/DeployTools/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/DeployTools/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/DeployTools/` },
-                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/DeployTools/steps` }
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/DeployTools/overview` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/DeployTools/steps` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/DeployTools/downloads` }
             ]
         }
     ],
@@ -303,8 +303,8 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'DimensionsSourceConfig',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/DimensionsSourceConfig/downloads` },
-                { text: 'About', link: `/${DEPLOY_BASE_DIR}/DimensionsSourceConfig/` }
+                { text: 'About', link: `/${DEPLOY_BASE_DIR}/DimensionsSourceConfig/` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/DimensionsSourceConfig/downloads` }
             ]
         }
     ],
@@ -315,11 +315,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'DockerSourceConfig',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/DockerSourceConfig/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/DockerSourceConfig/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/DockerSourceConfig/` },
-                { text: 'Settings', link: `/${DEPLOY_BASE_DIR}/DockerSourceConfig/settings` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/DockerSourceConfig/usage` }
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/DockerSourceConfig/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/DockerSourceConfig/usage` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/DockerSourceConfig/downloads` },
+                { text: 'Settings', link: `/${DEPLOY_BASE_DIR}/DockerSourceConfig/settings` }
             ]
         }
     ],
@@ -330,10 +330,10 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'F5',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/F5/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/F5/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/F5/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/F5/overview` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/F5/steps` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/F5/downloads` },
                 { text: 'Troubleshooting', link: `/${DEPLOY_BASE_DIR}/F5/troubleshooting` }
             ]
         }
@@ -345,11 +345,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'FileNet CaseManager',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/FileNet-CaseManager/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/FileNet-CaseManager/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/FileNet-CaseManager/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/FileNet-CaseManager/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/FileNet-CaseManager/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/FileNet-CaseManager/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/FileNet-CaseManager/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/FileNet-CaseManager/downloads` }
             ]
         }
     ],
@@ -360,11 +360,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'FileSystemSourceConfig',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/FileSystemSourceConfig/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/FileSystemSourceConfig/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/FileSystemSourceConfig/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/FileSystemSourceConfig/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/FileSystemSourceConfig/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/FileSystemSourceConfig/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/FileSystemSourceConfig/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/FileSystemSourceConfig/downloads` }
             ]
         }
     ],
@@ -375,11 +375,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'FileSystemVersionedSourceConfig',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/FileSystemVersionedSourceConfig/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/FileSystemVersionedSourceConfig/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/FileSystemVersionedSourceConfig/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/FileSystemVersionedSourceConfig/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/FileSystemVersionedSourceConfig/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/FileSystemVersionedSourceConfig/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/FileSystemVersionedSourceConfig/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/FileSystemVersionedSourceConfig/downloads` }
             ]
         }
     ],
@@ -390,12 +390,12 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'FileUtils',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/FileUtils/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/FileUtils/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/FileUtils/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/FileUtils/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/FileUtils/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/FileUtils/steps` },
-                { text: 'Troubleshooting', link: `/${DEPLOY_BASE_DIR}/FileUtils/troubleshooting` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/FileUtils/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/FileUtils/downloads` },
+                { text: 'Troubleshooting', link: `/${DEPLOY_BASE_DIR}/FileUtils/troubleshooting` }
             ]
         }
     ],
@@ -406,12 +406,12 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'GitSourceConfig',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/GitSourceConfig/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/GitSourceConfig/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/GitSourceConfig/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/GitSourceConfig/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/GitSourceConfig/usage` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/GitSourceConfig/downloads` },
                 { text: 'Settings', link: `/${DEPLOY_BASE_DIR}/GitSourceConfig/settings` },
-                { text: 'Troubleshooting', link: `/${DEPLOY_BASE_DIR}/GitSourceConfig/troubleshooting` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/GitSourceConfig/usage` }
+                { text: 'Troubleshooting', link: `/${DEPLOY_BASE_DIR}/GitSourceConfig/troubleshooting` }
             ]
         }
     ],
@@ -422,11 +422,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Groovy',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/Groovy/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/Groovy/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/Groovy/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/Groovy/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/Groovy/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/Groovy/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/Groovy/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/Groovy/downloads` }
             ]
         }
     ],
@@ -437,8 +437,8 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'HCLDevOpsTestHub',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/HCLDevOpsTestHub/downloads` },
-                { text: 'About', link: `/${DEPLOY_BASE_DIR}/HCLDevOpsTestHub/` }
+                { text: 'About', link: `/${DEPLOY_BASE_DIR}/HCLDevOpsTestHub/` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/HCLDevOpsTestHub/downloads` }
             ]
         }
     ],
@@ -449,8 +449,8 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'HCLDevOpsTestPerf',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/HCLDevOpsTestPerf/downloads` },
-                { text: 'About', link: `/${DEPLOY_BASE_DIR}/HCLDevOpsTestPerf/` }
+                { text: 'About', link: `/${DEPLOY_BASE_DIR}/HCLDevOpsTestPerf/` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/HCLDevOpsTestPerf/downloads` }
             ]
         }
     ],
@@ -461,8 +461,8 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'HCLDevOpsTestUI',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/HCLDevOpsTestUI/downloads` },
-                { text: 'About', link: `/${DEPLOY_BASE_DIR}/HCLDevOpsTestUI/` }
+                { text: 'About', link: `/${DEPLOY_BASE_DIR}/HCLDevOpsTestUI/` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/HCLDevOpsTestUI/downloads` }
             ]
         }
     ],
@@ -473,8 +473,8 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'HCLDevOpsTestUIWebUI',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/HCLDevOpsTestUIWebUI/downloads` },
-                { text: 'About', link: `/${DEPLOY_BASE_DIR}/HCLDevOpsTestUIWebUI/` }
+                { text: 'About', link: `/${DEPLOY_BASE_DIR}/HCLDevOpsTestUIWebUI/` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/HCLDevOpsTestUIWebUI/downloads` }
             ]
         }
     ],
@@ -485,8 +485,8 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'HCLDevOpsTestVirtualization',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/HCLDevOpsTestVirtualization/downloads` },
-                { text: 'About', link: `/${DEPLOY_BASE_DIR}/HCLDevOpsTestVirtualization/` }
+                { text: 'About', link: `/${DEPLOY_BASE_DIR}/HCLDevOpsTestVirtualization/` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/HCLDevOpsTestVirtualization/downloads` }
             ]
         }
     ],
@@ -497,8 +497,8 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'HCLOneTestAPI',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/HCLOneTestAPI/downloads` },
-                { text: 'About', link: `/${DEPLOY_BASE_DIR}/HCLOneTestAPI/` }
+                { text: 'About', link: `/${DEPLOY_BASE_DIR}/HCLOneTestAPI/` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/HCLOneTestAPI/downloads` }
             ]
         }
     ],
@@ -509,8 +509,8 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'HCLOneTestPerf',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/HCLOneTestPerf/downloads` },
-                { text: 'About', link: `/${DEPLOY_BASE_DIR}/HCLOneTestPerf/` }
+                { text: 'About', link: `/${DEPLOY_BASE_DIR}/HCLOneTestPerf/` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/HCLOneTestPerf/downloads` }
             ]
         }
     ],
@@ -521,8 +521,8 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'HCLOneTestUI',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/HCLOneTestUI/downloads` },
-                { text: 'About', link: `/${DEPLOY_BASE_DIR}/HCLOneTestUI/` }
+                { text: 'About', link: `/${DEPLOY_BASE_DIR}/HCLOneTestUI/` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/HCLOneTestUI/downloads` }
             ]
         }
     ],
@@ -533,8 +533,8 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'HCLOneTestVirtualization',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/HCLOneTestVirtualization/downloads` },
-                { text: 'About', link: `/${DEPLOY_BASE_DIR}/HCLOneTestVirtualization/` }
+                { text: 'About', link: `/${DEPLOY_BASE_DIR}/HCLOneTestVirtualization/` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/HCLOneTestVirtualization/downloads` }
             ]
         }
     ],
@@ -545,8 +545,8 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'HCLOneTestWebUI',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/HCLOneTestWebUI/downloads` },
-                { text: 'About', link: `/${DEPLOY_BASE_DIR}/HCLOneTestWebUI/` }
+                { text: 'About', link: `/${DEPLOY_BASE_DIR}/HCLOneTestWebUI/` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/HCLOneTestWebUI/downloads` }
             ]
         }
     ],
@@ -557,12 +557,12 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'HPQualityCenter',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/HPQualityCenter/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/HPQualityCenter/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/HPQualityCenter/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/HPQualityCenter/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/HPQualityCenter/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/HPQualityCenter/steps` },
-                { text: 'Troubleshooting', link: `/${DEPLOY_BASE_DIR}/HPQualityCenter/troubleshooting` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/HPQualityCenter/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/HPQualityCenter/downloads` },
+                { text: 'Troubleshooting', link: `/${DEPLOY_BASE_DIR}/HPQualityCenter/troubleshooting` }
             ]
         }
     ],
@@ -573,8 +573,8 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'IBMDevOpsTestHub',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/IBMDevOpsTestHub/downloads` },
-                { text: 'About', link: `/${DEPLOY_BASE_DIR}/IBMDevOpsTestHub/` }
+                { text: 'About', link: `/${DEPLOY_BASE_DIR}/IBMDevOpsTestHub/` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/IBMDevOpsTestHub/downloads` }
             ]
         }
     ],
@@ -585,8 +585,8 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'IBMDevOpsTestPerf',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/IBMDevOpsTestPerf/downloads` },
-                { text: 'About', link: `/${DEPLOY_BASE_DIR}/IBMDevOpsTestPerf/` }
+                { text: 'About', link: `/${DEPLOY_BASE_DIR}/IBMDevOpsTestPerf/` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/IBMDevOpsTestPerf/downloads` }
             ]
         }
     ],
@@ -597,8 +597,8 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'IBMDevOpsTestUI',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/IBMDevOpsTestUI/downloads` },
-                { text: 'About', link: `/${DEPLOY_BASE_DIR}/IBMDevOpsTestUI/` }
+                { text: 'About', link: `/${DEPLOY_BASE_DIR}/IBMDevOpsTestUI/` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/IBMDevOpsTestUI/downloads` }
             ]
         }
     ],
@@ -609,8 +609,8 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'IBMDevOpsTestUIWebUI',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/IBMDevOpsTestUIWebUI/downloads` },
-                { text: 'About', link: `/${DEPLOY_BASE_DIR}/IBMDevOpsTestUIWebUI/` }
+                { text: 'About', link: `/${DEPLOY_BASE_DIR}/IBMDevOpsTestUIWebUI/` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/IBMDevOpsTestUIWebUI/downloads` }
             ]
         }
     ],
@@ -621,8 +621,8 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'IBMDevOpsTestVirtualization',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/IBMDevOpsTestVirtualization/downloads` },
-                { text: 'About', link: `/${DEPLOY_BASE_DIR}/IBMDevOpsTestVirtualization/` }
+                { text: 'About', link: `/${DEPLOY_BASE_DIR}/IBMDevOpsTestVirtualization/` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/IBMDevOpsTestVirtualization/downloads` }
             ]
         }
     ],
@@ -633,10 +633,10 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'IIS AdminScripts',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/IIS-AdminScripts/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/IIS-AdminScripts/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/IIS-AdminScripts/` },
-                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/IIS-AdminScripts/steps` }
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/IIS-AdminScripts/overview` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/IIS-AdminScripts/steps` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/IIS-AdminScripts/downloads` }
             ]
         }
     ],
@@ -647,10 +647,10 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'IIS AppCmd',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/IIS-AppCmd/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/IIS-AppCmd/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/IIS-AppCmd/` },
-                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/IIS-AppCmd/steps` }
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/IIS-AppCmd/overview` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/IIS-AppCmd/steps` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/IIS-AppCmd/downloads` }
             ]
         }
     ],
@@ -661,11 +661,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'IIS MSDeploy',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/IIS-MSDeploy/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/IIS-MSDeploy/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/IIS-MSDeploy/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/IIS-MSDeploy/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/IIS-MSDeploy/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/IIS-MSDeploy/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/IIS-MSDeploy/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/IIS-MSDeploy/downloads` }
             ]
         }
     ],
@@ -676,12 +676,12 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'IMSz',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/IMSz/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/IMSz/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/IMSz/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/IMSz/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/IMSz/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/IMSz/steps` },
-                { text: 'Troubleshooting', link: `/${DEPLOY_BASE_DIR}/IMSz/troubleshooting` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/IMSz/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/IMSz/downloads` },
+                { text: 'Troubleshooting', link: `/${DEPLOY_BASE_DIR}/IMSz/troubleshooting` }
             ]
         }
     ],
@@ -692,10 +692,10 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Informatica',
             items: [
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/Informatica/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/Informatica/` },
-                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/Informatica/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/Informatica/usage` }
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/Informatica/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/Informatica/usage` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/Informatica/steps` }
             ]
         }
     ],
@@ -706,11 +706,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'JBoss',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/JBoss/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/JBoss/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/JBoss/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/JBoss/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/JBoss/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/JBoss/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/JBoss/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/JBoss/downloads` }
             ]
         }
     ],
@@ -721,11 +721,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'JIRA',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/JIRA/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/JIRA/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/JIRA/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/JIRA/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/JIRA/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/JIRA/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/JIRA/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/JIRA/downloads` }
             ]
         }
     ],
@@ -736,11 +736,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'LinuxSystemTools',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/LinuxSystemTools/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/LinuxSystemTools/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/LinuxSystemTools/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/LinuxSystemTools/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/LinuxSystemTools/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/LinuxSystemTools/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/LinuxSystemTools/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/LinuxSystemTools/downloads` }
             ]
         }
     ],
@@ -751,10 +751,10 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'MFPFC',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/MFPFC/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/MFPFC/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/MFPFC/` },
-                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/MFPFC/steps` }
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/MFPFC/overview` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/MFPFC/steps` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/MFPFC/downloads` }
             ]
         }
     ],
@@ -765,8 +765,8 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'MSI',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/MSI/downloads` },
-                { text: 'About', link: `/${DEPLOY_BASE_DIR}/MSI/` }
+                { text: 'About', link: `/${DEPLOY_BASE_DIR}/MSI/` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/MSI/downloads` }
             ]
         }
     ],
@@ -777,11 +777,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Maven',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/Maven/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/Maven/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/Maven/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/Maven/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/Maven/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/Maven/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/Maven/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/Maven/downloads` }
             ]
         }
     ],
@@ -792,11 +792,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'MavenSourceConfig',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/MavenSourceConfig/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/MavenSourceConfig/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/MavenSourceConfig/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/MavenSourceConfig/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/MavenSourceConfig/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/MavenSourceConfig/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/MavenSourceConfig/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/MavenSourceConfig/downloads` }
             ]
         }
     ],
@@ -807,10 +807,10 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'MicrosoftSSIS',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/MicrosoftSSIS/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/MicrosoftSSIS/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/MicrosoftSSIS/` },
-                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/MicrosoftSSIS/steps` }
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/MicrosoftSSIS/overview` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/MicrosoftSSIS/steps` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/MicrosoftSSIS/downloads` }
             ]
         }
     ],
@@ -821,8 +821,8 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Netscaler',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/Netscaler/downloads` },
-                { text: 'About', link: `/${DEPLOY_BASE_DIR}/Netscaler/` }
+                { text: 'About', link: `/${DEPLOY_BASE_DIR}/Netscaler/` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/Netscaler/downloads` }
             ]
         }
     ],
@@ -833,9 +833,9 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'OpenShiftSourceConfig',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/OpenShiftSourceConfig/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/OpenShiftSourceConfig/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/OpenShiftSourceConfig/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/OpenShiftSourceConfig/overview` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/OpenShiftSourceConfig/downloads` },
                 { text: 'Settings', link: `/${DEPLOY_BASE_DIR}/OpenShiftSourceConfig/settings` }
             ]
         }
@@ -847,12 +847,12 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'PHPCLI',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/PHPCLI/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/PHPCLI/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/PHPCLI/` },
-                { text: 'Setup', link: `/${DEPLOY_BASE_DIR}/PHPCLI/setup` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/PHPCLI/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/PHPCLI/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/PHPCLI/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/PHPCLI/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/PHPCLI/downloads` },
+                { text: 'Setup', link: `/${DEPLOY_BASE_DIR}/PHPCLI/setup` }
             ]
         }
     ],
@@ -863,11 +863,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'PerforceSourceConfig',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/PerforceSourceConfig/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/PerforceSourceConfig/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/PerforceSourceConfig/` },
-                { text: 'Settings', link: `/${DEPLOY_BASE_DIR}/PerforceSourceConfig/settings` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/PerforceSourceConfig/usage` }
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/PerforceSourceConfig/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/PerforceSourceConfig/usage` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/PerforceSourceConfig/downloads` },
+                { text: 'Settings', link: `/${DEPLOY_BASE_DIR}/PerforceSourceConfig/settings` }
             ]
         }
     ],
@@ -878,11 +878,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'PvcsSourceConfig',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/PvcsSourceConfig/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/PvcsSourceConfig/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/PvcsSourceConfig/` },
-                { text: 'Settings', link: `/${DEPLOY_BASE_DIR}/PvcsSourceConfig/settings` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/PvcsSourceConfig/usage` }
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/PvcsSourceConfig/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/PvcsSourceConfig/usage` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/PvcsSourceConfig/downloads` },
+                { text: 'Settings', link: `/${DEPLOY_BASE_DIR}/PvcsSourceConfig/settings` }
             ]
         }
     ],
@@ -893,10 +893,10 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'QTP',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/QTP/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/QTP/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/QTP/` },
-                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/QTP/steps` }
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/QTP/overview` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/QTP/steps` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/QTP/downloads` }
             ]
         }
     ],
@@ -907,11 +907,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'RAM',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/RAM/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/RAM/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/RAM/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/RAM/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/RAM/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/RAM/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/RAM/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/RAM/downloads` }
             ]
         }
     ],
@@ -922,11 +922,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'RAMSourceConfig',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/RAMSourceConfig/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/RAMSourceConfig/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/RAMSourceConfig/` },
-                { text: 'Settings', link: `/${DEPLOY_BASE_DIR}/RAMSourceConfig/settings` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/RAMSourceConfig/usage` }
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/RAMSourceConfig/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/RAMSourceConfig/usage` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/RAMSourceConfig/downloads` },
+                { text: 'Settings', link: `/${DEPLOY_BASE_DIR}/RAMSourceConfig/settings` }
             ]
         }
     ],
@@ -937,11 +937,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'RFT UCD',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/RFT-UCD/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/RFT-UCD/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/RFT-UCD/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/RFT-UCD/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/RFT-UCD/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/RFT-UCD/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/RFT-UCD/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/RFT-UCD/downloads` }
             ]
         }
     ],
@@ -952,11 +952,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'RFT WebUI UCD',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/RFT-WebUI-UCD/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/RFT-WebUI-UCD/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/RFT-WebUI-UCD/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/RFT-WebUI-UCD/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/RFT-WebUI-UCD/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/RFT-WebUI-UCD/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/RFT-WebUI-UCD/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/RFT-WebUI-UCD/downloads` }
             ]
         }
     ],
@@ -967,11 +967,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'RIT UCD',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/RIT-UCD/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/RIT-UCD/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/RIT-UCD/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/RIT-UCD/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/RIT-UCD/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/RIT-UCD/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/RIT-UCD/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/RIT-UCD/downloads` }
             ]
         }
     ],
@@ -982,11 +982,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'RPM',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/RPM/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/RPM/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/RPM/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/RPM/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/RPM/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/RPM/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/RPM/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/RPM/downloads` }
             ]
         }
     ],
@@ -997,11 +997,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'RPT UCD',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/RPT-UCD/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/RPT-UCD/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/RPT-UCD/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/RPT-UCD/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/RPT-UCD/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/RPT-UCD/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/RPT-UCD/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/RPT-UCD/downloads` }
             ]
         }
     ],
@@ -1012,11 +1012,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'RTAS UCD',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/RTAS-UCD/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/RTAS-UCD/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/RTAS-UCD/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/RTAS-UCD/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/RTAS-UCD/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/RTAS-UCD/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/RTAS-UCD/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/RTAS-UCD/downloads` }
             ]
         }
     ],
@@ -1027,11 +1027,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'RTVS UCD',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/RTVS-UCD/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/RTVS-UCD/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/RTVS-UCD/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/RTVS-UCD/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/RTVS-UCD/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/RTVS-UCD/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/RTVS-UCD/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/RTVS-UCD/downloads` }
             ]
         }
     ],
@@ -1042,10 +1042,10 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Rally',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/Rally/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/Rally/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/Rally/` },
-                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/Rally/steps` }
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/Rally/overview` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/Rally/steps` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/Rally/downloads` }
             ]
         }
     ],
@@ -1056,10 +1056,10 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Remedy',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/Remedy/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/Remedy/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/Remedy/` },
-                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/Remedy/steps` }
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/Remedy/overview` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/Remedy/steps` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/Remedy/downloads` }
             ]
         }
     ],
@@ -1070,8 +1070,8 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'SAP CTS',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/SAP-CTS/downloads` },
-                { text: 'About', link: `/${DEPLOY_BASE_DIR}/SAP-CTS/` }
+                { text: 'About', link: `/${DEPLOY_BASE_DIR}/SAP-CTS/` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/SAP-CTS/downloads` }
             ]
         }
     ],
@@ -1082,12 +1082,12 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'SQL JDBC',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/SQL-JDBC/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/SQL-JDBC/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/SQL-JDBC/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/SQL-JDBC/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/SQL-JDBC/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/SQL-JDBC/steps` },
-                { text: 'Troubleshooting', link: `/${DEPLOY_BASE_DIR}/SQL-JDBC/troubleshooting` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/SQL-JDBC/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/SQL-JDBC/downloads` },
+                { text: 'Troubleshooting', link: `/${DEPLOY_BASE_DIR}/SQL-JDBC/troubleshooting` }
             ]
         }
     ],
@@ -1098,11 +1098,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'SQLCmd',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/SQLCmd/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/SQLCmd/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/SQLCmd/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/SQLCmd/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/SQLCmd/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/SQLCmd/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/SQLCmd/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/SQLCmd/downloads` }
             ]
         }
     ],
@@ -1113,11 +1113,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'SQLPlus',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/SQLPlus/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/SQLPlus/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/SQLPlus/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/SQLPlus/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/SQLPlus/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/SQLPlus/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/SQLPlus/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/SQLPlus/downloads` }
             ]
         }
     ],
@@ -1128,11 +1128,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Selenium',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/Selenium/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/Selenium/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/Selenium/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/Selenium/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/Selenium/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/Selenium/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/Selenium/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/Selenium/downloads` }
             ]
         }
     ],
@@ -1143,10 +1143,10 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'ServiceControlManager',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/ServiceControlManager/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/ServiceControlManager/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/ServiceControlManager/` },
-                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/ServiceControlManager/steps` }
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/ServiceControlManager/overview` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/ServiceControlManager/steps` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/ServiceControlManager/downloads` }
             ]
         }
     ],
@@ -1157,12 +1157,12 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'ServiceNow',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/ServiceNow/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/ServiceNow/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/ServiceNow/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/ServiceNow/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/ServiceNow/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/ServiceNow/steps` },
-                { text: 'Troubleshooting', link: `/${DEPLOY_BASE_DIR}/ServiceNow/troubleshooting` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/ServiceNow/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/ServiceNow/downloads` },
+                { text: 'Troubleshooting', link: `/${DEPLOY_BASE_DIR}/ServiceNow/troubleshooting` }
             ]
         }
     ],
@@ -1173,10 +1173,10 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Sharepoint',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/Sharepoint/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/Sharepoint/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/Sharepoint/` },
-                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/Sharepoint/steps` }
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/Sharepoint/overview` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/Sharepoint/steps` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/Sharepoint/downloads` }
             ]
         }
     ],
@@ -1187,11 +1187,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Shell',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/Shell/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/Shell/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/Shell/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/Shell/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/Shell/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/Shell/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/Shell/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/Shell/downloads` }
             ]
         }
     ],
@@ -1202,11 +1202,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Subversion export',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/Subversion-export/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/Subversion-export/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/Subversion-export/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/Subversion-export/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/Subversion-export/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/Subversion-export/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/Subversion-export/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/Subversion-export/downloads` }
             ]
         }
     ],
@@ -1217,11 +1217,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'SubversionSourceConfig',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/SubversionSourceConfig/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/SubversionSourceConfig/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/SubversionSourceConfig/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/SubversionSourceConfig/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/SubversionSourceConfig/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/SubversionSourceConfig/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/SubversionSourceConfig/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/SubversionSourceConfig/downloads` }
             ]
         }
     ],
@@ -1232,10 +1232,10 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'SystemInformation',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/SystemInformation/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/SystemInformation/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/SystemInformation/` },
-                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/SystemInformation/steps` }
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/SystemInformation/overview` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/SystemInformation/steps` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/SystemInformation/downloads` }
             ]
         }
     ],
@@ -1246,11 +1246,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'TFS SourceConfig',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/TFS-SourceConfig/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/TFS-SourceConfig/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/TFS-SourceConfig/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/TFS-SourceConfig/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/TFS-SourceConfig/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/TFS-SourceConfig/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/TFS-SourceConfig/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/TFS-SourceConfig/downloads` }
             ]
         }
     ],
@@ -1261,12 +1261,12 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'TFS_SCM SourceConfig',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/TFS_SCM-SourceConfig/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/TFS_SCM-SourceConfig/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/TFS_SCM-SourceConfig/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/TFS_SCM-SourceConfig/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/TFS_SCM-SourceConfig/usage` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/TFS_SCM-SourceConfig/downloads` },
                 { text: 'Settings', link: `/${DEPLOY_BASE_DIR}/TFS_SCM-SourceConfig/settings` },
-                { text: 'Troubleshooting', link: `/${DEPLOY_BASE_DIR}/TFS_SCM-SourceConfig/troubleshooting` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/TFS_SCM-SourceConfig/usage` }
+                { text: 'Troubleshooting', link: `/${DEPLOY_BASE_DIR}/TFS_SCM-SourceConfig/troubleshooting` }
             ]
         }
     ],
@@ -1277,11 +1277,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'TeamCitySourceConfig',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/TeamCitySourceConfig/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/TeamCitySourceConfig/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/TeamCitySourceConfig/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/TeamCitySourceConfig/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/TeamCitySourceConfig/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/TeamCitySourceConfig/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/TeamCitySourceConfig/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/TeamCitySourceConfig/downloads` }
             ]
         }
     ],
@@ -1292,11 +1292,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Tomcat',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/Tomcat/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/Tomcat/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/Tomcat/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/Tomcat/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/Tomcat/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/Tomcat/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/Tomcat/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/Tomcat/downloads` }
             ]
         }
     ],
@@ -1307,10 +1307,10 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'UrbanCodePackageManager',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/UrbanCodePackageManager/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/UrbanCodePackageManager/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/UrbanCodePackageManager/` },
-                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/UrbanCodePackageManager/steps` }
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/UrbanCodePackageManager/overview` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/UrbanCodePackageManager/steps` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/UrbanCodePackageManager/downloads` }
             ]
         }
     ],
@@ -1321,10 +1321,10 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'UrbancodeVFS',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/UrbancodeVFS/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/UrbancodeVFS/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/UrbancodeVFS/` },
-                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/UrbancodeVFS/steps` }
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/UrbancodeVFS/overview` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/UrbancodeVFS/steps` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/UrbancodeVFS/downloads` }
             ]
         }
     ],
@@ -1335,11 +1335,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'WLDeploy',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/WLDeploy/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/WLDeploy/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/WLDeploy/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/WLDeploy/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/WLDeploy/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/WLDeploy/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/WLDeploy/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/WLDeploy/downloads` }
             ]
         }
     ],
@@ -1350,11 +1350,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'WSRR',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/WSRR/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/WSRR/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/WSRR/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/WSRR/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/WSRR/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/WSRR/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/WSRR/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/WSRR/downloads` }
             ]
         }
     ],
@@ -1365,10 +1365,10 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'WebLogic WLST',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/WebLogic-WLST/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/WebLogic-WLST/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/WebLogic-WLST/` },
-                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/WebLogic-WLST/steps` }
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/WebLogic-WLST/overview` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/WebLogic-WLST/steps` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/WebLogic-WLST/downloads` }
             ]
         }
     ],
@@ -1379,12 +1379,12 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'WebLogicSecurityMgmt',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/WebLogicSecurityMgmt/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/WebLogicSecurityMgmt/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/WebLogicSecurityMgmt/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/WebLogicSecurityMgmt/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/WebLogicSecurityMgmt/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/WebLogicSecurityMgmt/steps` },
-                { text: 'Troubleshooting', link: `/${DEPLOY_BASE_DIR}/WebLogicSecurityMgmt/troubleshooting` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/WebLogicSecurityMgmt/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/WebLogicSecurityMgmt/downloads` },
+                { text: 'Troubleshooting', link: `/${DEPLOY_BASE_DIR}/WebLogicSecurityMgmt/troubleshooting` }
             ]
         }
     ],
@@ -1395,11 +1395,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'WebSphereBPM',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/WebSphereBPM/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/WebSphereBPM/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/WebSphereBPM/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/WebSphereBPM/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/WebSphereBPM/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/WebSphereBPM/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/WebSphereBPM/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/WebSphereBPM/downloads` }
             ]
         }
     ],
@@ -1410,11 +1410,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'WebSphereBPMSourceConfig',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/WebSphereBPMSourceConfig/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/WebSphereBPMSourceConfig/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/WebSphereBPMSourceConfig/` },
-                { text: 'Settings', link: `/${DEPLOY_BASE_DIR}/WebSphereBPMSourceConfig/settings` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/WebSphereBPMSourceConfig/usage` }
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/WebSphereBPMSourceConfig/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/WebSphereBPMSourceConfig/usage` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/WebSphereBPMSourceConfig/downloads` },
+                { text: 'Settings', link: `/${DEPLOY_BASE_DIR}/WebSphereBPMSourceConfig/settings` }
             ]
         }
     ],
@@ -1425,11 +1425,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'WebSphereCommerce',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/WebSphereCommerce/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/WebSphereCommerce/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/WebSphereCommerce/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/WebSphereCommerce/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/WebSphereCommerce/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/WebSphereCommerce/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/WebSphereCommerce/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/WebSphereCommerce/downloads` }
             ]
         }
     ],
@@ -1440,15 +1440,15 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'WebSphereConfiguration',
             items: [
+                { text: 'About', link: `/${DEPLOY_BASE_DIR}/WebSphereConfiguration/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/WebSphereConfiguration/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/WebSphereConfiguration/usage` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/WebSphereConfiguration/steps` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/WebSphereConfiguration/downloads` },
+                { text: 'Troubleshooting', link: `/${DEPLOY_BASE_DIR}/WebSphereConfiguration/troubleshooting` },
                 { text: 'Example applications', link: `/${DEPLOY_BASE_DIR}/WebSphereConfiguration/example applications` },
                 { text: 'Example processes', link: `/${DEPLOY_BASE_DIR}/WebSphereConfiguration/example processes` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/WebSphereConfiguration/overview` },
-                { text: 'About', link: `/${DEPLOY_BASE_DIR}/WebSphereConfiguration/` },
-                { text: 'Roles', link: `/${DEPLOY_BASE_DIR}/WebSphereConfiguration/roles` },
-                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/WebSphereConfiguration/steps` },
-                { text: 'Troubleshooting', link: `/${DEPLOY_BASE_DIR}/WebSphereConfiguration/troubleshooting` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/WebSphereConfiguration/usage` }
+                { text: 'Roles', link: `/${DEPLOY_BASE_DIR}/WebSphereConfiguration/roles` }
             ]
         }
     ],
@@ -1459,12 +1459,12 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'WebSphereLiberty',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/WebSphereLiberty/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/WebSphereLiberty/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/WebSphereLiberty/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/WebSphereLiberty/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/WebSphereLiberty/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/WebSphereLiberty/steps` },
-                { text: 'Troubleshooting', link: `/${DEPLOY_BASE_DIR}/WebSphereLiberty/troubleshooting` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/WebSphereLiberty/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/WebSphereLiberty/downloads` },
+                { text: 'Troubleshooting', link: `/${DEPLOY_BASE_DIR}/WebSphereLiberty/troubleshooting` }
             ]
         }
     ],
@@ -1475,10 +1475,10 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'WebSphereMQ',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/WebSphereMQ/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/WebSphereMQ/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/WebSphereMQ/` },
-                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/WebSphereMQ/steps` }
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/WebSphereMQ/overview` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/WebSphereMQ/steps` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/WebSphereMQ/downloads` }
             ]
         }
     ],
@@ -1489,12 +1489,12 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'WebSphereMessageBroker CMP',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/WebSphereMessageBroker-CMP/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/WebSphereMessageBroker-CMP/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/WebSphereMessageBroker-CMP/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/WebSphereMessageBroker-CMP/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/WebSphereMessageBroker-CMP/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/WebSphereMessageBroker-CMP/steps` },
-                { text: 'Troubleshooting', link: `/${DEPLOY_BASE_DIR}/WebSphereMessageBroker-CMP/troubleshooting` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/WebSphereMessageBroker-CMP/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/WebSphereMessageBroker-CMP/downloads` },
+                { text: 'Troubleshooting', link: `/${DEPLOY_BASE_DIR}/WebSphereMessageBroker-CMP/troubleshooting` }
             ]
         }
     ],
@@ -1505,12 +1505,12 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'WebSpherePortal',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/WebSpherePortal/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/WebSpherePortal/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/WebSpherePortal/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/WebSpherePortal/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/WebSpherePortal/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/WebSpherePortal/steps` },
-                { text: 'Troubleshooting', link: `/${DEPLOY_BASE_DIR}/WebSpherePortal/troubleshooting` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/WebSpherePortal/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/WebSpherePortal/downloads` },
+                { text: 'Troubleshooting', link: `/${DEPLOY_BASE_DIR}/WebSpherePortal/troubleshooting` }
             ]
         }
     ],
@@ -1521,13 +1521,13 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Websphere',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/Websphere/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/Websphere/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/Websphere/` },
-                { text: 'Roles', link: `/${DEPLOY_BASE_DIR}/Websphere/roles` },
-                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/Websphere/steps` },
-                { text: 'Troubleshooting', link: `/${DEPLOY_BASE_DIR}/Websphere/troubleshooting` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/Websphere/overview` },
                 { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/Websphere/usage` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/Websphere/steps` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/Websphere/downloads` },
+                { text: 'Troubleshooting', link: `/${DEPLOY_BASE_DIR}/Websphere/troubleshooting` },
+                { text: 'Roles', link: `/${DEPLOY_BASE_DIR}/Websphere/roles` },
                 { text: 'User permissions', link: `/${DEPLOY_BASE_DIR}/Websphere/user permissions` }
             ]
         }
@@ -1539,10 +1539,10 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'WinRSAgentInstall',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/WinRSAgentInstall/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/WinRSAgentInstall/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/WinRSAgentInstall/` },
-                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/WinRSAgentInstall/steps` }
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/WinRSAgentInstall/overview` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/WinRSAgentInstall/steps` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/WinRSAgentInstall/downloads` }
             ]
         }
     ],
@@ -1553,10 +1553,10 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'WindowsFailoverCluster',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/WindowsFailoverCluster/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/WindowsFailoverCluster/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/WindowsFailoverCluster/` },
-                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/WindowsFailoverCluster/steps` }
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/WindowsFailoverCluster/overview` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/WindowsFailoverCluster/steps` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/WindowsFailoverCluster/downloads` }
             ]
         }
     ],
@@ -1567,12 +1567,12 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'WindowsSystemTools',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/WindowsSystemTools/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/WindowsSystemTools/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/WindowsSystemTools/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/WindowsSystemTools/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/WindowsSystemTools/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/WindowsSystemTools/steps` },
-                { text: 'Troubleshooting', link: `/${DEPLOY_BASE_DIR}/WindowsSystemTools/troubleshooting` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/WindowsSystemTools/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/WindowsSystemTools/downloads` },
+                { text: 'Troubleshooting', link: `/${DEPLOY_BASE_DIR}/WindowsSystemTools/troubleshooting` }
             ]
         }
     ],
@@ -1594,10 +1594,10 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Air plugin CASCM',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/air-plugin-CASCM/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/air-plugin-CASCM/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/air-plugin-CASCM/` },
-                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/air-plugin-CASCM/steps` }
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/air-plugin-CASCM/overview` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/air-plugin-CASCM/steps` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/air-plugin-CASCM/downloads` }
             ]
         }
     ],
@@ -1608,11 +1608,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Air plugin RTC scm',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/air-plugin-RTC-scm/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/air-plugin-RTC-scm/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/air-plugin-RTC-scm/` },
-                { text: 'Settings', link: `/${DEPLOY_BASE_DIR}/air-plugin-RTC-scm/settings` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/air-plugin-RTC-scm/usage` }
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/air-plugin-RTC-scm/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/air-plugin-RTC-scm/usage` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/air-plugin-RTC-scm/downloads` },
+                { text: 'Settings', link: `/${DEPLOY_BASE_DIR}/air-plugin-RTC-scm/settings` }
             ]
         }
     ],
@@ -1623,12 +1623,12 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Air worklight',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/air-worklight/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/air-worklight/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/air-worklight/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/air-worklight/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/air-worklight/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/air-worklight/steps` },
-                { text: 'Troubleshooting', link: `/${DEPLOY_BASE_DIR}/air-worklight/troubleshooting` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/air-worklight/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/air-worklight/downloads` },
+                { text: 'Troubleshooting', link: `/${DEPLOY_BASE_DIR}/air-worklight/troubleshooting` }
             ]
         }
     ],
@@ -1639,11 +1639,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Ansible',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/ansible/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/ansible/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/ansible/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/ansible/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/ansible/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/ansible/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/ansible/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/ansible/downloads` }
             ]
         }
     ],
@@ -1665,13 +1665,13 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Apiconnect',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/apiconnect/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/apiconnect/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/apiconnect/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/apiconnect/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/apiconnect/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/apiconnect/steps` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/apiconnect/downloads` },
                 { text: 'Troubleshooting', link: `/${DEPLOY_BASE_DIR}/apiconnect/troubleshooting` },
-                { text: 'Tutorials', link: `/${DEPLOY_BASE_DIR}/apiconnect/tutorials` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/apiconnect/usage` }
+                { text: 'Tutorials', link: `/${DEPLOY_BASE_DIR}/apiconnect/tutorials` }
             ]
         }
     ],
@@ -1704,10 +1704,10 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Appscan',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/appscan/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/appscan/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/appscan/` },
-                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/appscan/steps` }
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/appscan/overview` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/appscan/steps` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/appscan/downloads` }
             ]
         }
     ],
@@ -1718,11 +1718,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Argocd',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/argocd/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/argocd/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/argocd/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/argocd/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/argocd/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/argocd/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/argocd/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/argocd/downloads` }
             ]
         }
     ],
@@ -1733,10 +1733,10 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Aspera',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/aspera/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/aspera/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/aspera/` },
-                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/aspera/steps` }
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/aspera/overview` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/aspera/steps` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/aspera/downloads` }
             ]
         }
     ],
@@ -1758,8 +1758,8 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Aws lambda',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/aws-lambda/downloads` },
-                { text: 'About', link: `/${DEPLOY_BASE_DIR}/aws-lambda/` }
+                { text: 'About', link: `/${DEPLOY_BASE_DIR}/aws-lambda/` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/aws-lambda/downloads` }
             ]
         }
     ],
@@ -1770,10 +1770,10 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Bigfix',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/bigfix/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/bigfix/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/bigfix/` },
-                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/bigfix/steps` }
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/bigfix/overview` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/bigfix/steps` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/bigfix/downloads` }
             ]
         }
     ],
@@ -1784,10 +1784,10 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Bluemix autoscale',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/bluemix-autoscale/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/bluemix-autoscale/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/bluemix-autoscale/` },
-                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/bluemix-autoscale/steps` }
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/bluemix-autoscale/overview` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/bluemix-autoscale/steps` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/bluemix-autoscale/downloads` }
             ]
         }
     ],
@@ -1809,11 +1809,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Cloud foundry ibm containers',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/cloud-foundry-ibm-containers/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/cloud-foundry-ibm-containers/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/cloud-foundry-ibm-containers/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/cloud-foundry-ibm-containers/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/cloud-foundry-ibm-containers/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/cloud-foundry-ibm-containers/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/cloud-foundry-ibm-containers/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/cloud-foundry-ibm-containers/downloads` }
             ]
         }
     ],
@@ -1824,12 +1824,12 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Cloud foundry',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/cloud-foundry/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/cloud-foundry/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/cloud-foundry/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/cloud-foundry/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/cloud-foundry/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/cloud-foundry/steps` },
-                { text: 'Troubleshooting', link: `/${DEPLOY_BASE_DIR}/cloud-foundry/troubleshooting` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/cloud-foundry/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/cloud-foundry/downloads` },
+                { text: 'Troubleshooting', link: `/${DEPLOY_BASE_DIR}/cloud-foundry/troubleshooting` }
             ]
         }
     ],
@@ -1851,11 +1851,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Cognos analytics',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/cognos-analytics/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/cognos-analytics/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/cognos-analytics/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/cognos-analytics/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/cognos-analytics/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/cognos-analytics/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/cognos-analytics/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/cognos-analytics/downloads` }
             ]
         }
     ],
@@ -1866,10 +1866,10 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Cyberark',
             items: [
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/cyberark/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/cyberark/` },
-                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/cyberark/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/cyberark/usage` }
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/cyberark/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/cyberark/usage` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/cyberark/steps` }
             ]
         }
     ],
@@ -1880,11 +1880,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Datapower',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/datapower/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/datapower/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/datapower/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/datapower/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/datapower/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/datapower/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/datapower/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/datapower/downloads` }
             ]
         }
     ],
@@ -1895,11 +1895,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Datastage',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/datastage/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/datastage/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/datastage/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/datastage/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/datastage/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/datastage/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/datastage/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/datastage/downloads` }
             ]
         }
     ],
@@ -1932,10 +1932,10 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Docker compose',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/docker-compose/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/docker-compose/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/docker-compose/` },
-                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/docker-compose/steps` }
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/docker-compose/overview` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/docker-compose/steps` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/docker-compose/downloads` }
             ]
         }
     ],
@@ -1946,10 +1946,10 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Docker plugin',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/docker-${DEPLOY_BASE_DIR}/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/docker-${DEPLOY_BASE_DIR}/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/docker-${DEPLOY_BASE_DIR}/` },
-                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/docker-${DEPLOY_BASE_DIR}/steps` }
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/docker-${DEPLOY_BASE_DIR}/overview` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/docker-${DEPLOY_BASE_DIR}/steps` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/docker-${DEPLOY_BASE_DIR}/downloads` }
             ]
         }
     ],
@@ -1971,11 +1971,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'General utilities',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/general-utilities/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/general-utilities/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/general-utilities/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/general-utilities/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/general-utilities/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/general-utilities/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/general-utilities/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/general-utilities/downloads` }
             ]
         }
     ],
@@ -1997,11 +1997,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Gitlab generic packages',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/gitlab-generic-packages/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/gitlab-generic-packages/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/gitlab-generic-packages/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/gitlab-generic-packages/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/gitlab-generic-packages/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/gitlab-generic-packages/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/gitlab-generic-packages/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/gitlab-generic-packages/downloads` }
             ]
         }
     ],
@@ -2012,11 +2012,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Gitlab sourceconfig generic packages',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/gitlab-sourceconfig-generic-packages/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/gitlab-sourceconfig-generic-packages/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/gitlab-sourceconfig-generic-packages/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/gitlab-sourceconfig-generic-packages/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/gitlab-sourceconfig-generic-packages/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/gitlab-sourceconfig-generic-packages/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/gitlab-sourceconfig-generic-packages/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/gitlab-sourceconfig-generic-packages/downloads` }
             ]
         }
     ],
@@ -2027,11 +2027,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Hp loadrunner',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/hp-loadrunner/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/hp-loadrunner/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/hp-loadrunner/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/hp-loadrunner/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/hp-loadrunner/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/hp-loadrunner/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/hp-loadrunner/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/hp-loadrunner/downloads` }
             ]
         }
     ],
@@ -2042,11 +2042,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Ibm ace',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/ibm-ace/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/ibm-ace/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/ibm-ace/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/ibm-ace/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/ibm-ace/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/ibm-ace/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/ibm-ace/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/ibm-ace/downloads` }
             ]
         }
     ],
@@ -2079,8 +2079,8 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Ibm installation manager',
             items: [
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/ibm-installation-manager/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/ibm-installation-manager/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/ibm-installation-manager/overview` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/ibm-installation-manager/steps` }
             ]
         }
@@ -2092,11 +2092,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Ibm instana',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/ibm-instana/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/ibm-instana/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/ibm-instana/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/ibm-instana/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/ibm-instana/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/ibm-instana/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/ibm-instana/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/ibm-instana/downloads` }
             ]
         }
     ],
@@ -2118,11 +2118,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Ibm maximo',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/ibm-maximo/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/ibm-maximo/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/ibm-maximo/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/ibm-maximo/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/ibm-maximo/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/ibm-maximo/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/ibm-maximo/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/ibm-maximo/downloads` }
             ]
         }
     ],
@@ -2133,10 +2133,10 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Ibm mq for z os generate mqsc commands',
             items: [
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/ibm-mq-for-z-os-generate-mqsc-commands/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/ibm-mq-for-z-os-generate-mqsc-commands/` },
-                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/ibm-mq-for-z-os-generate-mqsc-commands/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/ibm-mq-for-z-os-generate-mqsc-commands/usage` }
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/ibm-mq-for-z-os-generate-mqsc-commands/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/ibm-mq-for-z-os-generate-mqsc-commands/usage` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/ibm-mq-for-z-os-generate-mqsc-commands/steps` }
             ]
         }
     ],
@@ -2147,11 +2147,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Ibm odm source config',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/ibm-odm-source-config/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/ibm-odm-source-config/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/ibm-odm-source-config/` },
-                { text: 'Settings', link: `/${DEPLOY_BASE_DIR}/ibm-odm-source-config/settings` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/ibm-odm-source-config/usage` }
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/ibm-odm-source-config/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/ibm-odm-source-config/usage` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/ibm-odm-source-config/downloads` },
+                { text: 'Settings', link: `/${DEPLOY_BASE_DIR}/ibm-odm-source-config/settings` }
             ]
         }
     ],
@@ -2162,11 +2162,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Ibm odm',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/ibm-odm/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/ibm-odm/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/ibm-odm/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/ibm-odm/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/ibm-odm/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/ibm-odm/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/ibm-odm/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/ibm-odm/downloads` }
             ]
         }
     ],
@@ -2199,11 +2199,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Ibm rational quality manager rqm',
             items: [
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/ibm-rational-quality-manager-rqm/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/ibm-rational-quality-manager-rqm/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/ibm-rational-quality-manager-rqm/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/ibm-rational-quality-manager-rqm/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/ibm-rational-quality-manager-rqm/steps` },
-                { text: 'Troubleshooting', link: `/${DEPLOY_BASE_DIR}/ibm-rational-quality-manager-rqm/troubleshooting` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/ibm-rational-quality-manager-rqm/usage` }
+                { text: 'Troubleshooting', link: `/${DEPLOY_BASE_DIR}/ibm-rational-quality-manager-rqm/troubleshooting` }
             ]
         }
     ],
@@ -2258,12 +2258,12 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Iis configuration',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/iis-configuration/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/iis-configuration/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/iis-configuration/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/iis-configuration/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/iis-configuration/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/iis-configuration/steps` },
-                { text: 'Troubleshooting', link: `/${DEPLOY_BASE_DIR}/iis-configuration/troubleshooting` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/iis-configuration/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/iis-configuration/downloads` },
+                { text: 'Troubleshooting', link: `/${DEPLOY_BASE_DIR}/iis-configuration/troubleshooting` }
             ]
         }
     ],
@@ -2274,10 +2274,10 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Infosphere isd',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/infosphere-isd/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/infosphere-isd/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/infosphere-isd/` },
-                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/infosphere-isd/steps` }
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/infosphere-isd/overview` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/infosphere-isd/steps` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/infosphere-isd/downloads` }
             ]
         }
     ],
@@ -2288,11 +2288,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Java shell',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/java-shell/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/java-shell/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/java-shell/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/java-shell/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/java-shell/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/java-shell/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/java-shell/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/java-shell/downloads` }
             ]
         }
     ],
@@ -2325,10 +2325,10 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Jenkins pipeline ud plugin',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/jenkins-pipeline-ud-${DEPLOY_BASE_DIR}/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/jenkins-pipeline-ud-${DEPLOY_BASE_DIR}/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/jenkins-pipeline-ud-${DEPLOY_BASE_DIR}/` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/jenkins-pipeline-ud-${DEPLOY_BASE_DIR}/usage` }
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/jenkins-pipeline-ud-${DEPLOY_BASE_DIR}/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/jenkins-pipeline-ud-${DEPLOY_BASE_DIR}/usage` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/jenkins-pipeline-ud-${DEPLOY_BASE_DIR}/downloads` }
             ]
         }
     ],
@@ -2339,10 +2339,10 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Jenkins ud plugin',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/jenkins-ud-${DEPLOY_BASE_DIR}/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/jenkins-ud-${DEPLOY_BASE_DIR}/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/jenkins-ud-${DEPLOY_BASE_DIR}/` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/jenkins-ud-${DEPLOY_BASE_DIR}/usage` }
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/jenkins-ud-${DEPLOY_BASE_DIR}/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/jenkins-ud-${DEPLOY_BASE_DIR}/usage` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/jenkins-ud-${DEPLOY_BASE_DIR}/downloads` }
             ]
         }
     ],
@@ -2353,11 +2353,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Kubernetes',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/kubernetes/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/kubernetes/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/kubernetes/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/kubernetes/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/kubernetes/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/kubernetes/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/kubernetes/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/kubernetes/downloads` }
             ]
         }
     ],
@@ -2390,10 +2390,10 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Mesos marathon',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/mesos-marathon/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/mesos-marathon/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/mesos-marathon/` },
-                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/mesos-marathon/steps` }
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/mesos-marathon/overview` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/mesos-marathon/steps` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/mesos-marathon/downloads` }
             ]
         }
     ],
@@ -2415,10 +2415,10 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Mulesoft',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/mulesoft/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/mulesoft/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/mulesoft/` },
-                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/mulesoft/steps` }
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/mulesoft/overview` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/mulesoft/steps` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/mulesoft/downloads` }
             ]
         }
     ],
@@ -2440,11 +2440,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Nexus source config',
             items: [
-                { text: 'Configuration', link: `/${DEPLOY_BASE_DIR}/nexus-source-config/configuration` },
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/nexus-source-config/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/nexus-source-config/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/nexus-source-config/` },
-                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/nexus-source-config/steps` }
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/nexus-source-config/overview` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/nexus-source-config/steps` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/nexus-source-config/downloads` },
+                { text: 'Configuration', link: `/${DEPLOY_BASE_DIR}/nexus-source-config/configuration` }
             ]
         }
     ],
@@ -2455,10 +2455,10 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Nexus',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/nexus/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/nexus/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/nexus/` },
-                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/nexus/steps` }
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/nexus/overview` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/nexus/steps` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/nexus/downloads` }
             ]
         }
     ],
@@ -2491,11 +2491,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Nuget source config',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/nuget-source-config/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/nuget-source-config/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/nuget-source-config/` },
-                { text: 'Settings', link: `/${DEPLOY_BASE_DIR}/nuget-source-config/settings` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/nuget-source-config/usage` }
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/nuget-source-config/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/nuget-source-config/usage` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/nuget-source-config/downloads` },
+                { text: 'Settings', link: `/${DEPLOY_BASE_DIR}/nuget-source-config/settings` }
             ]
         }
     ],
@@ -2506,8 +2506,8 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Onetest server',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/onetest-server/downloads` },
-                { text: 'About', link: `/${DEPLOY_BASE_DIR}/onetest-server/` }
+                { text: 'About', link: `/${DEPLOY_BASE_DIR}/onetest-server/` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/onetest-server/downloads` }
             ]
         }
     ],
@@ -2518,11 +2518,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Openshift',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/openshift/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/openshift/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/openshift/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/openshift/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/openshift/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/openshift/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/openshift/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/openshift/downloads` }
             ]
         }
     ],
@@ -2533,10 +2533,10 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Optim',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/optim/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/optim/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/optim/` },
-                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/optim/steps` }
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/optim/overview` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/optim/steps` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/optim/downloads` }
             ]
         }
     ],
@@ -2547,8 +2547,8 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Plugin air Android',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/plugin-air-Android/downloads` },
-                { text: 'About', link: `/${DEPLOY_BASE_DIR}/plugin-air-Android/` }
+                { text: 'About', link: `/${DEPLOY_BASE_DIR}/plugin-air-Android/` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/plugin-air-Android/downloads` }
             ]
         }
     ],
@@ -2559,10 +2559,10 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Plugin air OSB Configuration Management',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/plugin-air-OSB-Configuration-Management/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/plugin-air-OSB-Configuration-Management/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/plugin-air-OSB-Configuration-Management/` },
-                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/plugin-air-OSB-Configuration-Management/steps` }
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/plugin-air-OSB-Configuration-Management/overview` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/plugin-air-OSB-Configuration-Management/steps` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/plugin-air-OSB-Configuration-Management/downloads` }
             ]
         }
     ],
@@ -2573,10 +2573,10 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Plugin air RTC WorkItems',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/plugin-air-RTC-WorkItems/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/plugin-air-RTC-WorkItems/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/plugin-air-RTC-WorkItems/` },
-                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/plugin-air-RTC-WorkItems/steps` }
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/plugin-air-RTC-WorkItems/overview` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/plugin-air-RTC-WorkItems/steps` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/plugin-air-RTC-WorkItems/downloads` }
             ]
         }
     ],
@@ -2587,11 +2587,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Plugin air TFS WorkItems',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/plugin-air-TFS-WorkItems/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/plugin-air-TFS-WorkItems/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/plugin-air-TFS-WorkItems/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/plugin-air-TFS-WorkItems/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/plugin-air-TFS-WorkItems/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/plugin-air-TFS-WorkItems/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/plugin-air-TFS-WorkItems/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/plugin-air-TFS-WorkItems/downloads` }
             ]
         }
     ],
@@ -2602,12 +2602,12 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Plugin air WLI Resource Management',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/plugin-air-WLI-Resource-Management/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/plugin-air-WLI-Resource-Management/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/plugin-air-WLI-Resource-Management/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/plugin-air-WLI-Resource-Management/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/plugin-air-WLI-Resource-Management/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/plugin-air-WLI-Resource-Management/steps` },
-                { text: 'Troubleshooting', link: `/${DEPLOY_BASE_DIR}/plugin-air-WLI-Resource-Management/troubleshooting` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/plugin-air-WLI-Resource-Management/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/plugin-air-WLI-Resource-Management/downloads` },
+                { text: 'Troubleshooting', link: `/${DEPLOY_BASE_DIR}/plugin-air-WLI-Resource-Management/troubleshooting` }
             ]
         }
     ],
@@ -2618,10 +2618,10 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Plugin air WLS Resource Management',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/plugin-air-WLS-Resource-Management/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/plugin-air-WLS-Resource-Management/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/plugin-air-WLS-Resource-Management/` },
-                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/plugin-air-WLS-Resource-Management/steps` }
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/plugin-air-WLS-Resource-Management/overview` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/plugin-air-WLS-Resource-Management/steps` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/plugin-air-WLS-Resource-Management/downloads` }
             ]
         }
     ],
@@ -2632,11 +2632,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Plugin air WebLogic Application Deployment',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/plugin-air-WebLogic-Application-Deployment/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/plugin-air-WebLogic-Application-Deployment/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/plugin-air-WebLogic-Application-Deployment/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/plugin-air-WebLogic-Application-Deployment/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/plugin-air-WebLogic-Application-Deployment/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/plugin-air-WebLogic-Application-Deployment/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/plugin-air-WebLogic-Application-Deployment/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/plugin-air-WebLogic-Application-Deployment/downloads` }
             ]
         }
     ],
@@ -2647,12 +2647,12 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Powershell integration',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/powershell-integration/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/powershell-integration/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/powershell-integration/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/powershell-integration/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/powershell-integration/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/powershell-integration/steps` },
-                { text: 'Troubleshooting', link: `/${DEPLOY_BASE_DIR}/powershell-integration/troubleshooting` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/powershell-integration/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/powershell-integration/downloads` },
+                { text: 'Troubleshooting', link: `/${DEPLOY_BASE_DIR}/powershell-integration/troubleshooting` }
             ]
         }
     ],
@@ -2685,8 +2685,8 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Resource utilities',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/resource-utilities/downloads` },
-                { text: 'About', link: `/${DEPLOY_BASE_DIR}/resource-utilities/` }
+                { text: 'About', link: `/${DEPLOY_BASE_DIR}/resource-utilities/` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/resource-utilities/downloads` }
             ]
         }
     ],
@@ -2697,11 +2697,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Salesforce',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/salesforce/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/salesforce/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/salesforce/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/salesforce/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/salesforce/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/salesforce/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/salesforce/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/salesforce/downloads` }
             ]
         }
     ],
@@ -2712,11 +2712,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Send smtp email',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/send-smtp-email/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/send-smtp-email/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/send-smtp-email/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/send-smtp-email/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/send-smtp-email/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/send-smtp-email/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/send-smtp-email/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/send-smtp-email/downloads` }
             ]
         }
     ],
@@ -2760,10 +2760,10 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Sourceconfig github release',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/sourceconfig-github-release/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/sourceconfig-github-release/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/sourceconfig-github-release/` },
-                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/sourceconfig-github-release/steps` }
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/sourceconfig-github-release/overview` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/sourceconfig-github-release/steps` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/sourceconfig-github-release/downloads` }
             ]
         }
     ],
@@ -2774,11 +2774,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Sourceconfig nexus v3',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/sourceconfig-nexus-v3/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/sourceconfig-nexus-v3/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/sourceconfig-nexus-v3/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/sourceconfig-nexus-v3/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/sourceconfig-nexus-v3/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/sourceconfig-nexus-v3/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/sourceconfig-nexus-v3/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/sourceconfig-nexus-v3/downloads` }
             ]
         }
     ],
@@ -2789,11 +2789,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Sourceconfig npm',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/sourceconfig-npm/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/sourceconfig-npm/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/sourceconfig-npm/` },
-                { text: 'Settings', link: `/${DEPLOY_BASE_DIR}/sourceconfig-npm/settings` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/sourceconfig-npm/usage` }
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/sourceconfig-npm/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/sourceconfig-npm/usage` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/sourceconfig-npm/downloads` },
+                { text: 'Settings', link: `/${DEPLOY_BASE_DIR}/sourceconfig-npm/settings` }
             ]
         }
     ],
@@ -2804,10 +2804,10 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Sybase',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/sybase/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/sybase/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/sybase/` },
-                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/sybase/steps` }
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/sybase/overview` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/sybase/steps` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/sybase/downloads` }
             ]
         }
     ],
@@ -2840,11 +2840,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'UBuild',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/uBuild/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/uBuild/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/uBuild/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/uBuild/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/uBuild/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/uBuild/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/uBuild/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/uBuild/downloads` }
             ]
         }
     ],
@@ -2855,11 +2855,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'UBuildSourceConfig',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/uBuildSourceConfig/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/uBuildSourceConfig/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/uBuildSourceConfig/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/uBuildSourceConfig/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/uBuildSourceConfig/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/uBuildSourceConfig/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/uBuildSourceConfig/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/uBuildSourceConfig/downloads` }
             ]
         }
     ],
@@ -2870,11 +2870,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'UDeploy Application',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/uDeploy-Application/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/uDeploy-Application/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/uDeploy-Application/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/uDeploy-Application/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/uDeploy-Application/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/uDeploy-Application/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/uDeploy-Application/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/uDeploy-Application/downloads` }
             ]
         }
     ],
@@ -2885,11 +2885,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'UDeploy Component',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/uDeploy-Component/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/uDeploy-Component/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/uDeploy-Component/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/uDeploy-Component/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/uDeploy-Component/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/uDeploy-Component/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/uDeploy-Component/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/uDeploy-Component/downloads` }
             ]
         }
     ],
@@ -2900,11 +2900,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'UDeploy Environment',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/uDeploy-Environment/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/uDeploy-Environment/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/uDeploy-Environment/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/uDeploy-Environment/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/uDeploy-Environment/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/uDeploy-Environment/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/uDeploy-Environment/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/uDeploy-Environment/downloads` }
             ]
         }
     ],
@@ -2915,11 +2915,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'UDeploy Process',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/uDeploy-Process/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/uDeploy-Process/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/uDeploy-Process/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/uDeploy-Process/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/uDeploy-Process/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/uDeploy-Process/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/uDeploy-Process/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/uDeploy-Process/downloads` }
             ]
         }
     ],
@@ -2930,11 +2930,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'UDeploy Resource',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/uDeploy-Resource/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/uDeploy-Resource/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/uDeploy-Resource/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/uDeploy-Resource/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/uDeploy-Resource/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/uDeploy-Resource/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/uDeploy-Resource/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/uDeploy-Resource/downloads` }
             ]
         }
     ],
@@ -2945,10 +2945,10 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'UDeploy System',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/uDeploy-System/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/uDeploy-System/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/uDeploy-System/` },
-                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/uDeploy-System/steps` }
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/uDeploy-System/overview` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/uDeploy-System/steps` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/uDeploy-System/downloads` }
             ]
         }
     ],
@@ -2959,10 +2959,10 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'UDeploy Version',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/uDeploy-Version/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/uDeploy-Version/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/uDeploy-Version/` },
-                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/uDeploy-Version/steps` }
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/uDeploy-Version/overview` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/uDeploy-Version/steps` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/uDeploy-Version/downloads` }
             ]
         }
     ],
@@ -2973,10 +2973,10 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'UDeployConfigManagement',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/uDeployConfigManagement/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/uDeployConfigManagement/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/uDeployConfigManagement/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/uDeployConfigManagement/overview` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/uDeployConfigManagement/steps` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/uDeployConfigManagement/downloads` },
                 { text: 'Troubleshooting', link: `/${DEPLOY_BASE_DIR}/uDeployConfigManagement/troubleshooting` }
             ]
         }
@@ -2988,11 +2988,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Ucr plugin',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/ucr-${DEPLOY_BASE_DIR}/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/ucr-${DEPLOY_BASE_DIR}/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/ucr-${DEPLOY_BASE_DIR}/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/ucr-${DEPLOY_BASE_DIR}/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/ucr-${DEPLOY_BASE_DIR}/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/ucr-${DEPLOY_BASE_DIR}/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/ucr-${DEPLOY_BASE_DIR}/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/ucr-${DEPLOY_BASE_DIR}/downloads` }
             ]
         }
     ],
@@ -3025,11 +3025,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Web utilities',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/web-utilities/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/web-utilities/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/web-utilities/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/web-utilities/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/web-utilities/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/web-utilities/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/web-utilities/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/web-utilities/downloads` }
             ]
         }
     ],
@@ -3040,10 +3040,10 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Webseal',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/webseal/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/webseal/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/webseal/` },
-                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/webseal/steps` }
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/webseal/overview` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/webseal/steps` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/webseal/downloads` }
             ]
         }
     ],
@@ -3054,11 +3054,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Websphere install',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/websphere-install/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/websphere-install/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/websphere-install/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/websphere-install/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/websphere-install/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/websphere-install/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/websphere-install/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/websphere-install/downloads` }
             ]
         }
     ],
@@ -3069,11 +3069,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'ZOS external artifact download',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/zOS-external-artifact-download/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/zOS-external-artifact-download/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/zOS-external-artifact-download/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/zOS-external-artifact-download/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/zOS-external-artifact-download/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/zOS-external-artifact-download/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/zOS-external-artifact-download/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/zOS-external-artifact-download/downloads` }
             ]
         }
     ],
@@ -3084,9 +3084,9 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'ZOSFileSourceConfig',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/zOSFileSourceConfig/downloads` },
+                { text: 'About', link: `/${DEPLOY_BASE_DIR}/zOSFileSourceConfig/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/zOSFileSourceConfig/overview` },
-                { text: 'About', link: `/${DEPLOY_BASE_DIR}/zOSFileSourceConfig/` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/zOSFileSourceConfig/downloads` }
             ]
         }
     ],
@@ -3097,11 +3097,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Zos dataset writer',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/zos-dataset-writer/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/zos-dataset-writer/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/zos-dataset-writer/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/zos-dataset-writer/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/zos-dataset-writer/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/zos-dataset-writer/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/zos-dataset-writer/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/zos-dataset-writer/downloads` }
             ]
         }
     ],
@@ -3112,12 +3112,12 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Zos deploy',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/zos-deploy/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/zos-deploy/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/zos-deploy/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/zos-deploy/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/zos-deploy/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/zos-deploy/steps` },
-                { text: 'Troubleshooting', link: `/${DEPLOY_BASE_DIR}/zos-deploy/troubleshooting` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/zos-deploy/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/zos-deploy/downloads` },
+                { text: 'Troubleshooting', link: `/${DEPLOY_BASE_DIR}/zos-deploy/troubleshooting` }
             ]
         }
     ],
@@ -3128,10 +3128,10 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Zos ftp',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/zos-ftp/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/zos-ftp/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/zos-ftp/` },
-                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/zos-ftp/steps` }
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/zos-ftp/overview` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/zos-ftp/steps` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/zos-ftp/downloads` }
             ]
         }
     ],
@@ -3142,11 +3142,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Zos ibm integration bus ucd',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/zos-ibm-integration-bus-ucd/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/zos-ibm-integration-bus-ucd/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/zos-ibm-integration-bus-ucd/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/zos-ibm-integration-bus-ucd/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/zos-ibm-integration-bus-ucd/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/zos-ibm-integration-bus-ucd/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/zos-ibm-integration-bus-ucd/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/zos-ibm-integration-bus-ucd/downloads` }
             ]
         }
     ],
@@ -3157,11 +3157,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Zos multi generate artifact info',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/zos-multi-generate-artifact-info/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/zos-multi-generate-artifact-info/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/zos-multi-generate-artifact-info/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/zos-multi-generate-artifact-info/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/zos-multi-generate-artifact-info/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/zos-multi-generate-artifact-info/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/zos-multi-generate-artifact-info/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/zos-multi-generate-artifact-info/downloads` }
             ]
         }
     ],
@@ -3172,11 +3172,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Zos replacetokens uss',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/zos-replacetokens-uss/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/zos-replacetokens-uss/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/zos-replacetokens-uss/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/zos-replacetokens-uss/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/zos-replacetokens-uss/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/zos-replacetokens-uss/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/zos-replacetokens-uss/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/zos-replacetokens-uss/downloads` }
             ]
         }
     ],
@@ -3187,11 +3187,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Zos rexx',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/zos-rexx/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/zos-rexx/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/zos-rexx/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/zos-rexx/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/zos-rexx/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/zos-rexx/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/zos-rexx/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/zos-rexx/downloads` }
             ]
         }
     ],
@@ -3202,11 +3202,11 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Zosmf',
             items: [
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/zosmf/downloads` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/zosmf/overview` },
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/zosmf/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/zosmf/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/zosmf/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/zosmf/steps` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/zosmf/usage` }
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/zosmf/downloads` }
             ]
         }
     ],
