@@ -4,10 +4,6 @@ IBM Rational ClearCase - Overview
 
 # Overview
 
-
-## Overview
-
-
 The ClearCase plug-in automates importing versions from a ClearCase repository.
 
 This plugin includes one or more steps, click **Steps** for step details and properties.

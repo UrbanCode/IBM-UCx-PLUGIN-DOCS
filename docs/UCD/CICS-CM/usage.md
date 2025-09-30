@@ -62,11 +62,6 @@ The **Applications** view changes to show the progress of the migration. You can
 
 ## CICS CM properties
 
-
-
-
-## CICS CM properties
-
 When you add a new CICS CM step to a process, the step contains a number of default values that refer to properties.
 
 For the CICS CM steps, you can create a resource tree and define properties at the following resource levels:

@@ -4,11 +4,6 @@ Linux System Tools - Overview
 
 # Overview
 
-
-## Overview
-
-
-
 The Linux System Tools plug-in includes steps to automate several Linux operating system administrator tasks within a deploy process.
 
 This plugin includes one or more steps, click **Steps** for step details and properties.

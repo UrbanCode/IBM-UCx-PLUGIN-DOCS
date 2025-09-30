@@ -4,11 +4,6 @@ WebSphere Application Server - Configure - Example Processes
 
 # Example Processes
 
-
-## Example Processes
-
-
-
 The WebSphere Application Server Configure plug-in includes several processes that you can use as examples for managing WebSphere Application Server configurations. Some example processes are automatically installed in IBM DevOps Deploy when you install the plug-in. Other example processes are available for download. You must manually import the processes that are not included in the plug-in.
 
 These processes are only examples. Tailor these processes for your environment.

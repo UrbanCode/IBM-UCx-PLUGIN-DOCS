@@ -4,12 +4,6 @@ IBM Rational Asset Manager for IBM DevOps Deploy - Settings
 
 # Settings
 
-
-## Settings
-
-
-
-
 ## Process steps in the Rational Asset Manager plug-in
 
 * [Import Version](#import_version)

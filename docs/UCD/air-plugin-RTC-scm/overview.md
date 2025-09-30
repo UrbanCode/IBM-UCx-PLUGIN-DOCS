@@ -4,11 +4,6 @@ IBM Rational Team Concert - SCM - Overview
 
 # Overview
 
-
-## Overview
-
-
-
 The IBM Rational Team Concert SCM source plug-in supports creating components from the Rational Team Concert source-code management system.
 
 ## Compatibility
