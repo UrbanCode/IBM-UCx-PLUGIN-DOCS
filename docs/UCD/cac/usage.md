@@ -1,4 +1,6 @@
-### List of All Commands:
+# Usage
+
+## List of All Commands:
 
 - **Download a Generic Process**  
   *Syntax*:  
@@ -162,7 +164,7 @@
   *For Ex. While downloading an application process*:    
   `download-application-process myuser mypassword https://url:8443 "my ApplicationProcess Name" "my Application Name" myApplicationProcess.json`  
 
-### Structure of a Process file
+## Structure of a Process file
 
 * A process file has below a structure
 
@@ -191,7 +193,7 @@
 
 * A process in the above structure is mapped to a json that has multiple process step definitions. there are multiple types of steps that are supported in **Devops Deploy** 
 
-### Process step definitions 
+## Process step definitions 
 
 
 - 'Devops-Deploy' processes are composed of different steps that are made up of json. The steps ideally start from the 'Start' step and terminate at the last user defined step. Unlike in the UI, there's no need for an explicit 'Finish' step.
@@ -227,7 +229,7 @@
 
     ```
 
-### Termination Events within in a Process
+## Termination Events within in a Process
 The step termination event tells the possible termination possibilities of a step and attach a target step based on the type of the termination event. The three types of termination events are
 1. success — upon successful completion of this step
 2. failure - upon unsuccessful completion of this step
@@ -236,7 +238,7 @@ The step termination event tells the possible termination possibilities of a ste
 - The events contain data to complete the workflow by defining what the next step is post the completion of the current step.
 the events can either **start** an array of one or more steps defined in the process or can terminate at the **finish** step
 - 
-#### Termination event Examples
+### Termination event Examples
   1. Example of events calling other steps in successful and unsuccessful scenarios of the current step
 
 
@@ -318,9 +320,9 @@ the events can either **start** an array of one or more steps defined in the pro
 
 Note that in the above examples, the **finish** attribute has no value. The finish step does not need a definition and hence there is no need for a target step value.
 
-### Process configurations
+## Process configurations
   
-#### Component Process Configurations
+### Component Process Configurations
 *  Available from 8.X versions 
 
 - Syntax
@@ -537,7 +539,7 @@ Note that in the above examples, the **finish** attribute has no value. The fini
 
       ```
 
-#### Application process configuration 
+### Application process configuration 
 *  Available from 8.X versions
 
 - Syntax
@@ -753,7 +755,7 @@ Note that in the above examples, the **finish** attribute has no value. The fini
         selector: "reverseAllInEnvironment/Active"
     ```
 
-#### Process configurations for Generic processes
+### Process configurations for Generic processes
 
 - Syntax
 

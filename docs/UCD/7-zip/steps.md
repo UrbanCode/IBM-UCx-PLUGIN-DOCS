@@ -2,7 +2,7 @@
 
 - [Extract archive](#extract-archive)
 
-### Extract archive
+## Extract archive
 
 Extract 7-Zip archive files.
 
@@ -12,4 +12,3 @@ Extract 7-Zip archive files.
 | Include Files      | textAreaBox  | A new line separated list of file filters for files to include.                           | Yes      |
 | Exclude Files      | textAreaBox  | A new line separated list of file filters for files to exclude.                           | No       |
 | Extract Directory  | textBox      | The directory where the archives should be extracted.                                     | Yes      |
-
