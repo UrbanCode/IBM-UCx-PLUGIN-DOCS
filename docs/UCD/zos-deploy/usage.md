@@ -98,8 +98,6 @@ In this example, the Run TSO or ISPF Command step uses the following settings:
 
 ![](media/zos_props_5.png?resize=640%2C189)
 
-## Deploying data sets and running CICS commands
-
 ## Example: Deploying data sets and running CICS commands
 
 In this process example, the z/OS data sets must be in the component. Also, the environment contains agents that are running z/OS. In addition to the z/OS Utility plug-in, the CICS TS plug-in must be installed. The process runs the following steps in order:
@@ -254,8 +252,6 @@ The z/OS Utility plug-in includes the MVSTEMPLATE component template. The templa
 | jes.password           | false    | Password for the JES subsystem.                                                                                                                                                                                                                                                             |
 | jes.monitor.port       | false    | JES Job Monitor port (1-65535). The default port is 6715.                                                                                                                                                                                                                                   |
 | BUZ_DEPLOY_BASE        | false    | The base location to store deployment results and backups for rollback. Each agent provides a default value. If multiple environments use the same agent, this value can be over-ridden by a property with higher order of precedence: for example, an agent property or resource property. |
-
-## Submitting a JCL job and then checking for status
 
 ## Example: Submitting a JCL job and then checking for status
 

@@ -4,12 +4,6 @@ IBM Rational Asset Manager for IBM DevOps Deploy - Overview
 
 # Overview
 
-
-## Overview
-
-
-
-
 The IBM Rational Asset Manager plug-in automates importing of artifacts from a RAM repository. For more information about IBM Rational Asset Manager, see the [product documentation](https://www.ibm.com/support/knowledgecenter/SSUS84).
 
 This plug-in includes one step which has no input properties:

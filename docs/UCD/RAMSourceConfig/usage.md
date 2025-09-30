@@ -4,12 +4,6 @@ IBM Rational Asset Manager for IBM DevOps Deploy - Usage
 
 # Usage
 
-
-## Usage
-
-
-
-
 Youll need to define an DevOps Deploy component which defines the source and processes for the IBM Rational Asset Manager repository. The component contains the information for importing the artifacts and any processes to implement on the artifacts.
 
 When creating the component, youll supply information described on the [Import Version](#steps) step. After the component is created, use the **Components** page in the user interface to import a version of the artifacts if automatic import is not selected.
