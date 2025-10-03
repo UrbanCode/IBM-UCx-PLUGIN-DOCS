@@ -1,5 +1,4 @@
-
-# z/OS Utility - Downloads
+# Downloads
 
 To download the plug-in, click the following version-specific links.
 
