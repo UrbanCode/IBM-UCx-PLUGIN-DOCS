@@ -1,7 +1,4 @@
-
-# z/OS Utility
-
-## Steps
+# Steps
 
 - [z/OS Utility](#zos-utility)
   - [Steps](#steps)
@@ -25,7 +22,7 @@
     - [Cleanup Backup Files](#cleanup-backup-files)
     - [Restore Backup Datasets](#restore-backup-datasets)
 
-### Allocate Data Set
+## Allocate Data Set
 
 Allocate a non-SMS-managed data set. **Note:** To create a GDG version add (+1) along with GDG base. An output property **DatasetName** will contain the actual GDG version dataset name that is created and can be referred in successive steps of the process.
 
@@ -44,7 +41,7 @@ Allocate a non-SMS-managed data set. **Note:** To create a GDG version add (+1) 
 | Space Units              | Enumeration: BLKS/TRACKS/CYLINDERS                         | BLKS, TRKS, CYLS                                                                                                                                                                                                                              | Yes      |
 | Volume Serial            | String                                                     | Leave blank to use the system default volume.                                                                                                                                                                                                 | No       |
 
-### Allocate Data Set From Existing
+## Allocate Data Set From Existing
 
 Create a data set with the attributes of an existing model data set. **Note:** To create a GDG version add (+1) along with GDG base. An output property **DatasetName** will contain the actual GDG version dataset name that is created and can be referred in successive steps of the process.
 
@@ -58,7 +55,7 @@ Create a data set with the attributes of an existing model data set. **Note:** T
 | Space Units              | Enumeration: —/BLKS/TRACKS/CYLINDERS | BLKS, TRKS, CYLS or default()                                                                                                                                                                                                                                                                                   | No       |
 | Volume Serial            | String                               | Leave blank to use the system default volume.                                                                                                                                                                                                                                                                   | No       |
 
-### Allocate SMS Managed Data Set
+## Allocate SMS Managed Data Set
 
 Allocate an SMS-managed data set. **Note:** To create a GDG version add (+1) along with GDG base. An output property **DatasetName** will contain the actual GDG version dataset name that is created and can be referred in successive steps of the process.
 
@@ -70,7 +67,7 @@ Allocate an SMS-managed data set. **Note:** To create a GDG version add (+1) alo
 | Management Class         | String  | Leave blank to use the default management class.                                                                                                                      | No       |
 | Storage Class            | String  | Leave blank to use the default storage class.                                                                                                                         | No       |
 
-### Copy Artifacts
+## Copy Artifacts
 
 Load artifacts from a local repository.
 
@@ -78,7 +75,7 @@ Load artifacts from a local repository.
 |------------------|--------|---------------------------------------------------------------------------------------------------------------------|----------|
 | Directory Offset | String | The working directory to use when running the command. This directory is relative to the current working directory. | Yes      |
 
-### Copy Data Set
+## Copy Data Set
 
 Copy a data set.
 
@@ -90,7 +87,7 @@ Copy a data set.
 | Load Module Dataset | Boolean | Select to use the IEBCOPY COPYMOD control statement when copying load modules.                                                                                                                                                                                                                                                                                                                                     | No       |
 | To PDS              | String  | Specify the name of the target PDS.                                                                                                                                                                                                                                                                                                                                                                                | Yes      |
 
-### Deploy Datasets and USS Files
+## Deploy Datasets and USS Files
 
 Deploy datasets and USS files
 
@@ -130,7 +127,7 @@ For each artifact in a delta deployment, the following attributes are compared t
   This will keep the size of the Z Inventory table in check.
 * Read [Deploying To Multiple Target Datasets on z/OS](https://community.ibm.com/community/user/wasdevops/blogs/bharath-kumar3/2024/11/06/deploying-to-multiple-target-dataset-on-zos) for more details on how to deploy artifacts to multiple target datasets on z/OS
 
-### FTP Artifacts
+## FTP Artifacts
 
 Load artifacts from a remote repository using FTP.
 
@@ -138,7 +135,7 @@ Load artifacts from a remote repository using FTP.
 |------------------|--------|---------------------------------------------------------------------------------------------------------------------|----------|
 | Directory Offset | String | The working directory to use when running the command. This directory is relative to the current working directory. | Yes      |
 
-### Generate Artifact Information
+## Generate Artifact Information
 
 > **Note:**
 > ---------
@@ -167,7 +164,7 @@ Generate text information for selected version artifacts. The information is sen
 | Component Name               | String                                                                                                                                                                                                                                                                            | Component Name                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | No       |
 | Resource Id                  | String                                                                                                                                                                                                                                                                            | Resource Id                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | Yes      |
 
-### Remove All Versions
+## Remove All Versions
 
 Remove all versions in an environment.
 
@@ -176,7 +173,7 @@ Remove all versions in an environment.
 | Dry Run                 | Boolean | Select to specify a dry run, which does not delete versions. Instead, the versions to be deleted are written to the output log for verification. | No       |
 | Days to Retain Versions | Integer | If set to greater than 0, version will be removed from inventory only if created more than this many days ago.                                   | No       |
 
-### Remove Redundant Versions
+## Remove Redundant Versions
 
 Remove redundant versions in an environment. Redundant versions are versions that are completely replaced by subsequent versions.
 
@@ -185,7 +182,7 @@ Remove redundant versions in an environment. Redundant versions are versions tha
 | Dry Run                 | Boolean | Select to specify a dry run, which does not delete versions. Instead, the versions to be deleted are written to the output log for verification. | No       |
 | Days to Retain Versions | Integer | If set to greater than 0, version will be removed from inventory only if created more than this many days ago.                                   | No       |
 
-### Replace Tokens MVS
+## Replace Tokens MVS
 
 Replace tokens in MVS data set using properties.
 
@@ -201,7 +198,7 @@ Replace tokens in MVS data set using properties.
 | Property Prefix       | String  | Specify a prefix to use to determine which properties are included in token replacement. Leave blank to use all properties.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | No       |
 | Start Token Delimiter | String  | The start delimiter character to use for identifying tokens.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | No       |
 
-### Rollback Datasets and USS Files
+## Rollback Datasets and USS Files
 
 Rollback datasets and USS files to a backup created in the previous deployment.
 
@@ -228,7 +225,7 @@ To delete backup files from z/OS Unix system.
 | Resource Id            | String                                                                      | Resource Id                                                                                                                                                                                                                                                                       | Yes      |
 | Component Id           | String                                                                      | Component Id                                                                                                                                                                                                                                                                      | Yes      |
 
-### Run MVS Command
+## Run MVS Command
 
 Run MVS system commands.
 
@@ -238,7 +235,7 @@ Run MVS system commands.
 | MVS Commands | String  | Specify a list, separated by newline characters, of MVS system commands to run.                                                                                          | Yes      |
 | Stop On Fail | Boolean | Select to stop running commands after a command fails.                                                                                                                   | No       |
 
-### Run TSO or ISPF Command
+## Run TSO or ISPF Command
 
 Run TSO and ISPF commands using the ISPF gateway.
 
@@ -251,7 +248,7 @@ Run TSO and ISPF commands using the ISPF gateway.
 | Stop On Fail                   | Boolean               | Select to stop running commands after a command fails with a non-zero return code.                                                        | No       |
 | TSO Or ISPF                    | Enumeration: TSO/ISPF | Only ISPF supports return code.                                                                                                           | Yes      |
 
-### Submit Job
+## Submit Job
 
 Submit job.
 
@@ -286,7 +283,7 @@ Submit job.
 | debugClasses                                  | String                                          | Specify fully qualified class name with logging level for additional logging for applicable classes.For Eg:- com.foo.bar=DEBUG                                                                                                                                                                                                                                                                                                                                              | No       |
 
 
-### Wait For Job
+## Wait For Job
 
 Wait for a submitted job to complete. **Note:** Using passphrase in place of password is supported from JMON version v2.9.14. Passphrase authentication is enabled by setting property PASS_PHRASE to ON in JMON configurations. JMON binaries with passphrase support are copied to #HLQ#.SBUZAUTH dataset from agent version 7.1.2.0 after agent install or upgrade.
 
@@ -306,7 +303,7 @@ Wait for a submitted job to complete. **Note:** Using passphrase in place of pas
 | Use Passticket                             | Boolean                                         | Use PassTicket authentication if a password is not provided. See the z/OS Utility plug-in documentation for the required configuration to allow PassTickets.                                                                                                                                      | No       |
 | IRRRacf.jar File                           | String                                          | Specify the full path to the System Access Facility (SAF) JAR file, which is IRRRacf.jar. The default value is /usr/include/java_classes/IRRRacf.jar.                                                                                                                                             | Yes      |
 
-### Delete Dataset
+## Delete Dataset
 
 Deletes a dataset PDS or Sequential.
 
@@ -315,7 +312,7 @@ Deletes a dataset PDS or Sequential.
 | Dataset Name | String | Name of the datasets to be deleted. It can be a sequential dataset or PDS member or PDS. Separate dataset names with a newline. If the single quotation marks are omitted, the user's data set prefix from the TSO profile is automatically appended to the front of the dataset name. Wildcards are not allowed. GDGs with relative generation number are not allowed. | Yes      |
 | Members List | String | Specify members to be deleted from the only PDS mentioned in Datasets input. Separate member names with a newline.                                                                                                                                                                                                                                                      | No       |
 
-### Cleanup Backup Files
+## Cleanup Backup Files
 
 Delete backup files created during deploy datasets step.
 
@@ -328,7 +325,7 @@ All the properties in the step are **hidden properties**
 | Component Name       | String | Name of the component                                                           | Yes      |
 | Resource Id          | String | Resource Id                                                                     | Yes      |
 
-### Restore Backup Datasets
+## Restore Backup Datasets
 
 Restored datasets from backup taken during deployment
 
@@ -343,4 +340,3 @@ Restored datasets from backup taken during deployment
 | Version Name            | String  | Version Name                                                                                                                                                                                                                                                                                                    | Yes      |
 | Component Name          | String  | Component Name                                                                                                                                                                                                                                                                                                  | Yes      |
 | Resource Id             | String  | Resource Id                                                                                                                                                                                                                                                                                                     | Yes      |
-

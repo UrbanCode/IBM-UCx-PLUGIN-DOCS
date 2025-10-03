@@ -1,6 +1,4 @@
-# z/OS Utility
-
-## Usage
+# Usage
 
 The following pages provide usage information about this plug-in:
 
@@ -13,7 +11,7 @@ The following pages provide usage information about this plug-in:
     * [Application process setup for rolling back a component version](usage-pages/deploy-rollback.md#application-process-setup-for-rolling-back-a-component-version)
 * [Rollback for z/OS component version with application template](usage-pages/rollback-with-template.md#rollback-for-zos-component-version-with-application-template)
 * [Deploying by using the Job Monitor](#deploying-by-using-the-job-monitor)
-* [Submitting a JCL job and then checking for status](#submitting-a-jcl-job-and-then-checking-for-status)
+* [Submitting a JCL job and then checking for status](#example-submitting-a-jcl-job-and-then-checking-for-status)
 * [Submitting a JCL job from a template](#submitting-jcl-jobs-from-a-template)
 * [MVS component template](#mvs-component-template)
 * [Managing redundant versions](#managing-redundant-versions)
@@ -21,7 +19,7 @@ The following pages provide usage information about this plug-in:
   * [Ignoring High Level Qualifiers](#ignoring-high-level-qualifiers)
 * [Running MVS system commands](#running-mvs-system-commands)
 * [Using custom properties in deployments](#using-custom-properties-in-deployments)
-* [Deploying data sets and running CICS commands](#deploying-data-sets-and-running-cics-commands)
+* [Deploying data sets and running CICS commands](#example-deploying-data-sets-and-running-cics-commands)
 * [Deploying HFS files](#deploying-hfs-files)
 
 ## Running MVS system commands
@@ -70,7 +68,7 @@ The following shiplist file shows the DB2 plan name as a custom property to the 
 <resource name="JKECMORT" type="PDSMember"/>
 </container>
 <container name="TONY.MORT.DEV.DBRM" type="PDS" deployType="DBRM">
-**<property name="plan" value="TONY"/>**
+ <property name="plan" value="TONY"/>
 <resource name="\*" type="PDSMember"/>
 </container>
 </manifest>
@@ -206,11 +204,11 @@ Redundant versions are incremental versions that are replaced by one or more sub
 
 The **Remove Redundant Versions** plug-in step removes redundant versions from the inventory. On zOS USS, it deletes the redundant version's directory and its contents that was created when the version was deployed.
 
-## Snapshots
+### Snapshots
 
 Redundant versions are excluded when you create a snapshot. This exclusion prevents unnecessary promotion of incremental versions to subsequent environments. To include redundant versions in a snapshot, edit the snapshot to add the redundant versions.
 
-## Ignoring High-level qualifiers
+### Ignoring High-level qualifiers
 
 Set the **High Level Qualifier Length** value in the component configuration to ignore high-level qualifiers during redundant version calculations and risky rollback checking.
 
@@ -221,7 +219,7 @@ For redundant versions calculation and prevent risky rollback, set **High Level 
 
 The z/OS Utility plug-in includes the MVSTEMPLATE component template. The template contains default processes, which can be used directly. The template also lists the component properties and environment properties that that must be set to run z/OS deployments.
 
-## Default processes
+### Default processes
 
 | Step                                               | Description                                                                                                                                                                                                                                                  |
 |----------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -233,7 +231,7 @@ The z/OS Utility plug-in includes the MVSTEMPLATE component template. The templa
 | Sample JCL submission process                      | Model JCL submission on the two types of usage in this sample.                                                                                                                                                                                               |
 | Uninstall                                          | Uninstall a version and restore the backup data sets.                                                                                                                                                                                                        |
 
-## Component properties
+### Component properties
 
 | Name                    | Required | Description                                                                     |
 |-------------------------|----------|---------------------------------------------------------------------------------|
@@ -242,7 +240,7 @@ The z/OS Utility plug-in includes the MVSTEMPLATE component template. The templa
 | ucd.repository.user     | false    | FTP user name.                                                                  |
 | ucd.repository.password | false    | FTP password                                                                    |
 
-## Environment properties
+### Environment properties
 
 | Name                   | Required | Description                                                                                                                                                                                                                                                                                 |
 |------------------------|----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -262,4 +260,3 @@ The process runs the following steps in order:
 3. The [Wait For Job](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/zos-deploy/steps.html) step stops processing until the JCL job completes.
 
 [![submit_job_wait](media/submit_job_wait.gif)](media/submit_job_wait.gif)
-
