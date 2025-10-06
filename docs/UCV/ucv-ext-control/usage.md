@@ -45,7 +45,7 @@ To integrate the plug-in using a JSON, perform the following steps:
 
 1. Navigate to **value stream page**, and then click the necessary **value stream**.
 2. Click  **wrench icon**, and then Select **Edit value stream** to modify the JSON file in the code or tree view editors.
-Alternatively, you can also click Download JSON option to download the JSON file, and then select the Import JSON option to upload the revised JSON file.
+   Alternatively, you can also click Download JSON option to download the JSON file, and then select the Import JSON option to upload the revised JSON file.
 3. Edit the integration information in the JSON file to add the plug-in configuration properties. Refer to JSON sample code in the Configuration Properties for more details.
 4. Click **Save**.
 
@@ -86,10 +86,11 @@ Some properties might not be displayed in the user interface, to see all propert
 | Branch | String | DevOps Control repositories branch, the branch to pull commits from. | No | branch |
 | Personal access token | Secure | The token to use to authenticate with the DevOps Control repository. | Yes | token |
 | Additional branches | Array | List of Branches (separated by comma) to collect commits from besides the main one. Leave blank if not needed | No | otherBranches |
+| Team Space Id | String | Team Space Id of the DevOps Control tenant. | No | teamspaceId |
+| Team Id | String | Loop Id of the DevOps Control tenant. | No | teamId |
 | Proxy Server | String | The URL of the proxy server including the port number. | No | proxyServer |
 | Proxy User Name | String | The username used to authenticate with the proxy server. | No | proxyUsername |
 | Proxy Password | String | The password used to authenticate with the proxy server. | No | proxyPassword |
-| User Access Key | Secure | User access key for authentication with this server | No | ucvAccessKey |
 
 ### JSON code example
 
@@ -110,7 +111,7 @@ The following sample code can be used as a template to define the integration wi
         ],
         "apiUrl":"control-api-url",
         "token":"generated-token",
-        "ucvAccessKey":"generated-access-key",
+        "_userAccessKey":"auto-generated-access-key",
         "proxyServer": "*proxy_server_url*",
         "proxyUsername": "*proxy_server_user_name*",
         "proxyPassword": "*proxy_server_password*"

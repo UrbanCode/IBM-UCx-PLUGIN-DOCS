@@ -78,7 +78,7 @@ the JSON file. Copy and paste the template into the JSON file and make the appro
 
         "ucvkey": "*key*",
         "properties": {
-            [],
+            []
         }
     }
 ]

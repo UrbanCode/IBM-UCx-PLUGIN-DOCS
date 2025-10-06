@@ -19,6 +19,10 @@ IBM DevOps Velocity plug-in images are located in DockerHub and the IBM DevOps V
 
 ## History
 
+### Version 1.1.2
+
+* **Enhancement**: Added teamId and teamspaceId in application collection for data access control support.
+
 ### Version 1.0.3
 
 * **Plugin name update**: Rename of plugin from IBM DevOps Build to DevOps Build.

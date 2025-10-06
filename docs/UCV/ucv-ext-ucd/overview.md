@@ -18,6 +18,10 @@ DevOps Velocity plug-in images are located in DockerHub. To view available versi
 
 ## History
 
+### Version 4.1.1
+
+* **Enhancement**: Added teamId and teamspaceId field to application collection for data access control support.
+
 ### Version 4.0.9
 
 * In this version, there is no need to manually add the automatedTaskRunner to the UCD server. This enhancement simplifies scheduling deployments and auto-promotion by reducing manual intervention.

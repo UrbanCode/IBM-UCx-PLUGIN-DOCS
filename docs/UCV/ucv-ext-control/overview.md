@@ -5,13 +5,17 @@ The DevOps Control plug-in provides for integration with a DevOps Control server
 
 ## Compatibility
 
-Must be running IBM DevOps Velocity version 5.0.0 and later to use the plug-in.
+Must be running IBM DevOps Velocity version 5.1.9 and later to use the plug-in.
 
 ## Versions
 
 IBM DevOps Velocity plug-in images are located in DockerHub. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-control/tags).
 
 ## History
+
+### Version 1.1.1
+
+* **Enhancement**: Added teamId and teamspaceId to integration properties for data access control support.
 
 ### Version 1.0.5
 

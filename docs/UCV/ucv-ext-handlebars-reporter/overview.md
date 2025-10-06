@@ -5,13 +5,17 @@ The Handlebar Reporter plug-in takes a Handlebars template and using a context g
 
 ## Compatibility
 
-Must be running DevOps Velocity version 2.0 and later to use the plug-in.
+Must be running DevOps Velocity version 5.0.9 and later to use the plug-in.
 
 ## Versions
 
 DevOps Velocity plug-in images are located in DockerHub. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv- ext-handlebars-reporter/tags).
 
 ## History
+
+### Version 2.0.5
+
+* **Bug fix**: Updated the API package to support the leadTime field as an array instead of a string ensuring accurate Done stage calculations in the State of Sprint report.
 
 ### Version 2.0.1
 
