@@ -25,7 +25,7 @@ The tables in the Configuration properties topic describe the properties used to
 
 1. On the Home page, click **Settings** > **Integrations** > **Available** tab.
 2. Select **DevOps Plan** from the list, and then click **Install**.
-The Add DevOps Plan Integration dialog is displayed.
+   The Add DevOps Plan Integration dialog is displayed.
 3. Specify the properties by referring to the following table:
 
 The following table lists the required fields that you must provide to integrate the DevOps Plan plug-in.
@@ -35,6 +35,7 @@ The following table lists the required fields that you must provide to integrate
 | Integration name | Enter the name for the integration. |
 | URL | Enter the URL of DevOps Plan server. |
 | Team Space | Enter the Team Space Id of DevOps Plan tenant. |
+| Team Id | Loop Id of the DevOps Plan tenant. |
 | Application Name | Enter the name of the DevOps Plan application. |
 | Personal Access Token | Enter the personal access token that you generated in your DevOps Plan account. |
 | Logging level | Select ALL from the drop-down list. |
@@ -155,14 +156,14 @@ Perform the following steps to create a value stream
 
 1. On the Velocity Home page, click **Create value stream**.
 2. Perform the following steps in Step 1.
-Specify the properties for the selected step by referring to the following table:
+   Specify the properties for the selected step by referring to the following table:
 3. Select the **Application Lifecycle Management** Integration from the list in Step 2 Integrations dialog, and then click **Next**.
 4. Select the phases for Planning, Development, and Completed in Step 3 Stages/Phases dialog.
-![images/compass-1.png](images/compass-1.png)
+   ![images/compass-1.png](images/compass-1.png)
 
 5. Click **Save**.
-A value stream is created.
-The DevOps Plan project is integrated into the value stream. All the work items are imported to IBM DevOps Velocity and you can access project data and manage issues. Each dot in the value stream page represents a card. Select the dot to display a card with information about the dot, including its history.
+   A value stream is created.
+   The DevOps Plan project is integrated into the value stream. All the work items are imported to IBM DevOps Velocity and you can access project data and manage issues. Each dot in the value stream page represents a card. Select the dot to display a card with information about the dot, including its history.
 
 ![images/compass-2.png](images/compass-2.png)
 
@@ -192,7 +193,8 @@ Some properties might not be displayed in the user interface, to see all propert
 | --- | --- | --- | --- | --- |
 | URL | String | The URL of the DevOps Plan Application. | Yes | serverUrl |
 | Personal Access Token | Secure | Personal Access Token to authenticate with an application in DevOps Plan. |  Yes | pat |
-| Team Space | String | Team Space Id of the DevOps Plan tenant. | Yes | repo |
+| Team Space | String | Team Space Id of the DevOps Plan tenant. | Yes | teamspaceId |
+| Team Id | String | Loop Id of the DevOps Plan tenant. | No | teamId |
 | Application Name | String | The name of the DevOps Plan Application. | Yes | db |
 | Import issues or work items from a specified number of months | String | Issues or work items are imported for the specified number of months when the plug-in runs for the first time. | No | since |
 
@@ -214,7 +216,8 @@ The following example can be used as a template to include the DevOps Plan plug-
       "_userAccessKey": "<User Access Key>",
       "serverUrl": "<devops-plan-server-url>",
       "pat": "<personal-access-token>",
-      "repo": "<repo>",
+      "teamspaceId": "<teamspaceId>",
+      "teamId": "<teamId>",
       "db": "<db>",
       "since": "<since>"
     }
@@ -237,7 +240,8 @@ The following example can be used as a template to include the DevOps Plan plug-
       "_userAccessKey": "<User Access Key>",
       "serverUrl": "<devops-paln-server-url>",
       "pat": "<personal-access-token>",
-      "repo": "<repo>",
+      "teamspaceId": "<teamspaceId>",
+      "teamId": "<teamId>",
       "db": "<db>",
       "since": "<since>"
     }
@@ -260,7 +264,8 @@ The following example can be used as a template to include the DevOps Plan plug-
       "_userAccessKey": "<User Access Key>",
       "serverUrl": "<devops-plan-server-url>",
       "pat": "<personal-access-token>",
-      "repo": "<repo>",
+      "teamspaceId": "<teamspaceId>",
+      "teamId": "<teamId>",
       "db": "<db>",
       "since": "<since>"
     }
@@ -268,4 +273,3 @@ The following example can be used as a template to include the DevOps Plan plug-
 ]
 
 ```
-
