@@ -11,7 +11,7 @@ The following pages provide usage information about this plug-in:
     * [Application process setup for rolling back a component version](usage-pages/deploy-rollback.md#application-process-setup-for-rolling-back-a-component-version)
 * [Rollback for z/OS component version with application template](usage-pages/rollback-with-template.md#rollback-for-zos-component-version-with-application-template)
 * [Deploying by using the Job Monitor](#deploying-by-using-the-job-monitor)
-* [Submitting a JCL job and then checking for status](#example-submitting-a-jcl-job-and-then-checking-for-status)
+* [Submitting a JCL job and then checking for status](#submitting-a-jcl-job-and-then-checking-for-status)
 * [Submitting a JCL job from a template](#submitting-jcl-jobs-from-a-template)
 * [MVS component template](#mvs-component-template)
 * [Managing redundant versions](#managing-redundant-versions)
@@ -19,7 +19,7 @@ The following pages provide usage information about this plug-in:
   * [Ignoring High Level Qualifiers](#ignoring-high-level-qualifiers)
 * [Running MVS system commands](#running-mvs-system-commands)
 * [Using custom properties in deployments](#using-custom-properties-in-deployments)
-* [Deploying data sets and running CICS commands](#example-deploying-data-sets-and-running-cics-commands)
+* [Deploying data sets and running CICS commands](#deploying-data-sets-and-running-cics-commands)
 * [Deploying HFS files](#deploying-hfs-files)
 
 ## Running MVS system commands
@@ -32,7 +32,7 @@ The agent user account must be authorized to use SDSF from Java and must be auth
 |----------------|-------|--------|
 | ISFOPER.SYSTEM | SDSF  | READ   |
 
-If the SDSF class is not activated yet, use following command to activate itfirst. SETROPTS CLASSACT(SDSF)
+If the SDSF class is not activated yet, use following command to activate it first. SETROPTS CLASSACT(SDSF)
 
 To use the Resource Access Control Facility (RACF) to authorize the use of an MVS command, issue commands similar to the commands in the following examples: RDEFINE SDSF ISFOPER.SYSTEM UACC(NONE) PERMIT ISFOPER.SYSTEM CLASS(SDSF) ID(userid or groupid) ACCESS(READ)
 
@@ -96,7 +96,7 @@ In this example, the Run TSO or ISPF Command step uses the following settings:
 
 ![](media/zos_props_5.png?resize=640%2C189)
 
-## Example: Deploying data sets and running CICS commands
+## Deploying data sets and running CICS commands
 
 In this process example, the z/OS data sets must be in the component. Also, the environment contains agents that are running z/OS. In addition to the z/OS Utility plug-in, the CICS TS plug-in must be installed. The process runs the following steps in order:
 
@@ -165,7 +165,7 @@ To submit a JCL job from a template, use the [Submit Job](https://urbancode.gith
 
 To submit multiple jobs from the same template, specify multiple sets of rules in the **Replace Tokens For Each Job** field. Separate rule sets with a new line that contains only two forward slashes (//). The status of the Submit Job step is success if all of the jobs run to completion, and fail if any of the jobs fail. Multiple jobs run in sequence, and use the same settings for job output and status checking. If you select **Stop On Fail**, no subsequent jobs are run after a job fails. To submit multiple jobs that check the existence of multiple data set members, set up the step properties similar to the following example:
 
-[![zos_multiplejobs](media/zos_multiplejobs.png)](media/zos_multiplejobs.png)
+[![zos_multiple_jobs](media/zos_multiplejobs.png)](media/zos_multiplejobs.png)
 
 In the previous example, three jobs are submitted because three rule sets are specified in the **Replace Tokens For Each Job** field. The three jobs check the JKEMPMT, JKECMORT, and JKEMLIST members in that order. The rules that are specified in the **Replace Tokens** field are used for all jobs. Because **Stop On Fail** is selected, if any job fails no subsequent jobs are submitted. Finally, the **Max Return Code** field is set to 0 so that any return code greater than 0 is considered a job failure. For example, a return code of 4 from the LISTDS command, which indicates that a member name was not found, is considered a job failure.
 
@@ -173,11 +173,11 @@ In the previous example, three jobs are submitted because three rule sets are sp
 
 Use the Generate Artifact Information step to process each data set or data set member in a version. In the following example, the process verifies that data set members are deployed.
 
-[![zos_multipleproc](media/zos_multipleproc.png)](media/zos_multipleproc.png)
+[![zos_multiple_proc](media/zos_multipleproc.png)](media/zos_multipleproc.png)
 
 The Generate Artifact Information step uses the following settings:
 
-[![zos_genjobparams](media/zos_genjobparams.png)](media/zos_genjobparams.png)
+[![zos_gen_job_params](media/zos_genjobparams.png)](media/zos_genjobparams.png)
 
 The Submit Job step uses the following settings:
 
@@ -188,7 +188,7 @@ The Submit Job step uses the following settings:
 A component version of HFS files can be deployed in either old format or new format of HFS directory mapping. In the old format of HFS directory mapping, it accepts only the target directory as input and during deployment, the container directories are created, and files are moved to the respective container. Mapping is in the below format`Target-Directory-path`Whereas the new format of HFS directory mapping, follows the same rule as for deploying the MVS Datasets. The mapping may contain multiple lines with each line in the below format
 `Source-Container-Name, Target-Directory-path`
 
-On contrary to old format the deployment with new format does not create a sub-directory of source container while moving to target directory.
+On contrary to old format the deployment with new format does not create a subdirectory of source container while moving to target directory.
 
 ## Deploying by using the Job Monitor
 
@@ -224,7 +224,7 @@ The z/OS Utility plug-in includes the MVSTEMPLATE component template. The templa
 | Step                                               | Description                                                                                                                                                                                                                                                  |
 |----------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Deploy                                             | Deploy data sets. Version artifacts are fetched from the CodeStation repository on the z/OS system.                                                                                                                                                          |
-| Deploy get artifacts using FTP                     | Deploy data sets. Version artifacts are fetched from the Codestation repository by using FTP.                                                                                                                                                                |
+| Deploy get artifacts using FTP                     | Deploy data sets. Version artifacts are fetched from the CodeStation repository by using FTP.                                                                                                                                                                |
 | Remove all versions                                | Remove all versions in an environment, including the backup created during version deployment. Use this process to start a new round of development with a clean environment. Audit history is available even if versions were removed from the environment. |
 | Remove redundant versions                          | Remove redundant versions in an environment. Redundant versions are versions that are replaced completely by versions that are deployed later.                                                                                                               |
 | Remove redundant versions with manual verification | Remove redundant versions in an environment. Redundant versions are versions that are replaced completely by versions that are deployed later.                                                                                                               |
@@ -251,7 +251,7 @@ The z/OS Utility plug-in includes the MVSTEMPLATE component template. The templa
 | jes.monitor.port       | false    | JES Job Monitor port (1-65535). The default port is 6715.                                                                                                                                                                                                                                   |
 | BUZ_DEPLOY_BASE        | false    | The base location to store deployment results and backups for rollback. Each agent provides a default value. If multiple environments use the same agent, this value can be over-ridden by a property with higher order of precedence: for example, an agent property or resource property. |
 
-## Example: Submitting a JCL job and then checking for status
+## Submitting a JCL job and then checking for status
 
 The process runs the following steps in order:
 

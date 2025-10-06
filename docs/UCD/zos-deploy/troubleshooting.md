@@ -61,7 +61,7 @@ In the file `<AGENT_HOME>/bin/setenv-zos.sh`, add below export statement
 
 This will set prefix to the given value (`UCD.TMP`). After the changes, agent restart is needed.
 
-### To set the Temporary Dataset Prefix at step level
+### To set the Temporary Dataset Prefix at plugin step level
 
 Modify the hidden input in the plugin step `Temporary DSN Prefix` to allowed dataset prefix on the MVS system. 
 
