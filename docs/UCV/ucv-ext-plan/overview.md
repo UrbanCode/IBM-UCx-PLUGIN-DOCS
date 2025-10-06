@@ -7,7 +7,7 @@ The plug-in imports work items as issues from DevOps Plan server into IBM DevOps
 
 ## Compatibility
 
-Must be running IBM DevOps Velocity version 2.5.0 and later and DevOps plan server 1.0.14 or later.
+Must be running IBM DevOps Velocity version 5.1.9 and later and DevOps plan server 1.0.14 or later.
 
 ## Prerequisites
 
@@ -26,6 +26,14 @@ You must have completed the following tasks before you integrate the DevOps Plan
 DevOps Velocity plug-in images are located in DockerHub. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-compass/tags).
 
 ### History
+
+### Version 1.2.2
+
+* **Enhancement**: The plugin has been updated to use an optimized API, enhancing data retrieval and normalization performance. It now runs faster and consistently within the expected time frame.
+
+### Version 1.2.1
+
+* **Enhancement**: Added teamId and teamspaceId for integration properties for data access control support
 
 ### Version 1.1.58
 
