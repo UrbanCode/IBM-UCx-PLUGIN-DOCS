@@ -77,8 +77,8 @@ The following tables describe the properties used to configure the integration. 
 | Access Token Secret | String | The access token secret for oauth authentication with the Jira server. | No | access_token_secret |
 | Consumer Key | String | The consumer key for oauth authentication with the Jira server.If supplied, Personal access token, Username and Password will be ignored. | No | consumer_key |
 | Consumer Secret | String | The consumer secret for oauth authentication with the Jira server.If supplied, Personal access token, Username and Password will be ignored. | No | consumer_key_secret |
-| Password | Secure | CPassword to authenticate with the Jira. If supplied, Personal access token will be ignored.\n NOTE: For Jira cloud version the Access Token should be entered in the Password field. | No | password |
-| Project Keys (Comma separated) | Array | A list of Jira Project Keys separated by commas. Example: PROJ1, PROJ2'. | Yes | jiraProjects |
+| Password | Secure | Password to authenticate with the Jira. If supplied, Personal access token will be ignored.\n NOTE: For Jira cloud version the Access Token should be entered in the Password field. | No | password |
+| Project Keys (Comma separated) | Array | A list of Jira Project Keys separated by commas. Example: PROJ1, PROJ2. | Yes | jiraProjects |
 | Jira JQL | String | Any valid JQL Query. JQL Query has higher priority than Project Keys . If JQL Query is added , Project Keys will not work .| No | jiraJql |
 | Proxy Server | String | The URL of the proxy server including the port number. | No | proxyServer |
 | Proxy User Name | String | The user name used to authenticate with the proxy server. | No | proxyUsername |

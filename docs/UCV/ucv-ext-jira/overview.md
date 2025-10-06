@@ -23,6 +23,10 @@ IBM DevOps Velocity plug-in images are located in DockerHub. To view available v
 
 ### History
 
+### Version 2.4.3
+
+* **Bug Fix**: Migrated from the deprecated Jira REST API to the latest version. Enhanced pagination to retrieve all issues using nextPageToken. Added new API calls to fetch issue comments and changelogs, with pagination support to retrieve complete data.
+
 ### Version 2.4.2
 
 * **Bug fix**: Fixed issues with deletion of old history records in the issue collection normalization. Retaining history entries before the last run is necessary for agile churn analysis.
