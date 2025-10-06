@@ -3210,4 +3210,18 @@ export const ucd: DefaultTheme.Sidebar = {
             ]
         }
     ],
+
+	// This sidebar gets displayed when a user
+    // is on `${DEPLOY_BASE_DIR}/zosmf` directory.
+    [`/${DEPLOY_BASE_DIR}/Terraform/`]: [
+        {
+            text: 'Terraform IAAC',
+            items: [
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/Terraform/` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/Terraform/usage` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/Terraform/steps` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/Terraform/downloads` }
+            ]
+        }
+    ],
 };

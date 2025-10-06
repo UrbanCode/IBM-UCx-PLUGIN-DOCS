@@ -1506,6 +1506,13 @@ features:
   details: ""
   link: "TeamCitySourceConfig/"
 -
+  title: Terraform
+  icon:
+    light: "/runProcess-dark.png"
+    dark: "/runProcess-white.png"
+  details: ""
+  link: "Terraform/"
+-
   title: Text Utility
   icon:
     light: "/runProcess-dark.png"
