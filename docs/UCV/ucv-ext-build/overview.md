@@ -9,7 +9,7 @@ The DevOps Build plug-in requires DevOps Build version 7.1.0-1177383 or later.
 
 | DevOps Build Plugin Versions | DevOps Velocity Version |
 | --- | --- |
-| 1.0.3 | 5.1.9 or later |
+| 1.1.3 | 5.1.9 or later |
 | 1.1.2 | 5.1.9 or later |
 | 1.0.3 | 5.1.0 or later |
 | 1.0.2 | 5.1.0 or later |
