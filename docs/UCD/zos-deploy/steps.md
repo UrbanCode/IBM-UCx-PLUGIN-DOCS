@@ -1,26 +1,24 @@
 # Steps
 
-- [z/OS Utility](#zos-utility)
-  - [Steps](#steps)
-    - [Allocate Data Set](#allocate-data-set)
-    - [Allocate Data Set From Existing](#allocate-data-set-from-existing)
-    - [Allocate SMS Managed Data Set](#allocate-sms-managed-data-set)
-    - [Copy Artifacts](#copy-artifacts)
-    - [Copy Data Set](#copy-data-set)
-    - [Deploy Datasets and USS Files](#deploy-datasets-and-uss-files)
-    - [FTP Artifacts](#ftp-artifacts)
-    - [Generate Artifact Information](#generate-artifact-information)
-    - [Remove All Versions](#remove-all-versions)
-    - [Remove Redundant Versions](#remove-redundant-versions)
-    - [Replace Tokens MVS](#replace-tokens-mvs)
-    - [Rollback Datasets and USS Files](#rollback-datasets-and-uss-files)
-    - [Run MVS Command](#run-mvs-command)
-    - [Run TSO or ISPF Command](#run-tso-or-ispf-command)
-    - [Submit Job](#submit-job)
-    - [Wait For Job](#wait-for-job)
-    - [Delete Dataset](#delete-dataset)
-    - [Cleanup Backup Files](#cleanup-backup-files)
-    - [Restore Backup Datasets](#restore-backup-datasets)
+- [Allocate Data Set](#allocate-data-set)
+- [Allocate Data Set From Existing](#allocate-data-set-from-existing)
+- [Allocate SMS Managed Data Set](#allocate-sms-managed-data-set)
+- [Copy Artifacts](#copy-artifacts)
+- [Copy Data Set](#copy-data-set)
+- [Deploy Datasets and USS Files](#deploy-datasets-and-uss-files)
+- [FTP Artifacts](#ftp-artifacts)
+- [Generate Artifact Information](#generate-artifact-information)
+- [Remove All Versions](#remove-all-versions)
+- [Remove Redundant Versions](#remove-redundant-versions)
+- [Replace Tokens MVS](#replace-tokens-mvs)
+- [Rollback Datasets and USS Files](#rollback-datasets-and-uss-files)
+- [Run MVS Command](#run-mvs-command)
+- [Run TSO or ISPF Command](#run-tso-or-ispf-command)
+- [Submit Job](#submit-job)
+- [Wait For Job](#wait-for-job)
+- [Delete Dataset](#delete-dataset)
+- [Cleanup Backup Files](#cleanup-backup-files)
+- [Restore Backup Datasets](#restore-backup-datasets)
 
 ## Allocate Data Set
 
@@ -137,11 +135,10 @@ Load artifacts from a remote repository using FTP.
 
 ## Generate Artifact Information
 
-> **Note:**
-> ---------
->* Deployment Action filter is applicable only if **Backup** is enabled in [Deploy Data Sets](../zos-deploy/steps.md#deploy-datasets-and-uss-files) step
->* Deployment Action filter is applicable only for loop types **Sequential Datasets** or **PDS Members**
->* Target Dataset Name filter is applicable for only **Dataset/PDS Member** loop types
+### Note
+* Deployment Action filter is applicable only if **Backup** is enabled in [Deploy Data Sets](../zos-deploy/steps.md#deploy-datasets-and-uss-files) step
+* Deployment Action filter is applicable only for loop types **Sequential Datasets** or **PDS Members**
+* Target Dataset Name filter is applicable for only **Dataset/PDS Member** loop types
 
 Generate text information for selected version artifacts. The information is sent to the text output property for use by later steps. **Note:** From version 51, groovy string methods are not interpreted in Template input since the code is rewritten in Java. Use our new plugin <https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/zos-multi-generate-artifact-info/> to generate multiple templates using a single step
 
