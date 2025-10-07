@@ -9,6 +9,7 @@ The DevOps Build plug-in requires DevOps Build version 7.1.0-1177383 or later.
 
 | DevOps Build Plugin Versions | DevOps Velocity Version |
 | --- | --- |
+| 1.0.3 | 5.1.9 or later |
 | 1.1.2 | 5.1.9 or later |
 | 1.0.3 | 5.1.0 or later |
 | 1.0.2 | 5.1.0 or later |
@@ -18,6 +19,13 @@ The DevOps Build plug-in requires DevOps Build version 7.1.0-1177383 or later.
 IBM DevOps Velocity plug-in images are located in DockerHub and the IBM DevOps Velocity code accesses the version that you select. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-build/tags).
 
 ## History
+
+### Version 1.1.3
+
+* **Enhancement**: Introduced support for an optional process field in the plugin configuration.
+This field allows users to provide a comma-separated list of primary process names, corresponding to the order of the specified project names. If left empty, the plugin will consider build life data from all processes associated with the given projects.
+
+* **Bug Fix**: Previously, revision data in the builds collection was captured only for builds triggered automatically through CI/CD, and was missing for manually triggered builds . This issue has now been resolved, and revision data is correctly collected for both manual and automated builds.
 
 ### Version 1.1.2
 
