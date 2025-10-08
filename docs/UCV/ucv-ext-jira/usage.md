@@ -87,8 +87,11 @@ The following tables describe the properties used to configure the integration. 
 | User Name | String | The user name used to authenticate with the Jira server.If supplied, Personal access token will be ignored.\n NOTE: For Jira Cloud version, the User Name should be entered in the UserName field. | No | username |
 | Personal Access Token | Secure | Personal Access Token to authenticate with the Jira server. If supplied, Username and Password will be ignored.\n NOTE: For Jira cloud version provide username and password.\n For Jira server provide personal access token. | No | pat |
 | Request Timeout | String | Timeout (in seconds) to apply to each request to the Jira server. Range is 10 to 150 seconds | No | requestTimeout |
-| Custom Field Mapping | Multiline | Map Jira fields to the fields expected by this server as a Name Value pair, eg: "Epic Link": "Epic field in Jira", "Sprint": "Sprint field in Jira", "Story Points": "Story field in Jira". | No | fieldMapping |
+| Custom Field Mapping | Multiline | Map Jira fields to the velocity fields as a JSON Object.[Documentation](./jiraCustom.md) | No | fieldMapping |
 
+## Custom Field Mapping
+
+[About custom field mapping](./jiraCustom.md)
 
 ## JSON sample code
 
