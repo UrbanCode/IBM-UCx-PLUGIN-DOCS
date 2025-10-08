@@ -51,6 +51,7 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 * Replaced zip extract to Ant UnTar from native Pax command
 * Minor improvements in shell command execution
 * Fixed mismatch of hash values for inventory delta deploy
+* Added retry mechanism(max of 120 retries, each spaced by a second) to fetch job status
 
 
 ### Version 97
