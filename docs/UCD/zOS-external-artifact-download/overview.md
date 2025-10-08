@@ -31,6 +31,7 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 * Replace pax command with untar for zOS artifacts download
 * Added support for creating a merged version for package format v2
 * Fixed checksum verification failure when hash is less than 64 chars
+* Fixed issue with downloading checksum file 
 
 ### Version 12
 
