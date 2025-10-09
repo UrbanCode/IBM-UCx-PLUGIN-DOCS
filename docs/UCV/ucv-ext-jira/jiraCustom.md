@@ -43,7 +43,7 @@ Field mapping connects Jira field labels to Velocity field identifiers, allowing
 ```
 
 # Explanation:
-* **type**: ***** applies this mapping to all Jira issue types (Story, Bug, Task, etc.)
+* **type**: "*" applies this mapping to all Jira issue types (Story, Bug, Task, etc.)
 * **"extended.groomingCompleted"** is the target field in Velocity
 * **"Grooming Complete"** is the label of the custom field in Jira
 * Whatever value exists in the "Grooming Complete" field in Jira will be copied to the **extended.groomingCompleted** field in Velocity
