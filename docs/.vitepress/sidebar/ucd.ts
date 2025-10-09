@@ -2203,7 +2203,8 @@ export const ucd: DefaultTheme.Sidebar = {
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/ibm-rational-quality-manager-rqm/overview` },
                 { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/ibm-rational-quality-manager-rqm/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/ibm-rational-quality-manager-rqm/steps` },
-                { text: 'Troubleshooting', link: `/${DEPLOY_BASE_DIR}/ibm-rational-quality-manager-rqm/troubleshooting` }
+                { text: 'Troubleshooting', link: `/${DEPLOY_BASE_DIR}/ibm-rational-quality-manager-rqm/troubleshooting` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/ibm-rational-quality-manager-rqm/downloads` }
             ]
         }
     ],
