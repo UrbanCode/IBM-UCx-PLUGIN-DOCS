@@ -2322,28 +2322,28 @@ export const ucd: DefaultTheme.Sidebar = {
 
     // This sidebar gets displayed when a user
     // is on `${DEPLOY_BASE_DIR}/jenkins-pipeline-ud-plugin` directory.
-    [`/${DEPLOY_BASE_DIR}/jenkins-pipeline-ud-${DEPLOY_BASE_DIR}/`]: [
+    [`/${DEPLOY_BASE_DIR}/jenkins-pipeline-ud-plugin/`]: [
         {
             text: 'Jenkins Pipeline',
             items: [
-                { text: 'About', link: `/${DEPLOY_BASE_DIR}/jenkins-pipeline-ud-${DEPLOY_BASE_DIR}/` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/jenkins-pipeline-ud-${DEPLOY_BASE_DIR}/overview` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/jenkins-pipeline-ud-${DEPLOY_BASE_DIR}/usage` },
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/jenkins-pipeline-ud-${DEPLOY_BASE_DIR}/downloads` }
+                { text: 'About', link: `/${DEPLOY_BASE_DIR}/jenkins-pipeline-ud-plugin/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/jenkins-pipeline-ud-plugin/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/jenkins-pipeline-ud-plugin/usage` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/jenkins-pipeline-ud-plugin/downloads` }
             ]
         }
     ],
 
     // This sidebar gets displayed when a user
     // is on `${DEPLOY_BASE_DIR}/jenkins-ud-plugin` directory.
-    [`/${DEPLOY_BASE_DIR}/jenkins-ud-${DEPLOY_BASE_DIR}/`]: [
+    [`/${DEPLOY_BASE_DIR}/jenkins-ud-plugin/`]: [
         {
             text: 'Jenkins Publisher',
             items: [
-                { text: 'About', link: `/${DEPLOY_BASE_DIR}/jenkins-ud-${DEPLOY_BASE_DIR}/` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/jenkins-ud-${DEPLOY_BASE_DIR}/overview` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/jenkins-ud-${DEPLOY_BASE_DIR}/usage` },
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/jenkins-ud-${DEPLOY_BASE_DIR}/downloads` }
+                { text: 'About', link: `/${DEPLOY_BASE_DIR}/jenkins-ud-plugin/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/jenkins-ud-plugin/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/jenkins-ud-plugin/usage` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/jenkins-ud-plugin/downloads` }
             ]
         }
     ],
