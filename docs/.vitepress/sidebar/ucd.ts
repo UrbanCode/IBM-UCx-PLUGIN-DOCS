@@ -1942,14 +1942,14 @@ export const ucd: DefaultTheme.Sidebar = {
 
     // This sidebar gets displayed when a user
     // is on `${DEPLOY_BASE_DIR}/docker-plugin` directory.
-    [`/${DEPLOY_BASE_DIR}/docker-${DEPLOY_BASE_DIR}/`]: [
+    [`/${DEPLOY_BASE_DIR}/docker-plugin/`]: [
         {
             text: 'Docker',
             items: [
-                { text: 'About', link: `/${DEPLOY_BASE_DIR}/docker-${DEPLOY_BASE_DIR}/` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/docker-${DEPLOY_BASE_DIR}/overview` },
-                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/docker-${DEPLOY_BASE_DIR}/steps` },
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/docker-${DEPLOY_BASE_DIR}/downloads` }
+                { text: 'About', link: `/${DEPLOY_BASE_DIR}/docker-plugin/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/docker-plugin/overview` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/docker-plugin/steps` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/docker-plugin/downloads` }
             ]
         }
     ],
