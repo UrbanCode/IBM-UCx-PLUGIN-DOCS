@@ -2985,15 +2985,15 @@ export const ucd: DefaultTheme.Sidebar = {
 
     // This sidebar gets displayed when a user
     // is on `${DEPLOY_BASE_DIR}/ucr-plugin` directory.
-    [`/${DEPLOY_BASE_DIR}/ucr-${DEPLOY_BASE_DIR}/`]: [
+    [`/${DEPLOY_BASE_DIR}/ucr-plugin/`]: [
         {
             text: 'IBM DevOps Release',
             items: [
-                { text: 'About', link: `/${DEPLOY_BASE_DIR}/ucr-${DEPLOY_BASE_DIR}/` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/ucr-${DEPLOY_BASE_DIR}/overview` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/ucr-${DEPLOY_BASE_DIR}/usage` },
-                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/ucr-${DEPLOY_BASE_DIR}/steps` },
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/ucr-${DEPLOY_BASE_DIR}/downloads` }
+                { text: 'About', link: `/${DEPLOY_BASE_DIR}/ucr-plugin/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/ucr-plugin/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/ucr-plugin/usage` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/ucr-plugin/steps` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/ucr-plugin/downloads` }
             ]
         }
     ],
