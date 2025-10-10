@@ -7,7 +7,12 @@ The Jira plug-in provides for integration with a Jira server. This plug-in impor
 
 ## Compatibility
 
-IBM UrbanCode Velocity 2.0.x to 4.0.x; IBM Devops Velocity 5.0.0 or later.
+The table below lists the compatible versions of the Jira plugin and IBM DevOps Velocity:
+
+| Jira plugin version | IBM DevOps Velocity Version |
+| --- | --- |
+| 2.4.5 | 5.1.10 |
+| 2.4.3, 2.4.2, 2.3.24, 2.3.20, 2.3.17, 2.3.14, 2.3.12, 2.3.10, 2.3.9 | 3.1.0 |
  
 ## Upgrade notes
 
@@ -22,6 +27,14 @@ User can add their own customized JQL query for fetching specific issues . For f
 IBM DevOps Velocity plug-in images are located in DockerHub. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-jira/tags).
 
 ### History
+
+### Version 2.4.5
+
+* **Feature enhancement**: The Custom Field Mapping of Jira Plugin will allow you to map Jira fields and their values to corresponding Velocity fields. This enables seamless data synchronization between Jira and Velocity, including support for field mapping, value mapping, and complex conditional mappings.
+
+### Version 2.4.3
+
+* **Bug Fix**: Migrated from the deprecated Jira REST API to the latest version. Enhanced pagination to retrieve all issues using nextPageToken. Added new API calls to fetch issue comments and changelogs, with pagination support to retrieve complete data.
 
 ### Version 2.4.2
 

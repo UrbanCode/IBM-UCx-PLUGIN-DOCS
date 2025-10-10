@@ -5,7 +5,12 @@ The IBM DevOps Deploy plugin for DevOps Velocity synchronizes applications, proc
 
 ## Compatibility
 
-The IBM DevOps Deploy plug-in requires DevOps Velocity version 5.1.9 or later.
+The table below lists the compatible versions of the IBM DevOps Deploy plugin and IBM DevOps Velocity:
+
+| IBM DevOps Deploy Plugin Versions | DevOps Velocity Version |
+| --- | --- |
+| 4.1.1 | 5.1.9 or later |
+| 4.0.9, 4.0.5, 4.0.4 | 4.0.13 or later |
 
 ## Versions
 
