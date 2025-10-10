@@ -24,6 +24,10 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ## History
 
+### Version 45
+
+* URBANCODE-I-482 Adding Harbor Registry Support in Docker Registry Plugin
+
 ### Version 44
 
 * Return the correct image digest value for image registries that return image manifest information using schemaVersion 2.  Also now correctly returns the image digest for fat manifests (index images).
