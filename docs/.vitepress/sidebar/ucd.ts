@@ -1942,14 +1942,14 @@ export const ucd: DefaultTheme.Sidebar = {
 
     // This sidebar gets displayed when a user
     // is on `${DEPLOY_BASE_DIR}/docker-plugin` directory.
-    [`/${DEPLOY_BASE_DIR}/docker-${DEPLOY_BASE_DIR}/`]: [
+    [`/${DEPLOY_BASE_DIR}/docker-plugin/`]: [
         {
             text: 'Docker',
             items: [
-                { text: 'About', link: `/${DEPLOY_BASE_DIR}/docker-${DEPLOY_BASE_DIR}/` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/docker-${DEPLOY_BASE_DIR}/overview` },
-                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/docker-${DEPLOY_BASE_DIR}/steps` },
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/docker-${DEPLOY_BASE_DIR}/downloads` }
+                { text: 'About', link: `/${DEPLOY_BASE_DIR}/docker-plugin/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/docker-plugin/overview` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/docker-plugin/steps` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/docker-plugin/downloads` }
             ]
         }
     ],
@@ -2203,7 +2203,8 @@ export const ucd: DefaultTheme.Sidebar = {
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/ibm-rational-quality-manager-rqm/overview` },
                 { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/ibm-rational-quality-manager-rqm/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/ibm-rational-quality-manager-rqm/steps` },
-                { text: 'Troubleshooting', link: `/${DEPLOY_BASE_DIR}/ibm-rational-quality-manager-rqm/troubleshooting` }
+                { text: 'Troubleshooting', link: `/${DEPLOY_BASE_DIR}/ibm-rational-quality-manager-rqm/troubleshooting` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/ibm-rational-quality-manager-rqm/downloads` }
             ]
         }
     ],
@@ -2321,28 +2322,28 @@ export const ucd: DefaultTheme.Sidebar = {
 
     // This sidebar gets displayed when a user
     // is on `${DEPLOY_BASE_DIR}/jenkins-pipeline-ud-plugin` directory.
-    [`/${DEPLOY_BASE_DIR}/jenkins-pipeline-ud-${DEPLOY_BASE_DIR}/`]: [
+    [`/${DEPLOY_BASE_DIR}/jenkins-pipeline-ud-plugin/`]: [
         {
             text: 'Jenkins Pipeline',
             items: [
-                { text: 'About', link: `/${DEPLOY_BASE_DIR}/jenkins-pipeline-ud-${DEPLOY_BASE_DIR}/` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/jenkins-pipeline-ud-${DEPLOY_BASE_DIR}/overview` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/jenkins-pipeline-ud-${DEPLOY_BASE_DIR}/usage` },
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/jenkins-pipeline-ud-${DEPLOY_BASE_DIR}/downloads` }
+                { text: 'About', link: `/${DEPLOY_BASE_DIR}/jenkins-pipeline-ud-plugin/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/jenkins-pipeline-ud-plugin/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/jenkins-pipeline-ud-plugin/usage` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/jenkins-pipeline-ud-plugin/downloads` }
             ]
         }
     ],
 
     // This sidebar gets displayed when a user
     // is on `${DEPLOY_BASE_DIR}/jenkins-ud-plugin` directory.
-    [`/${DEPLOY_BASE_DIR}/jenkins-ud-${DEPLOY_BASE_DIR}/`]: [
+    [`/${DEPLOY_BASE_DIR}/jenkins-ud-plugin/`]: [
         {
             text: 'Jenkins Publisher',
             items: [
-                { text: 'About', link: `/${DEPLOY_BASE_DIR}/jenkins-ud-${DEPLOY_BASE_DIR}/` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/jenkins-ud-${DEPLOY_BASE_DIR}/overview` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/jenkins-ud-${DEPLOY_BASE_DIR}/usage` },
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/jenkins-ud-${DEPLOY_BASE_DIR}/downloads` }
+                { text: 'About', link: `/${DEPLOY_BASE_DIR}/jenkins-ud-plugin/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/jenkins-ud-plugin/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/jenkins-ud-plugin/usage` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/jenkins-ud-plugin/downloads` }
             ]
         }
     ],
@@ -2984,15 +2985,15 @@ export const ucd: DefaultTheme.Sidebar = {
 
     // This sidebar gets displayed when a user
     // is on `${DEPLOY_BASE_DIR}/ucr-plugin` directory.
-    [`/${DEPLOY_BASE_DIR}/ucr-${DEPLOY_BASE_DIR}/`]: [
+    [`/${DEPLOY_BASE_DIR}/ucr-plugin/`]: [
         {
             text: 'IBM DevOps Release',
             items: [
-                { text: 'About', link: `/${DEPLOY_BASE_DIR}/ucr-${DEPLOY_BASE_DIR}/` },
-                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/ucr-${DEPLOY_BASE_DIR}/overview` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/ucr-${DEPLOY_BASE_DIR}/usage` },
-                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/ucr-${DEPLOY_BASE_DIR}/steps` },
-                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/ucr-${DEPLOY_BASE_DIR}/downloads` }
+                { text: 'About', link: `/${DEPLOY_BASE_DIR}/ucr-plugin/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/ucr-plugin/overview` },
+                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/ucr-plugin/usage` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/ucr-plugin/steps` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/ucr-plugin/downloads` }
             ]
         }
     ],
