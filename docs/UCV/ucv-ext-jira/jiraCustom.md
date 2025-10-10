@@ -163,7 +163,7 @@ json
 Advanced value mapping supports complex conditional logic using:
 * **Objects {}**: Act as AND operators (all conditions must match)
 * **Arrays []**: Act as OR operators (any condition can match)
-* **Regex patterns**: Match text patterns using **/<pattern>/** syntax
+* **Regex patterns**: Match text patterns using `/<pattern>/` syntax
 
 # Example 1: Conditional Mapping with Description Pattern
 
