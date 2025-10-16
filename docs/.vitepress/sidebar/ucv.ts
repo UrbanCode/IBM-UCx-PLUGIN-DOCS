@@ -8,7 +8,7 @@ export const ucv: DefaultTheme.Sidebar = {
         {
             text: 'Selenium', // Updated text
             items: [
-                { text: 'About', link: `${VELOCITY_BASE_DIR}/selenium-ucv/` }
+                { text: 'About', link: `/${VELOCITY_BASE_DIR}/selenium-ucv/` }
             ]
         }
     ],
@@ -19,7 +19,7 @@ export const ucv: DefaultTheme.Sidebar = {
         {
             text: 'TestComplete', // Updated text
             items: [
-                { text: 'About', link: `${VELOCITY_BASE_DIR}/testcomplete-ucv/` }
+                { text: 'About', link: `/${VELOCITY_BASE_DIR}/testcomplete-ucv/` }
             ]
         }
     ],
@@ -30,10 +30,10 @@ export const ucv: DefaultTheme.Sidebar = {
         {
             text: 'Digital.ai Agility', // Updated text
             items: [
-                { text: 'About', link: `${VELOCITY_BASE_DIR}/ucv-ext-agility/` },
-                { text: 'Overview', link: `${VELOCITY_BASE_DIR}/ucv-ext-agility/overview` },
-                { text: 'Usage', link: `${VELOCITY_BASE_DIR}/ucv-ext-agility/usage` },
-                { text: 'Downloads', link: `${VELOCITY_BASE_DIR}/ucv-ext-agility/downloads` }
+                { text: 'About', link: `/${VELOCITY_BASE_DIR}/ucv-ext-agility/` },
+                { text: 'Overview', link: `/${VELOCITY_BASE_DIR}/ucv-ext-agility/overview` },
+                { text: 'Usage', link: `/${VELOCITY_BASE_DIR}/ucv-ext-agility/usage` },
+                { text: 'Downloads', link: `/${VELOCITY_BASE_DIR}/ucv-ext-agility/downloads` }
             ]
         }
     ],
@@ -44,10 +44,10 @@ export const ucv: DefaultTheme.Sidebar = {
         {
             text: 'Aha!', // Updated text
             items: [
-                { text: 'About', link: `${VELOCITY_BASE_DIR}/ucv-ext-aha/` },
-                { text: 'Overview', link: `${VELOCITY_BASE_DIR}/ucv-ext-aha/overview` },
-                { text: 'Usage', link: `${VELOCITY_BASE_DIR}/ucv-ext-aha/usage` },
-                { text: 'Downloads', link: `${VELOCITY_BASE_DIR}/ucv-ext-aha/downloads` }
+                { text: 'About', link: `/${VELOCITY_BASE_DIR}/ucv-ext-aha/` },
+                { text: 'Overview', link: `/${VELOCITY_BASE_DIR}/ucv-ext-aha/overview` },
+                { text: 'Usage', link: `/${VELOCITY_BASE_DIR}/ucv-ext-aha/usage` },
+                { text: 'Downloads', link: `/${VELOCITY_BASE_DIR}/ucv-ext-aha/downloads` }
             ]
         }
     ],
@@ -58,10 +58,10 @@ export const ucv: DefaultTheme.Sidebar = {
         {
             text: 'HCL AppScan Enterprise (ASE)', // Updated text
             items: [
-                { text: 'About', link: `${VELOCITY_BASE_DIR}/ucv-ext-appscan/` },
-                { text: 'Overview', link: `${VELOCITY_BASE_DIR}/ucv-ext-appscan/overview` },
-                { text: 'Usage', link: `${VELOCITY_BASE_DIR}/ucv-ext-appscan/usage` },
-                { text: 'Downloads', link: `${VELOCITY_BASE_DIR}/ucv-ext-appscan/downloads` }
+                { text: 'About', link: `/${VELOCITY_BASE_DIR}/ucv-ext-appscan/` },
+                { text: 'Overview', link: `/${VELOCITY_BASE_DIR}/ucv-ext-appscan/overview` },
+                { text: 'Usage', link: `/${VELOCITY_BASE_DIR}/ucv-ext-appscan/usage` },
+                { text: 'Downloads', link: `/${VELOCITY_BASE_DIR}/ucv-ext-appscan/downloads` }
             ]
         }
     ],
@@ -72,10 +72,10 @@ export const ucv: DefaultTheme.Sidebar = {
         {
             text: 'HCL AppScan on Cloud (ASoC)', // Updated text
             items: [
-                { text: 'About', link: `${VELOCITY_BASE_DIR}/ucv-ext-asoc/` },
-                { text: 'Overview', link: `${VELOCITY_BASE_DIR}/ucv-ext-asoc/overview` },
-                { text: 'Usage', link: `${VELOCITY_BASE_DIR}/ucv-ext-asoc/usage` },
-                { text: 'Downloads', link: `${VELOCITY_BASE_DIR}/ucv-ext-asoc/downloads` }
+                { text: 'About', link: `/${VELOCITY_BASE_DIR}/ucv-ext-asoc/` },
+                { text: 'Overview', link: `/${VELOCITY_BASE_DIR}/ucv-ext-asoc/overview` },
+                { text: 'Usage', link: `/${VELOCITY_BASE_DIR}/ucv-ext-asoc/usage` },
+                { text: 'Downloads', link: `/${VELOCITY_BASE_DIR}/ucv-ext-asoc/downloads` }
             ]
         }
     ],
@@ -86,10 +86,10 @@ export const ucv: DefaultTheme.Sidebar = {
         {
             text: 'Azure DevOps', // Updated text
             items: [
-                { text: 'About', link: `${VELOCITY_BASE_DIR}/ucv-ext-azure/` },
-                { text: 'Overview', link: `${VELOCITY_BASE_DIR}/ucv-ext-azure/overview` },
-                { text: 'Usage', link: `${VELOCITY_BASE_DIR}/ucv-ext-azure/usage` },
-                { text: 'Downloads', link: `${VELOCITY_BASE_DIR}/ucv-ext-azure/downloads` }
+                { text: 'About', link: `/${VELOCITY_BASE_DIR}/ucv-ext-azure/` },
+                { text: 'Overview', link: `/${VELOCITY_BASE_DIR}/ucv-ext-azure/overview` },
+                { text: 'Usage', link: `/${VELOCITY_BASE_DIR}/ucv-ext-azure/usage` },
+                { text: 'Downloads', link: `/${VELOCITY_BASE_DIR}/ucv-ext-azure/downloads` }
             ]
         }
     ],
@@ -100,10 +100,10 @@ export const ucv: DefaultTheme.Sidebar = {
         {
             text: 'BitBucket Cloud', // Updated text
             items: [
-                { text: 'About', link: `${VELOCITY_BASE_DIR}/ucv-ext-bitbucket-cloud/` },
-                { text: 'Overview', link: `${VELOCITY_BASE_DIR}/ucv-ext-bitbucket-cloud/overview` },
-                { text: 'Usage', link: `${VELOCITY_BASE_DIR}/ucv-ext-bitbucket-cloud/usage` },
-                { text: 'Downloads', link: `${VELOCITY_BASE_DIR}/ucv-ext-bitbucket-cloud/downloads` }
+                { text: 'About', link: `/${VELOCITY_BASE_DIR}/ucv-ext-bitbucket-cloud/` },
+                { text: 'Overview', link: `/${VELOCITY_BASE_DIR}/ucv-ext-bitbucket-cloud/overview` },
+                { text: 'Usage', link: `/${VELOCITY_BASE_DIR}/ucv-ext-bitbucket-cloud/usage` },
+                { text: 'Downloads', link: `/${VELOCITY_BASE_DIR}/ucv-ext-bitbucket-cloud/downloads` }
             ]
         }
     ],
@@ -114,10 +114,10 @@ export const ucv: DefaultTheme.Sidebar = {
         {
             text: 'BitBucket Server', // Updated text
             items: [
-                { text: 'About', link: `${VELOCITY_BASE_DIR}/ucv-ext-bitbucket-server/` },
-                { text: 'Overview', link: `${VELOCITY_BASE_DIR}/ucv-ext-bitbucket-server/overview` },
-                { text: 'Usage', link: `${VELOCITY_BASE_DIR}/ucv-ext-bitbucket-server/usage` },
-                { text: 'Downloads', link: `${VELOCITY_BASE_DIR}/ucv-ext-bitbucket-server/downloads` }
+                { text: 'About', link: `/${VELOCITY_BASE_DIR}/ucv-ext-bitbucket-server/` },
+                { text: 'Overview', link: `/${VELOCITY_BASE_DIR}/ucv-ext-bitbucket-server/overview` },
+                { text: 'Usage', link: `/${VELOCITY_BASE_DIR}/ucv-ext-bitbucket-server/usage` },
+                { text: 'Downloads', link: `/${VELOCITY_BASE_DIR}/ucv-ext-bitbucket-server/downloads` }
             ]
         }
     ],
@@ -128,10 +128,10 @@ export const ucv: DefaultTheme.Sidebar = {
         {
             text: 'Black Duck', // Updated text
             items: [
-                { text: 'About', link: `${VELOCITY_BASE_DIR}/ucv-ext-blackduck/` },
-                { text: 'Overview', link: `${VELOCITY_BASE_DIR}/ucv-ext-blackduck/overview` },
-                { text: 'Usage', link: `${VELOCITY_BASE_DIR}/ucv-ext-blackduck/usage` },
-                { text: 'Downloads', link: `${VELOCITY_BASE_DIR}/ucv-ext-blackduck/downloads` }
+                { text: 'About', link: `/${VELOCITY_BASE_DIR}/ucv-ext-blackduck/` },
+                { text: 'Overview', link: `/${VELOCITY_BASE_DIR}/ucv-ext-blackduck/overview` },
+                { text: 'Usage', link: `/${VELOCITY_BASE_DIR}/ucv-ext-blackduck/usage` },
+                { text: 'Downloads', link: `/${VELOCITY_BASE_DIR}/ucv-ext-blackduck/downloads` }
             ]
         }
     ],
@@ -142,10 +142,10 @@ export const ucv: DefaultTheme.Sidebar = {
         {
             text: 'Bottleneck Detection', // Updated text
             items: [
-                { text: 'About', link: `${VELOCITY_BASE_DIR}/ucv-ext-bottleneck-detection/` },
-                { text: 'Overview', link: `${VELOCITY_BASE_DIR}/ucv-ext-bottleneck-detection/overview` },
-                { text: 'Usage', link: `${VELOCITY_BASE_DIR}/ucv-ext-bottleneck-detection/usage` },
-                { text: 'Downloads', link: `${VELOCITY_BASE_DIR}/ucv-ext-bottleneck-detection/downloads` }
+                { text: 'About', link: `/${VELOCITY_BASE_DIR}/ucv-ext-bottleneck-detection/` },
+                { text: 'Overview', link: `/${VELOCITY_BASE_DIR}/ucv-ext-bottleneck-detection/overview` },
+                { text: 'Usage', link: `/${VELOCITY_BASE_DIR}/ucv-ext-bottleneck-detection/usage` },
+                { text: 'Downloads', link: `/${VELOCITY_BASE_DIR}/ucv-ext-bottleneck-detection/downloads` }
             ]
         }
     ],
@@ -156,10 +156,10 @@ export const ucv: DefaultTheme.Sidebar = {
         {
             text: 'DevOps Build', // Updated text
             items: [
-                { text: 'About', link: `${VELOCITY_BASE_DIR}/ucv-ext-build/` },
-                { text: 'Overview', link: `${VELOCITY_BASE_DIR}/ucv-ext-build/overview` },
-                { text: 'Usage', link: `${VELOCITY_BASE_DIR}/ucv-ext-build/usage` },
-                { text: 'Downloads', link: `${VELOCITY_BASE_DIR}/ucv-ext-build/downloads` }
+                { text: 'About', link: `/${VELOCITY_BASE_DIR}/ucv-ext-build/` },
+                { text: 'Overview', link: `/${VELOCITY_BASE_DIR}/ucv-ext-build/overview` },
+                { text: 'Usage', link: `/${VELOCITY_BASE_DIR}/ucv-ext-build/usage` },
+                { text: 'Downloads', link: `/${VELOCITY_BASE_DIR}/ucv-ext-build/downloads` }
             ]
         }
     ],
@@ -170,10 +170,10 @@ export const ucv: DefaultTheme.Sidebar = {
         {
             text: 'CircleCI', // Updated text
             items: [
-                { text: 'About', link: `${VELOCITY_BASE_DIR}/ucv-ext-circleci/` },
-                { text: 'Overview', link: `${VELOCITY_BASE_DIR}/ucv-ext-circleci/overview` },
-                { text: 'Usage', link: `${VELOCITY_BASE_DIR}/ucv-ext-circleci/usage` },
-                { text: 'Downloads', link: `${VELOCITY_BASE_DIR}/ucv-ext-circleci/downloads` }
+                { text: 'About', link: `/${VELOCITY_BASE_DIR}/ucv-ext-circleci/` },
+                { text: 'Overview', link: `/${VELOCITY_BASE_DIR}/ucv-ext-circleci/overview` },
+                { text: 'Usage', link: `/${VELOCITY_BASE_DIR}/ucv-ext-circleci/usage` },
+                { text: 'Downloads', link: `/${VELOCITY_BASE_DIR}/ucv-ext-circleci/downloads` }
             ]
         }
     ],
@@ -184,10 +184,10 @@ export const ucv: DefaultTheme.Sidebar = {
         {
             text: 'DevOps Control', // Updated text
             items: [
-                { text: 'About', link: `${VELOCITY_BASE_DIR}/ucv-ext-control/` },
-                { text: 'Overview', link: `${VELOCITY_BASE_DIR}/ucv-ext-control/overview` },
-                { text: 'Usage', link: `${VELOCITY_BASE_DIR}/ucv-ext-control/usage` },
-                { text: 'Downloads', link: `${VELOCITY_BASE_DIR}/ucv-ext-control/downloads` }
+                { text: 'About', link: `/${VELOCITY_BASE_DIR}/ucv-ext-control/` },
+                { text: 'Overview', link: `/${VELOCITY_BASE_DIR}/ucv-ext-control/overview` },
+                { text: 'Usage', link: `/${VELOCITY_BASE_DIR}/ucv-ext-control/usage` },
+                { text: 'Downloads', link: `/${VELOCITY_BASE_DIR}/ucv-ext-control/downloads` }
             ]
         }
     ],
@@ -198,10 +198,10 @@ export const ucv: DefaultTheme.Sidebar = {
         {
             text: 'Code Coverage', // Updated text
             items: [
-                { text: 'About', link: `${VELOCITY_BASE_DIR}/ucv-ext-coverage-core/` },
-                { text: 'Overview', link: `${VELOCITY_BASE_DIR}/ucv-ext-coverage-core/overview` },
-                { text: 'Usage', link: `${VELOCITY_BASE_DIR}/ucv-ext-coverage-core/usage` },
-                { text: 'Downloads', link: `${VELOCITY_BASE_DIR}/ucv-ext-coverage-core/downloads` }
+                { text: 'About', link: `/${VELOCITY_BASE_DIR}/ucv-ext-coverage-core/` },
+                { text: 'Overview', link: `/${VELOCITY_BASE_DIR}/ucv-ext-coverage-core/overview` },
+                { text: 'Usage', link: `/${VELOCITY_BASE_DIR}/ucv-ext-coverage-core/usage` },
+                { text: 'Downloads', link: `/${VELOCITY_BASE_DIR}/ucv-ext-coverage-core/downloads` }
             ]
         }
     ],
@@ -212,10 +212,10 @@ export const ucv: DefaultTheme.Sidebar = {
         {
             text: 'Cucumber', // Updated text
             items: [
-                { text: 'About', link: `${VELOCITY_BASE_DIR}/ucv-ext-cucumber/` },
-                { text: 'Overview', link: `${VELOCITY_BASE_DIR}/ucv-ext-cucumber/overview` },
-                { text: 'Usage', link: `${VELOCITY_BASE_DIR}/ucv-ext-cucumber/usage` },
-                { text: 'Downloads', link: `${VELOCITY_BASE_DIR}/ucv-ext-cucumber/downloads` }
+                { text: 'About', link: `/${VELOCITY_BASE_DIR}/ucv-ext-cucumber/` },
+                { text: 'Overview', link: `/${VELOCITY_BASE_DIR}/ucv-ext-cucumber/overview` },
+                { text: 'Usage', link: `/${VELOCITY_BASE_DIR}/ucv-ext-cucumber/usage` },
+                { text: 'Downloads', link: `/${VELOCITY_BASE_DIR}/ucv-ext-cucumber/downloads` }
             ]
         }
     ],
@@ -226,10 +226,10 @@ export const ucv: DefaultTheme.Sidebar = {
         {
             text: 'Cypress', // Updated text
             items: [
-                { text: 'About', link: `${VELOCITY_BASE_DIR}/ucv-ext-cypress/` },
-                { text: 'Overview', link: `${VELOCITY_BASE_DIR}/ucv-ext-cypress/overview` },
-                { text: 'Usage', link: `${VELOCITY_BASE_DIR}/ucv-ext-cypress/usage` },
-                { text: 'Downloads', link: `${VELOCITY_BASE_DIR}/ucv-ext-cypress/downloads` }
+                { text: 'About', link: `/${VELOCITY_BASE_DIR}/ucv-ext-cypress/` },
+                { text: 'Overview', link: `/${VELOCITY_BASE_DIR}/ucv-ext-cypress/overview` },
+                { text: 'Usage', link: `/${VELOCITY_BASE_DIR}/ucv-ext-cypress/usage` },
+                { text: 'Downloads', link: `/${VELOCITY_BASE_DIR}/ucv-ext-cypress/downloads` }
             ]
         }
     ],
@@ -240,10 +240,10 @@ export const ucv: DefaultTheme.Sidebar = {
         {
             text: 'GitHub Dependabot', // Updated text
             items: [
-                { text: 'About', link: `${VELOCITY_BASE_DIR}/ucv-ext-dependabot/` },
-                { text: 'Overview', link: `${VELOCITY_BASE_DIR}/ucv-ext-dependabot/overview` },
-                { text: 'Usage', link: `${VELOCITY_BASE_DIR}/ucv-ext-dependabot/usage` },
-                { text: 'Downloads', link: `${VELOCITY_BASE_DIR}/ucv-ext-dependabot/downloads` }
+                { text: 'About', link: `/${VELOCITY_BASE_DIR}/ucv-ext-dependabot/` },
+                { text: 'Overview', link: `/${VELOCITY_BASE_DIR}/ucv-ext-dependabot/overview` },
+                { text: 'Usage', link: `/${VELOCITY_BASE_DIR}/ucv-ext-dependabot/usage` },
+                { text: 'Downloads', link: `/${VELOCITY_BASE_DIR}/ucv-ext-dependabot/downloads` }
             ]
         }
     ],
@@ -254,10 +254,10 @@ export const ucv: DefaultTheme.Sidebar = {
         {
             text: 'IBM Engineering Workflow Management (EWM)', // Updated text
             items: [
-                { text: 'About', link: `${VELOCITY_BASE_DIR}/ucv-ext-ewm/` },
-                { text: 'Overview', link: `${VELOCITY_BASE_DIR}/ucv-ext-ewm/overview` },
-                { text: 'Usage', link: `${VELOCITY_BASE_DIR}/ucv-ext-ewm/usage` },
-                { text: 'Downloads', link: `${VELOCITY_BASE_DIR}/ucv-ext-ewm/downloads` }
+                { text: 'About', link: `/${VELOCITY_BASE_DIR}/ucv-ext-ewm/` },
+                { text: 'Overview', link: `/${VELOCITY_BASE_DIR}/ucv-ext-ewm/overview` },
+                { text: 'Usage', link: `/${VELOCITY_BASE_DIR}/ucv-ext-ewm/usage` },
+                { text: 'Downloads', link: `/${VELOCITY_BASE_DIR}/ucv-ext-ewm/downloads` }
             ]
         }
     ],
@@ -268,10 +268,10 @@ export const ucv: DefaultTheme.Sidebar = {
         {
             text: 'Fortify SSC', // Updated text
             items: [
-                { text: 'About', link: `${VELOCITY_BASE_DIR}/ucv-ext-fortify-ssc/` },
-                { text: 'Overview', link: `${VELOCITY_BASE_DIR}/ucv-ext-fortify-ssc/overview` },
-                { text: 'Usage', link: `${VELOCITY_BASE_DIR}/ucv-ext-fortify-ssc/usage` },
-                { text: 'Downloads', link: `${VELOCITY_BASE_DIR}/ucv-ext-fortify-ssc/downloads` }
+                { text: 'About', link: `/${VELOCITY_BASE_DIR}/ucv-ext-fortify-ssc/` },
+                { text: 'Overview', link: `/${VELOCITY_BASE_DIR}/ucv-ext-fortify-ssc/overview` },
+                { text: 'Usage', link: `/${VELOCITY_BASE_DIR}/ucv-ext-fortify-ssc/usage` },
+                { text: 'Downloads', link: `/${VELOCITY_BASE_DIR}/ucv-ext-fortify-ssc/downloads` }
             ]
         }
     ],
@@ -282,10 +282,10 @@ export const ucv: DefaultTheme.Sidebar = {
         {
             text: 'GitHub', // Updated text
             items: [
-                { text: 'About', link: `${VELOCITY_BASE_DIR}/ucv-ext-github/` },
-                { text: 'Overview', link: `${VELOCITY_BASE_DIR}/ucv-ext-github/overview` },
-                { text: 'Usage', link: `${VELOCITY_BASE_DIR}/ucv-ext-github/usage` },
-                { text: 'Downloads', link: `${VELOCITY_BASE_DIR}/ucv-ext-github/downloads` }
+                { text: 'About', link: `/${VELOCITY_BASE_DIR}/ucv-ext-github/` },
+                { text: 'Overview', link: `/${VELOCITY_BASE_DIR}/ucv-ext-github/overview` },
+                { text: 'Usage', link: `/${VELOCITY_BASE_DIR}/ucv-ext-github/usage` },
+                { text: 'Downloads', link: `/${VELOCITY_BASE_DIR}/ucv-ext-github/downloads` }
             ]
         }
     ],
@@ -296,10 +296,10 @@ export const ucv: DefaultTheme.Sidebar = {
         {
             text: 'GitLab', // Updated text
             items: [
-                { text: 'About', link: `${VELOCITY_BASE_DIR}/ucv-ext-gitlab/` },
-                { text: 'Overview', link: `${VELOCITY_BASE_DIR}/ucv-ext-gitlab/overview` },
-                { text: 'Usage', link: `${VELOCITY_BASE_DIR}/ucv-ext-gitlab/usage` },
-                { text: 'Downloads', link: `${VELOCITY_BASE_DIR}/ucv-ext-gitlab/downloads` }
+                { text: 'About', link: `/${VELOCITY_BASE_DIR}/ucv-ext-gitlab/` },
+                { text: 'Overview', link: `/${VELOCITY_BASE_DIR}/ucv-ext-gitlab/overview` },
+                { text: 'Usage', link: `/${VELOCITY_BASE_DIR}/ucv-ext-gitlab/usage` },
+                { text: 'Downloads', link: `/${VELOCITY_BASE_DIR}/ucv-ext-gitlab/downloads` }
             ]
         }
     ],
@@ -310,10 +310,10 @@ export const ucv: DefaultTheme.Sidebar = {
         {
             text: 'Handlebar Reporter', // Updated text
             items: [
-                { text: 'About', link: `${VELOCITY_BASE_DIR}/ucv-ext-handlebars-reporter/` },
-                { text: 'Overview', link: `${VELOCITY_BASE_DIR}/ucv-ext-handlebars-reporter/overview` },
-                { text: 'Usage', link: `${VELOCITY_BASE_DIR}/ucv-ext-handlebars-reporter/usage` },
-                { text: 'Downloads', link: `${VELOCITY_BASE_DIR}/ucv-ext-handlebars-reporter/downloads` }
+                { text: 'About', link: `/${VELOCITY_BASE_DIR}/ucv-ext-handlebars-reporter/` },
+                { text: 'Overview', link: `/${VELOCITY_BASE_DIR}/ucv-ext-handlebars-reporter/overview` },
+                { text: 'Usage', link: `/${VELOCITY_BASE_DIR}/ucv-ext-handlebars-reporter/usage` },
+                { text: 'Downloads', link: `/${VELOCITY_BASE_DIR}/ucv-ext-handlebars-reporter/downloads` }
             ]
         }
     ],
@@ -324,10 +324,10 @@ export const ucv: DefaultTheme.Sidebar = {
         {
             text: 'Jenkins', // Updated text
             items: [
-                { text: 'About', link: `${VELOCITY_BASE_DIR}/ucv-ext-jenkins/` },
-                { text: 'Overview', link: `${VELOCITY_BASE_DIR}/ucv-ext-jenkins/overview` },
-                { text: 'Usage', link: `${VELOCITY_BASE_DIR}/ucv-ext-jenkins/usage` },
-                { text: 'Downloads', link: `${VELOCITY_BASE_DIR}/ucv-ext-jenkins/downloads` }
+                { text: 'About', link: `/${VELOCITY_BASE_DIR}/ucv-ext-jenkins/` },
+                { text: 'Overview', link: `/${VELOCITY_BASE_DIR}/ucv-ext-jenkins/overview` },
+                { text: 'Usage', link: `/${VELOCITY_BASE_DIR}/ucv-ext-jenkins/usage` },
+                { text: 'Downloads', link: `/${VELOCITY_BASE_DIR}/ucv-ext-jenkins/downloads` }
             ]
         }
     ],
@@ -338,10 +338,10 @@ export const ucv: DefaultTheme.Sidebar = {
         {
             text: 'Jira Service Management', // Updated text
             items: [
-                { text: 'About', link: `${VELOCITY_BASE_DIR}/ucv-ext-jira-service-management/` },
-                { text: 'Overview', link: `${VELOCITY_BASE_DIR}/ucv-ext-jira-service-management/overview` },
-                { text: 'Usage', link: `${VELOCITY_BASE_DIR}/ucv-ext-jira-service-management/usage` },
-                { text: 'Downloads', link: `${VELOCITY_BASE_DIR}/ucv-ext-jira-service-management/downloads` }
+                { text: 'About', link: `/${VELOCITY_BASE_DIR}/ucv-ext-jira-service-management/` },
+                { text: 'Overview', link: `/${VELOCITY_BASE_DIR}/ucv-ext-jira-service-management/overview` },
+                { text: 'Usage', link: `/${VELOCITY_BASE_DIR}/ucv-ext-jira-service-management/usage` },
+                { text: 'Downloads', link: `/${VELOCITY_BASE_DIR}/ucv-ext-jira-service-management/downloads` }
             ]
         }
     ],
@@ -352,10 +352,10 @@ export const ucv: DefaultTheme.Sidebar = {
         {
             text: 'Jira', // Updated text
             items: [
-                { text: 'About', link: `${VELOCITY_BASE_DIR}/ucv-ext-jira/` },
-                { text: 'Overview', link: `${VELOCITY_BASE_DIR}/ucv-ext-jira/overview` },
-                { text: 'Usage', link: `${VELOCITY_BASE_DIR}/ucv-ext-jira/usage` },
-                { text: 'Downloads', link: `${VELOCITY_BASE_DIR}/ucv-ext-jira/downloads` }
+                { text: 'About', link: `/${VELOCITY_BASE_DIR}/ucv-ext-jira/` },
+                { text: 'Overview', link: `/${VELOCITY_BASE_DIR}/ucv-ext-jira/overview` },
+                { text: 'Usage', link: `/${VELOCITY_BASE_DIR}/ucv-ext-jira/usage` },
+                { text: 'Downloads', link: `/${VELOCITY_BASE_DIR}/ucv-ext-jira/downloads` }
             ]
         }
     ],
@@ -366,10 +366,10 @@ export const ucv: DefaultTheme.Sidebar = {
         {
             text: 'Apache JMeter', // Updated text
             items: [
-                { text: 'About', link: `${VELOCITY_BASE_DIR}/ucv-ext-jmeter/` },
-                { text: 'Overview', link: `${VELOCITY_BASE_DIR}/ucv-ext-jmeter/overview` },
-                { text: 'Usage', link: `${VELOCITY_BASE_DIR}/ucv-ext-jmeter/usage` },
-                { text: 'Downloads', link: `${VELOCITY_BASE_DIR}/ucv-ext-jmeter/downloads` }
+                { text: 'About', link: `/${VELOCITY_BASE_DIR}/ucv-ext-jmeter/` },
+                { text: 'Overview', link: `/${VELOCITY_BASE_DIR}/ucv-ext-jmeter/overview` },
+                { text: 'Usage', link: `/${VELOCITY_BASE_DIR}/ucv-ext-jmeter/usage` },
+                { text: 'Downloads', link: `/${VELOCITY_BASE_DIR}/ucv-ext-jmeter/downloads` }
             ]
         }
     ],
@@ -380,10 +380,10 @@ export const ucv: DefaultTheme.Sidebar = {
         {
             text: 'JUnit', // Updated text
             items: [
-                { text: 'About', link: `${VELOCITY_BASE_DIR}/ucv-ext-junit/` },
-                { text: 'Overview', link: `${VELOCITY_BASE_DIR}/ucv-ext-junit/overview` },
-                { text: 'Usage', link: `${VELOCITY_BASE_DIR}/ucv-ext-junit/usage` },
-                { text: 'Downloads', link: `${VELOCITY_BASE_DIR}/ucv-ext-junit/downloads` }
+                { text: 'About', link: `/${VELOCITY_BASE_DIR}/ucv-ext-junit/` },
+                { text: 'Overview', link: `/${VELOCITY_BASE_DIR}/ucv-ext-junit/overview` },
+                { text: 'Usage', link: `/${VELOCITY_BASE_DIR}/ucv-ext-junit/usage` },
+                { text: 'Downloads', link: `/${VELOCITY_BASE_DIR}/ucv-ext-junit/downloads` }
             ]
         }
     ],
@@ -394,10 +394,10 @@ export const ucv: DefaultTheme.Sidebar = {
         {
             text: 'Planview Leankit', // Updated text
             items: [
-                { text: 'About', link: `${VELOCITY_BASE_DIR}/ucv-ext-leankit/` },
-                { text: 'Overview', link: `${VELOCITY_BASE_DIR}/ucv-ext-leankit/overview` },
-                { text: 'Usage', link: `${VELOCITY_BASE_DIR}/ucv-ext-leankit/usage` },
-                { text: 'Downloads', link: `${VELOCITY_BASE_DIR}/ucv-ext-leankit/downloads` }
+                { text: 'About', link: `/${VELOCITY_BASE_DIR}/ucv-ext-leankit/` },
+                { text: 'Overview', link: `/${VELOCITY_BASE_DIR}/ucv-ext-leankit/overview` },
+                { text: 'Usage', link: `/${VELOCITY_BASE_DIR}/ucv-ext-leankit/usage` },
+                { text: 'Downloads', link: `/${VELOCITY_BASE_DIR}/ucv-ext-leankit/downloads` }
             ]
         }
     ],
@@ -408,10 +408,10 @@ export const ucv: DefaultTheme.Sidebar = {
         {
             text: 'Milestone Risk Estimator', // Updated text
             items: [
-                { text: 'About', link: `${VELOCITY_BASE_DIR}/ucv-ext-milestone-risk-estimator/` },
-                { text: 'Overview', link: `${VELOCITY_BASE_DIR}/ucv-ext-milestone-risk-estimator/overview` },
-                { text: 'Usage', link: `${VELOCITY_BASE_DIR}/ucv-ext-milestone-risk-estimator/usage` },
-                { text: 'Downloads', link: `${VELOCITY_BASE_DIR}/ucv-ext-milestone-risk-estimator/downloads` }
+                { text: 'About', link: `/${VELOCITY_BASE_DIR}/ucv-ext-milestone-risk-estimator/` },
+                { text: 'Overview', link: `/${VELOCITY_BASE_DIR}/ucv-ext-milestone-risk-estimator/overview` },
+                { text: 'Usage', link: `/${VELOCITY_BASE_DIR}/ucv-ext-milestone-risk-estimator/usage` },
+                { text: 'Downloads', link: `/${VELOCITY_BASE_DIR}/ucv-ext-milestone-risk-estimator/downloads` }
             ]
         }
     ],
@@ -422,10 +422,10 @@ export const ucv: DefaultTheme.Sidebar = {
         {
             text: 'Njs-Unit', // Updated text
             items: [
-                { text: 'About', link: `${VELOCITY_BASE_DIR}/ucv-ext-njs-unit/` },
-                { text: 'Overview', link: `${VELOCITY_BASE_DIR}/ucv-ext-njs-unit/overview` },
-                { text: 'Usage', link: `${VELOCITY_BASE_DIR}/ucv-ext-njs-unit/usage` },
-                { text: 'Downloads', link: `${VELOCITY_BASE_DIR}/ucv-ext-njs-unit/downloads` }
+                { text: 'About', link: `/${VELOCITY_BASE_DIR}/ucv-ext-njs-unit/` },
+                { text: 'Overview', link: `/${VELOCITY_BASE_DIR}/ucv-ext-njs-unit/overview` },
+                { text: 'Usage', link: `/${VELOCITY_BASE_DIR}/ucv-ext-njs-unit/usage` },
+                { text: 'Downloads', link: `/${VELOCITY_BASE_DIR}/ucv-ext-njs-unit/downloads` }
             ]
         }
     ],
@@ -436,10 +436,10 @@ export const ucv: DefaultTheme.Sidebar = {
         {
             text: 'Ucv ext onetest server', // No direct match, keeping original
             items: [
-                { text: 'About', link: `${VELOCITY_BASE_DIR}/ucv-ext-onetest-server/` },
-                { text: 'Overview', link: `${VELOCITY_BASE_DIR}/ucv-ext-onetest-server/overview` },
-                { text: 'Usage', link: `${VELOCITY_BASE_DIR}/ucv-ext-onetest-server/usage` },
-                { text: 'Downloads', link: `${VELOCITY_BASE_DIR}/ucv-ext-onetest-server/downloads` }
+                { text: 'About', link: `/${VELOCITY_BASE_DIR}/ucv-ext-onetest-server/` },
+                { text: 'Overview', link: `/${VELOCITY_BASE_DIR}/ucv-ext-onetest-server/overview` },
+                { text: 'Usage', link: `/${VELOCITY_BASE_DIR}/ucv-ext-onetest-server/usage` },
+                { text: 'Downloads', link: `/${VELOCITY_BASE_DIR}/ucv-ext-onetest-server/downloads` }
             ]
         }
     ],
@@ -450,10 +450,10 @@ export const ucv: DefaultTheme.Sidebar = {
         {
             text: 'Ucv ext onetest', // No direct match, keeping original
             items: [
-                { text: 'About', link: `${VELOCITY_BASE_DIR}/ucv-ext-onetest/` },
-                { text: 'Overview', link: `${VELOCITY_BASE_DIR}/ucv-ext-onetest/overview` },
-                { text: 'Usage', link: `${VELOCITY_BASE_DIR}/ucv-ext-onetest/usage` },
-                { text: 'Downloads', link: `${VELOCITY_BASE_DIR}/ucv-ext-onetest/downloads` }
+                { text: 'About', link: `/${VELOCITY_BASE_DIR}/ucv-ext-onetest/` },
+                { text: 'Overview', link: `/${VELOCITY_BASE_DIR}/ucv-ext-onetest/overview` },
+                { text: 'Usage', link: `/${VELOCITY_BASE_DIR}/ucv-ext-onetest/usage` },
+                { text: 'Downloads', link: `/${VELOCITY_BASE_DIR}/ucv-ext-onetest/downloads` }
             ]
         }
     ],
@@ -464,10 +464,10 @@ export const ucv: DefaultTheme.Sidebar = {
         {
             text: 'DevOps Plan', // Updated text
             items: [
-                { text: 'About', link: `${VELOCITY_BASE_DIR}/ucv-ext-plan/` },
-                { text: 'Overview', link: `${VELOCITY_BASE_DIR}/ucv-ext-plan/overview` },
-                { text: 'Usage', link: `${VELOCITY_BASE_DIR}/ucv-ext-plan/usage` },
-                { text: 'Downloads', link: `${VELOCITY_BASE_DIR}/ucv-ext-plan/downloads` }
+                { text: 'About', link: `/${VELOCITY_BASE_DIR}/ucv-ext-plan/` },
+                { text: 'Overview', link: `/${VELOCITY_BASE_DIR}/ucv-ext-plan/overview` },
+                { text: 'Usage', link: `/${VELOCITY_BASE_DIR}/ucv-ext-plan/usage` },
+                { text: 'Downloads', link: `/${VELOCITY_BASE_DIR}/ucv-ext-plan/downloads` }
             ]
         }
     ],
@@ -478,10 +478,10 @@ export const ucv: DefaultTheme.Sidebar = {
         {
             text: 'Rally', // Updated text
             items: [
-                { text: 'About', link: `${VELOCITY_BASE_DIR}/ucv-ext-rally/` },
-                { text: 'Overview', link: `${VELOCITY_BASE_DIR}/ucv-ext-rally/overview` },
-                { text: 'Usage', link: `${VELOCITY_BASE_DIR}/ucv-ext-rally/usage` },
-                { text: 'Downloads', link: `${VELOCITY_BASE_DIR}/ucv-ext-rally/downloads` }
+                { text: 'About', link: `/${VELOCITY_BASE_DIR}/ucv-ext-rally/` },
+                { text: 'Overview', link: `/${VELOCITY_BASE_DIR}/ucv-ext-rally/overview` },
+                { text: 'Usage', link: `/${VELOCITY_BASE_DIR}/ucv-ext-rally/usage` },
+                { text: 'Downloads', link: `/${VELOCITY_BASE_DIR}/ucv-ext-rally/downloads` }
             ]
         }
     ],
@@ -492,10 +492,10 @@ export const ucv: DefaultTheme.Sidebar = {
         {
             text: 'GenAI summary release-IBM', // Updated text
             items: [
-                { text: 'About', link: `${VELOCITY_BASE_DIR}/ucv-ext-release-summary-ibm/` },
-                { text: 'Overview', link: `${VELOCITY_BASE_DIR}/ucv-ext-release-summary-ibm/overview` },
-                { text: 'Usage', link: `${VELOCITY_BASE_DIR}/ucv-ext-release-summary-ibm/usage` },
-                { text: 'Downloads', link: `${VELOCITY_BASE_DIR}/ucv-ext-release-summary-ibm/downloads` }
+                { text: 'About', link: `/${VELOCITY_BASE_DIR}/ucv-ext-release-summary-ibm/` },
+                { text: 'Overview', link: `/${VELOCITY_BASE_DIR}/ucv-ext-release-summary-ibm/overview` },
+                { text: 'Usage', link: `/${VELOCITY_BASE_DIR}/ucv-ext-release-summary-ibm/usage` },
+                { text: 'Downloads', link: `/${VELOCITY_BASE_DIR}/ucv-ext-release-summary-ibm/downloads` }
             ]
         }
     ],
@@ -506,10 +506,10 @@ export const ucv: DefaultTheme.Sidebar = {
         {
             text: 'GenAI summary release-OpenAI', // Updated text
             items: [
-                { text: 'About', link: `${VELOCITY_BASE_DIR}/ucv-ext-release-summary-openai/` },
-                { text: 'Overview', link: `${VELOCITY_BASE_DIR}/ucv-ext-release-summary-openai/overview` },
-                { text: 'Usage', link: `${VELOCITY_BASE_DIR}/ucv-ext-release-summary-openai/usage` },
-                { text: 'Downloads', link: `${VELOCITY_BASE_DIR}/ucv-ext-release-summary-openai/downloads` }
+                { text: 'About', link: `/${VELOCITY_BASE_DIR}/ucv-ext-release-summary-openai/` },
+                { text: 'Overview', link: `/${VELOCITY_BASE_DIR}/ucv-ext-release-summary-openai/overview` },
+                { text: 'Usage', link: `/${VELOCITY_BASE_DIR}/ucv-ext-release-summary-openai/usage` },
+                { text: 'Downloads', link: `/${VELOCITY_BASE_DIR}/ucv-ext-release-summary-openai/downloads` }
             ]
         }
     ],
@@ -520,10 +520,10 @@ export const ucv: DefaultTheme.Sidebar = {
         {
             text: 'Ucv ext rtas', // No direct match, keeping original
             items: [
-                { text: 'About', link: `${VELOCITY_BASE_DIR}/ucv-ext-rtas/` },
-                { text: 'Overview', link: `${VELOCITY_BASE_DIR}/ucv-ext-rtas/overview` },
-                { text: 'Usage', link: `${VELOCITY_BASE_DIR}/ucv-ext-rtas/usage` },
-                { text: 'Downloads', link: `${VELOCITY_BASE_DIR}/ucv-ext-rtas/downloads` }
+                { text: 'About', link: `/${VELOCITY_BASE_DIR}/ucv-ext-rtas/` },
+                { text: 'Overview', link: `/${VELOCITY_BASE_DIR}/ucv-ext-rtas/overview` },
+                { text: 'Usage', link: `/${VELOCITY_BASE_DIR}/ucv-ext-rtas/usage` },
+                { text: 'Downloads', link: `/${VELOCITY_BASE_DIR}/ucv-ext-rtas/downloads` }
             ]
         }
     ],
@@ -534,10 +534,10 @@ export const ucv: DefaultTheme.Sidebar = {
         {
             text: 'SAP ChaRM', // Updated text
             items: [
-                { text: 'About', link: `${VELOCITY_BASE_DIR}/ucv-ext-sap-charm/` },
-                { text: 'Overview', link: `${VELOCITY_BASE_DIR}/ucv-ext-sap-charm/overview` },
-                { text: 'Usage', link: `${VELOCITY_BASE_DIR}/ucv-ext-sap-charm/usage` },
-                { text: 'Downloads', link: `${VELOCITY_BASE_DIR}/ucv-ext-sap-charm/downloads` }
+                { text: 'About', link: `/${VELOCITY_BASE_DIR}/ucv-ext-sap-charm/` },
+                { text: 'Overview', link: `/${VELOCITY_BASE_DIR}/ucv-ext-sap-charm/overview` },
+                { text: 'Usage', link: `/${VELOCITY_BASE_DIR}/ucv-ext-sap-charm/usage` },
+                { text: 'Downloads', link: `/${VELOCITY_BASE_DIR}/ucv-ext-sap-charm/downloads` }
             ]
         }
     ],
@@ -548,10 +548,10 @@ export const ucv: DefaultTheme.Sidebar = {
         {
             text: 'ServiceNow', // Updated text
             items: [
-                { text: 'About', link: `${VELOCITY_BASE_DIR}/ucv-ext-servicenow/` },
-                { text: 'Overview', link: `${VELOCITY_BASE_DIR}/ucv-ext-servicenow/overview` },
-                { text: 'Usage', link: `${VELOCITY_BASE_DIR}/ucv-ext-servicenow/usage` },
-                { text: 'Downloads', link: `${VELOCITY_BASE_DIR}/ucv-ext-servicenow/downloads` }
+                { text: 'About', link: `/${VELOCITY_BASE_DIR}/ucv-ext-servicenow/` },
+                { text: 'Overview', link: `/${VELOCITY_BASE_DIR}/ucv-ext-servicenow/overview` },
+                { text: 'Usage', link: `/${VELOCITY_BASE_DIR}/ucv-ext-servicenow/usage` },
+                { text: 'Downloads', link: `/${VELOCITY_BASE_DIR}/ucv-ext-servicenow/downloads` }
             ]
         }
     ],
@@ -562,11 +562,11 @@ export const ucv: DefaultTheme.Sidebar = {
         {
             text: 'Shell', // Updated text
             items: [
-                { text: 'About', link: `${VELOCITY_BASE_DIR}/ucv-ext-shell/` },
-                { text: 'Overview', link: `${VELOCITY_BASE_DIR}/ucv-ext-shell/overview` },
-                { text: 'Usage', link: `${VELOCITY_BASE_DIR}/ucv-ext-shell/usage` },
-                { text: 'Automation task', link: `${VELOCITY_BASE_DIR}/ucv-ext-shell/Automation-task` },
-                { text: 'Downloads', link: `${VELOCITY_BASE_DIR}/ucv-ext-shell/downloads` }
+                { text: 'About', link: `/${VELOCITY_BASE_DIR}/ucv-ext-shell/` },
+                { text: 'Overview', link: `/${VELOCITY_BASE_DIR}/ucv-ext-shell/overview` },
+                { text: 'Usage', link: `/${VELOCITY_BASE_DIR}/ucv-ext-shell/usage` },
+                { text: 'Automation task', link: `/${VELOCITY_BASE_DIR}/ucv-ext-shell/Automation-task` },
+                { text: 'Downloads', link: `/${VELOCITY_BASE_DIR}/ucv-ext-shell/downloads` }
             ]
         }
     ],
@@ -577,10 +577,10 @@ export const ucv: DefaultTheme.Sidebar = {
         {
             text: 'Snyk', // Updated text
             items: [
-                { text: 'About', link: `${VELOCITY_BASE_DIR}/ucv-ext-snyk/` },
-                { text: 'Overview', link: `${VELOCITY_BASE_DIR}/ucv-ext-snyk/overview` },
-                { text: 'Usage', link: `${VELOCITY_BASE_DIR}/ucv-ext-snyk/usage` },
-                { text: 'Downloads', link: `${VELOCITY_BASE_DIR}/ucv-ext-snyk/downloads` }
+                { text: 'About', link: `/${VELOCITY_BASE_DIR}/ucv-ext-snyk/` },
+                { text: 'Overview', link: `/${VELOCITY_BASE_DIR}/ucv-ext-snyk/overview` },
+                { text: 'Usage', link: `/${VELOCITY_BASE_DIR}/ucv-ext-snyk/usage` },
+                { text: 'Downloads', link: `/${VELOCITY_BASE_DIR}/ucv-ext-snyk/downloads` }
             ]
         }
     ],
@@ -591,12 +591,12 @@ export const ucv: DefaultTheme.Sidebar = {
         {
             text: 'SonarQube', // Updated text
             items: [
-                { text: 'About', link: `${VELOCITY_BASE_DIR}/ucv-ext-sonarqube/` },
-                { text: 'Overview', link: `${VELOCITY_BASE_DIR}/ucv-ext-sonarqube/overview` },
-                { text: 'Usage', link: `${VELOCITY_BASE_DIR}/ucv-ext-sonarqube/usage` },
-                { text: 'Downloads', link: `${VELOCITY_BASE_DIR}/ucv-ext-sonarqube/downloads` },
-                { text: 'Certificate', link: `${VELOCITY_BASE_DIR}/ucv-ext-sonarqube/certificate` },
-                { text: 'Scripts', link: `${VELOCITY_BASE_DIR}/ucv-ext-sonarqube/scripts` }
+                { text: 'About', link: `/${VELOCITY_BASE_DIR}/ucv-ext-sonarqube/` },
+                { text: 'Overview', link: `/${VELOCITY_BASE_DIR}/ucv-ext-sonarqube/overview` },
+                { text: 'Usage', link: `/${VELOCITY_BASE_DIR}/ucv-ext-sonarqube/usage` },
+                { text: 'Downloads', link: `/${VELOCITY_BASE_DIR}/ucv-ext-sonarqube/downloads` },
+                { text: 'Certificate', link: `/${VELOCITY_BASE_DIR}/ucv-ext-sonarqube/certificate` },
+                { text: 'Scripts', link: `/${VELOCITY_BASE_DIR}/ucv-ext-sonarqube/scripts` }
             ]
         }
     ],
@@ -607,10 +607,10 @@ export const ucv: DefaultTheme.Sidebar = {
         {
             text: 'TestNG', // Updated text
             items: [
-                { text: 'About', link: `${VELOCITY_BASE_DIR}/ucv-ext-testng/` },
-                { text: 'Overview', link: `${VELOCITY_BASE_DIR}/ucv-ext-testng/overview` },
-                { text: 'Usage', link: `${VELOCITY_BASE_DIR}/ucv-ext-testng/usage` },
-                { text: 'Downloads', link: `${VELOCITY_BASE_DIR}/ucv-ext-testng/downloads` }
+                { text: 'About', link: `/${VELOCITY_BASE_DIR}/ucv-ext-testng/` },
+                { text: 'Overview', link: `/${VELOCITY_BASE_DIR}/ucv-ext-testng/overview` },
+                { text: 'Usage', link: `/${VELOCITY_BASE_DIR}/ucv-ext-testng/usage` },
+                { text: 'Downloads', link: `/${VELOCITY_BASE_DIR}/ucv-ext-testng/downloads` }
             ]
         }
     ],
@@ -621,10 +621,10 @@ export const ucv: DefaultTheme.Sidebar = {
         {
             text: 'Twistlock', // Updated text
             items: [
-                { text: 'About', link: `${VELOCITY_BASE_DIR}/ucv-ext-twistlock/` },
-                { text: 'Overview', link: `${VELOCITY_BASE_DIR}/ucv-ext-twistlock/overview` },
-                { text: 'Usage', link: `${VELOCITY_BASE_DIR}/ucv-ext-twistlock/usage` },
-                { text: 'Downloads', link: `${VELOCITY_BASE_DIR}/ucv-ext-twistlock/downloads` }
+                { text: 'About', link: `/${VELOCITY_BASE_DIR}/ucv-ext-twistlock/` },
+                { text: 'Overview', link: `/${VELOCITY_BASE_DIR}/ucv-ext-twistlock/overview` },
+                { text: 'Usage', link: `/${VELOCITY_BASE_DIR}/ucv-ext-twistlock/usage` },
+                { text: 'Downloads', link: `/${VELOCITY_BASE_DIR}/ucv-ext-twistlock/downloads` }
             ]
         }
     ],
@@ -635,10 +635,10 @@ export const ucv: DefaultTheme.Sidebar = {
         {
             text: 'DevOps Deploy', // Updated text (assuming UCD maps to DevOps Deploy)
             items: [
-                { text: 'About', link: `${VELOCITY_BASE_DIR}/ucv-ext-ucd/` },
-                { text: 'Overview', link: `${VELOCITY_BASE_DIR}/ucv-ext-ucd/overview` },
-                { text: 'Usage', link: `${VELOCITY_BASE_DIR}/ucv-ext-ucd/usage` },
-                { text: 'Downloads', link: `${VELOCITY_BASE_DIR}/ucv-ext-ucd/downloads` }
+                { text: 'About', link: `/${VELOCITY_BASE_DIR}/ucv-ext-ucd/` },
+                { text: 'Overview', link: `/${VELOCITY_BASE_DIR}/ucv-ext-ucd/overview` },
+                { text: 'Usage', link: `/${VELOCITY_BASE_DIR}/ucv-ext-ucd/usage` },
+                { text: 'Downloads', link: `/${VELOCITY_BASE_DIR}/ucv-ext-ucd/downloads` }
             ]
         }
     ],
@@ -649,10 +649,10 @@ export const ucv: DefaultTheme.Sidebar = {
         {
             text: 'CollabNet VersionOne', // Updated text
             items: [
-                { text: 'About', link: `${VELOCITY_BASE_DIR}/ucv-ext-versionone/` },
-                { text: 'Overview', link: `${VELOCITY_BASE_DIR}/ucv-ext-versionone/overview` },
-                { text: 'Usage', link: `${VELOCITY_BASE_DIR}/ucv-ext-versionone/usage` },
-                { text: 'Downloads', link: `${VELOCITY_BASE_DIR}/ucv-ext-versionone/downloads` }
+                { text: 'About', link: `/${VELOCITY_BASE_DIR}/ucv-ext-versionone/` },
+                { text: 'Overview', link: `/${VELOCITY_BASE_DIR}/ucv-ext-versionone/overview` },
+                { text: 'Usage', link: `/${VELOCITY_BASE_DIR}/ucv-ext-versionone/usage` },
+                { text: 'Downloads', link: `/${VELOCITY_BASE_DIR}/ucv-ext-versionone/downloads` }
             ]
         }
     ],
@@ -663,10 +663,10 @@ export const ucv: DefaultTheme.Sidebar = {
         {
             text: 'Microsoft Visual Studio Testing', // Updated text
             items: [
-                { text: 'About', link: `${VELOCITY_BASE_DIR}/ucv-ext-vs-quality/` },
-                { text: 'Overview', link: `${VELOCITY_BASE_DIR}/ucv-ext-vs-quality/overview` },
-                { text: 'Usage', link: `${VELOCITY_BASE_DIR}/ucv-ext-vs-quality/usage` },
-                { text: 'Downloads', link: `${VELOCITY_BASE_DIR}/ucv-ext-vs-quality/downloads` }
+                { text: 'About', link: `/${VELOCITY_BASE_DIR}/ucv-ext-vs-quality/` },
+                { text: 'Overview', link: `/${VELOCITY_BASE_DIR}/ucv-ext-vs-quality/overview` },
+                { text: 'Usage', link: `/${VELOCITY_BASE_DIR}/ucv-ext-vs-quality/usage` },
+                { text: 'Downloads', link: `/${VELOCITY_BASE_DIR}/ucv-ext-vs-quality/downloads` }
             ]
         }
     ],
@@ -677,10 +677,10 @@ export const ucv: DefaultTheme.Sidebar = {
         {
             text: 'WhiteSource', // Updated text
             items: [
-                { text: 'About', link: `${VELOCITY_BASE_DIR}/ucv-ext-whitesource/` },
-                { text: 'Overview', link: `${VELOCITY_BASE_DIR}/ucv-ext-whitesource/overview` },
-                { text: 'Usage', link: `${VELOCITY_BASE_DIR}/ucv-ext-whitesource/usage` },
-                { text: 'Downloads', link: `${VELOCITY_BASE_DIR}/ucv-ext-whitesource/downloads` }
+                { text: 'About', link: `/${VELOCITY_BASE_DIR}/ucv-ext-whitesource/` },
+                { text: 'Overview', link: `/${VELOCITY_BASE_DIR}/ucv-ext-whitesource/overview` },
+                { text: 'Usage', link: `/${VELOCITY_BASE_DIR}/ucv-ext-whitesource/usage` },
+                { text: 'Downloads', link: `/${VELOCITY_BASE_DIR}/ucv-ext-whitesource/downloads` }
             ]
         }
     ],
@@ -691,11 +691,11 @@ export const ucv: DefaultTheme.Sidebar = {
         {
             text: 'YAML Executor', // Updated text
             items: [
-                { text: 'About', link: `${VELOCITY_BASE_DIR}/ucv-ext-yaml-executor/` },
-                { text: 'Overview', link: `${VELOCITY_BASE_DIR}/ucv-ext-yaml-executor/overview` },
-                { text: 'Usage', link: `${VELOCITY_BASE_DIR}/ucv-ext-yaml-executor/usage` },
-                { text: 'Steps', link: `${VELOCITY_BASE_DIR}/ucv-ext-yaml-executor/steps` },
-                { text: 'Downloads', link: `${VELOCITY_BASE_DIR}/ucv-ext-yaml-executor/downloads` }
+                { text: 'About', link: `/${VELOCITY_BASE_DIR}/ucv-ext-yaml-executor/` },
+                { text: 'Overview', link: `/${VELOCITY_BASE_DIR}/ucv-ext-yaml-executor/overview` },
+                { text: 'Usage', link: `/${VELOCITY_BASE_DIR}/ucv-ext-yaml-executor/usage` },
+                { text: 'Steps', link: `/${VELOCITY_BASE_DIR}/ucv-ext-yaml-executor/steps` },
+                { text: 'Downloads', link: `/${VELOCITY_BASE_DIR}/ucv-ext-yaml-executor/downloads` }
             ]
         }
     ],
@@ -706,10 +706,10 @@ export const ucv: DefaultTheme.Sidebar = {
         {
             text: 'urbancode-velocity', // Updated text
             items: [
-                { text: 'About', link: `${VELOCITY_BASE_DIR}/urbancode-velocity/` },
-                { text: 'Overview', link: `${VELOCITY_BASE_DIR}/urbancode-velocity/overview` },
-                { text: 'Usage', link: `${VELOCITY_BASE_DIR}/urbancode-velocity/usage` },
-                { text: 'Downloads', link: `${VELOCITY_BASE_DIR}/urbancode-velocity/downloads` }
+                { text: 'About', link: `/${VELOCITY_BASE_DIR}/urbancode-velocity/` },
+                { text: 'Overview', link: `/${VELOCITY_BASE_DIR}/urbancode-velocity/overview` },
+                { text: 'Usage', link: `/${VELOCITY_BASE_DIR}/urbancode-velocity/usage` },
+                { text: 'Downloads', link: `/${VELOCITY_BASE_DIR}/urbancode-velocity/downloads` }
             ]
         }
     ],
