@@ -71,6 +71,7 @@ export const ucr: DefaultTheme.Sidebar = {
                 { text: 'About', link: `/${RELEASE_BASE_DIR}/servicenow-4/` },
                 { text: 'Overview', link: `/${RELEASE_BASE_DIR}/servicenow-4/overview` },
                 { text: 'Usage', link: `/${RELEASE_BASE_DIR}/servicenow-4/usage` },
+                { text: 'Downloads', link: `/${RELEASE_BASE_DIR}/servicenow-4/downloads` },
                 { text: 'Steps', link: `/${RELEASE_BASE_DIR}/servicenow-4/steps` }
             ]
         }
