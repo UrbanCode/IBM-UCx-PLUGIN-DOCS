@@ -9,10 +9,10 @@ The plug-in imports work items as issues from DevOps Plan server into IBM DevOps
 
 The table below lists the compatible versions of the DevOps Plan plugin and IBM DevOps Velocity:
 
-| DevOps Plan plugin version | IBM DevOps Velocity Version |
+| IBM DevOps Velocity Version | DevOps Plan plugin version |
 | --- | --- |
-| 1.2.3, 1.2.2, 1.2.1 | 5.1.9 |
-| 1.1.58, 1.1.57, 1.1.55, 1.1.52 | 3.0.0 |
+| 5.1.9 | 1.2.3, 1.2.2, 1.2.1 |
+| 3.0.0 | 1.1.58, 1.1.57, 1.1.55, 1.1.52 |
 
 DevOps plan server 1.0.14 or later.
 
