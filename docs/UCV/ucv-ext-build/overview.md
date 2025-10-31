@@ -9,16 +9,21 @@ The DevOps Build plug-in requires DevOps Build version 7.1.0-1177383 or later.
 
 The table below lists the compatible versions of the DevOps Build plugin and IBM DevOps Velocity:
 
-| DevOps Build Plugin Versions | DevOps Velocity Version |
+| DevOps Velocity Version | DevOps Build Plugin Versions |
 | --- | --- |
-| 1.1.3, 1.1.2 | 5.1.9 |
-| 1.0.3, 1.0.2 | 5.1.0 |
+| 5.1.11 | 1.1.4 |
+| 5.1.9 | 1.1.3, 1.1.2 |
+| 5.1.0 | 1.1.3, 1.1.2 |
 
 ## Versions
 
 IBM DevOps Velocity plug-in images are located in DockerHub and the IBM DevOps Velocity code accesses the version that you select. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-build/tags).
 
 ## History
+
+### Version 1.1.4
+
+* **Enhancement**: Added the integrationId field to the builds collection for build records.
 
 ### Version 1.1.3
 
