@@ -7,16 +7,25 @@ The IBM DevOps Deploy plugin for DevOps Velocity synchronizes applications, proc
 
 The table below lists the compatible versions of the IBM DevOps Deploy plugin and IBM DevOps Velocity:
 
-| IBM DevOps Deploy Plugin Versions | DevOps Velocity Version |
+| DevOps Velocity Version | IBM DevOps Deploy Plugin Versions |
 | --- | --- |
-| 4.1.1 | 5.1.9 or later |
-| 4.0.9, 4.0.5, 4.0.4 | 4.0.13 or later |
+| 5.1.11 | 4.1.2 |
+| 5.1.9 | 4.1.1 |
+| 4.0.13 | 4.0.9, 4.0.5, 4.0.4 |
 
 ## Versions
 
 DevOps Velocity plug-in images are located in DockerHub. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-ucd/tags).
 
 ## History
+
+### Version 4.1.2
+
+* **Enhancement**: Added the integrationId field to the deployments collection for deployment records.
+* **Bug Fix**: Resolved an issue in delta sync where in-progress APRs were not being tracked.
+* **Enhancement**: Introduced new schedule events in DevOps Deploy, AppCompRequests, AppResources, and SnapCompVersions to synchronize Application Component Requests, Application Resources, and Snapshot Component Versions.
+* **Bug fix**: Resolved an issue where manual deployments triggered from DevOps Velocity failed with a 401 Unauthorized error, while scheduled releases continued to run successfully. This occurred due to an authentication failure between Velocity and DevOps Deploy following a version upgrade. The integration credentials between DevOps Velocity and DevOps Deploy have been revalidated, and authentication handling has been improved to ensure successful manual deployments.
+* **Bug fix**: Addressed an issue where applications created from older templates in DevOps Deploy were not synchronizing correctly with DevOps Velocity. This issue prevented deployments from being initiated through Velocity, requiring manual execution in DevOps Deploy. The synchronization logic has been enhanced so that processes and environments for newly created applications (based on existing templates) are now accurately captured during deltaSync.
 
 ### Version 4.1.1
 
