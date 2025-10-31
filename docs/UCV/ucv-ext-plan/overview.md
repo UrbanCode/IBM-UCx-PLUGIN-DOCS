@@ -38,7 +38,7 @@ DevOps Velocity plug-in images are located in DockerHub. To view available versi
 
 * **Bug fix**: Release tab on filter bar and Releases option in Type selection does not appears on the VSM page filters.
 
-* **Note**: After upgrading from 1.2.2 to 1.2.3, you need to perform a full resync to make the releases filter visible on the VSM page.
+* **Note**: After upgrading DevOps Plan version from **1.2.2** to **1.2.3**, you need to perform a full resync to make the **releases** filter visible on the VSM page.
 
 ![images/compass-3.png](images/compass-3.png)
 
