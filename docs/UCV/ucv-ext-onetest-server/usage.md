@@ -27,7 +27,7 @@ You will need to "install" the plug-in in DevOps Velocity. You can do this in on
     "type": "ucv-ext-onetest-server",
     "tenant_id": "<tenant-id>",
     "name": "<integration-name>",
-    "logginglevel": "INFO",
+    "logginglevel": "ALL",
     "properties":{
       "_userAccessKey": "<ucv-user-access-key>",
       "oneTestUrl" : "<DevOps Test-Hub-url>",
@@ -52,7 +52,7 @@ You will need to "install" the plug-in in DevOps Velocity. You can do this in on
     "type": "ucv-ext-onetest-server",
     "tenant_id": "<tenant-id>",
     "name": "<integration-name>",
-    "logginglevel": "INFO",
+    "logginglevel": "ALL",
     "properties":{
         "oneTestUrl" : "<DevOps Test-Hub-url>",
         "oneTestRefreshToken":"<DevOps Test-Hub-refresh-token>",
@@ -66,39 +66,52 @@ You will need to "install" the plug-in in DevOps Velocity. You can do this in on
 
 ## Running the Integration
 
-After going through the "Set Up" portion above, you can send an HTTP POST request to your new endpoint: `https://<velocity-url>/pluginEndpoint/<integrationId>/onetest/callback`
+# Configure webhook
 
-* The payload for this POST must be in the following format
+* Before execting test, make sure webhook has been configured.
+here the link to configure webhook https://help.hcl-software.com/devops/test/hub/11.0.6/docs/topics/c_webhook.html
+* Once webhook is configured, execute a test 
+* To pass additional parameters while executing test
+https://help.hcl-software.com/devops/loop/1.0.3/docs/topics/add_props_metrics.html
+
+**Note**:
+callback URL for measure : https://<measure-url>/velocity/pluginEndpoint/<integrationId>/onetest/callback
+callback URL for velocity : https://<velocity-url>/pluginEndpoint/<integrationId>/onetest/callback
+
+# Webhook template body
 
 ```
-
+#if( $commit || $buildId || $buildUrl )
 {
-  "project": {
-    "name":"<name of DevOps Test Hub project>",
-    "id": "<id of DevOps Test Hub project>"
-    (either project name or project id must be specified)
-  },
-  "test": {
-    "name":"<name of test>"
-  },
-  "application": {
-    "name":"<application name>"
-  },
-  "result": {
-    "id": "<test result id>",
-    "status": "<test result status>",
-    "verdict": "<test result verdict>",
-    "startDate": <test result start date>,
-    "endDate": <test result end date>,
-    "duration": <test result duration>,
-    "url": "<test result url>"
-  },
-  "commitId": "<sha of a commit>" (optional),
-  "build": {
-    "id": "<id of build in DevOps Velocity>",
-    "url": "<url of build in DevOps Velocity>"
-  } (optional, this will override buildRegExp if specified)
+"project": {
+	"id": "$projectId",
+	"name": "$project",
+	"teamspace": "$teamSpace"
+},
+"application": {
+	"name": "$project"
+},
+"test": {
+	"id": "$assetId",
+	"name": "$assetName",
+	"branch": "$branch"
+},
+"result": {
+	"id": "$resultId",
+	"status": "$resultStatus",
+	"verdict": "$resultVerdict",
+	"startDate": "$executionStartDate",
+	"endDate": "$executionLastUpdate",
+	"duration": "$duration",
+	"url": "$eventLink"
+},
+"commit": "${commit|''}",
+"build": {
+	"id": "${buildId|''}",
+	"url": "${buildUrl|''}"
 }
+}
+#end
 
 ```
 

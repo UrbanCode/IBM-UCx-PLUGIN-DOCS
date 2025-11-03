@@ -5,7 +5,13 @@ The DevOps Test Hub plug-in provides an integration with DevOps Test Hub. This p
 
 ## Compatibility
 
-Must be running DevOps Velocity version 3.0.0 and later to use the plug-in. DevOps Test Hub 10.0.2 and later is supported.
+The table below lists the compatible versions of the DevOps Test Hub plugin and IBM DevOps Velocity:
+
+| IBM DevOps Velocity Version | DevOps Test Hub plugin version |
+| --- | --- |
+| 3.0.0 | 1.0.32, 1.0.31, 1.0.30, 1.0.28, 1.0.27, 1.0.26, 1.0.17 |
+
+DevOps Test Hub 10.0.2 and later is supported.
 
 ## Versions
 
