@@ -80,7 +80,7 @@ callback URL for velocity : https://<velocity-url>/pluginEndpoint/<integrationId
 
 # Webhook template body
 
-```
+```text
 #if( $commit || $buildId || $buildUrl )
 {
 "project": {
