@@ -75,12 +75,12 @@ here the link to configure webhook https://help.hcl-software.com/devops/test/hub
 https://help.hcl-software.com/devops/loop/1.0.3/docs/topics/add_props_metrics.html
 
 **Note**:
-callback URL for measure : https://<measure-url>/velocity/pluginEndpoint/<integrationId>/onetest/callback
-callback URL for velocity : https://<velocity-url>/pluginEndpoint/<integrationId>/onetest/callback
+* callback URL for measure : `https://<measure-url>/velocity/pluginEndpoint/<integrationId>/onetest/callback`
+* callback URL for velocity : `https://<velocity-url>/pluginEndpoint/<integrationId>/onetest/callback`
 
 # Webhook template body
 
-```text
+```
 #if( $commit || $buildId || $buildUrl )
 {
 "project": {
