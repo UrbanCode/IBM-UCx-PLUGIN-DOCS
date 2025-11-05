@@ -85,10 +85,15 @@ To integrate the plug-in using a JSON, perform the following steps:
 To configure webhook perform the following steps:
 
 * Before executing test, make sure webhook has been configured.
+
 For DevOps Loop refer to https://help.hcl-software.com/devops/test/hub/11.0.6/docs/topics/c_webhook.html
+
 For DevOps Test Hub refer to https://help.hcl-software.com/devops/loop/1.0.3/docs/topics/config_webhook_velocity.html
+
 * After webhook is configured, execute a test by passing additional parameters.
+
 For DevOps Loop refer to https://help.hcl-software.com/devops/loop/1.0.3/docs/topics/add_props_metrics.html
+
 For DevOps Test Hub refer to https://help.hcl-software.com/devops/test/hub/11.0.6/docs/topics/add_params_result.html
 
 **Note**
