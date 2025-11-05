@@ -1,8 +1,6 @@
 
 # DevOps Test Hub - Usage
 
-## usage
-
 To use the DevOps Test Hub plug-in, the plug-in must be loaded and an instance created before you can configure the plug-in integration. Configuration properties are defined using the product user interface or a JSON file. After the integration is complete, to invoke the plug-in send an HTTP Post request to the plug-in endpoint.
 
 ## Integration type
@@ -14,14 +12,44 @@ The DevOps Test Hub plug-in supports endpoint integration which are listed in th
 | --- | --- | --- |
 | OneTestEndpoint | onetest/callback | Post |
 
-## Invoking the plugin
+## Integration
 
-## Set Up
+There are two methods to integrate the plug-in:
 
-You will need to "install" the plug-in in DevOps Velocity. You can do this in one of two ways.
-* You can use the following template for creating your integration
+* Using the user interface
+* Using a JSON file
 
-    ```
+The tables in the Configuration Properties section describe the properties used to define the integration.
+
+## Integrating the plug-in by using user interface
+
+To install the plug-in, perform the following steps:
+
+* In DevOps Velocity, click **Settings** > **Integrations** > **Available**.
+* In the Action column for the DevOps Test Hub, click **Install**.
+
+To integrate the plug-in using the user interface, perform the following steps:
+
+1. In DevOps Velocity, click **Settings** > **Integrations** > **Installed**.
+2. In the Action column for the DevOps Test Hub plug-in, and then click **Add Integration**.
+3. On the Add Integration dialog, enter the values for the fields to configure the integration and define communication.
+4. Click **Add**.
+
+## Integrating the plug-in by using JSON file
+
+The JSON file contains the information for creating a value stream. Within the JSON file is a section for integrations. It is in this section that plug-in properties can be defined. For JSON sample refer set up section.
+
+To integrate the plug-in using a JSON, perform the following steps:
+
+1. Navigate to value stream page, and then click the necessary value stream.
+2. Click **wrench icon**, and then Select **Edit value stream** to modify the JSON file in the code or tree view editors.
+3. Alternatively, you can also click **Download JSON** option to download the JSON file, and then select the Import JSON option to upload the revised JSON file.
+4. Edit the integration information in the JSON file to add the plug-in configuration properties. Refer to JSON sample code in the Configuration Properties section for more details.
+5. Click **Save**.
+
+### Sample JSON
+
+```
     "integrations": [
   {
     "type": "ucv-ext-onetest-server",
@@ -38,45 +66,33 @@ You will need to "install" the plug-in in DevOps Velocity. You can do this in on
     }
     ]
 
-    ```
+```
+
 * In the above example, provide all of your own values for the values inside `< >` brackets.
 * The buildRegExp field can be used to map a build to a metric. The tags on the DevOps Test Hub test will be evaluated against the regular expression.
 * For instance, if your buildRegExp is defined as `([A-Z]+-[0-9]+)` and you tag your test with "BUILD-123" this will map the build with ID BUILD-123 in the Velocity server to the newly created metric.
 * For help forming a regular expression based on your build ID, you can test out patterns at the following web page: https://regexr.com
 
-* Another option for creating is to hit the `https://<velocity-url>/integration` url with the integration definition as your payload:
 
-    ```
-
-    {
-    "type": "ucv-ext-onetest-server",
-    "tenant_id": "<tenant-id>",
-    "name": "<integration-name>",
-    "logginglevel": "ALL",
-    "properties":{
-        "oneTestUrl" : "<DevOps Test-Hub-url>",
-        "oneTestRefreshToken":"<DevOps Test-Hub-refresh-token>",
-        "buildRegExp": "([A-Z]+-[0-9]+)",
-        "workflowId" : "<value_stream_id>"
-    }
-    }
-
-    ```
-* Either option will allow you to create an DevOps Test Hub integration instance.
-
-## Running the Integration
-
-# Configure webhook
-
-* Before execting test, make sure webhook has been configured.
-here the link to configure webhook https://help.hcl-software.com/devops/test/hub/11.0.6/docs/topics/c_webhook.html
-* Once webhook is configured, execute a test 
-* To pass additional parameters while executing test
-https://help.hcl-software.com/devops/loop/1.0.3/docs/topics/add_props_metrics.html
+## Invoking the plugin by configuring webhook in DevOps Test Hub
 
 **Note**:
+* Webhook is automatically configured in DevOps Loop Test Hub as part of loop initialization in DevOps Loop.
+* Webhook has to be configured manually in DevOps Test Hub for DevOps Velocity.
 * callback URL for measure : `https://<measure-url>/velocity/pluginEndpoint/<integrationId>/onetest/callback`
 * callback URL for velocity : `https://<velocity-url>/pluginEndpoint/<integrationId>/onetest/callback`
+
+To configure webhook perform the following steps:
+
+* Before executing test, make sure webhook has been configured.
+For DevOps Loop refer to https://help.hcl-software.com/devops/test/hub/11.0.6/docs/topics/c_webhook.html
+For DevOps Test Hub refer to https://help.hcl-software.com/devops/loop/1.0.3/docs/topics/config_webhook_velocity.html
+* After webhook is configured, execute a test by passing additional parameters.
+For DevOps Loop refer to https://help.hcl-software.com/devops/loop/1.0.3/docs/topics/add_props_metrics.html
+For DevOps Test Hub refer to https://help.hcl-software.com/devops/test/hub/11.0.6/docs/topics/add_params_result.html
+
+**Note**
+* While executing test if you do not pass buildId and buildUrl, the **if condition** will not be satisfied and plugin will not sync the test results.
 
 # Webhook template body
 
@@ -115,44 +131,7 @@ https://help.hcl-software.com/devops/loop/1.0.3/docs/topics/add_props_metrics.ht
 
 ```
 
-* Following successful integration, test results are categorized into Functional Tests, Unit Tests, API Tests, and Performance Test metrics.
-
-## Integration
-
-There are two methods to integrate the plug-in:
-
-* Using the user interface
-* Using a JSON file
-
-The tables in the Configuration Properties section describe the properties used to define the integration.
-
-## Integrating the plug-in by using user interface
-
-To install the plug-in, perform the following steps:
-
-* In DevOps Velocity, click **Settings** > **Integrations** > **Available**.
-* In the Action column for the DevOps Test Hub, click **Install**.
-
-To integrate the plug-in using the user interface, perform the following steps:
-
-1. In DevOps Velocity, click **Settings** > **Integrations** > **Installed**.
-2. In the Action column for the DevOps Test Hub plug-in, and then click **Add Integration**.
-3. On the Add Integration dialog, enter the values for the fields to configure the integration and define communication.
-4. Click **Add**.
-
-## Integrating the plug-in by using JSON file
-
-The JSON file contains the information for creating a value stream. Within the JSON file is a section for integrations. It is in this section that plug-in properties can be defined. For JSON sample refer set up section.
-
-To integrate the plug-in using a JSON, perform the following steps:
-
-1. Navigate to value stream page, and then click the necessary value stream.
-2. Click **wrench icon**, and then Select **Edit value stream** to modify the JSON file in the code or tree view editors.
-3. Alternatively, you can also click **Download JSON** option to download the JSON file, and then select the Import JSON option to upload the revised JSON file.
-4. Edit the integration information in the JSON file to add the plug-in configuration properties. Refer to JSON sample code in the Configuration Properties section for more details.
-5. Click **Save**.
-
-For **JSON sample** refer set up section.
+* After successful integration, test results are categorized into Functional Tests, Unit Tests, API Tests, and Performance Test metrics.
 
 ## Configuration Properties
 
