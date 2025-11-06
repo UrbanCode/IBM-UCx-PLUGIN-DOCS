@@ -9,7 +9,8 @@ The table below lists the compatible versions of the DevOps Test Hub plugin and 
 
 | IBM DevOps Velocity Version | DevOps Test Hub plugin version |
 | --- | --- |
-| 3.0.0 | 1.0.32, 1.0.31, 1.0.30, 1.0.28, 1.0.27, 1.0.26, 1.0.17 |
+| 5.1.9 or later | 1.0.32 |
+| 3.0.0 to 5.1.8 | 1.0.30, 1.0.28, 1.0.27, 1.0.26, 1.0.17 |
 
 DevOps Test Hub 10.0.2 and later is supported.
 
@@ -23,9 +24,6 @@ There is no install process for this plug-in. The DevOps Test Hub plug-in is ide
 ### Version 1.0.32
 
 * Reverted changes related metric field names , removed error column included under failed . Now we have Passed, Failed, Inconclusive fields.
-
-### Version 1.0.31
-
 * **Enhancement**: Enhanced the DevOps Test Hub plugin to adopt new webhook structure.
 
 ### Version 1.0.30

@@ -1,7 +1,7 @@
 
 # DevOps Test Hub - Usage
 
-To use the DevOps Test Hub plug-in, the plug-in must be loaded and an instance created before you can configure the plug-in integration. Configuration properties are defined using the product user interface or a JSON file. After the integration is complete, to invoke the plug-in send an HTTP Post request to the plug-in endpoint.
+To use the DevOps Test Hub plug-in, the plug-in must be loaded and an instance created before you can configure the plug-in integration. Configuration properties are defined using the product user interface or a JSON file. After the integration is complete, to invoke plug-in configure webhook in DevOps Test Hub.
 
 ## Integration type
 
@@ -70,7 +70,7 @@ To integrate the plug-in using a JSON, perform the following steps:
 
 * In the above example, provide all of your own values for the values inside `< >` brackets.
 * The buildRegExp field can be used to map a build to a metric. The tags on the DevOps Test Hub test will be evaluated against the regular expression.
-* For instance, if your buildRegExp is defined as `([A-Z]+-[0-9]+)` and you tag your test with "BUILD-123" this will map the build with ID BUILD-123 in the Velocity server to the newly created metric.
+* For example, if your buildRegExp is defined as `([A-Z]+-[0-9]+)` and you tag your test with "BUILD-123" this will map the build with ID BUILD-123 in the Velocity server to the newly created metric.
 * For help forming a regular expression based on your build ID, you can test out patterns at the following web page: https://regexr.com
 
 
@@ -100,6 +100,8 @@ For DevOps Test Hub refer to https://help.hcl-software.com/devops/test/hub/11.0.
 * While executing test if you do not pass buildId and buildUrl, the **if condition** will not be satisfied and plugin will not sync the test results.
 
 # Webhook template body
+
+For DevOps Test Hub server version 11.0.6.1 and DevOps Test Hub plugin version 1.0.32 or later
 
 ```
 #if( $commit || $buildId || $buildUrl )
@@ -133,6 +135,27 @@ For DevOps Test Hub refer to https://help.hcl-software.com/devops/test/hub/11.0.
 }
 }
 #end
+
+```
+
+For other versions of DevOps Test Hub server and plugin
+
+```
+{
+  "project": {
+    "name":"<name of DevOps Test Hub project>",
+    "id": "<id of DevOps Test Hub project>"
+    (either project name or project id must be specified)
+  },
+  "test": {
+    "name":"<name of test>"
+  },
+  "commitId": "<sha of a commit>" (optional),
+  "build": {
+    "id": "<id of build in DevOps Velocity>",
+    "url": "<url of build in DevOps Velocity>"
+  } (optional, this will override buildRegExp if specified)
+}
 
 ```
 
