@@ -7,9 +7,10 @@ DevOps Build plug-in for IBM DevOps Velocity synchronizes projects, build proces
 
 The DevOps Build plug-in requires DevOps Build version 7.1.0-1177383 or later.
 
-The table below lists the compatible versions of the DevOps Build plugin and IBM DevOps Velocity:
+The table below lists the compatible versions of the DevOps Build plug-in and IBM DevOps Velocity:
 
-| DevOps Velocity Version | DevOps Build Plugin Versions |
+| DevOps Velocity Version | DevOps Build Plug-
+in Versions |
 | --- | --- |
 | 5.1.11 or later | 1.1.5 |
 | 5.1.9 to 5.1.10 | 1.1.3, 1.1.2 |
@@ -24,7 +25,7 @@ IBM DevOps Velocity plug-in images are located in DockerHub and the IBM DevOps V
 ### Version 1.1.5
 
 * **Enhancement**: Added the integrationId field to the builds collection for build records.
-* **Support update**: From this version onward, Build plugin needs Velocity version 5.1.11 or later.
+* **Support update**: From this version onward, Build plug-in needs Velocity version 5.1.11 or later.
 
 ### Version 1.1.3
 

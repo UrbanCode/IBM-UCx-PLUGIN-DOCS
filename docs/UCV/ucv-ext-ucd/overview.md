@@ -5,9 +5,9 @@ The IBM DevOps Deploy plugin for DevOps Velocity synchronizes applications, proc
 
 ## Compatibility
 
-The table below lists the compatible versions of the IBM DevOps Deploy plugin and IBM DevOps Velocity:
+The table below lists the compatible versions of the IBM DevOps Deploy plug-in and IBM DevOps Velocity:
 
-| DevOps Velocity Version | IBM DevOps Deploy Plugin Versions |
+| DevOps Velocity Version | IBM DevOps Deploy Plug-in Versions |
 | --- | --- |
 | 5.1.11 or later | 4.1.3 |
 | 5.1.9 to 5.1.10| 4.1.1 |
@@ -26,7 +26,7 @@ DevOps Velocity plug-in images are located in DockerHub. To view available versi
 * **Enhancement**: Introduced new schedule events in DevOps Deploy, AppCompRequests, AppResources, and SnapCompVersions to synchronize Application Component Requests, Application Resources, and Snapshot Component Versions.
 * **Bug fix**: Resolved an issue where manual deployments triggered from DevOps Velocity failed with a 401 Unauthorized error, while scheduled releases continued to run successfully. This occurred due to an authentication failure between Velocity and DevOps Deploy following a version upgrade. The integration credentials between DevOps Velocity and DevOps Deploy have been revalidated, and authentication handling has been improved to ensure successful manual deployments.
 * **Bug fix**: Addressed an issue where applications created from older templates in DevOps Deploy were not synchronizing correctly with DevOps Velocity. This issue prevented deployments from being initiated through Velocity, requiring manual execution in DevOps Deploy. The synchronization logic has been enhanced so that processes and environments for newly created applications (based on existing templates) are now accurately captured during deltaSync.
-* **Support update**: From this version onward, DevOps Deploy plugin needs Velocity version 5.1.11 or later.
+* **Support update**: From this version onward, DevOps Deploy plug-in needs Velocity version 5.1.11 or later.
 
 ### Version 4.1.1
 

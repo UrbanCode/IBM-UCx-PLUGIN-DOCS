@@ -7,9 +7,9 @@ The Jira plug-in provides for integration with a Jira server. This plug-in impor
 
 ## Compatibility
 
-The table below lists the compatible versions of the Jira plugin and IBM DevOps Velocity:
+The table below lists the compatible versions of the Jira plug-in and IBM DevOps Velocity:
 
-| IBM DevOps Velocity Version | Jira plugin version |
+| IBM DevOps Velocity Version | Jira plug-in version |
 | --- | --- |
 | 5.1.10 or later | 2.4.5 |
 | 3.1.0 to 5.1.9 | 2.4.3, 2.4.2, 2.3.24, 2.3.20, 2.3.17, 2.3.14, 2.3.12, 2.3.10, 2.3.9 |
