@@ -24,9 +24,9 @@ DevOps Velocity plug-in images are located in DockerHub. To view available versi
 * **Snapshot Visibility Enhancement Between DevOps Deploy and DevOps Velocity**:
 Earlier, once a snapshot was created and synced from DevOps Deploy to DevOps Velocity, it continued to appear in the DevOps Velocity UI even after being deleted in DevOps Deploy. This sometimes led to accidental deployments of deleted or outdated snapshots. With this enhancement, snapshots in DevOps Velocity now stay automatically aligned with DevOps Deploy. If a snapshot is deleted in DevOps Deploy, it will be hidden from the DevOps Velocity UI in the next plugin sync.
 
-**Note**: Snapshots synced before this enhancement may still appear in the DevOps Velocity UI. If such older snapshots are modified in DevOps Deploy, their status will be updated automatically in the next plug-in sync. To update all old snapshots at once, you can perform a full resync.
+  **Note**: Snapshots synced before this enhancement may still appear in the DevOps Velocity UI. If such older snapshots are modified in DevOps Deploy, their status will be updated automatically in the next plug-in sync. To update all old snapshots at once, you can perform a full resync.
 
-**Caution**: A full resync can be time-consuming and may take from a few minutes to several hours, depending on the amount of data being synced between DevOps Deploy and DevOps Velocity. It is recommended to schedule this activity during a maintenance window or low-usage period.
+  **Caution**: A full resync can be time-consuming and may take from a few minutes to several hours, depending on the amount of data being synced between DevOps Deploy and DevOps Velocity. It is recommended to schedule this activity during a maintenance window or low-usage period.
 
 ### Version 4.1.3
 
