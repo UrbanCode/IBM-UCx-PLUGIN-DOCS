@@ -5,13 +5,24 @@ To use the IBM DevOps Deploy plugin, the plugin must be loaded and an instance c
 
 ## Integration type
 
-The IBM DevOps Deploy plugin supports scheduled events integration which are listed in the following table.
+The IBM DevOps Deploy plug-in supports scheduled events integration which are listed in the following table.
+
+Schedule events up to DevOps Deploy plug-in version 4.1.1
 
 | Name | Description |
 | --- | --- |
 | syncDeployEvent | Timed event that synchronizes with IBM DevOps Deploy |
 | Sync Deploy Teams Event | This is a timed event that syncs IBM DevOps Deploy teams. |
 | Sync in Progress APRs | This is a timed event that syncs in Progress APRs from IBM DevOps Deploy. |
+
+Schedule events from DevOps Deploy plug-in version 4.1.3
+
+| Name | Description |
+| --- | --- |
+| Sync applications and resources | This event syncs applications, components, environments, processes, agents and status data. |
+| Sync snapshots and component versions | This event syncs inventories and snapshots data. |
+| Sync application and component process requests | This event syncs application and component process requests. |
+| Sync in Progress APRs | This is a timed event that syncs in Progress APRs from UrbanCode Deploy. |
 
 ## Integration
 
