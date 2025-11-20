@@ -21,6 +21,10 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ## History
 
+### Version 19
+
+* Jettison and Beanutils dependency updated
+
 ### Version 18
 
 * Log4j dependency updated
