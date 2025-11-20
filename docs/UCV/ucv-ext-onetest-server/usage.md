@@ -1,9 +1,7 @@
 
 # DevOps Test Hub - Usage
 
-## usage
-
-To use the DevOps Test Hub plug-in, the plug-in must be loaded and an instance created before you can configure the plug-in integration. Configuration properties are defined using the product user interface or a JSON file. After the integration is complete, to invoke the plug-in send an HTTP Post request to the plug-in endpoint.
+To use the DevOps Test Hub plug-in, the plug-in must be loaded and an instance created before you can configure the plug-in integration. Configuration properties are defined using the product user interface or a JSON file. After the integration is complete, to invoke plug-in configure webhook in DevOps Test Hub.
 
 ## Integration type
 
@@ -13,96 +11,6 @@ The DevOps Test Hub plug-in supports endpoint integration which are listed in th
 | Name | Path | Method |
 | --- | --- | --- |
 | OneTestEndpoint | onetest/callback | Post |
-
-## Invoking the plugin
-
-## Set Up
-
-You will need to "install" the plug-in in DevOps Velocity. You can do this in one of two ways.
-* You can use the following template for creating your integration
-
-    ```
-    "integrations": [
-  {
-    "type": "ucv-ext-onetest-server",
-    "tenant_id": "<tenant-id>",
-    "name": "<integration-name>",
-    "logginglevel": "INFO",
-    "properties":{
-      "_userAccessKey": "<ucv-user-access-key>",
-      "oneTestUrl" : "<DevOps Test-Hub-url>",
-      "oneTestRefreshToken":"<DevOps Test-Hub-refresh-token>",
-      "buildRegExp": "([A-Z]+-[0-9]+)",
-      "workflowId" : "<value_stream_id>"
-        }
-    }
-    ]
-
-    ```
-* In the above example, provide all of your own values for the values inside `< >` brackets.
-* The buildRegExp field can be used to map a build to a metric. The tags on the DevOps Test Hub test will be evaluated against the regular expression.
-* For instance, if your buildRegExp is defined as `([A-Z]+-[0-9]+)` and you tag your test with "BUILD-123" this will map the build with ID BUILD-123 in the Velocity server to the newly created metric.
-* For help forming a regular expression based on your build ID, you can test out patterns at the following web page: https://regexr.com
-
-* Another option for creating is to hit the `https://<velocity-url>/integration` url with the integration definition as your payload:
-
-    ```
-
-    {
-    "type": "ucv-ext-onetest-server",
-    "tenant_id": "<tenant-id>",
-    "name": "<integration-name>",
-    "logginglevel": "INFO",
-    "properties":{
-        "oneTestUrl" : "<DevOps Test-Hub-url>",
-        "oneTestRefreshToken":"<DevOps Test-Hub-refresh-token>",
-        "buildRegExp": "([A-Z]+-[0-9]+)",
-        "workflowId" : "<value_stream_id>"
-    }
-    }
-
-    ```
-* Either option will allow you to create an DevOps Test Hub integration instance.
-
-## Running the Integration
-
-After going through the "Set Up" portion above, you can send an HTTP POST request to your new endpoint: `https://<velocity-url>/pluginEndpoint/<integrationId>/onetest/callback`
-
-* The payload for this POST must be in the following format
-
-```
-
-{
-  "project": {
-    "name":"<name of DevOps Test Hub project>",
-    "id": "<id of DevOps Test Hub project>"
-    (either project name or project id must be specified)
-  },
-  "test": {
-    "name":"<name of test>"
-  },
-  "application": {
-    "name":"<application name>"
-  },
-  "result": {
-    "id": "<test result id>",
-    "status": "<test result status>",
-    "verdict": "<test result verdict>",
-    "startDate": <test result start date>,
-    "endDate": <test result end date>,
-    "duration": <test result duration>,
-    "url": "<test result url>"
-  },
-  "commitId": "<sha of a commit>" (optional),
-  "build": {
-    "id": "<id of build in DevOps Velocity>",
-    "url": "<url of build in DevOps Velocity>"
-  } (optional, this will override buildRegExp if specified)
-}
-
-```
-
-* Following successful integration, test results are categorized into Functional Tests, Unit Tests, API Tests, and Performance Test metrics.
 
 ## Integration
 
@@ -139,7 +47,119 @@ To integrate the plug-in using a JSON, perform the following steps:
 4. Edit the integration information in the JSON file to add the plug-in configuration properties. Refer to JSON sample code in the Configuration Properties section for more details.
 5. Click **Save**.
 
-For **JSON sample** refer set up section.
+### Sample JSON
+
+```
+    "integrations": [
+  {
+    "type": "ucv-ext-onetest-server",
+    "tenant_id": "<tenant-id>",
+    "name": "<integration-name>",
+    "logginglevel": "ALL",
+    "properties":{
+      "_userAccessKey": "<ucv-user-access-key>",
+      "oneTestUrl" : "<DevOps Test-Hub-url>",
+      "oneTestRefreshToken":"<DevOps Test-Hub-refresh-token>",
+      "buildRegExp": "([A-Z]+-[0-9]+)",
+      "workflowId" : "<value_stream_id>"
+        }
+    }
+    ]
+
+```
+
+* In the above example, provide all of your own values for the values inside `< >` brackets.
+* The buildRegExp field can be used to map a build to a metric. The tags on the DevOps Test Hub test will be evaluated against the regular expression.
+* For example, if your buildRegExp is defined as `([A-Z]+-[0-9]+)` and you tag your test with "BUILD-123" this will map the build with ID BUILD-123 in the Velocity server to the newly created metric.
+* For help forming a regular expression based on your build ID, you can test out patterns at the following web page: https://regexr.com
+
+
+## Invoking the plugin by configuring webhook in DevOps Test Hub
+
+**Note**:
+* Webhook is automatically configured in DevOps Loop Test Hub as part of loop initialization in DevOps Loop.
+* Webhook has to be configured manually in DevOps Test Hub for DevOps Velocity.
+* callback URL for measure : `https://<measure-url>/velocity/pluginEndpoint/<integrationId>/onetest/callback`
+* callback URL for velocity : `https://<velocity-url>/pluginEndpoint/<integrationId>/onetest/callback`
+
+To configure webhook perform the following steps:
+
+* Before executing test, make sure webhook has been configured.
+
+For DevOps Loop refer to https://help.hcl-software.com/devops/test/hub/11.0.6/docs/topics/c_webhook.html
+
+For DevOps Test Hub refer to https://help.hcl-software.com/devops/loop/1.0.3/docs/topics/config_webhook_velocity.html
+
+* After webhook is configured, execute a test by passing additional parameters.
+
+For DevOps Loop refer to https://help.hcl-software.com/devops/loop/1.0.3/docs/topics/add_props_metrics.html
+
+For DevOps Test Hub refer to https://help.hcl-software.com/devops/test/hub/11.0.6/docs/topics/add_params_result.html
+
+**Note**
+* While executing test if you do not pass buildId and buildUrl, the **if condition** will not be satisfied and plugin will not sync the test results.
+
+# Webhook template body
+
+For DevOps Test Hub server version 11.0.6.1 and DevOps Test Hub plugin version 1.0.32 or later
+
+```
+#if( $commit || $buildId || $buildUrl )
+{
+"project": {
+	"id": "$projectId",
+	"name": "$project",
+	"teamspace": "$teamSpace"
+},
+"application": {
+	"name": "$project"
+},
+"test": {
+	"id": "$assetId",
+	"name": "$assetName",
+	"branch": "$branch"
+},
+"result": {
+	"id": "$resultId",
+	"status": "$resultStatus",
+	"verdict": "$resultVerdict",
+	"startDate": "$executionStartDate",
+	"endDate": "$executionLastUpdate",
+	"duration": "$duration",
+	"url": "$eventLink"
+},
+"commit": "${commit|''}",
+"build": {
+	"id": "${buildId|''}",
+	"url": "${buildUrl|''}"
+}
+}
+#end
+
+```
+
+For other versions of DevOps Test Hub server and plugin
+
+```
+{
+  "project": {
+    "name":"<name of DevOps Test Hub project>",
+    "id": "<id of DevOps Test Hub project>"
+    (either project name or project id must be specified)
+  },
+  "test": {
+    "name":"<name of test>"
+  },
+  "commitId": "<sha of a commit>" (optional),
+  "build": {
+    "id": "<id of build in DevOps Velocity>",
+    "url": "<url of build in DevOps Velocity>"
+  } (optional, this will override buildRegExp if specified)
+}
+
+```
+
+* After successful integration, test results are categorized into Functional Tests, Unit Tests, API Tests, and Performance Test metrics.
 
 ## Configuration Properties
 

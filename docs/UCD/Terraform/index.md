@@ -26,6 +26,10 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 ## History
 
+### Version 3
+
+* Allow Users to run plan and Destroy command for GCP
+
 ### Version 2.1
 
 * Allow Users to run plan and Destroy command for AWS resources

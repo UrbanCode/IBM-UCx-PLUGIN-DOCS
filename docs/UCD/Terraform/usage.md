@@ -7,7 +7,7 @@ You can use the Terraform plug-in to execute any terraform script related to the
 
 User should have Terraform and AWS CLI installed in their DevOps Deploy Agent's machine.
 
-## **Example:**
+## **Example 01 : AWS **
 
 You can use this plug-in to create an EC2 instance.
 
@@ -60,3 +60,54 @@ Users can use the values of these properties to run any other step in their proc
 
 ![Image 4](media/opp.png)
 
+
+## **Example 02 : GCP**
+
+You can use this plug-in to create vm inside GCP .
+
+You can have a terraform script as below that has all the specifications to create a vm inside GCP.
+
+```
+provider "google" {
+  project     = var.project_id
+  region      = var.region
+  zone        = var.zone
+}
+
+resource "google_compute_instance" "example_vm" {
+  name         = "example-vm-2"
+  machine_type = "e2-medium"
+  zone         = var.zone
+
+  boot_disk {
+    initialize_params {
+      image = "debian-cloud/debian-11"
+    }
+  }
+
+  network_interface {
+    subnetwork   = "projects/${var.project_id}/regions/${var.region}/subnetworks/${var.subnetwork_name}"
+    access_config {}
+  }
+}
+
+# ----------------------------
+# Variables
+# ----------------------------
+
+variable "project_id" {
+  default = "<your-project-id>"
+}
+
+variable "region" {
+  default = "<your-region>"
+}
+
+variable "zone" {
+  default = "<your-zone>"
+}
+
+variable "subnetwork_name" {
+  default = "hclsw-amber-data-subnet-us-central1"
+}
+```
