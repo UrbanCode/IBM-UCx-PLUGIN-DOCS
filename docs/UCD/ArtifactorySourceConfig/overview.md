@@ -24,6 +24,10 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ## History
 
+### Version 34 *November 20, 2025*
+
+* Updated Jettison Dependency.
+
 ### Version 33 *April 29, 2024*
 
 * Add support to configure a custom keystore to present a certificate to the artifactory server.

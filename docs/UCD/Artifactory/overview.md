@@ -29,6 +29,10 @@ No special steps are required for installation. See [Installing plug-ins in IBM 
 
 ## History
 
+### Version 27
+
+* Updated Jettison Dependency.
+ 
 ### Version 26
 
 * Fixed known issue DT436088 Artifactory Plugin fails with groovy.lang.MissingPropertyException.
