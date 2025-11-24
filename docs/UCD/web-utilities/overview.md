@@ -21,6 +21,10 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ## History
 
+### Version 20
+
+* Beanutils dependency updated to 1.11.0
+
 ### Version 19
 
 * Jettison and Beanutils dependency updated

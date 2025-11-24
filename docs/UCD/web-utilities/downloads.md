@@ -2,7 +2,8 @@
 # Web Utilities - Downloads
 
 To download the plug-in, click the following version-specific links.
-- [ucd-web-utilities-19.1183826.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/web-utilities/devops-deploy-web-utilities-19.1183826.zip)
+- [devops-deploy-web-utilities-20.1183890.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/web-utilities/devops-deploy-web-utilities-20.1183890.zip)
+- [devops-deploy-web-utilities-19.1183826.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/web-utilities/devops-deploy-web-utilities-19.1183826.zip)
 - [ucd-web-utilities-18.1151823.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/web-utilities/ucd-web-utilities-18.1151823.zip)
 - [web-utilities-17.1148552.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/web-utilities/ucd-web-utilities-17.1148552.zip)
 - [web-utilities-17.1138530.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/web-utilities/ucd-web-utilities-17.1138530.zip)
