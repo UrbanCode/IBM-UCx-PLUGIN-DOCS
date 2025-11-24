@@ -44,6 +44,10 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ## History
 
+### Version 99
+
+* Added support for Linked versions
+
 ### Version 98
 
 * Support Rollback for non-risky artifacts starting server and agent version 812. See [Non Risky Rollback](https://community.ibm.com/community/user/blogs/bharath-kumar3/2025/06/25/introducing-smarter-zos-rollbacks-in-devops-deploy). 
