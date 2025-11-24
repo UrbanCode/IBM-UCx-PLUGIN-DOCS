@@ -29,6 +29,14 @@ This plug-in is installed when installing IBM DevOps Deploy. When new plug-in ve
 
 ## History
 
+### Version 12
+
+* Added support for Linked versions
+
+### Version 11
+
+* Minor improvements and bug fixes in new YAML step
+
 ### Version 10
 
 * New step to pass filters in YAML format and generate artifact information

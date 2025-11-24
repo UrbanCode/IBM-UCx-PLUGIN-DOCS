@@ -22,6 +22,10 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ## History
 
+### Version 14
+
+* Added support for Linked versions
+
 ### Version 13
 
 * Fixed download issue occurring on server versions 7.2.X
