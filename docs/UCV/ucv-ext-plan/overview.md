@@ -7,7 +7,14 @@ The plug-in imports work items as issues from DevOps Plan server into IBM DevOps
 
 ## Compatibility
 
-Must be running IBM DevOps Velocity version 5.1.9 and later and DevOps plan server 1.0.14 or later.
+The table below lists the compatible versions of the DevOps Plan plugin and IBM DevOps Velocity:
+
+| IBM DevOps Velocity Version | DevOps Plan plugin version |
+| --- | --- |
+| 5.1.9 | 1.2.3, 1.2.2, 1.2.1 |
+| 3.0.0 | 1.1.58, 1.1.57, 1.1.55, 1.1.52 |
+
+DevOps plan server 1.0.14 or later.
 
 ## Prerequisites
 
@@ -26,6 +33,14 @@ You must have completed the following tasks before you integrate the DevOps Plan
 DevOps Velocity plug-in images are located in DockerHub. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-compass/tags).
 
 ### History
+
+### Version 1.2.3
+
+* **Bug fix**: Release tab on filter bar and Releases option in Type selection does not appears on the VSM page filters.
+
+* **Note**: After upgrading DevOps Plan version from **1.2.2** to **1.2.3**, you need to perform a full resync to make the **releases** filter visible on the VSM page.
+
+![images/compass-3.png](images/compass-3.png)
 
 ### Version 1.2.2
 

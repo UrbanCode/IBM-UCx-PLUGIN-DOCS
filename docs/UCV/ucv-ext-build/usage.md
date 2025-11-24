@@ -79,7 +79,7 @@ Some properties might not be displayed in the user interface, to see all propert
 | Access Token | Secure | Token to authenticate against DevOps Build. If supplied, username and password can be ignored. | No | buildToken |
 | Project Name | String | Comma-separated list of project name(s) to import. Example: project1,project2 | yes | projects |
 | Use Build Stamp as version | Boolean | If checked, the build stamp will be used as the version. If unchecked, the build ID will be used as the version. (default value = true) | No | version |
-| Process Name | String | Comma-seperated primary process names, matching the order of projects. Leave blank if not applicable. Example - If project1, project2 is entered in Project Name, then process1, process2 → process1 of project1 and process2 of project2 will be considered as build processes | No | process |
+| Process Name | String | Comma-separated primary process names, matching the order of projects. Leave blank if not applicable. Example - If project1, project2 is entered in Project Name, then process1, process2 → process1 of project1 and process2 of project2 will be considered as build processes | No | process |
 
 * **Usage example for Process Name field**
 

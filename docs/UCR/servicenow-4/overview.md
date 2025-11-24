@@ -29,6 +29,10 @@ products](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickso
 ### History
 
 
+####
+Version 8
+
+* Add extra properties support
 
 ####
 Version 7
