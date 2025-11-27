@@ -12,6 +12,7 @@ The GitHub plug-in supports scheduled events integration which are listed in the
 | syncGithubIssuesEvent | Queries the GitHub repository for issues. |
 | syncGithubCommitsEvent | Queries the GitHub repository for commits. |
 | syncGithubPullRequestsEvent | Queries the GitHub repository for pull requests. |
+| syncGitHubCopilotMetrics | Queries the GitHub Copilot GenAI Productivity Metrics. |
 | Sync GitHub Actions | Query for CI processes using GitHub Actions in a repository |
 | Sync GitHub Yaml File | Query GitHub for yaml file in repository |
 
@@ -91,9 +92,16 @@ The following tables describe the properties used to configure the integration. 
 | branch | String | GitHub repositories branch, The branch to pull commits from. | No | branch |
 | Personal access token | String | The Personal Access Token used to authenticate with Github repositories. | No | token |
 | Additional branches | Array | Additional branches to collect commits from besides the main one, leave blank if not needed. | No | otherBranches |
+| Organization | String | The organization name. The name is not case sensitive. | No | organization |
+| Team Slug | String | The slug of the team name. | No | teamSlug |
+| Personal Access Token (Copilot Metrics) | Secure | The Personal Access Token used to authenticate with GitHub Copilot. | No | copilotToken|
 | Proxy Server | String | The URL of the proxy server including the port number. | No | proxyServer |
 | Proxy User Name | String | The user name used to authenticate with the proxy server. | No | proxyUsername |
 | Proxy Password | String | The password used to authenticate with the proxy server. | No | proxyPassword |
+
+## GitHub Copilot Metrics
+
+[About GitHub Copilot Metrics](./gitHubCopilot.md)
 
 ### JSON code example
 
