@@ -285,6 +285,7 @@ export const ucv: DefaultTheme.Sidebar = {
                 { text: 'About', link: `/${VELOCITY_BASE_DIR}/ucv-ext-github/` },
                 { text: 'Overview', link: `/${VELOCITY_BASE_DIR}/ucv-ext-github/overview` },
                 { text: 'Usage', link: `/${VELOCITY_BASE_DIR}/ucv-ext-github/usage` },
+                { text: 'GenAI Productivity Metrics', link: `/${VELOCITY_BASE_DIR}/ucv-ext-github/gitHubCopilot` },
                 { text: 'Downloads', link: `/${VELOCITY_BASE_DIR}/ucv-ext-github/downloads` }
             ]
         }
@@ -354,6 +355,7 @@ export const ucv: DefaultTheme.Sidebar = {
             items: [
                 { text: 'About', link: `/${VELOCITY_BASE_DIR}/ucv-ext-jira/` },
                 { text: 'Overview', link: `/${VELOCITY_BASE_DIR}/ucv-ext-jira/overview` },
+                { text: 'Custom Field Mapping', link: `/${VELOCITY_BASE_DIR}/ucv-ext-jira/jiraCustom` },
                 { text: 'Usage', link: `/${VELOCITY_BASE_DIR}/ucv-ext-jira/usage` },
                 { text: 'Downloads', link: `/${VELOCITY_BASE_DIR}/ucv-ext-jira/downloads` }
             ]
