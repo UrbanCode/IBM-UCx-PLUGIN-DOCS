@@ -3,6 +3,8 @@
 
 To download the plugins, click the following version specific links.
 
+- [ucv-ext-github:1.5.4.tar.7z.002](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-github/ucv-ext-github%3A1.5.4.tar.7z.002)
+- [ucv-ext-github:1.5.4.tar.7z.001](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-github/ucv-ext-github%3A1.5.4.tar.7z.001)
 - [ucv-ext-github:1.5.1.tar.7z.002](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-github/ucv-ext-github%3A1.5.1.tar.7z.002)
 - [ucv-ext-github:1.5.1.tar.7z.001](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-github/ucv-ext-github%3A1.5.1.tar.7z.001)
 - [ucv-ext-github:1.4.18.tar.7z.002](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-github/ucv-ext-github%3A1.4.18.tar.7z.002)

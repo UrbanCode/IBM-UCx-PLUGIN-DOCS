@@ -19,6 +19,10 @@ IBM DevOps Velocity plug-in images are located in DockerHub. To view available v
 
 ## History
 
+### Version 1.5.4
+
+*  **Feature**: Implemented Copilot metric capturing, giving customers deeper visibility into how their teams use AI-assisted coding. Customers can now view engagement trends, daily activity, and usage patterns.
+
 ### Version 1.5.1
 
 * **Added description for Pull Request**: Updated GitHub plugin to sync over PR description. In GitHubMapper function under mapGitPullRequests added description field (description: pr.bodyText).
