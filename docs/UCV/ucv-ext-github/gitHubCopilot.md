@@ -102,6 +102,26 @@ These fields come directly from the API response:
 
 Velocity collects and stores this data for reporting and trend analysis.
 
+# Pre-requisites 
+
+To use the GitHub Copilot Metrics integration, the following requirements must be met: 
+
+## GitHub Organization Administrator Access 
+
+You must have organization-level admin access to enable and configure Copilot API usage. 
+
+## Copilot API Access Approval 
+
+Your organization must request and obtain Copilot API access from GitHub. Without this approval, Copilot metrics cannot be collected. 
+
+## Required Tokens 
+
+Personal Access Tokens must include Copilot Admin permissions. Tokens without these scopes will fail. 
+
+## IT / Security Team Approval 
+
+Copilot Admin API permissions typically require approval from your IT or Security teams. 
+
 # Authentication Requirements
 
 Enable **Collect Copilot Metrics** to collect Copilot metrics
@@ -113,8 +133,15 @@ Once Enabled, you need to fill the following details
 * Personal Access Token ( Copilot)
 
 ![images/addIntegration.png](images/addIntegration.png)
-
-To See the graph go to **Insights** create  **Dashboard** then **Add Charts** 
-Select GenAI and select the charts you want to add
-
 ![images/AddCharts.png](images/AddCharts.png)
+
+The following Copilot metrics can be added and displayed within the Velocity insights section. 
+
+* GenAI Line Acceptance
+* GenAI User Adoption
+* GenAI Chat Events
+* GenAI Code Acceptance
+* GenAI PR Events 
+
+**NOTE:**
+This feature is provided as a **Tech Preview**. Organizations intending to enable it must obtain GitHub Copilot API access approvals and generate tokens with the required Copilot permissions. Without these approvals and the appropriate tokens, Copilot metrics cannot be collected. 
