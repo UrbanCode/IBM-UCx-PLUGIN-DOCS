@@ -120,6 +120,9 @@ The following example can be used as a template to define the integration within
             "repo2",
             "repo3"
         ],
+        "organization":"organization-name",
+        "teamSlug": "team-name",
+        "copilotToken": "copilot-token",
         "apiUrl":"github-api-url",
         "token":"generated-token",
         "ucvAccessKey":"generated-access-key",
