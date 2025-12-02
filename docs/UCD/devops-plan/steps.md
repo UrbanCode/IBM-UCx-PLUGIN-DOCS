@@ -1,0 +1,121 @@
+
+# Devops-Plan for  DevOps Deploy - Process Steps
+
+
+[Create Plan Record](#create-plan-record)  
+[Update Sprint](#update-sprint)  
+[Update WorkItem](#update-workitem)  
+[Update Release](#update-release)  
+[Update Any Record](#update-any-record)  
+[Delete Record](#delete-record)
+
+## Create Plan Record
+
+Use this step to create a new Plan Record in DevOps Plan. This may represent a Release,Project,Work Item,Sprint.
+
+
+| Name                     | Type   | Description                                                                                                                                                  | Required |
+|--------------------------|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
+| Plan Base Url            | String | The Base Url for Devops Plan Server (Example: https://<plan-server-url>/plan)                                                                                | Yes      |
+| API Token                | String | API Token for the Plan server..                                                                                                                              | Yes      |
+| Teamspace Id             | String | Go to My Applications → Tenant Management → select your teamspace → Details tab → Enable Show connection properties -> Copy the ID from the Data Base field. | Yes      |
+| Application Name         | String | Enter the name of the Application..                                                                                                                          | Yes      |
+| Record Type Name         | String | Enter the type of record to create.                                                                                                                          | Yes      |
+| Title / Name / Label     | String | The unique name, title, or label for the new record (e.g., WorkItem Title, Release Name, TestPlan Label).                                                    | Yes      |
+| Start Date               | String | Enter the Start Date (MANDATORY for Sprint/Release) Format: YYYY-MM-DD.                                                                                      | No       |
+| End Date                 | String | Enter the End Date(MANDATORY for Sprint/Release) Format: YYYY-MM-DD.                                                                                         | No       |
+| Additional Fields (JSON) | String | Supply additional fields as a JSON object.                                                                                                                   | No       |
+
+
+
+## Update Sprint
+
+Use this step to update a Sprint record in the Plan application.
+
+
+| Name                     | Type   | Description                                                                                                                                                  | Required |
+|--------------------------|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
+| Plan Base Url            | String | The Base Url for Devops Plan Server (Example: https://<plan-server-url>/plan)                                                                                | Yes      |
+| API Token                | String | API Token for the Plan server..                                                                                                                              | Yes      |
+| Teamspace Id             | String | Go to My Applications → Tenant Management → select your teamspace → Details tab → Enable Show connection properties -> Copy the ID from the Data Base field. | Yes      |
+| Application Name         | String | Enter the name of the Application.                                                                                                                           | Yes      |
+| Current Sprint Name      | String | Enter the name of Sprint to update.                                                                                                                          | Yes      |
+| Name                     | String | Enter the new Sprint Name.Leave empty to keep current name..                                                                                                 | No       |
+| Description              | String | Enter the new Description.Leave empty to keep current Description.                                                                                           | No       |
+| Start Date               | String | Enter the new Start Date (MANDATORY for Sprint/Release) Format: YYYY-MM-DD.                                                                                  | No       |
+| End Date                 | String | Enter the new End Date (MANDATORY for Sprint/Release) Format: YYYY-MM-DD.                                                                                    | No       |
+| Additional Fields (JSON) | String | Supply advanced fields or custom fields not listed above.                                                                                                    | No       |
+
+
+
+## Update WorkItem
+
+| Name                     | Type   | Description                                                                                                                                          | Required |
+|--------------------------|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
+| Plan Base Url            | String | Enter the Base Url for Devops Plan Server (Example: https://<plan-server-url>)                                                                       | Yes      |
+| API Token                | String | API Token for the Plan server.                                                                                                                       | Yes      |
+| Teamspace Id             | String | To find the Teamspace ID: Go to My Applications → Tenant Management → select your teamspace → Details → Enable Show connection properties → copy ID. | Yes      |
+| Application Name         | String | Enter the name of the Application.                                                                                                                   | Yes      |
+| Work Item Name           | String | Enter the WorkItem Name/ID to update.                                                                                                                | Yes      |
+| Title                    | String | The summary/Headline of the work Item.                                                                                                               | No       |
+| Type                     | String | Enter the Work Item Type.e.g. Defect, Task, Story, Epic                                                                                              | No       |
+| State                    | String | Enter the State of the Work Item State e.g. Submitted, Active, Resolved, Closed                                                                      | No       |
+| Owner                    | String | The user ID of the owner.                                                                                                                            | No       |
+| Severity                 | String | Enter the Severity of the Work Item.e.g. Critical, High, Medium, Low                                                                                 | No       |
+| Priority                 | String | Enter the Priority value.                                                                                                                            | No       |
+| Resolution               | String | Enter the Resolution e.g. Fixed, Duplicate, Invalid                                                                                                  | No       |
+| Tags                     | String | Enter the Comma-separated tags.                                                                                                                      | No       |
+| Project                  | String | Enter the Project Name.                                                                                                                              | No       |
+| Component                | String | Enter the Component name.                                                                                                                            | No       |
+| Story Points             | String | Enter the Story points value.                                                                                                                        | No       |
+| Planned Release          | String | The name of the target Release.                                                                                                                      | No       |
+| Sprint                   | String | The Name/ID of the assigned Sprint.                                                                                                                  | No       |
+| Parent ID                | String | The ID of the parent work item.                                                                                                                      | No       |
+| Description              | String | Enter the Description .                                                                                                                              | No       |
+| Additional Fields (JSON) | String | Supply advanced fields or custom fields not listed above.                                                                                            | No       |
+
+## Update Release
+
+| Name                     | Type   | Description                                                                                                                                          | Required |
+|--------------------------|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
+| Plan Base Url            | String | Enter the Base Url for Devops Plan Server (Example: https://<plan-server-url>)                                                                       | Yes      |
+| API Token                | String | API Token for the Plan server.                                                                                                                       | Yes      |
+| Teamspace Id             | String | To find the Teamspace ID: Go to My Applications → Tenant Management → select your teamspace → Details → Enable Show connection properties → copy ID. | Yes      |
+| Application Name         | String | Enter the name of the Application.                                                                                                                   | Yes      |
+| Current Release Name     | String | Enter the name of Release to update.                                                                                                                 | Yes      |
+| New Release Name         | String | Leave empty to keep the current name.                                                                                                                | No       |
+| Start Date               | String | Enter the new Start Date Format: YYYY-MM-DD HH:MM:SS                                                                                                 | No       |
+| End Date                 | String | Enter the new End Date Format: YYYY-MM-DD HH:MM:SS                                                                                                   | No       |
+| Delivered                | String | Set to 'Yes' or 'No'.                                                                                                                                | No       |
+| Frozen                   | String | Set to 'Yes' or 'No'.                                                                                                                                | No       |
+| Description              | String | Enter the Description.                                                                                                                               | No       |
+| Additional Fields (JSON) | String | Supply advanced fields or custom fields not listed above.                                                                                            | No       |
+
+
+## Update Any Record
+
+| Name                     | Type   | Description                                                                                                                                          | Required |
+|--------------------------|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
+| Record Type              | String | Enter the Record Type.                                                                                                                               | Yes      |
+| Plan Base Url            | String | Enter the Base Url for Devops Plan Server (Example: https://<plan-server-url>)                                                                       | Yes      |
+| API Token                | String | API Token for the Plan server.                                                                                                                       | Yes      |
+| Teamspace Id             | String | To find the Teamspace ID: Go to My Applications → Tenant Management → select your teamspace → Details → Enable Show connection properties → copy ID. | Yes      |
+| Application Name         | String | Enter the name of the Application.                                                                                                                   | Yes      |
+| Current Record Name      | String | Enter the name of Record to update.                                                                                                                  | Yes      |
+| New Record Name          | String | Leave empty to keep current name.                                                                                                                    | No       |
+| Description              | String | Leave empty to keep current description.                                                                                                             | No       |
+| Start Date               | String | Enter the new Start Date Format: YYYY-MM-DD (e.g. 2025-10-01)                                                                                        | No       |
+| End Date                 | String | Enter the new End Date Format Format: YYYY-MM-DD (e.g. 2025-10-31)                                                                                   | No       |
+| Additional Fields (JSON) | String | Supply advanced fields or custom fields not listed above.                                                                                            | No       |
+
+## Delete Record
+
+| Name             | Type   | Description                                                                                                                                          | Required |
+|------------------|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
+| Plan Base Url    | String | Enter the Base Url for Devops Plan Server (Example: https://<plan-server-url>)                                                                       | Yes      |
+| API Token        | String | API Token for the Plan server.                                                                                                                       | Yes      |
+| Teamspace Id     | String | To find the Teamspace ID: Go to My Applications → Tenant Management → select your teamspace → Details → Enable Show connection properties → copy ID. | Yes      |
+| Application Name | String | Enter the name of the Application.                                                                                                                   | Yes      |
+| Record Type      | String | The Entity Definition Name (e.g., WorkItem, Sprint, Release).                                                                                        | Yes      |
+| Record Name      | String | The Name of the record you want to delete.                                                                                                           | Yes      |
+
