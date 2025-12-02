@@ -1,4 +1,4 @@
-# DevOps Plan Plugin - Usage
+# DevOps Plan - Usage
 
 The DevOps Plan Plugin allows you to automate the creation and management of plan items (such as work items, sprints, and releases) in DevOps Plan directly from Devops Deploy process steps.
 

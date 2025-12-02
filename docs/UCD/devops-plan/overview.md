@@ -5,20 +5,13 @@ The DevOps Plan plug-in includes steps to automate interactions with DevOps Plan
 This plug-in includes the following steps:
 
 
-* [Create Plan Record](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/DeployTools/steps.html#check_total_application_process_execution_time)
-* [Update Sprint](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/DeployTools/steps.html#check_total_application_process_execution_time)
-* [Update WorkItem](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/DeployTools/steps.html#check_total_application_process_execution_time)
-* [Update Release](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/DeployTools/steps.html#check_total_application_process_execution_time)
-* [Update Any Record](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/DeployTools/steps.html#check_total_application_process_execution_time)
-* [Delete Record](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/DeployTools/steps.html#check_total_application_process_execution_time)
+* [Create Plan Record]()
+* [Update Sprint]()
+* [Update WorkItem]()
+* [Update Release]()
+* [Update Any Record]()
+* [Delete Record]()
 
-
-
-
-
-
-
-Delete Record
 
 # Compatibility
 

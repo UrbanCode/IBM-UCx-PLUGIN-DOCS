@@ -1,5 +1,5 @@
 
-# Devops-Plan for  DevOps Deploy - Process Steps
+# Devops-Plan - Process Steps
 
 
 [Create Plan Record](#create-plan-record)  
@@ -9,6 +9,7 @@
 [Update Any Record](#update-any-record)  
 [Delete Record](#delete-record)
 
+
 ## Create Plan Record
 
 Use this step to create a new Plan Record in DevOps Plan. This may represent a Release,Project,Work Item,Sprint.
@@ -16,7 +17,7 @@ Use this step to create a new Plan Record in DevOps Plan. This may represent a R
 
 | Name                     | Type   | Description                                                                                                                                                  | Required |
 |--------------------------|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
-| Plan Base Url            | String | The Base Url for Devops Plan Server (Example: https://<plan-server-url>/plan)                                                                                | Yes      |
+| Plan Base Url            | String | The Base Url for Devops Plan Server (Example: https://&lt;plan-server-url&gt;/plan)                                                                          | Yes      |
 | API Token                | String | API Token for the Plan server..                                                                                                                              | Yes      |
 | Teamspace Id             | String | Go to My Applications → Tenant Management → select your teamspace → Details tab → Enable Show connection properties -> Copy the ID from the Data Base field. | Yes      |
 | Application Name         | String | Enter the name of the Application..                                                                                                                          | Yes      |
@@ -27,15 +28,14 @@ Use this step to create a new Plan Record in DevOps Plan. This may represent a R
 | Additional Fields (JSON) | String | Supply additional fields as a JSON object.                                                                                                                   | No       |
 
 
-
 ## Update Sprint
 
-Use this step to update a Sprint record in the Plan application.
+Use this step to update a Sprint record in the DevOps Plan.
 
 
 | Name                     | Type   | Description                                                                                                                                                  | Required |
 |--------------------------|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
-| Plan Base Url            | String | The Base Url for Devops Plan Server (Example: https://<plan-server-url>/plan)                                                                                | Yes      |
+| Plan Base Url            | String | The Base Url for Devops Plan Server (Example: https://&lt;plan-server-url&gt;/plan)                                                                          | Yes      |
 | API Token                | String | API Token for the Plan server..                                                                                                                              | Yes      |
 | Teamspace Id             | String | Go to My Applications → Tenant Management → select your teamspace → Details tab → Enable Show connection properties -> Copy the ID from the Data Base field. | Yes      |
 | Application Name         | String | Enter the name of the Application.                                                                                                                           | Yes      |
@@ -47,12 +47,14 @@ Use this step to update a Sprint record in the Plan application.
 | Additional Fields (JSON) | String | Supply advanced fields or custom fields not listed above.                                                                                                    | No       |
 
 
-
 ## Update WorkItem
+
+Use this step to update a WorkItem record in the DevOps Plan.
+
 
 | Name                     | Type   | Description                                                                                                                                          | Required |
 |--------------------------|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
-| Plan Base Url            | String | Enter the Base Url for Devops Plan Server (Example: https://<plan-server-url>)                                                                       | Yes      |
+| Plan Base Url            | String | Enter the Base Url for Devops Plan Server (Example: https://&lt;plan-server-url&gt;/plan)                                                            | Yes      |
 | API Token                | String | API Token for the Plan server.                                                                                                                       | Yes      |
 | Teamspace Id             | String | To find the Teamspace ID: Go to My Applications → Tenant Management → select your teamspace → Details → Enable Show connection properties → copy ID. | Yes      |
 | Application Name         | String | Enter the name of the Application.                                                                                                                   | Yes      |
@@ -74,11 +76,15 @@ Use this step to update a Sprint record in the Plan application.
 | Description              | String | Enter the Description .                                                                                                                              | No       |
 | Additional Fields (JSON) | String | Supply advanced fields or custom fields not listed above.                                                                                            | No       |
 
+
 ## Update Release
+
+Use this step to update a Release record in the DevOps Plan.
+
 
 | Name                     | Type   | Description                                                                                                                                          | Required |
 |--------------------------|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
-| Plan Base Url            | String | Enter the Base Url for Devops Plan Server (Example: https://<plan-server-url>)                                                                       | Yes      |
+| Plan Base Url            | String | Enter the Base Url for Devops Plan Server (Example: https://&lt;plan-server-url&gt;/plan)                                                            | Yes      |
 | API Token                | String | API Token for the Plan server.                                                                                                                       | Yes      |
 | Teamspace Id             | String | To find the Teamspace ID: Go to My Applications → Tenant Management → select your teamspace → Details → Enable Show connection properties → copy ID. | Yes      |
 | Application Name         | String | Enter the name of the Application.                                                                                                                   | Yes      |
@@ -94,10 +100,13 @@ Use this step to update a Sprint record in the Plan application.
 
 ## Update Any Record
 
+Use this step to update any type of record in the DevOps Plan.
+
+
 | Name                     | Type   | Description                                                                                                                                          | Required |
 |--------------------------|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
 | Record Type              | String | Enter the Record Type.                                                                                                                               | Yes      |
-| Plan Base Url            | String | Enter the Base Url for Devops Plan Server (Example: https://<plan-server-url>)                                                                       | Yes      |
+| Plan Base Url            | String | Enter the Base Url for Devops Plan Server (Example: https://&lt;plan-server-url&gt;/plan)                                                            | Yes      |
 | API Token                | String | API Token for the Plan server.                                                                                                                       | Yes      |
 | Teamspace Id             | String | To find the Teamspace ID: Go to My Applications → Tenant Management → select your teamspace → Details → Enable Show connection properties → copy ID. | Yes      |
 | Application Name         | String | Enter the name of the Application.                                                                                                                   | Yes      |
@@ -108,11 +117,15 @@ Use this step to update a Sprint record in the Plan application.
 | End Date                 | String | Enter the new End Date Format Format: YYYY-MM-DD (e.g. 2025-10-31)                                                                                   | No       |
 | Additional Fields (JSON) | String | Supply advanced fields or custom fields not listed above.                                                                                            | No       |
 
+
 ## Delete Record
+
+
+Use this step to delete a record in the DevOps Plan.
 
 | Name             | Type   | Description                                                                                                                                          | Required |
 |------------------|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
-| Plan Base Url    | String | Enter the Base Url for Devops Plan Server (Example: https://<plan-server-url>)                                                                       | Yes      |
+| Plan Base Url    | String | Enter the Base Url for Devops Plan Server (Example: https://&lt;plan-server-url&gt;/plan)                                                            | Yes      |
 | API Token        | String | API Token for the Plan server.                                                                                                                       | Yes      |
 | Teamspace Id     | String | To find the Teamspace ID: Go to My Applications → Tenant Management → select your teamspace → Details → Enable Show connection properties → copy ID. | Yes      |
 | Application Name | String | Enter the name of the Application.                                                                                                                   | Yes      |
