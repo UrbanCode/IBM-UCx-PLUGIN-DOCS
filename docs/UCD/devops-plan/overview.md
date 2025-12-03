@@ -1,16 +1,17 @@
-# DevOps Plan for DevOps Deploy – Overview
+# DevOps Plan Plug-in Overview
 
 The DevOps Plan plug-in includes steps to automate interactions with DevOps Plan records as part of your deployment processes.This plug-in enables you to create, update, and manage various DevOps Plan entities such as Plan Items, Sprints, Work Items, Releases, and other custom record types.
 
 This plug-in includes the following steps:
 
 
-* [Create Plan Record]()
-* [Update Sprint]()
-* [Update WorkItem]()
-* [Update Release]()
-* [Update Any Record]()
-* [Delete Record]()
+* [Create Plan Record](#create-plan-record)
+* [Update Sprint](#update-sprint)
+* [Update Workitem](#update-workitem)
+* [Update Release](#update-release)
+* [Update Any Record](#update-any-record)
+* [Delete Record](#delete-record)
+
 
 
 # Compatibility

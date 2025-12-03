@@ -1,5 +1,5 @@
 
-# DevOps-Plan for  DevOps Deploy
+# DevOps-Plan
 
 DevOps Plan is a planning and tracking tool used to manage deployment-related work items such as plan items, sprints, releases, and generic records. It helps teams organize delivery tasks, update progress, and maintain alignment between development and deployment processes.
 
