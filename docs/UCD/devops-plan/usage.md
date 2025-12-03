@@ -27,7 +27,7 @@ Issue Tracking → DevOps Plan Plugin
 
 ### Example: Creating a Work Item
 1. Add the Create Plan Item step to your process.
-2. Fill in required fields: Plan Base Url, API Token, Teamspace Id, Application Name, Record Type Name (e.g., WorkItem), Title / Name / Label.
+2. Fill in required fields: Plan Base Url, API Token, Teamspace Id, Application Name, Record Type Name (e.g., WorkItem).
 3. Provide additional fields in JSON format to set mandatory Fields or custom attributes.
 
 ## Additional Fields (JSON)
