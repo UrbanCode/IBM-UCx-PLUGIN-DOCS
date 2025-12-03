@@ -40,3 +40,7 @@ urbancode-products/).
 * Support for parameterized
 jobs has been added.
 
+#### Version 3
+
+* Added support for Java 11 by including required JAXB dependencies.
+
