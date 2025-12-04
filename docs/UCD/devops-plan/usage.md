@@ -52,7 +52,7 @@ These fields must be provided to successfully create the record.
 ```json
 {
   "Title": "Title of the Record",  
-  "Project": "Name of the Project" ,
+  "Project": "Name of the Project",
   "WIType" : "Defect"
 }
 ```
