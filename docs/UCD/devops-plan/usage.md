@@ -61,7 +61,7 @@ These fields must be provided to successfully create the record.
 
 ```json
 {
-  "Name ": "Name or Title of the Record"
+  "Name": "Name or Title of the Record"
 }
 ```
 
@@ -69,7 +69,7 @@ These fields must be provided to successfully create the record.
 
 ```json
 {
-  "Name ": "Name or Title of the Record"
+  "Name": "Name or Title of the Record"
 }
 ```
 
