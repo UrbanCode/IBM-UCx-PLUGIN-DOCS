@@ -20,10 +20,7 @@ Issue Tracking → DevOps Plan Plugin
 | Teamspace Id               | Yes      | Teamspace ID from your DevOps Plan instance                                |
 | Application Name           | Yes      | Name of the application in DevOps Plan                                     |
 | Record Type Name           | Yes      | Type of record to create/update (WorkItem, Sprint, Release, Project, etc.) |
-| Title / Name / Label       | Yes      | Unique name, title, or label for the new record                            |
-| Start Date                 | No       | Required for Sprint/Release. Format: YYYY-MM-DD                            |
-| End Date                   | No       | Required for Sprint/Release. Format: YYYY-MM-DD                            |
-| Additional Fields (JSON)   | No       | Additional fields as a JSON object for custom attributes                   |
+| Additional Fields (JSON)   | No       | Additional fields as a JSON object for custom or Mandatory attributes      |
 
 ### Example: Creating a Work Item
 1. Add the Create Plan Item step to your process.

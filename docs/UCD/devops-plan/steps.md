@@ -23,9 +23,6 @@ Use this step to create a new Plan Record in DevOps Plan. This may represent a R
 | Teamspace Id               | String   | Go to My Applications → Tenant Management → select your teamspace → Details tab → Enable Show connection properties -> Copy the ID from the Data Base field. | Yes      |
 | Application Name           | String   | Enter the name of the Application..                                                                                                                          | Yes      |
 | Record Type Name           | String   | Enter the type of record to create.                                                                                                                          | Yes      |
-| Title / Name / Label       | String   | The unique name, title, or label for the new record (e.g., WorkItem Title, Release Name, TestPlan Label).                                                    | Yes      |
-| Start Date                 | String   | Enter the Start Date (MANDATORY for Sprint/Release) Format: YYYY-MM-DD.                                                                                      | No       |
-| End Date                   | String   | Enter the End Date(MANDATORY for Sprint/Release) Format: YYYY-MM-DD.                                                                                         | No       |
 | Additional Fields (JSON)   | String   | Supply additional fields or Mandatory Fields as a JSON object.                                                                                               | No       |
 
 
@@ -61,7 +58,7 @@ Use this step to update a WorkItem record in the DevOps Plan.
 | Trust all SSL certificates. | Checkbox | If checked,Trust all SSL certificates.                                                                                                               | Yes      |
 | Teamspace Id                | String   | To find the Teamspace ID: Go to My Applications → Tenant Management → select your teamspace → Details → Enable Show connection properties → copy ID. | Yes      |
 | Application Name            | String   | Enter the name of the Application.                                                                                                                   | Yes      |
-| Work Item Name              | String   | Enter the WorkItem Name/ID to update.                                                                                                                | Yes      |
+| Work Item Id                | String   | Enter the WorkItem ID to update. e.g. AppName00000006                                                                                                | Yes      |
 | Title                       | String   | The summary/Headline of the work Item.                                                                                                               | No       |
 | Type                        | String   | Enter the Work Item Type.e.g. Defect, Task, Story, Epic                                                                                              | No       |
 | State                       | String   | Enter the State of the Work Item State e.g. Submitted, Active, Resolved, Closed                                                                      | No       |
@@ -136,5 +133,5 @@ Use this step to delete a record in the DevOps Plan.
 | Teamspace Id                | String   | To find the Teamspace ID: Go to My Applications → Tenant Management → select your teamspace → Details → Enable Show connection properties → copy ID. | Yes      |
 | Application Name            | String   | Enter the name of the Application.                                                                                                                   | Yes      |
 | Record Type                 | String   | The Entity Definition Name (e.g., WorkItem, Sprint, Release).                                                                                        | Yes      |
-| Record Name                 | String   | The Name of the record you want to delete.                                                                                                           | Yes      |
+| Record Name/Record Id       | String   | The Name of the record you want to delete. For WorkItem use the WorkItem Id                                                                          | Yes      |
 
