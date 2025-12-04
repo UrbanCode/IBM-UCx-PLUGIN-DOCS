@@ -42,8 +42,8 @@ These fields must be provided to successfully create the record.
 ```json
 {
   "Name": "Name or Title of the Record",
-  "StartDate" : "YYYY-MM-DD.",
-  "EndDate" : "YYYY-MM-DD."
+  "StartDate" : "YYYY-MM-DD",
+  "EndDate" : "YYYY-MM-DD"
 }
 ```
 
