@@ -9,7 +9,8 @@ The table below lists the compatible versions of the IBM DevOps Deploy plug-in a
 
 | DevOps Velocity Version | IBM DevOps Deploy Plug-in Versions |
 | --- | --- |
-| 5.1.11 or later | 4.1.3, 4.1.4 |
+| 5.2.0 or later | 4.1.5, 4.1.6 |
+| 5.1.11 | 4.1.3, 4.1.4 |
 | 5.1.9 to 5.1.10| 4.1.1 |
 | 4.0.13 to 5.1.8 | 4.0.9, 4.0.5, 4.0.4 |
 
@@ -18,6 +19,15 @@ The table below lists the compatible versions of the IBM DevOps Deploy plug-in a
 DevOps Velocity plug-in images are located in DockerHub. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-ucd/tags).
 
 ## History
+
+### Version 4.1.6
+
+* **Bug Fix**: Resolved an issue in delta sync, where In-Progress APARs were not being tracked correctly
+
+### Version 4.1.5
+
+* **Bug fix**: Due to large status entries into the records, the tool was facing issues in retrieval of the record and thus tasks used to show In Progress even though its completed from CD tools. Now this fix will resolve the bug.
+* **Support update**: From this version onward, DevOps Deploy plug-in needs Velocity version 5.2.0 or later.
 
 ### Version 4.1.4
 
