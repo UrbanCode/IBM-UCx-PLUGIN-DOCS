@@ -10,7 +10,7 @@ The table below lists the compatible versions of the IBM DevOps Deploy plug-in a
 | DevOps Velocity Version | IBM DevOps Deploy Plug-in Versions |
 | --- | --- |
 | 5.2.0 or later | 4.1.5, 4.1.6 |
-| 5.1.11 or later | 4.1.3, 4.1.4 |
+| 5.1.11 | 4.1.3, 4.1.4 |
 | 5.1.9 to 5.1.10| 4.1.1 |
 | 4.0.13 to 5.1.8 | 4.0.9, 4.0.5, 4.0.4 |
 
