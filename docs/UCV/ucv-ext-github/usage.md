@@ -120,6 +120,7 @@ The following example can be used as a template to define the integration within
             "repo2",
             "repo3"
         ],
+        "showHiddenforCopilot":"true",
         "organization":"organization-name",
         "teamSlug": "team-name",
         "copilotToken": "copilot-token",
