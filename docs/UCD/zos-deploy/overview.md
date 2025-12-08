@@ -44,6 +44,11 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ## History
 
+### Version 100
+
+* Added Z Inventory support for Linked versions 
+* Fixed issues during part deployments for linked versions
+
 ### Version 99
 
 * Added support for Linked versions
