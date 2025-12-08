@@ -308,6 +308,21 @@ export const ucd: DefaultTheme.Sidebar = {
             ]
         }
     ],
+     // This sidebar gets displayed when a user
+    // is on `${DEPLOY_BASE_DIR}/DevopsPlan` directory.
+    [`/${DEPLOY_BASE_DIR}/devops-plan/`]: [
+            {
+                text: 'devops-plan',
+                items: [
+                    { text: 'About', link: `/${DEPLOY_BASE_DIR}/devops-plan/` },
+                    { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/devops-plan/overview` },
+                    { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/devops-plan/usage` },
+                    { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/devops-plan/steps` },
+                    { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/devops-plan/downloads` }
+                ]
+            }
+        ],
+
 
     // This sidebar gets displayed when a user
     // is on `${DEPLOY_BASE_DIR}/DockerSourceConfig` directory.
