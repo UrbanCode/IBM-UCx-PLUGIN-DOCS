@@ -23,7 +23,7 @@ Use this step to create a new Plan Record in DevOps Plan. This may represent a R
 | Teamspace Id               | String   | Go to My Applications → Tenant Management → select your teamspace → Details tab → Enable Show connection properties -> Copy the ID from the Data Base field. | Yes      |
 | Application Name           | String   | Enter the name of the Application..                                                                                                                          | Yes      |
 | Record Type Name           | String   | Enter the type of record to create.                                                                                                                          | Yes      |
-| Additional Fields (JSON)   | String   | Supply additional fields or Mandatory Fields as a JSON object.                                                                                               | No       |
+| Additional Fields (JSON)   | String   | Supply additional fields or Mandatory Fields as a JSON object.Refer to usage tab                                                                             | Yes      |
 
 
 ## Update Sprint

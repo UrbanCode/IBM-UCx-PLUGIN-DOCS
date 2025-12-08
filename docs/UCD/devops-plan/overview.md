@@ -13,10 +13,9 @@ This plug-in includes the following steps:
 * [Delete Record](#delete-record)
 
 
-
 # Compatibility
 
-This plug-in requires IBM DevOps Deploy version 6.0 or later.
+This plug-in requires version 7.3.x or later of IBM DevOps Deploy.
 
 This plug-in runs on all operating systems that DevOps Deploy supports.
 
