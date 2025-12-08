@@ -12,15 +12,15 @@ Issue Tracking → DevOps Plan Plugin
 
 ## Configuration Properties:
 
-| Name                       | Required | Description                                                                |
-|----------------------------|----------|----------------------------------------------------------------------------|
-| Plan Base Url              | Yes      | Base URL for your DevOps Plan server (e.g., https://<plan-server-url>)     |
-| API Token                  | Yes      | API Token for authentication                                               |
-| Trust All SSL Certificates | Yes      | If checked,trust all SSL certificates.                                     |
-| Teamspace Id               | Yes      | Teamspace ID from your DevOps Plan instance                                |
-| Application Name           | Yes      | Name of the application in DevOps Plan                                     |
-| Record Type Name           | Yes      | Type of record to create/update (WorkItem, Sprint, Release, Project, etc.) |
-| Additional Fields (JSON)   | No       | Additional fields as a JSON object for custom or Mandatory attributes      |
+| Name                       | Required | Description                                                                   |
+|----------------------------|----------|-------------------------------------------------------------------------------|
+| Plan Base Url              | Yes      | Base URL for your DevOps Plan server ((e.g., https://&lt;plan-server-url&gt;) |                                                                              |
+| API Token                  | Yes      | API Token for authentication                                                  |
+| Trust All SSL Certificates | Yes      | If checked,trust all SSL certificates.                                        |
+| Teamspace Id               | Yes      | Teamspace ID from your DevOps Plan instance                                   |
+| Application Name           | Yes      | Name of the application in DevOps Plan                                        |
+| Record Type Name           | Yes      | Type of record to create/update (WorkItem, Sprint, Release, Project, etc.)    |
+| Additional Fields (JSON)   | No       | Additional fields as a JSON object for custom or Mandatory attributes         |
 
 ### Example: Creating a Work Item
 1. Add the Create Plan Item step to your process.
