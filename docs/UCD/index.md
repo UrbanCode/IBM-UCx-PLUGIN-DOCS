@@ -295,6 +295,13 @@ features:
   details: ""
   link: "DockerSourceConfig/"
 -
+  title: Devops Plan
+  icon:
+    light: "/configure-dark.png"
+    dark: "/configure-white.png"
+  details: ""
+  link: "devops-plan/"
+-
   title: F5 BIG-IP
   icon:
     light: "/runProcess-dark.png"
