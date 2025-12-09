@@ -13,7 +13,7 @@ This plug-in includes the following steps:
 * [Delete Record](#delete-record)
 
 
-# Compatibility
+## Compatibility
 
 This plug-in requires version 7.3.x or later of IBM DevOps Deploy.
 
@@ -21,13 +21,13 @@ This plug-in runs on all operating systems that DevOps Deploy supports.
 
 DevOps Plan server compatibility depends on your organization’s deployment of IBM DevOps Automation / DevOps Plan API versions.
 
-# Installation
+## Installation
 
 No special steps are required for installation.
 See Installing plug-ins in DevOps Deploy
 .
 
-# History
+## History
 
 ### Version 1
 
