@@ -157,6 +157,7 @@ export const ucd: DefaultTheme.Sidebar = {
             text: 'Autosys',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/Autosys/` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/Autosys/steps` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/Autosys/downloads` }
             ]
         }
@@ -1669,7 +1670,8 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Apache Hadoop [community plugin]',
             items: [
-                { text: 'About', link: `/${DEPLOY_BASE_DIR}/apache-hadoop/` }
+                { text: 'About', link: `/${DEPLOY_BASE_DIR}/apache-hadoop/` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/apache-hadoop/steps` }
             ]
         }
     ],
@@ -1697,7 +1699,8 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Apple Xcode [community plugin]',
             items: [
-                { text: 'About', link: `/${DEPLOY_BASE_DIR}/apple-xcode/` }
+                { text: 'About', link: `/${DEPLOY_BASE_DIR}/apple-xcode/` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/apple-xcode/steps` }
             ]
         }
     ],
@@ -1774,6 +1777,7 @@ export const ucd: DefaultTheme.Sidebar = {
             text: 'Amazon Web Services (AWS) Lambda [community plugin]',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/aws-lambda/` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/aws-lambda/steps` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/aws-lambda/downloads` }
             ]
         }
@@ -1813,7 +1817,8 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Box [community plugin]',
             items: [
-                { text: 'About', link: `/${DEPLOY_BASE_DIR}/box/` }
+                { text: 'About', link: `/${DEPLOY_BASE_DIR}/box/` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/box/steps` }
             ]
         }
     ],
@@ -1925,7 +1930,8 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Datical DB [partner plugin]',
             items: [
-                { text: 'About', link: `/${DEPLOY_BASE_DIR}/datical-db/` }
+                { text: 'About', link: `/${DEPLOY_BASE_DIR}/datical-db/` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/datical-db/steps` }
             ]
         }
     ],
