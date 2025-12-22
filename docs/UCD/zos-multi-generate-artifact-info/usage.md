@@ -1,7 +1,11 @@
 # z/OS Multi Generate Artifact Information - Usage
 
-* [Generate Multiple Artifact Information](#generate-multiple-artifact-information)
-* [Generate Multiple Artifact Information YAML](#generate-multiple-artifact-information-yaml)
+- [z/OS Multi Generate Artifact Information - Usage](#zos-multi-generate-artifact-information---usage)
+  - [Generate Multiple Artifact Information](#generate-multiple-artifact-information)
+    - [Example](#example)
+    - [Understanding custom properties filter in the plugin step through a scenario](#understanding-custom-properties-filter-in-the-plugin-step-through-a-scenario)
+      - [Scenario](#scenario)
+  - [Generate Multiple Artifact Information YAML](#generate-multiple-artifact-information-yaml)
 
 ## Generate Multiple Artifact Information
 
