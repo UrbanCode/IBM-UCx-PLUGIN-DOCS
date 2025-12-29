@@ -47,7 +47,10 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 ### Version 100
 
 * Added Z Inventory support for Linked versions 
-* Fixed issues during part deployments for linked versions
+* Fixed incorrect message during cp command failure
+* Fixed ZInventory update issue for linked versions with deleted artifacts
+* Performance improvement for Inventory Delta Deployment
+* Fix NoSuchFileException for generate artifact information step
 
 ### Version 99
 

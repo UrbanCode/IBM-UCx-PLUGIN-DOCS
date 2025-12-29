@@ -32,6 +32,7 @@ This plug-in is installed when installing IBM DevOps Deploy. When new plug-in ve
 ### Version 12
 
 * Added support for Linked versions
+* Fixed NoSuchFileException
 
 ### Version 11
 
