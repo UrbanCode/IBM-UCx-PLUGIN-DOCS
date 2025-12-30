@@ -157,6 +157,7 @@ export const ucd: DefaultTheme.Sidebar = {
             text: 'Autosys',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/Autosys/` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/Autosys/steps` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/Autosys/downloads` }
             ]
         }
@@ -453,6 +454,7 @@ export const ucd: DefaultTheme.Sidebar = {
             text: 'HCL DevOps Test Hub',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/HCLDevOpsTestHub/` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/HCLDevOpsTestHub/steps` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/HCLDevOpsTestHub/downloads` }
             ]
         }
@@ -465,6 +467,7 @@ export const ucd: DefaultTheme.Sidebar = {
             text: 'HCL DevOps Test Performance',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/HCLDevOpsTestPerf/` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/HCLDevOpsTestPerf/steps` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/HCLDevOpsTestPerf/downloads` }
             ]
         }
@@ -477,6 +480,7 @@ export const ucd: DefaultTheme.Sidebar = {
             text: 'HCL DevOps Test UI',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/HCLDevOpsTestUI/` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/HCLDevOpsTestUI/steps` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/HCLDevOpsTestUI/downloads` }
             ]
         }
@@ -489,6 +493,7 @@ export const ucd: DefaultTheme.Sidebar = {
             text: 'HCL DevOps Test UI WebUI',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/HCLDevOpsTestUIWebUI/` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/HCLDevOpsTestUIWebUI/steps` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/HCLDevOpsTestUIWebUI/downloads` }
             ]
         }
@@ -501,6 +506,7 @@ export const ucd: DefaultTheme.Sidebar = {
             text: 'HCL DevOps Test Virtualization',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/HCLDevOpsTestVirtualization/` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/HCLDevOpsTestVirtualization/steps` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/HCLDevOpsTestVirtualization/downloads` }
             ]
         }
@@ -513,6 +519,7 @@ export const ucd: DefaultTheme.Sidebar = {
             text: 'HCL OneTest API',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/HCLOneTestAPI/` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/HCLOneTestAPI/steps` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/HCLOneTestAPI/downloads` }
             ]
         }
@@ -525,6 +532,7 @@ export const ucd: DefaultTheme.Sidebar = {
             text: 'HCL OneTest Performance',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/HCLOneTestPerf/` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/HCLOneTestPerf/steps` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/HCLOneTestPerf/downloads` }
             ]
         }
@@ -537,6 +545,7 @@ export const ucd: DefaultTheme.Sidebar = {
             text: 'HCL OneTest UI',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/HCLOneTestUI/` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/HCLOneTestUI/steps` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/HCLOneTestUI/downloads` }
             ]
         }
@@ -549,6 +558,7 @@ export const ucd: DefaultTheme.Sidebar = {
             text: 'HCL OneTest Virtualization',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/HCLOneTestVirtualization/` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/HCLOneTestVirtualization/steps` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/HCLOneTestVirtualization/downloads` }
             ]
         }
@@ -561,6 +571,7 @@ export const ucd: DefaultTheme.Sidebar = {
             text: 'HCL OneTest WebUI',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/HCLOneTestWebUI/` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/HCLOneTestWebUI/steps` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/HCLOneTestWebUI/downloads` }
             ]
         }
@@ -589,6 +600,7 @@ export const ucd: DefaultTheme.Sidebar = {
             text: 'IBM DevOps Test Hub',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/IBMDevOpsTestHub/` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/IBMDevOpsTestHub/steps` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/IBMDevOpsTestHub/downloads` }
             ]
         }
@@ -601,6 +613,7 @@ export const ucd: DefaultTheme.Sidebar = {
             text: 'IBM DevOps Test Performance',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/IBMDevOpsTestPerf/` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/IBMDevOpsTestPerf/steps` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/IBMDevOpsTestPerf/downloads` }
             ]
         }
@@ -613,6 +626,7 @@ export const ucd: DefaultTheme.Sidebar = {
             text: 'IBM DevOps Test UI',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/IBMDevOpsTestUI/` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/IBMDevOpsTestUI/steps` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/IBMDevOpsTestUI/downloads` }
             ]
         }
@@ -625,6 +639,7 @@ export const ucd: DefaultTheme.Sidebar = {
             text: 'IBM DevOps Test UI WebUI',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/IBMDevOpsTestUIWebUI/` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/IBMDevOpsTestUIWebUI/steps` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/IBMDevOpsTestUIWebUI/downloads` }
             ]
         }
@@ -637,6 +652,7 @@ export const ucd: DefaultTheme.Sidebar = {
             text: 'IBM DevOps Test Virtualization',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/IBMDevOpsTestVirtualization/` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/IBMDevOpsTestVirtualization/steps` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/IBMDevOpsTestVirtualization/downloads` }
             ]
         }
@@ -781,6 +797,7 @@ export const ucd: DefaultTheme.Sidebar = {
             text: 'Microsoft Software Installer (MSI)',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/MSI/` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/MSI/steps` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/MSI/downloads` }
             ]
         }
@@ -837,6 +854,7 @@ export const ucd: DefaultTheme.Sidebar = {
             text: 'Citrix NetScaler',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/Netscaler/` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/Netscaler/steps` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/Netscaler/downloads` }
             ]
         }
@@ -1086,6 +1104,7 @@ export const ucd: DefaultTheme.Sidebar = {
             text: 'SAP Change and Transport System (CTS)',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/SAP-CTS/` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/SAP-CTS/steps` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/SAP-CTS/downloads` }
             ]
         }
@@ -1669,7 +1688,8 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Apache Hadoop [community plugin]',
             items: [
-                { text: 'About', link: `/${DEPLOY_BASE_DIR}/apache-hadoop/` }
+                { text: 'About', link: `/${DEPLOY_BASE_DIR}/apache-hadoop/` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/apache-hadoop/steps` }
             ]
         }
     ],
@@ -1697,7 +1717,8 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Apple Xcode [community plugin]',
             items: [
-                { text: 'About', link: `/${DEPLOY_BASE_DIR}/apple-xcode/` }
+                { text: 'About', link: `/${DEPLOY_BASE_DIR}/apple-xcode/` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/apple-xcode/steps` }
             ]
         }
     ],
@@ -1774,6 +1795,7 @@ export const ucd: DefaultTheme.Sidebar = {
             text: 'Amazon Web Services (AWS) Lambda [community plugin]',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/aws-lambda/` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/aws-lambda/steps` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/aws-lambda/downloads` }
             ]
         }
@@ -1813,7 +1835,8 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Box [community plugin]',
             items: [
-                { text: 'About', link: `/${DEPLOY_BASE_DIR}/box/` }
+                { text: 'About', link: `/${DEPLOY_BASE_DIR}/box/` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/box/steps` }
             ]
         }
     ],
@@ -1925,7 +1948,8 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Datical DB [partner plugin]',
             items: [
-                { text: 'About', link: `/${DEPLOY_BASE_DIR}/datical-db/` }
+                { text: 'About', link: `/${DEPLOY_BASE_DIR}/datical-db/` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/datical-db/steps` }
             ]
         }
     ],
@@ -1975,7 +1999,8 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'eggPlant [partner plugin]',
             items: [
-                { text: 'About', link: `/${DEPLOY_BASE_DIR}/eggplant/` }
+                { text: 'About', link: `/${DEPLOY_BASE_DIR}/eggplant/` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/eggplant/steps` }
             ]
         }
     ],
@@ -2001,7 +2026,8 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Git Install [community plugin]',
             items: [
-                { text: 'About', link: `/${DEPLOY_BASE_DIR}/git-install/` }
+                { text: 'About', link: `/${DEPLOY_BASE_DIR}/git-install/` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/git-install/steps` }
             ]
         }
     ],
@@ -2072,7 +2098,7 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'IBM Db2 for z/OS Package',
             items: [
-                { text: 'About', link: `/${DEPLOY_BASE_DIR}/ibm-db2-for-z-os-package/` }
+                { text: 'About', link: `/${DEPLOY_BASE_DIR}/ibm-db2-for-z-os-package/` },
             ]
         }
     ],
@@ -2083,7 +2109,8 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'IBM Globalization Pipeline [community plugin]',
             items: [
-                { text: 'About', link: `/${DEPLOY_BASE_DIR}/ibm-globalization-pipeline/` }
+                { text: 'About', link: `/${DEPLOY_BASE_DIR}/ibm-globalization-pipeline/` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/ibm-globalization-pipeline/steps` }
             ]
         }
     ],
@@ -2122,7 +2149,8 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'IBM MaaS360 [community plugin]',
             items: [
-                { text: 'About', link: `/${DEPLOY_BASE_DIR}/ibm-maas360/` }
+                { text: 'About', link: `/${DEPLOY_BASE_DIR}/ibm-maas360/` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/ibm-maas360/steps` }
             ]
         }
     ],
@@ -2203,7 +2231,8 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'IBM Rational ClearQuest [community plugin]',
             items: [
-                { text: 'About', link: `/${DEPLOY_BASE_DIR}/ibm-rational-clearquest/` }
+                { text: 'About', link: `/${DEPLOY_BASE_DIR}/ibm-rational-clearquest/` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/ibm-rational-clearquest/steps` }
             ]
         }
     ],
@@ -2241,7 +2270,8 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'IBM Sterling B2B Integrator [community plugin]',
             items: [
-                { text: 'About', link: `/${DEPLOY_BASE_DIR}/ibm-sterling-b2b-integrator/` }
+                { text: 'About', link: `/${DEPLOY_BASE_DIR}/ibm-sterling-b2b-integrator/` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/ibm-sterling-b2b-integrator/steps` }
             ]
         }
     ],
@@ -2263,7 +2293,8 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'IBM Workload Automation [community plugin]',
             items: [
-                { text: 'About', link: `/${DEPLOY_BASE_DIR}/ibm-workload-automation/` }
+                { text: 'About', link: `/${DEPLOY_BASE_DIR}/ibm-workload-automation/` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/ibm-workload-automation/steps` }
             ]
         }
     ],
@@ -2319,7 +2350,8 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'JBoss-ON [community plugin]',
             items: [
-                { text: 'About', link: `/${DEPLOY_BASE_DIR}/jboss-on/` }
+                { text: 'About', link: `/${DEPLOY_BASE_DIR}/jboss-on/` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/jboss-on/steps` }
             ]
         }
     ],
@@ -2330,7 +2362,8 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Jenkins Job Manager [community plugin]',
             items: [
-                { text: 'About', link: `/${DEPLOY_BASE_DIR}/jenkins-job-manager/` }
+                { text: 'About', link: `/${DEPLOY_BASE_DIR}/jenkins-job-manager/` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/jenkins-job-manager/steps` }
             ]
         }
     ],
@@ -2384,7 +2417,8 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Liquibase [community plugin]',
             items: [
-                { text: 'About', link: `/${DEPLOY_BASE_DIR}/liquibase/` }
+                { text: 'About', link: `/${DEPLOY_BASE_DIR}/liquibase/` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/liquibase/steps` }
             ]
         }
     ],
@@ -2445,7 +2479,8 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'New Relic [community plugin]',
             items: [
-                { text: 'About', link: `/${DEPLOY_BASE_DIR}/new-relic/` }
+                { text: 'About', link: `/${DEPLOY_BASE_DIR}/new-relic/` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/new-relic/steps` }
             ]
         }
     ],
@@ -2485,7 +2520,8 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Node.js [community plugin]',
             items: [
-                { text: 'About', link: `/${DEPLOY_BASE_DIR}/node-js/` }
+                { text: 'About', link: `/${DEPLOY_BASE_DIR}/node-js/` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/node-js/steps` }
             ]
         }
     ],
@@ -2496,7 +2532,8 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Node-RED [community plugin]',
             items: [
-                { text: 'About', link: `/${DEPLOY_BASE_DIR}/node-red/` }
+                { text: 'About', link: `/${DEPLOY_BASE_DIR}/node-red/` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/node-red/steps` }
             ]
         }
     ],
@@ -2523,6 +2560,7 @@ export const ucd: DefaultTheme.Sidebar = {
             text: 'HCL OneTest Server',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/onetest-server/` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/onetest-server/steps` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/onetest-server/downloads` }
             ]
         }
@@ -2564,6 +2602,7 @@ export const ucd: DefaultTheme.Sidebar = {
             text: 'Google Android SDK',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/plugin-air-Android/` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/plugin-air-Android/steps` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/plugin-air-Android/downloads` }
             ]
         }
@@ -2679,7 +2718,8 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Property Utils [community plugin]',
             items: [
-                { text: 'About', link: `/${DEPLOY_BASE_DIR}/property-utils/` }
+                { text: 'About', link: `/${DEPLOY_BASE_DIR}/property-utils/` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/property-utils/steps` }
             ]
         }
     ],
@@ -2690,7 +2730,8 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Puppet [community plugin]',
             items: [
-                { text: 'About', link: `/${DEPLOY_BASE_DIR}/puppet/` }
+                { text: 'About', link: `/${DEPLOY_BASE_DIR}/puppet/` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/puppet/steps` }
             ]
         }
     ],
@@ -2702,6 +2743,7 @@ export const ucd: DefaultTheme.Sidebar = {
             text: 'Resource Utilities',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/resource-utilities/` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/resource-utilities/steps` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/resource-utilities/downloads` }
             ]
         }
@@ -2743,7 +2785,8 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Siebel [community plugin]',
             items: [
-                { text: 'About', link: `/${DEPLOY_BASE_DIR}/siebel/` }
+                { text: 'About', link: `/${DEPLOY_BASE_DIR}/siebel/` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/siebel/steps` }
             ]
         }
     ],
@@ -2754,7 +2797,8 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Skytap Automation Pack [partner plugin]',
             items: [
-                { text: 'About', link: `/${DEPLOY_BASE_DIR}/skytap-automation-pack/` }
+                { text: 'About', link: `/${DEPLOY_BASE_DIR}/skytap-automation-pack/` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/skytap-automation-pack/steps` }
             ]
         }
     ],
@@ -2765,7 +2809,8 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Slack [community plugin]',
             items: [
-                { text: 'About', link: `/${DEPLOY_BASE_DIR}/slack/` }
+                { text: 'About', link: `/${DEPLOY_BASE_DIR}/slack/` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/slack/steps` }
             ]
         }
     ],
@@ -2834,7 +2879,8 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Text Utility [community plugin]',
             items: [
-                { text: 'About', link: `/${DEPLOY_BASE_DIR}/text-utility/` }
+                { text: 'About', link: `/${DEPLOY_BASE_DIR}/text-utility/` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/text-utility/steps` },
             ]
         }
     ],
@@ -2845,7 +2891,8 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'TIBCO [partner plugin]',
             items: [
-                { text: 'About', link: `/${DEPLOY_BASE_DIR}/tibco/` }
+                { text: 'About', link: `/${DEPLOY_BASE_DIR}/tibco/` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/tibco/steps` },
             ]
         }
     ],
@@ -3019,7 +3066,8 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'Venafi [community plugin]',
             items: [
-                { text: 'About', link: `/${DEPLOY_BASE_DIR}/venafi/` }
+                { text: 'About', link: `/${DEPLOY_BASE_DIR}/venafi/` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/venafi/steps` }
             ]
         }
     ],
@@ -3030,7 +3078,8 @@ export const ucd: DefaultTheme.Sidebar = {
         {
             text: 'VMware AirWatch [community plugin]',
             items: [
-                { text: 'About', link: `/${DEPLOY_BASE_DIR}/vmware-airwatch/` }
+                { text: 'About', link: `/${DEPLOY_BASE_DIR}/vmware-airwatch/` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/vmware-airwatch/steps` }
             ]
         }
     ],
