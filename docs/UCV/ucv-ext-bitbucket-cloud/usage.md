@@ -61,7 +61,7 @@ Some properties might not be displayed in the user interface, to see all propert
 
 | Name | Type | Description | Required | Property Name |
 | --- | --- | --- | --- | --- |
-| Base API URL | The base URL of BitBucket Cloud API. URL should be https://api.bitbucket.org/2.0 | Yes | baseUrl |
+| Base API URL | String | The base URL of BitBucket Cloud API. URL should be https://api.bitbucket.org/2.0 | Yes | baseUrl |
 | Username | String | The username must be your Atlassian account email address. | Yes | username |
 | API Token | Secure | Use your API token as the password. To generate a token, refer to: https://support.atlassian.com/bitbucket-cloud/docs/create-an-api-token/ | Yes | password |
 ||For lower version of Bitbucket cloud (below 1.0.37) it is app password ||||
