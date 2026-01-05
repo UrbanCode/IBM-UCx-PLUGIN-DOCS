@@ -15,6 +15,24 @@ DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-bitbucket-cloud/tags).
 
 ## History
 
+### Version 1.0.37
+
+* **Bug Fix**: Fixed an issue where Bitbucket Pull Requests continued to appear as open in the Value Stream even after being closed or merged. Pull Request statuses are now correctly updated and reflected in the Value Stream.
+
+* **Update**: The App Password field has been replaced with API Token authentication. Customers must generate and use an API Token with the appropriate scopes for successful authentication.
+
+**Note**:
+* The Atlassian account email address should be entered in the Username field instead of the account username.
+* For lower versions of BitBucket cloud (below 1.0.37) API token should be provided in place of App Password as App Password deprecated.
+* Base API Url should be https://api.bitbucket.org/2.0
+
+
+### Version 1.0.36
+
+* Updated the API endpoint to https://api.bitbucket.org/2.0
+* Improved code coverage reporting so both unit tests and functional tests are now included.
+* Updated dependencies and re-enabled previously skipped functional tests to ensure better stability and validation.
+
 ### Version 1.0.29
 
 * **Initial Sync Date Field Added**: Under the hidden properties section of add integration page for the plugin an Initial Sync Date field is added. This field is optional and can be used only for the first sync.

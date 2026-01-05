@@ -24,14 +24,14 @@ For details, see [Using plug-ins in DevOps Velocity](https://community.ibm.com/c
 
 ### Using the user interface
 
-1. From the Plugins page, click **Settings** > **Integrations** > **Plugins**.
+1. From the Plug-ins page, click **Settings** > **Integrations** > **Plug-ins**.
 2. Under the Action column for the plug-in, click **Add Integration**.
 3. On the Add Integration page enter values for the fields used to configure the integration and define communication.
 4. Click **Save**.
 
 ### Using a JSON file
 
-The JSON file contains the information for creating a value stream and integrating with the BitBucket server. The following table describes the information for the creating a DevOps Velocity value stream map.
+The JSON file contains the information for creating a value stream and integrating with the BitBucket Cloud. The following table describes the information for the creating a DevOps Velocity value stream map.
 
 1. Download the value stream map. The value stream map is a JSON file used to define integrations.
 2. Edit the JSON file to include the plug-in configuration properties.
@@ -43,35 +43,34 @@ The JSON file contains the information for creating a value stream and integrati
 The following tables describe the properties used to configure the integration. Each table contains the field name when using the user interface and the property name when using a JSON file.
 
 * The General Configuration Properties table describes configuration properties used by all plug-in integrations.
-* The Bitbucket Configuration Properties table describes the BitBucket configuration properties that define the connection and communications with the BitBucket server. When using the JSON method to integrate the plug-in these properties are coded within the `properties` configuration property.
+* The BitBucket Configuration Properties table describes the BitBucket configuration properties that define the connection and communications with the BitBucket Cloud. When using the JSON method to integrate the plug-in these properties are coded within the `properties` configuration property.
 
 Some properties might not be displayed in the user interface, to see all properties enable the `Show Hidden Properties` field.
 
-**Note:** Previously email ID and password (Those which are used to log into the BitBucket Cloud website) were used in the field of Username and Password respectively. Now from version 1.0.16 Username(https://bitbucket.org/account/settings/) and App-password(https://bitbucket.org/account/settings/app-passwords/) will be used in the field of Username and Password to authenticate with the BitBucket Cloud.
-
 ### General configuration properties
 
-| Name             | Description                                                                                                                             | Required | Property Name |
-| ---------------- | --------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------- |
-| Integration Name | An assigned name to the value stream.                                                                                                   | Yes      | name          |
-| Logging Level    | The level of Log4j messages to display in the log file. Valid values are: all, debug, info, warn, error, fatal, off, and trace.         | No       | loggingLevel  |
-| properties       | List of plug-in configuration properties used to connect and communicate with the Bitbucket Cloud. Enclose the properties within braces. | Yes      | properties    |
-| Tenant id        | The name of the tenant.                                                                                                                 | Yes      | tenant\_id    |
-| Type             | Unique identifier assigned to the plug-in. The value for the Bitbucket Cloud plug-in is `ucv-ext-bitbucket-cloud`                         | Yes      | type          |
+| Name | Description | Required | Property Name |
+| --- | --- | --- | --- |
+| Integration Name | An assigned name to the value stream. | Yes | name |
+| Logging Level | The level of Log4j messages to display in the log file. Valid values are: all, debug, info, warn, error, fatal, off, and trace. | No | loggingLevel |
+| properties | List of plug-in configuration properties used to connect and communicate with the BitBucket Cloud. Enclose the properties within braces. | Yes | properties |
+| Tenant id | The name of the tenant. | Yes | tenant_id |
+| Type | Unique identifier assigned to the plug-in. The value for the BitBucket Cloud plug-in is `ucv-ext-bitbucket-cloud` | Yes | type |
 
 ### Bitbucket Cloud properties
 
-| Name                | Type   | Description                                                                                                                                           | Required | Property Name    |
-| ------------------- | ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ---------------- |
-| User Access Key     | Secure | The access token secret for oauth authentication.                                                                                                     | Yes      | ucvAccessKey     |
-| Username            | String | The user name used to authenticate with the Bitbucket cloud instance.You can find it here https://bitbucket.org/account/settings/                     | Yes      | consumer\_secret |
-| App Password            | Secure | The App password used to authenticate with the Bitbucket cloud instance.You can create one here https://bitbucket.org/account/settings/app-passwords/ | Yes      | password         |
-| Project Key         | String | The repository project key.                                                                                                                           | Yes      | projectKey       |
-| Project Name        | String | The name of the project which contains one or more repositories.                                                                                      | Yes      | projectName      |
-| Repository Name     | Array  | The comma separated name of the repositories                                                                                                          | Yes      | repositoryName   |
-| API Limits     | String | Maximum API calls that the plugin will make in a single run.                                                                                           | No      | apiLimits   |
-| Branch Name         | String | The branch to pull changes from.                                                                                                                      | No       | branchName       |
-| Additional Branches | Array  | Comma seperated names of additional branches to collect commits from besides the main one, leave blank if not needed.                                 | No       | otherBranches    |
+| Name | Type | Description | Required | Property Name |
+| --- | --- | --- | --- | --- |
+| Base API URL | The base URL of BitBucket Cloud API. URL should be https://api.bitbucket.org/2.0 | Yes | baseUrl |
+| Username | String | The username must be your Atlassian account email address. | Yes | username |
+| API Token | Secure | Use your API token as the password. To generate a token, refer to: https://support.atlassian.com/bitbucket-cloud/docs/create-an-api-token/ | Yes | password |
+|||For lower version of Bitbucket cloud (below 1.0.37) it is app password |||
+| App Password | Secure | Use your API token as the password. To generate a token, refer to: https://support.atlassian.com/bitbucket-cloud/docs/create-an-api-token/ | Yes | password |
+| Project Key | String | The repository project key. | Yes | projectKey |
+| Repository Name | Array | The comma separated name of the repositories | Yes | repositoryName |
+| API Limits | String | Maximum API calls that the plug-in will make in a single run. | No | apiLimits |
+| Branch Name | String | The branch to pull changes from. | No | branchName |
+| Additional Branches | Array | Comma seperated names of additional branches to collect commits from besides the main one, leave blank if not needed. | No | otherBranches |
 | Proxy Password | Secure | The password used to authenticate with the proxy server. | No | proxyPassword |
 | Proxy Server | String | The URL of the proxy server including the port number. The URL protocol can be http or https. | No | proxyServer |
 | Proxy User Name | String | The user name used to authenticate with the proxy server. | No | proxyUsername |
@@ -89,13 +88,11 @@ The following example can be used as a template to define the integration within
       "loggingLevel": "info",
       "disabled": false, 
       "properties": { 
-        "baseApiUrl": "[Base URL ex: https://bitbucket.org/api/2.0]", 
-        "username": "[Basic User Name]", 
-        "password": "[Basic user password]", 
-        "projectName": "[Full project name ex: JKE Mortgage Application]", 
-        "projectKey": "[Project key ex: JMA]", 
-        "repositoryName": "[app repository name ex: web-application]", 
-        "repositorySlug": "[app repository name ex: web-application]" 
+        "baseUrl": "[Base URL https://api.bitbucket.org/2.0]", 
+        "username": "[Atlassian account email address]", 
+        "password": "[API token created with scope]", 
+        "projectKey": "[Project key ex: SAM]", 
+        "repositoryName": "[repository name ex: sample]"
       } 
     }
 ```
