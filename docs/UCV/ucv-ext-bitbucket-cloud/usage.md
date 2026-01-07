@@ -79,11 +79,11 @@ Some properties might not be displayed in the user interface, to see all propert
 * For version 1.0.36 or earlier, you must enter API token created with scope in the App Password field.
 To create API Token
 
-[image1](images/bitbucket1.png)
-[image2](images/bitbucket2.png)
-[image3](images/bitbucket3.png)
-[image4](images/bitbucket4.png)
-[image5](images/bitbucket5.png)
+![](images/bitbucket1.png)
+![](images/bitbucket2.png)
+![](images/bitbucket3.png)
+![](images/bitbucket4.png)
+![](images/bitbucket5.png)
 
 * Base API Url is https://api.bitbucket.org/2.0
 
