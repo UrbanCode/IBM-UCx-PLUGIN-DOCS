@@ -76,21 +76,25 @@ Some properties might not be displayed in the user interface, to see all propert
 
 **Note**:
 * The Atlassian account email address should be entered in the Username field instead of the account username.
+* Base API Url is https://api.bitbucket.org/2.0
 * For version 1.0.36 or earlier, you must enter API token created with scope in the App Password field.
 
 To create API Token
 
-![Click on create API Token with scope](images/bitbucket1.png)
+Click on create API Token with scope
+![](images/bitbucket1.png)
 
-![Provide token name](images/bitbucket2.png)
+Provide token name
+![](images/bitbucket2.png)
 
-![Select bitbucket](images/bitbucket3.png)
+Select bitbucket
+![](images/bitbucket3.png)
 
-![Select required scope](images/bitbucket4.png)
+Select required scope
+![](images/bitbucket4.png)
 
-![Click on create token](images/bitbucket5.png)
-
-* Base API Url is https://api.bitbucket.org/2.0
+Click on create token
+![](images/bitbucket5.png)
 
 ## JSON code example
 
