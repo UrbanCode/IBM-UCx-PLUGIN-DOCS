@@ -24,7 +24,7 @@ Username and App password-based authentication has been removed in Bitbucket Clo
 
 **Note**:
 * The Atlassian account email address should be entered in the Username field instead of the account username.
-* For version 1.0.36 or earlier, you must enter API token created with scope in the App Password field.
+* For version 1.0.36 or earlier, you must enter API token in the App Password field.
 * Base API Url is https://api.bitbucket.org/2.0
 
 
