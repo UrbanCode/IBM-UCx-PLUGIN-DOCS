@@ -67,54 +67,22 @@ When you add a new CICS CM step to a process, the step contains a number of defa
 For the CICS CM steps, you can create a resource tree and define properties at the following resource levels:
 
 
-| Resource Property | Resource with tag | Description |
-| --- | --- | --- |
-|
-```
-cicscm.host
-```
-| Agent | The host name of the CICS CM server to connect to |
-|
-```
-cicscm.port
-```
-| Agent | The CICS CM port number to connect to |
-|
-```
-cicscm.username
-```
-| Agent | The user name authorized to connect to CICS CM |
-|
-```
-cicscm.password
-```
-| Agent | The password for the user name to connect to CICS CM |
-|
-```
-cicscm.targetConfig
-```
-| Configuration | The name of the target configuration |
-|
-```
-cicscm.csdConnection
-```
-| Region | The name of the connection from the CSD to a specific CICS region |
+| Resource Property    | Resource with tag | Description                                                       |
+|----------------------|-------------------|-------------------------------------------------------------------|
+| cicscm.host          | Agent             | The host name of the CICS CM server to connect to                 |
+| cicscm.port          | Agent             | The CICS CM port number to connect to                             |
+| cicscm.username      | Agent             | The user name authorized to connect to CICS CM                    |
+| cicscm.password      | Agent             | The password for the user name to connect to CICS CM              |
+| cicscm.targetConfig  | Configuration     | The name of the target configuration                              |
+| cicscm.csdConnection | Region            | The name of the connection from the CSD to a specific CICS region |
 
 For the CICS CM versions, the following properties can be defined:
 
 
-| Version Property | Description |
-| --- | --- |
-|
-```
-cicscm.changePackage
-```
-| The name of the change package to be deployed |
-|
-```
-cicscm.sourceConfig
-```
-| The name of the source configuration. |
+| Version Property     | Description                                   |
+|----------------------|-----------------------------------------------|
+| cicscm.changePackage | The name of the change package to be deployed |
+| cicscm.sourceConfig  | The name of the source configuration.         |
 
 By default, the Transformation Rule property is blank. If you want to use a Transformation Rule property, define the property at the environment level. For more information, see [Referring to properties](https://www.ibm.com/docs/en/urbancode-deploy/7.2.3?topic=deployment-properties).
 
