@@ -1,20 +1,6 @@
 
 # App Connect Enterprise - Process Steps
 
-- [App Connect Enterprise - Steps](#app-connect-enterprise---steps)
-- [Process steps in the IBM ACE plug-in](#process-steps-in-the-ibm-ace-plug-in)
-- [Create Integration Node](#create-integration-node)
-- [Create Integration Server](#create-integration-server)
-- [Delete Integration Node](#delete-integration-node)
-- [Delete Integration Server](#delete-integration-server)
-- [Deploy](#deploy)
-- [Does Integration Server Exist](#does-integration-server-exist)
-- [Start Integration Node](#start-integration-node)
-- [Start Integration Server](#start-integration-server)
-- [Re-start Integration Server](#re-start-integration-server)
-- [Stop Integration Node](#stop-integration-node)
-- [Stop Integration Server](#stop-integration-server)
-
 ## Create Integration Node
 
 Create an Integration Node (Broker). This command creates the WebSphere MQ queues required by the broker if they do not already exist.

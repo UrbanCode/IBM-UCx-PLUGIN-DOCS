@@ -1,7 +1,5 @@
 # New Relic - Process Steps
 
-* [Deployment Notification](#deployment_notification)
-* [Upload DSYM File](#upload_dsym_file)
 ## Deployment Notification
 
 Send a deployment notifications to New Relic.

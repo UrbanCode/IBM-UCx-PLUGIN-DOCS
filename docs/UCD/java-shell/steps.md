@@ -1,12 +1,7 @@
 
-# z/OS Shell - Steps
+# z/OS Shell - Process Steps
 
 > **Deprecation Notice**: The z/OS Shell plugin is deprecated. It is recommended to use the [Shell plugin](../Shell/index.md) instead.
-
-## Process steps in the Java Shell plug-in
-
-* [Shell](#shell)
-
 
 ## Shell
 

@@ -1,12 +1,6 @@
 
 # IBM WebSphere Service Registry and Repository - Process Steps
 
-* [Activate Configuration Profile](#activate_configuration_profile)
-* [Delete Configuration Profile](#delete_configuration_profile)
-* [Load Configuration Profile](#load_configuration_profile)
-* [Register Service](#register_service)
-
-
 ## Activate Configuration Profile
 
 This step archives the currently active profile, and then makes the specified configuration profile active. The configuration profile that was previously active is saved in WSRR.

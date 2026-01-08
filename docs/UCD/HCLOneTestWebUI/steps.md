@@ -1,6 +1,5 @@
 # HCL OneTest WebUI - Process Steps
 
-* [Run an HCL OneTest UI - UI Test](#run_an_hcl_onetest_ui_-_ui_test)
 ## Run an HCL OneTest UI - UI Test
 
 Run test using HCL OneTest UI - UI Test

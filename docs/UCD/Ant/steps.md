@@ -1,10 +1,6 @@
 
 # Apache Ant - Process steps
 
-
-* [Ant](#ant)
-
-
 ## Ant
 
 Run an Ant script.

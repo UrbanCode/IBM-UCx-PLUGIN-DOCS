@@ -1,9 +1,5 @@
 # Web Utilities - Process Steps
 
-* [Delete from FTP Server](#delete_from_ftp_server)
-* [Send HTTP Call](#send_http_call)
-* [Upload to FTP Server](#upload_to_ftp_server)
-
 ## Delete from FTP Server
 
 

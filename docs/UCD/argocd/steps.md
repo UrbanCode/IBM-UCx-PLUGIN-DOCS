@@ -1,18 +1,6 @@
 
 # Argo CD - Process Steps
 
-* [App Create](#app-create)
-* [App Get](#app-get)
-* [App Rollback](#app-rollback)
-* [App Set](#app-set)
-* [App Sync](#app-sync)
-* [Login](#login)
-* [AppSet Create](#appset-create)
-* [AppSet Delete](#appset-delete)
-* [AppSet List](#appset-list)
-* [AppSet Get](#appset-get)
-
-
 ## App Create
 
 Create an Argo CD application.

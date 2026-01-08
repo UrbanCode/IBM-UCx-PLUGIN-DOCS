@@ -1,12 +1,6 @@
 
 # IBM DevOps Deploy Configuration Management - Process Steps
 
-* [Batch Import Properties](#batch_import_properties)
-* [Import Properties](#import_properties)
-* [Import Resource Properties](#import_resource_properties)
-* [Install Template](#install_template)
-
-
 ## Batch Import Properties
 
 Import Component Environment Properties from a properties file.

@@ -1,8 +1,5 @@
 # CA SCM (formerly Harvest) - Process Steps
 
-* [Harvest Checkout](#harvest_checkout)
-
-
 ## Harvest Checkout
 
 Use hco to checkout files from CA SCM

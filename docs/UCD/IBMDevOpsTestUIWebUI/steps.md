@@ -1,6 +1,5 @@
 # IBM DevOps Test UI - Web UI - Process Steps
 
-* [Run an IBM DevOps Test UI - UI Test](#run_an_ibm_devops_test_ui_-_ui_test)
 ## Run an IBM DevOps Test UI - UI Test
 
 Run test using IBM DevOps Test UI - UI Test

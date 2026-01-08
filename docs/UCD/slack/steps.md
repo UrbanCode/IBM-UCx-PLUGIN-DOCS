@@ -1,7 +1,5 @@
 # Slack - Process Steps
 
-* [Post Notification to Slack](#post_notification_to_slack)
-* [Post Attachment Notification to Slack](#post_attachment_notification_to_slack)
 ## Post Notification to Slack
 
 Send a notification to a Slack channel.

@@ -1,10 +1,6 @@
 
 # Apache HTTP Server - Process steps
 
-* [Start](#start)
-* [Stop](#stop)
-
-
 ## Start
 
 This step starts the Apache HTTP server.

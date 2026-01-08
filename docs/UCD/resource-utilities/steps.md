@@ -1,8 +1,5 @@
 # Resource Utilities - Process Steps
 
-* [List Resources](#list_resources)
-* [Find Resource Properties Without Values](#find_resource_properties_without_values)
-* [Find Specific Properties](#find_specific_properties)
 ## List Resources
 
 List UrbanCode Deploy resources under a specific root resource.

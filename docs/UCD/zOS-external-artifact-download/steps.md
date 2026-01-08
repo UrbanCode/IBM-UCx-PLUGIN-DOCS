@@ -1,9 +1,5 @@
 # z/OS External Artifact Repository - Process Steps
 
-* [Download Artifacts for zOS External Repo](#download-artifacts-for-zos-external-repo)
-* [Create a Merged Version for JFrog Artifactory](#create-a-merged-version-for-jfrog-artifactory)
-* [Create a Merged Version for Nexus](#create-a-merged-version-for-nexus)
-
 ## Download Artifacts for zOS External Repo
 
 Download a z/OS package from an external artifact repository. The repository can be either a Nexus or Artifactory repository.

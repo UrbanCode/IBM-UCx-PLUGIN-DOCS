@@ -1,8 +1,5 @@
 # SAP Change and Transport System (CTS) - Process Steps
 
-* [Add to Buffer](#add_to_buffer)
-* [Import](#import)
-* [Add File to Transport](#add_file_to_transport)
 ## Add to Buffer
 
 Add the transport number to the buffer to be imported.

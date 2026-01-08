@@ -1,6 +1,5 @@
 # HCL OneTest Server - Process Steps
 
-* [Run HCL OneTest Server test](#run_hcl_onetest_server_test)
 ## Run HCL OneTest Server test
 
 Start a job on HCL OneTest Server.

@@ -1,13 +1,6 @@
 
 # System Information - Process Steps
 
-
-* [Check Available Disk Space](#check_available_disk_space)
-* [Check Connectivity](#check_connectivity)
-* [Check Environment Variable](#check_environment_variable)
-* [Check Regex](#check_regex)
-
-
 ## Check Available Disk Space
 
 Ensure that there is enough available disk space.

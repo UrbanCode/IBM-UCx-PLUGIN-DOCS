@@ -1,7 +1,5 @@
 # IBM Workload Automation - Process Steps
 
-* [Import Job Stream Definition (Distributed)](#import_job_stream_definition_(distributed))
-* [Generate JCL to import Job Stream Definition (zOS)](#generate_jcl_to_import_job_stream_definition_(zos))
 ## Import Job Stream Definition (Distributed)
 
 Deploy job streams on distributed engines

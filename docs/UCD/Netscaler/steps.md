@@ -1,13 +1,5 @@
 # Citrix NetScaler - Process Steps
 
-* [Enable Servers](#enable_servers)
-* [Disable Servers](#disable_servers)
-* [Enable Services](#enable_services)
-* [Disable Services](#disable_services)
-* [Enable Service Groups](#enable_service_groups)
-* [Check Service Group Status](#check_service_group_status)
-* [Check Service Group Bindings](#check_service_group_bindings)
-* [Disable Service Groups](#disable_service_groups)
 ## Enable Servers
 
 Enable one or more servers in NetScaler

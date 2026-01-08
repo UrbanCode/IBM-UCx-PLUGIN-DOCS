@@ -1,15 +1,5 @@
 # IBM Sterling B2B Integrator - Process Steps
 
-* [Start B2Bi](#start_b2bi)
-* [Stop B2Bi](#stop_b2bi)
-* [Get Service Status](#get_service_status)
-* [Restart Windows Server](#restart_windows_server)
-* [Import MAPs](#import_maps)
-* [Install or Uninstall Third-Party Jars](#install_or_uninstall_third-party_jars)
-* [Import Batch File](#import_batch_file)
-* [Assemble Import Batch File](#assemble_import_batch_file)
-* [Add Workflow](#add_workflow)
-* [Apply Configurations](#apply_configurations)
 ## Start B2Bi
 
 Starts all B2B services, including all ASI services plus all adapter container(s) and the webDAV server

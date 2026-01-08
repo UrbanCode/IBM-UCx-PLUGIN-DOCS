@@ -1,14 +1,6 @@
 
 # IBM Rational Asset Manager - Process Steps
 
-* [Categorize an Asset](#categorize_an_asset)
-* [Create Relationship to an Asset](#create_relationship_to_an_asset)
-* [Download Assets](#download_assets)
-* [Download Related Assets](#download_related_assets)
-* [Set Attribute](#set_attribute)
-* [Upload Asset](#upload_asset)
-
-
 ## Categorize an Asset
 
 Assign one or more categories to an asset.

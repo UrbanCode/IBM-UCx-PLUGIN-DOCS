@@ -1,9 +1,6 @@
 
 # IBM BigFix - Process Steps
 
-* [Start Action](#start_action)
-
-
 ## Start Action
 
 Create and start an action

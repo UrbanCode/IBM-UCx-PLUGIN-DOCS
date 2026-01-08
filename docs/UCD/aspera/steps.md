@@ -1,10 +1,6 @@
 
 # Aspera - Process Steps
 
-* [Download Artifacts](#download_artifacts)
-* [Upload Artifacts](#upload_artifacts)
-
-
 ## Download Artifacts
 
 Runs an Aspera FASP transfer process from an Aspera server to the localhost computer.

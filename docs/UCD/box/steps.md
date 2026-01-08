@@ -1,11 +1,5 @@
 # Box - Process Steps
 
-* [Request Enterprise Authentication](#request_enterprise_authentication)
-* [Create App User](#create_app_user)
-* [Request App User Authentication](#request_app_user_authentication)
-* [Create Folder](#create_folder)
-* [Upload File](#upload_file)
-* [Get File Download Url](#get_file_download_url)
 ## Request Enterprise Authentication
 
 Sends an HTTP call to a URL to request Authentication Token for Enterprise

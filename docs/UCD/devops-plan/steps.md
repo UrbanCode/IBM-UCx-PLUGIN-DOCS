@@ -1,15 +1,6 @@
 
 # Devops-Plan - Process Steps
 
-
-[Create Plan Record](#create-plan-record)  
-[Update Sprint](#update-sprint)  
-[Update WorkItem](#update-workitem)  
-[Update Release](#update-release)  
-[Update Any Record](#update-any-record)  
-[Delete Record](#delete-record)
-
-
 ## Create Plan Record
 
 Use this step to create a new Plan Record in DevOps Plan. This may represent a Release,Project,Work Item,Sprint.

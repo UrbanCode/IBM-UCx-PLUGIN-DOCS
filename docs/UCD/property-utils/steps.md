@@ -1,9 +1,5 @@
 # Property Utils - Process Steps
 
-* [Export Properties From UCD](#export_properties_from_ucd)
-* [Build Property File](#build_property_file)
-* [Read Properties From Property File](#read_properties_from_property_file)
-* [Read All Properties From Property File](#read_all_properties_from_property_file)
 ## Export Properties From UCD
 
 Export Properties From UCD

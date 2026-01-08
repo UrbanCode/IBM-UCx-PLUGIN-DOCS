@@ -1,13 +1,6 @@
 
 # IBM WebSphere Portal - Process Steps
 
-* [Deploy Portal WAR](#deploy_portal_war)
-* [Deploy Theme](#deploy_theme)
-* [Execute ConfigEngine command](#execute_configengine_command)
-* [Install PAA](#install_paa)
-* [Invoke XMLAccess script](#invoke_xmlaccess_script)
-
-
 ## Deploy Portal WAR
 
 Deploys a WAR on a WebSphere Portal server

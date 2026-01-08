@@ -1,7 +1,5 @@
 # Puppet - Process Steps
 
-* [Apply](#apply)
-* [Update From Puppet Master](#update_from_puppet_master)
 ## Apply
 
 Apply one or more manifest through puppet.

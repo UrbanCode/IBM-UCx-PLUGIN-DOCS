@@ -1,10 +1,6 @@
 
 # Shell - Process Steps
 
-* [Shell](#shell)
-* [Shell (with xargs)](#shell_(with_xargs))
-
-
 ## Shell
 
 Use this step to run a shell or batch script.

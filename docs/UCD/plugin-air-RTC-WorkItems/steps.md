@@ -1,12 +1,6 @@
 
 # IBM Rational Team Concert Work Items - Process Steps
 
-* [Add Work Item Comments](#add_work_item_comments)
-* [Change Work Item Status](#change_work_item_status)
-* [Check Work Item Status](#check_work_item_status)
-* [Create Work Item](#create_work_item)
-
-
 ## Add Work Item Comments
 
 Add Comments to an RTC Work Item

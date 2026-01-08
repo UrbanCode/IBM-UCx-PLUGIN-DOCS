@@ -1,6 +1,5 @@
 # HCL OneTest Performance - Process Steps
 
-* [Run an HCL OneTest Performance test](#run_an_hcl_onetest_performance_test)
 ## Run an HCL OneTest Performance test
 
 Run test using HCL OneTest Performance

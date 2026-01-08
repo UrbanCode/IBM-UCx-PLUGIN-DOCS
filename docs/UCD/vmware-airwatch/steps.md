@@ -1,7 +1,5 @@
 # VMware AirWatch - Process Steps
 
-* [Deploy IPA](#deploy_ipa)
-* [Assign IPA to group](#assign_ipa_to_group)
 ## Deploy IPA
 
 Deploy IPA to AirWatch instance

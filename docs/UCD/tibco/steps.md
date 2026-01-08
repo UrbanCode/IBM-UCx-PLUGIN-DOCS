@@ -1,15 +1,5 @@
 # TIBCO - Process Steps
 
-* [Build Tibco Enterprise Archive (.ear)](#build_tibco_enterprise_archive_(.ear))
-* [Build Multiple Tibco Enterprise Archives](#build_multiple_tibco_enterprise_archives)
-* [Deploy Tibco Enterprise Archive (.ear)](#deploy_tibco_enterprise_archive_(.ear))
-* [Deploy Multiple Tibco Enterprise Archives](#deploy_multiple_tibco_enterprise_archives)
-* [Create or update EMS Queues](#create_or_update_ems_queues)
-* [Create or update EMS Topics](#create_or_update_ems_topics)
-* [Create EMS JNDI Names](#create_ems_jndi_names)
-* [Delete Queues](#delete_queues)
-* [Delete Topics](#delete_topics)
-* [Delete JNDI Names](#delete_jndi_names)
 ## Build Tibco Enterprise Archive (.ear)
 
 Build an ear file

@@ -1,10 +1,4 @@
-# z/OS Dataset Writer - Steps
-
-
-
-## Process steps in the z/OS Dataset Writer plug-in
-
-* [Write to Sequential Dataset](#write-to-sequential-dataset)
+# z/OS Dataset Writer - Process steps 
 
 ## Write to Sequential Dataset
 

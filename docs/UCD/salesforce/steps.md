@@ -1,17 +1,6 @@
 
 # Salesforce - Process Steps
 
-
-- [Salesforce - Steps](#salesforce---steps)
-  - [Steps](#steps)
-    - [Process steps in the SalesForce plug-in](#process-steps-in-the-salesforce-plug-in)
-    - [Bulk Retrieve](#bulk-retrieve)
-    - [Deploy](#deploy)
-    - [Describe Metadata](#describe-metadata)
-    - [Deploy Recent Validation](#deploy-recent-validation)
-    - [List Metadata](#list-metadata)
-    - [Retrieve](#retrieve)
-
 ## Bulk Retrieve
 
 Download a large number of components of a single metadata type into a set of local files.

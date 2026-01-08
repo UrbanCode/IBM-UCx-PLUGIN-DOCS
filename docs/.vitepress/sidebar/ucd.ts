@@ -56,7 +56,8 @@ export const ucd: DefaultTheme.Sidebar = {
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/AccuRevSourceConfig/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/AccuRevSourceConfig/overview` },
                 { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/AccuRevSourceConfig/usage` },
-                { text: 'Steps and roles', link: `/${DEPLOY_BASE_DIR}/AccuRevSourceConfig/steps and roles` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/AccuRevSourceConfig/steps` },
+                { text: 'Roles', link: `/${DEPLOY_BASE_DIR}/AccuRevSourceConfig/roles` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/AccuRevSourceConfig/downloads` }
             ]
         }
@@ -249,7 +250,8 @@ export const ucd: DefaultTheme.Sidebar = {
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/ClearCaseSourceConfig/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/ClearCaseSourceConfig/overview` },
                 { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/ClearCaseSourceConfig/usage` },
-                { text: 'Steps and roles', link: `/${DEPLOY_BASE_DIR}/ClearCaseSourceConfig/steps and roles` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/ClearCaseSourceConfig/steps` },
+                { text: 'Roles', link: `/${DEPLOY_BASE_DIR}/ClearCaseSourceConfig/roles` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/ClearCaseSourceConfig/downloads` }
             ]
         }
@@ -305,6 +307,7 @@ export const ucd: DefaultTheme.Sidebar = {
             text: 'Dimensions',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/DimensionsSourceConfig/` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/DimensionsSourceConfig/steps` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/DimensionsSourceConfig/downloads` }
             ]
         }
@@ -334,6 +337,7 @@ export const ucd: DefaultTheme.Sidebar = {
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/DockerSourceConfig/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/DockerSourceConfig/overview` },
                 { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/DockerSourceConfig/usage` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/DockerSourceConfig/steps` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/DockerSourceConfig/downloads` },
                 { text: 'Settings', link: `/${DEPLOY_BASE_DIR}/DockerSourceConfig/settings` }
             ]
@@ -380,6 +384,7 @@ export const ucd: DefaultTheme.Sidebar = {
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/FileSystemSourceConfig/overview` },
                 { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/FileSystemSourceConfig/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/FileSystemSourceConfig/steps` },
+                { text: 'Roles', link: `/${DEPLOY_BASE_DIR}/FileSystemSourceConfig/roles` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/FileSystemSourceConfig/downloads` }
             ]
         }
@@ -395,6 +400,7 @@ export const ucd: DefaultTheme.Sidebar = {
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/FileSystemVersionedSourceConfig/overview` },
                 { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/FileSystemVersionedSourceConfig/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/FileSystemVersionedSourceConfig/steps` },
+                { text: 'Roles', link: `/${DEPLOY_BASE_DIR}/FileSystemVersionedSourceConfig/roles` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/FileSystemVersionedSourceConfig/downloads` }
             ]
         }
@@ -425,6 +431,7 @@ export const ucd: DefaultTheme.Sidebar = {
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/GitSourceConfig/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/GitSourceConfig/overview` },
                 { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/GitSourceConfig/usage` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/GitSourceConfig/steps` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/GitSourceConfig/downloads` },
                 { text: 'Settings', link: `/${DEPLOY_BASE_DIR}/GitSourceConfig/settings` },
                 { text: 'Troubleshooting', link: `/${DEPLOY_BASE_DIR}/GitSourceConfig/troubleshooting` }
@@ -828,6 +835,7 @@ export const ucd: DefaultTheme.Sidebar = {
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/MavenSourceConfig/overview` },
                 { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/MavenSourceConfig/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/MavenSourceConfig/steps` },
+                { text: 'Roles', link: `/${DEPLOY_BASE_DIR}/MavenSourceConfig/roles` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/MavenSourceConfig/downloads` }
             ]
         }
@@ -868,6 +876,7 @@ export const ucd: DefaultTheme.Sidebar = {
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/OpenShiftSourceConfig/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/OpenShiftSourceConfig/overview` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/OpenShiftSourceConfig/steps` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/OpenShiftSourceConfig/downloads` },
                 { text: 'Settings', link: `/${DEPLOY_BASE_DIR}/OpenShiftSourceConfig/settings` }
             ]
@@ -899,6 +908,7 @@ export const ucd: DefaultTheme.Sidebar = {
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/PerforceSourceConfig/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/PerforceSourceConfig/overview` },
                 { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/PerforceSourceConfig/usage` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/PerforceSourceConfig/steps` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/PerforceSourceConfig/downloads` },
                 { text: 'Settings', link: `/${DEPLOY_BASE_DIR}/PerforceSourceConfig/settings` }
             ]
@@ -914,6 +924,7 @@ export const ucd: DefaultTheme.Sidebar = {
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/PvcsSourceConfig/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/PvcsSourceConfig/overview` },
                 { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/PvcsSourceConfig/usage` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/PvcsSourceConfig/steps` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/PvcsSourceConfig/downloads` },
                 { text: 'Settings', link: `/${DEPLOY_BASE_DIR}/PvcsSourceConfig/settings` }
             ]
@@ -958,6 +969,7 @@ export const ucd: DefaultTheme.Sidebar = {
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/RAMSourceConfig/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/RAMSourceConfig/overview` },
                 { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/RAMSourceConfig/usage` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/RAMSourceConfig/steps` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/RAMSourceConfig/downloads` },
                 { text: 'Settings', link: `/${DEPLOY_BASE_DIR}/RAMSourceConfig/settings` }
             ]
@@ -1255,6 +1267,7 @@ export const ucd: DefaultTheme.Sidebar = {
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/SubversionSourceConfig/overview` },
                 { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/SubversionSourceConfig/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/SubversionSourceConfig/steps` },
+                { text: 'Roles', link: `/${DEPLOY_BASE_DIR}/SubversionSourceConfig/roles` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/SubversionSourceConfig/downloads` }
             ]
         }
@@ -1284,6 +1297,7 @@ export const ucd: DefaultTheme.Sidebar = {
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/TFS-SourceConfig/overview` },
                 { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/TFS-SourceConfig/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/TFS-SourceConfig/steps` },
+                { text: 'Roles', link: `/${DEPLOY_BASE_DIR}/TFS-SourceConfig/roles` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/TFS-SourceConfig/downloads` }
             ]
         }
@@ -1298,6 +1312,7 @@ export const ucd: DefaultTheme.Sidebar = {
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/TFS_SCM-SourceConfig/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/TFS_SCM-SourceConfig/overview` },
                 { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/TFS_SCM-SourceConfig/usage` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/TFS_SCM-SourceConfig/steps` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/TFS_SCM-SourceConfig/downloads` },
                 { text: 'Settings', link: `/${DEPLOY_BASE_DIR}/TFS_SCM-SourceConfig/settings` },
                 { text: 'Troubleshooting', link: `/${DEPLOY_BASE_DIR}/TFS_SCM-SourceConfig/troubleshooting` }
@@ -1315,6 +1330,7 @@ export const ucd: DefaultTheme.Sidebar = {
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/TeamCitySourceConfig/overview` },
                 { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/TeamCitySourceConfig/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/TeamCitySourceConfig/steps` },
+                { text: 'Roles', link: `/${DEPLOY_BASE_DIR}/TeamCitySourceConfig/roles` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/TeamCitySourceConfig/downloads` }
             ]
         }
@@ -1447,6 +1463,7 @@ export const ucd: DefaultTheme.Sidebar = {
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/WebSphereBPMSourceConfig/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/WebSphereBPMSourceConfig/overview` },
                 { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/WebSphereBPMSourceConfig/usage` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/WebSphereBPMSourceConfig/steps` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/WebSphereBPMSourceConfig/downloads` },
                 { text: 'Settings', link: `/${DEPLOY_BASE_DIR}/WebSphereBPMSourceConfig/settings` }
             ]
@@ -1645,6 +1662,7 @@ export const ucd: DefaultTheme.Sidebar = {
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/air-plugin-RTC-scm/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/air-plugin-RTC-scm/overview` },
                 { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/air-plugin-RTC-scm/usage` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/air-plugin-RTC-scm/steps` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/air-plugin-RTC-scm/downloads` },
                 { text: 'Settings', link: `/${DEPLOY_BASE_DIR}/air-plugin-RTC-scm/settings` }
             ]
@@ -1866,6 +1884,7 @@ export const ucd: DefaultTheme.Sidebar = {
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/cloud-foundry/overview` },
                 { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/cloud-foundry/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/cloud-foundry/steps` },
+                { text: 'Roles', link: `/${DEPLOY_BASE_DIR}/cloud-foundry/roles` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/cloud-foundry/downloads` },
                 { text: 'Troubleshooting', link: `/${DEPLOY_BASE_DIR}/cloud-foundry/troubleshooting` }
             ]
@@ -1988,6 +2007,7 @@ export const ucd: DefaultTheme.Sidebar = {
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/docker-plugin/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/docker-plugin/overview` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/docker-plugin/steps` },
+                { text: 'Roles', link: `/${DEPLOY_BASE_DIR}/docker-plugin/roles` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/docker-plugin/downloads` }
             ]
         }
@@ -2193,6 +2213,7 @@ export const ucd: DefaultTheme.Sidebar = {
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/ibm-odm-source-config/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/ibm-odm-source-config/overview` },
                 { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/ibm-odm-source-config/usage` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/ibm-odm-source-config/steps` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/ibm-odm-source-config/downloads` },
                 { text: 'Settings', link: `/${DEPLOY_BASE_DIR}/ibm-odm-source-config/settings` }
             ]
@@ -2309,6 +2330,7 @@ export const ucd: DefaultTheme.Sidebar = {
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/iis-configuration/overview` },
                 { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/iis-configuration/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/iis-configuration/steps` },
+                { text: 'Roles', link: `/${DEPLOY_BASE_DIR}/iis-configuration/roles` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/iis-configuration/downloads` },
                 { text: 'Troubleshooting', link: `/${DEPLOY_BASE_DIR}/iis-configuration/troubleshooting` }
             ]
@@ -2406,6 +2428,7 @@ export const ucd: DefaultTheme.Sidebar = {
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/kubernetes/overview` },
                 { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/kubernetes/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/kubernetes/steps` },
+                { text: 'Roles', link: `/${DEPLOY_BASE_DIR}/kubernetes/roles` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/kubernetes/downloads` }
             ]
         }
@@ -2824,6 +2847,7 @@ export const ucd: DefaultTheme.Sidebar = {
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/sourceconfig-github-release/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/sourceconfig-github-release/overview` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/sourceconfig-github-release/steps` },
+                { text: 'Roles', link: `/${DEPLOY_BASE_DIR}/sourceconfig-github-release/roles` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/sourceconfig-github-release/downloads` }
             ]
         }
@@ -2839,6 +2863,7 @@ export const ucd: DefaultTheme.Sidebar = {
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/sourceconfig-nexus-v3/overview` },
                 { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/sourceconfig-nexus-v3/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/sourceconfig-nexus-v3/steps` },
+                { text: 'Roles', link: `/${DEPLOY_BASE_DIR}/sourceconfig-nexus-v3/roles` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/sourceconfig-nexus-v3/downloads` }
             ]
         }
@@ -2853,6 +2878,7 @@ export const ucd: DefaultTheme.Sidebar = {
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/sourceconfig-npm/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/sourceconfig-npm/overview` },
                 { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/sourceconfig-npm/usage` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/sourceconfig-npm/steps` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/sourceconfig-npm/downloads` },
                 { text: 'Settings', link: `/${DEPLOY_BASE_DIR}/sourceconfig-npm/settings` }
             ]
@@ -2922,6 +2948,7 @@ export const ucd: DefaultTheme.Sidebar = {
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/uBuildSourceConfig/overview` },
                 { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/uBuildSourceConfig/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/uBuildSourceConfig/steps` },
+                { text: 'Roles', link: `/${DEPLOY_BASE_DIR}/uBuildSourceConfig/roles` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/uBuildSourceConfig/downloads` }
             ]
         }
@@ -3151,6 +3178,7 @@ export const ucd: DefaultTheme.Sidebar = {
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/zOSFileSourceConfig/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/zOSFileSourceConfig/overview` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/zOSFileSourceConfig/steps` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/zOSFileSourceConfig/downloads` }
             ]
         }
@@ -3271,6 +3299,7 @@ export const ucd: DefaultTheme.Sidebar = {
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/zosmf/overview` },
                 { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/zosmf/usage` },
                 { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/zosmf/steps` },
+                { text: 'Roles', link: `/${DEPLOY_BASE_DIR}/zosmf/roles` },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/zosmf/downloads` }
             ]
         }

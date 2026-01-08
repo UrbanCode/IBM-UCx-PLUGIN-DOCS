@@ -1,13 +1,6 @@
 
 # Microsoft TFS Work Items - Process Steps
 
-* [Add Comment](#add_comment)
-* [Change Work Item State](#change_work_item_state)
-* [Create Work Item](#create_work_item)
-* [Display Work Item Status](#display_work_item_status)
-* [Update Work Item](#update_work_item)
-
-
 ## Add Comment
 
 Use this step to add comments from the current changelog to matching Microsoft TFS defects.

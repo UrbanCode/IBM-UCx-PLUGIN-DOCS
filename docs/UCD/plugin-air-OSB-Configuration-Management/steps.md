@@ -1,11 +1,6 @@
 
 # Oracle Service Bus Configuration Management - Process Steps
 
-* [Apply Customization](#apply_customization)
-* [Import Configuration](#import_configuration)
-* [Import Configuration and Apply Customization](#import_configuration_and_apply_customization)
-
-
 ## Apply Customization
 
 Customize Oracle Service Bus with an XML file.

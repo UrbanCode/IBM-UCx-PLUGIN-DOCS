@@ -1,16 +1,6 @@
 
 # Microsoft Windows Services - Process Steps
 
-* [Check If Service Exists](#check_if_service_exists)
-* [Check Service Status](#check_service_status)
-* [Create Service](#create_service)
-* [Delete Service](#delete_service)
-* [Disable Service](#disable_service)
-* [Enable Service](#enable_service)
-* [Start Service](#start_service)
-* [Stop Service](#stop_service)
-
-
 ## Check If Service Exists
 
 Checks to see if one or more services exists.

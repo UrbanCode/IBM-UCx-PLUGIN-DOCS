@@ -1,11 +1,6 @@
 
 # IBM InfoSphere Optim - Process Steps
 
-* [Convert Request](#convert_request)
-* [Extract Request](#extract_request)
-* [Insert Request](#insert_request)
-
-
 ## Convert Request
 
 Runs an convert request against a database to mask values.

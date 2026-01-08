@@ -1,16 +1,6 @@
 
 # IBM Operational Decision Manager (ODM) - Process Steps
 
-
-* [Delete XOM](#delete_data_model)
-* [Delete Rule Archive](#delete_rule_archive)
-* [Deploy Data Model](#deploy_data_model)
-* [Deploy Rule Archive](#deploy_rule_archive)
-* [Fetch Rule Archive](#fetch_rule_archive)
-* [Fetch XOM](#fetch_xom)
-* [Set Property](#set_property)
-
-
 ## Delete XOM
 
 Delete a XOM from a Rule Execution Server.

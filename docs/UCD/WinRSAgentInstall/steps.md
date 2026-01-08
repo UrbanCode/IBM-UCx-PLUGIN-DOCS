@@ -1,9 +1,6 @@
 
 # WinRS Agent Install - Process Steps
 
-* [WinRS Agent Install](#winrs_agent_install)
-
-
 ## WinRS Agent Install
 
 Install agent to remote machine using WinRS

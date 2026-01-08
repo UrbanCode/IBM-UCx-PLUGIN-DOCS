@@ -1,8 +1,5 @@
 # Apache Hadoop - Process Steps
 
-* [Create Directory](#create_directory)
-* [Copy Inputs](#copy_inputs)
-* [Run Jar](#run_jar)
 ## Create Directory
 
 Creates Directory in DFS

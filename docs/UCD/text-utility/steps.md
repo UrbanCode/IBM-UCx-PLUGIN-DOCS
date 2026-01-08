@@ -1,10 +1,5 @@
 # Text Utility - Process Steps
 
-* [Search and Replace](#search_and_replace)
-* [Search and Replace with Regex](#search_and_replace_with_regex)
-* [Append text to a file](#append_text_to_a_file)
-* [Check file contains string](#check_file_contains_string)
-* [Convert file from XML to JSON](#convert_file_from_xml_to_json)
 ## Search and Replace
 
 Search for a string, replace it with another and write to the file.

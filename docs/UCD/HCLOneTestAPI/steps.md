@@ -1,6 +1,5 @@
 # HCL OneTest API - Process Steps
 
-* [Run HCL OneTest API Test](#run_hcl_onetest_api_test)
 ## Run HCL OneTest API Test
 
 Run test using HCL OneTest API

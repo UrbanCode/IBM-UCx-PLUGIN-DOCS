@@ -1,25 +1,5 @@
 # Siebel - Process Steps
 
-* [Configure ImportSiebelMessage_single](#configure_importsiebelmessage_single)
-* [Configure BusinessService_ImportBSFromXML](#configure_businessservice_importbsfromxml)
-* [Configure BusProc_WorkfImport_single](#configure_busproc_workfimport_single)
-* [Configure BusProc_WorkfDeploy_single](#configure_busproc_workfdeploy_single)
-* [Configure Data_LOV_single](#configure_data_lov_single)
-* [Configure Group_Position_single](#configure_group_position_single)
-* [Configure Group_InternalDivision_single](#configure_group_internaldivision_single)
-* [Configure OrderManagement_Signals_single](#configure_ordermanagement_signals_single)
-* [Configure Enterprises_ProfileConfiguration_single](#configure_enterprises_profileconfiguration_single)
-* [Shell Import Repository File](#shell_import_repository_file)
-* [Shell Start or Stop Servers](#shell_start_or_stop_servers)
-* [Shell Copy or Move File](#shell_copy_or_move_file)
-* [Configure RuntimeEvents_Events_single](#configure_runtimeevents_events_single)
-* [Configure Applications_Views_create_single](#configure_applications_views_create_single)
-* [Configure Applications_Responsibilities_create_single](#configure_applications_responsibilities_create_single)
-* [Configure Application_Responsibility_View_associate_single](#configure_application_responsibility_view_associate_single)
-* [Configure Application_PredefinedQueries_single](#configure_application_predefinedqueries_single)
-* [Configure ServerConfiguration_JobTemplates_single](#configure_serverconfiguration_jobtemplates_single)
-* [Shell Generate Browser Scripts](#shell_generate_browser_scripts)
-* [Configure Integration_SymbolicURLList_single](#configure_integration_symbolicurllist_single)
 ## Configure ImportSiebelMessage_single
 
 Import XML file that contains a SiebelMessage tag (Data Maps, WebServices, etc). For Workflows, please use the special Workflow import.

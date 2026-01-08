@@ -1,34 +1,6 @@
 
 # OpenShift for IBM DevOps Deploy - Process Steps
 
-
-- [OpenShift for IBM DevOps Deploy - Steps]
-(#openshift-for-ibm-devops-deploy---steps)
-  - [Steps](#steps)
-    - [Process steps in the OpenShift plug-in](#process-steps-in-the-openshift-plug-in)
-      - [Add Tag](#add-tag)
-      - [Apply](#apply)
-      - [Cancel Build](#cancel-build)
-      - [Create](#create)
-      - [Create New-App](#create-new-app)
-      - [Create Object From Template](#create-object-from-template)
-      - [Create Secret](#create-secret)
-      - [Delete](#delete)
-      - [Deploy](#deploy)
-      - [Expose](#expose)
-      - [Login](#login)
-      - [New Build](#new-build)
-      - [Patch DeploymentConfig](#patch-deploymentconfig)
-      - [Patch Secret](#patch-secret)
-      - [Replace DeploymentConfig](#replace-deploymentconfig)
-      - [Rollback](#rollback)
-      - [Rollout](#rollout)
-      - [Scale](#scale)
-      - [Set Env](#set-env)
-      - [Set Image](#set-image)
-      - [Set Triggers](#set-triggers)
-      - [Start Build](#start-build)
-
 ## Add Tag
 
 Tag existing images into image streams.

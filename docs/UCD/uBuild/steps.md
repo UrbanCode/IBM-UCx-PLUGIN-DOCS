@@ -1,12 +1,6 @@
 
 # IBM DevOps uBuild - Process Steps
 
-* [Assign Label](#assign_label)
-* [Assign Status](#assign_status)
-* [Download Artifacts](#download_artifacts)
-* [Run Secondary Process](#run_secondary_process)
-
-
 ## Assign Label
 
 Use this step to assign a label to a build life in uBuild.

@@ -1,8 +1,5 @@
 # Microsoft Software Installer (MSI) - Process Steps
 
-* [Install MSI](#install_msi)
-* [Uninstall MSI](#uninstall_msi)
-* [Execute msiexec](#execute_msiexec)
 ## Install MSI
 
 Install MSI

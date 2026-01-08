@@ -1,12 +1,5 @@
 # HCL DevOps Test Virtualization (Test Virtualization) - Process Steps
 
-* [Start Stub](#start_stub)
-* [Stop Stub](#stop_stub)
-* [Create Transient Environment](#create_transient_environment)
-* [Delete Transient Environment](#delete_transient_environment)
-* [Update Transient Environment](#update_transient_environment)
-* [Start Scenario](#start_scenario)
-* [Stop Scenario](#stop_scenario)
 ## Start Stub
 
 Start a stub.

@@ -1,13 +1,6 @@
 
 # BMC Remedy Action Request System - Process Steps
 
-
-* [Check Entry](#check_entry)
-* [Create Entry](#create_entry)
-* [Import Definitions](#import_definitions)
-* [Update Entry](#update_entry)
-
-
 ## Check Entry
 
 Check an entry in a form in BMC Remedy.

@@ -1,8 +1,5 @@
 # Amazon Web Services (AWS) Lambda - Process Steps
 
-* [Create Function](#create_function)
-* [Delete Function](#delete_function)
-* [Invoke](#invoke)
 ## Create Function
 
 Create a new AWS Lambda function. (create-function)

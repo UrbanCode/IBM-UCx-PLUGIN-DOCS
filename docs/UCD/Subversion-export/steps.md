@@ -1,9 +1,6 @@
 
 # Subversion-Export - Process Steps
 
-* [Svn Export](#svn_export)
-
-
 ## Svn Export
 
 Use this step to checkout or export data from the Subversion repository.

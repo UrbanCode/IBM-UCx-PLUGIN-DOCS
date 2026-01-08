@@ -1,9 +1,5 @@
 # Jenkins Job Manager - Process Steps
 
-* [Start Job](#start_job)
-* [Enable Job](#enable_job)
-* [Disable Job](#disable_job)
-* [Delete Job](#delete_job)
 ## Start Job
 
 Start Jenkins Job

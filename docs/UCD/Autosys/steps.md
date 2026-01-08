@@ -1,8 +1,5 @@
 # Autosys - Process Steps
 
-* [Send Autosys Event](#send_autosys_event)
-* [Check Autosys Server](#check_autosys_server)
-* [Execute JIL Script](#execute_jil_script)
 ## Send Autosys Event
 
 Send event to CA Workload Automation AE Application Server

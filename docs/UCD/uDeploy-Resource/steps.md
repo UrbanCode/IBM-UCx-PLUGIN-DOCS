@@ -1,35 +1,6 @@
 
 # IBM DevOps Deploy Resources - Process Steps
 
-## Process steps in the IBM DevOps Deploy Resources plug-in
-
-* [Add Resource To Team](#add_resource_to_team)
-* [Add Tag to Resource](#add_tag_to_resource)
-* [Apply Resource Template](#apply_resource_template)
-* [Check If Resource Exists](#check_if_resource_exists)
-* [Check If Resource Has Role](#check_if_resource_has_role)
-* [Create Resource](#create_resource)
-* [Delete Agent](#delete_agent)
-* [Delete Many Agents](#delete_many_agents)
-* [Delete Many Resources](#delete_many_resources)
-* [Delete Resource](#delete_resource)
-* [Delete Resource Inventory For Component](#delete_resource_inventory_for_component)
-* [Get Agent Details](#get_agent_details)
-* [Get Agent Property](#get_agent_property)
-* [Get Component Version For Resource](#get_component_version_for_resource)
-* [Get Resource Property](#get_resource_property)
-* [Get Resource Role Property](#get_resource_role_property)
-* [Install Agent with SSH](#install_agent_with_ssh)
-* [Map Component Tag to Resource](#map_component_tag_to_resource)
-* [Remove Tag From Resource](#remove_tag_from_resource)
-* [Set Agent Property](#set_agent_property)
-* [Set Resource Property](#set_resource_property)
-* [Set Resource Role Property](#set_resource_role_property)
-* [Synchronize Resources](#synchronize_resources)
-* [Wait for Resources](#wait_for_resources)
-* [Create Multiple Resources](#create_multiple_resources)
-
-
 ## Add Resource To Team
 
 Adds a resource to a team for a given type classification.

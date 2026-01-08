@@ -1,12 +1,6 @@
 
 # IBM DevOps Deploy Tools - Process Steps
 
-* [Check Total Application Process Execution Time](#check_total_application_process_execution_time)
-* [Check Total Component Process Execution Time](#check_total_component_process_execution_time)
-* [Verify Deployment](#verify_deployment)
-* [Wait for web page](#wait_for_web_page)
-
-
 ## Check Total Application Process Execution Time
 
 Check the run time of the application process and fail if the time is greater than the specified threshold.
