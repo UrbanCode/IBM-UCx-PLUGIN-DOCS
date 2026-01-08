@@ -51,7 +51,7 @@ Some properties might not be displayed in the user interface, to see all propert
 
 | Name | Description | Required | Property Name |
 | --- | --- | --- | --- |
-| Integration Name | An assigned name to the value stream. | Yes | name |
+| Integration Name | The name of the integration. | Yes | name |
 | Logging Level | The level of Log4j messages to display in the log file. Valid values are: all, debug, info, warn, error, fatal, off, and trace. | No | loggingLevel |
 | properties | List of plug-in configuration properties used to connect and communicate with the BitBucket Cloud. Enclose the properties within braces. | Yes | properties |
 | Tenant id | The name of the tenant. | Yes | tenant_id |
