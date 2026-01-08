@@ -1,30 +1,6 @@
 
 # F5 BIG-IP - Process Steps
 
-
-* [Add Pool Member](#add_pool_member)
-* [Confirm Disabled Node](#confirm_disabled_node)
-* [Confirm Enabled Node](#confirm_enabled_node)
-* [Create Address Data Group](#create_address_data_group)
-* [Create External Data Group](#create_external_data_group)
-* [Create Node](#create_node)
-* [Create Pool](#create_pool)
-* [Create String Data Group](#create_string_data_group)
-* [Create Value Data Group](#create_value_data_group)
-* [Create iRule](#create_irule)
-* [Delete Data Group](#delete_data_group)
-* [Delete Node](#delete_node)
-* [Delete Pool](#delete_pool)
-* [Delete iRule](#delete_irule)
-* [Disable Node](#disable_node)
-* [Disable Pool Member](#disable_pool_member)
-* [Enable Node](#enable_node)
-* [Enable Pool Member](#enable_pool_member)
-* [Get iRule Statistics](#get_irule_statistics)
-* [Modify External Data Group](#modify_external_data_group)
-* [Remove Pool Member](#remove_pool_member)
-
-
 ## Add Pool Member
 
 Add a node to a pool.

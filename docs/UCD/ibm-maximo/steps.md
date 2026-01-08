@@ -1,9 +1,5 @@
 # IBM Maximo - Process Steps
 
-
-- Deploy Package
-- Upload Package
-
 ## Deploy Package
 
 - Deploy package to maximo migration manager target environment

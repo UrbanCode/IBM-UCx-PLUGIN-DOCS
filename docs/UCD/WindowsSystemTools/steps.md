@@ -1,26 +1,6 @@
 
 # Microsoft Windows System Tools - Process Steps
 
-* [Add Or Overwrite Registry Key](#add_or_overwrite_registry_key)
-* [Check File Contents](#check_file_contents)
-* [Configure DCOM Settings](#configure_dcom_settings)
-* [Create Message Queues](#create_message_queues)
-* [Create Windows Event Log](#create_windows_event_log)
-* [Create Windows Scheduled Task](#create_windows_scheduled_task)
-* [Delete Registry Key](#delete_registry_key)
-* [Delete Scheduled Task](#delete_scheduled_task)
-* [Disable Windows Features](#disable_windows_features)
-* [Enable Windows Features](#enable_windows_features)
-* [End Scheduled Task](#end_scheduled_task)
-* [Export Registry Subkey to File](#export_registry_subkey_to_file)
-* [Import Registry Files](#import_registry_files)
-* [Log off Notification](#log_off_notification)
-* [Log off Sessions](#log_off_sessions)
-* [Modify ACLs](#modify_acls)
-* [Reboot](#reboot)
-* [Run Scheduled Task](#run_scheduled_task)
-
-
 ## Add Or Overwrite Registry Key
 
 Adds or Overwrites a Key to the Registry

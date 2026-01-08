@@ -1,10 +1,6 @@
-# Steps
+# Terraform - Process steps 
 
----
-
-## Process steps in the Terraform-IAAC plug-in
-
-### Run Terraform Command (AWS)
+## Run Terraform Command (AWS)
 
 Use this step to run a terraform script.
 

@@ -1,14 +1,5 @@
 # Apple Xcode - Process Steps
 
-* [Install Application](#install_application)
-* [Remove Application](#remove_application)
-* [UI Test](#ui_test)
-* [Unit Test](#unit_test)
-* [xcrun](#xcrun)
-* [Create Simulator](#create_simulator)
-* [Delete Simulator](#delete_simulator)
-* [Start Simulator](#start_simulator)
-* [Stop Simulator](#stop_simulator)
 ## Install Application
 
 Installs the iOS application (an .ipa or .app file).

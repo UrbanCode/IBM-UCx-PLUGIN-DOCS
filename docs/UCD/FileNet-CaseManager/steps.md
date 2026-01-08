@@ -1,15 +1,6 @@
 
 # FileNet - IBM Case Manager - Process Steps
 
-
-* [Deploy Solution](#deploy)
-* [Export Solution](#export_solution)
-* [Import Solution](#import_solution)
-* [Export Security Manifest](#export_security)
-* [Import Security Manifest](#import_security)
-* [Apply Security Manifest](#apply_security)
-
-
 ## Deploy Solution
 
 Runs a Deploy Solution task via the execute command for a specified production profile. The location of the configuration file where the target and solution are set is ``${installPath}``/configure/profiles/``${profile}``/deploysolution.xml.

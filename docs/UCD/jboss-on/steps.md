@@ -1,8 +1,5 @@
 # JBoss ON - Process Steps
 
-* [Execute JavaScript](#execute_javascript)
-* [Configure Resources](#configure_resources)
-* [Check Status](#check_status)
 ## Execute JavaScript
 
 Execute a JavaScript file on the JBoss ON server.

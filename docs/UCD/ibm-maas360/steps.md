@@ -1,13 +1,5 @@
 # IBM MaaS360 - Process Steps
 
-* [Request Authentication](#request_authentication)
-* [Upgrade App](#upgrade_app)
-* [Upgrade App Plus](#upgrade_app_plus)
-* [Add iOS Mobile App](#add_ios_mobile_app)
-* [Distribute APP](#distribute_app)
-* [Get Device Groups](#get_device_groups)
-* [Get App Details](#get_app_details)
-* [Mark As Primary](#mark_as_primary)
 ## Request Authentication
 
 Sends an HTTP call to a URL for Authentication Token

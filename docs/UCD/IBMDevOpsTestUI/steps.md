@@ -1,6 +1,5 @@
 # IBM DevOps Test UI (Test UI) - Process Steps
 
-* [Run an IBM DevOps Test UI - Functional Test](#run_an_ibm_devops_test_ui_-_functional_test)
 ## Run an IBM DevOps Test UI - Functional Test
 
 Run test using IBM DevOps Test UI - Functional Test

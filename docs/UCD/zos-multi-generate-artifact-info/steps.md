@@ -1,9 +1,5 @@
 # z/OS Multi Generate Artifact Information - Process Steps
 
-
-* [Generate Multiple Artifact Information](#generate-multiple-artifact-information)
-* [Generate Multiple Artifact Information YAML](#generate-multiple-artifact-information-yaml)
-
 > **Note:**
 > ---------
 >* Deployment Action filter is applicable only if **Backup** is enabled in [Deploy Data Sets And Uss Files](../zos-deploy/steps.md#deploy-datasets-and-uss-files) step

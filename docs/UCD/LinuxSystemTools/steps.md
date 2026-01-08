@@ -1,14 +1,6 @@
 
 # Linux System Tools - Process Steps
 
-* [Add group](#add_group)
-* [Add user](#add_user)
-* [Change file ownership](#change_file_ownership)
-* [Reboot](#reboot)
-* [Set file permissions](#set_file_permissions)
-* [Update fstab](#update_fstab)
-
-
 ## Add group
 
 Use this step to add a user group to this Linux system.

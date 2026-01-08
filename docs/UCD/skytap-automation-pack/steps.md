@@ -1,25 +1,5 @@
 # Skytap Automation Pack - Process Steps
 
-* [Skytap Authentication](#skytap_authentication)
-* [Create Environment from Template](#create_environment_from_template)
-* [Change Environment State](#change_environment_state)
-* [Change VM State](#change_vm_state)
-* [Get VM ID](#get_vm_id)
-* [Set VM User Data](#set_vm_user_data)
-* [Connect to Network in another Environment (ICNR)](#connect_to_network_in_another_environment_(icnr))
-* [Connect to VPN Tunnel](#connect_to_vpn_tunnel)
-* [Add Environment to Project](#add_environment_to_project)
-* [Add Template to Project](#add_template_to_project)
-* [Create Template from Environment](#create_template_from_environment)
-* [Delete Environment](#delete_environment)
-* [Delete VM from Environment](#delete_vm_from_environment)
-* [Add Template to Environment](#add_template_to_environment)
-* [Add VM from Template to Environment](#add_vm_from_template_to_environment)
-* [List Published URL for Environment](#list_published_url_for_environment)
-* [Create Published URL for Environment](#create_published_url_for_environment)
-* [Create Published Service for VM](#create_published_service_for_vm)
-* [List Published Service for VM](#list_published_service_for_vm)
-* [Bind Dynamic Agent to Component](#bind_dynamic_agent_to_component)
 ## Skytap Authentication
 
 Establish Authentication Credentials for Subsequent Skytap Operations

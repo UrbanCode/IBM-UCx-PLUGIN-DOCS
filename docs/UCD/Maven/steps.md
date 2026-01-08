@@ -1,10 +1,6 @@
 
 # Maven Resolve - Process Steps
 
-
-* [Maven Resolve](#maven_resolve)
-
-
 ## Maven Resolve
 
 Resolve artifacts from Maven.

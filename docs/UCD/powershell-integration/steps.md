@@ -1,9 +1,6 @@
 
 # PowerShell - Process Steps
 
-
-* [Run PowerShell Script](#run_powershell_script)
-
 ## Run PowerShell Script
 
 Runs a PowerShell script. This step allows for bidirectional passing of script variables and DevOps Deploy properties.

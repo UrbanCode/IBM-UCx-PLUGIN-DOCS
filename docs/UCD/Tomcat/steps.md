@@ -1,15 +1,6 @@
 
 # Apache Tomcat - Process Steps
 
-* [Check Application Status](#check_application_status)
-* [Deploy Application](#deploy_application)
-* [Start Application](#start_application)
-* [Start Tomcat](#start_tomcat)
-* [Stop Application](#stop_application)
-* [Stop Tomcat](#stop_tomcat)
-* [Undeploy Application](#undeploy_application)
-
-
 ## Check Application Status
 
 Check the status of a deployed application against an expected status.

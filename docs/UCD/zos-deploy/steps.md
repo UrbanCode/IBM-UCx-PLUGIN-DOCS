@@ -1,24 +1,4 @@
-# Steps
-
-- [Allocate Data Set](#allocate-data-set)
-- [Allocate Data Set From Existing](#allocate-data-set-from-existing)
-- [Allocate SMS Managed Data Set](#allocate-sms-managed-data-set)
-- [Copy Artifacts](#copy-artifacts)
-- [Copy Data Set](#copy-data-set)
-- [Deploy Datasets and USS Files](#deploy-datasets-and-uss-files)
-- [FTP Artifacts](#ftp-artifacts)
-- [Generate Artifact Information](#generate-artifact-information)
-- [Remove All Versions](#remove-all-versions)
-- [Remove Redundant Versions](#remove-redundant-versions)
-- [Replace Tokens MVS](#replace-tokens-mvs)
-- [Rollback Datasets and USS Files](#rollback-datasets-and-uss-files)
-- [Run MVS Command](#run-mvs-command)
-- [Run TSO or ISPF Command](#run-tso-or-ispf-command)
-- [Submit Job](#submit-job)
-- [Wait For Job](#wait-for-job)
-- [Delete Dataset](#delete-dataset)
-- [Cleanup Backup Files](#cleanup-backup-files)
-- [Restore Backup Datasets](#restore-backup-datasets)
+# z/OS Utility - Process Steps
 
 ## Allocate Data Set
 

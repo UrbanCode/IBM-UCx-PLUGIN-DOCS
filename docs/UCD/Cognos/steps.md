@@ -1,10 +1,6 @@
 
 # IBM Cognos - Process Steps
 
-* [Export](#export)
-* [Import](#import)
-
-
 ## Export
 
 Export content from the content store to an archive file in the deployment directory within your Cognos home.
