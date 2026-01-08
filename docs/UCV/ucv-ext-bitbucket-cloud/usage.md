@@ -62,9 +62,9 @@ Some properties might not be displayed in the user interface, to see all propert
 | Name | Type | Description | Required | Property Name |
 | ----- | --- | --- | --- | --- |
 | Base API URL | String | The base URL of BitBucket Cloud API. URL is https://api.bitbucket.org/2.0 | Yes | baseUrl |
-| Username | String | The username must be your Atlassian account email address. | Yes | username |
-| API Token | Secure | Use your API token as the password. To generate a token, refer to: https://support.atlassian.com/bitbucket-cloud/docs/create-an-api-token/. Applicable for version 1.0.37 or later | Yes | password |
-| App Password | Secure | Use your API token as the password. To generate a token, refer to: https://support.atlassian.com/bitbucket-cloud/docs/create-an-api-token/. Applicable for version 1.0.36 or earlier | Yes | password |
+| Username | String | The username must be Atlassian account email. | Yes | username |
+| API Token | Secure | The API token to authenticate with BitBucket cloud. To generate a token, refer to: https://support.atlassian.com/bitbucket-cloud/docs/create-an-api-token/. This field is applicable only for version 1.0.37 or later. | Yes | password |
+| App Password | Secure | Use your API token as the password. To generate a token, refer to: https://support.atlassian.com/bitbucket-cloud/docs/create-an-api-token/. This field is applicable only for version 1.0.36 or earlier. | Yes | password |
 | Project Key | String | The repository project key. | Yes | projectKey |
 | Repository Name | Array | The comma separated name of the repositories | Yes | repositoryName |
 | API Limits | String | Maximum API calls that the plug-in will make in a single run. | No | apiLimits |
@@ -73,11 +73,6 @@ Some properties might not be displayed in the user interface, to see all propert
 | Proxy Password | Secure | The password used to authenticate with the proxy server. | No | proxyPassword |
 | Proxy Server | String | The URL of the proxy server including the port number. The URL protocol can be http or https. | No | proxyServer |
 | Proxy User Name | String | The user name used to authenticate with the proxy server. | No | proxyUsername |
-
-**Note**:
-* You must enter the account email address in the Username field instead of account username.
-* Base API Url is https://api.bitbucket.org/2.0
-* For version 1.0.36 or earlier, you must enter API token created with scope in the App Password field.
 
 ## JSON code example
 
