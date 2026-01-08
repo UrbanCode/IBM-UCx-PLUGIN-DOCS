@@ -17,16 +17,8 @@ DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-bitbucket-cloud/tags).
 
 ### Version 1.0.37
 
-* **Bug Fix**: Fixed an issue where Bitbucket Pull Requests continued to appear as open in the Value Stream even after being closed or merged. Pull Request statuses are now correctly updated and reflected in the Value Stream.
-
-* **Update**: The App Password field has been replaced with API Token authentication. Customers must generate and use an API Token with the appropriate scopes for successful authentication.
-Username and App password-based authentication has been removed in Bitbucket Cloud. You are now required to authenticate using account email address and API token.
-
-**Note**:
-* The Atlassian account email address should be entered in the Username field instead of the account username.
-* For version 1.0.36 or earlier, you must enter API token in the App Password field.
-* Base API Url is https://api.bitbucket.org/2.0
-
+* Username and App password-based authentication has been removed in Bitbucket Cloud. You are now required to authenticate using account email address and API token.
+* Fixed issues with Pull request status sync-up in the Value Stream. Previously, the pull request status was displaying as open in value stream even though the status of the Pull request in BitBucket server is closed or merged.
 
 ### Version 1.0.36
 

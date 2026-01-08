@@ -63,8 +63,8 @@ Some properties might not be displayed in the user interface, to see all propert
 | ----- | --- | --- | --- | --- |
 | Base API URL | String | The base URL of BitBucket Cloud API. URL is https://api.bitbucket.org/2.0 | Yes | baseUrl |
 | Username | String | The username must be your Atlassian account email address. | Yes | username |
-| API Token (applicable for version 1.0.37 or later)| Secure | Use your API token as the password. To generate a token, refer to: https://support.atlassian.com/bitbucket-cloud/docs/create-an-api-token/ | Yes | password |
-| App Password (applicable for version 1.0.36 or earlier) | Secure | Use your API token as the password. To generate a token, refer to: https://support.atlassian.com/bitbucket-cloud/docs/create-an-api-token/ | Yes | password |
+| API Token | Secure | Use your API token as the password. To generate a token, refer to: https://support.atlassian.com/bitbucket-cloud/docs/create-an-api-token/. Applicable for version 1.0.37 or later | Yes | password |
+| App Password | Secure | Use your API token as the password. To generate a token, refer to: https://support.atlassian.com/bitbucket-cloud/docs/create-an-api-token/. Applicable for version 1.0.36 or earlier | Yes | password |
 | Project Key | String | The repository project key. | Yes | projectKey |
 | Repository Name | Array | The comma separated name of the repositories | Yes | repositoryName |
 | API Limits | String | Maximum API calls that the plug-in will make in a single run. | No | apiLimits |
@@ -75,26 +75,9 @@ Some properties might not be displayed in the user interface, to see all propert
 | Proxy User Name | String | The user name used to authenticate with the proxy server. | No | proxyUsername |
 
 **Note**:
-* The Atlassian account email address should be entered in the Username field instead of the account username.
+* You must enter the account email address in the Username field instead of account username.
 * Base API Url is https://api.bitbucket.org/2.0
 * For version 1.0.36 or earlier, you must enter API token created with scope in the App Password field.
-
-To create API Token
-
-Click on create API Token with scope
-![](images/bitbucket1.png)
-
-Provide token name
-![](images/bitbucket2.png)
-
-Select bitbucket
-![](images/bitbucket3.png)
-
-Select required scope
-![](images/bitbucket4.png)
-
-Click on create token
-![](images/bitbucket5.png)
 
 ## JSON code example
 
