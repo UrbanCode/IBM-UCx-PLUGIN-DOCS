@@ -17,6 +17,14 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ## History
 
+### Version 25
+
+* Fixed issue while loading the plugin
+
+### Version 24
+
+* Fixing CVE:CVE-2019-4233
+
 ### Version 23
 
 * Add dependency on version 30 of the DevOps Versioned File Storage plug-in.
