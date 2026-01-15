@@ -26,6 +26,10 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 ## History
 
+### Version 4
+
+* Added support for Azure provider to run , plan and destroy
+
 ### Version 3
 
 * Allow Users to run plan and Destroy command for GCP
