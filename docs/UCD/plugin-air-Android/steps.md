@@ -1,16 +1,5 @@
 # Google Android SDK - Process Steps
 
-* [Install Application](#install_application)
-* [Remove Application](#remove_application)
-* [Random UI Test](#random_ui_test)
-* [UI Test](#ui_test)
-* [Unit Test](#unit_test)
-* [ADB](#adb)
-* [Android](#android)
-* [Create Emulator](#create_emulator)
-* [Remove Emulator](#remove_emulator)
-* [Start Emulator](#start_emulator)
-* [Stop Emulator](#stop_emulator)
 ## Install Application
 
 Installs the Android APK application.

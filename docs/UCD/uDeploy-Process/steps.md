@@ -1,11 +1,6 @@
 
 # IBM DevOps Deploy Process - Process Steps
 
-
-* [Set Link on Process Request](#set_link_on_process_request)
-* [Set Process Request Property](#set_process_request_property)
-
-
 ## Set Link on Process Request
 
 Creates or removes a link on a process request that can direct users to supplementary information related to the process execution.

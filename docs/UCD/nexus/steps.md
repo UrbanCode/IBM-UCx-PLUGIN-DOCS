@@ -1,9 +1,6 @@
 
 # Nexus - Process Steps
 
-* [Download NuGet package](#download_nuget_package)
-
-
 ## Download NuGet package
 
 Download a NuGet package from a Nexus repository.

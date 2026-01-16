@@ -1,27 +1,6 @@
 
 # IBM Containers - Process Steps
 
-
-* [Bind IP Address](#bind_ip_address)
-* [Build Image from Dockerfile](#build_image_from_dockerfile)
-* [Create Group](#create_group)
-* [Execute Command On Container](#execute_command_on_container)
-* [Initialize Plug-in](#initialize_plug-in)
-* [Install IBM Containers Plug-in](#install_ibm_containers_plug-in)
-* [Log in to Cloud Foundry](#log_in_to_cloud_foundry)
-* [Log out of Cloud Foundry](#log_out_of_cloud_foundry)
-* [Release IP Address](#release_ip_address)
-* [Remove Group](#remove_group)
-* [Request IP Address](#request_ip_address)
-* [Run Container](#run_container)
-* [Set Namespace](#set_namespace)
-* [Start Containers](#start_containers)
-* [Stop Containers](#stop_containers)
-* [Unbind IP Address](#unbind_ip_address)
-* [Uninstall IBM Containers Plug-in](#uninstall_ibm_containers_plug-in)
-* [Update Group](#update_group)
-
-
 ## Bind IP Address
 
 Bind a floating IP address to a running container. You must be logged in to Cloud Foundry before running this step by either running the Log in to Cloud Foundry step or by manually logging in on the agent computer.

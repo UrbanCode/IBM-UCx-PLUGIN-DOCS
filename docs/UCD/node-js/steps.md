@@ -1,8 +1,5 @@
 # Node.js - Process Steps
 
-* [Install](#install)
-* [Install Module](#install_module)
-* [Configure npm](#configure_npm)
 ## Install
 
 Install Nodejs on a target server.

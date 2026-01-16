@@ -1,10 +1,5 @@
 
 # Chef - Process steps
-============
-
-* [Install Chef](#install_chef)
-* [Install Chef Node](#install_chef_node)
-
 
 ## Install Chef
 

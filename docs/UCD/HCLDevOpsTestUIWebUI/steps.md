@@ -1,6 +1,5 @@
 # HCLDevOpsTestUIWebUIHCL DevOps Test UI - Web UI - Process Steps
 
-* [Run an HCL DevOps Test UI - UI Test](#run_an_hcl_devops_test_ui_-_ui_test)
 ## Run an HCL DevOps Test UI - UI Test
 
 Run test using HCL DevOps Test UI - UI Test

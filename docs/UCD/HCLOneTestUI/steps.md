@@ -1,6 +1,5 @@
 # HCL OneTest UI - Process Steps
 
-* [Run an HCL OneTest UI - Functional Test](#run_an_hcl_onetest_ui_-_functional_test)
 ## Run an HCL OneTest UI - Functional Test
 
 Run test using HCL OneTest UI - Functional Test

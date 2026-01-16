@@ -1,7 +1,5 @@
 # eggPlant - Process Steps
 
-* [Run eggPlant scripts](#run_eggplant_scripts)
-* [Run eggPlant commands](#run_eggplant_commands)
 ## Run eggPlant scripts
 
 The step that executes the eggPlant Functional "runscript" command for comand line execution.

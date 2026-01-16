@@ -1,6 +1,5 @@
 # IBM Rational ClearQuest - Process Steps
 
-* [Add Related Change Request](#add_related_change_request)
 ## Add Related Change Request
 
 Add a Related Change Request link to a record. (Note: This will remove all other links.)

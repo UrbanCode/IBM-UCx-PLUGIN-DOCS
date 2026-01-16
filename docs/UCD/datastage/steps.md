@@ -1,18 +1,6 @@
 
 # IBM InfoSphere DataStage - Process Steps
 
-## Process steps in the DataStage plug-in
-
-* [Compile Job or Routine](#compile_job_or_routine)
-* [DSX Import Service](#dsx_import_service)
-* [Delete Assets](#delete_assets)
-* [Export DSX Project](#export_dsx_project)
-* [Export ISX Project](#export_isx_project)
-* [Import DSX Project](#import_dsx_project)
-* [Import ISX Project](#import_isx_project)
-* [List DSX File Contents](#list_dsx_file_contents)
-
-
 ## Compile Job or Routine
 
 Compile a DataStage job or routine silently. Note: All environmental dependencies must be set before this step runs, otherwise dialog boxes are displayed on the agent server and the process stops. The step continues normally after the dialog boxes are confirmed.

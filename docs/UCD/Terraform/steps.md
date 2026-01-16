@@ -1,6 +1,4 @@
-# Steps
-
----
+# Terraform - Process steps 
 
 ## Process steps in the Terraform-IAAC plug-in
 

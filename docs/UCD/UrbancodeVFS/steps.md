@@ -1,14 +1,6 @@
 
 # IBM DevOps Deploy Versioned File Storage - Process Steps
 
-* [Download Artifacts](#download-artifacts)
-* [Download Artifacts for zOS](#download-artifacts-for-zos)
-* [Sync Artifacts](#sync-artifacts)
-* [Upload Artifacts](#upload-artifacts)
-* [Verify Local Artifacts](#verify-local-artifacts)
-* [Compare version Artifacts for zOS](#compare-version-artifacts-for-zos)
-
-
 ## Download Artifacts
 
 Download artifacts from a VFS server.

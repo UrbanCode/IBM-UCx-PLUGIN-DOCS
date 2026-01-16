@@ -1,6 +1,5 @@
 # IBM DevOps Test Hub (Test Hub) - Process Steps
 
-* [Run IBM DevOps Test Hub test](#run_ibm_devops_test_hub_test)
 ## Run IBM DevOps Test Hub test
 
 Start a job on IBM DevOps Test Hub.
