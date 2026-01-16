@@ -18,7 +18,7 @@ The plug-in is compatible with:
 
 ## Available Steps
 
-* Run Terraform Command (AWS).
+* Run Terraform Command .
 
 ## Installation
 
