@@ -2,11 +2,11 @@
 
 ---
 
-The IBM DevOps Deploy Plugin for Terraform on AWS is designed to integrate Terraform capabilities with IBM DevOps Deploy.
+The IBM DevOps Deploy Plugin for Terraform is designed to integrate Terraform capabilities with multiple cloud providers, including AWS, Microsoft Azure, and Google Cloud Platform (GCP).
 
-This enables automated provisioning of AWS cloud resources within an enterprise DevOps pipeline.
+This enables automated provisioning and management of cloud resources across supported providers within an enterprise DevOps pipeline.
 
-This plugin allows you to  deploy AWS infrastructure using Terraform, ensuring consistency, repeatability, and automation in your DevOps workflows.
+The plugin allows you to deploy infrastructure using Terraform ensuring consistency, repeatability, and automation in your DevOps workflows.
 
 
 ## Compatibility

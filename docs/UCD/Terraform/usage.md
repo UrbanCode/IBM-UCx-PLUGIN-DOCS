@@ -1,7 +1,7 @@
 # Usage
 
 ---
-You can use the Terraform plug-in to execute any terraform script related to the AWS cloud services.
+You can use the Terraform plug-in to execute any terraform script related to the AWS, GCP and Azure Cloud Services.
 
 ## **Prerequisites:**
 
