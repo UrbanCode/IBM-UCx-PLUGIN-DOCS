@@ -1,6 +1,5 @@
 # HCL DevOps Test Performance (Test Performance) - Process Steps
 
-* [Run an DevOps Test Performance test](#run_an_devops_test_performance_test)
 ## Run an DevOps Test Performance test
 
 Run test using DevOps Test Performance

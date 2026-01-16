@@ -1,25 +1,5 @@
 # Datical DB - Process Steps
 
-* [Run Groovy Script](#run_groovy_script)
-* [Register and Baseline Datical DB Project](#register_and_baseline_datical_db_project)
-* [Create Datical DB Project](#create_datical_db_project)
-* [Get Datical DB Version](#get_datical_db_version)
-* [Deploy with Datical DB](#deploy_with_datical_db)
-* [Validate and Forecast with Datical DB](#validate_and_forecast_with_datical_db)
-* [Export Database Schema (Snapshot)](#export_database_schema_(snapshot))
-* [Read Datical DB History](#read_datical_db_history)
-* [Sync Datical DB Change Log](#sync_datical_db_change_log)
-* [Delete Datical DB Check Sums](#delete_datical_db_check_sums)
-* [View Datical DB Status](#view_datical_db_status)
-* [View Datical DB Status Details](#view_datical_db_status_details)
-* [Check Datical DB Drivers](#check_datical_db_drivers)
-* [Validate Datical DB Rules](#validate_datical_db_rules)
-* [Datical DB Rollback](#datical_db_rollback)
-* [Get Database Differences (Change Log)](#get_database_differences_(change_log))
-* [Get Database Differences (Report)](#get_database_differences_(report))
-* [Add Datical DB Project](#add_datical_db_project)
-* [Add Datical DB Database Definition](#add_datical_db_database_definition)
-* [Datical DB Install License](#datical_db_install_license)
 ## Run Groovy Script
 
 Runs a Groovy Script using Datical DB REPL.

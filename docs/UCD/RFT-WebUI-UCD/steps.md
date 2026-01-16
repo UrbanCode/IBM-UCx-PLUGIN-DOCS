@@ -1,9 +1,6 @@
 
 # IBM Rational Test Workbench Web UI Tester - Process Steps
 
-* [Run RTWec Test](#run_rtwec_test)
-
-
 ## Run RTWec Test
 
 Execute Eclipse Client Tests from IBM Rational Test Workbench

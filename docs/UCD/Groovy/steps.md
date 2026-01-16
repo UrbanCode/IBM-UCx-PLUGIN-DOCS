@@ -1,11 +1,5 @@
 
-# Groovy - Steps
-
-
-Process steps in the Groovy plug-in:
-
-* [Run Groovy Script](#run_groovy_script)
-
+# Groovy - Process Steps
 
 ## Run Groovy Script
 

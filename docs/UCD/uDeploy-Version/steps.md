@@ -1,15 +1,6 @@
 
 # IBM DevOps Deploy Versions - Process Steps
 
-
-* [Add Status to Version](#add_status_to_version)
-* [Add Version Link](#add_version_link)
-* [Create Version](#create_version)
-* [Get Version Properties](#get_version_properties)
-* [Remove Status from Version](#remove_status_from_version)
-* [Get Version Status Information](#get_version_status_information)
-
-
 ## Add Status to Version
 
 Add a status to a Component Version

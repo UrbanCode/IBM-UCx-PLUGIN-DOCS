@@ -1,6 +1,5 @@
 # IBM Globalization Pipeline - Process Steps
 
-* [TranslateV2](#translatev2)
 ## TranslateV2
 
 Translate command.

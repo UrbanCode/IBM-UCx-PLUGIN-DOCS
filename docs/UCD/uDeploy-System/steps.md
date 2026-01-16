@@ -1,13 +1,6 @@
 
 # IBM DevOps Deploy System - Process Steps
 
-* [Add Group To Team](#add_group_to_team)
-* [Add User To Team](#add_user_to_team)
-* [Create System Property](#create_system_property)
-* [Get System Configuration](#get_system_configuration)
-* [Set System Configuration](#set_system_configuration)
-
-
 ## Add Group To Team
 
 Adds a group to a team for a given type classification.

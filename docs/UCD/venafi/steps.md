@@ -1,17 +1,5 @@
 # Venafi - Process Steps
 
-* [Authentication test](#authentication_test)
-* [Get Venafi Policy](#get_venafi_policy)
-* [Request Certificate](#request_certificate)
-* [Request Certificate Wait](#request_certificate_wait)
-* [Generate Certificate CSR](#generate_certificate_csr)
-* [Submit CSR to Venafi](#submit_csr_to_venafi)
-* [Submit Custom Fields to Venafi](#submit_custom_fields_to_venafi)
-* [Retrieve Certificate](#retrieve_certificate)
-* [Get Certificate Status](#get_certificate_status)
-* [Validate Remaining Days](#validate_remaining_days)
-* [Revoke Certificate](#revoke_certificate)
-* [Renew Certificate](#renew_certificate)
 ## Authentication test
 
 Test the communication with the Venafi server

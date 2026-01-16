@@ -1,23 +1,6 @@
 
 # IBM MobileFirst Platform Foundation on IBM Containers - Process Steps
 
-
-* [Create Databases](#create_databases)
-* [Create Server Container (Create database, Prepare, Push and Start Container)](#create_server_container_(create_database,_prepare,_push_and_start_container))
-* [Create Server Container Group (Create database, Prepare, Push and Start Container Group)](#create_server_container_group_(create_database,_prepare,_push_and_start_container_group))
-* [Deploy Apps and Adapters](#deploy_apps_and_adapters)
-* [Prepare and Push Analytics Image](#prepare_and_push_analytics_image)
-* [Prepare and Push Server Image](#prepare_and_push_server_image)
-* [Remove Existing Container](#remove_existing_container)
-* [Remove Existing Container Group](#remove_existing_container_group)
-* [Remove Server Runtime](#remove_server_runtime)
-* [Start Analytics Container](#start_analytics_container)
-* [Start Analytics Container Group](#start_analytics_container_group)
-* [Start Server Container](#start_server_container)
-* [Start Server Container Group](#start_server_container_group)
-* [Un-Deploy Apps and Adapters from a Runtime](#un-deploy_apps_and_adapters_from_a_runtime)
-
-
 ## Create Databases
 
 Based on the number of projects placed under /usr/projects folder, which is part of the artifacts directory, this step iteratively creates the Admin and Runtime databases. The database is created as a service in IBM Bluemix and bound to a IBM Bluemix Application.

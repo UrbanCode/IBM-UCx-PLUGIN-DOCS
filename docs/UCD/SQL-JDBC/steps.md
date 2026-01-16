@@ -1,10 +1,6 @@
 
 # SQL-JDBC - Process Steps
 
-* [Execute SQL Scripts](#execute-sql-scripts)
-* [Execute SQL Scripts with PassTicket Authentication](#execute-sql-scripts-with-passticket-authentication)
-
-
 ## Execute SQL Scripts
 
 Execute SQL scripts using JDBC driver.

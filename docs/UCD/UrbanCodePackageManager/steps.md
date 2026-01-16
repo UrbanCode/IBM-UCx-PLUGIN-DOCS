@@ -1,13 +1,6 @@
 
 # IBM DevOps Package Manager - Process Steps
 
-* [Create Package](#create_package)
-* [Install Package](#install_package)
-* [Rollback Package](#rollback_package)
-* [Uninstall Package](#uninstall_package)
-* [Verify Install](#verify_install)
-
-
 ## Create Package
 
 Create package from files.

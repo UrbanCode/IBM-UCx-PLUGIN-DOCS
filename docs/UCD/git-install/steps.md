@@ -1,8 +1,5 @@
 # Git Install - Process Steps
 
-* [Install Git](#install_git)
-* [Create Repository](#create_repository)
-* [Migrate Repository](#migrate_repository)
 ## Install Git
 
 Install Git v1.8.3.4 on a target server.

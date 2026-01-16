@@ -1,10 +1,5 @@
 # Node-RED - Process Steps
 
-* [Install](#install)
-* [Uninstall](#uninstall)
-* [Start](#start)
-* [Stop](#stop)
-* [Deploy Flow](#deploy_flow)
 ## Install
 
 Install NodeRED on a target server. The server must have node.js, npm and git installed.

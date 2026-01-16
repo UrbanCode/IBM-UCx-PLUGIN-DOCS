@@ -1,15 +1,5 @@
 # Liquibase - Process Steps
 
-* [GenerateDBDoc](#generatedbdoc)
-* [Update](#update)
-* [GenerateChangelog](#generatechangelog)
-* [Export Data](#export_data)
-* [ChangelogSync](#changelogsync)
-* [Rollback](#rollback)
-* [UpdateTestingRollback](#updatetestingrollback)
-* [Tag](#tag)
-* [Validate](#validate)
-* [DropAll](#dropall)
 ## GenerateDBDoc
 
 Execute Liquibase in dbDoc mode to produce or update database reference documentation.

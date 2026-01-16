@@ -1,27 +1,6 @@
 
 # IBM DevOps Deploy Applications - Process Steps
 
-* [Add Application To Team](#add_application_to_team)
-* [Add Component To Application](#add_component_to_application)
-* [Add Tag To Application](#add_tag_to_application)
-* [Check If Application Exists](#check_if_application_exists)
-* [Check If Application Process Exists](#check_if_application_process_exists)
-* [Create Application](#create_application)
-* [Create Application From Template](#create_application_from_template)
-* [Create Application Process](#create_application_process)
-* [Create Application Property](#create_application_property)
-* [Create Multiple Applications](#create_multiple_applications)
-* [Create Snapshot](#create_snapshot)
-* [Create Snapshot Of Environment](#create_snapshot_of_environment)
-* [Delete Application](#delete_application)
-* [Get Application Details](#get_application_details)
-* [Get Components in Application](#get_components_in_application)
-* [Get Environments in Application](#get_environments_in_application)
-* [Remove Component From Application](#remove_component_from_application)
-* [Remove Tag from Application](#remove_tag_from_application)
-* [Run Application Process](#run_application_process)
-
-
 ## Add Application To Team
 
 Adds an application or a list of applications delimited by commas to a team for a given type classification.

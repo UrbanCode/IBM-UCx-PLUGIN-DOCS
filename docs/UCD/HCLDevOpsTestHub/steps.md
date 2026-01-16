@@ -1,6 +1,5 @@
 # HCL DevOps Test Hub (Test Hub) - Process Steps
 
-* [Run HCL DevOps Test Hub test](#run_hcl_devops_test_hub_test)
 ## Run HCL DevOps Test Hub test
 
 Start a job on HCL DevOps Test Hub.

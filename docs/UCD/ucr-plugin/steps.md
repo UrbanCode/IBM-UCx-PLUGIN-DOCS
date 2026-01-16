@@ -1,14 +1,6 @@
 
 # IBM DevOps Release - Process Steps
 
-* [Add Comment to Task](#add_comment_to_task)
-* [Add Snapshot Status](#add_snapshot_status)
-* [Check Gate Status](#check_gate_status)
-* [Get Release for Environment](#get_release_for_environment)
-* [Sync Snapshot](#sync_snapshot)
-* [Update Application](#update_application)
-
-
 ## Add Comment to Task
 
 Use this step to add a comment to an automated task that was started from a scheduled deployment.

@@ -1,12 +1,6 @@
 
 # Docker Compose - Process Steps
 
-* [Create Child Resources](#create_child_resources)
-* [Launch Docker Compose Application](#launch_docker_compose_application)
-* [Run Docker Compose](#run_docker_compose)
-* [Scale Docker Compose Application](#scale_docker_compose_application)
-
-
 ## Create Child Resources
 
 Create child resources of the component from Compose application resources. Dynamically generate an overrides file for docker-compose.yml based on the selected component versions at deployment.
