@@ -51,6 +51,8 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 * Fixed ZInventory update issue for linked versions with deleted artifacts
 * Performance improvement for Inventory Delta Deployment
 * Fix NoSuchFileException for generate artifact information step
+* Rollback Manifest XML file is created even when there is no backup taken
+* Copy backup files to the backup directory before the actual deployment
 
 ### Version 99
 
