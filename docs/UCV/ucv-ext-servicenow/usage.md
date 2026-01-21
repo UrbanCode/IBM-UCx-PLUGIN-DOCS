@@ -206,7 +206,7 @@ Some properties might not be displayed in the user interface, to see all propert
 | Integration Name | An assigned name to the value stream. | Yes | name |
 | Logging Level | The level of Log4j messages to display in the log file. Valid values are: all, debug, info, warn, error, fatal, off, and trace. | No | loggingLevel |
 | NA | List of configuration properties used to connect and communicate with ServiceNow server. Enclose the properties within braces. | Yes | properties |
-|  | The name of the tenant. | Yes | tenant_id |
+| Tenant Id | The name of the tenant. | Yes | tenant_id |
 | NA | Unique identifier assigned to the plug-in. The value for the ServiceNow Server plug-in is ucv-ext-servicenow | Yes | type |
 | DevOps Velocity User Access Key | An auto-generated user access key provides credentials for communicating with the **Velocity** server. | Yes | NA |
 
@@ -215,13 +215,13 @@ Some properties might not be displayed in the user interface, to see all propert
 | Name | Type | Description | Required | Property Name |
 | --- | --- | --- | --- | --- |
 | URL | String | The URL of the ServiceNow server. | Yes | baseUrl |
-| Page Size | String | The number of issues retrieved per page. | No | pageSize |
-| Resource types and sys_params | String | The type/parameters of events to be synced from ServiceNow. Example:[{"table": "change_request", "sys_params": { "category": "Software" }},...] | Yes | resourceTypesAndSys_params |
+| Page Size | Number | The number of issues retrieved per page. | No | pageSize |
+| Resource types and sys_params | Json | The type/parameters of events to be synced from ServiceNow. Example:[{"table": "change_request", "sys_params": { "category": "Software" }},...] | Yes | resourceTypesAndSys_params |
 | Custom Field Mapping | Json | Map ServiceNow fields to IBM DevOps Velocity as a JSON Object. | No | fieldMapping |
 | Replica Server Name | String | Any non-empty string value to replica server name would enable read only replica. An Empty string will disable read only replica. | No | replicaServerName |
 | Proxy Server | String | The URL of the proxy server including the port number. | No | proxyServer |
 | Proxy User Name | String | The user name used to authenticate with the proxy server. | No | proxyUsername |
-| Proxy Password | String | The password used to authenticate with the proxy server. | No | proxyPassword |
+| Proxy Password | Secure | The password used to authenticate with the proxy server. | No | proxyPassword |
 | Authentication Type | Dropdown | Select required authentication type. | Yes | authentication |
 |..........When Basic Authentication selected..........|
 | User Name | String | The username used to authenticate with the ServiceNow server. | Yes | username |
@@ -246,7 +246,7 @@ integrations": [
       "logginglevel": "info",
       "properties": {
         "baseUrl": "url_servicenow_server",
-        "authentication": "authentication_type (basicAuth OR oauth OR bearerAuth)",
+        "authentication": "authentication_type (basicAuth OR OAuth OR bearerAuth)",
         "client_id": "client_Id", 
         "client_secret": "client_secret",
         "refresh_token": "refresh_token",
@@ -261,7 +261,3 @@ integrations": [
 ]
 
 ```
-
-
-| Back to ... || Latest Version | ServiceNow |||
-| :---: | :---: | :---: | :---: | :---: | :---: |
