@@ -61,7 +61,7 @@ Some properties might not be displayed in the user interface, to see all propert
 ### General Configuration Properties
 
 | Name | Description | Required | Property Name |
-| --- | --- | --- | --- | ---|
+| --- | --- | --- | --- |
 | NA | The version of the plug-in that you want to use. To view available versions, click the **Version History** tab. If a value is not specified, the version named latest is used. | NO | image |
 | Integration Name | An assigned name to the integration. | Yes | name |
 | Logging Level | The level of Log4j messages to display in the log file. Valid values are: all, debug, info, warn, error, fatal, off, and trace. | No | logginglevel |
@@ -73,9 +73,9 @@ Some properties might not be displayed in the user interface, to see all propert
 
 | Name | Type | Description | Required | Property Name |
 | --- | --- | --- | --- | --- |
-| Access Token | String | Token to authenticate against IBM DevOps Deploy. | Yes | deployToken |
+| Access Token | Secure | Token to authenticate against IBM DevOps Deploy. | Yes | deployToken |
 | Url | String | IBM DevOps Deploy server url. | Yes | baseUrl |
-| User Access Key | String | The user access key to authenticate with this server. | No | ucvAccessKey |
+| User Access Key | Secure | The user access key to authenticate with this server. | No | ucvAccessKey |
 | Build Polling Timeout | String | Length of time (in minutes) to wait for build to complete if task is set to wait. | false | buildPollingTimeout |
 
 ## JSON Code Sample
