@@ -15,6 +15,12 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ## Release Notes
 
+### Version 78
+Update Apache log4j to 2.25.3 for non-exploitable CVE-2025-68161 
+
+### Version 77
+Update commons-lang to 3.18 resolves finding for non-exploitable CVE-2025-48924
+
 ### Version 76
 Fix an issue with certain steps on z/OS
 
