@@ -106,6 +106,6 @@ The following tables describe the properties used to configure the integration. 
 | Build Polling Interval |	String | Time (in seconds) to wait between requests to check if build completed if task is set to wait. |	No |
 | Builds on First Fetch |	String | Number of Builds to initially retrieve per job when getting all Jobs. (max value is 100) |	No |
 | Builds on Follow-Up Fetches |	String | Size of the batches of Builds to retrieve if a job contains more builds than "Builds on First Fetch |	No |
-| Excluded Repository Parameters |	String | Specify the jenkins job parameter names as a comma-separated list to identify repositories that should be disregarded in the context of the job. |	No |
+| Excluded Repository Parameters |	Array | Specify the jenkins job parameter names as a comma-separated list to identify repositories that should be disregarded in the context of the job. |	No |
 
 
