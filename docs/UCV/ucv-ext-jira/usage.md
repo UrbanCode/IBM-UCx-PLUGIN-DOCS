@@ -73,20 +73,21 @@ The following tables describe the properties used to configure the integration. 
 
 | Name | Type | Description | Required | Property Name |
 | --- | --- | --- | --- | --- |
-| Access Token | String | The access token for oauth authentication with the Jira server.If supplied, Personal access token, Username and Password will be ignored. | No | access_token |
-| Access Token Secret | String | The access token secret for oauth authentication with the Jira server. | No | access_token_secret |
+| Access Token | Secure | The access token for oauth authentication with the Jira server.If supplied, Personal access token, Username and Password will be ignored. | No | access_token |
+| Access Token Secret | Secure | The access token secret for oauth authentication with the Jira server. | No | access_token_secret |
 | Consumer Key | String | The consumer key for oauth authentication with the Jira server.If supplied, Personal access token, Username and Password will be ignored. | No | consumer_key |
-| Consumer Secret | String | The consumer secret for oauth authentication with the Jira server.If supplied, Personal access token, Username and Password will be ignored. | No | consumer_key_secret |
+| Consumer Secret | Secure | The consumer secret for oauth authentication with the Jira server.If supplied, Personal access token, Username and Password will be ignored. | No | consumer_key_secret |
 | Password | Secure | Password to authenticate with the Jira. If supplied, Personal access token will be ignored.\n NOTE: For Jira cloud version the Access Token should be entered in the Password field. | No | password |
 | Project Keys (Comma separated) | Array | A list of Jira Project Keys separated by commas. Example: PROJ1, PROJ2. | Yes | jiraProjects |
-| Jira JQL | String | Any valid JQL Query. JQL Query has higher priority than Project Keys . If JQL Query is added , Project Keys will not work .| No | jiraJql |
+| JQL Query | String | Any valid JQL Query. JQL Query has higher priority than Project Keys . If JQL Query is added , Project Keys will not work .| No | jiraJql |
 | Proxy Server | String | The URL of the proxy server including the port number. | No | proxyServer |
 | Proxy User Name | String | The user name used to authenticate with the proxy server. | No | proxyUsername |
-| Proxy Password | String | The password used to authenticate with the proxy server. | No | proxyPassword |
+| Proxy Password | Secure | The password used to authenticate with the proxy server. | No | proxyPassword |
+| Batch Size | Number | The number of issues to sync at a time. | No | batchSize |
 | URL | String | The base URL of the Jira server. | Yes | baseUrl |
 | User Name | String | The user name used to authenticate with the Jira server.If supplied, Personal access token will be ignored.\n NOTE: For Jira Cloud version, the User Name should be entered in the UserName field. | No | username |
 | Personal Access Token | Secure | Personal Access Token to authenticate with the Jira server. If supplied, Username and Password will be ignored.\n NOTE: For Jira cloud version provide username and password.\n For Jira server provide personal access token. | No | pat |
-| Request Timeout | String | Timeout (in seconds) to apply to each request to the Jira server. Range is 10 to 150 seconds | No | requestTimeout |
+| Request Timeout | Number | Timeout (in seconds) to apply to each request to the Jira server. Range is 10 to 150 seconds | No | requestTimeout |
 | Custom Field Mapping | Multiline | Map Jira fields to the velocity fields as a JSON Object.[Documentation](./jiraCustom.md) | No | fieldMapping |
 
 ## Custom Field Mapping
