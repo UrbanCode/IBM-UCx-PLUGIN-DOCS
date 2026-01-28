@@ -90,14 +90,14 @@ The following tables describe the properties used to configure the integration. 
 | Owner | String | The owner name of the GitHub repository. | Yes | owner |
 | Repositories | Array | List of GitHub repositories, Use either Repositories field or name field to specify the repositories. | Yes | repositories |
 | branch | String | GitHub repositories branch, The branch to pull commits from. | No | branch |
-| Personal access token | String | The Personal Access Token used to authenticate with Github repositories. | No | token |
+| Personal access token | Secure | The Personal Access Token used to authenticate with Github repositories. | No | token |
 | Additional branches | Array | Additional branches to collect commits from besides the main one, leave blank if not needed. | No | otherBranches |
 | Organization | String | The organization name. The name is not case sensitive. **This field is required if you enable Copilot Metrics while adding the integration.** | No | organization |
 | Team Slug | String | The slug of the team name. **This field is required if you enable Copilot Metrics while adding the integration.** | No | teamSlug |
 | Personal Access Token (Copilot Metrics) | Secure | The Personal Access Token used to authenticate with GitHub Copilot. **This field is required if you enable Copilot Metrics while adding the integration.** | No | copilotToken|
 | Proxy Server | String | The URL of the proxy server including the port number. | No | proxyServer |
 | Proxy User Name | String | The user name used to authenticate with the proxy server. | No | proxyUsername |
-| Proxy Password | String | The password used to authenticate with the proxy server. | No | proxyPassword |
+| Proxy Password | Secure | The password used to authenticate with the proxy server. | No | proxyPassword |
 
 ## GitHub Copilot Metrics
 
