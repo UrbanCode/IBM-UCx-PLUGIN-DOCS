@@ -54,7 +54,7 @@ The following example shows calling the plug-in end point using a ‘non webhook
 Send an HTTP GET (For version 2.0.1 or later) or HTTP POST (For version 2.0.0 or earlier) request to your endpoint.
 
 **Sample endpoint:**
-https:///pluginEndpoint//asocScan
+https://pluginEndpoint//asocScan
 
 The payload for the POST is shown below.
 ```
