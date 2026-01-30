@@ -178,7 +178,7 @@ Some properties might not be displayed in the user interface, to see all propert
 | Integration Name | An assigned name to the value stream. | Yes | name |
 | Logging Level | The level of Log4j messages to display in the log file. Valid values are: all, debug, info, warn, error, fatal, off, and trace. | No | loggingLevel |
 | NA | List of plug-in configuration properties used to connect and communicate with the DevOps Test Hub. Enclose the properties within braces. | Yes | properties |
-|| The name of the tenant. | Yes | tenant_id |
+|Tenant_Id | The name of the tenant. | Yes | tenant_id |
 | NA | Unique identifier assigned to the plug-in. The value for the DevOps Test Hub plug-in is ucv-ext-onetest-server. | Yes | type |
 
 ### DevOps Test Hub Configuration properties
