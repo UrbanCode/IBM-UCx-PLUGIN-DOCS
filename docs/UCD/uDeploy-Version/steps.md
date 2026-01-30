@@ -68,5 +68,15 @@ Retrieve the status information for a Version and sets the output properties: ve
 | Component Name | String | Name or ID of the version's component. Required if Version is provided by name.| No |
 | Required Status | String | Fail this step unless the given Status Name/ID is present on the Version.| No |
 
+## Get Version Type
+
+Retrieve the version type information for a Version and sets the output property: `versionType`.
+
+
+| Name           | Type   | Description                      | Required |
+|----------------|--------|----------------------------------|----------|
+| Version Name   | String | Name of the version.             | Yes      |
+| Component Name | String | Name of the version's component. | Yes      |
+
 
 

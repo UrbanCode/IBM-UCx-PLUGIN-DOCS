@@ -15,6 +15,9 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ## Release Notes
 
+### Version 79
+New step to get version type
+
 ### Version 78
 Update Apache log4j to 2.25.3 for non-exploitable CVE-2025-68161 
 
