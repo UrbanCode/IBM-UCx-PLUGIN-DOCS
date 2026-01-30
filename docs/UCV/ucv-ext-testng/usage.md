@@ -40,10 +40,10 @@ step([$class: 'UploadMetricsFile',  appName:
 'My TestNG Test', dataFormat: '<testngJSON or testngXML>', filePath: '<location of the testng report>', name: 'my-
 testng-test', pluginType: 'testng', tenantId: '<tenant Id>', testSetName: 'testng', metricsRecordUrl:
 "``${env.BUILD_URL}``"])
-}``
-}``
-}``
-}``
+}
+}
+}
+}
 
 ```
 
@@ -72,7 +72,7 @@ BODY (multipart/form-data):
 payload: <json_object_string> // See below for schema format
 
 testArtifact: <testng JSON/XML>
-}``
+}
 
 ```
 
@@ -90,7 +90,7 @@ brackets with your values for the parameters.
 "application": {
 "name":
 "<application_name>"  //Name of application
-}``,
+},
 "record": {
 "recordName": "<record_name>", // optional: Name
 for this record
@@ -100,19 +100,19 @@ for this record
 "dataFormat": "<<data_type>",  // testngJSON or testngXML
 "metricsRecordUrl": "<Jenkins_build_url>" // optional: To
 link the Jenkins build with test results
-}``,
+},
 "build": {  // Optional: One of the following fields must be
 included
 "buildId": "<build_id>",
 "jobExternalId": "<external_job_id>",
 "url": "<build_url>",
-}``,
+},
 
 "commitId": "<commit_id>",  // optional
 "pullRequestId": "<pullrequest_id>", // optional
 "environment":
 "<environment_name>" // optional
-}``
+}
 
 ```
 
@@ -129,13 +129,13 @@ https://*url\_DevOpsvelocity\_server>*/reporting-consumer/metrics \
 "5ade13625558f2c6688d15ce",
 "application": {
 "name": "My Application"
-}``,
+},
 "record": {
 
 "pluginType": "testng",
 "dataFormat": "testngJSON"
-}``
-}``
+}
+}
 ' \
 --form testArtifact=@test-result/testng.json
 
