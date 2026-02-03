@@ -22,6 +22,10 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ## History
 
+### Version 15
+
+* Added mechanism to cache From Version for a linked version for retry scenario
+
 ### Version 14
 
 * Added support for Linked versions
