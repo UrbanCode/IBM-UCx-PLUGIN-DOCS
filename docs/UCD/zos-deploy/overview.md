@@ -44,6 +44,11 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ## History
 
+### Version 101
+
+* Option to skip deleting files in 'Deploy dataset and uss files' step
+* Enable RUNTIME deploy for linked versions
+
 ### Version 100
 
 * Added Z Inventory support for Linked versions 
