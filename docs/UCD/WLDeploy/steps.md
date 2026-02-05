@@ -1,5 +1,5 @@
 
-# Oracle WebLogic WLDeploy - Process Steps
+# Process Steps
 
 ## Check Application on Targets
 

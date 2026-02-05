@@ -1,4 +1,4 @@
-# IBM Business Process Manager (WebSphere BPM) - Process Steps
+# Process Steps
 
 ## Import Version
 

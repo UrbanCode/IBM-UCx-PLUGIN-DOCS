@@ -1,4 +1,4 @@
-# z/OS Management Facility - Process Steps
+# Process Steps
 
 ## Create Workflow
 

@@ -1,5 +1,5 @@
 
-# MicroFocus ALM (formerly HP Quality Center) - Process Steps
+# Process Steps
 
 ## Add Comments
 

@@ -1,5 +1,5 @@
 
-# WebSphere Application Server - Install - Process Steps
+# Process Steps
 
 ## Create Deployment Manager Profile
 

@@ -1,4 +1,4 @@
-# Jenkins Job Manager - Process Steps
+# Process Steps
 
 ## Start Job
 

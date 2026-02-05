@@ -1,4 +1,4 @@
-# IBM Rational Team Concert - SCM - Process Steps
+# Process Steps
 
 ## Import Version
 

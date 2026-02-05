@@ -1,4 +1,4 @@
-# HCL OneTest Server - Process Steps
+# Process Steps
 
 ## Run HCL OneTest Server test
 

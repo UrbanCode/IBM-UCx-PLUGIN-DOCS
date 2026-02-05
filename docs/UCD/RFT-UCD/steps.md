@@ -1,5 +1,5 @@
 
-# IBM Rational Functional Tester (RFT) - Process Steps
+# Process Steps
 
 ## Run an IBM Rational Functional Tester - Functional Test
 

@@ -1,4 +1,4 @@
-# Citrix NetScaler - Process Steps
+# Process Steps
 
 ## Enable Servers
 

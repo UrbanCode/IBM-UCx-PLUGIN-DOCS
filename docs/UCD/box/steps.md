@@ -1,4 +1,4 @@
-# Box - Process Steps
+# Process Steps
 
 ## Request Enterprise Authentication
 

@@ -1,5 +1,5 @@
 
-# RPM - Process Steps
+# Process Steps
 
 ## Install RPM
 

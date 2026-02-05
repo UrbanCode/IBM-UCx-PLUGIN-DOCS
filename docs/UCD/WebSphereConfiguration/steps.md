@@ -1,5 +1,5 @@
 
-# WebSphere Application Server - Configure - Process Steps
+# Process Steps
 
 ## WebSphere Create Configuration Snippet
 

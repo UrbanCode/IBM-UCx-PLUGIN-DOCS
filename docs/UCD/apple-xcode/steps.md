@@ -1,4 +1,4 @@
-# Apple Xcode - Process Steps
+# Process Steps
 
 ## Install Application
 

@@ -1,4 +1,4 @@
-# HCL DevOps Test Hub (Test Hub) - Process Steps
+# Process Steps
 
 ## Run HCL DevOps Test Hub test
 

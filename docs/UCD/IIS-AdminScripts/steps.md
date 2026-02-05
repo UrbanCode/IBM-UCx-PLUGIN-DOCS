@@ -1,5 +1,5 @@
 
-# Microsoft IIS AdminScripts - Process Steps
+# Process Steps
 
 ## AdsUtil
 

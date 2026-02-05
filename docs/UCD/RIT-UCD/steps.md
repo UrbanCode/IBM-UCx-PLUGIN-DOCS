@@ -1,5 +1,5 @@
 
-# IBM Rational Integration Tester (RIT) - Process Steps
+# Process Steps
 
 ## Run RIT Test
 

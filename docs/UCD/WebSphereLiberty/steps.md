@@ -1,5 +1,5 @@
 
-# IBM WebSphere Liberty - Process Steps
+# Process Steps
 
 ## Create Collective
 

@@ -1,4 +1,4 @@
-# Puppet - Process Steps
+# Process Steps
 
 ## Apply
 

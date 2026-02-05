@@ -1,4 +1,4 @@
-# CA SCM (formerly Harvest) - Process Steps
+# Process Steps
 
 ## Harvest Checkout
 

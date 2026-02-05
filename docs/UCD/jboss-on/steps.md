@@ -1,4 +1,4 @@
-# JBoss ON - Process Steps
+# Process Steps
 
 ## Execute JavaScript
 

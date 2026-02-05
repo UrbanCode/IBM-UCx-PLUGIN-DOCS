@@ -1,5 +1,5 @@
 
-# IBM DevOps Deploy Versioned File Storage - Process Steps
+# Process Steps
 
 ## Download Artifacts
 

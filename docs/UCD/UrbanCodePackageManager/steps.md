@@ -1,5 +1,5 @@
 
-# IBM DevOps Package Manager - Process Steps
+# Process Steps
 
 ## Create Package
 

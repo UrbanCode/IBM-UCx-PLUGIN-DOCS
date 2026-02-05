@@ -1,5 +1,5 @@
 
-# FileNet - IBM Case Manager - Process Steps
+# Process Steps
 
 ## Deploy Solution
 

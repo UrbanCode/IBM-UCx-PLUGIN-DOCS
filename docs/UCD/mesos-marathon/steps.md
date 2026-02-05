@@ -1,5 +1,5 @@
 
-# Mesos Marathon - Process Steps
+# Process Steps
 
 ## Kill Tasks
 

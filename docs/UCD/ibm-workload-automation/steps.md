@@ -1,4 +1,4 @@
-# IBM Workload Automation - Process Steps
+# Process Steps
 
 ## Import Job Stream Definition (Distributed)
 

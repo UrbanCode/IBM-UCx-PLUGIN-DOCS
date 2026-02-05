@@ -1,5 +1,5 @@
 
-# Microsoft TFS Work Items - Process Steps
+# Process Steps
 
 ## Add Comment
 

@@ -1,4 +1,4 @@
-# z/OS External Artifact Repository - Process Steps
+# Process Steps
 
 ## Download Artifacts for zOS External Repo
 

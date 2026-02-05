@@ -1,4 +1,4 @@
-# Git Install - Process Steps
+# Process Steps
 
 ## Install Git
 

@@ -1,5 +1,5 @@
 
-# OpenShift for IBM DevOps Deploy - Process Steps
+# Process Steps
 
 ## Add Tag
 

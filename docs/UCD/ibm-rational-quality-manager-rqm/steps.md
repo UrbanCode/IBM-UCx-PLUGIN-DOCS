@@ -1,5 +1,5 @@
 
-# IBM Rational Quality Manager (RQM) - Process Steps
+# Process Steps
 
 ## Execute Test Case
 

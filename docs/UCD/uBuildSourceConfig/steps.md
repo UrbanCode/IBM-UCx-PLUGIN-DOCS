@@ -1,4 +1,4 @@
-# IBM DevOps Build - Process Steps
+# Process Steps
 
 ## Import Version
 

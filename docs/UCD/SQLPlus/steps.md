@@ -1,5 +1,5 @@
 
-# Oracle SQLPlus - Process Steps
+# Process Steps
 
 ## Run SQLPlus script
 

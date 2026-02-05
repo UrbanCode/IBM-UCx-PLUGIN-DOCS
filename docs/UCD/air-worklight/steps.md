@@ -1,5 +1,5 @@
 
-# IBM MobileFirst Platform (formerly Worklight) - Process Steps
+# Process Steps
 
 ## Change Application Configuration
 

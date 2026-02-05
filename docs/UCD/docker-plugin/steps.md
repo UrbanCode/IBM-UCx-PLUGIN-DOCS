@@ -1,4 +1,4 @@
-# Docker - Process Steps
+# Process Steps
 
 ## Run Docker Container
 

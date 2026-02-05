@@ -1,5 +1,5 @@
 
-# Microsoft Windows Services - Process Steps
+# Process Steps
 
 ## Check If Service Exists
 

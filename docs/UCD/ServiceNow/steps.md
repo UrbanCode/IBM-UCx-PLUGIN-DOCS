@@ -1,5 +1,5 @@
 
-# ServiceNow - Process Steps
+# Process Steps
 
 ## Check Change Request Approval
 

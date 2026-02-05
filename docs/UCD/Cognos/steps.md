@@ -1,5 +1,5 @@
 
-# IBM Cognos - Process Steps
+# Process Steps
 
 ## Export
 

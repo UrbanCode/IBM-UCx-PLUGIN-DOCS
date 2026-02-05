@@ -1,5 +1,5 @@
 
-# IBM DevOps Release - Process Steps
+# Process Steps
 
 ## Add Comment to Task
 

@@ -1,4 +1,4 @@
-# IBM DevOps Test Performance (Test Performance) - Process Steps
+# Process Steps
 
 ## Run an DevOps Test Performance test
 

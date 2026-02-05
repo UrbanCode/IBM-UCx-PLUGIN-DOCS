@@ -1,4 +1,4 @@
-# HCL DevOps Test UI (Test UI) - Process Steps
+# Process Steps
 
 ## Run an HCL DevOps Test UI - Functional Test
 

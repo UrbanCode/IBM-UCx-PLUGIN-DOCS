@@ -1,4 +1,4 @@
-# CICS TS - Process Steps
+# Process Steps
 
 ## Check available status of resources
 

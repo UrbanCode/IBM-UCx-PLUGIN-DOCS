@@ -1,4 +1,4 @@
-# IBM Rational Test Virtualization Server (RTVS) - Process Steps
+# Process Steps
 
 ## Create Transient Environment
 

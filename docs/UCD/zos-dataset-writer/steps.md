@@ -1,4 +1,4 @@
-# z/OS Dataset Writer - Process steps
+# Process Steps
 
 ## Write to Sequential Dataset
 

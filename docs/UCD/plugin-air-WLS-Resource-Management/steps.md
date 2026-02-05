@@ -1,5 +1,5 @@
 
-# Oracle WebLogic Server Resource Management - Process Steps
+# Process Steps
 
 ## Create Capacity
 

@@ -1,5 +1,5 @@
 
-# IBM DevOps Deploy Versions - Process Steps
+# Process Steps
 
 ## Add Status to Version
 

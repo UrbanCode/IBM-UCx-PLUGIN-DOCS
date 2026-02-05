@@ -1,5 +1,5 @@
 
-# IBM WebSphere Commerce - Process Steps
+# Process Steps
 
 ## Configure server deployment settings (Deprecated)
 

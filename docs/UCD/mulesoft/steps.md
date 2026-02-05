@@ -1,5 +1,5 @@
 
-# Mulesoft - Process Steps
+# Process Steps
 
 ## Deploy to Cloudhub
 

@@ -1,5 +1,5 @@
 
-# IBM DevOps Deploy Configuration Management - Process Steps
+# Process Steps
 
 ## Batch Import Properties
 

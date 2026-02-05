@@ -1,4 +1,4 @@
-# IBM Instana - Process Steps
+# Process Steps
 
 ## Add Global Release Marker
 

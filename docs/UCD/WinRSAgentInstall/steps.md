@@ -1,5 +1,5 @@
 
-# WinRS Agent Install - Process Steps
+# Process Steps
 
 ## WinRS Agent Install
 

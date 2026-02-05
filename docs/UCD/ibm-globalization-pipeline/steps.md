@@ -1,4 +1,4 @@
-# IBM Globalization Pipeline - Process Steps
+# Process Steps
 
 ## TranslateV2
 

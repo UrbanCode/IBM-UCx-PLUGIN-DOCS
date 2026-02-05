@@ -1,5 +1,5 @@
 
-# IBM Security Access Manager (WebSEAL) - Process Steps
+# Process Steps
 
 ## Reverse Proxy: Update Configuration Entry
 

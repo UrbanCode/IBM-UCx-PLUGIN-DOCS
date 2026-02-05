@@ -1,4 +1,4 @@
-# HCL OneTest API - Process Steps
+# Process Steps
 
 ## Run HCL OneTest API Test
 

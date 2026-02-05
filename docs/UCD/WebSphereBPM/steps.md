@@ -1,5 +1,5 @@
 
-# IBM Business Process Manager (WebSphere BPM) for IBM DevOps Deploy - Process Steps
+# Process Steps
 
 ## Create Generic Install Package
 

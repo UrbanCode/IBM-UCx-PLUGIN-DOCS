@@ -1,4 +1,4 @@
-# Microsoft TFS_SCM (Team Foundation Server) - Process Steps
+# Process Steps
 
 ## Import Version
 

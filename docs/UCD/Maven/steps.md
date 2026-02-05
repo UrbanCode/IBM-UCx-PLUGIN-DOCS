@@ -1,5 +1,5 @@
 
-# Maven Resolve - Process Steps
+# Process Steps
 
 ## Maven Resolve
 

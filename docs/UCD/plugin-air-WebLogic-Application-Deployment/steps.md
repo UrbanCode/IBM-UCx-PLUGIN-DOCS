@@ -1,5 +1,5 @@
 
-# Oracle WebLogic Application Deployment - Process Steps
+# Process Steps
 
 ## Deploy
 

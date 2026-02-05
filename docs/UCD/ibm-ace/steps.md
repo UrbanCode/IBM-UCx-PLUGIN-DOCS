@@ -1,5 +1,5 @@
 
-# App Connect Enterprise - Process Steps
+# Process Steps
 
 ## Create Integration Node
 

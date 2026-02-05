@@ -1,5 +1,5 @@
 
-# IBM DataPower Configuration Manager - Process Steps
+# Process Steps
 
 ## Backup Device
 

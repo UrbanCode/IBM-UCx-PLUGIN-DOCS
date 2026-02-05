@@ -1,4 +1,4 @@
-# eggPlant - Process Steps
+# Process Steps
 
 ## Run eggPlant scripts
 

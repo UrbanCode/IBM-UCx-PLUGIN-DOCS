@@ -1,4 +1,4 @@
-# Perforce Helix - Process Steps
+# Process Steps
 
 ## Import Version
 

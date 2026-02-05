@@ -1,5 +1,5 @@
 
-# IBM Rational Team Concert Work Items - Process Steps
+# Process Steps
 
 ## Add Work Item Comments
 

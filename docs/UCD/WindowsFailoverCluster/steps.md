@@ -1,5 +1,5 @@
 
-# Microsoft Windows Failover Clusters - Process Steps
+# Process Steps
 
 ## Bring Resources Online
 

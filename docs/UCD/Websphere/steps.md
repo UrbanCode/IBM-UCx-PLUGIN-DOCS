@@ -1,5 +1,5 @@
 
-# WebSphere Application Server - Deployment - Process Steps
+# Process Steps
 
 ## Activate Application Edition
 

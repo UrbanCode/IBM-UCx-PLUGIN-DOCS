@@ -1,5 +1,5 @@
 
-# BMC Remedy Action Request System - Process Steps
+# Process Steps
 
 ## Check Entry
 

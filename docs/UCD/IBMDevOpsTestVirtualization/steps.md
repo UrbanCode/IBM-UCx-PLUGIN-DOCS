@@ -1,4 +1,4 @@
-# IBM DevOps Test Virtualization (Test Virtualization) - Process Steps
+# Process Steps
 
 ## Start Stub
 

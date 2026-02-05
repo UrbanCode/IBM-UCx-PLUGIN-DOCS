@@ -1,4 +1,4 @@
-# Node-RED - Process Steps
+# Process Steps
 
 ## Install
 

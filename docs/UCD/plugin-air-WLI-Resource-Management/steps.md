@@ -1,5 +1,5 @@
 
-# Oracle WebLogic Integration Resource Management - Process Steps
+# Process Steps
 
 ## Create FTP EG
 

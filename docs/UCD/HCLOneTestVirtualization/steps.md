@@ -1,4 +1,4 @@
-# HCL OneTest Virtualization - Process Steps
+# Process Steps
 
 ## Start Stub
 

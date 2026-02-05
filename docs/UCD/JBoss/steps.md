@@ -1,5 +1,5 @@
 
-# JBoss Application Server - Process Steps
+# Process Steps
 
 ## Add Data Source
 
