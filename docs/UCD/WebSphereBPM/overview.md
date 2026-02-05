@@ -1,5 +1,5 @@
 
-# IBM Business Process Manager (WebSphere BPM) for IBM DevOps Deploy - Overview
+# Overview
 
 The IBM Business Process Manager plug-in includes steps that take the following actions on Business Process Manager cells:
 

@@ -1,5 +1,5 @@
 
-# IBM Containers - Overview
+# Overview
 
 
 The IBM Containers plug-in uses the Cloud Foundry IBM Containers command-line utility (cf ic) to work with containers that are running in IBM Bluemix.

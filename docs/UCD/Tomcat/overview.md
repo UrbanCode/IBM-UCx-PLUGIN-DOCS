@@ -1,5 +1,5 @@
 
-# Apache Tomcat - Overview
+# Overview
 
 The Apache Tomcat plug-in includes steps to deploy web applications to the Apache Tomcat server and remove applications from the server. The plug-in also includes steps to start and stop the Apache Tomcat server.
 

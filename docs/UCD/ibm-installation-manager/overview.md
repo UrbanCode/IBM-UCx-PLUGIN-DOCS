@@ -1,5 +1,5 @@
 
-# IBM Installation Manager - Overview
+# Overview
 
 The IBM Installation Manager plug-in for IBM DevOps Deploy includes steps that install, upgrade, and uninstall IBM Installation Manager. The plug-in also includes a step to run response files with IBM Installation Manager. To add the IBM Installation Manager plug-in step to processes, click **Installers > IBM > Installation Manager** in the step palette of the process editor.
 

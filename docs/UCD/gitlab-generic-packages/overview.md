@@ -1,4 +1,4 @@
-# GitLab Generic Packages - Overview
+# Overview
 
 The GitLab Generic Packages automtion plug-in.
 

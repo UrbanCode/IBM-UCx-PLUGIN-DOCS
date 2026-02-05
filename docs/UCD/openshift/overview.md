@@ -1,5 +1,5 @@
 
-# OpenShift for IBM DevOps Deploy - Overview
+# Overview
 
 
 The OpenShift plug-in includes steps to interact with OpenShift applications in IBM DevOps Deploy.

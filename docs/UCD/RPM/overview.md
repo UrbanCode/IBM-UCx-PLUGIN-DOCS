@@ -1,5 +1,5 @@
 
-# RPM - Overview
+# Overview
 
 
 You can use the RPM Package Manager (RPM) to install, uninstall, and manage software packages in UNIX environments.

@@ -1,5 +1,5 @@
 
-# IBM WebSphere Portal - Overview
+# Overview
 
 The WebSphere Portal plug-in includes steps to complete the following tasks on WebSphere Portal cells: deploy artifacts (such as themes, skins, and PAA files), run ConfigEngine commands, and run XML Access scripts.
 

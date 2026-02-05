@@ -1,5 +1,5 @@
 
-# IBM DevOps PHP CLI Tool - Overview
+# Overview
 
 DevOps PHP CLI is a tool that combines udclient CLI tool and uDeploy REST APIs to run batch operation such as, but not limited to, backup and restore of components and applications.
 

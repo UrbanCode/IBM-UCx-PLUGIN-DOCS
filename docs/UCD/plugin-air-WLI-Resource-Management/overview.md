@@ -1,5 +1,5 @@
 
-# Oracle WebLogic Integration Resource Management - Overview
+# Overview
 
 The WebLogic Integration Resource Management plug-in automates the creation, update, and deletion of objects within WebLogic Integration objects as part of the deploy process.
 

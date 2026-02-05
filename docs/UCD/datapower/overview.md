@@ -1,5 +1,5 @@
 
-# IBM DataPower Configuration Manager - Overview
+# Overview
 
 The IBM DataPower configuration manager plug-in includes steps to work with WebSphere DataPower appliances.
 

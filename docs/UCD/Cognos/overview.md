@@ -1,5 +1,5 @@
 
-# IBM Cognos - Overview
+# Overview
 
 
 Cognos software includes business intelligence and performance management solutions. The Cognos plug-in for IBM DevOps Deploy includes steps to import and export content to and from the Cognos content store.

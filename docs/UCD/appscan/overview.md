@@ -1,5 +1,5 @@
 
-# IBM AppScan Enterprise - Overview
+# Overview
 
 The IBM AppScan Enterprise plug-in includes steps that run security scans and retrieve reports.
 

@@ -1,5 +1,5 @@
 
-# IBM DevOps Deploy Configuration Management - Overview
+# Overview
 
 This plug-in includes steps that install configuration templates and import properties.
 

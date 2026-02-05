@@ -1,5 +1,5 @@
 
-# Jenkins Pipeline - Overview
+# Overview
 
 Jenkins is a continuous integration server that supports interactions with other technologies by using a plug-in model. The Jenkins Pipeline plug-in orchestrates DevOps Deploy deployments as part of a pipeline in Jenkins. You can complete the following tasks with this plug-in.
 

@@ -1,5 +1,5 @@
 
-# File System - Overview
+# Overview
 
 The File System plug-in imports artifacts from a local filesystem. The imported artifacts are stored in a single folder. If you want to store artifacts into versioned folders, you must manually create the version folders.
 

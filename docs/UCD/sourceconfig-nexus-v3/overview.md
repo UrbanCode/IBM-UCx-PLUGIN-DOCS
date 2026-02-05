@@ -1,5 +1,5 @@
 
-# Nexus Repository Manager V3 - Overview
+# Overview
 
 The Nexus Repository Manager V3 plug-in provides steps to integration DevOps Deploy with Nexus Repository Manager V3.
 

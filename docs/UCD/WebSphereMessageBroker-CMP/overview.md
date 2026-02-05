@@ -1,5 +1,5 @@
 
-# IBM Integration Bus (formerly WebSphere Message Broker) - CMP - Overview
+# Overview
 
 
 The IBM Integration Bus plug-in provides steps for working with IBM Integration Bus (IIB), formerly known as WebSphere Message Broker. IBM Integration Bus connects business information among disparate applications on multiple hardware and software platforms.

@@ -1,5 +1,5 @@
 
-# Selenium - Overview
+# Overview
 
 
 The Selenium plug-in automates running Selenium commands as a step within the deployment process. Selenium is a standalone Java program, with which you can run HTML test suites. It supports all browsers.

@@ -1,5 +1,5 @@
 
-# IBM MQ for z/OS - Generate MQSC Commands - Overview
+# Overview
 
 This plug-in includes a step that processes MQ queue and/or channel resources, represented in REST form, to generate the equivalent MQSC commands. The generated MQSC commands can subsequently be used in a Submit Job step to run the IBM MQ for z/OS CSQUTIL job to define the MQ resources to a target MQ for z/OS queue manager environment.
 

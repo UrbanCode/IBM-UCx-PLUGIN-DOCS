@@ -1,5 +1,5 @@
 
-# Docker Registry - Overview
+# Overview
 
 
 The Docker Registry source configuration plug-in automates importing of version artifacts from a Docker registry or the IBM Container Service. The plug-in detects Docker registry image tags and creates an associated component versions for the tag.

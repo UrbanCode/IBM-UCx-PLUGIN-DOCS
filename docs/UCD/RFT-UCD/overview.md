@@ -1,5 +1,5 @@
 
-# IBM Rational Functional Tester (RFT) - Overview
+# Overview
 
 
 IBM Rational Functional Tester offers automated capabilities for functional, regression, GUI, and data-driven testing. The IBM DevOps Deploy plug-in for Rational Functional Tester includes process steps for running functional test scripts remotely on DevOps Deploy agent computers. Rational Functional Tester integration with DevOps Deploy is only supported for Java Scripting and Simplified Scripting on Windows computers in the Eclipse IDE. Test scripts recorded in the Visual Studio IDE are not supported.

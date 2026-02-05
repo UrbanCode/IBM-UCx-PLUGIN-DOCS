@@ -1,5 +1,5 @@
 
-# IBM Rational Test Workbench Web UI Tester - Overview
+# Overview
 
 
 **Overview** With the IBM Rational Test Workbench Web UI Testerplugin for DevOps Deploy, you can automate the execution of tests and compound tests. Rational Test Workbench Web UI Testermust be installed on the target computer on which the test is run. If a test is part of Rational Performance Tester schedule and the schedule must be run, install Rational Performance Tester and Rational Test Workbench Web UI Tester in the same package group (shell-sharing). From version 9.0, Rational Test Workbench Web UI Tester is the new name for Rational Test Workbench Eclipse Client.

@@ -1,5 +1,5 @@
 
-# Oracle WebLogic Server Resource Management - Overview
+# Overview
 
 The WebLogic Server Resource Management plug-in provides steps to work with beans on an Oracle WebLogic server.You can automate the creation, modification, and deletion of quotas, templates, queues, JDBC, and more. Each plug-in step provides a single function and contains properties to connect with the WebLogic server.
 

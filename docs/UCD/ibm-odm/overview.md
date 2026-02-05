@@ -1,5 +1,5 @@
 
-# IBM Operational Decision Manager (ODM) - Overview
+# Overview
 
 
 IBM Operational Decision Manager provides a development environment and a dedicated user interface for automating and governing frequently occurring, repeatable business decisions. The Operational Decision Manager plug-in includes steps to deploy data models and rule sets to the Rule Execution Server.

@@ -1,5 +1,5 @@
 
-# WinRS Agent Install - Overview
+# Overview
 
 
 The WinRS Agent Install plug-in installs agents on Windows systems through WinRS. It contains a single step, which installs an agent. This step is equivalent to installing an agent from the server with the WinRS option.

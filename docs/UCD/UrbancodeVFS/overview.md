@@ -1,5 +1,5 @@
 
-# IBM DevOps Deploy Versioned File Storage - Overview
+# Overview
 
 
 The steps in this plug-in work with versioned components. For example, the [Download Artifacts](steps.md#download-artifacts) step retrieves the latest version of a component. Most component deployment processes use this step to download the component artifacts to the agent system.
