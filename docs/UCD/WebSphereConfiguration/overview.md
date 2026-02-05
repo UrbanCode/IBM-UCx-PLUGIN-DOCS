@@ -37,7 +37,7 @@ No special steps are required for installing the plug-in. See [Installing plug-i
 
 * Log4j dependency updated.
 
-#### This version has a defect related to log4j library with few steps. v93 is recommended. 
+#### This version has a defect related to log4j library with few steps. v93 is recommended.
 
 ### Version 91
 

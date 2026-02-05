@@ -1,4 +1,4 @@
-# Cloud Foundry - Roles 
+# Cloud Foundry - Roles
 
 ## CloudFoundryApp
 

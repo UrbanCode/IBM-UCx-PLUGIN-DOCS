@@ -1,5 +1,5 @@
 
-# z/OS FTP Utility - Process steps 
+# z/OS FTP Utility - Process steps
 
 # FTP Artifacts
 
