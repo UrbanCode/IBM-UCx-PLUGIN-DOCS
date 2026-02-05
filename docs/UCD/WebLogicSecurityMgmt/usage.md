@@ -1,5 +1,5 @@
 
-# Oracle WebLogic Server Security Management - Usage
+# Usage
 
 
 * [Before you begin](#before_you_begin)

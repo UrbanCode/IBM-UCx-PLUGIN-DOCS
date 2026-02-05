@@ -1,5 +1,5 @@
 
-# IBM Cognos Analytics - Usage
+# Usage
 
 The IBM Cognos Analytics plug-in contains two steps:
 

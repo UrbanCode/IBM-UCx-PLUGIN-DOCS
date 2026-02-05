@@ -1,5 +1,5 @@
 
-# IBM DevOps Deploy Resources - Usage
+# Usage
 
 ## Create Multiple Resources
 

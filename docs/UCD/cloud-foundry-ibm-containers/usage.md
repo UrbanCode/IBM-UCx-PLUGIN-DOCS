@@ -1,5 +1,5 @@
 
-# IBM Containers - Usage
+# Usage
 
 To use the steps in the plug-in, you must first install and initialize the plug-in. To install and initialize the plug-in, complete the following steps in the process editor:
 

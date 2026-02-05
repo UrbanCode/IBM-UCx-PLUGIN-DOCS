@@ -1,5 +1,5 @@
 
-# RPM - Usage
+# Usage
 
 Use the RPM plug-in to automate installing, uninstalling, and updating packages in a deployment process. Packages are in the RPM file format. Typically, a package contains an application and all the required files that are associated with that application.
 

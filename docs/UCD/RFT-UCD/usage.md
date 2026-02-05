@@ -1,5 +1,5 @@
 
-# IBM Rational Functional Tester (RFT) - Usage
+# Usage
 
 
 ## [Example: Running functional tests](#component_process_run)

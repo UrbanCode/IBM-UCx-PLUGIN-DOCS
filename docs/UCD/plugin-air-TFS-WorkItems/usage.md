@@ -1,5 +1,5 @@
 
-# Microsoft TFS Work Items - Usage
+# Usage
 
 Use the Microsoft TFS Work Items plug-in to update, add comments, and obtain status of work item.
 

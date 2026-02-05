@@ -1,5 +1,5 @@
 
-# Oracle WebLogic Application Deployment - Usage
+# Usage
 
 * [Before you begin](#before_you_begin)
 * [Step palette](#palette)

@@ -1,5 +1,5 @@
 
-# Microsoft IIS MS-Deploy (Azure App Service) - Usage
+# Usage
 
 
 ## Integrating with Azure App Service

@@ -1,5 +1,5 @@
 
-# File Utils - Usage
+# Usage
 
 * [Overview](#overview)
 * [Using the Replace Tokens step](#using-the-replace-tokens-step)

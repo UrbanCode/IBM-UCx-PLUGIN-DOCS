@@ -1,5 +1,5 @@
 
-# IBM Integration Bus (formerly WebSphere Message Broker) - CMP - Usage
+# Usage
 
 ## IIB Integration With DevOps Deploy
 

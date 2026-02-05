@@ -1,5 +1,5 @@
 
-# Apache Tomcat - Usage
+# Usage
 
 If you have multiple Tomcat instances, you can specify the instance to use in the Start Tomcat step. The step includes properties for specifying the CATALINA\_BASE and CATALINA\_HOME variables.
 

@@ -1,5 +1,5 @@
 
-# SQL-JDBC - Usage
+# Usage
 
 The SQL-JDBC plug-in is a database-independent plug-in. Use the **Execute SQL Scripts** or **Execute SQL Scripts with PassTicket Authenitcation** step to connect to a database and run SQL scripts by using a JDBC driver. You can specify that the SQL scripts run in a specific order or in any order.
 

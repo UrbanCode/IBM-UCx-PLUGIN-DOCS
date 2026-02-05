@@ -1,5 +1,5 @@
 
-# NPM - Usage
+# Usage
 
 Youll need to define an DevOps Deploy component which defines the source and processes for the NPM repository. The component contains the information for importing the artifacts and any processes to perform on the artifacts.
 

@@ -1,5 +1,5 @@
 
-# WebSphere Application Server - Install - Usage
+# Usage
 
 
 **Setting up the DevOps Deploy application**

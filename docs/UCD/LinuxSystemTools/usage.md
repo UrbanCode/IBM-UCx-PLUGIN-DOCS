@@ -1,5 +1,5 @@
 
-# Linux System Tools - Usage
+# Usage
 
 Use the Linx System Tools plug-in to complete a number of Linux administrator tasks.
 

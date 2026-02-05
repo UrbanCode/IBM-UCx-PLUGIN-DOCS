@@ -1,5 +1,5 @@
 
-# ServiceNow - Usage
+# Usage
 
 * [Orchestrating Deployments with ServiceNow Using IBM DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/osman-burucu/2022/08/02/orchestrating-deployments-with-servicenow-using-ib)
 * [Component and Agent Configuration](#component-and-agent-configuration)

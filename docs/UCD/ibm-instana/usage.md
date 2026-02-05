@@ -1,4 +1,4 @@
-# IBM Instana - Usage
+# Usage
 
 ## Overview
 

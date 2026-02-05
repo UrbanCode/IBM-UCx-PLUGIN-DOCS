@@ -1,5 +1,5 @@
 
-# Selenium - Usage
+# Usage
 
 ## **Summary**
 

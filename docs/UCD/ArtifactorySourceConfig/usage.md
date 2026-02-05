@@ -1,5 +1,5 @@
 
-# Artifactory Source Config - Usage
+# Usage
 
 Use the Artifactory Source Configuration plug-in to import artifacts from an Artifactory repository as the component version.
 

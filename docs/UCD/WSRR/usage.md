@@ -1,5 +1,5 @@
 
-# IBM WebSphere Service Registry and Repository - Usage
+# Usage
 
 ## This section elaborates on the procedure to be followed to use this plug-in.
 

@@ -1,5 +1,5 @@
 
-# IBM Business Process Manager (WebSphere BPM) for IBM DevOps Deploy - Usage
+# Usage
 
 * [Deploying to an offline Process Server](https://www.urbancode.com/plugindoc/ibmucd/websphere-bpm/1-2/usage/deployments-offline-process-server/)
 * [Deploying to an online Process Server](https://www.urbancode.com/plugindoc/ibmucd/websphere-bpm/1-2/usage/deployments-online-process-server/)

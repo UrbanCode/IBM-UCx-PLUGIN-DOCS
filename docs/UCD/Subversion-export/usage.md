@@ -1,5 +1,5 @@
 
-# Subversion-Export - Usage
+# Usage
 
 Use the Subversion-Export plug-in to checkout a directory tree or working copy from the Subversion repository as part of a deployment process.
 

@@ -1,5 +1,5 @@
 
-# IBM DevOps Release - Usage
+# Usage
 
 
 ## IBM DevOps Release

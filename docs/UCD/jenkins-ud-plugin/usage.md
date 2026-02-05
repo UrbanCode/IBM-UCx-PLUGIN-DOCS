@@ -1,5 +1,5 @@
 
-# Jenkins Publisher - Usage
+# Usage
 
 
 This plug-in is installed into the Jenkins server and provides the ability to publish artifacts into an IBM DevOps Deploy component as a post-build action.

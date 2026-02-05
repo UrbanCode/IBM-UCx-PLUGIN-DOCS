@@ -1,5 +1,5 @@
 
-# Artifactory - Usage
+# Usage
 
 
 To use the Artifactory plug-in, you must create resources and define a deployment process.

@@ -1,5 +1,5 @@
 
-# Apache HTTP Server - Usage
+# Usage
 
 
 You can use the Apache HTTP Server plug-in to start and stop the Apache HTTP server that is running on either a UNIX or Windows operating system.

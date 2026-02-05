@@ -1,4 +1,4 @@
-# Ansible - Usage
+# Usage
 
 The Ansible plugin enables seamless integration of an Ansible environment into your deployment process. It provides a broad selection of modules, each of which can be utilized as discrete steps within your automation pipeline.
 

@@ -1,5 +1,5 @@
 
-# NuGet - Usage
+# Usage
 
 
 * [Create a component](#create-a-component)

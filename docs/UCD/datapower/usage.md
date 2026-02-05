@@ -1,5 +1,5 @@
 
-# IBM DataPower Configuration Manager - Usage
+# Usage
 
 
 * [Automated DataPower Deployment and Management Using DevOps Deploy at HM Health Solutions](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&referrer=&eventid=1457384&sessionid=1&key=B964DE08F3C2EEC28B45B7633953679E&regTag=&sourcepage=register): Webinar on how HighMark Health Solutions uses IBM DevOps and DataPower in production. Requires short sign-up to watch.

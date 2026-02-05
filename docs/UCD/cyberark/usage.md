@@ -1,5 +1,5 @@
 
-# CyberArk
+# Usage
 
 ## Usage
 

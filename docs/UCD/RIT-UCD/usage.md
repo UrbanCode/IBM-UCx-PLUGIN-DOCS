@@ -1,5 +1,5 @@
 
-# IBM Rational Integration Tester (RIT) - Usage
+# Usage
 
 Use the Rational Integration Tester plug-in to continuously initiate integration tests from IBM DevOps Deploy.
 

@@ -1,5 +1,5 @@
 
-# IBM API Connect - Usage
+# Usage
 
 
 To understand how to use the API Connect plug-in this topic uses two component templates that are available. The information in this topic is also available through a video, to watch the video, go to the [Using the API Connect plug-in](#video-walkthrough).

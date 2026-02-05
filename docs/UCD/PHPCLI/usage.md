@@ -1,5 +1,5 @@
 
-# IBM DevOps PHP CLI Tool - Usage
+# Usage
 
 
 ## Run an application process
