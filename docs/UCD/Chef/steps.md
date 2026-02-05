@@ -1,5 +1,5 @@
 
-# Chef - Process steps
+# Process Steps
 
 ## Install Chef
 

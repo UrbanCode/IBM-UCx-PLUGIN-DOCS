@@ -1,4 +1,4 @@
-# InfoSphere-ISD - Process Steps
+# Process Steps
 
 ## Design Time Export
 

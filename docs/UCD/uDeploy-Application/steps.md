@@ -1,5 +1,5 @@
 
-# IBM DevOps Deploy Applications - Process Steps
+# Process Steps
 
 ## Add Application To Team
 

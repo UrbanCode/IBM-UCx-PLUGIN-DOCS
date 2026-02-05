@@ -1,4 +1,4 @@
-# z/OS Utility - Process Steps
+# Process Steps
 
 ## Allocate Data Set
 

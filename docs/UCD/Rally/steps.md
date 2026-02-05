@@ -1,5 +1,5 @@
 
-# Rally for IBM DevOps Deploy - Process Steps
+# Process Steps
 
 ## Add Comments
 

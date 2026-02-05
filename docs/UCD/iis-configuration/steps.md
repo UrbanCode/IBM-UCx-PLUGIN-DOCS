@@ -1,4 +1,4 @@
-# Microsoft IIS - Configure - Process Steps
+# Process Steps
 
 ## IIS Configuration Auto-Discovery
 

@@ -1,4 +1,4 @@
-# Text Utility - Process Steps
+# Process Steps
 
 ## Search and Replace
 

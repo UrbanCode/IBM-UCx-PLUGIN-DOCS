@@ -1,5 +1,5 @@
 
-# Oracle WebLogic Server Security Management - Process Steps
+# Process Steps
 
 ## Create Role Mapper
 

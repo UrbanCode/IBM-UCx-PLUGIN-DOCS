@@ -1,5 +1,5 @@
 
-# CICS CM (Beta) - Process Steps
+# Process Steps
 
 ## Backout change package
 

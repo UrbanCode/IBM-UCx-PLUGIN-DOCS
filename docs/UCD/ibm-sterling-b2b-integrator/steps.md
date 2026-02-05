@@ -1,4 +1,4 @@
-# IBM Sterling B2B Integrator - Process Steps
+# Process Steps
 
 ## Start B2Bi
 

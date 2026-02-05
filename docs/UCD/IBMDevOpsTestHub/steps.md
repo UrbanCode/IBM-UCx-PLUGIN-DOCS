@@ -1,4 +1,4 @@
-# IBM DevOps Test Hub (Test Hub) - Process Steps
+# Process Steps
 
 ## Run IBM DevOps Test Hub test
 

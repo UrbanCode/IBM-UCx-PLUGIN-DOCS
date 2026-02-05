@@ -1,4 +1,4 @@
-# HCLDevOpsTestUIWebUIHCL DevOps Test UI - Web UI - Process Steps
+# Process Steps
 
 ## Run an HCL DevOps Test UI - UI Test
 

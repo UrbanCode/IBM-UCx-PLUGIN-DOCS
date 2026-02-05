@@ -1,5 +1,5 @@
 
-# Argo CD - Process Steps
+# Process Steps
 
 ## App Create
 

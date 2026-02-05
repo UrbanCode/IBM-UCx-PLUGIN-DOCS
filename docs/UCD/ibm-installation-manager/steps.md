@@ -1,5 +1,5 @@
 
-# IBM Installation Manager - Process Steps
+# Process Steps
 
 ## Execute Response File
 

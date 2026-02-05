@@ -1,5 +1,5 @@
 
-# Oracle WebLogic Scripting Tool (WLST) - Process Steps
+# Process Steps
 
 ## Check Server Status
 

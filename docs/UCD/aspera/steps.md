@@ -1,5 +1,5 @@
 
-# Aspera - Process Steps
+# Process Steps
 
 ## Download Artifacts
 

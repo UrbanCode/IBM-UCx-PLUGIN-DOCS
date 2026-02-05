@@ -1,5 +1,5 @@
 
-# IBM InfoSphere Optim - Process Steps
+# Process Steps
 
 ## Convert Request
 

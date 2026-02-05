@@ -1,5 +1,5 @@
 
-# Apache Tomcat - Process Steps
+# Process Steps
 
 ## Check Application Status
 

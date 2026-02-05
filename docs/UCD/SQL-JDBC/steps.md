@@ -1,5 +1,5 @@
 
-# SQL-JDBC - Process Steps
+# Process Steps
 
 ## Execute SQL Scripts
 

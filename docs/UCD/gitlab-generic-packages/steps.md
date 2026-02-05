@@ -1,4 +1,4 @@
-# GitLab Generic Packages - Process Steps
+# Process Steps
 
 ## GitLab Generic Packages Component Properties
 

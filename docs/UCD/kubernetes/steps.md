@@ -1,4 +1,4 @@
-# Kubernetes - Process Steps
+# Process Steps
 
 ## Create Resources
 

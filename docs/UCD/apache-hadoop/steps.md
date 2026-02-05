@@ -1,4 +1,4 @@
-# Apache Hadoop - Process Steps
+# Process Steps
 
 ## Create Directory
 

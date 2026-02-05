@@ -1,5 +1,5 @@
 
-# Oracle Service Bus Configuration Management - Process Steps
+# Process Steps
 
 ## Apply Customization
 

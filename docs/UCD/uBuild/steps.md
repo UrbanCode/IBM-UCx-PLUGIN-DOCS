@@ -1,5 +1,5 @@
 
-# IBM DevOps uBuild - Process Steps
+# Process Steps
 
 ## Assign Label
 

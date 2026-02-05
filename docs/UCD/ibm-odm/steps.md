@@ -1,5 +1,5 @@
 
-# IBM Operational Decision Manager (ODM) - Process Steps
+# Process Steps
 
 ## Delete XOM
 

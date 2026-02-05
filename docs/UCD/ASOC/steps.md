@@ -1,5 +1,5 @@
 
-# HCL ASoC - Process Steps
+# Process Steps
 
 ## Configure Job Options
 

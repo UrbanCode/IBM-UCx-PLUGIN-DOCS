@@ -1,4 +1,4 @@
-# z/OS Rexx Executor - Process steps
+# Process Steps
 
 ## Execute a REXX program
 

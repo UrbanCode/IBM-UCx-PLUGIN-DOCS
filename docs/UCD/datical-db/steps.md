@@ -1,4 +1,4 @@
-# Datical DB - Process Steps
+# Process Steps
 
 ## Run Groovy Script
 

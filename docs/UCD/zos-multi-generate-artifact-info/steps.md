@@ -1,4 +1,4 @@
-# z/OS Multi Generate Artifact Information - Process Steps
+# Process Steps
 
 > **Note:**
 > ---------

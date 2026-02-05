@@ -1,5 +1,5 @@
 
-# IBM DevOps Deploy System - Process Steps
+# Process Steps
 
 ## Add Group To Team
 

@@ -1,5 +1,5 @@
 
-# HP LoadRunner - Process Steps
+# Process Steps
 
 ## Run Test Scenario
 

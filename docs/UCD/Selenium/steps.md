@@ -1,5 +1,5 @@
 
-# Selenium - Process Steps
+# Process Steps
 
 ## Run Test Suite
 

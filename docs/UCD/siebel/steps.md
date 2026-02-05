@@ -1,4 +1,4 @@
-# Siebel - Process Steps
+# Process Steps
 
 ## Configure ImportSiebelMessage_single
 

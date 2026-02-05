@@ -1,4 +1,4 @@
-# IBM Rational ClearQuest - Process Steps
+# Process Steps
 
 ## Add Related Change Request
 

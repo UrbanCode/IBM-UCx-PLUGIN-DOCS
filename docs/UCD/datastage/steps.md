@@ -1,5 +1,5 @@
 
-# IBM InfoSphere DataStage - Process Steps
+# Process Steps
 
 ## Compile Job or Routine
 

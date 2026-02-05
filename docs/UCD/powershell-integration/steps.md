@@ -1,5 +1,5 @@
 
-# PowerShell - Process Steps
+# Process Steps
 
 ## Run PowerShell Script
 

@@ -1,5 +1,5 @@
 
-# Shell - Process Steps
+# Process Steps
 
 ## Shell
 

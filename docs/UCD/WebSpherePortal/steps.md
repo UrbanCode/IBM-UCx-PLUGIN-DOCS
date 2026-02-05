@@ -1,5 +1,5 @@
 
-# IBM WebSphere Portal - Process Steps
+# Process Steps
 
 ## Deploy Portal WAR
 

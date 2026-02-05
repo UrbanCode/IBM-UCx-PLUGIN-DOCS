@@ -1,4 +1,4 @@
-# Liquibase - Process Steps
+# Process Steps
 
 ## GenerateDBDoc
 

@@ -1,5 +1,5 @@
 
-# IBM WebSphere Service Registry and Repository - Process Steps
+# Process Steps
 
 ## Activate Configuration Profile
 

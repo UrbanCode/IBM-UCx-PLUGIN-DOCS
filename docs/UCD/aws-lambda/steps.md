@@ -1,4 +1,4 @@
-# Amazon Web Services (AWS) Lambda - Process Steps
+# Process Steps
 
 ## Create Function
 

@@ -1,4 +1,4 @@
-# Cloud Foundry - Process Steps
+# Process Steps
 
 ## Bind Service
 

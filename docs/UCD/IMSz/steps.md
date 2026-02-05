@@ -1,5 +1,5 @@
 
-# IBM IMS - Process Steps
+# Process Steps
 
 ## Execute IMS Command
 

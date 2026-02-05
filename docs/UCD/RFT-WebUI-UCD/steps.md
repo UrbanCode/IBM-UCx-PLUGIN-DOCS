@@ -1,5 +1,5 @@
 
-# IBM Rational Test Workbench Web UI Tester - Process Steps
+# Process Steps
 
 ## Run RTWec Test
 

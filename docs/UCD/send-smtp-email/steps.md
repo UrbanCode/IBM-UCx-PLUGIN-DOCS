@@ -1,4 +1,4 @@
-# Send SMTP Email - Process Steps
+# Process Steps
 
 ## Send an SMTP email
 

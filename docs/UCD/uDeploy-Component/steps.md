@@ -1,5 +1,5 @@
 
-# IBM DevOps Deploy Components - Process Steps
+# Process Steps
 
 ## Add Component To Team
 

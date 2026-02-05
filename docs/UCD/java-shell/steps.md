@@ -1,5 +1,5 @@
 
-# z/OS Shell - Process Steps
+# Process Steps
 
 > **Deprecation Notice**: The z/OS Shell plugin is deprecated. It is recommended to use the [Shell plugin](../Shell/index.md) instead.
 

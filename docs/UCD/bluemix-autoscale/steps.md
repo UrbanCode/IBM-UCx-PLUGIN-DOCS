@@ -1,5 +1,5 @@
 
-# IBM Bluemix Auto-Scaling - Process Steps
+# Process Steps
 
 ## Add Auto-Scale Policy to Application
 

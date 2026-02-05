@@ -1,4 +1,4 @@
-# TIBCO - Process Steps
+# Process Steps
 
 ## Build Tibco Enterprise Archive (.ear)
 

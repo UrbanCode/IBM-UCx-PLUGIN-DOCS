@@ -1,5 +1,5 @@
 
-# IBM Containers - Process Steps
+# Process Steps
 
 ## Bind IP Address
 

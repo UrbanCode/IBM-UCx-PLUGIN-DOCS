@@ -1,5 +1,5 @@
 
-# CyberArk - Process Steps
+# Process Steps
 
 ## Authenticate Conjur
 

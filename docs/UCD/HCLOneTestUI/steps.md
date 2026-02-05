@@ -1,4 +1,4 @@
-# HCL OneTest UI - Process Steps
+# Process Steps
 
 ## Run an HCL OneTest UI - Functional Test
 

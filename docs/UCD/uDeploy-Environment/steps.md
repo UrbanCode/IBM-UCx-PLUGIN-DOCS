@@ -1,5 +1,5 @@
 
-# IBM DevOps Deploy Environments - Process Steps
+# Process Steps
 
 ## Add Base Resource To Environment
 

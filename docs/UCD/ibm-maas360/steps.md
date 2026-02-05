@@ -1,4 +1,4 @@
-# IBM MaaS360 - Process Steps
+# Process Steps
 
 ## Request Authentication
 

@@ -1,4 +1,4 @@
-# IBM Rational Asset Manager for IBM DevOps Deploy - Process Steps
+# Process Steps
 
 ## Import Version
 

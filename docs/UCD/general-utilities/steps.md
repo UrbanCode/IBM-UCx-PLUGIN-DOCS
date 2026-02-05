@@ -1,5 +1,5 @@
 
-# IBM DevOps Deploy General Utilites - Process Steps
+# Process Steps
 
 ## Wait
 

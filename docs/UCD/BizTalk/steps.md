@@ -1,5 +1,5 @@
 
-# Microsoft BizTalk - Process steps
+# Process Steps
 
 ## Add Biztalk Application
 

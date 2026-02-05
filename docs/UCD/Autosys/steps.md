@@ -1,4 +1,4 @@
-# Autosys - Process Steps
+# Process Steps
 
 ## Send Autosys Event
 

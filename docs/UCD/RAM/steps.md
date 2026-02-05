@@ -1,5 +1,5 @@
 
-# IBM Rational Asset Manager - Process Steps
+# Process Steps
 
 ## Categorize an Asset
 

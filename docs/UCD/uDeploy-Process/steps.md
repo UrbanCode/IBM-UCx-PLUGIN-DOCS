@@ -1,5 +1,5 @@
 
-# IBM DevOps Deploy Process - Process Steps
+# Process Steps
 
 ## Set Link on Process Request
 

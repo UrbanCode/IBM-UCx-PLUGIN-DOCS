@@ -1,5 +1,5 @@
 
-# IBM AppScan Enterprise - Process Steps
+# Process Steps
 
 ## Configure Job Options
 

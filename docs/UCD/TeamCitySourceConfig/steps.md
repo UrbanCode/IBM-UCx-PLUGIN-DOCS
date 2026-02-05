@@ -1,5 +1,5 @@
 
-# TeamCity - Process Steps
+# Process Steps
 
 ## Import Version
 

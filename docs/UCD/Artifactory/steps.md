@@ -1,5 +1,5 @@
 
-# Artifactory - Process steps
+# Process Steps
 
 ## Download Latest Build for SNAPSHOT
 

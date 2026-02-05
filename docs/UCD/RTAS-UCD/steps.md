@@ -1,5 +1,5 @@
 
-# IBM Rational Test Automation Server (RTAS) - Process Steps
+# Process Steps
 
 ## Start a job on IBM Rational Test Automation Server
 

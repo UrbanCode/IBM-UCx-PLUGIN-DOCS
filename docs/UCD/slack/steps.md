@@ -1,4 +1,4 @@
-# Slack - Process Steps
+# Process Steps
 
 ## Post Notification to Slack
 

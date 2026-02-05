@@ -1,5 +1,5 @@
 
-# Microsoft SharePoint - Process Steps
+# Process Steps
 
 ## Activate SharePoint Feature
 

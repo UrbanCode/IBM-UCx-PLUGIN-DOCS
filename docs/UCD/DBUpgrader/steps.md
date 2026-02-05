@@ -1,5 +1,5 @@
 
-# IBM DevOps DBUpgrader - Process Steps
+# Process Steps
 
 ## Rollback DB
 

@@ -1,4 +1,4 @@
-# Microsoft Software Installer (MSI) - Process Steps
+# Process Steps
 
 ## Install MSI
 

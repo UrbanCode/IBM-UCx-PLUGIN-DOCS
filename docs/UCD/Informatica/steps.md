@@ -1,5 +1,5 @@
 
-# Informatica - Process Steps
+# Process Steps
 
 ## Apply Label
 

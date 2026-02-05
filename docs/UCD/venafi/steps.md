@@ -1,4 +1,4 @@
-# Venafi - Process Steps
+# Process Steps
 
 ## Authentication test
 

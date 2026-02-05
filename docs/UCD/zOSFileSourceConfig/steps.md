@@ -1,4 +1,4 @@
-# z/OS File Source Config - Process Steps
+# Process Steps
 
 ## Import Version
 

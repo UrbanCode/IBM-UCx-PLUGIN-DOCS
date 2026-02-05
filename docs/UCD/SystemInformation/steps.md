@@ -1,5 +1,5 @@
 
-# System Information - Process Steps
+# Process Steps
 
 ## Check Available Disk Space
 

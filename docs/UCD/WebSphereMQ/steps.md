@@ -1,5 +1,5 @@
 
-# IBM-MQ - Process Steps
+# Process Steps
 
 ## Alter Client-Connection Channel
 

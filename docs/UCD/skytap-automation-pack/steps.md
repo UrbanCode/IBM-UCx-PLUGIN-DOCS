@@ -1,4 +1,4 @@
-# Skytap Automation Pack - Process Steps
+# Process Steps
 
 ## Skytap Authentication
 

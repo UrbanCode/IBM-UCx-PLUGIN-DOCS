@@ -1,5 +1,5 @@
 
-# Docker Compose - Process Steps
+# Process Steps
 
 ## Create Child Resources
 

@@ -1,5 +1,5 @@
 
-# IBM BigFix - Process Steps
+# Process Steps
 
 ## Start Action
 

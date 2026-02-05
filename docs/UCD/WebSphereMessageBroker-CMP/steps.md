@@ -1,5 +1,5 @@
 
-# IBM Integration Bus (formerly WebSphere Message Broker) - CMP - Process Steps
+# Process Steps
 
 ## Create Execution Group
 

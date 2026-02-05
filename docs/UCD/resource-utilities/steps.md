@@ -1,4 +1,4 @@
-# Resource Utilities - Process Steps
+# Process Steps
 
 ## List Resources
 

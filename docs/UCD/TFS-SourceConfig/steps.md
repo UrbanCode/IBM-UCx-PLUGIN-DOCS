@@ -1,5 +1,5 @@
 
-# Microsoft TFS (Team Foundation Server) - Process Steps
+# Process Steps
 
 ## Import Version
 

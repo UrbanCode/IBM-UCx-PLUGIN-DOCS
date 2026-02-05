@@ -1,5 +1,5 @@
 
-# IBM DevOps Deploy Tools - Process Steps
+# Process Steps
 
 ## Check Total Application Process Execution Time
 

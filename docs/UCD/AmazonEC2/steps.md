@@ -1,4 +1,4 @@
-# Amazon EC2 - Process Steps
+# Process Steps
 
 ## Associate IPs
 

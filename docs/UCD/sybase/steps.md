@@ -1,5 +1,5 @@
 
-# Sybase - Process Steps
+# Process Steps
 
 ## Run SQL Scripts
 

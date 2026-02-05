@@ -1,4 +1,4 @@
-# IBM Rational ClearCase - Process Steps
+# Process Steps
 
 ## Import Version
 

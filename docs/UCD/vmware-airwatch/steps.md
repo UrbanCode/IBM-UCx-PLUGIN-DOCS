@@ -1,4 +1,4 @@
-# VMware AirWatch - Process Steps
+# Process Steps
 
 ## Deploy IPA
 

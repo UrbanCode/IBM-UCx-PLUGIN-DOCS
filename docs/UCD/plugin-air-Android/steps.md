@@ -1,4 +1,4 @@
-# Google Android SDK - Process Steps
+# Process Steps
 
 ## Install Application
 

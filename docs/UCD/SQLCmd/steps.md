@@ -1,5 +1,5 @@
 
-# Microsoft SQL Server SQLCmd - Process Steps
+# Process Steps
 
 ## Run SQLCmd scripts
 

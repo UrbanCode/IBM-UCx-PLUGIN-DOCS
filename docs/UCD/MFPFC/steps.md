@@ -1,5 +1,5 @@
 
-# IBM MobileFirst Platform Foundation on IBM Containers - Process Steps
+# Process Steps
 
 ## Create Databases
 

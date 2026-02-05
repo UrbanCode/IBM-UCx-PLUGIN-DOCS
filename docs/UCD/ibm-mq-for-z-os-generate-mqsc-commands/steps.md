@@ -1,5 +1,5 @@
 
-# IBM MQ for z/OS - Generate MQSC Commands - Process Steps
+# Process Steps
 
 ## Generate MQSC Commands
 

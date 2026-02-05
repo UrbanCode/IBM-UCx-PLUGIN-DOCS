@@ -1,4 +1,4 @@
-# HCL OneTest WebUI - Process Steps
+# Process Steps
 
 ## Run an HCL OneTest UI - UI Test
 

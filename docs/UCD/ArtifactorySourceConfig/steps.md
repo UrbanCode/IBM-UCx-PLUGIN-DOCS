@@ -1,5 +1,5 @@
 
-# Artifactory Source Config - Process steps
+# Process Steps
 
 ## Import Version
 

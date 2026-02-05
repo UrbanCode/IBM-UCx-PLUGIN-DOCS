@@ -1,4 +1,4 @@
-# HCL OneTest Performance - Process Steps
+# Process Steps
 
 ## Run an HCL OneTest Performance test
 

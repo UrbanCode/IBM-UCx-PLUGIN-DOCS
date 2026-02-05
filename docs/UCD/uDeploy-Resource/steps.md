@@ -1,5 +1,5 @@
 
-# IBM DevOps Deploy Resources - Process Steps
+# Process Steps
 
 ## Add Resource To Team
 

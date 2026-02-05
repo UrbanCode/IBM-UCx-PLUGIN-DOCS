@@ -1,7 +1,7 @@
 
-# z/OS FTP Utility - Process steps
+# Process Steps
 
-# FTP Artifacts
+# Process Steps
 
 Load artifacts from a remote repository using FTP.
 

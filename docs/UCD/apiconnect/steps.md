@@ -1,5 +1,5 @@
 
-# IBM API Connect - Process steps
+# Process Steps
 
 
 ## Login

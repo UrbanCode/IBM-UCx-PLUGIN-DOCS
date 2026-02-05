@@ -1,4 +1,4 @@
-# SAP Change and Transport System (CTS) - Process Steps
+# Process Steps
 
 ## Add to Buffer
 
