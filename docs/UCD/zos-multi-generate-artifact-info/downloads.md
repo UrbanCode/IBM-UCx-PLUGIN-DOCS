@@ -1,4 +1,4 @@
-# z/OS Multi Generate Artifact Information - Downloads
+# Downloads
 
 To download the plug-in, click the following version-specific links.
 

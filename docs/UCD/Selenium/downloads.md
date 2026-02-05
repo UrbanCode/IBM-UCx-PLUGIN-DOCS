@@ -1,5 +1,5 @@
 
-# Selenium - Downloads
+# Downloads
 
 To download the plug-in, click the following version-specific links.
 - [ucd-Selenium-9.1154067.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Selenium/ucd-Selenium-9.1154067.zip)

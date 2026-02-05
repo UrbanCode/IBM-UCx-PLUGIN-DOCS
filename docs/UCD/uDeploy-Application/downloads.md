@@ -1,5 +1,5 @@
 
-# IBM DevOps Deploy Applications - Downloads
+# Downloads
 
 To download the plug-in, click the following version-specific links.
 - [ucd-uDeploy-Application-87.1155713.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Application/ucd-uDeploy-Application-87.1155713.zip)

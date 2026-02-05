@@ -1,5 +1,5 @@
 
-# CA SCM (formerly Harvest) - Downloads
+# Downloads
 
 Click the following link to download the plug-in.
 

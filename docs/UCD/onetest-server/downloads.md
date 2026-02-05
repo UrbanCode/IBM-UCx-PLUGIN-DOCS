@@ -1,5 +1,5 @@
 
-# HCL OneTest Server - Downloads
+# Downloads
 
 To download the plug-in, click the the following version-specific links.
 - [OTS-UCD-3.3.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/HCLOneTestServer/OTS-UCD-3.3.zip)

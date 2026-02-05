@@ -1,5 +1,5 @@
 
-# Microsoft SSIS - Downloads
+# Downloads
 
 To download the plug-in, click the following version-specific links.
 - [MicrosoftSSIS-2.1005733.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/MicrosoftSSIS/MicrosoftSSIS-2.1005733.zip)

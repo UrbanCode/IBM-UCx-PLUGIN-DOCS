@@ -1,5 +1,5 @@
 
-# IBM DevOps Deploy Configuration Management - Downloads
+# Downloads
 
 To download the plug-in, click the version-specific links.
 

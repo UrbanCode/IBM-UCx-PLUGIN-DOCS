@@ -1,5 +1,5 @@
 
-# z/OS File Source Config - Downloads
+# Downloads
 
 To download the plug-in, click the following version-specific links.
 - [devops-deploy-zOSFileSourceConfig-10.1181082.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOSFileSourceConfig/devops-deploy-zOSFileSourceConfig-10.1181082.zip)

@@ -1,5 +1,5 @@
 
-# Oracle WebLogic WLDeploy - Downloads
+# Downloads
 
 To download the plug-in, click the following version-specific links.
 - [ucd-WLDeploy-26.1175365.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WLDeploy/ucd-WLDeploy-26.1175365.zip)

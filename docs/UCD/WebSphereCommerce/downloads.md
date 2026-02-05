@@ -1,5 +1,5 @@
 
-# IBM WebSphere Commerce - Downloads
+# Downloads
 
 To download the plug-in, click the following version-specific links.
 - [WebSphereCommerce-6.1100872.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereCommerce/WebSphereCommerce-6.1100872.zip)

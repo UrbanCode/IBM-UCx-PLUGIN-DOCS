@@ -1,5 +1,5 @@
 
-# File System - Downloads
+# Downloads
 
 To download the plug-in, click the following version-specific download links.
 

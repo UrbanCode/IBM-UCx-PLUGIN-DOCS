@@ -1,5 +1,5 @@
 
-# System Information - Downloads
+# Downloads
 
 To download the plug-in, click the following version-specific links.
 - [ucd-SystemInformation-9.1171671.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SystemInformation/ucd-SystemInformation-9.1171671.zip)

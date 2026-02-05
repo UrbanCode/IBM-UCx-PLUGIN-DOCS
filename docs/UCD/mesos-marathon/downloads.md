@@ -1,5 +1,5 @@
 
-# Mesos Marathon - Downloads
+# Downloads
 
 To download the plug-in, click the following version-specific links.
 - [mesos-marathon-4.1174443.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/mesos-marathon/ucd-mesos-marathon-4.1174443.zip)

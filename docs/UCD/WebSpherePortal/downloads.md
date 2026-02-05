@@ -1,5 +1,5 @@
 
-# IBM WebSphere Portal - Downloads
+# Downloads
 
 To download the plug-in, click the following version-specific links.
 - [WebSpherePortal-8.1100783.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSpherePortal/WebSpherePortal-8.1100783.zip)

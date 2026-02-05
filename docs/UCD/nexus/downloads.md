@@ -1,5 +1,5 @@
 
-# Nexus - Downloads
+# Downloads
 
 To download the plug-in, click the following version-specific links.
 - [Nexus-3.1101667.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/nexus/Nexus-3.1101667.zip)

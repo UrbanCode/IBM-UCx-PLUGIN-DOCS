@@ -1,5 +1,5 @@
 
-# IBM DevOps Deploy Process - Downloads
+# Downloads
 
 To download the plug-in, click the following version-specific links.
 - [ucd-uDeploy-Process-14.1155709.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Process/ucd-uDeploy-Process-14.1155709.zip)

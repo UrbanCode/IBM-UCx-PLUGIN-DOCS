@@ -1,4 +1,4 @@
-# HCL DevOps Test UI (Test UI) - Downloads
+# Downloads
 
 To download the plug-in, click the following version-specific links.
 - [DTUI-FunctionalTest-DD-HCL-7.0.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/HCLDevOpsTestUI/DTUI-FunctionalTest-DD-HCL-7.0.zip)

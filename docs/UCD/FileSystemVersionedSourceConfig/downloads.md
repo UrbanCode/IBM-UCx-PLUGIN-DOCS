@@ -1,5 +1,5 @@
 
-# File System (Versioned) - Downloads
+# Downloads
 
 To download the plug-in, click the following version-specific links.
 - [ucd-FileSystemVersionedSourceConfig-19.1155762.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileSystemVersionedSourceConfig/ucd-FileSystemVersionedSourceConfig-19.1155762.zip)

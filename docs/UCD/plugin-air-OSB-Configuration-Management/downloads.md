@@ -1,5 +1,5 @@
 
-# Oracle Service Bus Configuration Management - Downloads
+# Downloads
 
 To download the plug-in, click the following version-specific links.
 - [plugin-air-OSB-Configuration-Management-13.914640.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/plugin-air-OSB-Configuration-Management/plugin-air-OSB-Configuration-Management-13.914640.zip)

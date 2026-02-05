@@ -1,4 +1,4 @@
-# IBM DevOps Test Virtualization - Downloads
+# Downloads
 
 To download the plug-in, click the following version-specific links.
 - [DTVirtualization-DD-IBM-5.0.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IBMDevOpsTestVirtualization/DTVirtualization-DD-IBM-5.0.zip)

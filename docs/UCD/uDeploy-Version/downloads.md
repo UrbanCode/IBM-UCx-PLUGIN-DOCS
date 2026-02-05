@@ -1,5 +1,5 @@
 
-# IBM DevOps Deploy Versions - Downloads
+# Downloads
 
 To download the plug-in, click the following version-specific links.
 - [devops-deploy-uDeploy-Version-79.1185710.zip](https://github.com/UrbanCode/IBM-UCD-PLUGINS/raw/refs/heads/main/files/uDeploy-Version/devops-deploy-uDeploy-Version-79.1185710.zip)
