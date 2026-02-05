@@ -32,6 +32,10 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ## History
 
+### Version 27
+
+* Fixed Java Path Resolution.
+
 ### Version 26
 
 * Fixed issue with Groovy 3.x.
