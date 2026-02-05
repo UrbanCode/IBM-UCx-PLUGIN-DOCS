@@ -1,5 +1,5 @@
 
-# PVCS - Usage
+# Usage
 
 To create a component by importing from a PVCS repository, complete the following steps. For more information, see [Creating components](https://www.ibm.com/docs/en/urbancode-deploy/7.2.3?topic=components-creating "Creating components") in the product help.
 

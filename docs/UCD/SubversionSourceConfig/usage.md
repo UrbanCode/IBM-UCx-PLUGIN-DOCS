@@ -1,5 +1,5 @@
 
-# Subversion - Usage
+# Usage
 
 
 You will need to define an DevOps Deploy component which defines the source and processes for the Subversion repository. The component contains the information for importing the artifacts and any processes to implement on the artifacts.

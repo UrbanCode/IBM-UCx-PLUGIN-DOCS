@@ -1,5 +1,5 @@
 
-# HP LoadRunner - Usage
+# Usage
 
 
 * [Default UCD Analysis Template](#default-ucd-analysis-template)

@@ -1,5 +1,5 @@
 
-# IBM Maximo - Usage
+# Usage
 
 
 ## Step palette

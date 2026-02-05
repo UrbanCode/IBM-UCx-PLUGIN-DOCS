@@ -1,5 +1,5 @@
 
-# IBM Rational Quality Manager (RQM) - Usage
+# Usage
 
 
 ## Example: Running tests in Rational Quality Manager

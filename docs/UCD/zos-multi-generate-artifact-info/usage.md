@@ -1,4 +1,4 @@
-# z/OS Multi Generate Artifact Information - Usage
+# Usage
 
 * [Generate Multiple Artifact Information](#generate-multiple-artifact-information)
 * [Generate Multiple Artifact Information YAML](#generate-multiple-artifact-information-yaml)

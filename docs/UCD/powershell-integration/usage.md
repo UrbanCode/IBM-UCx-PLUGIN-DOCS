@@ -1,5 +1,5 @@
 
-# PowerShell - Usage
+# Usage
 
 Download the plug-in and extract the .zip file. A tutorial is available in the form of an example process in the `imports/process/PowerShell+Example.json` file. To see the tutorial content, import the example process.
 

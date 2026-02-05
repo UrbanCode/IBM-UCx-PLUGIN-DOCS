@@ -1,5 +1,5 @@
 
-# Amazon EC2 - Usage
+# Usage
 
 Use this plug-in to manage Amazon Elastic Cloud (EC2) instances as a process step.
 

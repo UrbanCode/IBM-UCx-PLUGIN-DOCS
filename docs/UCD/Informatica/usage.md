@@ -1,5 +1,5 @@
 
-# Informatica - Usage
+# Usage
 
 ## Importing objects via XML
 

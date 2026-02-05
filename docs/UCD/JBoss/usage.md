@@ -1,5 +1,5 @@
 
-# JBoss Application Server - Usage
+# Usage
 
 ## Example: Deploying an application on JBoss Application Server
 

@@ -1,5 +1,5 @@
 
-# IBM DevOps Deploy General Utilites - Usage
+# Usage
 
 
 With the **Wait** step you can suspend processing for a specified number of seconds.

@@ -1,5 +1,5 @@
 
-# Microsoft TFS (Team Foundation Server) - Usage
+# Usage
 
 You will need to define an DevOps Deploy component which defines the source and processes for the Microsoft Team Foundation Server repository. The component contains the information for importing the artifacts and any processes to implement on the artifacts.
 

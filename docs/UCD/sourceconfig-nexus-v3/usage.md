@@ -1,5 +1,5 @@
 
-# Nexus Repository Manager V3 - Usage
+# Usage
 
 * [NRM V3 Rest API Versions](#nrm-v3-rest-api-versions)
 * [Plugin Demonstration Video](#plugin-demonstration-video)

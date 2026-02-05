@@ -1,5 +1,5 @@
 
-# Shell - Usage
+# Usage
 
 With the Shell plug-in steps, you can run a Shell script as part of the deployment process. The plug-in step contains the scripts.
 

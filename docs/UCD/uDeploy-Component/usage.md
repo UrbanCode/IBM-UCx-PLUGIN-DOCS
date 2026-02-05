@@ -1,5 +1,5 @@
 
-# IBM DevOps Deploy Components - Usage
+# Usage
 
 ## Create Multiple Components
 

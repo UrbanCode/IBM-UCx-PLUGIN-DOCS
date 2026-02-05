@@ -1,5 +1,5 @@
 
-# Microsoft IIS - Configure - Usage
+# Usage
 
 
 * [Discovering and applying configurations](#discovering-and-applying-configurations)

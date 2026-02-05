@@ -1,5 +1,5 @@
 
-# IBM IMS - Usage
+# Usage
 
 ## Using the IMS plug-in in DevOps Deploy
 

@@ -1,5 +1,5 @@
 
-# Azure DevOps - Usage
+# Usage
 
 The Microsoft Azure Devops source configuration plugin can be used to import artifacts from a Azure DevOps projects repository. This plugin retrieves artifacts from Azure DevOps version control, code that is not compiled or built, and .zip file types from a TFS build process. The agent must have access to the tf tool.
 

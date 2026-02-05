@@ -1,5 +1,5 @@
 
-# OpenShift for IBM DevOps Deploy - Usage
+# Usage
 
 Use the Create New-App step to generate OpenShift Container Platform objects that build, deploy, and run the application being created. For more information, see the [Openshift](https://docs.openshift.com/container-platform/3.11/dev_guide/application_lifecycle/new_app.html) documentation.
 

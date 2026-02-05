@@ -1,5 +1,5 @@
 
-# IBM WebSphere Liberty
+# Usage
 
 ## Usage
 

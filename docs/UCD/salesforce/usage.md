@@ -1,5 +1,5 @@
 
-# Salesforce - Usage
+# Usage
 
 ## [Salesforce Integration with IBM DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/07/27/salesforce-integration-with-ibm-urbancode-deploy?CommunityKey=9adfe6b6-2e23-4895-8b27-38b93b5e152c#example-retrieve)
 

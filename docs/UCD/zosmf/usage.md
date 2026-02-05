@@ -1,5 +1,5 @@
 
-# z/OS Management Facility - Usage
+# Usage
 
 ## The following pages provide usage information about this plug-in
 

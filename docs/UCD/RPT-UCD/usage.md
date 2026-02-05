@@ -1,5 +1,5 @@
 
-# IBM Rational Performance Tester (RPT) - Usage
+# Usage
 
 
 Use the Performance Tester plugin to continuously initiate the launch of tests, compound tests, and schedules from IBM DevOps Deploy.

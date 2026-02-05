@@ -1,5 +1,5 @@
 
-# IBM WebSphere Portal - Usage
+# Usage
 
 
 ## Before you begin

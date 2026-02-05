@@ -1,5 +1,5 @@
 
-# IBM Rational Test Virtualization Server (RTVS) - Usage
+# Usage
 
 Use the Service Virtualization plug-in to automate the virtualization of services from IBM DevOps Deploy.
 
