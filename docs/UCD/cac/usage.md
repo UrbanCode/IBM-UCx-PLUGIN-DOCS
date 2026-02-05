@@ -193,7 +193,7 @@
 
 * A process in the above structure is mapped to a json that has multiple process step definitions. there are multiple types of steps that are supported in **Devops Deploy** 
 
-## Process step definitions 
+## Process step definitions
 
 
 - 'Devops-Deploy' processes are composed of different steps that are made up of json. The steps ideally start from the 'Start' step and terminate at the last user defined step. Unlike in the UI, there's no need for an explicit 'Finish' step.
@@ -539,7 +539,7 @@ Note that in the above examples, the **finish** attribute has no value. The fini
 
       ```
 
-### Application process configuration 
+### Application process configuration
 *  Available from 8.X versions
 
 - Syntax
@@ -1067,7 +1067,7 @@ Note that in the above examples, the **finish** attribute has no value. The fini
 
 
 
-## Step Definitions Types with syntax and examples 
+## Step Definitions Types with syntax and examples
 
 
 Most of the process steps are explained in https://www.ibm.com/docs/en/devops-deploy/8.0.1?topic=processes-process-steps-reference

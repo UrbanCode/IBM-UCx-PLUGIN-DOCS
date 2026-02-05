@@ -154,7 +154,7 @@ data "azurerm_virtual_network" "vnet" {
 }
 
 # --------------------------------------
-# Existing Subnet 
+# Existing Subnet
 # --------------------------------------
 data "azurerm_subnet" "subnet" {
   name                 = "<subnet-name>"
@@ -177,7 +177,7 @@ resource "azurerm_network_interface" "nic" {
 }
 
 # --------------------------------------
-# Linux Virtual Machine 
+# Linux Virtual Machine
 # --------------------------------------
 resource "azurerm_linux_virtual_machine" "vm" {
   resource_group_name = data.azurerm_resource_group.existing_infrg.name

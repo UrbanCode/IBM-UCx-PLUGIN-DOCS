@@ -1,4 +1,4 @@
-# File System (Versioned) - Roles 
+# File System (Versioned) - Roles
 
 The plug-in adds these roles automatically to resources. You cannot add these roles manually.
 
