@@ -1,5 +1,5 @@
 
-# Argo CD - Overview
+# Overview
 
 The Argo CD plug-in includes steps which interact with Argo CD applications in IBM DevOps Deploy.
 

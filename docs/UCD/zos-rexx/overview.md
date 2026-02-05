@@ -1,4 +1,4 @@
-# z/OS Rexx Executor - Overview
+# Overview
 
 ---
 

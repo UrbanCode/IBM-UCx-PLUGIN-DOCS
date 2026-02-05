@@ -1,5 +1,5 @@
 
-# IBM API Connect - Overview
+# Overview
 
 The API Connect plug-in includes steps that publish API definitions, products, and Loopback apps in IBM API Connect. The plug-in communicates with API Connect using the `apiconnect` contained in the apic command line toolkit.
 

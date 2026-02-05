@@ -1,5 +1,5 @@
 
-# Microsoft IIS AppCmd - Overview
+# Overview
 
 
 The IIS-AppCmd plugin is an automation based plugin. It is used during the deployment to automate configuration changes to IIS versions 7 8.

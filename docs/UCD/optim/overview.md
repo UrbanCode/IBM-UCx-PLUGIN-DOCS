@@ -1,5 +1,5 @@
 
-# IBM InfoSphere Optim - Overview
+# Overview
 
 IBM InfoSphere Optim Test Data Management optimizes and automates the test data management process. This plug-in includes steps that run test data management commands in IBM InfoSphere Optim.
 

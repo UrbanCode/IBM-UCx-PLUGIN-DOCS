@@ -1,5 +1,5 @@
 
-# File Utils - Overview
+# Overview
 
 The steps in this plug-in manipulate files on the target system.
 

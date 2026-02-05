@@ -1,5 +1,5 @@
 
-# Microsoft IIS AdminScripts - Overview
+# Overview
 
 
 The Microsoft IIS AdminScripts plug-in includes steps that change the configuration of IIS 6 during a deployment.

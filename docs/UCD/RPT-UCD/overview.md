@@ -1,5 +1,5 @@
 
-# IBM Rational Performance Tester (RPT) - Overview
+# Overview
 
 **Overview** With the IBM Rational Test WorkbenchPerformance Tester plugin for DevOps Deploy, you can automate the execution of tests, compound tests, and schedules. To initiate a service test run, you must install either the SOA extension as part of Rational Performance Tester or install Rational Service Tester for SOA Quality on the target computer. For a performance test, install Rational Performance Tester on the target computer where the test will be run. When you run a schedule, ensure that the workbench is connected to the agent computers. If you run a schedule on the cloud, you must be aware of how much the run is going to cost you.
 

@@ -1,5 +1,5 @@
 
-# IBM DevOps Deploy System - Overview
+# Overview
 
 The IBM DevOps Deploy System plug-in includes steps that manage IBM DevOps Deploy system properties and global settings.
 

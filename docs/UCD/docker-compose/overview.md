@@ -1,5 +1,5 @@
 
-# Docker Compose - Overview
+# Overview
 
 This plug-in provides steps for running Docker Compose.
 

@@ -1,5 +1,5 @@
 
-# JIRA for IBM DevOps Deploy - Overview
+# Overview
 
 The JIRA plug-in includes steps to automate working with JIRA issues as a process step.
 

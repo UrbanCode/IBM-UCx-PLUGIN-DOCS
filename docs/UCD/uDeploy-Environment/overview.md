@@ -1,5 +1,5 @@
 
-# IBM DevOps Deploy Environments - Overview
+# Overview
 
 
 This plug-in includes steps that create and manage environments on the IBM DevOps Deploy server.

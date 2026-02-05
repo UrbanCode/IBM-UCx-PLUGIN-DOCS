@@ -1,5 +1,5 @@
 
-# CICS CM (Beta) - Overview
+# Overview
 
 IBM CICS Configuration Manager is a tool for managing and maintaining CICS Transaction Server definitions. It provides audit, reporting and lifecycle change management control facilities to support the build, management, and deployment of complex mainframe CICS applications.
 

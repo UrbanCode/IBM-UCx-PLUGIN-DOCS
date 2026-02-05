@@ -1,5 +1,5 @@
 
-# z/OS Management Facility - Overview
+# Overview
 
 The z/OS Management Facility (zOSMF) plug-in provides functions to discover software instances provisioned by[z/OSMFCloud Provisioning](https://www.ibm.com/systems/z/os/zos/features/zosmf/)or[z/OS Provisioning Toolkit](https://developer.ibm.com/mainframe/products/zospt/). A collection of resources are created inthe resource tree torepresent thesoftware instances such as CICS regions, WebSphere Liberty profile, MQ queues, and DB2 databases.
 

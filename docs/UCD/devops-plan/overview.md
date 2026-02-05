@@ -1,4 +1,4 @@
-# DevOps Plan Plug-in Overview
+# Overview
 
 The DevOps Plan plug-in includes steps to automate interactions with DevOps Plan records as part of your deployment processes.This plug-in enables you to create, update, and manage various DevOps Plan entities such as Plan Items, Sprints, Work Items, Releases, and other custom record types.
 

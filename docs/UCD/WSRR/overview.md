@@ -1,5 +1,5 @@
 
-# IBM WebSphere Service Registry and Repository - Overview
+# Overview
 
 This WSRR (WebSphere Service Registry and Repository) plug-in enables you to do the following:
 

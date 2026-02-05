@@ -1,5 +1,5 @@
 
-# IBM DevOps Deploy Versions - Overview
+# Overview
 
 This plug-in contains steps that manipulate versions on the IBM DevOps Deploy server, including creating versions and assigning statuses to versions.
 

@@ -1,5 +1,5 @@
 
-# Nexus Source Config - Overview
+# Overview
 
 The Nexus Source Config plug-in for IBM DevOps Deploy enables the import of Maven artifacts from Release and Snapshot repositories.
 

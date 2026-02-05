@@ -1,5 +1,5 @@
 
-# IBM Bluemix Auto-Scaling - Overview
+# Overview
 
 This plug-in includes functionality to add and modify policies for IBM Bluemix Auto-Scaling. The plug-in communicates with IBM Bluemix by using the REST API.
 

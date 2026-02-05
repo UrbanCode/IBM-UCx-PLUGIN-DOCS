@@ -1,5 +1,5 @@
 
-# PowerShell - Overview
+# Overview
 
 The PowerShell plug-in provides a step for running user-defined PowerShell scripts.
 

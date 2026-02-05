@@ -1,5 +1,5 @@
 
-# Informatica - Overview
+# Overview
 
 Informatica PowerCenter is an enterprise data integration platform.
 

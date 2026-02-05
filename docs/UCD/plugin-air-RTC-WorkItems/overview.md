@@ -1,5 +1,5 @@
 
-# IBM Rational Team Concert Work Items - Overview
+# Overview
 
 This plug-in includes steps that work with work items in IBM Rational Team Concert. The [Add Work Item Comments](steps#add_work_item_comments) step adds comments to a work item. The [Change Work Item Status](steps#change_work_item_status) step changes the status of a work item. The [Check Work Item Status](steps#check_work_item_status) step adds comments to a work item
 

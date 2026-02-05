@@ -1,5 +1,5 @@
 
-# Groovy - Overview
+# Overview
 
 The Groovy plug-in automates running a Groovy script as a process step. This plug-in is installed as part of IBM DevOps Deploy.
 

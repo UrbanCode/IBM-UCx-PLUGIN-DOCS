@@ -1,5 +1,5 @@
 
-# Docker - Overview
+# Overview
 
 The Docker plug-in includes steps that map Docker images to components in IBM DevOps Deploy.
 

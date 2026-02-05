@@ -1,5 +1,5 @@
 
-# IBM InfoSphere DataStage - Overview
+# Overview
 
 
 This plug-in includes steps to import and export .isx and .dsx files, list a .dsx file contents, and compile DataStage projects. This plug-in communicates with various command-line tools, such as: istool and dscc. Each step will require one DataStage tool. Please consult the Knowledge Center if you do not know where the required executable is located on your system.

@@ -1,5 +1,5 @@
 
-# IBM DevOps uBuild - Overview
+# Overview
 
 The uBuild plug-in provides steps to run uBuild processes automatically within the deploy process.
 

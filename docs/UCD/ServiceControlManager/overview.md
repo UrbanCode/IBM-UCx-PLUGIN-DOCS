@@ -1,5 +1,5 @@
 
-# Microsoft Windows Services - Overview
+# Overview
 
 
 The Microsoft Windows Services plug-in includes steps to manage Windows Services. Use this plug-in to start, stop, create, and get status on services that are running on a computer that is running the Microsoft Windows operating system.

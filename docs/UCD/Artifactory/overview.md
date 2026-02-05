@@ -1,5 +1,5 @@
 
-# Artifactory - Overview
+# Overview
 
 The Artifactory plug-in automates the following tasks:
 

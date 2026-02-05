@@ -1,5 +1,5 @@
 
-# Mesos Marathon - Overview
+# Overview
 
 The Mesos Marathon plug-in includes steps to work with applications and tasks in a Marathon instance.
 

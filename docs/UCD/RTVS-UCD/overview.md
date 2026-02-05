@@ -1,5 +1,5 @@
 
-# IBM Rational Test Virtualization Server (RTVS) - Overview
+# Overview
 
 
 Service Virtualization helps you to automate integration testing in complex application environments early in the development lifecycle. You can use this plug-in to create virtual services that model the services that your application depends on. You can virtualize services that are accessed through various technologies, including HTTP, MQ, JMS, JDBC, TCP/IP, CICS-TG, IMS Connect, SAP, and Software AG web methods. For more information, see the [Supported technologies for testing](http://www.ibm.com/support/knowledgecenter/SSBLQQ_8.7.0/com.ibm.rational.rit.accessibility.doc/topics/c_rit_sup_test.html) topic in the Rational Integration Tester documentation.

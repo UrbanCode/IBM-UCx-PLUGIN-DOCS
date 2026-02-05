@@ -1,5 +1,5 @@
 
-# WebSphere Application Server - Deployment - Overview
+# Overview
 
 ## Overview
 

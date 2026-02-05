@@ -1,5 +1,5 @@
 
-# BMC Remedy Action Request System - Overview
+# Overview
 
 Use this plug-in to create, update, and check entries in BMC Remedy Action Request System. The plug-in depends on the arapi.jar file that is installed with BMC Remedy Action Request System. The path to the arapi.jar file must be specified as a step property. Install and run this plug-in on the same computer where BMC Remedy Action Request System is installed.
 

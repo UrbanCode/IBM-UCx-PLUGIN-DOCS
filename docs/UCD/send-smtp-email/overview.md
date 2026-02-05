@@ -1,4 +1,4 @@
-# Send SMTP Email - overview
+# Overview
 
 This plugin provides a mechanism to send SMTP emails in your deployment process.
 

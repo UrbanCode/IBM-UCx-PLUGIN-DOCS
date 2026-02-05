@@ -1,5 +1,5 @@
 
-# IBM DevOps Release - Overview
+# Overview
 
 Use the IBM DevOps Release plug-in to manage the integration of IBM DevOps Deploy with IBM DevOps Release. The plug-in includes steps to retrieve the active release for an environment, add comments to tasks, add statuses to snapshots and updating the IBM DevOps Release inventory for an application.
 

@@ -1,5 +1,5 @@
 
-# WebSphere Application Server - Configure - Overview
+# Overview
 
 
 The IBM WebSphere Application Server Configure plug-in includes steps to manage the configuration of multiple IBM WebSphere Application Server instances. You use JSON files to manage WebSphere Application Server configurations.
