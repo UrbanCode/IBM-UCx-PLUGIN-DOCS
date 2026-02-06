@@ -1,5 +1,5 @@
 
-# WebSphere Application Server - Deployment - Troubleshooting
+# Troubleshooting
 
 
 - [WebSphere Application Server - Deployment - Troubleshooting](#websphere-application-server---deployment---troubleshooting)

@@ -1,5 +1,5 @@
 
-# IBM Rational Quality Manager (RQM) - Troubleshooting
+# Troubleshooting
 
 
 * [Result Verdict of UNKNOWN](#result-verdict-of-unknownresult-verdict-of-unknown/)

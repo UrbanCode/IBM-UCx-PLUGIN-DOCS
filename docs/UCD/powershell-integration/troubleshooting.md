@@ -1,5 +1,5 @@
 
-# PowerShell - Troubleshooting
+# Troubleshooting
 
 ## Errors and solutions are included below
 

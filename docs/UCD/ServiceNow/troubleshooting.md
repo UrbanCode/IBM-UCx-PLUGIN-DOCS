@@ -1,5 +1,5 @@
 
-# ServiceNow - Troubleshooting
+# Troubleshooting
 
 You can use HTTP status codes to troubleshoot issues when using the plug-in. Status codes are displayed in the console. For more information on status codes, see the [REST API topic](https://wiki.servicenow.com/index.php?title=REST_API#REST_Response_HTTP_Status_Codes) in the ServiceNow documentation.
 
