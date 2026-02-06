@@ -1,4 +1,4 @@
-# Docker - Roles
+# Roles
 
 ## ImageRegistry Role
 

@@ -1,4 +1,4 @@
-# Maven - Roles
+# Roles
 
 The plug-in adds these roles automatically to resources. You cannot add these roles manually.
 
