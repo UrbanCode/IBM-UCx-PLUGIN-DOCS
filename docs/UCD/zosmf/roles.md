@@ -1,4 +1,4 @@
-# z/OS Management Facility - Roles
+# Roles
 
 ## zOSMFService Role
 

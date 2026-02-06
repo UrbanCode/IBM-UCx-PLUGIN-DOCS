@@ -1,5 +1,5 @@
 
-# Artifactory Source Config - Roles
+# Roles
 
 The following roles are added automatically to resources. You cannot add these roles manually.
 

@@ -1,4 +1,4 @@
-# Microsoft TFS (Team Foundation Server) - Roles
+# Roles
 
 ## TFSComponentProperties
 

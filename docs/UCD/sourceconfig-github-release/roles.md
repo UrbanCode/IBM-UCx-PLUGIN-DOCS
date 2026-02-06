@@ -1,4 +1,4 @@
-# GitHub-Release - Roles
+# Roles
 
 ## GitHubReleaseComponentProperties
 

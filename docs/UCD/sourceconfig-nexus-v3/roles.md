@@ -1,4 +1,4 @@
-# Nexus Repository Manager V3 - Roles
+# Roles
 
 ## ComponentProperties
 
