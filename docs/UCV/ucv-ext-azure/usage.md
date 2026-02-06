@@ -131,7 +131,7 @@ Devops release pipelines.
 * Azure Devops plugin version 4.0.1 and later supports release orchestration using
 Azure Devops yaml pipelines.
 
-## Orchestrating Azure release pipelines from Accelerate
+## Orchestrating Azure release pipelines from DevOps Velocity
 The Azure DevOps plug-in syncs the repositories, builds, pipelines, releases definitions,
 environments, pipeline runs, and release executions for every five minutes with to IBM
 DevOps Velocity. An application is created in IBM DevOps Velocity pipeline. A pipeline
