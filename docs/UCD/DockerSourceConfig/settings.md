@@ -1,5 +1,5 @@
 
-# Docker Registry - Settings
+# Settings
 
 ## Process steps in the Docker plug-in
 

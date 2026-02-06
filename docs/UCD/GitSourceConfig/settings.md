@@ -1,5 +1,5 @@
 
-# Git - Settings
+# Settings
 
 ## Process steps in the Git plug-in
 
