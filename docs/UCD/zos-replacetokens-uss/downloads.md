@@ -1,5 +1,5 @@
 
-# z/OS USS Utility - Downloads
+# Downloads
 
 > **Deprecation Notice**: The z/OS USS Utility plugin is deprecated. It is recommended to use `Replace Tokens` step from `File Utils` plugin instead.
 

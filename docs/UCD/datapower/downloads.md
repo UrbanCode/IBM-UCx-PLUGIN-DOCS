@@ -1,5 +1,5 @@
 
-# IBM DataPower Configuration Manager - Downloads
+# Downloads
 
 To download the plug-in, click the following version-specific links.
 - [datapower-v27.zip](https://github.com/ibm-datapower/datapower-configuration-manager/releases/download/Datapower27/datapower-v27.zip)

@@ -1,4 +1,4 @@
-# IBM DevOps Test UI (Test UI) - Downloads
+# Downloads
 
 To download the plug-in, click the following version-specific links.
 - [DTUI-FunctionalTest-DD-IBM-7.0.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IBMDevOpsTestUI/DTUI-FunctionalTest-DD-IBM-7.0.zip)

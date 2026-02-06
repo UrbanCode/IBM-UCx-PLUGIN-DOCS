@@ -1,5 +1,5 @@
 
-# IBM Rational Team Concert Work Items - Downloads
+# Downloads
 
 To download the plug-in, click the following version-specific links.
 - [ucd-plugin-air-RTC-WorkItems-15.1142216.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/plugin-air-RTC-WorkItems/ucd-plugin-air-RTC-WorkItems-15.1142216.zip)

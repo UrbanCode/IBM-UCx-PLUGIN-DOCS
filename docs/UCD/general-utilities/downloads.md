@@ -1,5 +1,5 @@
 
-# IBM DevOps Deploy General Utilites - Downloads
+# Downloads
 
 To download the plug-in, click the following version-specific links.
 - [ucd-general-utilities-5.1155731.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/general-utilities/ucd-general-utilities-5.1155731.zip)

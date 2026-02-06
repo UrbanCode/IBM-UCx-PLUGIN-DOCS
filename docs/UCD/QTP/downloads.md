@@ -1,5 +1,5 @@
 
-# HP Unified Functional Testing (QTP) - Downloads
+# Downloads
 
 To download the plug-in, click the following version-specific links.
 - [ucd-QTP-7.1154086.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/QTP/ucd-QTP-7.1154086.zip)

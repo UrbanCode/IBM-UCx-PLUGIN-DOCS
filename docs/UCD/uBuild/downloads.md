@@ -1,5 +1,5 @@
 
-# IBM DevOps uBuild - Downloads
+# Downloads
 
 To download the plug-in, click the following version-specific links.
 - [uBuild-8.1056531.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uBuild/uBuild-8.1056531.zip)

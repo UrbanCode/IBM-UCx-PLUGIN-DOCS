@@ -1,5 +1,5 @@
 
-# Web Utilities - Downloads
+# Downloads
 
 To download the plug-in, click the following version-specific links.
 - [devops-deploy-web-utilities-20.1183890.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/web-utilities/devops-deploy-web-utilities-20.1183890.zip)

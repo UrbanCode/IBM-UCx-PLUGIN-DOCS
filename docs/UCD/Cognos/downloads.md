@@ -1,5 +1,5 @@
 
-# IBM Cognos - Downloads
+# Downloads
 
 To download the plug-in, click the version-specific links.
 - [ucd-Cognos-12.1175694.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Cognos/ucd-Cognos-12.1175694.zip)

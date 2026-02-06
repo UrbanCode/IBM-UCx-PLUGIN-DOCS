@@ -1,5 +1,5 @@
 
-# Subversion - Downloads
+# Downloads
 
 To download the plug-in, click the following versoin-specific links.
 - [ucd-SubversionSourceConfig-26.1159798.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SubversionSourceConfig/ucd-SubversionSourceConfig-26.1159798.zip)

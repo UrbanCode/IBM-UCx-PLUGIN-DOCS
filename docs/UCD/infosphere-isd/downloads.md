@@ -1,5 +1,5 @@
 
-# InfoSphere-ISD - Downloads
+# Downloads
 
 To download the plug-in, click the following version-specific links.
 - [plugins-infosphere-isd-1.1174436.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/infosphere-isd/ucd-plugins-infosphere-isd-1.1174436.zip)

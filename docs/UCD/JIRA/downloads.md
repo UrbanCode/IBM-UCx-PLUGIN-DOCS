@@ -1,5 +1,5 @@
 
-# JIRA for IBM DevOps Deploy - Downloads
+# Downloads
 
 To download the plug-in, click the following version-specific links.
 - [ucd-JIRA-19.1167047.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/JIRA/ucd-JIRA-19.1167047.zip)

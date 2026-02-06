@@ -1,5 +1,5 @@
 
-# IBM Rational Team Concert - SCM - Downloads
+# Downloads
 
 Click the following version-specific links to download the plug-ins.
 

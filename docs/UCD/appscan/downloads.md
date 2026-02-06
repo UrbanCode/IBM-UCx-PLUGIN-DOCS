@@ -1,5 +1,5 @@
 
-# IBM AppScan Enterprise - Downloads
+# Downloads
 
 To download the plug-in, click the following version specific links.
 - [ucd-appscan-27.1169570.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/appscan/ucd-appscan-27.1174441.zip)

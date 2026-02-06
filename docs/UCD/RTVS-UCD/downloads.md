@@ -1,5 +1,5 @@
 
-# IBM Rational Test Virtualization Server (RTVS) - Downloads
+# Downloads
 
 To download the plug-in, click the following version-specific links.
 - [RTVS-UCD-4.0.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/RTVS-UCD/RTVS-UCD-4.0.zip)

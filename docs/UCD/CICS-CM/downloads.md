@@ -1,5 +1,5 @@
 
-# CICS CM (Beta) - Downloads
+# Downloads
 
 
 - [UCD_CM_Plugin.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/CICS-CM/UCD_CM_Plugin.zip)

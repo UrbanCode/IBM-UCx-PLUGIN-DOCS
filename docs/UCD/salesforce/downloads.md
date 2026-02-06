@@ -1,5 +1,5 @@
 
-# Salesforce - Downloads
+# Downloads
 
 To download the plug-in, click the following version-specific links.
 - [salesforce-10.1138575.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SalesForce/ucd-salesforce-10.1138575.zip)

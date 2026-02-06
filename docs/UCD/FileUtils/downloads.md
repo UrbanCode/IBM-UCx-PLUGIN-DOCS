@@ -1,5 +1,5 @@
 
-# File Utils - Downloads
+# Downloads
 
 To download the plug-in, click the following version-specific links.
 - [ucd-FileUtils-100.1176430.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileUtils/ucd-FileUtils-100.1176430.zip)

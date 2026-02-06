@@ -1,4 +1,4 @@
-# IBM DevOps Test Hub (Test Hub) - Downloads
+# Downloads
 
 To download the plug-in, click the following version-specific links.
 - [DTHub-DD-IBM-4.0.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IBMDevOpsTestHub/DTHub-DD-IBM-4.0.zip)

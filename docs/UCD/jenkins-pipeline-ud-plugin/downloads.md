@@ -1,5 +1,5 @@
 
-# Jenkins Pipeline - Downloads
+# Downloads
 
 To download the plug-in, click the following version-specific links.
 - [ibm-ucdeploy-build-steps-2.29.1179629.hpi](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/jenkins-pipeline-ud-plugin/ibm-ucdeploy-build-steps-2.29.1179629.hpi)

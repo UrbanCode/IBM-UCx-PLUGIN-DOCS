@@ -1,5 +1,5 @@
 
-# Amazon EC2 - Downloads
+# Downloads
 To download the plug-in, click the following version-specific links.
 
 - [AmazonEC2-6.1100863.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/AmazonEC2/AmazonEC2-6.1100863.zip)
