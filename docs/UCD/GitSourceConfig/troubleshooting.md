@@ -1,5 +1,5 @@
 
-# Git - Troubleshooting
+# Troubleshooting
 
 For more questions and answers about plug-ins, see the [DevOps forum on IBM developerWorks](https://community.ibm.com/community/user/wasdevops/urbancode-discussion "DevOps forum").
 

@@ -1,4 +1,4 @@
-# CICS TS - Troubleshooting
+# Troubleshooting
 
 
 For more questions and answers, see the [DevOps forum](https://community.ibm.com/community/user/integration/communities/community-home?communitykey=9adfe6b6-2e23-4895-8b27-38b93b5e152c&tab=groupdetails "DevOps forum").
