@@ -51,18 +51,18 @@ The following tables describe the properties you use to configure the integratio
 | Integration Name | A name that you assign to the value stream. | Yes | name |
 | Logging Level | The level of Log4j messages to display in the log file. Valid values are: all, debug, info, warn, error, fatal, off, and trace. | No | loggingLevel |
 | NA | A list of configuration properties for connecting and communicating with the GitHub server. Enclose the properties in braces. | Yes | properties |
-|  | The name of the tenant. | Yes | tenant_id |
+| Tenant_Id | The name of the tenant. | Yes | tenant_id |
 | NA | A unique identifier assigned to the plug-in. The value for the GitHub plug-in is `ucv-ext-circleci` | Yes | type |
 
 ### CircleCI Configuration Properties table
 
 | Name | Type | Description | Required | Project Name |
 | --- | --- | --- | --- | --- |
-| Access Token | String | The access token to authenticate with CircleCI. | Yes | accessToken |
+| Access Token | Secure | The access token to authenticate with CircleCI. | Yes | accessToken |
 | Branch | String | The GitHub repository branch to pull commits. | No | branch |
 | Organization Name | String | The username or organization name in the version control system.| Yes | orgName |
 | Project type (VCS provider) | String | The version control system that is used, eg: github, bitbucket. | Yes | projectType |
-| Proxy Password | String | The password used to authenticate with the proxy server. | No | proxyPassword |
+| Proxy Password | Secure | The password used to authenticate with the proxy server. | No | proxyPassword |
 | Proxy Server | String | The URL of the proxy server including the port number. | No | proxyServer |
 | Proxy User Name | String | The user name used to authenticate with the proxy server. | No | proxyUsername |
 | Repositories | Array | A comma seperated list of repositories from which to import pull requests, commits, and build data. | Yes | repositories |
@@ -92,6 +92,7 @@ You can use the following example as a template to define the integration within
         "proxyUsername": "proxy_server_user_name",
         "proxyPassword": "proxy_server_password"
       }
-    }  ]
+    }  
+  ]
 
 ```

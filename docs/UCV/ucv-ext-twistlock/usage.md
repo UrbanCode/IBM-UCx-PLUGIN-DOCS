@@ -38,10 +38,10 @@ step([$class: 'UploadMetricsFile',  appName: 'My
 Twistlock Test', dataFormat: 'twistlockJSON', filePath: '<location of the twistlock report>', name: 'my-twistlock-test',
 pluginType: 'twistlock', tenantId: '<tenant Id>', testSetName: 'twistlock', metricsRecordUrl: "``${env.BUILD_URL}``"])
 
-}``
-}``
-}``
-}``
+}
+}
+}
+}
 
 ```
 
@@ -67,7 +67,7 @@ BODY
 payload: <json_object_string> // See below for schema format
 testArtifact:
 <twistlock_json_file>
-}``
+}
 
 ```
 
@@ -85,7 +85,7 @@ your values for the parameters.
 "application": {
 "name": "<application_name>"  //Name
 of application
-}``,
+},
 "record": {
 "recordName": "<record_name>", // optional: Name for this record
 
@@ -95,18 +95,18 @@ of application
 "twistlockJSON",
 "metricsRecordUrl": "<Jenkins_build_url>" // optional: To link the Jenkins build with test results
 
-}``,
+},
 "build": {  // Optional: One of the following fields must be included
 "buildId": "<build_id>",
 
 "jobExternalId": "<external_job_id>",
 "url": "<build_url>",
-}``,
+},
 "commitId": "<commit_id>",  // optional
 
 "pullRequestId": "<pullrequest_id>", // optional
 "environment": "<environment_name>" // optional
-}``
+}
 
 ```
 
@@ -122,13 +122,13 @@ curl --request POST \
 "tenant_id": "5ade13625558f2c6688d15ce",
 "application": {
 "name": "My Application"
-}``,
+},
 
 "record": {
 "pluginType": "twistlock",
 "dataFormat": "twistlockJSON"
-}``
-}``
+}
+}
 ' \
 --form
 testArtifact=@test-result/twistlock.json

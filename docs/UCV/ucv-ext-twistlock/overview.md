@@ -17,6 +17,10 @@ versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-e
 
 ## History
 
+### Version 1.0.51
+
+* Reduced Vulnerabilities
+
 ### Version 1.0.44
 
 * Reduced vulnerabilities
