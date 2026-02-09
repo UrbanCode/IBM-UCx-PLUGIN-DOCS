@@ -46,7 +46,7 @@ The following tables describe the properties used to configure the integration.
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | URL | String | The URL of the Fortify SSC server. | Yes |
-| token | String | The API key to authenticate with the Fortify SSC server. | Yes |
+| token | Secure | The API key to authenticate with the Fortify SSC server. | Yes |
 | Project Names (Comma Separated List) | Array | Comma separated list of project names to sync data. If kept empty, syncs all projects data. | No |
 | Workflow Id | String | The value stream that this metric is associated. | No |
 

@@ -12,7 +12,7 @@ To use the Black Duck plug-in you must define the integration and send an HTTP P
 
 After the integration is complete, to import data from the Black Duck server, send an HTTP POST request to your endpoint such as the example below. The payload for the POST must have the project and version from the Black Duck server scan. 
 
-```https:///pluginEndpoint//blackDuckScan {"project":"*project\_name*", "version":"*version\_name*", buildUrl": "*build\_url*"}```  
+```https://pluginEndpoint//blackDuckScan {"project":"*project\_name*", "version":"*version\_name*", buildUrl": "*build\_url*"}```  
 
 Where,
 * *project\_name* is the project name on the Black Duck server.
@@ -24,8 +24,7 @@ Where,
 The Black Duck plug-in supports endpoint integration which are listed in the following table.
 
 
-| Name | Path | Method
-|
+| Name | Path | Method |
 | --- | --- | --- |
 | Black Duck Scan Endpoint | blackDuckScan | Post |
 
@@ -38,7 +37,6 @@ The JSON file contains the information for creating a value stream and integrati
 
 | Name | Description | Required |
 | --- | --- | ---
-|
 | image | The version of the plug-in that you want to use. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-blackduck/tags). If a value is not specified, the latest version is used. | No |
 | name | An assigned name to the value stream. | Yes |
 | loggingLevel | The level of Log4j messages to log. Valid values are: all, debug, info, warn, error, fatal, off, and trace. The default is info. | No |
@@ -72,9 +70,8 @@ The following example can be used as a template to include the Black Duke plug-i
 "https://poc79.blackduck.synopsys.com",
 "accessToken": "*access\_token*",
 "ucvAccessKey":"*user\_access\_key*"
-}``
-
-}``
+}
+}
 ]
 
 ```
