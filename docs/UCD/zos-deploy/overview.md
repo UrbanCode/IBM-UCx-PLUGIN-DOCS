@@ -48,6 +48,8 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 * Option to skip deleting files in 'Deploy dataset and uss files' step
 * Enable RUNTIME deploy for linked versions
+* Fix ZInventory table update issue for linked version redeployment
+* Fix memory leak and improve performance for runtime deployment
 
 ### Version 100
 
