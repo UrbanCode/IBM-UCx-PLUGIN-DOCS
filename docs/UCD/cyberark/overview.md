@@ -7,21 +7,9 @@ CyberArk Application Identity Manager, an integrated part of the CyberArk Privil
 
 ### History
 
-#### Version 7
-
-Added configurable JSSE debugging field.
-
-#### Version 6
-
-Added Property Prefix field to Get Password from CCP step.
-
-#### Version 5
-
-Added support for Conjur v4.
-
 #### Version 4
 
-Added step to retrieve password from Central Credential Provider Web API.
+Fixing CVE:CVE-2019-4233
 
 #### Version 3
 
