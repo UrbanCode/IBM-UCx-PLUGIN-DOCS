@@ -1,5 +1,5 @@
 
-# HP LoadRunner - Overview
+# Overview
 
 The HP LoadRunner plug-in provides steps to integrate with HP LoadRunner. Using this plugin you can run test scenarios, analyze the results, and generate an HTML report.
 

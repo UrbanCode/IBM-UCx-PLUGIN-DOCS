@@ -1,18 +1,5 @@
 
-# Oracle WebLogic Scripting Tool (WLST) - Process Steps
-
-* [Check Server Status](#check_server_status)
-* [Deploy](#deploy)
-* [Deploy SOA Composite Application](#deploy_soa_composite_application)
-* [Execute Script](#execute_script)
-* [Resume Server](#resume_server)
-* [Shutdown Server](#shutdown_server)
-* [Start Application](#start_application)
-* [Start Server](#start_server)
-* [Stop Application](#stop_application)
-* [Suspend Server](#suspend_server)
-* [Undeploy](#undeploy)
-
+# Process Steps
 
 ## Check Server Status
 

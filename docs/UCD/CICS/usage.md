@@ -1,4 +1,4 @@
-# CICS TS - Usage
+# Usage
 
 
 * [Setting up resources for simple management of properties](#setting-up-resources-for-simple-management-of-properties)

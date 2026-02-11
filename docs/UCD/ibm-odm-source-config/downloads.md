@@ -1,5 +1,5 @@
 
-# IBM Operational Decision Manager (ODM) Source Config - Downloads
+# Downloads
 
 - [devops-deploy-ibm-odm-source-config-15.1178699.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-odm-source-config/devops-deploy-ibm-odm-source-config-15.1178699.zip)
 - [ucd-ibm-odm-source-config-14.1174438.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-odm-source-config/ucd-ibm-odm-source-config-14.1174438.zip)

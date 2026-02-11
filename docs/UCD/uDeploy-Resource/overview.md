@@ -1,5 +1,5 @@
 
-# IBM DevOps Deploy Resources - Overview
+# Overview
 
 This plug-in contains steps that work with resources, such as agents.
 

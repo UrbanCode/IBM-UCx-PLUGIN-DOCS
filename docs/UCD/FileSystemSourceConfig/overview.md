@@ -1,5 +1,5 @@
 
-# File System - Overview
+# Overview
 
 The File System plug-in imports artifacts from a local filesystem. The imported artifacts are stored in a single folder. If you want to store artifacts into versioned folders, you must manually create the version folders.
 
@@ -23,6 +23,10 @@ For DevOps Deploy 6.0, both the agent and the server must be installed on Micros
 This plug-in is installed when installing IBM DevOps Deploy. When new plug-in versions are available, see [Installing plug-ins in DevOps Products](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy") to update the plug-in.
 
 ## History
+
+### Version 14
+
+Update Apache log4j to 2.25.3 for non-exploitable CVE-2025-68161
 
 ### Version 13
 

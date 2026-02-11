@@ -1,5 +1,5 @@
 
-# IBM DevOps Deploy Tools - Overview
+# Overview
 
 
 The Deploy Tools plug-in provides automated post deployment verification steps to verify that applications are deployed to web sites. You can use the plug-in to determine whether a deployment succeeded or failed. You can also specify application and component threshold processing time.

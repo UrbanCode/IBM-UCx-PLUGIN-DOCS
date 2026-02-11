@@ -1,5 +1,5 @@
 
-# Oracle WebLogic WLDeploy - Usage
+# Usage
 
 Use the WLDeploy plug-in to deploy, remove, or redeploy Java applications on a WebLogic server or cluster as a step in your deployment process. You can design your process to start and stop WebLogic servers or clusters and query the server about the status of an application.
 

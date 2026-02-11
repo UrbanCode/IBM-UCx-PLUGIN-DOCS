@@ -1,5 +1,5 @@
 
-# IBM API Connect - Usage
+# Usage
 
 
 To understand how to use the API Connect plug-in this topic uses two component templates that are available. The information in this topic is also available through a video, to watch the video, go to the [Using the API Connect plug-in](#video-walkthrough).
@@ -18,8 +18,6 @@ To use the plug-in, the apiconnect (apic) command line toolkit must be installed
 The directions below to demonstrate how to deploy your applications through DevOps Deploy.
 
 ## API ConnectPublish Loopback Application
-
-####
 
 The Publish Loopback Application process takes a previously created Loopback application and publishes it to an API Connect instance. The catalog and application must be previously created on API Manager. Log into your [Bluemix account](https://new-console.ng.bluemix.net/apis/apiconnect) for API Manager. Follow the prerequisite steps to prepare an application for deployment. If the prerequisite steps are followed, many of the predefined values in the template are untouched.
 
@@ -63,7 +61,6 @@ This template is composed of six steps:
 
 ## API ConnectRelease API Product Definitions from Drafts
 
-###
 The Release API Product Definitions from Drafts template takes a previously definition YAML file, saves it to Drafts, and then publishes it to an API Connect instance. The catalog and application must be previously created on [API Manager](https://new-console.ng.bluemix.net/apis/apiconnect).
 
 ### Prerequisite Steps

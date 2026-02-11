@@ -1,5 +1,5 @@
 
-# IBM BigFix - Overview
+# Overview
 
 This plug-in includes a step to create and start an action in IBM BigFix. The plug-in uses the REST API to integrate with IBM BigFix.
 

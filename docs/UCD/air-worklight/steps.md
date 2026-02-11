@@ -1,16 +1,5 @@
 
-# IBM MobileFirst Platform (formerly Worklight) - Process Steps
-
-
-* [Change Application Configuration](#change_application_configuration)
-* [Delete Adapter](#delete_adapter)
-* [Delete Application](#delete_application)
-* [Deploy Adapter](#deploy_adapter)
-* [Deploy Application](#deploy_application)
-* [Deploy Web Resource](#deploy_web_resource)
-* [Remove Application from Application Center](#remove_application_from_application_center)
-* [Upload Application to Application Center](#upload_application_to_application_center)
-
+# Process Steps
 
 ## Change Application Configuration
 

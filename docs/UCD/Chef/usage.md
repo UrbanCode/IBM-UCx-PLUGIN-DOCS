@@ -1,5 +1,5 @@
 
-# Chef - Usage
+# Usage
 
 The following generic process runs Chef automation code on a node. You can use Chef in component processes like this one to configure an environment, such as installing prerequisites or installing applications.
 

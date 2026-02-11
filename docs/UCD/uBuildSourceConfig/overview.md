@@ -1,5 +1,5 @@
 
-# IBM DevOps Build - Overview
+# Overview
 
 The DevOps Build plug-in automates uploading artifacts from a DevOps Build server.
 

@@ -1,16 +1,5 @@
 
-# IBM DevOps Deploy Components - Process Steps
-
-* [Add Component To Team](#add_component_to_team)
-* [Check If Component Exists](#check_if_component_exists)
-* [Create Component](#create_component)
-* [Create Component Property](#create_component_property)
-* [Delete Component](#delete_component)
-* [Get Applications Using Component](#get_applications_using_component)
-* [Get Component Details](#get_component_details)
-* [Get Component Properties](#get_component_properties)
-* [Create Multiple Components](#create_multiple_comp)
-
+# Process Steps
 
 ## Add Component To Team
 

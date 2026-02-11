@@ -1,5 +1,5 @@
 
-# NuGet - Overview
+# Overview
 
 The NuGet source configuration plug-in automates importing of artifacts from a NuGet repository. Artifacts are in the format of a NuGet package with the .nupkg extension. Packages contain compiled code (DLLs) and files related to that code. Artifacts can be imported for a specific package version.
 

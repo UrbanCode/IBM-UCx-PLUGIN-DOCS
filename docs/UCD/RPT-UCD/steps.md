@@ -1,8 +1,5 @@
 
-# IBM Rational Performance Tester (RPT) - Process Steps
-
-* [Run RPT Test](#run_rpt_test)
-
+# Process Steps
 
 ## Run RPT Test
 

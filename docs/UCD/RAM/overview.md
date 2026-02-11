@@ -1,5 +1,5 @@
 
-# IBM Rational Asset Manager - Overview
+# Overview
 
 With the steps that the IBM Rational Asset Manager Integration plug-in provide you can download, work with, and upload Rational Asset Manager assets during component processes.
 

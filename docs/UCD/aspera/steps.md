@@ -1,9 +1,5 @@
 
-# Aspera - Process Steps
-
-* [Download Artifacts](#download_artifacts)
-* [Upload Artifacts](#upload_artifacts)
-
+# Process Steps
 
 ## Download Artifacts
 

@@ -19,7 +19,7 @@ To gather data, send an HTTP PUT request to your endpoint:
 
 
 ```
-https:///pluginEndpoint//appscan/callback
+https://pluginEndpoint//appscan/callback
 ```
 
 The payload for this PUT is ```{"application":"", "buildUrl": ""}```.
@@ -65,6 +65,7 @@ The configuration properties which are included in the `properties` field are un
 | Run as Scheduled Event | Boolean | Check the box to run the intergration as Scheduled Event. | No | isScheduledEvent |
 | Get Issue Level Data | Boolean | Check the box to get issue level data. | No | getIssueLevelData |
 | Applications (Newline seprated list) | Multiline | Newline seprated list of application names. If kept empty all applications will be synced. | No | applications |
+|Plugin Job Timeout | String |The maximum time a plugin job should be allowed to run before being automatically cancelled. Format is a number followed by a time unit, e.g. 30m for 30 minutes, 1h for one hour, or 1d for one day. The default time is 1h.| No | pluginjobtimeout
 | Workflow Id | String | The value stream that this metric is associated. | No | workflowId |
 
 

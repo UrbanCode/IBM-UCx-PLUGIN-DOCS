@@ -1,5 +1,5 @@
 
-# File Utils - Overview
+# Overview
 
 The steps in this plug-in manipulate files on the target system.
 
@@ -16,6 +16,14 @@ This plug-in requires version 6.1 of IBM DevOps Deploy.
 No special steps are required for installation. See [Installing plug-ins in DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy").
 
 ## History
+
+### Version 102
+
+Update Apache log4j to 2.25.3 for non-exploitable CVE-2025-68161
+
+### Version 101
+
+Update commons-lang to 3.18 resolves finding for non-exploitable CVE-2025-48924
 
 ### Version 100
 

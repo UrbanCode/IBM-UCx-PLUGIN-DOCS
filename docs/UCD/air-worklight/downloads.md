@@ -1,5 +1,5 @@
 
-# IBM MobileFirst Platform (formerly Worklight) - Downloads
+# Downloads
 
 To download the plug-in, click the following version-specific links.
 

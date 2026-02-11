@@ -1,9 +1,7 @@
 
-# Cloud Foundry
+# Troubleshooting
 
-## Troubleshooting
-
-### Upgrading From Cloud Foundry Community Plugin
+## Upgrading From Cloud Foundry Community Plugin
 
 Three default values from the community plugin have been changed in the IBM official plugin to reference different resource properties.
 

@@ -1,5 +1,5 @@
 
-# Jenkins Pipeline - Usage
+# Usage
 
 To use the Jenkins Pipeline plug-in both the DevOps Deploy and Jenkins serves must be started. After installing the plug-in on the Jenkins server, you must then configure the integration with the DevOps Deploy server. While the integration is defined on the Jenkins server, you must install and start an DevOps Deploy agent.Below are the overall setup tasks for using the plug-in.
 

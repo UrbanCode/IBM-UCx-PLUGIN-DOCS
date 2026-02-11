@@ -1,5 +1,5 @@
 
-# Argo CD - Usage
+# Usage
 
 Use this plug-in to work with Argo CD applications
 

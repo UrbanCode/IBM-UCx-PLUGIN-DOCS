@@ -1,5 +1,5 @@
 
-# Microsoft BizTalk - Overview
+# Overview
 
 The Microsoft BizTalk plug-in contains steps that can import, uninstall, and remove BizTalk applications; import Biztalk application bindings; execute BizTalk run-book automations; and restart BizTalk host instances.
 

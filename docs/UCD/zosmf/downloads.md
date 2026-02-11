@@ -1,5 +1,5 @@
 
-# z/OS Management Facility - Downloads
+# Downloads
 
 To download the plug-in, click the following links.
 - [ucd-zosmf-15.1153789.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zosmf/ucd-zosmf-15.1174435.zip)

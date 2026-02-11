@@ -1,5 +1,5 @@
 
-# IBM Rational Test Automation Server (RTAS) - Overview
+# Overview
 
 The IBM Rational Test Automation Server plug-in provides the capability for test automation when you use Rational Test Workbench. It allows you to integrate testing of complex application environments much earlier in the development lifecycle.
 

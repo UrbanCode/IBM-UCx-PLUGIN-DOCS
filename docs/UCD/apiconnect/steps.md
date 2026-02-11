@@ -1,16 +1,5 @@
 
-# IBM API Connect - Process steps
-
-
-* [Login](#login)
-* [Logout](#logout)
-* [Publish API Product Definitions](#publish_api_product_definitions)
-* [Publish an Application (API Connect v5.x)](#publish_an_application_(api_connect_v5.x))
-* [Push API Product Definitions to Drafts (API Connect v5.x)](#push_api_product_definitions_to_drafts_(api_connect_v5.x))
-* [Replace Product in Catalog](#replace_product_in_catalog)
-* [Set Configuration Variable](#set_configuration_variable)
-* [Supersede Product in Catalog](#supersede_product_in_catalog)
-* [Create a Product](#create_a_product)
+# Process Steps
 
 
 ## Login

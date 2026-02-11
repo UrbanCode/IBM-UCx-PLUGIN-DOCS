@@ -1,8 +1,5 @@
 
-# Selenium - Process Steps
-
-* [Run Test Suite](#run_test_suite)
-
+# Process Steps
 
 ## Run Test Suite
 

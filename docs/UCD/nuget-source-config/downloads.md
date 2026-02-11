@@ -1,5 +1,5 @@
 
-# NuGet - Downloads
+# Downloads
 
 To download the plug-in, click the following version-specific links.
 - [ucd-nuget-source-config-17.1154071.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/nuget-source-config/ucd-nuget-source-config-17.1154071.zip)

@@ -1,5 +1,5 @@
 
-# Nexus - Overview
+# Overview
 
 The Nexus plug-in for IBM DevOps Deploy includes steps for working with artifacts that are hosted on a Nexus server.
 

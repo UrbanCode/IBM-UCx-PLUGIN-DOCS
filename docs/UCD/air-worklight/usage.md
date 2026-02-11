@@ -1,5 +1,5 @@
 
-# IBM MobileFirst Platform (formerly Worklight) - Usage
+# Usage
 
 The IBM MobileFirst Platform plug-in for IBM DevOps Deploy is part of a complete process for building and deploying mobile applications.
 

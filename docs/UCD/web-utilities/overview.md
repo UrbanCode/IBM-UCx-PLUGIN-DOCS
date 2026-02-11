@@ -1,5 +1,5 @@
 
-# Web Utilities - Overview
+# Overview
 
 Use the Web Utilities plug-in to send HTTP requests to web servers in IBM DevOps Deploy processes.
 

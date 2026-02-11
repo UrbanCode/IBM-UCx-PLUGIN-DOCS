@@ -1,17 +1,5 @@
 
-# Microsoft Windows Failover Clusters - Process Steps
-rs plug-in
-
-* [Bring Resources Online](#bring_resources_online)
-* [Bring Services or Applications Online](#bring_services_or_applications_online)
-* [Move Services or Applications to Node](#move_services_or_applications_to_node)
-* [Start Cluster Node](#start_cluster_node)
-* [Start Cluster Service](#start_cluster_service)
-* [Stop Cluster Node](#stop_cluster_node)
-* [Stop Cluster Service](#stop_cluster_service)
-* [Take Resources Offline](#take_resources_offline)
-* [Take Services or Applications Offline](#take_services_or_applications_offline)
-
+# Process Steps
 
 ## Bring Resources Online
 

@@ -16,6 +16,10 @@ view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/
 
 ## History
 
+### Version 1.0.41
+
+* Fixed WhiteSource (Mend) security scan issues by updating dependent packages to the latest compatible versions.
+
 ### Version 1.0.38
 
 * Reduced Vulnerabilities

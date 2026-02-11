@@ -90,7 +90,7 @@ Some properties might not be displayed in the user interface, to see all propert
 | Team Id | String | Loop Id of the DevOps Control tenant. | No | teamId |
 | Proxy Server | String | The URL of the proxy server including the port number. | No | proxyServer |
 | Proxy User Name | String | The username used to authenticate with the proxy server. | No | proxyUsername |
-| Proxy Password | String | The password used to authenticate with the proxy server. | No | proxyPassword |
+| Proxy Password | Secure | The password used to authenticate with the proxy server. | No | proxyPassword |
 
 ### JSON code example
 

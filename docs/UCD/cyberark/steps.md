@@ -1,16 +1,7 @@
 
-# CyberArk - Process Steps
+# Process Steps
 
-- [CyberArk - Process Steps](#cyberark---process-steps)
-  - [Steps](#steps)
-    - [Authenticate Conjur](#authenticate-conjur)
-    - [Get Password from CCP (Web Service)](#get-password-from-ccp-web-service)
-    - [Get Password from CP (CLI Utility)](#get-password-from-cp-cli-utility)
-    - [Get Variable from Conjur](#get-variable-from-conjur)
-
-## Steps
-
-### Authenticate Conjur
+## Authenticate Conjur
 
 Authenticate Conjur using API Key to get a short-lived access token
 
@@ -24,7 +15,7 @@ Authenticate Conjur using API Key to get a short-lived access token
 | Ouput PropertyAccess Token | String | Process Request Property for storing the retrieved access token | Yes |
 | Proxy | String | Proxy, leave it blank if no proxy is needed | No |
 
-### Get Password from CCP (Web Service)
+## Get Password from CCP (Web Service)
 
 Retrieve a password from CyberArk AIM Central Credential Provider via an HTTP request.
 
@@ -44,7 +35,7 @@ The Central Credential Provider is installed remote to the agent on a central II
 | Server URL | String | The URL of your CyberArk server. This property should be specified in the format https://host:port/AIMWebService/api/accounts. | Yes |
 | Trust Invalid Certificates | Boolean | Check this box to trust all SSL certificates on the agent machine. This will trust any certificate returned from the CyberArk server during connection. | No |
 
-### Get Password from CP (CLI Utility)
+## Get Password from CP (CLI Utility)
 
 Retrieve a password from CyberArk AIM Credential Provider via the clipasswordsdk command line utillity on the agent machine. This step will set the CyberArk/username,
 
@@ -61,7 +52,7 @@ CyberArk/address, and CyberArk/password properties at either the component proce
 | Path | String | Full path to clipasswordsdk.E.g. /opt/CARKaim/sdk/clipasswordsdk | Yes |
 | Safe | String | Safe name | Yes |
 
-### Get Variable from Conjur
+## Get Variable from Conjur
 
 Get Variable from Conjur
 

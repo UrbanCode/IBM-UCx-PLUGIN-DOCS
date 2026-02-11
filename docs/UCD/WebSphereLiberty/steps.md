@@ -1,30 +1,5 @@
 
-# IBM WebSphere Liberty - Process Steps
-
-* [Create Collective](#create_collective)
-* [Create Server](#create_server)
-* [Delete Server](#delete_server)
-* [Generate Component-Resource Properties](#generate_component-resource_properties)
-* [Generate Plugin Config](#generate_plugin_config)
-* [Install Server Archive](#install_server_archive)
-* [Install or Update Application with Server XML](#install_or_update_application_with_server_xml)
-* [Install or Update Applications with Dropins](#install_or_update_applications_with_dropins)
-* [Join Collective](#join_collective)
-* [Merge Plugin Config](#merge_plugin_config)
-* [Propagate Plugin Config](#propagate_plugin_config)
-* [Register Host](#register_host)
-* [Replace Variable Values with Component-Resource Properties](#replace_variable_values_with_component-resource_properties)
-* [Start Application](#start_application)
-* [Start Server](#start_server)
-* [Stop Application](#stop_application)
-* [Stop Server](#stop_server)
-* [Uninstall Application from Dropins](#uninstall_application_from_dropins)
-* [Uninstall Application with Server XML](#uninstall_application_with_server_xml)
-* [Unregister Host](#unregister_host)
-* [Update Host](#update_host)
-* [Upload File To Collective Host](#upload_file_to_collective_host)
-* [Wait for Application to be STARTED](#wait_for_application_to_be_started)
-
+# Process Steps
 
 ## Create Collective
 

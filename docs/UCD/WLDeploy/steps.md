@@ -1,14 +1,5 @@
 
-# Oracle WebLogic WLDeploy - Process Steps
-
-* [Check Application on Targets](#check_application_on_targets)
-* [Check Targets](#check_targets)
-* [List Applications on Targets](#list_applications_on_targets)
-* [Run WLDeploy](#run_wldeploy)
-* [Start Targets](#start_targets)
-* [Stop Targets](#stop_targets)
-* [Wait for Application on Targets](#wait_for_application_on_targets)
-
+# Process Steps
 
 ## Check Application on Targets
 

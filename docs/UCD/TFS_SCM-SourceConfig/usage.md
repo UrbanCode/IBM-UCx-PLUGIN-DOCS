@@ -1,5 +1,5 @@
 
-# Microsoft TFS_SCM (Team Foundation Server) - Usage
+# Usage
 
 ## Summary
 

@@ -13,8 +13,10 @@ DevOps Velocity plug-in images are located in DockerHub. To view available versi
 
 ## History
 
-### Version 1.0.31
+### Version 1.0.49
+* Plugin improvement
 
+### Version 1.0.31
 * Plug-in name update.
 
 ### Version 1.0.30

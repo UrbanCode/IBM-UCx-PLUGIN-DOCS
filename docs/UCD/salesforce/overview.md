@@ -1,5 +1,5 @@
 
-# Salesforce - Overview
+# Overview
 
 The Salesforce plug-in includes steps that use the Force.com Migration Tool to deploy metadata changes and Apex classes.For a detailed tutorial and example use-cases, refer to the [Usage](#usage) page.
 

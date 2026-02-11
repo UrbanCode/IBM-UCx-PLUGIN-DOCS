@@ -1,5 +1,5 @@
 
-# IBM DevOps Deploy Components - Downloads
+# Downloads
 
 To download the plug-in, click the following version-specific link.
 - [ucd-uDeploy-Component-81.1155712.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Component/ucd-uDeploy-Component-81.1155712.zip)

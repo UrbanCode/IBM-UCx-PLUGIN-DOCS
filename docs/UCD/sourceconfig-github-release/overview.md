@@ -1,5 +1,5 @@
 
-# GitHub-Release - Overview
+# Overview
 
 The Github Release plug-in automates importing artifacts from a GitHub repository. You can import ZIP and TAR archive files into your DevOps Deploy server. The plug-in creates a component version of release in the DevOps Deploy server for the specified release being imported. You can specify a specific version to import or use the default to import the latest version.
 

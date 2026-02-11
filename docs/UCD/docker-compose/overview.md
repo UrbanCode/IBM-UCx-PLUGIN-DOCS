@@ -1,5 +1,5 @@
 
-# Docker Compose - Overview
+# Overview
 
 This plug-in provides steps for running Docker Compose.
 
@@ -16,6 +16,14 @@ This plug-in requires version 6.2 or later of IBM DevOps Deploy.
 No special steps are required for installation. See [Installing plug-ins in DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy").
 
 ## History
+
+### Version 25
+
+* Fixed issue while loading the plugin
+
+### Version 24
+
+* Fixing CVE:CVE-2019-4233
 
 ### Version 23
 

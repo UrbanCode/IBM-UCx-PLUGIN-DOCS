@@ -1,5 +1,5 @@
 
-# PVCS - Overview
+# Overview
 
 The PVCS source configuration plug-in imports artifacts from Serena PVCS Version Manager as component versions in IBM DevOps Deploy.
 

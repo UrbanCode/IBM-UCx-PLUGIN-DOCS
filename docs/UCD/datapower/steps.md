@@ -1,38 +1,5 @@
 
-# IBM DataPower Configuration Manager - Process Steps
-
-- [IBM DataPower Configuration Manager - Steps](#ibm-datapower-configuration-manager---steps)
-  - [Steps](#steps)
-    - [Process steps in the DataPower plug-in](#process-steps-in-the-datapower-plug-in)
-      - [Backup Device](#backup-device)
-      - [Backup Domains](#backup-domains)
-      - [Checkpoint Delete](#checkpoint-delete)
-      - [Checkpoint Restore](#checkpoint-restore)
-      - [Checkpoint Save](#checkpoint-save)
-      - [Create Domain](#create-domain)
-      - [Crypto Identity Credential from Definition](#crypto-identity-credential-from-definition)
-      - [Crypto Validation Credential from Definition](#crypto-validation-credential-from-definition)
-      - [Delete Domain](#delete-domain)
-      - [Download Files](#download-files)
-      - [Export Object](#export-object)
-      - [Export Objects](#export-objects)
-      - [Flush Document Cache](#flush-document-cache)
-      - [Flush Stylesheet Cache](#flush-stylesheet-cache)
-      - [Host Alias Remove](#host-alias-remove)
-      - [Host Alias Set](#host-alias-set)
-      - [Import (Basic)](#import-basic)
-      - [Import (Definition)](#import-definition)
-      - [Import (Deployment Policy Object)](#import-deployment-policy-object)
-      - [Invoke any deploy.ant.xml target](#invoke-any-deployantxml-target)
-      - [Load Balancer Group from Definition](#load-balancer-group-from-definition)
-      - [Quiesce Domain](#quiesce-domain)
-      - [Restart Domain](#restart-domain)
-      - [Restore Backup](#restore-backup)
-      - [Save Configuration](#save-configuration)
-      - [Set Log Level](#set-log-level)
-      - [Unquiesce Domain](#unquiesce-domain)
-      - [Upload Files](#upload-files)
-      - [Upload from Definition](#upload-from-definition)
+# Process Steps
 
 ## Backup Device
 

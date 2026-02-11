@@ -1,5 +1,5 @@
 
-# Microsoft Windows System Tools - Troubleshooting
+# Troubleshooting
 
 Windows Server 2012 OS restarts using Reboot step, but fails.
 

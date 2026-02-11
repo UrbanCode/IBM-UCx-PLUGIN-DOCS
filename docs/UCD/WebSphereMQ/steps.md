@@ -1,55 +1,7 @@
 
-# IBM-MQ
+# Process Steps
 
-## Process Steps
-
-* [Alter Client-Connection Channel](#alter-client-connection-channel)
-* [Alter Queue](#alter-queue)
-* [Alter Receiver Channel](#alter-receiver-channel)
-* [Alter Sender Channel](#alter-sender-channel)
-* [Alter Server-Connection Channel](#alter-server-connection-channel)
-* [Alter Topic](#alter-topic)
-* [Configure Channel SSL](#configure-channel-ssl)
-* [Configure Queue Manager SSL](#configure-queue-manager-ssl)
-* [Create Queue Manager](#create-queue-manager)
-* [Define Authinfo–IDPWOS](#define-authinfoidpwos)
-* [Define Client-Connection Channel](#define_client-connection_channel)
-* [Define Namelist](#define_namelist)
-* [Define Queue](#define_queue)
-* [Define Queue Alias](#define_queue_alias)
-* [Define Receive Channel](#define_receive_channel)
-* [Define Remote Queue](#define_remote_queue)
-* [Define Sender Channel](#define_sender_channel)
-* [Define Server Connection Channel](#define_server_connection_channel)
-* [Define Service](#define_service)
-* [Define Topic](#define_topic)
-* [Define Topic Subscription](#define_topic_subscription)
-* [Delete Certificate](#delete_certificate)
-* [Delete Channel](#delete_channel)
-* [Delete Namelist](#delete_namelist)
-* [Delete Queue](#delete_queue)
-* [Delete Queue Alias](#delete_queue_alias)
-* [Delete Queue Manager](#delete_queue_manager)
-* [Delete Topic](#delete_topic)
-* [Delete Topic Subscription](#delete_topic_subscription)
-* [Enable Queue Triggering](#enable_queue_triggering)
-* [Import Certificate](#import_certificate)
-* [Manage Queue Depth](#manage_queue_depth)
-* [Receive Certificate](#receive_certificate)
-* [Run MQ Batch Script](#run_mq_batch_script)
-* [Run MQ Script](#run_mq_script)
-* [Set Channel Monitoring Level](#set_channel_monitoring_level)
-* [Set Max Message Size On Queue](#set_max_message_size_on_queue)
-* [Set Permissions For Object](#set_permissions_for_object)
-* [Set Permissions For Queue](#set_permissions_for_queue)
-* [Set Permissions For Topic](#set_permissions_for_topic)
-* [Set Queue Usage Type](#set_queue_usage_type)
-* [Start Channel](#start_channel)
-* [Start Queue Manager](#start_queue_manager)
-* [Stop Channel](#stop_channel)
-* [Stop Queue Manager](#stop_queue_manager)
-
-### Alter Client-Connection Channel
+## Alter Client-Connection Channel
 
 Modify the parameters of an existing client connection channel
 
@@ -74,7 +26,7 @@ Modify the parameters of an existing client connection channel
 | |                       | * SPX        | |
 | |                       | * TCP        | |
 
-### Alter Queue
+## Alter Queue
 
 Modify the parameters of an existing local queue
 
@@ -116,7 +68,7 @@ Modify the parameters of an existing local queue
 |              |              | * NORMAL | |
 |              |              | * XMITQ | |
 
-### Alter Receiver Channel
+## Alter Receiver Channel
 
 Modify the parameters of an existing receiver channel
 
@@ -143,7 +95,7 @@ Modify the parameters of an existing receiver channel
 |              |              | * NETBIOS | |
 |              |              | * SPX | |
 
-### Alter Sender Channel
+## Alter Sender Channel
 
 Modify the parameters of an existing sender channel
 
@@ -175,7 +127,7 @@ Modify the parameters of an existing sender channel
 |              |              | * NETBIOS | |
 |              |              | * SPX | |
 
-### Alter Server-Connection Channel
+## Alter Server-Connection Channel
 -------------------------------
 
 Modify the parameters of an existing server connection channel

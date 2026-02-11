@@ -1,5 +1,5 @@
 
-# Kubernetes - Overview
+# Overview
 
 The Kubernetes plug-in includes steps with interact with Kubernetes resources in IBM DevOps Deploy.
 

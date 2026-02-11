@@ -1,14 +1,5 @@
 
-# Artifactory - Process steps
-
-* [Download Latest Build for SNAPSHOT](#download_latest_build_for_snapshot)
-* [Download NuGet Package](#download_nuget_package)
-* [Download version (Maven build)](#download_version_(maven_build))
-* [Download version (non-Maven build)](#download_version_(non-maven_build))
-* [Promote Build](#promote_build)
-* [Retrieve Build Artifacts Archive](#retrieve_build_artifacts_archive)
-* [Set Item Properties](#set_item_properties)
-
+# Process Steps
 
 ## Download Latest Build for SNAPSHOT
 

@@ -1,5 +1,5 @@
 
-# FileNet - IBM Case Manager - Usage
+# Usage
 
 The IBM Case Manager plug-in for DevOps Deploy utilizes the Case Manager command-line interface provided [here](https://www.ibm.com/support/knowledgecenter/en/SSCTJ4_5.2.1/com.ibm.casemgmt.design.doc/acmac024.htm).
 

@@ -1,17 +1,5 @@
 
-# MicroFocus ALM (formerly HP Quality Center) - Process Steps
-
-- [MicroFocus ALM (formerly HP Quality Center) - Steps](#microfocus-alm-formerly-hp-quality-center---steps)
-- [Steps](#steps)
-    - [Steps](#steps-1)
-    - [Process steps in the HP Quality Center Plugin plug-in](#process-steps-in-the-hp-quality-center-plugin-plug-in)
-    - [Add Comments](#add-comments)
-    - [Check Status](#check-status)
-    - [Create Issue](#create-issue)
-    - [Query Defects](#query-defects)
-    - [Run Test Set](#run-test-set)
-    - [Update Issues](#update-issues)
-
+# Process Steps
 
 ## Add Comments
 

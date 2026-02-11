@@ -1,5 +1,5 @@
 
-# IBM DevOps DBUpgrader - Overview
+# Overview
 
 
 The DBUpgrader plug-in helps you manage database changes including schema updates and rollbacks. Use this plug-in to automate database changes in IBM DevOps Deploy. The plug-in uses a proprietary formatted XML file in conjunction with a version table in your database that tracks what changes have been applied. This plug-in is used when you upgrade DevOps Deploy Applications.

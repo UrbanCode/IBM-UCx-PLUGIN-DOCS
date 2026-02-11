@@ -1,13 +1,6 @@
+# Process Steps
 
-# IBM Instana - Process Steps
-
-* [Add Global Release Marker](#add_global_release_marker)
-* [Add Application Release Marker](#add_application_release_marker)
-* [Add Service Release Marker](#add_service_release_marker)
-
-## Steps
-
-### Add Global Release Marker
+## Add Global Release Marker
 
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
@@ -16,7 +9,7 @@
 | Marker Title / Marker Name | String | The pipeline name of the Instana server. For example:eShop-QA, HelloApp-AppEnv | Yes |
 | Disable Certificate Validation | Checkbox | Check to disable certificate validation. | No |
 
-### Add Application Release Marker
+## Add Application Release Marker
 
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
@@ -27,7 +20,7 @@
 | Disable Certificate Validation | Checkbox | Check to disable certificate validation. | No |
 
 
-### Add Service Release Marker
+## Add Service Release Marker
 
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |

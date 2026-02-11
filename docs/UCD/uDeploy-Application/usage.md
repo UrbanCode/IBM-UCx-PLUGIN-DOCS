@@ -1,5 +1,5 @@
 
-# IBM DevOps Deploy Applications - Usage
+# Usage
 
 ## Create Multiple Applications
 

@@ -1,4 +1,4 @@
-# WebSphere Application Server - Configure - Usage
+# Usage
 
 ## Resources
 

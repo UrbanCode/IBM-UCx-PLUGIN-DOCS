@@ -1,5 +1,5 @@
 
-# IBM DevOps Deploy Resources - Downloads
+# Downloads
 
 To download the plug-in, click the following version-specific links.
 - [ucd-uDeploy-Resource-86.1155708.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Resource/ucd-uDeploy-Resource-86.1155708.zip)

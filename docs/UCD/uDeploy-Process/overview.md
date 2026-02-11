@@ -1,5 +1,5 @@
 
-# IBM DevOps Deploy Process - Overview
+# Overview
 
 The IBM DevOps Deploy Process plug-in includes steps to work with process requests in IBM DevOps Deploy. You can use this plug-in to create or remove a link on a process request that directs users to supplementary information related to the process execution.
 

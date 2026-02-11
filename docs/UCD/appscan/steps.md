@@ -1,16 +1,5 @@
 
-# IBM AppScan Enterprise - Process Steps
-
-
-* [Configure Job Options](#configure_job_options)
-* [Create Scan](#create_scan)
-* [Delete Folder Item](#delete_folder_item)
-* [List Templates](#list_templates)
-* [Retrieve PDF Report](#retrieve_pdf_report)
-* [Retrieve Report](#retrieve_report)
-* [Run Scan](#run_scan)
-* [Wait for Scan](#wait_for_scan)
-
+# Process Steps
 
 ## Configure Job Options
 

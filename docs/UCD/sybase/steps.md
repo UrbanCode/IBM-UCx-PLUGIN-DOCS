@@ -1,8 +1,5 @@
 
-# Sybase - Process Steps
-
-* [Run SQL Scripts](#run_sql_scripts)
-
+# Process Steps
 
 ## Run SQL Scripts
 

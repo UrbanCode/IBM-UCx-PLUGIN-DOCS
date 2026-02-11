@@ -1,5 +1,5 @@
 
-# IBM WebSphere Portal - Troubleshooting
+# Troubleshooting
 
 The WebSphere Portal plug-in stores the XML access script in the following file: `*agent\_home\_directory*/var/work/*component\_name*/xmlAccessScript.xml`. The output of the XML access command is written to the `xmlAccessScript_out.xml` file.
 

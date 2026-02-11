@@ -1,18 +1,5 @@
 
-# Oracle WebLogic Server Security Management - Process Steps
-
-- [Oracle WebLogic Server Security Management - Steps](#oracle-weblogic-server-security-management---steps)
-- [Steps](#steps)
-    - [Steps](#steps-1)
-    - [Process steps in the WLS Security Management plug-in](#process-steps-in-the-wls-security-management-plug-in)
-    - [Create Role Mapper](#create-role-mapper)
-    - [Create or Update Authentication Provider](#create-or-update-authentication-provider)
-    - [Create or Update Realm](#create-or-update-realm)
-    - [Manage Users and or Groups](#manage-users-and-or-groups)
-    - [Manages Roles](#manages-roles)
-    - [Update Authentication Provider](#update-authentication-provider)
-    - [Update Realm](#update-realm)
-
+# Process Steps
 
 ## Create Role Mapper
 

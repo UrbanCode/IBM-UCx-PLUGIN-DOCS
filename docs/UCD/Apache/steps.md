@@ -1,9 +1,5 @@
 
-# Apache HTTP Server - Process steps
-
-* [Start](#start)
-* [Stop](#stop)
-
+# Process Steps
 
 ## Start
 

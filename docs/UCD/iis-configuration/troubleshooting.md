@@ -1,5 +1,5 @@
 
-# Microsoft IIS - Configure - Troubleshooting
+# Troubleshooting
 
 ## Running topology discovery immediately after auto-discovery fails
 

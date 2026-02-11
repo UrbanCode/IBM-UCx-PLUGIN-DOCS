@@ -1,5 +1,5 @@
 
-# IBM DevOps Package Manager - Overview
+# Overview
 
 This plug-in includes steps that create, install, and remove packages.
 

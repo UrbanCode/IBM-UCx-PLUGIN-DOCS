@@ -1,14 +1,5 @@
 
-# Devops-Plan - Process Steps
-
-
-[Create Plan Record](#create-plan-record)  
-[Update Sprint](#update-sprint)  
-[Update WorkItem](#update-workitem)  
-[Update Release](#update-release)  
-[Update Any Record](#update-any-record)  
-[Delete Record](#delete-record)
-
+# Process Steps
 
 ## Create Plan Record
 

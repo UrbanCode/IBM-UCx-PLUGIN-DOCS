@@ -1,5 +1,5 @@
 
-# F5 BIG-IP - Downloads
+# Downloads
 
 To download the plug-in, click the following version-specific links.
 - [F5-24.1107123.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/F5/F5-24.1107123.zip)

@@ -1,5 +1,5 @@
 
-# IBM Operational Decision Manager (ODM) Source Config - Overview
+# Overview
 
 
 The IBM Operational Decision Manager source configuration plug-in supports creating component versions from Decision Center RuleApps. It supports two types of authentication Basic Authentication and oAuth Authentication .

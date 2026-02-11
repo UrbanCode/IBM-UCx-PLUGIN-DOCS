@@ -1,21 +1,5 @@
 
-# IBM DevOps Deploy Environments - Process Steps
-
-* [Add Base Resource To Environment](#add_base_resource_to_environment)
-* [Add Environment To Team](#add_environment_to_team)
-* [Check If Environment Exists](#check_if_environment_exists)
-* [Create Environment](#create_environment)
-* [Create Environment Property](#create_environment_property)
-* [Create Environment from Template](#create_environment_from_template)
-* [Create Multiple Environments](#create_multiple_environments)
-* [Delete Environment](#delete_environment)
-* [Get Component Environment Properties](#get_component_environment_properties)
-* [Get Environment Details](#get_environment_details)
-* [Get Environment Properties](#get_environment_properties)
-* [Get Latest Version By Environment and Component](#get_latest_version_by_environment_and_component)
-* [Set Component Environment Property](#set_component_environment_property)
-* [Verify Inventory Status](#verify_inventory_status)
-
+# Process Steps
 
 ## Add Base Resource To Environment
 

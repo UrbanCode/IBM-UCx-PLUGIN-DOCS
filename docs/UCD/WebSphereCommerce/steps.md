@@ -1,10 +1,5 @@
 
-# IBM WebSphere Commerce - Process Steps
-
-* [Configure server deployment settings (Deprecated)](#configure_server_deployment_settings_(deprecated))
-* [Install server deployment package (Deprecated)](#install_server_deployment_package_(deprecated))
-* [Run server deployment process](#run_server_deployment_process)
-
+# Process Steps
 
 ## Configure server deployment settings (Deprecated)
 

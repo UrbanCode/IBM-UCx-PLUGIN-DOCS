@@ -1,10 +1,5 @@
 
-# IBM InfoSphere Optim - Process Steps
-
-* [Convert Request](#convert_request)
-* [Extract Request](#extract_request)
-* [Insert Request](#insert_request)
-
+# Process Steps
 
 ## Convert Request
 

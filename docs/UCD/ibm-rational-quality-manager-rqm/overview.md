@@ -1,5 +1,5 @@
 
-# IBM Rational Quality Manager (RQM) - Overview
+# Overview
 
 
 The Rational Quality Manager plug-in includes steps that run tests and test suites in Rational Quality Manager.

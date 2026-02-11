@@ -1,5 +1,5 @@
 
-# SQL-JDBC - Downloads
+# Downloads
 
 To download the plug-in, click the following version-specific links.
 - [ucd-SQL-JDBC-13.1154072.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SQLJDBC/ucd-SQL-JDBC-13.1154072.zip)

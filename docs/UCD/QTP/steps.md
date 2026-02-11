@@ -1,8 +1,5 @@
 
-# HP Unified Functional Testing (QTP) - Process Steps
-
-* [Run QuickTest Pro tests](#run_quicktest_pro_tests)
-
+# Process Steps
 
 ## Run QuickTest Pro tests
 

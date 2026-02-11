@@ -1,25 +1,15 @@
 
-# IBM Rational Functional Tester (RFT) - Process Steps
+# Process Steps
 
-* [Run Functional Test](#run_functional_test)
+## Run an IBM Rational Functional Tester - Functional Test
 
+Run test using IBM Rational Functional Tester - Functional Test
 
-## Run Functional Test
-
-Run test using Rational Functional Tester
-
-
-| Name | Type | Description                                                                                                          | Required |
-| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
-| Iteration Count | String | Number of datapool iterations to be run. | No |
-| Log Format | Enumeration:
-* xml
-* html
-* text
-* TPTP
-| Format of script execution logs. | No |
-| Project Directory | String | Fully qualified path to the Rational Functional Tester project directory. | Yes |
-| Script Name | String | Name of the script to be executed. | Yes |
-| User Arguments | String | Additional user arguments for playback. | No |
-
+| Name | Type | Description | Required |
+| ---- | ---- | ----------- | -------- |
+| Project Directory | textBox | Fully qualified path to the IBM Rational Functional Tester - Functional Test project directory. | Yes |
+| Script Name | textBox | Name of the script to be executed. | Yes |
+| Iteration Count | textBox | Number of dataset iterations to be run. | Yes |
+| Log Format | selectBox | Format of script execution logs. | Yes |
+| User Arguments | textBox | Additional user arguments for playback. | Yes |
 

@@ -1,5 +1,5 @@
 
-# Cloud Foundry - Usage
+# Usage
 
 ## Cloud Foundry Auto-Discovery
 

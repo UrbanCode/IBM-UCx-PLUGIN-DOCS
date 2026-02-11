@@ -1,18 +1,4 @@
-# Amazon EC2 - Process Steps
-
-- [Amazon EC2 - Steps](#amazon-ec2---steps)
-- [Steps](#steps)
-    - [Steps](#steps-1)
-    - [Process steps in the AmazonEC2 plug-in](#process-steps-in-the-amazonec2-plug-in)
-    - [Associate IPs](#associate-ips)
-    - [Create Security Group](#create-security-group)
-    - [Deregister Instances with LoadBalancer](#deregister-instances-with-loadbalancer)
-    - [Get Public DNS](#get-public-dns)
-    - [Launch Instances](#launch-instances)
-    - [Register Instances with LoadBalancer](#register-instances-with-loadbalancer)
-    - [Terminate Instances](#terminate-instances)
-    - [Wait for instances](#wait-for-instances)
-
+# Process Steps
 
 ## Associate IPs
 

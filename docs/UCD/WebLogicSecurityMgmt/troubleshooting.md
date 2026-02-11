@@ -1,5 +1,5 @@
 
-# Oracle WebLogic Server Security Management - Troubleshooting
+# Troubleshooting
 
 ## Troubleshooting hints and tips
 

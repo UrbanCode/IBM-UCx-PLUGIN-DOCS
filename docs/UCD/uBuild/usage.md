@@ -1,5 +1,5 @@
 
-# IBM DevOps uBuild - Usage
+# Usage
 
 
 Use this plug-in to download and work with uBuild life artifacts within the deploy process.

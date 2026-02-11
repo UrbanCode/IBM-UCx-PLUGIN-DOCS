@@ -1,5 +1,5 @@
 
-# File System (Versioned) - Usage
+# Usage
 
 
 When using a versioned file system, each subdirectory in the target directory is treated as a different version of the artifacts. You can set the server to check for new subdirectories periodically and automatically create component versions when new subdirectories are detected.

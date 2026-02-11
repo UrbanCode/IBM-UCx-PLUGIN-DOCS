@@ -1,5 +1,5 @@
 
-# HP Unified Functional Testing (QTP) - Overview
+# Overview
 
 HP QuickTest Professional was renamed to HP Unified Functional Testing provides functional and regression test automation for software applications and environments, and can be used for enterprise quality assurance.
 

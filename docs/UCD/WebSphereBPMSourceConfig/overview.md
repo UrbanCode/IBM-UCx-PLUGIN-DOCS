@@ -1,5 +1,5 @@
 
-# IBM Business Process Manager (WebSphere BPM) - Overview
+# Overview
 
 The IBM Business Process Manager source configuration plug-in imports Process Application snapshots as component versions.
 

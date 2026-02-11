@@ -1,5 +1,5 @@
 
-# IBM DevOps Deploy Versions - Overview
+# Overview
 
 This plug-in contains steps that manipulate versions on the IBM DevOps Deploy server, including creating versions and assigning statuses to versions.
 
@@ -14,6 +14,15 @@ This plug-in is supported to run on all operating systems that are supported by 
 No special steps are required for installation. See [Installing plug-ins in DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy").
 
 ## Release Notes
+
+### Version 79
+New step to get version type
+
+### Version 78
+Update Apache log4j to 2.25.3 for non-exploitable CVE-2025-68161 
+
+### Version 77
+Update commons-lang to 3.18 resolves finding for non-exploitable CVE-2025-48924
 
 ### Version 76
 Fix an issue with certain steps on z/OS

@@ -1,5 +1,5 @@
 
-# IBM Bluemix Auto-Scaling - Downloads
+# Downloads
 
 To download the plug-in, click the following version-specific links.
 - [ucd-bluemix-autoscale-2.1174433.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/bluemix-autoscale/ucd-bluemix-autoscale-2.1174433.zip)

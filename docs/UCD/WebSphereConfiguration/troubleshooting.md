@@ -1,5 +1,5 @@
 
-# WebSphere Application Server - Configure - Troubleshooting
+# Troubleshooting
 
 
 * [DB2 errors](#db2_errors)

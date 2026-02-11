@@ -1,11 +1,5 @@
 
-# IBM Installation Manager - Process Steps
-
-
-* [Execute Response File](#execute_response_file)
-* [Install or Upgrade IBM Installation Manager](#install_or_upgrade_ibm_installation_manager)
-* [Uninstall IBM Installation Manager](#uninstall_ibm_installation_manager)
-
+# Process Steps
 
 ## Execute Response File
 

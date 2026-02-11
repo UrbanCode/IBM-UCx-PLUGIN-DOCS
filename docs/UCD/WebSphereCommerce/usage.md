@@ -1,5 +1,5 @@
 
-# IBM WebSphere Commerce - Usage
+# Usage
 
 
 To create resources and define deployment processes for use with commerce servers, complete the following steps.

@@ -1,5 +1,5 @@
 
-# WebSphere Application Server - Deployment - Downloads
+# Downloads
 
 To download the plug-in, click the following version-specific links.
 - [devops-deploy-WebSphere-133.1179765.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/devops-deploy-WebSphere-133.1179765.zip)

@@ -1,9 +1,5 @@
 
-# Shell - Process Steps
-
-* [Shell](#shell)
-* [Shell (with xargs)](#shell_(with_xargs))
-
+# Process Steps
 
 ## Shell
 

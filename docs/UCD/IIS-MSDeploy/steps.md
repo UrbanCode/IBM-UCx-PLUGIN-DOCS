@@ -1,13 +1,5 @@
 
-# Microsoft IIS MS-Deploy (Azure App Service) - Process Steps
-
-* [Delete](#delete)
-* [Recycle Application](#recycle_application)
-* [Start Application](#start_application)
-* [Stop Application](#stop_application)
-* [Synchronize](#synchronize)
-* [msdeploy](#msdeploy)
-
+# Process Steps
 
 ## Delete
 

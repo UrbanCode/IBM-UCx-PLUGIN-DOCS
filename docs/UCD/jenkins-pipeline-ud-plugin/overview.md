@@ -1,5 +1,5 @@
 
-# Jenkins Pipeline - Overview
+# Overview
 
 Jenkins is a continuous integration server that supports interactions with other technologies by using a plug-in model. The Jenkins Pipeline plug-in orchestrates DevOps Deploy deployments as part of a pipeline in Jenkins. You can complete the following tasks with this plug-in.
 
@@ -25,6 +25,10 @@ Install the Jenkins Pipeline plug-in onto a Jenkins server.
 The [Jenkins Pipeline Plug-in Tutorial](https://community.ibm.com/community/user/wasdevops/blogs/osman-burucu/2022/07/12/jenkins-pipeline-plug-in-tutorial-component-versio) blog provides a walkthrough for a first time plug-in user. The blog contains two scenarios: 1)Component Version Import and 2)Snapshot Deployment using either a pipeline or freestyle Jenkins project.
 
 ## History
+
+### Version 2.29
+
+* RFE-URBANCODE-I-682 Added ability to create snapshot using component version.
 
 ### Version 2.28
 

@@ -1,5 +1,5 @@
 
-# IBM IMS - Usage
+# Usage
 
 ## Using the IMS plug-in in DevOps Deploy
 
@@ -42,17 +42,12 @@ Drag and drop the Execute IMS Command step onto the process editing screen.
 When the Execute IMS Command step is added to a process, the Edit Properties dialog opens. Provide the following required parameters specific to the IMS plug-in:
 
 
-| Name | Description |
-| --- | --- |
-| IMS Command | The IMS command to issue, followed by parameters. For example:
-`UPDATE PGM NAME(*name*) START(SCHD)` |
-| IMSID | IMS ID is used to identify the target IMS system the command is directed to within a given IMSplex. It consists of four alphanumeric characters (for example, IMS1). An easy way to find the IMSID is to access a z/OS console (MCS or EMCS) and look for the following message:
-`DFS996I *IMS READY*IMS1`  In this example, IMS1 is the IMSID. |
-| IMS PLEX | The 1-to-5 character suffix of the IMSplex name. An IMSplex is defined as multiple IMS systems that cooperate with each other in a z/OS Parallel Sysplex environment to process a common shared workload.The following QUERY command can be used to determine the IMSPLEX name suffix (last 5 characters under the IMSPLEX field), assuming you have access to an authorizedIMS SPOC console:
-`QUERY IMSPLEX SHOW (ALL)` To verify that your IMS application can be executed in this IMS environment, enter the command:
-`/DISPLAY PGM STLIVP1` |
-| IMS RESLIB | Name of a z/OS library that contains the IMS nucleus and all the action modules necessary to run IMS and its utilities. The RESLIB name is usually identified in the JCL that is used for starting an IMS procedure with the DD named DFSRESLB or in the parm RESLIB= in the IMS procedure used to start IMS. |
-|
+| Name        | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+|-------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| IMS Command | The IMS command to issue, followed by parameters. For example:`UPDATE PGM NAME(*name*) START(SCHD)`                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| IMSID       | IMS ID is used to identify the target IMS system the command is directed to within a given IMSplex. It consists of four alphanumeric characters (for example, IMS1). An easy way to find the IMSID is to access a z/OS console (MCS or EMCS) and look for the following message: `DFS996I *IMS READY*IMS1`  In this example, IMS1 is the IMSID.                                                                                                                                                                                                |
+| IMS PLEX    | The 1-to-5 character suffix of the IMSplex name. An IMSplex is defined as multiple IMS systems that cooperate with each other in a z/OS Parallel Sysplex environment to process a common shared workload.The following QUERY command can be used to determine the IMSPLEX name suffix (last 5 characters under the IMSPLEX field), assuming you have access to an authorizedIMS SPOC console: `QUERY IMSPLEX SHOW (ALL)` To verify that your IMS application can be executed in this IMS environment, enter the command:`/DISPLAY PGM STLIVP1` |
+| IMS RESLIB  | Name of a z/OS library that contains the IMS nucleus and all the action modules necessary to run IMS and its utilities. The RESLIB name is usually identified in the JCL that is used for starting an IMS procedure with the DD named DFSRESLB or in the parm RESLIB= in the IMS procedure used to start IMS.                                                                                                                                                                                                                                  |
 
 *Example properties for the Execute IMS Command step:*
 

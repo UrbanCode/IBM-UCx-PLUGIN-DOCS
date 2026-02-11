@@ -44,10 +44,22 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ## History
 
+### Version 101
+
+* Option to skip deleting files in 'Deploy dataset and uss files' step
+* Enable RUNTIME deploy for linked versions
+* Fix ZInventory table update issue for linked version redeployment
+* Fix memory leak and improve performance for runtime deployment
+
 ### Version 100
 
 * Added Z Inventory support for Linked versions 
-* Fixed issues during part deployments for linked versions
+* Fixed incorrect message during cp command failure
+* Fixed ZInventory update issue for linked versions with deleted artifacts
+* Performance improvement for Inventory Delta Deployment
+* Fix NoSuchFileException for generate artifact information step
+* Rollback Manifest XML file is created even when there is no backup taken
+* Copy backup files to the backup directory before the actual deployment
 
 ### Version 99
 

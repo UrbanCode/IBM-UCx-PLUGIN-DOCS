@@ -1,5 +1,5 @@
 
-# HCL OneTest Performance - Downloads
+# Downloads
 
 To download the plug-in, click the following version-specific links.
 - [HOT-PERF-UCD-9.3.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/HCLOneTestPerf/HOT-PERF-UCD-9.3.zip)

@@ -1,12 +1,5 @@
 
-# Oracle WebLogic Application Deployment - Process Steps
-
-* [Deploy](#deploy)
-* [Redeploy](#redeploy)
-* [Start](#start)
-* [Stop](#stop)
-* [Undeploy](#undeploy)
-
+# Process Steps
 
 ## Deploy
 

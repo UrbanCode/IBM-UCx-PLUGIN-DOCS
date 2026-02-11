@@ -1,5 +1,5 @@
 
-# Apache Ant - Downloads
+# Downloads
 
 To download the plug-ins, click the following version-specific links.
 

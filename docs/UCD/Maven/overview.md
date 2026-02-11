@@ -1,5 +1,5 @@
 
-# Maven Resolve - Overview
+# Overview
 
 The Maven Resolve plug-in includes a step that resolves artifacts from a Maven repository:
 

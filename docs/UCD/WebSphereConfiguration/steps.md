@@ -1,24 +1,5 @@
 
-# WebSphere Application Server - Configure - Process Steps
-
-- [WebSphere Application Server - Configure - Steps](#websphere-application-server---configure---steps)
-  - [Steps](#steps)
-    - [Process steps in the WAS Configure plug-in](#process-steps-in-the-was-configure-plug-in)
-    - [WebSphere Create Configuration Snippet](#websphere-create-configuration-snippet)
-    - [WebSphere Extract Configuration Data](#websphere-extract-configuration-data)
-    - [WebSphere Merge Configuration Files](#websphere-merge-configuration-files)
-    - [WebSphere Templatize Cell Configuration Data](#websphere-templatize-cell-configuration-data)
-    - [WebSphere Templatize Cluster Configuration Data](#websphere-templatize-cluster-configuration-data)
-    - [WebSphere Templatize Node Configuration Data](#websphere-templatize-node-configuration-data)
-    - [WebSphere Templatize Server Configuration Data](#websphere-templatize-server-configuration-data)
-    - [WebSphere Templatize Server for Cluster Configuration Data](#websphere-templatize-server-for-cluster-configuration-data)
-    - [WebSphere Templatize Snippet Configuration Data](#websphere-templatize-snippet-configuration-data)
-    - [WebSphere Configuration Apply](#websphere-configuration-apply)
-    - [WebSphere Configuration Compare](#websphere-configuration-compare)
-    - [WebSphere Configuration Discovery](#websphere-configuration-discovery)
-    - [WebSphere Configuration Partial Apply](#websphere-configuration-partial-apply)
-    - [WebSphere Configuration Partial Remove](#websphere-configuration-partial-remove)
-    - [WebSphere Get Compare Result](#websphere-get-compare-result)
+# Process Steps
 
 ## WebSphere Create Configuration Snippet
 

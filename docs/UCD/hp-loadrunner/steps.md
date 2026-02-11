@@ -1,9 +1,5 @@
 
-# HP LoadRunner - Process Steps
-
-
-* [Run Test Scenario](#run_test_scenario)
-
+# Process Steps
 
 ## Run Test Scenario
 

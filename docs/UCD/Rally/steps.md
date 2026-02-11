@@ -1,11 +1,5 @@
 
-# Rally for IBM DevOps Deploy - Process Steps
-
-* [Add Comments](#add_comments)
-* [Change Rally Artifact Property](#change_rally_artifact_property)
-* [Change Status](#change_status)
-* [Create Defect](#create_defect)
-
+# Process Steps
 
 ## Add Comments
 

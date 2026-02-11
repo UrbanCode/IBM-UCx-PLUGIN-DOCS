@@ -1,25 +1,5 @@
 
-# File Utils - Process Steps
-
-* [Copy Directory](#copy-directory)
-* [Create .zip File](#create-zip-file)
-* [Create Directories](#create-directories)
-* [Create File](#create-file)
-* [Delete Files and Directories](#delete-files-and-directories)
-* [Flip Line Endings](#flip-line-endings)
-* [Monitor File Contents](#monitor-file-contents)
-* [Move Directory](#move-directory)
-* [Read Properties From XML File](#read-properties-from-xml-file)
-* [Read Property File](#read-property-file)
-* [Replace Tokens](#replace-tokens)
-* [Search Files and Folders](#search-files-and-folders)
-* [Synchronize Directories](#synchronize-directories)
-* [Untar Tarball](#untar-tarball)
-* [Unzip](#unzip)
-* [Update INI File](#update-ini-file)
-* [Update Java Properties File](#update-java-properties-file)
-* [Update XML File with XPath](#update-xml-file-with-xpath)
-
+# Process Steps
 
 ## Copy Directory
 

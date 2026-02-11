@@ -1,8 +1,4 @@
-# IBM Maximo - Process Steps
-
-
-- Deploy Package
-- Upload Package
+# Process Steps
 
 ## Deploy Package
 

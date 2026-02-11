@@ -1,5 +1,5 @@
 
-# Kubernetes - Downloads
+# Downloads
 
 To download the plug-in, click the following version-specific links.
 - [ucd-kubernetes-33.1176035.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/kubernetes/ucd-kubernetes-33.1176035.zip)

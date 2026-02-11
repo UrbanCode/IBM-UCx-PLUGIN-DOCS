@@ -1,5 +1,5 @@
 
-# IBM Business Process Manager (WebSphere BPM) - Usage
+# Usage
 
 ## Summary
 

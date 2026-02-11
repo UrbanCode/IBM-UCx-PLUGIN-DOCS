@@ -1,8 +1,5 @@
 
-# Microsoft SQL Server SQLCmd - Process Steps
-
-* [Run SQLCmd scripts](#run_sqlcmd_scripts)
-
+# Process Steps
 
 ## Run SQLCmd scripts
 

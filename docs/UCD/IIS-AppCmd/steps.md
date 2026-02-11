@@ -1,23 +1,5 @@
 
-# Microsoft IIS AppCmd - Process Steps
-
-
-* [AppCmd](#appcmd)
-* [Create Application](#create_application)
-* [Create Application Pool](#create_application_pool)
-* [Create Site](#create_site)
-* [Create Virtual Directory](#create_virtual_directory)
-* [Create or update application from XML](#create_or_update_application_from_xml)
-* [Delete Application](#delete_application)
-* [Delete Application Pool](#delete_application_pool)
-* [Delete Site](#delete_site)
-* [Delete Virtual Directory](#delete_virtual_directory)
-* [Recycle Application Pool](#recycle_application_pool)
-* [Start Application Pool](#start_application_pool)
-* [Start Site](#start_site)
-* [Stop Application Pool](#stop_application_pool)
-* [Stop Site](#stop_site)
-
+# Process Steps
 
 ## AppCmd
 

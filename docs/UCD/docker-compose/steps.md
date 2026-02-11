@@ -1,11 +1,5 @@
 
-# Docker Compose - Process Steps
-
-* [Create Child Resources](#create_child_resources)
-* [Launch Docker Compose Application](#launch_docker_compose_application)
-* [Run Docker Compose](#run_docker_compose)
-* [Scale Docker Compose Application](#scale_docker_compose_application)
-
+# Process Steps
 
 ## Create Child Resources
 

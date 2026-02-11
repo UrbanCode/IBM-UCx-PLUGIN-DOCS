@@ -1,5 +1,5 @@
 
-# Oracle WebLogic Application Deployment - Overview
+# Overview
 
 The Oracle WebLogic Application Server plug-in automates the deployment and management of applications on the Oracle WebLogic Server.
 

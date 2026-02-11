@@ -1,4 +1,4 @@
-# z/OS Multi Generate Artifact Information - Overview
+# Overview
 
 The z/OS Multi Generate Artifact Information plug-in scans version artifacts and generates text based on a template. You can use the generated output text as input to subsequent steps. The plug-in processes data sets and members in a component version.
 
@@ -32,6 +32,7 @@ This plug-in is installed when installing IBM DevOps Deploy. When new plug-in ve
 ### Version 12
 
 * Added support for Linked versions
+* Fixed NoSuchFileException
 
 ### Version 11
 

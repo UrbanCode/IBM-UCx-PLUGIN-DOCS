@@ -1,19 +1,5 @@
 
-# Ansible - Steps
-
-- [Command](#command)
-- [Copy](#copy)
-- [File](#file)
-- [Get URL](#get-url)
-- [Line In File](#line-in-file)
-- [Pip](#pip)
-- [Apt](#apt)
-- [Service](#service)
-- [Shell](#shell)
-- [Unarchive](#unarchive)
-- [AShell](#ashell)
-- [GetBuiltInAnsibleProperties](#getbuiltinansibleproperties)
-- [Apt Key](#apt-key)
+# Process Steps
 
 ## Command
 

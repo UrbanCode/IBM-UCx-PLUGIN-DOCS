@@ -1,10 +1,5 @@
 
-# IBM Rational Test Automation Server (RTAS) - Process Steps
-
-Process steps in the IBM Rational Test Automation Server plug-in:
-
-* [Start a job on IBM Rational Test Automation Server](#start_job)
-
+# Process Steps
 
 ## Start a job on IBM Rational Test Automation Server
 

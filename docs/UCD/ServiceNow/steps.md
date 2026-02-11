@@ -1,19 +1,5 @@
 
-# ServiceNow - Process Steps
-
-* [Check Change Request Approval](#check_change_request_approval)
-* [Check Change Request State](#check_change_request_state)
-* [Check Change Requests Child Tasks States](#check_change_request's_child_tasks_states)
-* [Check Deployment Window](#check_deployment_window)
-* [Check Records](#check_records)
-* [Create Records](#create_records)
-* [Delete Multiple Table Records with Query](#delete_multiple_table_records_with_query)
-* [Delete Records](#delete_records)
-* [Run Encoded Query](#run_encoded_query)
-* [Set Change Request State](#set_change_request_state)
-* [Set Task Status](#set_task_status)
-* [Update Records](#update_records)
-
+# Process Steps
 
 ## Check Change Request Approval
 

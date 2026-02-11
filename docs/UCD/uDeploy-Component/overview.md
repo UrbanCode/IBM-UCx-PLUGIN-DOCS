@@ -1,5 +1,5 @@
 
-# IBM DevOps Deploy Components - Overview
+# Overview
 
 This plug-in manipulates components on the IBM DevOps Deploy server. For example, the steps in this plug-in can create components, add components to teams, and add properties to components.
 

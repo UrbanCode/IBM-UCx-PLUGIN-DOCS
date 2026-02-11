@@ -1,5 +1,5 @@
 
-# IBM Rational Integration Tester (RIT) - Overview
+# Overview
 
 With the Rational Integration Tester (RIT) plug-in you can automate invoking a test resource defined in a Rational Integration Tester test project.A test resource can be a test, test suite, or performance test.
 

@@ -1,11 +1,4 @@
-
-# InfoSphere-ISD - Process Steps
-
-* [Design Time Export](#design_time_export)
-* [Design Time Import](#design_time_import)
-* [Runtime Export](#runtime_export)
-* [Runtime Import](#runtime_import)
-
+# Process Steps
 
 ## Design Time Export
 

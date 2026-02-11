@@ -1,52 +1,26 @@
 
-# Microsoft TFS (Team Foundation Server) - Process Steps
-
-* [Import Version](#import_version)
-
+# Process Steps
 
 ## Import Version
 
 Import a new version from Team Foundation Server.
 
-This step has no input properties.
-
-
-## Roles in the Team Foundation Server (TFS) plug-in
-
-The plug-in adds these roles automatically to resources. You cannot add these roles manually.
-
-
-* [TFSComponentProperties](#tfscomponentproperties_role)
-* [TFSImportProperties](#tfsimportproperties_role)
-
-
-## TFSComponentProperties
-
-
-| Name | Type | Description |
-| --- | --- | --- |
-| Build Definition | String | The names of one or more build definitions to monitor for new builds. Separate each definition with a newline. |
-| Build Quality | String | A rating used to limit imports to builds with a specific build quality. Only builds with the specified rating are imported. |
-| Build Status | Enumeration:
-| The status that a build must have before it can be imported. Only builds with the selected status are imported. |
-| Directory Offset | String | The offset is relative to the base directory of the build artifacts. |
-| File Excludes | String | A list of file patterns to exclude from the component. List each pattern on a separate line. |
-| File Includes | String | A list of file patterns to include in the component. List each pattern on a separate line. To include all files, do not specify a value or type \*\*/\*. |
-| Prepend Build Definition to Version | Boolean | Add the build definition name as a prefix to the version name. |
-| Preserve Execute Permissions | Boolean | For Linux and UNIX operating systems, enable this property to retain the execute permissions for each file. |
-| TFS Password | Password | The password associated with the specified user to access the TFS. |
-| TFS Team Project | String | The name of the TFS team project where the build definition is stored. |
-| TFS URL | String | The URL of the TFS server. |
-| TFS Username | String | The user name for the account that has access to the TFS. |
-| Text File Extensions | String | To convert text-type files into another character set, list file extensions to be converted. Matching file types are converted into the default or system character set of the system where the agent is located. |
-
-## TFSImportProperties
-
-
-| Name | Type | Description |
-| --- | --- | --- |
-| Build Definition | String | The build definition to import a specific build along with the build number or build URI. |
-| Build Number | String | A build number to import a specific build. You must also specify the build definition in the Build Defintion property field. |
-| Build URI | String | A build URI to import a specific build. It must be in the form of vstfs:///Build/Build/176. You must also specify the build definition in the Build Defintion property field. |
-
+| Name | Type | Description | Required |
+| ---- | ---- | ----------- | -------- |
+| TFS URL | textBox | The URL of the TFS server. | Yes |
+| TFS Username | textBox | The user name for the account that has access to TFS.                              Specify a user name to use different credentials than those                              used for the UrbanCode Deploy process. | No |
+| TFS Password | secureBox | Specify a password for the user. | No |
+| TFS Team Project | textBox | The name of the TFS team project where the build definition is stored. | Yes |
+| Build Definition(s) | textAreaBox | The names of the build definitions to monitor for new builds. Separate each definition with a newline. | Yes |
+| Prepend Build Definition to Version | checkBox | Select to add the build definition name as a prefix to the version name. | Yes |
+| Build Status | selectBox | Select the status that a build must have before it can be                              imported. Only builds with this status are imported. | Yes |
+| Build Quality | textBox | To limit imports to builds with a specific build quality                              (or build rating), type the rating. | No |
+| Directory Offset | textBox | The offset is relative to the base directory of the build                              artifacts. | No |
+| File Includes | textAreaBox | A list of file patterns to include in the component.                              Separate each pattern with a newline. To include all files,                              leave blank or type **/*. | No |
+| File Excludes | textAreaBox | A list of file patterns to exclude from the component.                              Separate each pattern with a newline. | No |
+| Text File Extensions | textBox | If text-type files must be converted into another character                            set, type the list of file extensions to be converted. Matching file                            types are converted into the default or system character set of the                            system where the agent is located. | No |
+| Preserve Execute Permissions | checkBox | For Linux and UNIX operating systems, select this check                              box to retain the execute permissions for each file. | No |
+| Build Definition | textBox | Provide the build definition to import a specific build along with the Build Number or Build URI. | No |
+| Build Number | textBox | Provide a build number to import a specific build. You must also specify the build definition in the Build Defintion testbox above. | No |
+| Build URI | textBox | Provide a build URI in the form of vstfs:///Build/Build/176                              to import a specific build. You must also specify the build definition in the Build Defintion testbox above. | No |
 

@@ -1,8 +1,9 @@
 
-# Docker Compose - Downloads
+# Downloads
 
 To download the plug-in, click the following version-specific links.
 
+- [devops-deploy-docker-compose-25.1185319.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/docker-compose/devops-deploy-docker-compose-25.1185319.zip)
 - [ucd-docker-compose-24.1174442.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/docker-compose/ucd-docker-compose-24.1174442.zip)
 - [docker-compose-24.1103426.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/docker-compose/docker-compose-24.1103426.zip)
 - [docker-compose-24.1026795.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/docker-compose/docker-compose-24.1026795.zip)

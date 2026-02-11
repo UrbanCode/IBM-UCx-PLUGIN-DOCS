@@ -1,9 +1,5 @@
 
-# Maven Resolve - Process Steps
-
-
-* [Maven Resolve](#maven_resolve)
-
+# Process Steps
 
 ## Maven Resolve
 

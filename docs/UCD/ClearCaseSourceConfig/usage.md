@@ -1,5 +1,5 @@
 
-# IBM Rational ClearCase - Usage
+# Usage
 
 
 To use this plug-in, create a component to define the source and processes for the Rational ClearCase Unified Change Management (UCM) repository. The component contains the information for importing the artifacts and any processes to perform on the artifacts.

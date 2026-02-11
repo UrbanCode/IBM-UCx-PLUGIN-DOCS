@@ -1,5 +1,5 @@
 
-# HCL OneTest UI - Downloads
+# Downloads
 
 To download the plug-in, click the following version-specific links.
 - [HOT-UI-UCD-FunctionalTest-6.1.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/HCLOneTestUI/HOT-UI-UCD-FunctionalTest-6.1.zip)

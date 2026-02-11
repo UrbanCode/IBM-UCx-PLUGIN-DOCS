@@ -1,11 +1,5 @@
 
-# IBM DevOps Deploy Tools - Process Steps
-
-* [Check Total Application Process Execution Time](#check_total_application_process_execution_time)
-* [Check Total Component Process Execution Time](#check_total_component_process_execution_time)
-* [Verify Deployment](#verify_deployment)
-* [Wait for web page](#wait_for_web_page)
-
+# Process Steps
 
 ## Check Total Application Process Execution Time
 

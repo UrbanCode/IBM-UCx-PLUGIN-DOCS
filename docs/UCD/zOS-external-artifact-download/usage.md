@@ -1,4 +1,4 @@
-# z/OS External Artifact Repository - Usage
+# Usage
 
 ## Download Artifacts for zOS External Repo
 

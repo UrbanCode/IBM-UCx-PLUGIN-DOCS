@@ -1,5 +1,5 @@
 
-# IBM Business Process Manager (WebSphere BPM) for IBM DevOps Deploy - Downloads
+# Downloads
 
 To download the plug-in, click the following version-specific links.
 - [WebSphereBPM-13.1100894.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereBPM/WebSphereBPM-13.1100894.zip)

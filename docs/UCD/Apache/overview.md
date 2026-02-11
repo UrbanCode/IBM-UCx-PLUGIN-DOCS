@@ -1,5 +1,5 @@
 
-# Apache HTTP Server - Overview
+# Overview
 
 
 The Apache HTTP Server plug-in provides steps to automate starting and stopping an Apache HTTP server.

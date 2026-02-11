@@ -1,5 +1,5 @@
 
-# IBM DevOps Deploy Applications - Overview
+# Overview
 
 
 This plug-in manipulates applications on the IBM DevOps Deploy server. For example, the steps in this plug-in can create applications, add applications to teams, and add components to applications.

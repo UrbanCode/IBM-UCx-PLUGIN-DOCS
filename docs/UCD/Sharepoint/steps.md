@@ -1,12 +1,5 @@
 
-# Microsoft SharePoint - Process Steps
-
-* [Activate SharePoint Feature](#activate_sharepoint_feature)
-* [Deploy SharePoint CMP File](#deploy_sharepoint_cmp_file)
-* [Deploy SharePoint WSP File](#deploy_sharepoint_wsp_file)
-* [Deploy SharePoint WSP File To Sandbox](#deploy_sharepoint_wsp_file_to_sandbox)
-* [Export SharePoint Content](#export_sharepoint_content)
-
+# Process Steps
 
 ## Activate SharePoint Feature
 

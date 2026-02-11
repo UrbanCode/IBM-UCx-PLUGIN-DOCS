@@ -1,14 +1,5 @@
 
-# IBM DevOps Deploy Versions - Process Steps
-
-
-* [Add Status to Version](#add_status_to_version)
-* [Add Version Link](#add_version_link)
-* [Create Version](#create_version)
-* [Get Version Properties](#get_version_properties)
-* [Remove Status from Version](#remove_status_from_version)
-* [Get Version Status Information](#get_version_status_information)
-
+# Process Steps
 
 ## Add Status to Version
 
@@ -76,6 +67,16 @@ Retrieve the status information for a Version and sets the output properties: ve
 | Version Name | String | Name or ID of the version to get Status information.| Yes |
 | Component Name | String | Name or ID of the version's component. Required if Version is provided by name.| No |
 | Required Status | String | Fail this step unless the given Status Name/ID is present on the Version.| No |
+
+## Get Version Type
+
+Retrieve the version type information for a Version and sets the output property: `versionType`.
+
+
+| Name           | Type   | Description                      | Required |
+|----------------|--------|----------------------------------|----------|
+| Version Name   | String | Name of the version.             | Yes      |
+| Component Name | String | Name of the version's component. | Yes      |
 
 
 

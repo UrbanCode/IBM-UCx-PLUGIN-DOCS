@@ -1,14 +1,5 @@
 
-# JIRA for IBM DevOps Deploy - Process Steps
-
-
-* [Add Comments](#add_comments)
-* [Check Status](#check_status)
-* [Create Issue](#create_issue)
-* [Does issues exist](#does_issues_exist)
-* [Edit Issue](#edit_issue)
-* [Transition Issue](#transition_issue)
-
+# Process Steps
 
 ## Add Comments
 

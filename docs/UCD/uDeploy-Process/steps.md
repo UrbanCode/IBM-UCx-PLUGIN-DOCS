@@ -1,10 +1,5 @@
 
-# IBM DevOps Deploy Process - Process Steps
-
-
-* [Set Link on Process Request](#set_link_on_process_request)
-* [Set Process Request Property](#set_process_request_property)
-
+# Process Steps
 
 ## Set Link on Process Request
 

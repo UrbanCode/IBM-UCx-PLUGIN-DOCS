@@ -1,22 +1,7 @@
 
-# Informatica
+# Process Steps
 
-## Steps
-
-- [Informatica](#informatica)
-  - [Steps](#steps)
-    - [Apply Label](#apply-label)
-    - [Assign Permission](#assign-permission)
-    - [Create Dynamic Deployment Group](#create-dynamic-deployment-group)
-    - [Create Folder](#create-folder)
-    - [Create Static Deployment Group](#create-static-deployment-group)
-    - [Deploy Deployment Group](#deploy-deployment-group)
-    - [Import Objects](#import-objects)
-    - [Roll Back Deployment Group](#roll-back-deployment-group)
-    - [Run PMREP Command](#run-pmrep-command)
-    - [Validate Deployment Group](#validate-deployment-group)
-
-### Apply Label
+## Apply Label
 
 Apply a label to objects in the target server.
 
@@ -32,7 +17,7 @@ Apply a label to objects in the target server.
 | Repository | String | The repository name in Informatica. | Yes |
 | Username | String | The username to use to authenticate with Informatica. | Yes |
 
-### Assign Permission
+## Assign Permission
 
 Add, remove, or update permissions on a global object for a user, group, or the Others default group. Note: Only the administrator or the current owner of the object can manage permissions on the object.
 
@@ -67,7 +52,7 @@ Add, remove, or update permissions on a global object for a user, group, or the 
 | User Name to assign Object | String |  Name of the user for whom you want to add, remove, or update permissions. Required if Group Name is not specified. Do not specify both. | No |
 | Username | String | The username to use to authenticate with Informatica. | Yes |
 
-### Create Dynamic Deployment Group
+## Create Dynamic Deployment Group
 
 Create a dynamic Deployment Group and populate it using a named query.
 
@@ -83,7 +68,7 @@ Create a dynamic Deployment Group and populate it using a named query.
 | Repository | String | The repository name in Informatica. | Yes |
 | Username | String | The username to use to authenticate with Informatica. | Yes |
 
-### Create Folder
+## Create Folder
 
 Creates a folder in the repository.
 
@@ -108,7 +93,7 @@ Creates a folder in the repository.
 | Share Folders | Boolean | Make the folders shared. | No |
 | Username | String | The username to use to authenticate with Informatica. | Yes |
 
-### Create Static Deployment Group
+## Create Static Deployment Group
 
 Create a static Deployment Group and add Informatica Workflows to it.
 
@@ -126,7 +111,7 @@ Create a static Deployment Group and add Informatica Workflows to it.
 | Repository | String | The repository name in Informatica. | Yes |
 | Username | String | The username to use to authenticate with Informatica. | Yes |
 
-### Deploy Deployment Group
+## Deploy Deployment Group
 
 Deploy a deployment group from one server to another.
 
@@ -149,7 +134,7 @@ Deploy a deployment group from one server to another.
 | Source Username | String | The username to use to authenticate with Informatica for the source server. | Yes |
 | Username | String | The username to use to authenticate with Informatica. | Yes |
 
-### Import Objects
+## Import Objects
 
 Import Objects from XML files. The step will automatically add the connect and exit commands and generate the necessary control files.
 
@@ -178,7 +163,7 @@ Import Objects from XML files. The step will automatically add the connect and e
 | Security Domain | String | Required if you use LDAP authentication.Name of the security domain that the user or group belongs to. Default is Native | No |
 | Username | String | The username to use to authenticate with Informatica. | Yes |
 
-### Roll Back Deployment Group
+## Roll Back Deployment Group
 
 Roll back a deployment of a deployment group.
 
@@ -194,7 +179,7 @@ Roll back a deployment of a deployment group.
 | Repository | String | The repository name in Informatica. | Yes |
 | Username | String | The username to use to authenticate with Informatica. | Yes |
 
-### Run PMREP Command
+## Run PMREP Command
 
 Run pmrep with the commands given to pmrep defined in this step. The step will automatically add the connect and exit commands.
 
@@ -210,7 +195,7 @@ Run pmrep with the commands given to pmrep defined in this step. The step will a
 | Repository | String | The repository name in Informatica. | Yes |
 | Username | String | The username to use to authenticate with Informatica. | Yes |
 
-### Validate Deployment Group
+## Validate Deployment Group
 
 Validate a deployed deployment group in the target server.
 

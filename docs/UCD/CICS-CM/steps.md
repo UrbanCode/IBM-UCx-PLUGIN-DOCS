@@ -1,18 +1,7 @@
 
-# CICS CM (Beta) - Steps
+# Process Steps
 
-## Steps
-
-### Process steps in the CICS CM plug-in
-
-* [Backout change package](#backout_change_package)
-* [Create migration scheme](#create_migration_scheme)
-* [Install change package (CSD)](#install_change_package_(csd))
-* [Migrate change package](#migrate_change_package)
-* [Query change package](#query_change_package)
-* [Ready change package](#ready_change_package)
-
-### Backout change package
+## Backout change package
 
 Backout a change package to reverse a migration event.
 
@@ -21,7 +10,7 @@ Backout a change package to reverse a migration event.
 | Change Package | String | The name of the change package to be backed out. The default value is ``${p:cicscm.changePackage}``. | Yes |
 | Migration Scheme | String | The name of the migration scheme used in the migration event that is to be backed out. The default value is ``${p:Create migration scheme/migrationScheme}``. | Yes |
 
-### Create migration scheme
+## Create migration scheme
 
 Dynamically create a migration scheme with a single migration path.
 
@@ -32,7 +21,7 @@ Dynamically create a migration scheme with a single migration path.
 | Target Configuration | String | The name of the target configuration. The default value is ``${p:cicscm.targetConfig}``. | Yes |
 | Transformation Rule Set | String | The name of the transformation rule set. | No |
 
-### Install change package (CSD)
+## Install change package (CSD)
 
 Install the resource definitions in a change package from a CSD configuration.
 
@@ -44,7 +33,7 @@ Install the resource definitions in a change package from a CSD configuration.
 | Discard resources | Boolean | Tick box to discard resources before installation. By default, the box is checked. | No |
 | Target Configuration | String | The name of the target configuration. The default value is ``${p:cicscm.targetConfig}``. | Yes |
 
-### Migrate change package
+## Migrate change package
 
 Migrate a change package.
 
@@ -54,7 +43,7 @@ Migrate a change package.
 | Change Package | String | The name of the change package to be migrated. The default value is ``${p:cicscm.changePackage}``. | Yes |
 | Migration Scheme | String | The name of the migration scheme to be used in the migration. The default value is ``${p:Create migration scheme/migrationScheme}``. | Yes |
 
-### Query change package
+## Query change package
 
 Query a change package for names, groups and types of resource definitions within the package.
 
@@ -64,7 +53,7 @@ Query a change package for names, groups and types of resource definitions withi
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Change Package | String | The name of the change package to be queried. The default value is ``${p:cicscm.changePackage}``. | Yes |
 
-### Ready change package
+## Ready change package
 
 Ready a change package for migration.
 

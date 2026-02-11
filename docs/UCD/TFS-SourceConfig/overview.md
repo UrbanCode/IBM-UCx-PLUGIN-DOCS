@@ -1,5 +1,5 @@
 
-# Microsoft TFS (Team Foundation Server) - Overview
+# Overview
 
 The Microsoft TFS plug-in automates importing of version artifacts from a TFS server. This plug-in includes one step:
 

@@ -1,5 +1,5 @@
 
-# Rally for IBM DevOps Deploy - Overview
+# Overview
 
 The Rally plug-in for IBM DevOps Deploy includes steps that modify existing Rally issues and create Rally defects.
 

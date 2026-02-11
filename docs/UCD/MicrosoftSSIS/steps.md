@@ -1,8 +1,5 @@
 
-# Microsoft SSIS - Process Steps
-
-* [Deploy](#deploy)
-
+# Process Steps
 
 ## Deploy
 

@@ -1,8 +1,5 @@
 
-# Mulesoft - Process Steps
-
-* [Deploy to Cloudhub](#deploy_to_cloudhub)
-
+# Process Steps
 
 ## Deploy to Cloudhub
 

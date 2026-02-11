@@ -1,5 +1,5 @@
 
-# IBM DevOps Deploy Versioned File Storage - Overview
+# Overview
 
 
 The steps in this plug-in work with versioned components. For example, the [Download Artifacts](steps.md#download-artifacts) step retrieves the latest version of a component. Most component deployment processes use this step to download the component artifacts to the agent system.
@@ -19,6 +19,14 @@ This plug-in is supported to run on all operating systems that are supported by 
 No special steps are required for installation. See [Installing plug-ins in DevOps products](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps products").
 
 ## History
+
+### Version 51
+
+* Add support for linked versions for ZOS Components
+
+### Version 50
+
+* Update Apache log4j to 2.25.3 for non-exploitable CVE-2025-68161
 
 ### Version 49
 

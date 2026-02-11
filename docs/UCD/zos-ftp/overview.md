@@ -1,5 +1,5 @@
 
-# z/OS FTP Utility - Overview
+# Overview
 
 The zOS FTP plug-in includes a step related to import hierarchical file system(HFS) artifacts from another z/OS logical partition (LPAR).
 

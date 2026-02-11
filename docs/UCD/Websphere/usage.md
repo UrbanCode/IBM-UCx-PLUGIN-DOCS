@@ -1,5 +1,5 @@
 
-# WebSphere Application Server - Deployment - Usage
+# Usage
 
 
 - [WebSphere Application Server - Deployment - Usage](#websphere-application-server---deployment---usage)

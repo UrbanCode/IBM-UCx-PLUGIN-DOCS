@@ -1,5 +1,5 @@
 
-# IBM IMS - Troubleshooting
+# Troubleshooting
 
 **Tip:** For more questions and answers, see the [DevOps forum on IBM developerWorks.](https://community.ibm.com/community/user/wasdevops/urbancode-discussion)
 

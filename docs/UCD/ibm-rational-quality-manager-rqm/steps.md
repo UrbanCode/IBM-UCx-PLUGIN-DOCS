@@ -1,11 +1,5 @@
 
-# IBM Rational Quality Manager (RQM) - Steps
-
-## Process steps in the Rational Quality Manager plug-in
-
-* [Execute Test Case](#execute_test_case)
-* [Execute Test Suite](#execute_test_suite)
-
+# Process Steps
 
 ## Execute Test Case
 

@@ -1,14 +1,5 @@
 
-# FileNet - IBM Case Manager - Process Steps
-
-
-* [Deploy Solution](#deploy)
-* [Export Solution](#export_solution)
-* [Import Solution](#import_solution)
-* [Export Security Manifest](#export_security)
-* [Import Security Manifest](#import_security)
-* [Apply Security Manifest](#apply_security)
-
+# Process Steps
 
 ## Deploy Solution
 

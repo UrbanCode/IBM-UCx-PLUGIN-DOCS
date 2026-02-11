@@ -1,6 +1,4 @@
-# 7-Zip - Steps
-
-- [Extract archive](#extract-archive)
+# Process Steps
 
 ## Extract archive
 

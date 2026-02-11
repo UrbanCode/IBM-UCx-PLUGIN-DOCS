@@ -25,7 +25,6 @@ The GitLab plug-in supports scheduled events integration which are listed in the
 |syncGitLabCommit | Queries the GitLab Server for commits in a project. |
 | syncGitLabBuild | Queries the GitLab Server for builds in a project. |
 | Sync Gitlab deployments | A Gitlab deployments that will occur on a timer |
-| Sync Gitlab issues | A Gitlab issues that will occur on a timer |
 | Sync Gitlab Pipelines | Gitlab Pipeline that will occur on a timer |
 
 ## Integration
@@ -52,12 +51,12 @@ The configuration properties which are included in the `properties` field are un
 | Name | Type | Description | Required | Project Name |
 | --- | --- | --- | --- | --- |
 | URL | String | The URL of the GitLab server. | Yes | baseUrl |
-| Private Token | String | The Gitlab server access token. For more information, see the GitLab documentation at https://gitlab.com/profile/personal_access_tokens. | Yes | private\_token |
-| DevOps Velocity User Access Key | String | The user access key used to authenticate with the DevOps Velocity server. | Yes | ucvAccessKey |
+| Private Token | Secure | The Gitlab server access token. For more information, see the GitLab documentation at https://gitlab.com/profile/personal_access_tokens. | Yes | private\_token |
+| DevOps Velocity User Access Key | Secure | The user access key used to authenticate with the DevOps Velocity server. | Yes | ucvAccessKey |
 | Priorty Field Mapping using Labels | Array | Map GitLab label for Priorty to this server. The priorty field label must be a key vaule pair connected by “:” or “-“. Example: If Gitlab Label for priorty is priortyKey:High, then pass priortyKey in this field. | No | fieldMapping |
 | Proxy Server | String | The URL of the proxy server including the port number. | No | proxyServer|
 | Proxy User Name | String | The user name used to authenticate with the proxy server. | No | proxyUsername |
-| Proxy Password | String | The password used to authenticate with the proxy server. | No | proxyPassword |
+| Proxy Password | Secure | The password used to authenticate with the proxy server. | No | proxyPassword |
 | Project Names (Comma Separated List) | Array | You can import the source data by providing a list of GitLab Project Names, which can include regular expressions for pattern matching. For instance, you can use wildcards such as * to match any character sequence, such as sample* to match project names that start with sample. Example: sample, sample1, etc. | No | projectNames |
 | Branch | String | GitLab repositories branch, The branch to pull commits from. | No | branchName |
 | Additional Branches (Comma Separated List) | Array | The name of additional branches to collect commits from besides the main one, leave blank if not needed. | No | otherBranches |

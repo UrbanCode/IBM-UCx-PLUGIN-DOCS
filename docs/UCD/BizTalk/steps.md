@@ -1,19 +1,5 @@
 
-# Microsoft BizTalk - Process steps
-
-
-* [Add Biztalk Application](#add_biztalk_application)
-* [Add Biztalk Resource](#add_biztalk_resource)
-* [Export Biztalk Application](#export_biztalk_application)
-* [Export Biztalk Application Bindings](#export_biztalk_application_bindings)
-* [Import Bindings](#import_bindings)
-* [Import or Upgrade Biztalk Application](#import_or_upgrade_biztalk_application)
-* [Remove Biztalk Application](#remove_biztalk_application)
-* [Restart BizTalk host](#restart_biztalk_host)
-* [Start Biztalk Application](#start_biztalk_application)
-* [Stop Biztalk Application](#stop_biztalk_application)
-* [Uninstall Biztalk Application](#uninstall_biztalk_application)
-
+# Process Steps
 
 ## Add Biztalk Application
 

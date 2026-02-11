@@ -1,10 +1,5 @@
 
-# RPM - Process Steps
-
-* [Install RPM](#install_rpm)
-* [Uninstall RPM](#uninstall_rpm)
-* [Update RPM](#update_rpm)
-
+# Process Steps
 
 ## Install RPM
 

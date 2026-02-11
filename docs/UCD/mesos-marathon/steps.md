@@ -1,11 +1,5 @@
 
-# Mesos Marathon - Process Steps
-
-* [Kill Tasks](#kill_tasks)
-* [Launch Application](#launch_application)
-* [Remove Application](#remove_application)
-* [Scale Application](#scale_application)
-
+# Process Steps
 
 ## Kill Tasks
 

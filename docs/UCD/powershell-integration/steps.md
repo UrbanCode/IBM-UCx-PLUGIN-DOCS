@@ -1,8 +1,5 @@
 
-# PowerShell - Process Steps
-
-
-* [Run PowerShell Script](#run_powershell_script)
+# Process Steps
 
 ## Run PowerShell Script
 

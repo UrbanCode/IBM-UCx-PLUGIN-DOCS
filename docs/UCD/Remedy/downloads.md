@@ -1,5 +1,5 @@
 
-# BMC Remedy Action Request System - Downloads
+# Downloads
 
 To download the plug-in, click the following version-specific links.
 - [Remedy-5.1056545.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Remedy/Remedy-5.1056545.zip)

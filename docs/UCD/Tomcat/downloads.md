@@ -1,5 +1,5 @@
 
-# Apache Tomcat - Downloads
+# Downloads
 
 To download the plug-in, click the following version-specific links.
 - [ucd-Tomcat-8.1150600.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Tomcat/ucd-Tomcat-8.1150600.zip)

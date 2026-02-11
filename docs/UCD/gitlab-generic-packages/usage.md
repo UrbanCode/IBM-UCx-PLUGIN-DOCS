@@ -1,4 +1,4 @@
-# GitLab Generic Packages - Usage
+# Usage
 
 ## Prerequisite
 Before you use the plug-in, ensure that:

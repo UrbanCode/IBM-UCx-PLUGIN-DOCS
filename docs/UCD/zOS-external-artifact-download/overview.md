@@ -1,4 +1,4 @@
-# z/OS External Artifact Repository - Overview
+# Overview
 
 The zOS External Artifact Utility plug-in includes steps to integrate with external repositories like Nexus or JFrog for zOS.
 
@@ -21,6 +21,10 @@ This plug-in requires 7.0.4 or later of DevOps Deploy.
 No special steps are required for installation. See [Installing plug-ins in DevOps](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps").
 
 ## History
+
+### Version 15
+
+* Added mechanism to cache From Version for a linked version for retry scenario
 
 ### Version 14
 

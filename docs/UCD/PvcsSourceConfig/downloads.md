@@ -1,5 +1,5 @@
 
-# PVCS - Downloads
+# Downloads
 
 To download the plug-in, click the following version-specific links.
 - [PvcsSourceConfig-7.1026780.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/PvcsSourceConfig/PvcsSourceConfig-7.1026780.zip)

@@ -1,21 +1,5 @@
 
-# IBM Business Process Manager (WebSphere BPM) for IBM DevOps Deploy - Process Steps
-
-* [Create Generic Install Package](#create_generic_install_package)
-* [Deactivate Snapshot](#deactivate_snapshot)
-* [Deploy Offline Package](#deploy_offline_package)
-* [Deploy Process Application Snapshot](#deploy_process_application_snapshot)
-* [Export Process Application](#export_process_application)
-* [Extract Migration Policy](#extract_migration_policy)
-* [Generate Offline Package](#generate_offline_package)
-* [Import Process Application](#import_process_application)
-* [Install Process Application Snapshot](#install_process_application_snapshot)
-* [Migrate Instances](#migrate_instances)
-* [Set Default Snapshot](#set_default_snapshot)
-* [Stop Snapshot](#stop_snapshot)
-* [Sync Values, Variables, and Team Bindings](#sync_values,_variables,_and_team_bindings)
-* [Update Installation Information](#update_installation_information)
-
+# Process Steps
 
 ## Create Generic Install Package
 

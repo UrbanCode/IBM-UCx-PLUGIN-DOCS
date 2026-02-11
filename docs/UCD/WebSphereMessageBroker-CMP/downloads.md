@@ -1,5 +1,5 @@
 
-# IBM Integration Bus (formerly WebSphere Message Broker) - CMP - Downloads
+# Downloads
 
 To download the plug-in, click the following version-specific links.
 - [WebSphereMessageBroker-CMP-47.1156618.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereMessageBroker-CMP/WebSphereMessageBroker-CMP-47.1156618.zip)

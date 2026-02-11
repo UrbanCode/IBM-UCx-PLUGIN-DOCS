@@ -1,5 +1,5 @@
 
-# File System (Versioned) - Overview
+# Overview
 
 
 The File System (Versioned) plug-in automates importing artifacts with versions and maintaining the versioning structure.
@@ -22,6 +22,10 @@ This plug-in is supported to run on all operating systems supported by the IBM D
 This plug-in is installed when installing IBM DevOps Deploy. When new plug-in versions are available, follow the [installation instructions](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy") to update the plug-in.
 
 ## History
+
+### Version 20
+
+Update Apache log4j to 2.25.3 for non-exploitable CVE-2025-68161
 
 ### Version 19
 

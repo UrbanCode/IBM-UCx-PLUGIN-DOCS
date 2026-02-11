@@ -1,5 +1,5 @@
 
-# IBM DevOps Deploy Environments - Usage
+# Usage
 
 ## Create Multiple Environments
 

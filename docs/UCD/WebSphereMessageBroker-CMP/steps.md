@@ -1,26 +1,5 @@
 
-# IBM Integration Bus (formerly WebSphere Message Broker) - CMP - Process Steps
-
-* [Create Execution Group](#create_execution_group)
-* [Create Integration Node](#create_integration_node)
-* [Create Or Update Configurable Service](#create_or_update_configurable_service)
-* [Delete Applications](#delete_applications)
-* [Delete BAR File Contents](#delete_bar_file_contents)
-* [Delete Configurable Service](#delete_configurable_service)
-* [Delete Execution Group](#delete_execution_group)
-* [Delete Integration Node](#delete_integration_node)
-* [Deploy](#deploy)
-* [Does Execution Group Exist](#does_execution_group_exist)
-* [Override Bar Properties](#override_bar_properties)
-* [Restart Execution Groups](#restart_execution_groups)
-* [Set Execution Group Properties](#set_execution_group_properties)
-* [Set Integration Node Properties](#set_integration_node_properties)
-* [Set Message Flows Properties](#set_message_flows_properties)
-* [Start Integration Node](#start_integration_node)
-* [Start Message Flows](#start_message_flows)
-* [Stop Integration Node](#stop_integration_node)
-* [Stop Message Flows](#stop_message_flows)
-
+# Process Steps
 
 ## Create Execution Group
 

@@ -1,9 +1,5 @@
 
-# Oracle SQLPlus - Process Steps
-
-* [Run SQLPlus script](#run_sqlplus_script)
-* [SQLPlus through Control File](#sqlplus_through_control_file)
-
+# Process Steps
 
 ## Run SQLPlus script
 

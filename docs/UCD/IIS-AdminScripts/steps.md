@@ -1,11 +1,5 @@
 
-# Microsoft IIS AdminScripts - Process Steps
-
-* [AdsUtil](#adsutil)
-* [Set .Net Version](#set_.net_version)
-* [Update VDirProperties](#update_vdirproperties)
-* [Update WebSiteProperties](#update_websiteproperties)
-
+# Process Steps
 
 ## AdsUtil
 

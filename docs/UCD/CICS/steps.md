@@ -1,42 +1,4 @@
-# CICS TS - Process Steps
-
-
-- [CICS TS - Steps](#cics-ts---steps)
-  - [Process steps in the CICS TS plug-in](#process-steps-in-the-cics-ts-plug-in)
-    - [Check available status of resources](#check-available-status-of-resources)
-    - [Check enable status of resources](#check-enable-status-of-resources)
-    - [Check open status of resources](#check-open-status-of-resources)
-    - [Check status of an application](#check-status-of-an-application)
-    - [Close resources](#close-resources)
-    - [Deploy application](#deploy-application)
-    - [Deploy bundle](#deploy-bundle)
-    - [Disable application](#disable-application)
-    - [Disable resources](#disable-resources)
-    - [Discard resources](#discard-resources)
-    - [Enable application](#enable-application)
-    - [Enable resources](#enable-resources)
-    - [Install BAS resource descriptions](#install-bas-resource-descriptions)
-    - [Install BAS resource groups](#install-bas-resource-groups)
-    - [Install BAS resources](#install-bas-resources)
-    - [Install CSD groups or lists](#install-csd-groups-or-lists)
-    - [Install CSD resources](#install-csd-resources)
-    - [Make application available](#make-application-available)
-    - [Make application unavailable](#make-application-unavailable)
-    - [Make resources available](#make-resources-available)
-    - [Make resources unavailable](#make-resources-unavailable)
-    - [New copy resources](#new-copy-resources)
-    - [Open resources](#open-resources)
-    - [Phase in resources](#phase-in-resources)
-    - [Scan pipelines](#scan-pipelines)
-    - [Undeploy application](#undeploy-application)
-    - [Undeploy bundles](#undeploy-bundles)
-    - [Output properties](#output-properties)
-    - [Overview of output properties](#overview-of-output-properties)
-    - [The cics.response.errors output property](#the-cicsresponseerrors-output-property)
-    - [How to view output properties](#how-to-view-output-properties)
-    - [Use cics.response.errors in a post-processing script](#use-cicsresponseerrors-in-a-post-processing-script)
-    - [Defining and deleting resource definitions](#defining-and-deleting-resource-definitions)
-    - [Default input properties](#default-input-properties)
+# Process Steps
 
 ## Check available status of resources
 

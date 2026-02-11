@@ -1,8 +1,5 @@
 
-# Nexus - Process Steps
-
-* [Download NuGet package](#download_nuget_package)
-
+# Process Steps
 
 ## Download NuGet package
 

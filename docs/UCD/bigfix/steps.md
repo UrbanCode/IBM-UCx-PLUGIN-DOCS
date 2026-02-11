@@ -1,8 +1,5 @@
 
-# IBM BigFix - Process Steps
-
-* [Start Action](#start_action)
-
+# Process Steps
 
 ## Start Action
 

@@ -1,11 +1,5 @@
 
-# IBM WebSphere Service Registry and Repository - Process Steps
-
-* [Activate Configuration Profile](#activate_configuration_profile)
-* [Delete Configuration Profile](#delete_configuration_profile)
-* [Load Configuration Profile](#load_configuration_profile)
-* [Register Service](#register_service)
-
+# Process Steps
 
 ## Activate Configuration Profile
 

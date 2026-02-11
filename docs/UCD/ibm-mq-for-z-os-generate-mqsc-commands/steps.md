@@ -1,9 +1,7 @@
 
-# IBM MQ for z/OS - Generate MQSC Commands - Process Steps
+# Process Steps
 
-## Steps
-
-### Generate MQSC Commands
+## Generate MQSC Commands
 
 Generate MQSC commands from the base, overrides and properties files.
 

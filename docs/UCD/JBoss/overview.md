@@ -1,5 +1,5 @@
 
-# JBoss Application Server - Overview
+# Overview
 
 
 The JBoss Application Server plug-in includes steps that manage JBoss Application Server, including application-related tasks and configuration tasks.

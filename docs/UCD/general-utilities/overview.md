@@ -1,5 +1,5 @@
 
-# IBM DevOps Deploy General Utilites - Overview
+# Overview
 
 
 The General Utilities plugin automates a number of general utilities as a process step. This plug-in is installed as part of IBM DevOps Deploy.

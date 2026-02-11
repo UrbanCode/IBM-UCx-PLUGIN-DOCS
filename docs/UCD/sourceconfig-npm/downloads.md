@@ -1,5 +1,5 @@
 
-# NPM - Downloads
+# Downloads
 
 To download the plug-in, click the folowing version-specific links.
 

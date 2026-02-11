@@ -1,9 +1,5 @@
 
-# Apache Ant - Process steps
-
-
-* [Ant](#ant)
-
+# Process Steps
 
 ## Ant
 

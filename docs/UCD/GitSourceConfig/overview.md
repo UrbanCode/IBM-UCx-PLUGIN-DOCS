@@ -1,5 +1,5 @@
 
-# Git - Overview
+# Overview
 
 The Git plug-in automates importing artifacts from a Git repository.
 
