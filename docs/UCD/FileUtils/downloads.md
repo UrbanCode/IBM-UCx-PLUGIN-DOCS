@@ -2,6 +2,7 @@
 # Downloads
 
 To download the plug-in, click the following version-specific links.
+- [devops-deploy-FileUtils-102.1185502.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileUtils/devops-deploy-FileUtils-102.1185502.zip)
 - [ucd-FileUtils-100.1176430.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileUtils/ucd-FileUtils-100.1176430.zip)
 - [ucd-FileUtils-100.1175039.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileUtils/ucd-FileUtils-100.1175039.zip)
 - [ucd-FileUtils-99.1171705.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileUtils/ucd-FileUtils-99.1171705.zip)
