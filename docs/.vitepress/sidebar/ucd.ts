@@ -1926,7 +1926,8 @@ export const ucd: DefaultTheme.Sidebar = {
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/cyberark/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/cyberark/overview` },
                 { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/cyberark/usage` },
-                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/cyberark/steps` }
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/cyberark/steps` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/cyberark/downloads` }
             ]
         }
     ],
