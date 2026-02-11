@@ -24,6 +24,10 @@ This plug-in is installed when installing IBM DevOps Deploy. When new plug-in ve
 
 ## History
 
+### Version 14
+
+Update Apache log4j to 2.25.3 for non-exploitable CVE-2025-68161
+
 ### Version 13
 
 Updating Jettison library to 1.5.4 for CVE-2023-1436
