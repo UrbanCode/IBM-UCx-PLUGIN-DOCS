@@ -2,6 +2,7 @@
 # Downloads
 
 To download the plug-in, click the following version-specific links.
+- [Devops-Deploy-WLDeploy-27.1186187.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WLDeploy/devops-deploy-WLDeploy-27.1186187.zip)
 - [Devops-Deploy-WLDeploy-27.1185983.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WLDeploy/devops-deploy-WLDeploy-27.1185983.zip)
 - [ucd-WLDeploy-26.1175365.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WLDeploy/ucd-WLDeploy-26.1175365.zip)
 - [WLDeploy-25.1103454.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WLDeploy/WLDeploy-25.1103454.zip)
