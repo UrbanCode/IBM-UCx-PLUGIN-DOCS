@@ -26,6 +26,10 @@ The [Jenkins Pipeline Plug-in Tutorial](https://community.ibm.com/community/user
 
 ## History
 
+### Version 2.30
+
+* Fixed - Snapshot creation with component version optional.
+
 ### Version 2.29
 
 * RFE-URBANCODE-I-682 Added ability to create snapshot using component version.
