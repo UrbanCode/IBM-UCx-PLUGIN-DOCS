@@ -53,7 +53,7 @@ The following tables describe the properties used to configure the integration. 
 | Integration Name | An assigned name to the value stream. | Yes | name |
 | Logging Level | The level of Log4j messages to display in the log file. Valid values are: all, debug, info, warn, error, fatal, off, and trace. | No | loggingLevel |
 | NA | List of configuration properties used to connect and communicate with the Rally server. Enclose the  properties within braces. | Yes | properties |
-|  | The name of the tenant. | Yes | tenant_id |
+| Tenant_Id | The name of the tenant. | Yes | tenant_id |
 | NA | Unique identifier assigned to the plug-in. The value for the Rally plug-in is `ucv-ext-rally` | Yes | type |
 
 ### Rally Configuration Properties
@@ -69,7 +69,7 @@ The following tables describe the properties used to configure the integration. 
 | Workspace | String | The name of the Rally workspace to use on request. This property is required if you are not using a default workspace. | No | workspace |
 | Proxy Server | String | The URL of the proxy server including the port number. | No | proxyServer |
 | Proxy User Name | String | The user name used to authenticate with the proxy server. | No | proxyUsername |
-| Proxy Password | String | The password used to authenticate with the proxy server. | No | proxyPassword |
+| Proxy Password | Secure | The password used to authenticate with the proxy server. | No | proxyPassword |
 
 ## Example
 
