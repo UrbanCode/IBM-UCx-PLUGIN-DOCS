@@ -96,8 +96,8 @@ Call Center Product"],
 "proxyServer": "http://123.456.1.4:1128",
 "proxyUsername":"admin",
 "proxyPassword":"12345"
-}``
-}``
+}
+}
 
 ```
 

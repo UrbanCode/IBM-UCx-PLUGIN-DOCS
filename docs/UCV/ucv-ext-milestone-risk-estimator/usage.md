@@ -66,7 +66,7 @@ Some properties might not be displayed in the user interface, to see all propert
 | Integration Name | An assigned name to the value stream. | Yes | name |
 | Logging Level | The level of Log4j messages to display in the log file. Valid values are: all, debug, info, warn, error, fatal, off, and trace. | No | loggingLevel |
 | NA | List of plug-in configuration properties used to connect and communicate with the milestone risk estimator. Enclose the properties within braces. | Yes | properties |
-|  | The name of the tenant. | Yes | tenant_id |
+| Tenant_Id | The name of the tenant. | Yes | tenant_id |
 | NA | Unique identifier assigned to the plug-in.The value for the Milestone risk estimator plug-in is ucv-ext-milestone-risk-estimator. | Yes | type |
 | DevOps Velocity User Access Key | An auto-generated user access key provides credentials for communicating with the IBM DevOps Velocity server. | Yes | NA |
 
