@@ -16,9 +16,20 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ## Release Note
 
+### Version 90
+Run Application Process should detect if the process is canceled and set detailsLink.
+
+### Version 89
+
+DVOPS-I-769: Added Request Description field to the Run Application Process step.
+
+### Version 88
+
+Remove Apache Commons-Lang 2.x
+
 ### Version 87
 
- Updating Jettison library to 1.5.4.
+Updating Jettison library to 1.5.4.
 
 ### Version 77
 

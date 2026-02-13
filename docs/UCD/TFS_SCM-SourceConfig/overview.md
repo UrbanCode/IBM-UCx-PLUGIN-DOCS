@@ -24,6 +24,10 @@ No special steps are required for installing the plug-in. See [Installing plug-i
 
 ## History
 
+## Version 20
+
+* Update Apache log4j to 2.25.3 for non-exploitable CVE-2025-68161
+
 ## Version 19
 
 * Updating commons-io library to 2.17.0 for CVE-2024-47554

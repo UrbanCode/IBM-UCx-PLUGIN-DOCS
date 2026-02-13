@@ -2,7 +2,9 @@
 # Downloads
 
 To download the plug-in, click the following version-specific links:
-
+- [devops-deploy-Shell-24.1185301.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Shell/devops-deploy-Shell-24.1185301.zip)
+- [devops-deploy-Shell-23.1182800.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Shell/devops-deploy-Shell-23.1182800.zip)
+- [devops-deploy-Shell-22.1179521.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Shell/devops-deploy-Shell-22.1179521.zip)
 - [ucd-Shell-21.1167618.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Shell/ucd-Shell-21.1167618.zip)
 - [ucd-Shell-20.1160845.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Shell/ucd-Shell-20.1160845.zip)
 - [ucd-Shell-19.1158728.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Shell/ucd-Shell-19.1158728.zip)

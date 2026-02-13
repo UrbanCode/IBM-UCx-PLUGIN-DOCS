@@ -2,6 +2,9 @@
 # Downloads
 
 To download the plug-in, click the following version-specific links.
+- [devops-deploy-uDeploy-Application-90.1183820.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Application/devops-deploy-uDeploy-Application-90.1183820.zip)
+- [devops-deploy-uDeploy-Application-89.1181334.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Application/devops-deploy-uDeploy-Application-89.1181334.zip)
+- [devops-deploy-uDeploy-Application-88.1179518.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Application/devops-deploy-uDeploy-Application-88.1179518.zip)
 - [ucd-uDeploy-Application-87.1155713.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Application/ucd-uDeploy-Application-87.1155713.zip)
 - [ucd-uDeploy-Application-86.1150656.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Application/ucd-uDeploy-Application-86.1150656.zip)
 - [ucd-uDeploy-Application-85.1142530.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Application/ucd-uDeploy-Application-85.1142530.zip)

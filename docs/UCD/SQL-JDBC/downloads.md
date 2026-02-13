@@ -2,6 +2,7 @@
 # Downloads
 
 To download the plug-in, click the following version-specific links.
+- [devops-deploy-SQL-JDBC-14.1180493.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SQLJDBC/devops-deploy-SQL-JDBC-14.1180493.zip)
 - [ucd-SQL-JDBC-13.1154072.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SQLJDBC/ucd-SQL-JDBC-13.1154072.zip)
 - [SQL-JDBC-12.1100867.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SQL-JDBC/SQL-JDBC-12.1100867.zip)
 - [SQL-JDBC-12.1056537.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SQL-JDBC/SQL-JDBC-12.1056537.zip)
