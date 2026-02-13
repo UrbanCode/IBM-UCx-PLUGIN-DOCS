@@ -16,6 +16,10 @@ This plug-in requires version 6.0.1 or later of IBM DevOps Deploy.
 No special steps are required for installation. See [Installing plug-ins in DevOps products](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps products").
 
 ## History
+
+### Version 35
+Update Apache log4j to 2.25.3 for non-exploitable CVE-2025-68161
+
 ### Version 33
 
 * Updating Jettison library to 1.5.4 for CVE-2023-1436
