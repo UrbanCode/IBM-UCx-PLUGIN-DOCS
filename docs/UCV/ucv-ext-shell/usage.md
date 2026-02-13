@@ -48,7 +48,7 @@ The following tables describe the properties used to configure the integration. 
 | Integration Name | An assigned name to the value stream. | Yes | name |
 | Logging Level | The level of Log4j messages to display in the log file. Valid values are: all, debug, info, warn, error, fatal, off, and trace. | No | loggingLevel |
 | NA | List of configuration properties used to connect and communicate with the GitHub server. Enclose the properties within braces. | Yes | properties |
-|  | The name of the tenant. | Yes | tenant_id |
+| Teant_Id | The name of the tenant. | Yes | tenant_id |
 | NA | Unique identifier assigned to the plug-in. The value for the GitHub plug-in is `ucv-ext-shell` | Yes | type |
 
 ### Shell Configuration Properties table

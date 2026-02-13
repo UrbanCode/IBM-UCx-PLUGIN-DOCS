@@ -30,7 +30,7 @@ The endpoint URL needed for the webhook is described below.
 Each external data source should have its own integration, with multiple integrations per plugin type. SonarQube integrations are created from the SonarQube plugin type and can be added three different ways:
 
 1. The user interface provided on the settings/integration page (as of Velocity 1.2.6)
-2. POST request to https://:/reporting-consumer/integration
+2. POST request to https://reporting-consumer/integration
 3. Uploading a Value Stream Map JSON file
 
 The parameters for adding a SonarQube integration are summarized in the table below. The usual preference is to create an integration through the UI; however, sometimes it is necessary to use the API. An example POST request is provided below as part of a curl command to add an integration. It is important to pay attention to the response, since it will contain the integration ID to construct the endpoint URL. The endpoint URL is needed for the second step of creating a webhook in SonarQube.
@@ -63,8 +63,8 @@ https://<*velocityHostname:port*>/reporting-consumer/integration \
 "authToken": "<*sonarqubeAuthToken*>",
 "velocityAccessKey":
 "<*VelocityAccessKey*>"
-}``
-}``'
+}
+}'
 
 ```
 
