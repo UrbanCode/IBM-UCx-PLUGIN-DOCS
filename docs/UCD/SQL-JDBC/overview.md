@@ -18,6 +18,10 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ## History
 
+### Version 14
+
+Add ability to run sql text in addition to sql files.
+
 ### Version 13
 
 Log4j and Jettison dependency updated.

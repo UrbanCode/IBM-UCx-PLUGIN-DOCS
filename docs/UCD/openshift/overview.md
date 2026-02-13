@@ -18,6 +18,14 @@ No special steps are required for installation. See [Installing plug-ins in IBM 
 
 ## History
 
+### Version 27
+
+* Update Apache log4j to 2.25.3 for non-exploitable CVE-2025-68161
+
+### Version 26
+
+* Update commons-lang to 3.18 resolves finding for non-exploitable CVE-2025-48924
+
 ### Version 25
 
 * Updating Jettison library to 1.5.4 for CVE-2023-1436
