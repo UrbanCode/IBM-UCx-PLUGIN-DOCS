@@ -25,6 +25,7 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 ### Version 15
 
 * Added mechanism to cache From Version for a linked version for retry scenario
+* Fixed issue with downloading artifacts from artifactory resulting in 406 error
 
 ### Version 14
 
