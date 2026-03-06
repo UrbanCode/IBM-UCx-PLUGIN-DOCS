@@ -26,10 +26,7 @@ Install or upgrade IBM Installation Manager.
 | Directory where the Installation Kit was unzipped | String | Specify the directory that contains the extracted installation kit. | Yes |
 | Installation Directory | String | Specify the path where IBM Installation Manager will be installed. | No |
 | Installation Log | String | Specify the name of the installation log file. | No |
-| Mode | Enumeration:
-* administrator
-* nonadministrator
-| Administrator/root or nonadministrator are supported. Group is not supported. | Yes |
+| Mode | Enumeration: administrator, nonadministrator | Administrator/root or nonadministrator are supported. Group is not supported. | Yes |
 
 ## Uninstall IBM Installation Manager
 
@@ -39,9 +36,6 @@ Uninstall IBM Installation Manager
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Data Location | String | The path to the Installation Manager application data. | Yes |
-| Mode | Enumeration:
-* administrator
-* nonadministrator
-| Administrator/root or nonadministrator are supported. Group is not supported. | Yes |
+| Mode | Enumeration: administrator, nonadministrator | Administrator/root or nonadministrator are supported. Group is not supported. | Yes |
 
 
