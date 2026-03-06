@@ -55,11 +55,7 @@ Create or modify an address data group. A data group is also known as a class.
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Address Data Group Name | String | The name of the address data group to create. | Yes |
 | IP Address List | String | The IP addresses of the address data group members. Separate multiple IP addresses with commas or newline characters. | Yes |
-| If Data Group already exists | Enumeration:
-* WARN\_ONLY
-* OVERWRITE
-* FAIL
-| Select the action to take if a data group with the same name already exists. | No |
+| If Data Group already exists | Enumeration: WARN\_ONLY, OVERWRITE, FAIL | Select the action to take if a data group with the same name already exists. | No |
 | Netmask List | String | The netmasks of the address data group members. Separate multiple netmasks with commas or newline characters. Specify 255.255.255.255 as the default if netmask is unknown. | Yes |
 | Partition | String | The partition where the iRules reside. Typically, accept the default value of Common unless you manage multiple partitions. | Yes |
 | Password | Password | The password for the F5 appliance. | Yes |
@@ -76,21 +72,10 @@ Create an external data group from a file in the data group file list. A data gr
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | External Data Group Name | String | The name of the external data group to create. | Yes |
-| File Format Type | Enumeration:
-* DEFAULT
-* FILE\_FORMAT\_UNKNOWN
-* FILE\_FORMAT\_CSV
-| Select the file format for the data group. | No |
-| File Mode | Enumeration:
-* DEFAULT
-* FILE\_MODE\_TYPE\_READ
-* FILE\_MODE\_TYPE\_READ\_WRITE
-| Select the file mode for the data group. | No |
+| File Format Type | Enumeration: DEFAULT, FILE\_FORMAT\_UNKNOWN, FILE\_FORMAT\_CSV | Select the file format for the data group. | No |
+| File Mode | Enumeration: DEFAULT, FILE\_MODE\_TYPE\_READ, FILE\_MODE\_TYPE\_READ\_WRITE | Select the file mode for the data group. | No |
 | File Name | String | The data group file object for the specified data group. This file must exist in the data group file list in F5. | Yes |
-| If Data Group already exists | Enumeration:
-* WARN\_ONLY
-* FAIL
-| Select the action to take if a data group with the same name already exists. | No |
+| If Data Group already exists | Enumeration: WARN\_ONLY, FAIL | Select the action to take if a data group with the same name already exists. | No |
 | Partition | String | The partition where the iRules reside. Typically, accept the default value of Common unless you manage multiple partitions. | Yes |
 | Password | Password | The password for the F5 appliance. | Yes |
 | Server URL | String | The URL of the F5 appliance. This can be the IP address or domain name of the appliance, including the protocol and port number. For example: https://f5.example.com:8443 or http://192.0.2.1:8443. | Yes |
@@ -121,41 +106,14 @@ Create a pool.
 
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
-| Action On Service Down | Enumeration:
-* SERVICE\_DOWN\_ACTION\_NONE
-* SERVICE\_DOWN\_ACTION\_RESET
-* SERVICE\_DOWN\_ACTION\_DROP
-* SERVICE\_DOWN\_ACTION\_RESELECT
-| Select the action to take when a pool member is unavailable. | Yes |
-| Allow NAT | Enumeration:
-* STATE\_ENABLED
-* STATE\_DISABLED
-| Select to allow network address translation (NAT). | Yes |
-| Allow SNAT | Enumeration:
-* STATE\_ENABLED
-* STATE\_DISABLED
-| Select to allow secure network address translation (SNAT). | Yes |
+| Action On Service Down | Enumeration: SERVICE\_DOWN\_ACTION\_NONE, SERVICE\_DOWN\_ACTION\_RESET, SERVICE\_DOWN\_ACTION\_DROP, SERVICE\_DOWN\_ACTION\_RESELECT | Select the action to take when a pool member is unavailable. | Yes |
+| Allow NAT | Enumeration: STATE\_ENABLED, STATE\_DISABLED | Select to allow network address translation (NAT). | Yes |
+| Allow SNAT | Enumeration: STATE\_ENABLED, STATE\_DISABLED | Select to allow secure network address translation (SNAT). | Yes |
 | IP ToS to Client | String | Specify the outbound Type of Service (ToS) level for the pool. Leave blank to use the default value. | No |
 | IP ToS to Server | String | Specify the inbound Type of Service (ToS) level for the pool. Leave blank to use the default value. | No |
 | Link QoS to Client | String | Specify the outbound Level of Service (LoS) level for the pool. Leave blank to use the default value. | No |
 | Link QoS to Server | String | Specify the inbound Level of Service (LoS) level for the pool. Leave blank to use the default value. | No |
-| Load Balancing Method | Enumeration:
-* LB\_METHOD\_ROUND\_ROBIN
-* LB\_METHOD\_RATIO\_MEMBER
-* LB\_METHOD\_LEAST\_CONNECTION\_MEMBER
-* LB\_METHOD\_OBSERVED\_MEMBER
-* LB\_METHOD\_PREDICTIVE\_MEMBER
-* LB\_METHOD\_RATIO\_NODE\_ADDRESS
-* LB\_METHOD\_LEAST\_CONNECTION\_NODE\_ADDRESS
-* LB\_METHOD\_FASTEST\_NODE\_ADDRESS
-* LB\_METHOD\_OBSERVED\_NODE\_ADDRESS
-* LB\_METHOD\_PREDICTIVE\_NODE\_ADDRESS
-* LB\_METHOD\_DYNAMIC\_RATIO
-* LB\_METHOD\_FASTEST\_APP\_RESPONSE
-* LB\_METHOD\_LEAST\_SESSIONS
-* LB\_METHOD\_DYNAMIC\_RATIO\_MEMBER
-* LB\_METHOD\_L3\_ADDR
-| Select the load-balancing method for the pool from the list. | Yes |
+| Load Balancing Method | Enumeration: LB\_METHOD\_ROUND\_ROBIN, LB\_METHOD\_RATIO\_MEMBER, LB\_METHOD\_LEAST\_CONNECTION\_MEMBER, LB\_METHOD\_OBSERVED\_MEMBER, LB\_METHOD\_PREDICTIVE\_MEMBER, LB\_METHOD\_RATIO\_NODE\_ADDRESS, LB\_METHOD\_LEAST\_CONNECTION\_NODE\_ADDRESS, LB\_METHOD\_FASTEST\_NODE\_ADDRESS, LB\_METHOD\_OBSERVED\_NODE\_ADDRESS, LB\_METHOD\_PREDICTIVE\_NODE\_ADDRESS, LB\_METHOD\_DYNAMIC\_RATIO, LB\_METHOD\_FASTEST\_APP\_RESPONSE, LB\_METHOD\_LEAST\_SESSIONS, LB\_METHOD\_DYNAMIC\_RATIO\_MEMBER, LB\_METHOD\_L3\_ADDR | Select the load-balancing method for the pool from the list. | Yes |
 | Monitors | String | A list of monitors to assign to the pool, separated by commas or newline characters. | No |
 | Partition | String | The partition to create the pool on. Typically, accept the default value of Common unless you manage multiple partitions. | Yes |
 | Password | Password | The password for the F5 appliance. | Yes |
@@ -172,11 +130,7 @@ Create or modify a string data group. A data group is also known as a class.
 
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
-| If Data Group already exists | Enumeration:
-* WARN\_ONLY
-* OVERWRITE
-* FAIL
-| Select the action to take if a data group with the same name already exists. | No |
+| If Data Group already exists | Enumeration: WARN\_ONLY, OVERWRITE, FAIL | Select the action to take if a data group with the same name already exists. | No |
 | Partition | String | The partition where the iRules reside. Typically, accept the default value of Common unless you manage multiple partitions. | Yes |
 | Password | Password | The password for the F5 appliance. | Yes |
 | Server URL | String | The URL of the F5 appliance. This can be the IP address or domain name of the appliance, including the protocol and port number. For example: https://f5.example.com:8443 or http://192.0.2.1:8443. | Yes |
@@ -193,11 +147,7 @@ Create or modify a value data group. A data group is also known as a class. A va
 
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
-| If Data Group already exists | Enumeration:
-* WARN\_ONLY
-* OVERWRITE
-* FAIL
-| Select the action to take if a data group with the same name already exists. | No |
+| If Data Group already exists | Enumeration: WARN\_ONLY, OVERWRITE, FAIL | Select the action to take if a data group with the same name already exists. | No |
 | Partition | String | The partition where the iRules reside. Typically, accept the default value of Common unless you manage multiple partitions. | Yes |
 | Password | Password | The password for the F5 appliance. | Yes |
 | Server URL | String | The URL of the F5 appliance. This can be the IP address or domain name of the appliance, including the protocol and port number. For example: https://f5.example.com:8443 or http://192.0.2.1:8443. | Yes |
@@ -213,10 +163,7 @@ Create the specified iRule
 
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
-| If iRule exists | Enumeration:
-* WARN\_ONLY
-* FAIL\_FAST
-| Select the action to take if an iRule with the same name already exists. | No |
+| If iRule exists | Enumeration: WARN\_ONLY, FAIL\_FAST | Select the action to take if an iRule with the same name already exists. | No |
 | Partition | String | The partition where the iRule resides. Typically, accept the default value of Common unless you manage multiple partitions. | Yes |
 | Password | Password | The password for the F5 appliance. | Yes |
 | Server URL | String | The URL of the F5 appliance. This can be the IP address or domain name of the appliance, including the protocol and port number. For example: https://f5.example.com:8443 or http://192.0.2.1:8443. | Yes |
@@ -233,10 +180,7 @@ Delete a data group. A data group is also known as a class.
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Data Group Name | String | The name of the data group to delete. | Yes |
-| If Class does not exist | Enumeration:
-* WARN\_ONLY
-* FAIL
-| Select the action to take if a class with the specified name does not exist. | No |
+| If Class does not exist | Enumeration: WARN\_ONLY, FAIL | Select the action to take if a class with the specified name does not exist. | No |
 | Partition | String | The partition where the iRules reside. Typically, accept the default value of Common unless you manage multiple partitions. | Yes |
 | Password | Password | The password for the F5 appliance. | Yes |
 | Server URL | String | The URL of the F5 appliance. This can be the IP address or domain name of the appliance, including the protocol and port number. For example: https://f5.example.com:8443 or http://192.0.2.1:8443. | Yes |
@@ -278,10 +222,7 @@ Delete an iRule
 
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
-| If iRule exists | Enumeration:
-* WARN\_ONLY
-* FAIL\_FAST
-| Select the action to take if an iRule with the specified name does not exist. | No |
+| If iRule exists | Enumeration: WARN\_ONLY, FAIL\_FAST | Select the action to take if an iRule with the specified name does not exist. | No |
 | Partition | String | The partition where the iRule resides. Typically, accept the default value of Common unless you manage multiple partitions. | Yes |
 | Password | Password | The password for the F5 appliance. | Yes |
 | Server URL | String | The URL of the F5 appliance. This can be the IP address or domain name of the appliance, including the protocol and port number. For example: https://f5.example.com:8443 or http://192.0.2.1:8443. | Yes |
@@ -363,10 +304,7 @@ Retrieve statistics for an iRule.
 
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
-| If iRule does not exist | Enumeration:
-* WARN\_ONLY
-* FAIL
-| Select the action to take if an iRule with the specified name does not exist. | No |
+| If iRule does not exist | Enumeration: WARN\_ONLY, FAIL | Select the action to take if an iRule with the specified name does not exist. | No |
 | Partition | String | The partition where the iRules reside. Typically, accept the default value of Common unless you manage multiple partitions. | Yes |
 | Password | Password | The password for the F5 appliance. | Yes |
 | Server URL | String | The URL of the F5 appliance. This can be the IP address or domain name of the appliance, including the protocol and port number. For example: https://f5.example.com:8443 or http://192.0.2.1:8443. | Yes |
@@ -383,16 +321,8 @@ Modify the file format and mode of an external data group. A data group is also 
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | External Data Group Name | String | The name of the external data group to modify. | Yes |
-| File Format Type | Enumeration:
-* DEFAULT
-* FILE\_FORMAT\_UNKNOWN
-* FILE\_FORMAT\_CSV
-| Select the file format for the data group. | No |
-| File Mode | Enumeration:
-* DEFAULT
-* FILE\_MODE\_TYPE\_READ
-* FILE\_MODE\_TYPE\_READ\_WRITE
-| Select the file mode for the data group. | No |
+| File Format Type | Enumeration: DEFAULT, FILE\_FORMAT\_UNKNOWN, FILE\_FORMAT\_CSV | Select the file format for the data group. | No |
+| File Mode | Enumeration: DEFAULT, FILE\_MODE\_TYPE\_READ, FILE\_MODE\_TYPE\_READ\_WRITE | Select the file mode for the data group. | No |
 | Partition | String | The partition where the iRules reside. Typically, accept the default value of Common unless you manage multiple partitions. | Yes |
 | Password | Password | The password for the F5 appliance. | Yes |
 | Server URL | String | The URL of the F5 appliance. This can be the IP address or domain name of the appliance, including the protocol and port number. For example: https://f5.example.com:8443 or http://192.0.2.1:8443. | Yes |

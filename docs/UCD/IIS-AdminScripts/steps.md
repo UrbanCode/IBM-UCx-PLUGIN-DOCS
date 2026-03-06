@@ -21,10 +21,7 @@ Set the .net version for a website
 
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
-| Version | Enumeration:
-* v2.0.50727
-* v1.1.4322
-| The version of .Net to set the website to. For this to work the .Net framework for this version must be installed and contain the aspnet\_regiis executable in the %windir%\microsoft.net\framework\``${version}`` directory. | Yes |
+| Version | Enumeration: v2.0.50727, v1.1.4322 | The version of .Net to set the website to. For this to work the .Net framework for this version must be installed and contain the aspnet\_regiis executable in the %windir%\microsoft.net\framework\\`${version}` directory. | Yes |
 | Website | String | The website name. | No |
 
 ## Update VDirProperties

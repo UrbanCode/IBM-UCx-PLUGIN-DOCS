@@ -289,10 +289,7 @@ Start JBoss in either Standalone or Domain mode.
 | Port Number | String | The port number of the server to be started. | Yes |
 | Server Configuration | String | Provide a file name to start the server with a specfic configuration | No |
 | Server Start Wait Timeout | String | The amount of time (in milliseconds) to wait for the server to start before declaring timeout. | Yes |
-| Startup Mode | Enumeration:
-* standalone
-* domain
-| Choose whether to start in Standalone or Domain mode. | Yes |
+| Startup Mode | Enumeration: standalone, domain | Choose whether to start in Standalone or Domain mode. | Yes |
 
 ## Stop JBoss
 
@@ -304,10 +301,7 @@ Stop JBoss in either standalone or domain mode.
 | Domain Mode Host Name | String | The name of your host. Only required when your server is in Domain mode. | No |
 | JBoss Startup Path | String | The path to the JBoss startup executable. | Yes |
 | Password | Password | The password to authenticate with. Default value is ``${p?:resource/JBoss.password}``. | No |
-| Server Mode | Enumeration:
-* standalone
-* domain
-| Choose whether your server is in Standalone or Domain mode. | Yes |
+| Server Mode | Enumeration: standalone, domain | Choose whether your server is in Standalone or Domain mode. | Yes |
 | Username | String | The username to authenticate with. | No |
 | Management Hostname | String | The JBoss management hostname for connecting to a standalone server. | No |
 | Management Port | String | The JBoss management port for connecting to a standalone server. | No |

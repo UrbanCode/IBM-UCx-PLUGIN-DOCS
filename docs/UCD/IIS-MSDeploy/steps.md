@@ -11,16 +11,7 @@ Delete an IIS object.
 | Command Path | String | The directory location of the msdeploy.exe command-line executable: e.g., C:\Program Files\IIS\Microsoft Web Deploy V2\ | No |
 | Options String | String | A newline separated list of options to be concatenated onto the delete command. i.e. -setParam:hello,value=hey\n-setParam:goodbye,value=seeya. | No |
 | Provider Destination | String | The Provider path and setting for the destination in the form path,setting1,setting2 | Yes |
-| Provider Type | Enumeration:
-* iisApp
-* archiveDir
-* contentPath
-* dirPath
-* filePath
-* manifest
-* package
-* appHostConfig
-| The provider type for the destination argument of the delete. | Yes |
+| Provider Type | Enumeration: iisApp, archiveDir, contentPath, dirPath, filePath, manifest, package, appHostConfig | The provider type for the destination argument of the delete. | Yes |
 
 ## Recycle Application
 
@@ -60,36 +51,11 @@ Synchronize two IIS objects.
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Command Path | String | The directory location of the msdeploy.exe command-line executable: e.g., C:\Program Files\IIS\Microsoft Web Deploy V2\ | No |
-| Destination Provider Type | Enumeration:
-* auto
-* iisApp
-* archiveDir
-* contentPath
-* dirPath
-* filePath
-* manifest
-* metaKey
-* package
-* webServer
-* webServer60
-* appHostConfig
-| The provider type for the destination argument of the synchronize. | Yes |
+| Destination Provider Type | Enumeration: auto, iisApp, archiveDir, contentPath, dirPath, filePath, manifest, metaKey, package, webServer, webServer60, appHostConfig | The provider type for the destination argument of the synchronize. | Yes |
 | Options String | String | A newline separated list of options to be concatenated onto the synchronize command. i.e. -setParam:hello,value=hey\n-setParam:goodbye,value=seeya. | No |
 | Provider Destination | String | The Provider path and setting for the destination in the form path,setting1,setting2 | No |
 | Provider Source | String | The Provider path and setting for the source in the form path,setting1,setting2 | Yes |
-| Source Provider Type | Enumeration:
-* iisApp
-* archiveDir
-* contentPath
-* dirPath
-* filePath
-* manifest
-* metaKey
-* package
-* webServer
-* webServer60
-* appHostConfig
-| The provider type for the source argument of the synchronize. | Yes |
+| Source Provider Type | Enumeration: iisApp, archiveDir, contentPath, dirPath, filePath, manifest, metaKey, package, webServer, webServer60, appHostConfig | The provider type for the source argument of the synchronize. | Yes |
 
 ## msdeploy
 
