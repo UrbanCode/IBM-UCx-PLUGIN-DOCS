@@ -30,5 +30,5 @@ Run test using DevOps Test Performance
 | Resource Monitoring Labels Override | textBox | Use this field to enter one or more Resource Monitoring labels by using a comma as a separator. When you use this field, the Resource Monitoring from Service option is enabled for the performance schedule if it was not enabled. The Resource Monitoring sources that were set in the schedule are ignored and it is changed to the label matching mode. The new set of labels that you enter overrides the Resource Monitoring labels that were set in the schedule. | Yes |
 | User Comments | textBox | Add text within double quotation mark to display it in the User Comments row of the report. | Yes |
 | Var File | textBox | The complete path to the XML file that contains the variable name and value pairs | Yes |
-| VM Args | textBox | Java virtual machine arguments to pass in. | Yes |**
+| VM Args | textBox | Java virtual machine arguments to pass in. | Yes |
 
