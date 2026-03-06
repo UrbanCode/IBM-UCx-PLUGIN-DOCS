@@ -111,7 +111,7 @@ New functionality added to all steps:
 
 New functionality added to all steps:
 
-* The ANT\_OPTS variable is applied to all commands.
+* The ANT_OPTS variable is applied to all commands.
 * Specify the hidden Java Max Memory Size variable to increase the Ant commands JVM size.
 
 ### Version 10

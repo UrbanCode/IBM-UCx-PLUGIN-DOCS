@@ -4,7 +4,7 @@
 ## Summary
 
 
-The Microsoft TFS\_SCM (Team Foundation Server) source configuration plug-in can be used to import artifacts from a TFS projects repository. This plug-in will retrieve artifacts from Team Foundation Version Control (TFVC), not compiled code or built .zip files from a TFS build process. Visual Studio Online and all TFS versions up to 2017 to are supported by the TFS\_SCM v6 plug-in. The plug-in requires the agent to have access to the `tf` tool. More information about this tool is documented below.
+The Microsoft TFS_SCM (Team Foundation Server) source configuration plug-in can be used to import artifacts from a TFS projects repository. This plug-in will retrieve artifacts from Team Foundation Version Control (TFVC), not compiled code or built .zip files from a TFS build process. Visual Studio Online and all TFS versions up to 2017 to are supported by the TFS_SCM v6 plug-in. The plug-in requires the agent to have access to the `tf` tool. More information about this tool is documented below.
 
 Details for using the plug-in are located in the [Creating components from Microsoft Team Foundation Server SCM](https://www.ibm.com/docs/en/urbancode-deploy/7.2.3?topic=ccfscms-creating-components-from-microsoft-team-foundation-server-scm) topic. When creating the component, youll supply information described on the [Import Version](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/FileSystemSourceConfig/steps.html#import_version) step. After the component is created use the **Components** page in the user interface to import a version of the artifacts if automatic import was not selected.
 
@@ -29,7 +29,7 @@ Visual Studio OnlineAlternative Authentication Credentials
 ## Configuration
 
 
-The TFS\_SCM plug-in contains four required properties that support the default use case of an unsecured or local TFS server with the tf tool available on the PATH environment variable. By default, the most recent changeset will be imported.
+The TFS_SCM plug-in contains four required properties that support the default use case of an unsecured or local TFS server with the tf tool available on the PATH environment variable. By default, the most recent changeset will be imported.
 
 ### Required Properties
 
@@ -55,7 +55,7 @@ If this property is empty, the plug-in will try to reach the `tf` command via th
 
 ### Manual Import Properties
 
-By default, the TFS\_SCM plug-in will import the latest changeset. If the import is initiated manually, you can import specific changesets. If a `label` value is given, the plug-in will ignore the `changeset`
+By default, the TFS_SCM plug-in will import the latest changeset. If the import is initiated manually, you can import specific changesets. If a `label` value is given, the plug-in will ignore the `changeset`
 
 
 - **Label**: The label assigned to a past changeset.
@@ -65,7 +65,7 @@ By default, the TFS\_SCM plug-in will import the latest changeset. If the import
 ## Sample Plug-in Configuration
 
 [![](media/tfs-scm-config.png)](media/tfs-scm-config.png)
-Sample TFS\_SCM Plug-in Configuration
+Sample TFS_SCM Plug-in Configuration
 
 
 ## Create a New Component
@@ -74,7 +74,7 @@ Sample TFS\_SCM Plug-in Configuration
 To create a component by importing from Microsoft Team Foundation ServerSCM, complete the following steps. For more information, see [Creating components](https://www.ibm.com/docs/en/urbancode-deploy/7.2.3?topic=components-creating "Creating components").
 
 1. On the **Components** page in IBM DevOps Deploy, click **Create New Component**.
-2. In the **Source Config Type** list, select **TFS\_SCM**.
+2. In the **Source Config Type** list, select **TFS_SCM**.
 3. Provide all of the necessary information, such as the **Collection URL** and the **Path to TF.exe or TF.cmd**.
 4. Click **Save**.
 5. Click the **Versions** tab for the component.

@@ -26,7 +26,7 @@ Add Datical DB Project - Creates a new Datical DB Project in the project directo
 
 Check Datical DB Drivers - Returns the current database drivers settings used by Datical DB.
 
-Create Datical DB Project - Creates a Datical DB Project using project\_creator.groovy.
+Create Datical DB Project - Creates a Datical DB Project using project_creator.groovy.
 
 Datical DB Install License - Deploys a Datical DB project to a Server.
 
@@ -46,7 +46,7 @@ Get Datical DB Version - Shows the Datical DB version.
 
 Read Datical DB History - Details the Datical DB deployment history of a Server.
 
-Register and Baseline Datical DB Project - Baselines a Datical DB Project using project\_baseline.groovy.
+Register and Baseline Datical DB Project - Baselines a Datical DB Project using project_baseline.groovy.
 
 Run Groovy Script - Runs a Groovy Script using Datical DB REPL.
 

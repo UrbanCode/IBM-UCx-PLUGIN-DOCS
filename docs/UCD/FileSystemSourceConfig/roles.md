@@ -12,7 +12,7 @@ The plug-in adds these roles automatically to resources. You cannot add these ro
 | Extensions of files to Convert | String | A list of file extensions to convert into another character set. Separate each file extension with a comma. Specify this property if you have text-type files that must be converted into another character set. Matching file types are converted into the default character set of the system where the agent is located. |
 | Next Version Number | String | The version number for the next version. This property is meaningful only when the Always Use Name Pattern property is enabled. |
 | Preserve Execute Permissions | Boolean | For Linux and UNIX operating systems, enable this property to retain the execute permissions for each file. |
-| Version Name Pattern | String | A pattern for each version name. You can use the ``${version}`` variable to include an automatically incremented version number. For example, the mycomp\_``${version}`` pattern produces versions such as mycomp\_1, mycomp\_2, and so on. This parameter is meaningful only if the Always Use Name Pattern property is enabled. |
+| Version Name Pattern | String | A pattern for each version name. You can use the ``${version}`` variable to include an automatically incremented version number. For example, the mycomp\_``${version}`` pattern produces versions such as mycomp_1, mycomp_2, and so on. This parameter is meaningful only if the Always Use Name Pattern property is enabled. |
 
 ## FileSystemImportProperties
 

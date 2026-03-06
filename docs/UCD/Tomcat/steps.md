@@ -47,10 +47,10 @@ Start Tomcat on the agent machine.
 
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
-| Catalina Base | String | The path name of the Tomcat instance to be used. Provide a value if you want to overwrite the CATALINA\_BASE environment variable or no value is available. | No |
-| Catalina Home | String | The path name to the Tomcat installation directory. Provide a value if you want to overwrite the CATALINA\_HOME environment variable or no value is available. | No |
+| Catalina Base | String | The path name of the Tomcat instance to be used. Provide a value if you want to overwrite the CATALINA_BASE environment variable or no value is available. | No |
+| Catalina Home | String | The path name to the Tomcat installation directory. Provide a value if you want to overwrite the CATALINA_HOME environment variable or no value is available. | No |
 | Hostname | String | The host server that the specified Tomcat instance is listening on. If the instance is not listening on localhost, provide the hostname where the host server can be reached when it is running. Use this property only if you are waiting for Tomcat to complete the boot sequence. The default value of localhost is used if no value is specified. | No |
-| Java Home | String | The location of the Java installation. Provide a value if you want to overwrite the JAVA\_HOME environment variable or no value is available. | No |
+| Java Home | String | The location of the Java installation. Provide a value if you want to overwrite the JAVA_HOME environment variable or no value is available. | No |
 | Launcher | String | The location of the Tomcat startup script, for example, `/opt/tomcat/bin/startup.sh`. | Yes |
 | Options | String | A new line separated list of additional options to pass to the startup script. | No |
 | Port | String | The port that the step uses to detect when the Tomcat instance is running. You can specify any of the connector ports that your instance is configured with. | No |
@@ -75,10 +75,10 @@ Stop Tomcat on the agent computer.
 
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
-| Catalina Base | String | Provide a value if you want to overwrite the CATALINA\_BASE environment variable or if one is not available. | No |
-| Catalina Home | String | Provide a value if you want to overwrite the CATALINA\_HOME environment variable or if one is not available. | No |
+| Catalina Base | String | Provide a value if you want to overwrite the CATALINA_BASE environment variable or if one is not available. | No |
+| Catalina Home | String | Provide a value if you want to overwrite the CATALINA_HOME environment variable or if one is not available. | No |
 | Hostname | String | If your Tomcat instance is not listening on localhost then provide the hostname where it can be reached when its running. Use this property only if you are waiting for Tomcat to complete the shutdown sequence. The default value of localhost is used if no value is specified. | No |
-| Java Home | String | Provide a value if you want to overwrite the JAVA\_HOME environment variable or if one is not available. | No |
+| Java Home | String | Provide a value if you want to overwrite the JAVA_HOME environment variable or if one is not available. | No |
 | Launcher | String | The location of the shutdown executable file, for example, `/opt/tomcat/bin/shutdown.sh`. | Yes |
 | Options | String | A new line separated list of command line options to pass to the launcher. | No |
 | Port | String | Enter a port for the step to use to detect when the Tomcat instance is stopped. You can specify any of the connector ports that your instance is configured with. | No |

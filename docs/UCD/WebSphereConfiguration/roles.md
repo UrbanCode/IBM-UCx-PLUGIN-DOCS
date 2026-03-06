@@ -1272,7 +1272,7 @@ Role for resources that represents a WebSphere ApplicationDeployment
 | Allow Dispatch Remote Include | Boolean | The Allow Dispatch Remote Include for this WebSphere ApplicationDeployment |
 | Allow Service Remote Include | Boolean | The Allow Service Remote Include for this WebSphere ApplicationDeployment |
 | App Context I D For Security | String | The App Context I D For Security for this WebSphere ApplicationDeployment |
-| Async Request Dispatch Type | String | The Async Request Dispatch Type for this WebSphere ApplicationDeployment. Acceptable values are: CLIENT\_SIDE, DISABLED, SERVER\_SIDE. |
+| Async Request Dispatch Type | String | The Async Request Dispatch Type for this WebSphere ApplicationDeployment. Acceptable values are: CLIENT_SIDE, DISABLED, SERVER_SIDE. |
 | Auto Link | Boolean | The Auto Link for this WebSphere ApplicationDeployment |
 | Background Application | Boolean | The Background Application for this WebSphere ApplicationDeployment |
 | Binaries U R L | String | The Binaries U R L for this WebSphere ApplicationDeployment |
@@ -1331,7 +1331,7 @@ Role for resources that represents a WebSphere ApplicationServer
 | Name | Type | Description |
 | --- | --- | --- |
 | Application Class Loader Policy | String | The Application Class Loader Policy for this WebSphere ApplicationServer. Acceptable values are: MULTIPLE, SINGLE. |
-| Application Class Loading Mode | String | The Application Class Loading Mode for this WebSphere ApplicationServer. Acceptable values are: PARENT\_FIRST, PARENT\_LAST. |
+| Application Class Loading Mode | String | The Application Class Loading Mode for this WebSphere ApplicationServer. Acceptable values are: PARENT_FIRST, PARENT_LAST. |
 | Id | String | The Id for this WebSphere ApplicationServer |
 | Jsf Provider | String | The Jsf Provider for this WebSphere ApplicationServer |
 | Name | String | The Name for this WebSphere ApplicationServer |
@@ -1469,7 +1469,7 @@ Role for resources that represents a WebSphere AuditServiceProvider
 | Max File Size | String | The Max File Size for this WebSphere AuditServiceProvider |
 | Max Logs | String | The Max Logs for this WebSphere AuditServiceProvider |
 | Name | String | The Name for this WebSphere AuditServiceProvider |
-| Wrap Behavior | String | The Wrap Behavior for this WebSphere AuditServiceProvider. Acceptable values are: NOWRAP, SILENT\_FAIL, WRAP. |
+| Wrap Behavior | String | The Wrap Behavior for this WebSphere AuditServiceProvider. Acceptable values are: NOWRAP, SILENT_FAIL, WRAP. |
 
 ## WebSphereAuditServiceProviderRef
 
@@ -1488,7 +1488,7 @@ Role for resources that represents a WebSphere AuditSpecification
 | Name | Type | Description |
 | --- | --- | --- |
 | Enabled | Boolean | The Enabled for this WebSphere AuditSpecification |
-| Event | String | The Event for this WebSphere AuditSpecification. Acceptable values are: SECURITY\_AUTHN\_DELEGATION, SECURITY\_RESOURCE\_ACCESS, SECURITY\_MGMT\_POLICY, SECURITY\_COMPLIANCE, SECURITY\_AUTHN\_MAPPING, SECURITY\_RUNTIME\_KEY, SECURITY\_PASSWORD\_CHANGE, SECURITY\_AUTHN, SECURITY\_ENCRYPTION, SECURITY\_MGMT\_AUDIT, SECURITY\_MGMT\_REGISTRY, SECURITY\_MGMT\_PROVISIONING, SECURITY\_AUTHN\_TERMINATE, SECURITY\_MGMT\_KEY, SECURITY\_MGMT\_CONFIG, SECURITY\_RUNTIME, SECURITY\_AUTHN\_CREDS\_MODIFY, ADMIN\_REPOSITORY\_SAVE, SECURITY\_AUTHZ, SECURITY\_MGMT\_RESOURCE, SECURITY\_SIGNING. |
+| Event | String | The Event for this WebSphere AuditSpecification. Acceptable values are: SECURITY_AUTHN_DELEGATION, SECURITY_RESOURCE_ACCESS, SECURITY_MGMT_POLICY, SECURITY_COMPLIANCE, SECURITY_AUTHN_MAPPING, SECURITY_RUNTIME_KEY, SECURITY_PASSWORD_CHANGE, SECURITY_AUTHN, SECURITY_ENCRYPTION, SECURITY_MGMT_AUDIT, SECURITY_MGMT_REGISTRY, SECURITY_MGMT_PROVISIONING, SECURITY_AUTHN_TERMINATE, SECURITY_MGMT_KEY, SECURITY_MGMT_CONFIG, SECURITY_RUNTIME, SECURITY_AUTHN_CREDS_MODIFY, ADMIN_REPOSITORY_SAVE, SECURITY_AUTHZ, SECURITY_MGMT_RESOURCE, SECURITY_SIGNING. |
 | Name | String | The Name for this WebSphere AuditSpecification |
 | Outcome | String | The Outcome for this WebSphere AuditSpecification. Acceptable values are: WARNING, INFO, ERROR, SUCCESS, REDIRECT, FAILURE, DENIED. |
 
@@ -1541,8 +1541,8 @@ Role for resources that represents a WebSphere AuthModule
 | Class Name | String | The Class Name for this WebSphere AuthModule |
 | Module I D | String | The Module I D for this WebSphere AuthModule |
 | Order | String | The Order for this WebSphere AuthModule |
-| Request Policy | String | The Request Policy for this WebSphere AuthModule. Acceptable values are: AUTHENTICATE\_CONTENT, AUTHENTICATE\_SENDER, AUTHENTICATE\_RECIPIENT, NONE. |
-| Response Policy | String | The Response Policy for this WebSphere AuthModule. Acceptable values are: AUTHENTICATE\_CONTENT, AUTHENTICATE\_SENDER, AUTHENTICATE\_RECIPIENT, NONE. |
+| Request Policy | String | The Request Policy for this WebSphere AuthModule. Acceptable values are: AUTHENTICATE_CONTENT, AUTHENTICATE_SENDER, AUTHENTICATE_RECIPIENT, NONE. |
+| Response Policy | String | The Response Policy for this WebSphere AuthModule. Acceptable values are: AUTHENTICATE_CONTENT, AUTHENTICATE_SENDER, AUTHENTICATE_RECIPIENT, NONE. |
 
 ## WebSphereAuthenticationMechanism
 
@@ -1727,7 +1727,7 @@ Role for resources that represents a WebSphere CEASettings
 
 | Name | Type | Description |
 | --- | --- | --- |
-| Telephony Access Method | String | The Telephony Access Method for this WebSphere CEASettings. Acceptable values are: THIRD\_PARTY\_WEB\_SERVICE, SIP\_CTI\_GATEWAY. |
+| Telephony Access Method | String | The Telephony Access Method for this WebSphere CEASettings. Acceptable values are: THIRD_PARTY_WEB_SERVICE, SIP_CTI_GATEWAY. |
 
 ## WebSphereCMPConnectorFactory
 
@@ -1737,7 +1737,7 @@ Role for resources that represents a WebSphere CMPConnectorFactory
 | Name | Type | Description |
 | --- | --- | --- |
 | Auth Data Alias | String | The Auth Data Alias for this WebSphere CMPConnectorFactory |
-| Auth Mechanism Preference | String | The Auth Mechanism Preference for this WebSphere CMPConnectorFactory. Acceptable values are: BASIC\_PASSWORD, KERBEROS. |
+| Auth Mechanism Preference | String | The Auth Mechanism Preference for this WebSphere CMPConnectorFactory. Acceptable values are: BASIC_PASSWORD, KERBEROS. |
 | Category | String | The Category for this WebSphere CMPConnectorFactory |
 | Description | String | The Description for this WebSphere CMPConnectorFactory |
 | Diagnose Connection Usage | Boolean | The Diagnose Connection Usage for this WebSphere CMPConnectorFactory |
@@ -1799,7 +1799,7 @@ Role for resources that represents a WebSphere CacheInstance
 | Name | String | The Name for this WebSphere CacheInstance |
 | Provider Type | String | The Provider Type for this WebSphere CacheInstance |
 | Push Frequency | String | The Push Frequency for this WebSphere CacheInstance |
-| Replication Type | String | The Replication Type for this WebSphere CacheInstance. Acceptable values are: PULL, PUSH, PUSH\_PULL, NONE. |
+| Replication Type | String | The Replication Type for this WebSphere CacheInstance. Acceptable values are: PULL, PUSH, PUSH_PULL, NONE. |
 | Use Listener Context | Boolean | The Use Listener Context for this WebSphere CacheInstance |
 
 ## WebSphereCacheInstanceService
@@ -1934,7 +1934,7 @@ Role for resources that represents a WebSphere Classloader
 
 | Name | Type | Description |
 | --- | --- | --- |
-| Mode | String | The Mode for this WebSphere Classloader. Acceptable values are: PARENT\_FIRST, PARENT\_LAST. |
+| Mode | String | The Mode for this WebSphere Classloader. Acceptable values are: PARENT_FIRST, PARENT_LAST. |
 
 ## WebSphereClientModuleDeployment
 
@@ -2245,7 +2245,7 @@ Role for resources that represents a WebSphere ContentMapping
 | Name | Type | Description |
 | --- | --- | --- |
 | Extension | String | The Extension for this WebSphere ContentMapping |
-| Header | String | The Header for this WebSphere ContentMapping. Acceptable values are: CONTENT\_TYPE, CONTENT\_LANGUAGE. |
+| Header | String | The Header for this WebSphere ContentMapping. Acceptable values are: CONTENT_TYPE, CONTENT_LANGUAGE. |
 | Value | String | The Value for this WebSphere ContentMapping |
 
 ## WebSphereContributor
@@ -2300,7 +2300,7 @@ Role for resources that represents a WebSphere CoreGroup
 | Num Coordinators | String | The Num Coordinators for this WebSphere CoreGroup |
 | Protocol Version | String | The Protocol Version for this WebSphere CoreGroup |
 | Transport Memory Size | String | The Transport Memory Size for this WebSphere CoreGroup |
-| Transport Type | String | The Transport Type for this WebSphere CoreGroup. Acceptable values are: UNICAST, MULTICAST, CHANNEL\_FRAMEWORK. |
+| Transport Type | String | The Transport Type for this WebSphere CoreGroup. Acceptable values are: UNICAST, MULTICAST, CHANNEL_FRAMEWORK. |
 
 ## WebSphereCoreGroupAccessPoint
 
@@ -2459,7 +2459,7 @@ Role for resources that represents a WebSphere CustomHealthAction
 | Name | Type | Description |
 | --- | --- | --- |
 | Action Name | String | The Action Name for this WebSphere CustomHealthAction |
-| Action Type | String | The Action Type for this WebSphere CustomHealthAction. Acceptable values are: UNSETMAINTENANCEMODE, RESTART, SETMAINTENANCEMODE\_BREAK, SETMAINTENANCEMODE\_STOP, SENDSNMPTRAP, SETMAINTENANCEMODE, CUSTOM, THREADDUMP, HEAPDUMP. |
+| Action Type | String | The Action Type for this WebSphere CustomHealthAction. Acceptable values are: UNSETMAINTENANCEMODE, RESTART, SETMAINTENANCEMODE_BREAK, SETMAINTENANCEMODE_STOP, SENDSNMPTRAP, SETMAINTENANCEMODE, CUSTOM, THREADDUMP, HEAPDUMP. |
 | Step Num | String | The Step Num for this WebSphere CustomHealthAction |
 | Target Node | String | The Target Node for this WebSphere CustomHealthAction |
 | Target Server | String | The Target Server for this WebSphere CustomHealthAction |
@@ -2716,7 +2716,7 @@ Role for resources that represents a WebSphere DataReplication
 | Name | Type | Description |
 | --- | --- | --- |
 | Encryption Key Value | String | The Encryption Key Value for this WebSphere DataReplication |
-| Encryption Type | String | The Encryption Type for this WebSphere DataReplication. Acceptable values are: DES, TRIPLE\_DES, NONE. |
+| Encryption Type | String | The Encryption Type for this WebSphere DataReplication. Acceptable values are: DES, TRIPLE_DES, NONE. |
 | Message Broker Name | String | The Message Broker Name for this WebSphere DataReplication |
 | Number Of Replicas | String | The Number Of Replicas for this WebSphere DataReplication |
 | Password | Password | The Password for this WebSphere DataReplication |
@@ -2741,7 +2741,7 @@ Role for resources that represents a WebSphere DataSource
 | Name | Type | Description |
 | --- | --- | --- |
 | Auth Data Alias | String | The Auth Data Alias for this WebSphere DataSource |
-| Auth Mechanism Preference | String | The Auth Mechanism Preference for this WebSphere DataSource. Acceptable values are: BASIC\_PASSWORD, KERBEROS. |
+| Auth Mechanism Preference | String | The Auth Mechanism Preference for this WebSphere DataSource. Acceptable values are: BASIC_PASSWORD, KERBEROS. |
 | Category | String | The Category for this WebSphere DataSource |
 | Datasource Helper Classname | String | The Datasource Helper Classname for this WebSphere DataSource |
 | Description | String | The Description for this WebSphere DataSource |
@@ -2765,7 +2765,7 @@ Role for resources that represents a WebSphere DataSourceDefinition
 | Database Name | String | The Database Name for this WebSphere DataSourceDefinition |
 | Description | String | The Description for this WebSphere DataSourceDefinition |
 | Initial Pool Size | String | The Initial Pool Size for this WebSphere DataSourceDefinition |
-| Isolation Level | String | The Isolation Level for this WebSphere DataSourceDefinition. Acceptable values are: TRANSACTION\_READ\_UNCOMMITTED, TRANSACTION\_SERIALIZABLE, TRANSACTION\_REPEATABLE\_READ, TRANSACTION\_READ\_COMMITTED. |
+| Isolation Level | String | The Isolation Level for this WebSphere DataSourceDefinition. Acceptable values are: TRANSACTION_READ_UNCOMMITTED, TRANSACTION_SERIALIZABLE, TRANSACTION_REPEATABLE_READ, TRANSACTION_READ_COMMITTED. |
 | Login Timeout | String | The Login Timeout for this WebSphere DataSourceDefinition |
 | Max Idle Time | String | The Max Idle Time for this WebSphere DataSourceDefinition |
 | Max Pool Size | String | The Max Pool Size for this WebSphere DataSourceDefinition |
@@ -3070,7 +3070,7 @@ Role for resources that represents a WebSphere DynamicCache
 | Hash Size | String | The Hash Size for this WebSphere DynamicCache |
 | Memory Cache Size In M B | String | The Memory Cache Size In M B for this WebSphere DynamicCache |
 | Push Frequency | String | The Push Frequency for this WebSphere DynamicCache |
-| Replication Type | String | The Replication Type for this WebSphere DynamicCache. Acceptable values are: PULL, PUSH, PUSH\_PULL, NONE. |
+| Replication Type | String | The Replication Type for this WebSphere DynamicCache. Acceptable values are: PULL, PUSH, PUSH_PULL, NONE. |
 
 ## WebSphereDynamicClusterServerTemplate
 
@@ -3621,7 +3621,7 @@ Role for resources that represents a WebSphere ExternalCacheGroup
 | Name | Type | Description |
 | --- | --- | --- |
 | Name | String | The Name for this WebSphere ExternalCacheGroup |
-| Type | String | The Type for this WebSphere ExternalCacheGroup. Acceptable values are: SHARED, NOT\_SHARED. |
+| Type | String | The Type for this WebSphere ExternalCacheGroup. Acceptable values are: SHARED, NOT_SHARED. |
 
 ## WebSphereExternalCacheGroupMember
 
@@ -3889,7 +3889,7 @@ Role for resources that represents a WebSphere GenericJMSConnectionFactory
 | Name | Type | Description |
 | --- | --- | --- |
 | Auth Data Alias | String | The Auth Data Alias for this WebSphere GenericJMSConnectionFactory |
-| Auth Mechanism Preference | String | The Auth Mechanism Preference for this WebSphere GenericJMSConnectionFactory. Acceptable values are: BASIC\_PASSWORD, KERBEROS. |
+| Auth Mechanism Preference | String | The Auth Mechanism Preference for this WebSphere GenericJMSConnectionFactory. Acceptable values are: BASIC_PASSWORD, KERBEROS. |
 | Category | String | The Category for this WebSphere GenericJMSConnectionFactory |
 | Description | String | The Description for this WebSphere GenericJMSConnectionFactory |
 | Diagnose Connection Usage | Boolean | The Diagnose Connection Usage for this WebSphere GenericJMSConnectionFactory |
@@ -4084,7 +4084,7 @@ Role for resources that represents a WebSphere HPELTextLog
 | File Switch Enabled | Boolean | The File Switch Enabled for this WebSphere HPELTextLog |
 | File Switch Time | String | The File Switch Time for this WebSphere HPELTextLog |
 | Out Of Space Action | String | The Out Of Space Action for this WebSphere HPELTextLog. Acceptable values are: StopLogging, PurgeOld, StopServer. |
-| Output Format | String | The Output Format for this WebSphere HPELTextLog. Acceptable values are: LOG\_ANALYZER, BASIC, ADVANCED. |
+| Output Format | String | The Output Format for this WebSphere HPELTextLog. Acceptable values are: LOG_ANALYZER, BASIC, ADVANCED. |
 | Purge By Size Enabled | Boolean | The Purge By Size Enabled for this WebSphere HPELTextLog |
 | Purge By Time Enabled | Boolean | The Purge By Time Enabled for this WebSphere HPELTextLog |
 | Purge Max Size | String | The Purge Max Size for this WebSphere HPELTextLog |
@@ -4348,7 +4348,7 @@ Role for resources that represents a WebSphere HealthAction
 
 | Name | Type | Description |
 | --- | --- | --- |
-| Action Type | String | The Action Type for this WebSphere HealthAction. Acceptable values are: UNSETMAINTENANCEMODE, RESTART, SETMAINTENANCEMODE\_BREAK, SETMAINTENANCEMODE\_STOP, SENDSNMPTRAP, SETMAINTENANCEMODE, CUSTOM, THREADDUMP, HEAPDUMP. |
+| Action Type | String | The Action Type for this WebSphere HealthAction. Acceptable values are: UNSETMAINTENANCEMODE, RESTART, SETMAINTENANCEMODE_BREAK, SETMAINTENANCEMODE_STOP, SENDSNMPTRAP, SETMAINTENANCEMODE, CUSTOM, THREADDUMP, HEAPDUMP. |
 | Step Num | String | The Step Num for this WebSphere HealthAction |
 
 ## WebSphereHealthClass
@@ -4622,7 +4622,7 @@ Role for resources that represents a WebSphere J2CConnectionFactory
 | Name | Type | Description |
 | --- | --- | --- |
 | Auth Data Alias | String | The Auth Data Alias for this WebSphere J2CConnectionFactory |
-| Auth Mechanism Preference | String | The Auth Mechanism Preference for this WebSphere J2CConnectionFactory. Acceptable values are: BASIC\_PASSWORD, KERBEROS. |
+| Auth Mechanism Preference | String | The Auth Mechanism Preference for this WebSphere J2CConnectionFactory. Acceptable values are: BASIC_PASSWORD, KERBEROS. |
 | Category | String | The Category for this WebSphere J2CConnectionFactory |
 | Description | String | The Description for this WebSphere J2CConnectionFactory |
 | Diagnose Connection Usage | Boolean | The Diagnose Connection Usage for this WebSphere J2CConnectionFactory |
@@ -4643,7 +4643,7 @@ Role for resources that represents a WebSphere J2CResourceAdapter
 | Archive Path | String | The Archive Path for this WebSphere J2CResourceAdapter |
 | Classpath | String | The Classpath for this WebSphere J2CResourceAdapter |
 | Description | String | The Description for this WebSphere J2CResourceAdapter |
-| H A Capability | String | The H A Capability for this WebSphere J2CResourceAdapter. Acceptable values are: RA\_ENDPOINT\_HA, RA\_INSTANCE\_HA, RA\_NO\_HA. |
+| H A Capability | String | The H A Capability for this WebSphere J2CResourceAdapter. Acceptable values are: RA_ENDPOINT_HA, RA_INSTANCE_HA, RA_NO_HA. |
 | Is Enable H A Support | Boolean | The Is Enable H A Support for this WebSphere J2CResourceAdapter |
 | Isolated Class Loader | Boolean | The Isolated Class Loader for this WebSphere J2CResourceAdapter |
 | Name | String | The Name for this WebSphere J2CResourceAdapter |
@@ -5006,7 +5006,7 @@ Role for resources that represents a WebSphere JavaProcessDef
 | Executable Arguments | String | The Executable Arguments for this WebSphere JavaProcessDef |
 | Executable Name | String | The Executable Name for this WebSphere JavaProcessDef |
 | Executable Target | String | The Executable Target for this WebSphere JavaProcessDef |
-| Executable Target Kind | String | The Executable Target Kind for this WebSphere JavaProcessDef. Acceptable values are: EXECUTABLE\_JAR, JAVA\_CLASS. |
+| Executable Target Kind | String | The Executable Target Kind for this WebSphere JavaProcessDef. Acceptable values are: EXECUTABLE_JAR, JAVA_CLASS. |
 | Process Type | String | The Process Type for this WebSphere JavaProcessDef |
 | Start Command | String | The Start Command for this WebSphere JavaProcessDef |
 | Start Command Args | String | The Start Command Args for this WebSphere JavaProcessDef |
@@ -5330,7 +5330,7 @@ Role for resources that represents a WebSphere LDAPSearchFilter
 | Name | Type | Description |
 | --- | --- | --- |
 | Certificate Filter | String | The Certificate Filter for this WebSphere LDAPSearchFilter |
-| Certificate Map Mode | String | The Certificate Map Mode for this WebSphere LDAPSearchFilter. Acceptable values are: CERTIFICATE\_FILTER, EXACT\_DN. |
+| Certificate Map Mode | String | The Certificate Map Mode for this WebSphere LDAPSearchFilter. Acceptable values are: CERTIFICATE_FILTER, EXACT_DN. |
 | Group Filter | String | The Group Filter for this WebSphere LDAPSearchFilter |
 | Group Id Map | String | The Group Id Map for this WebSphere LDAPSearchFilter |
 | Group Member Id Map | String | The Group Member Id Map for this WebSphere LDAPSearchFilter |
@@ -5349,7 +5349,7 @@ Role for resources that represents a WebSphere LDAP Repository
 | Bind DN | String | The binding distinguished name for the LDAP server. |
 | Bind Password | String | The binding password. |
 | Certificate Filter | String | If certificateMapMode has the value FILTERDESCRIPTORMODE, then this property specifies the LDAP filter which maps attributes in the client certificate to entries in LDAP. For more information, see the section Certificate filter in the topic, Lightweight Directory Access Protocol repository configuration settings. |
-| Certificate Map Mode | Boolean | Specifies whether to map X.509 certificates into a LDAP directory by exact distinguished name or by certificate filter. The default value is EXACT\_DN. To use the certificate filter for the mapping, specify FILTERDESCRIPTORMODE. |
+| Certificate Map Mode | Boolean | Specifies whether to map X.509 certificates into a LDAP directory by exact distinguished name or by certificate filter. The default value is EXACT_DN. To use the certificate filter for the mapping, specify FILTERDESCRIPTORMODE. |
 | Connection Pool | Boolean | The connection pool. The default value is false. |
 | Connection Timeout | String | The connection timeout in seconds. The default value is 20. Restriction: Due to a current JNDI limitation, the maximum connection timeout is 20 seconds. Even if you specify a value above 20 seconds, the connection still times out at 20 seconds. |
 | Dereferenced Aliases | String | Controls how aliases are dereferenced. The default value is always. Valid values include: never (never deference aliases), finding (deferences aliases only during name resolution), searching (deferences aliases only after name resolution). |
@@ -5382,7 +5382,7 @@ Role for resources that represents a WebSphere LDAPUserRegistry
 | Server Password | Password | The Server Password for this WebSphere LDAPUserRegistry |
 | Ssl Config | String | The Ssl Config for this WebSphere LDAPUserRegistry |
 | Ssl Enabled | Boolean | The Ssl Enabled for this WebSphere LDAPUserRegistry |
-| Type | String | The Type for this WebSphere LDAPUserRegistry. Acceptable values are: NETSCAPE, DOMINO502, CUSTOM, ACTIVE\_DIRECTORY, NDS, IBM\_DIRECTORY\_SERVER, IPLANET, SECUREWAY. |
+| Type | String | The Type for this WebSphere LDAPUserRegistry. Acceptable values are: NETSCAPE, DOMINO502, CUSTOM, ACTIVE_DIRECTORY, NDS, IBM_DIRECTORY_SERVER, IPLANET, SECUREWAY. |
 | Use Registry Realm | Boolean | The Use Registry Realm for this WebSphere LDAPUserRegistry |
 | Use Registry Server Id | Boolean | The Use Registry Server Id for this WebSphere LDAPUserRegistry |
 
@@ -5393,7 +5393,7 @@ Role for resources that represents a WebSphere LSDConnection
 
 | Name | Type | Description |
 | --- | --- | --- |
-| Mode | String | The Mode for this WebSphere LSDConnection. Acceptable values are: EXPLICIT\_CLIENT, IMPLICIT\_CLIENT, PROVIDER, NONE. |
+| Mode | String | The Mode for this WebSphere LSDConnection. Acceptable values are: EXPLICIT_CLIENT, IMPLICIT_CLIENT, PROVIDER, NONE. |
 
 ## WebSphereLTPA
 
@@ -5491,7 +5491,7 @@ Role for resources that represents a WebSphere Liveness
 | Factory Class Name | String | The Factory Class Name for this WebSphere Liveness |
 | Heartbeat Timeout Period | String | The Heartbeat Timeout Period for this WebSphere Liveness |
 | Heartbeat Transmission Period | String | The Heartbeat Transmission Period for this WebSphere Liveness |
-| Liveness Type | String | The Liveness Type for this WebSphere Liveness. Acceptable values are: DEFAULT\_ONLY, PLUGIN\_ONLY. |
+| Liveness Type | String | The Liveness Type for this WebSphere Liveness. Acceptable values are: DEFAULT_ONLY, PLUGIN_ONLY. |
 
 ## WebSphereLocalErrorPagePolicy
 
@@ -5650,7 +5650,7 @@ Role for resources that represents a WebSphere MQConnectionFactory
 | Name | Type | Description |
 | --- | --- | --- |
 | Auth Data Alias | String | The Auth Data Alias for this WebSphere MQConnectionFactory |
-| Auth Mechanism Preference | String | The Auth Mechanism Preference for this WebSphere MQConnectionFactory. Acceptable values are: BASIC\_PASSWORD, KERBEROS. |
+| Auth Mechanism Preference | String | The Auth Mechanism Preference for this WebSphere MQConnectionFactory. Acceptable values are: BASIC_PASSWORD, KERBEROS. |
 | Broker C C Sub Q | String | The Broker C C Sub Q for this WebSphere MQConnectionFactory |
 | Broker Control Queue | String | The Broker Control Queue for this WebSphere MQConnectionFactory |
 | Broker Pub Queue | String | The Broker Pub Queue for this WebSphere MQConnectionFactory |
@@ -5681,7 +5681,7 @@ Role for resources that represents a WebSphere MQConnectionFactory
 | Max Batch Size | String | The Max Batch Size for this WebSphere MQConnectionFactory |
 | Msg Retention | Boolean | The Msg Retention for this WebSphere MQConnectionFactory |
 | Msg Selection | String | The Msg Selection for this WebSphere MQConnectionFactory. Acceptable values are: CLIENT, BROKER. |
-| Multicast | String | The Multicast for this WebSphere MQConnectionFactory. Acceptable values are: DISABLED, NOT\_RELIABLE, RELIABLE, ENABLED. |
+| Multicast | String | The Multicast for this WebSphere MQConnectionFactory. Acceptable values are: DISABLED, NOT_RELIABLE, RELIABLE, ENABLED. |
 | Name | String | The Name for this WebSphere MQConnectionFactory |
 | Polling Interval | String | The Polling Interval for this WebSphere MQConnectionFactory |
 | Port | String | The Port for this WebSphere MQConnectionFactory |
@@ -5696,7 +5696,7 @@ Role for resources that represents a WebSphere MQConnectionFactory
 | Queue Manager | String | The Queue Manager for this WebSphere MQConnectionFactory |
 | Rcv Exit | String | The Rcv Exit for this WebSphere MQConnectionFactory |
 | Rcv Exit Init Data | String | The Rcv Exit Init Data for this WebSphere MQConnectionFactory |
-| Reply With R F H2 | String | The Reply With R F H2 for this WebSphere MQConnectionFactory. Acceptable values are: AS\_REPLY\_DEST, ALWAYS. |
+| Reply With R F H2 | String | The Reply With R F H2 for this WebSphere MQConnectionFactory. Acceptable values are: AS_REPLY_DEST, ALWAYS. |
 | Rescan Interval | String | The Rescan Interval for this WebSphere MQConnectionFactory |
 | Sec Exit | String | The Sec Exit for this WebSphere MQConnectionFactory |
 | Sec Exit Init Data | String | The Sec Exit Init Data for this WebSphere MQConnectionFactory |
@@ -5714,7 +5714,7 @@ Role for resources that represents a WebSphere MQConnectionFactory
 | Temp Model | String | The Temp Model for this WebSphere MQConnectionFactory |
 | Temp Queue Prefix | String | The Temp Queue Prefix for this WebSphere MQConnectionFactory |
 | Temp Topic Prefix | String | The Temp Topic Prefix for this WebSphere MQConnectionFactory |
-| Transport Type | String | The Transport Type for this WebSphere MQConnectionFactory. Acceptable values are: BINDINGS\_THEN\_CLIENT, DIRECTHTTP, BINDINGS, DIRECT, CLIENT. |
+| Transport Type | String | The Transport Type for this WebSphere MQConnectionFactory. Acceptable values are: BINDINGS_THEN_CLIENT, DIRECTHTTP, BINDINGS, DIRECT, CLIENT. |
 | Use Connection Pooling | Boolean | The Use Connection Pooling for this WebSphere MQConnectionFactory |
 | Wildcard Format | String | The Wildcard Format for this WebSphere MQConnectionFactory. Acceptable values are: characterWildcards, topicWildcards. |
 | Wmq Server Endpoint | String | The Wmq Server Endpoint for this WebSphere MQConnectionFactory |
@@ -5755,27 +5755,27 @@ Role for resources that represents a WebSphere MQQueue
 | Category | String | The Category for this WebSphere MQQueue |
 | Decimal Encoding | String | The Decimal Encoding for this WebSphere MQQueue. Acceptable values are: Normal, Reversed. |
 | Description | String | The Description for this WebSphere MQQueue |
-| Expiry | String | The Expiry for this WebSphere MQQueue. Acceptable values are: APPLICATION\_DEFINED, SPECIFIED, UNLIMITED. |
+| Expiry | String | The Expiry for this WebSphere MQQueue. Acceptable values are: APPLICATION_DEFINED, SPECIFIED, UNLIMITED. |
 | Floating Point Encoding | String | The Floating Point Encoding for this WebSphere MQQueue. Acceptable values are: IEEENormal, IEEEReversed, S390. |
 | Integer Encoding | String | The Integer Encoding for this WebSphere MQQueue. Acceptable values are: Normal, Reversed. |
 | Jndi Name | String | The Jndi Name for this WebSphere MQQueue |
 | Message Body | String | The Message Body for this WebSphere MQQueue. Acceptable values are: JMS, MQ, UNSPECIFIED. |
-| Mqmd Message Context | String | The Mqmd Message Context for this WebSphere MQQueue. Acceptable values are: DEFAULT, SET\_ALL\_CONTEXT, SET\_IDENTITY\_CONTEXT. |
+| Mqmd Message Context | String | The Mqmd Message Context for this WebSphere MQQueue. Acceptable values are: DEFAULT, SET_ALL_CONTEXT, SET_IDENTITY_CONTEXT. |
 | Mqmd Read Enabled | Boolean | The Mqmd Read Enabled for this WebSphere MQQueue |
 | Mqmd Write Enabled | Boolean | The Mqmd Write Enabled for this WebSphere MQQueue |
 | Name | String | The Name for this WebSphere MQQueue |
 | Password | Password | The Password for this WebSphere MQQueue |
-| Persistence | String | The Persistence for this WebSphere MQQueue. Acceptable values are: APPLICATION\_DEFINED, HIGH, NONPERSISTENT, PERSISTENT, QUEUE\_DEFINED. |
-| Priority | String | The Priority for this WebSphere MQQueue. Acceptable values are: APPLICATION\_DEFINED, SPECIFIED, QUEUE\_DEFINED. |
+| Persistence | String | The Persistence for this WebSphere MQQueue. Acceptable values are: APPLICATION_DEFINED, HIGH, NONPERSISTENT, PERSISTENT, QUEUE_DEFINED. |
+| Priority | String | The Priority for this WebSphere MQQueue. Acceptable values are: APPLICATION_DEFINED, SPECIFIED, QUEUE_DEFINED. |
 | Provider Type | String | The Provider Type for this WebSphere MQQueue |
 | Queue Manager Host | String | The Queue Manager Host for this WebSphere MQQueue |
 | Queue Manager Port | String | The Queue Manager Port for this WebSphere MQQueue |
-| Read Ahead | String | The Read Ahead for this WebSphere MQQueue. Acceptable values are: QUEUE\_DEFINED, YES, NO. |
+| Read Ahead | String | The Read Ahead for this WebSphere MQQueue. Acceptable values are: QUEUE_DEFINED, YES, NO. |
 | Read Ahead Close | String | The Read Ahead Close for this WebSphere MQQueue. Acceptable values are: DELIVERCURRENT, DELIVERALL. |
 | Receive C C S I D | String | The Receive C C S I D for this WebSphere MQQueue |
 | Receive Convert | String | The Receive Convert for this WebSphere MQQueue. Acceptable values are: QMGR, LOCAL. |
 | Reply To Style | String | The Reply To Style for this WebSphere MQQueue. Acceptable values are: DEFAULT, MQMD, RFH2. |
-| Send Async | String | The Send Async for this WebSphere MQQueue. Acceptable values are: QUEUE\_DEFINED, YES, NO. |
+| Send Async | String | The Send Async for this WebSphere MQQueue. Acceptable values are: QUEUE_DEFINED, YES, NO. |
 | Server Connection Channel Name | String | The Server Connection Channel Name for this WebSphere MQQueue |
 | Specified Expiry | String | The Specified Expiry for this WebSphere MQQueue |
 | Specified Priority | String | The Specified Priority for this WebSphere MQQueue |
@@ -5791,7 +5791,7 @@ Role for resources that represents a WebSphere MQQueueConnectionFactory
 | Name | Type | Description |
 | --- | --- | --- |
 | Auth Data Alias | String | The Auth Data Alias for this WebSphere MQQueueConnectionFactory |
-| Auth Mechanism Preference | String | The Auth Mechanism Preference for this WebSphere MQQueueConnectionFactory. Acceptable values are: BASIC\_PASSWORD, KERBEROS. |
+| Auth Mechanism Preference | String | The Auth Mechanism Preference for this WebSphere MQQueueConnectionFactory. Acceptable values are: BASIC_PASSWORD, KERBEROS. |
 | C C S I D | String | The C C S I D for this WebSphere MQQueueConnectionFactory |
 | Category | String | The Category for this WebSphere MQQueueConnectionFactory |
 | Ccdt Url | String | The Ccdt Url for this WebSphere MQQueueConnectionFactory |
@@ -5822,7 +5822,7 @@ Role for resources that represents a WebSphere MQQueueConnectionFactory
 | Queue Manager | String | The Queue Manager for this WebSphere MQQueueConnectionFactory |
 | Rcv Exit | String | The Rcv Exit for this WebSphere MQQueueConnectionFactory |
 | Rcv Exit Init Data | String | The Rcv Exit Init Data for this WebSphere MQQueueConnectionFactory |
-| Reply With R F H2 | String | The Reply With R F H2 for this WebSphere MQQueueConnectionFactory. Acceptable values are: AS\_REPLY\_DEST, ALWAYS. |
+| Reply With R F H2 | String | The Reply With R F H2 for this WebSphere MQQueueConnectionFactory. Acceptable values are: AS_REPLY_DEST, ALWAYS. |
 | Rescan Interval | String | The Rescan Interval for this WebSphere MQQueueConnectionFactory |
 | Sec Exit | String | The Sec Exit for this WebSphere MQQueueConnectionFactory |
 | Sec Exit Init Data | String | The Sec Exit Init Data for this WebSphere MQQueueConnectionFactory |
@@ -5836,7 +5836,7 @@ Role for resources that represents a WebSphere MQQueueConnectionFactory
 | Ssl Type | String | The Ssl Type for this WebSphere MQQueueConnectionFactory. Acceptable values are: CENTRAL, SPECIFIC, NONE. |
 | Temp Model | String | The Temp Model for this WebSphere MQQueueConnectionFactory |
 | Temp Queue Prefix | String | The Temp Queue Prefix for this WebSphere MQQueueConnectionFactory |
-| Transport Type | String | The Transport Type for this WebSphere MQQueueConnectionFactory. Acceptable values are: BINDINGS\_THEN\_CLIENT, DIRECTHTTP, BINDINGS, DIRECT, CLIENT. |
+| Transport Type | String | The Transport Type for this WebSphere MQQueueConnectionFactory. Acceptable values are: BINDINGS_THEN_CLIENT, DIRECTHTTP, BINDINGS, DIRECT, CLIENT. |
 | Use Connection Pooling | Boolean | The Use Connection Pooling for this WebSphere MQQueueConnectionFactory |
 | Wmq Server Endpoint | String | The Wmq Server Endpoint for this WebSphere MQQueueConnectionFactory |
 | Wmq Server Name | String | The Wmq Server Name for this WebSphere MQQueueConnectionFactory |
@@ -5861,25 +5861,25 @@ Role for resources that represents a WebSphere MQTopic
 | Category | String | The Category for this WebSphere MQTopic |
 | Decimal Encoding | String | The Decimal Encoding for this WebSphere MQTopic. Acceptable values are: Normal, Reversed. |
 | Description | String | The Description for this WebSphere MQTopic |
-| Expiry | String | The Expiry for this WebSphere MQTopic. Acceptable values are: APPLICATION\_DEFINED, SPECIFIED, UNLIMITED. |
+| Expiry | String | The Expiry for this WebSphere MQTopic. Acceptable values are: APPLICATION_DEFINED, SPECIFIED, UNLIMITED. |
 | Floating Point Encoding | String | The Floating Point Encoding for this WebSphere MQTopic. Acceptable values are: IEEENormal, IEEEReversed, S390. |
 | Integer Encoding | String | The Integer Encoding for this WebSphere MQTopic. Acceptable values are: Normal, Reversed. |
 | Jndi Name | String | The Jndi Name for this WebSphere MQTopic |
 | Message Body | String | The Message Body for this WebSphere MQTopic. Acceptable values are: JMS, MQ, UNSPECIFIED. |
-| Mqmd Message Context | String | The Mqmd Message Context for this WebSphere MQTopic. Acceptable values are: DEFAULT, SET\_ALL\_CONTEXT, SET\_IDENTITY\_CONTEXT. |
+| Mqmd Message Context | String | The Mqmd Message Context for this WebSphere MQTopic. Acceptable values are: DEFAULT, SET_ALL_CONTEXT, SET_IDENTITY_CONTEXT. |
 | Mqmd Read Enabled | Boolean | The Mqmd Read Enabled for this WebSphere MQTopic |
 | Mqmd Write Enabled | Boolean | The Mqmd Write Enabled for this WebSphere MQTopic |
-| Multicast | String | The Multicast for this WebSphere MQTopic. Acceptable values are: AS\_CF, DISABLED, NOT\_RELIABLE, RELIABLE, ENABLED. |
+| Multicast | String | The Multicast for this WebSphere MQTopic. Acceptable values are: AS_CF, DISABLED, NOT_RELIABLE, RELIABLE, ENABLED. |
 | Name | String | The Name for this WebSphere MQTopic |
-| Persistence | String | The Persistence for this WebSphere MQTopic. Acceptable values are: APPLICATION\_DEFINED, HIGH, NONPERSISTENT, PERSISTENT, QUEUE\_DEFINED. |
-| Priority | String | The Priority for this WebSphere MQTopic. Acceptable values are: APPLICATION\_DEFINED, SPECIFIED, QUEUE\_DEFINED. |
+| Persistence | String | The Persistence for this WebSphere MQTopic. Acceptable values are: APPLICATION_DEFINED, HIGH, NONPERSISTENT, PERSISTENT, QUEUE_DEFINED. |
+| Priority | String | The Priority for this WebSphere MQTopic. Acceptable values are: APPLICATION_DEFINED, SPECIFIED, QUEUE_DEFINED. |
 | Provider Type | String | The Provider Type for this WebSphere MQTopic |
-| Read Ahead | String | The Read Ahead for this WebSphere MQTopic. Acceptable values are: QUEUE\_DEFINED, YES, NO. |
+| Read Ahead | String | The Read Ahead for this WebSphere MQTopic. Acceptable values are: QUEUE_DEFINED, YES, NO. |
 | Read Ahead Close | String | The Read Ahead Close for this WebSphere MQTopic. Acceptable values are: DELIVERCURRENT, DELIVERALL. |
 | Receive C C S I D | String | The Receive C C S I D for this WebSphere MQTopic |
 | Receive Convert | String | The Receive Convert for this WebSphere MQTopic. Acceptable values are: QMGR, LOCAL. |
 | Reply To Style | String | The Reply To Style for this WebSphere MQTopic. Acceptable values are: DEFAULT, MQMD, RFH2. |
-| Send Async | String | The Send Async for this WebSphere MQTopic. Acceptable values are: QUEUE\_DEFINED, YES, NO. |
+| Send Async | String | The Send Async for this WebSphere MQTopic. Acceptable values are: QUEUE_DEFINED, YES, NO. |
 | Specified Expiry | String | The Specified Expiry for this WebSphere MQTopic |
 | Specified Priority | String | The Specified Priority for this WebSphere MQTopic |
 | Target Client | String | The Target Client for this WebSphere MQTopic. Acceptable values are: JMS, MQ. |
@@ -5895,7 +5895,7 @@ Role for resources that represents a WebSphere MQTopicConnectionFactory
 | Name | Type | Description |
 | --- | --- | --- |
 | Auth Data Alias | String | The Auth Data Alias for this WebSphere MQTopicConnectionFactory |
-| Auth Mechanism Preference | String | The Auth Mechanism Preference for this WebSphere MQTopicConnectionFactory. Acceptable values are: BASIC\_PASSWORD, KERBEROS. |
+| Auth Mechanism Preference | String | The Auth Mechanism Preference for this WebSphere MQTopicConnectionFactory. Acceptable values are: BASIC_PASSWORD, KERBEROS. |
 | Broker C C Sub Q | String | The Broker C C Sub Q for this WebSphere MQTopicConnectionFactory |
 | Broker Control Queue | String | The Broker Control Queue for this WebSphere MQTopicConnectionFactory |
 | Broker Pub Queue | String | The Broker Pub Queue for this WebSphere MQTopicConnectionFactory |
@@ -5925,7 +5925,7 @@ Role for resources that represents a WebSphere MQTopicConnectionFactory
 | Manage Cached Handles | Boolean | The Manage Cached Handles for this WebSphere MQTopicConnectionFactory |
 | Max Batch Size | String | The Max Batch Size for this WebSphere MQTopicConnectionFactory |
 | Msg Selection | String | The Msg Selection for this WebSphere MQTopicConnectionFactory. Acceptable values are: CLIENT, BROKER. |
-| Multicast | String | The Multicast for this WebSphere MQTopicConnectionFactory. Acceptable values are: DISABLED, NOT\_RELIABLE, RELIABLE, ENABLED. |
+| Multicast | String | The Multicast for this WebSphere MQTopicConnectionFactory. Acceptable values are: DISABLED, NOT_RELIABLE, RELIABLE, ENABLED. |
 | Name | String | The Name for this WebSphere MQTopicConnectionFactory |
 | Polling Interval | String | The Polling Interval for this WebSphere MQTopicConnectionFactory |
 | Port | String | The Port for this WebSphere MQTopicConnectionFactory |
@@ -5956,7 +5956,7 @@ Role for resources that represents a WebSphere MQTopicConnectionFactory
 | Substore | String | The Substore for this WebSphere MQTopicConnectionFactory. Acceptable values are: QUEUE, MIGRATE, BROKER. |
 | Temp Model | String | The Temp Model for this WebSphere MQTopicConnectionFactory |
 | Temp Topic Prefix | String | The Temp Topic Prefix for this WebSphere MQTopicConnectionFactory |
-| Transport Type | String | The Transport Type for this WebSphere MQTopicConnectionFactory. Acceptable values are: BINDINGS\_THEN\_CLIENT, DIRECTHTTP, BINDINGS, DIRECT, CLIENT. |
+| Transport Type | String | The Transport Type for this WebSphere MQTopicConnectionFactory. Acceptable values are: BINDINGS_THEN_CLIENT, DIRECTHTTP, BINDINGS, DIRECT, CLIENT. |
 | Use Connection Pooling | Boolean | The Use Connection Pooling for this WebSphere MQTopicConnectionFactory |
 | Wildcard Format | String | The Wildcard Format for this WebSphere MQTopicConnectionFactory. Acceptable values are: characterWildcards, topicWildcards. |
 | Wmq Server Endpoint | String | The Wmq Server Endpoint for this WebSphere MQTopicConnectionFactory |
@@ -6131,7 +6131,7 @@ Role for resources that represents a WebSphere MessageCondition
 
 | Name | Type | Description |
 | --- | --- | --- |
-| Type | String | The Type for this WebSphere MessageCondition. Acceptable values are: SOURCE\_ADDR, TO, FROM, DEST\_ADDR, REQUEST\_URI. |
+| Type | String | The Type for this WebSphere MessageCondition. Acceptable values are: SOURCE_ADDR, TO, FROM, DEST_ADDR, REQUEST_URI. |
 | Value | String | The Value for this WebSphere MessageCondition |
 
 ## WebSphereMessageDestination
@@ -6461,7 +6461,7 @@ Role for resources that represents a WebSphere NamedJavaProcessDef
 | Executable Arguments | String | The Executable Arguments for this WebSphere NamedJavaProcessDef |
 | Executable Name | String | The Executable Name for this WebSphere NamedJavaProcessDef |
 | Executable Target | String | The Executable Target for this WebSphere NamedJavaProcessDef |
-| Executable Target Kind | String | The Executable Target Kind for this WebSphere NamedJavaProcessDef. Acceptable values are: EXECUTABLE\_JAR, JAVA\_CLASS. |
+| Executable Target Kind | String | The Executable Target Kind for this WebSphere NamedJavaProcessDef. Acceptable values are: EXECUTABLE_JAR, JAVA_CLASS. |
 | Name | String | The Name for this WebSphere NamedJavaProcessDef |
 | Osnames | String | The Osnames for this WebSphere NamedJavaProcessDef |
 | Password Val | Password | The Password Val for this WebSphere NamedJavaProcessDef |
@@ -6605,7 +6605,7 @@ Role for resources that represents a WebSphere ObjectCacheInstance
 | Name | String | The Name for this WebSphere ObjectCacheInstance |
 | Provider Type | String | The Provider Type for this WebSphere ObjectCacheInstance |
 | Push Frequency | String | The Push Frequency for this WebSphere ObjectCacheInstance |
-| Replication Type | String | The Replication Type for this WebSphere ObjectCacheInstance. Acceptable values are: PULL, PUSH, PUSH\_PULL, NONE. |
+| Replication Type | String | The Replication Type for this WebSphere ObjectCacheInstance. Acceptable values are: PULL, PUSH, PUSH_PULL, NONE. |
 | Use Listener Context | Boolean | The Use Listener Context for this WebSphere ObjectCacheInstance |
 
 ## WebSphereObjectPool
@@ -6786,7 +6786,7 @@ Role for resources that represents a WebSphere PMIRMFilter
 | --- | --- | --- |
 | Enable | Boolean | The Enable for this WebSphere PMIRMFilter |
 | Extended Type | String | The Extended Type for this WebSphere PMIRMFilter |
-| Type | String | The Type for this WebSphere PMIRMFilter. Acceptable values are: EJB, URI, JMS, WEB\_SERVICES, EXTENDED, SOURCE\_IP. |
+| Type | String | The Type for this WebSphere PMIRMFilter. Acceptable values are: EJB, URI, JMS, WEB_SERVICES, EXTENDED, SOURCE_IP. |
 
 ## WebSpherePMIRMFilterValue
 
@@ -6807,14 +6807,14 @@ Role for resources that represents a WebSphere PMIRequestMetrics
 | --- | --- | --- |
 | Arm Callback | String | The Arm Callback for this WebSphere PMIRequestMetrics |
 | Arm Transaction Factory | String | The Arm Transaction Factory for this WebSphere PMIRequestMetrics |
-| Arm Type | String | The Arm Type for this WebSphere PMIRequestMetrics. Acceptable values are: ARM40, TIVOLI\_ARM, EWLM\_ARM. |
+| Arm Type | String | The Arm Type for this WebSphere PMIRequestMetrics. Acceptable values are: ARM40, TIVOLI_ARM, EWLM_ARM. |
 | Dynamic Enable | Boolean | The Dynamic Enable for this WebSphere PMIRequestMetrics |
 | Enable | Boolean | The Enable for this WebSphere PMIRequestMetrics |
 | Enable A R M | Boolean | The Enable A R M for this WebSphere PMIRequestMetrics |
 | Enable Log | Boolean | The Enable Log for this WebSphere PMIRequestMetrics |
 | Enabled Components | String | The Enabled Components for this WebSphere PMIRequestMetrics |
 | Instrumented Components | String | The Instrumented Components for this WebSphere PMIRequestMetrics |
-| Trace Level | String | The Trace Level for this WebSphere PMIRequestMetrics. Acceptable values are: DEBUG, PERF\_DEBUG, HOPS, NONE. |
+| Trace Level | String | The Trace Level for this WebSphere PMIRequestMetrics. Acceptable values are: DEBUG, PERF_DEBUG, HOPS, NONE. |
 
 ## WebSpherePMIService
 
@@ -6856,7 +6856,7 @@ Role for resources that represents a WebSphere PeerAccessPoint
 | Name | Type | Description |
 | --- | --- | --- |
 | Cell | String | The Cell for this WebSphere PeerAccessPoint |
-| Cell Access Permission | String | The Cell Access Permission for this WebSphere PeerAccessPoint. Acceptable values are: FULL\_ACCESS, READ\_ONLY, WRITE\_ONLY. |
+| Cell Access Permission | String | The Cell Access Permission for this WebSphere PeerAccessPoint. Acceptable values are: FULL_ACCESS, READ_ONLY, WRITE_ONLY. |
 | Core Group | String | The Core Group for this WebSphere PeerAccessPoint |
 | Core Group Access Point | String | The Core Group Access Point for this WebSphere PeerAccessPoint |
 | Name | String | The Name for this WebSphere PeerAccessPoint |
@@ -6993,7 +6993,7 @@ Role for resources that represents a WebSphere PluginServerClusterProperties
 | Name | Type | Description |
 | --- | --- | --- |
 | Clone Separator Change | Boolean | The Clone Separator Change for this WebSphere PluginServerClusterProperties |
-| Load Balance | String | The Load Balance for this WebSphere PluginServerClusterProperties. Acceptable values are: ROUND\_ROBIN, RANDOM. |
+| Load Balance | String | The Load Balance for this WebSphere PluginServerClusterProperties. Acceptable values are: ROUND_ROBIN, RANDOM. |
 | Post Buffer Size | String | The Post Buffer Size for this WebSphere PluginServerClusterProperties |
 | Post Size Limit | String | The Post Size Limit for this WebSphere PluginServerClusterProperties |
 | Remove Special Headers | Boolean | The Remove Special Headers for this WebSphere PluginServerClusterProperties |
@@ -7587,7 +7587,7 @@ Role for resources that represents a WebSphere RewritingAction
 | Limit Cookie Path | String | The Limit Cookie Path for this WebSphere RewritingAction |
 | Limit U R L Pattern | String | The Limit U R L Pattern for this WebSphere RewritingAction |
 | Name | String | The Name for this WebSphere RewritingAction |
-| Rewriting Action Type | String | The Rewriting Action Type for this WebSphere RewritingAction. Acceptable values are: SET\_COOKIE\_DOMAIN, SET\_COOKIE\_PATH, ABSOLUTE\_URL\_RESPONSE, RELATIVE\_URL\_RESPONSE, REDIRECT\_LOCATION\_HEADER, REDIRECT\_STATUS\_CODE. |
+| Rewriting Action Type | String | The Rewriting Action Type for this WebSphere RewritingAction. Acceptable values are: SET_COOKIE_DOMAIN, SET_COOKIE_PATH, ABSOLUTE_URL_RESPONSE, RELATIVE_URL_RESPONSE, REDIRECT_LOCATION_HEADER, REDIRECT_STATUS_CODE. |
 | To Pattern | String | The To Pattern for this WebSphere RewritingAction |
 
 ## WebSphereRewritingActionRef
@@ -7961,16 +7961,16 @@ Role for resources that represents a WebSphere SIBDestination
 | Default Priority | String | The Default Priority for this WebSphere SIBDestination |
 | Description | String | The Description for this WebSphere SIBDestination |
 | Exception Destination | String | The Exception Destination for this WebSphere SIBDestination |
-| Exception Discard Reliability | String | The Exception Discard Reliability for this WebSphere SIBDestination. Acceptable values are: BEST\_EFFORT\_NONPERSISTENT, ASSURED\_PERSISTENT, EXPRESS\_NONPERSISTENT, RELIABLE\_NONPERSISTENT, RELIABLE\_PERSISTENT. |
+| Exception Discard Reliability | String | The Exception Discard Reliability for this WebSphere SIBDestination. Acceptable values are: BEST_EFFORT_NONPERSISTENT, ASSURED_PERSISTENT, EXPRESS_NONPERSISTENT, RELIABLE_NONPERSISTENT, RELIABLE_PERSISTENT. |
 | Identifier | String | The Identifier for this WebSphere SIBDestination |
 | Instance Type | String | The Instance Type for this WebSphere SIBDestination |
 | Maintain Strict Message Order | Boolean | The Maintain Strict Message Order for this WebSphere SIBDestination |
 | Max Failed Deliveries | String | The Max Failed Deliveries for this WebSphere SIBDestination |
-| Max Reliability | String | The Max Reliability for this WebSphere SIBDestination. Acceptable values are: BEST\_EFFORT\_NONPERSISTENT, ASSURED\_PERSISTENT, EXPRESS\_NONPERSISTENT, RELIABLE\_NONPERSISTENT, RELIABLE\_PERSISTENT. |
+| Max Reliability | String | The Max Reliability for this WebSphere SIBDestination. Acceptable values are: BEST_EFFORT_NONPERSISTENT, ASSURED_PERSISTENT, EXPRESS_NONPERSISTENT, RELIABLE_NONPERSISTENT, RELIABLE_PERSISTENT. |
 | Override Of Q O S By Producer Allowed | Boolean | The Override Of Q O S By Producer Allowed for this WebSphere SIBDestination |
 | Persist Redelivery Count | Boolean | The Persist Redelivery Count for this WebSphere SIBDestination |
 | Receive Allowed | Boolean | The Receive Allowed for this WebSphere SIBDestination |
-| Reliability | String | The Reliability for this WebSphere SIBDestination. Acceptable values are: BEST\_EFFORT\_NONPERSISTENT, ASSURED\_PERSISTENT, EXPRESS\_NONPERSISTENT, RELIABLE\_NONPERSISTENT, RELIABLE\_PERSISTENT. |
+| Reliability | String | The Reliability for this WebSphere SIBDestination. Acceptable values are: BEST_EFFORT_NONPERSISTENT, ASSURED_PERSISTENT, EXPRESS_NONPERSISTENT, RELIABLE_NONPERSISTENT, RELIABLE_PERSISTENT. |
 | Send Allowed | Boolean | The Send Allowed for this WebSphere SIBDestination |
 | Uuid | String | The Uuid for this WebSphere SIBDestination |
 
@@ -7989,10 +7989,10 @@ Role for resources that represents a WebSphere SIBDestinationAlias
 | Description | String | The Description for this WebSphere SIBDestinationAlias |
 | Identifier | String | The Identifier for this WebSphere SIBDestinationAlias |
 | Instance Type | String | The Instance Type for this WebSphere SIBDestinationAlias |
-| Max Reliability | String | The Max Reliability for this WebSphere SIBDestinationAlias. Acceptable values are: INHERIT, BEST\_EFFORT\_NONPERSISTENT, ASSURED\_PERSISTENT, EXPRESS\_NONPERSISTENT, RELIABLE\_NONPERSISTENT, RELIABLE\_PERSISTENT. |
+| Max Reliability | String | The Max Reliability for this WebSphere SIBDestinationAlias. Acceptable values are: INHERIT, BEST_EFFORT_NONPERSISTENT, ASSURED_PERSISTENT, EXPRESS_NONPERSISTENT, RELIABLE_NONPERSISTENT, RELIABLE_PERSISTENT. |
 | Override Of Q O S By Producer Allowed | String | The Override Of Q O S By Producer Allowed for this WebSphere SIBDestinationAlias. Acceptable values are: INHERIT, TRUE, FALSE. |
 | Receive Allowed | String | The Receive Allowed for this WebSphere SIBDestinationAlias. Acceptable values are: INHERIT, TRUE, FALSE. |
-| Reliability | String | The Reliability for this WebSphere SIBDestinationAlias. Acceptable values are: INHERIT, BEST\_EFFORT\_NONPERSISTENT, ASSURED\_PERSISTENT, EXPRESS\_NONPERSISTENT, RELIABLE\_NONPERSISTENT, RELIABLE\_PERSISTENT. |
+| Reliability | String | The Reliability for this WebSphere SIBDestinationAlias. Acceptable values are: INHERIT, BEST_EFFORT_NONPERSISTENT, ASSURED_PERSISTENT, EXPRESS_NONPERSISTENT, RELIABLE_NONPERSISTENT, RELIABLE_PERSISTENT. |
 | Send Allowed | String | The Send Allowed for this WebSphere SIBDestinationAlias. Acceptable values are: INHERIT, TRUE, FALSE. |
 | Target Bus | String | The Target Bus for this WebSphere SIBDestinationAlias |
 | Target Identifier | String | The Target Identifier for this WebSphere SIBDestinationAlias |
@@ -8008,9 +8008,9 @@ Role for resources that represents a WebSphere SIBDestinationDefault
 | Name | Type | Description |
 | --- | --- | --- |
 | Default Priority | String | The Default Priority for this WebSphere SIBDestinationDefault |
-| Max Reliability | String | The Max Reliability for this WebSphere SIBDestinationDefault. Acceptable values are: BEST\_EFFORT\_NONPERSISTENT, ASSURED\_PERSISTENT, EXPRESS\_NONPERSISTENT, RELIABLE\_NONPERSISTENT, RELIABLE\_PERSISTENT. |
+| Max Reliability | String | The Max Reliability for this WebSphere SIBDestinationDefault. Acceptable values are: BEST_EFFORT_NONPERSISTENT, ASSURED_PERSISTENT, EXPRESS_NONPERSISTENT, RELIABLE_NONPERSISTENT, RELIABLE_PERSISTENT. |
 | Override Of Q O S By Producer Allowed | Boolean | The Override Of Q O S By Producer Allowed for this WebSphere SIBDestinationDefault |
-| Reliability | String | The Reliability for this WebSphere SIBDestinationDefault. Acceptable values are: BEST\_EFFORT\_NONPERSISTENT, ASSURED\_PERSISTENT, EXPRESS\_NONPERSISTENT, RELIABLE\_NONPERSISTENT, RELIABLE\_PERSISTENT. |
+| Reliability | String | The Reliability for this WebSphere SIBDestinationDefault. Acceptable values are: BEST_EFFORT_NONPERSISTENT, ASSURED_PERSISTENT, EXPRESS_NONPERSISTENT, RELIABLE_NONPERSISTENT, RELIABLE_PERSISTENT. |
 | Send Allowed | Boolean | The Send Allowed for this WebSphere SIBDestinationDefault |
 
 ## WebSphereSIBDestinationForeign
@@ -8025,9 +8025,9 @@ Role for resources that represents a WebSphere SIBDestinationForeign
 | Description | String | The Description for this WebSphere SIBDestinationForeign |
 | Identifier | String | The Identifier for this WebSphere SIBDestinationForeign |
 | Instance Type | String | The Instance Type for this WebSphere SIBDestinationForeign |
-| Max Reliability | String | The Max Reliability for this WebSphere SIBDestinationForeign. Acceptable values are: BEST\_EFFORT\_NONPERSISTENT, ASSURED\_PERSISTENT, EXPRESS\_NONPERSISTENT, RELIABLE\_NONPERSISTENT, RELIABLE\_PERSISTENT. |
+| Max Reliability | String | The Max Reliability for this WebSphere SIBDestinationForeign. Acceptable values are: BEST_EFFORT_NONPERSISTENT, ASSURED_PERSISTENT, EXPRESS_NONPERSISTENT, RELIABLE_NONPERSISTENT, RELIABLE_PERSISTENT. |
 | Override Of Q O S By Producer Allowed | Boolean | The Override Of Q O S By Producer Allowed for this WebSphere SIBDestinationForeign |
-| Reliability | String | The Reliability for this WebSphere SIBDestinationForeign. Acceptable values are: BEST\_EFFORT\_NONPERSISTENT, ASSURED\_PERSISTENT, EXPRESS\_NONPERSISTENT, RELIABLE\_NONPERSISTENT, RELIABLE\_PERSISTENT. |
+| Reliability | String | The Reliability for this WebSphere SIBDestinationForeign. Acceptable values are: BEST_EFFORT_NONPERSISTENT, ASSURED_PERSISTENT, EXPRESS_NONPERSISTENT, RELIABLE_NONPERSISTENT, RELIABLE_PERSISTENT. |
 | Send Allowed | Boolean | The Send Allowed for this WebSphere SIBDestinationForeign |
 | Uuid | String | The Uuid for this WebSphere SIBDestinationForeign |
 
@@ -8163,15 +8163,15 @@ Role for resources that represents a WebSphere SIBJMSQueue
 | Name | Type | Description |
 | --- | --- | --- |
 | Category | String | The Category for this WebSphere SIBJMSQueue |
-| Delivery Mode | String | The Delivery Mode for this WebSphere SIBJMSQueue. Acceptable values are: NON\_PERSISTENT, PERSISTENT, APP. |
+| Delivery Mode | String | The Delivery Mode for this WebSphere SIBJMSQueue. Acceptable values are: NON_PERSISTENT, PERSISTENT, APP. |
 | Description | String | The Description for this WebSphere SIBJMSQueue |
 | Jndi Name | String | The Jndi Name for this WebSphere SIBJMSQueue |
 | Name | String | The Name for this WebSphere SIBJMSQueue |
-| Non Persistent Mapping | String | The Non Persistent Mapping for this WebSphere SIBJMSQueue. Acceptable values are: AS\_CONNECTION, EXPRESS, RELIABLE. |
+| Non Persistent Mapping | String | The Non Persistent Mapping for this WebSphere SIBJMSQueue. Acceptable values are: AS_CONNECTION, EXPRESS, RELIABLE. |
 | Priority | String | The Priority for this WebSphere SIBJMSQueue |
 | Provider Type | String | The Provider Type for this WebSphere SIBJMSQueue |
 | Queue Name | String | The Queue Name for this WebSphere SIBJMSQueue |
-| Read Ahead | String | The Read Ahead for this WebSphere SIBJMSQueue. Acceptable values are: AS\_CONNECTION, ON, OFF. |
+| Read Ahead | String | The Read Ahead for this WebSphere SIBJMSQueue. Acceptable values are: AS_CONNECTION, ON, OFF. |
 | Time To Live | String | The Time To Live for this WebSphere SIBJMSQueue |
 
 ## WebSphereSIBJMSQueueConnectionFactory
@@ -8205,14 +8205,14 @@ Role for resources that represents a WebSphere SIBJMSTopic
 | Name | Type | Description |
 | --- | --- | --- |
 | Category | String | The Category for this WebSphere SIBJMSTopic |
-| Delivery Mode | String | The Delivery Mode for this WebSphere SIBJMSTopic. Acceptable values are: NON\_PERSISTENT, PERSISTENT, APP. |
+| Delivery Mode | String | The Delivery Mode for this WebSphere SIBJMSTopic. Acceptable values are: NON_PERSISTENT, PERSISTENT, APP. |
 | Description | String | The Description for this WebSphere SIBJMSTopic |
 | Jndi Name | String | The Jndi Name for this WebSphere SIBJMSTopic |
 | Name | String | The Name for this WebSphere SIBJMSTopic |
-| Non Persistent Mapping | String | The Non Persistent Mapping for this WebSphere SIBJMSTopic. Acceptable values are: AS\_CONNECTION, EXPRESS, RELIABLE. |
+| Non Persistent Mapping | String | The Non Persistent Mapping for this WebSphere SIBJMSTopic. Acceptable values are: AS_CONNECTION, EXPRESS, RELIABLE. |
 | Priority | String | The Priority for this WebSphere SIBJMSTopic |
 | Provider Type | String | The Provider Type for this WebSphere SIBJMSTopic |
-| Read Ahead | String | The Read Ahead for this WebSphere SIBJMSTopic. Acceptable values are: AS\_CONNECTION, ON, OFF. |
+| Read Ahead | String | The Read Ahead for this WebSphere SIBJMSTopic. Acceptable values are: AS_CONNECTION, ON, OFF. |
 | Time To Live | String | The Time To Live for this WebSphere SIBJMSTopic |
 | Topic Name | String | The Topic Name for this WebSphere SIBJMSTopic |
 | Topic Space | String | The Topic Space for this WebSphere SIBJMSTopic |
@@ -8249,7 +8249,7 @@ Role for resources that represents a WebSphere SIBLinkRef
 | Name | Type | Description |
 | --- | --- | --- |
 | Exception Destination | String | The Exception Destination for this WebSphere SIBLinkRef |
-| Exception Discard Reliability | String | The Exception Discard Reliability for this WebSphere SIBLinkRef. Acceptable values are: BEST\_EFFORT\_NONPERSISTENT, ASSURED\_PERSISTENT, EXPRESS\_NONPERSISTENT, RELIABLE\_NONPERSISTENT, RELIABLE\_PERSISTENT. |
+| Exception Discard Reliability | String | The Exception Discard Reliability for this WebSphere SIBLinkRef. Acceptable values are: BEST_EFFORT_NONPERSISTENT, ASSURED_PERSISTENT, EXPRESS_NONPERSISTENT, RELIABLE_NONPERSISTENT, RELIABLE_PERSISTENT. |
 | Name | String | The Name for this WebSphere SIBLinkRef |
 | Prefer Local Queue Points | Boolean | The Prefer Local Queue Points for this WebSphere SIBLinkRef |
 
@@ -8311,7 +8311,7 @@ Role for resources that represents a WebSphere SIBMQClientLinkAdvancedProperties
 | Broker Pub Q | String | The Broker Pub Q for this WebSphere SIBMQClientLinkAdvancedProperties |
 | Broker Sub Q | String | The Broker Sub Q for this WebSphere SIBMQClientLinkAdvancedProperties |
 | Default Topic Space | String | The Default Topic Space for this WebSphere SIBMQClientLinkAdvancedProperties |
-| Inbound Non Persistent Reliability | String | The Inbound Non Persistent Reliability for this WebSphere SIBMQClientLinkAdvancedProperties. Acceptable values are: EXPRESS, RELIABLE, BEST\_EFFORT. |
+| Inbound Non Persistent Reliability | String | The Inbound Non Persistent Reliability for this WebSphere SIBMQClientLinkAdvancedProperties. Acceptable values are: EXPRESS, RELIABLE, BEST_EFFORT. |
 | Inbound Persistent Reliability | String | The Inbound Persistent Reliability for this WebSphere SIBMQClientLinkAdvancedProperties. Acceptable values are: RELIABLE, ASSURED. |
 
 ## WebSphereSIBMQLink
@@ -8341,7 +8341,7 @@ Role for resources that represents a WebSphere SIBMQLinkReceiverChannel
 
 | Name | Type | Description |
 | --- | --- | --- |
-| Inbound Non Persistent Reliability | String | The Inbound Non Persistent Reliability for this WebSphere SIBMQLinkReceiverChannel. Acceptable values are: EXPRESS, RELIABLE, BEST\_EFFORT. |
+| Inbound Non Persistent Reliability | String | The Inbound Non Persistent Reliability for this WebSphere SIBMQLinkReceiverChannel. Acceptable values are: EXPRESS, RELIABLE, BEST_EFFORT. |
 | Inbound Persistent Reliability | String | The Inbound Persistent Reliability for this WebSphere SIBMQLinkReceiverChannel. Acceptable values are: RELIABLE, ASSURED. |
 | Receiver Channel Initial State | String | The Receiver Channel Initial State for this WebSphere SIBMQLinkReceiverChannel. Acceptable values are: STOPPED, STARTED. |
 | Receiver Channel Name | String | The Receiver Channel Name for this WebSphere SIBMQLinkReceiverChannel |
@@ -8396,8 +8396,8 @@ Role for resources that represents a WebSphere SIBMQLocalizationPointProxy
 | --- | --- | --- |
 | Enable R F H2 Header | Boolean | The Enable R F H2 Header for this WebSphere SIBMQLocalizationPointProxy |
 | Identifier | String | The Identifier for this WebSphere SIBMQLocalizationPointProxy |
-| Inbound Non Persistent Reliability | String | The Inbound Non Persistent Reliability for this WebSphere SIBMQLocalizationPointProxy. Acceptable values are: BEST\_EFFORT\_NONPERSISTENT, ASSURED\_PERSISTENT, EXPRESS\_NONPERSISTENT, RELIABLE\_NONPERSISTENT, RELIABLE\_PERSISTENT. |
-| Inbound Persistent Reliability | String | The Inbound Persistent Reliability for this WebSphere SIBMQLocalizationPointProxy. Acceptable values are: BEST\_EFFORT\_NONPERSISTENT, ASSURED\_PERSISTENT, EXPRESS\_NONPERSISTENT, RELIABLE\_NONPERSISTENT, RELIABLE\_PERSISTENT. |
+| Inbound Non Persistent Reliability | String | The Inbound Non Persistent Reliability for this WebSphere SIBMQLocalizationPointProxy. Acceptable values are: BEST_EFFORT_NONPERSISTENT, ASSURED_PERSISTENT, EXPRESS_NONPERSISTENT, RELIABLE_NONPERSISTENT, RELIABLE_PERSISTENT. |
+| Inbound Persistent Reliability | String | The Inbound Persistent Reliability for this WebSphere SIBMQLocalizationPointProxy. Acceptable values are: BEST_EFFORT_NONPERSISTENT, ASSURED_PERSISTENT, EXPRESS_NONPERSISTENT, RELIABLE_NONPERSISTENT, RELIABLE_PERSISTENT. |
 | Mq Queue Name | String | The Mq Queue Name for this WebSphere SIBMQLocalizationPointProxy |
 | Target Uuid | String | The Target Uuid for this WebSphere SIBMQLocalizationPointProxy |
 | Uuid | String | The Uuid for this WebSphere SIBMQLocalizationPointProxy |
@@ -8411,8 +8411,8 @@ Role for resources that represents a WebSphere SIBMQMediationPointProxy
 | --- | --- | --- |
 | Enable R F H2 Header | Boolean | The Enable R F H2 Header for this WebSphere SIBMQMediationPointProxy |
 | Identifier | String | The Identifier for this WebSphere SIBMQMediationPointProxy |
-| Inbound Non Persistent Reliability | String | The Inbound Non Persistent Reliability for this WebSphere SIBMQMediationPointProxy. Acceptable values are: BEST\_EFFORT\_NONPERSISTENT, ASSURED\_PERSISTENT, EXPRESS\_NONPERSISTENT, RELIABLE\_NONPERSISTENT, RELIABLE\_PERSISTENT. |
-| Inbound Persistent Reliability | String | The Inbound Persistent Reliability for this WebSphere SIBMQMediationPointProxy. Acceptable values are: BEST\_EFFORT\_NONPERSISTENT, ASSURED\_PERSISTENT, EXPRESS\_NONPERSISTENT, RELIABLE\_NONPERSISTENT, RELIABLE\_PERSISTENT. |
+| Inbound Non Persistent Reliability | String | The Inbound Non Persistent Reliability for this WebSphere SIBMQMediationPointProxy. Acceptable values are: BEST_EFFORT_NONPERSISTENT, ASSURED_PERSISTENT, EXPRESS_NONPERSISTENT, RELIABLE_NONPERSISTENT, RELIABLE_PERSISTENT. |
+| Inbound Persistent Reliability | String | The Inbound Persistent Reliability for this WebSphere SIBMQMediationPointProxy. Acceptable values are: BEST_EFFORT_NONPERSISTENT, ASSURED_PERSISTENT, EXPRESS_NONPERSISTENT, RELIABLE_NONPERSISTENT, RELIABLE_PERSISTENT. |
 | Mq Queue Name | String | The Mq Queue Name for this WebSphere SIBMQMediationPointProxy |
 | Target Uuid | String | The Target Uuid for this WebSphere SIBMQMediationPointProxy |
 | Uuid | String | The Uuid for this WebSphere SIBMQMediationPointProxy |
@@ -8426,8 +8426,8 @@ Role for resources that represents a WebSphere SIBMQQueueLocalizationPointProxy
 | --- | --- | --- |
 | Enable R F H2 Header | Boolean | The Enable R F H2 Header for this WebSphere SIBMQQueueLocalizationPointProxy |
 | Identifier | String | The Identifier for this WebSphere SIBMQQueueLocalizationPointProxy |
-| Inbound Non Persistent Reliability | String | The Inbound Non Persistent Reliability for this WebSphere SIBMQQueueLocalizationPointProxy. Acceptable values are: BEST\_EFFORT\_NONPERSISTENT, ASSURED\_PERSISTENT, EXPRESS\_NONPERSISTENT, RELIABLE\_NONPERSISTENT, RELIABLE\_PERSISTENT. |
-| Inbound Persistent Reliability | String | The Inbound Persistent Reliability for this WebSphere SIBMQQueueLocalizationPointProxy. Acceptable values are: BEST\_EFFORT\_NONPERSISTENT, ASSURED\_PERSISTENT, EXPRESS\_NONPERSISTENT, RELIABLE\_NONPERSISTENT, RELIABLE\_PERSISTENT. |
+| Inbound Non Persistent Reliability | String | The Inbound Non Persistent Reliability for this WebSphere SIBMQQueueLocalizationPointProxy. Acceptable values are: BEST_EFFORT_NONPERSISTENT, ASSURED_PERSISTENT, EXPRESS_NONPERSISTENT, RELIABLE_NONPERSISTENT, RELIABLE_PERSISTENT. |
+| Inbound Persistent Reliability | String | The Inbound Persistent Reliability for this WebSphere SIBMQQueueLocalizationPointProxy. Acceptable values are: BEST_EFFORT_NONPERSISTENT, ASSURED_PERSISTENT, EXPRESS_NONPERSISTENT, RELIABLE_NONPERSISTENT, RELIABLE_PERSISTENT. |
 | Mq Queue Name | String | The Mq Queue Name for this WebSphere SIBMQQueueLocalizationPointProxy |
 | Target Uuid | String | The Target Uuid for this WebSphere SIBMQQueueLocalizationPointProxy |
 | Uuid | String | The Uuid for this WebSphere SIBMQQueueLocalizationPointProxy |
@@ -8452,7 +8452,7 @@ Role for resources that represents a WebSphere SIBMQServer
 | Server Name | String | The Server Name for this WebSphere SIBMQServer |
 | Transport Chain Name | String | The Transport Chain Name for this WebSphere SIBMQServer |
 | Trust Message User Identifiers | Boolean | The Trust Message User Identifiers for this WebSphere SIBMQServer |
-| Type | String | The Type for this WebSphere SIBMQServer. Acceptable values are: MQ\_QUEUE\_MANAGER, MQ\_QUEUE\_SHARING\_GROUP. |
+| Type | String | The Type for this WebSphere SIBMQServer. Acceptable values are: MQ_QUEUE_MANAGER, MQ_QUEUE_SHARING_GROUP. |
 | Uuid | String | The Uuid for this WebSphere SIBMQServer |
 
 ## WebSphereSIBMQServerBusMember
@@ -8568,7 +8568,7 @@ Role for resources that represents a WebSphere SIBPSBTopicMapping
 | Name | Type | Description |
 | --- | --- | --- |
 | Broker Stream Queue | String | The Broker Stream Queue for this WebSphere SIBPSBTopicMapping |
-| Direction | String | The Direction for this WebSphere SIBPSBTopicMapping. Acceptable values are: TO\_MQ, BI\_DIRECTIONAL, FROM\_MQ. |
+| Direction | String | The Direction for this WebSphere SIBPSBTopicMapping. Acceptable values are: TO_MQ, BI_DIRECTIONAL, FROM_MQ. |
 | Subscription Point | String | The Subscription Point for this WebSphere SIBPSBTopicMapping |
 | Topic Name | String | The Topic Name for this WebSphere SIBPSBTopicMapping |
 | Topic Space | String | The Topic Space for this WebSphere SIBPSBTopicMapping |
@@ -8603,17 +8603,17 @@ Role for resources that represents a WebSphere SIBPort
 | Default Priority | String | The Default Priority for this WebSphere SIBPort |
 | Description | String | The Description for this WebSphere SIBPort |
 | Exception Destination | String | The Exception Destination for this WebSphere SIBPort |
-| Exception Discard Reliability | String | The Exception Discard Reliability for this WebSphere SIBPort. Acceptable values are: BEST\_EFFORT\_NONPERSISTENT, ASSURED\_PERSISTENT, EXPRESS\_NONPERSISTENT, RELIABLE\_NONPERSISTENT, RELIABLE\_PERSISTENT. |
+| Exception Discard Reliability | String | The Exception Discard Reliability for this WebSphere SIBPort. Acceptable values are: BEST_EFFORT_NONPERSISTENT, ASSURED_PERSISTENT, EXPRESS_NONPERSISTENT, RELIABLE_NONPERSISTENT, RELIABLE_PERSISTENT. |
 | Identifier | String | The Identifier for this WebSphere SIBPort |
 | Instance Type | String | The Instance Type for this WebSphere SIBPort |
 | Maintain Strict Message Order | Boolean | The Maintain Strict Message Order for this WebSphere SIBPort |
 | Max Failed Deliveries | String | The Max Failed Deliveries for this WebSphere SIBPort |
-| Max Reliability | String | The Max Reliability for this WebSphere SIBPort. Acceptable values are: BEST\_EFFORT\_NONPERSISTENT, ASSURED\_PERSISTENT, EXPRESS\_NONPERSISTENT, RELIABLE\_NONPERSISTENT, RELIABLE\_PERSISTENT. |
+| Max Reliability | String | The Max Reliability for this WebSphere SIBPort. Acceptable values are: BEST_EFFORT_NONPERSISTENT, ASSURED_PERSISTENT, EXPRESS_NONPERSISTENT, RELIABLE_NONPERSISTENT, RELIABLE_PERSISTENT. |
 | Override Of Q O S By Producer Allowed | Boolean | The Override Of Q O S By Producer Allowed for this WebSphere SIBPort |
 | Persist Redelivery Count | Boolean | The Persist Redelivery Count for this WebSphere SIBPort |
 | Receive Allowed | Boolean | The Receive Allowed for this WebSphere SIBPort |
 | Receive Exclusive | Boolean | The Receive Exclusive for this WebSphere SIBPort |
-| Reliability | String | The Reliability for this WebSphere SIBPort. Acceptable values are: BEST\_EFFORT\_NONPERSISTENT, ASSURED\_PERSISTENT, EXPRESS\_NONPERSISTENT, RELIABLE\_NONPERSISTENT, RELIABLE\_PERSISTENT. |
+| Reliability | String | The Reliability for this WebSphere SIBPort. Acceptable values are: BEST_EFFORT_NONPERSISTENT, ASSURED_PERSISTENT, EXPRESS_NONPERSISTENT, RELIABLE_NONPERSISTENT, RELIABLE_PERSISTENT. |
 | Send Allowed | Boolean | The Send Allowed for this WebSphere SIBPort |
 | Uuid | String | The Uuid for this WebSphere SIBPort |
 
@@ -8638,17 +8638,17 @@ Role for resources that represents a WebSphere SIBQueue
 | Default Priority | String | The Default Priority for this WebSphere SIBQueue |
 | Description | String | The Description for this WebSphere SIBQueue |
 | Exception Destination | String | The Exception Destination for this WebSphere SIBQueue |
-| Exception Discard Reliability | String | The Exception Discard Reliability for this WebSphere SIBQueue. Acceptable values are: BEST\_EFFORT\_NONPERSISTENT, ASSURED\_PERSISTENT, EXPRESS\_NONPERSISTENT, RELIABLE\_NONPERSISTENT, RELIABLE\_PERSISTENT. |
+| Exception Discard Reliability | String | The Exception Discard Reliability for this WebSphere SIBQueue. Acceptable values are: BEST_EFFORT_NONPERSISTENT, ASSURED_PERSISTENT, EXPRESS_NONPERSISTENT, RELIABLE_NONPERSISTENT, RELIABLE_PERSISTENT. |
 | Identifier | String | The Identifier for this WebSphere SIBQueue |
 | Instance Type | String | The Instance Type for this WebSphere SIBQueue |
 | Maintain Strict Message Order | Boolean | The Maintain Strict Message Order for this WebSphere SIBQueue |
 | Max Failed Deliveries | String | The Max Failed Deliveries for this WebSphere SIBQueue |
-| Max Reliability | String | The Max Reliability for this WebSphere SIBQueue. Acceptable values are: BEST\_EFFORT\_NONPERSISTENT, ASSURED\_PERSISTENT, EXPRESS\_NONPERSISTENT, RELIABLE\_NONPERSISTENT, RELIABLE\_PERSISTENT. |
+| Max Reliability | String | The Max Reliability for this WebSphere SIBQueue. Acceptable values are: BEST_EFFORT_NONPERSISTENT, ASSURED_PERSISTENT, EXPRESS_NONPERSISTENT, RELIABLE_NONPERSISTENT, RELIABLE_PERSISTENT. |
 | Override Of Q O S By Producer Allowed | Boolean | The Override Of Q O S By Producer Allowed for this WebSphere SIBQueue |
 | Persist Redelivery Count | Boolean | The Persist Redelivery Count for this WebSphere SIBQueue |
 | Receive Allowed | Boolean | The Receive Allowed for this WebSphere SIBQueue |
 | Receive Exclusive | Boolean | The Receive Exclusive for this WebSphere SIBQueue |
-| Reliability | String | The Reliability for this WebSphere SIBQueue. Acceptable values are: BEST\_EFFORT\_NONPERSISTENT, ASSURED\_PERSISTENT, EXPRESS\_NONPERSISTENT, RELIABLE\_NONPERSISTENT, RELIABLE\_PERSISTENT. |
+| Reliability | String | The Reliability for this WebSphere SIBQueue. Acceptable values are: BEST_EFFORT_NONPERSISTENT, ASSURED_PERSISTENT, EXPRESS_NONPERSISTENT, RELIABLE_NONPERSISTENT, RELIABLE_PERSISTENT. |
 | Send Allowed | Boolean | The Send Allowed for this WebSphere SIBQueue |
 | Uuid | String | The Uuid for this WebSphere SIBQueue |
 
@@ -8687,16 +8687,16 @@ Role for resources that represents a WebSphere SIBTopicSpace
 | Default Priority | String | The Default Priority for this WebSphere SIBTopicSpace |
 | Description | String | The Description for this WebSphere SIBTopicSpace |
 | Exception Destination | String | The Exception Destination for this WebSphere SIBTopicSpace |
-| Exception Discard Reliability | String | The Exception Discard Reliability for this WebSphere SIBTopicSpace. Acceptable values are: BEST\_EFFORT\_NONPERSISTENT, ASSURED\_PERSISTENT, EXPRESS\_NONPERSISTENT, RELIABLE\_NONPERSISTENT, RELIABLE\_PERSISTENT. |
+| Exception Discard Reliability | String | The Exception Discard Reliability for this WebSphere SIBTopicSpace. Acceptable values are: BEST_EFFORT_NONPERSISTENT, ASSURED_PERSISTENT, EXPRESS_NONPERSISTENT, RELIABLE_NONPERSISTENT, RELIABLE_PERSISTENT. |
 | Identifier | String | The Identifier for this WebSphere SIBTopicSpace |
 | Instance Type | String | The Instance Type for this WebSphere SIBTopicSpace |
 | Maintain Strict Message Order | Boolean | The Maintain Strict Message Order for this WebSphere SIBTopicSpace |
 | Max Failed Deliveries | String | The Max Failed Deliveries for this WebSphere SIBTopicSpace |
-| Max Reliability | String | The Max Reliability for this WebSphere SIBTopicSpace. Acceptable values are: BEST\_EFFORT\_NONPERSISTENT, ASSURED\_PERSISTENT, EXPRESS\_NONPERSISTENT, RELIABLE\_NONPERSISTENT, RELIABLE\_PERSISTENT. |
+| Max Reliability | String | The Max Reliability for this WebSphere SIBTopicSpace. Acceptable values are: BEST_EFFORT_NONPERSISTENT, ASSURED_PERSISTENT, EXPRESS_NONPERSISTENT, RELIABLE_NONPERSISTENT, RELIABLE_PERSISTENT. |
 | Override Of Q O S By Producer Allowed | Boolean | The Override Of Q O S By Producer Allowed for this WebSphere SIBTopicSpace |
 | Persist Redelivery Count | Boolean | The Persist Redelivery Count for this WebSphere SIBTopicSpace |
 | Receive Allowed | Boolean | The Receive Allowed for this WebSphere SIBTopicSpace |
-| Reliability | String | The Reliability for this WebSphere SIBTopicSpace. Acceptable values are: BEST\_EFFORT\_NONPERSISTENT, ASSURED\_PERSISTENT, EXPRESS\_NONPERSISTENT, RELIABLE\_NONPERSISTENT, RELIABLE\_PERSISTENT. |
+| Reliability | String | The Reliability for this WebSphere SIBTopicSpace. Acceptable values are: BEST_EFFORT_NONPERSISTENT, ASSURED_PERSISTENT, EXPRESS_NONPERSISTENT, RELIABLE_NONPERSISTENT, RELIABLE_PERSISTENT. |
 | Send Allowed | Boolean | The Send Allowed for this WebSphere SIBTopicSpace |
 | Topic Access Check Required | Boolean | The Topic Access Check Required for this WebSphere SIBTopicSpace |
 | Uuid | String | The Uuid for this WebSphere SIBTopicSpace |
@@ -9028,7 +9028,7 @@ Role for resources that represents a WebSphere SIBWSWSDLLocation
 | Name | Type | Description |
 | --- | --- | --- |
 | W S D L Location | String | The W S D L Location for this WebSphere SIBWSWSDLLocation |
-| W S D L Location Kind | String | The W S D L Location Kind for this WebSphere SIBWSWSDLLocation. Acceptable values are: UDDI\_REFERENCE, URL\_TO\_WSDL. |
+| W S D L Location Kind | String | The W S D L Location Kind for this WebSphere SIBWSWSDLLocation. Acceptable values are: UDDI_REFERENCE, URL_TO_WSDL. |
 | W S D L Service Name | String | The W S D L Service Name for this WebSphere SIBWSWSDLLocation |
 | W S D L Service Namespace | String | The W S D L Service Namespace for this WebSphere SIBWSWSDLLocation |
 | W S D L U D D I Reference | String | The W S D L U D D I Reference for this WebSphere SIBWSWSDLLocation |
@@ -9044,17 +9044,17 @@ Role for resources that represents a WebSphere SIBWebService
 | Default Priority | String | The Default Priority for this WebSphere SIBWebService |
 | Description | String | The Description for this WebSphere SIBWebService |
 | Exception Destination | String | The Exception Destination for this WebSphere SIBWebService |
-| Exception Discard Reliability | String | The Exception Discard Reliability for this WebSphere SIBWebService. Acceptable values are: BEST\_EFFORT\_NONPERSISTENT, ASSURED\_PERSISTENT, EXPRESS\_NONPERSISTENT, RELIABLE\_NONPERSISTENT, RELIABLE\_PERSISTENT. |
+| Exception Discard Reliability | String | The Exception Discard Reliability for this WebSphere SIBWebService. Acceptable values are: BEST_EFFORT_NONPERSISTENT, ASSURED_PERSISTENT, EXPRESS_NONPERSISTENT, RELIABLE_NONPERSISTENT, RELIABLE_PERSISTENT. |
 | Identifier | String | The Identifier for this WebSphere SIBWebService |
 | Instance Type | String | The Instance Type for this WebSphere SIBWebService |
 | Maintain Strict Message Order | Boolean | The Maintain Strict Message Order for this WebSphere SIBWebService |
 | Max Failed Deliveries | String | The Max Failed Deliveries for this WebSphere SIBWebService |
-| Max Reliability | String | The Max Reliability for this WebSphere SIBWebService. Acceptable values are: BEST\_EFFORT\_NONPERSISTENT, ASSURED\_PERSISTENT, EXPRESS\_NONPERSISTENT, RELIABLE\_NONPERSISTENT, RELIABLE\_PERSISTENT. |
+| Max Reliability | String | The Max Reliability for this WebSphere SIBWebService. Acceptable values are: BEST_EFFORT_NONPERSISTENT, ASSURED_PERSISTENT, EXPRESS_NONPERSISTENT, RELIABLE_NONPERSISTENT, RELIABLE_PERSISTENT. |
 | Override Of Q O S By Producer Allowed | Boolean | The Override Of Q O S By Producer Allowed for this WebSphere SIBWebService |
 | Persist Redelivery Count | Boolean | The Persist Redelivery Count for this WebSphere SIBWebService |
 | Receive Allowed | Boolean | The Receive Allowed for this WebSphere SIBWebService |
 | Receive Exclusive | Boolean | The Receive Exclusive for this WebSphere SIBWebService |
-| Reliability | String | The Reliability for this WebSphere SIBWebService. Acceptable values are: BEST\_EFFORT\_NONPERSISTENT, ASSURED\_PERSISTENT, EXPRESS\_NONPERSISTENT, RELIABLE\_NONPERSISTENT, RELIABLE\_PERSISTENT. |
+| Reliability | String | The Reliability for this WebSphere SIBWebService. Acceptable values are: BEST_EFFORT_NONPERSISTENT, ASSURED_PERSISTENT, EXPRESS_NONPERSISTENT, RELIABLE_NONPERSISTENT, RELIABLE_PERSISTENT. |
 | Send Allowed | Boolean | The Send Allowed for this WebSphere SIBWebService |
 | Uuid | String | The Uuid for this WebSphere SIBWebService |
 
@@ -9065,7 +9065,7 @@ Role for resources that represents a WebSphere SIBus
 
 | Name | Type | Description |
 | --- | --- | --- |
-| Bootstrap Member Policy | String | The Bootstrap Member Policy for this WebSphere SIBus. Acceptable values are: MEMBERS\_ONLY, SIBSERVICE\_ENABLED, MEMBERS\_AND\_NOMINATED. |
+| Bootstrap Member Policy | String | The Bootstrap Member Policy for this WebSphere SIBus. Acceptable values are: MEMBERS_ONLY, SIBSERVICE_ENABLED, MEMBERS_AND_NOMINATED. |
 | Configuration Reload Enabled | Boolean | The Configuration Reload Enabled for this WebSphere SIBus |
 | Description | String | The Description for this WebSphere SIBus |
 | Discard Msgs After Queue Deletion | Boolean | The Discard Msgs After Queue Deletion for this WebSphere SIBus |
@@ -9076,7 +9076,7 @@ Role for resources that represents a WebSphere SIBus
 | Protocol | String | The Protocol for this WebSphere SIBus |
 | Secure | Boolean | The Secure for this WebSphere SIBus |
 | Security Group Cache Timeout | String | The Security Group Cache Timeout for this WebSphere SIBus |
-| Use Permitted Chains | String | The Use Permitted Chains for this WebSphere SIBus. Acceptable values are: SSL\_ENABLED, LISTED, ALL. |
+| Use Permitted Chains | String | The Use Permitted Chains for this WebSphere SIBus. Acceptable values are: SSL_ENABLED, LISTED, ALL. |
 | Use Server Id For Mediations | Boolean | The Use Server Id For Mediations for this WebSphere SIBus |
 | Uuid | String | The Uuid for this WebSphere SIBus |
 
@@ -9446,7 +9446,7 @@ Role for resources that represents a WebSphere Security
 | Enforce Java2 Security | Boolean | The Enforce Java2 Security for this WebSphere Security |
 | Internal Server Id | String | The Internal Server Id for this WebSphere Security |
 | Issue Permission Warning | Boolean | The Issue Permission Warning for this WebSphere Security |
-| Scopename | Boolean | The Scope name for all the objects under. e.g. (cell):CloudBurstCell\_1 or (cell):CloudBurstCell\_1:(node):CloudBurstNode\_3\_1. |
+| Scopename | Boolean | The Scope name for all the objects under. e.g. (cell):CloudBurstCell_1 or (cell):CloudBurstCell_1:(node):CloudBurstNode_3_1. |
 | Use Domain Qualified User Names | Boolean | The Use Domain Qualified User Names for this WebSphere Security |
 | Use Local Security Server | Boolean | The Use Local Security Server for this WebSphere Security |
 
@@ -9726,7 +9726,7 @@ Role for resources that represents a WebSphere ServletCacheInstance
 | Name | String | The Name for this WebSphere ServletCacheInstance |
 | Provider Type | String | The Provider Type for this WebSphere ServletCacheInstance |
 | Push Frequency | String | The Push Frequency for this WebSphere ServletCacheInstance |
-| Replication Type | String | The Replication Type for this WebSphere ServletCacheInstance. Acceptable values are: PULL, PUSH, PUSH\_PULL, NONE. |
+| Replication Type | String | The Replication Type for this WebSphere ServletCacheInstance. Acceptable values are: PULL, PUSH, PUSH_PULL, NONE. |
 | Use Listener Context | Boolean | The Use Listener Context for this WebSphere ServletCacheInstance |
 
 ## WebSphereSessionBeanConfig
@@ -9746,7 +9746,7 @@ Role for resources that represents a WebSphere SessionDatabasePersistence
 | Name | Type | Description |
 | --- | --- | --- |
 | Datasource J N D I Name | String | The Datasource J N D I Name for this WebSphere SessionDatabasePersistence |
-| Db2 Row Size | String | The Db2 Row Size for this WebSphere SessionDatabasePersistence. Acceptable values are: ROW\_SIZE\_4KB, ROW\_SIZE\_32KB, ROW\_SIZE\_16KB, ROW\_SIZE\_8KB. |
+| Db2 Row Size | String | The Db2 Row Size for this WebSphere SessionDatabasePersistence. Acceptable values are: ROW_SIZE_4KB, ROW_SIZE_32KB, ROW_SIZE_16KB, ROW_SIZE_8KB. |
 | Password | Password | The Password for this WebSphere SessionDatabasePersistence |
 | Table Space Name | String | The Table Space Name for this WebSphere SessionDatabasePersistence |
 | User Id | String | The User Id for this WebSphere SessionDatabasePersistence |
@@ -9767,7 +9767,7 @@ Role for resources that represents a WebSphere SessionManager
 | Enable Security Integration | Boolean | The Enable Security Integration for this WebSphere SessionManager |
 | Enable Url Rewriting | Boolean | The Enable Url Rewriting for this WebSphere SessionManager |
 | Max Wait Time | String | The Max Wait Time for this WebSphere SessionManager |
-| Session Persistence Mode | String | The Session Persistence Mode for this WebSphere SessionManager. Acceptable values are: DATABASE, DATA\_REPLICATION, NONE. |
+| Session Persistence Mode | String | The Session Persistence Mode for this WebSphere SessionManager. Acceptable values are: DATABASE, DATA_REPLICATION, NONE. |
 
 ## WebSphereSessionSecurity
 
@@ -10178,8 +10178,8 @@ Role for resources that represents a WebSphere TraceService
 | Enable | Boolean | The Enable for this WebSphere TraceService |
 | Memory Buffer Size | String | The Memory Buffer Size for this WebSphere TraceService |
 | Startup Trace Specification | String | The Startup Trace Specification for this WebSphere TraceService |
-| Trace Format | String | The Trace Format for this WebSphere TraceService. Acceptable values are: LOG\_ANALYZER, BASIC, ADVANCED. |
-| Trace Output Type | String | The Trace Output Type for this WebSphere TraceService. Acceptable values are: SPECIFIED\_FILE, MEMORY\_BUFFER. |
+| Trace Format | String | The Trace Format for this WebSphere TraceService. Acceptable values are: LOG_ANALYZER, BASIC, ADVANCED. |
+| Trace Output Type | String | The Trace Output Type for this WebSphere TraceService. Acceptable values are: SPECIFIED_FILE, MEMORY_BUFFER. |
 
 ## WebSphereTransactionClass
 
@@ -10225,7 +10225,7 @@ Role for resources that represents a WebSphere TransactionService
 | Propogated Or B M T Tran Lifetime Timeout | String | The Propogated Or B M T Tran Lifetime Timeout for this WebSphere TransactionService |
 | Total Tran Lifetime Timeout | String | The Total Tran Lifetime Timeout for this WebSphere TransactionService |
 | Transaction Log Directory | String | The Transaction Log Directory for this WebSphere TransactionService |
-| W S Transaction Specification Level | String | The W S Transaction Specification Level for this WebSphere TransactionService. Acceptable values are: WSTX\_12, WSTX\_11, WSTX\_10. |
+| W S Transaction Specification Level | String | The W S Transaction Specification Level for this WebSphere TransactionService. Acceptable values are: WSTX_12, WSTX_11, WSTX_10. |
 | Wait For Commit Outcome | Boolean | The Wait For Commit Outcome for this WebSphere TransactionService |
 | Wstx U R L Prefix Specified | Boolean | The Wstx U R L Prefix Specified for this WebSphere TransactionService |
 
@@ -10346,8 +10346,8 @@ Role for resources that represents a WebSphere TuningParams
 | Max In Memory Session Count | String | The Max In Memory Session Count for this WebSphere TuningParams |
 | Schedule Invalidation | Boolean | The Schedule Invalidation for this WebSphere TuningParams |
 | Using Multi Row Schema | Boolean | The Using Multi Row Schema for this WebSphere TuningParams |
-| Write Contents | String | The Write Contents for this WebSphere TuningParams. Acceptable values are: ALL\_SESSION\_ATTRIBUTES, ONLY\_UPDATED\_ATTRIBUTES. |
-| Write Frequency | String | The Write Frequency for this WebSphere TuningParams. Acceptable values are: TIME\_BASED\_WRITE, END\_OF\_SERVLET\_SERVICE, MANUAL\_UPDATE. |
+| Write Contents | String | The Write Contents for this WebSphere TuningParams. Acceptable values are: ALL_SESSION_ATTRIBUTES, ONLY_UPDATED_ATTRIBUTES. |
+| Write Frequency | String | The Write Frequency for this WebSphere TuningParams. Acceptable values are: TIME_BASED_WRITE, END_OF_SERVLET_SERVICE, MANUAL_UPDATE. |
 | Write Interval | String | The Write Interval for this WebSphere TuningParams |
 
 ## WebSphereTunnelAccessPointGroup
@@ -10376,7 +10376,7 @@ Role for resources that represents a WebSphere TunnelPeerAccessPoint
 
 | Name | Type | Description |
 | --- | --- | --- |
-| Cell Access Permission | String | The Cell Access Permission for this WebSphere TunnelPeerAccessPoint. Acceptable values are: FULL\_ACCESS, READ\_ONLY, WRITE\_ONLY. |
+| Cell Access Permission | String | The Cell Access Permission for this WebSphere TunnelPeerAccessPoint. Acceptable values are: FULL_ACCESS, READ_ONLY, WRITE_ONLY. |
 | Cell Name | String | The Cell Name for this WebSphere TunnelPeerAccessPoint |
 | Name | String | The Name for this WebSphere TunnelPeerAccessPoint |
 | Retry Delay | String | The Retry Delay for this WebSphere TunnelPeerAccessPoint |
@@ -10680,7 +10680,7 @@ Role for resources that represents a WebSphere WASAddressingType
 | --- | --- | --- |
 | Enabled | Boolean | The Enabled for this WebSphere WASAddressingType |
 | Required | Boolean | The Required for this WebSphere WASAddressingType |
-| Responses | String | The Responses for this WebSphere WASAddressingType. Acceptable values are: NON\_ANONYMOUS, ALL, ANONYMOUS. |
+| Responses | String | The Responses for this WebSphere WASAddressingType. Acceptable values are: NON_ANONYMOUS, ALL, ANONYMOUS. |
 
 ## WebSphereWASBasicAuthData
 
@@ -10702,7 +10702,7 @@ Role for resources that represents a WebSphere WASDataSourceDefinition
 | Class Name | String | The Class Name for this WebSphere WASDataSourceDefinition |
 | Database Name | String | The Database Name for this WebSphere WASDataSourceDefinition |
 | Initial Pool Size | String | The Initial Pool Size for this WebSphere WASDataSourceDefinition |
-| Isolation Level | String | The Isolation Level for this WebSphere WASDataSourceDefinition. Acceptable values are: TRANSACTION\_READ\_UNCOMMITTED, TRANSACTION\_SERIALIZABLE, TRANSACTION\_REPEATABLE\_READ, TRANSACTION\_READ\_COMMITTED. |
+| Isolation Level | String | The Isolation Level for this WebSphere WASDataSourceDefinition. Acceptable values are: TRANSACTION_READ_UNCOMMITTED, TRANSACTION_SERIALIZABLE, TRANSACTION_REPEATABLE_READ, TRANSACTION_READ_COMMITTED. |
 | Login Timeout | String | The Login Timeout for this WebSphere WASDataSourceDefinition |
 | Max Idle Time | String | The Max Idle Time for this WebSphere WASDataSourceDefinition |
 | Max Pool Size | String | The Max Pool Size for this WebSphere WASDataSourceDefinition |
@@ -10877,12 +10877,12 @@ Role for resources that represents a WebSphere WASQueue
 | --- | --- | --- |
 | Category | String | The Category for this WebSphere WASQueue |
 | Description | String | The Description for this WebSphere WASQueue |
-| Expiry | String | The Expiry for this WebSphere WASQueue. Acceptable values are: APPLICATION\_DEFINED, SPECIFIED, UNLIMITED. |
+| Expiry | String | The Expiry for this WebSphere WASQueue. Acceptable values are: APPLICATION_DEFINED, SPECIFIED, UNLIMITED. |
 | Jndi Name | String | The Jndi Name for this WebSphere WASQueue |
 | Name | String | The Name for this WebSphere WASQueue |
 | Node | String | The Node for this WebSphere WASQueue |
-| Persistence | String | The Persistence for this WebSphere WASQueue. Acceptable values are: APPLICATION\_DEFINED, NONPERSISTENT, PERSISTENT. |
-| Priority | String | The Priority for this WebSphere WASQueue. Acceptable values are: APPLICATION\_DEFINED, SPECIFIED. |
+| Persistence | String | The Persistence for this WebSphere WASQueue. Acceptable values are: APPLICATION_DEFINED, NONPERSISTENT, PERSISTENT. |
+| Priority | String | The Priority for this WebSphere WASQueue. Acceptable values are: APPLICATION_DEFINED, SPECIFIED. |
 | Provider Type | String | The Provider Type for this WebSphere WASQueue |
 | Specified Expiry | String | The Specified Expiry for this WebSphere WASQueue |
 | Specified Priority | String | The Specified Priority for this WebSphere WASQueue |
@@ -10895,7 +10895,7 @@ Role for resources that represents a WebSphere WASQueueConnectionFactory
 | Name | Type | Description |
 | --- | --- | --- |
 | Auth Data Alias | String | The Auth Data Alias for this WebSphere WASQueueConnectionFactory |
-| Auth Mechanism Preference | String | The Auth Mechanism Preference for this WebSphere WASQueueConnectionFactory. Acceptable values are: BASIC\_PASSWORD, KERBEROS. |
+| Auth Mechanism Preference | String | The Auth Mechanism Preference for this WebSphere WASQueueConnectionFactory. Acceptable values are: BASIC_PASSWORD, KERBEROS. |
 | Category | String | The Category for this WebSphere WASQueueConnectionFactory |
 | Description | String | The Description for this WebSphere WASQueueConnectionFactory |
 | Diagnose Connection Usage | Boolean | The Diagnose Connection Usage for this WebSphere WASQueueConnectionFactory |
@@ -10965,7 +10965,7 @@ Role for resources that represents a WebSphere WASResourceRefExtension
 | Branch Coupling | String | The Branch Coupling for this WebSphere WASResourceRefExtension. Acceptable values are: TIGHT, LOOSE. |
 | Commit Priority | String | The Commit Priority for this WebSphere WASResourceRefExtension |
 | Connection Management Policy | String | The Connection Management Policy for this WebSphere WASResourceRefExtension. Acceptable values are: DEFAULT, AGGRESSIVE, NORMAL. |
-| Isolation Level | String | The Isolation Level for this WebSphere WASResourceRefExtension. Acceptable values are: TRANSACTION\_READ\_UNCOMMITTED, TRANSACTION\_SERIALIZABLE, TRANSACTION\_REPEATABLE\_READ, TRANSACTION\_READ\_COMMITTED, TRANSACTION\_NONE. |
+| Isolation Level | String | The Isolation Level for this WebSphere WASResourceRefExtension. Acceptable values are: TRANSACTION_READ_UNCOMMITTED, TRANSACTION_SERIALIZABLE, TRANSACTION_REPEATABLE_READ, TRANSACTION_READ_COMMITTED, TRANSACTION_NONE. |
 
 ## WebSphereWASRespectBindingType
 
@@ -11000,11 +11000,11 @@ Role for resources that represents a WebSphere WASTopic
 | --- | --- | --- |
 | Category | String | The Category for this WebSphere WASTopic |
 | Description | String | The Description for this WebSphere WASTopic |
-| Expiry | String | The Expiry for this WebSphere WASTopic. Acceptable values are: APPLICATION\_DEFINED, SPECIFIED, UNLIMITED. |
+| Expiry | String | The Expiry for this WebSphere WASTopic. Acceptable values are: APPLICATION_DEFINED, SPECIFIED, UNLIMITED. |
 | Jndi Name | String | The Jndi Name for this WebSphere WASTopic |
 | Name | String | The Name for this WebSphere WASTopic |
-| Persistence | String | The Persistence for this WebSphere WASTopic. Acceptable values are: APPLICATION\_DEFINED, NONPERSISTENT, PERSISTENT. |
-| Priority | String | The Priority for this WebSphere WASTopic. Acceptable values are: APPLICATION\_DEFINED, SPECIFIED. |
+| Persistence | String | The Persistence for this WebSphere WASTopic. Acceptable values are: APPLICATION_DEFINED, NONPERSISTENT, PERSISTENT. |
+| Priority | String | The Priority for this WebSphere WASTopic. Acceptable values are: APPLICATION_DEFINED, SPECIFIED. |
 | Provider Type | String | The Provider Type for this WebSphere WASTopic |
 | Specified Expiry | String | The Specified Expiry for this WebSphere WASTopic |
 | Specified Priority | String | The Specified Priority for this WebSphere WASTopic |
@@ -11018,7 +11018,7 @@ Role for resources that represents a WebSphere WASTopicConnectionFactory
 | Name | Type | Description |
 | --- | --- | --- |
 | Auth Data Alias | String | The Auth Data Alias for this WebSphere WASTopicConnectionFactory |
-| Auth Mechanism Preference | String | The Auth Mechanism Preference for this WebSphere WASTopicConnectionFactory. Acceptable values are: BASIC\_PASSWORD, KERBEROS. |
+| Auth Mechanism Preference | String | The Auth Mechanism Preference for this WebSphere WASTopicConnectionFactory. Acceptable values are: BASIC_PASSWORD, KERBEROS. |
 | Category | String | The Category for this WebSphere WASTopicConnectionFactory |
 | Client I D | String | The Client I D for this WebSphere WASTopicConnectionFactory |
 | Clone Support | Boolean | The Clone Support for this WebSphere WASTopicConnectionFactory |
@@ -11363,7 +11363,7 @@ Role for resources that represents a WebSphere WebModuleDeployment
 | Name | Type | Description |
 | --- | --- | --- |
 | Alt D D | String | The Alt D D for this WebSphere WebModuleDeployment |
-| Classloader Mode | String | The Classloader Mode for this WebSphere WebModuleDeployment. Acceptable values are: PARENT\_FIRST, PARENT\_LAST. |
+| Classloader Mode | String | The Classloader Mode for this WebSphere WebModuleDeployment. Acceptable values are: PARENT_FIRST, PARENT_LAST. |
 | Contains E J B Content | String | The Contains E J B Content for this WebSphere WebModuleDeployment |
 | Deployment Id | String | The Deployment Id for this WebSphere WebModuleDeployment |
 | Name | String | The Name for this WebSphere WebModuleDeployment |
@@ -11389,7 +11389,7 @@ Role for resources that represents a WebSphere WebServer
 | Webserver Admin Protocol | String | The Webserver Admin Protocol for this WebSphere WebServer. Acceptable values are: HTTPS, HTTP. |
 | Webserver Install Root | String | The Webserver Install Root for this WebSphere WebServer |
 | Webserver Protocol | String | The Webserver Protocol for this WebSphere WebServer. Acceptable values are: HTTPS, HTTP. |
-| Webserver Type | String | The Webserver Type for this WebSphere WebServer. Acceptable values are: HTTP\_SERVER, IIS, DOMINO, APACHE, SUNJAVASYSTEM, HTTPSERVER\_ZOS, IHS. |
+| Webserver Type | String | The Webserver Type for this WebSphere WebServer. Acceptable values are: HTTP_SERVER, IIS, DOMINO, APACHE, SUNJAVASYSTEM, HTTPSERVER_ZOS, IHS. |
 
 ## WebSphereWebserverPluginSettings
 
@@ -11542,7 +11542,7 @@ Role for resources that represents a WebSphere WorkloadManagementPolicy
 | --- | --- | --- |
 | Advisor U R I | String | The Advisor U R I for this WebSphere WorkloadManagementPolicy |
 | Availability Monitor Timeout | String | The Availability Monitor Timeout for this WebSphere WorkloadManagementPolicy |
-| Load Balancing Algorithm | String | The Load Balancing Algorithm for this WebSphere WorkloadManagementPolicy. Acceptable values are: RANDOM, WEIGHTED\_ROUND\_ROBIN. |
+| Load Balancing Algorithm | String | The Load Balancing Algorithm for this WebSphere WorkloadManagementPolicy. Acceptable values are: RANDOM, WEIGHTED_ROUND_ROBIN. |
 
 ## WebSphereWorkloadManagementServer
 

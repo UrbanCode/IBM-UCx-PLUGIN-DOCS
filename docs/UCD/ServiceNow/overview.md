@@ -98,13 +98,13 @@ Updated Check Deployment Window to compare times in UTC before converting to loc
 
 #### Version 22
 
-Fix generic CRUD steps to work correctly for all tables, other than change\_request. Minor naming and documentation updates.
+Fix generic CRUD steps to work correctly for all tables, other than change_request. Minor naming and documentation updates.
 
 #### Version 21
 
 Version 21 of the plug-in now supports the following features:
 
-* RFE 105985: Steps now use Record Number instead of sys\_id.
+* RFE 105985: Steps now use Record Number instead of sys_id.
 * Step names now more consistent with Service Now field values.
 * New step for checking if time falls within deployment window.
 * Plug-in no longer supports Service Now Dublin release.

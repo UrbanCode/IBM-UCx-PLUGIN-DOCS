@@ -3,8 +3,8 @@
 
 The IBM Cognos Analytics plug-in contains two steps:
 
-* The **Export** step exports content from the Cognos content store into a ZIP file. The ZIP file can be found in the `*Cognos\_installation\_directory*/deployment` directory.
-* The **Import** step imports the content from a ZIP file into the content store. Any existing content with the same name is overwritten and the new content is owned by the specified user. The ZIP file must be in the`*Cognos\_installation\_directory*/deployment` directory.
+* The **Export** step exports content from the Cognos content store into a ZIP file. The ZIP file can be found in the `*Cognos_installation_directory*/deployment` directory.
+* The **Import** step imports the content from a ZIP file into the content store. Any existing content with the same name is overwritten and the new content is owned by the specified user. The ZIP file must be in the`*Cognos_installation_directory*/deployment` directory.
 
 ## **Step palette**
 

@@ -14,7 +14,7 @@ Update one or more configuration entries by stanza on the Reverse Proxy Instance
 | Hostname | String | Host name of the appliance. | Yes |
 | Instance ID | String | Name of the instance to act on, which is a unique name that identifies the instance. | Yes |
 | Password | Password | The password to log on to the ISAM server. | Yes |
-| Stanza ID | String | The name of the resource stanza entry. For example, server. Note: This name cannot contain the string /entry\_name unless it is the start of the stanza name. ie /entry\_name/name is valid but /name/entry\_name is not. | Yes |
+| Stanza ID | String | The name of the resource stanza entry. For example, server. Note: This name cannot contain the string /entry_name unless it is the start of the stanza name. ie /entry_name/name is valid but /name/entry_name is not. | Yes |
 | Username | String | The user name to log on to the ISAM server. | Yes |
 
 

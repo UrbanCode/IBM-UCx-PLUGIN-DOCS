@@ -49,7 +49,7 @@ Creates an environment for the specified application.
 | Description | String | A description of of the environment to be created. | No |
 | Environment Name | String | The name of the environment to be created. | Yes |
 | Environment Profile | String | Specify the name of the environment profile to use to provision the new environment. This field is only valid for blueprints backed by resource templates imported from the cloud. | No |
-| Node Resource Properties | String | Properties that configure cloud resource nodes. Syntax: [node or script package name]/propertyName=propertyValue Examples: OS Node/HWAttributes.numvcpus=2install\_ucd\_agent/UCD\_Agent\_Name=newAgentName | No |
+| Node Resource Properties | String | Properties that configure cloud resource nodes. Syntax: [node or script package name]/propertyName=propertyValue Examples: OS Node/HWAttributes.numvcpus=2install_ucd_agent/UCD_Agent_Name=newAgentName | No |
 | Properties | String | Properties to be set on the new environment, using Java property file syntax. | No |
 | Require Approvals | Boolean | Check this box if the environment will require approval from an approval process to install versions or snapshots. | No |
 

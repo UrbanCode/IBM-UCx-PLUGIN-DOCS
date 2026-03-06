@@ -69,7 +69,7 @@ Role for resources that represents a WebSphere server cluster.
 | Prefer Local | Boolean | The Prefer Local property for this WebSphere server cluster. | ``${p?:resource/websphere.servercluster.preferlocal}`` |
 | Prefetch D W L M Table | Boolean | The Prefetch D W L M Table property for this WebSphere server cluster. | ``${p?:resource/websphere.servercluster.prefetchdwlmtable}`` |
 | Server I O Timeout Retry | String | The Server I/O Timeout Retry property for this WebSphere server cluster. | ``${p?:resource/websphere.servercluster.serveriotimeoutretry}`` |
-| Server Type | String | The server type for this WebSphere server cluster. Acceptable values are: PROXY\_SERVER, APPLICATION\_SERVER, ONDEMAND\_ROUTER. | ``${p?:resource/websphere.servercluster.servertype}`` |
+| Server Type | String | The server type for this WebSphere server cluster. Acceptable values are: PROXY_SERVER, APPLICATION_SERVER, ONDEMAND_ROUTER. | ``${p?:resource/websphere.servercluster.servertype}`` |
 | Short Name | String | The short name for this WebSphere server cluster. | ``${p?:resource/websphere.servercluster.shortname}`` |
 
 ## WebSphereDynamicCluster

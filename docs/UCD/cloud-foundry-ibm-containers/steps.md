@@ -37,7 +37,7 @@ Create a container group for scaling containers.
 | Cloud Foundry CLI Path | String | Absolute path to the Cloud Foundry CLI executable file, specified if it is not already on the system path. | No |
 | Desired Instances | String | The number of required container instances. This is the number of containers by default. | No |
 | Domain Name | String | Domain name to combine with the host name to form the full public route URL (for example, .mybluemix.net). | No |
-| Environment Variables | String | Specify a key value pair for each environment variable to set on the containers. Split multiple variables by using a new line (for example, CSS\_BIND\_APP=MyApplication). | No |
+| Environment Variables | String | Specify a key value pair for each environment variable to set on the containers. Split multiple variables by using a new line (for example, CSS_BIND_APP=MyApplication). | No |
 | Exposed Port | String | Expose this port for HTTP traffic on the containers. You cannot include multiple ports for container groups. | No |
 | Group Name | String | Name to assign to the group. Must start with a letter and can include uppercase letters, lowercase letters, numbers, periods, underscores, or hyphens. | Yes |
 | Host Name | String | Host name to combine with the domain to form the full public route URL. | No |
@@ -55,7 +55,7 @@ Execute a command on a running container. You must be logged in to Cloud Foundry
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | Additional command-line arguments to pass when running this command separated by new lines (for example, user USERNAME). | No |
 | Cloud Foundry CLI Path | String | Absolute path to the Cloud Foundry CLI executable file, specified if it is not already on the system path. | No |
-| Command | String | The command to run within the container (for example, cp /root/dependency.jar ``${JAVA\_HOME}``/lib). | No |
+| Command | String | The command to run within the container (for example, cp /root/dependency.jar ``${JAVA_HOME}``/lib). | No |
 | Container Name/ID | String | The name or ID of the container on which to run a command. | No |
 
 ## Initialize Plug-in
@@ -147,7 +147,7 @@ before running this step by either running the Log in to Cloud Foundry step or b
 | Additional Arguments | String | Additional command-line arguments to pass when running this command (for example, memory 1024). | No |
 | Bind Application | String | The name of the application to bind to the running container. | No |
 | Cloud Foundry CLI Path | String | Absolute path to the Cloud Foundry CLI executable file, specified if it is not already on the system path. | No |
-| Command | String | Command to run on the container (for example, export GROOVY\_HOME=/opt/groovy). | No |
+| Command | String | Command to run on the container (for example, export GROOVY_HOME=/opt/groovy). | No |
 | Container Name | String | Name to assign to the running container. | No |
 | Exposed Ports | Boolean | Automatically expose any ports specified in the images Dockerfile document for HTTP traffic. | No |
 | Image Name/ID | String | The name or ID of the image to use for running the container. | Yes |

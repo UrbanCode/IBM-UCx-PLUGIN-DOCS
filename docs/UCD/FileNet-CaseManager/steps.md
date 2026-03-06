@@ -22,7 +22,7 @@ Exports a case management solution from the development environment.
 | Install Path | String | The location where IBM Case Manager is installed. For Linux, default is /opt/IBM/CaseManagement. For Windows, default is C:\Program Files\IBM\CaseManagement. | Yes |
 | Profile | String | Specifies the profile to use (ex. develop1). | Yes |
 | Solution Name | String | Specifies the solution to export. | Yes |
-| Solution Package | String | Specifies the full path and file name for the exported solution package ZIP file.Defaults to solutionName\_profile.zip | No |
+| Solution Package | String | Specifies the full path and file name for the exported solution package ZIP file.Defaults to solutionName_profile.zip | No |
 
 ## Import Solution
 
@@ -50,7 +50,7 @@ The exportSolutionSecurityManifest command exports a case management security co
 | Install Path | String | The location where IBM Case Manager is installed. For Linux, default is /opt/IBM/CaseManagement. For Windows, default is C:\Program Files\IBM\CaseManagement. | Yes |
 | Profile | String | Specifies the profile to use. Can be specified as a name, full path to profile, or full path to input file. (ex. develop1). | Yes |
 | Manifest Names | String | Specifies the name of the security manifest. To enter multiple, specify each manifest name on a new line. | Yes |
-| Manifest Package | String | Specifies the exported security package ZIP file. You can specify the full path and file name for the exported security package ZIP file. Defaults to SolutionName\_securityManifest.zip. | Yes |
+| Manifest Package | String | Specifies the exported security package ZIP file. You can specify the full path and file name for the exported security package ZIP file. Defaults to SolutionName_securityManifest.zip. | Yes |
 | Solution Name | String | Specifies the name of the solution that is associated with the security configuration. | Yes |
 
 ## Import Security Manifest

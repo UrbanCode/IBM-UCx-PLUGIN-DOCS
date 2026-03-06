@@ -157,9 +157,9 @@ Modify the parameters of an existing Topic
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | Additional arguments will be added to the end of the command. Separate each argument by a newline or comma. | No |
 | Command Directory | String | Directory of the WebSphere MQ commands. | Yes |
-| Default Persistence | Enumeration: NONE, ASPARENT, NO, YES | The default message persistence when applications specify the MQPER\_PERSISTENCE\_AS\_TOPIC\_DEF option. Select YES if messages on this queue will survive the restart of the queue manager. | No |
+| Default Persistence | Enumeration: NONE, ASPARENT, NO, YES | The default message persistence when applications specify the MQPER_PERSISTENCE_AS_TOPIC_DEF option. Select YES if messages on this queue will survive the restart of the queue manager. | No |
 | Default Priority | Enumeration: NONE, ASPARENT, 0, 1, 3, 4, 5, 6, 7, 8, 9 | The default priority of messages published to the topic. | No |
-| Default Put Response | Enumeration: NONE, ASPARENT, SYNC, ASYNC | The default put response when applications specify the MQPMO\_RESPONSE\_AS\_DEF option. | No |
+| Default Put Response | Enumeration: NONE, ASPARENT, SYNC, ASYNC | The default put response when applications specify the MQPMO_RESPONSE_AS_DEF option. | No |
 | Delete Script File After Execution | Boolean | Delete the script file after executing it. | Yes |
 | Description | String | Plain-text comment. Maximum length of 64 characters. | No |
 | Is Batch | Boolean | Batch multiple commands in one script file and run using Run MSQC Script command. | Yes |
@@ -187,7 +187,7 @@ Configure the Secure Sockets Layer (SSL) settings for a channel.
 | Is Batch | Boolean | Select to combine multiple commands in one script file and run by using the Run MQ Batch Script step. | Yes |
 | Queue Manager Name | String | The name of the queue manager to work with. | Yes |
 | Require Client SSL Certificate | Boolean | Select to require a certificate from the SSL client. | Yes |
-| SSL Ciph | Enumeration: NONE, NULL\_MD5, NULL\_SHA, RC4\_MD5\_EXPORT, RC4\_MD5\_US, RC4\_SHA\_US, RC2\_MD5\_EXPORT, DES\_SHA\_EXPORT, RC4\_56\_SHA\_EXPORT1024, DES\_SHA\_EXPORT1024, TRIPLE\_DES\_SHA\_US, TLS\_RSA\_WITH\_AES\_128\_CBC\_SHA, TLS\_RSA\_WITH\_AES\_256\_CBC\_SHA, TLS\_RSA\_WITH\_DES\_CBC\_SHA, TLS\_RSA\_WITH\_3DES\_EDE\_CBC\_SHA, FIPS\_WITH\_DES\_CBC\_SHA, FIPS\_WITH\_3DES\_EDE\_CBC\_SHA, TLS\_RSA\_WITH\_AES\_128\_GCM\_SHA256, TLS\_RSA\_WITH\_AES\_256\_GCM\_SHA384, TLS\_RSA\_WITH\_AES\_128\_CBC\_SHA256, TLS\_RSA\_WITH\_AES\_256\_CBC\_SHA256, ECDHE\_ECDSA\_RC4\_128\_SHA256, ECDHE\_ECDSA\_3DES\_EDE\_CBC\_SHA256, ECDHE\_RSA\_RC4\_128\_SHA256, ECDHE\_RSA\_3DES\_EDE\_CBC\_SHA256, ECDHE\_ECDSA\_AES\_128\_CBC\_SHA256, ECDHE\_ECDSA\_AES\_256\_CBC\_SHA384, ECDHE\_RSA\_AES\_128\_CBC\_SHA256, ECDHE\_RSA\_AES\_256\_CBC\_SHA384, ECDHE\_ECDSA\_AES\_128\_GCM\_SHA256, ECDHE\_ECDSA\_AES\_256\_GCM\_SHA384, ECDHE\_RSA\_AES\_128\_GCM\_SHA256, ECDHE\_RSA\_AES\_256\_GCM\_SHA384, TLS\_RSA\_WITH\_NULL\_SHA256, ECDHE\_RSA\_NULL\_SHA256, ECDHE\_ECDSA\_NULL\_SHA256, TLS\_RSA\_WITH\_NULL\_NULL, TLS\_RSA\_WITH\_RC4\_128\_SHA256 | Select the cipher specification to use on the channel. | No |
+| SSL Ciph | Enumeration: NONE, NULL_MD5, NULL_SHA, RC4_MD5_EXPORT, RC4_MD5_US, RC4_SHA_US, RC2_MD5_EXPORT, DES_SHA_EXPORT, RC4_56_SHA_EXPORT1024, DES_SHA_EXPORT1024, TRIPLE_DES_SHA_US, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_DES_CBC_SHA, TLS_RSA_WITH_3DES_EDE_CBC_SHA, FIPS_WITH_DES_CBC_SHA, FIPS_WITH_3DES_EDE_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, ECDHE_ECDSA_RC4_128_SHA256, ECDHE_ECDSA_3DES_EDE_CBC_SHA256, ECDHE_RSA_RC4_128_SHA256, ECDHE_RSA_3DES_EDE_CBC_SHA256, ECDHE_ECDSA_AES_128_CBC_SHA256, ECDHE_ECDSA_AES_256_CBC_SHA384, ECDHE_RSA_AES_128_CBC_SHA256, ECDHE_RSA_AES_256_CBC_SHA384, ECDHE_ECDSA_AES_128_GCM_SHA256, ECDHE_ECDSA_AES_256_GCM_SHA384, ECDHE_RSA_AES_128_GCM_SHA256, ECDHE_RSA_AES_256_GCM_SHA384, TLS_RSA_WITH_NULL_SHA256, ECDHE_RSA_NULL_SHA256, ECDHE_ECDSA_NULL_SHA256, TLS_RSA_WITH_NULL_NULL, TLS_RSA_WITH_RC4_128_SHA256 | Select the cipher specification to use on the channel. | No |
 | SSL Peer | String | The filter text to compare with the Distinguished Name of the certificate from the peer queue manager or client at the other end of the channel. For example: ‘CN=First, CN=Second, O=IBM, C=US’ | No |
 | Script File | String | The name of the file to write the script to. | Yes |
 
@@ -205,7 +205,7 @@ Configure the Secure Sockets Layer (SSL) settings for a queue manager.
 | Queue Manager Name | String | The name of the queue manager to work with. | Yes |
 | SSL Key Ring Path | String | The name of the SSL key repository. | No |
 | Script File | String | The name of the file to write the script to. | Yes |
-| Suite B Stength | Enumeration: NONE, 128\_BIT, 192\_BIT, 128\_BIT,192\_BIT | Select whether Suite B-compliant cryptography is used and what strength is required. | Yes |
+| Suite B Stength | Enumeration: NONE, 128_BIT, 192_BIT, 128_BIT,192_BIT | Select whether Suite B-compliant cryptography is used and what strength is required. | Yes |
 
 Create Queue Manager
 --------------------
@@ -653,7 +653,7 @@ Set the permissions for a given object and type.
 
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
-| Authorities | String | A list, separated by commas or newline characters, of authorities in the format: (+|-)permission\_name. For Example: ‘+ADMCHG, -ALLMQI’ | No |
+| Authorities | String | A list, separated by commas or newline characters, of authorities in the format: (+|-)permission_name. For Example: ‘+ADMCHG, -ALLMQI’ | No |
 | Command Directory | String | The full path to the directory that contains the WebSphere MQ commands. | Yes |
 | Groups | String | A list, separated by commas or newline characters, of the groups to be given access permission to the object. | No |
 | Name | String | The name of the object. | Yes |
@@ -668,7 +668,7 @@ Set the permissions for a given queue.
 
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
-| Authorities | String | A list, separated by commas or newline characters, of authorities in the format: (+|-)permission\_name. For Example: ‘+ADMCHG, -ALLMQI’ | No |
+| Authorities | String | A list, separated by commas or newline characters, of authorities in the format: (+|-)permission_name. For Example: ‘+ADMCHG, -ALLMQI’ | No |
 | Command Directory | String | The full path to the directory that contains the WebSphere MQ commands. | Yes |
 | Groups | String | A list, separated by commas or newline characters, of the groups to be given access permission to the object. | No |
 | Principals | String | A list, separated by commas or newline characters, of the principals to be given access permission to the object. | No |
@@ -682,7 +682,7 @@ Set the permissions for a given topic.
 
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
-| Authorities | String | A list, separated by commas or newline characters, of authorities in the format: (+|-)permission\_name. For Example: ‘+ADMCHG, -ALLMQI’ | No |
+| Authorities | String | A list, separated by commas or newline characters, of authorities in the format: (+|-)permission_name. For Example: ‘+ADMCHG, -ALLMQI’ | No |
 | Command Directory | String | The full path to the directory that contains the WebSphere MQ commands. | Yes |
 | Groups | String | A list, separated by commas or newline characters, of the groups to be given access permission to the object. | No |
 | Principals | String | A list, separated by commas or newline characters, of the principals to be given access permission to the object. | No |

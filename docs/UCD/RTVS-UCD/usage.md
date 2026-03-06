@@ -51,7 +51,7 @@ To virtualize the web service, you can use the Green Hat plug-in to create a tra
 2. Use the Download Artifacts step from a source control plug-in such as the DevOps Versioned File Storage plug-in to download the user interface application.
 3. Use the Unzip step in the File Utils plug-in to extract the user interface application.
 4. Use the Modify Tomcat Artifacts step in the Tomcat plug-in to update the WSDL host name that the user interface application uses for calls to web services.
-5. Use the Update Config File step in the Tomcat plug-in to add the proxy information for IBM Rational Test Control Panel to the tomcat6 configuration file. For Tomcat, you change the JAVA\_OPTS properties for http.proxyHost and http.proxyPort to point to the host name and port number of the IBM Rational Test Control Panel proxy.
+5. Use the Update Config File step in the Tomcat plug-in to add the proxy information for IBM Rational Test Control Panel to the tomcat6 configuration file. For Tomcat, you change the JAVA_OPTS properties for http.proxyHost and http.proxyPort to point to the host name and port number of the IBM Rational Test Control Panel proxy.
 6. Use the Start Tomcat step in the Tomcat plug-in to start the application server.
 1. [Create Transient Environment](steps.md#create_transient_environment) Use a base environment that you have created in IBM Rational Test Control Panel to create a transient environment. The transient environment is used to start the stub with dynamic property values.
 2. [Update Transient Environment](steps.md#update_transient_environment) Update the environment with properties specific to the deployment environment.

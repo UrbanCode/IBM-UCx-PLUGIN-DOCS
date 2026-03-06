@@ -9,7 +9,7 @@ Role for resources that represents a Container Image Registry.
 | AWS Command Line File | String | When type is Amazon ECR. Command or path to the AWS command line interface. If specified, AWS authentication will be used.Ensure the User Name and Password properties are set to the AWS Access ID and Secret Key respectively. |
 | AWS Region | String | When type is Amazon ECR. Amazon ECR Region. |
 | Allow Insecure Connections | String | Set this property to true to allow insecure registry connections. |
-| CF\_HOME | String | When type is IBM Containers. The CF\_HOME environment variable specifies the location of config.json for authentication. |
+| CF_HOME | String | When type is IBM Containers. The CF_HOME environment variable specifies the location of config.json for authentication. |
 | Email | String | Email address associated with User Name. |
 | ICS API | String | When type is IBM Containers. The api to use when logging in to IBM Cloud Container Registry. |
 | ICS Organization | String | When type is IBM Containers. The IBM Cloud organization to login to. |

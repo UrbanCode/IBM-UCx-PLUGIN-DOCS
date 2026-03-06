@@ -29,7 +29,7 @@ The plug-in adds these roles automatically to resources. You cannot add these ro
 | --- | --- | --- |
 | Convert File Charset | Boolean | Select to convert the .nupkg artifact to a new charset during the import. |
 | Include prerelease packages | Boolean | Select to include prerelease packages during the import. |
-| NuGet URL | String | The fully-qualified URL of the NuGet repository. If you are retrieving a public NuGet package, use default value which is https://api-v2v3search-0.nuget.org. The URL format is different for the NuGet v2 and v3 servers. For v2 use the format: https://[server\_ip or domain\_name]/artifactory/api/nuget/nuget-hosted. For v3 use the format: https://[server\_ip or domain\_name]/artifactory/api/nuget/v3/nuget-hosted. |
+| NuGet URL | String | The fully-qualified URL of the NuGet repository. If you are retrieving a public NuGet package, use default value which is https://api-v2v3search-0.nuget.org. The URL format is different for the NuGet v2 and v3 servers. For v2 use the format: https://[server_ip or domain_name]/artifactory/api/nuget/nuget-hosted. For v3 use the format: https://[server_ip or domain_name]/artifactory/api/nuget/v3/nuget-hosted. |
 | Package Name | String | The name of the NuGet package to import. |
 | Password | Password | The password associated with the user name used to authenticate with the NuGet repository. |
 | Preserve Execute Permissions | Boolean | Select to save file execute permissions with files. |

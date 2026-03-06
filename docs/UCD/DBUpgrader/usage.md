@@ -59,8 +59,8 @@ If an error occurs while you are applying a change, the `<rollback>` element is 
 
 The DBUpgrader steps support tracking database changes over multiple releases. Each release will have its own row in the Database Version table, and its own upgrade XML file. Using multiple release XML files can help you keep your database changes organized and easy to maintain.For example, Product x has two code streams one for version 1 and another for version 2. Version 2 is currently in development along with an update with fixes for version 1. Version 2 includes changes to the database, such as new tables and columns. Two XML files are being maintained:
 
-* A file called upgrade\_1.0.xml, which contains Version 1 database features
-* A file called upgrade\_2.0.xml, which contains the Version 1 database features and the new feature for Version 2.
+* A file called upgrade_1.0.xml, which contains Version 1 database features
+* A file called upgrade_2.0.xml, which contains the Version 1 database features and the new feature for Version 2.
 
 When DB Upgrader runs on Product x Version 1, it uses only the `upgrade_1.0.xml` file. Only the updates to the Version 1 code stream are applied.
 
@@ -84,7 +84,7 @@ The Database Version table must have at least two columns.
 * One column to hold the release name which is constant
 * Another column to hold the version. The version is an integer value, which changes during a projects life.
 
-`RELEASE\_NAME: The name of the release, for example, 3.0. VERSION: The version of the current database, according to the corresponding release. Specify that the type of this column supports integers.`
+`RELEASE_NAME: The name of the release, for example, 3.0. VERSION: The version of the current database, according to the corresponding release. Specify that the type of this column supports integers.`
 
 Table name, column names, and types are relatively flexible, because you provide SQL statements to interact with this table.
 
@@ -111,7 +111,7 @@ The following table lists the elements and attributes that are used in the XML f
 |  |  | base-dir | The root directory that holds the librarys DB Upgrader files. |
 |  |  | file | The path to the librarys upgrade XML file. |
 |  |  | version table | The name of the libarys Database Version table. |
-|  |  | release-column | The name of the column that holds the name of the change-set release, for example, RELEASE\_NAME. |
+|  |  | release-column | The name of the column that holds the name of the change-set release, for example, RELEASE_NAME. |
 |  |  | version-column | The name of the column that holds the current version, for example, VERSION. |
 | `<change>` | A child of the `<change-set>` element that defines each separate version. | number | Provide the database version number that this change defines. Make sure that each subsequent `<change>` element increases this value by 1. When this change is applied, the Database Version table is updated so that the corresponding release is marked as having this version. |
 | `<description>` | A child of the `<change>` element. Information that describes the purpose of this change. The information is printed out when the change is applied. |  |  |

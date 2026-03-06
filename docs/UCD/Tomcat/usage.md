@@ -1,7 +1,7 @@
 
 # Usage
 
-If you have multiple Tomcat instances, you can specify the instance to use in the Start Tomcat step. The step includes properties for specifying the CATALINA\_BASE and CATALINA\_HOME variables.
+If you have multiple Tomcat instances, you can specify the instance to use in the Start Tomcat step. The step includes properties for specifying the CATALINA_BASE and CATALINA_HOME variables.
 
 For Tomcat 7 and later, ```${p:tomcat.manager.url}``` needs to contain /text at the end, such as `ManagerURL : http://localhost:8080/manager/text`. The manager user must also be added to the role manager-script in order to run ant tasks without CSRF denial (403 Errors).
 

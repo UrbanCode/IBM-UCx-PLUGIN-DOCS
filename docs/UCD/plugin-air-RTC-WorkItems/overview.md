@@ -39,9 +39,9 @@ Multiple work items can be specified in the Change Work Item Status and Add Work
 
 ### Version 10
 
-* Added support for the oslc\_cm namespace in the Additional Work Item attributes property.
-* If the rtc\_cm: is added to the beginning an Additional Work Item attribute property, it will now be properly added to the new work item.
-* If no namespace is specified, rtc\_cm will still be assumed.
+* Added support for the oslc_cm namespace in the Additional Work Item attributes property.
+* If the rtc_cm: is added to the beginning an Additional Work Item attribute property, it will now be properly added to the new work item.
+* If no namespace is specified, rtc_cm will still be assumed.
 
 ### Version 9
 

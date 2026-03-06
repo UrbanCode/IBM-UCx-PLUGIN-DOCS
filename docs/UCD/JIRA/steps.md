@@ -9,7 +9,7 @@ Use this step to add comments from the current changelog to the matching JIRA is
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Comment | String | The template to use for adding a comment to JIRA issues. | Yes |
-| Fail Mode | Enumeration: WARN\_ONLY, FAIL\_FAST, FAIL\_ON\_NO\_UPDATES | The action to take when an unknown issue ID is found. | Yes |
+| Fail Mode | Enumeration: WARN_ONLY, FAIL_FAST, FAIL_ON_NO_UPDATES | The action to take when an unknown issue ID is found. | Yes |
 | Issue IDs | String | A list of issue IDs to update. Separated by commas and/or newline characters. | Yes |
 | JIRA Base URL | String | The URL of the JIRA server. | Yes |
 | Password | Password | The password to use to connect to the JIRA server. | No |
@@ -27,7 +27,7 @@ Check JIRA Issues
 
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
-| Fail Mode | Enumeration: WARN\_ONLY, FAIL\_FAST, FAIL\_ON\_NO\_UPDATES, FAIL\_ON\_ANY\_FAILURE | The action to take when an issue ID cannot be found. | Yes |
+| Fail Mode | Enumeration: WARN_ONLY, FAIL_FAST, FAIL_ON_NO_UPDATES, FAIL_ON_ANY_FAILURE | The action to take when an issue ID cannot be found. | Yes |
 | Issue IDs | String | A list of issue IDs to check. Separated by commas and/or newline characters. | Yes |
 | JIRA Base URL | String | The URL of the JIRA server. | Yes |
 | Password | Password | The password to use to connect to the JIRA server. | No |
@@ -95,7 +95,7 @@ Use this step to edit fields on an existing JIRA issue.
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Components | String | Components to be added to the issue. Separated by commas and/or newline characters. | No |
 | Custom Fields | String | A JSON object used to set custom field values on the JIRA issue. If standard field names are used here, they will be silently ignored. See https://docs.atlassian.com/jira/REST/latest/ for syntax. | No |
-| Fail Mode | Enumeration: WARN\_ONLY, FAIL\_FAST, FAIL\_ON\_NO\_UPDATES, FAIL\_ON\_ANY\_FAILURE | The action to perform when an unknown issue ID is found. | Yes |
+| Fail Mode | Enumeration: WARN_ONLY, FAIL_FAST, FAIL_ON_NO_UPDATES, FAIL_ON_ANY_FAILURE | The action to perform when an unknown issue ID is found. | Yes |
 | Fix Versions | String | Fix versions to be added to the issue. Separated by commas and/or newline characters. | No |
 | Issue IDs | String | A list of issue IDs to edit. Separated by commas and/or newline characters. | Yes |
 | JIRA Base URL | String | The URL of the JIRA server. | Yes |
@@ -116,7 +116,7 @@ Use this step to perform JIRA issue transitions.
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Comment | String | Comments to add to the issue when it is updated. Leave the field blank to exclude comments. You can use scripts in this field. | No |
 | Custom Fields | String | A JSON object used to set custom field values on the JIRA issue during transition. If standard field names are used here, they will be silently ignored. See https://docs.atlassian.com/jira/REST/latest/ for syntax. | No |
-| Fail Mode | Enumeration: WARN\_ONLY, FAIL\_FAST, FAIL\_ON\_NO\_UPDATES, FAIL\_ON\_ANY\_FAILURE | The action to perform when an unknown issue ID is found. | Yes |
+| Fail Mode | Enumeration: WARN_ONLY, FAIL_FAST, FAIL_ON_NO_UPDATES, FAIL_ON_ANY_FAILURE | The action to perform when an unknown issue ID is found. | Yes |
 | Issue IDs | String | A list of issue IDs. Separated by commas and/or newline characters. | Yes |
 | JIRA Base URL | String | The URL of the JIRA server. | Yes |
 | Password | Password | The password to use to connect to the JIRA server. | No |

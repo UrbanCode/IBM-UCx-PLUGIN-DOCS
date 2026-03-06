@@ -22,7 +22,7 @@ You might encounter the following error when running plug-in steps:
 
 
 `Microsoft VBScript runtime error: ActiveX component can't create object: 'TDApiOle80.TDConnection'`
-To resolve the problem, locate the `OTAClient.dll` file, which is typically located in the `%LOCALAPPDATA%\HP\ALM-Client\*HPQC\_server\_hostname*` directory. Then run the following command to register the `OTAClient.dll` file.
+To resolve the problem, locate the `OTAClient.dll` file, which is typically located in the `%LOCALAPPDATA%\HP\ALM-Client\*HPQC_server_hostname*` directory. Then run the following command to register the `OTAClient.dll` file.
 
 
 %systemroot%\SysWoW64\regsvr32\*directory*/OTAClient.dll

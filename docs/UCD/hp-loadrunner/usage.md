@@ -17,7 +17,7 @@ When the HP LoadRunner plugin runs analysis on the test results it creates a fol
 
 Here is the default configuration for the Run Test Scenario step: [![](media/screen-shot-2018-11-15-at-2.25.23-pm.png)](media/screen-shot-2018-11-15-at-2.25.23-pm.png)
 
-Using this default configuration youll find the analysis results in the UCD\_LR\_RESULTS directory in your agents working directory. The default analysis template UCD\_ANALYSIS\_TEMPLATE generates an HTML report called An\_Report1.
+Using this default configuration youll find the analysis results in the UCD_LR_RESULTS directory in your agents working directory. The default analysis template UCD_ANALYSIS_TEMPLATE generates an HTML report called An_Report1.
 
 [![](media/screen-shot-2018-11-15-at-2.30.26-pm.png)](media/screen-shot-2018-11-15-at-2.30.26-pm.png)
 
@@ -60,7 +60,7 @@ You can generate a MicroFocus LoadRunner Result File in one of two ways:
 
 1. Run the HP LoadRunner plugin
 * This will generate the LRR file in your plugin steps working directory under a subdirectory of the name youve specified for the plugin steps LoadRunner Results Name field.
-* For instance, if you use the default working directory of a component named LR Test and specify the plugin steps LoadRunner Results Name as the default UCD\_LR\_RESULTS, youll find the UCD\_LR\_RESULTS.lrr file located in the following directory: [![](media/screen-shot-2018-11-14-at-4.12.30-pm-2.png)](media/screen-shot-2018-11-14-at-4.12.30-pm-2.png)
+* For instance, if you use the default working directory of a component named LR Test and specify the plugin steps LoadRunner Results Name as the default UCD_LR_RESULTS, youll find the UCD_LR_RESULTS.lrr file located in the following directory: [![](media/screen-shot-2018-11-14-at-4.12.30-pm-2.png)](media/screen-shot-2018-11-14-at-4.12.30-pm-2.png)
 2. Run your Test Scenario in the HP LoadRunner Controller directly
 * You can find more information for running HP LoadRunner Test Scenarios from the Micro Focus [Running Scenarios in Controller](https://admhelp.microfocus.com/lr/en/12.60/help/WebHelp/Content/Controller/toc_running_scenarios.htm) documentation.
 
@@ -70,7 +70,7 @@ After you open the LRR file in your HP LoadRunner Controller you can open the te
 
 [![](media/screen-shot-2018-11-14-at-2.46.00-pm-1.png)](media/screen-shot-2018-11-14-at-2.46.00-pm-1.png)
 
-From here youll select to add a new template and give it a name. It should be noted that it is a bad idea to select UCD\_ANALYSIS\_TEMPLATE as your new template name. If youve ever run the plugin with the default UCD\_ANALYSIS\_TEMPLATE template that is provided with the plugin, creating a new template of the same name will overwrite the imported one in HP LoadRunner. Also, if you intend to run with the plugins UCD\_ANALYSIS\_TEMPLATE in the future it will overwrite your custom made template of the same name.
+From here youll select to add a new template and give it a name. It should be noted that it is a bad idea to select UCD_ANALYSIS_TEMPLATE as your new template name. If youve ever run the plugin with the default UCD_ANALYSIS_TEMPLATE template that is provided with the plugin, creating a new template of the same name will overwrite the imported one in HP LoadRunner. Also, if you intend to run with the plugins UCD_ANALYSIS_TEMPLATE in the future it will overwrite your custom made template of the same name.
 
 [![](media/screen-shot-2018-11-14-at-5.12.11-pm.png)](media/screen-shot-2018-11-14-at-5.12.11-pm.png)
 
@@ -88,7 +88,7 @@ To use the template in the plugins Run Test Scenario step, you can specify the n
 
 
 
-This plugin comes with a predefined HP LoadRunner analysis template called UCD\_ANALYSIS\_TEMPLATE. Specifying this template for the plugin steps Template Name field will automatically install and use the template for analysis. UCD\_ANALYSIS\_TEMPLATE is also set as the default value for the Template Name field.
+This plugin comes with a predefined HP LoadRunner analysis template called UCD_ANALYSIS_TEMPLATE. Specifying this template for the plugin steps Template Name field will automatically install and use the template for analysis. UCD_ANALYSIS_TEMPLATE is also set as the default value for the Template Name field.
 
 [![](media/screen-shot-2018-11-15-at-1.43.59-pm.png)](media/screen-shot-2018-11-15-at-1.43.59-pm.png)
 
@@ -100,9 +100,9 @@ After executing this step youll notice a new template in your LoadRunner Analysi
 
 [![](media/screen-shot-2018-11-14-at-2.46.00-pm.png)](media/screen-shot-2018-11-14-at-2.46.00-pm.png)
 
-You can view all of the preconfigured settings of the UCD\_ANALYSIS\_TEMPLATE. It should be noted that any manual changes to this template will be overwritten when the plugin step runs again. For this reason, if you require a more custom template you may create your own and specify the name in the plugin step. Please see the plugin document entitled Customizing Analysis Templates for more information on using custom templates.
+You can view all of the preconfigured settings of the UCD_ANALYSIS_TEMPLATE. It should be noted that any manual changes to this template will be overwritten when the plugin step runs again. For this reason, if you require a more custom template you may create your own and specify the name in the plugin step. Please see the plugin document entitled Customizing Analysis Templates for more information on using custom templates.
 
 [![](media/screen-shot-2018-11-14-at-2.46.11-pm.png)](media/screen-shot-2018-11-14-at-2.46.11-pm.png)
 
-After the step runs it will generate an HTML report file called An\_Report1.html in your working directory. This directory will be the components working directory in the UCD agent by default.
+After the step runs it will generate an HTML report file called An_Report1.html in your working directory. This directory will be the components working directory in the UCD agent by default.
 

@@ -14,7 +14,7 @@ Create a new collective controller configuration in the WebSphere Liberty Profil
 | Server Name | String | The name of the server to act as the collective controller | Yes |
 | User Name | String | The name of the user to include in quickStartSecurity XML node | Yes |
 | WebSphere Liberty Installation Directory | String | The base directory of the WebSphere Liberty profile installation, such as /opt/IBM/WebSphere/Liberty/ | Yes |
-| WebSphere Liberty User Directory | String | The directory where WebSphere Liberty server configuration is held. Specify a value here when ``${wlp\_install\_dir}``/usr is not writable. | No |
+| WebSphere Liberty User Directory | String | The directory where WebSphere Liberty server configuration is held. Specify a value here when ``${wlp_install_dir}``/usr is not writable. | No |
 
 ## Create Server
 
@@ -25,7 +25,7 @@ Create a server in the WebSphere Liberty profile.
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Server Name(s) | String | The name of the server(s) to create. Multiple server names are separated by commas. | Yes |
 | WebSphere Liberty Installation Directory | String | The base directory for the WebSphere Liberty profile installation. For example: /opt/IBM/WebSphere/Liberty/ | Yes |
-| WebSphere Liberty User Directory | String | The directory where WebSphere Liberty server configuration is held. Specify a value here when ``${wlp\_install\_dir}``/usr is not writable. | No |
+| WebSphere Liberty User Directory | String | The directory where WebSphere Liberty server configuration is held. Specify a value here when ``${wlp_install_dir}``/usr is not writable. | No |
 
 ## Delete Server
 
@@ -36,7 +36,7 @@ Delete a server in the WebSphere Liberty profile.
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Server Name(s) | String | The name of the server(s) to delete. Multiple server names are separated by commas. | Yes |
 | WebSphere Liberty Installation Directory | String | The base directory of the WebSphere Liberty profile installation. For example: /opt/IBM/WebSphere/Liberty/ | Yes |
-| WebSphere Liberty User Directory | String | The directory where WebSphere Liberty server configuration is held. Specify a value here when ``${wlp\_install\_dir}``/usr is not writable. | No |
+| WebSphere Liberty User Directory | String | The directory where WebSphere Liberty server configuration is held. Specify a value here when ``${wlp_install_dir}``/usr is not writable. | No |
 
 ## Generate Component-Resource Properties
 
@@ -73,7 +73,7 @@ Install a WebSphere Liberty archive file.
 | Accept License | Boolean | Select to automatically accept the license if extracting from a jar file. | Yes |
 | Source File | String | The archive file to extract. | Yes |
 | WebSphere Liberty Installation Directory | String | The base directory of the WebSphere Liberty profile installation, such as /opt/IBM/WebSphere/Liberty/ | Yes |
-| WebSphere Liberty User Directory | String | The directory where WebSphere Liberty server configuration is held. Specify a value here when ``${wlp\_install\_dir}``/usr is not writable. | No |
+| WebSphere Liberty User Directory | String | The directory where WebSphere Liberty server configuration is held. Specify a value here when ``${wlp_install_dir}``/usr is not writable. | No |
 
 ## Install or Update Application with Server XML
 
@@ -90,7 +90,7 @@ Install or update an application in the WebSphere Liberty profile by editing the
 | Server Name | String | The name of the server to install the application into. | Yes |
 | Source File Location | String | Location of the application, expressed as an absolute path or a path that is relative to the server-level apps directory. | Yes |
 | WebSphere Liberty Installation Directory | String | The base directory of the WebSphere Liberty profile installation. For example: /opt/IBM/WebSphere/Liberty/ | Yes |
-| WebSphere Liberty User Directory | String | The directory where WebSphere Liberty server configuration is held. Specify a value here when ``${wlp\_install\_dir}``/usr is not writable. | No |
+| WebSphere Liberty User Directory | String | The directory where WebSphere Liberty server configuration is held. Specify a value here when ``${wlp_install_dir}``/usr is not writable. | No |
 
 ## Install or Update Applications with Dropins
 
@@ -102,7 +102,7 @@ Install or update an application in WebSphere Liberty by using the dropins direc
 | Server Name | String | The name of the server to install the application into. | Yes |
 | Source File | String | The archive file (for example, an EAR or WAR file) that contains the application to install. | Yes |
 | WebSphere Liberty Installation Directory | String | The base directory of the WebSphere Liberty profile installation. For example: /opt/IBM/WebSphere/Liberty/ | Yes |
-| WebSphere Liberty User Directory | String | The directory where WebSphere Liberty server configuration is held. Specify a value here when ``${wlp\_install\_dir}``/usr is not writable. | No |
+| WebSphere Liberty User Directory | String | The directory where WebSphere Liberty server configuration is held. Specify a value here when ``${wlp_install_dir}``/usr is not writable. | No |
 
 ## Join Collective
 
@@ -126,7 +126,7 @@ Join a server to the collective controlled by the designated controller.
 | Trust Store File Path | String | The path to the trust store to be used when connecting to the collective controller | No |
 | Trust Store Password | Password | The password for the trust store file. | No |
 | WebSphere Liberty Installation Directory | String | The base directory of the WebSphere Liberty profile installation, such as /opt/IBM/WebSphere/Liberty/. This path is on the host where the server joining the collective resides. | Yes |
-| WebSphere Liberty User Directory | String | The directory where WebSphere Liberty server configuration is held. Specify a value here when ``${wlp\_install\_dir}``/usr is not writable. | No |
+| WebSphere Liberty User Directory | String | The directory where WebSphere Liberty server configuration is held. Specify a value here when ``${wlp_install_dir}``/usr is not writable. | No |
 
 ## Merge Plugin Config
 
@@ -139,7 +139,7 @@ Merge multiple plugin-cfg.xml files into one xml for web servers for clarity and
 | Source Directory | String | Location of the source directory where all the plugin files are located, or a comma separated list of source plugin file names specified as full filepaths | Yes |
 | Target Directory | String | Parent directory of the merge-plugin-cofig file Optional. By default the merged file is generated in the same directory where pluginUtility.sh is located and named merged-plugin-cfg.xml. Users can either specify the directory name where the merged file must be placed, or a fully qualified file name. In case there is already a file named merged-plugin-cfg.xml or the specified file specified file name is already present, then the contents of the file will be overwritten. | No |
 | WebSphere Liberty Installation Directory | String | The base directory for the WebSphere Liberty profile installation. For example: /opt/IBM/WebSphere/Liberty/ | Yes |
-| WebSphere Liberty User Directory | String | The directory where WebSphere Liberty server configuration is held. Specify a value here when ``${wlp\_install\_dir}``/usr is not writable. | No |
+| WebSphere Liberty User Directory | String | The directory where WebSphere Liberty server configuration is held. Specify a value here when ``${wlp_install_dir}``/usr is not writable. | No |
 
 ## Propagate Plugin Config
 
@@ -164,7 +164,7 @@ Register a new host with the collective controlled by the designated controller.
 | Admin User Name | String | An Administrator user for the target Collective Controller | Yes |
 | Collective Controller Host Name | String | The host name of the target Collective Controller | Yes |
 | Collective Controller Port | String | The HTTPS port number of the target Collective Controller | Yes |
-| Host JAVA\_HOME Path | String | The path to the Java home directory for the registrant. | No |
+| Host JAVA_HOME Path | String | The path to the Java home directory for the registrant. | No |
 | Host Name | String | The name of the host that will be registered with the Collective | Yes |
 | Host Read Path | String | A readable path for the file transfer operations originated from the controller. Specify multiple paths on separate lines. | No |
 | Host Write Path | String | A writable path for the file transfer operations originated from the controller. Specify multiple paths on separate lines. | No |
@@ -173,7 +173,7 @@ Register a new host with the collective controlled by the designated controller.
 | SSH Private Key Password | Password | The password for the specified SSH key | No |
 | SSH Private Key Path | String | The path to the SSH key to use to authenticate to the host.Only one authentication option(rpcUserPassword or sshPrivateKey) should be used, but not both. | No |
 | WebSphere Liberty Installation Directory | String | The base directory of the WebSphere Liberty profile installation, such as /opt/IBM/WebSphere/Liberty/ | Yes |
-| WebSphere Liberty User Directory | String | The directory where WebSphere Liberty server configuration is held. Specify a value here when ``${wlp\_install\_dir}``/usr is not writable. | No |
+| WebSphere Liberty User Directory | String | The directory where WebSphere Liberty server configuration is held. Specify a value here when ``${wlp_install_dir}``/usr is not writable. | No |
 
 ## Replace Variable Values with Component-Resource Properties
 
@@ -216,7 +216,7 @@ Start one or more servers in the WebSphere Liberty profile. This step will creat
 | Trust Store File Path | String | The path to the trust store to be used when connecting to the collective controller | No |
 | Trust Store Password | Password | The password for the trust store file. | No |
 | WebSphere Liberty Installation Directory | String | The base directory of the WebSphere Liberty profile installation. For example: /opt/IBM/WebSphere/Liberty/. This path is on the host where the server being started resides. | Yes |
-| WebSphere Liberty User Directory | String | The directory where WebSphere Liberty server configuration is held. Specify a value here when ``${wlp\_install\_dir}``/usr is not writable. | No |
+| WebSphere Liberty User Directory | String | The directory where WebSphere Liberty server configuration is held. Specify a value here when ``${wlp_install_dir}``/usr is not writable. | No |
 
 ## Stop Application
 
@@ -250,7 +250,7 @@ Stop one or more servers in the WebSphere Liberty profile. This step will create
 | Trust Store File Path | String | The path to the trust store to be used when connecting to the collective controller | No |
 | Trust Store Password | Password | The password for the trust store file. | No |
 | WebSphere Liberty Installation Directory | String | The base directory of the WebSphere Liberty profile installation.For example: /opt/IBM/WebSphere/Liberty/. This path is on the host where the server being stopped resides. | Yes |
-| WebSphere Liberty User Directory | String | The directory where WebSphere Liberty server configuration is held. Specify a value here when ``${wlp\_install\_dir}``/usr is not writable. | No |
+| WebSphere Liberty User Directory | String | The directory where WebSphere Liberty server configuration is held. Specify a value here when ``${wlp_install_dir}``/usr is not writable. | No |
 
 ## Uninstall Application from Dropins
 
@@ -262,7 +262,7 @@ Uninstall an application from the WebSphere Liberty profile by using the dropins
 | Server Name | String | The name of the server to uninstall the application from. | Yes |
 | Source File Name | String | The full name of the archive file to uninstall. For example: JPetStore.war | Yes |
 | WebSphere Liberty Installation Directory | String | The base directory of the WebSphere Liberty profile installation. For example: /opt/IBM/WebSphere/Liberty/ | Yes |
-| WebSphere Liberty User Directory | String | The directory where WebSphere Liberty server configuration is held. Specify a value here when ``${wlp\_install\_dir}``/usr is not writable. | No |
+| WebSphere Liberty User Directory | String | The directory where WebSphere Liberty server configuration is held. Specify a value here when ``${wlp_install_dir}``/usr is not writable. | No |
 
 ## Uninstall Application with Server XML
 
@@ -275,7 +275,7 @@ Uninstall an application in the WebSphere Liberty profile by editing the server.
 | Application Name | String | The name of the application to uninstall. | Yes |
 | Server Name | String | The name of the server to uninstall the application from. | Yes |
 | WebSphere Liberty Installation Directory | String | The base directory of the WebSphere Liberty profile installation. For example: /opt/IBM/WebSphere/Liberty/ | Yes |
-| WebSphere Liberty User Directory | String | The directory where WebSphere Liberty server configuration is held. Specify a value here when ``${wlp\_install\_dir}``/usr is not writable. | No |
+| WebSphere Liberty User Directory | String | The directory where WebSphere Liberty server configuration is held. Specify a value here when ``${wlp_install_dir}``/usr is not writable. | No |
 
 ## Unregister Host
 
@@ -290,7 +290,7 @@ Unregisters a host and all of its associated servers from the collective.
 | Collective Controller Port | String | The HTTPS port number of the target Collective Controller | Yes |
 | Host Name | String | The name of the host that will be unregistered from the Collective | Yes |
 | WebSphere Liberty Installation Directory | String | The base directory of the WebSphere Liberty profile installation, such as /opt/IBM/WebSphere/Liberty/ | Yes |
-| WebSphere Liberty User Directory | String | The directory where WebSphere Liberty server configuration is held. Specify a value here when ``${wlp\_install\_dir}``/usr is not writable. | No |
+| WebSphere Liberty User Directory | String | The directory where WebSphere Liberty server configuration is held. Specify a value here when ``${wlp_install_dir}``/usr is not writable. | No |
 
 ## Update Host
 
@@ -305,7 +305,7 @@ Updates the authentication information for a host that has been registered with 
 | Admin User Name | String | An Administrator user for the target Collective Controller | Yes |
 | Collective Controller Host Name | String | The host name of the target Collective Controller | Yes |
 | Collective Controller Port | String | The HTTPS port number of the target Collective Controller | Yes |
-| Host JAVA\_HOME Path | String | The path to the Java home directory for the registrant. | No |
+| Host JAVA_HOME Path | String | The path to the Java home directory for the registrant. | No |
 | Host Name | String | The name of the registered host that will be updated within the Collective | Yes |
 | Host Read Path | String | A readable path for the file transfer operations originated from the controller. Specify multiple paths on separate lines. | No |
 | Host Write Path | String | A writable path for the file transfer operations originated from the controller. Specify multiple paths on separate lines. | No |
@@ -314,7 +314,7 @@ Updates the authentication information for a host that has been registered with 
 | SSH Private Key Password | Password | The password for the specified SSH key | No |
 | SSH Private Key Path | String | The path to the SSH key to use to authenticate to the host.Only one authentication option(rpcUserPassword or sshPrivateKey) should be used, but not both. | No |
 | WebSphere Liberty Installation Directory | String | The base directory of the WebSphere Liberty profile installation, such as /opt/IBM/WebSphere/Liberty/ | Yes |
-| WebSphere Liberty User Directory | String | The directory where WebSphere Liberty server configuration is held. Specify a value here when ``${wlp\_install\_dir}``/usr is not writable. | No |
+| WebSphere Liberty User Directory | String | The directory where WebSphere Liberty server configuration is held. Specify a value here when ``${wlp_install_dir}``/usr is not writable. | No |
 
 ## Upload File To Collective Host
 

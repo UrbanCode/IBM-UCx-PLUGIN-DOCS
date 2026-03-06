@@ -17,7 +17,7 @@ No special steps are required for installation. See [Installing plug-ins in IBM 
 
 ### Special note for ODM version 8.9.0 and earlier
 
-ODM version 8.9.1 introduces a REST API which is used by version 10 of this plugin. For older ODM versions which do not offer the REST API, several jars from the ODM server must be made available to the plugin in order for the plugin steps to run properly. The jars are listed below and can be found in the following location on the ODM server in the directory: $ODM\_SERVER\_LOCATION$/teamserver/lib. The jars must either be copied to the UCD agents lib directory, or specified in the Jar Path of the plug-in configuration. The plugin requires the following ODM jars:
+ODM version 8.9.1 introduces a REST API which is used by version 10 of this plugin. For older ODM versions which do not offer the REST API, several jars from the ODM server must be made available to the plugin in order for the plugin steps to run properly. The jars are listed below and can be found in the following location on the ODM server in the directory: $ODM_SERVER_LOCATION$/teamserver/lib. The jars must either be copied to the UCD agents lib directory, or specified in the Jar Path of the plug-in configuration. The plugin requires the following ODM jars:
 
 * jrules-engine.jar
 * jrules-language.jar

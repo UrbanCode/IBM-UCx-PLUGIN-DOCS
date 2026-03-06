@@ -6,21 +6,21 @@
 
 ## Import Version
 
-Import a new version from TFS\_SCM
+Import a new version from TFS_SCM
 
 This step has no input properties.
 
 
-## Roles in the TFS\_SCM plug-in
+## Roles in the TFS_SCM plug-in
 
 The plug-in adds these roles automatically to resources. You cannot add these roles manually.
 
 
-* [TFS\_SCMComponentProperties](#tfs_scmcomponentproperties_role)
-* [TFS\_SCMImportProperties](#tfs_scmimportproperties_role)
+* [TFS_SCMComponentProperties](#tfs_scmcomponentproperties_role)
+* [TFS_SCMImportProperties](#tfs_scmimportproperties_role)
 
 
-## TFS\_SCMComponentProperties
+## TFS_SCMComponentProperties
 
 
 | Name | Type | Description |
@@ -33,9 +33,9 @@ The plug-in adds these roles automatically to resources. You cannot add these ro
 | Preserve execute permissions | Boolean | For Linux and UNIX operating systems, retain the execute permissions for each file. |
 | Server Project Folder | String | The path variable to the project folder on Visual Studio Online or the Team Foundation Server server.By default, this variable is $/ followed by the name of the project. |
 | User | String | The user name for the account that has access to the Team Foundation Server or Visual Studio Online repository. |
-| Workspace | String | TThe name of the Team Foundation Server or Visual Studio Online workspace. To get a list of workspace namesfrom the server, run the following command: TF workspaces /server:Repository\_URL /login:user,password.For Visual Studio Online, alternate authentication credentials must be enabled. |
+| Workspace | String | TThe name of the Team Foundation Server or Visual Studio Online workspace. To get a list of workspace namesfrom the server, run the following command: TF workspaces /server:Repository_URL /login:user,password.For Visual Studio Online, alternate authentication credentials must be enabled. |
 
-## TFS\_SCMImportProperties
+## TFS_SCMImportProperties
 
 
 | Name | Type | Description |

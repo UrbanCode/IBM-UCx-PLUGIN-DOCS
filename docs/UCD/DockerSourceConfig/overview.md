@@ -152,8 +152,8 @@ Version 9 includes the following features:
 + Bearer Token for authentication is correctly parsed
 + Space UID is properly specified
 + OS dynamic file sperators added
-+ CF\_HOME is now specifiable
-+ CF\_HOME defaults to user\_home/.cf
++ CF_HOME is now specifiable
++ CF_HOME defaults to user_home/.cf
 * Set VersionID output property to enable Run Process After Version Import functionality.
 
 ### Version 8
@@ -161,7 +161,7 @@ Version 9 includes the following features:
 Version 8 includes the following features:
 
 * You can now import OpenShift labels as version properties.
-* You can now use the CF\_HOME environment variable and the cf login tool when you import from the IBM Containers service.
+* You can now use the CF_HOME environment variable and the cf login tool when you import from the IBM Containers service.
 
 ### Version 5
 

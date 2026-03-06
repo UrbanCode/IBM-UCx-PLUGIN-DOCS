@@ -66,14 +66,14 @@ Check that the current time falls within the start and end date of the change re
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Change Request Number | String | The value of the Number field for the relevant Change Request. | Yes |
-| End Date Field | String | The ServiceNow field name for the end date to check between. Defaults to end\_date. | No |
+| End Date Field | String | The ServiceNow field name for the end date to check between. Defaults to end_date. | No |
 | HTTP Proxy Host | String | Provide the hostname of the HTTP proxy to use to connect to ServiceNow. Eg proxy.domain.com | No |
 | HTTP Proxy Password | Password | Provide the password to authenticate with HTTP proxy. | No |
 | HTTP Proxy Port | String | Provide the port number of the HTTP proxy to use to connect to ServiceNow. | No |
 | HTTP Proxy User name | String | Provide the user name to authenticate with HTTP proxy. | No |
 | Password | Password | The password to be used to connect to the ServiceNow server. | No |
 | Server URL | String | The URL of your ServiceNow portal. Example: https://myaccount.service-now.com | Yes |
-| Start Date Field | String | The ServiceNow field name for the start date to check between. Defaults to start\_date. | No |
+| Start Date Field | String | The ServiceNow field name for the start date to check between. Defaults to start_date. | No |
 | Trust All Certificates | Boolean | Select to trust all unsecure certificates. | No |
 | User Name | String | The user name to be used to connect to the ServiceNow server. | No |
 
@@ -93,7 +93,7 @@ Check records in a specified table against specified field values.
 | Password | Password | The password to be used to connect to the ServiceNow server. | Yes |
 | Record Number | String | Newline separated list of unique IDs of record to check. Represents the record number (ex. CHG0040001). | Yes |
 | Server URL | String | The URL of your ServiceNow portal. Example: https://myaccount.service-now.com | Yes |
-| Table Name | String | The Name, what you see in the XML export, of the table to be updated. Example: change\_request | Yes |
+| Table Name | String | The Name, what you see in the XML export, of the table to be updated. Example: change_request | Yes |
 | Trust All Certificates | Boolean | Select to trust all unsecure certificates. | No |
 | User Name | String | The user name to be used to connect to the ServiceNow server. | Yes |
 
@@ -112,7 +112,7 @@ Creates records by table name and specified fields.
 | Server URL | String | The URL of your ServiceNow portal. Example: https://myaccount.service-now.com | Yes |
 | ServiceNow password | Password | Provide the password to authenticate with ServiceNow. | Yes |
 | ServiceNow user name | String | Provide the user name to authenticate with ServiceNow. | Yes |
-| Table Name | String | The Name (not the Label) of the table to be updated. Example: change\_request | Yes |
+| Table Name | String | The Name (not the Label) of the table to be updated. Example: change_request | Yes |
 | Trust All Certificates | Boolean | Select to trust all unsecure certificates. | No |
 
 ## Delete Multiple Table Records with Query
@@ -122,7 +122,7 @@ Deprecated. Please use the Run Encoded Query and Delete Records step instead.
 
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
-| CMDB Row Condition | String | The Encoded Query a row must match for deletion. See http://wiki.servicenow.com/index.php?title=Embedded:Encoded\_Query\_Strings for examples | Yes |
+| CMDB Row Condition | String | The Encoded Query a row must match for deletion. See http://wiki.servicenow.com/index.php?title=Embedded:Encoded_Query_Strings for examples | Yes |
 | HTTP Proxy Host | String | Provide the hostname of the HTTP proxy to use to connect to ServiceNow. Eg proxy.domain.com | No |
 | HTTP Proxy Password | Password | Provide the password to authenticate with HTTP proxy. | No |
 | HTTP Proxy Port | String | Provide the port number of the HTTP proxy to use to connect to ServiceNow. | No |
@@ -130,7 +130,7 @@ Deprecated. Please use the Run Encoded Query and Delete Records step instead.
 | Server URL | String | The URL of your ServiceNow portal. Example: https://myaccount.service-now.com | Yes |
 | ServiceNow Password | Password | Provide the password to authenticate with ServiceNow. | Yes |
 | ServiceNow User name | String | Provide the user name to authenticate with ServiceNow. | Yes |
-| Table Name | String | The name of the table to update. Example: change\_request | Yes |
+| Table Name | String | The name of the table to update. Example: change_request | Yes |
 | Trust All Certificates | Boolean | Select to trust all unsecure certificates. | No |
 
 ## Delete Records
@@ -148,7 +148,7 @@ Deletes records by table name and record number.
 | Server URL | String | The URL of your ServiceNow portal. Example: https://myaccount.service-now.com | Yes |
 | ServiceNow Password | Password | Provide the password to authenticate with ServiceNow. | Yes |
 | ServiceNow User name | String | Provide the user name to authenticate with ServiceNow. | Yes |
-| Table Name | String | The Name (not the Label) of the table to update. Example: change\_request | Yes |
+| Table Name | String | The Name (not the Label) of the table to update. Example: change_request | Yes |
 | Trust All Certificates | Boolean | Select to trust all unsecure certificates. | No |
 
 ## Run Encoded Query
@@ -166,7 +166,7 @@ Run an encoded query and receive a newline list of record system IDs to pass to 
 | HTTP Proxy User name | String | Provide the user name to authenticate with HTTP proxy. | No |
 | Password | Password | The password to be used to connect to the ServiceNow server. | Yes |
 | ServiceNow URL | String | The URL of your ServiceNow portal. Example: https://myaccount.service-now.com | Yes |
-| Table Name | String | The Name, what you see in the XML export, of the table to be updated. Example: change\_request | Yes |
+| Table Name | String | The Name, what you see in the XML export, of the table to be updated. Example: change_request | Yes |
 | Trust All Certificates | Boolean | Select to trust all unsecure certificates. | No |
 | User Name | String | The user name to be used to connect to the ServiceNow server. | Yes |
 
@@ -223,7 +223,7 @@ Update records by specifying field values.
 | Password | Password | The password to be used to connect to the ServiceNow server. | Yes |
 | Record Number | String | Newline separated list of unique IDs of record to check. Represents the record number (ex. CHG0040001). | Yes |
 | Server URL | String | The URL of your ServiceNow portal. Example: https://myaccount.service-now.com | Yes |
-| Table Name | String | The Name, what you see in the XML export, of the table to be updated. Example: change\_request | Yes |
+| Table Name | String | The Name, what you see in the XML export, of the table to be updated. Example: change_request | Yes |
 | Trust All Certificates | Boolean | Select to trust all unsecure certificates. | No |
 | User Name | String | The user name to be used to connect to the ServiceNow server. | Yes |
 

@@ -63,8 +63,8 @@ In the following example, a custom property is used to generate IBM DB2 database
 The following shiplist file shows the DB2 plan name as a custom property to the DBRM data set:
 
 ```yaml
-<manifest type="MANIFEST\_SHIPLIST">
-<container name="TONY.MORT.DEV.LOAD" type="PDS" deployType="CICS\_LOAD">
+<manifest type="MANIFEST_SHIPLIST">
+<container name="TONY.MORT.DEV.LOAD" type="PDS" deployType="CICS_LOAD">
 <resource name="JKECMORT" type="PDSMember"/>
 </container>
 <container name="TONY.MORT.DEV.DBRM" type="PDS" deployType="DBRM">

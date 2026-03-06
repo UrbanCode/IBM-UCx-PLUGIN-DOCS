@@ -23,8 +23,8 @@ To create a component by importing from a NuGet repository, complete the followi
 4. To use a template for the new component, select a template from the Template list. In this case, the component inherits source configuration, properties, and processes from the template.
 5. In the **Source Config Type** list, select **NuGet**.
 6. Specify the properties for the component. See [Settings](#settings) for property descriptions. **Notes:** The format of the **NuGet URL** property is different for the NuGet v2 and v3 servers.
-* For v2: `https://*[server\_ip or domain\_name]*/artifactory/api/nuget/nuget-hosted`
-* For v3: `https://*[server\_ip or domain\_name]*/artifactory/api/nuget/v3/nuget-hosted`
+* For v2: `https://*[server_ip or domain_name]*/artifactory/api/nuget/nuget-hosted`
+* For v3: `https://*[server_ip or domain_name]*/artifactory/api/nuget/v3/nuget-hosted`
 7. Click **Save**.
 
 ## Import a version

@@ -26,7 +26,7 @@
 5. Click **Save**.
 3. On the Resources page, click the **Actions** push button that is associated with the `WebSphereCell` resource, and then click **Configure using WebSphere Topology Discovery**. The discovery step runs. This step might take several minutes. A log is displayed to show progress.
 4. When the discovery process completes, close the log window, and then refresh the resource tree. Resources that represent the WebSphere Application Server components are displayed in the resource tree.
-5. Define properties for the `WebSphere_Portal` resource, which is located under `*cell\_name*/Nodes/*node\_name*/Portal Servers` in the resource tree. Click the resource, then the **Configuration** tab, then **Resource Properties**. The Edit Resource window is displayed, with **Role** set to **PortalServer**. The heading of the properties table is `Role Properties: PortalServer`, as shown in the following screen capture.[![WebSphere Portal properties](media/portal3_crop.png)](media/portal3_crop.png)
+5. Define properties for the `WebSphere_Portal` resource, which is located under `*cell_name*/Nodes/*node_name*/Portal Servers` in the resource tree. Click the resource, then the **Configuration** tab, then **Resource Properties**. The Edit Resource window is displayed, with **Role** set to **PortalServer**. The heading of the properties table is `Role Properties: PortalServer`, as shown in the following screen capture.[![WebSphere Portal properties](media/portal3_crop.png)](media/portal3_crop.png)
 * For ND topology, define the properties for `Portal Cluster`, `Portal Primary Node`, and `Portal Secondary Node` resources.
 * For a stand-alone topology, define the properties for the `Portal Node` resource.Define the following properties:
 
@@ -35,7 +35,7 @@
 * `portal.admin.user`: Portal administrator user name, by default `wpsadmin`
 * `portal.admin.password`: Portal administrator password, by default `wpsadmin`
 * `portal.config.port`: Portal configuration port, by default `10039`
-* `websphere.password`: WebSphere administrator password**Note:** The `portal.config.port` property must match the `XmlAccessPort` property that is defined in the `wkplc_comp.properties` file. For more information, see [Properties file: wkplc\_comp.properties](https://www.ibm.com/support/knowledgecenter/SSHRKX_8.5.0/mp/properties/wkplc_comp-dita.html).
+* `websphere.password`: WebSphere administrator password**Note:** The `portal.config.port` property must match the `XmlAccessPort` property that is defined in the `wkplc_comp.properties` file. For more information, see [Properties file: wkplc_comp.properties](https://www.ibm.com/support/knowledgecenter/SSHRKX_8.5.0/mp/properties/wkplc_comp-dita.html).
 6. Create components for the resources. You need one component for each resource to deploy.
 The following example screen capture shows a portlet WAR file that is stored in the root of a component.[![portal1](media/portal1.png)](media/portal1.png)
 7. Add the components to the resources.

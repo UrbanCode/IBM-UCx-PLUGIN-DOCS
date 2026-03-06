@@ -21,7 +21,7 @@ You can use this plug-in to create a simple or complex step. For example, the fo
 ```
 import java.text.SimpleDateFormat
 def today = new Date()
-def formattedDate = new SimpleDateFormat("yyyy-MM-dd\_hh-mm-ss").format(today)
+def formattedDate = new SimpleDateFormat("yyyy-MM-dd_hh-mm-ss").format(today)
 println "Setting output property 'date' to '$formattedDate'"
 println "Access the time stamp in later steps using \``${p:NameOfThisStep/date}``"
 outProps.put("date",formattedDate)

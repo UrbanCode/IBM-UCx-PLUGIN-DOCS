@@ -10,7 +10,7 @@ Use this step to check the status of a WebLogic server.
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Directory Offset | String | The directory offset relative to the current working directory where the step should run. | No |
 | Password | String | The password to use to authenticate with the WebLogic server. | No |
-| Path | String | The fully-qualified path of the Weblogic Scripting Tool directory. (ex. {oracle\_home}``/oracle\_common/common/bin/) | Yes |
+| Path | String | The fully-qualified path of the Weblogic Scripting Tool directory. (ex. {oracle_home}``/oracle_common/common/bin/) | Yes |
 | Server Name | String | The name of the WebLogic server. | Yes |
 | Server URL | String | The URL of the WebLogic server. The default WebLogic server URL is t3://localhost:7001. | No |
 | Username | String | The user name to use to authenticate with the WebLogic server. | No |
@@ -32,7 +32,7 @@ Use this step to deploy an application to a WebLogic server.
 | Username | String | The user name to use to authenticate with the WebLogic server. | No |
 | User Config File | String | Overrides Username and Password. Name and location of a user configuration file which contains an encrypted username and password. | No |
 | User Key File | String | Overrides Username and Password. Name and location of the key file that is associated with the specified user configuration file and is used to decrypt it. | No |
-| WLST Path | String | The fully-qualified path of the Weblogic Scripting Tool directory. (ex. {oracle\_home}``/oracle\_common/common/bin/) | Yes |
+| WLST Path | String | The fully-qualified path of the Weblogic Scripting Tool directory. (ex. {oracle_home}``/oracle_common/common/bin/) | Yes |
 
 ## Deploy SOA Composite Application
 
@@ -42,7 +42,7 @@ Use this step to deploy an Oracle SOA Composite Application to a WebLogic server
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Directory Offset | String | The directory offset relative to the current working directory where the step will run. | No |
-| Optional Args | String | A comma-separated list of arguments to append to the sca\_deployComposite command, in the form option=value with string values in single quotes. For example: overwrite=true, forceDefault=true, configplan=C:/path/to/configplan, partition=default | No |
+| Optional Args | String | A comma-separated list of arguments to append to the sca_deployComposite command, in the form option=value with string values in single quotes. For example: overwrite=true, forceDefault=true, configplan=C:/path/to/configplan, partition=default | No |
 | Password | Password | The password to use to authenticate with the WebLogic server. | No |
 | SAR Location | String | The absolute path to either a SAR file, a ZIP file that includes multiple SARS, MARS, or both, or an EAR file that contains a SAR file. | Yes |
 | SOA URL | String | URL of the server that hosts the SOA Infrastructure application (for example, http://myhost10:7001). | Yes |
@@ -50,7 +50,7 @@ Use this step to deploy an Oracle SOA Composite Application to a WebLogic server
 | Username | String | The user name to use to authenticate with the WebLogic server. | No |
 | User Config File | String | Overrides Username and Password. Name and location of a user configuration file which contains an encrypted username and password. | No |
 | User Key File | String | Overrides Username and Password. Name and location of the key file that is associated with the specified user configuration file and is used to decrypt it. | No |
-| WLST Path | String | The fully-qualified path of the Weblogic Scripting Tool directory. (ex. {oracle\_home}``/oracle\_common/common/bin/) | Yes |
+| WLST Path | String | The fully-qualified path of the Weblogic Scripting Tool directory. (ex. {oracle_home}``/oracle_common/common/bin/) | Yes |
 
 ## Execute Script
 
@@ -61,7 +61,7 @@ Use this step to execute user defined python script files.
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Directory Offset | String | The directory offset relative to the current working directory where the step should run. | No |
 | Script Files | String | User defined python scripts. | Yes |
-| WLST Path | String | The fully-qualified path of the WebLogic Scripting Tool directory. (ex. {oracle\_home}``/oracle\_common/common/bin/) | Yes |
+| WLST Path | String | The fully-qualified path of the WebLogic Scripting Tool directory. (ex. {oracle_home}``/oracle_common/common/bin/) | Yes |
 
 ## Resume Server
 
@@ -77,7 +77,7 @@ Use this step to resume a suspended WebLogic server.
 | Username | String | The user name to use to authenticate with the WebLogic server. | No |
 | User Config File | String | Overrides Username and Password. Name and location of a user configuration file which contains an encrypted username and password. | No |
 | User Key File | String | Overrides Username and Password. Name and location of the key file that is associated with the specified user configuration file and is used to decrypt it. | No |
-| WLST Path | String | The fully-qualified path of the Weblogic Scripting Tool directory. (ex. {oracle\_home}``/oracle\_common/common/bin/) | Yes |
+| WLST Path | String | The fully-qualified path of the Weblogic Scripting Tool directory. (ex. {oracle_home}``/oracle_common/common/bin/) | Yes |
 
 ## Shutdown Server
 
@@ -93,7 +93,7 @@ Use this step to shut down a WebLogic server.
 | Username | String | The user name to use to authenticate with the WebLogic server. | No |
 | User Config File | String | Overrides Username and Password. Name and location of a user configuration file which contains an encrypted username and password. | No |
 | User Key File | String | Overrides Username and Password. Name and location of the key file that is associated with the specified user configuration file and is used to decrypt it. | No |
-| WLST Path | String | The fully-qualified path of the Weblogic Scripting Tool directory. (ex. {oracle\_home}``/oracle\_common/common/bin/) | Yes |
+| WLST Path | String | The fully-qualified path of the Weblogic Scripting Tool directory. (ex. {oracle_home}``/oracle_common/common/bin/) | Yes |
 
 ## Start Application
 
@@ -109,7 +109,7 @@ Use this step to start a deployed application.
 | Username | String | The user name to use to authenticate with the WebLogic server. | No |
 | User Config File | String | Overrides Username and Password. Name and location of a user configuration file which contains an encrypted username and password. | No |
 | User Key File | String | Overrides Username and Password. Name and location of the key file that is associated with the specified user configuration file and is used to decrypt it. | No |
-| WLST Path | String | The fully-qualified path of the Weblogic Scripting Tool directory. (ex. {oracle\_home}``/oracle\_common/common/bin/) | Yes |
+| WLST Path | String | The fully-qualified path of the Weblogic Scripting Tool directory. (ex. {oracle_home}``/oracle_common/common/bin/) | Yes |
 
 ## Start Server
 
@@ -119,17 +119,17 @@ Use this step to start a WebLogic server.
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Directory Offset | String | The directory offset relative to the current working directory where the step should run. | No |
-| Domain Directory | String | The directory where the domain is created. The default is ``${MW\_HOME}``/user\_projects/domains/``${YOUR\_DOMAIN}``. | Yes |
+| Domain Directory | String | The directory where the domain is created. The default is ``${MW_HOME}``/user_projects/domains/``${YOUR_DOMAIN}``. | Yes |
 | Domain Name | String | The domain name that the WebLogic server exists in. | Yes |
 | Host Name | String | Host name of Node Manager. This argument defaults to localhost. | No |
-| NM Type | String | The Node Manager type.SSL is default.Note: If you specify plain for nmType, you must manually set the SecureListener parameter in WL\_HOME/common/nodemanager/nodemanager.properties to false. Otherwise, the nmConnect command will fail. | No |
+| NM Type | String | The Node Manager type.SSL is default.Note: If you specify plain for nmType, you must manually set the SecureListener parameter in WL_HOME/common/nodemanager/nodemanager.properties to false. Otherwise, the nmConnect command will fail. | No |
 | Password | String | The password to use to authenticate with the WebLogic server. | No |
 | Port | String | Port number of Node Manager. This default argument should be based on the Node Manager type, as follows: plain=5556, rsh=514, ssh=22, ssl=5556.If left blank, defaults to 5556. | No |
 | Server Name | String | The name of the WebLogic server. | Yes |
 | Username | String | The user name to use to authenticate with the WebLogic server. | No |
 | User Config File | String | Overrides Username and Password. Name and location of a user configuration file which contains an encrypted username and password. | No |
 | User Key File | String | Overrides Username and Password. Name and location of the key file that is associated with the specified user configuration file and is used to decrypt it. | No |
-| WLST Path | String | The fully-qualified path of the Weblogic Scripting Tool directory. (ex. {oracle\_home}``/oracle\_common/common/bin/) | Yes |
+| WLST Path | String | The fully-qualified path of the Weblogic Scripting Tool directory. (ex. {oracle_home}``/oracle_common/common/bin/) | Yes |
 
 ## Stop Application
 
@@ -145,7 +145,7 @@ Use this step to stop a running application.
 | Username | String | The user name to use to authenticate with the WebLogic server. | No |
 | User Config File | String | Overrides Username and Password. Name and location of a user configuration file which contains an encrypted username and password. | No |
 | User Key File | String | Overrides Username and Password. Name and location of the key file that is associated with the specified user configuration file and is used to decrypt it. | No |
-| WLST Path | String | The fully-qualified path of the Weblogic Scripting Tool directory. (ex. {oracle\_home}``/oracle\_common/common/bin/) | Yes |
+| WLST Path | String | The fully-qualified path of the Weblogic Scripting Tool directory. (ex. {oracle_home}``/oracle_common/common/bin/) | Yes |
 
 ## Suspend Server
 
@@ -161,7 +161,7 @@ Use this step to suspend a WebLogic server that is running.
 | Username | String | The user name use to authenticate with the WebLogic server. | No |
 | User Config File | String | Overrides Username and Password. Name and location of a user configuration file which contains an encrypted username and password. | No |
 | User Key File | String | Overrides Username and Password. Name and location of the key file that is associated with the specified user configuration file and is used to decrypt it. | No |
-| WLST Path | String | The fully-qualified path for the Weblogic Scripting Tool directory. (ex. {oracle\_home}``/oracle\_common/common/bin/) | Yes |
+| WLST Path | String | The fully-qualified path for the Weblogic Scripting Tool directory. (ex. {oracle_home}``/oracle_common/common/bin/) | Yes |
 
 ## Undeploy
 
@@ -177,6 +177,6 @@ Use this step to undeploy an application from the WebLogic server.
 | Username | String | The user name to use to authenticate with the WebLogic server. | No |
 | User Config File | String | Overrides Username and Password. Name and location of a user configuration file which contains an encrypted username and password. | No |
 | User Key File | String | Overrides Username and Password. Name and location of the key file that is associated with the specified user configuration file and is used to decrypt it. | No |
-| WLST Path | String | The fully-qualified path of the Weblogic Scripting Tool directory. (ex. {oracle\_home}``/oracle\_common/common/bin/) | Yes |
+| WLST Path | String | The fully-qualified path of the Weblogic Scripting Tool directory. (ex. {oracle_home}``/oracle_common/common/bin/) | Yes |
 
 

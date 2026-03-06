@@ -44,7 +44,7 @@ Business Rule for Deployment to UCD
 
 
 
-***Note:** For checking records in the change\_request table, this process was combined into one step in Version 18 of the ServiceNow plug-in, in the step Check Change Request Fields.*
+***Note:** For checking records in the change_request table, this process was combined into one step in Version 18 of the ServiceNow plug-in, in the step Check Change Request Fields.*
 
 1. Open the change record that contains the child change tasks to check.
 2. Right-click the child task to check, and then click **Show Matching**.

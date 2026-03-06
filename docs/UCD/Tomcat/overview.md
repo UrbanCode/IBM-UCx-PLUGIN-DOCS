@@ -43,5 +43,5 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ### Version 4.455075
 
-* Version 4 adds an option to specify the CATALINA\_BASE property for the Start Tomcat and Stop Tomcat steps.
+* Version 4 adds an option to specify the CATALINA_BASE property for the Start Tomcat and Stop Tomcat steps.
 

@@ -119,7 +119,7 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 ### Version 32
 
 * Provide proper error output when execution group doesnt exist.
-* Fixes APAR PI80814 The Deploy and Delete Flow using RegEx steps use the timeout instead of DEPLOYRESULT\_WAIT\_INDEFINITELY.
+* Fixes APAR PI80814 The Deploy and Delete Flow using RegEx steps use the timeout instead of DEPLOYRESULT_WAIT_INDEFINITELY.
 
 ### Version 31
 

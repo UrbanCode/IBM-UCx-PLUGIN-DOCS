@@ -45,7 +45,7 @@ The plug-in is configured by default to accept a -128 status as success. By defa
 
 Use one of the following options:
 
-* Insert `PowerShell -non-interactive *-Additional\_Parameters\_Here*`
+* Insert `PowerShell -non-interactive *-Additional_Parameters_Here*`
 * Use the Shell plug-in to interact with the command line.
 
 **How can I run the script in a multi-threaded apartment model?**

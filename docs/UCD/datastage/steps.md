@@ -14,7 +14,7 @@ Compile a DataStage job or routine silently. Note: All environmental dependencie
 | DataStage Script Path | String | Specify the full path to the client directory where the DataStage scripts are located. | Yes |
 | Domain | String | The host name of the services tier computer, including an optional port number. For example: localhost:8080 | No |
 | Force Compile | Boolean | Select to force the compilation of parallel jobs. | No |
-| Job or Routine Name | String | Specify the job or routines to compile. Specify a single name, an asterisk (\*) to compile all jobs or routines in the project, or category\_name\\* to compile all jobs or routinesin a category. If you specify a category, jobs and routines in subcategories are not included. | Yes |
+| Job or Routine Name | String | Specify the job or routines to compile. Specify a single name, an asterisk (\*) to compile all jobs or routines in the project, or category_name\\* to compile all jobs or routinesin a category. If you specify a category, jobs and routines in subcategories are not included. | Yes |
 | Only Uncompiled Jobs | Boolean | Select to compile only jobs that are uncompiled. | No |
 | Password | Password | The password to use to attach to the project. | Yes |
 | Project | String | The project that contains the jobs to compile. | Yes |
@@ -49,7 +49,7 @@ Delete InfoSphere DataStage or QualityStage assets.
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Abort After # Errors | Enumeration: 0, 1, 2, 3, 4, 5, 10, 20, 50 | Stops the deletion after the specified number of errors. | No |
-| Assets | String | Specify a list of InfoSphere DataStage and QualityStage assets to delete. Separate each asset with newlines or commas.A .txt file may also be specified that contains the same structure. Example: project/folder/asset\_name.suffix. View the `istool Delete` CLI documentation for a complete list of suffixes. The specified server will be appended to the beginning of each asset. | Yes |
+| Assets | String | Specify a list of InfoSphere DataStage and QualityStage assets to delete. Separate each asset with newlines or commas.A .txt file may also be specified that contains the same structure. Example: project/folder/asset_name.suffix. View the `istool Delete` CLI documentation for a complete list of suffixes. The specified server will be appended to the beginning of each asset. | Yes |
 | Domain | String | If you do not specify this parameter, the primary domain server is used for the connection. Example: is-server.ibm.com:9445 | No |
 | Password | Password | The password for the domain username. | No |
 | Server | String | Specifies that InfoSphere DataStage and QualityStage assets are to be deleted from the target server. Example: IS-SERVER. | Yes |

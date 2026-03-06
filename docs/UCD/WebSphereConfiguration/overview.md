@@ -178,7 +178,7 @@ Version 61 includes the following features:
 Version 60 includes the following fixes and features:
 
 * Introduces partial apply/partial remove support for the following object types: DataReplicationDomain, J2CAdminObject, VariableSubstitutionEntry(VariableMap)
-* Fixes APAR PI88870 Receive JMS\_IBM\_CHARACTER null runtime error after creating MQQueue configuration object
+* Fixes APAR PI88870 Receive JMS_IBM_CHARACTER null runtime error after creating MQQueue configuration object
 
 ### Version 58
 
@@ -282,7 +282,7 @@ Version 44 includes the following features and fixes for APARs and other issues:
 * APAR PI72029 CONFIGURATION DISCOVERY TRUNCATES BINDDN IF IT CONTAINS COMMA+SPACE.
 * APAR PI69624 Apply doesnt remove J2C Config Alias.
 * Live compare now uses UTF-8 to ensure encoding consistency.
-* APAR PI73164 Apply fails with following error: TypeError: \_\_add\_\_ nor \_\_radd\_\_ defined for these operands.
+* APAR PI73164 Apply fails with following error: TypeError: \__add\_\_ nor \__radd\_\_ defined for these operands.
 
 ### Version 41
 

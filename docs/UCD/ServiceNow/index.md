@@ -1,7 +1,7 @@
 
 # ServiceNow
 
-**Note:** *Beginning with Version 21 of the plug-in, the following steps no longer require sys\_ids, but take the record number (ex. CHG0040001) instead:*
+**Note:** *Beginning with Version 21 of the plug-in, the following steps no longer require sys_ids, but take the record number (ex. CHG0040001) instead:*
 
 - Check Records
 - Delete Records

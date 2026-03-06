@@ -174,7 +174,7 @@ Apply the properties in the specified properties file to the WebSphere configura
 | Port | String | The port to connect to. | No |
 | Properties File Name | String | The name of the properties file to apply. | Yes |
 | Report File Name | String | The name of a report file that contains the output for the applyConfigProperties command. | No |
-| Report Filter Mechanism | String | The type of report filter mechanism. Specify All to display all report information. Specify Errors to display error information. Specify Errors\_And\_Changes to display error and change information. | No |
+| Report Filter Mechanism | String | The type of report filter mechanism. Specify All to display all report information. Specify Errors to display error information. Specify Errors_And_Changes to display error and change information. | No |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 | Validate | String | Specifies whether to validate the properties file before applying the changes. | No |
 | Variables Map | String | The values of the variables to use with the properties file. | No |
@@ -775,7 +775,7 @@ Delete the properties in the specified properties file from the WebSphere config
 | Port | String | The port to connect to. | No |
 | Properties File Name | String | The name of the properties file containing the resources to delete. | Yes |
 | Report File Name | String | The name of a report file that contains the output for the deleteConfigProperties command. | No |
-| Report Filter Mechanism | String | The type of report filter mechanism. Specify All to display all report information. Specify Errors to display error information. Specify Errors\_And\_Changes to display error and change information. | No |
+| Report Filter Mechanism | String | The type of report filter mechanism. Specify All to display all report information. Specify Errors to display error information. Specify Errors_And_Changes to display error and change information. | No |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 | Validate | String | Specifies whether to validate the properties file before deleting the resources. | No |
 | Variables Map | String | The values of the variables to use with the properties file. | No |
@@ -1008,8 +1008,8 @@ Extracts configuration data in the form of a properties file
 | Password | Password | The password for connecting to the WebSphere node. | No |
 | Port | String | The port to connect to. | No |
 | Properties File Name | String | The name of the file to store the properties extracted from configuration | Yes |
-| Selected Sub Types Key | String | Specifies the configuration properties to include or exclude when the command extracts the properties. Specify this parameter if you set the filterMechanism parameter to NO\_SUBTYPES or SELECTED\_SUBTYPES. | No |
-| Selected Sub Types Value | String | The value to include or exclude when NO\_SUBTYPES or SELECTED\_SUBTYPES is set as filterMechanism | No |
+| Selected Sub Types Key | String | Specifies the configuration properties to include or exclude when the command extracts the properties. Specify this parameter if you set the filterMechanism parameter to NO_SUBTYPES or SELECTED_SUBTYPES. | No |
+| Selected Sub Types Value | String | The value to include or exclude when NO_SUBTYPES or SELECTED_SUBTYPES is set as filterMechanism | No |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 | Zip File Name | String | Specifies the name of the compressed file into which you want to extract policy sets. | No |
 
@@ -1499,7 +1499,7 @@ Modify the class loader settings for an application and associated web modules.
 | Name | Type | Description                                                                                                              | Required |
 | ---- | ---- | ------------------------------------------------------------------------------------------------------------------------ | -------- |
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
-| Application ClassLoader | String | The class loader mode to use for the overall application. Specify PARENT\_FIRST or PARENT\_LAST. | No |
+| Application ClassLoader | String | The class loader mode to use for the overall application. Specify PARENT_FIRST or PARENT_LAST. | No |
 | Application Edition | String | The edition of the application to modify. This is supported only for WebSphere Virtual Enterprise and WebSphere Application Server 8.5 and later. | No |
 | Application Name | String | The name of the application to update the class loader settings for. | No |
 | Batch Script | Boolean | Select to use this command as part of a batch script. When selected, this command is added to a batch script that is saved and can be run later. | No |
@@ -1515,7 +1515,7 @@ Modify the class loader settings for an application and associated web modules.
 | Server Name | String | The name of the server to administer. | No |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
 | WAR Classloader Policy | String | The policy that the classloader is to use to load the WAR modules of the application. Specify SINGLE or MULTIPLE. | No |
-| Web Module ClassLoader | String | The class loader mode to use for the web modules in the application. Specify PARENT\_FIRST or PARENT\_LAST. | No |
+| Web Module ClassLoader | String | The class loader mode to use for the web modules in the application. Specify PARENT_FIRST or PARENT_LAST. | No |
 
 ## Remove OSGI Bundle
 
@@ -1635,7 +1635,7 @@ Generate default IBM WebSphere Bindings for the specified EAR file.
 
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
-| Command Path | String | The full path to the directory that contains the ws\_ant tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
+| Command Path | String | The full path to the directory that contains the ws_ant tool. For example: /opt/IBM/WebSphere/AppServer/bin/ | No |
 | DB Password | Password | The password associated with the default data source. | No |
 | DB User | String | The user associated with the default data source. | No |
 | Default Connection Factory | String | The default connection factory to be used for all EJB 2.x CMPs. | No |
@@ -1971,7 +1971,7 @@ Update the virtual host for the specified web module(s) of the installed applica
 | Script File | String | The name of the script file to create or append to. | No |
 | Server Name | String | The name of the server to administer. | No |
 | User Name | String | The user name for connecting to the WebSphere node. | No |
-| Virtual Host For Web Module | String | The web modules and virtual hosts to update. Specify a list, separated by newline characters, in the following format: moduleName->uri->virtualHost. For example: PlantsByWebSphere Web Application->PlantsByWebSphere.war,WEB-INF/web.xml->default\_host | Yes |
+| Virtual Host For Web Module | String | The web modules and virtual hosts to update. Specify a list, separated by newline characters, in the following format: moduleName->uri->virtualHost. For example: PlantsByWebSphere Web Application->PlantsByWebSphere.war,WEB-INF/web.xml->default_host | Yes |
 
 ## Update soap.client.props File
 

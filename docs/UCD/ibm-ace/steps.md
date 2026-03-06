@@ -52,7 +52,7 @@ Deploy a Broker Archive.
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | ACE Installation Directory | String | The installation directory of the IBM ACE server. For example: /opt/ibm/server. | Yes |
-| BAR File | String | This parameter specifies the BAR file that you want to use to deploy a message flow and other resources. Example: C:\Users\IBM\_ADMIN\IBM\ACET11\workspace\AppConnectToIIB\AppConnectToIIB.bar | No |
+| BAR File | String | This parameter specifies the BAR file that you want to use to deploy a message flow and other resources. Example: C:\Users\IBM_ADMIN\IBM\ACET11\workspace\AppConnectToIIB\AppConnectToIIB.bar | No |
 | Clear Old Deployments  | Boolean | The default operation is a delta or incremental deployment. Use this parameter to override the default operation and run a complete deployment. | No |
 | Deployed Objects | String | This parameter describes the set of objects that you want to remove from the integration server. You can specify multiple files to delete by separating the filenames with a colon (:). | No |
 | IP Address | String | The host name or IP address of the computer on which the integration node or server is running. If you do not specify this parameter, a value that represents the local computer is used. | No |

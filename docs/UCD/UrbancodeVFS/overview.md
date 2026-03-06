@@ -86,7 +86,7 @@ Fix a quoting issue in the Unix Java wrapper script that prevented correct execu
 
 ### Version 36
 
-Use JAVA\_OPTS environment variable to set options for the Java executable.
+Use JAVA_OPTS environment variable to set options for the Java executable.
 
 ### Version 35
 

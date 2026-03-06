@@ -15,7 +15,7 @@ This step archives the currently active profile, and then makes the specified co
 | Password | Password | The password of the account that will interact with WSRR system. | Yes |
 | Profile Name | String | The name given to the configuration profile created in WSRR.  | Yes |
 | Server Name | String | In a stand-alone or federated node configuration, the name of the server on which WSRR is deployed. | No |
-| WSRR Home | String | The WSRR\_INSTALL\_ROOT directory. This parameter is optional and, if omitted, defaults to the current directory. You must provide a value for this parameter if you are not running the script from the WAS\_INSTALL\_ROOT\WSRR\admin\scripts\_cell directory. | Yes |
+| WSRR Home | String | The WSRR_INSTALL_ROOT directory. This parameter is optional and, if omitted, defaults to the current directory. You must provide a value for this parameter if you are not running the script from the WAS_INSTALL_ROOT\WSRR\admin\scripts_cell directory. | Yes |
 | WSRR User | String | The user name of the account that will interact with WSRR system | Yes |
 
 ## Delete Configuration Profile
@@ -31,7 +31,7 @@ This script removes a configuration profile from WSRR.
 | Password | Password | The password of the account that will interact with WSRR system. | Yes |
 | Profile Name | String | The name given to the configuration profile created in WSRR.  | Yes |
 | Server Name | String | In a stand-alone or federated node configuration, the name of the server on which WSRR is deployed. | No |
-| WSRR Home | String | The WSRR\_INSTALL\_ROOT directory. This parameter is optional and, if omitted, defaults to the current directory. You must provide a value for this parameter if you are not running the script from the WAS\_INSTALL\_ROOT\WSRR\admin\scripts\_cell directory. | Yes |
+| WSRR Home | String | The WSRR_INSTALL_ROOT directory. This parameter is optional and, if omitted, defaults to the current directory. You must provide a value for this parameter if you are not running the script from the WAS_INSTALL_ROOT\WSRR\admin\scripts_cell directory. | Yes |
 | WSRR User | String | The user name of the account that will interact with WSRR system | Yes |
 
 ## Load Configuration Profile
@@ -50,7 +50,7 @@ This step loads a configuration profile, from a configuration profile compressed
 | Password | Password | The password of the account that will interact with WSRR system. | Yes |
 | Profile Name | String | The name given to the configuration profile created in WSRR.  | Yes |
 | Server Name | String | In a stand-alone or federated node configuration, the name of the server on which WSRR is deployed. | No |
-| WSRR Home | String | The WSRR\_INSTALL\_ROOT directory. This parameter is optional and, if omitted, defaults to the current directory. You must provide a value for this parameter if you are not running the script from the WAS\_INSTALL\_ROOT\WSRR\admin\scripts\_cell directory. | Yes |
+| WSRR Home | String | The WSRR_INSTALL_ROOT directory. This parameter is optional and, if omitted, defaults to the current directory. You must provide a value for this parameter if you are not running the script from the WAS_INSTALL_ROOT\WSRR\admin\scripts_cell directory. | Yes |
 | WSRR User | String | The user name of the account that will interact with WSRR system | Yes |
 
 ## Register Service

@@ -33,7 +33,7 @@ All steps except the Run Test Sets step of the HP ALM plugin are executed using 
 
 ## HP ALM Client Registration
 
-To register your agent with HP ALM, you must visit the HP ALM Client Registration page from the Tools menu of your HP ALM Server. This process must be executed using an Internet Explorer 10 or 11 browser from the agent machine. This page is located at `http://<hp-alm-server-name>:<port>/qcbin/CommonMode\_index.html`. You can also find the client registration page in the Tools menu of you HP Application Lifecycle Management home page at `http://<hp-alm-server-name>:<port>/qcbin`.
+To register your agent with HP ALM, you must visit the HP ALM Client Registration page from the Tools menu of your HP ALM Server. This process must be executed using an Internet Explorer 10 or 11 browser from the agent machine. This page is located at `http://<hp-alm-server-name>:<port>/qcbin/CommonMode_index.html`. You can also find the client registration page in the Tools menu of you HP Application Lifecycle Management home page at `http://<hp-alm-server-name>:<port>/qcbin`.
 
 After visiting the HP ALM Client Registration page, you will be greeted with the following instructions on how to register your machine:
 

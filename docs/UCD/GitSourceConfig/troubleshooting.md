@@ -7,7 +7,7 @@ For more questions and answers about plug-ins, see the [DevOps forum on IBM deve
 
 When using the Git source configuration plug-in with GitHub Enterprise, the import process can lock up or fail with the following error message:
 
-Error Creating New Version: GIT error: Cloning into '{temp\_dir}``'... fatal: unable to access 'https://{username}``:\*\*\*\*@{HTTPS\_GitHub\_Repo\_Address}``': Failed to connect to {enterprise\_url}`` port 443: Connection refused
+Error Creating New Version: GIT error: Cloning into '{temp_dir}``'... fatal: unable to access 'https://{username}``:\*\*\*\*@{HTTPS_GitHub_Repo_Address}``': Failed to connect to {enterprise_url}`` port 443: Connection refused
 
 This error is caused by specifying an incorrect user name, password (access token), or GitHub repository address. The user name is the part of your email address before the at sign (@), and does not include the at sign or the domain name. The password is a personal access token that is generated in GitHub Enterprise. GitHub Enterprise requires the use of access tokens as a more secure login method.
 

@@ -97,5 +97,5 @@ If you receive the following error:
 
 `Error loading plugin: Value for property definition named 'resourceType' is not valid`
 
-Add the parameter: com.urbancode.air.property.prop\_def.PropDef.disableAllowedValuesCheck=true
+Add the parameter: com.urbancode.air.property.prop_def.PropDef.disableAllowedValuesCheck=true
 

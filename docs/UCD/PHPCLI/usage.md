@@ -13,11 +13,11 @@ To simply request an application process, just use the run entry point followed 
 
 Once you have your JSON file ready, you can request the application process by running
 
-php uCommand.php run application\_process.json
+php uCommand.php run application_process.json
 
 This entry point will print in the console the ID and link of the process request:
 
-php uCommand.php run application\_process.json
+php uCommand.php run application_process.json
 
 ### # DevOps PHP CLI # # Urban Code Deploy PHP CLI Tool # # by SalesConnectDublin # ##################################
 
@@ -52,13 +52,13 @@ and fill in the information for the origin and destination server
 
 $config = array();
 
-// Orign server login information $config[origin\_weburl] = ; $config[origin\_username] = ; $config[origin\_password] = ; // DEPRECATED $config[origin\_authtoken] = ;
+// Orign server login information $config[origin_weburl] = ; $config[origin_username] = ; $config[origin_password] = ; // DEPRECATED $config[origin_authtoken] = ;
 
-// Destination server login information $config[destination\_weburl] = ; $config[destination\_username] = ; $config[destination\_password] = ; // DEPRECATED $config[destination\_authtoken] = ;
+// Destination server login information $config[destination_weburl] = ; $config[destination_username] = ; $config[destination_password] = ; // DEPRECATED $config[destination_authtoken] = ;
 
 // Application name $config[application] = SalesConnect;
 
-// Certificate setup $config[insecure] = true; // Set true for connection without certificate $config[origin\_certificate] = ; // Path to certificate for origin server (only if insecure is set to false) $config[destination\_certificate] = ; // Path to certificate for destination server (only if insecure is set to false)
+// Certificate setup $config[insecure] = true; // Set true for connection without certificate $config[origin_certificate] = ; // Path to certificate for origin server (only if insecure is set to false) $config[destination_certificate] = ; // Path to certificate for destination server (only if insecure is set to false)
 
 For origin and destination server login information, please check Required configuration and the information related to login with tokens (recommended) and login with password.
 
@@ -108,7 +108,7 @@ vi $uCommand/config/servers.config.php
 
 and fill in the information for the origin and destination server. Then run the promotion command:
 
-php uCommand.php promoteConfig [full\_path\_for\_source\_directory]
+php uCommand.php promoteConfig [full_path_for_source_directory]
 
 **Promote without importing environments** Since the upgrade of application is importing the environments from the orgin server, promoteConfig accepts the argument clean that automatically removes all the new environments imported by the upgrade.
 
@@ -118,7 +118,7 @@ php uCommand.php promoteConfig clean
 
 Directory to server promotion
 
-php uCommand.php promoteConfig [full\_path\_for\_source\_directory] clean
+php uCommand.php promoteConfig [full_path_for_source_directory] clean
 
 
 ## Perform a restore
@@ -126,13 +126,13 @@ php uCommand.php promoteConfig [full\_path\_for\_source\_directory] clean
 
 
 
-php uCommand.php restore path\_for\_backup\_folder
+php uCommand.php restore path_for_backup_folder
 
 **Restore without importing environments**
 
 Since the restore of application is importing the environments from the orgin server, restore accepts the argument clean that automatically removes all the new imported environments.
 
-php uCommand.php restore path\_for\_backup\_folder clean
+php uCommand.php restore path_for_backup_folder clean
 
 **Quick tip:**Double check that the configuration file has the correct information of the destination server.
 
@@ -146,7 +146,7 @@ php uCommand.php restore path\_for\_backup\_folder clean
 
 After setting up the required configuration as described in required configuration, you can either define a directory where to export all the backup files or leave it blank and fall back to the default output directory.
 
-{uCommand\_path}``/config/ucd.config.php
+{uCommand_path}``/config/ucd.config.php
 
 *$config[output] =* *;*
 

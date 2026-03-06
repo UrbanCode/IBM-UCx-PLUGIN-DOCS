@@ -31,9 +31,9 @@ Added translations for steps and properties
 
 ### Version 6
 
-Remove the JVM Properties property because Ant ignores JAVA\_OPTS
+Remove the JVM Properties property because Ant ignores JAVA_OPTS
 
 ### Version 5
 
-This release includes the ability to specify the ANT\_OPT environment variable.
+This release includes the ability to specify the ANT_OPT environment variable.
 

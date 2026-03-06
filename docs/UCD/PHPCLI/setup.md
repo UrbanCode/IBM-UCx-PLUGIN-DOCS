@@ -26,7 +26,7 @@ Setup script will prompt the user for:
 * Port (Default: 8443)
 * Username (User email)
 * Password
-* JAVA\_HOME (Default: $JAVA\_HOME for the current environment)
+* JAVA_HOME (Default: $JAVA_HOME for the current environment)
 * Authtoken (If missing, a new one will be generated)
 
 Script will also check that
@@ -50,9 +50,9 @@ Weburl is the url of the DevOps Deployserver the tool will work on. It includes 
 
 $config[weburl] = https://example.com:8443; // URL for uDeploy server (with port)
 
-Java\_home is the path of the Java binaries used to run the tool
+Java_home is the path of the Java binaries used to run the tool
 
-$config[java\_home] = ; // specify the path for java binaries
+$config[java_home] = ; // specify the path for java binaries
 
 Then you set the username of the user that is running the various actions on the server. Provide here a user with sufficient permissions to run all the required tasks. This is your own user name, e.g. johnsmith@ie.ibm.com.
 
@@ -89,7 +89,7 @@ Please bear mind to use a token correspondingto the user set in the configuratio
 
 If you have already set up tokens as the login method, you can skip to Optional configuration. Otherwise, its possible to login with username and password. This is not a secure way to do login, since the password will be hardcoded unencrypted in the configuration file.
 
-$config[password] = {Your\_Password}``; // Your password
+$config[password] = {Your_Password}``; // Your password
 
 You can either encode username and password using Base64 encoding. This is still not a secure way to login, since Base64 is easily reversible and your password will be exposed.
 
@@ -97,7 +97,7 @@ Login with Base64 encoding requires you to encode username and password in the f
 
 $config[password] = ; // This should be empty
 
-$config[b64\_login] = base64\_encode( {YOUR\_USERNAME}``:{YOUR\_PASSWORD}`` );
+$config[b64_login] = base64_encode( {YOUR_USERNAME}``:{YOUR_PASSWORD}`` );
 
 *Login with cookies (DEPRECATED)*
 
@@ -111,7 +111,7 @@ Then edit the config so to have blank password and the correct cookie file
 
 $config[password] = ; // This should be empty
 
-$config[cookie\_file] = $WORKSPACE/ucdcookie.txt;
+$config[cookie_file] = $WORKSPACE/ucdcookie.txt;
 
 **Optional configuration**
 
@@ -127,7 +127,7 @@ $config[udcpath] = ; // Path where udclient java tool is saved. If blank, will t
 
 $config[silent] = false; // If true, no message is printed in the console
 
-$config[json\_check] = false; // If true, run a scan of exported files and verify that are valid JSON
+$config[json_check] = false; // If true, run a scan of exported files and verify that are valid JSON
 
-$config[apply\_impersonation] = ; // If true, apply impersonation
+$config[apply_impersonation] = ; // If true, apply impersonation
 

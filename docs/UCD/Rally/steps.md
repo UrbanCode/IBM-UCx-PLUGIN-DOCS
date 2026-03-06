@@ -33,7 +33,7 @@ Update a Rally artifact property.
 | Api Key | Password | The Api Key to use as an authorization token in place of username/password to connect to the Rally Server. | No |
 | Artifact IDs | String | A list of artifact IDs, separated by commas, to update. | Yes |
 | New Value | String | The new values for the artifact properties. Specify one value for all artifacts or a comma-separated list of values, where the number of values matches the number of artifact IDs. If the artifact is an option list in Rally, then the value must match one of the options exactly. This field is case sensitive. | Yes |
-| Object Type | String | Specify a list of the type of artifacts to update, separated by commas. The artifact types must match the types in the Rally REST API documentation at <Rally\_server\_URL>/slm/doc/webservice/index.jsp, where <Rally\_server\_URL> is the Rally url such as https://trial.rallydev.com. Artifact types include Task, Defect, HierarchicalRequirement, and so on. | Yes |
+| Object Type | String | Specify a list of the type of artifacts to update, separated by commas. The artifact types must match the types in the Rally REST API documentation at <Rally_server_URL>/slm/doc/webservice/index.jsp, where <Rally_server_URL> is the Rally url such as https://trial.rallydev.com. Artifact types include Task, Defect, HierarchicalRequirement, and so on. | Yes |
 | Password | Password | The password for the Rally server. | No |
 | Property | String | The property to update. This field is case sensitive, and must match the documented Rally property name. | Yes |
 | Proxy Host | String | The proxy host name, if there is a proxy between the agent and the Rally server. | No |

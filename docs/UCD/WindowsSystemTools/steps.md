@@ -12,7 +12,7 @@ Adds or Overwrites a Key to the Registry
 | Registry Key | String | Specify the Registry Key (ie HKLM\Software\MyCo) | Yes |
 | Registry Value Data | String | Specifies the Registry Value Data | Yes |
 | Registry Value Name | String | Specify the Registry Value Name | Yes |
-| Registry Value Type | Enumeration: REG\_SZ, REG\_MULTI\_SZ, REG\_BINARY, REG\_DWORD\_BIG\_ENDIAN, REG\_DWORD, REG\_DWORD\_LITTLE\_ENDIAN, REG\_NONE, REG\_EXPAND\_SZ | Select the data type for the Registry Value Name. | Yes |
+| Registry Value Type | Enumeration: REG_SZ, REG_MULTI_SZ, REG_BINARY, REG_DWORD_BIG_ENDIAN, REG_DWORD, REG_DWORD_LITTLE_ENDIAN, REG_NONE, REG_EXPAND_SZ | Select the data type for the Registry Value Name. | Yes |
 
 ## Check File Contents
 

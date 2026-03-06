@@ -44,7 +44,7 @@ With the [xcrun](https://developer.ibm.com/urbancode/plugindoc/ibmucd/apple-xcod
 
 **Important**: When you use steps from the Apple Xcode plug-in for IBM DevOps Deploy (either in the same process or separate processes running at the same time), you must acquire and release a lock to prevent these steps from running in parallel since some actions can hang. For more information about the Acquire Lock and Release Lock steps, see [Acquire Lock](https://www.ibm.com/docs/en/urbancode-deploy/7.2.3?topic=reference-acquire-lock "Acquire Lock") and [Release Lock](https://www.ibm.com/docs/en/urbancode-deploy/7.2.3?topic=reference-release-lock "Release Lock").
 
-To view a video demonstration of the Apple Xcode 1 plug-in, see [http://youtu.be/kHD46\_kCvnI](http://youtu.be/kHD46_kCvnI "http://youtu.be/kHD46_kCvnI")
+To view a video demonstration of the Apple Xcode 1 plug-in, see [http://youtu.be/kHD46_kCvnI](http://youtu.be/kHD46_kCvnI "http://youtu.be/kHD46_kCvnI")
 
 **Compatibility**
 

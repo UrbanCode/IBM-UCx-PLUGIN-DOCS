@@ -286,7 +286,7 @@ Update environment variables on a pod template or a build config
 | KEY=VALUE/KEY- | String | A list of keys and associated value. Specify each list item in the format key=value on a new line. You can remove the environment variable with KEY-. | No |
 | OpenShift URL | String | The URL of the Red Hat OpenShift server. For example: https://192.0.2.0:8443 | No |
 | Project | String | The OpenShift project that contains the application to update the environment. | No |
-| RESOURCE/NAME | String | A list of resource type and associated object name pairs. Specify each pair in the format resource\_type/name on a new line. | No |
+| RESOURCE/NAME | String | A list of resource type and associated object name pairs. Specify each pair in the format resource_type/name on a new line. | No |
 | RESOURCES | String | A list of resource types, separate each resource type with a comma. For example: resource1,resource2,…resourex. | No |
 | Step Flags | String | A list of flags to set when running the set env command. Specify each flag on a new line. | No |
 | User Name | String | The user name used to authenticate with the OpenShift server. | No |

@@ -49,11 +49,11 @@ Installs Webshere Application Server
 | Additional CommandLine Arguments | String | A list, separated by newline characters, of additional arguments to pass to the wsadmin tool. These arguments are appended at the end of the command line. | No |
 | IBM Installation Manager Home | String | Path IBM Installation Manager is installed to (for example, /opt/IBM/InstallationManager. | No |
 | IM Shared | String | Location of the IM Shared location | No |
-| Java IM Repository | String | Starting in WAS 9, the IBM Java SDK must be installed alongside WAS. In thie field, specify the location of the repository where IBM Java SDK is stored, if the repository differs from the WAS repository (this may be in the format C:\installation\_files\repository.config or http://hostname:8081) | No |
-| Java Version | String | Starting in WAS 9, the IBM Java SDK must be installed alongside WAS. In thie field, specify the version of IBM Java SDK to install as described in the source repository (for example, com.ibm.java.jdk.v8\_8.0.3000.20160526\_1317.jar) | No |
-| WAS IM Repository | String | Location of the repository where WAS is stored (this may be in the format C:\installation\_files\repository.config or http://hostname:8081) | No |
+| Java IM Repository | String | Starting in WAS 9, the IBM Java SDK must be installed alongside WAS. In thie field, specify the location of the repository where IBM Java SDK is stored, if the repository differs from the WAS repository (this may be in the format C:\installation_files\repository.config or http://hostname:8081) | No |
+| Java Version | String | Starting in WAS 9, the IBM Java SDK must be installed alongside WAS. In thie field, specify the version of IBM Java SDK to install as described in the source repository (for example, com.ibm.java.jdk.v8_8.0.3000.20160526_1317.jar) | No |
+| WAS IM Repository | String | Location of the repository where WAS is stored (this may be in the format C:\installation_files\repository.config or http://hostname:8081) | No |
 | WAS Install Path | String | Path WAS is installed to (for example, /opt/IBM/WebSphere/AppServer). | No |
-| WAS Version | String | Version of WAS ND to install as described in the source repository (for example, com.ibm.websphere.ND.v85\_8.5.5000.20130514\_1044) | No |
+| WAS Version | String | Version of WAS ND to install as described in the source repository (for example, com.ibm.websphere.ND.v85_8.5.5000.20130514_1044) | No |
 
 ## Remove Deployment Manager Profile
 
@@ -159,7 +159,7 @@ Uninstalls Webshere Application Server
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | IBM Installation Manager install path | String | Path IBM Installation Manager is installed to. | No |
-| Version | String | Version of WAS to uninstall (for example, com.ibm.websphere.ND.v85\_8.5.5000.20130514\_1044) | No |
+| Version | String | Version of WAS to uninstall (for example, com.ibm.websphere.ND.v85_8.5.5000.20130514_1044) | No |
 | WAS Install Path | String | Path WAS is installed to (for example, /opt/IBM/WebSphere/AppServer) | No |
 
 

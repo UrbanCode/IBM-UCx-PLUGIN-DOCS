@@ -179,7 +179,7 @@ Installs an agent to a remote system over SSH.
 | Agent Install Directory | String | Directory to install the agent to. | Yes |
 | Agent Name | String | A unique name for the new agent and its resource. | Yes |
 | Hostname/IP | String | The hostname or IP of the remote system to target. | Yes |
-| Java Home | String | Path to the JRE/JDK on the target system. If blank, uses target machines JAVA\_HOME | No |
+| Java Home | String | Path to the JRE/JDK on the target system. If blank, uses target machines JAVA_HOME | No |
 | Mutual Authentication | Boolean | If this is checked, the agent will be configured to use mutual authentication. | No |
 | SSH Password | Password | Password to provide for SSH authentication. | No |
 | SSH Username | String | Username to provide for SSH authentication. | No |

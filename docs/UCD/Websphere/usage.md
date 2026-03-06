@@ -52,9 +52,9 @@ Starting in version 109, you can also discover multiple profiles if you specify 
 - Navigate to Resources > Agents
 - Select the desired Agent name
 - Select Configuration > Agent properties
-- Add the property: **wsadmin.path** with the value: *WAS\_HOME*\bin\wsadmin.bat or *WAS\_HOME*/bin/wsadmin.sh where *WAS\_HOME* is the installation directory of WebSphere Application Server.
+- Add the property: **wsadmin.path** with the value: *WAS_HOME*\bin\wsadmin.bat or *WAS_HOME*/bin/wsadmin.sh where *WAS_HOME* is the installation directory of WebSphere Application Server.
 
-In this case, all the profiles listed in *WAS\_HOME*\properties\profileRegistry.xml will be discovered.
+In this case, all the profiles listed in *WAS_HOME*\properties\profileRegistry.xml will be discovered.
 
 If you specify the path to the wsadmin command contained in one specific profile, only that profile will be discovered.
 

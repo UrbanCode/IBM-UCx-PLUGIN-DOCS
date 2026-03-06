@@ -51,7 +51,7 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ### Version 23.971404
 
-* Updated auto-discovery to search the MW\_HOME environment variable for a weblogic installation.
+* Updated auto-discovery to search the MW_HOME environment variable for a weblogic installation.
 * Changed the wldeploy.path and wldeploy.mwHome Auto Discovery fields to derive from agent properties.
 
 ### Version 22.947258
@@ -121,4 +121,4 @@ Version 12.699360 includes the following features and fixes:
 * Fixes APAR PI48310. Added a property on Start Targets step to set timeout length for starting targets.
 * A new output property is set for each target in the step and contains the value of the state of the target.
 * Added a property to the **Run WLDeploy** step that contains the path to the configuration file where the encrypted user name and password are stored.
-* Added ability to set JAVA\_HOME system environment variable.
+* Added ability to set JAVA_HOME system environment variable.

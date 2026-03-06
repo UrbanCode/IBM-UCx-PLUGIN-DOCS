@@ -34,7 +34,7 @@ Creates a new component.
 | Default Version Type | Enumeration: Full, Incremental | The types of versions to create automatically upon import. | Yes |
 | Import Versions Automatically | Boolean | Check to import versions automatically. | No |
 | Source Config Properties | String | Insert properties to pass in for the source config plugin. One per line, name=value format. | No |
-| Source Config Type | Enumeration: None, AnthillPro, ClearCaseUCM, File System, File System (Versioned), Git, Maven, Rational Asset Manager, Subversion, TeamCity, TFS, TFS\_SCM, uBuild | The source config plugin for this component. | Yes |
+| Source Config Type | Enumeration: None, AnthillPro, ClearCaseUCM, File System, File System (Versioned), Git, Maven, Rational Asset Manager, Subversion, TeamCity, TFS, TFS_SCM, uBuild | The source config plugin for this component. | Yes |
 | Template Name | String | If this component uses a template, enter its name here. | No |
 | Template Version | String | If this component uses a template version, enter the version number here. | No |
 

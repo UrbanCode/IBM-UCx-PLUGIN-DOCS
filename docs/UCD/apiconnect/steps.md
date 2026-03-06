@@ -96,10 +96,10 @@ Replace a published or deprecated product in a catalog with another product (api
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | APIC Tool Path | String | The full path or folder to the apic command-line tool. For example: C:\Users\John\AppData\Roaming\npm\apic.cmd | No |
 | Catalog | String | The name of the catalog ncontaining the product to be replaced. | Yes |
-| New Product | String | The new product to replace the old product, specified on the Old Product property. Use the format: NEW\_PRODUCT\_NAME:VERSION\_NAME. | Yes |
-| Old Product | String | Select to replace the old product. Use the format: OLD\_PRODUCT\_NAME[:VERSION\_NAME]. The:VERSION\_NAME portion is optional. If if is not specified, the first published version of the product is replaced. | Yes |
+| New Product | String | The new product to replace the old product, specified on the Old Product property. Use the format: NEW_PRODUCT_NAME:VERSION_NAME. | Yes |
+| Old Product | String | Select to replace the old product. Use the format: OLD_PRODUCT_NAME[:VERSION_NAME]. The:VERSION_NAME portion is optional. If if is not specified, the first published version of the product is replaced. | Yes |
 | Organization | String | The name of the provider organization. | Yes |
-| Plan Mappings | String | A list of old to new product plan mappings. Specify each mapping on a new line in the format: SOURCE\_PLAN\_NAME:TARGET\_PLAN\_NAME. You must map all product plans. | Yes |
+| Plan Mappings | String | A list of old to new product plan mappings. Specify each mapping on a new line in the format: SOURCE_PLAN_NAME:TARGET_PLAN_NAME. You must map all product plans. | Yes |
 | Server | String | The management server endpoint to set the variable on. For example, the IBM Bluemix endpoint is us.apiconnect.ibmcloud.com. | Yes |
 | Space | String | Enter a space to replace in (if applicable for this catalog). | No |
 
@@ -129,10 +129,10 @@ Supersede a published product in a catalog with another product (apic products:r
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | APIC Tool Path | String | The full path or folder to the apic command-line tool. For example: C:\Users\John\AppData\Roaming\npm\apic.cmd | No |
 | Catalog | String | The name of the catalog containing the product to be replaced. | Yes |
-| New Product | String | The new product to supersed the old product.Use the format: NEW\_PRODUCT\_NAME:VERSION\_NAME. | Yes |
-| Old Product | String | The name of the old product to be superseded. Use the format: OLD\_PRODUCT\_NAME[:VERSION\_NAME]. The:VERSION\_NAME portion is optional. If you is not specified, the first published version of the product is replaced. | Yes |
+| New Product | String | The new product to supersed the old product.Use the format: NEW_PRODUCT_NAME:VERSION_NAME. | Yes |
+| Old Product | String | The name of the old product to be superseded. Use the format: OLD_PRODUCT_NAME[:VERSION_NAME]. The:VERSION_NAME portion is optional. If you is not specified, the first published version of the product is replaced. | Yes |
 | Organization | String | The name of the provider organization. | Yes |
-| Plan Mappings | String | A list of old to new product plan mappings. Specify each mapping on a new line in the format: SOURCE\_PLAN\_NAME:TARGET\_PLAN\_NAME. You must map all product plans. | Yes |
+| Plan Mappings | String | A list of old to new product plan mappings. Specify each mapping on a new line in the format: SOURCE_PLAN_NAME:TARGET_PLAN_NAME. You must map all product plans. | Yes |
 | Server | String | The management server endpoint to set the variable on.For example, the IBM Bluemix endpoint is us.apiconnect.ibmcloud.com. | Yes |
 | Space | String | Enter a space to supersede in (if applicable for this catalog). | No |
 

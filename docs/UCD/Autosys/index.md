@@ -25,6 +25,6 @@ If you encounter issues with the plug-in, or want to send feedback:
 ## Available Steps
 
 
-Check Autosys Server Runs the chk\_auto\_up command Execute JIL Script Runs a JIL Script on the CA WAAE server. Send Autosys Event Sends event to CA Workload Automation AE Application Server.
+Check Autosys Server Runs the chk_auto_up command Execute JIL Script Runs a JIL Script on the CA WAAE server. Send Autosys Event Sends event to CA Workload Automation AE Application Server.
 
 

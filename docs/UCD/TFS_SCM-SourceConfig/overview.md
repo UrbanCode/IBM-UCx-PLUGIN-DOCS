@@ -1,7 +1,7 @@
 
 # Overview
 
-The Microsoft TFS\_SCM (Team Foundation Server) source configuration plug-in automates importing version artifacts from a Team Foundation Server.
+The Microsoft TFS_SCM (Team Foundation Server) source configuration plug-in automates importing version artifacts from a Team Foundation Server.
 
 
 ## Step palette

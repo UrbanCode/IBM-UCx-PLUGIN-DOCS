@@ -3,7 +3,7 @@
 
 **Tip:** For more questions and answers, see the [DevOps forum on IBM developerWorks](https://community.ibm.com/community/user/wasdevops/urbancode-discussion "DevOps forum").
 
-## Login Step: ERROR {error:invalid\_client,error\_description:Unauthorized grant type: password}``
+## Login Step: ERROR {error:invalid_client,error_description:Unauthorized grant type: password}``
 
 
 IBM API Connect is beginning to introduce federated identity, and therefore, requires a workaround until it has been fully implemented. This incomplete authentication strategy creates issues after you have configured the catalog and app variable or attempt to push a Loopback app. The workaround is simple. Run the following command on the command line and login into Bluemix via the browser pop-up: apic edit After logging in, the required access token will be set locally. At this point the Login step can be ignored or removed and plug-in steps may be called normally. If you use the Logout step, the access token will need to be regenerated via the above command. This resolution should only be necessary if you modify the app and catalog configuration settings or the Publish an Application step is used.

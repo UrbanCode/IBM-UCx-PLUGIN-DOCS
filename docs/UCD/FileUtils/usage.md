@@ -44,7 +44,7 @@ To replace tokens in multiple files, specify the file names in the **Include Fil
 
 ## Explicit replacement
 
-In the **Explicit Tokens** field specify a list, separated by newline characters, of token-value pairs. Use the following format: token->value. For example, IP\_address->192.0.2.1.
+In the **Explicit Tokens** field specify a list, separated by newline characters, of token-value pairs. Use the following format: token->value. For example, IP_address->192.0.2.1.
 
 The **Explicit Tokens** field is affected by the **Start Token Delimiter**, **End Token Delimiter**, and **Property Prefix** fields. For example, to replace the @myToken@ token with myValue, specify myToken->myValue in the **Explicit Tokens** field, specify @ in the **Start Token Delimiter** field, and specify @ in the **End Token Delimiter** field.
 
@@ -56,7 +56,7 @@ The property list is affected by the **Start Token Delimiter**, **End Token Deli
 
 ## Replacement by using a property file
 
-To use a property file to specify token-value pairs, specify the file name in the **Property File Name** field. In the file, specify a list of token-value pairs, separated by newline characters. Use the following format: token=value. For example, IP\_address=192.0.2.1.
+To use a property file to specify token-value pairs, specify the file name in the **Property File Name** field. In the file, specify a list of token-value pairs, separated by newline characters. Use the following format: token=value. For example, IP_address=192.0.2.1.
 
 The property file is affected by the **Start Token Delimiter**, **End Token Delimiter**, and **Property Prefix** fields.
 
