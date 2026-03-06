@@ -113,11 +113,7 @@ Removes the native application from the IBM MobileFirst Application Center.
 | Context | String | The context of the Application Center. For example, applicationcenter. | Yes |
 | Disable SSL Security Checking | Boolean | Disables SSL security checking. Use of this flag is a security risk. | No |
 | JSON4J JAR File Path | String | The path to the JSON4J JAR (json4j.jar) file. The Worklight 6.0.0 Server can use the value: ``${PLUGIN\_HOME}``/lib/json4j.jar. | Yes |
-| Operating System | Enumeration:
-* all
-* Android
-* iOS
-| The operating system of the application to remove from the Application Center. | No |
+| Operating System | Enumeration: all, Android, iOS | The operating system of the application to remove from the Application Center. | No |
 | Password | Password | The user password. The default value is: ``${p:environment/applicationCenterPassword}``. | Yes |
 | Server Path | String | The URL to the IBM MobileFirst server and role of the MobileFirst authorized user. For Worklight versions 7.1 and older, the default path is /worklightadmin. For MobileFirst versions 8.0 and newer, the default path is /mfpadmin. | Yes |
 | User | String | The user name that is required to access the Application Center. | Yes |

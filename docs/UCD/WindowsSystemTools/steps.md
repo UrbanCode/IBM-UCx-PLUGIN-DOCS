@@ -12,16 +12,7 @@ Adds or Overwrites a Key to the Registry
 | Registry Key | String | Specify the Registry Key (ie HKLM\Software\MyCo) | Yes |
 | Registry Value Data | String | Specifies the Registry Value Data | Yes |
 | Registry Value Name | String | Specify the Registry Value Name | Yes |
-| Registry Value Type | Enumeration:
-* REG\_SZ
-* REG\_MULTI\_SZ
-* REG\_BINARY
-* REG\_DWORD\_BIG\_ENDIAN
-* REG\_DWORD
-* REG\_DWORD\_LITTLE\_ENDIAN
-* REG\_NONE
-* REG\_EXPAND\_SZ
-| Select the data type for the Registry Value Name. | Yes |
+| Registry Value Type | Enumeration: REG\_SZ, REG\_MULTI\_SZ, REG\_BINARY, REG\_DWORD\_BIG\_ENDIAN, REG\_DWORD, REG\_DWORD\_LITTLE\_ENDIAN, REG\_NONE, REG\_EXPAND\_SZ | Select the data type for the Registry Value Name. | Yes |
 
 ## Check File Contents
 
@@ -42,21 +33,9 @@ Configure DCOM Settings
 
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
-| Authentication Level | Enumeration:
-* 1
-* 2
-* 3
-* 4
-* 5
-* 6
-| Select the DCOM Authentication Level | Yes |
+| Authentication Level | Enumeration: 1, 2, 3, 4, 5, 6 | Select the DCOM Authentication Level | Yes |
 | Enable Remote DCOM | Boolean | This will Enable Remote DCOM  | No |
-| Impersonation Level | Enumeration:
-* 1
-* 2
-* 3
-* 4
-| Select the DCOM Impersonation Level | Yes |
+| Impersonation Level | Enumeration: 1, 2, 3, 4 | Select the DCOM Impersonation Level | Yes |
 
 ## Create Message Queues
 
@@ -95,17 +74,7 @@ Creates a new scheduled task for Windows.
 | Executable Location | String | The absolute path to the executable to be run for this task. | Yes |
 | Idle Time | String | Amount of idle time to wait before running the scheduled for ONIDLE type. Valid values are 1999 minutes. This value will be ignored for other schedule types. | No |
 | Month | String | Month for the schedule. The wildcard character (\*) specifies all months. | No |
-| Schedule Type | Enumeration:
-* MINUTE
-* HOURLY
-* DAILY
-* WEEKLY
-* MONTHLY
-* ONCE
-* ONSTART
-* ONLOGON
-* ONIDLE
-| The type of the schedule to be created. | Yes |
+| Schedule Type | Enumeration: MINUTE, HOURLY, DAILY, WEEKLY, MONTHLY, ONCE, ONSTART, ONLOGON, ONIDLE | The type of the schedule to be created. | Yes |
 | Start Date(mm/dd/yyyy) | String | The first date that this schedule should run on. This value will be ignored for schedule types that it is invalid for. | No |
 | Start Time(HH:mm) | String | The start time to run the task. This value is required for Once schedule type. | No |
 | Task Name | String | The Name of the scheduled task. | Yes |
@@ -197,10 +166,7 @@ Sends a message warning to logged on users to log off
 | Number of Times to Retry | String | This determines the amount times the plugin willcheck for logged on users before failing the deploy | Yes |
 | Server to Query | String | This specifies the server to query active sessions | No |
 | Wait Time Between Retries(Seconds) | String | This specifies the amout of time to wait between retries | Yes |
-| Windows Server Version | Enumeration:
-* 2003
-* 2008
-| Select the server version the plugin will run on | Yes |
+| Windows Server Version | Enumeration: 2003, 2008 | Select the server version the plugin will run on | Yes |
 
 ## Log off Sessions
 
@@ -223,11 +189,7 @@ Assign ACLs to files or folders.
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | CACLS Path | String | The path to the (X)CACLS executable. For example: C:\Windows\System32 | No |
-| CACLS Type | Enumeration:
-* cacls
-* icacls
-* xcacls
-| Select whether to use cacls, xcacls, or icacls to modify permissions | Yes |
+| CACLS Type | Enumeration: cacls, icacls, xcacls | Select whether to use cacls, xcacls, or icacls to modify permissions | Yes |
 | Continue on access denied errors | Boolean | Check this option to continue on access denied errors. Adds /C option. | No |
 | Deny user accesss | String | Deny specified user access. Uses /D option (/deny in ICACLS). If using XCACLS or CACLS, specify the user. With ICACLS, this denies specified rights to the user, requiring an input of the form, user:perm | No |
 | Directory Offset | String | The working directory to use when executing this command. This is relative to current working directory. | Yes |

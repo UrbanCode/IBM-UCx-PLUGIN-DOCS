@@ -113,10 +113,7 @@ Set a configuration variable. You do not need to run the Login step before runni
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | APIC Tool Path | String | The full path to the apic command-line tool. For example: C:\Users\John\AppData\Roaming\npm\apic.cmd | No |
 | App or Catalog Name | String | The name of an application or catalog to configure. | Yes |
-| Config Variable Type | Enumeration:
-* app
-* catalog
-| The type of variable to configure. | Yes |
+| Config Variable Type | Enumeration: app, catalog | The type of variable to configure. | Yes |
 | Global | Boolean | The global configuration variable. | No |
 | Local | Boolean | The local application configuration variable. | No |
 | Organization | String | The name of the provider organization. | Yes |

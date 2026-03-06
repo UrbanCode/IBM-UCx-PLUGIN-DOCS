@@ -14,23 +14,8 @@ Runs an Aspera FASP transfer process from an Aspera server to the localhost comp
 | Aspera Script Location | String | The full path to the folder that contains the ascp script. | Yes |
 | Aspera Username | String | The user name used to connect to the Aspera server. | No |
 | Destination File Path | String | The path to the local directory used to store the downloaded files and folders. | Yes |
-| Download Rate | Enumeration:
-* -1
-* 1000
-* 5000
-* 10000
-* 25000
-* 50000
-* 75000
-* 100000
-| Select the maximum download rate, in Mbps. | No |
-| Overwrite Strategy | Enumeration:
-* diff
-* older
-* diff+older
-* never
-* always
-| Select the method for overwriting existing files with the same name as the source. | No |
+| Download Rate | Enumeration: -1, 1000, 5000, 10000, 25000, 50000, 75000, 100000 | Select the maximum download rate, in Mbps. | No |
+| Overwrite Strategy | Enumeration: diff, older, diff+older, never, always | Select the method for overwriting existing files with the same name as the source. | No |
 | Source File Paths | String | Specify a list of paths to the files or folders to download from the Aspera server. Separate each path with newline characters or commas. This list is appended to the Source Text File list and duplicates are removed. The combined list must contain at least one file. | No |
 | Source Text File | String | Specify the path to a text file that contains a list of paths to source files to download. Separate each path in the text file with newline characters or commas. This list is appended to the Source File Paths list and duplicates are removed. The combined list must contain at least one file. | No |
 
@@ -49,23 +34,8 @@ Runs an Aspera FASP transfer process from the localhost computer to an Aspera se
 | Aspera Password | Password | The password used to connect to the Aspera server. | No |
 | Aspera Script Location | String | The full path to the folder that contains the ascp script. | Yes |
 | Aspera Username | String | The user name used to connect to the Aspera server. | No |
-| Download Rate | Enumeration:
-* -1
-* 1000
-* 5000
-* 10000
-* 25000
-* 50000
-* 75000
-* 100000
-| Select the maximum download rate, in Mbps. | No |
-| Overwrite Strategy | Enumeration:
-* diff
-* older
-* diff+older
-* never
-* always
-| Select the method for overwriting existing files with the same name as the source. | No |
+| Download Rate | Enumeration: -1, 1000, 5000, 10000, 25000, 50000, 75000, 100000 | Select the maximum download rate, in Mbps. | No |
+| Overwrite Strategy | Enumeration: diff, older, diff+older, never, always | Select the method for overwriting existing files with the same name as the source. | No |
 | Source File Paths | String | Specify a list of paths to the files and folders to upload to the Aspera server. Separate each path with newline characters or commas. This list is appended to the Source Text File list and duplicates are removed. The combined list must contain at least one file. | No |
 | Source Text File | String | Specify a path to a text file that contains a list of paths to source files to upload. Separate each path in the text file with newline characters or commas. This list is appended to the Source File Paths list and duplicates are removed. The combined list must contain at least one file. | No |
 
