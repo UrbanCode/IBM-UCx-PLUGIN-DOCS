@@ -37,31 +37,7 @@ Run any docker-compose command through this generalized step. It is highly sugge
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Command Options and Services | String | List of command specific options and services. Input will be placed directly onto the command line. | No |
-| Compose Command | Enumeration:
-* build
-* bundle
-* config
-* create
-* down
-* events
-* exec
-* help
-* kill
-* logs
-* pause
-* port
-* ps
-* pull
-* push
-* restart
-* rm
-* run
-* scale
-* start
-* stop
-* unpause
-* up
-| Select the docker-compose command to run. | Yes |
+| Compose Command | Enumeration: build, bundle, config, create, down, events, exec, help, kill, logs, pause, port, ps, pull, push, restart, rm, run, scale, start, stop, unpause, up | Select the docker-compose command to run. | Yes |
 | Compose Files | String | A list of paths to Compose YAML files, separated by newline characters. The default Compose file is docker-compose.yml. | No |
 | Compose Options | String | Specify additional command-line options for the general docker-compose command. | No |
 | Do Not Delete Script | Boolean | Select to save the plugins generated executable script to analyze and run manually later. | No |
