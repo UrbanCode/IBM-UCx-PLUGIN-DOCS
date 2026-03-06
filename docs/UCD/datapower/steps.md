@@ -249,15 +249,7 @@ Set the log level for the default log in a domain
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Domain name | String | Name of the domain | No |
-| Log level | Enumeration: | Default log level in domain | No |
-|           |    * debug   |                             |    |
-|           |    * info    |                             |    |
-|           |    * notice  |                             |    |
-|           |    * warn    |                             |    |
-|           |    * error   |                             |    |
-|           |    * critic  |                             |    |
-|           |    * alert   |                             |    |
-|           |    * emerg   |                             |    |
+| Log level | Enumeration: debug, info, notice, warn, error, critic, alert, emerg | Default log level in domain | No |
 
 ## Unquiesce Domain
 

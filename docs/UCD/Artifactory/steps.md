@@ -104,12 +104,7 @@ Retrieve an archive file that contains all the artifacts for a specific build.
 | --- | --- | --- | --- | --- |
 | Api Key | Password | The API key to authenticate with the Artifactory server. If you enter an API key, you cannot specify a user name and password. | No | apiKey |
 | Identity token | Password | The Identity token to authenticate with the Artifactory server. If using Identity token, api key, username and password will be ignored. | No | identityKey |
-| Archive Type | Enumeration:
-* zip
-* tar
-* tar.gz
-* tgz
-| Select the merge type of the archive file to return. | No | buildType |
+| Archive Type | Enumeration: zip, tar, tar.gz, tgz | Select the merge type of the archive file to return. | No | buildType |
 | Artifactory Base URL | String | The base URL of the Artifactory server. For example: http://server.example.com:8081/artifactory | Yes | url |
 | Build Name | String | The name of the build to download. | Yes | buildName |
 | Build Number | String | Specify the build to download by number. Cannot be used with Build Status. | No | buildNumber |

@@ -60,9 +60,7 @@ Get Variable from Conjur
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Access Token | String | Access Token | Yes |
 | Account | String | Organization account name | No |
-| Api Version | Enumeration: | Api Version | Yes |
-|             | * v4         |             |     |
-|             | * v5         |             |     |
+| Api Version | Enumeration: v4, v5 | Api Version | Yes |
 | Conjur URL | String | Url of Conjur, eg., https://eval.conjur.org | Yes |
 | Ouput PropertyVariable | String | Process Request Property for storing the retrieved variable | Yes |
 | Proxy | String | Proxy, leave it blank if no proxy is needed | No |

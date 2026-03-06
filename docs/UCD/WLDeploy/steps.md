@@ -75,14 +75,7 @@ Run a WLDeploy Ant task.
 | Deployment Plan Version | String | The version of the deployment plan that is specified in the Deployment Plan property. | No |
 | JAVA\_HOME | String | The fully qualified path to the Java installation. Provide a value to overwrite the JAVA\_HOME environment variable. If this property is not specified, the default value is the system environment variable. | No |
 | JMX Administration URL | String | The JMX administration URL of the WebLogic server. This URL is used when you start, stop, and check the status of targets. | No |
-| Operation | Enumeration:
-* deploy
-* undeploy
-* distribute
-* redeploy
-* start
-* stop
-| The wldeploy Ant task action to perform. | Yes |
+| Operation | Enumeration: deploy, undeploy, distribute, redeploy, start, stop | The wldeploy Ant task action to perform. | Yes |
 | Password | Password | The password to use to connect to the WebLogic server. If the user name and password are encrypted, leave this property blank and specify the User Configuration File and User Key File properties. | No |
 | Remote | Boolean | Enable this property if you are deploying to a remote computer that is not the same computer that this agent runs on. | No |
 | Retire Timeout | String | The timeout value that specifies when to retire the currently running version. Specify this property if the wldeploy task is start, redeploy, or deploy. | No |
@@ -105,10 +98,7 @@ Start the target server and clusters
 | Administration URL | String | The administration URL of the WebLogic server. | Yes |
 | JAVA\_HOME | String | The fully qualified path to the Java installation. Provide a value to overwrite the JAVA\_HOME environment variable. If this property is not specified, the default value is the system environment variable. | No |
 | JMX Administration URL | String | The JMX administration URL of the WebLogic server. This URL is used when you start, stop, and check the status of targets. | No |
-| On Failure | Enumeration:
-* fail
-* warn
-| Choice of action when any of the targets fail to start. (Fail: Step will attempt to start all targets, and will fail at the end if any of the targets failed to start. Warn: Step will continue on if an override failure occurs, and print a warning declaring the target that failed to start.) | Yes |
+| On Failure | Enumeration: fail, warn | Choice of action when any of the targets fail to start. (Fail: Step will attempt to start all targets, and will fail at the end if any of the targets failed to start. Warn: Step will continue on if an override failure occurs, and print a warning declaring the target that failed to start.) | Yes |
 | Password | Password | The password to use to connect to the WebLogic server. If the user name and password are encrypted, leave this property blank and specify the User Configuration File and User Key File properties. | No |
 | Targets | String | A comma-separated list of the names of the target servers to deploy to. For example: target1,target2. | Yes |
 | Timeout | String | The time after which the attempt to start the targets times out. Specify the value in seconds. The default value is 2 minutes. | Yes |

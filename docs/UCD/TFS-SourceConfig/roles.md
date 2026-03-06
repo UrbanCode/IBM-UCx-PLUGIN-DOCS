@@ -7,8 +7,7 @@
 | --- | --- | --- |
 | Build Definition | String | The names of one or more build definitions to monitor for new builds. Separate each definition with a newline. |
 | Build Quality | String | A rating used to limit imports to builds with a specific build quality. Only builds with the specified rating are imported. |
-| Build Status | Enumeration:
-| The status that a build must have before it can be imported. Only builds with the selected status are imported. |
+| Build Status | Enumeration: | The status that a build must have before it can be imported. Only builds with the selected status are imported. |
 | Directory Offset | String | The offset is relative to the base directory of the build artifacts. |
 | File Excludes | String | A list of file patterns to exclude from the component. List each pattern on a separate line. |
 | File Includes | String | A list of file patterns to include in the component. List each pattern on a separate line. To include all files, do not specify a value or type \*\*/\*. |

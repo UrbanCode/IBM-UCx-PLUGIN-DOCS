@@ -58,13 +58,7 @@ Enable one or more services.
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Arguments | String | A newline-separated list of arguments to add to the sc.exe call. For example: /error=\nsevere\n/binpath=\nC:\temp\n/ | No |
 | Service Name | String | A comma-separated list of services to enable. | Yes |
-| Start Type | Enumeration:
-* boot
-* system
-* auto
-* demand
-* delayed-auto
-| Start-up type for the service. | Yes |
+| Start Type | Enumeration: boot, system, auto, demand, delayed-auto | Start-up type for the service. | Yes |
 
 ## Start Service
 
