@@ -44,9 +44,7 @@ The following table list the JAR files required based on the IBM Integration Bus
 
 | Version 9 and earlier | Version 10 and later |
 | --- | --- |
-| ConfigManagerProxy.jar com.ibm.mq.jar ibmjsseprovider2.jar | IntegrationAPI.jar
-**Additional JAR files for remote connections** jetty-io.jar jetty-util.jar websocket-api.jar websocket-client.jar websocket-common.jar
-|
+| ConfigManagerProxy.jar com.ibm.mq.jar ibmjsseprovider2.jar | IntegrationAPI.jar **Additional JAR files for remote connections** jetty-io.jar jetty-util.jar websocket-api.jar websocket-client.jar websocket-common.jar |
 
 
 ## IIB Security with UCD
