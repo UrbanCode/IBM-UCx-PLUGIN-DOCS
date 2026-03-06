@@ -38,9 +38,7 @@ Download assets from the IBM Rational Asset Manager repository.
 
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
-| Assets | String | A list of assets to download. Press Enter after each entry. Verify that each entry has one of these forms: `id/version` or `id/ramSearch:(SearchString)`.
-
-If the ID contains a forward slash (/), prefix the forward slash with a backslash (\). | Yes |
+| Assets | String | A list of assets to download. Press Enter after each entry. Verify that each entry has one of these forms: `id/version` or `id/ramSearch:(SearchString)`. If the ID contains a forward slash (/), prefix the forward slash with a backslash (\). | Yes |
 | Directory Offset | String | The working directory to use when you run this command. The directory is relative to the current working directory. | Yes |
 | Include Dependent | Boolean | Download dependent assets. | No |
 | Password | Password | The password to authenticate with the repository. | No |
