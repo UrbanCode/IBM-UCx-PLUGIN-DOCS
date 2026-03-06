@@ -73,13 +73,7 @@ Deploy a RuleSet or RuleApp archive to IBM Operational Decision Manager.
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Hostname | String | The host name of the server where the Rule Execution Server console is installed. For example: 192.0.2.1 | Yes |
-| Merging Policy | Enumeration:
-* NONE
-* ADD\_AT\_END\_MERGING\_POLICY
-* REPLACE\_MERGING\_POLICY
-* ADD\_AT\_END\_RULESET\_MERGING\_POLICY
-* REPLACE\_RULESET\_MERGING\_POLICY
-| Select the merge policy to use to process the RuleApp archive to automatically assign the version. The policy supersedes any explicitly set values.. | No |
+| Merging Policy | Enumeration: NONE, ADD\_AT\_END\_MERGING\_POLICY, REPLACE\_MERGING\_POLICY, ADD\_AT\_END\_RULESET\_MERGING\_POLICY, REPLACE\_RULESET\_MERGING\_POLICY | Select the merge policy to use to process the RuleApp archive to automatically assign the version. The policy supersedes any explicitly set values.. | No |
 | Password | Password | The password to use to log in to the Rule Execution Server console. | No |
 | Port | String | The port number of the Rule Execution Server console. | Yes |
 | RuleApp Archive | String | The full path to the RuleApp archive that contains the ruleset to deploy. | Yes |
@@ -88,11 +82,7 @@ Deploy a RuleSet or RuleApp archive to IBM Operational Decision Manager.
 | RuleSet Name | String | The name for the RuleSet archive in the Rule Execution Server console. To manually specify this value, Merging Policy and Versioning Policy must both be set to NONE. | No |
 | RuleSet Version | String | The version for the RuleSet archive in the Rule Execution Server console. To manually specify this value, Merging Policy and Versioning Policy must both be set to NONE. | No |
 | User Name | String | The user name to use to log in to the Rule Execution Server console. | No |
-| Version Policy | Enumeration:
-* NONE
-* MAJOR\_VERSION\_POLICY
-* MINOR\_VERSION\_POLICY
-| Select the version policy to use to process the RuleApp archive to automatically assign the version. The policy supersedes any explicitly set values. | No |
+| Version Policy | Enumeration: NONE, MAJOR\_VERSION\_POLICY, MINOR\_VERSION\_POLICY | Select the version policy to use to process the RuleApp archive to automatically assign the version. The policy supersedes any explicitly set values. | No |
 | Token URL | String | Token URL to authenticate the oAuth server. | No |
 | Scope | String | oAuth scope to authenticate the oAuth server. | No |
 | Grant Type | String | oAuth grantType to authenticate the oAuth server. | No |

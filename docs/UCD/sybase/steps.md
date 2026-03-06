@@ -10,11 +10,7 @@ Execute one or more SQL scripts on the server.
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | Specify any additional arguments to append to the isql utility. Separate each argument by a new line. | No |
 | Database | String | The name of the database in which the Isql session begins. | Yes |
-| Error Notification | Enumeration:
-* fail
-* warn
-* failAfter
-| Select the action to take when a SQL file returns an error. The default Fail On Error will fail the process immediately, Warn On Error will only warn that an error occured, and Fail After Errors will execute all SQL scripts and fail afterwards if any errors occurred. | No |
+| Error Notification | Enumeration: fail, warn, failAfter | Select the action to take when a SQL file returns an error. The default Fail On Error will fail the process immediately, Warn On Error will only warn that an error occured, and Fail After Errors will execute all SQL scripts and fail afterwards if any errors occurred. | No |
 | ISQL Path | String | The path to the isql command executable. | Yes |
 | Password | Password | The case-sensitive password to authenticate with Sybase. | Yes |
 | SQL Files | String | Specify either a list of SQL files separated by newlines, or a control file containing files listed in the same format. Note that any file without a .sql extension will be treated as a control file. | Yes |
