@@ -181,11 +181,7 @@ Deploy a Broker Archive. This step will set the output property completionCode, 
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Bar File Names | String | Comma or new line separated list of Broker Archive files to deploy. | Yes |
 | Channel | String | The name of the channel to use. Must be defined on the queue manager. Specify this value if you are using below version 10 of IIB. | No |
-| Deployment Type | Enumeration:
-* full
-* incremental
-* ``${p?:iib.deployType}``
-| Specify either an incremental or full deployment. You may specify the ``${p?:iib.deployType}`` option and set the iib.deployType property to either incremental or full at any level in the property hierarchy. | No |
+| Deployment Type | Enumeration: full, incremental, `${p?:iib.deployType}` | Specify either an incremental or full deployment. You may specify the `${p?:iib.deployType}` option and set the iib.deployType property to either incremental or full at any level in the property hierarchy. | No |
 | Environment Variables | String | A file or list containing property entries, with each entry delimited by newlines. Entries must be in the form VAR=VALUE (i.e. java.library.path=/opt/mqm/java/lib64: /opt/mqm/java/lib). Implemented to support z/OS using an ENVFILE. | No |
 | Execution Groups | String | Comma or new line separated list of Execution Groups to Deploy to. | Yes |
 | IBM Integration Bus Version | String | Enter the version of the installed IBM Integration Bus. This determines which API will be required. For example: 10.0.0.1 | Yes |
@@ -239,11 +235,7 @@ Overrides configuration properties inside a Broker Archive file. This step is no
 | IBM Integration Bus Version | String | Enter the version of the installed IBM Integration Bus. This determines which API will be required. For example: 10.0.0.1 | Yes |
 | Jar Path | String | Specify either directories to recursively search from, or each individual jar path split by your file systems path separator. (e.g. /opt/ibm/server/classes:/opt/ibm/common/jetty/lib) You must specify your required JAR files in either the Jar Path field or the CLASSPATH environment variable. | No |
 | MQSIPROFILE Executable | String | The absolute path to the mqsiprofile executable on your IIB server. Specifying this value will initialize your command environment. This value is required if your command environment is not initialized on startup through a script such as `.bashrc`. | No |
-| On Failure | Enumeration:
-* fastFail
-* bestEffort
-* warn
-| Choice of action when overrides fail on a particular bar file. (Fast Fail: Step will fail right away. Best Effort: Step will attempt to override properties on all bar files, and will fail at the end if any override failures occurred. Useful to pinpoint which bar files are invalid. Warn: Step will continue on if an override failure occurs, and print a warning declaring the bar file that failed.) | No |
+| On Failure | Enumeration: fastFail, bestEffort, warn | Choice of action when overrides fail on a particular bar file. (Fast Fail: Step will fail right away. Best Effort: Step will attempt to override properties on all bar files, and will fail at the end if any override failures occurred. Useful to pinpoint which bar files are invalid. Warn: Step will continue on if an override failure occurs, and print a warning declaring the bar file that failed.) | No |
 | Properties | String | A new line separated list of properties to set in the format name=value, or a Property file. (You must specify either Properties or a Properties File, not both) | Yes |
 
 ## Restart Execution Groups
