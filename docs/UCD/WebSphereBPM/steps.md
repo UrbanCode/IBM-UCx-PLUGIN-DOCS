@@ -143,11 +143,7 @@ Migrates all instances on all nodes in the network deployment environment. Equiv
 | Process application | String | The process application name or acronym. | Yes |
 | Source process application snapshot | String | The source process application snapshot name or acronym. | Yes |
 | Target process application snapshot | String | The target process application track name or acronym. | Yes |
-| Use Network Available Policy File | Enumeration:
-* 0
-* false
-* true
-| Optional: Select TRUE if the policy file is larger than 100 KB. Save the policy file in a path that is accessible to all nodes. | No |
+| Use Network Available Policy File | Enumeration: 0, false, true | Optional: Select TRUE if the policy file is larger than 100 KB. Save the policy file in a path that is accessible to all nodes. | No |
 | Use soap.client.props file | Boolean | Select to use the soap.client.props file for the WebSphere Application Server administrator credentials. | No |
 
 ## Set Default Snapshot
