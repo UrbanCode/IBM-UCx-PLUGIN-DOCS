@@ -37,11 +37,7 @@ Start a scenario
 | Rational Test Control Panel URL | String | The URL of the Rational Test Control Panel. | Yes |
 | Scenario name | String | The name of the scenario to start. | Yes |
 | Scenario owner | String | Filters the scenarios by owner | No |
-| Stop stubs | Enumeration:
-* ALL
-* OPERATIONS
-* NONE
-| Specify ALL to stop all stubs in the environment; OPERATIONS to stop the stubs for the operations in the scenario; defaults to NONE to leave any existing stubs running  | No |
+| Stop stubs | Enumeration: ALL, OPERATIONS, NONE | Specify ALL to stop all stubs in the environment; OPERATIONS to stop the stubs for the operations in the scenario; defaults to NONE to leave any existing stubs running  | No |
 | User name | String | The user name under which to perform the operation to get through environment locks | No |
 
 ## Start Stub

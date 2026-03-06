@@ -35,11 +35,7 @@ Installs, Upgrades, and Deploys SharePoint WSP packages
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Allow CAS Policies | Boolean | If the solution contains Code Access Security (CAS) policies, this parameter must be specified. | No |
 | Allow GAC Deployment | Boolean | If the solution contains assemblies that need to be put in a global assembly cache (GAC), this parameter must be specified | No |
-| Deployment Option | Enumeration:
-* local
-* immediate
-* time
-| select the sharepoint deployment/upgrade value | Yes |
+| Deployment Option | Enumeration: local, immediate, time | select the sharepoint deployment/upgrade value | Yes |
 | Path to Stsadmin Executable | String | Path to stsadmin executable if not identified in a system path (e.g. C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\14\BIN\STSADM.EXE) | No |
 | SharePoint Url | String | specifify the SharePoint url if url deployment is checked | No |
 | WSP Package Name | String | Specify the name of the SharePoint WSP package to deploy (e.g. package.wsp) | Yes |
