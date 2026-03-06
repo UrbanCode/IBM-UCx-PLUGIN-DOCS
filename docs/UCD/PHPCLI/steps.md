@@ -9,18 +9,19 @@ cd $DevOps PHP CLI php DevOps PHP CLI .php action argument
 
 
 | **Action** | **Argument** | **Description** |
-| addTeamToComponent | [required] Team name or ID[optional] Component name or ID | Add a component to a team. If the component is not passed as argument, all the components available in DevOps Deploywill be added to the team. |
-| addTeamToResource | [required] Team name or ID[optional] Resource name or ID | Add a resource to a team. If the resource is not passed as argument, all the resources available in DevOps Deploywill be added to the team. |
+| --- | --- | --- |
+| addTeamToComponent | [required] Team name or ID [optional] Component name or ID | Add a component to a team. If the component is not passed as argument, all the components available in DevOps Deploywill be added to the team. |
+| addTeamToResource | [required] Team name or ID [optional] Resource name or ID | Add a resource to a team. If the resource is not passed as argument, all the resources available in DevOps Deploywill be added to the team. |
 | backup |  | Run a complete back up of DevOps Deploy. |
 | createSnapshot | [required] Snapshot JSON file | Create a snapshot based on a JSON file that includes information about snapshot name, application, list of component versions. |
 | createVersion | [required] Component name or component ID [required] Version Name [optional] Description | Create a new component version |
 | createVersionAndSnapshot | [required] Snapshot configuration (PHP or JSON) | Get a PHP or JSON file which includes the snapshot configuration. Gets the component versions listed and creates them. After that, it creates the snapshot. |
 | exportEnvironmentProperties | [required] Environment id | Export the environment properties in a JSON file |
-| importEnvironmentProperties | [required] Environment id[required] Path of the json file exported with the exportEnvironmentProperties | Import the environment properties of a given a JSON file into a uDeploy environment |
-| promoteConfig | [optional] If a directory is provided, restore configuration from there[optional] If argument clean is passed, remove new environments imported from application | Upgrade an existing DevOps Deployconfiguration from a directory or from another DevOps Deployserver based on origin and destination servers set in servers.config.php |
+| importEnvironmentProperties | [required] Environment id [required] Path of the json file exported with the exportEnvironmentProperties | Import the environment properties of a given a JSON file into a uDeploy environment |
+| promoteConfig | [optional] If a directory is provided, restore configuration from there [optional] If argument clean is passed, remove new environments imported from application | Upgrade an existing DevOps Deployconfiguration from a directory or from another DevOps Deployserver based on origin and destination servers set in servers.config.php |
 | promoteSnapshot | [required] Snapshot name [optional] configuration file [optional] artifacts directory | Promotes a snapshot from one DevOps Deployserver to a second one, based on the details set in the configuration file. If artifacts are needed, thy will be taken from the artifacts directory set as 3rd argument. |
 | requestStatus | [required] ID of process request | Returns the current status of a requested process. |
-| restore | [required] Source path for restore[optional] If argument clean is passed, remove new environments imported from application | Run a complete restore of DevOps Deployfrom a structured folder. |
+| restore | [required] Source path for restore [optional] If argument clean is passed, remove new environments imported from application | Run a complete restore of DevOps Deployfrom a structured folder. |
 | restoreApplication | [required] Path to Application JSON file **or** path to Application folder | Restore an application from JSON file or application and its components from a folder. |
 | restoreComponent | [required] Path to component JSON file | Restore a component from a JSON file, creating it. |
 | restoreComponentTemplate | [required] Path to component template JSON file | Restore a component template from a JSON file, creating it. |
