@@ -163,10 +163,7 @@ Set the namespace for the targeted organization. Be careful, this namespace cann
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Cloud Foundry CLI Path | String | Absolute path to the Cloud Foundry CLI executable file, specified if it is not already on the system path. | No |
 | Namespace | String | The namespace to be assigned to uniquely identify your organization in the Bluemix registry. The namespace must start with a lowercase letter and be 430 characters. You can use lowercase letters, numbers, and underscores. | No |
-| On Failure | Enumeration:
-* fail
-* warn
-| What to do when the namespace is already set for the organization. A setting of Fail will cause the step to fail and Warn will cause the step to warn but continue with process execution. | No |
+| On Failure | Enumeration: fail, warn | What to do when the namespace is already set for the organization. A setting of Fail will cause the step to fail and Warn will cause the step to warn but continue with process execution. | No |
 
 ## Start Containers
 
