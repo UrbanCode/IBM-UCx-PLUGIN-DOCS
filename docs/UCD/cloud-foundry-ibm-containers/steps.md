@@ -55,7 +55,7 @@ Execute a command on a running container. You must be logged in to Cloud Foundry
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | Additional command-line arguments to pass when running this command separated by new lines (for example, user USERNAME). | No |
 | Cloud Foundry CLI Path | String | Absolute path to the Cloud Foundry CLI executable file, specified if it is not already on the system path. | No |
-| Command | String | The command to run within the container (for example, cp /root/dependency.jar ``${JAVA\_HOME}``/lib). | No |
+| Command | String | The command to run within the container (for example, cp /root/dependency.jar ``${JAVA_HOME}``/lib). | No |
 | Container Name/ID | String | The name or ID of the container on which to run a command. | No |
 
 ## Initialize Plug-in

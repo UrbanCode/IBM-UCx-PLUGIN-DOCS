@@ -88,7 +88,7 @@ componentApplication: 'Jenkins'// Name of application to add component
 ],
 delivery: [//Perform a componetn version input
 $class: 'com.urbancode.jenkins.plugins.ucdeploy.DeliveryHelper$Push',
-pushVersion: '``${BUILD\_NUMBER}``',//Name toassign component version
+pushVersion: '``${BUILD_NUMBER}``',//Name toassign component version
 baseDir: 'jobs\\test-ucd\\workspace\\build\\distributions',// Base directory containing artifacts
 fileIncludePatterns: '\*.zip',// Files to include using Regex
 fileExcludePatterns: '', // Files to exclude using Regex
@@ -260,7 +260,7 @@ componentApplication: 'Jenkins-APP'
 ],
 delivery: [
 $class: 'com.urbancode.jenkins.plugins.ucdeploy.DeliveryHelper$Push',
-pushVersion: '``${BUILD\_NUMBER}``',
+pushVersion: '``${BUILD_NUMBER}``',
 baseDir: '/var/jenkins\_home/workspace/',
 fileIncludePatterns: '\*',
 fileExcludePatterns: '',

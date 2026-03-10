@@ -119,7 +119,7 @@ Use this step to start a WebLogic server.
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Directory Offset | String | The directory offset relative to the current working directory where the step should run. | No |
-| Domain Directory | String | The directory where the domain is created. The default is ``${MW\_HOME}``/user\_projects/domains/``${YOUR\_DOMAIN}``. | Yes |
+| Domain Directory | String | The directory where the domain is created. The default is ``${MW_HOME}``/user\_projects/domains/``${YOUR_DOMAIN}``. | Yes |
 | Domain Name | String | The domain name that the WebLogic server exists in. | Yes |
 | Host Name | String | Host name of Node Manager. This argument defaults to localhost. | No |
 | NM Type | String | The Node Manager type.SSL is default.Note: If you specify plain for nmType, you must manually set the SecureListener parameter in WL\_HOME/common/nodemanager/nodemanager.properties to false. Otherwise, the nmConnect command will fail. | No |
