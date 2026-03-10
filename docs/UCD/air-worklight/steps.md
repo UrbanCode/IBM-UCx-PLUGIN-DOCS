@@ -18,7 +18,7 @@ Changes an applications configuration on IBM MobileFirst. Note: This step is for
 | Server Path | String | The URL to the IBM MobileFirst server and role of the MobileFirst authorized user. For Worklight versions 7.1 and older, the default path is /worklightadmin. For MobileFirst versions 8.0 and newer, the default path is /mfpadmin. | Yes |
 | User | String | The user name that is required to access a secure IBM MobileFirst server. Note: This property is required for Worklight 6.2 and later. | No |
 | Version | String | The name of the version. | Yes |
-| Worklight Ant JAR File Path | String | The path to the Worklight Ant Deployer JAR (worklight-ant-deployer.jar) file. The Worklight 6.0.0 Server can use the value: ``${PLUGIN\_HOME}``/lib/worklight-ant.jar. Required for server versions less than 8.0. | No |
+| Worklight Ant JAR File Path | String | The path to the Worklight Ant Deployer JAR (worklight-ant-deployer.jar) file. The Worklight 6.0.0 Server can use the value: ``${PLUGIN_HOME}``/lib/worklight-ant.jar. Required for server versions less than 8.0. | No |
 
 ## Delete Adapter
 
@@ -34,7 +34,7 @@ Deletes the adapter from the IBM MobileFirst server. Note: This step is for Work
 | Secure | Boolean | Whether to transmit in a secure way. Utilized in server versions 6.2 to 7.1. | No |
 | Server Path | String | The URL to the IBM MobileFirst server and role of the MobileFirst authorized user. For Worklight versions 7.1 and older, the default path is /worklightadmin. For MobileFirst versions 8.0 and newer, the default path is /mfpadmin. | Yes |
 | User | String | The user name that is required to access a secure IBM MobileFirst server. Note: This property is required for Worklight 6.2 and later. | No |
-| Worklight Ant JAR File Path | String | The path to the Worklight Ant Deployer JAR (worklight-ant-deployer.jar) file. The Worklight 6.0.0 Server can use the value: ``${PLUGIN\_HOME}``/lib/worklight-ant.jar. Required for server versions less than 8.0. | No |
+| Worklight Ant JAR File Path | String | The path to the Worklight Ant Deployer JAR (worklight-ant-deployer.jar) file. The Worklight 6.0.0 Server can use the value: ``${PLUGIN_HOME}``/lib/worklight-ant.jar. Required for server versions less than 8.0. | No |
 
 ## Delete Application
 
@@ -52,7 +52,7 @@ Delete an application from IBM MobileFirst. Note: This step is for Worklight Ser
 | Server Path | String | The URL to the IBM MobileFirst server and role of the MobileFirst authorized user. For Worklight versions 7.1 and older, the default path is /worklightadmin. For MobileFirst versions 8.0 and newer, the default path is /mfpadmin. | Yes |
 | User | String | The user name that is required to access a secure IBM MobileFirst server. Note: This property is required for Worklight 6.2 and later. | No |
 | Version | String | The applications version number. Only required if using IBM MobileFirst v8+. | No |
-| Worklight Ant JAR File Path | String | The path to the Worklight Ant Deployer JAR (worklight-ant-deployer.jar) file. The Worklight 6.0.0 Server can use the value: ``${PLUGIN\_HOME}``/lib/worklight-ant.jar. Required for IBM MobileFirst versions less than 8.0. | No |
+| Worklight Ant JAR File Path | String | The path to the Worklight Ant Deployer JAR (worklight-ant-deployer.jar) file. The Worklight 6.0.0 Server can use the value: ``${PLUGIN_HOME}``/lib/worklight-ant.jar. Required for IBM MobileFirst versions less than 8.0. | No |
 
 ## Deploy Adapter
 
@@ -67,7 +67,7 @@ Deploys the adapter to IBM MobileFirst.
 | Secure | Boolean | Whether to transmit in a secure way. Utilized in server versions 6.2 to 7.1. | No |
 | Server Path | String | The URL to the IBM MobileFirst server and role of the MobileFirst authorized user. For Worklight versions 7.1 and older, the default path is /worklightadmin. For MobileFirst versions 8.0 and newer, the default path is /mfpadmin. | Yes |
 | User | String | The user name that is required to access a secure IBM MobileFirst server. Note: This property is required for Worklight 6.2 and later. | No |
-| Worklight Ant JAR File Path | String | The path to the Worklight Ant Deployer JAR (worklight-ant-deployer.jar) file. The Worklight 6.0.0 Server can use the value: ``${PLUGIN\_HOME}``/lib/worklight-ant.jar. Required for server versions less than 8.0. | No |
+| Worklight Ant JAR File Path | String | The path to the Worklight Ant Deployer JAR (worklight-ant-deployer.jar) file. The Worklight 6.0.0 Server can use the value: ``${PLUGIN_HOME}``/lib/worklight-ant.jar. Required for server versions less than 8.0. | No |
 
 ## Deploy Application
 
@@ -82,7 +82,7 @@ Deploys an application to IBM MobileFirst.
 | Secure | Boolean | Whether to transmit in a secure way. Utilized in server versions 6.2 to 7.1. | No |
 | Server Path | String | The URL to the IBM MobileFirst server and role of the MobileFirst authorized user. For Worklight versions 7.1 and older, the default path is /worklightadmin. For MobileFirst versions 8.0 and newer, the default path is /mfpadmin. | Yes |
 | User | String | The user name that is required to access a secure IBM MobileFirst server. Note: This property is required for Worklight 6.2 and later. | No |
-| Worklight Ant JAR File Path | String | The path to the Worklight Ant Deployer JAR (worklight-ant-deployer.jar) file. The Worklight 6.0.0 Server can use the value: ``${PLUGIN\_HOME}``/lib/worklight-ant.jar. Required for IBM MobileFirst versions less than 8.0. | No |
+| Worklight Ant JAR File Path | String | The path to the Worklight Ant Deployer JAR (worklight-ant-deployer.jar) file. The Worklight 6.0.0 Server can use the value: ``${PLUGIN_HOME}``/lib/worklight-ant.jar. Required for IBM MobileFirst versions less than 8.0. | No |
 
 ## Deploy Web Resource
 
@@ -108,11 +108,11 @@ Removes the native application from the IBM MobileFirst Application Center.
 
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
-| Application Center Ant JAR File Path | String | The path to the Application Center Deploy Tool Ant JAR (applicationcenterdeploytool.jar) file. The Worklight 6.0.0 Server can use the value: ``${PLUGIN\_HOME}``/lib/applicationcenterdeploytool.jar. | Yes |
+| Application Center Ant JAR File Path | String | The path to the Application Center Deploy Tool Ant JAR (applicationcenterdeploytool.jar) file. The Worklight 6.0.0 Server can use the value: ``${PLUGIN_HOME}``/lib/applicationcenterdeploytool.jar. | Yes |
 | Application Package | String | The package name of the application to remove from the Application Center. | Yes |
 | Context | String | The context of the Application Center. For example, applicationcenter. | Yes |
 | Disable SSL Security Checking | Boolean | Disables SSL security checking. Use of this flag is a security risk. | No |
-| JSON4J JAR File Path | String | The path to the JSON4J JAR (json4j.jar) file. The Worklight 6.0.0 Server can use the value: ``${PLUGIN\_HOME}``/lib/json4j.jar. | Yes |
+| JSON4J JAR File Path | String | The path to the JSON4J JAR (json4j.jar) file. The Worklight 6.0.0 Server can use the value: ``${PLUGIN_HOME}``/lib/json4j.jar. | Yes |
 | Operating System | Enumeration: all, Android, iOS | The operating system of the application to remove from the Application Center. | No |
 | Password | Password | The user password. The default value is: ``${p:environment/applicationCenterPassword}``. | Yes |
 | Server Path | String | The URL to the IBM MobileFirst server and role of the MobileFirst authorized user. For Worklight versions 7.1 and older, the default path is /worklightadmin. For MobileFirst versions 8.0 and newer, the default path is /mfpadmin. | Yes |
@@ -127,14 +127,14 @@ Uploads the application to the IBM MobileFirst Application Center.
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Active | Boolean | Store the application in the Application Center as an active application. | No |
-| Application Center Ant JAR File Path | String | The path to the Application Center Deploy Tool Ant JAR (applicationcenterdeploytool.jar) file. The Worklight 6.0.0 Server can use the value: ``${PLUGIN\_HOME}``/lib/applicationcenterdeploytool.jar. | Yes |
+| Application Center Ant JAR File Path | String | The path to the Application Center Deploy Tool Ant JAR (applicationcenterdeploytool.jar) file. The Worklight 6.0.0 Server can use the value: ``${PLUGIN_HOME}``/lib/applicationcenterdeploytool.jar. | Yes |
 | Context | String | The context of the Application Center. For example, applicationcenter. | Yes |
 | Description | String | The description of the application to upload to the Application Center. | No |
 | Disable SSL Security Checking | Boolean | Disables SSL security checking. Use of this flag is a security risk. | No |
 | File | String | The Android application package (.apk) or iOS application (.ipa) file to upload to the Application Center. | Yes |
 | Force Upload | Boolean | Force existing applications to be uploaded to the Application Center. | No |
 | Installer | Boolean | Store the application in the Application Center with the installer flag. | No |
-| JSON4J JAR File Path | String | The path to the JSON4J JAR (json4j.jar) file. The Worklight 6.0.0 Server can use the value: ``${PLUGIN\_HOME}``/lib/json4j.jar. | Yes |
+| JSON4J JAR File Path | String | The path to the JSON4J JAR (json4j.jar) file. The Worklight 6.0.0 Server can use the value: ``${PLUGIN_HOME}``/lib/json4j.jar. | Yes |
 | Label | String | The fallback label in the Application Center. | No |
 | Password | Password | The user password. The default value is: ``${p:environment/applicationCenterPassword}``. | Yes |
 | Ready for production | Boolean | Store the application in the Application Center with the ready-for-production flag. | No |
