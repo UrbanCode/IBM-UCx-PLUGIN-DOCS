@@ -20,6 +20,7 @@ See [Installing plug-ins](https://www.ibm.com/docs/en/devops-deploy/8.1.1?topic=
 ### Version 10
 
 * Added support for new buztool parameters
+* 10.1186834 version fixes issue with creating version when using shiplistContent textAreaBox
 
 ### Version 9
 
