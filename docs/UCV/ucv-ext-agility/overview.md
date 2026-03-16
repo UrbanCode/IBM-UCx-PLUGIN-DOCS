@@ -9,7 +9,7 @@ The Digital.io Agility plug-in provides the integration with Digital.io Agility 
 This plug-in requires the following:
 
 * IBM DevOps Velocity
-Version 1.4.5 or later
+Version 3.0.0 or later
 * Digital.io Agility Server Version 21.0 or later
 
 ## Versions
@@ -20,12 +20,14 @@ IBM DevOps Velocity plug-in images are located in DockerHub. To view available p
 
 ### Version 1.0.29
 
+* **Removed Manual User Access Key:** From current version onwards this plugin will only support Auto Generated User Access Key feature of DevOps Velocity.
+* **Preventing Installation on Older Versions:** This version of Digital.ai Agility Plugin can only be installed on DevOps Velocity version 3.0.0 and later.
+* **Added Category:** ALM is the plugin category of Digital.ai Agility.
+* **Initial Sync Date Field Added:** Under the hidden properties section of add integration page for the plugin an Initial Sync Date field is added. This field is optional and can be used only for the first sync.
 
 ### Version 1.0.26
 
 * **Clarifying delimitation**: For the properties used in index.js file clarified delimitation problem . Updated label information and description as comma separated list must be used. So that it is more clear while integrating.
-
-### Version 1.0.25
 
 ### Version 1.0.20
 

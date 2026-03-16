@@ -61,11 +61,26 @@ the server location for your installation of DevOps Velocity.
 * The BODY of the call is a multipart/form data. It
 includes information about the payload.
 
-
+For standalone velocity
 ```
 
 METHOD: POST
 URL: https://<url_DevOpsvelocity_server>/reporting-
+consumer/metrics
+BODY (multipart/form-data):
+{
+payload: <json_object_string> // See below for schema format
+
+testArtifact: <testng JSON/XML>
+}
+
+```
+
+For loop velocity/measure
+```
+
+METHOD: POST
+URL: https://<url_DevOpsvelocity_server>/velocity/reporting-
 consumer/metrics
 BODY (multipart/form-data):
 {
@@ -118,12 +133,37 @@ included
 
 ### Invoking using Curl
 
+For standalone velocity
 
 ```
 
 curl --request POST \
 --url
-https://*url\_DevOpsvelocity\_server>*/reporting-consumer/metrics \
+https://*url_DevOpsvelocity_server>*/reporting-consumer/metrics \
+--form 'payload={
+"tenant_id":
+"5ade13625558f2c6688d15ce",
+"application": {
+"name": "My Application"
+},
+"record": {
+
+"pluginType": "testng",
+"dataFormat": "testngJSON"
+}
+}
+' \
+--form testArtifact=@test-result/testng.json
+
+```
+
+For loop velocity/measure
+
+```
+
+curl --request POST \
+--url
+https://*url_DevOpsvelocity_server>*/velocity/reporting-consumer/metrics \
 --form 'payload={
 "tenant_id":
 "5ade13625558f2c6688d15ce",

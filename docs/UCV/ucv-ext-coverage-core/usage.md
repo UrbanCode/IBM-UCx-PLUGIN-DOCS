@@ -61,11 +61,25 @@ about the snippet:
 * The URL points to the IBM DevOps Velocity quality data endpoint. Update with the server location for your installation of IBM DevOps Velocity.
 * The BODY of the call is a multipart/form data. It includes information about the payload.
 
-
+For standalone velocity
 ```
 
 METHOD: POST
 URL: https://<url_devopsvelocity_server>/reporting-consumer/metrics
+BODY
+(multipart/form-data):
+{
+payload: <json_object_string> // See below for schema format
+testArtifact:
+<cobertura/etc_xml_file>
+}
+
+```
+For loop velocity/measure
+```
+
+METHOD: POST
+URL: https://<url_devopsvelocity_server>/velocity/reporting-consumer/metrics
 BODY
 (multipart/form-data):
 {
@@ -87,7 +101,7 @@ The following shows the schema for the payload. Replace the angle brackets with 
 "metricName":
 "<metric_name>", // optional: name for recurring test set
 "application": {
-"name": "<application_name>"  //Name
+"name": "<application_name>"  // required application name
 of application
 },
 "record": {
@@ -117,12 +131,34 @@ Jenkins build with test results
 
 ### Example using Curl
 
+For standalone velocity
+```
+
+curl --request POST \
+--url https://<url_devopsvelocity_server>/reporting-consumer/metrics \
+--form 'payload={
+"tenant_id": "*tenant\_id*",
+"application": {
+"name": "My
+Application"
+},
+"record": {
+"pluginType": "coverageData",
+"dataFormat": "cobertura"
+}
+}
+' \
+
+--form testArtifact=@test-result/junit.xml
+
+```
+
+For Loop velocity/measure
 
 ```
 
 curl --request POST \
---url https:///reporting-
-consumer/metrics \
+--url https://<url_devopsvelocity_server>/velocity/reporting-consumer/metrics \
 --form 'payload={
 "tenant_id": "*tenant\_id*",
 "application": {

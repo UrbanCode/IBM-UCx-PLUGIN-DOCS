@@ -53,7 +53,7 @@ The following request sample shows a REST call that you can copy and update as n
 * The URL points to the DevOps Velocity quality data endpoint. Update with the server location for your installation of DevOps Velocity.
 * The BODY of the call is a multipart/form data. It includes information about the payload.
 
-
+For standalone velocity
 ```
 
 METHOD: POST
@@ -67,15 +67,53 @@ testArtifact: <cucumber_xml_file>
 }``
 
 ```
+For loop velocity/measure
+```
+
+METHOD: POST
+URL:
+https://<url_DevOpsvelocity_server>/velocity/reporting-consumer/metrics
+BODY (multipart/form-data):
+{
+payload:
+<payload_json_object_string>, // See below for schema format
+testArtifact: <cucumber_xml_file>
+}``
+
+```
 
 ### Example: Invoke using Curl
 
-
+For standlone velocity
 ```
 
 curl --request POST \
 --url
 https://url_DevOpsvelocity_server>/reporting-consumer/metrics \
+--form 'payload={
+"tenant_id":
+"5ade13625558f2c6688d15ce",
+"application": {
+"name": "My Application"
+}``,
+"record": {
+
+"pluginType": "cucumber",
+"dataFormat": "cucumberXML"
+}``
+}``
+' \
+--form testArtifact=@test-
+result/cucumber.xml
+
+```
+
+For Loop velocity/measure
+```
+
+curl --request POST \
+--url
+https://url_DevOpsvelocity_server>/velocity/reporting-consumer/metrics \
 --form 'payload={
 "tenant_id":
 "5ade13625558f2c6688d15ce",

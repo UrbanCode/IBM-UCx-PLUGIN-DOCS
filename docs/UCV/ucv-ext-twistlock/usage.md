@@ -56,11 +56,27 @@ about the snippet:
 * The URL points to the DevOps Velocity quality data endpoint. Update with the server location for your installation of DevOps Velocity.
 * The BODY of the call is a multipart/form data. It includes information about the payload.
 
+For Standalone velocity
 
 ```
 
 METHOD: POST
 URL: https://<url_DevOpsvelocity_server>/reporting-consumer/metrics
+BODY
+(multipart/form-data):
+{
+payload: <json_object_string> // See below for schema format
+testArtifact:
+<twistlock_json_file>
+}
+
+```
+For loop velocity/measure
+
+```
+
+METHOD: POST
+URL: https://<url_DevOpsvelocity_server>/velocity/reporting-consumer/metrics
 BODY
 (multipart/form-data):
 {
@@ -112,11 +128,34 @@ of application
 
 ### Example: Invoking using Curl
 
-
+For standalone velocity
 ```
 
 curl --request POST \
---url https:///reporting-consumer/metrics \
+--url https://<url_DevOpsvelocity_server>/reporting-consumer/metrics \
+--form
+'payload={
+"tenant_id": "5ade13625558f2c6688d15ce",
+"application": {
+"name": "My Application"
+},
+
+"record": {
+"pluginType": "twistlock",
+"dataFormat": "twistlockJSON"
+}
+}
+' \
+--form
+testArtifact=@test-result/twistlock.json
+
+```
+
+For loop velocity/measure
+```
+
+curl --request POST \
+--url https://<url_DevOpsvelocity_server>/velocity/reporting-consumer/metrics \
 --form
 'payload={
 "tenant_id": "5ade13625558f2c6688d15ce",
