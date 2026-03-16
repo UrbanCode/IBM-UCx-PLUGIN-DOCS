@@ -61,7 +61,7 @@ about the snippet:
 * The URL points to the IBM DevOps Velocity quality data endpoint. Update with the server location for your installation of IBM DevOps Velocity.
 * The BODY of the call is a multipart/form data. It includes information about the payload.
 
-For standalone velocity
+For velocity
 ```
 
 METHOD: POST
@@ -75,7 +75,7 @@ testArtifact:
 }
 
 ```
-For loop velocity/measure
+For loop
 ```
 
 METHOD: POST
@@ -131,7 +131,7 @@ Jenkins build with test results
 
 ### Example using Curl
 
-For standalone velocity
+For velocity
 ```
 
 curl --request POST \
@@ -153,7 +153,7 @@ Application"
 
 ```
 
-For Loop velocity/measure
+For Loop
 
 ```
 

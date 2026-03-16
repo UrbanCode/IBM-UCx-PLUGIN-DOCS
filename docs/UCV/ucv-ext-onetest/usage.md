@@ -45,7 +45,7 @@ The following request sample shows a REST call that you can copy and update as n
 * The URL points to the IBM DevOps Velocity quality data endpoint. Update with the server location for your installation of IBM DevOps Velocity.
 * The BODY of the call is a multipart/form data. It includes information about the payload.
 
-For standalone velocity
+For velocity
 
 ```
 
@@ -59,7 +59,7 @@ BODY (multipart/form-data):
 
 ```
 
-For loop velocity/measure
+For loop
 
 ```
 
@@ -110,7 +110,7 @@ The following shows the schema for the payload. Replace the angle brackets with 
 
 ### Invoke using Curl
 
-For standalone velocity
+For velocity
 
 ```
 
@@ -131,7 +131,7 @@ curl --request POST \
 
 ```
 
-For loop velocity/measure
+For loop
 
 ```
 

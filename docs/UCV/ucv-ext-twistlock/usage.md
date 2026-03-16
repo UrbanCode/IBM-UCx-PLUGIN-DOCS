@@ -56,7 +56,7 @@ about the snippet:
 * The URL points to the DevOps Velocity quality data endpoint. Update with the server location for your installation of DevOps Velocity.
 * The BODY of the call is a multipart/form data. It includes information about the payload.
 
-For Standalone velocity
+For velocity
 
 ```
 
@@ -71,7 +71,7 @@ testArtifact:
 }
 
 ```
-For loop velocity/measure
+For loop
 
 ```
 
@@ -128,7 +128,7 @@ of application
 
 ### Example: Invoking using Curl
 
-For standalone velocity
+For velocity
 ```
 
 curl --request POST \
@@ -151,7 +151,7 @@ testArtifact=@test-result/twistlock.json
 
 ```
 
-For loop velocity/measure
+For loop
 ```
 
 curl --request POST \

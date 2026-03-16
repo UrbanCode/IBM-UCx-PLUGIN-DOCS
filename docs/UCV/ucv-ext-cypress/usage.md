@@ -27,7 +27,7 @@ The following request sample shows a REST call that you can copy and update as n
 The URL points to the IBM DevOps Velocity quality data endpoint. Update with the server location for your installation of IBM DevOps Velocity.
 The BODY of the call is multipart/form data. It includes information about the payload.  
 
-For standalone velocity
+For velocity
 
 ```
 METHOD: POST  
@@ -39,7 +39,7 @@ BODY (multipart/form-data):
  } 
 ```
 
-For Loop velocity/measure
+For Loop
 
 ```
 METHOD: POST  
@@ -53,7 +53,7 @@ BODY (multipart/form-data):
 
 ## Invoke the plug-in using Curl request 
 
-For standalone velocity
+For velocity
 
 ```
 curl --request POST \ 
@@ -73,7 +73,7 @@ curl --request POST \
   --form testArtifact=@test-result/cypress.xml 
 ```
 
-For Loop velocity/measure
+For Loop
 
 ```
 curl --request POST \ 

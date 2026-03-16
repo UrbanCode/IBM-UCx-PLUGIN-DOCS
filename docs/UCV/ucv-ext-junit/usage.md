@@ -40,7 +40,7 @@ The following request sample shows a REST call that you can copy and update as n
 
 * The BODY of the call is a multipart/form data. It includes information about the payload.
 
-For standalone velocity
+For velocity
 ```
 
 METHOD: POST 
@@ -52,7 +52,7 @@ BODY (multipart/form-data):
  }
 
 ```
-For loop velocity/measure
+For loop
 ```
 
 METHOD: POST 
@@ -67,7 +67,7 @@ BODY (multipart/form-data):
 
 ## Invoke using Curl
 
-For standalone velocity
+For velocity
 ```
 curl --request POST \
   --url https://url_ibm_devops_velocity_server>/reporting-consumer/metrics \
@@ -86,7 +86,7 @@ curl --request POST \
 
 ```
 
-For loop velocity/measure
+For loop
 ```
 curl --request POST \
   --url https://url_ibm_devops_velocity_server>/velocity/reporting-consumer/metrics \

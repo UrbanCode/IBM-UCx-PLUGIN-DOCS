@@ -37,7 +37,7 @@ The following request sample shows a REST call that you can copy and update as n
 * The URL points to the DevOps Velocity quality data endpoint. Update with the server location for your installation of DevOps Velocity.
 * The BODY of the call is a multipart/form data. It includes information about the payload.
 
-For standalone velocity
+For velocity
 
 ```
 METHOD: POST 
@@ -49,7 +49,7 @@ BODY (multipart/form-data):
  }
 ```
 
-For loop velocity/measure
+For loop
 
 ```
 METHOD: POST 
@@ -87,7 +87,7 @@ Note: These formats do not provide branch coverage information.
 |vsCoverage|vsTestCoverageXML|VSTest .xml files|
 |vsCoverage|vsTestCoverageXML|MSTest .xml files|
 
-For standalone velocity
+For velocity
 
 ```
 curl --request POST \
@@ -106,7 +106,7 @@ curl --request POST \
   --form testArtifact=@test-result/MSTest.xml
 ```
 
-For loop velocity/measure
+For loop
 
 ```
 curl --request POST \
