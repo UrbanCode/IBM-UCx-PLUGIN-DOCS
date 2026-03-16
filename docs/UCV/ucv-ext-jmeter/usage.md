@@ -63,7 +63,7 @@ for your installation of DevOps Velocity.
 * The BODY of the call is a multipart/form data. It includes information
 about the payload.
 
-For velocity
+For Velocity
 ```
 
 METHOD: POST
@@ -78,7 +78,7 @@ testArtifact:
 
 ```
 
-For loop
+For Loop
 ```
 
 METHOD: POST
@@ -134,7 +134,7 @@ jmeter xml
 
 ### Example:Invoking using Curl
 
-For velocity
+For Velocity
 ```
 
 curl --request POST \
@@ -156,7 +156,7 @@ curl --request POST \
 
 ```
 
-For loop
+For Loop
 ```
 
 curl --request POST \

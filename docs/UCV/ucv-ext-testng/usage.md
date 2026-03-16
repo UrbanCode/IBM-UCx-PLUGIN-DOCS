@@ -61,7 +61,7 @@ the server location for your installation of DevOps Velocity.
 * The BODY of the call is a multipart/form data. It
 includes information about the payload.
 
-For velocity
+For Velocity
 ```
 
 METHOD: POST
@@ -76,7 +76,7 @@ testArtifact: <testng JSON/XML>
 
 ```
 
-For loop
+For Loop
 ```
 
 METHOD: POST
@@ -133,7 +133,7 @@ included
 
 ### Invoking using Curl
 
-For velocity
+For Velocity
 
 ```
 
@@ -157,7 +157,7 @@ https://*url_DevOpsvelocity_server>*/reporting-consumer/metrics \
 
 ```
 
-For loop
+For Loop
 
 ```
 
