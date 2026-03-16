@@ -37,9 +37,23 @@ The following request sample shows a REST call that you can copy and update as n
 * The URL points to the DevOps Velocity quality data endpoint. Update with the server location for your installation of DevOps Velocity.
 * The BODY of the call is a multipart/form data. It includes information about the payload.
 
+For Velocity
+
 ```
 METHOD: POST 
 URL: https://<url_DevOpsvelocity_server>/reporting-consumer/metrics 
+BODY (multipart/form-data):
+ {
+  payload: <payload_json_object_string> // See below for schema format
+ testArtifact: <msTest_xml_file>
+ }
+```
+
+For Loop
+
+```
+METHOD: POST 
+URL: https://<url_DevOpsvelocity_server>/velocity/reporting-consumer/metrics 
 BODY (multipart/form-data):
  {
   payload: <payload_json_object_string> // See below for schema format
@@ -73,9 +87,30 @@ Note: These formats do not provide branch coverage information.
 |vsCoverage|vsTestCoverageXML|VSTest .xml files|
 |vsCoverage|vsTestCoverageXML|MSTest .xml files|
 
+For Velocity
+
 ```
 curl --request POST \
   --url https://url_DevOpsvelocity_server>/reporting-consumer/metrics \
+  --form 'payload={
+  "tenant_id": "",
+  "application": {
+    "name": "My Application"
+  },
+  "record": {
+    "pluginType": "msTest",
+    "dataFormat": "msTestXML"
+  }
+}
+' \
+  --form testArtifact=@test-result/MSTest.xml
+```
+
+For Loop
+
+```
+curl --request POST \
+  --url https://url_DevOpsvelocity_server>/velocity/reporting-consumer/metrics \
   --form 'payload={
   "tenant_id": "",
   "application": {

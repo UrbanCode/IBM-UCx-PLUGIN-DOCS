@@ -5,7 +5,7 @@ The Azure DevOps (formerly *Microsoft Team Foundation Server or TFS*) plug-in pr
 
 ## Compatibility
 
-Must be running DevOps Velocity version 1.2.1 and later to use the plug-in.
+Must be running DevOps Velocity version 2.5.0 and later to use the plug-in.
 
 ## Versions
 

@@ -27,9 +27,23 @@ The following request sample shows a REST call that you can copy and update as n
 
   2. The BODY of the call is multipart/form data. It includes information about the payload.
 
+For Velocity
+
 ```
 METHOD: POST  
 URL: https://<url_urbancodevelocity_server>/reporting-consumer/metrics  
+BODY (multipart/form-data): 
+ { 
+  payload: <payload_json_object_string> // See below for schema format 
+ testArtifact: <xml_file/JSON_file> 
+ }
+```
+
+For Loop
+
+```
+METHOD: POST  
+URL: https://<url_urbancodevelocity_server>/velocity/reporting-consumer/metrics  
 BODY (multipart/form-data): 
  { 
   payload: <payload_json_object_string> // See below for schema format 
@@ -70,9 +84,30 @@ The following shows the schema for the payload. Replace the angle brackets with 
 
 ## Invoke the plug-in using Curl request 
 
+For Velocity
+
 ```
 curl --request POST \
   --url https://url_urbancodevelocity_server>/reporting-consumer/metrics \
+  --form 'payload={
+  "tenant_id": "",
+  "application": {
+    "name": "My Application"
+  },
+  "record": {
+    "pluginType": "Njs-Unit",
+        "dataFormat": "mocha/junitXML" // for xml use mocha/junitXML, jest/junitXML, tape/junitXML,  tap/junitXML format and for JSON use mochaJSON, jestJSON, tapeJSON, tapJSON format
+  }
+}
+' \
+  --form testArtifact=@test-result/mocha.xml
+```
+
+For Loop
+
+```
+curl --request POST \
+  --url https://url_urbancodevelocity_server>/velocity/reporting-consumer/metrics \
   --form 'payload={
   "tenant_id": "",
   "application": {

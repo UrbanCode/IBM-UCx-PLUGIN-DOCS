@@ -27,6 +27,8 @@ The following request sample shows a REST call that you can copy and update as n
 The URL points to the IBM DevOps Velocity quality data endpoint. Update with the server location for your installation of IBM DevOps Velocity.
 The BODY of the call is multipart/form data. It includes information about the payload.  
 
+For Velocity
+
 ```
 METHOD: POST  
 URL: https://<url_devopsvelocity_server>/reporting-consumer/metrics  
@@ -37,11 +39,45 @@ BODY (multipart/form-data):
  } 
 ```
 
+For Loop
+
+```
+METHOD: POST  
+URL: https://<url_devopsvelocity_server>/velocity/reporting-consumer/metrics  
+BODY (multipart/form-data): 
+ { 
+  payload: <payload_json_object_string> // See below for schema format 
+  testArtifact: <xml_file/JSON_file> 
+ } 
+```
+
 ## Invoke the plug-in using Curl request 
+
+For Velocity
 
 ```
 curl --request POST \ 
   --url https://url_devopsvelocity_server>/reporting-consumer/metrics \ 
+  --form 'payload={ 
+  "tenant_id": "", 
+  "application": { 
+    "name": "My Application" 
+  }, 
+  "record": { 
+     "pluginType": "cypress", 
+     "dataFormat": "XML", // for xml use XML and for json use JSON
+     “metricDefinitionId”: “Functional Tests” // Optional: If metricDefinitionId is blank then by default graph will display under Unit Tests.
+  } 
+}
+' \ 
+  --form testArtifact=@test-result/cypress.xml 
+```
+
+For Loop
+
+```
+curl --request POST \ 
+  --url https://url_devopsvelocity_server>/velocity/reporting-consumer/metrics \ 
   --form 'payload={ 
   "tenant_id": "", 
   "application": { 

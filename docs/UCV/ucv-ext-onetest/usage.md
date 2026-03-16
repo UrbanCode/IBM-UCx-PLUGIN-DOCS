@@ -45,10 +45,26 @@ The following request sample shows a REST call that you can copy and update as n
 * The URL points to the IBM DevOps Velocity quality data endpoint. Update with the server location for your installation of IBM DevOps Velocity.
 * The BODY of the call is a multipart/form data. It includes information about the payload.
 
+For Velocity
+
 ```
 
 METHOD: POST 
 URL: https://<url_devops_velocity_server>/reporting-consumer/metrics
+BODY (multipart/form-data):
+ {
+  payload: <json_object_string> // See below for schema format
+ testArtifact: <DevOps_Test_JSON_file> // test results json file which needs to be parsed
+ }
+
+```
+
+For Loop
+
+```
+
+METHOD: POST 
+URL: https://<url_devops_velocity_server>/velocity/reporting-consumer/metrics
 BODY (multipart/form-data):
  {
   payload: <json_object_string> // See below for schema format
@@ -94,10 +110,33 @@ The following shows the schema for the payload. Replace the angle brackets with 
 
 ### Invoke using Curl
 
+For Velocity
+
 ```
 
 curl --request POST \
   --url https://<DevOps_Velocity_Base_URL>/reporting-consumer/metrics \
+  --form 'payload={
+  "tenant_id": "5ade13625558f2c6688d15ce",
+  "application": {
+    "name": "My Application"
+  },
+  "record": {
+    "pluginType": "onetest",
+    "dataFormat": "onetestFTJSON"
+  }
+}
+' \
+  --form testArtifact=@<file path>
+
+```
+
+For Loop
+
+```
+
+curl --request POST \
+  --url https://<DevOps_Velocity_Base_URL>/velocity/reporting-consumer/metrics \
   --form 'payload={
   "tenant_id": "5ade13625558f2c6688d15ce",
   "application": {

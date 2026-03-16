@@ -63,11 +63,26 @@ for your installation of DevOps Velocity.
 * The BODY of the call is a multipart/form data. It includes information
 about the payload.
 
-
+For Velocity
 ```
 
 METHOD: POST
 URL: https://<url_devopsvelocity_server>/reporting-consumer/metrics
+BODY
+(multipart/form-data):
+{
+payload: <payload_json_object_string> // See below for schema format
+testArtifact:
+<jmeter_xml_file>
+}
+
+```
+
+For Loop
+```
+
+METHOD: POST
+URL: https://<url_devopsvelocity_server>/velocity/reporting-consumer/metrics
 BODY
 (multipart/form-data):
 {
@@ -119,12 +134,11 @@ jmeter xml
 
 ### Example:Invoking using Curl
 
-
+For Velocity
 ```
 
 curl --request POST \
---url https:///reporting-
-consu<er/metrics \
+--url https://<url_devopsvelocity_server>/reporting-consumer/metrics \
 --form 'payload={
 "tenant_id": "5ade13625558f2c6688d15ce",
 "application": {
@@ -141,5 +155,29 @@ consu<er/metrics \
 --form testArtifact=@test-result/jmeter.xml
 
 ```
+
+For Loop
+```
+
+curl --request POST \
+--url https://<url_devopsvelocity_server>/velocity/reporting-consumer/metrics \
+--form 'payload={
+"tenant_id": "5ade13625558f2c6688d15ce",
+"application": {
+"name":
+"My Application"
+},
+"record": {
+"pluginType": "jmeter",
+"dataFormat": "jmeterXML"
+}
+}
+' \
+
+--form testArtifact=@test-result/jmeter.xml
+
+```
+
+
 
 

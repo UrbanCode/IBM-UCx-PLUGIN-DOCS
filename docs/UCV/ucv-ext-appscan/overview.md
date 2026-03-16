@@ -7,7 +7,7 @@ plug-in retrieves the security vulnerability report of the application and displ
 
 ## Compatibility
 
-Must be running IBM DevOps Velocity version 1.2.1 and later to use the plug-in.
+Must be running IBM DevOps Velocity version 2.5.0 and later to use the plug-in.
 
 ## Versions
 
