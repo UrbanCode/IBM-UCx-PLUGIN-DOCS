@@ -20,10 +20,10 @@ IBM DevOps Velocity plug-in images are located in DockerHub. To view available p
 
 ### Version 1.0.29
 
-* **Removed Manual User Access Key:** Starting with this version, the plugin supports only the auto-generated user access key feature in DevOps Velocity.
-* **Preventing Installation on Older Versions:** You can install Digital.ai Agility Plugin 1.0.29 only on DevOps Velocity 3.0.0 or later.
-* **Added Category:** Application Lifecycle Management (ALM) is now the plugin category for Digital.ai Agility.
-* **Initial Sync Date Field Added:** The Add Integration page now includes the Initial Sync Date field under Hidden Properties. This optional field is used only for the first synchronization.
+* **Removed manual user access key:** Starting with this version, the plugin supports only the auto-generated user access key feature in DevOps Velocity.
+* **Restricted installation on older versions:** You can install Digital.ai Agility Plugin 1.0.29 only on DevOps Velocity 3.0.0 or later.
+* **Added category:** Application Lifecycle Management (ALM) is now the plugin category for Digital.ai Agility.
+* **Added Initial Sync Date field:** The Add Integration page now includes the Initial Sync Date field under Hidden Properties. This optional field is used only for the first synchronization.
 
 ### Version 1.0.26
 
