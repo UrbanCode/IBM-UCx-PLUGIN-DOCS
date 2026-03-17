@@ -61,11 +61,11 @@ the server location for your installation of DevOps Velocity.
 * The BODY of the call is a multipart/form data. It
 includes information about the payload.
 
-For Velocity
+**In Velocity**
 ```
 
 METHOD: POST
-URL: https://<url_DevOpsvelocity_server>/reporting-
+URL: https://<velocity_hostname>/reporting-
 consumer/metrics
 BODY (multipart/form-data):
 {
@@ -76,11 +76,11 @@ testArtifact: <testng JSON/XML>
 
 ```
 
-For Loop
+**In Loop**
 ```
 
 METHOD: POST
-URL: https://<url_DevOpsvelocity_server>/velocity/reporting-
+URL: https://<loop_hostname>/velocity/reporting-
 consumer/metrics
 BODY (multipart/form-data):
 {
@@ -133,13 +133,13 @@ included
 
 ### Invoking using Curl
 
-For Velocity
+**In Velocity**
 
 ```
 
 curl --request POST \
 --url
-https://*url_DevOpsvelocity_server>*/reporting-consumer/metrics \
+https://<velocity_hostname>/reporting-consumer/metrics \
 --form 'payload={
 "tenant_id":
 "5ade13625558f2c6688d15ce",
@@ -157,13 +157,13 @@ https://*url_DevOpsvelocity_server>*/reporting-consumer/metrics \
 
 ```
 
-For Loop
+**In Loop**
 
 ```
 
 curl --request POST \
 --url
-https://*url_DevOpsvelocity_server>*/velocity/reporting-consumer/metrics \
+https://<loop_hostname>/velocity/reporting-consumer/metrics \
 --form 'payload={
 "tenant_id":
 "5ade13625558f2c6688d15ce",

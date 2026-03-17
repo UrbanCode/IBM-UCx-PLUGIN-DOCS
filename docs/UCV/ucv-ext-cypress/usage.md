@@ -27,11 +27,11 @@ The following request sample shows a REST call that you can copy and update as n
 The URL points to the IBM DevOps Velocity quality data endpoint. Update with the server location for your installation of IBM DevOps Velocity.
 The BODY of the call is multipart/form data. It includes information about the payload.  
 
-For Velocity
+**In Velocity**
 
 ```
 METHOD: POST  
-URL: https://<url_devopsvelocity_server>/reporting-consumer/metrics  
+URL: https://<velocity_hostname>/reporting-consumer/metrics  
 BODY (multipart/form-data): 
  { 
   payload: <payload_json_object_string> // See below for schema format 
@@ -39,11 +39,11 @@ BODY (multipart/form-data):
  } 
 ```
 
-For Loop
+**In Loop**
 
 ```
 METHOD: POST  
-URL: https://<url_devopsvelocity_server>/velocity/reporting-consumer/metrics  
+URL: https://<loop_hostname>/velocity/reporting-consumer/metrics  
 BODY (multipart/form-data): 
  { 
   payload: <payload_json_object_string> // See below for schema format 
@@ -53,11 +53,11 @@ BODY (multipart/form-data):
 
 ## Invoke the plug-in using Curl request 
 
-For Velocity
+**In Velocity**
 
 ```
 curl --request POST \ 
-  --url https://url_devopsvelocity_server>/reporting-consumer/metrics \ 
+  --url https://<velocity_hostname>/reporting-consumer/metrics \ 
   --form 'payload={ 
   "tenant_id": "", 
   "application": { 
@@ -73,11 +73,11 @@ curl --request POST \
   --form testArtifact=@test-result/cypress.xml 
 ```
 
-For Loop
+**In Loop**
 
 ```
 curl --request POST \ 
-  --url https://url_devopsvelocity_server>/velocity/reporting-consumer/metrics \ 
+  --url https://<loop_hostname>/velocity/reporting-consumer/metrics \ 
   --form 'payload={ 
   "tenant_id": "", 
   "application": { 

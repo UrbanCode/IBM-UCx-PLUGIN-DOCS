@@ -56,12 +56,12 @@ about the snippet:
 * The URL points to the DevOps Velocity quality data endpoint. Update with the server location for your installation of DevOps Velocity.
 * The BODY of the call is a multipart/form data. It includes information about the payload.
 
-For Velocity
+**In Velocity**
 
 ```
 
 METHOD: POST
-URL: https://<url_DevOpsvelocity_server>/reporting-consumer/metrics
+URL: https://<velocity_hostname>/reporting-consumer/metrics
 BODY
 (multipart/form-data):
 {
@@ -71,12 +71,12 @@ testArtifact:
 }
 
 ```
-For Loop
+**In Loop**
 
 ```
 
 METHOD: POST
-URL: https://<url_DevOpsvelocity_server>/velocity/reporting-consumer/metrics
+URL: https://<loop_hostname>/velocity/reporting-consumer/metrics
 BODY
 (multipart/form-data):
 {
@@ -128,11 +128,11 @@ of application
 
 ### Example: Invoking using Curl
 
-For Velocity
+**In Velocity**
 ```
 
 curl --request POST \
---url https://<url_DevOpsvelocity_server>/reporting-consumer/metrics \
+--url https://<velocity_hostname>/reporting-consumer/metrics \
 --form
 'payload={
 "tenant_id": "5ade13625558f2c6688d15ce",
@@ -151,11 +151,11 @@ testArtifact=@test-result/twistlock.json
 
 ```
 
-For Loop
+**In Loop**
 ```
 
 curl --request POST \
---url https://<url_DevOpsvelocity_server>/velocity/reporting-consumer/metrics \
+--url https://<loop_hostname>/velocity/reporting-consumer/metrics \
 --form
 'payload={
 "tenant_id": "5ade13625558f2c6688d15ce",

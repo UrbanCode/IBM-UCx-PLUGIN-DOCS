@@ -27,11 +27,11 @@ The following request sample shows a REST call that you can copy and update as n
 
   2. The BODY of the call is multipart/form data. It includes information about the payload.
 
-For Velocity
+**In Velocity**
 
 ```
 METHOD: POST  
-URL: https://<url_urbancodevelocity_server>/reporting-consumer/metrics  
+URL: https://<velocity_hostname>/reporting-consumer/metrics  
 BODY (multipart/form-data): 
  { 
   payload: <payload_json_object_string> // See below for schema format 
@@ -39,11 +39,11 @@ BODY (multipart/form-data):
  }
 ```
 
-For Loop
+**In Loop**
 
 ```
 METHOD: POST  
-URL: https://<url_urbancodevelocity_server>/velocity/reporting-consumer/metrics  
+URL: https://<loop_hostname>/velocity/reporting-consumer/metrics  
 BODY (multipart/form-data): 
  { 
   payload: <payload_json_object_string> // See below for schema format 
@@ -84,11 +84,11 @@ The following shows the schema for the payload. Replace the angle brackets with 
 
 ## Invoke the plug-in using Curl request 
 
-For Velocity
+**In Velocity**
 
 ```
 curl --request POST \
-  --url https://url_urbancodevelocity_server>/reporting-consumer/metrics \
+  --url https://<velocity_hostname>/reporting-consumer/metrics \
   --form 'payload={
   "tenant_id": "",
   "application": {
@@ -103,11 +103,11 @@ curl --request POST \
   --form testArtifact=@test-result/mocha.xml
 ```
 
-For Loop
+**In Loop**
 
 ```
 curl --request POST \
-  --url https://url_urbancodevelocity_server>/velocity/reporting-consumer/metrics \
+  --url https://<loop_hostname>/velocity/reporting-consumer/metrics \
   --form 'payload={
   "tenant_id": "",
   "application": {

@@ -45,12 +45,12 @@ The following request sample shows a REST call that you can copy and update as n
 * The URL points to the IBM DevOps Velocity quality data endpoint. Update with the server location for your installation of IBM DevOps Velocity.
 * The BODY of the call is a multipart/form data. It includes information about the payload.
 
-For Velocity
+**In Velocity**
 
 ```
 
 METHOD: POST 
-URL: https://<url_devops_velocity_server>/reporting-consumer/metrics
+URL: https://<velocity_hostname>/reporting-consumer/metrics
 BODY (multipart/form-data):
  {
   payload: <json_object_string> // See below for schema format
@@ -59,12 +59,12 @@ BODY (multipart/form-data):
 
 ```
 
-For Loop
+**In Loop**
 
 ```
 
 METHOD: POST 
-URL: https://<url_devops_velocity_server>/velocity/reporting-consumer/metrics
+URL: https://<loop_hostname>/velocity/reporting-consumer/metrics
 BODY (multipart/form-data):
  {
   payload: <json_object_string> // See below for schema format
@@ -110,12 +110,12 @@ The following shows the schema for the payload. Replace the angle brackets with 
 
 ### Invoke using Curl
 
-For Velocity
+**In Velocity**
 
 ```
 
 curl --request POST \
-  --url https://<DevOps_Velocity_Base_URL>/reporting-consumer/metrics \
+  --url https://<velocity_hostname>/reporting-consumer/metrics \
   --form 'payload={
   "tenant_id": "5ade13625558f2c6688d15ce",
   "application": {
@@ -131,12 +131,12 @@ curl --request POST \
 
 ```
 
-For Loop
+**In Loop**
 
 ```
 
 curl --request POST \
-  --url https://<DevOps_Velocity_Base_URL>/velocity/reporting-consumer/metrics \
+  --url https://<loop_hostname>/velocity/reporting-consumer/metrics \
   --form 'payload={
   "tenant_id": "5ade13625558f2c6688d15ce",
   "application": {

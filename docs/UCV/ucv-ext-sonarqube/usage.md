@@ -18,17 +18,17 @@
 
 The endpoint URL needed for the webhook is described below.
 
-For Velocity
+**In Velocity**
 
 | Name | Path | Method |
 | --- | --- | --- |
-| SonarQube Callback | https://IBM_DevOps_velocity_hostname/reporting-consumer/pluginEndpoint/integration_id/sonarqube/callback | Post |
+| SonarQube Callback | https://<velocity_hostname>/reporting-consumer/pluginEndpoint/integration_id/sonarqube/callback | Post |
 
-For Loop
+**In Loop**
 
 | Name | Path | Method |
 | --- | --- | --- |
-| SonarQube Callback | https://IBM_DevOps_velocity_hostname/velocity/reporting-consumer/pluginEndpoint/integration_id/sonarqube/callback | Post |
+| SonarQube Callback | https://<loop_hostname>/velocity/reporting-consumer/pluginEndpoint/integration_id/sonarqube/callback | Post |
 
 ## Setup
 
@@ -51,12 +51,12 @@ The parameters for adding a SonarQube integration are summarized in the table be
 | SonarQube Auth Token | Secure | The SonarQube authentication token. You can use a previously generated token or generate a new token in SonarQube. | Yes |
 | SonarQube URL | String | The base URL of the SonarQube server including the port number. For example: “http://sonarQubeHost:9000”. | Yes |
 
-For Velocity
+**In Velocity**
 ```
 
 curl -k --request POST \
 --url
-https://<*velocityHostname:port*>/reporting-consumer/integration \
+https://<velocity_hostname>/reporting-consumer/integration \
 --header 'content-type: application/json' \
 
 --data '{
@@ -74,12 +74,12 @@ https://<*velocityHostname:port*>/reporting-consumer/integration \
 }'
 
 ```
-For Loop
+**In Loop**
 ```
 
 curl -k --request POST \
 --url
-https://<*velocityHostname:port*>/velocity/reporting-consumer/integration \
+https://<loop_hostname>/velocity/reporting-consumer/integration \
 --header 'content-type: application/json' \
 
 --data '{
