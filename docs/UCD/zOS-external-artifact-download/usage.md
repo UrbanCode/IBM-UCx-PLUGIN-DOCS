@@ -6,6 +6,10 @@ Use this plug-in to automate downloading of z/OS artifacts from a Nexus Artifact
 To create the z/OS component version, use the **buztool.sh** command from job control language (JCL) or from the z/OS UNIX System Services command line. You must specify the **-ar** parameter on the command. This parameter provides details about the artifactory needed to upload artifacts. The link from the external artifact repository is stored as a component version property, named **extRepoURL**. The property is used to download the artifacts.
 For additional information, see [Creating z/OS component versions](https://www.ibm.com/support/knowledgecenter/en/SS4GSP_7.0.4/com.ibm.udeploy.doc/topics/zos_runtools.html) in the product documentation.
 
+### Download Linked version in a single zip
+
+To download linked versions in a single zip from JFrog Artifactory, user must first upload the [custom plugin](https://github.com/UrbanCode/groovy-sample-scripts-UCD/tree/master/DownloadLinkedVersionFromArtifactory) to Artifactory server. 
+
 ## Creating a Merged Version For JFrog/Nexus
 
 To create a merged version for external repository [JFrog](steps.md#create-a-merged-version-for-jfrog-artifactory) or [Nexus](steps.md#create-a-merged-version-for-nexus), component name and the versions to be merged are required along with the external repository details.
