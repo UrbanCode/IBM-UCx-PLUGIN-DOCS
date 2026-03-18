@@ -27,7 +27,7 @@ The following two features are available from version 2.0.1 or later of the plug
     * The plug-in endpoint can be defined as a webhook in ASoC. When the webhook is called by ASoC after every scan execution, the plug-in will run and import the scan data from ASoC to DevOps Velocity.
     * To call out ASoC scan using REST API, pass the ‘build url’ as a ‘Comment’ as shown in the below example. As a result, the plug-in imports the ‘build url’ and associate the scan result to the specific ‘build’ / ‘build url’ in DevOps Velocity.
     ```
-    curl --location --request POST 'https://cloud.appscan.com/api/v2/Scans/MobileAnalyzer' \
+    curl --location --request POST 'https://cloud.appscan.com/api/v4/Scans/MobileAnalyzer' \
     --header 'Content-Type: application/x-www-form-urlencoded' \
     --header 'Authorization: Bearer bearer-token-goes-here' \
     --data-urlencode 'ApplicationFileId=file-id-goes-here' \
@@ -40,7 +40,7 @@ The following two features are available from version 2.0.1 or later of the plug
     * To use the webhook, you must install AppScan presence on the machine where DevOps Velocity is running. For more information, see ASoC documentation.
     * The following is an example of creating a webhook in ASoC.
     ```
-    curl curl --location --request POST 'https://cloud.appscan.com/api/V2/Webhooks' \
+    curl curl --location --request POST 'https://cloud.appscan.com/api/V4/Webhooks' \
     --header 'Content-Type: application/x-www-form-urlencoded' \
     --header 'Authorization: Bearer bearer-token-value-goes-here' \
     --data-urlencode 'PresenceId=presence-id-goes-here' \
@@ -54,7 +54,7 @@ The following example shows calling the plug-in end point using a ‘non webhook
 Send an HTTP GET (For version 2.0.1 or later) or HTTP POST (For version 2.0.0 or earlier) request to your endpoint.
 
 **Sample endpoint:**
-https://pluginEndpoint//asocScan
+https://pluginEndpoint//asoc
 
 The payload for the POST is shown below.
 ```
@@ -145,8 +145,7 @@ Some properties might not be displayed in the user interface, to see all propert
 | Proxy Password | Secure | The password used to authenticate with the proxy server. | No | proxyPassword |
 | Proxy Server | String | The URL of the proxy server including the port number. The URL protocol can be http or https. | No | proxyServer |
 | Proxy User Name | String | The user name used to authenticate with the proxy server. | No | proxyUsername |
-
-|ASoC Base URL | String | The base URL of the Application Security on Cloud server. E.G. https://cloud.appscan.com/. | No | asocUrl |
+| ASoC Base URL | String | The base URL of the Application Security on Cloud server. E.G. https://cloud.appscan.com/. | No | asocUrl |
 | ASoC Application | String | Application name in ASoC | No | application |
 | ASoC Policies | Array | Comma separated list of Policy names in ASoC - eg: OWASP Top 10 Mobile 2016, International Standard - ISO 27002 | No | policies |
 | Workflow Id | String | The value stream that this metric is associated. | Yes | workflowId |
