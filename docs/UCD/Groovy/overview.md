@@ -19,6 +19,10 @@ No special steps are required for installation. This plug-in is included with th
 
 ## History
 
+### Version 17 
+
+* New property 'spawn process' allows you to control whether the user script runs in the same process or spawns a new process. Existing steps upon upgrade will have this property selected by default, while new steps will have it unchecked. Leaving it unchecked can see faster plugin execution especially on zOS.
+
 ### Version 16
 
 * Updating Jettison library to 1.5.4 for CVE-2023-1436
