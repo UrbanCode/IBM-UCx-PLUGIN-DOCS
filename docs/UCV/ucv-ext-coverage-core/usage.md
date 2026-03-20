@@ -61,11 +61,11 @@ about the snippet:
 * The URL points to the IBM DevOps Velocity quality data endpoint. Update with the server location for your installation of IBM DevOps Velocity.
 * The BODY of the call is a multipart/form data. It includes information about the payload.
 
-For Velocity
+**For Velocity**
 ```
 
 METHOD: POST
-URL: https://<url_devopsvelocity_server>/reporting-consumer/metrics
+URL: https://<velocity_hostname>/reporting-consumer/metrics
 BODY
 (multipart/form-data):
 {
@@ -75,11 +75,11 @@ testArtifact:
 }
 
 ```
-For Loop
+**For Loop**
 ```
 
 METHOD: POST
-URL: https://<url_devopsvelocity_server>/velocity/reporting-consumer/metrics
+URL: https://<loop_hostname>/velocity/reporting-consumer/metrics
 BODY
 (multipart/form-data):
 {
@@ -131,11 +131,11 @@ Jenkins build with test results
 
 ### Example using Curl
 
-For Velocity
+**For Velocity**
 ```
 
 curl --request POST \
---url https://<url_devopsvelocity_server>/reporting-consumer/metrics \
+--url https://<velocity_hostname>/reporting-consumer/metrics \
 --form 'payload={
 "tenant_id": "*tenant\_id*",
 "application": {
@@ -153,12 +153,12 @@ Application"
 
 ```
 
-For Loop
+**For Loop**
 
 ```
 
 curl --request POST \
---url https://<url_devopsvelocity_server>/velocity/reporting-consumer/metrics \
+--url https://<loop_hostname>/velocity/reporting-consumer/metrics \
 --form 'payload={
 "tenant_id": "*tenant\_id*",
 "application": {
