@@ -14,6 +14,10 @@ DevOps Velocity plug-in images are located in DockerHub. To view available versi
 
 ## History
 
+### Version 3.0.27
+
+* Fixed an issue with the getEndpoint call caused by an API change.
+
 ### Version 3.0.25
 
 * Upgraded plugin to support ASOC API version from V2 to V4, as V2 API are deprecated by ASOC
