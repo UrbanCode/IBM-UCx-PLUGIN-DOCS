@@ -27,7 +27,7 @@ The following request sample shows a REST call that you can copy and update as n
 
   2. The BODY of the call is multipart/form data. It includes information about the payload.
 
-**In Velocity**
+**For Velocity**
 
 ```
 METHOD: POST  
@@ -39,7 +39,7 @@ BODY (multipart/form-data):
  }
 ```
 
-**In Loop**
+**For Loop**
 
 ```
 METHOD: POST  
@@ -84,7 +84,7 @@ The following shows the schema for the payload. Replace the angle brackets with 
 
 ## Invoke the plug-in using Curl request 
 
-**In Velocity**
+**For Velocity**
 
 ```
 curl --request POST \
@@ -103,7 +103,7 @@ curl --request POST \
   --form testArtifact=@test-result/mocha.xml
 ```
 
-**In Loop**
+**For Loop**
 
 ```
 curl --request POST \
