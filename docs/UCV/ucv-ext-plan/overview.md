@@ -34,7 +34,7 @@ DevOps Velocity plug-in images are located in DockerHub. To view available versi
 
 ### History
 
-### Version 1.2.4
+### Version 1.2.5
 
 * Prevents sending a body with GET requests, improving compatibility with APIs like Google Cloud / GKS.
 
