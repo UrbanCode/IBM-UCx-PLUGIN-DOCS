@@ -1,124 +1,88 @@
+# Utilities/HCL ASoC - Process Steps
 
-# Process Steps
+## Start Dynamic Analyzer ASoC Scan
 
-## Configure Job Options
-
-Configure scan job options.
-
-| Name | Type | Description | Required |
-| ---- | ---- | ----------- | -------- |
-| AppScan Enterprise URL | textBox | AppScan Enterprise Control Center URL. For example, `https://localhost/` | Yes |
-| User | textBox | Username to log into ASE. | Yes |
-| Password | secureBox | Password to log into ASE. | Yes |
-| Scan FIID | textBox | FIID of the scan to configure. This is found in the scan's URL. | Yes |
-| Site URL | textBox | URL of site to scan. If there is already at least one starting URL associated with the scan, input here will add to the list of URL's. | No |
-| Set Automatic Login | selectBox | Set to true to automatically login with the given Scan Site User and Scan Site Password. | No |
-| Scan Site User | textBox | User to log into the site as. Input here will overwrite the username if there is already one set in the scan. | No |
-| Scan Site Password | secureBox | Password to use when logging into the site. Input here will overwrite the password if there is already one set in the scan. | No |
-| HTTP Authentication | selectBox | Check this field to enable Basic/NTLM authentication. | No |
-| HTTP User | textBox |  | No |
-| HTTP Password | secureBox |  | No |
-| Scan Limit | textBox |  | No |
-| Recorded Traffic .htd File | textBox |  | No |
-| Disable Certificate Validation | checkBox | Check to disable certificate validation. | No |
-
-## Create Scan
-
-Create an AppScan security scan.
+Starts a new Dynamic Analyzer ASoC Scan, using HCL ASoC. This step will generate the 'ScanId' output property.
 
 | Name | Type | Description | Required |
 | ---- | ---- | ----------- | -------- |
-| AppScan Enterprise URL | textBox | AppScan Enterprise Control Center URL. For example, `https://localhost/` | Yes |
-| User | textBox | Username to log into ASE. | Yes |
-| Password | secureBox | Password to log into ASE. | Yes |
-| Template Name | textBox | Name of the template to use to create the scan and report pack. Must be a valid template that you have access to in the Templates directory or any of its subfolders. | Yes |
-| Folder ID | textBox | ID of the specific folder in which to create the scan and report pack. If this is left blank, the scan and report pack will be created in the root folder. | Yes |
-| Application ID | textBox | The application ID. Used to associate the job with an application. | Yes |
-| Scan Name | textBox | The name to give to the newly created scan. | Yes |
-| Scan Description | textBox | The description to give to the newly created scan. | Yes |
-| Disable Certificate Validation | checkBox | Check to disable certificate validation. | No |
-| Webhook Payload | textAreaBox | Specify payload for the AppScan webhook. | No |
+| ASoC Application ID | textBox | The ID of the application in ASoC. | Yes |
+| Base ASoC URL | textBox | Please enter a base ASoC URL to scan. Ex- cloud.appscan.com, cloud.appscan.com/eu. | Yes |
+| Login Key ID | textBox | The API key ID to authenticate with ASoC. | Yes |
+| Login Key Secret | secureBox | The API key secret to authenticate with ASoC. | Yes |
+| Scan Name | textBox | Enter a name for the scan. If empty, the Starting URL will be used. | Yes |
+| Starting URL | textBox | Please enter a URL to scan. (You must complete Domain Verification through the UI, as it is not currently supported by this plugin.) | Yes |
+| Application Username | textBox | Username for the scanned application if it contains a login. | Yes |
+| Application Password | secureBox | Password for the scanned application if it contains a login. | Yes |
+| Third Application Credential | secureBox | Provide this field if your application requires a third                          credential. | Yes |
+| Presence ID | textBox | Specify an ID of an existing presence, which allows you to run                          scans on apps not connected to the internet or require a proxy server                          to make a connection. The presence must be accessible to the user. | Yes |
+| Scan Type | selectBox | Select the type of scan. Staging scans are more comprehensive                          and designed to scan sites before production. Production scans are                           designed to scan live sites. | Yes |
+| Scan/Template File | textBox | The path to a configuration (SCAN or SCANT) file. Use                           this field if you have specific configuration requirements. The                           Starting URL that you enter above must be identical to the                           Starting URL in the file. | Yes |
+| Fail condition threshold (H, M, L, I) | textBox | Please set the number of issues found (by severity) in a                           comma-separated list. If the threshold is reached during the scan,                           the scan will fail. In this field, you can specify the numbers for                           these severity levels: High (H), Medium (M), Low (L), and                           Informational (I). For example, a fail condition of '0,5,10,20'                           will cause the step to fail if the resulting scan has more than 0                           High issues, 5 Medium issues, and so on. If this field is left                           empty, there will be no validation of results and the scan will                           not fail as a result of a fail condition. | Yes |
+| Set Issue Count Output Properties | checkBox | Selecting this will wait for the scan results and set the                           highIssueCount, medIssueCount, lowIssueCount, and infoIssueCount output                          properties. | No |
+| Original scan ID | textBox | If this is a rescan please enter the original scan id | Yes |
+| Enable Mail Notification | checkBox | Select this option to notify email IDs configured in ASoC. | No |
+| Test Policy | selectBox | A predefined set of tests for AppScan to use. Here is a short description for each option: Comprehensive (Default) -> This is the most thorough Test Set and is used by default. Application-Only -> This Test Set includes all application level tests except invasive and port listener tests. The Vital Few -> This Test Set includes a selection of tests that have a high probability of success. This can be useful for evaluating a site when time is limited. | Yes |
+| Fail Scan on Pause | checkBox | Select this option to immediately fail the process if                           the scan is paused. If unchecked, the process will continue running. | No |
+| Scan Timeout (minutes) | textBox | Please enter a timeout for the scan (relevant for only                           when validating report). The default value of -1 will cause the                           scan to run until it completes. | No |
 
-## List Templates
+## Start Static Analyzer ASoC Scan
 
-Retrieve and print a list of available job templates.
-
-| Name | Type | Description | Required |
-| ---- | ---- | ----------- | -------- |
-| AppScan Enterprise URL | textBox | AppScan Enterprise Control Center URL. For example, `https://localhost/` | Yes |
-| User | textBox | Username to log into ASE. | Yes |
-| Password | secureBox | Password to log into ASE. | Yes |
-| Disable Certificate Validation | checkBox | Check to disable certificate validation. | No |
-
-## Run Scan
-
-Run an AppScan security scan.
+Starts a new Static Analyzer ASoC Scan, using HCL AppScan on Cloud. This step will generate the 'ScanId' output property.
 
 | Name | Type | Description | Required |
 | ---- | ---- | ----------- | -------- |
-| AppScan Enterprise URL | textBox | AppScan Enterprise Control Center URL. For example, `https://localhost/` | Yes |
-| User | textBox | Username to log into ASE. | Yes |
-| Password | secureBox | Password to log into ASE. | Yes |
-| Scan FIID | textBox | FIID of the scan to run. This is found in the scan's URL. | Yes |
-| Reports FIID | textBox | FIID of the report pack associated with the scan.                               If not given, step may finish before waiting for report pack to complete.                               This is found in the report's URL. | No |
-| Timeout | textBox | Timeout, in minutes, at which the step will fail if the scan is not yet complete.                               Minimum is 5 minutes. | No |
-| Retries | textBox | The number of times to retry running the scan, in case of failure. | No |
-| Disable Certificate Validation | checkBox | Check to disable certificate validation. | No |
-| Wait for Scan Completion | checkBox | Select to have the process wait for the scan to complete.                               If unselected, the process will complete once the scan has started running. | No |
-| Stop Scan on Failure | checkBox | Select to stop the scan on any failure or timeout exception. | No |
+| ASoC Application ID | textBox | The ID of the application in ASoC. | Yes |
+| Base ASoC URL | textBox | Please enter a base ASoC URL to scan. Ex- cloud.appscan.com, cloud.appscan.com/eu. | Yes |
+| Login Key ID | textBox | The API key ID to authenticate with ASoC. | Yes |
+| Login Key Secret | secureBox | The API key secret to authenticate with ASoC. | Yes |
+| IRX file/Scan directory | textBox | Please point to the IRX file to be uploaded for scanning,                           or the directory that contains the files or other locations to scan.                           The files and locations that can be specified in this field include:                           .jar files, .war files, .ear files, Eclipse workspaces, and                           scan configuration files. For example, 'c:\build_output\testapp.irx'                           or 'c:\build_output'. | Yes |
+| Scan configuration file | textBox | Please point to the path and file name of a scan                           configuration file. This overrides any scan configuration files                           which may exist in the scan directory. For example,                           'c:\build_output\appscan-config.xml'. | Yes |
+| Static Analyzer Client Tool location | textBox | Please point to the directory that the client tool                           was unzipped to. For example, C:\SAClientUtil. This property must                           be supplied if you need to generate the IRX file. | Yes |
+| Fail condition threshold (H, M, L, I) | textBox | Please set the number of issues found (by severity) in a                           comma-separated list. If the threshold is reached during the scan,                           the scan will fail. In this field, you can specify the numbers for                           these severity levels: High (H), Medium (M), Low (L), and                           Informational (I). For example, a fail condition of '0,5,10,20'                           will cause the step to fail if the resulting scan has more than 0                           High issues, 5 Medium issues, and so on. If this field is left                           empty, there will be no validation of results and the scan will                           not fail as a result of a fail condition. | Yes |
+| Original scan ID | textBox | If you have previously scanned the application, please                           enter the original scan ID here if you want to rescan it. | Yes |
+| Enable Mail Notification | checkBox | Select this option to notify email IDs configured in ASoC. | No |
+| Fail Scan on Pause | checkBox | Select this option to immediately fail the process if                           the scan is paused. If unchecked, the process will continue running. | No |
+| Scan Timeout (minutes) | textBox | Please enter a timeout for the scan (relevant for only                           when validating report). The default value of -1 will cause the                           scan to run until it completes. | No |
 
-## Retrieve Report
+## Create ASoC Presence
 
-Retrieve report pack summary and specific report information from AppScan Enterprise. Reports are saved as a xml files named [reportFIID]-Summary.xml and [reportFIID]-[reportName].xml
-
-| Name | Type | Description | Required |
-| ---- | ---- | ----------- | -------- |
-| AppScan Enterprise URL | textBox | AppScan Enterprise Control Center URL. For example, `https://localhost/` | Yes |
-| User | textBox | Username to log into ASE. | Yes |
-| Password | secureBox | Password to log into ASE. | Yes |
-| Report FIID | textBox | FIID of the report pack to retrieve. This is found in the report's URL. | Yes |
-| Report Name | textBox | The name of the report within the report pack to retrieve the issue counts.                               If empty, then no report counts will be retrieved. | No |
-| Report Destination | textBox | Folder path to save the report file. Default location is the working directory.                                      Example: 'C:/reports/'. The full file path will be saved as an output property. | No |
-| Disable Certificate Validation | checkBox | Check to disable certificate validation. | No |
-| Send Report to Output Logs | checkBox | Select to also send the report text to the output logs. | No |
-
-## Retrieve PDF Report
-
-Retrieve report from AppScan Enterprise. Reports are saved as a PDF file named AppScanReportOutput-[date]-[time].zip
+Create and start a new presence. To access a private site server you must start the presence in an environment that has local access to the server. The 'PresenceId' output property generated can be used to run scans in environments that do not have access to the private site.
 
 | Name | Type | Description | Required |
 | ---- | ---- | ----------- | -------- |
-| AppScan Enterprise URL | textBox | AppScan Enterprise Control Center URL, For example, `https://localhost/` | Yes |
-| AppScan Enterprise Port | textBox | AppScan Enterprise Port number. | Yes |
-| User | textBox | Username to log into ASE. | Yes |
-| Password | secureBox | Password to log into ASE. | Yes |
-| Application ID | textBox | ID of the application report to retrieve. | Yes |
-| Scan Name | textBox | The name of the scan within the application. The format is {scanName} ({scanFIID}). For example, 'Test Scan (171)'. | Yes |
-| File Path | textBox | Path of file to write report info to. For example, C:/reports/ | Yes |
-| Disable Certificate Validation | checkBox | Check to disable certificate validation. | No |
+| Login Key ID | textBox | The API key ID to authenticate with ASoC. | Yes |
+| Login Key Secret | secureBox | The API key secret to authenticate with ASoC. | Yes |
+| Start Presence | checkBox | Select this option to start the presence after it                           is created. | No |
 
-## Wait for Scan
+## Start ASoC Presence
 
-Wait for an AppScan Scan to complete.
+Start an existing ASoC presence. The presence will be started on the agent machine that runs the step.
 
 | Name | Type | Description | Required |
 | ---- | ---- | ----------- | -------- |
-| AppScan Enterprise URL | textBox | AppScan Enterprise Control Center URL, For example, `https://localhost/` | Yes |
-| User | textBox | Username to log into ASE. | Yes |
-| Password | secureBox | Password to log into ASE. | Yes |
-| Scan FIID | textBox | FIID of the scan to wait for. This is found in the scan URL. | Yes |
-| Timeout | textBox | Timeout, in minutes, at which the step will fail if the scan is not yet complete.                               Leave empty to wait indefinitely. | No |
-| Disable Certificate Validation | checkBox | Check to disable certificate validation. | No |
+| Login Key ID | textBox | The API key ID to authenticate with ASoC. | Yes |
+| Login Key Secret | secureBox | The API key secret to authenticate with ASoC. | Yes |
+| Presence ID | textBox | Specify an ID of an existing presence, which allows you to run                          scans on apps not connected to the internet or require a proxy server                          to make a connection. The presence must be accessible to the user. | Yes |
+| Renew Presence Key | checkBox | Select this option to renew the key before                           starting the presence. | No |
 
-## Delete Folder Item
+## Stop ASoC Presence
 
-Delete a folder item, such as a Scan or Report, from the AppScan Scans view.
+Stop a running ASoC presence. This step must be run on the agent machine on which the presence was originally started.
 
 | Name | Type | Description | Required |
 | ---- | ---- | ----------- | -------- |
-| AppScan Enterprise URL | textBox | AppScan Enterprise Control Center URL, For example, `https://localhost/` | Yes |
-| User | textBox | Username to log into ASE. | Yes |
-| Password | secureBox | Password to log into ASE. | Yes |
-| Folder Item FIID | textBox | Specify a Folder Item FIID to delete. Example: Scan or Folder FIID. | Yes |
-| Disable Certificate Validation | checkBox | Check to disable certificate validation. | No |
+| Login Key ID | textBox | The API key ID to authenticate with ASoC. | Yes |
+| Login Key Secret | secureBox | The API key secret to authenticate with ASoC. | Yes |
+| Presence ID | textBox | Specify an ID of an existing presence, which allows you to run                          scans on apps not connected to the internet or require a proxy server                          to make a connection. The presence must be accessible to the user. | Yes |
 
+## Delete ASoC Presence
+
+Delete an ASoC presence. The presence will subsequently be stopped on any machine where it is currently running.
+
+| Name | Type | Description | Required |
+| ---- | ---- | ----------- | -------- |
+| Login Key ID | textBox | The API key ID to authenticate with ASoC. | Yes |
+| Login Key Secret | secureBox | The API key secret to authenticate with ASoC. | Yes |
+| Presence ID | textBox | Specify an ID of an existing presence that is accessible                          using the provided login credentials. This field will be ignored if                          the 'Delete All Presences' box is checked. | Yes |
+| Delete All Presences | checkBox | Select this box to remove all existing ASoC presences                          that can be accessed with the provided login credentials. | No |

@@ -152,7 +152,7 @@ features:
   icon:
     light: "/runProcess-dark.png"
     dark: "/runProcess-white.png"
-  details: "Community Plugin"
+  details: ""
   link: "ASOC/"
 -
   title: Aspera

@@ -1,12 +1,23 @@
 
 # Overview
 
-## This is a open-source Plugin. Link: https://github.com/UrbanCode/HCL-ASoC-UCD
+## This is a Enterprise plugin of the AppScan on Cloud
 
 HCL Launch can process the output of the ASoC plugin and treat the build accordingly. If your build was deployed successfully to a lower level environment but failed the Dynamic ASoC scan with high severity issues, HCL Launch will automatically rollback to the last deployed version and mark the build with a status indicating there are problems. If ASoC identifies lesser severity issues in your build, HCL Launch with slap a “deployment warning” onto it but leave it installe don the target machines. And if ASoC spots no major issues, HCL Launch will give that version an app status that signifies it’s passed all AppScan scans. In other words, HCL Launch creates environment gates that can prevent deployments to Prod or other high-level environments if it doesn’t pass AppScan approval.
 
+### Compatibility
+
+This plug-in requires version 7.2.0 or later of IBM DevOps Deploy.
+
+This plug-in works with the latest version of AppScan on Cloud.
+
 
 ## History
+
+### Version 15
+
+* Updated api from v2 to v4.
+* Created enterprise version of the plugin
 
 ### Version 14
 
