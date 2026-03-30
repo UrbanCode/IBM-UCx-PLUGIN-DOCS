@@ -20,6 +20,10 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ## History
 
+### Version 52
+
+* Reverted cache mechanism for zOS linked version
+
 ### Version 51
 
 * Add support for linked versions for ZOS Components

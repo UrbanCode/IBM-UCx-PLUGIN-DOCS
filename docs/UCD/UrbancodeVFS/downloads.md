@@ -2,6 +2,7 @@
 # Downloads
 
 To download the plug-in, click the following version-specific links.
+- [devops-deploy-UrbancodeVFS-52.1187410.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/UrbancodeVFS/devops-deploy-UrbancodeVFS-52.1187410.zip)
 - [devops-deploy-UrbancodeVFS-51.1186061.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/UrbancodeVFS/devops-deploy-UrbancodeVFS-51.1186061.zip)
 - [devops-deploy-UrbancodeVFS-50.1185303.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/UrbancodeVFS/devops-deploy-UrbancodeVFS-50.1185303.zip)
 - [devops-deploy-UrbancodeVFS-49.1183879.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/UrbancodeVFS/devops-deploy-UrbancodeVFS-49.1183879.zip)

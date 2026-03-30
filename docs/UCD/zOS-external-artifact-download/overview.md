@@ -22,6 +22,10 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ## History
 
+### Version 17
+
+* Reverted cache mechanism for zOS linked version
+
 ### Version 16 
 
 * 16.1186873 Added support to download linked version artifacts in single zip from JFrog Artifactory
