@@ -24,6 +24,14 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ### History
 
+#### Version 91
+
+This version adds the Generate Manifest File step to generate a manifest file based on dependencies of the project.
+
+#### Version 90
+
+This release includes few fixes.
+
 #### Version 44
 
 This version of the plug-in adds the ability to specify a file encoding when using the Create File step.
@@ -35,8 +43,4 @@ This version of the plug-in includes translated steps and properties.
 #### Version 42
 
 This version of the plug-in includes a fix for APAR PI51450Update Java Properties File plugin does not create files if they do not exist.
-
-#### Version 90
-
-This release includes few fixes.
 
