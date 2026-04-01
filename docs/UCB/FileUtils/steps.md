@@ -12,23 +12,24 @@ File Utils for IBM DevOps Build - Steps
 
 ### Process steps in the File Utils plug-in
 
-* [Copy Directory](#copy_directory)
-* [Create .zip File](#create_.zip_file)
-* [Create Directories](#create_directories)
-* [Create File](#create_file)
-* [Delete Files and Directories](#delete_files_and_directories)
-* [Flip Line Endings](#flip_line_endings)
-* [Monitor File Contents](#monitor_file_contents)
-* [Move Directory](#move_directory)
-* [Read Properties From XML File](#read_properties_from_xml_file)
-* [Read Property File](#read_property_file)
-* [Replace Tokens](#replace_tokens)
-* [Synchronize Directories](#synchronize_directories)
-* [Untar Tarball](#untar_tarball)
+* [Copy Directory](#copy-directory)
+* [Create .zip File](#create-zip-file)
+* [Create Directories](#create-directories)
+* [Create File](#create-file)
+* [Delete Files and Directories](#delete-files-and-directories)
+* [Flip Line Endings](#flip-line-endings)
+* [Generate Manifest File](#generate-manifest-file)
+* [Monitor File Contents](#monitor-file-contents)
+* [Move Directory](#move-directory)
+* [Read Properties From XML File](#read-properties-from-xml-file)
+* [Read Property File](#read-property-file)
+* [Replace Tokens](#replace-tokens)
+* [Synchronize Directories](#synchronize-directories)
+* [Untar Tarball](#untar-tarball)
 * [Unzip](#unzip)
-* [Update INI File](#update_ini_file)
-* [Update Property File](#update_property_file)
-* [Update XML File with XPath](#update_xml_file_with_xpath)
+* [Update INI File](#update-ini-file)
+* [Update Property File](#update-property-file)
+* [Update XML File with XPath](#update-xml-file-with-xpath)
 
 
 ### Copy Directory
@@ -99,13 +100,20 @@ Convert file line endings between UNIX and Microsoft Windows formats.
 
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
-| Ending | Enumeration:
-* os
-* windows
-* unix
-| The line ending type to use. | No |
+| Ending | Enumeration (os, windows, unix) | The line ending type to use. | No |
 | Excludes | String | A list of patterns, separated by newline characters, that describe the files to skip. | No |
 | Includes | String | A list of patterns, separated by newline characters, that describe the files to convert. | Yes |
+
+### Generate Manifest File
+
+Generate a Manifest File Based on Dependencies of the Project.
+
+
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
+| File Name | String | Name of the file | Yes |
+| Use existing file | Boolean | Select to use an existing file with the same name instead of creating a new one. | No |
+| Version Selection | Enumeration (buildLifeld, stamp) | Select the criteria for the version selection. If 'Stamp' is selected, the 'Create Stamp' step must be added prior to this step. | Yes |
 
 ### Monitor File Contents
 
@@ -197,11 +205,7 @@ Extract a .tar file.
 | Extract directory | String | The directory to extract the .tar file to. | No |
 | Overwrite files | Boolean | If selected, files are overwritten even if they are newer than files in the .tar file. | No |
 | Tarball | String | The .tar file to extract. Use wildcards that are supported by Ant pattern matching to extract multiple .tar files. For example, if you specify json-\*.tar, both json-c-0.10.tar and json-c-0.20.tar are extracted. | Yes |
-| Tarball | Enumeration:
-* none
-* gzip
-* bzip2
-| Select the compression algorithm for the .tar file. | No |
+| Tarball | Enumeration (none, gzip, bzip2) | Select the compression algorithm for the .tar file. | No |
 
 ### Unzip
 

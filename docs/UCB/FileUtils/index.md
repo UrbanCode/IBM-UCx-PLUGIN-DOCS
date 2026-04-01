@@ -22,6 +22,8 @@ Delete Files and DirectoriesDelete a set of files/directories.
 
 Flip Line EndingsA step that allows you to flip line endings for all files that match the includes.
 
+Generate Manifest FileGenerate a Manifest File Based on Dependencies of the Project.
+
 Monitor File ContentsMonitors a file for a token and continue when token appears or fail if not found in allotted time. The step ignores content that was present before the start of the step.
 
 Move DirectoryMoves files to a destination.
