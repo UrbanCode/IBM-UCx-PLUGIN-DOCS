@@ -24,6 +24,14 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 ### History
 
+#### Version 7
+
+This release includes few fixes and file name changed to devops-reporting.
+
+#### Version 6
+
+This release includes few fixes.
+
 #### Version 5
 
 This release includes translated steps and properties.
