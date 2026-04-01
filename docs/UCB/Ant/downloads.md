@@ -3,6 +3,7 @@ Ant - Downloads
 ===============
 
 # Downloads
+- [Ant-10.1186617.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Ant/Ant-10.1186617.zip)
 - [Ant-10.1165571.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Ant/Ant-10.1165571.zip)
 - [Ant-8.913229.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Ant/Ant-8.913229.zip)
 - [Ant-7.752769.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Ant/Ant-7.752769.zip)
