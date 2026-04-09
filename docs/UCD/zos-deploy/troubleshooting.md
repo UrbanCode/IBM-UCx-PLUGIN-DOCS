@@ -1,5 +1,19 @@
 # Troubleshooting
 
+## Run MVS Command fails with JAR file does not exist error
+
+When you run the `Run MVS Command` step, you might encounter the following error:
+
+```
+[Error] SDSF Jar File /usr/include/java_classes/isfjcall.jar does not exist.
+```
+
+SDSF no longer distributes files in /usr/include/java_classes and /usr/lib/java_runtime64 directories.
+* Change `/usr/include/java_classes` to `/usr/lpp/sdsf/java/classes` and
+* Change `/usr/lib/java_runtime64` to `/usr/lpp/sdsf/java/runtime64` in the `Run MVS Command` step.
+
+Reference - [Using the SDSF Java programming language](https://www.ibm.com/docs/en/zos/3.2.0?topic=guide-using-sdsf-java-programming-language)
+
 ## Copy Artifacts step limitation
 
 When you use the Copy Artifacts step, you can copy only in the same logical partition (LPAR). To transfer artifacts between different LPARs, use the FTP Artifacts step.
