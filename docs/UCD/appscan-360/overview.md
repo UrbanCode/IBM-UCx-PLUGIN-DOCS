@@ -1,7 +1,7 @@
 
 # Overview
 
-The AppScan 360 plug-in includes steps which interact with AppScan 360 in DevOps Deploy. The plugin steps can orchestrate the SAST and DAST scans and perform presence actions like create, delete, start, stop on AppScan 360.
+The AppScan 360 plug-in includes steps which interact with AppScan 360 in DevOps Deploy. The plugin steps can orchestrate the SAST, DAST and SCA scans and perform presence actions like create, delete, start, stop on AppScan 360.
 
 This plugin includes one or more steps, click Steps for step details and properties.
 
