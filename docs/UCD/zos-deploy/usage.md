@@ -13,6 +13,7 @@ The following pages provide usage information about this plug-in:
 * [Deploying by using the Job Monitor](#deploying-by-using-the-job-monitor)
 * [Submitting a JCL job and then checking for status](#submitting-a-jcl-job-and-then-checking-for-status)
 * [Submitting a JCL job from a template](#submitting-jcl-jobs-from-a-template)
+* [Submitting JCL jobs in parallel](#submitting-jcl-jobs-in-parallel)
 * [MVS component template](#mvs-component-template)
 * [Managing redundant versions](#managing-redundant-versions)
   * [Remove Redundant Versions](#remove-redundant-versions)
@@ -168,6 +169,19 @@ To submit multiple jobs from the same template, specify multiple sets of rules i
 [![zos_multiple_jobs](media/zos_multiplejobs.png)](media/zos_multiplejobs.png)
 
 In the previous example, three jobs are submitted because three rule sets are specified in the **Replace Tokens For Each Job** field. The three jobs check the JKEMPMT, JKECMORT, and JKEMLIST members in that order. The rules that are specified in the **Replace Tokens** field are used for all jobs. Because **Stop On Fail** is selected, if any job fails no subsequent jobs are submitted. Finally, the **Max Return Code** field is set to 0 so that any return code greater than 0 is considered a job failure. For example, a return code of 4 from the LISTDS command, which indicates that a member name was not found, is considered a job failure.
+
+## Submitting JCL jobs in parallel
+
+From version 103 of the z/OS Utility plug-in, you can submit multiple JCL jobs in parallel.
+To submit JCL jobs in parallel, enable `Run in Parallel` option in the Submit Job step, and uncheck `Stop On Fail` option as shown below.
+
+[![submit_jobs_in_parallel](media/submit-jobs-in-parallel.png)](media/submit-jobs-in-parallel.png)
+
+When `Run in Parallel` is enabled, multiple jobs are submitted at the same time, and the step waits for all jobs to complete.
+The step status is success if all the jobs run to completion, and fail if any of the jobs fail.
+
+By default, the `Run in Parallel` option is disabled, and the jobs are submitted sequentially. 
+Enabling this option allows you to submit multiple jobs at the same time, which can reduce the total execution time of the step if the jobs are independent and can run concurrently.
 
 ## Processing multiple data sets or data set members
 
