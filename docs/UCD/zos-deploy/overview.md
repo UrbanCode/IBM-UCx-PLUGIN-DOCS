@@ -48,6 +48,7 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 * 103.1187825 - Added Run in Parallel option to Submit Job step to submit all jobs first and then wait for each job to complete instead of submitting and waiting for each job. This option is helpful when there are multiple independent jobs to submit and wait for in the process.
 * 103.1187939 - Fixes KNOWN-ISSUE DT467811 (Rollback fails with java.io.IOException: Corrupted TAR archive.) and added retry logic to update ZInventory.
+* 103.1188441 - Fix RTCzMVSExec64 Not found in java.library.path error
 
 ### Version 102
 
