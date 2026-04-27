@@ -20,6 +20,20 @@ The Cloud Foundry command-line utility must be installed on the agent computer. 
 
 ## History
 
+### Version 6
+
+Fixing CVE:CVE-2019-4233 vulnerability
+
+### Version 5
+
+Added login failure error message from "cf ic login..." command to help users resolve the issue.
+Previously, the error from the failed login attempt was ignored.
+
+### Version 4
+
+* "Unbind IP Address" step now calls the correct groovy script.
+* Support property file encryption.
+
 ### Version 3
 
 Version 3 includes the following features:
