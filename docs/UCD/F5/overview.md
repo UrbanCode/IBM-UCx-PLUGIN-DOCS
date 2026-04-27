@@ -20,9 +20,17 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ## History
 
+### Version 24
+
+* Fixes APAR PH05331 - Added javamail dependencies jars - fixes - "UNABLE TO FIND REQUIRED CLASSES" error.
+
+### Version 23
+
+* Fixes APAR PH00989 - Added timeout property to Steps : Enable node, confirm enabled node, confirm disabled node.
+
 ### Version 22
 
-* Fixes APAR PH00560The Enable Pool Members step with Force Online checkbox selected would fail if the monitors did not start up quickly.
+* Fixes APAR PH00560 - The Enable Pool Members step with Force Online checkbox selected would fail if the monitors did not start up quickly.
 
 ### Version 21
 
