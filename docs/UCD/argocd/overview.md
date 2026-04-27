@@ -17,6 +17,18 @@ Compatible with IBM DevOps Deploy version 7.1.0 and later.
 
 ## History
 
+### Version 4
+
+Update inventory management to handle digest values in image specs.
+
+### Version 3
+
+Add inventory/snapshot support.
+
+### Version 2
+
+Add application set support.
+
 ### Version 1
 
 Initial Release. Includes steps to create, get, rollback, set and sync Argo CD applications.
