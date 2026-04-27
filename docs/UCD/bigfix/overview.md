@@ -19,6 +19,10 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ## History
 
+### Version 2
+
+Support property file encryption.
+
 ### Version 1
 
 Initial Release. Includes a step to create and start a BigFix action.
