@@ -23,6 +23,10 @@ No special steps are required for installation. See [Installing plug-ins in IBM 
 
 ## History
 
+### Version 2
+
+Support property file encryption.
+
 ### Version 1
 
 Version 1 is the initial release of the plug-in. It includes a step to attach Auto-Scaling policies.

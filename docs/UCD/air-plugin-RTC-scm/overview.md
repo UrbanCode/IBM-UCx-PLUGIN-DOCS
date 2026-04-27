@@ -27,6 +27,10 @@ To learn more about using Rational Team Concert source control with IBM DevOps D
 
 ## History
 
+### Version 8.1101694
+
+Fixes APAR PH17828, fix an incorrect value for "Workspace History" when configuring the importing of new versions.
+
 ### Version 7.1044519
 
 Version 7 includes a fix for APAR PI87707. The user who requested a manual version import is now being tracked.
