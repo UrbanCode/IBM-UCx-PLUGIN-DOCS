@@ -22,6 +22,10 @@ The Aspera ascp client is required for the download and upload steps. The Aspera
 
 ## History
 
+### Version 3
+
+Support property file encryption.
+
 ### Version 2
 
 Version 2 of the plug-in adds support for defining files to upload and download by using a text file.
