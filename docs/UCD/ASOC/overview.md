@@ -18,6 +18,7 @@ This plug-in works with the latest version of AppScan on Cloud.
 
 * Updated api from v2 to v4.
 * Created enterprise version of the plugin
+* Added Software Composition Analysis (SCA) ASoC Scan Capability
 
 ### Version 14
 
