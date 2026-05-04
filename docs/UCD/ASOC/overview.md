@@ -1,12 +1,24 @@
 
 # Overview
 
-## This is a open-source Plugin. Link: https://github.com/UrbanCode/HCL-ASoC-UCD
+## This is a Enterprise plugin of the AppScan on Cloud
 
-HCL Launch can process the output of the ASoC plugin and treat the build accordingly. If your build was deployed successfully to a lower level environment but failed the Dynamic ASoC scan with high severity issues, HCL Launch will automatically rollback to the last deployed version and mark the build with a status indicating there are problems. If ASoC identifies lesser severity issues in your build, HCL Launch with slap a “deployment warning” onto it but leave it installe don the target machines. And if ASoC spots no major issues, HCL Launch will give that version an app status that signifies it’s passed all AppScan scans. In other words, HCL Launch creates environment gates that can prevent deployments to Prod or other high-level environments if it doesn’t pass AppScan approval.
+DevOps Deploy can interpret the results produced by the ASoC plugin and adjust the build outcome accordingly. If a build is successfully deployed to a lower environment but fails the Dynamic ASoC scan due to high-severity issues, DevOps Deploy automatically rolls back to the previously deployed version and flags the build with a problem status. When ASoC detects lower-severity issues, DevOps Deploy applies a “deployment warning” while keeping the build installed on the target systems. If no significant issues are found, DevOps Deploy marks the version as having successfully passed all AppScan checks. Essentially, DevOps Deploy establishes environment gates that can block deployments to production or other higher environments if AppScan approval is not met.
+
+### Compatibility
+
+This plug-in requires version 7.2.0 or later of DevOps Deploy.
+
+This plug-in works with the latest version of AppScan on Cloud.
 
 
 ## History
+
+### Version 15
+
+* Updated api from v2 to v4.
+* Created enterprise version of the plugin
+* Added Software Composition Analysis (SCA) ASoC Scan Capability
 
 ### Version 14
 
@@ -34,7 +46,7 @@ Set high, medium, low, informational issue count output properties on dynamic sc
 
 * Complete rewrite of former plugin to fix broken scan steps.
 * Added Application ID property to scan steps.
-* Changed authentication to API tokens as opposed to IBM IDs.
+* Changed authentication to API tokens as opposed to IDs.
 * Added support for scan templates for DAST/MAST scans.
 * Added steps for creating, deleting, starting, and stopping presences.
 * Added support for running scans on private applications using presences.
