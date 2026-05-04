@@ -23,6 +23,21 @@ This plug-in is installed when installing IBM DevOps Deploy. When new plug-in ve
 
 ## History
 
+### Version 23
+
+Minor update to Apache Commons Lang3
+
+### Version 22
+
+Update Apache Log4j to 2.25.4
+
+Addresses multiple non-exploitable CVEs:
+CVE-2026-34477, CVE-2026-34478, CVE-2026-34479, CVE-2026-34480, CVE-2026-34481
+
+### Version 21
+
+Use a natural sort when importing multiple versions at once
+
 ### Version 20
 
 Update Apache log4j to 2.25.3 for non-exploitable CVE-2025-68161
