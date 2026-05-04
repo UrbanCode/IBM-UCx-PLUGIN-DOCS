@@ -37,7 +37,7 @@ export const ucd: DefaultTheme.Sidebar = {
     // is on `${DEPLOY_BASE_DIR}/ASOC` directory.
     [`/${DEPLOY_BASE_DIR}/ASOC/`]: [
         {
-            text: 'ASOC [community plugin]',
+            text: 'ASOC',
             items: [
                 { text: 'About', link: `/${DEPLOY_BASE_DIR}/ASOC/` },
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/ASOC/overview` },
