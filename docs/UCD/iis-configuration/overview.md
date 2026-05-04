@@ -29,35 +29,47 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ### Versions
 
-#### Version 11
+### Version 13
+
+* Add compatibility with Groovy 3
+
+### Version 12
+
+* Fixing CVE:CVE-2019-4233
+
+### Version 11
 
 * Change dependency on DevOps Deploy Versioned File Storage plug-in to version 30 and DevOps Deploy Versions to version 66.
 
-#### Version 9
+### Version 10
+
+* Added optional operations handling by the plugin. Optional operations are used by msdeploy.
+
+### Version 9
 
 * A topology discovery can be run without editing and saving the properties of the webServer group after an auto-discovery.
 
-#### Version 8
+### Version 8
 
 * Error and debugging information prints correctly to the output log in DevOps Deploy.
 * IISApp resource roles can be added to other IISApp resource roles.
 
 Other Versions:
 
-#### Version 7
+### Version 7
 
 * Fixed an issue where agents installed on non-Windows platforms would produce an error when placed in the resource tree
 
-#### Version 6
+### Version 6
 
 * Fixed issue where apps were not getting discovered correctly during a topology discovery
 * Fixed issue where optional arguments were incorrectly placed onto msdeploy commands
 
-#### Version 5
+### Version 5
 
 * Fixed issue where optional arguments for msdeploy commands were not working correctly.
 
-#### Beta 4
+### Beta 4
 
 * The plug-in now includes a live comparison feature. You can compare your component versions against a live IIS configuration to find differences between the two.
 * The IIS Configuration Discover and Configure step is now called IIS Configuration Discovery, to better represent its purpose.
@@ -69,11 +81,11 @@ Other Versions:
 * The Tokenize Configuration File step now prints the values to be replaced by tokens.
 * Resource roles are now restricted to their correct parent roles when you drag them to the resource tree.
 
-#### Beta 3
+### Beta 3
 
 * Fixed issue where the plug-in did not load on IBM DevOps Deploy 6.2.2.
 
-#### Beta 2
+### Beta 2
 
 * Fixed issue where plug-in might not automatically import example processes, component templates, and applications.
 * Added plug-in dependencies for various plug-in steps that are used in example processes, component templates, and applications.
