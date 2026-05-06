@@ -3,6 +3,7 @@
 
 To download the plug-in, click the following version-specific links.
 
+- [devops-deploy-TFS-SourceConfig-27.1179519.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/TFS-SourceConfig/devops-deploy-TFS-SourceConfig-27.1179519.zip)
 - [ucd-TFS-SourceConfig-26.1155758.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/TFS-SourceConfig/ucd-TFS-SourceConfig-26.1155758.zip)
 - [ucd-TFS-SourceConfig-25.1154010.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/TFS-SourceConfig/ucd-TFS-SourceConfig-25.1154010.zip)
 - [ucd-TFS-SourceConfig-24.1150665.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/TFS-SourceConfig/ucd-TFS-SourceConfig-24.1150665.zip)

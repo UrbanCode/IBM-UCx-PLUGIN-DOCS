@@ -26,6 +26,10 @@ This plug-in is installed when installing IBM DevOps Deploy. When new plug-in ve
 
 ## History
 
+### Version 27
+
+* Update commons-lang to 3.18. Resolves finding for non-exploitable CVE-2025-48924
+
 ### Version 26
 
 * Updating Jettison library to 1.5.4 for CVE-2023-1436
