@@ -1,7 +1,9 @@
 
 # Downloads
 
-To download the plug-in, click the following versoin-specific links.
+To download the plug-in, click the following version-specific links.
+- [devops-deploy-SubversionSourceConfig-28.1188327.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SubversionSourceConfig/devops-deploy-SubversionSourceConfig-28.1188327.zip)
+- [devops-deploy-SubversionSourceConfig-27.1185334.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SubversionSourceConfig/devops-deploy-SubversionSourceConfig-27.1185334.zip)
 - [ucd-SubversionSourceConfig-26.1159798.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SubversionSourceConfig/ucd-SubversionSourceConfig-26.1159798.zip)
 - [ucd-SubversionSourceConfig-25.1155759.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SubversionSourceConfig/ucd-SubversionSourceConfig-25.1155759.zip)
 - [ucd-SubversionSourceConfig-24.1153955.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SubversionSourceConfig/ucd-SubversionSourceConfig-24.1153955.zip)
