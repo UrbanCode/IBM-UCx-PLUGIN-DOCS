@@ -25,6 +25,18 @@ No special steps are required for installation. See [Installing plug-ins in IBM 
 
 ## History
 
+### Version 4
+
+* A version's importing field will be correctly set and marked as finished importing when creating versions that aren't copied to codestation.
+
+### Version 3
+
+* Fixing CVE:CVE-2019-4233
+
+### Version 2
+
+* APAR PI89045: add support for setting isFinished flag flag when importing versions.
+
 ### Version 1
 
 * Initial release of the Nexus Source Configuration plug-in.

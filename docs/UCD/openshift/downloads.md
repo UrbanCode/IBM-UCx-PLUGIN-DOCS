@@ -2,6 +2,7 @@
 # Downloads
 
 To download the plug-in, click the following version-specific links.
+- [devops-deploy-openshift-28.1188331.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/openshift/devops-deploy-openshift-28.1188331.zip)
 - [devops-deploy-openshift-27.1185296.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/openshift/devops-deploy-openshift-27.1185296.zip)
 - [devops-deploy-openshift-26.1179573.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/openshift/devops-deploy-openshift-26.1179573.zip)
 - [ucd-openshift-25.1176034.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/openshift/ucd-openshift-25.1176034.zip)

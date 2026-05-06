@@ -17,8 +17,28 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ## History
 
+### Version 6
+
+* Fixes APAR PH17739 - Invalid value for namingConvention property.
+
+### Version 5
+
+* Fixing CVE:CVE-2019-4233
+
+### Version 4
+
+* APAR PI89045: add support for setting isFinished flag flag when importing versions.
+
+### Version 3
+
+* Fixes APAR PI87707, a regression where the user who requested a manual version import was not being tracked.
+
+### Version 2
+
+* Support property file encryption.
+
 ### Version 1
 
-Initial release of the OpenShift Source Configuration plug-in.
+* Initial release of the OpenShift Source Configuration plug-in.
 
 

@@ -2,7 +2,7 @@
 # Downloads
 
 To download the plug-in, click the following version specific links.
-- [ucd-appscan-27.1169570.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/appscan/ucd-appscan-27.1174441.zip)
+- [ucd-appscan-27.1174441.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/appscan/ucd-appscan-27.1174441.zip)
 - [ucd-appscan-27.1169570.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/appscan/ucd-appscan-27.1169570.zip)
 - [ucd-appscan-26.1166855.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/appscan/ucd-appscan-26.1166855.zip)
 - [ucd-appscan-25.1166389.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/appscan/ucd-appscan-25.1166389.zip)

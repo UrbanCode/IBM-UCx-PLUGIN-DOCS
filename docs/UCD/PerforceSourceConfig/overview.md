@@ -13,6 +13,18 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ## History
 
+### Version 9
+
+* Fixing CVE:CVE-2019-4233
+
+### Version 8
+
+* APAR PI89045: add support for setting isFinished flag flag when importing versions.
+
+### Version 7
+
+* Fixes APAR PI87707, a regression where the user who requested a manual version import was not being tracked.
+
 ### Version 6
 
 * Succeed if most recent version is already imported.

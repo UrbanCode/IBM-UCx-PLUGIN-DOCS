@@ -26,6 +26,10 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ## History
 
+### Version 6
+
+* Support property file encryption.
+
 ### Version 5.767528 released on March 30, 2016
 
 Version 5.767528 includes the following features and fixes:
