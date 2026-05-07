@@ -13,7 +13,31 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ## History
 
-### Version 3.789343
+### Version 7
 
-Version 3 includes a fix for APAR PI57417. The plug-in now checks the agent settings for acceptance of self-signed certificates.
+* Fixing CVE:CVE-2019-4233
+
+### Version 6
+
+* APAR PI89045: add support for setting isFinished flag when importing versions.
+
+### Version 5
+
+* Fixes APAR PI87707, a regression where the user who requested a manual version import was not being tracked.
+
+### Version 4
+
+* Support property file encryption.
+
+### Version 3
+
+* Fix for APAR PI57417. The plug-in now checks the agent settings for acceptance of self-signed certificates.
+
+### Version 2
+
+* Fixes running a process after creating a version
+
+### Version 1
+
+* Initial release of PVCS source configuration plugin.
 
