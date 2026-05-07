@@ -2,7 +2,9 @@
 # Downloads
 
 To download the plug-in, click the following version-specific links.
-
+- [devops-deploy-uBuildSourceConfig-19.1188329.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uBuildSourceConfig/devops-deploy-uBuildSourceConfig-19.1188329.zip)
+- [devops-deploy-uBuildSourceConfig-18.1185330.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uBuildSourceConfig/devops-deploy-uBuildSourceConfig-18.1185330.zip)
+- [devops-deploy-uBuildSourceConfig-17.1179574.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uBuildSourceConfig/devops-deploy-uBuildSourceConfig-17.1179574.zip)
 - [ucd-uBuildSourceConfig-16.1176344.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uBuildSourceConfig/ucd-uBuildSourceConfig-16.1176344.zip)
 - [ucd-uBuildSourceConfig-15.1155756.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uBuildSourceConfig/ucd-uBuildSourceConfig-15.1155756.zip)
 - [ucd-uBuildSourceConfig-14.1150661.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uBuildSourceConfig/ucd-uBuildSourceConfig-14.1150661.zip)

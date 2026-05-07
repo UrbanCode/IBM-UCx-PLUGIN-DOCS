@@ -18,6 +18,21 @@ This plug-in is installed when installing IBM DevOps Deploy. When new plug-in ve
 
 ## History
 
+### Version 19
+
+* Update Apache Log4j to 2.25.4
+
+Addresses multiple non-exploitable CVEs:
+CVE-2026-34477, CVE-2026-34478, CVE-2026-34479, CVE-2026-34480, CVE-2026-34481
+
+### Version 18
+
+* Update Apache log4j to 2.25.3 for non-exploitable CVE-2025-68161
+
+### Version 17
+
+* Update commons-lang to 3.18, resolves finding for non-exploitable CVE-2025-48924
+
 ### Version 16
 
 * Rebrand UrbanCode Build to DevOps Build
