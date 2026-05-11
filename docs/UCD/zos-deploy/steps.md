@@ -320,3 +320,27 @@ Restored datasets from backup taken during deployment
 | Version Name            | String  | Version Name                                                                                                                                                                                                                                                                                                    | Yes      |
 | Component Name          | String  | Component Name                                                                                                                                                                                                                                                                                                  | Yes      |
 | Resource Id             | String  | Resource Id                                                                                                                                                                                                                                                                                                     | Yes      |
+
+## Create Sub-Version from Version
+
+Creates a sub-version from an existing version.
+
+| Name                 | Type   | Description                                                                                               | Required |
+|----------------------|--------|-----------------------------------------------------------------------------------------------------------|----------|
+| Source Version       | String | Specify the source version from which to create the sub-version. The version must be of type INCREMENTAL. | Yes      |
+| New Sub-Version Name | String | Specify the name of the new sub-version to create.                                                        | Yes      |
+| Component Name       | String | Specify the name of the component.                                                                        | Yes      |
+| Includes             | String | Specify a list of patterns or dataset member names that describe artifacts to include in the sub-version. | Yes      |
+
+**Note:**
+The format for the `includes` should be one of the below
+* \[dataset-name\]
+* \[dataset-name\], \[member-name]
+* /\[dataset-regex\]/
+* /\[dataset-regex\]/, /\[member-regex\]/
+
+Separate patterns and dataset/member names with newline character. Here are some examples of valid `includes` values:
+* Specify BUILD.JCL to include the dataset BUILD.JCL and all its members.
+* Specify BUILD.JCL(ABC) to include member ABC in dataset BUILD.JCL.
+* Specify /BUILD.*/ to include datasets that start with BUILD.
+* Specify /.*JCL/,/(ABC|DEF)/ to include members ABC and DEF in any dataset that ends with JCL.
