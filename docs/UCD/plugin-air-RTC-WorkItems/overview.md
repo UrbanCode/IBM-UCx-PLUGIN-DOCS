@@ -16,6 +16,10 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 Read about a full deployment architecture and process using WAS, BPM, and RTC [here](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/07/20/bpserver).
 
 ## History
+### Version 16
+
+Fixed check status and Change Defect status step failures. 
+
 ### Version 15
 
 Fixed the Add-comments step failure.
