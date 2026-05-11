@@ -22,6 +22,7 @@ The following pages provide usage information about this plug-in:
 * [Using custom properties in deployments](#using-custom-properties-in-deployments)
 * [Deploying data sets and running CICS commands](#deploying-data-sets-and-running-cics-commands)
 * [Deploying HFS files](#deploying-hfs-files)
+* [Create Sub-Version from Version](#create-sub-version-from-version)
 
 ## Running MVS system commands
 
@@ -274,3 +275,15 @@ The process runs the following steps in order:
 3. The [Wait For Job](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/zos-deploy/steps.html) step stops processing until the JCL job completes.
 
 [![submit_job_wait](media/submit_job_wait.gif)](media/submit_job_wait.gif)
+
+## Create Sub-Version from Version
+
+The **Create Sub-Version from Version** step creates a sub-version from an existing version. 
+The new sub-version contains selective artifacts based on `includes` from the existing version, and is created in the same component as the existing version.
+
+[![create_subversion](media/create-subversion.png)](media/create-subversion.png)
+
+### Limitations of Create Sub-Version from Version step
+* Only artifacts of type MVS Data Set and MVS Data Set Member are supported.
+* Linked versions are not supported. If the source version has linked versions, the step fails.
+* Version with deleted artifacts are not supported. If the source version has deleted artifacts, the step fails.

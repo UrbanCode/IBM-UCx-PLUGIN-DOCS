@@ -44,6 +44,10 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ## History
 
+### Version 104
+
+* Added new step to create a sub version from an existing version
+
 ### Version 103
 
 * 103.1187825 - Added Run in Parallel option to Submit Job step to submit all jobs first and then wait for each job to complete instead of submitting and waiting for each job. This option is helpful when there are multiple independent jobs to submit and wait for in the process.
