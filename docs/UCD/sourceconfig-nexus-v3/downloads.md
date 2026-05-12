@@ -2,7 +2,7 @@
 # Downloads
 
 To download the plug-in, click the following version-specific links.
-
+- [devops-deploy-sourceconfig-nexus-v3-7.1188937.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/sourceconfig-nexus-v3/devops-deploy-sourceconfig-nexus-v3-7.1188937.zip)
 - [devops-deploy-sourceconfig-nexus-v3-6.1180968.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/sourceconfig-nexus-v3/devops-deploy-sourceconfig-nexus-v3-6.1180968.zip)
 - [devops-deploy-sourceconfig-nexus-v3-6.1179697.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/sourceconfig-nexus-v3/devops-deploy-sourceconfig-nexus-v3-6.1179697.zip)
 - [ucd-sourceconfig-nexus-v3-5.1164218.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/sourceconfig-nexus-v3/ucd-sourceconfig-nexus-v3-5.1164218.zip)

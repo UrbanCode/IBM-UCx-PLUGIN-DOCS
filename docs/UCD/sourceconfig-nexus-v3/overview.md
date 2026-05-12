@@ -38,6 +38,10 @@ The previous version of the plugin doesn't support this feature and creates vers
 
 ## History
 
+### Version 7
+
+* Add specific error messages for HTTP authentication and server errors.
+
 ### Version 6
 
 * RFE-URBANCODE-I-735: Importing versions from raw nexus repository .
