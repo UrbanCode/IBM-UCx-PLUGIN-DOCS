@@ -21,6 +21,14 @@ See [Installing plug-ins in DevOps Deploy](https://community.ibm.com/community/u
 
 ## History
 
+### Version 3
+
+* A versions importing field will be correctly set and marked as finished importing when creating versions that aren't copied to codestation.
+
+### Version 2
+
+* Fixing CVE:CVE-2019-4233
+
 ### Version 1
 
 * Initial release of this plug-in.
