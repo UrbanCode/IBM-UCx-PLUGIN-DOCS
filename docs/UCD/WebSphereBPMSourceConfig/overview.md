@@ -22,6 +22,14 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ## History
 
+### Version 8
+
+* A versions importing field will be correctly set and marked as finished importing when creating versions that aren't copied to codestation.
+
+### Version 7
+
+* Fixing CVE:CVE-2019-4233
+
 ### Version 6
 
 * Fixes APAR PH08149: MultipleCompilationErrorsException: The current scope already contains a variable of the name props.
