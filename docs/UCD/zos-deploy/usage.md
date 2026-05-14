@@ -23,6 +23,7 @@ The following pages provide usage information about this plug-in:
 * [Deploying data sets and running CICS commands](#deploying-data-sets-and-running-cics-commands)
 * [Deploying HFS files](#deploying-hfs-files)
 * [Create Sub-Version from Version](#create-sub-version-from-version)
+* [Updating ISPF stats of PDS members](#updating-ispf-stats-of-pds-members)
 
 ## Running MVS system commands
 
@@ -287,3 +288,13 @@ The new sub-version contains selective artifacts based on `includes` from the ex
 * Only artifacts of type MVS Data Set and MVS Data Set Member are supported.
 * Linked versions are not supported. If the source version has linked versions, the step fails.
 * Version with deleted artifacts are not supported. If the source version has deleted artifacts, the step fails.
+
+## Updating ISPF stats of PDS members
+
+* Deploy timestamp and user-id can be updated in the ISPF stats of PDS members that are not RECFM U.
+  * The default value is NONE, which means ISPF statistics are not updated with the deployment timestamp or user ID.
+  * If set to AGENT-ID, the plugin updates ISPF statistics with the deployment time and the agent ID.
+  * If deploy.update.userid is set to userid and that option is selected in the plugin, ISPF statistics are updated with the deployment time and the user ID mapped to that property. The plugin attempts to validate the existence of the user using the TSO command LISTUSER and hence the agent-id will need permissions to run this command when this option is used. When the userid is a blank, both modified-time and userid fields are not updated.
+
+[![update ispf stats](media/ispf-user-id.png)](media/ispf-user-id.png)
+
