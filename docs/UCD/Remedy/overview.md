@@ -19,6 +19,10 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ## History
 
+### Version 5
+
+* Support property file encryption.
+
 ### Version 4
 
 Version 4 includes updates for compatibility with Rational Quality Manager 6.1.
