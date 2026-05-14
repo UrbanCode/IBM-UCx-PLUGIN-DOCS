@@ -17,6 +17,14 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ## History
 
+### Version 65
+
+* Fixing CVE:CVE-2019-4233
+
+### Version 64
+
+* Update for API changes in server.
+
 ### Version 63
 
 Support property file encryption.
