@@ -18,6 +18,14 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ## Release Notes
 
+### Version 12
+
+* Update udclient and uDeployRestClient
+
+### Version 11
+
+* Remove log4j functionality related to: CVE-2019-17571, CVE-2020-9488. CVE-2021-4104, CVE-2022-23302, CVE-2022-23305, CVE-2022-23307
+
 ### Version 10
 
 Plug-in updates to install Web agents
