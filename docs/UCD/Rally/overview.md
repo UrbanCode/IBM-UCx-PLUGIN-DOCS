@@ -29,9 +29,17 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ## History
 
+### Version 6
+
+* (PI89142) Fixed classpath for users that configure proxy host
+
+### Version 5
+
+* Support property file encryption.
+
 ### Version 4.772117
 
-Version 4 includes support for authenticating with tokens (API keys).
+* Added Feature - Authenticate with Rally Server via Authentication Token
 
 ### Version 1.0.0b.672870
 

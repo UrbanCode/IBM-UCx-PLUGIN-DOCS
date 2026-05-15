@@ -34,6 +34,10 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ## History
 
+### Version 9.1100786
+
+* Updated all default property values to coincide with the WLDeploy plugin values.
+
 ### Version 8.939089
 
 * Password is now a secure field on all steps.

@@ -27,6 +27,18 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ## History
 
+### Version 6
+
+* Fixing CVE:CVE-2019-4233
+
+### Version 5
+
+* Updated copyright.
+
+### Version 4
+
+* Support property file encryption.
+
 ### Version 3
 
 This release includes a component template that can help demonstrate how to use the plug-in.
