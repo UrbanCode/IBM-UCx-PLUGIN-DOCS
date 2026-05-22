@@ -47,6 +47,8 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 ### Version 105
 
 * Upgraded 'Deploy dataset and USS files' plugin step property 'Update Deploy timestamp for PDS' to 'Update Deploy userid and timestamp' to update both user-id and deploy-timestamp. Refer Usage page for more information.
+* Support deploying linked version over incremental version
+* Added support for alias for v2 package format
 
 ### Version 104
 
