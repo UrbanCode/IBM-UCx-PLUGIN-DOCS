@@ -11,7 +11,8 @@ The table below lists the compatible versions of the Jira plug-in and IBM DevOps
 
 | IBM DevOps Velocity Version | Jira plug-in version |
 | --- | --- |
-| 5.1.10 or later | 2.4.5 |
+| 5.2.5 or later | 2.4.11 |
+| 5.1.10 to 5.2.4 | 2.4.5 |
 | 3.1.0 to 5.1.9 | 2.4.3, 2.4.2, 2.3.24, 2.3.20, 2.3.17, 2.3.14, 2.3.12, 2.3.10, 2.3.9 |
  
 ## Upgrade notes
@@ -27,6 +28,10 @@ User can add their own customized JQL query for fetching specific issues . For f
 IBM DevOps Velocity plug-in images are located in DockerHub. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-jira/tags).
 
 ### History
+
+### Version 2.4.11
+
+* **Feature enhancement**: Loop Data Engine now supports external DevOps tool resources. Team and Teamspace fields have been introduced and can be configured during plugin integration.
 
 ### Version 2.4.5
 

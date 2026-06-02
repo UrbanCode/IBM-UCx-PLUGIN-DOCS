@@ -18,7 +18,12 @@ Deployment pipelines in DevOps Velocity is a powerful way to create automated pi
 
 ## Compatibility
 
-Must be running DevOps Velocity version 4.0.9 and later to use the plug-in.
+The table below lists the compatible versions of the Jenkins plug-in and DevOps Velocity:
+
+| IBM DevOps Velocity Version | Jenkins plug-in version |
+| --- | --- |
+| 5.2.5 or later | 1.1.12 |
+| 4.0.9 to 5.2.4 | 1.1.7, 1.1.6, 1.1.5, 1.1.3, 1.1.2, 1.1.1, 1.0.9, 1.0.4, 1.0.1 |
 
 ## Versions
 
@@ -27,6 +32,10 @@ view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/
 
 
 ## History
+
+### Version 1.1.12
+
+* **Feature enhancement**: Loop Data Engine now supports external DevOps tool resources. Team and Teamspace fields have been introduced and can be configured during plugin integration.
 
 ### Version 1.1.7
 
