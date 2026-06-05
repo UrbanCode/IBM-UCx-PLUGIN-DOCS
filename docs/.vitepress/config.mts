@@ -45,7 +45,7 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/UrbanCode/IBM-UCx-PLUGIN-DOCS' }
     ],
     footer: {
-      copyright: "©️ IBM Corp. 2011, 2017. <br> ©️ HCL Technologies Limited 2018, 2025.",
+      copyright: "©️ IBM Corp. 2011, 2017. <br> ©️ HCL Technologies Limited 2018, 2026.",
     }
   }
 })
