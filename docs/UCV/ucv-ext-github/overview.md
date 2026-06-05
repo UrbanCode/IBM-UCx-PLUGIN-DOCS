@@ -32,7 +32,7 @@ IBM DevOps Velocity plug-in images are located in DockerHub. To view available v
 
 ### Version 1.5.9
 
-* **Feature enhancement**: Loop Data Engine now supports external DevOps tool resources. Team and Teamspace fields have been introduced and can be configured during plugin integration.
+* **Enhancement**: Added support for Team and Teamspace fields in plugin integrations. You can now configure during plugin integration.
 
 ### Version 1.5.4
 

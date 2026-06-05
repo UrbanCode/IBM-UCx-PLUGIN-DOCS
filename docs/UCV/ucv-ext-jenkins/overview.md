@@ -35,7 +35,7 @@ view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/
 
 ### Version 1.1.12
 
-* **Feature enhancement**: Loop Data Engine now supports external DevOps tool resources. Team and Teamspace fields have been introduced and can be configured during plugin integration.
+* **Enhancement**: Added support for Team and Teamspace fields in plugin integrations. You can now configure during plugin integration.
 
 ### Version 1.1.7
 
