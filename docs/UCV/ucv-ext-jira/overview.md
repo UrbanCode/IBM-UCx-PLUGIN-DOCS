@@ -17,11 +17,11 @@ The table below lists the compatible versions of the Jira plug-in and IBM DevOps
  
 ## Upgrade notes
 
-Beginning with IBM DevOps Velocity version 2.4.0 users must enter a user access key is required to connect with the IBM DevOps Velocity server. If you are upgrading from a previous version, you must obtain and add the key to the IBM DevOps Velocity configuration property. If the user access key is not added, the integration fails. A proper JQL query must be provided while integration.
+Beginning with IBM DevOps Velocity version 2.4.0 users must enter a user access key is required to connect with the IBM DevOps Velocity server. If you are upgrading from a previous version, you must obtain and add the key to the IBM DevOps Velocity configuration property. If the user access key is not added, the integration fails. 
 
 ## JQL Query
 
-User can add their own customized JQL query for fetching specific issues . For further reference regarding JQL queries and how to use them , please follow the link https://confluence.atlassian.com/jirasoftwareserver0820/advanced-searching-1095249245.html
+User can add their own customized JQL query for fetching specific issues. For further reference regarding JQL queries and how to use them , please follow the link https://confluence.atlassian.com/jirasoftwareserver0820/advanced-searching-1095249245.html
 
 ## Versions
 
