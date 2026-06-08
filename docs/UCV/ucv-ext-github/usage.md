@@ -92,6 +92,8 @@ The following tables describe the properties used to configure the integration. 
 | branch | String | GitHub repositories branch, The branch to pull commits from. | No | branch |
 | Personal access token | Secure | The Personal Access Token used to authenticate with Github repositories. | No | token |
 | Additional branches | Array | Additional branches to collect commits from besides the main one, leave blank if not needed. | No | otherBranches |
+| Team Space Id | FilterableSelect | The Team space associated with the integration. | No | teamspaceId |
+| Team Id | FilterableSelect | The teams associated with the integration. | No | teamId |
 | Organization | String | The organization name. The name is not case sensitive. **This field is required if you enable Copilot Metrics while adding the integration.** | No | organization |
 | Team Slug | String | The slug of the team name. **This field is required if you enable Copilot Metrics while adding the integration.** | No | teamSlug |
 | Personal Access Token (Copilot Metrics) | Secure | The Personal Access Token used to authenticate with GitHub Copilot. **This field is required if you enable Copilot Metrics while adding the integration.** | No | copilotToken|

@@ -96,6 +96,8 @@ The following tables describe the properties used to configure the integration. 
 | Username | String | An assigned name to the value stream. | Yes |
 | API Token | Secure	| API Token to authenticate with the Jenkins server. To create one navigate to Jenkins -> User (top right) -> Configure -> Api Token) |	Yes |
 | Job Filter (xPath) | String	| Restrict which jobs get synced with an xPath filter string. For example: ‘starts-with(fullName,”folder/path/”)’ to only get jobs in a specific folder or: ‘contains(name,”Team Name”)’ to only get jobs that contain a specific substring or: ‘(starts-with(fullName,”folder/path/”) or contains(name,”Team Name”)) and ends-with(name,”my-suffix”)’ etc… | No |
+| Team Space Id | FilterableSelect | The Team space associated with the integration. | No | teamspaceId |
+| Team Id | FilterableSelect | The teams associated with the integration. | No | teamId |
 | Request Timeout	| String | Timeout (in seconds) to apply to each request to the Jenkins server. | No |
 | Request Retries	| String	| Number of times to attempt each request to the Jenkins server (to help eliminate on-off request errors failing entire sync). |	No |
 | Parallel Requests’ |	Boolean	| Whether or not to make requests to the Jenkins server in parallel (parallelized requests make syncing faster but put more pressure on Jenkins server). |	No |

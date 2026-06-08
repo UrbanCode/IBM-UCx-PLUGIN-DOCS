@@ -13,11 +13,24 @@ This plugin supports Cloud and On-Premises platform
 
 When migrating to version 1.0.30 of this plug-in, you must make an update to your integration. The **Name** property has been removed. Use the Repositories property to identify one or more GitHub repositories to be used to import data. Additionally, you must specify a value for the **DevOps Velocity User Access Key** property.
 
+The table below lists the compatible versions of the Github plug-in and IBM DevOps Velocity:
+
+| IBM DevOps Velocity Version | Github plug-in version |
+| --- | --- |
+| 5.2.5 or later | 1.5.9 |
+| 5.2.0 to 5.2.4 | 1.5.4 |
+| 5.0.11 to 5.1.9 | 1.5.1 |
+| 5.0.8 to 5.0.10 | 1.4.19 |
+
 ## Versions
 
 IBM DevOps Velocity plug-in images are located in DockerHub. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-github/tags).
 
 ## History
+
+### Version 1.5.9
+
+* **Enhancement**: Added support for Team and Teamspace fields in plugin integrations. You can now configure during plugin integration.
 
 ### Version 1.5.4
 
@@ -28,7 +41,7 @@ IBM DevOps Velocity plug-in images are located in DockerHub. To view available v
 * **Added description for Pull Request**: Updated GitHub plugin to sync over PR description. In GitHubMapper function under mapGitPullRequests added description field (description: pr.bodyText).
 * **Compatibility information**: This version of plug-in is compatible only with the IBM DevOps Velocity 5.0.11 and later.
 
-### Version 1.4.18
+### Version 1.4.19
 
 * Changes in the Github plugin to handle draft PR and use the new field in the DB. Have added "top-level" field for "draft" on pull requests in our GraphQL schema.
 

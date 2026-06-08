@@ -87,6 +87,8 @@ The following tables describe the properties used to configure the integration. 
 | URL | String | The base URL of the Jira server. | Yes | baseUrl |
 | User Name | String | The user name used to authenticate with the Jira server.If supplied, Personal access token will be ignored.\n NOTE: For Jira Cloud version, the User Name should be entered in the UserName field. | No | username |
 | Personal Access Token | Secure | Personal Access Token to authenticate with the Jira server. If supplied, Username and Password will be ignored.\n NOTE: For Jira cloud version provide username and password.\n For Jira server provide personal access token. | No | pat |
+| Team Space Id | FilterableSelect | The Team space associated with the integration. | No | teamspaceId |
+| Team Id | FilterableSelect | The teams associated with the integration. | No | teamId |
 | Request Timeout | Number | Timeout (in seconds) to apply to each request to the Jira server. Range is 10 to 150 seconds | No | requestTimeout |
 | Custom Field Mapping | Multiline | Map Jira fields to the velocity fields as a JSON Object.[Documentation](./jiraCustom.md) | No | fieldMapping |
 
