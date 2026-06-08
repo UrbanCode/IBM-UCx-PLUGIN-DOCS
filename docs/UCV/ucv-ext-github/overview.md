@@ -21,8 +21,6 @@ The table below lists the compatible versions of the Github plug-in and IBM DevO
 | 5.2.0 to 5.2.4 | 1.5.4 |
 | 5.0.11 to 5.1.9 | 1.5.1 |
 | 5.0.8 to 5.0.10 | 1.4.19 |
-| 2.6.0 to 5.0.7 | 1.4.17, 1.4.16, 1.4.7, 1.4.5, 1.3.46, 1.3.35 |
-| 2.5.0 to 2.5.9 | 1.3.34 |
 
 ## Versions
 
@@ -43,7 +41,7 @@ IBM DevOps Velocity plug-in images are located in DockerHub. To view available v
 * **Added description for Pull Request**: Updated GitHub plugin to sync over PR description. In GitHubMapper function under mapGitPullRequests added description field (description: pr.bodyText).
 * **Compatibility information**: This version of plug-in is compatible only with the IBM DevOps Velocity 5.0.11 and later.
 
-### Version 1.4.18
+### Version 1.4.19
 
 * Changes in the Github plugin to handle draft PR and use the new field in the DB. Have added "top-level" field for "draft" on pull requests in our GraphQL schema.
 
