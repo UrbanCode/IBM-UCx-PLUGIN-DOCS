@@ -11,7 +11,7 @@ The table below lists the compatible versions of the Jira plug-in and IBM DevOps
 
 | IBM DevOps Velocity Version | Jira plug-in version |
 | --- | --- |
-| 5.2.5 or later | 2.4.11 |
+| 5.2.5 or later | 2.4.13 |
 | 5.1.10 to 5.2.4 | 2.4.5 |
 | 3.1.0 to 5.1.9 | 2.4.3, 2.4.2, 2.3.24, 2.3.20, 2.3.17, 2.3.14, 2.3.12, 2.3.10, 2.3.9 |
  
@@ -29,9 +29,12 @@ IBM DevOps Velocity plug-in images are located in DockerHub. To view available v
 
 ### History
 
-### Version 2.4.11
+### Version 2.4.13
 
-* **Enhancement**: Added support for Team and Teamspace fields in plugin integrations. You can now configure during plugin integration.
+* Improved test coverage for the Jira plugin.
+* Addressed and resolved Whitesource-reported vulnerabilities.
+* Added support for Team and Teamspace fields in plugin integrations. These fields can now be configured during plugin setup and integration.
+* Upgraded the NPM Wrapper package to the latest supported version.
 
 ### Version 2.4.5
 
