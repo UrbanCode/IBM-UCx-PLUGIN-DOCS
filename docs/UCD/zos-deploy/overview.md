@@ -46,9 +46,11 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ### Version 105
 
-* Upgraded 'Deploy dataset and USS files' plugin step property 'Update Deploy timestamp for PDS' to 'Update Deploy userid and timestamp' to update both user-id and deploy-timestamp. Refer Usage page for more information.
-* Support deploying linked version over incremental version
-* Added support for alias for v2 package format
+* 1189136 - Upgraded 'Deploy dataset and USS files' plugin step property 'Update Deploy timestamp for PDS' to 'Update Deploy userid and timestamp' to update both user-id and deploy-timestamp. Refer Usage page for more information.
+* 1189524 - Support deploying linked version over incremental version
+* 1189524 - Added support for alias for v2 package format 
+* 1190018 - Update ZInventory logic for linked version when FromVersion is unavailable, or it is not a linked version
+* 1190018 - Enhancements to submit job step
 
 ### Version 104
 
