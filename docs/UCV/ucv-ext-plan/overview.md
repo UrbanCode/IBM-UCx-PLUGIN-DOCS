@@ -11,7 +11,7 @@ The table below lists the compatible versions of the DevOps Plan plugin and IBM 
 
 | IBM DevOps Velocity Version | DevOps Plan plugin version |
 | --- | --- |
-| 5.1.9 | 1.2.5, 1.2.4, 1.2.3, 1.2.2, 1.2.1 |
+| 5.1.9 | 1.2.7, 1.2.4, 1.2.3, 1.2.2, 1.2.1 |
 | 3.0.0 | 1.1.58, 1.1.57, 1.1.55, 1.1.52 |
 
 DevOps plan server 1.0.14 or later.
@@ -34,9 +34,15 @@ DevOps Velocity plug-in images are located in DockerHub. To view available versi
 
 ### History
 
-### Version 1.2.5
+### Version 1.2.7
 
 * Prevents sending a body with GET requests, improving compatibility with APIs like Google Cloud / GKS.
+* Addressed and resolved Whitesource-reported vulnerabilities.
+* Upgraded the NPM Wrapper package to the latest supported version.
+
+### Version 1.2.4
+
+* Improved test coverage for the plan plugin.
 
 ### Version 1.2.3
 

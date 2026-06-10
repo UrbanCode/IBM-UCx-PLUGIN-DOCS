@@ -17,7 +17,7 @@ The table below lists the compatible versions of the Github plug-in and IBM DevO
 
 | IBM DevOps Velocity Version | Github plug-in version |
 | --- | --- |
-| 5.2.5 or later | 1.5.9 |
+| 5.2.5 or later | 1.5.10 |
 | 5.2.0 to 5.2.4 | 1.5.4 |
 | 5.0.11 to 5.1.9 | 1.5.1 |
 | 5.0.8 to 5.0.10 | 1.4.19 |
@@ -28,9 +28,12 @@ IBM DevOps Velocity plug-in images are located in DockerHub. To view available v
 
 ## History
 
-### Version 1.5.9
+### Version 1.5.10
 
-* **Enhancement**: Added support for Team and Teamspace fields in plugin integrations. You can now configure during plugin integration.
+* Improved test coverage for the GitHub plug-in.
+* Addressed and resolved Whitesource-reported vulnerabilities.
+* Added support for Team and Teamspace fields in plugin integrations. These fields can now be configured during plugin setup and integration.
+* Upgraded the NPM Wrapper package to the latest supported version.
 
 ### Version 1.5.4
 
