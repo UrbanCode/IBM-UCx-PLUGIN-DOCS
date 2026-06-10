@@ -1,11 +1,11 @@
 
-# IBM DevOps Deploy - Usage
+# DevOps Deploy - Usage
 
-To use the IBM DevOps Deploy plugin, the plugin must be loaded and an instance created before you can configure the plugin integration. You define configuration properties in the user interface or in a JSON file.
+To use the DevOps Deploy plugin, the plugin must be loaded and an instance created before you can configure the plugin integration. You define configuration properties in the user interface or in a JSON file.
 
 ## Integration type
 
-The IBM DevOps Deploy plug-in supports scheduled events integration which are listed in the following table.
+The DevOps Deploy plug-in supports scheduled events integration which are listed in the following table.
 
 Schedule events up to DevOps Deploy plug-in version 4.1.1
 
@@ -22,7 +22,7 @@ Schedule events from DevOps Deploy plug-in version 4.1.3
 | Sync applications and resources | This event syncs applications, components, environments, processes, agents and status data. |
 | Sync snapshots and component versions | This event syncs inventories and snapshots data. |
 | Sync application and component process requests | This event syncs application and component process requests. |
-| Sync in Progress APRs | This is a timed event that syncs in Progress APRs from UrbanCode Deploy. |
+| Sync in Progress APRs | This is a timed event that syncs in Progress APRs from DevOps Deploy. |
 
 ## Integration
 
@@ -54,7 +54,7 @@ The JSON file contains the information for creating a value stream. Within the J
 The following tables describe the properties used to configure the integration. Each table contains the field name when using the user interface and the property name when using a JSON file.
 
    * The General Configuration Properties table describes configuration properties used by all plug-in integrations.
-   * The IBM DevOps Deploy Configuration Properties table describes the configuration properties that define the connection and communications with the IBM DevOps Deploy server. When using the JSON method to integrate the plug-in these properties are coded within the properties configuration property.
+   * The DevOps Deploy Configuration Properties table describes the configuration properties that define the connection and communications with the DevOps Deploy server. When using the JSON method to integrate the plug-in these properties are coded within the properties configuration property.
 
 Some properties might not be displayed in the user interface, to see all properties enable the **Show Hidden Properties** field.
 
@@ -65,16 +65,16 @@ Some properties might not be displayed in the user interface, to see all propert
 | NA | The version of the plug-in that you want to use. To view available versions, click the **Version History** tab. If a value is not specified, the version named latest is used. | NO | image |
 | Integration Name | An assigned name to the integration. | Yes | name |
 | Logging Level | The level of Log4j messages to display in the log file. Valid values are: all, debug, info, warn, error, fatal, off, and trace. | No | logginglevel |
-| NA | List of plugin configuration properties used to connect and communicate with the IBM DevOps Deploy server. Enclose the properties within braces. | Yes | properties |
+| NA | List of plugin configuration properties used to connect and communicate with the DevOps Deploy server. Enclose the properties within braces. | Yes | properties |
 | | The name of the tenant. | Yes | tenant_id |
-| NA | Unique identifier assigned to the plug-in. The value for the IBM DevOps Deploy plugin is ucv-ext-ucd. | Yes | type |
+| NA | Unique identifier assigned to the plug-in. The value for the DevOps Deploy plugin is ucv-ext-ucd. | Yes | type |
 
-#### IBM DevOps Deploy Configuration Properties
+#### DevOps Deploy Configuration Properties
 
 | Name | Type | Description | Required | Property Name |
 | --- | --- | --- | --- | --- |
-| Access Token | Secure | Token to authenticate against IBM DevOps Deploy. | Yes | deployToken |
-| Url | String | IBM DevOps Deploy server url. | Yes | baseUrl |
+| Access Token | Secure | Token to authenticate against DevOps Deploy. | Yes | deployToken |
+| Url | String | DevOps Deploy server url. | Yes | baseUrl |
 | User Access Key | Secure | The user access key to authenticate with this server. | No | ucvAccessKey |
 | Build Polling Timeout | String | Length of time (in minutes) to wait for build to complete if task is set to wait. | false | buildPollingTimeout |
 
@@ -98,9 +98,9 @@ The following sample code can be used as a template to define the integration wi
 
 ```
 
-## Minimum permission to integrate with IBM DevOps Deploy
+## Minimum permission to integrate with DevOps Deploy
 
-The access token generated from IBM DevOps Deploy must have the following permissions to connect with IBM DevOps Deploy.
+The access token generated from DevOps Deploy must have the following permissions to connect with DevOps Deploy.
 
    * VIEW_APPLICATIONS
 
