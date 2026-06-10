@@ -35,10 +35,10 @@ view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/
 
 ### Version 1.1.13
 
-* Addressed and resolved Whitesource-reported vulnerabilities.
-* Switched Jenkins jobs to kickoff jobs and synchronized related updates.
-* Added support for Team and Teamspace fields in plugin integrations. These fields can now be configured during plugin setup and integration.
-* Upgraded the NPM Wrapper package to the latest supported version.
+* **Vulnerability fix**: Addressed and resolved Whitesource-reported vulnerabilities.
+* **Bug fix**: Switched Jenkins jobs to kickoff jobs and synchronized related updates.
+* **Enhancement**: Added support for Team and Teamspace fields in plugin integrations. These fields can now be configured during plugin setup and integration.
+* **Technical upgrade**: Upgraded the NPM Wrapper package to the latest supported version.
 
 
 ### Version 1.1.7
