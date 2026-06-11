@@ -51,6 +51,7 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 * 1189524 - Added support for alias for v2 package format 
 * 1190018 - Update ZInventory logic for linked version when FromVersion is unavailable, or it is not a linked version
 * 1190018 - Enhancements to submit job step
+* 1190073 - Increased space for temp dataset
 
 ### Version 104
 
