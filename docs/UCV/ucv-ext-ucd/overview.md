@@ -1,24 +1,39 @@
 
-# IBM DevOps Deploy - Overview
+# DevOps Deploy - Overview
 
-The IBM DevOps Deploy plugin for DevOps Velocity synchronizes applications, processes, components, versions, snapshots, teams, environments, and more from IBM DevOps Deploy. A Deploy application can be configured as an application in an DevOps Velocity pipeline and the IBM DevOps Deploy processes can be configured in the DevOps Velocity pipeline. The DevOps Velocity Pipeline can then display the latest version of the application deployed to different environments.
+The DevOps Deploy plugin for DevOps Velocity synchronizes applications, processes, components, versions, snapshots, teams, environments, and more from DevOps Deploy. A Deploy application can be configured as an application in an DevOps Velocity pipeline and the DevOps Deploy processes can be configured in the DevOps Velocity pipeline. The DevOps Velocity Pipeline can then display the latest version of the application deployed to different environments.
 
 ## Compatibility
 
-The table below lists the compatible versions of the IBM DevOps Deploy plug-in and IBM DevOps Velocity:
+The table below lists the compatible versions of the DevOps Deploy plug-in and DevOps Velocity:
 
-| DevOps Velocity Version | IBM DevOps Deploy Plug-in Versions |
+| DevOps Velocity Version | DevOps Deploy Plug-in Versions |
 | --- | --- |
-| 5.2.0 or later | 4.1.5, 4.1.6 |
+| 5.2.5 or later | 4.1.12 |
+| 5.2.0 to 5.2.4 | 4.1.5, 4.1.6 |
 | 5.1.11 | 4.1.3, 4.1.4 |
 | 5.1.9 to 5.1.10| 4.1.1 |
 | 4.0.13 to 5.1.8 | 4.0.9, 4.0.5, 4.0.4 |
+
+* **Note:-**
+
+Plugin version 4.1.12 is supported only with Velocity 5.2.5 or later.
+
+Whenever you upgrade from lower version to 5.2.5 and if the plugin is not upgraded to a compatible version, an incompatibility warning message will be displayed in the UI, and the integration will be disabled and you cannot enable the integration until you upgrade to compatible plugin version.
 
 ## Versions
 
 DevOps Velocity plug-in images are located in DockerHub. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-ucd/tags).
 
 ## History
+
+### Version 4.1.12
+
+* **Sonarqube coverage**: Improved test coverage for the plugin.
+* **Vulnerability fix**: Addressed and resolved Whitesource-reported vulnerabilities.
+* **Bug fix**: Velocity Task Now Correctly Fails When DevOps Deploy Deployment Returns FAULTED Before Timeout.
+* **Enhancement**: Name of the plugin is changed from IBM DevOps Deploy to DevOps Deploy.
+* **Technical upgrade**: Upgraded the NPM Wrapper package to the latest supported version.
 
 ### Version 4.1.6
 

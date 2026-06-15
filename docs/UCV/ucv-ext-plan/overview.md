@@ -36,13 +36,13 @@ DevOps Velocity plug-in images are located in DockerHub. To view available versi
 
 ### Version 1.2.7
 
-* Prevents sending a body with GET requests, improving compatibility with APIs like Google Cloud / GKS.
-* Addressed and resolved Whitesource-reported vulnerabilities.
-* Upgraded the NPM Wrapper package to the latest supported version.
+* **Bug fix**: Prevents sending a body with GET requests, improving compatibility with APIs like Google Cloud / GKS.
+* **Vulnerability fix**: Addressed and resolved Whitesource-reported vulnerabilities.
+* **Technical upgrade**: Upgraded the NPM Wrapper package to the latest supported version.
 
 ### Version 1.2.4
 
-* Improved test coverage for the plan plugin.
+* **Sonarqube coverage**: Improved test coverage for the plan plugin.
 
 ### Version 1.2.3
 

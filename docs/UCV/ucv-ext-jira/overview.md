@@ -31,10 +31,10 @@ IBM DevOps Velocity plug-in images are located in DockerHub. To view available v
 
 ### Version 2.4.13
 
-* Improved test coverage for the Jira plugin.
-* Addressed and resolved Whitesource-reported vulnerabilities.
-* Added support for Team and Teamspace fields in plugin integrations. These fields can now be configured during plugin setup and integration.
-* Upgraded the NPM Wrapper package to the latest supported version.
+* **SonarQube Coverage**: Improved test coverage for the Jira plugin.
+* **Vulnerability fix**: Addressed and resolved Whitesource-reported vulnerabilities.
+* **Enhancement**: Added support for Team and Teamspace fields in plugin integrations. These fields can now be configured during plugin setup and integration.
+* **Technical upgrade**: Upgraded the NPM Wrapper package to the latest supported version.
 
 ### Version 2.4.5
 
