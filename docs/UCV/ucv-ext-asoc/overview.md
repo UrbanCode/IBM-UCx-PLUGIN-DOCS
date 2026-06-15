@@ -7,12 +7,24 @@ The HCL AppScan on Cloud (ASoC) plug-in allows for integration with the HCL Apps
 ## Compatibility
 
 Must be running DevOps Velocity version 2.5.0 and later to use this plug-in.
+The table below lists the compatible versions of the IBM ASoC plug-in and IBM DevOps Velocity:
+
+| DevOps Velocity Version | IBM ASoC Plug-in Versions |
+| --- | --- |
+| 5.2.5 or later | 3.0.28 |
 
 ## Versions
 
 DevOps Velocity plug-in images are located in DockerHub. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-asoc/tags).
 
 ## History
+
+### Version 3.0.28
+
+* Implemented support for SAST and DAST scan data ingestion from ASOC. Scan results are fetched and displayed as metrics within Velocity using dot indicators.
+#### Insights Metrics
+* **ASOC Static Scan** – Displays SAST scan results. 
+* **ASOC Dynamic Scan** – Displays DAST scan results.
 
 ### Version 3.0.27
 

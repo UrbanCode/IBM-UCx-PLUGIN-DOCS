@@ -58,14 +58,14 @@ https://pluginEndpoint//asoc
 
 The payload for the POST is shown below.
 ```
-{"scanId":"", "buildUrl": ""}
+{"scanExecutionId":"", "buildUrl": ""}
 ```
 
 #### Payload Details
 
 |Name|Description|Required|
 | --- | --- | --- |
-|scanId|The scan ID from the scan ran in ASoC. It is a mandatory field to render the scan results in Insights.	|Yes|
+|scanExecutionId|The scan Execution ID from the scan ran in ASoC. It is a mandatory field to render the scan results in Insights.	|Yes|
 |buildUrl|The build URL from the CI/CD tool such as Jenkins, HCL DevOps Deploy and so on. It is an optional field which links the ASoC scan results with DevOps Velocity|No|
 
 ### Scheduled Integration
@@ -134,6 +134,70 @@ Some properties might not be displayed in the user interface, to see all propert
 | tenant\_id | The name of the tenant. | Yes |
 | type | Unique identifier assigned to the plug-in. The value for the Application Security On Cloud plug-in is `asocPlugin` | Yes |
 
+### Configuring ASoC integration in DevOps Loop
+End-to-End Validation Steps for ASoC Integration
+#### Prerequisites
+* Create a Loop Teamspace.
+* Configure and connect the required integrations: We should have PCBD setup
+    * Plan
+    * Control Tool
+    * Build Tool
+    * Deploy Tool
+    * ASoC
+* Ensure that the VSM Application Name exactly matches the ASoC Application Name. This mapping is required for scan results to be associated correctly within Velocity.
+#### Validation Steps for DAST scan
+1. Plan Stage
+  * Create a new work item.
+  * Move the work item from one stage to another.
+  * Verify that the corresponding dot is displayed in the Value Stream Map (VSM).
+2. Source Control Stage
+  * Create a Pull Request (PR).
+  * Verify that the PR activity is reflected in Velocity.
+  * Merge the Pull Request.
+  * Verify that the merge activity is reflected in Velocity.
+3. Build Stage
+  * Observe that a new build is automatically triggered after the PR is merged.
+  * Verify that the build appears successfully in the pipeline.
+4. Deploy Stage
+  * Verify that a new application version is created from the completed build.
+  * Confirm that the new version is visible in the deployment pipeline.
+  * Check the target environment (for example, Dev) and verify that the new version is available for deployment.
+5. ASoC Security Scan
+  * Verify that a new ASoC scan is triggered for the application.
+  * Confirm that both SAST and DAST scans are initiated as configured.
+  * Note that DAST scans may take approximately 30 minutes or longer to complete.
+  * Wait for the scan execution to finish successfully.
+6. Deployment Verification
+  * After scan completion, verify that the new application version is deployed to the Dev environment.
+  * Confirm that the deployment event is reflected in the pipeline.
+7. Pipeline Verification
+  * Open the Pipeline view in Measure.
+  * Verify that:
+    * The new version appears as the pipeline input.
+    * The Dev stage shows the deployed version.
+  * Build, Scan, and Deployment stages are linked correctly.
+
+8. Insights Verification
+  * Navigate to Insights.
+  * Verify that scan data is displayed in the relevant charts and graphs.
+  * Confirm that records are generated for:
+  * Static Security Scan (SAST)
+  * Dynamic Security Scan (DAST)
+9. VSM Metrics Verification
+  * Open the Value Stream Map (VSM).
+  * Verify that dots are displayed for the completed stages.
+  * Open the metrics for the work item and confirm that:
+  * SAST results are displayed.
+  * DAST results are displayed.
+  * Scan metrics are associated with the correct application and version.
+
+**NOTE:** We are mapping using **buildUrl** and **commitSha** to show metrics as dots in VSM.
+we are capturing it from **comments**. buildUrl and commitSha is must to view metric results as dots.
+
+**Example:** 
+ "Comment": "{\"id\":\"ucd\",\"commitsha\":\"1.0-696\",\"buildurl\":\"https://10.134.119.143.nip.io/build/tasks/project/BuildLifeTasks/viewBuildLife?buildLifeId=696\",\"env\":\"a3004teamauto~a3004loopauto:A3004LOOPAUTO-DEV-ENV\"}"
+
+
 ### HCL AppScan on Cloud configuration properties
 
 | Name | Type | Description | Required | Property Name |
@@ -164,8 +228,8 @@ The following sample code can be used as a template to define the integration wi
     "properties":{
       "ucvAccessKey": "",
       "keyId" : "",
-      "isScheduledEvent":"false"
-      "keySecret":"",
+      "isScheduledEvent":"false",
+      "keySecret": "",
       "asocUrl":""
     }
  }
