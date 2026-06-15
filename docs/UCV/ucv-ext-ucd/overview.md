@@ -19,9 +19,7 @@ The table below lists the compatible versions of the DevOps Deploy plug-in and D
 
 Plugin version 4.1.12 is supported only with Velocity 5.2.5 or later.
 
-Customers upgrading from an older Velocity version or using an older plugin integration must manually upgrade the plugin to version 4.1.12 after upgrading Velocity to 5.2.5.
-
-If the plugin is not upgraded to a compatible version, an incompatibility warning message will be displayed in the UI, and the integration may not function as expected.
+Whenever you upgrade from lower version to 5.2.5 and if the plugin is not upgraded to a compatible version, an incompatibility warning message will be displayed in the UI, and the integration will be disabled and you cannot enable the integration until you upgrade to compatible plugin version.
 
 ## Versions
 
