@@ -11,7 +11,7 @@ The table below lists the compatible versions of the IBM ASoC plug-in and IBM De
 
 | DevOps Velocity Version | IBM ASoC Plug-in Versions |
 | --- | --- |
-| 5.2.5 or later | 3.0.28 |
+| 5.2.5 or later | 3.0.29 |
 
 ## Versions
 
@@ -19,7 +19,7 @@ DevOps Velocity plug-in images are located in DockerHub. To view available versi
 
 ## History
 
-### Version 3.0.28
+### Version 3.0.29
 
 * Implemented support for SAST and DAST scan data ingestion from ASOC. Scan results are fetched and displayed as metrics within Velocity using dot indicators.
 #### Insights Metrics
