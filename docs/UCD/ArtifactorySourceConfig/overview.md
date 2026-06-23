@@ -24,6 +24,10 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ## History
 
+### Version 35 *June 23, 2026*
+
+* Updated Log4j dependency to address CVE-2026-34480 and CVE-2026-34477. 
+
 ### Version 34 *November 20, 2025*
 
 * Updated Jettison Dependency.
