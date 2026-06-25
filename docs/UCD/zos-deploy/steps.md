@@ -248,7 +248,7 @@ Submit job.
 | Replace Tokens                                | String                                          | Specify replacement rules to apply to the JCL before submission. Rules are represented by a list of explicit tokens to replace in the following format: token->value. Separate rules with newline characters. For example, mytoken->new_value will replace the mytoken string with new_value in all files. To replace @token@ with new_value, specify @token@->new_value. Regular expressions are not supported.                                                            | No       |
 | Show Output                                   | String                                          | Specify the output data set to be displayed in the log. Separate multiple data sets with commas. Specify ALL for all data sets.                                                                                                                                                                                                                                                                                                                                             | No       |
 | Stop On Fail                                  | Boolean                                         | Select to stop submitting jobs after a job fails. Failure is determined by the Max Return Code and Timeout fields. A JCL error is always considered a failure.                                                                                                                                                                                                                                                                                                              | No       |
-| Run In Parallel                               | Boolean                                         | Select to submit all jobs first and then wait for each job to complete. Stop On Fail must be disabled when this option is enabled.                                                                                                                                                                                                                                                                                                                                          | No       |
+| Number of Parallel Jobs                       | String                                          | Specify the number of jobs to run concurrently. Default is 1 (sequential execution). Values less than 1 are defaulted to 1. Maximum is 200; values greater than 200 are defaulted to 200. When Stop On Fail is enabled and a job fails, no further jobs are submitted but already running jobs are allowed to complete.                                                                                                                                                     | No       |
 | Timeout                                       | String                                          | Specify the timeout in seconds.                                                                                                                                                                                                                                                                                                                                                                                                                                             | No       |
 | Wait For Job                                  | Boolean                                         | Select to wait for the job to complete. If cleared, the Timeout, Show Output, Max Lines, and Max Return Code fields are not used.                                                                                                                                                                                                                                                                                                                                           | No       |
 |                                               |                                                 | **Hidden Properties (below)**                                                                                                                                                                                                                                                                                                                                                                                                                                               |          |
@@ -325,22 +325,72 @@ Restored datasets from backup taken during deployment
 
 Creates a sub-version from an existing version.
 
-| Name                 | Type   | Description                                                                                               | Required |
-|----------------------|--------|-----------------------------------------------------------------------------------------------------------|----------|
-| Source Version       | String | Specify the source version from which to create the sub-version. The version must be of type INCREMENTAL. | Yes      |
-| New Sub-Version Name | String | Specify the name of the new sub-version to create.                                                        | Yes      |
-| Component Name       | String | Specify the name of the component.                                                                        | Yes      |
-| Includes             | String | Specify a list of patterns or dataset member names that describe artifacts to include in the sub-version. | Yes      |
+| Name                       | Type    | Description                                                                                                                                                                                                                                                              | Required |
+|----------------------------|---------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
+| Source Version             | String  | Specify the source version from which to create the sub-version. The version must be of type INCREMENTAL.                                                                                                                                                                | Yes      |
+| New Sub-Version Name       | String  | Specify the name of the new sub-version to create.                                                                                                                                                                                                                       | Yes      |
+| Component Name             | String  | Specify the name of the component.                                                                                                                                                                                                                                       | Yes      |
+| Includes                   | String  | Specify a list of patterns or dataset member names that describe artifacts to include in the sub-version.                                                                                                                                                                | No       |
+| Excludes                   | String  | Specify a list of patterns or dataset member names that describe artifacts to exclude in the sub-version.                                                                                                                                                                | No       |
+| Inherit Version Properties | Boolean | Select to inherit version properties from the source version to the new sub-version.                                                                                                                                                                                     | No       |
+| Version Properties         | String  | Specify a list of version properties to add to the new sub-version, separated by newline characters. Use the following format: propertyName=propertyValue. For example, specify env=dev to add a version property called env with a value of dev to the new sub-version. | No       |
 
 **Note:**
-The format for the `includes` should be one of the below
+`includes`/`excludes` are mutually exclusive. The format for the `includes`/`excludes` should be one of the below
 * \[dataset-name\]
-* \[dataset-name\], \[member-name]
+* \[dataset-name\], \[member-name\]
 * /\[dataset-regex\]/
 * /\[dataset-regex\]/, /\[member-regex\]/
 
-Separate patterns and dataset/member names with newline character. Here are some examples of valid `includes` values:
+Separate patterns and dataset/member names with newline character.
+
+### Examples of valid `includes` values:
 * Specify BUILD.JCL to include the dataset BUILD.JCL and all its members.
 * Specify BUILD.JCL(ABC) to include member ABC in dataset BUILD.JCL.
 * Specify /BUILD.*/ to include datasets that start with BUILD.
 * Specify /.*JCL/,/(ABC|DEF)/ to include members ABC and DEF in any dataset that ends with JCL.
+
+### Examples of valid `excludes` values:
+* Specify BUILD.JCL to exclude the dataset BUILD.JCL and all its members.
+* Specify BUILD.JCL(ABC) to exclude member ABC in dataset BUILD.JCL.
+* Specify /BUILD.*/ to exclude datasets that start with BUILD.
+* Specify /.*JCL/,/(ABC|DEF)/ to exclude members ABC and DEF in any dataset that ends with JCL.
+
+## Create Sub-Version from Version for External Repository
+
+Creates a sub-version from an existing version for an external repository.
+
+| Name                       | Type    | Description                                                                                                                                                                                                                                                              | Required |
+|----------------------------|---------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
+| Source Version             | String  | Specify the source version from which to create the sub-version. The version must be of type INCREMENTAL.                                                                                                                                                                | Yes      |
+| New Sub-Version Name       | String  | Specify the name of the new sub-version to create.                                                                                                                                                                                                                       | Yes      |
+| Component Name             | String  | Specify the name of the component.                                                                                                                                                                                                                                       | Yes      |
+| Includes                   | String  | Specify a list of patterns or dataset member names that describe artifacts to include in the sub-version.                                                                                                                                                                | No       |
+| Excludes                   | String  | Specify a list of patterns or dataset member names that describe artifacts to exclude in the sub-version.                                                                                                                                                                | No       |
+| Inherit Version Properties | Boolean | Select to inherit version properties from the source version to the new sub-version.                                                                                                                                                                                     | No       |
+| Version Properties         | String  | Specify a list of version properties to add to the new sub-version, separated by newline characters. Use the following format: propertyName=propertyValue. For example, specify env=dev to add a version property called env with a value of dev to the new sub-version. | No       |
+| Username                   | String  | Username                                                                                                                                                                                                                                                                 | Yes      |
+| Password/API Key/Token     | String  | Enter the password/Api-Key/Token used to authenticate with the artifact repository                                                                                                                                                                                       | Yes      |
+| HTTP Proxy Host            | String  | HTTP Proxy Host                                                                                                                                                                                                                                                          | No       |
+| HTTP Proxy Port            | String  | HTTP Proxy Port                                                                                                                                                                                                                                                          | No       |
+
+**Note:**
+`includes`/`excludes` are mutually exclusive. The format for the `includes`/`excludes` should be one of the below
+* \[dataset-name\]
+* \[dataset-name\], \[member-name\]
+* /\[dataset-regex\]/
+* /\[dataset-regex\]/, /\[member-regex\]/
+
+Separate patterns and dataset/member names with newline character. 
+
+### Examples of valid `includes` values:
+* Specify BUILD.JCL to include the dataset BUILD.JCL and all its members.
+* Specify BUILD.JCL(ABC) to include member ABC in dataset BUILD.JCL.
+* Specify /BUILD.*/ to include datasets that start with BUILD.
+* Specify /.*JCL/,/(ABC|DEF)/ to include members ABC and DEF in any dataset that ends with JCL.
+
+### Examples of valid `excludes` values:
+* Specify BUILD.JCL to exclude the dataset BUILD.JCL and all its members.
+* Specify BUILD.JCL(ABC) to exclude member ABC in dataset BUILD.JCL.
+* Specify /BUILD.*/ to exclude datasets that start with BUILD.
+* Specify /.*JCL/,/(ABC|DEF)/ to exclude members ABC and DEF in any dataset that ends with JCL.
