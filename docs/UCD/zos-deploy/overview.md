@@ -44,6 +44,13 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ## History
 
+### Version 106
+
+* Replaced checkbox to Run In Parallel in Submit Job step with text box to pass number of parallel jobs to run
+* Added option to exclude, inherit properties and add properties in Create Sub-Version step
+* Added new step to create sub version for external repository artifacts
+* Ignore exception when there are no mapping for datasets in Restore Backup Datasets step
+
 ### Version 105
 
 * 1189136 - Upgraded 'Deploy dataset and USS files' plugin step property 'Update Deploy timestamp for PDS' to 'Update Deploy userid and timestamp' to update both user-id and deploy-timestamp. Refer Usage page for more information.
