@@ -27,6 +27,10 @@ No special steps are required for installation. See [Installing plug-ins in IBM 
 
 ### History
 
+#### Version 41
+
+DVOPS-I-865: DevOps Deploy ServiceNow Plugin to Integrate with MuleSoft
+
 #### Version 40
 
 RFE - URBANCODE-I-648 Added checkbox for Check Extension Window to compare with end date.
