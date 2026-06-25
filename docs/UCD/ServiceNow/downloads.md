@@ -1,6 +1,7 @@
 
 # Downloads
 
+- [devops-deploy-ServiceNow-41.1190394.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ServiceNow/devops-deploy-ServiceNow-41.1190394.zip)
 - [ucd-ServiceNow-40.1168551.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ServiceNow/ucd-ServiceNow-40.1168551.zip)
 - [ucd-ServiceNow-39.1161576.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ServiceNow/ucd-ServiceNow-39.1161576.zip)
 - [ucd-ServiceNow-36.1156862.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ServiceNow/ucd-ServiceNow-36.1156862.zip)
