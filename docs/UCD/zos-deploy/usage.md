@@ -174,16 +174,13 @@ In the previous example, three jobs are submitted because three rule sets are sp
 
 ## Submitting JCL jobs in parallel
 
-From version 103 of the z/OS Utility plug-in, you can submit multiple JCL jobs in parallel.
-To submit JCL jobs in parallel, enable `Run in Parallel` option in the Submit Job step, and uncheck `Stop On Fail` option as shown below.
+From version 106 of the z/OS Utility plug-in, you can submit multiple JCL jobs in parallel.
+To submit JCL jobs in parallel, set `Number of parallel jobs` option in the Submit Job step to more than 1.
 
-[![submit_jobs_in_parallel](media/submit-jobs-in-parallel.png)](media/submit-jobs-in-parallel.png)
+[![submit_job_in_parallel](media/submit-jobs-in-parallel.png)](media/submit-jobs-in-parallel.png)
 
-When `Run in Parallel` is enabled, multiple jobs are submitted at the same time, and the step waits for all jobs to complete.
-The step status is success if all the jobs run to completion, and fail if any of the jobs fail.
-
-By default, the `Run in Parallel` option is disabled, and the jobs are submitted sequentially. 
-Enabling this option allows you to submit multiple jobs at the same time, which can reduce the total execution time of the step if the jobs are independent and can run concurrently.
+For example in the above screenshot, `Number of parallel jobs` is set to 5, which means that at most 5 jobs will be submitted in parallel. If there are more than 5 jobs to be submitted, the remaining jobs will be submitted after one of the running jobs completes.
+When `Stop On Fail` is enabled and a job fails, no further jobs are submitted but already running jobs are allowed to complete.
 
 ## Processing multiple data sets or data set members
 
