@@ -218,6 +218,13 @@ features:
   details: "HCL AppScan on Cloud (ASoC) is an application security offering that allows you to scan a web URL for security  vulnerabilities."
   link: "ucv-ext-asoc/"
 -
+  title: HCL AppScan360 (Appscan360)
+  icon:
+    light: "/runProcess-dark.png"
+    dark: "/runProcess-white.png"
+  details: "HCL AppScan360 (Appscan360) is an application security offering that allows you to scan a web URL for security  vulnerabilities."
+  link: "ucv-ext-appscan360/"
+-
   title: Handlebar Reporter
   icon:
     light: "/runProcess-dark.png"
