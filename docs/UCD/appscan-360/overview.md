@@ -16,4 +16,4 @@ The plugin is compatible with:
 
 ### Version 1
 
-Initial release of the plug-in.
+Initial release of the plugin.
