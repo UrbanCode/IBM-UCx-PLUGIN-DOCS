@@ -6,12 +6,12 @@ The HCL Appscan360 (Appscan360) plug-in allows for integration with the HCL Apps
 
 ## Compatibility
 
-Must be running DevOps Velocity version 2.5.0 and later to use this plug-in.
+Must be running DevOps Velocity version 5.2.5 and later to use this plug-in.
 The table below lists the compatible versions of the IBM Appscan360 plug-in and IBM DevOps Velocity:
 
 | DevOps Velocity Version | IBM Appscan360 Plug-in Versions |
 | --- | --- |
-| 5.2.5 or later | 3.0.28 |
+| 5.2.5 or later | 1.0.2 |
 
 ## Versions
 
