@@ -491,6 +491,13 @@ features:
   details: ""
   link: "appscan/"
 -
+  title: HCL AppScan 360
+  icon:
+    light: "/runProcess-dark.png"
+    dark: "/runProcess-white.png"
+  details: ""
+  link: "appscan-360/"
+-
   title: IBM BigFix
   icon:
     light: "/runProcess-dark.png"
