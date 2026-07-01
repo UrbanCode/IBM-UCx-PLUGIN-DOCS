@@ -50,7 +50,7 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 * 1190348 - Added option to exclude, inherit properties and add properties in Create Sub-Version step
 * 1190348 - Added new step to create sub version for external repository artifacts
 * 1190348 - Ignore exception when there are no mapping for datasets in Restore Backup Datasets step
-* 1190475 - Fixed issue with overriding mvs artifacts when backup is disabled
+* 1190475 - Fail deployment when 2 source datasets deploy the same artifact to the same target dataset with backup disabled
 
 **Warning:**
 Before this fix, the deployment step will run successfully even when there are overriding mvs artifacts resulting in overwriting of data on the target dataset/member.
