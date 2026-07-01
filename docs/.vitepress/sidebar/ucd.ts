@@ -1765,6 +1765,20 @@ export const ucd: DefaultTheme.Sidebar = {
             ]
         }
     ],
+	
+	// This sidebar gets displayed when a user
+    // is on `${DEPLOY_BASE_DIR}/appscan-360` directory.
+    [`/${DEPLOY_BASE_DIR}/appscan-360/`]: [
+        {
+            text: 'HCL AppScan 360',
+            items: [
+                { text: 'About', link: `/${DEPLOY_BASE_DIR}/appscan-360/` },
+                { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/appscan-360/overview` },
+                { text: 'Steps', link: `/${DEPLOY_BASE_DIR}/appscan-360/steps` },
+                { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/appscan-360/downloads` }
+            ]
+        }
+    ],
 
     // This sidebar gets displayed when a user
     // is on `${DEPLOY_BASE_DIR}/argocd` directory.
