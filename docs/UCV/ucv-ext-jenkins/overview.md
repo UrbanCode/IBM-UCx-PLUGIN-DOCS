@@ -35,7 +35,7 @@ view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/
 
 ### Version 1.1.14
 
-* **Enhancement**: Added support for integration IDs in Jenkins execution record uploads to enhance execution traceability.
+* **Enhancement**: Added support for integration ID in Jenkins execution record uploads to enhance execution traceability.
 
 ### Version 1.1.13
 
