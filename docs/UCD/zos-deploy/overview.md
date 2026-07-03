@@ -44,6 +44,18 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ## History
 
+### Version 106
+
+* 1190348 - Replaced checkbox to Run In Parallel in Submit Job step with text box to pass number of parallel jobs to run
+* 1190348 - Added option to exclude, inherit properties and add properties in Create Sub-Version step
+* 1190348 - Added new step to create sub version for external repository artifacts
+* 1190348 - Ignore exception when there are no mapping for datasets in Restore Backup Datasets step
+* 1190475 - Fail deployment when 2 source datasets deploy the same artifact to the same target dataset with backup disabled
+* 1190490 - Fix KNOWN-ISSUE DT475088 - Deploy-dataset step fails with V2 type versions that have long names(>100 characters)
+
+**Warning:**
+Before this fix in 1190475, the deployment step will run successfully even when there are overriding mvs artifacts resulting in overwriting of data on the target dataset/member.
+
 ### Version 105
 
 * 1189136 - Upgraded 'Deploy dataset and USS files' plugin step property 'Update Deploy timestamp for PDS' to 'Update Deploy userid and timestamp' to update both user-id and deploy-timestamp. Refer Usage page for more information.

@@ -81,6 +81,20 @@ export const ucv: DefaultTheme.Sidebar = {
     ],
 
     // This sidebar gets displayed when a user
+    // is on `plugin/ucv-ext-appscan360` directory.
+    [`/${VELOCITY_BASE_DIR}/ucv-ext-appscan360/`]: [
+        {
+            text: 'HCL AppScan360', // Updated text
+            items: [
+                { text: 'About', link: `/${VELOCITY_BASE_DIR}/ucv-ext-appscan360/` },
+                { text: 'Overview', link: `/${VELOCITY_BASE_DIR}/ucv-ext-appscan360/overview` },
+                { text: 'Usage', link: `/${VELOCITY_BASE_DIR}/ucv-ext-appscan360/usage` },
+                { text: 'Downloads', link: `/${VELOCITY_BASE_DIR}/ucv-ext-appscan360/downloads` }
+            ]
+        }
+    ],
+
+    // This sidebar gets displayed when a user
     // is on `plugin/ucv-ext-azure` directory.
     [`/${VELOCITY_BASE_DIR}/ucv-ext-azure/`]: [
         {
