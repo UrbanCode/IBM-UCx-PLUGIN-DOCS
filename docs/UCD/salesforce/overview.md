@@ -17,6 +17,10 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ## History
 
+### Version 11
+
+Resolve Groovy compatibility issues.
+
 ### Version 10
 
 Resolved property validation issue due to which plugin was unable to load in some UCD versions.
