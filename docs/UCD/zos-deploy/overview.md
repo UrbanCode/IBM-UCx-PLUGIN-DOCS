@@ -52,6 +52,7 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 * 1190348 - Ignore exception when there are no mapping for datasets in Restore Backup Datasets step
 * 1190475 - Fail deployment when 2 source datasets deploy the same artifact to the same target dataset with backup disabled
 * 1190490 - Fix KNOWN-ISSUE DT475088 - Deploy-dataset step fails with V2 type versions that have long names(>100 characters)
+* 1190559 - Added option to skipZInventory during Deploy-dataset and Rollback-dataset steps
 
 **Warning:**
 Before this fix in 1190475, the deployment step will run successfully even when there are overriding mvs artifacts resulting in overwriting of data on the target dataset/member.

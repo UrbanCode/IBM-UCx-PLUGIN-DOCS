@@ -32,6 +32,19 @@ The local repository referred to in the Copy Artifacts and FTP Artifacts steps i
 
 ---
 
+## Disable updating ZInventory
+
+Follow below steps to disable updating for Z Inventory in the `Deploy dataset and USS files` and `Rollback dataset` steps.
+
+* Upgrade the z/OS Utility plugin to version 106.1190559 or higher.
+* Take a backup of `AGENT_HOME/bin/setenv-zos.sh` file
+* Edit `AGENT_HOME/bin/setenv-zos.sh` file and add `ignore.zsearch.inputs` property in `ZOS_JAVA_OPTS` export command as below setting it to `true`.
+
+  ```
+    export ZOS_JAVA_OPTS='-Xmx128m -DskipZInventoryUpdate=true' 
+  ```
+* Restart the Agent for changes to be applied.
+
 ## Disable inputs for Z Inventory
 
 Follow below steps to disable inputs for Z Inventory.
