@@ -38,7 +38,7 @@ Follow below steps to disable updating for Z Inventory in the `Deploy dataset an
 
 * Upgrade the z/OS Utility plugin to version 106.1190559 or higher.
 * Take a backup of `AGENT_HOME/bin/setenv-zos.sh` file
-* Edit `AGENT_HOME/bin/setenv-zos.sh` file and add `ignore.zsearch.inputs` property in `ZOS_JAVA_OPTS` export command as below setting it to `true`.
+* Edit `AGENT_HOME/bin/setenv-zos.sh` file and add `skipZInventoryUpdate` property in `ZOS_JAVA_OPTS` export command as below setting it to `true`.
 
   ```
     export ZOS_JAVA_OPTS='-Xmx128m -DskipZInventoryUpdate=true' 
