@@ -44,6 +44,11 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ## History
 
+### Version 107
+
+* 1190846 - Added support for v2 package format for Restore Backup Datasets step
+* 1190846 - Added new input to check access before restore in Restore Backup Datasets step
+
 ### Version 106
 
 * 1190348 - Replaced checkbox to Run In Parallel in Submit Job step with text box to pass number of parallel jobs to run
