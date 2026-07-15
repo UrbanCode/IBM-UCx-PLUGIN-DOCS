@@ -17,6 +17,10 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ## History
 
+### Version 104 
+
+1190935 - Fix KNOWN-ISSUE DT495385
+
 ### Version 103
 
 Update Apache Log4j to 2.25.4
