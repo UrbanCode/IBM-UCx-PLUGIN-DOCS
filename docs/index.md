@@ -44,6 +44,6 @@ features:
 
 **Please read the Terms and Conditions documents before downloading any plug-in.**
 
-- [Terms and Conditions Textual Form](../ibm-plugins-terms-and-conditions.txt)
+- [Terms and Conditions Textual Form](https://raw.githubusercontent.com/UrbanCode/IBM-UCx-PLUGIN-DOCS/refs/heads/main/ibm-plugins-terms-and-conditions.txt)
 - [General Terms and Conditions](UrbanCode_General_Plugin_Terms_and_Conditions.md)
 - [IBM DevOps Deploy Plugins Terms and Conditions](UrbanCode_Deploy_Plugin_Terms_and_Conditions.md)
