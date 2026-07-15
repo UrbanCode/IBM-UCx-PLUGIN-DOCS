@@ -1,6 +1,4 @@
-# All UrbanCode Plug-Ins
-
-## Intro to IBM DevOps Plug-In Documentation
+# IBM DevOps Plug-In Documentation
 
 This repository holds the IBM DevOps products plugin documentation.
 
