@@ -44,6 +44,11 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ## History
 
+### Version 107
+
+* 1190846 - Added support for v2 package format for Restore Backup Datasets step
+* 1190846 - Added new input to check access before restore in Restore Backup Datasets step
+
 ### Version 106
 
 * 1190348 - Replaced checkbox to Run In Parallel in Submit Job step with text box to pass number of parallel jobs to run
@@ -52,6 +57,7 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 * 1190348 - Ignore exception when there are no mapping for datasets in Restore Backup Datasets step
 * 1190475 - Fail deployment when 2 source datasets deploy the same artifact to the same target dataset with backup disabled
 * 1190490 - Fix KNOWN-ISSUE DT475088 - Deploy-dataset step fails with V2 type versions that have long names(>100 characters)
+* 1190559 - Added option to skipZInventory during Deploy-dataset and Rollback-dataset steps
 
 **Warning:**
 Before this fix in 1190475, the deployment step will run successfully even when there are overriding mvs artifacts resulting in overwriting of data on the target dataset/member.
