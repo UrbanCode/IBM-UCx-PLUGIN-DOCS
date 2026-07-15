@@ -44,6 +44,10 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ## History
 
+### Version 108
+
+* 1190945 - Added option to execute RUNTIME delta deployment in Dry Run mode
+
 ### Version 107
 
 * 1190846 - Added support for v2 package format for Restore Backup Datasets step
