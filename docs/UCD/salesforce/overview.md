@@ -17,6 +17,10 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ## History
 
+### Version 12
+
+DT495677 - Fix NullPointerException and NumberFormatException when proxy properties are not defined on the resource.
+
 ### Version 11
 
 Resolve Groovy compatibility issues.
