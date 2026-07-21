@@ -1,5 +1,5 @@
 
-Maven for IBM UrbanCode Build - Steps
+Maven for IBM DevOps Build - Steps
 =====================================
 
 # Steps

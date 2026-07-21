@@ -25,9 +25,9 @@ To access this plug-in in the palette, click **Build** > **Build Tools** > **DBB
 
 ### Compatibility
 
-This plug-in requires IBM UrbanCode Build version 6.1 and later.
+This plug-in requires IBM DevOps Build version 6.1 and later.
 
-The plug-in runs on any agents that the IBM UrbanCode Build server supports.
+The plug-in runs on any agents that the IBM DevOps Build server supports.
 
 ### Installation
 

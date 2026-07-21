@@ -1,4 +1,4 @@
-# UrbanCode Deploy Plugin Terms & Conditions
+# IBM DevOps Deploy Plugin Terms & Conditions
 
 IMPORTANT: READ CAREFULLY
 
@@ -2084,7 +2084,7 @@ LICENSE INFORMATION
 The Programs listed below are licensed under the following terms and conditions in addition to those
 of the IBM International License Agreement for Evaluation of Programs (IBM form number Z125-5543-05).
 
-Program Name: IBM UrbanCode Deploy 6.0
+Program Name: IBM DevOps Deploy 6.0
 
 Program Number: 5725M54
 
@@ -2135,7 +2135,7 @@ LICENSE INFORMATION
 The Programs listed below are licensed under the following terms and conditions in addition to those
 of the IBM International Program License Agreement (IBM form number Z125-3301-14).
 
-Program Name: IBM UrbanCode Deploy 6.0
+Program Name: IBM DevOps Deploy 6.0
 
 Program Number: 5725M54
 

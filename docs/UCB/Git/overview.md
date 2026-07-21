@@ -1,5 +1,5 @@
 
-Git for IBM UrbanCode Build - Overview
+Git for IBM DevOps Build - Overview
 ======================================
 
 # Overview

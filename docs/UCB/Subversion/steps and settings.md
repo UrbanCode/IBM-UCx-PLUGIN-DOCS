@@ -1,5 +1,5 @@
 
-Subversion for IBM UrbanCode Build - Steps and Settings
+Subversion for IBM DevOps Build - Steps and Settings
 =======================================================
 
 # Steps and Settings

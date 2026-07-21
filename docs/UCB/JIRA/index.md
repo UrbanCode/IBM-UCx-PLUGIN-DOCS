@@ -1,5 +1,5 @@
 
-JIRA for IBM UrbanCode Build
+JIRA for IBM DevOps Build
 ============================
 
 JIRA is an issue tracking product, developed by Atlassian. It is used for bug tracking, issue tracking and project management.

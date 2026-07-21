@@ -14,7 +14,7 @@ The Reporting plug-in includes a step to run reports and save report output.
 
 ### Compatibility
 
-This plug-in requires IBM UrbanCode Build version 6.1 or later.
+This plug-in requires IBM DevOps Build version 6.1 or later.
 
 The steps in this plug-in run on all supported platforms.
 
@@ -38,7 +38,7 @@ This release includes translated steps and properties.
 
 #### Version 4
 
-This release includes a fix for an issue where communication with the IBM UrbanCode Build server could fail when using an IBM JDK or JRE.
+This release includes a fix for an issue where communication with the IBM DevOps Build server could fail when using an IBM JDK or JRE.
 
 #### Version 3
 
