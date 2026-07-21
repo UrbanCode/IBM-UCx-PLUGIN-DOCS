@@ -6,6 +6,11 @@ hero:
   name: "IBM DevOps"
   text: "Plug-In Documentation"
   tagline: Extend and automate your DevOps pipeline with community and IBM-supported plug-ins for Build, Deploy, Release, and Velocity.
+  image:
+    light: "/four_black.png"
+    dark: "/four_white.png"
+    alt: "DevOps plug-ins"
+
 features:
   - icon:
       light: /build_black.png
