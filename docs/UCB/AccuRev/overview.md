@@ -12,15 +12,15 @@ AccuRev - Overview
 
 AccuRev provides version control of source code. It contains features that allow developers to work independently, share code, maintain separate code branches for parallel projects and at the same time use a base stream containing the latest updates.
 
-The AccuRev plug-in integrates IBM UrbanCode Build with AccuRev and automates populating a AccuRev workspace as part of a build process.. The plug-in provides integration properties, that define the connection between the UrbanCode Build server and AccuRev repository. For details, see [Repositories](http://www.ibm.com/support/knowledgecenter/SS8NMD_6.1.2/com.ibm.ucbuild.doc/topics/settings_project_repo_cpt.html).
+The AccuRev plug-in integrates IBM DevOps Build with AccuRev and automates populating a AccuRev workspace as part of a build process.. The plug-in provides integration properties, that define the connection between the UrbanCode Build server and AccuRev repository. For details, see [Repositories](http://www.ibm.com/support/knowledgecenter/SS8NMD_6.1.2/com.ibm.ucbuild.doc/topics/settings_project_repo_cpt.html).
 
 The repository is configured based on a workflow.
 
 ### Compatibility
 
-The plug-in runs on any agents that the IBM UrbanCode Build server supports.
+The plug-in runs on any agents that the IBM DevOps Build server supports.
 
-This plug-in run on all supported IBM UrbanCode Build platforms.
+This plug-in run on all supported IBM DevOps Build platforms.
 
 ### Installation
 

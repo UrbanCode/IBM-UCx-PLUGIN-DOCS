@@ -1,5 +1,5 @@
 
-Git for IBM UrbanCode Build - Steps
+Git for IBM DevOps Build - Steps
 ===================================
 
 # Steps

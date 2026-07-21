@@ -1,5 +1,5 @@
 
-Maven for IBM UrbanCode Build
+Maven for IBM DevOps Build
 =============================
 
 Apache Maven is a software project management and comprehension tool. Based on the concept of a project object model (POM), Maven can manage building, reporting and documenting a project from a central piece of information.

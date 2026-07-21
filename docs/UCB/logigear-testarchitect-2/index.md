@@ -1,5 +1,5 @@
 
-LogiGear TestArchitect for IBM UrbanCode Build
+LogiGear TestArchitect for IBM DevOps Build
 ==============================================
 
 

@@ -10,7 +10,7 @@ Checkstyle - Overview
 
 
 
-Checkstyle is a code analysis tool used to verify that Java code adheres to a coding standard. It contains checks for general Java coding style. However, it can be extended to include customized checks. The IBM UrbanCode Build Checkstyle plug-in allows for the results of a Checkstyle analysis to be included in a buildlife.
+Checkstyle is a code analysis tool used to verify that Java code adheres to a coding standard. It contains checks for general Java coding style. However, it can be extended to include customized checks. The IBM DevOps Build Checkstyle plug-in allows for the results of a Checkstyle analysis to be included in a buildlife.
 
 This plug-in includes one step.
 
@@ -27,7 +27,7 @@ To access this plug-in in the palette, click **Quality** > **Code Analysis** > *
 
 ### Compatibility
 
-This plugin runs on all supported IBM UrbanCode Build platforms.
+This plugin runs on all supported IBM DevOps Build platforms.
 
 ### Installation
 
