@@ -277,7 +277,7 @@ The process runs the following steps in order:
 ## Create Sub-Version from Version
 
 The **Create Sub-Version from Version** step creates a sub-version from an existing version. 
-The new sub-version contains selective artifacts based on `includes` from the existing version, and is created in the same component as the existing version.
+The new sub-version contains selective artifacts based on `includes`/`excludes` from the existing version, and is created in the same component as the existing version.
 
 [![create_subversion](media/create-subversion.png)](media/create-subversion.png)
 
