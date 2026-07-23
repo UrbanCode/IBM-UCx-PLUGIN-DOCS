@@ -47,6 +47,7 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 ### Version 108
 
 * 1190945 - Added option to execute RUNTIME delta deployment in Dry Run mode
+* 1191074 - Create Sub Version step does not support linked version
 
 ### Version 107
 
