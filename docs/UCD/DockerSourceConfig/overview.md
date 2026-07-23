@@ -24,6 +24,10 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ## History
 
+### Version 46
+
+* Updated Log4j dependency to address CVE-2026-34477.
+
 ### Version 45
 
 * URBANCODE-I-482 Adding Harbor Registry Support in Docker Registry Plugin
