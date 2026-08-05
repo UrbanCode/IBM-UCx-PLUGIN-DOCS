@@ -19,7 +19,7 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ### Version 104 
 
-1190935 - Fix KNOWN-ISSUE DT495385
+1190935 - Fix KNOWN-ISSUE DT495385 - 'Delete Files and Directories' plugin step in 'File-Utils' plugin fails intermittently with java.lang.IllegalArgumentException: Can not copy a non-root
 
 ### Version 103
 

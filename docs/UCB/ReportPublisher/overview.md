@@ -10,11 +10,11 @@ Report Publisher - Overview
 
 
 
-This plug-in includes a step to upload specified files as reports to the IBM UrbanCode Build server.
+This plug-in includes a step to upload specified files as reports to the IBM DevOps Build server.
 
 ### Compatibility
 
-This plug-in requires IBM UrbanCode Build version 6.1 or later.
+This plug-in requires IBM DevOps Build version 6.1 or later.
 
 The steps in this plug-in run on all supported platforms.
 
@@ -34,7 +34,7 @@ This release includes translated steps and properties.
 
 #### Version 6
 
-This release includes a fix for an issue where communication with the IBM UrbanCode Build server failed when using an IBM JDK or JRE.
+This release includes a fix for an issue where communication with the IBM DevOps Build server failed when using an IBM JDK or JRE.
 
 #### Version 5
 

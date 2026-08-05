@@ -1,5 +1,5 @@
 
-Selenium for IBM UrbanCode Build - Overview
+Selenium for IBM DevOps Build - Overview
 ===========================================
 
 # Overview
@@ -16,9 +16,9 @@ The Selenium plug-in automates running Selenium test suites during the build pro
 
 ### Compatibility
 
-This plug-in requires IBM UrbanCode Build version 6.1 and later.
+This plug-in requires IBM DevOps Build version 6.1 and later.
 
-The plug-in runs on any agents that the IBM UrbanCode Build server supports.
+The plug-in runs on any agents that the IBM DevOps Build server supports.
 
 ### Installation
 

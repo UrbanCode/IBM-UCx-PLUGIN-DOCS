@@ -1,5 +1,5 @@
 
-Rally for IBM UrbanCode Build - Steps and Settings
+Rally for IBM DevOps Build - Steps and Settings
 ==================================================
 
 # Steps and Settings

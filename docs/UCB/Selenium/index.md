@@ -1,5 +1,5 @@
 
-Selenium for IBM UrbanCode Build
+Selenium for IBM DevOps Build
 ================================
 
 Selenium provides a set of tools to automate testing web applications.It can also be used to automate basic browser functions and administration tasks. Testing is accomplished through a set of Selenium commands that are stored in a HTML text file.

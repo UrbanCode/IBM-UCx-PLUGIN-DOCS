@@ -336,26 +336,7 @@ Creates a sub-version from an existing version.
 | Inherit Version Properties | Boolean | Select to inherit version properties from the source version to the new sub-version.                                                                                                                                                                                     | No       |
 | Version Properties         | String  | Specify a list of version properties to add to the new sub-version, separated by newline characters. Use the following format: propertyName=propertyValue. For example, specify env=dev to add a version property called env with a value of dev to the new sub-version. | No       |
 
-**Note:**
-`includes`/`excludes` are mutually exclusive. The format for the `includes`/`excludes` should be one of the below
-* \[dataset-name\]
-* \[dataset-name\], \[member-name\]
-* /\[dataset-regex\]/
-* /\[dataset-regex\]/, /\[member-regex\]/
-
-Separate patterns and dataset/member names with newline character.
-
-### Examples of valid `includes` values:
-* Specify BUILD.JCL to include the dataset BUILD.JCL and all its members.
-* Specify BUILD.JCL(ABC) to include member ABC in dataset BUILD.JCL.
-* Specify /BUILD.*/ to include datasets that start with BUILD.
-* Specify /.*JCL/,/(ABC|DEF)/ to include members ABC and DEF in any dataset that ends with JCL.
-
-### Examples of valid `excludes` values:
-* Specify BUILD.JCL to exclude the dataset BUILD.JCL and all its members.
-* Specify BUILD.JCL(ABC) to exclude member ABC in dataset BUILD.JCL.
-* Specify /BUILD.*/ to exclude datasets that start with BUILD.
-* Specify /.*JCL/,/(ABC|DEF)/ to exclude members ABC and DEF in any dataset that ends with JCL.
+See [Rules for includes and excludes](#rules-for-includes-and-excludes) section for more details on the format of `includes` and `excludes`.
 
 ## Create Sub-Version from Version for External Repository
 
@@ -375,7 +356,8 @@ Creates a sub-version from an existing version for an external repository.
 | HTTP Proxy Host            | String  | HTTP Proxy Host                                                                                                                                                                                                                                                          | No       |
 | HTTP Proxy Port            | String  | HTTP Proxy Port                                                                                                                                                                                                                                                          | No       |
 
-**Note:**
+
+### Rules for includes and excludes:
 `includes`/`excludes` are mutually exclusive. The format for the `includes`/`excludes` should be one of the below
 * \[dataset-name\]
 * \[dataset-name\], \[member-name\]
@@ -384,14 +366,14 @@ Creates a sub-version from an existing version for an external repository.
 
 Separate patterns and dataset/member names with newline character. 
 
-### Examples of valid `includes` values:
-* Specify BUILD.JCL to include the dataset BUILD.JCL and all its members.
-* Specify BUILD.JCL(ABC) to include member ABC in dataset BUILD.JCL.
-* Specify /BUILD.*/ to include datasets that start with BUILD.
-* Specify /.*JCL/,/(ABC|DEF)/ to include members ABC and DEF in any dataset that ends with JCL.
+#### Examples of valid includes values:
+* Specify `BUILD.JCL` to include the dataset BUILD.JCL and all its members.
+* Specify `BUILD.JCL, ABC` to include member ABC in dataset BUILD.JCL.
+* Specify `/BUILD.*/` to include datasets that start with BUILD.
+* Specify `/.*JCL/,/(ABC|DEF)/` to include members ABC and DEF in any dataset that ends with JCL.
 
-### Examples of valid `excludes` values:
-* Specify BUILD.JCL to exclude the dataset BUILD.JCL and all its members.
-* Specify BUILD.JCL(ABC) to exclude member ABC in dataset BUILD.JCL.
-* Specify /BUILD.*/ to exclude datasets that start with BUILD.
-* Specify /.*JCL/,/(ABC|DEF)/ to exclude members ABC and DEF in any dataset that ends with JCL.
+#### Examples of valid excludes values:
+* Specify `BUILD.JCL` to exclude the dataset BUILD.JCL and all its members.
+* Specify `BUILD.JCL, ABC` to exclude member ABC in dataset BUILD.JCL.
+* Specify `/BUILD.*/` to exclude datasets that start with BUILD.
+* Specify `/.*JCL/,/(ABC|DEF)/` to exclude members ABC and DEF in any dataset that ends with JCL.

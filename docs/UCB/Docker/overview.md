@@ -21,9 +21,9 @@ To add the Docker plug-in steps to processes, click **Build > Build Tools > Dock
 
 ### Compatibility
 
-The IBM UrbanCode Build plug-in for Docker works with all versions of Docker
+The IBM DevOps Build plug-in for Docker works with all versions of Docker
 
-This plug-in requires version 6.1.0.0 or later of IBM UrbanCode Build.
+This plug-in requires version 6.1.0.0 or later of IBM DevOps Build.
 
 ### Installation
 
@@ -33,12 +33,12 @@ No special steps are required for installation.
 
 #### Version 2
 
-Version 2 supports IBM UrbanCode Build version 6.1.0.0. The following features were added:
+Version 2 supports IBM DevOps Build version 6.1.0.0. The following features were added:
 
 * Added a step to push Docker images to a registry.
 
 #### Version 1
 
-Version 1 supports IBM UrbanCode Build version 6.1.0.0.
+Version 1 supports IBM DevOps Build version 6.1.0.0.
 
 * Initial release supporting building Docker images

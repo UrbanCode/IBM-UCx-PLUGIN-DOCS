@@ -1,5 +1,5 @@
 
-Artifactory for IBM UrbanCode Build - Downloads
+Artifactory for IBM DevOps Build - Downloads
 ===============================================
 
 # Downloads

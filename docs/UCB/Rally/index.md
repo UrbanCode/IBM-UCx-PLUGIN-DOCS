@@ -1,5 +1,5 @@
 
-Rally for IBM UrbanCode Build
+Rally for IBM DevOps Build
 =============================
 
 Rally is an agile project management tool that tracks project requirements, tests and defects.

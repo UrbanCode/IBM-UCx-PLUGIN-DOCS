@@ -19,10 +19,10 @@ IBM Security AppScan Source can enable:
 Available Steps
 ---------------
 
-Scan / Upload Scan a project and upload the results. This step can generate .paf and .ppf files. Scan results are loaded into IBM UrbanCode Build as a source analytics report on the build life.
+Scan / Upload Scan a project and upload the results. This step can generate .paf and .ppf files. Scan results are loaded into IBM DevOps Build as a source analytics report on the build life.
 
 Run Script Run an IBM Security AppScan Source script with the AppScanSrcCli command.
 
-Report Results Upload scan report results to IBM UrbanCode Build.
+Report Results Upload scan report results to IBM DevOps Build.
 
 

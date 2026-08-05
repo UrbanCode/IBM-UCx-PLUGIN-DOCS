@@ -12,13 +12,13 @@ CA Harvest SCM - Overview
 
 CA Harvest Software Change Manager (CA Harvest SCM) manages source files and software build history for your organization. It automates the change management lifecycle, source code versioning and streamlines workflows.
 
-The plug-in provides integration properties, that define the connection between the UrbanCode Build server and a CA Harvest server. The integration automates populating a Harvest workspace and publishing source changes to the Changes tab of the build life. For details about repositories in IBM UrbanCode Build, see [Repositories](http://www.ibm.com/support/knowledgecenter/SS8NMD_6.1.2/com.ibm.ucbuild.doc/topics/settings_project_repo_cpt.html) in the product documentation.
+The plug-in provides integration properties, that define the connection between the UrbanCode Build server and a CA Harvest server. The integration automates populating a Harvest workspace and publishing source changes to the Changes tab of the build life. For details about repositories in IBM DevOps Build, see [Repositories](http://www.ibm.com/support/knowledgecenter/SS8NMD_6.1.2/com.ibm.ucbuild.doc/topics/settings_project_repo_cpt.html) in the product documentation.
 
 ### Compatibility
 
-This plug-in requires IBM UrbanCode Build version 6.1 and later.
+This plug-in requires IBM DevOps Build version 6.1 and later.
 
-The plug-in runs on any agents that the IBM UrbanCode Build server supports.
+The plug-in runs on any agents that the IBM DevOps Build server supports.
 
 ### Installation
 

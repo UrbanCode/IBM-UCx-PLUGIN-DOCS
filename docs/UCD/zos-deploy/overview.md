@@ -47,6 +47,9 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 ### Version 108
 
 * 1190945 - Added option to execute RUNTIME delta deployment in Dry Run mode
+* 1191074 - Create Sub Version step does not support linked version
+* 1191158 - Post-deploy in Deploy-dataset step will not copy xml files during redeployment of a version with RUNTIME delta-deploy and when no artifacts are deployed. In such cases, the generate-artifact steps will generate template data based on the xml data copied from the previous deployment of the version.
+* 1191185 - Use binary.version file instead of installed.version file to determine the installed version of the agent
 
 ### Version 107
 
