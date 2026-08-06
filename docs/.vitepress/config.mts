@@ -4,6 +4,7 @@ import { ucb } from './sidebar/ucb';
 import { ucd } from './sidebar/ucd';
 import { ucr } from './sidebar/ucr';
 import { ucv } from './sidebar/ucv';
+import { indexTokenize, searchTokenize } from './searchUtils';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -35,8 +36,8 @@ export default defineConfig({
       provider: 'local',
       options: {
         miniSearch: {
-          options: { tokenize: (text) => text.split(/\s+/).filter(Boolean) },
-          searchOptions: { tokenize: (text) => text.split(/\s+/).filter(Boolean), fuzzy: false }
+          options: { tokenize: indexTokenize },
+          searchOptions: { tokenize: searchTokenize, fuzzy: false }
         }
       }
     },
