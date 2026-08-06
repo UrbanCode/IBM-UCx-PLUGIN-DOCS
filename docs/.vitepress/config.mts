@@ -32,7 +32,13 @@ export default defineConfig({
       pattern: 'https://github.com/UrbanCode/IBM-UCx-PLUGIN-DOCS/edit/main/docs/:path'
     },
     search: {
-      provider: 'local'
+      provider: 'local',
+      options: {
+        miniSearch: {
+          options: { tokenize: (text) => text.split(/\s+/).filter(Boolean) },
+          searchOptions: { tokenize: (text) => text.split(/\s+/).filter(Boolean), fuzzy: false }
+        }
+      }
     },
     // https://vitepress.dev/reference/default-theme-config
     sidebar: {
