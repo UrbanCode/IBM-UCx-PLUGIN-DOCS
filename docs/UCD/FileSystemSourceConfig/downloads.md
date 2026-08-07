@@ -3,6 +3,7 @@
 
 To download the plug-in, click the following version-specific download links.
 
+- [devops-deploy-FileSystemSourceConfig-17.1191234.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileSystemSourceConfig/devops-deploy-FileSystemSourceConfig-17.1191234.zip)
 - [devops-deploy-FileSystemSourceConfig-16.1188386.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileSystemSourceConfig/devops-deploy-FileSystemSourceConfig-16.1188386.zip)
 - [devops-deploy-FileSystemSourceConfig-15.1188324.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileSystemSourceConfig/devops-deploy-FileSystemSourceConfig-15.1188324.zip)
 - [devops-deploy-FileSystemSourceConfig-14.1185332.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileSystemSourceConfig/devops-deploy-FileSystemSourceConfig-14.1185332.zip)

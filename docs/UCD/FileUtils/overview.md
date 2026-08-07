@@ -17,6 +17,10 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ## History
 
+### Version 105
+
+Update Apache log4j to 2.26.1 for non-exploitable CVE-2026-49844
+
 ### Version 104 
 
 1190935 - Fix KNOWN-ISSUE DT495385 - 'Delete Files and Directories' plugin step in 'File-Utils' plugin fails intermittently with java.lang.IllegalArgumentException: Can not copy a non-root

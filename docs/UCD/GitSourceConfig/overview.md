@@ -30,6 +30,10 @@ This plug-in is installed when installing IBM DevOps Deploy. When new plug-in ve
 
 ## History
 
+### Version 31
+
+Update Apache log4j to 2.26.1 for non-exploitable CVE-2026-49844
+
 ### Version 30
 
 Update Apache Log4j to 2.25.4

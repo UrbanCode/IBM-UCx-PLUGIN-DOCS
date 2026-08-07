@@ -2,6 +2,7 @@
 # Downloads
 
 To download the plug-in, click the version-specific links.
+- [devops-deploy-uDeployConfigManagement-24.1191358.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeployConfigManagement/devops-deploy-uDeployConfigManagement-24.1191358.zip)
 - [devops-deploy-uDeployConfigManagement-23.1188335.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeployConfigManagement/devops-deploy-uDeployConfigManagement-23.1188335.zip)
 - [devops-deploy-uDeployConfigManagement-22.1185306.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeployConfigManagement/devops-deploy-uDeployConfigManagement-22.1185306.zip)
 - [devops-deploy-uDeployConfigManagement-21.1179575.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeployConfigManagement/devops-deploy-uDeployConfigManagement-21.1179575.zip)
