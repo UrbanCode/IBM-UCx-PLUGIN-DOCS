@@ -24,6 +24,17 @@ No special steps are required for installing the plug-in. See [Installing plug-i
 
 ## History
 
+## Version 22
+
+* Update Apache log4j to 2.26.1 for non-exploitable CVE-2026-49844
+
+## Version 21
+
+* Update Apache Log4j to 2.25.4
+
+Addresses mulitiple non-exploitable CVEs:
+CVE-2026-34477, CVE-2026-34478, CVE-2026-34479, CVE-2026-34480, CVE-2026-34481
+
 ## Version 20
 
 * Update Apache log4j to 2.25.3 for non-exploitable CVE-2025-68161
