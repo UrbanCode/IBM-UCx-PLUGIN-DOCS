@@ -15,6 +15,10 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ## History
 
+### Version 24
+
+* Update Apache log4j to 2.26.1 for non-exploitable CVE-2026-49844
+
 ### Version 23
 
 * Update Apache Log4j to 2.25.4

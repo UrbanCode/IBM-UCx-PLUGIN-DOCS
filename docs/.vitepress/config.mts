@@ -4,6 +4,7 @@ import { ucb } from './sidebar/ucb';
 import { ucd } from './sidebar/ucd';
 import { ucr } from './sidebar/ucr';
 import { ucv } from './sidebar/ucv';
+import { indexTokenize, searchTokenize } from './searchUtils';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -32,7 +33,13 @@ export default defineConfig({
       pattern: 'https://github.com/UrbanCode/IBM-UCx-PLUGIN-DOCS/edit/main/docs/:path'
     },
     search: {
-      provider: 'local'
+      provider: 'local',
+      options: {
+        miniSearch: {
+          options: { tokenize: indexTokenize },
+          searchOptions: { tokenize: searchTokenize, fuzzy: false }
+        }
+      }
     },
     // https://vitepress.dev/reference/default-theme-config
     sidebar: {

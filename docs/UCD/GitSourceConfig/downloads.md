@@ -2,6 +2,7 @@
 # Downloads
 
 To download the plug-in, click the following version-specific links.
+- [devops-deploy-GitSourceConfig-31.1191353.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/GitSourceConfig/devops-deploy-GitSourceConfig-31.1191353.zip)
 - [devops-deploy-GitSourceConfig-30.1188326.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/GitSourceConfig/devops-deploy-GitSourceConfig-30.1188326.zip)
 - [devops-deploy-GitSourceConfig-29.1185328.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/GitSourceConfig/devops-deploy-GitSourceConfig-29.1185328.zip)
 - [devops-deploy-GitSourceConfig-28.1178306.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/GitSourceConfig/devops-deploy-GitSourceConfig-28.1178306.zip)
