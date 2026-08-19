@@ -3529,3 +3529,347 @@ This step applies only to application processes.
         success:
           finish: ""
     ```
+
+---
+
+# CAC AI Skills User Guide
+
+## Overview
+
+The Configuration as Code (CAC) AI Skills enable you to perform DevOps Deploy operations using **natural language** without requiring knowledge of underlying CAC command syntax. Simply describe what you want to do, and the AI will handle the technical details.
+
+**Key Points:**
+- **Start with Setup:** Configure credentials before any other operation
+- **Flexible Activation:** Use natural language phrases like "download", "get", "export", "upload", "import", "create"
+- **Optional Parameters:** Specify format (JSON/YAML) and filename as needed
+- **Credential Options:** Use cached credentials (recommended) or provide inline credentials for processes
+- **File Support:** JSON and YAML formats for all import/export operations
+
+---
+
+## Table of Contents
+
+1. [Getting Started](#getting-started)
+2. [Setup Skill](#setup-skill)
+3. [Download Skills](#download-skills)
+4. [Upload Skills](#upload-skills)
+5. [Quick Reference](#quick-reference)
+6. [Natural Language Examples](#natural-language-examples)
+7. [Troubleshooting](#troubleshooting)
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- CAC commands must be available in your environment
+- Credentials must be configured before performing operations
+- Supported file formats: JSON and YAML
+
+### Configuration File Location
+
+Credentials are stored in a configuration file at:
+
+- **Windows:** `%USERPROFILE%\.cac\config.properties` 
+- **Linux/macOS:** `~/.cac/config.properties` 
+
+### First Steps
+
+1. **Setup your credentials** using the Setup Skill
+2. **Download or upload** applications, components, environments, or processes
+3. **Use natural language** to describe your operations
+
+---
+
+## Setup Skill
+
+Manages authentication credentials for the CAC system.
+
+### Operations
+
+#### Configure Credentials
+
+Saves your DevOps Deploy server credentials securely.
+
+**Required information:**
+- Server URL (e.g., `https://server:8443`)
+- Username
+- Password
+
+**Example requests:**
+- "Setup CAC with server https://deploy.company.com:8443, username admin, password secret123"
+- "Configure CAC credentials for https://ucd.example.com:8443 with user john and password pass123"
+
+#### View Current Configuration
+
+Displays your current CAC configuration (password masked).
+
+**Example requests:**
+- "Show CAC configuration"
+- "Display current setup"
+- "What are my CAC credentials?"
+
+#### Clear Credentials
+
+Removes saved credentials from your system.
+
+**Example requests:**
+- "Clear CAC credentials"
+- "Remove saved credentials"
+- "Reset CAC configuration"
+
+**Note:** Confirmation is required before clearing credentials.
+
+### Security
+
+- Passwords are stored in encrypted form
+- Passwords are never displayed in plain text
+- Always use HTTPS endpoints when possible
+- Confirmation is required before overwriting or clearing credentials
+
+---
+
+## Download Skills
+
+Download skills export DevOps Deploy configurations to JSON or YAML files.
+
+### Application & Component Downloads
+
+| Skill | Activation Phrases | Required | Optional |
+|-------|-------------------|----------|----------|
+| **Application** | download/get/export/save/fetch application [name] | Application name | Format, filename |
+| **Component** | download/get/export/save/fetch component [name] | Component name | Format, filename |
+
+**Example requests:**
+- "Download application MyApp"
+- "Get Payment Gateway application as YAML"
+- "Export Auth Service app to auth.yaml"
+- "Download component MyComponent as YAML"
+
+---
+
+### Environment Download
+
+**Activation phrases:** download/get/export/save/fetch environment [name] from [application]
+
+**Required:** Environment name, Application name  
+**Optional:** Format, filename
+
+**Example requests:**
+- "Download environment DEV from MyApp"
+- "Get Production environment of Payment Gateway"
+- "Export TEST environment from Auth Service to test.yaml"
+
+---
+
+### Process Downloads
+
+#### Application & Component Processes
+
+| Skill | Activation Phrases | Required | Optional | Credentials |
+|-------|-------------------|----------|----------|-------------|
+| **Application Process** | download/get/export application process [name] from [app] | Process name, Application name | Format, filename | Cached or inline |
+| **Component Process** | download/get/export component process [name] from [component] | Process name, Component name | Format, filename | Cached or inline |
+
+**Example requests:**
+- "Download application process Deploy from MyApplication"
+- "Get Build Process from Payment Service application as YAML"
+- "Download component process Build from MyComponent"
+
+#### Generic & Approval Processes
+
+| Skill | Activation Phrases | Required | Optional | Credentials |
+|-------|-------------------|----------|----------|-------------|
+| **Generic Process** | download/get/export generic process [name] | Process name | Format, filename | Cached or inline |
+| **External Approval Process** | download/get/export external approval process [name] | Process name | Format, filename | Cached or inline |
+
+**Example requests:**
+- "Download generic process SystemDeploy"
+- "Get external approval process ApprovalGate as YAML"
+
+#### Template Processes
+
+| Skill | Activation Phrases | Required | Optional | Credentials |
+|-------|-------------------|----------|----------|-------------|
+| **Application Template Process** | download/get/export application template process [name] | Process name | Format, filename | Cached or inline |
+| **Component Template Process** | download/get/export component template process [name] | Process name | Format, filename | Cached or inline |
+
+**Example requests:**
+- "Download application template process StandardDeploy"
+- "Get component template process BuildTemplate as YAML"
+
+#### Download All Processes
+
+| Skill | Activation Phrases | Required | Optional | Credentials |
+|-------|-------------------|----------|----------|-------------|
+| **All Application Processes** | download/get/export all application processes | None | Format, filename | Cached or inline |
+| **All Component Processes** | download/get/export all component processes | None | Format, filename | Cached or inline |
+| **All Generic Processes** | download/get/export all generic processes | None | Format, filename | Cached or inline |
+
+**Example requests:**
+- "Download all application processes"
+- "Get all component processes as YAML"
+- "Export all generic processes to processes.yaml"
+
+### Credential Options for Processes
+
+- **Cached Credentials** (Recommended): Uses credentials from Setup Skill
+- **Inline Credentials**: Provide directly in request  
+  Format: `with username <user> password <pass> server <url>` 
+
+**Example with inline credentials:**
+- "Download application process Deploy from MyApplication with username admin password secret123 server https://deploy.company.com:8443"
+
+---
+
+## Upload Skills
+
+Upload skills import DevOps Deploy configurations from JSON or YAML files.
+
+### Application & Component Uploads
+
+| Skill | Activation Phrases | Required |
+|-------|-------------------|----------|
+| **Application** | upload/import/create/push/deploy application [name] | Application name, Source file |
+| **Component** | upload/import/create/push/deploy component [name] | Component name, Source file |
+
+**Example requests:**
+- "Upload application MyApp from myapp.json"
+- "Import Payment Gateway from payment-gateway.yaml"
+- "Create Auth Service using auth.json"
+- "Deploy component MyComponent from mycomponent.json"
+
+---
+
+### Environment Upload
+
+**Activation phrases:** upload/import/create/push/deploy environment [name]
+
+**Required:** Environment name, Source file
+
+**Example requests:**
+- "Upload environment DEV from dev-env.json"
+- "Import Production environment from prod.yaml"
+- "Create QA environment using qa.json"
+
+---
+
+### Process Uploads
+
+#### Application & Component Processes
+
+| Skill | Activation Phrases | Required |
+|-------|-------------------|----------|
+| **Application Process** | upload/import/create/push/deploy application process [name] | Process name, Application name, Source file |
+| **Component Process** | upload/import/create/push/deploy component process [name] | Process name, Component name, Source file |
+
+**Example requests:**
+- "Upload application process Deploy from deploy.json for MyApplication"
+- "Import application process Build from build.yaml to Payment Service"
+- "Upload component process Build from build.json for MyComponent"
+
+#### Generic & Approval Processes
+
+| Skill | Activation Phrases | Required |
+|-------|-------------------|----------|
+| **Generic Process** | upload/import/create/push/deploy generic process [name] | Process name, Source file |
+| **External Approval Process** | upload/import/create/push/deploy external approval process [name] | Process name, Source file |
+
+**Example requests:**
+- "Upload generic process SystemDeploy from system-deploy.json"
+- "Import external approval process ApprovalGate from approval.json"
+
+#### Template Processes
+
+| Skill | Activation Phrases | Required |
+|-------|-------------------|----------|
+| **Application Template Process** | upload/import/create/push/deploy application template process [name] | Process name, Source file |
+| **Component Template Process** | upload/import/create/push/deploy component template process [name] | Process name, Source file |
+
+**Example requests:**
+- "Upload application template process StandardDeploy from standard-deploy.json"
+- "Import component template process BuildTemplate from build-template.yaml"
+
+### File Requirements
+
+- File format must be `.json` or `.yaml` 
+- File must exist and be readable
+- File content must be properly formatted
+
+---
+
+## Quick Reference
+
+### All Available Skills
+
+| Category | Skill | Activation |
+|----------|-------|-----------|
+| **Setup** | Configure/View/Clear Credentials | setup/configure/show/clear CAC |
+| **Download** | Application | download/get/export application |
+| **Download** | Component | download/get/export component |
+| **Download** | Environment | download/get/export environment from app |
+| **Download** | Application Process | download/get/export application process from app |
+| **Download** | Component Process | download/get/export component process from component |
+| **Download** | Generic Process | download/get/export generic process |
+| **Download** | External Approval Process | download/get/export external approval process |
+| **Download** | Application Template Process | download/get/export application template process |
+| **Download** | Component Template Process | download/get/export component template process |
+| **Download** | All Application Processes | download/get/export all application processes |
+| **Download** | All Component Processes | download/get/export all component processes |
+| **Download** | All Generic Processes | download/get/export all generic processes |
+| **Upload** | Application | upload/import/create application |
+| **Upload** | Component | upload/import/create component |
+| **Upload** | Environment | upload/import/create environment |
+| **Upload** | Application Process | upload/import/create application process |
+| **Upload** | Component Process | upload/import/create component process |
+| **Upload** | Generic Process | upload/import/create generic process |
+| **Upload** | External Approval Process | upload/import/create external approval process |
+| **Upload** | Application Template Process | upload/import/create application template process |
+| **Upload** | Component Template Process | upload/import/create component template process |
+
+---
+
+## Natural Language Examples
+
+### Basic Workflow
+
+1. **Setup credentials:**  
+   `Setup CAC with server https://deploy.company.com:8443, username admin, password mypassword123` 
+
+2. **Download an application:**  
+   `Download application PaymentService as YAML` 
+
+3. **Upload the application:**  
+   `Upload application PaymentService from PaymentService.yaml` 
+
+### Common Operations
+
+**Download multiple entities:**
+- `Download component AuthModule` 
+- `Download application PaymentService` 
+- `Download environment Production from PaymentService` 
+
+**Download processes:**
+- `Download application process Deploy from MyApplication` 
+- `Download all component processes as YAML` 
+- `Download generic process SystemDeploy` 
+
+**Upload with different formats:**
+- `Upload application MyApp from myapp.json` 
+- `Upload component MyComponent from mycomponent.yaml` 
+- `Upload environment DEV from dev-env.json` 
+
+---
+
+## Troubleshooting
+
+| Issue | Solution |
+|-------|----------|
+| **No Cached Credentials** | Run: `Setup CAC with server <url>, username <user>, password <password>` |
+| **File Not Found** | Verify file path is correct, file exists, and extension is `.json` or `.yaml` |
+| **Authentication Failed** | Check credentials with `Show CAC configuration`, re-run setup if needed |
+| **Entity Not Found** | Verify entity name spelling and that it exists on the server |
+| **Invalid File Format** | Ensure file is valid JSON or YAML with correct extension |
+| **Missing Parameters** | Provide all required information (e.g., app name for environments, component name for component processes) |
+| **Server Not Accessible** | Verify server URL is correct and network connectivity is available |
