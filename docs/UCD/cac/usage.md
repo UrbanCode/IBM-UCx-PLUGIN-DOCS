@@ -2,12 +2,195 @@
 
 ## List of All Commands:
 
+## CAC Setup
+
+The `cac setup` command stores server credentials and context information in a local configuration file so that you do not have to provide the server URL, username, and password with every command. Once configured, commands such as `download-component` can resolve these values automatically from the stored context.
+
+### Usage
+
+*Initial setup (credentials required)*:  
+`cac setup --server-url <url> --user <username> --pass <password> [--application <name>] [--component <name>]`
+
+*Partial update (one or more fields)*:  
+`cac setup [--server-url <url>] [--user <username>] [--pass <password>] [--application <name>] [--component <name>]`
+
+*Set component process context*:  
+`cac setup --comp-process-name <name> --comp-process-component <component>`
+
+*Set application process context*:  
+`cac setup --app-process-name <name> --app-process-application <application>`
+
+*Display current configuration*:  
+`cac setup --show`
+
+*Clear configuration*:  
+`cac setup --clear`
+
+### Options
+
+| Flag | Alias | Description |
+|------|-------|-------------|
+| `--server-url` | `--url` | Server URL (e.g., `https://ucd.example.com:8443`) |
+| `--user` | `--username` | Username for authentication |
+| `--pass` | `--password` | Password for authentication |
+| `--application` | `--app` | Application name for context |
+| `--component` | `--comp` | Component name for context |
+| `--app-process-name` | | Application process name for context |
+| `--app-process-application` | | Application name for application process context |
+| `--comp-process-name` | | Component process name for context |
+| `--comp-process-component` | | Component name for component process context |
+| `--show` | `-s` | Display current configuration |
+| `--clear` | `-c` | Delete configuration file |
+| `--help` | `-h` | Show help message |
+
+### Behavior
+
+- **Initial setup** — The three credential fields (`--server-url`, `--user`, `--pass`) are required on the first run to create a valid configuration.
+- **Partial update** — After the initial setup, you can provide one or more fields to update. Fields that are not specified retain their existing values.
+- **Application and component names** — These are optional and can be set or updated at any time.
+- **Process context** — Process names and their parent names (component or application) are always provided as separate flags.
+
+### How Context Reduces Repetition
+
+Without setup, every command requires the full set of credentials and resource names:
+
+```sh
+download-component myuser mypassword https://ucd.example.com:8443 MyComponent MyComponent.json
+```
+
+After running `cac setup`, the CLI resolves credentials and context from the configuration file, so the same operation becomes:
+
+```sh
+download-component MyComponent MyComponent.json
+```
+
+If the component name is also stored in the context, the command simplifies further to:
+
+```sh
+download-component MyComponent.json
+```
+
+### Configuration Priority
+
+Values are resolved in the following order (highest to lowest):
+
+1. **CLI flags** — `--server-url`, `--user`, `--pass`, `--application`, `--component`, `--app-process-name`, `--comp-process-name`, etc.
+2. **Config file** — `~/.cac/config.yaml`
+
+CLI flags always take precedence over stored configuration values.
+
+### Configuration File Location
+
+The configuration is stored at `~/.cac/config.yaml`.
+
+### Sample Configuration File
+
+Below is the structure of the generated `config.yaml` after running `cac setup`:
+
+```yaml
+# CAC Configuration File
+# This file contains sensitive credentials. Keep it secure!
+# File permissions should be 600 (owner read/write only)
+setup:
+  server-url: "https://ucd.example.com:8443/"
+  username: "admin"
+  password: "{encrypted}qBkXTOZCZEB8SrAqRSJgXA=="
+component-process:
+  component-name: "MyComponent"
+  process-name: "InstallProcess"
+application-process:
+  application-name: "MyApp"
+  process-name: "DeployProcess"
+```
+
+> **Note:** The `password` field is always stored in encrypted form. Never edit it manually.
+
+### Viewing Current Configuration
+
+Running `cac setup --show` displays the current stored configuration:
+
+```
+Current Configuration:
+  Config File:  C:\Users\<username>\.cac\config.yaml
+  Server URL:   https://ucd.example.com:8443/
+  Username:     admin
+  Password:     ***
+  Component:    (not set)
+  Application:  (not set)
+Component Process:
+  Component:    MyComponent
+  Process:      InstallProcess
+Application Process:
+  Application:  MyApp
+  Process:      DeployProcess
+```
+
+> **Note:** Passwords are masked in the `--show` output and are never displayed in plain text. Fields that have not been configured display `(not set)`.
+
+### Important Notes
+
+- Only one server configuration is supported at a time. Running `cac setup` with a different server URL overwrites the previous configuration.
+- If a command is run without `cac setup` and without providing credentials via CLI flags, the tool will exit with an error indicating that credentials are missing.
+
+### Examples
+
+- **Initial setup**
+
+        `cac setup --url https://ucd.example.com:8443 --user admin --pass secret`
+
+- **Update only password**
+
+        `cac setup --pass newPassword`
+
+- **Update username and password**
+
+        `cac setup --user newUser --pass newPass`
+
+- **Update only application name**
+
+        `cac setup --application MyApp`
+
+- **Update only component name**
+
+        `cac setup --component MyComponent`
+
+- **Update multiple fields at once**
+
+        `cac setup --pass newPass --application MyApp --component MyComp`
+
+- **Set application process context**
+
+        `cac setup --app-process-name DeployProcess --app-process-application MyApp`
+
+- **Set component process context**
+
+        `cac setup --comp-process-name InstallProcess --comp-process-component MyComp`
+
+- **Display current configuration**
+
+        `cac setup --show`
+
+- **Clear configuration**
+
+        `cac setup --clear`
+
+### Security Considerations
+
+- **Password encryption** — Passwords are encrypted automatically before being written to the configuration file.
+- **File permissions** — The config file is created with `600` permissions (owner read/write only).
+- **Version control** — Never commit `~/.cac/config.yaml` to version control. Add it to your `.gitignore` if the home directory is tracked.
+
+---
+
+
+## Process as Configuration Commands
+
 - **Download a Generic Process**  
   *Syntax*:  
   `download-generic-process <username> <password> <server-url> <process-name> <output-file>`  
-  *Example*:  
-  
-    
+  *Example*:
+
+
 
         `download-generic-process myuser mypassword https://url:8443 myGenericProcessName myGenericProcess.json`
     
@@ -17,9 +200,9 @@
 - **Download all Generic processes**  
   *Syntax*:  
   `download-generic-process-all <username> <password> <server-url> <output-file-type(json/yaml)>`  
-  *Example*:  
-  
-    
+  *Example*:
+
+
 
         `For Ex(json format): ./download-generic-process-all myuser mypassword https://url:8443 json`
     
@@ -29,9 +212,9 @@
 - **Download a Component Process**  
   *Syntax*:  
   `download-component-process <username> <password> <server-url> <component-process-name> <component-name> <output-file>`  
-  *Example*:  
-  
-    
+  *Example*:
+
+
 
         `download-component-process myuser mypassword https://url:8443 myComponentProcessName myComponentName myComponentProcess.json`
     
@@ -41,9 +224,9 @@
 - **Download all processes for a given component**  
   *Syntax*:    
   `download-component-process-all <username> <password> <server-url> <component-name> <output-file-type(json)>`  
-  *Example*:  
-  
-    
+  *Example*:
+
+
 
         `For Ex(json format): ./download-component-process-all myuser mypassword https://url:8443 myComponentName json`
     
@@ -53,9 +236,9 @@
 - **Download an Application Process**  
   *Syntax*:  
   `download-application-process <username> <password> <server-url> <application-process-name> <application-name> <output-file>`  
-  *Example*:  
-  
-    
+  *Example*:
+
+
 
         `download-application-process myuser mypassword https://url:8443 myApplicationProcessName myApplicationName myApplicationProcess.json`
     
@@ -66,8 +249,8 @@
   *Syntax*:  
   `download-application-process-all <username> <password> <server-url> <application-name> <output-file-type(json)>`  
   *Example*:
-    
-    
+
+
 
         `For Ex(json format): ./download-application-process-all myuser mypassword https://url:8443 myApplicationName  json`
     
@@ -77,9 +260,9 @@
 - **Download a Component Template Process**  
   *Syntax*:  
   `download-component-template-process <username> <password> <server-url> <component-template-process-name> <component-template-name> <output-file>`  
-  *Example*:  
-    
-    
+  *Example*:
+
+
 
         `download-component-template-process myuser mypassword https://url:8443 myComponentTemplateProcessName myComponenTemplatetName myComponentTemplateProcess.json`
     
@@ -89,9 +272,9 @@
 - **Download an Application Template Process**  
   *Syntax*:  
   `download-application-template-process <username> <password> <server-url> <application-template-process-name> <application-template-name> <output-file>`  
-  *Example*:  
-  
-    
+  *Example*:
+
+
 
         `download-application-template-process myuser mypassword https://url:8443 myApplicationTemplateProcessName myApplicationTemplateName myApplicationTemplateProcess.json`
     
@@ -101,10 +284,10 @@
 - **Upload a Generic Process**  
   *Syntax*:  
   `upload-generic-process <username> <password> <server-url> <input-file>`  
-  *Example*:  
-    
-    
-        
+  *Example*:
+
+
+
         `upload-generic-process myuser mypassword https://url:8443  myGenericProcess.json`
     
         
@@ -113,9 +296,9 @@
 - **Upload a Component Process**  
   *Syntax*:  
   `upload-component-process <username> <password> <server-url> <input-file>`  
-  *Example*:  
-  
-    
+  *Example*:
+
+
 
         `upload-component-process myuser mypassword https://url:8443 myComponentProcess.json`
     
@@ -125,9 +308,9 @@
 - **Upload an Application Process**  
   *Syntax*:  
   `upload-application-process <username> <password> <server-url> <input-file>`  
-  *Example*:  
-  
-    
+  *Example*:
+
+
 
         `upload-application-process myuser mypassword https://url:8443 myApplicationProcess.json`
     
@@ -137,9 +320,9 @@
 - **Upload a component template process**  
   *Syntax*:  
   `upload-component-template-process <username> <password> <server-url> <input-file>`  
-  *Example*:  
-  
-    
+  *Example*:
+
+
 
         `./upload-component-template-process myuser mypassword https://url:8443 myComponentTemplateProcess.json`
     
@@ -150,9 +333,9 @@
 - **Upload an application template process**  
   *Syntax*:  
   `upload-application-template-process <username> <password> <server-url> <application-process-name> <application-name> <input-file>`  
-  *Example*:  
-  
-    
+  *Example*:
+
+
 
         `For Ex: ./upload-application-template-process myuser mypassword https://url:8443 myApplicationTemplateProcess.json`
     
@@ -162,7 +345,7 @@
 - **Note: Both .yml and .yaml extensions are supported**
 - **Important Note: Use quotes for process names/application names/component names that contains space**  
   *For Ex. While downloading an application process*:    
-  `download-application-process myuser mypassword https://url:8443 "my ApplicationProcess Name" "my Application Name" myApplicationProcess.json`  
+  `download-application-process myuser mypassword https://url:8443 "my ApplicationProcess Name" "my Application Name" myApplicationProcess.json`
 
 ## Structure of a Process file
 
@@ -191,7 +374,7 @@
         # <...yaml body of the process step definitions ...>
     ```
 
-* A process in the above structure is mapped to a json that has multiple process step definitions. there are multiple types of steps that are supported in **Devops Deploy** 
+* A process in the above structure is mapped to a json that has multiple process step definitions. there are multiple types of steps that are supported in **Devops Deploy**
 
 ## Process step definitions
 
@@ -236,10 +419,10 @@ The step termination event tells the possible termination possibilities of a ste
 3. complete  - upon completion of the current step irrespective of successful or unsuccessful execution
 
 - The events contain data to complete the workflow by defining what the next step is post the completion of the current step.
-the events can either **start** an array of one or more steps defined in the process or can terminate at the **finish** step
-- 
+  the events can either **start** an array of one or more steps defined in the process or can terminate at the **finish** step
+-
 ### Termination event Examples
-  1. Example of events calling other steps in successful and unsuccessful scenarios of the current step
+1. Example of events calling other steps in successful and unsuccessful scenarios of the current step
 
 
 
@@ -268,7 +451,7 @@ the events can either **start** an array of one or more steps defined in the pro
           start:
             - "some step"
     ```
-2. Examples of events calling the finish step 
+2. Examples of events calling the finish step
 
 * Example-1
 
@@ -321,9 +504,9 @@ the events can either **start** an array of one or more steps defined in the pro
 Note that in the above examples, the **finish** attribute has no value. The finish step does not need a definition and hence there is no need for a target step value.
 
 ## Process configurations
-  
+
 ### Component Process Configurations
-*  Available from 8.X versions 
+*  Available from 8.X versions
 
 - Syntax
 
@@ -1340,7 +1523,7 @@ Step is available in all types of processes and is used to trigger another gener
         success:
           finish: ""
     ```
-  - Example-1
+- Example-1
 
 
 
@@ -1379,7 +1562,7 @@ Step is available in all types of processes and is used to trigger another gener
           finish: ""
     ```
 
-  - Example-2 : with minimal fields
+- Example-2 : with minimal fields
 
 
 
@@ -1442,7 +1625,7 @@ Step is available in all types of processes and is used to trigger another gener
           finish: ""
     ```
 
-  - Example
+- Example
 
 
 
@@ -1505,7 +1688,7 @@ Step is available in all types of processes and is used to trigger another gener
           start:
             - "<next step>"
     ```
-  - Example
+- Example
 
 
 
@@ -1863,7 +2046,7 @@ Step is available in all types of processes and is used to trigger another gener
             - "<next-step>"
     ```
 
-  - Example
+- Example
 
 
 
@@ -1924,7 +2107,7 @@ Step is available in all types of processes and is used to trigger another gener
         finish: ""
     ```
 
-  - Example
+- Example
 
 
 
