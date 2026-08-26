@@ -1,5 +1,8 @@
 # Limitations
 
+## With Version CAC-4.0
+* CAC is fully compatible with product version 8.2.2. Older versions, particularly below 8.1.0, may not be able to exploit the full potential of current CAC capabilities.
+
 ## With version CAC-3.2
 * Notifications in generic process configurations are not supported
 
