@@ -113,6 +113,19 @@ The following table describe the properties that you must define under configs :
 
 For additional configuration properties depending on integration type, navigate to respective plug-in and look for general configuration properties section for more details.
 
+### Direct synchronization properties
+
+The following table describes the properties used to enable direct synchronization during YAML execution.
+
+|Property name|Type|Description|Required|
+|-------------|------|-----------|--------|
+|directSync|Boolean|Enables direct synchronization during YAML execution.|No|
+|applicationids|Array|List of application IDs used to retrieve and synchronize associated resources from other plug-in.|Yes, when `directSync` is `true`|
+
+**Note:** Currently, `directSync` functionality is supported only for UCD and Launch plug-ins.
+
+When `directSync` is set to `true`, the YAML Executor validates resource existence in Measure before requesting data from the Deploy or UCD plug-ins. The `applicationids` property is used to synchronize only the resources associated with the specified applications.
+
 ### Sample YAML configuration file
 
 Following is the sample YAML configuration file with existing integration.
