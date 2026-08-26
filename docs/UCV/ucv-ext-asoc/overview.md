@@ -1,8 +1,8 @@
 
-# HCL AppScan on Cloud (ASoC) - Overview
+# IBM AppScan on Cloud (ASoC) - Overview
 
 
-The HCL AppScan on Cloud (ASoC) plug-in allows for integration with the HCL Appscan on Cloud server. This plug-in uses the Appscan on Cloud REST interface to interact with the HCL Appscan on Cloud application. Data is gathered from the ASoC server and displayed as a graphical view in the DevOps Velocity portfolio.
+The IBM AppScan on Cloud (ASoC) plug-in allows for integration with the IBM Appscan on Cloud server. This plug-in uses the Appscan on Cloud REST interface to interact with the IBM Appscan on Cloud application. Data is gathered from the ASoC server and displayed as a graphical view in the DevOps Velocity portfolio.
 
 ## Compatibility
 
