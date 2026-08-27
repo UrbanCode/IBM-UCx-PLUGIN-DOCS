@@ -12,17 +12,16 @@
 
 * CAC AI Skills enable users to perform DevOps Deploy operations using natural language through AI-capable CLI environments.
 
-* CAC is compatible with DevOps Deploy product version **8.2** and later.
-
 
 ## History
 
 ### Version 4.0
-* Compatible with product version 8.2 and later.
+
 * Added `cac setup` command to store server credentials and context in a local configuration file, reducing repetition across commands.
 * Added support to upload/download **Component** configurations as JSON or YAML (`upload-component`, `download-component`).
 * Added support to upload/download **Application** configurations as JSON or YAML (`upload-application`, `download-application`).
 * Added support to upload/download **Environment** configurations as JSON or YAML (`upload-environment`, `download-environment`).
+* Added support to upload/download **External approval process**
 * Added CAC AI Skills for performing DevOps Deploy operations using natural language through AI-capable CLI environments.
 
 ### Version 3.2
