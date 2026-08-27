@@ -61,17 +61,21 @@ An end user wants to configure CAC credentials, download existing DevOps Deploy 
    *Example prompt:*  
    `"Set up CAC with server https://ucd.example.com:8443, user admin, and password secret"`  
    This invokes `cac setup` and stores the credentials locally at `~/.cac/config.yaml`.
+   ![Setup CAC prompt](media/setup-cac-credentials.png)
+   ![Current CAC setup](media/current-cac-setup.png)
 
 2. **Optionally Set Context for Target Resources**  
    If you plan to work repeatedly with a specific component or application, set the context to avoid specifying resource names in every command.  
    *Example prompts:*  
    `"Set component context to MyComponent"`  
+   ![Set component context](media/set-component-context.png)  
    `"Set application context to MyApp"`
 
 3. **Download Configurations from DevOps Deploy**  
    Use natural language to download the desired configuration (component, application, environment, or process) as a JSON or YAML file.  
    *Example prompts:*  
    `"Download component MyComponent as JSON"`  
+   ![Download component PAC-COMP](media/download-component-pac-comp.png)  
    `"Export application MyApp to myapp.yaml"`  
    `"Fetch the generic process DeployProcess"`
 
@@ -82,6 +86,7 @@ An end user wants to configure CAC credentials, download existing DevOps Deploy 
    Use natural language to upload the edited file back to DevOps Deploy.  
    *Example prompts:*  
    `"Upload component from MyComponent.json"`  
+   ![Upload component PAC-COMP](media/upload-component-pac-comp.png)  
    `"Import application from myapp.yaml"`  
    `"Push the generic process from DeployProcess.json"`
 
