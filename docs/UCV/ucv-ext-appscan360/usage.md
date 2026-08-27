@@ -1,7 +1,7 @@
 
-# HCL Appscan360 (Appscan360) - Usage
+# IBM Appscan360 (Appscan360) - Usage
 
-To use the HCL Appscan360 (Appscan360), the plug-in must be loaded, and an instance is created before you can configure the plug-in integration. You can define configuration properties either in the user interface or in a JSON file of a value stream.
+To use the IBM Appscan360 (Appscan360), the plug-in must be loaded, and an instance is created before you can configure the plug-in integration. You can define configuration properties either in the user interface or in a JSON file of a value stream.
 
 ## Integration type
 The Appscan360 plug-in supports endpoint integration and a scheduled event integration.
@@ -27,7 +27,7 @@ The following two features are available from the plug-in:
     * The plug-in endpoint can be defined as a webhook in Appscan360. When the webhook is called by Appscan360 after every scan execution, the plug-in will run and import the scan data from Appscan360 to DevOps Velocity.
     * To call out Appscan360 scan using REST API, pass the ‘build url’ as a ‘Comment’ as shown in the below example. As a result, the plug-in imports the ‘build url’ and associate the scan result to the specific ‘build’ / ‘build url’ in DevOps Velocity.
     ```
-    curl --location --request POST 'https://cloud.appscan.com/api/v4/Scans/MobileAnalyzer' \
+    curl --location --request POST 'https://ccs.appscan360.internal/api/v4/Scans/MobileAnalyzer' \
     --header 'Content-Type: application/x-www-form-urlencoded' \
     --header 'Authorization: Bearer bearer-token-goes-here' \
     --data-urlencode 'ApplicationFileId=file-id-goes-here' \
@@ -40,7 +40,7 @@ The following two features are available from the plug-in:
     * To use the webhook, you must install AppScan presence on the machine where DevOps Velocity is running. For more information, see Appscan360 documentation.
     * The following is an example of creating a webhook in Appscan360.
     ```
-    curl curl --location --request POST 'https://cloud.appscan.com/api/V4/Webhooks' \
+    curl curl --location --request POST 'https://ccs.appscan360.internal/api/V4/Webhooks' \
     --header 'Content-Type: application/x-www-form-urlencoded' \
     --header 'Authorization: Bearer bearer-token-value-goes-here' \
     --data-urlencode 'PresenceId=presence-id-goes-here' \
@@ -66,11 +66,11 @@ The payload for the POST is shown below.
 |Name|Description|Required|
 | --- | --- | --- |
 |scanExecutionId|The scan Execution ID from the scan ran in Appscan360. It is a mandatory field to render the scan results in Insights.	|Yes|
-|buildUrl|The build URL from the CI/CD tool such as Jenkins, HCL DevOps Deploy and so on. It is an optional field which links the Appscan360 scan results with DevOps Velocity|No|
+|buildUrl|The build URL from the CI/CD tool such as Jenkins, IBM DevOps Deploy and so on. It is an optional field which links the Appscan360 scan results with DevOps Velocity|No|
 
 ### Scheduled Integration
 
-You can use the HCL Appscan360’s scheduled event integration to automatically sync or import the scan data into DevOps Velocity’s application vulnerabilities metrics at regular interval of time. Currently, HCL Appscan360 sync or import scan data from HCL AppScan360 to DevOps Velocity at an interval of 5 minutes.
+You can use the IBM Appscan360’s scheduled event integration to automatically sync or import the scan data into DevOps Velocity’s application vulnerabilities metrics at regular interval of time. Currently, IBM Appscan360 sync or import scan data from IBM AppScan360 to DevOps Velocity at an interval of 5 minutes.
 
 ### Integration Type
 
@@ -103,6 +103,8 @@ To integrate the plug-in, perform the following steps:
 **Note:** Select the checkbox only if you want to integrate the plug-in as a scheduled event and clear the checkbox if you want to integrate the plug-in as an endpoint.
 5. Click **Save**.
 
+**Note:** To ensure visibility in VSM metrics, add the **workflowId** during integration. Before configuring, create the value stream, and then add the **workflowId** when prompted during the integration process.
+
 ### Using a JSON file
 
 The JSON file contains the information for creating a value stream. Within the JSON file there is a section for integrations. In this section the plug-in properties can be defined.
@@ -112,15 +114,15 @@ The JSON file contains the information for creating a value stream. Within the J
 3. Save and upload the JSON file. This replaces the current JSON file with the new content.
 4. View the new integration on the Integrations page.
 
-## Minimum permission to integrate with HCL AppScan360 (Appscan360)
+## Minimum permission to integrate with IBM AppScan360 (Appscan360)
 
-The HCL AppScan360 (Appscan360) Account used to generate the token must have access to the project which is being integrated with DevOps Velocity.
+The IBM AppScan360 (Appscan360) Account used to generate the token must have access to the project which is being integrated with DevOps Velocity.
 
 ## Configuration properties
 
 The following tables describe the properties used to configure the integration. Each table contains the field name when using the user interface and the property name when using a JSON file.
 
-The General Configuration Properties table describes configuration properties used by all plug-in integrations. The HCL AppScan360 configuration properties table describes the configuration properties that define the connection and communications with the DevOps Velocity server. When using the JSON method to integrate the plug-in these properties are coded within the properties configuration property.
+The General Configuration Properties table describes configuration properties used by all plug-in integrations. The IBM AppScan360 configuration properties table describes the configuration properties that define the connection and communications with the DevOps Velocity server. When using the JSON method to integrate the plug-in these properties are coded within the properties configuration property.
 
 Some properties might not be displayed in the user interface, to see all properties enable the Show Hidden Properties field.
 
@@ -186,7 +188,7 @@ End-to-End Validation Steps for Appscan360 Integration
   * DAST results are displayed.
   * Scan metrics are associated with the correct application and version.
 
-**NOTE:** **NOTE:** We are mapping using **buildUrl** and **commitSha** to show metrics in the dots history in VSM.
+**NOTE:** We are mapping using **buildUrl** and **commitSha** to show metrics in the dots history in VSM.
 we are capturing it from **comments**.
 
 **Example:** 
@@ -197,9 +199,11 @@ we are capturing it from **comments**.
 2. Create a PR for this work item in control
 3. As we merge the PR in Control , as part of the test data requirement , SAST scans are triggered.
 4. In Measure, The details of SAST scan can be seen in VSM with respect to the corresponding work item and also the insights
-**Note :** The SAST data will not be used for Gating 
 
-### HCL AppScan on Cloud configuration properties
+**Example:**
+ "Comment": "{\"id\":\"ucd\",\"commitsha\":\"1.0-696\",\"buildurl\":\"https://10.134.119.143.nip.io/build/tasks/project/BuildLifeTasks/viewBuildLife?buildLifeId=696\",\"env\":\"a3004teamauto~a3004loopauto:A3004LOOPAUTO-DEV-ENV\",\"prurl\":\"https://10.134.119.42.nip.io/control/a1407teamauto/b1407loopauto/pulls/63\" }"
+
+### IBM AppScan on Cloud configuration properties
 
 | Name | Type | Description | Required | Property Name |
 | --- | --- | --- | --- | --- |
@@ -210,10 +214,10 @@ we are capturing it from **comments**.
 | Proxy Password | Secure | The password used to authenticate with the proxy server. | No | proxyPassword |
 | Proxy Server | String | The URL of the proxy server including the port number. The URL protocol can be http or https. | No | proxyServer |
 | Proxy User Name | String | The user name used to authenticate with the proxy server. | No | proxyUsername |
-| Appscan360 Base URL | String | The base URL of the Application Security on server. E.G. https://ccs.appscan360.internal/. | No | Appscan360Url |
-| Appscan360 Application | String | Application name in Appscan360 | No | application |
+| Appscan360 Base URL | String | The base URL of the Application Security on server. E.G. https://ccs.appscan360.internal/. | Yes | Appscan360Url |
+| Appscan360 Application | Array | Application name in Appscan360 | Yes | application |
 | Appscan360 Policies | Array | Comma separated list of Policy names in Appscan360 - eg: OWASP Top 10 Mobile 2016, International Standard - ISO 27002 | No | policies |
-| Workflow Id | String | The value stream that this metric is associated. | Yes | workflowId |
+| Workflow Id | String | The value stream that this metric is associated. | No | workflowId |
 
 ## JSON code sample
 
@@ -236,3 +240,46 @@ The following sample code can be used as a template to define the integration wi
  }
 ]
 ```
+
+## Troubleshooting
+
+ **Certificate Issue**
+
+   **Solution:**
+  1. Add the required CA certificate during the AppScan360 configuration.
+  2. Additionally, add the following environment variable to the Reporting Consumer deployment:
+
+    a. name: NODE_TLS_REJECT_UNAUTHORIZED
+    b. value: "0"
+  3. This allows the Reporting Consumer to establish a connection when the AppScan360 endpoint uses a certificate that is not trusted by the Node.js runtime.
+
+ ![images/first_certificate.png](images/first_certificate.png)
+
+ **AppScan360 URL is Not Accessible – Host Entry Missing**
+
+If the AppScan360 URL is not accessible, you may encounter a connection or host resolution error.
+
+**Solution:**
+1. Add the AppScan360 host entry to the Windows hosts file:
+  C:\Windows\System32\drivers\etc\hosts
+2. Add the required AppScan360 hostname and corresponding IP address to the file, then retry accessing the AppScan360 URL.
+
+ ![images/url_not_accessable.png](images/url_not_accessable.png)
+
+ **Login Blocked – Access Key Changed**
+
+**Solution:**
+
+Create a new access token and update the AppScan360 plug-in configuration with the new token.
+
+ ![images/login_blocked.png](images/login_blocked.png)
+
+ **Application Name Mismatch**
+
+The application name configured in Pipeline/VSM must match the application name configured in AppScan360 for the scan results to be correctly associated.
+
+ **Scheduled Event Configuration Issue**
+
+ Ensure "Run as a Scheduled Event" is enabled during configuration; otherwise, syncing issues may occur.
+
+  ![images/schedule_event.png](images/schedule_event.png)
