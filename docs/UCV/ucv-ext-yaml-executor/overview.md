@@ -22,7 +22,7 @@ view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/
 * **New parameters**: 
   * `directSync` (Boolean): Enables direct synchronization during YAML execution.
   * `applicationids` (Array): Mandatory when `directSync` is enabled to selectively sync only specified application IDs.
-* **Note**: Direct synchronization functionality in this version is supported only for the UCD (UrbanCode Deploy) plugin.
+* **Note**: Direct synchronization functionality in this version is supported only for the devops deploy plugin.
 
 ### Version 0.0.13
 
