@@ -2,12 +2,1219 @@
 
 ## List of All Commands:
 
+## CAC Setup
+
+The `cac setup` command stores server credentials and context information in a local configuration file so that you do not have to provide the server URL, username, and password with every command. Once configured, commands such as `download-component` can resolve these values automatically from the stored context.
+
+### Usage
+
+*Initial setup (credentials required)*:  
+`cac setup --server-url <url> --user <username> --pass <password> [--application <name>] [--component <name>]`
+
+*Partial update (one or more fields)*:  
+`cac setup [--server-url <url>] [--user <username>] [--pass <password>] [--application <name>] [--component <name>]`
+
+*Set component process context*:  
+`cac setup --comp-process-name <name> --comp-process-component <component>`
+
+*Set application process context*:  
+`cac setup --app-process-name <name> --app-process-application <application>`
+
+*Display current configuration*:  
+`cac setup --show`
+
+*Clear configuration*:  
+`cac setup --clear`
+
+### Options
+
+| Flag | Alias | Description |
+|------|-------|-------------|
+| `--server-url` | `--url` | Server URL (e.g., `https://ucd.example.com:8443`) |
+| `--user` | `--username` | Username for authentication |
+| `--pass` | `--password` | Password for authentication |
+| `--application` | `--app` | Application name for context |
+| `--component` | `--comp` | Component name for context |
+| `--app-process-name` | | Application process name for context |
+| `--app-process-application` | | Application name for application process context |
+| `--comp-process-name` | | Component process name for context |
+| `--comp-process-component` | | Component name for component process context |
+| `--show` | `-s` | Display current configuration |
+| `--clear` | `-c` | Delete configuration file |
+| `--help` | `-h` | Show help message |
+
+### Behavior
+
+- **Initial setup** — The three credential fields (`--server-url`, `--user`, `--pass`) are required on the first run to create a valid configuration.
+- **Partial update** — After the initial setup, you can provide one or more fields to update. Fields that are not specified retain their existing values.
+- **Application and component names** — These are optional and can be set or updated at any time.
+- **Process context** — Process names and their parent names (component or application) are always provided as separate flags.
+
+### How Context Reduces Repetition
+
+Without setup, every command requires the full set of credentials and resource names:
+
+```sh
+download-component myuser mypassword https://ucd.example.com:8443 MyComponent MyComponent.json
+```
+
+After running `cac setup`, the CLI resolves credentials and context from the configuration file, so the same operation becomes:
+
+```sh
+download-component MyComponent MyComponent.json
+```
+
+If the component name is also stored in the context, the command simplifies further to:
+
+```sh
+download-component MyComponent.json
+```
+
+### Configuration Priority
+
+Values are resolved in the following order (highest to lowest):
+
+1. **CLI flags** — `--server-url`, `--user`, `--pass`, `--application`, `--component`, `--app-process-name`, `--comp-process-name`, etc.
+2. **Config file** — `~/.cac/config.yaml`
+
+CLI flags always take precedence over stored configuration values.
+
+### Configuration File Location
+
+The configuration is stored at `~/.cac/config.yaml`.
+
+### Sample Configuration File
+
+Below is the structure of the generated `config.yaml` after running `cac setup`:
+
+```yaml
+# CAC Configuration File
+# This file contains sensitive credentials. Keep it secure!
+# File permissions should be 600 (owner read/write only)
+setup:
+  server-url: "https://ucd.example.com:8443/"
+  username: "admin"
+  password: "{encrypted}qBkXTOZCZEB8SrAqRSJgXA=="
+component-process:
+  component-name: "MyComponent"
+  process-name: "InstallProcess"
+application-process:
+  application-name: "MyApp"
+  process-name: "DeployProcess"
+```
+
+> **Note:** The `password` field is always stored in encrypted form. Never edit it manually.
+
+### Viewing Current Configuration
+
+Running `cac setup --show` displays the current stored configuration:
+
+```
+Current Configuration:
+  Config File:  C:\Users\<username>\.cac\config.yaml
+  Server URL:   https://ucd.example.com:8443/
+  Username:     admin
+  Password:     ***
+  Component:    (not set)
+  Application:  (not set)
+Component Process:
+  Component:    MyComponent
+  Process:      InstallProcess
+Application Process:
+  Application:  MyApp
+  Process:      DeployProcess
+```
+
+> **Note:** Passwords are masked in the `--show` output and are never displayed in plain text. Fields that have not been configured display `(not set)`.
+
+### Important Notes
+
+- Only one server configuration is supported at a time. Running `cac setup` with a different server URL overwrites the previous configuration.
+- If a command is run without `cac setup` and without providing credentials via CLI flags, the tool will exit with an error indicating that credentials are missing.
+
+### Examples
+
+- **Initial setup**
+
+        `cac setup --url https://ucd.example.com:8443 --user admin --pass secret`
+
+- **Update only password**
+
+        `cac setup --pass newPassword`
+
+- **Update username and password**
+
+        `cac setup --user newUser --pass newPass`
+
+- **Update only application name**
+
+        `cac setup --application MyApp`
+
+- **Update only component name**
+
+        `cac setup --component MyComponent`
+
+- **Update multiple fields at once**
+
+        `cac setup --pass newPass --application MyApp --component MyComp`
+
+- **Set application process context**
+
+        `cac setup --app-process-name DeployProcess --app-process-application MyApp`
+
+- **Set component process context**
+
+        `cac setup --comp-process-name InstallProcess --comp-process-component MyComp`
+
+- **Display current configuration**
+
+        `cac setup --show`
+
+- **Clear configuration**
+
+        `cac setup --clear`
+
+### Security Considerations
+
+- **Password encryption** — Passwords are encrypted automatically before being written to the configuration file.
+- **File permissions** — The config file is created with `600` permissions (owner read/write only).
+- **Version control** — Never commit `~/.cac/config.yaml` to version control. Add it to your `.gitignore` if the home directory is tracked.
+
+---
+
+## Component as Configuration Commands
+
+### Component Management
+
+- **Download a Component**  
+  *Syntax*:  
+  `download-component <username> <password> <server-url> <component-name> <output-file>.<json|yaml>`  
+  *Example*:
+
+        `./download-component myuser mypassword https://url:8443 myComponent myComponent.json`
+
+  *With saved credentials (component name as argument)*:  
+  `download-component <component-name> <output-file>.<json|yaml>`  
+  *Example*:
+
+        `./download-component myComponent myComponent.json`
+
+  *With saved credentials AND component name in context*:  
+  `download-component <output-file>.<json|yaml>`  
+  *Example*:
+
+        `./download-component myComponent.json`
+
+  > **Note:** Set component context first: `cac setup --component myComponent`
+
+- **Upload a Component**  
+  *Syntax*:  
+  `upload-component <username> <password> <server-url> <input-file>.<json|yaml>`  
+  *Example*:
+
+        `./upload-component myuser mypassword https://url:8443 myComponent.json`
+
+  *With saved credentials*:  
+  `upload-component <input-file>.<json|yaml>`  
+  *Example*:
+
+        `./upload-component myComponent.json`
+
+## Component CAC Structure
+
+A Component CAC file contains the complete definition of a component including its properties and configurations.
+
+### Field Descriptions
+
+#### Component Metadata
+- **name**: The unique identifier for the component
+- **description**: Human-readable description of the component
+- **componentType**: Type of component (STANDARD/ZOS)
+- **defaultVersionType**: Version numbering strategy (INCREMENTAL, FULL, etc.)
+- **importAutomatically**: Whether to automatically import versions
+- **cleanupDaysToKeep/cleanupCountToKeep**: Cleanup policies for old versions
+- **sourceConfigPluginName**: Name of the source configuration plugin
+
+#### Properties Structure
+The `properties` object contains five  main sections:
+
+1. **environment**: Environment-level properties
+2. **resource**: Resource-level properties
+3. **version**: Version-level properties
+4. **component**: Component-level properties
+5. **sourceConfig**: Source configuration plugin properties
+
+Each property definition includes:
+- **name**: Internal property name
+- **type**: Property type (TEXT, TEXTAREA, CHECKBOX, SELECT, MULTI_SELECT)
+- **required**: Whether the property is required
+- **label**: User-friendly display label
+- **description**: Property description
+- **default**: Default value
+- **allowedValues**: For SELECT/MULTI_SELECT types, list of allowed values
+- **secure**: For component properties, indicates if the value is encrypted
+
+#### Team Mappings
+- **teams**: A Comma separated list of team assignments for the component
+
+#### Tags
+- **tags**: A Comma separated list tags for categorization and filtering
+
+### Real-World Example
+
+Here's an actual Component CAC JSON file structure with all the fields
+
+### Mandatory and Optional Fields
+
+The only mandatory field to create a component is `name`. The minimal JSON required to create a component is:
+
+```json
+{
+  "name": "MyComponent"
+}
+```
+
+When a component is created with only the `name` field, the server applies default values for all other fields. Notable defaults include:
+
+| Field | Default Value |
+|-------|---------------|
+| `defaultVersionType` | `FULL` |
+| `componentType` | `STANDARD` |
+| `importAutomatically` | `false` |
+| `cleanupDaysToKeep` | `0` |
+| `cleanupCountToKeep` | `0` |
+
+To override any of these defaults, include the field explicitly. For example, to set the version type to `INCREMENTAL`:
+
+```json
+{
+  "name": "MyComponent",
+  "defaultVersionType": "INCREMENTAL"
+}
+```
+
+All remaining fields are optional at the component level and can be provided to configure properties such as source configuration, processes, tags, teams, and other component settings.
+
+- **Source Configuration**: The required fields within `sourceConfig` depend on the selected source configuration plugin. Different plugins, such as Git, Maven, File System, and TFS, may have different mandatory fields. Refer to the corresponding source configuration/plugin documentation for the required fields applicable to each plugin.
+- **Existing Components**: If the component already exists on the server, fields omitted from the JSON may retain their existing configuration, depending on the update behavior of the CAC command/API. Users should verify the expected update/merge behavior before uploading a partial configuration to an existing component.
+
+> **Note:** The common mandatory fields are documented here. Plugin-specific mandatory fields are provided in the respective source configuration sections. This keeps the documentation maintainable when new source configuration plugins are added.
+
+### Limitation:
+The `processes` field in your component JSON is informational only and has no effect on the `upload-component` operation.
+
+To upload a component process, use the dedicated command:
+
+```sh
+upload-component-process <process-json-file>
+```
+### JSON Structure
+
+```json5
+{
+  "name": "CAC-Standard-Component-Model",
+  "description": "Reusable component definition with environment, resource, and version configurations",
+  "componentType": "STANDARD",
+  "defaultVersionType": "INCREMENTAL",
+  "importAutomatically": true,
+  "cleanupDaysToKeep": 0,
+  "cleanupCountToKeep": 0,
+  "sourceConfigPluginName": "",
+  "properties": {
+    "environment": [
+      {
+        "name": "env-notes",
+        "type": "TEXTAREA",
+        "required": true,
+        "label": "Environment Notes",
+        "description": "Notes related to deployment environment",
+        "default": "Provide environment-specific details"
+      },
+      {
+        "name": "enable-feature-flag",
+        "type": "CHECKBOX",
+        "required": "checkbox",
+        "label": "Enable Feature Flag",
+        "description": "Toggle to enable or disable feature",
+        "default": false
+      }
+    ],
+    "resource": [
+      {
+        "name": "resource-validation-list",
+        "type": "MULTI_SELECT",
+        "required": "multi-select",
+        "allowedValues": [
+          {
+            "label": "Option1,Option2,Option3",
+            "value": "Option1,Option2,Option3"
+          }
+        ],
+        "label": "Resource Validation Options",
+        "description": "Select applicable resource validation options"
+      },
+      {
+        "name": "resource-profile-selector",
+        "type": "SELECT",
+        "required": true,
+        "allowedValues": [
+          {
+            "label": "Profile A",
+            "value": "Profile A"
+          },
+          {
+            "label": "Profile B",
+            "value": "Profile B"
+          },
+          {
+            "label": "Profile C",
+            "value": "Profile C"
+          }
+        ],
+        "label": "Resource Profile Selector"
+      }
+    ],
+    "version": [
+      {
+        "name": "enable-versioning",
+        "type": "CHECKBOX",
+        "required": "checkbox",
+        "label": "Enable Versioning",
+        "description": "Flag to enable version control",
+        "default": false
+      },
+      {
+        "name": "version-validation",
+        "type": "CHECKBOX",
+        "required": "checkbox",
+        "label": "Version Validation",
+        "description": "Validate version before deployment",
+        "default": false
+      }
+    ],
+    "component": {
+      "component-config-value": {
+        "value": "UpdatedValue",
+        "description": "General component configuration value",
+        "secure": false
+      },
+      "component-secure-token": {
+        "value": "crypt_v1{AES/CBC/PKCS5Padding|key|encryptedValue}",
+        "description": "Secure token for component",
+        "secure": true
+      }
+    },
+    "sourceConfig": {
+      "TFSComponentProperties": {
+        "tfs-username": "admin",
+        "tfs-password": "crypt_v1{AES/CBC/PKCS5Padding|key|encryptedValue}",
+        "prependBuildDefinition": true,
+        "buildQuality": "",
+        "dirOffset": "",
+        "includes": "",
+        "excludes": "",
+        "extensions": "",
+        "saveFileExecuteBits": true,
+        "tfs-project-name": "myproject",
+        "tfs-repo-url": "https://tfs.example.com",
+        "tfs-build-status": "PARTIALLY_SUCCEEDED",
+        "tfs-build-definition": "mybuild"
+      }
+    }
+  },
+  "processes": "CAC Component Deployment Process",
+  "teams": "Component Engineering Team",
+  "tags": "CAC, COMPONENT, STANDARD"
+}
+```
+### YAML Structure
+```yaml
+name: "CAC-Standard-Component-Model"
+description: "Reusable component definition with environment, resource, and version configurations"
+componentType: "STANDARD"
+defaultVersionType: "INCREMENTAL"
+importAutomatically: true
+cleanupDaysToKeep: 0
+cleanupCountToKeep: 0
+sourceConfigPluginName: ""
+
+properties:
+  environment:
+    - name: "env-notes"
+      type: "TEXTAREA"
+      required: true
+      label: "Environment Notes"
+      description: "Notes related to deployment environment"
+      default: "Provide environment-specific details"
+
+    - name: "enable-feature-flag"
+      type: "CHECKBOX"
+      required: "checkbox"
+      label: "Enable Feature Flag"
+      description: "Toggle to enable or disable feature"
+      default: false
+
+  resource:
+    - name: "resource-validation-list"
+      type: "MULTI_SELECT"
+      required: "multi-select"
+      allowedValues:
+        - label: "Option1,Option2,Option3"
+          value: "Option1,Option2,Option3"
+      label: "Resource Validation Options"
+      description: "Select applicable resource validation options"
+
+    - name: "resource-profile-selector"
+      type: "SELECT"
+      required: true
+      allowedValues:
+        - label: "Profile A"
+          value: "Profile A"
+        - label: "Profile B"
+          value: "Profile B"
+        - label: "Profile C"
+          value: "Profile C"
+      label: "Resource Profile Selector"
+
+  version:
+    - name: "enable-versioning"
+      type: "CHECKBOX"
+      required: "checkbox"
+      label: "Enable Versioning"
+      description: "Flag to enable version control"
+      default: false
+
+    - name: "version-validation"
+      type: "CHECKBOX"
+      required: "checkbox"
+      label: "Version Validation"
+      description: "Validate version before deployment"
+      default: false
+
+  component:
+    component-config-value:
+      value: "UpdatedValue"
+      description: "General component configuration value"
+      secure: false
+
+    component-secure-token:
+      value: "crypt_v1{AES/CBC/PKCS5Padding|key|encryptedValue}"
+      description: "Secure token for component"
+      secure: true
+
+  sourceConfig:
+    TFSComponentProperties:
+      tfs-username: "admin"
+      tfs-password: "crypt_v1{AES/CBC/PKCS5Padding|key|encryptedValue}"
+      prependBuildDefinition: true
+      buildQuality: ""
+      dirOffset: ""
+      includes: ""
+      excludes: ""
+      extensions: ""
+      saveFileExecuteBits: true
+      tfs-project-name: "myproject"
+      tfs-repo-url: "https://tfs.example.com"
+      tfs-build-status: "PARTIALLY_SUCCEEDED"
+      tfs-build-definition: "mybuild"
+
+processes: "CAC Component Deployment Process"
+tags: "CAC, COMPONENT, STANDARD"
+teams: "Component Engineering Team"
+```
+
+## Workflow Integration
+
+### Workflow Scenarios
+
+#### Scenario 1: Modify Component Metadata
+
+Use component upload/download when you need to change component-level settings:
+
+```sh
+# Download the component definition
+download-component admin admin https://localhost:8443 MyWebApp MyWebApp.json
+
+# Edit MyWebApp.json to update:
+# - teams: "Team1, Team2, NewTeam"
+# - tags: "Production, Critical"
+# - property definitions
+# - cleanup policies
+# - source configuration
+
+# Upload the modified component
+upload-component admin admin https://localhost:8443 MyWebApp.json
+
+```
+#### Scenario 2: Create New Component from Scratch
+
+```sh
+# Create a new component from the CAC JSON file with all required fields
+# (See examples above for structure)
+
+# Upload to create the component
+upload-component admin admin https://localhost:8443 NewComponent.json
+
+```
+
+---
+
+## Application as Configuration Commands
+
+### Application Management
+
+- **Download an Application**  
+  *Syntax*:  
+  `download-application <username> <password> <server-url> <application-name> <output-file>.<json|yaml>`  
+  *Example*:
+
+        `./download-application myuser mypassword https://url:8443 myApp myApp.json`
+
+  *With saved credentials (application name as argument)*:  
+  `download-application <application-name> <output-file>.<json|yaml>`  
+  *Example*:
+
+        `./download-application myApp myApp.json`
+
+- **Upload an Application**  
+  *Syntax*:  
+  `upload-application <username> <password> <server-url> <input-file>.<json|yaml>`  
+  *Example*:
+
+        `./upload-application myuser mypassword https://url:8443 myApp.json`
+
+  *With saved credentials*:  
+  `upload-application <input-file>.<json|yaml>`  
+  *Example*:
+
+        `./upload-application myApp.json`
+
+## Application CAC Structure
+
+An Application CAC file contains the complete definition of an application including its properties, teams, tags, webhooks, and configurations.
+
+### Field Descriptions
+
+#### Application Metadata
+- **type**: The type of entity (set to "application")
+- **name**: The unique identifier for the application
+- **description**: Human-readable description of the application (optional, defaults to empty)
+- **useWizard**: Boolean value indicating whether to use the wizard interface
+
+#### Settings
+The `settings` object contains configuration options:
+- **enforceCompleteSnapshots**: Optional boolean value, defaults to false
+- **onlyChangedVersions**: Optional boolean value, defaults to false
+
+#### Notification Scheme
+- **notificationSchemeName**: Optional field referencing an existing notification scheme from the server, defaults to none
+
+#### Properties Structure
+The `properties` array contains property definitions. Each property definition includes:
+- **name**: Internal property name
+- **value**: Optional property value
+- **description**: Optional property description
+- **secure**: Boolean indicating if the property value is encrypted (default: false)
+
+> **Note:** You cannot delete existing properties but you can modify them.
+
+#### Webhooks
+- **webhook**: Optional array for adding webhooks. Each webhook definition includes:
+  - **url**: The webhook URL
+  - **proxyHost**: Proxy host (optional)
+  - **proxyPort**: Proxy port (optional)
+  - **environments**: Array of environment names where the webhook applies
+  - **webhookTemplate**: Object containing webhook template configuration
+    - **name**: Template name
+    - **description**: Template description
+    - **type**: Webhook type (e.g., PROCESS_SUCCESS)
+
+> **Note:** You can add new webhooks, modify them, or delete them by removing the corresponding JSON from the webhooks array. Environment & webhook-template are prerequisites. You cannot modify webhook proxyusername and proxypassword using CAC and would have to do it in UI.
+
+#### Team Mappings
+- **teams**: Optional array of team names that already exist in the server
+
+#### Tags
+- **tags**: Optional array of tag names that already exist in the server
+
+#### Informational Fields
+- **components**: Optional info-only field listing associated components
+- **environments**: Optional info-only field listing associated environments
+- **processes**: Optional info-only field listing associated processes
+
+> **Note:** The informational fields (components, environments, processes) are for reference only. To make modifications to these entities, use their respective commands.
+
+### Mandatory and Optional Fields
+
+The only mandatory field to create an application is `name`. The minimal JSON required to create an application is:
+
+```json
+{
+  "name": "PAC-APP-2"
+}
+```
+
+When an application is created with only the `name` field, the server applies default values for all other fields.
+
+All remaining fields are optional at the application level and can be provided to configure settings such as properties, webhooks, teams, tags, and other application configurations.
+
+### Limitations
+
+- **Pipelines, Blueprint, Calendar** are not supported yet
+- **components, environments, processes** — These fields are for informational purposes only. If you want to make modifications to them, you must use the respective commands for these entities
+- **Webhook credentials** — You cannot modify webhook proxyusername and proxypassword using CAC; these must be configured in the UI
+
+### JSON Structure
+
+```json5
+{
+  "type": "application",
+  "name": "<name of the application>",
+  "description": "<Optional | defaults to empty | description>",
+  "useWizard": <Boolean value>,
+  "settings": {
+    "enforceCompleteSnapshots": <Optional | boolean value | defaults to false>,
+    "onlyChangedVersions": <Optional | boolean value | defaults to false>
+  },
+  "notificationSchemeName": "<Optional | Existing notification scheme from server | defaults to none>",
+  "properties": [
+    // Optional | 0 or more properties in below structure
+    {
+      "name": "<name of property>",
+      "value": "<optional value>",
+      "description": "<optional description>",
+      "secure": <false>
+    }
+  ],
+  "webhook": [
+    // Optional | array for adding webhooks
+  ],
+  "teams": [
+    // Optional | array of team names that already exist in the server
+  ],
+  "tags": [
+    // Optional | array of tag names that already exist in the server
+  ],
+  "components": "<Optional info only fields>",
+  "environments": "<Optional info only fields>",
+  "processes": "<Optional info only fields>"
+}
+```
+
+### YAML Structure
+
+```yaml
+type: "application"
+name: "<name of the application>"
+description: "<Optional | defaults to empty | description>"
+useWizard: <Boolean value>
+settings:
+  enforceCompleteSnapshots: <Optional | boolean value | defaults to false>
+  onlyChangedVersions: <Optional | boolean value | defaults to false>
+notificationSchemeName: "<Optional | Existing notification scheme from server | defaults to none>"
+properties:
+  - name: "<name of property>"
+    value: "<optional value>"
+    description: "<optional description>"
+    secure: <false>
+webhook:
+  - <Optional | array for adding webhooks>
+teams:
+  - "<Optional | team name that already exists in the server>"
+tags:
+  - "<Optional | tag name that already exists in the server>"
+components: "<Optional info only fields>"
+environments: "<Optional info only fields>"
+processes: "<Optional info only fields>"
+```
+
+### Additional Information
+
+#### Notification Scheme
+If you want to modify `notificationSchemeName` to another value, ensure that the new notification scheme already exists in the server.
+
+#### Properties
+You can add properties using a JSON structure like below as an array to the properties field:
+
+```json
+{
+  "name": "prop-1",
+  "value": "property value",
+  "description": "some-desc",
+  "secure": false
+}
+```
+
+You cannot delete existing properties but you can modify them.
+
+#### Webhooks
+You can add new webhooks, modify them, or even delete them by removing the corresponding JSON from the webhooks array.
+
+```json
+{
+  "url": "https://url.com",
+  "proxyHost": "",
+  "proxyPort": "",
+  "environments": [
+    "QA"
+  ],
+  "webhookTemplate": {
+    "name": "proc-success",
+    "description": "",
+    "type": "PROCESS_SUCCESS"
+  }
+}
+```
+
+You cannot modify webhook proxyusername and proxypassword using CAC and would have to do it in UI. Environment & webhook-template are prerequisites for this.
+
+### Real-World Examples
+
+#### Example 1: Minimum Required Fields
+
+Minimal JSON for creating an application with `upload-application` command:
+
+```json
+{
+  "name": "PAC-APP-2"
+}
+```
+
+#### Example 2: Complete Application JSON
+
+A comprehensive JSON example of an application:
+
+```json
+{
+  "type": "application",
+  "name": "PAC-APP",
+  "description": "",
+  "useWizard": false,
+  "settings": {
+    "enforceCompleteSnapshots": false,
+    "onlyChangedVersions": true
+  },
+  "notificationSchemeName": "",
+  "properties": [],
+  "teams": [
+    "Deployer-team",
+    "custom_team"
+  ],
+  "tags": [
+    "TEST"
+  ],
+  "webhooks": [
+    {
+      "url": "https://sample.com",
+      "proxyHost": "${p?:system/proxyHost}",
+      "proxyPort": "${p?:system/proxyPort}",
+      "environments": [
+        "DEV",
+        "QA"
+      ],
+      "webhookTemplate": {
+        "name": "proc-success",
+        "description": "",
+        "type": "PROCESS_SUCCESS"
+      }
+    }
+  ],
+  "components": "PAC-COMP",
+  "environments": "QA, DEV",
+  "processes": "APP-PROCESS"
+}
+```
+
+#### Example 3: Complete Application YAML
+
+A comprehensive YAML example for an application:
+
+```yaml
+---
+type: "application"
+name: "PAC-APP"
+description: ""
+useWizard: false
+settings:
+  enforceCompleteSnapshots: false
+  onlyChangedVersions: true
+notificationSchemeName: ""
+properties: []
+components: "PAC-COMP"
+environments: "QA, DEV"
+processes: "APP-PROCESS"
+teams:
+- "Deployer-team"
+- "custom_team"
+tags:
+- "TEST"
+webhooks:
+- url: "https://sample.com"
+  proxyHost: "${p?:system/proxyHost}"
+  proxyPort: "${p?:system/proxyPort}"
+  environments:
+  - "DEV"
+  - "QA"
+  webhookTemplate:
+    name: "proc-success"
+    description: ""
+    type: "PROCESS_SUCCESS"
+```
+
+## Workflow Integration
+
+### Workflow Scenarios
+
+#### Scenario 1: Modify Application Metadata
+
+Use application upload/download when you need to change application-level settings:
+
+```sh
+# Download the application definition
+download-application admin admin https://localhost:8443 MyApp MyApp.json
+
+# Edit MyApp.json to update:
+# - teams: add or modify team assignments
+# - tags: add or modify tags
+# - properties: add or modify application properties
+# - webhooks: add, modify, or remove webhooks
+# - settings: update enforceCompleteSnapshots or onlyChangedVersions
+
+# Upload the modified application
+upload-application admin admin https://localhost:8443 MyApp.json
+```
+
+#### Scenario 2: Create New Application from Scratch
+
+```sh
+# Create a new application from the CAC JSON file with required fields
+# (See examples above for structure)
+
+# Upload to create the application
+upload-application admin admin https://localhost:8443 NewApplication.json
+```
+
+## Important Security Note
+
+> **⚠ Warning:** Never commit real passwords, encryption keys, tokens, or other credentials to a CAC file or source-control repository.
+
+---
+
+## Environment as Configuration Commands
+
+### Environment Management
+
+- **Download an Environment**  
+  *Syntax*:  
+  `download-environment <username> <password> <server-url> <environment-name> <application-name> <output-file>`  
+  *Example*:
+
+        `download-environment admin admin https://localhost:8443 "DEV" "MyApplication" env.json`
+
+        `download-environment admin admin https://localhost:8443 "DEV" "MyApplication" env.yaml`
+
+- **Upload an Environment**  
+  *Syntax*:  
+  `upload-environment <username> <password> <server-url> <cac-file>`  
+  *Example*:
+
+        `upload-environment admin admin https://localhost:8443 cacenv.json`
+
+        `upload-environment admin admin https://localhost:8443 cacenv.yaml`
+
+## Environment CAC Structure
+
+An Environment CAC file contains the complete definition of an environment linked to an application, including its properties, cleanup policies, approval settings, and resource mappings.
+
+### Field Descriptions
+
+#### Environment Metadata
+- **type**: Must be `"environment"` for environment CAC files
+- **name**: The unique identifier for the environment
+- **applicationName**: The name of the application this environment belongs to (required)
+- **description**: Human-readable description of the environment
+
+#### Artifact Cleanup Settings (`ArtifactCleanUpSettings`)
+- **numberOfVersionsToRetain**: Number of versions to keep (0 = unlimited)
+- **daysToRetainVersions**: Number of days to keep versions (0 = unlimited)
+- **daysToRetainApplicationSnapshots**: Number of days to keep application snapshots (0 = unlimited)
+- **useSystemDefault**: Whether to use system default cleanup settings
+
+#### Deployment History Cleanup (`deploymentHistoryCleanup`)
+- **daysToRetainDeploymentHistory**: Number of days to keep deployment history (0 = unlimited)
+- **useSystemDefault**: Whether to use system default for history cleanup
+
+#### Snapshot and Approval Settings
+- **lockSnapshots**: Whether to lock snapshots after deployment
+- **noSelfApprovals**: Whether to prevent self-approvals
+- **requireApprovals**: Whether approvals are required for deployments
+- **requireSnapshot**: Whether a snapshot is required for deployments
+
+#### External Approval Configuration
+- **externalApprovalAgent**: Name of the agent for external approvals
+- **externalApprovalAgentPool**: Agent pool for external approvals
+- **externalApprovalProcess**: Name of the external approval process
+
+#### Exempt Processes (`exemptProcessesArray`)
+Array of process objects that are exempt from approval requirements:
+- **name**: Name of the exempt application process
+
+#### Environment Properties (`environment-properties`)
+Environment-level properties defined as a key-value object:
+- **key**: Property name
+- **value**: Property value (use `****` for secure properties)
+- **description**: Property description
+- **secure**: Boolean indicating if the value is encrypted
+
+#### Team Mappings
+- **teams**: Array of team names assigned to the environment
+
+#### Approval Gates (`gate`)
+Defines approval gate conditions using logical operators:
+- **OR**: Array of condition groups (at least one group must be satisfied)
+- **AND**: Array of conditions within a group (all conditions must be satisfied)
+- Each condition contains:
+  - **type**: Gate type (`VERSION` or `SNAPSHOT`)
+  - **name**: Name of the version status or snapshot
+
+#### Base Resources (`baseResources`)
+Array of resource objects that define the base resources for this environment:
+- **name**: Full path to the resource (e.g., `"/CreatePlanResource/Agent_1.0"`)
+
+#### Deployment Triggers (`deploymentTriggers`)
+Array of automatic deployment trigger definitions:
+- **component**: Name of the component that triggers the deployment
+- **applicationProcess**: Name of the application process to execute
+- **executingUser**: Username under which the triggered deployment runs
+
+### Mandatory and Optional Fields
+
+The mandatory fields to create an environment are `type`, `name`, and `applicationName`. The minimal JSON required to create an environment is:
+
+```json
+{
+  "type": "environment",
+  "name": "DEV-Test",
+  "applicationName": "cac-application-test"
+}
+```
+
+When an environment is created with only these fields, the server applies default values for all other fields. Notable defaults include:
+
+| Field | Default Value |
+|-------|---------------|
+| `ArtifactCleanUpSettings.useSystemDefault` | `true` |
+| `deploymentHistoryCleanup.useSystemDefault` | `true` |
+
+All remaining fields are optional and can be provided to configure properties such as approval settings, environment properties, teams, gates, base resources, and deployment triggers.
+
+### Real-World Example
+
+Here's an actual Environment CAC JSON file structure with all the fields
+
+### JSON Structure
+
+```json5
+{
+  "type": "environment",
+  "name": "DEV",
+  "applicationName": "cac-application-test",
+  "description": "Dev Environment Test",
+  "ArtifactCleanUpSettings": {
+    "numberOfVersionsToRetain": 0,
+    "daysToRetainVersions": 0,
+    "daysToRetainApplicationSnapshots": 0,
+    "useSystemDefault": true
+  },
+  "deploymentHistoryCleanup": {
+    "daysToRetainDeploymentHistory": 0,
+    "useSystemDefault": true
+  },
+  "lockSnapshots": true,
+  "noSelfApprovals": true,
+  "requireApprovals": false,
+  "requireSnapshot": true,
+  "externalApprovalAgent": "Agent_1.0",
+  "externalApprovalAgentPool": "",
+  "externalApprovalProcess": "New EAP Test Process",
+  "exemptProcessesArray": [
+    {
+      "name": "TestApp2"
+    },
+    {
+      "name": "Test App Process"
+    }
+  ],
+  "environment-properties": {
+    "env-prop-1": {
+      "value": "Test Props",
+      "description": "Props for Env",
+      "secure": false
+    },
+    "env-prop-2": {
+      "value": "****",
+      "description": "Environment Property",
+      "secure": true
+    }
+  },
+  "teams": [
+    "Standard App Team"
+  ],
+  "gate": {
+    "OR": [
+      {
+        "AND": [
+          {
+            "type": "VERSION",
+            "name": "S3"
+          },
+          {
+            "type": "VERSION",
+            "name": "S1"
+          },
+          {
+            "type": "SNAPSHOT",
+            "name": "Snap-02"
+          }
+        ]
+      }
+    ]
+  },
+  "baseResources": [
+    {
+      "name": "/CreatePlanResource/Agent_1.0"
+    }
+  ],
+  "deploymentTriggers": [
+    {
+      "component": "CAC-Canonical-Comp-Model",
+      "applicationProcess": "Test App Process",
+      "executingUser": "admin"
+    },
+    {
+      "component": "CAC-Canonical-Comp-Model",
+      "applicationProcess": "TestApp2",
+      "executingUser": "admin"
+    },
+    {
+      "component": "CAC-Canonical-component-Model-02",
+      "applicationProcess": "Test App Process",
+      "executingUser": "admin"
+    }
+  ]
+}
+```
+
+### YAML Structure
+
+```yaml
+type: "environment"
+name: "DEV"
+applicationName: "cac-application-test"
+description: "Dev Environment Test"
+
+ArtifactCleanUpSettings:
+  numberOfVersionsToRetain: 0
+  daysToRetainVersions: 0
+  daysToRetainApplicationSnapshots: 0
+  useSystemDefault: true
+
+deploymentHistoryCleanup:
+  daysToRetainDeploymentHistory: 0
+  useSystemDefault: true
+
+lockSnapshots: true
+noSelfApprovals: true
+requireApprovals: false
+requireSnapshot: true
+
+externalApprovalAgent: "Agent_1.0"
+externalApprovalAgentPool: ""
+externalApprovalProcess: "New EAP Test Process"
+
+exemptProcessesArray:
+  - name: "TestApp2"
+  - name: "Test App Process"
+
+environment-properties:
+  env-prop-1:
+    value: "Test Props"
+    description: "Props for Env"
+    secure: false
+  env-prop-2:
+    value: "****"
+    description: "Environment Property"
+    secure: true
+
+teams:
+  - "Standard App Team"
+
+gate:
+  OR:
+    - AND:
+        - type: "VERSION"
+          name: "S3"
+        - type: "VERSION"
+          name: "S1"
+        - type: "SNAPSHOT"
+          name: "Snap-02"
+
+baseResources:
+  - name: "/CreatePlanResource/Agent_1.0"
+
+deploymentTriggers:
+  - component: "CAC-Canonical-Comp-Model"
+    applicationProcess: "Test App Process"
+    executingUser: "admin"
+  - component: "CAC-Canonical-Comp-Model"
+    applicationProcess: "TestApp2"
+    executingUser: "admin"
+  - component: "CAC-Canonical-component-Model-02"
+    applicationProcess: "Test App Process"
+    executingUser: "admin"
+```
+
+## Environment Workflow Integration
+
+### Workflow Scenarios
+
+#### Scenario 1: Create New Environment for Application
+
+```sh
+# Create environment CAC file for the application
+# (See Environment CAC Structure above for structure)
+
+# Upload environment
+upload-environment admin admin https://localhost:8443 dev-env.json
+```
+
+#### Scenario 2: Update Environment Configuration
+
+```sh
+# Download the environment definition
+download-environment admin admin https://localhost:8443 "DEV" "CAC Application" dev-env.json
+
+# Edit dev-env.json to update:
+# - cleanup policies
+# - approval settings
+# - environment properties
+# - base resources
+# - teams
+
+# Upload the modified environment
+upload-environment admin admin https://localhost:8443 dev-env.json
+```
+
+---
+
+## Process as Configuration Commands
+
 - **Download a Generic Process**  
   *Syntax*:  
   `download-generic-process <username> <password> <server-url> <process-name> <output-file>`  
-  *Example*:  
-  
-    
+  *Example*:
+
+
 
         `download-generic-process myuser mypassword https://url:8443 myGenericProcessName myGenericProcess.json`
     
@@ -17,9 +1224,9 @@
 - **Download all Generic processes**  
   *Syntax*:  
   `download-generic-process-all <username> <password> <server-url> <output-file-type(json/yaml)>`  
-  *Example*:  
-  
-    
+  *Example*:
+
+
 
         `For Ex(json format): ./download-generic-process-all myuser mypassword https://url:8443 json`
     
@@ -29,9 +1236,9 @@
 - **Download a Component Process**  
   *Syntax*:  
   `download-component-process <username> <password> <server-url> <component-process-name> <component-name> <output-file>`  
-  *Example*:  
-  
-    
+  *Example*:
+
+
 
         `download-component-process myuser mypassword https://url:8443 myComponentProcessName myComponentName myComponentProcess.json`
     
@@ -41,9 +1248,9 @@
 - **Download all processes for a given component**  
   *Syntax*:    
   `download-component-process-all <username> <password> <server-url> <component-name> <output-file-type(json)>`  
-  *Example*:  
-  
-    
+  *Example*:
+
+
 
         `For Ex(json format): ./download-component-process-all myuser mypassword https://url:8443 myComponentName json`
     
@@ -53,9 +1260,9 @@
 - **Download an Application Process**  
   *Syntax*:  
   `download-application-process <username> <password> <server-url> <application-process-name> <application-name> <output-file>`  
-  *Example*:  
-  
-    
+  *Example*:
+
+
 
         `download-application-process myuser mypassword https://url:8443 myApplicationProcessName myApplicationName myApplicationProcess.json`
     
@@ -66,8 +1273,8 @@
   *Syntax*:  
   `download-application-process-all <username> <password> <server-url> <application-name> <output-file-type(json)>`  
   *Example*:
-    
-    
+
+
 
         `For Ex(json format): ./download-application-process-all myuser mypassword https://url:8443 myApplicationName  json`
     
@@ -77,9 +1284,9 @@
 - **Download a Component Template Process**  
   *Syntax*:  
   `download-component-template-process <username> <password> <server-url> <component-template-process-name> <component-template-name> <output-file>`  
-  *Example*:  
-    
-    
+  *Example*:
+
+
 
         `download-component-template-process myuser mypassword https://url:8443 myComponentTemplateProcessName myComponenTemplatetName myComponentTemplateProcess.json`
     
@@ -89,9 +1296,9 @@
 - **Download an Application Template Process**  
   *Syntax*:  
   `download-application-template-process <username> <password> <server-url> <application-template-process-name> <application-template-name> <output-file>`  
-  *Example*:  
-  
-    
+  *Example*:
+
+
 
         `download-application-template-process myuser mypassword https://url:8443 myApplicationTemplateProcessName myApplicationTemplateName myApplicationTemplateProcess.json`
     
@@ -101,10 +1308,10 @@
 - **Upload a Generic Process**  
   *Syntax*:  
   `upload-generic-process <username> <password> <server-url> <input-file>`  
-  *Example*:  
-    
-    
-        
+  *Example*:
+
+
+
         `upload-generic-process myuser mypassword https://url:8443  myGenericProcess.json`
     
         
@@ -113,9 +1320,9 @@
 - **Upload a Component Process**  
   *Syntax*:  
   `upload-component-process <username> <password> <server-url> <input-file>`  
-  *Example*:  
-  
-    
+  *Example*:
+
+
 
         `upload-component-process myuser mypassword https://url:8443 myComponentProcess.json`
     
@@ -125,9 +1332,9 @@
 - **Upload an Application Process**  
   *Syntax*:  
   `upload-application-process <username> <password> <server-url> <input-file>`  
-  *Example*:  
-  
-    
+  *Example*:
+
+
 
         `upload-application-process myuser mypassword https://url:8443 myApplicationProcess.json`
     
@@ -137,9 +1344,9 @@
 - **Upload a component template process**  
   *Syntax*:  
   `upload-component-template-process <username> <password> <server-url> <input-file>`  
-  *Example*:  
-  
-    
+  *Example*:
+
+
 
         `./upload-component-template-process myuser mypassword https://url:8443 myComponentTemplateProcess.json`
     
@@ -150,9 +1357,9 @@
 - **Upload an application template process**  
   *Syntax*:  
   `upload-application-template-process <username> <password> <server-url> <application-process-name> <application-name> <input-file>`  
-  *Example*:  
-  
-    
+  *Example*:
+
+
 
         `For Ex: ./upload-application-template-process myuser mypassword https://url:8443 myApplicationTemplateProcess.json`
     
@@ -162,7 +1369,7 @@
 - **Note: Both .yml and .yaml extensions are supported**
 - **Important Note: Use quotes for process names/application names/component names that contains space**  
   *For Ex. While downloading an application process*:    
-  `download-application-process myuser mypassword https://url:8443 "my ApplicationProcess Name" "my Application Name" myApplicationProcess.json`  
+  `download-application-process myuser mypassword https://url:8443 "my ApplicationProcess Name" "my Application Name" myApplicationProcess.json`
 
 ## Structure of a Process file
 
@@ -191,7 +1398,7 @@
         # <...yaml body of the process step definitions ...>
     ```
 
-* A process in the above structure is mapped to a json that has multiple process step definitions. there are multiple types of steps that are supported in **Devops Deploy** 
+* A process in the above structure is mapped to a json that has multiple process step definitions. there are multiple types of steps that are supported in **Devops Deploy**
 
 ## Process step definitions
 
@@ -236,10 +1443,10 @@ The step termination event tells the possible termination possibilities of a ste
 3. complete  - upon completion of the current step irrespective of successful or unsuccessful execution
 
 - The events contain data to complete the workflow by defining what the next step is post the completion of the current step.
-the events can either **start** an array of one or more steps defined in the process or can terminate at the **finish** step
-- 
+  the events can either **start** an array of one or more steps defined in the process or can terminate at the **finish** step
+-
 ### Termination event Examples
-  1. Example of events calling other steps in successful and unsuccessful scenarios of the current step
+1. Example of events calling other steps in successful and unsuccessful scenarios of the current step
 
 
 
@@ -268,7 +1475,7 @@ the events can either **start** an array of one or more steps defined in the pro
           start:
             - "some step"
     ```
-2. Examples of events calling the finish step 
+2. Examples of events calling the finish step
 
 * Example-1
 
@@ -321,9 +1528,9 @@ the events can either **start** an array of one or more steps defined in the pro
 Note that in the above examples, the **finish** attribute has no value. The finish step does not need a definition and hence there is no need for a target step value.
 
 ## Process configurations
-  
+
 ### Component Process Configurations
-*  Available from 8.X versions 
+*  Available from 8.X versions
 
 - Syntax
 
@@ -1340,7 +2547,7 @@ Step is available in all types of processes and is used to trigger another gener
         success:
           finish: ""
     ```
-  - Example-1
+- Example-1
 
 
 
@@ -1379,7 +2586,7 @@ Step is available in all types of processes and is used to trigger another gener
           finish: ""
     ```
 
-  - Example-2 : with minimal fields
+- Example-2 : with minimal fields
 
 
 
@@ -1442,7 +2649,7 @@ Step is available in all types of processes and is used to trigger another gener
           finish: ""
     ```
 
-  - Example
+- Example
 
 
 
@@ -1505,7 +2712,7 @@ Step is available in all types of processes and is used to trigger another gener
           start:
             - "<next step>"
     ```
-  - Example
+- Example
 
 
 
@@ -1863,7 +3070,7 @@ Step is available in all types of processes and is used to trigger another gener
             - "<next-step>"
     ```
 
-  - Example
+- Example
 
 
 
@@ -1924,7 +3131,7 @@ Step is available in all types of processes and is used to trigger another gener
         finish: ""
     ```
 
-  - Example
+- Example
 
 
 
@@ -3346,3 +4553,378 @@ This step applies only to application processes.
         success:
           finish: ""
     ```
+---
+
+# CAC AI Skills User Guide
+
+## Overview
+
+The Configuration as Code (CAC) AI Skills enable you to perform DevOps Deploy operations using **natural language** without requiring knowledge of the underlying CAC command syntax.
+
+The AI agent uses the skill definitions to identify the appropriate CAC operation and execute the corresponding CAC CLI command.
+
+### Key Points
+
+* **Start with Setup:** Configure CAC credentials before performing DevOps Deploy operations.
+* **Natural Language:** Describe the operation you want to perform using natural language.
+* **Flexible Activation:** Skills can be invoked using supported action verbs such as `download`, `get`, `export`, `save`, `fetch`, `upload`, `import`, and `create`.
+* **AI Agent Dependency:** Skill triggering and execution depend on the AI agent and model being used.
+
+> **Disclaimer:** The effectiveness of triggering CAC AI Skills depends on the underlying AI agent and model used in the CLI environment. Skill activation accuracy may vary across different models and configurations. Exercise necessary caution and verify the results when working with AI-driven operations.
+
+## Table of Contents
+
+1. [Getting Started](#getting-started)
+2. [Skill Installation](#skill-installation)
+3. [Setup Skill](#setup-skill)
+4. [Download Skills](#download-skills)
+5. [Upload Skills](#upload-skills)
+6. [Quick Reference](#quick-reference)
+7. [Natural Language Examples](#natural-language-examples)
+8. [Troubleshooting](#troubleshooting)
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+Before using the CAC AI Skills, ensure the following prerequisites are met:
+
+* **CAC CLI** — The CAC CLI must be installed and available in the user's environment.
+* **AI-capable CLI environment** — An AI agent-enabled CLI environment such as **GitHub Copilot CLI**, **Devin CLI**, or another compatible AI-capable CLI is required.
+* **Credentials** — CAC credentials must be configured before performing operations. See [Setup Skill](#setup-skill).
+
+### First Steps
+
+1. **Install the CAC AI Skills** in your local agent directory. See [Skill Installation](#skill-installation).
+2. **Configure your CAC credentials** using the Setup Skill.
+3. **Verify the CAC CLI** is available on your system `PATH`.
+4. **Use natural language** to request CAC operations through your AI-capable CLI.
+5. **Review the operation and results** before proceeding with changes to your DevOps Deploy environment.
+
+---
+
+## Skill Installation
+
+To use the CAC AI Skills, install the skill definition files into the agent directory used by your AI-capable CLI environment.
+
+### Installation Steps
+
+1. **Locate the skill files** in the CAC distribution package.
+2. **Install or copy the skill definitions to the skill location supported by your AI-capable CLI environment.**
+3. **Start or restart the AI-capable CLI environment if required.**
+4. **Verify that the CAC skills are recognized** by the AI agent.
+5. **Use natural language to invoke the required CAC operation.**
+
+---
+
+## Setup Skill
+
+The Setup Skill manages authentication credentials required by the CAC CLI.
+
+### Configure Credentials
+
+Configure the DevOps Deploy server credentials before performing CAC operations.
+
+**Required information:**
+
+* Server URL (for example, `https://server:8443`)
+* Username
+* Password
+
+**Example requests:**
+
+* `Setup CAC with server https://deploy.company.com:8443, username admin, password <password>`
+* `Configure CAC credentials for https://ucd.example.com:8443 with user john and password <password>`
+
+### View Current Configuration
+
+Displays the current CAC configuration with sensitive credential information masked.
+
+**Example requests:**
+
+* `Show CAC configuration`
+* `Display current setup`
+* `What is my CAC configuration?`
+
+### Clear Credentials
+
+Removes saved CAC credentials from the system.
+
+**Example requests:**
+
+* `Clear CAC credentials`
+* `Remove saved credentials`
+* `Reset CAC configuration`
+
+### Security
+
+* Passwords are stored securely.
+* Passwords are not displayed in plain text.
+* HTTPS endpoints are recommended.
+* Confirmation is required before overwriting or clearing credentials.
+
+---
+
+## Download Skills
+
+Download skills export DevOps Deploy configurations to JSON or YAML files.
+
+### Application and Component Downloads
+
+| Skill           | Activation Phrases                                | Required         | Optional         |
+| --------------- | ------------------------------------------------- | ---------------- | ---------------- |
+| **Application** | download/get/export/save/fetch application [name] | Application name | Format, filename |
+| **Component**   | download/get/export/save/fetch component [name]   | Component name   | Format, filename |
+
+**Supported formats:** JSON and YAML.
+
+**Example requests:**
+
+* `Download application MyApp`
+* `Get Payment Gateway application as YAML`
+* `Export Auth Service app to auth.yaml`
+* `Download component MyComponent as YAML`
+
+### Environment Download
+
+**Activation phrases:** `download/get/export/save/fetch environment [name] from [application]`
+
+**Required:** Environment name, Application name
+
+**Optional:** Format, filename
+
+**Supported formats:** JSON and YAML.
+
+**Example requests:**
+
+* `Download environment DEV from MyApp`
+* `Get Production environment of Payment Gateway`
+* `Export TEST environment from Auth Service to test.yaml`
+
+### Process Downloads
+
+#### Application and Component Processes
+
+| Skill                   | Activation Phrases                                                       | Required                       |
+| ----------------------- | ------------------------------------------------------------------------ | ------------------------------ |
+| **Application Process** | download/get/export/save/fetch application process [name] from [app]     | Process name, Application name |
+| **Component Process**   | download/get/export/save/fetch component process [name] from [component] | Process name, Component name   |
+
+**Supported formats:** JSON and YAML.
+
+**Example requests:**
+
+* `Download application process Deploy from MyApplication`
+* `Get Build Process from Payment Service application as YAML`
+* `Download component process Build from MyComponent`
+
+#### Generic and Approval Processes
+
+| Skill                         | Activation Phrases                                              | Required     |
+| ----------------------------- | --------------------------------------------------------------- | ------------ |
+| **Generic Process**           | download/get/export/save/fetch generic process [name]           | Process name |
+| **External Approval Process** | download/get/export/save/fetch external approval process [name] | Process name |
+
+**Supported formats:** JSON and YAML.
+
+**Example requests:**
+
+* `Download generic process SystemDeploy`
+* `Get external approval process ApprovalGate as YAML`
+
+#### Template Processes
+
+| Skill                            | Activation Phrases                                                 | Required     |
+| -------------------------------- | ------------------------------------------------------------------ | ------------ |
+| **Application Template Process** | download/get/export/save/fetch application template process [name] | Process name |
+| **Component Template Process**   | download/get/export/save/fetch component template process [name]   | Process name |
+
+**Supported formats:** JSON and YAML.
+
+**Example requests:**
+
+* `Download application template process StandardDeploy`
+* `Get component template process BuildTemplate as YAML`
+
+#### Download All Processes
+
+| Skill                         | Activation Phrases                                       | Required |
+| ----------------------------- | -------------------------------------------------------- | -------- |
+| **All Application Processes** | download/get/export/save/fetch all application processes | None     |
+| **All Component Processes**   | download/get/export/save/fetch all component processes   | None     |
+| **All Generic Processes**     | download/get/export/save/fetch all generic processes     | None     |
+
+**Supported formats:** JSON and YAML.
+
+**Example requests:**
+
+* `Download all application processes`
+* `Get all component processes as YAML`
+* `Export all generic processes to processes.yaml`
+
+---
+
+## Upload Skills
+
+Upload skills import DevOps Deploy configurations from JSON or YAML files.
+
+### Application and Component Uploads
+
+| Skill           | Activation Phrases                                | Required                      |
+| --------------- | ------------------------------------------------- | ----------------------------- |
+| **Application** | upload/import/create application [name]           | Application name, Source file |
+| **Component**   | upload/import/create/push/deploy component [name] | Component name, Source file   |
+
+**Example requests:**
+
+* `Upload application MyApp from myapp.json`
+* `Import Payment Gateway from payment-gateway.yaml`
+* `Create Auth Service using auth.json`
+* `Deploy component MyComponent from mycomponent.json`
+
+### Environment Upload
+
+**Activation phrases:** `upload/import/create environment [name]`
+
+**Required:** Environment name, Source file
+
+**Example requests:**
+
+* `Upload environment DEV from dev-env.json`
+* `Import Production environment from prod.yaml`
+* `Create QA environment using qa.json`
+
+### Process Uploads
+
+#### Application and Component Processes
+
+| Skill                   | Activation Phrases                              | Required                                    |
+| ----------------------- | ----------------------------------------------- | ------------------------------------------- |
+| **Application Process** | upload/import/create application process [name] | Process name, Application name, Source file |
+| **Component Process**   | upload/import/create component process [name]   | Process name, Component name, Source file   |
+
+**Example requests:**
+
+* `Upload application process Deploy from deploy.json for MyApplication`
+* `Import application process Build from build.yaml to Payment Service`
+* `Upload component process Build from build.json for MyComponent`
+
+#### Generic and Approval Processes
+
+| Skill                         | Activation Phrases                                    | Required                  |
+| ----------------------------- | ----------------------------------------------------- | ------------------------- |
+| **Generic Process**           | upload/import/create generic process [name]           | Process name, Source file |
+| **External Approval Process** | upload/import/create external approval process [name] | Process name, Source file |
+
+**Example requests:**
+
+* `Upload generic process SystemDeploy from system-deploy.json`
+* `Import external approval process ApprovalGate from approval.json`
+
+#### Template Processes
+
+| Skill                            | Activation Phrases                                       | Required                  |
+| -------------------------------- | -------------------------------------------------------- | ------------------------- |
+| **Application Template Process** | upload/import/create application template process [name] | Process name, Source file |
+| **Component Template Process**   | upload/import/create component template process [name]   | Process name, Source file |
+
+**Example requests:**
+
+* `Upload application template process StandardDeploy from standard-deploy.json`
+* `Import component template process BuildTemplate from build-template.yaml`
+
+### File Requirements
+
+* File format must be `.json` or `.yaml`.
+* File must exist and be readable.
+* File content must be valid JSON or YAML.
+* The file must contain the configuration required by the corresponding CAC operation.
+
+---
+
+## Quick Reference
+
+### Available Skills
+
+| Category     | Skill                            | Activation                                                  |
+| ------------ | -------------------------------- | ----------------------------------------------------------- |
+| **Setup**    | Configure/View/Clear Credentials | setup/configure/show/clear CAC                              |
+| **Download** | Application                      | download/get/export/save/fetch application                  |
+| **Download** | Component                        | download/get/export/save/fetch component                    |
+| **Download** | Environment                      | download/get/export/save/fetch environment                  |
+| **Download** | Application Process              | download/get/export/save/fetch application process          |
+| **Download** | Component Process                | download/get/export/save/fetch component process            |
+| **Download** | Generic Process                  | download/get/export/save/fetch generic process              |
+| **Download** | External Approval Process        | download/get/export/save/fetch external approval process    |
+| **Download** | Application Template Process     | download/get/export/save/fetch application template process |
+| **Download** | Component Template Process       | download/get/export/save/fetch component template process   |
+| **Download** | All Application Processes        | download/get/export/save/fetch all application processes    |
+| **Download** | All Component Processes          | download/get/export/save/fetch all component processes      |
+| **Download** | All Generic Processes            | download/get/export/save/fetch all generic processes        |
+| **Upload**   | Application                      | upload/import/create application                            |
+| **Upload**   | Component                        | upload/import/create component                              |
+| **Upload**   | Environment                      | upload/import/create environment                            |
+| **Upload**   | Application Process              | upload/import/create application process                    |
+| **Upload**   | Component Process                | upload/import/create component process                      |
+| **Upload**   | Generic Process                  | upload/import/create generic process                        |
+| **Upload**   | External Approval Process        | upload/import/create external approval process              |
+| **Upload**   | Application Template Process     | upload/import/create application template process           |
+| **Upload**   | Component Template Process       | upload/import/create component template process             |
+
+---
+
+## Natural Language Examples
+
+### Basic Workflow
+
+1. **Setup credentials:**
+
+   `Setup CAC with server https://deploy.company.com:8443, username admin, password <password>`
+
+2. **Download an application:**
+
+   `Download application PaymentService as YAML`
+
+3. **Upload the application:**
+
+   `Upload application PaymentService from PaymentService.yaml`
+
+### Common Operations
+
+**Download multiple entities:**
+
+* `Download component AuthModule`
+* `Download application PaymentService`
+* `Download environment Production from PaymentService`
+
+**Download processes:**
+
+* `Download application process Deploy from MyApplication`
+* `Download all component processes as YAML`
+* `Download generic process SystemDeploy`
+
+**Upload with different formats:**
+
+* `Upload application MyApp from myapp.json`
+* `Upload component MyComponent from mycomponent.yaml`
+* `Upload environment DEV from dev-env.json`
+
+---
+
+## Troubleshooting
+
+| Issue                     | Solution                                                                                                                                     |
+| ------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| **No Cached Credentials** | Run `Setup CAC with server <url>, username <user>, password <password>`                                                                      |
+| **File Not Found**        | Verify the file path is correct, the file exists, and the extension is `.json` or `.yaml`.                                                   |
+| **Authentication Failed** | Check credentials with `Show CAC configuration` and re-run setup if needed.                                                                  |
+| **Entity Not Found**      | Verify the entity name and confirm that it exists on the server.                                                                             |
+| **Invalid File Format**   | Ensure the file contains valid JSON or YAML.                                                                                                 |
+| **Missing Parameters**    | Provide all required information, such as the application name for environments or the component name for component processes.               |
+| **Server Not Accessible** | Verify the server URL and network connectivity.                                                                                              |
+| **Skill Not Triggered**   | Verify that the skill files are installed in the correct `.agent` directory and that the AI-capable CLI supports the skills/agent framework. |
+
+---
+
