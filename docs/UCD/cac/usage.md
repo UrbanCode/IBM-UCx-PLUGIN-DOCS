@@ -1,8 +1,8 @@
 ﻿# Usage
 
-Configuration as Code (CAC) lets you manage IBM DevOps Deploy entities â€” components, applications, environments, and processes â€” as JSON or YAML files that can be version-controlled and deployed programmatically.
+Configuration as Code (CAC) lets you manage IBM DevOps Deploy entities — components, applications, environments, and processes — as JSON or YAML files that can be version-controlled and deployed programmatically.
 
-> **âš  Security Notice:** Never commit real passwords, encryption keys, tokens, or other credentials to a CAC file or source-control repository.
+> `Security Notice:` Never commit real passwords, encryption keys, tokens, or other credentials to a CAC file or source-control repository.
 
 ---
 
