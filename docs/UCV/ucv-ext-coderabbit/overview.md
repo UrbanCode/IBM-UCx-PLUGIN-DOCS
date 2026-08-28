@@ -6,7 +6,7 @@ The CodeRabbit plug-in designed to sync code review metrics into DevOps Velocity
 
 * The CodeRabbit plugin exclusively provides review metric data, which it uploads to DevOps Velocity as GenAI PR Event metrics.
 * **GitHub Integration Required**: Because CodeRabbit only supplies the metrics, you must also integrate the GitHub plugin to fetch the corresponding pull request details.
-Github plugin version that supported is 1.5.16
+Github plugin version that supported is 1.5.15 or later
 * **Data Linking (VSM)**: Once both plugins are successfully integrated, the system will automatically link the PR data with the review metrics. These linked data points will then appear in the Value Stream Map (VSM) dot history under the Code Metrics and Approvals category.
 
 ![images/coderabbit-3.png](images/coderabbit-3.png)
@@ -17,7 +17,7 @@ The table below lists the compatible versions of the CodeRabbit plug-in and DevO
 
 | DevOps Velocity Version | CodeRabbit plug-in version |
 | --- | --- |
-| 5.2.7 or later | 1.0.0 |
+| 5.2.7 or later | 1.0.1 |
 
 ## Versions
 
@@ -25,6 +25,6 @@ The DevOps Velocity plug-in images are located in DockerHub. For available versi
 
 ## History
 
-### Version 1.0.0
+### Version 1.0.1
 
-* Initial release
+* **Initial release**: The CodeRabbit plug-in sync code review data (Accepted and Rejected comments) into DevOps Velocity as GenAI PR Events metrics.
