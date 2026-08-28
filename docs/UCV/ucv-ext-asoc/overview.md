@@ -1,15 +1,15 @@
 
-# IBM AppScan on Cloud (ASoC) - Overview
+# HCL AppScan on Cloud (ASoC) - Overview
 
 
-The IBM AppScan on Cloud (ASoC) plug-in allows for integration with the IBM Appscan on Cloud server. This plug-in uses the Appscan on Cloud REST interface to interact with the IBM Appscan on Cloud application. Data is gathered from the ASoC server and displayed as a graphical view in the DevOps Velocity portfolio.
+The HCL AppScan on Cloud (ASoC) plug-in allows for integration with the HCL Appscan on Cloud server. This plug-in uses the Appscan on Cloud REST interface to interact with the HCL Appscan on Cloud application. Data is gathered from the ASoC server and displayed as a graphical view in the DevOps Velocity portfolio.
 
 ## Compatibility
 
 Must be running DevOps Velocity version 2.5.0 and later to use this plug-in.
-The table below lists the compatible versions of the IBM ASoC plug-in and IBM DevOps Velocity:
+The table below lists the compatible versions of the HCL ASoC plug-in and HCL DevOps Velocity:
 
-| DevOps Velocity Version | IBM ASoC Plug-in Versions |
+| DevOps Velocity Version | HCL ASoC Plug-in Versions |
 | --- | --- |
 | 5.2.5 or later | 3.0.29 |
 
