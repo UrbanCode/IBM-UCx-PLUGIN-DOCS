@@ -1,7 +1,7 @@
 
-# IBM Appscan360 (Appscan360) - Usage
+# HCL Appscan360 (Appscan360) - Usage
 
-To use the IBM Appscan360 (Appscan360), the plug-in must be loaded, and an instance is created before you can configure the plug-in integration. You can define configuration properties either in the user interface or in a JSON file of a value stream.
+To use the HCL Appscan360 (Appscan360), the plug-in must be loaded, and an instance is created before you can configure the plug-in integration. You can define configuration properties either in the user interface or in a JSON file of a value stream.
 
 ## Integration type
 The Appscan360 plug-in supports endpoint integration and a scheduled event integration.
@@ -66,11 +66,11 @@ The payload for the POST is shown below.
 |Name|Description|Required|
 | --- | --- | --- |
 |scanExecutionId|The scan Execution ID from the scan ran in Appscan360. It is a mandatory field to render the scan results in Insights.	|Yes|
-|buildUrl|The build URL from the CI/CD tool such as Jenkins, IBM DevOps Deploy and so on. It is an optional field which links the Appscan360 scan results with DevOps Velocity|No|
+|buildUrl|The build URL from the CI/CD tool such as Jenkins, HCL DevOps Deploy and so on. It is an optional field which links the Appscan360 scan results with DevOps Velocity|No|
 
 ### Scheduled Integration
 
-You can use the IBM Appscan360’s scheduled event integration to automatically sync or import the scan data into DevOps Velocity’s application vulnerabilities metrics at regular interval of time. Currently, IBM Appscan360 sync or import scan data from IBM AppScan360 to DevOps Velocity at an interval of 5 minutes.
+You can use the HCL Appscan360’s scheduled event integration to automatically sync or import the scan data into DevOps Velocity’s application vulnerabilities metrics at regular interval of time. Currently, HCL Appscan360 sync or import scan data from HCL AppScan360 to DevOps Velocity at an interval of 5 minutes.
 
 ### Integration Type
 
@@ -114,15 +114,15 @@ The JSON file contains the information for creating a value stream. Within the J
 3. Save and upload the JSON file. This replaces the current JSON file with the new content.
 4. View the new integration on the Integrations page.
 
-## Minimum permission to integrate with IBM AppScan360 (Appscan360)
+## Minimum permission to integrate with HCL AppScan360 (Appscan360)
 
-The IBM AppScan360 (Appscan360) Account used to generate the token must have access to the project which is being integrated with DevOps Velocity.
+The HCL AppScan360 (Appscan360) Account used to generate the token must have access to the project which is being integrated with DevOps Velocity.
 
 ## Configuration properties
 
 The following tables describe the properties used to configure the integration. Each table contains the field name when using the user interface and the property name when using a JSON file.
 
-The General Configuration Properties table describes configuration properties used by all plug-in integrations. The IBM AppScan360 configuration properties table describes the configuration properties that define the connection and communications with the DevOps Velocity server. When using the JSON method to integrate the plug-in these properties are coded within the properties configuration property.
+The General Configuration Properties table describes configuration properties used by all plug-in integrations. The HCL AppScan360 configuration properties table describes the configuration properties that define the connection and communications with the DevOps Velocity server. When using the JSON method to integrate the plug-in these properties are coded within the properties configuration property.
 
 Some properties might not be displayed in the user interface, to see all properties enable the Show Hidden Properties field.
 
@@ -203,7 +203,7 @@ we are capturing it from **comments**.
 **Example:**
  "Comment": "{\"id\":\"ucd\",\"commitsha\":\"1.0-696\",\"buildurl\":\"https://10.134.119.143.nip.io/build/tasks/project/BuildLifeTasks/viewBuildLife?buildLifeId=696\",\"env\":\"a3004teamauto~a3004loopauto:A3004LOOPAUTO-DEV-ENV\",\"prurl\":\"https://10.134.119.42.nip.io/control/a1407teamauto/b1407loopauto/pulls/63\" }"
 
-### IBM AppScan on Cloud configuration properties
+### HCL AppScan on Cloud configuration properties
 
 | Name | Type | Description | Required | Property Name |
 | --- | --- | --- | --- | --- |

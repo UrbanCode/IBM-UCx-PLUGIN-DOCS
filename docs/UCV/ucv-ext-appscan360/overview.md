@@ -1,18 +1,18 @@
 
-# IBM Appscan360 (Appscan360) - Overview
+# HCL Appscan360 (Appscan360) - Overview
 
 
-The IBM Appscan360 (Appscan360) plug-in allows for integration with the IBM Appscan360 server. This plug-in uses the Appscan360 REST interface to interact with the IBM Appscan360 application. Data is gathered from the Appscan360 server and displayed as a graphical view in the DevOps Velocity portfolio.
+The HCL Appscan360 (Appscan360) plug-in allows for integration with the HCL Appscan360 server. This plug-in uses the Appscan360 REST interface to interact with the HCL Appscan360 application. Data is gathered from the Appscan360 server and displayed as a graphical view in the DevOps Velocity portfolio.
 
 ## Compatibility
 
 Must be running DevOps Velocity version 5.2.5 and later to use this plug-in.
-The table below lists the compatible versions of the IBM Appscan360 plug-in and IBM DevOps Velocity:
+The table below lists the compatible versions of the HCL Appscan360 plug-in and HCL DevOps Velocity:
 
-| DevOps Velocity Version | IBM Appscan360 Plug-in Versions |
+| DevOps Velocity Version | HCL Appscan360 Plug-in Versions |
 | --- | --- |
 5.3.0 or later | 1.0.5
-5.2.6 or later | 1.0.2
+5.2.5 or later | 1.0.2
 
 ## Versions
 

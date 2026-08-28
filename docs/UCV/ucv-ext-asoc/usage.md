@@ -1,7 +1,7 @@
 
-# IBM AppScan on Cloud (ASoC) - Usage
+# HCL AppScan on Cloud (ASoC) - Usage
 
-To use the IBM AppScan on Cloud plug-in (ASoC), the plug-in must be loaded, and an instance is created before you can configure the plug-in integration. You can define configuration properties either in the user interface or in a JSON file of a value stream.
+To use the HCL AppScan on Cloud plug-in (ASoC), the plug-in must be loaded, and an instance is created before you can configure the plug-in integration. You can define configuration properties either in the user interface or in a JSON file of a value stream.
 
 ## Integration type
 The ASoC plug-in supports endpoint integration and a scheduled event integration.
@@ -66,11 +66,11 @@ The payload for the POST is shown below.
 |Name|Description|Required|
 | --- | --- | --- |
 |scanExecutionId|The scan Execution ID from the scan ran in ASoC. It is a mandatory field to render the scan results in Insights.	|Yes|
-|buildUrl|The build URL from the CI/CD tool such as Jenkins, IBM DevOps Deploy and so on. It is an optional field which links the ASoC scan results with DevOps Velocity|No|
+|buildUrl|The build URL from the CI/CD tool such as Jenkins, HCL DevOps Deploy and so on. It is an optional field which links the ASoC scan results with DevOps Velocity|No|
 
 ### Scheduled Integration
 
-You can use the IBM AppScan on Cloud plug-in’s scheduled event integration to automatically sync or import the scan data into DevOps Velocity’s application vulnerabilities metrics at regular interval of time. Currently, IBM AppScan on Cloud plug-in sync or import scan data from IBM AppScan on Cloud to DevOps Velocity at an interval of 5 minutes.
+You can use the HCL AppScan on Cloud plug-in’s scheduled event integration to automatically sync or import the scan data into DevOps Velocity’s application vulnerabilities metrics at regular interval of time. Currently, HCL AppScan on Cloud plug-in sync or import scan data from HCL AppScan on Cloud to DevOps Velocity at an interval of 5 minutes.
 
 ### Integration Type
 
@@ -112,15 +112,15 @@ The JSON file contains the information for creating a value stream. Within the J
 3. Save and upload the JSON file. This replaces the current JSON file with the new content.
 4. View the new integration on the Integrations page.
 
-## Minimum permission to integrate with IBM AppScan on Cloud (ASoC)
+## Minimum permission to integrate with HCL AppScan on Cloud (ASoC)
 
-The IBM AppScan on Cloud (ASoC) Account used to generate the token must have access to the project which is being integrated with DevOps Velocity.
+The HCL AppScan on Cloud (ASoC) Account used to generate the token must have access to the project which is being integrated with DevOps Velocity.
 
 ## Configuration properties
 
 The following tables describe the properties used to configure the integration. Each table contains the field name when using the user interface and the property name when using a JSON file.
 
-The General Configuration Properties table describes configuration properties used by all plug-in integrations. The IBM AppScan on Cloud configuration properties table describes the configuration properties that define the connection and communications with the DevOps Velocity server. When using the JSON method to integrate the plug-in these properties are coded within the properties configuration property.
+The General Configuration Properties table describes configuration properties used by all plug-in integrations. The HCL AppScan on Cloud configuration properties table describes the configuration properties that define the connection and communications with the DevOps Velocity server. When using the JSON method to integrate the plug-in these properties are coded within the properties configuration property.
 
 Some properties might not be displayed in the user interface, to see all properties enable the Show Hidden Properties field.
 
@@ -198,7 +198,7 @@ We are capturing it from **comments**.
 4. In Measure, The details of SAST scan can be seen in VSM with respect to the corresponding work item and also the insights
 **Note :** The SAST data will not be used for Gating 
 
-### IBM AppScan on Cloud configuration properties
+### HCL AppScan on Cloud configuration properties
 
 | Name | Type | Description | Required | Property Name |
 | --- | --- | --- | --- | --- |
