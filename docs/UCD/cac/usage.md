@@ -10,11 +10,11 @@ Configuration as Code (CAC) lets you manage IBM DevOps Deploy entities â€” 
 
 | Page                                         | Description                                                                      |
 |----------------------------------------------|----------------------------------------------------------------------------------|
-| [CAC Setup](setup.md)                        | Configure server credentials, context, and the configuration file                |
-| [Component](component.md)                    | Download and upload component definitions                                        |
-| [Application](application.md)                | Download and upload application definitions                                      |
-| [Environment](environment.md)                | Download and upload environment definitions                                      |
-| [Processes](processes.md)                    | Process commands, file structure, termination events, and process configurations |
+| [Setting up CAC](setup.md)                   | Configure server credentials, context, and the configuration file                |
+| [Working with Component](component.md)       | Download and upload component definitions                                        |
+| [Working with Application](application.md)   | Download and upload application definitions                                      |
+| [Working with Environment](environment.md)   | Download and upload environment definitions                                      |
+| [Working with Processes](processes.md)       | Process commands, file structure, termination events, and process configurations |
 | [Process Step Definitions](process-steps.md) | Reference for all process step types with syntax and examples                    |
 | [AI with CAC](ai-skills.md)                  | Use natural language to perform CAC operations via an AI-capable CLI             |
 
@@ -24,7 +24,7 @@ Configuration as Code (CAC) lets you manage IBM DevOps Deploy entities â€” 
 
 | Command                                 | Page                          | Description                                        |
 |-----------------------------------------|-------------------------------|----------------------------------------------------|
-| `cac setup`                             | [Setup](setup.md)             | Store or update server credentials and context     |
+| `cac setup`                             | [Setting up CAC](setup.md)    | Store or update server credentials and context     |
 | `download-component`                    | [Component](component.md)     | Download a component definition to JSON or YAML    |
 | `upload-component`                      | [Component](component.md)     | Upload a component definition from JSON or YAML    |
 | `download-application`                  | [Application](application.md) | Download an application definition to JSON or YAML |
