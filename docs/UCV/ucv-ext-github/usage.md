@@ -62,6 +62,21 @@ Example: ucv-ext-*, repo-name*, *repo*-abc. to specify multiple repositories whi
 **Previously**: Must list every plugin manually to be imported. Example: ucv-ext-jira, ucv-ext-appscan, ucv-ext-sonarqube
 **With this functionality** : Single regex will import all repositories. Example: ucv-ext-*.
 
+## Pull Request Lifecycle Events
+
+The GitHub integration automatically normalizes pull request activities into a chronological timeline of lifecycle events. Rather than relying solely on GitHub's static PR states (OPEN, CLOSED, MERGED), the plugin calculates a dynamic status for each PR based on its historical review and resolution activity.
+
+When PR data is processed, the system builds an event history that transitions through the following statuses OPEN, INREVIEW, REVIEWED, RESOLVED, MERGED / CLOSED
+
+OPEN: Marks the initiation of the pull request before any review activity takes place.
+INREVIEW: Signals that active code review has commenced.  
+REVIEWED: Indicates feedback has been provided or modifications have been requested.  
+RESOLVED: Indicates approval has been granted or existing review requests have been resolved.  
+MERGED/CLOSED: Represents the final lifecycle state of the pull request.
+
+![images/github-1.png](images/github-1.png)
+![images/github-2.png](images/github-2.png)
+
 ## Configuration properties
 
 The following tables describe the properties used to configure the integration. Each table contains the field name when using the user interface and the property name when using a JSON file.

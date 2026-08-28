@@ -17,7 +17,8 @@ The table below lists the compatible versions of the Github plug-in and IBM DevO
 
 | IBM DevOps Velocity Version | Github plug-in version |
 | --- | --- |
-| 5.2.5 or later | 1.5.10 |
+| 5.2.7 or later | 1.5.15 |
+| 5.2.5 or 5.2.6 | 1.5.10 |
 | 5.2.0 to 5.2.4 | 1.5.4 |
 | 5.0.11 to 5.1.9 | 1.5.1 |
 | 5.0.8 to 5.0.10 | 1.4.19 |
@@ -27,6 +28,10 @@ The table below lists the compatible versions of the Github plug-in and IBM DevO
 IBM DevOps Velocity plug-in images are located in DockerHub. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-github/tags).
 
 ## History
+
+### Version 1.5.15
+
+* **Enhancement**: Enhances Pull Request tracking by calculating dynamic lifecycle statuses (OPEN, INREVIEW,REVIEWED, RESOLVED, MERGED) based on real-time review activity for accurate Value Stream Map (VSM) visibility.
 
 ### Version 1.5.10
 
