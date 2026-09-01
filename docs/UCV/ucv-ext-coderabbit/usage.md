@@ -84,7 +84,7 @@ The following tables describe the properties used to configure the integration. 
 | CodeRabbit API URL | String | The CodeRabbit API base URL. Default: https://api.coderabbit.ai | Yes | apiUrl |
 | API Key | Secure | CodeRabbit API key sent as x-coderabbitai-api-key header | Yes | apiKey |
 | Application Name | String | The application name used to identify the source of the data in Velocity | Yes | applicationName |
-| Repository IDs (Comma Separated List) | Array | Optional Git provider repository IDs used for filtering CodeRabbit metrics | No | repositoryIds \n Note: You must configure this field using exact Repository IDs rather than repository names. The CodeRabbit API does not currently support resolving repository names to IDs. Explicit IDs are required until CodeRabbit releases an API update that handles name-to-ID mapping. |
+| Repository IDs (Comma Separated List) | Array | Optional Git provider repository IDs used for filtering CodeRabbit metrics | No | repositoryIds <br><br> **Note**: You must configure this field using exact Repository IDs rather than repository names. The CodeRabbit API does not currently support resolving repository names to IDs. Explicit IDs are required until CodeRabbit releases an API update that handles name-to-ID mapping. |
 | Team Space Id | FilterableSelect | The teamspace associated with the integration. | No | teamspaceId |
 | Team Id | FilterableSelect | The teams associated with the integration. | No | teamId |
 | Workflow ID | String | The value stream with which this metric is associated. | No | workflowId |
