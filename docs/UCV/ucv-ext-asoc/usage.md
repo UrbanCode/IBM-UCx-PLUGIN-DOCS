@@ -137,13 +137,8 @@ Some properties might not be displayed in the user interface, to see all propert
 ### Configuring ASoC integration in DevOps Loop
 End-to-End Validation Steps for ASoC Integration
 #### Prerequisites
-* Create a Loop Teamspace.
-* Configure and connect the required integrations: We should have PCBD setup
-    * Plan
-    * Control Tool
-    * Build Tool
-    * Deploy Tool
-    * ASoC
+* Create a teamspace and loop. Already PCBD setup is done as part of loop creation.
+* Configure ASoC integration in Measure.
 * Ensure that the VSM Application Name exactly matches the ASoC Application Name. This mapping is required for scan results to be associated correctly within Velocity.
 #### Validation Steps for DAST scan
 1. Plan Stage
@@ -190,8 +185,8 @@ End-to-End Validation Steps for ASoC Integration
   * DAST results are displayed.
   * Scan metrics are associated with the correct application and version.
 
-**NOTE:** We are mapping using **buildUrl** and **commitSha** to show metrics as dots in VSM.
-we are capturing it from **comments**. buildUrl and commitSha is must to view metric results as dots.
+**NOTE:** We are mapping using **buildUrl** and **commitSha** to show metrics in the dots history in VSM.
+We are capturing it from **comments**.
 
 **Example:** 
  "Comment": "{\"id\":\"ucd\",\"commitsha\":\"1.0-696\",\"buildurl\":\"https://10.134.119.143.nip.io/build/tasks/project/BuildLifeTasks/viewBuildLife?buildLifeId=696\",\"env\":\"a3004teamauto~a3004loopauto:A3004LOOPAUTO-DEV-ENV\"}"
