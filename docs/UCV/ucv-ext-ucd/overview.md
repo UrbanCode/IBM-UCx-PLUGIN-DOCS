@@ -9,7 +9,7 @@ The table below lists the compatible versions of the DevOps Deploy plug-in and D
 
 | DevOps Velocity Version | DevOps Deploy Plug-in Versions |
 | --- | --- |
-| 5.2.5 or later | 4.1.12 |
+| 5.2.5 or later | 4.1.12, 4.1.14 |
 | 5.2.0 to 5.2.4 | 4.1.5, 4.1.6 |
 | 5.1.11 | 4.1.3, 4.1.4 |
 | 5.1.9 to 5.1.10| 4.1.1 |
@@ -26,6 +26,10 @@ Whenever you upgrade from lower version to 5.2.5 and if the plugin is not upgrad
 DevOps Velocity plug-in images are located in DockerHub. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-ucd/tags).
 
 ## History
+
+### Version 4.1.14
+
+* **Technical upgrade**: Upgraded the NPM Wrapper package version to support pod multiplexing feature.
 
 ### Version 4.1.12
 
