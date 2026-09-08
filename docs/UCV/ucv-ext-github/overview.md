@@ -31,7 +31,7 @@ IBM DevOps Velocity plug-in images are located in DockerHub. To view available v
 
 ### Version 1.5.15
 
-* **Enhancement**: Enhances Pull Request tracking by calculating dynamic lifecycle statuses (OPEN, INREVIEW,REVIEWED, RESOLVED, MERGED) based on real-time review activity for accurate Value Stream Map (VSM) visibility.
+* **Enhancement**: Enhances Pull Request tracking by calculating dynamic lifecycle statuses (OPEN, INREVIEW, REVIEWED, RESOLVED, MERGED/CLOSED) based on real-time review activity for accurate Value Stream Map (VSM) visibility.
 
 ### Version 1.5.10
 
