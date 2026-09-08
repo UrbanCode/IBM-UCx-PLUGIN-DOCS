@@ -11,7 +11,7 @@ The table below lists the compatible versions of the DevOps Build plug-in and IB
 
 | DevOps Velocity Version | DevOps Build Plug-in Versions |
 | --- | --- |
-| 5.1.11 or later | 1.1.5 |
+| 5.1.11 or later | 1.1.5, 1.1.10 |
 | 5.1.9 to 5.1.10 | 1.1.3, 1.1.2 |
 | 5.1.0 to 5.1.8 | 1.1.3, 1.1.2 |
 
@@ -20,6 +20,12 @@ The table below lists the compatible versions of the DevOps Build plug-in and IB
 IBM DevOps Velocity plug-in images are located in DockerHub and the IBM DevOps Velocity code accesses the version that you select. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-build/tags).
 
 ## History
+
+### Version 1.1.10
+
+* **Technical upgrade**: Upgraded the NPM Wrapper package version to support pod multiplexing feature.
+* **Sonarqube coverage**: Improved test coverage for the plugin.
+* **Vulnerability fix**: Addressed and resolved Whitesource-reported vulnerabilities.
 
 ### Version 1.1.5
 
