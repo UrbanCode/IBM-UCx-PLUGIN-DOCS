@@ -92,6 +92,13 @@ features:
   details: "The Code Coverage plug-in allows for parsing of data from several code coverage tool. Included are LCOV, Cobertura,  JaCoCo, and Clover data."
   link: "ucv-ext-coverage-core/"
 -
+  title: CodeRabbit
+  icon:
+    light: "/runProcess-dark.png"
+    dark: "/runProcess-white.png"
+  details: "The CodeRabbit plug-in is designed to sync code review metrics into DevOps Velocity. It operates primarily through a scheduled background event that queries the CodeRabbit API and uploads the results for insights analytics."
+  link: "ucv-ext-coderabbit/"
+-
   title: CollabNet VersionOne
   icon:
     light: "/runProcess-dark.png"
