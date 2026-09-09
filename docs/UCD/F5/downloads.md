@@ -2,6 +2,7 @@
 # Downloads
 
 To download the plug-in, click the following version-specific links.
+- [devops-deploy-F5-25.1192615.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/F5/devops-deploy-F5-25.1192615.zip)
 - [F5-24.1107123.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/F5/F5-24.1107123.zip)
 - [F5-24.1056565.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/F5/F5-24.1056565.zip)
 - [F5-24.1005478.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/F5/F5-24.1005478.zip)
