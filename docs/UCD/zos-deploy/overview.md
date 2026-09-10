@@ -44,6 +44,12 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ## History
 
+### Version 109
+
+* Minor improvements in rexx programs execution
+* Update Apache Ant to 1.10.18 for non-exploitable CVE-2026-7825
+* Added elapsed time for backup and deploy sub steps
+
 ### Version 108
 
 * 1190945 - Added option to execute RUNTIME delta deployment in Dry Run mode
