@@ -5,13 +5,25 @@ The Azure DevOps (formerly *Microsoft Team Foundation Server or TFS*) plug-in pr
 
 ## Compatibility
 
-Must be running DevOps Velocity version 2.5.0 and later to use the plug-in.
+The table below lists the compatible versions of the Azure DevOps plug-in and IBM DevOps Velocity:
+
+| DevOps Velocity Version | Azure DevOps Plug-in Versions |
+| --- | --- |
+| 5.2.5 or later | 4.0.49 |
+| 3.0.0 to 5.2.4| 4.0.45, 4.0.44, 4.0.43, 4.0.40, 4.0.38, 4.0.37, 4.0.36 |
 
 ## Versions
 
 There is no install process for this plug-in. The Azure DevOps plug-in is identified to DevOps Velocity as a value stream integration. DevOps Velocity plug-in images are located in DockerHub and the IBM DevOps Velocity code accesses the version that you select. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-azure/tags).
 
 ## History
+
+### Version 4.0.49
+
+* **Vulnerability fix**: Addressed and resolved Whitesource-reported vulnerabilities.
+* **Sonarqube coverage**: Improved test coverage for the GitHub plug-in.
+* **Enhancement**: Added support for Team and Teamspace fields in plugin integrations. These fields can now be configured during plugin setup and integration.
+* **Technical upgrade**: Upgraded the NPM Wrapper package to the latest supported version.
 
 ### Version 4.0.45
 
