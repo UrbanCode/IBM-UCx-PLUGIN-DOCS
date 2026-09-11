@@ -3,6 +3,8 @@
 
 To download the plugins, click the following version specific links.
 
+⚠️ Important: Download all zip fragments into the same folder without changing their names. Extract only the first file (e.g., ending in .001), and the remaining parts will combine and extract automatically. Your plug-in is then ready to use.
+
 - [ucv-ext-servicenow-1.1.23.tar.7z.001](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.1.23.tar.7z.001)
 - [ucv-ext-servicenow-1.1.23.tar.7z.002](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.1.23.tar.7z.002)
 - [ucv-ext-servicenow-1.1.16.tar.7z.001](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.1.16.tar.7z.001)
