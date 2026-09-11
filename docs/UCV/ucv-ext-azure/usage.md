@@ -120,6 +120,8 @@ The following tables describe the properties used to configure the integration. 
 | Build Tags (Comma Separated List) | Array | Comma separated list of tags for pushing pipeline runs as build to this server. If kept empty all the pipeline runs will be pushed as builds. | No | No | tags |
 | API Limits | String | Maximum number of Azure Devops REST API calls that will be made by the plugin in a single execution. Making too many call in a short duration might result in a connection timeout at Azure Devops server. | No | No | apiLimits |
 | Additional Branches (Comma Separated List) | Array | A comma separated list of additional branches to collect commits from besides the main one, leave blank if not needed. | No | No | otherBranches |
+| Team Space Id | FilterableSelect | The teamspace associated with the integration. | No | teamspaceId |
+| Team Id | FilterableSelect | The teams associated with the integration. | No | teamId |
 
 ## Release orchestration
 This plugin can be used to orchestrate releases in Azure Devops.

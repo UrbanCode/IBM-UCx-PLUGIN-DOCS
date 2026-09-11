@@ -1,22 +1,11 @@
 
 # GitLab - Usage
 
-To use the GitLab plug-in you must define the integration, create a value stream, and upload the integration.
-
-The value stream map contains the properties, you will use to define the plug-in integration. Basically, the plug-in integration is defined with a value stream within the DevOps Velocity user interface. Defining the integration includes defining configuration properties that connect the DevOps Velocity server to the GitLab server.
-
-
-The basic flow to use the plug-in includes:
-
-1. Download the value stream map. The value stream map is a JSON file used to define integrations.
-2. Edit the JSON file to include the plug-in configuration properties.
-3. Save and upload the JSON file. This replaces the current JSON file with the new content.
-4. View the new integration on the Integration user interface page.
+To use the GitLab plugin, the plugin must be loaded and an instance created before you can configure the plugin integration. You define configuration properties in the user interface or in a JSON file.
 
 ## Integration type
 
 The GitLab plug-in supports scheduled events integration which are listed in the following table.
-
 
 | Name | Description |
 | --- | --- |
@@ -29,10 +18,49 @@ The GitLab plug-in supports scheduled events integration which are listed in the
 
 ## Integration
 
-From the user interface Value Steam page, click **Upload** to upload the value stream map which is a JSON file.
+To install the plug-in, perform the following steps:
 
-The JSON file contains the information for creating a value stream and integrating with the GitLab server. The following table describes the information for the creating a DevOps Velocity value stream map.
+1. In IBM DevOps Velocity, click **Settings** > **Integrations** > **Available**.
+2. In the **Action** column for the GitLab plug-in, click **Install**.
 
+There are two methods to integrate the plug-in:
+
+1. Using the user interface
+2. Using a JSON file
+
+The tables in the Configuration properties describe the properties used to define the integration.
+
+### Integrating the plug-in by using user interface
+
+To integrate the plug-in using the user interface, perform the following steps:
+
+1. In IBM DevOps Velocity, click **Settings** > **Integrations** > **Installed**.
+2. In the **Action** column for the GitLab plug-in, click **Add Integration**.
+3. On the Add Integration dialog, enter the values for the fields to configure the integration and define communication.
+4. Click **Add**.
+
+### Integrating the plug-in by using JSON file
+
+The JSON file contains the information for creating a value stream. Within the JSON file is a section for integrations. It is in this section that plugin properties can be defined. Refer to the JSON sample code in the Configuration Properties section.
+
+To integrate the plug-in using a JSON, perform the following steps:
+
+1. Navigate to **value stream page**, and then click the **necessary value stream**.
+2. Click **wrench icon**, and then Select **Edit value stream**, to modify the JSON file in the code or tree view editors.
+Alternatively, you can also click **Download JSON** option to download the JSON file, and then select the **Import JSON** option to upload the revised JSON file.
+3. Edit the integration information in the JSON file to add the plug-in configuration properties. Refer to JSON sample code in the Configuration Properties section more details.
+4. Click **Save**.
+
+## Configuration Properties
+
+The following tables describe the properties used to configure the integration. Each table contains the field name when using the user interface and the property name when using a JSON file.
+
+* The General Configuration Properties table describes configuration properties used by all plugin integrations.
+* The GitLab Configuration Properties table describes the configuration properties that define the connection and communications with the GitLab server.
+
+Some properties might not be displayed in the user interface, to see all properties enable the **Show Hidden Properties** field.
+
+### General Configuration Properties table
 
 | Name | Description | Required |
 | --- | --- | --- |
@@ -43,10 +71,7 @@ The JSON file contains the information for creating a value stream and integrati
 | tenant\_id | The name of the tenant. | Yes |
 | type | Unique identifier assigned to the plug-in. The value for the GitLab plug-in is `ucv-ext-gitlab`. | Yes |
 
-## Configuration Properties
-
-The configuration properties which are included in the `properties` field are unique to the GitLab plug-in and define the connection and communication to the GitLab server.
-
+### GitLab Configuration Properties table
 
 | Name | Type | Description | Required | Project Name |
 | --- | --- | --- | --- | --- |
@@ -58,6 +83,8 @@ The configuration properties which are included in the `properties` field are un
 | Proxy User Name | String | The user name used to authenticate with the proxy server. | No | proxyUsername |
 | Proxy Password | Secure | The password used to authenticate with the proxy server. | No | proxyPassword |
 | Project Names (Comma Separated List) | Array | You can import the source data by providing a list of GitLab Project Names, which can include regular expressions for pattern matching. For instance, you can use wildcards such as * to match any character sequence, such as sample* to match project names that start with sample. Example: sample, sample1, etc. | No | projectNames |
+| Team Space Id | FilterableSelect | The Team space associated with the integration. | No | teamspaceId |
+| Team Id | FilterableSelect | The teams associated with the integration. | No | teamId |
 | Branch | String | GitLab repositories branch, The branch to pull commits from. | No | branchName |
 | Additional Branches (Comma Separated List) | Array | The name of additional branches to collect commits from besides the main one, leave blank if not needed. | No | otherBranches |
 

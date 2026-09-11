@@ -6,7 +6,11 @@ Data between the Rally server and the DevOps Velocity server is synchronized eve
 
 ## Compatibility
 
-Must be running DevOps Velocity version 1.2.1 and later to use the plug-in.
+The table below lists the compatible versions of the Rally plug-in and IBM DevOps Velocity:
+
+| IBM DevOps Velocity Version | Rally plug-in version |
+| --- | --- |
+| 5.2.5 or later | 1.0.50 |
 
 ## Versions
 
@@ -14,6 +18,13 @@ DevOps Velocity plug-in images are located in DockerHub. To view available versi
 DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-rally/tags).
 
 ## History
+
+### Version 1.0.50
+
+* **Vulnerability fix**: Addressed and resolved Whitesource-reported vulnerabilities.
+* **Sonarqube coverage**: Improved test coverage for the GitLab plug-in.
+* **Enhancement**: Added support for Team and Teamspace fields in plugin integrations. These fields can now be configured during plugin setup and integration.
+* **Technical upgrade**: Upgraded the NPM Wrapper package to the latest supported version.
 
 ### Version 1.0.34
 

@@ -73,6 +73,8 @@ The following tables describe the properties used to configure the integration. 
 | Signature Method | String | The name of the signature method for oauth authentication. | No | signature\_method |
 | User Name | String | The user name used to authenticate with the Bitbucket server. | No | username |
 | Additional branches | Array | Additional branches to collect commits from besides the main one, leave blank if not needed. Regular Expression is also enabled(ex-PLUGINS*,*) | No | otherBranches |
+| Team Space Id | FilterableSelect | The teamspace associated with the integration. | No | teamspaceId |
+| Team Id | FilterableSelect | The teams associated with the integration. | No | teamId |
 
 ## JSON code example
 
