@@ -6,7 +6,11 @@ The Planview LeanKit plug-in imports data from Planview LeanKit server into IBM 
 
 ## Compatibility
 
-This plug-in requires DevOps Velocity version 2.0.0 or later.
+The table below lists the compatible versions of the Leankit plug-in and IBM DevOps Velocity:
+
+| IBM DevOps Velocity Version | Leankit plug-in version |
+| --- | --- |
+| 5.2.5 or later | 1.0.6 |
 
 ## Versions
 
@@ -14,6 +18,13 @@ DevOps Velocity plug-in images are located in DockerHub. To view available versi
 DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-leankit/tags).
 
 ## History
+
+### Version 1.0.6
+
+* **Vulnerability fix**: Addressed and resolved Whitesource-reported vulnerabilities.
+* **Sonarqube coverage**: Improved test coverage for the Leankit plug-in.
+* **Enhancement**: Added support for Team and Teamspace fields in plugin integrations. These fields can now be configured during plugin setup and integration.
+* **Technical upgrade**: Upgraded the NPM Wrapper package to the latest supported version.
 
 ### Version 1.0.1
 
