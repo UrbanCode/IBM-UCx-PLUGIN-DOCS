@@ -22,7 +22,7 @@ DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-rally/tags).
 ### Version 1.0.50
 
 * **Vulnerability fix**: Addressed and resolved Whitesource-reported vulnerabilities.
-* **Sonarqube coverage**: Improved test coverage for the GitLab plug-in.
+* **Sonarqube coverage**: Improved test coverage for the Rally plug-in.
 * **Enhancement**: Added support for Team and Teamspace fields in plugin integrations. These fields can now be configured during plugin setup and integration.
 * **Technical upgrade**: Upgraded the NPM Wrapper package to the latest supported version.
 
