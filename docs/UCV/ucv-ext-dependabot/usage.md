@@ -50,4 +50,6 @@ Some properties might not be displayed in the user interface, to see all propert
 | Personal Access Token          | String | The token to use to authenticate with the GitHub repository.                                                                                                                                         | Yes      |
 | API URL (GraphQL Endpoint Url) | String | For GitHub Enterprise edition , replace it with Enterprise GraphQL endpoint. Example: `http(s)://_\[hostname\]_/api/graphql` or use the default value. (Default value :  `https://api.github.com/graphql`) | Yes      |
 | Repositories                   | Array  | List of GitHub repositories as comma separated, Use either Repositories field or name field to specify the repositories .                                                                            | No       |
+| Team Space Id | FilterableSelect | The teamspace associated with the integration. | No | teamspaceId |
+| Team Id | FilterableSelect | The teams associated with the integration. | No | teamId |
 

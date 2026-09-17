@@ -67,6 +67,8 @@ The following tables describe the properties used to configure the integration. 
 | User Name | String | The user name used to authenticate with the Rally server. Specify either the username and password properties or the apiKey property. | No | username |
 | ucvAccessKey | Secure | The user access key used to authenticate with the IBM DevOps Velocity server. | Yes | ucvAccessKey |
 | Workspace | String | The name of the Rally workspace to use on request. This property is required if you are not using a default workspace. | No | workspace |
+| Team Space Id | FilterableSelect | The Team space associated with the integration. | No | teamspaceId |
+| Team Id | FilterableSelect | The teams associated with the integration. | No | teamId |
 | Proxy Server | String | The URL of the proxy server including the port number. | No | proxyServer |
 | Proxy User Name | String | The user name used to authenticate with the proxy server. | No | proxyUsername |
 | Proxy Password | Secure | The password used to authenticate with the proxy server. | No | proxyPassword |

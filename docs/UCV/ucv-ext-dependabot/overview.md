@@ -11,7 +11,13 @@
 
 ## Compatibility
 
-This plug-in requires DevOps Velocity version 2.5.0 or later. The plug-in works on top of GitHub plug-in so at least one GitHub integration should be already there.
+The plug-in works on top of GitHub plug-in so at least one GitHub integration should be already there.
+
+The following table lists the compatible versions of the Dependabot plug-in and DevOps Velocity:
+
+| DevOps Velocity Version | Dependabot plug-in version |
+| --- | --- |
+| 5.2.5 or later | 1.0.13 |
 
 ## Versions
 
@@ -19,6 +25,13 @@ DevOps Velocity plug-in images are located in DockerHub. To view available versi
 DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-dependabot/tags).
 
 ## History
+
+### Version 1.0.13
+
+* **Vulnerability fix**: Addressed and resolved Whitesource-reported vulnerabilities.
+* **Sonarqube coverage**: Improved test coverage for the Dependabot plug-in.
+* **Enhancement**: Added support for Team and Teamspace fields in plugin integrations. These fields can now be configured during plugin setup and integration.
+* **Technical upgrade**: Upgraded the NPM Wrapper package to the latest supported version.
 
 ### Version 1.0.2
 

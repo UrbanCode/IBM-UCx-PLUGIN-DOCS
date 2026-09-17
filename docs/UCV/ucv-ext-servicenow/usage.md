@@ -222,6 +222,8 @@ Some properties might not be displayed in the user interface, to see all propert
 | Proxy Server | String | The URL of the proxy server including the port number. | No | proxyServer |
 | Proxy User Name | String | The user name used to authenticate with the proxy server. | No | proxyUsername |
 | Proxy Password | Secure | The password used to authenticate with the proxy server. | No | proxyPassword |
+| Team Space Id | FilterableSelect | The teamspace associated with the integration. | No | teamspaceId |
+| Team Id | FilterableSelect | The teams associated with the integration. | No | teamId |
 | Authentication Type | Dropdown | Select required authentication type. | Yes | authentication |
 |..........When Basic Authentication selected..........|
 | User Name | String | The username used to authenticate with the ServiceNow server. | Yes | username |

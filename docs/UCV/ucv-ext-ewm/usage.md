@@ -72,6 +72,8 @@ Some properties might not be displayed in the user interface, to see all propert
 | Since | String | The number of months for which data is to be pulled. The default is 12 months. | No | since |
 | User Access Key | Secure | The user access key used to authenticate with the DevOps Velocity server. | No | ucvAccessKey |
 | User ID | String | The user name used to authenticate with the IBM EWM server. | Yes | userId |
+| Team Space Id | FilterableSelect | The teamspace associated with the integration. | No | teamspaceId |
+| Team Id | FilterableSelect | The teams associated with the integration. | No | teamId |
 | Proxy Password | Secure | The password used to authenticate with the proxy server. | No | proxyPassword |
 | Proxy Server | String | The URL of the proxy server including the port number. | No | proxyServer |
 | Proxy User Name | String | The user name used to authenticate with the proxy server. | No | proxyUsername |

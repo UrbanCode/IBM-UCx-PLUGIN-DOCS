@@ -6,7 +6,11 @@ The BitBucket Cloud plug-in provides for integration with a BitBucket Cloud.
 
 ## Compatibility
 
-This plug-in requires DevOps Velocity version 2.5.0 and later.
+The table below lists the compatible versions of the Bitbucket Cloud plug-in and IBM DevOps Velocity:
+
+| DevOps Velocity Version | Bitbucket Cloud Plug-in Versions |
+| --- | --- |
+| 5.2.5 or later | 1.0.39 |
 
 ## Versions
 
@@ -14,6 +18,12 @@ DevOps Velocity plug-in images are located in DockerHub. To view available versi
 DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-bitbucket-cloud/tags).
 
 ## History
+
+### Version 1.0.39
+
+* **Vulnerability fix**: Addressed and resolved Whitesource-reported vulnerabilities.
+* **Enhancement**: Added support for Team and Teamspace fields in plugin integrations. These fields can now be configured during plugin setup and integration.
+* **Technical upgrade**: Upgraded the NPM Wrapper package to the latest supported version.
 
 ### Version 1.0.37
 
