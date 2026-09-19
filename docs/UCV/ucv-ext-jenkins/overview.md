@@ -22,7 +22,7 @@ The table below lists the compatible versions of the Jenkins plug-in and DevOps 
 
 | IBM DevOps Velocity Version | Jenkins plug-in version |
 | --- | --- |
-| 5.2.5 or later | 1.1.13 |
+| 5.2.5 or later | 1.1.14, 1.1.13 |
 | 4.0.9 to 5.2.4 | 1.1.7, 1.1.6, 1.1.5, 1.1.3, 1.1.2, 1.1.1, 1.0.9, 1.0.4, 1.0.1 |
 
 ## Versions
@@ -32,6 +32,10 @@ view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/
 
 
 ## History
+
+### Version 1.1.14
+
+* **Enhancement**: Added support for integration ID in Jenkins execution record uploads to enhance execution traceability.
 
 ### Version 1.1.13
 
