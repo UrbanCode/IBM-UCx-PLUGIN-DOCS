@@ -13,13 +13,17 @@ The following table lists the compatible versions of the CodeRabbit plug-in and 
 
 | DevOps Velocity Version | CodeRabbit plug-in version |
 | --- | --- |
-| 5.2.7 or later | 1.0.1 |
+| 5.2.7 or later | 1.0.1, 1.0.3 |
 
 ## Versions
 
 The DevOps Velocity plug-in images are located in DockerHub. For available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-coderabbit/tags).
 
 ## History
+
+### Version 1.0.3
+
+* **Bug Fix**: Fixed an issue where metric records were skipped due to delay in the CodeRabbit REST API response.
 
 ### Version 1.0.1
 
