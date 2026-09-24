@@ -30,6 +30,9 @@ ODM version 8.9.1 introduces a REST API which is used by version 10 of this plug
 
 ## History
 
+### Version 16
+
+RFE - DVOPS-I-903 - Enhance OAuth Authentication with Proxy Support
 
 ### Version 15
 
