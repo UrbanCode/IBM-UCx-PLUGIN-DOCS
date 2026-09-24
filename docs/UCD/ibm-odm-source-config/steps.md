@@ -12,6 +12,10 @@ Downloads the specified RuleApp jar from the ODM Repository.
 | Branch Name | textBox | The name of the Branch (ex. Spring Release). Pulls from main if left blank.  Value is ignored if re-deploying from existing snapshot. | No |
 | Deployment Configuration | textBox | The name of the deployment configuration. (ex. test deployment) | Yes |
 | Target Server | textBox | The name of the Target Server to deploy to. Leave blank to only extract the archive and skip deployment. | No |
+| HTTP Proxy Host | textBox | Optional HTTP proxy host. | Yes |
+| HTTP Proxy Port | textBox | Optional HTTP proxy port. Must be supplied if the HTTP Proxy Host is specified. | Yes |
+| HTTP Proxy Username | textBox | Optional HTTP proxy user name. | Yes |
+| HTTP Proxy Password | secureBox | Optional HTTP proxy password. | Yes |
 | Username | textBox | Decision Center username. | No |
 | Password | secureBox | Decision Center password. | No |
 | oAuth token URL | textBox | Token URL to authenticate the oAuth server. | No |
