@@ -22,6 +22,10 @@ No special steps are required for installation. See [Installing plug-ins in IBM 
 
 ## History
 
+### Version 16
+
+* RFE - DVOPS-I-903 - Enhance OAuth Authentication with Proxy Support
+
 ### Version 15
 
 * Fixed issue to support both oauth and basic auth .
