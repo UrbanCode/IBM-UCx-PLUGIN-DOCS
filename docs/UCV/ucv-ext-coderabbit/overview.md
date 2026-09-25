@@ -23,7 +23,7 @@ The DevOps Velocity plug-in images are located in DockerHub. For available versi
 
 ### Version 1.0.3
 
-* **Bug Fix**: Fixed an issue where metric records were skipped due to delay in the CodeRabbit REST API response.
+* **Bug Fix**: Previously, metric records were skipped when delays in the CodeRabbit plug-in REST API caused newly merged PRs to fall outside the synchronization window. This problem is fixed.
 
 ### Version 1.0.1
 
