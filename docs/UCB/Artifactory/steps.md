@@ -1,5 +1,5 @@
 
-Artifactory for IBM UrbanCode Build - Steps
+Artifactory for IBM DevOps Build - Steps
 ===========================================
 
 # Steps

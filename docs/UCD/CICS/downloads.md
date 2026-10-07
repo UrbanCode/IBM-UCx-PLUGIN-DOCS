@@ -2,6 +2,7 @@
 
 To download the plug-in, click the following version-specific links.
 
+- [cics-46.20260724-1438.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/CICS/cics-46.20260724-1438.zip)
 - [cics-45.20240620-1707.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/CICS/cics-45.20240620-1707.zip)
 - [cics-44.20231019-2202.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/CICS/cics-44.20231019-2202.zip)
 - [cics-43.20220310-2307.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/CICS/cics-43.20220310-2307.zip)

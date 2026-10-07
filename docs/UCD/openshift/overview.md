@@ -18,6 +18,10 @@ No special steps are required for installation. See [Installing plug-ins in IBM 
 
 ## History
 
+### Version 29
+
+* Update Apache log4j to 2.26.1 for non-exploitable CVE-2026-49844
+
 ### Version 28
 
 * Update Apache Log4j to 2.25.4

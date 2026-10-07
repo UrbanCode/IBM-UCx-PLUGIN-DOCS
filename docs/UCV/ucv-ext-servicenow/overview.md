@@ -5,15 +5,28 @@ The ServiceNow plug-in provides for integration with a ServiceNow server. This p
 
 ## Compatibility
 
-The plugin is compatible with following versions:
+The table below lists the compatible versions of the ServiceNow plug-in and IBM DevOps Velocity:
 
-IBM DevOps Velocity 5.1.6 or later
+| DevOps Velocity Version | ServiceNow Plug-in Versions |
+| --- | --- |
+| 5.2.5 or later | 1.1.23 |
+| 5.1.6 to 5.2.4 | 1.1.16 |
+| 5.0.10 to 5.1.5 | 1.1.13, 1.1.11 |
+| 5.0.2 to 5.0.9 | 1.1.10, 1.1.8, 1.1.7, 1.1.6, 1.1.5, 1.1.4, 1.1.3 |
+| 5.0.0 to 5.0.1 | 1.1.2, 1.1.1 |
 
 ## Versions
 
 IBM DevOps Velocity plug-in images are located in DockerHub and the IBM DevOps Velocity code accesses the version that you select. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-servicenow/tags).
 
 ## History
+
+### Version 1.1.23
+
+* **Vulnerability fix**: Addressed and resolved Whitesource-reported vulnerabilities.
+* **Sonarqube coverage**: Improved test coverage for the ServiceNow plug-in.
+* **Enhancement**: Added support for Team and Teamspace fields in plugin integrations. These fields can now be configured during plugin setup and integration.
+* **Technical upgrade**: Upgraded the NPM Wrapper package to the latest supported version.
 
 ### Version 1.1.16
 

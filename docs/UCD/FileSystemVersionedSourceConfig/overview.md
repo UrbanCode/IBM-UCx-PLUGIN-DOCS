@@ -23,6 +23,10 @@ This plug-in is installed when installing IBM DevOps Deploy. When new plug-in ve
 
 ## History
 
+### Version 24
+
+Update Apache log4j to 2.26.1 for non-exploitable CVE-2026-49844
+
 ### Version 23
 
 Minor update to Apache Commons Lang3

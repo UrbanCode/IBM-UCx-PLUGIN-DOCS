@@ -8,15 +8,25 @@ The Digital.io Agility plug-in provides the integration with Digital.io Agility 
 
 This plug-in requires the following:
 
-* IBM DevOps Velocity
-Version 3.0.0 or later
 * Digital.io Agility Server Version 21.0 or later
+
+The table below lists the compatible versions of the Agility plug-in and IBM DevOps Velocity:
+
+| DevOps Velocity Version | Agility DevOps Plug-in Versions |
+| --- | --- |
+| 5.2.5 or later | 1.0.41 |
 
 ## Versions
 
 IBM DevOps Velocity plug-in images are located in DockerHub. To view available plug-in versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-agility/tags).
 
 ## History
+
+### Version 1.0.41
+
+* **Vulnerability fix**: Addressed and resolved Whitesource-reported vulnerabilities.
+* **Enhancement**: Added support for Team and Teamspace fields in plugin integrations. These fields can now be configured during plugin setup and integration.
+* **Technical upgrade**: Upgraded the NPM Wrapper package to the latest supported version.
 
 ### Version 1.0.29
 

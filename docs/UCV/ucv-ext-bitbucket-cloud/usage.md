@@ -70,6 +70,8 @@ Some properties might not be displayed in the user interface, to see all propert
 | API Limits | String | Maximum API calls that the plug-in will make in a single run. | No | apiLimits |
 | Branch Name | String | The branch to pull changes from. | No | branchName |
 | Additional Branches | Array | Comma seperated names of additional branches to collect commits from besides the main one, leave blank if not needed. | No | otherBranches |
+| Team Space Id | FilterableSelect | The teamspace associated with the integration. | No | teamspaceId |
+| Team Id | FilterableSelect | The teams associated with the integration. | No | teamId |
 | Proxy Password | Secure | The password used to authenticate with the proxy server. | No | proxyPassword |
 | Proxy Server | String | The URL of the proxy server including the port number. The URL protocol can be http or https. | No | proxyServer |
 | Proxy User Name | String | The user name used to authenticate with the proxy server. | No | proxyUsername |

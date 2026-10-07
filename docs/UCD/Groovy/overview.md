@@ -19,6 +19,10 @@ No special steps are required for installation. This plug-in is included with th
 
 ## History
 
+### Version 18
+
+* Added support to include all jars inside a directory for classpath
+
 ### Version 17 
 
 * New property 'spawn process' allows you to control whether the user script runs in the same process or spawns a new process. Existing steps upon upgrade will have this property selected by default, while new steps will have it unchecked. Leaving it unchecked can see faster plugin execution especially on zOS.

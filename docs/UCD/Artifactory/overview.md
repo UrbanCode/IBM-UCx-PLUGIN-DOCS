@@ -28,6 +28,14 @@ This plug-in runs on all operating systems that are supported by the IBM DevOps 
 No special steps are required for installation. See [Installing plug-ins in IBM DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy").
 
 ## History
+### Version 30
+
+* Fix : Handle large file downloads from Artifactory with S3 redirect. 
+
+### Version 29
+
+* Updated Log4j dependency to address CVE-2026-49844. 
+
 ### Version 28
 
 * Updated Log4j dependency to address CVE-2026-34480 and CVE-2026-34477. 

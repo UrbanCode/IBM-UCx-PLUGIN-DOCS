@@ -1,5 +1,5 @@
 
-Git for IBM UrbanCode Build
+Git for IBM DevOps Build
 ===========================
 
 Git is a distributed revision control system. Git was initially designed and developed by Linus Torvalds for Linux kernel development. The Git plug-in automates cloning a Git repository, tagging source artifacts, and publishing source artifact changes to the Changes page of the build life.

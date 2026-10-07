@@ -24,6 +24,14 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ## History
 
+### Version 37 *August 26, 2026*
+
+* Add Artifactory repo origin link to version when importing. 
+
+### Version 36 *July 31, 2026*
+
+* Updated Log4j dependency to address CVE-2026-49844.  
+
 ### Version 35 *June 23, 2026*
 
 * Updated Log4j dependency to address CVE-2026-34480 and CVE-2026-34477. 

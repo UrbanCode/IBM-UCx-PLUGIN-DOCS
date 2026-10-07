@@ -1,5 +1,5 @@
 
-NPM for IBM UrbanCode Build
+NPM for IBM DevOps Build
 ===========================
 
 NPM is the package manager for JavaScript. The NPM plugin provides command steps to perform the following operations:

@@ -12,14 +12,14 @@ ClearCase Base Snapshot - Overview
 
 IBM Rational ClearCase allows you to manage source files and software build history for your organization.
 
-The ClearCase Base Snapshot plug-in integrates IBM UrbanCode Build with IBM Rational ClearCase allowing source to be pulled from the ClearCase repository for builds. This plug-in provides integration if you are not using the unified change management (UCM) process. If using UCM, see [ClearCase UCM plug-in](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/ClearCaseSourceConfig/).
+The ClearCase Base Snapshot plug-in integrates IBM DevOps Build with IBM Rational ClearCase allowing source to be pulled from the ClearCase repository for builds. This plug-in provides integration if you are not using the unified change management (UCM) process. If using UCM, see [ClearCase UCM plug-in](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/ClearCaseSourceConfig/).
 
 ### Compatibility
 
 
-This plug-in requires IBM UrbanCode Build version 6.1 and later.
+This plug-in requires IBM DevOps Build version 6.1 and later.
 
-The plug-in runs on any agents that the IBM UrbanCode Build server supports.
+The plug-in runs on any agents that the IBM DevOps Build server supports.
 
 ### Installation
 

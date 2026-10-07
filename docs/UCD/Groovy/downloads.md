@@ -3,6 +3,7 @@
 
 To download the plug-in, click the following version-specific links.
 
+- [devops-deploy-Groovy-18.1192559.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Groovy/devops-deploy-Groovy-18.1192559.zip)
 - [devops-deploy-Groovy-17.1186931.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Groovy/devops-deploy-Groovy-17.1186931.zip)
 - [ucd-Groovy-16.1155716.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Groovy/ucd-Groovy-16.1155716.zip)
 - [ucd-Groovy-15.1151773.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Groovy/ucd-Groovy-15.1151773.zip)

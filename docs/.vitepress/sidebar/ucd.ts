@@ -12,7 +12,20 @@ export const ucd: DefaultTheme.Sidebar = {
                 { text: 'Overview', link: `/${DEPLOY_BASE_DIR}/cac/` },
                 { text: 'Integrations', link: `/${DEPLOY_BASE_DIR}/cac/integrations` },
                 { text: 'Limitations', link: `/${DEPLOY_BASE_DIR}/cac/limitations` },
-                { text: 'Usage', link: `/${DEPLOY_BASE_DIR}/cac/usage` },
+                {
+                    text: 'Usage',
+                    link: `/${DEPLOY_BASE_DIR}/cac/usage`,
+                    collapsed: false,
+                    items: [
+                        { text: 'CAC Setup', link: `/${DEPLOY_BASE_DIR}/cac/setup` },
+                        { text: 'Component', link: `/${DEPLOY_BASE_DIR}/cac/component` },
+                        { text: 'Application', link: `/${DEPLOY_BASE_DIR}/cac/application` },
+                        { text: 'Environment', link: `/${DEPLOY_BASE_DIR}/cac/environment` },
+                        { text: 'Processes', link: `/${DEPLOY_BASE_DIR}/cac/processes` },
+                        { text: 'Process Step Definitions', link: `/${DEPLOY_BASE_DIR}/cac/process-steps` },
+                        { text: 'AI with CAC', link: `/${DEPLOY_BASE_DIR}/cac/ai-skills` }
+                    ]
+                },
                 { text: 'Downloads', link: `/${DEPLOY_BASE_DIR}/cac/downloads` }
             ]
         }

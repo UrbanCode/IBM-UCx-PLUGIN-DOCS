@@ -55,6 +55,10 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ### History
 
+#### Version 134
+
+* Fixed NullPointerException when password field is empty or not provided.
+
 #### Version 133
 
 * Added Default Bindings to the update step and removed property note.

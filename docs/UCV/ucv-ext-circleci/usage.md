@@ -67,6 +67,8 @@ The following tables describe the properties you use to configure the integratio
 | Proxy User Name | String | The user name used to authenticate with the proxy server. | No | proxyUsername |
 | Repositories | Array | A comma seperated list of repositories from which to import pull requests, commits, and build data. | Yes | repositories |
 | API URL| String | API URL of CircleCI. | Yes | apiUrl |
+| Team Space Id | FilterableSelect | The teamspace associated with the integration. | No | teamspaceId |
+| Team Id | FilterableSelect | The teams associated with the integration. | No | teamId |
 
 ## JSON code example
 

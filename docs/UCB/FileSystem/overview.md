@@ -1,5 +1,5 @@
 
-File System for IBM UrbanCode Build - Overview
+File System for IBM DevOps Build - Overview
 ==============================================
 
 # Overview
@@ -28,5 +28,5 @@ This version of the plug-in includes translated steps and properties.
 
 #### Version 3
 
-This version of the plug-in includes a fix for an issue where communication with the IBM UrbanCode Build server would fail when using an IBM JDK or JRE.
+This version of the plug-in includes a fix for an issue where communication with the IBM DevOps Build server would fail when using an IBM JDK or JRE.
 

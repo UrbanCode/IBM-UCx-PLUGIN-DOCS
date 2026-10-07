@@ -2,6 +2,8 @@
 # Downloads
 
 To download the plug-in, click the following version-specific links.
+- [ucd-Artifactory-30.1191646.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Artifactory/devops-deploy-Artifactory-30.1191646.zip)
+- [ucd-Artifactory-29.1191480.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Artifactory/devops-deploy-Artifactory-29.1191480.zip)
 - [ucd-Artifactory-28.1190424.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Artifactory/devops-deploy-Artifactory-28.1190424.zip)
 - [ucd-Artifactory-27.1183827.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Artifactory/devops-deploy-Artifactory-27.1183827.zip)
 - [ucd-Artifactory-26.1176841.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Artifactory/ucd-Artifactory-26.1176841.zip)

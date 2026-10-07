@@ -3,6 +3,10 @@
 
 To download the plugins, click the following version specific links.
 
+⚠️ Important: Download all zip fragments into the same folder without changing their names. Extract only the first file (e.g., ending in .001), and the remaining parts will combine and extract automatically. Your plug-in is then ready to use.
+
+- [4.1.14 - File 1](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-ucd/ucv-ext-ucd%3A4.1.14.tar.7z.001)
+- [4.1.14 - File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-ucd/ucv-ext-ucd%3A4.1.14.tar.7z.002)
 - [4.1.12 - File 1](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-ucd/ucv-ext-ucd%3A4.1.12.tar.7z.001)
 - [4.1.12 - File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-ucd/ucv-ext-ucd%3A4.1.12.tar.7z.002)
 - [4.1.6 - File 1](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-ucd/ucv-ext-ucd%3A4.1.6.tar.7z.001)

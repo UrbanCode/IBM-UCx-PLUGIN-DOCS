@@ -1,5 +1,5 @@
 
-Groovy for IBM UrbanCode Build - Overview
+Groovy for IBM DevOps Build - Overview
 =========================================
 
 # Overview
@@ -14,7 +14,7 @@ The Groovy plug-in is an automation-type plug-in that provides a step for runnin
 
 ### Compatibility
 
-This plug-in requires IBM UrbanCode Build version 6.1 or later.
+This plug-in requires IBM DevOps Build version 6.1 or later.
 
 The steps in this plug-in run on all supported platforms.
 

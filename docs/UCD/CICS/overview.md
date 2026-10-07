@@ -30,9 +30,9 @@ The plug-in includes steps to:
 
 The CICS TS plug-in is supported to run against any of the following CICS editions:
 
-* IBM CICS Transaction Server for z/OS V5.4, V5.5, V5.6, V6.1, 6.2
-* IBM CICS Transaction Server for z/OS Developer Trial V5.4, V5.5, V5.6, V6.1, 6.2
-* IBM CICS Transaction Server for z/OS Value Unit Edition V5.4, V5.5, V5.6, V6.1, 6.2
+* IBM CICS Transaction Server for z/OS V5.4, V5.5, V5.6, V6.1, 6.2, 6.3
+* IBM CICS Transaction Server for z/OS Developer Trial V5.4, V5.5, V5.6, V6.1, 6.2, 6.3
+* IBM CICS Transaction Server for z/OS Value Unit Edition V5.4, V5.5, V5.6, V6.1, 6.2, 6.3
 
 Additionally, you must also have configured a CICS management client interface (CMCI) port, as described in topic [Setting up access for CICS Explorer](https://www.ibm.com/docs/en/cics-ts/6.x?topic=configuring-setting-up-cmci) in the IBM Knowledge Center.
 

@@ -21,6 +21,10 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ### History
 
+#### Version 3
+
+Fixed Control Sparse Checkout incorrectly inheriting the SCM_Populate command type. Control Checkout remains the SCM_Populate step.
+
 #### Version 1
 
 Initial Control Plugin Release

@@ -44,6 +44,26 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ## History
 
+### Version 109
+
+* Minor improvements in rexx programs execution
+* Update Apache Ant to 1.10.18 for non-exploitable CVE-2026-7825
+* Added elapsed time for backup and deploy sub steps
+
+### Version 108
+
+* 1190945 - Added option to execute RUNTIME delta deployment in Dry Run mode
+* 1191074 - Create Sub Version step does not support linked version
+* 1191158 - Post-deploy in Deploy-dataset step will not copy xml files during redeployment of a version with RUNTIME delta-deploy and when no artifacts are deployed. In such cases, the generate-artifact steps will generate template data based on the xml data copied from the previous deployment of the version.
+* 1191185 - Use binary.version file instead of installed.version file to determine the installed version of the agent
+* 1191826 - Added support for FBM/VBM datasets for package format v2
+* 1191826 - Fixed issue with PDS member name starting with dollar character during backup for package format v2
+
+### Version 107
+
+* 1190846 - Added support for v2 package format for Restore Backup Datasets step
+* 1190846 - Added new input to check access before restore in Restore Backup Datasets step
+
 ### Version 106
 
 * 1190348 - Replaced checkbox to Run In Parallel in Submit Job step with text box to pass number of parallel jobs to run
@@ -52,6 +72,7 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 * 1190348 - Ignore exception when there are no mapping for datasets in Restore Backup Datasets step
 * 1190475 - Fail deployment when 2 source datasets deploy the same artifact to the same target dataset with backup disabled
 * 1190490 - Fix KNOWN-ISSUE DT475088 - Deploy-dataset step fails with V2 type versions that have long names(>100 characters)
+* 1190559 - Added option to skipZInventory during Deploy-dataset and Rollback-dataset steps
 
 **Warning:**
 Before this fix in 1190475, the deployment step will run successfully even when there are overriding mvs artifacts resulting in overwriting of data on the target dataset/member.

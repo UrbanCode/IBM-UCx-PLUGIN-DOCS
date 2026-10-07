@@ -14,6 +14,10 @@ The plugin is compatible with:
 
 ## History
 
+### Version 2
+
+Added steps for  interactive monitoring technology (IAST) capabilities.
+
 ### Version 1
 
 Initial release of the plugin.

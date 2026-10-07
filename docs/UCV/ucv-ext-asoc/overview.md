@@ -7,9 +7,9 @@ The HCL AppScan on Cloud (ASoC) plug-in allows for integration with the HCL Apps
 ## Compatibility
 
 Must be running DevOps Velocity version 2.5.0 and later to use this plug-in.
-The table below lists the compatible versions of the IBM ASoC plug-in and IBM DevOps Velocity:
+The table below lists the compatible versions of the HCL ASoC plug-in and HCL DevOps Velocity:
 
-| DevOps Velocity Version | IBM ASoC Plug-in Versions |
+| DevOps Velocity Version | HCL ASoC Plug-in Versions |
 | --- | --- |
 | 5.2.5 or later | 3.0.29 |
 

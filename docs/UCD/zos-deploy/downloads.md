@@ -2,6 +2,14 @@
 
 To download the plug-in, click the following version-specific links.
 
+- [devops-deploy-zos-deploy-109.1192683.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/devops-deploy-zos-deploy-109.1192683.zip)
+- [devops-deploy-zos-deploy-108.1191826.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/devops-deploy-zos-deploy-108.1191826.zip)
+- [devops-deploy-zos-deploy-108.1191185.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/devops-deploy-zos-deploy-108.1191185.zip)
+- [devops-deploy-zos-deploy-108.1191158.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/devops-deploy-zos-deploy-108.1191158.zip)
+- [devops-deploy-zos-deploy-108.1191074.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/devops-deploy-zos-deploy-108.1191074.zip)
+- [devops-deploy-zos-deploy-108.1190945.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/devops-deploy-zos-deploy-108.1190945.zip)
+- [devops-deploy-zos-deploy-107.1190846.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/devops-deploy-zos-deploy-107.1190846.zip)
+- [devops-deploy-zos-deploy-106.1190559.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/devops-deploy-zos-deploy-106.1190559.zip)
 - [devops-deploy-zos-deploy-106.1190490.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/devops-deploy-zos-deploy-106.1190490.zip)
 - [devops-deploy-zos-deploy-106.1190475.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/devops-deploy-zos-deploy-106.1190475.zip)
 - [devops-deploy-zos-deploy-106.1190348.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/devops-deploy-zos-deploy-106.1190348.zip)

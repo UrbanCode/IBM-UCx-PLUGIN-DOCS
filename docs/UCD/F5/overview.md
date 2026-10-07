@@ -20,6 +20,10 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ## History
 
+### Version 25
+
+* Removed unused log4j dependencies from the plugin package
+
 ### Version 24
 
 * Fixes APAR PH05331 - Added javamail dependencies jars - fixes - "UNABLE TO FIND REQUIRED CLASSES" error.

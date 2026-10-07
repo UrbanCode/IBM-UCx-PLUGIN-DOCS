@@ -197,6 +197,13 @@ features:
   details: "Groovy is an object-oriented programming language for the Java platform. It is a dynamic language and can be used as a scripting language. The Groovy plug-in is an automation-type plug-in that provides a step for running user-defined"
   link: "Groovy/"
 -
+  title: HCL AppScan 360
+  icon:
+    light: "/runProcess-dark.png"
+    dark: "/runProcess-white.png"
+  details: "HCL AppScan 360 (AS360) is a comprehensive application security testing platform that enables organizations to scan and secure applications. This plugin enables you to use HCL AppScan 360 easily from UrbanCode Build."
+  link: "HCLAppscan360/"
+-
   title: HP Fortify
   icon:
     light: "/runProcess-dark.png"

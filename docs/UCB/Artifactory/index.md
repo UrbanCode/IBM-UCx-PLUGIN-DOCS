@@ -1,5 +1,5 @@
 
-Artifactory for IBM UrbanCode Build
+Artifactory for IBM DevOps Build
 ===================================
 
 The Artifactory automation plug-in includes steps to complete the following tasks:

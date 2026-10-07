@@ -7,13 +7,26 @@ The IBM Engineering Workflow Management (EWM) plug-in provides integration with 
 
 ## Compatibility
 
-This plug-in requires DevOps Velocity Version 1.2.6 or later and IBM RTC Version 6.0.5, 6.0.6.1, EWM Version 7.0 or later.
+This plug-in IBM RTC Version 6.0.5, 6.0.6.1, EWM Version 7.0 or later.
+
+The following table lists the compatible versions of the EWM plug-in and DevOps Velocity:
+
+| DevOps Velocity Version | EWM plug-in version |
+| --- | --- |
+| 5.2.5 or later | 1.1.40 |
 
 ## Versions
 
 DevOps Velocity plug-in images are located in DockerHub. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-ewm/tags).
 
 ## History
+
+### Version 1.1.40
+
+* **Vulnerability fix**: Addressed and resolved Whitesource-reported vulnerabilities.
+* **Sonarqube coverage**: Improved test coverage for the EWM plug-in.
+* **Enhancement**: Added support for Team and Teamspace fields in plugin integrations. These fields can now be configured during plugin setup and integration.
+* **Technical upgrade**: Upgraded the NPM Wrapper package to the latest supported version.
 
 ### Version 1.1.34
 

@@ -1,5 +1,5 @@
 
-Git for IBM UrbanCode Build - Overview
+Git for IBM DevOps Build - Overview
 ======================================
 
 # Overview
@@ -22,6 +22,10 @@ Supporting GitHub and BitBucket Server repository trigger events requires UrbanC
 No special steps are required for installation. See [Installing plug-ins in UrbanCode Build](http://www-01.ibm.com/support/knowledgecenter/#!/SS8NMD_6.1.0/com.ibm.ucbuild.doc/topics/plugin_ch.html "Installing plug-ins in UrbanCode Build").
 
 ### History
+
+#### Version 31
+
+Fixed Git Sparse Checkout incorrectly inheriting the SCM_Populate command type. Git Checkout remains the SCM_Populate step.
 
 #### Version 27
 

@@ -14,6 +14,10 @@ This plug-in works with the latest version of AppScan on Cloud.
 
 ## History
 
+### Version 16
+
+* Added steps for  interactive monitoring technology (IAST) capabilities.
+
 ### Version 15
 
 * Updated api from v2 to v4.

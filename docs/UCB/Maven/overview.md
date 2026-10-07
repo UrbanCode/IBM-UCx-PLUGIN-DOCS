@@ -1,5 +1,5 @@
 
-Maven for IBM UrbanCode Build - Overview
+Maven for IBM DevOps Build - Overview
 ========================================
 
 # Overview
@@ -14,7 +14,7 @@ The Maven plug-in includes a step that runs Maven builds.
 
 ### Compatibility
 
-This plug-in requires IBM UrbanCode Build version 6.1 or later.
+This plug-in requires IBM DevOps Build version 6.1 or later.
 
 The steps in this plug-in run on all supported platforms.
 
