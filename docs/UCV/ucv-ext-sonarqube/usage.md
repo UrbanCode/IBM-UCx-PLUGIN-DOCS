@@ -2,15 +2,15 @@
 
 ## Requirements
 
-- **DevOps Velocity / Loop**
+* DevOps Velocity / Loop
   - Privileges to add integrations
   - A generated User Access Key
-- **SonarQube**
+* SonarQube
   - Privileges to create webhooks
   - A generated Authentication Token
-- **Velocity Certificate Authentication**
-  - **Trusted Certificate:** The certificate must be validated by a public or organizational Certificate Authority (CA) or imported into the truststore of the SonarQube server’s Java Runtime Environment (JRE).
-  - **Common Name (CN):** The host name used in the webhook must match the certificate's Common Name (CN) or Subject Alternative Name (SAN). If there is a host name mismatch, update the SonarQube server's `hosts` file to resolve the CN to the Velocity server IP.
+* Velocity Certificate Authentication
+  - Trusted Certificate: The certificate must be validated by a public or organizational Certificate Authority (CA) or imported into the truststore of the SonarQube server’s Java Runtime Environment (JRE).
+  - Common Name (CN): The host name used in the webhook must match the certificate's Common Name (CN) or Subject Alternative Name (SAN). If there is a host name mismatch, update the SonarQube server's `hosts` file to resolve the CN to the Velocity server IP.
 
 ## Integration Type
 
@@ -43,7 +43,6 @@ Each external data source should have its own integration, with multiple integra
 | Name | Type | Description | Required |
 | ---- | ---- | ----------- | -------- |
 | Velocity Hostname | String | Velocity host name including port if applicable (e.g., `velocityHost:9000`). | API only |
-| User Access Key | Secure | Velocity User Access Key passed in the request header. | API only |
 | Integration Name | String | A descriptive name used to reference the integration. | Yes |
 | SonarQube Auth Token | Secure | Authentication token generated in SonarQube. | Yes |
 | SonarQube URL | String | Base URL of the SonarQube server including port number (e.g., `http://sonarQubeHost`). | Yes |
@@ -53,8 +52,7 @@ Each external data source should have its own integration, with multiple integra
 ```bash
 curl -k --request POST \
   --url "https://<velocity_hostname>/reporting-consumer/integration" \
-  --header 'Content-Type: application/json' \
-  --header 'Authorization: <user_access_key>' \
+  --header 'Content-Type: application/json'
   --data '{
     "type": "sonarqubePlugin",
     "tenant_id": "<tenant_id>",

@@ -3,6 +3,8 @@
 
 ## Add Integration Script
 
+```
+
 #!/bin/bash
 
 # Creates a SonarQube integration within Velocity
@@ -31,4 +33,6 @@ curl --insecure --request POST \
       \"authToken\": \"${sonarQubeAuthToken}\"
     }
   }"
+
+```
 
