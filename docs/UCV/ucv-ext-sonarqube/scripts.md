@@ -3,6 +3,8 @@
 
 ## Add Integration Script
 
+The curl command for adding integrations can be converted to a script. An example script shown below.
+
 ```
 
 #!/bin/bash

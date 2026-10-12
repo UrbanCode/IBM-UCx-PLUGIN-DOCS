@@ -9,8 +9,8 @@
   - Privileges to create webhooks
   - A generated Authentication Token
 * Velocity Certificate Authentication
-  - Trusted Certificate: The certificate must be validated by a public or organizational Certificate Authority (CA) or imported into the truststore of the SonarQube server’s Java Runtime Environment (JRE).
-  - Common Name (CN): The host name used in the webhook must match the certificate's Common Name (CN) or Subject Alternative Name (SAN). If there is a host name mismatch, update the SonarQube server's `hosts` file to resolve the CN to the Velocity server IP.
+  - Trusted Certificate: The certificate must be validated as trusted. This means validated by a public or organizational Certificate Authority (CA) or else imported into the truststore of the SonarQube server’s Java Runtime Environment (JRE).
+  - Common Name (CN): The DevOps Velocity host name used in the webhook must meet the requirements of the DevOps Velocity certificate common name (CN), whether you are using a single-name, wildcard, or multi-name. It is best to craft your certificate so that its common name matches your DevOps Velocity host name. However, if there is a mismatch and the certificate cannot be changed, then the host name can be changed instead. This can be done at the network or local level, such as a hosts file entry on the SonarQube server that maps the common name to the actual host name, such that the common name can be used from that server.
 
 ## Integration Type
 
