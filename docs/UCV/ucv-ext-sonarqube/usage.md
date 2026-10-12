@@ -38,6 +38,8 @@ Each external data source should have its own integration, with multiple integra
 2. POST request to `/reporting-consumer/integration` (or `/velocity/reporting-consumer/integration` for Loop).
 3. Uploading a Value Stream Map (VSM) JSON file.
 
+The parameters for adding a SonarQube integration are summarized in the table below. The usual preference is to create an integration through the UI; however, sometimes it is necessary to use the API. An example POST request is provided below as part of a curl command to add an integration. It is important to pay attention to the response, since it will contain the integration ID to construct the endpoint URL. The endpoint URL is needed for the second step of creating a webhook in SonarQube.
+
 #### Parameters
 
 | Name | Type | Description | Required |
