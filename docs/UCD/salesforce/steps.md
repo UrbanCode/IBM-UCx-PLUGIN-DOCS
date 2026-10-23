@@ -46,7 +46,7 @@ Deploy a metadata-format directory to an org, or validate it without saving.
 | Consumer Key | secureBox | Consumer key of the connected app used for JWT. Required for the JWT bearer flow. | No |
 | JWT Key File | textBox | Path on the agent to the PEM private key matching the connected app certificate. Required this or JWT Private Key. | No |
 | JWT Private Key | secureBox | PEM private key contents. Staged to a temporary owner-only file and deleted when the step ends. Required this or JWT Key File. | No |
-| SFDX Auth URL | secureBox | Required when Authentication Method is SFDX Auth URL. Obtain with: sf org display --target-org <alias> --verbose | No |
+| SFDX Auth URL | secureBox | Required when Authentication Method is SFDX Auth URL. Obtain with: sf org display --target-org &lt;alias&gt; --verbose | No |
 | API Version | textBox | Metadata API version, for example 62.0. Leave empty to let the CLI use the org default. | No |
 | Trace | checkBox | Run the Salesforce CLI with SF_LOG_LEVEL=debug for troubleshooting. Produces verbose output. | No |
 | Max Poll | textBox | Legacy poll count. Combined with Poll Wait Time to derive the CLI --wait value in minutes. | No |
@@ -71,7 +71,7 @@ Quick-deploy a previously validated deployment without rerunning its tests.
 | Consumer Key | secureBox | Consumer key of the connected app used for JWT. Required for the JWT bearer flow. | No |
 | JWT Key File | textBox | Path on the agent to the PEM private key matching the connected app certificate. Required this or JWT Private Key. | No |
 | JWT Private Key | secureBox | PEM private key contents. Staged to a temporary owner-only file and deleted when the step ends. Required this or JWT Key File. | No |
-| SFDX Auth URL | secureBox | Required when Authentication Method is SFDX Auth URL. Obtain with: sf org display --target-org <alias> --verbose | No |
+| SFDX Auth URL | secureBox | Required when Authentication Method is SFDX Auth URL. Obtain with: sf org display --target-org &lt;alias&gt; --verbose | No |
 | API Version | textBox | Metadata API version, for example 62.0. Leave empty to let the CLI use the org default. | No |
 | Trace | checkBox | Run the Salesforce CLI with SF_LOG_LEVEL=debug for troubleshooting. Produces verbose output. | No |
 | Max Poll | textBox | Legacy poll count. Combined with Poll Wait Time to derive the CLI --wait value in minutes. | No |
@@ -96,7 +96,7 @@ List every metadata type available in the target org.
 | Consumer Key | secureBox | Consumer key of the connected app used for JWT. Required for the JWT bearer flow. | No |
 | JWT Key File | textBox | Path on the agent to the PEM private key matching the connected app certificate. Required this or JWT Private Key. | No |
 | JWT Private Key | secureBox | PEM private key contents. Staged to a temporary owner-only file and deleted when the step ends. Required this or JWT Key File. | No |
-| SFDX Auth URL | secureBox | Required when Authentication Method is SFDX Auth URL. Obtain with: sf org display --target-org <alias> --verbose | No |
+| SFDX Auth URL | secureBox | Required when Authentication Method is SFDX Auth URL. Obtain with: sf org display --target-org &lt;alias&gt; --verbose | No |
 | API Version | textBox | Metadata API version, for example 62.0. Leave empty to let the CLI use the org default. | No |
 | Trace | checkBox | Run the Salesforce CLI with SF_LOG_LEVEL=debug for troubleshooting. Produces verbose output. | No |
 | Proxy Host | textBox | HTTP proxy host. Exported to the CLI as HTTP_PROXY and HTTPS_PROXY. SOCKS proxies are not supported by Salesforce CLI v2. | No |
@@ -122,7 +122,7 @@ List the components of a given metadata type in the target org.
 | Consumer Key | secureBox | Consumer key of the connected app used for JWT. Required for the JWT bearer flow. | No |
 | JWT Key File | textBox | Path on the agent to the PEM private key matching the connected app certificate. Required this or JWT Private Key. | No |
 | JWT Private Key | secureBox | PEM private key contents. Staged to a temporary owner-only file and deleted when the step ends. Required this or JWT Key File. | No |
-| SFDX Auth URL | secureBox | Required when Authentication Method is SFDX Auth URL. Obtain with: sf org display --target-org <alias> --verbose | No |
+| SFDX Auth URL | secureBox | Required when Authentication Method is SFDX Auth URL. Obtain with: sf org display --target-org &lt;alias&gt; --verbose | No |
 | API Version | textBox | Metadata API version, for example 62.0. Leave empty to let the CLI use the org default. | No |
 | Proxy Host | textBox | HTTP proxy host. Exported to the CLI as HTTP_PROXY and HTTPS_PROXY. SOCKS proxies are not supported by Salesforce CLI v2. | No |
 | Proxy Port | textBox | HTTP proxy port. Defaults to 80. | No |
@@ -148,7 +148,7 @@ Retrieve unpackaged metadata or named packages into a metadata-format directory.
 | Consumer Key | secureBox | Consumer key of the connected app used for JWT. Required for the JWT bearer flow. | No |
 | JWT Key File | textBox | Path on the agent to the PEM private key matching the connected app certificate. Required this or JWT Private Key. | No |
 | JWT Private Key | secureBox | PEM private key contents. Staged to a temporary owner-only file and deleted when the step ends. Required this or JWT Key File. | No |
-| SFDX Auth URL | secureBox | Required when Authentication Method is SFDX Auth URL. Obtain with: sf org display --target-org <alias> --verbose | No |
+| SFDX Auth URL | secureBox | Required when Authentication Method is SFDX Auth URL. Obtain with: sf org display --target-org &lt;alias&gt; --verbose | No |
 | API Version | textBox | Metadata API version, for example 62.0. Leave empty to let the CLI use the org default. | No |
 | Trace | checkBox | Run the Salesforce CLI with SF_LOG_LEVEL=debug for troubleshooting. Produces verbose output. | No |
 | Max Poll | textBox | Legacy poll count. Combined with Poll Wait Time to derive the CLI --wait value in minutes. | No |
