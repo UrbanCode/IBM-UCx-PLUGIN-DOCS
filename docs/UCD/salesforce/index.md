@@ -1,7 +1,7 @@
 
 # Salesforce
 
-The Salesforce plug-in for IBM DevOps Deploy uses the Force.com Migration Tool to perform file-based deployment of metadata changes and Apex classes. These artifacts typically progress through a lifecycle in which IBM DevOps Deploy environments are mapped to Salesforce.com organizations.
+The Salesforce plug-in for IBM DevOps Deploy uses Salesforce CLI (SF CLI) instead of the Ant Migration Tool to deploy and retrieve metadata changes and Apex classes. This migration was required because Salesforce is retiring the legacy Ant-based deployment approach, and compatibility issues with the Winter ’27 release necessitated moving to the Salesforce CLI to ensure continued support for Salesforce deployments.
 
 ## Available Steps
 

@@ -1,133 +1,161 @@
-
 # Process Steps
 
 ## Bulk Retrieve
 
-Download a large number of components of a single metadata type into a set of local files.
+Download all components of a single metadata type into a local directory.
 
-
-| Name | Type | Description                                                                                                          | Required |
-| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
-| API Version | String | The API version to use for the metadata. The default is 34.0. | No |
-| Batch Size | String | The number of items to retrieve while doing multi-part retrieve. Defaults to 10. | No |
-| Containing Folder | String | If the metadata is contained in a folder, this parameter should be the name of the folder from which the contents are retrieved. | No |
-| Jar Path | String | Path to the Salesforce jar (ex. lib/ant-salesforce.jar) | Yes |
-| Max Poll | String | The number of times to poll the server for the results of the retrieve request. The clients waits for two seconds after the first poll attempt. The wait time is doubled for each successive poll attempt up to maximum of 30 seconds between poll attempts. | No |
-| Metadata Type | String | The type of metadata for which you are retrieving property information. | Yes |
-| Password | Password | SFDC Password. This may need to be appended with an authentication token if this agent resides outside of the trusted domain. See SalesForce documentation for further detail. (default: {p:resource/salesForce.password}``) | Yes |
-| Proxy Host | String | The HTTP/FTP proxy host. Only set proxy properties if there is a proxy being used. | No |
-| Proxy Password | Password | The password for the proxy. Used only is Proxy User is set. | No |
-| Proxy Port | String | The HTTP/FTP proxy port number. If nothing is entered, 80 will be used. | No |
-| Proxy Username | String | The proxy user. | No |
-| Retrieve Target | String | The root of the directory structure into which the metadata files are retrieved. (i.e. codepkg) | Yes |
-| SalesForce Server URL | String | SFDC Server URL (i.e. https://na17.salesforce.com) | Yes |
-| Socks Proxy Host | String | The name of a Socks server. | No |
-| Socks Proxy Port | String | The port for socks connections. If left empty, 1080 is used. | No |
-| Unzip | String | If set to true, the retrieved components are unzipped. If set to false, the retrieved components are saved as a zip file in the retrieveTarget directory. | No |
-| User | String | SFDC User Name | Yes |
+| Name | Type | Description | Required |
+| ---- | ---- | ----------- | -------- |
+| Salesforce CLI Path | textBox | Path to the sf executable. Defaults to sf on the agent PATH. | Yes |
+| Metadata Type | textBox | The type of metadata to retrieve, for example ApexClass or CustomObject. Type names are case-sensitive. | Yes |
+| Retrieve Target | textBox | The root of the directory structure into which the metadata files are retrieved, for example codepkg. | Yes |
+| Containing Folder | textBox | For folder-based types (Report, Dashboard, Document, EmailTemplate), the folder whose contents are retrieved. Passed to the CLI as Type:Folder. | No |
+| Unzip | checkBox | If selected, the retrieved components are extracted. Otherwise they are left as a zip file in the Retrieve Target directory. | No |
+| Trace | checkBox | Run the Salesforce CLI with SF_LOG_LEVEL=debug for troubleshooting. Produces verbose output. | No |
+| Authentication Method | selectBox | If the authentication method is JWT Bearer, require Username, Consumer Key, and either JWT Key File or JWT Private Key; if SFDX Auth URL is selected, require SFDX Auth URL. | Yes |
+| Instance URL | textBox | Login URL for the target org: `https://login.salesforce.com` for production and developer orgs, `https://test.salesforce.com` for sandboxes, or your My Domain URL. Used by the JWT flow. | Yes |
+| User | textBox | Salesforce username. Required for the JWT bearer flow. | No |
+| Consumer Key | secureBox | Consumer key of the connected app used for JWT. Required for the JWT bearer flow. | No |
+| JWT Key File | textBox | Path on the agent to the PEM private key matching the connected app certificate. Required this or JWT Private Key. | No |
+| JWT Private Key | secureBox | PEM private key contents. Staged to a temporary owner-only file and deleted when the step ends. Required this or JWT Key File. | No |
+| SFDX Auth URL | secureBox | Required when Authentication Method is SFDX Auth URL. | No |
+| API Version | textBox | Metadata API version, for example 62.0. Leave empty to let the CLI use the org default. | No |
+| Max Poll | textBox | Legacy poll count. Combined with Poll Wait Time to derive the CLI --wait value in minutes. | No |
+| Poll Wait Time | textBox | Legacy poll interval in milliseconds. Combined with Max Poll to derive the CLI --wait value in minutes. | No |
+| Proxy Host | textBox | HTTP proxy host. Exported to the CLI as HTTP_PROXY and HTTPS_PROXY. SOCKS proxies are not supported by Salesforce CLI v2. | No |
+| Proxy Port | textBox | HTTP proxy port. Defaults to 80. | No |
+| Proxy Username | textBox | Proxy user. | No |
+| Proxy Password | secureBox | Proxy password. Used only when Proxy Username is set. | No |
+| No Proxy | textBox | Comma-separated hosts that bypass the proxy. Exported as NO_PROXY. | No |
 
 ## Deploy
 
-Deploy components, code, or recent validations into your org.
+Deploy a metadata-format directory to an org, or validate it without saving.
 
-| Name | Type | Description                                                                                                          | Required |
-| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
-| Check Only | Boolean | Check this box to perform a test deployment (validation) of components without saving the components in the target org. After the validation finishes with passing tests, it might qualify for deployment without rerunning tests (Deploy Recent Validation step). | No |
-| Deploy Root | String | The directory relative to the current working directory which contains the files to operate on. | Yes |
-| Jar Path | String | Path to the Salesforce jar (ex. lib/ant-salesforce.jar) | Yes |
-| Password | Password | SFDC Password. This may need to be appended with an authentication token if this agen t resides outside of the trusted domain. See SalesForce documentation for further detail. (default: {p:resource/salesForce.password}``) | No |
-| Proxy Host | String | The HTTP/FTP proxy host. Only set proxy properties if there is a proxy being used. | No |
-| Proxy Password | Password | The password for the proxy. Used only is Proxy User is set. | No |
-| Proxy Port | String | The HTTP/FTP proxy port number. If nothing is entered, 80 will be used. | No |
-| Proxy Username | String | The proxy user. | No |
-| Roll Back on Error | Boolean | Determines whether or not to roll back on error | No |
-| SalesForce Server URL | String | SFDC Server URL (i.e. https://na17.salesforce.com) | Yes |
-| Socks Proxy Host | String | The name of a Socks server. | No |
-| Socks Proxy Port | String | The port for socks connections. If left empty, 1080 is used. | No |
-| Test Level | String | Specifies which tests are run as part of a deployment. The test level is enforced regardless of the types of components that are present in the deployment package. | No |
-| Test Names | String | Ignored if Test Level not set to RunSpecifiedTests.A list of Apex classes containing tests run after deployment. Separate each test with a new line. | No |
-| User | String | SFDC User Name | No |
-
-## Describe Metadata
-
-Describe and list all metadata types and their existing objects.
-
-| Name | Type | Description                                                                                                          | Required |
-| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
-| API Version | String | The API version to use for the metadata. The default is 34.0. | Yes |
-| Jar Path | String | Path to the Salesforce jar (ex. lib/ant-salesforce.jar) | Yes |
-| Password | Password | SFDC Password. This may need to be appended with an authentication token if this agent resides outside of the trusted domain. See SalesForce documentation for further detail. (default: {p:resource/salesForce.password}``) | No |
-| Proxy Host | String | The HTTP/FTP proxy host. Only set proxy properties if there is a proxy being used. | No |
-| Proxy Password | Password | The password for the proxy. Used only is Proxy User is set. | No |
-| Proxy Port | String | The HTTP/FTP proxy port number. If nothing is entered, 80 will be used. | No |
-| Proxy Username | String | The proxy user. | No |
-| SalesForce Server URL | String | SFDC Server URL (i.e. https://na17.salesforce.com) | Yes |
-| Socks Proxy Host | String | The name of a Socks server. | No |
-| Socks Proxy Port | String | The port for socks connections. If left empty, 1080 is used. | No |
-| User | String | SFDC User Name | No |
+| Name | Type | Description | Required |
+| ---- | ---- | ----------- | -------- |
+| Salesforce CLI Path | textBox | Path to the sf executable. Defaults to sf on the agent PATH. | Yes |
+| Deploy Root | textBox | Directory, relative to the working directory or absolute, containing the metadata-format payload and its package.xml. | Yes |
+| Check Only | checkBox | Run a validation instead of a deployment. A validation that passes its tests can later be quick-deployed with the Deploy Recent Validation step. Sets the recentValidationId output property. | No |
+| Roll Back on Error | checkBox | Leave selected for all-or-nothing deployments. Clearing it passes --ignore-errors, which production orgs reject. Ignored for validations. | No |
+| Test Level | selectBox | Which Apex tests run as part of the deployment. Validations intended for quick deploy to production must run tests. | No |
+| Test Names | textAreaBox | Ignored unless Test Level is RunSpecifiedTests. Apex test class names, one per line. | No |
+| Authentication Method | selectBox | If the authentication method is JWT Bearer, require Username, Consumer Key, and either JWT Key File or JWT Private Key; if SFDX Auth URL is selected, require SFDX Auth URL. | Yes |
+| Instance URL | textBox | Login URL for the target org: `https://login.salesforce.com` for production and developer orgs, `https://test.salesforce.com` for sandboxes, or your My Domain URL. Used by the JWT flow. | Yes |
+| User | textBox | Salesforce username. Required for the JWT bearer flow. | No |
+| Consumer Key | secureBox | Consumer key of the connected app used for JWT. Required for the JWT bearer flow. | No |
+| JWT Key File | textBox | Path on the agent to the PEM private key matching the connected app certificate. Required this or JWT Private Key. | No |
+| JWT Private Key | secureBox | PEM private key contents. Staged to a temporary owner-only file and deleted when the step ends. Required this or JWT Key File. | No |
+| SFDX Auth URL | secureBox | Required when Authentication Method is SFDX Auth URL. Obtain with: sf org display --target-org <alias> --verbose | No |
+| API Version | textBox | Metadata API version, for example 62.0. Leave empty to let the CLI use the org default. | No |
+| Trace | checkBox | Run the Salesforce CLI with SF_LOG_LEVEL=debug for troubleshooting. Produces verbose output. | No |
+| Max Poll | textBox | Legacy poll count. Combined with Poll Wait Time to derive the CLI --wait value in minutes. | No |
+| Poll Wait Time | textBox | Legacy poll interval in milliseconds. Combined with Max Poll to derive the CLI --wait value in minutes. | No |
+| Proxy Host | textBox | HTTP proxy host. Exported to the CLI as HTTP_PROXY and HTTPS_PROXY. SOCKS proxies are not supported by Salesforce CLI v2. | No |
+| Proxy Port | textBox | HTTP proxy port. Defaults to 80. | No |
+| Proxy Username | textBox | Proxy user. | No |
+| Proxy Password | secureBox | Proxy password. Used only when Proxy Username is set. | No |
+| No Proxy | textBox | Comma-separated hosts that bypass the proxy. Exported as NO_PROXY. | No |
 
 ## Deploy Recent Validation
 
-Deploy recently validated components.
+Quick-deploy a previously validated deployment without rerunning its tests.
 
-| Name | Type | Description                                                                                                          | Required |
-| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
-| Jar Path | String | Path to the Salesforce jar (ex. lib/ant-salesforce.jar) | Yes |
-| Max Poll | String | The number of times to poll the server for the results of the retrieve request. The clients waits for two seconds after the first poll attempt. The wait time is doubled for each successive poll attempt up to maximum of 30 seconds between poll attempts. | No |
-| Password | Password | SFDC Password. This may need to be appended with an authentication token if this agent resides outside of the trusted domain. See SalesForce documentation for further detail. (default: {p:resource/salesForce.password}``) | Yes |
-| Proxy Host | String | The HTTP/FTP proxy host. Only set proxy properties if there is a proxy being used. | No |
-| Proxy Password | Password | The password for the proxy. Used only is Proxy User is set. | No |
-| Proxy Port | String | The HTTP/FTP proxy port number. If nothing is entered, 80 will be used. | No |
-| Proxy Username | String | The proxy user. | No |
-| Recent Validation ID | String | Specifies the ID of a recent validation.Can be found as an output property of the Deploy step. | Yes |
-| Roll Back on Error | String | Default value is true.Indicates whether any failure causes a complete roll back (true) or not (false). | No |
-| SalesForce Server URL | String | SFDC Server URL (i.e. https://na17.salesforce.com) | Yes |
-| Socks Proxy Host | String | The name of a Socks server. | No |
-| Socks Proxy Port | String | The port for socks connections. If left empty, 1080 is used. | No |
-| User | String | SFDC User Name | Yes |
+| Name | Type | Description | Required |
+| ---- | ---- | ----------- | -------- |
+| Salesforce CLI Path | textBox | Path to the sf executable. Defaults to sf on the agent PATH. | Yes |
+| Recent Validation ID | textBox | Job id of a successful validation, produced by the Deploy step with Check Only selected. | Yes |
+| Authentication Method | selectBox | If the authentication method is JWT Bearer, require Username, Consumer Key, and either JWT Key File or JWT Private Key; if SFDX Auth URL is selected, require SFDX Auth URL. | Yes |
+| Instance URL | textBox | Login URL for the target org: `https://login.salesforce.com` for production and developer orgs, `https://test.salesforce.com` for sandboxes, or your My Domain URL. Used by the JWT flow. | Yes |
+| User | textBox | Salesforce username. Required for the JWT bearer flow. | No |
+| Consumer Key | secureBox | Consumer key of the connected app used for JWT. Required for the JWT bearer flow. | No |
+| JWT Key File | textBox | Path on the agent to the PEM private key matching the connected app certificate. Required this or JWT Private Key. | No |
+| JWT Private Key | secureBox | PEM private key contents. Staged to a temporary owner-only file and deleted when the step ends. Required this or JWT Key File. | No |
+| SFDX Auth URL | secureBox | Required when Authentication Method is SFDX Auth URL. Obtain with: sf org display --target-org <alias> --verbose | No |
+| API Version | textBox | Metadata API version, for example 62.0. Leave empty to let the CLI use the org default. | No |
+| Trace | checkBox | Run the Salesforce CLI with SF_LOG_LEVEL=debug for troubleshooting. Produces verbose output. | No |
+| Max Poll | textBox | Legacy poll count. Combined with Poll Wait Time to derive the CLI --wait value in minutes. | No |
+| Poll Wait Time | textBox | Legacy poll interval in milliseconds. Combined with Max Poll to derive the CLI --wait value in minutes. | No |
+| Proxy Host | textBox | HTTP proxy host. Exported to the CLI as HTTP_PROXY and HTTPS_PROXY. SOCKS proxies are not supported by Salesforce CLI v2. | No |
+| Proxy Port | textBox | HTTP proxy port. Defaults to 80. | No |
+| Proxy Username | textBox | Proxy user. | No |
+| Proxy Password | secureBox | Proxy password. Used only when Proxy Username is set. | No |
+| No Proxy | textBox | Comma-separated hosts that bypass the proxy. Exported as NO_PROXY. | No |
+
+## Describe Metadata
+
+List every metadata type available in the target org.
+
+| Name | Type | Description | Required |
+| ---- | ---- | ----------- | -------- |
+| Salesforce CLI Path | textBox | Path to the sf executable. Defaults to sf on the agent PATH. | Yes |
+| Result File Path | textBox | Optional path for the JSON results. The default output is the step log. | No |
+| Authentication Method | selectBox | If the authentication method is JWT Bearer, require Username, Consumer Key, and either JWT Key File or JWT Private Key; if SFDX Auth URL is selected, require SFDX Auth URL. | Yes |
+| Instance URL | textBox | Login URL for the target org: `https://login.salesforce.com` for production and developer orgs, `https://test.salesforce.com` for sandboxes, or your My Domain URL. Used by the JWT flow. | Yes |
+| User | textBox | Salesforce username. Required for the JWT bearer flow. | No |
+| Consumer Key | secureBox | Consumer key of the connected app used for JWT. Required for the JWT bearer flow. | No |
+| JWT Key File | textBox | Path on the agent to the PEM private key matching the connected app certificate. Required this or JWT Private Key. | No |
+| JWT Private Key | secureBox | PEM private key contents. Staged to a temporary owner-only file and deleted when the step ends. Required this or JWT Key File. | No |
+| SFDX Auth URL | secureBox | Required when Authentication Method is SFDX Auth URL. Obtain with: sf org display --target-org <alias> --verbose | No |
+| API Version | textBox | Metadata API version, for example 62.0. Leave empty to let the CLI use the org default. | No |
+| Trace | checkBox | Run the Salesforce CLI with SF_LOG_LEVEL=debug for troubleshooting. Produces verbose output. | No |
+| Proxy Host | textBox | HTTP proxy host. Exported to the CLI as HTTP_PROXY and HTTPS_PROXY. SOCKS proxies are not supported by Salesforce CLI v2. | No |
+| Proxy Port | textBox | HTTP proxy port. Defaults to 80. | No |
+| Proxy Username | textBox | Proxy user. | No |
+| Proxy Password | secureBox | Proxy password. Used only when Proxy Username is set. | No |
+| No Proxy | textBox | Comma-separated hosts that bypass the proxy. Exported as NO_PROXY. | No |
 
 ## List Metadata
 
-List information on a given metadata type.
+List the components of a given metadata type in the target org.
 
-| Name | Type | Description                                                                                                          | Required |
-| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
-| API Version | String | The API version to use for the metadata. The default is 34.0. | No |
-| Folder | String | The folder associated with the component. This field is required for components that use folders, such as Dashboard, Document, EmailTemplate, or Report. | No |
-| Jar Path | String | Path to the Salesforce jar (ex. lib/ant-salesforce.jar) | Yes |
-| Metadata Type | String | The name of the metadata type for which you are retrieving property information; for example, CustomObject for custom objects, or Report for custom reports. Type names are case-sensitive | Yes |
-| Password | Password | SFDC Password. This may need to be appended with an authentication token if this agent resides outside of the trusted domain. See SalesForce documentation for further detail. (default: {p:resource/salesForce.password}``) | No |
-| Proxy Host | String | The HTTP/FTP proxy host. Only set proxy properties if there is a proxy being used. | No |
-| Proxy Password | Password | The password for the proxy. Used only is Proxy User is set. | No |
-| Proxy Port | String | The HTTP/FTP proxy port number. If nothing is entered, 80 will be used. | No |
-| Proxy Username | String | The proxy user. | No |
-| Result File Path | String | The path of the output file where results are stored. The default output is the console. Directing the output to a file makes it easier to extract the relevant information for your package.xml manifest file. | No |
-| SalesForce Server URL | String | SFDC Server URL (i.e. https://na17.salesforce.com) | Yes |
-| Socks Proxy Host | String | The name of a Socks server. | No |
-| Socks Proxy Port | String | The port for socks connections. If left empty, 1080 is used. | No |
-| Trace | String | The path of the output file where results are stored. The default output is the console. Directing the output to a file makes it easier to extract the relevant information for your package.xml manifest file. | No |
-| User | String | SFDC User Name | No |
+| Name | Type | Description | Required |
+| ---- | ---- | ----------- | -------- |
+| Salesforce CLI Path | textBox | Path to the sf executable. Defaults to sf on the agent PATH. | Yes |
+| Metadata Type | textBox | The metadata type to list, for example CustomObject or Report. Type names are case-sensitive. | Yes |
+| Folder | textBox | Required for folder-based components such as Dashboard, Document, EmailTemplate or Report. | No |
+| Result File Path | textBox | Optional path for the JSON results. Writing to a file makes it easier to build a package.xml manifest. | No |
+| Trace | checkBox | Run the Salesforce CLI with SF_LOG_LEVEL=debug for troubleshooting. Produces verbose output. | No |
+| Authentication Method | selectBox | If the authentication method is JWT Bearer, require Username, Consumer Key, and either JWT Key File or JWT Private Key; if SFDX Auth URL is selected, require SFDX Auth URL. | Yes |
+| Instance URL | textBox | Login URL for the target org: `https://login.salesforce.com` for production and developer orgs, `https://test.salesforce.com` for sandboxes, or your My Domain URL. Used by the JWT flow. | Yes |
+| User | textBox | Salesforce username. Required for the JWT bearer flow. | No |
+| Consumer Key | secureBox | Consumer key of the connected app used for JWT. Required for the JWT bearer flow. | No |
+| JWT Key File | textBox | Path on the agent to the PEM private key matching the connected app certificate. Required this or JWT Private Key. | No |
+| JWT Private Key | secureBox | PEM private key contents. Staged to a temporary owner-only file and deleted when the step ends. Required this or JWT Key File. | No |
+| SFDX Auth URL | secureBox | Required when Authentication Method is SFDX Auth URL. Obtain with: sf org display --target-org <alias> --verbose | No |
+| API Version | textBox | Metadata API version, for example 62.0. Leave empty to let the CLI use the org default. | No |
+| Proxy Host | textBox | HTTP proxy host. Exported to the CLI as HTTP_PROXY and HTTPS_PROXY. SOCKS proxies are not supported by Salesforce CLI v2. | No |
+| Proxy Port | textBox | HTTP proxy port. Defaults to 80. | No |
+| Proxy Username | textBox | Proxy user. | No |
+| Proxy Password | secureBox | Proxy password. Used only when Proxy Username is set. | No |
+| No Proxy | textBox | Comma-separated hosts that bypass the proxy. Exported as NO_PROXY. | No |
 
 ## Retrieve
 
-Retrieve unpackaged, managed or unmanaged packages.
+Retrieve unpackaged metadata or named packages into a metadata-format directory.
 
-| Name | Type | Description                                                                                                          | Required |
-| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
-| Jar Path | String | Path to the Salesforce jar (ex. lib/ant-salesforce.jar) | Yes |
-| Package Names | String | Required if unpackaged is not specified. A comma-separated list of the names of the packages to retrieve. You must specify either Package Names or Unpackaged, but not both. | No |
-| Password | Password | SFDC Password. This may need to be appended with an authentication token if this agent resides outside of the trusted domain. See SalesForce documentation for further detail. (default: {p:resource/salesForce.password}``) | No |
-| Proxy Host | String | The HTTP/FTP proxy host. Only set proxy properties if there is a proxy being used. | No |
-| Proxy Password | Password | The password for the proxy. Used only is Proxy User is set. | No |
-| Proxy Port | String | The HTTP/FTP proxy port number. If nothing is entered, 80 will be used. | No |
-| Proxy Username | String | The proxy user. | No |
-| Retrieve Target | String | Required. The root of the directory structure into which the metadata files are retrieved. (i.e. codepkg) | Yes |
-| Retrieve Type | Enumeration:               | The type of component to retrieve. | Yes |
-|               |  - retrievePkg             |                                    |     |
-|               |  - retrieveOutput          |                                    |     |
-|               |  - retrieveUnpackaged      |                                    |     |
-| SalesForce Server URL | String | SFDC Server URL (i.e. https://na17.salesforce.com) | Yes |
-| Socks Proxy Host | String | The name of a Socks server. | No |
-| Socks Proxy Port | String | The port for socks connections. If left empty, 1080 is used. | No |
-| Unpackaged | String | Required if Unpackaged is specified. The path and name of a file manifest that specifies the components to retrieve. You must specify either Unpackaged or Package Names, but not both. (i.e. codepkg/package.xml) | No |
-| User | String | SFDC User Name | No |
+| Name | Type | Description | Required |
+| ---- | ---- | ----------- | -------- |
+| Salesforce CLI Path | textBox | Path to the sf executable. Defaults to sf on the agent PATH. | Yes |
+| Retrieve Type | selectBox | Unpackaged retrieves the components named in a package.xml manifest. Package retrieves named packages. | Yes |
+| Retrieve Target | textBox | The root of the directory structure into which the metadata files are retrieved, for example codepkg. | Yes |
+| Unpackaged | textBox | Required when Retrieve Type is Unpackaged. Path to the package.xml manifest listing the components to retrieve, for example codepkg/package.xml. | No |
+| Package Names | textBox | Required when Retrieve Type is not Unpackaged. Comma-separated package names. Specify either Package Names or Unpackaged, not both. | No |
+| Unzip | checkBox | If selected, the retrieved components are extracted. Otherwise they are left as a zip file in the Retrieve Target directory. | No |
+| Authentication Method | selectBox | If the authentication method is JWT Bearer, require Username, Consumer Key, and either JWT Key File or JWT Private Key; if SFDX Auth URL is selected, require SFDX Auth URL. | Yes |
+| Instance URL | textBox | Login URL for the target org: `https://login.salesforce.com` for production and developer orgs, `https://test.salesforce.com` for sandboxes, or your My Domain URL. Used by the JWT flow. | Yes |
+| User | textBox | Salesforce username. Required for the JWT bearer flow. | No |
+| Consumer Key | secureBox | Consumer key of the connected app used for JWT. Required for the JWT bearer flow. | No |
+| JWT Key File | textBox | Path on the agent to the PEM private key matching the connected app certificate. Required this or JWT Private Key. | No |
+| JWT Private Key | secureBox | PEM private key contents. Staged to a temporary owner-only file and deleted when the step ends. Required this or JWT Key File. | No |
+| SFDX Auth URL | secureBox | Required when Authentication Method is SFDX Auth URL. Obtain with: sf org display --target-org <alias> --verbose | No |
+| API Version | textBox | Metadata API version, for example 62.0. Leave empty to let the CLI use the org default. | No |
+| Trace | checkBox | Run the Salesforce CLI with SF_LOG_LEVEL=debug for troubleshooting. Produces verbose output. | No |
+| Max Poll | textBox | Legacy poll count. Combined with Poll Wait Time to derive the CLI --wait value in minutes. | No |
+| Poll Wait Time | textBox | Legacy poll interval in milliseconds. Combined with Max Poll to derive the CLI --wait value in minutes. | No |
+| Proxy Host | textBox | HTTP proxy host. Exported to the CLI as HTTP_PROXY and HTTPS_PROXY. SOCKS proxies are not supported by Salesforce CLI v2. | No |
+| Proxy Port | textBox | HTTP proxy port. Defaults to 80. | No |
+| Proxy Username | textBox | Proxy user. | No |
+| Proxy Password | secureBox | Proxy password. Used only when Proxy Username is set. | No |
+| No Proxy | textBox | Comma-separated hosts that bypass the proxy. Exported as NO_PROXY. | No |
+
