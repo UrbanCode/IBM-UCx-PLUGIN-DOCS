@@ -11,6 +11,15 @@ The IBM DevOps Deploy automation plug-in for Salesforce works with Force.com Win
 
 This plug-in requires version 7.3 or later of IBM DevOps Deploy.
 
+## Agent Prerequisites
+
+1. Node.js and Salesforce CLI v2 installed on every agent that runs these steps.
+
+2. Groovy (GROOVY_HOME), as before.
+
+3. Outbound HTTPS to your Salesforce instance, directly or through an HTTP proxy.
+   SOCKS proxies are not supported by Salesforce CLI v2.
+
 ## Installation
 
 No special steps are required for installation. See [Installing plug-ins in DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy").

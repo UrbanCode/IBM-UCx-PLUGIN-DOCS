@@ -13,7 +13,6 @@ Download all components of a single metadata type into a local directory.
 | Unzip | checkBox | If selected, the retrieved components are extracted. Otherwise they are left as a zip file in the Retrieve Target directory. | No |
 | Trace | checkBox | Run the Salesforce CLI with SF_LOG_LEVEL=debug for troubleshooting. Produces verbose output. | No |
 | Authentication Method | selectBox | If the authentication method is JWT Bearer, require Username, Consumer Key, and either JWT Key File or JWT Private Key; if SFDX Auth URL is selected, require SFDX Auth URL. | Yes |
-| Instance URL | textBox | Login URL for the target org: `https://login.salesforce.com` for production and developer orgs, `https://test.salesforce.com` for sandboxes, or your My Domain URL. Used by the JWT flow. | Yes |
 | User | textBox | Salesforce username. Required for the JWT bearer flow. | No |
 | Consumer Key | secureBox | Consumer key of the connected app used for JWT. Required for the JWT bearer flow. | No |
 | JWT Key File | textBox | Path on the agent to the PEM private key matching the connected app certificate. Required this or JWT Private Key. | No |
@@ -41,7 +40,6 @@ Deploy a metadata-format directory to an org, or validate it without saving.
 | Test Level | selectBox | Which Apex tests run as part of the deployment. Validations intended for quick deploy to production must run tests. | No |
 | Test Names | textAreaBox | Ignored unless Test Level is RunSpecifiedTests. Apex test class names, one per line. | No |
 | Authentication Method | selectBox | If the authentication method is JWT Bearer, require Username, Consumer Key, and either JWT Key File or JWT Private Key; if SFDX Auth URL is selected, require SFDX Auth URL. | Yes |
-| Instance URL | textBox | Login URL for the target org: `https://login.salesforce.com` for production and developer orgs, `https://test.salesforce.com` for sandboxes, or your My Domain URL. Used by the JWT flow. | Yes |
 | User | textBox | Salesforce username. Required for the JWT bearer flow. | No |
 | Consumer Key | secureBox | Consumer key of the connected app used for JWT. Required for the JWT bearer flow. | No |
 | JWT Key File | textBox | Path on the agent to the PEM private key matching the connected app certificate. Required this or JWT Private Key. | No |
@@ -66,7 +64,6 @@ Quick-deploy a previously validated deployment without rerunning its tests.
 | Salesforce CLI Path | textBox | Path to the sf executable. Defaults to sf on the agent PATH. | Yes |
 | Recent Validation ID | textBox | Job id of a successful validation, produced by the Deploy step with Check Only selected. | Yes |
 | Authentication Method | selectBox | If the authentication method is JWT Bearer, require Username, Consumer Key, and either JWT Key File or JWT Private Key; if SFDX Auth URL is selected, require SFDX Auth URL. | Yes |
-| Instance URL | textBox | Login URL for the target org: `https://login.salesforce.com` for production and developer orgs, `https://test.salesforce.com` for sandboxes, or your My Domain URL. Used by the JWT flow. | Yes |
 | User | textBox | Salesforce username. Required for the JWT bearer flow. | No |
 | Consumer Key | secureBox | Consumer key of the connected app used for JWT. Required for the JWT bearer flow. | No |
 | JWT Key File | textBox | Path on the agent to the PEM private key matching the connected app certificate. Required this or JWT Private Key. | No |
@@ -91,7 +88,6 @@ List every metadata type available in the target org.
 | Salesforce CLI Path | textBox | Path to the sf executable. Defaults to sf on the agent PATH. | Yes |
 | Result File Path | textBox | Optional path for the JSON results. The default output is the step log. | No |
 | Authentication Method | selectBox | If the authentication method is JWT Bearer, require Username, Consumer Key, and either JWT Key File or JWT Private Key; if SFDX Auth URL is selected, require SFDX Auth URL. | Yes |
-| Instance URL | textBox | Login URL for the target org: `https://login.salesforce.com` for production and developer orgs, `https://test.salesforce.com` for sandboxes, or your My Domain URL. Used by the JWT flow. | Yes |
 | User | textBox | Salesforce username. Required for the JWT bearer flow. | No |
 | Consumer Key | secureBox | Consumer key of the connected app used for JWT. Required for the JWT bearer flow. | No |
 | JWT Key File | textBox | Path on the agent to the PEM private key matching the connected app certificate. Required this or JWT Private Key. | No |
@@ -117,7 +113,6 @@ List the components of a given metadata type in the target org.
 | Result File Path | textBox | Optional path for the JSON results. Writing to a file makes it easier to build a package.xml manifest. | No |
 | Trace | checkBox | Run the Salesforce CLI with SF_LOG_LEVEL=debug for troubleshooting. Produces verbose output. | No |
 | Authentication Method | selectBox | If the authentication method is JWT Bearer, require Username, Consumer Key, and either JWT Key File or JWT Private Key; if SFDX Auth URL is selected, require SFDX Auth URL. | Yes |
-| Instance URL | textBox | Login URL for the target org: `https://login.salesforce.com` for production and developer orgs, `https://test.salesforce.com` for sandboxes, or your My Domain URL. Used by the JWT flow. | Yes |
 | User | textBox | Salesforce username. Required for the JWT bearer flow. | No |
 | Consumer Key | secureBox | Consumer key of the connected app used for JWT. Required for the JWT bearer flow. | No |
 | JWT Key File | textBox | Path on the agent to the PEM private key matching the connected app certificate. Required this or JWT Private Key. | No |
@@ -143,7 +138,6 @@ Retrieve unpackaged metadata or named packages into a metadata-format directory.
 | Package Names | textBox | Required when Retrieve Type is not Unpackaged. Comma-separated package names. Specify either Package Names or Unpackaged, not both. | No |
 | Unzip | checkBox | If selected, the retrieved components are extracted. Otherwise they are left as a zip file in the Retrieve Target directory. | No |
 | Authentication Method | selectBox | If the authentication method is JWT Bearer, require Username, Consumer Key, and either JWT Key File or JWT Private Key; if SFDX Auth URL is selected, require SFDX Auth URL. | Yes |
-| Instance URL | textBox | Login URL for the target org: `https://login.salesforce.com` for production and developer orgs, `https://test.salesforce.com` for sandboxes, or your My Domain URL. Used by the JWT flow. | Yes |
 | User | textBox | Salesforce username. Required for the JWT bearer flow. | No |
 | Consumer Key | secureBox | Consumer key of the connected app used for JWT. Required for the JWT bearer flow. | No |
 | JWT Key File | textBox | Path on the agent to the PEM private key matching the connected app certificate. Required this or JWT Private Key. | No |
