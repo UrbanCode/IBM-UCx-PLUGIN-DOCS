@@ -46,10 +46,11 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ### Version 110
 
-* Display target directory in rollback manifest XML for HFS containers during deployment
-* Improvements in partial deployment
-* Use cylinders for temp dataset creation for large deployment or rollback
-* Removed groovy dependency
+* 110.1193957 - Display target directory in rollback manifest XML for HFS containers during deployment
+* 110.1193957 - Improvements in partial deployment
+* 110.1193957 - Use cylinders for temp dataset creation for large deployment or rollback
+* 110.1193957 - Removed groovy dependency
+* 110.1194019 - Fixed a bug in package manifest parsing
 
 ### Version 109
 
