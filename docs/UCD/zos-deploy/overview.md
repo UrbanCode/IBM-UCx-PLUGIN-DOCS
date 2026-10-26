@@ -44,6 +44,13 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ## History
 
+### Version 110
+
+* Display target directory in rollback manifest XML for HFS containers during deployment
+* Improvements in partial deployment
+* Use cylinders for temp dataset creation for large deployment or rollback
+* Removed groovy dependency
+
 ### Version 109
 
 * Minor improvements in rexx programs execution
