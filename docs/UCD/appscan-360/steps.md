@@ -133,6 +133,9 @@ Deploys the Secagent.war file to an application server for IAST Java Agent usage
 | Login Key Secret | secureBox | The API key secret to authenticate with AS360. | Yes |
 | Validate SSL Certificate | checkBox | Enable TLS certificate validation for the AS360 server. Clear this only for test environments that use self-signed or untrusted certificates. | No |
 | Destination for IAST Agent file | textBox | Specify the destination as per below guidelines:  Tomcat server / Jetty server: Specify your webapps folder.  WebSphere server: Specify path to deploy Secagent.war as a web application, not as an enterprise application. Ensure the context root is set to /Secagent.  WebSphere Liberty server / Open Liberty server: Specify the dropins folder.  Jboss/WildFly server / JBoss EAP server: Specify the deployments folder.  Weblogic: Specify path as you would to deploy any other WAR servlet. | Yes |
+| Commit SHA | textBox | Optional commit SHA to attach in the scan comment metadata. | No |
+| Build URL | textBox | Optional build URL to attach in the scan comment metadata. | No |
+| Environment | textBox | Optional environment value to attach in the scan comment metadata. | No |
 
 ## Deploy IAST DotNet Agent
 
@@ -146,4 +149,7 @@ Deploys the IAST dotnet agent for application monitoring.
 | Login Key Secret | secureBox | The API key secret to authenticate with AS360. | Yes |
 | Validate SSL Certificate | checkBox | Enable TLS certificate validation for the AS360 server. Clear this only for test environments that use self-signed or untrusted certificates. | No |
 | Dotnet Application root | textBox | Dotnet application root for which IAST monitoring has to be setup. | Yes |
+| Commit SHA | textBox | Optional commit SHA to attach in the scan comment metadata. | No |
+| Build URL | textBox | Optional build URL to attach in the scan comment metadata. | No |
+| Environment | textBox | Optional environment value to attach in the scan comment metadata. | No |
 

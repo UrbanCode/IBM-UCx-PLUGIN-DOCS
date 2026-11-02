@@ -14,6 +14,10 @@ The plugin is compatible with:
 
 ## History
 
+### Version 3
+
+Added Commit SHA, Environment ID, and Build URL properties to Deploy IAST Java and .NET Agent steps.
+
 ### Version 2
 
 Added steps for  interactive monitoring technology (IAST) capabilities.
