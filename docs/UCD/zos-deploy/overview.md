@@ -44,6 +44,20 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ## History
 
+### Version 110
+
+* 110.1193957 - Display target directory in rollback manifest XML for HFS containers during deployment
+* 110.1193957 - Improvements in partial deployment
+* 110.1193957 - Use cylinders for temp dataset creation for large deployment or rollback
+* 110.1193957 - Removed groovy dependency
+* 110.1194019 - Fixed a bug in package manifest parsing
+
+### Version 109
+
+* Minor improvements in rexx programs execution
+* Update Apache Ant to 1.10.18 for non-exploitable CVE-2026-7825
+* Added elapsed time for backup and deploy sub steps
+
 ### Version 108
 
 * 1190945 - Added option to execute RUNTIME delta deployment in Dry Run mode

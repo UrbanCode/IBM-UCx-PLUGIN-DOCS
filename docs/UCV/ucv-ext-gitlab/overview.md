@@ -3,13 +3,16 @@
 
 The GitLab plug-in provides for integration with a GitLab server. This plug-in imports issues, commits, merge requests and builds from a GitLab server and provides a single view of GitLab data in DevOps Velocity value stream map. Data between the GitLab server and the DevOps Velocity server is synchronized every five minutes.
 
-
 ## Compatibility
 
-* This plug-in requires DevOps Velocity version 1.2.1 or higher
-* The plug-in version 2.0.3 or higher requires DevOps Velocity version 1.5.5 or higher
 * This plug-in supports GitLab version 9 or higher
 * This plug-in supports Cloud and On-Premises platform
+
+The table below lists the compatible versions of the GitLab plug-in and IBM DevOps Velocity:
+
+| IBM DevOps Velocity Version | GitLab plug-in version |
+| --- | --- |
+| 5.2.5 or later | 2.2.74 |
 
 **Note:** For integrations created before upgrading to version 2.4.0 of DevOps Velocity, Auto-generated User Access Key is not present, so the integration will fail after upgrading. In this case, you have to manually add a new User Access Key in the hidden property named ***DevOps Velocity User Access Key.***
 
@@ -18,6 +21,13 @@ The GitLab plug-in provides for integration with a GitLab server. This plug-in i
 There is no install process for this plug-in. The GitLab plug-in is identified to DevOps Velocity as a value stream integration. DevOps Velocity plug-in images are located in DockerHub and the IBM DevOps Velocity code accesses the version that you select. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-gitlab/tags).
 
 ## History
+
+### Version 2.2.74
+
+* **Vulnerability fix**: Addressed and resolved Whitesource-reported vulnerabilities.
+* **Sonarqube coverage**: Improved test coverage for the GitLab plug-in.
+* **Enhancement**: Added support for Team and Teamspace fields in plugin integrations. These fields can now be configured during plugin setup and integration.
+* **Technical upgrade**: Upgraded the NPM Wrapper package to the latest supported version.
 
 ### Version 2.2.69
 

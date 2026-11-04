@@ -17,6 +17,7 @@ Git for IBM DevOps Build - Steps
 * [Git Cleanup](#git_cleanup)
 * [Git Create Tag](#git_create_tag)
 * [Git Quiet Period](#git_quiet_period)
+* [Git Sparse Checkout](#git_sparse_checkout)
 
 
 ### Create GitHub Status
@@ -87,6 +88,17 @@ Perform a Git changelog for quiet period detection and publish most recent chang
 | End Date | String | End changelog at this date (yyyy-MM-dd HH:mm:ss z OR E MMM dd HH:mm:ss zzz yyyy OR milliseconds since Unix Epoch) | No |
 | Source Config |  |  | No |
 | Start Date | String | Start changelog at this date (yyyy-MM-dd HH:mm:ss z OR E MMM dd HH:mm:ss zzz yyyy OR milliseconds since Unix Epoch) | No |
+
+### Git Sparse Checkout
+
+Perform a sparse Git checkout to fetch only specific files (e.g., BuildFile.json for JAC pre-workflow). This is much faster than a full checkout for large repositories.
+
+
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
+| Fallback Branch | String | Branch to use when the configured branch contains unresolved properties (e.g., for manual builds). Leave empty to fail the step if branch cannot be resolved. | No |
+| Source Config |  |  | No |
+| Sparse Patterns | String | Comma-separated list of files or patterns to checkout (e.g., BuildFile.json, config/*.json). Defaults to BuildFile.json | No |
 
 
 ### Roles in the Git plug-in

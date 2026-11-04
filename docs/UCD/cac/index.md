@@ -2,16 +2,27 @@
 
 ---
 
-* **`Devops Deploy`** processes allows a user to automate a set of repeatable tasks in a orderly fashion and execute them on configured target machines.
+* **Configuration as Code (CAC)** is a CLI tool for **`DevOps Deploy`** that enables users to manage their deployment configurations — including **components**, **applications**, **environments**, and **processes** — as JSON or YAML files.
+
+* Users can download existing configurations from the server, edit them locally, and upload them back, making a source code repository like Git the single source of truth for collaboration and change tracking.
 
 * Processes can be configured at 3 places in the product, **`Application`**, **`Component`** , **`Processes`** and the processes configured here are termed as **`Application Process`**, **`Component Process`**, **`Generic Process`** respectively.
 
-* The aim of this project/tool is to allow users to configure their processes in a source code repo like GIT and make it their single source truth and place for users to collaborate to enhance their processes. 
+* The `cac setup` command allows users to store server credentials and context locally, eliminating the need to pass credentials with every command.
 
-* This tool currently allows users to use json format to define processes and works with existing processes in 'Devops Deploy'.
+* CAC AI Skills enable users to perform DevOps Deploy operations using natural language through AI-capable CLI environments.
 
 
 ## History
+
+### Version 4.0
+
+* Added `cac setup` command to store server credentials and context in a local configuration file, reducing repetition across commands.
+* Added support to upload/download **Component** configurations as JSON or YAML (`upload-component`, `download-component`).
+* Added support to upload/download **Application** configurations as JSON or YAML (`upload-application`, `download-application`).
+* Added support to upload/download **Environment** configurations as JSON or YAML (`upload-environment`, `download-environment`).
+* Added support to upload/download **External approval process**
+* Added CAC AI Skills for performing DevOps Deploy operations using natural language through AI-capable CLI environments.
 
 ### Version 3.2
 * Supports tag-names instead of their IDs while upload/download.

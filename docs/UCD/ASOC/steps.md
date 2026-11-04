@@ -111,3 +111,29 @@ Delete an ASoC presence. The presence will subsequently be stopped on any machin
 | Login Key Secret | secureBox | The API key secret to authenticate with ASoC. | Yes |
 | Presence ID | textBox | Specify an ID of an existing presence that is accessible                          using the provided login credentials. This field will be ignored if                          the 'Delete All Presences' box is checked. | Yes |
 | Delete All Presences | checkBox | Select this box to remove all existing ASoC presences                          that can be accessed with the provided login credentials. | No |
+
+## Deploy IAST Java Agent
+
+Deploys the Secagent.war file to an application server for IAST Java Agent usage.
+
+| Name | Type | Description | Required |
+| ---- | ---- | ----------- | -------- |
+| ASoC Application ID | textBox | The ID of the application in ASoC. | Yes |
+| Base ASoC URL | textBox | Please enter a base ASoC URL to scan. Ex- cloud.appscan.com, cloud.appscan.com/eu. | Yes |
+| Login Key ID | textBox | The API key ID to authenticate with ASoC. | Yes |
+| Login Key Secret | secureBox | The API key secret to authenticate with ASoC. | Yes |
+| Validate SSL Certificate | checkBox | Enable TLS certificate validation for the ASoC server. Clear this only for test environments that use self-signed or untrusted certificates. | No |
+| Destination for IAST Agent file | textBox | Specify the destination as per below guidelines:  Tomcat server / Jetty server: Specify your webapps folder.  WebSphere server: Specify path to deploy Secagent.war as a web application, not as an enterprise application. Ensure the context root is set to /Secagent.  WebSphere Liberty server / Open Liberty server: Specify the dropins folder.  Jboss/WildFly server / JBoss EAP server: Specify the deployments folder.  Weblogic: Specify path as you would to deploy any other WAR servlet. | Yes |
+
+## Deploy IAST DotNet Agent
+
+Deploys the IAST dotnet agent for application monitoring.
+
+| Name | Type | Description | Required |
+| ---- | ---- | ----------- | -------- |
+| ASoC Application ID | textBox | The ID of the application in ASoC. | Yes |
+| Base ASoC URL | textBox | Please enter a base ASoC URL to scan. Ex- cloud.appscan.com, cloud.appscan.com/eu. | Yes |
+| Login Key ID | textBox | The API key ID to authenticate with ASoC. | Yes |
+| Login Key Secret | secureBox | The API key secret to authenticate with ASoC. | Yes |
+| Validate SSL Certificate | checkBox | Enable TLS certificate validation for the ASoC server. Clear this only for test environments that use self-signed or untrusted certificates. | No |
+| Dotnet Application root | textBox | Dotnet application root for which IAST monitoring has to be setup. | Yes |

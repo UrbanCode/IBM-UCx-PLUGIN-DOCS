@@ -4,6 +4,7 @@ Git for IBM DevOps Build - Downloads
 
 # Downloads
 
+- [Git-31.1192694.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Git/Git-31.1192694.zip)
 - [Git-29.1127031.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Git/Git-29.1127031.zip)
 - [Git-28.1107738.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Git/Git-28.1107738.zip)
 - [Git-27.1096142.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Git/Git-27.1096142.zip)

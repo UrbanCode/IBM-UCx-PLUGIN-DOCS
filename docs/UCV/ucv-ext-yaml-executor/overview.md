@@ -16,6 +16,14 @@ view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/
 
 ## History
 
+### Version 0.0.15
+
+* **Feature enhancement**: Introduced direct synchronization capability (`directSync`) during YAML execution, allowing immediate value stream creation without waiting for background sync events to complete.
+* **New parameters**: 
+  * `directSync` (Boolean): Enables direct synchronization during YAML execution.
+  * `applicationids` (Array): Mandatory when `directSync` is enabled to selectively sync only specified application IDs.
+* **Note**: Direct synchronization functionality in this version is supported only for the devops deploy plugin.
+
 ### Version 0.0.13
 
 * **Bug fix**: Resolved an issue where userAccessKey was not reliably fetched during concurrent requests in the measure. This caused some requests to fail or not execute until retried. The YAML Executor plugin now runs all requests consistently as expected.

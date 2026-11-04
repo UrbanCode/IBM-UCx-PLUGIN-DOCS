@@ -6,8 +6,8 @@ analysis, and results. SonarQube metrics used by DevOps Velocity include bugs, c
 an operational perspective, continuous integration often relies on quality gates to keep code quality high. DevOps
 Velocity is designed for operational value as well.SonarQube integrates with Velocity by targeting an integration
 endpoint URL with a webhook. SonarQube will then notify that endpoint to retrieve data whenever a project analysis
-finishes. The following diagram shows the flow between SonarQube and DevOps Velocity.![](/wp-
-content/uploads/SonarQube_Velocity_Flow.png)
+finishes. The following diagram shows the flow between SonarQube and DevOps Velocity.
+![](media/SonarQube_Velocity_Flow.png)
 
 ## Compatibility
 
@@ -19,9 +19,12 @@ DevOps Velocity plug-in images are located in DockerHub. To view available versi
 
 ## History
 
-### Version 1.0.65
+### Version 1.0.75
 
-* Reduced Vulnerabilities
+* **Vulnerability fix**: Addressed and resolved Whitesource-reported vulnerabilities.
+* **Removed Manual User Access Key**: From current version onwards this plug-in will only support Auto Generated User Access Key feature of Devops Velocity.
+* **Technical upgrade**: Upgraded the NPM Wrapper package to the latest supported version.
+* **Enhancement**: Improved code quality and maintainability.
 
 ### Version 1.0.50
 
@@ -31,8 +34,7 @@ DevOps Velocity plug-in images are located in DockerHub. To view available versi
 
 * Minor enhancements.
 
-###
-Version 1.0.34
+### Version 1.0.34
 
 * Improve plug-in security.
 

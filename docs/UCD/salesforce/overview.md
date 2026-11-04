@@ -1,21 +1,34 @@
 
 # Overview
 
-The Salesforce plug-in includes steps that use the Force.com Migration Tool to deploy metadata changes and Apex classes.For a detailed tutorial and example use-cases, refer to the [Usage](#usage) page.
+The Salesforce plug-in includes steps that use Salesforce CLI (SF CLI) to deploy and retrieve metadata changes and Apex classes. The plug-in was migrated from the Ant Migration Tool to Salesforce CLI to maintain compatibility with the Salesforce Winter ’27 release and support ongoing Salesforce deployments.For a detailed tutorial and example use-cases, refer to the [Usage](#usage) page.
 
 To add the Salesforce plug-in steps to processes, click **CRM > Salesforce** in the step palette of the process editor.
 
 ## Compatibility
 
-The IBM DevOps Deploy automation plug-in for Salesforce works with Force.com Summer 14 and later, and with Metadata API version 33 and later.
+The IBM DevOps Deploy automation plug-in for Salesforce works with Force.com Winter 24 and later, and with Metadata API version 41 through 68.
 
-This plug-in requires version 6.0 or later of IBM DevOps Deploy.
+This plug-in requires version 7.3 or later of IBM DevOps Deploy.
+
+## Agent Prerequisites
+
+1. Node.js and Salesforce CLI v2 installed on every agent that runs these steps.
+
+2. Groovy (GROOVY_HOME), as before.
+
+3. Outbound HTTPS to your Salesforce instance, directly or through an HTTP proxy.
+   SOCKS proxies are not supported by Salesforce CLI v2.
 
 ## Installation
 
 No special steps are required for installation. See [Installing plug-ins in DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy").
 
 ## History
+
+### Version 13
+
+Migrated Salesforce plugin from Ant Migration Tool to Salesforce CLI.
 
 ### Version 12
 

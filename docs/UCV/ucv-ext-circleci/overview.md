@@ -5,14 +5,24 @@ The CircleCI plugin imports pipeline, workflow, and job execution data of a proj
 
 ## Compatibility
 
-The CircleCI plug-in requires IBM DevOps Velocity version 2.2.0 or later.
+The table below lists the compatible versions of the CircleCI plug-in and IBM DevOps Velocity:
 
+| DevOps Velocity Version | CircleCI Plug-in Versions |
+| --- | --- |
+| 5.2.5 or later | 1.0.33 |
 
 ## Versions
 
 The IBM DevOps Velocity plug-in images are located in DockerHub. For available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-circleci/tags).
 
 ## History
+
+### Version 1.0.33
+
+* **Vulnerability fix**: Addressed and resolved Whitesource-reported vulnerabilities.
+* **Sonarqube coverage**: Improved test coverage for the CircleCI plug-in.
+* **Enhancement**: Added support for Team and Teamspace fields in plugin integrations. These fields can now be configured during plugin setup and integration.
+* **Technical upgrade**: Upgraded the NPM Wrapper package to the latest supported version.
 
 ### Version 1.0.24
 

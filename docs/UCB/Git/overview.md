@@ -23,6 +23,10 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 ### History
 
+#### Version 31
+
+Fixed Git Sparse Checkout incorrectly inheriting the SCM_Populate command type. Git Checkout remains the SCM_Populate step.
+
 #### Version 27
 
 To fix duplicate committer licenses, we made provisions to use email ids instead of author names.

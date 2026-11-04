@@ -286,6 +286,20 @@ export const ucb: DefaultTheme.Sidebar = {
     ],
 
     // This sidebar gets displayed when a user
+    // is on `plugin/HCLAppscan360` directory.
+    [`/${BUILD_BASE_DIR}/HCLAppscan360/`]: [
+        {
+            text: 'HCL AppScan 360',
+            items: [
+                { text: 'About', link: `/${BUILD_BASE_DIR}/HCLAppscan360/` },
+                { text: 'Overview', link: `/${BUILD_BASE_DIR}/HCLAppscan360/overview` },
+                { text: 'Steps', link: `/${BUILD_BASE_DIR}/HCLAppscan360/steps` },
+                { text: 'Downloads', link: `/${BUILD_BASE_DIR}/HCLAppscan360/downloads` }
+            ]
+        }
+    ],
+
+    // This sidebar gets displayed when a user
     // is on `plugin/HPFortify` directory.
     [`/${BUILD_BASE_DIR}/HPFortify/`]: [
         {

@@ -80,6 +80,8 @@ using the user interface and the property name when using a JSON file.
 | User Access Key | Secure | The user access key generated from DevOps Velocity used to authenticate with the DevOps Velocity server. | No | Yes | ucvAccessKey |
 | URL | String | The URL of the Digital.io Agility server. | Yes | No | serverUrl |
 | User ID | String | The user name used to authenticate with the Digital.io Agility server. | Yes | No | userId |
+| Team Space Id | FilterableSelect | The teamspace associated with the integration. | No | teamspaceId |
+| Team Id | FilterableSelect | The teams associated with the integration. | No | teamId |
 
 ## Example
 

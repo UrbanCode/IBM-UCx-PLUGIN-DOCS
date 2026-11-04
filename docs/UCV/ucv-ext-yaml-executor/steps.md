@@ -113,23 +113,42 @@ The following table describe the properties that you must define under configs :
 
 For additional configuration properties depending on integration type, navigate to respective plug-in and look for general configuration properties section for more details.
 
+### Direct synchronization properties
+
+The following table describes the properties used to enable direct synchronization during YAML execution.
+
+|Property name|Type|Description|Required|
+|-------------|------|-----------|--------|
+|directSync|Boolean|Enables direct synchronization during YAML execution.|No|
+|applicationids|Array|List of application IDs used to retrieve and synchronize associated resources from other plug-in.|Yes, when `directSync` is `true`|
+
+**Note:** Currently, `directSync` functionality is supported only for devops deploy plug-in.
+
+When `directSync` is set to `true`, the YAML Executor validates resource existence in velocity before requesting data from the devops deploy plug-in. The `applicationids` property is used to synchronize only the resources associated with the specified applications.
+
 ### Sample YAML configuration file
 
 Following is the sample YAML configuration file with existing integration.
 
 ```
-version: "8.0.0"
+version: 0.0.1
 integrations:
-  - type: ucv-ext-launch
-    name: Test
+  - tenant_id: 12345-12345
+    name: Valuestream 1
     attributes:
+      appEnvOrder:
+        - DEV
+        - QA
+        - PROD
+      directSync: true
       auto-config: true
-      application: [
-         "Test1"
-      ],
-      appEnvOrder: ["QA", "DEV", "PROD"]
-      integrationId: 12345678,
-      team: Loop3
+      integrationId: 12345-12345
+      team: Dev Team
+      applications:
+        - TL5
+      applicationids:
+        - 12345-12345
+    type: ucv-ext-ucd
 ```
 
 Replace the property values in the sample file with the actual values specific to your configuration.

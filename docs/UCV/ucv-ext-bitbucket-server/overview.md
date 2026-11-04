@@ -6,7 +6,11 @@ The BitBucket Server plug-in provides for integration with a BitBucket server.
 
 ## Compatibility
 
-This plug-in requires DevOps Velocity version 2.5.0 and later.
+The table below lists the compatible versions of the Bitbucket Server plug-in and IBM DevOps Velocity:
+
+| DevOps Velocity Version | Bitbucket Server Plug-in Versions |
+| --- | --- |
+| 5.2.5 or later | 1.1.35 |
 
 ## Versions
 
@@ -14,6 +18,13 @@ DevOps Velocity plug-in images are located in DockerHub. To view available versi
 DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-bitbucket-server/tags).
 
 ## History
+
+### Version 1.1.35
+
+* **Vulnerability fix**: Addressed and resolved Whitesource-reported vulnerabilities.
+* **Sonarqube coverage**: Improved test coverage for the Bitbucket Server plug-in.
+* **Enhancement**: Added support for Team and Teamspace fields in plugin integrations. These fields can now be configured during plugin setup and integration.
+* **Technical upgrade**: Upgraded the NPM Wrapper package to the latest supported version.
 
 ### Version 1.1.26
 
