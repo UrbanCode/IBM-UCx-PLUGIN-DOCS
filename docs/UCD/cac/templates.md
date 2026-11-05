@@ -202,7 +202,7 @@ properties:
       secure: false
 ```
 
-## Workflow Integration
+### Workflow Integration
 
 #### Scenario 1: Modify an Existing Component Template
 
@@ -376,6 +376,28 @@ properties:
     type: "TEXT"
     required: false
     description: "Updated - no longer required"
+```
+
+### Workflow Integration
+
+#### Scenario 1: Modify an Existing Application Template
+
+```sh
+# Download the application template definition
+download-application-template admin admin https://localhost:8443 CaC_AT_Prop_Sync_Test app-template.json
+
+# Edit app-template.json to update property definitions,
+# snapshot settings, or the notification scheme
+
+# Upload the modified application template
+upload-application-template admin admin https://localhost:8443 app-template.json
+```
+
+#### Scenario 2: Create a New Application Template
+
+```sh
+# Author a new application template JSON (see structure above)
+upload-application-template admin admin https://localhost:8443 NewApplicationTemplate.json
 ```
 
 
