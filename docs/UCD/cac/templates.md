@@ -56,20 +56,23 @@ created from the template, and template-level default component property **value
 | `componentType` | string | Type of component created from this template (`STANDARD` or `ZOS`). |
 | `sourceConfigPluginName` | string | Source configuration plugin used by components created from this template. Empty string means no source configuration. |
 | `importAutomatically` | boolean | Whether versions are imported automatically. |
-| `importConfigurationStrategy` | string | Strategy used to apply the template's source configuration to components (for example, `default`). |
+| `importConfigurationStrategy` | string | Strategy used to apply the template's source configuration to components (for example, `default`). Empty string means none. |
 | `integrationAgentName` | string | Name of the agent used for source-configuration/version import. Empty string means none. |
-| `processes` | string | Informational only. Has no effect on `upload-component-template`. |
+| `processes` | string | Comma-separated list of the template's process names. Informational only. Has no effect on `upload-component-template`. |
+| `teams` | array of strings | Teams that have access to the component template. Each entry is a team name that must already exist on the server. Written only when at least one team is assigned. |
+| `tags` | array of strings | Tags applied to the component template. Each entry is a tag name. Written only when at least one tag is assigned. |
 
 #### Properties Structure
 
-The `properties` object contains four sections:
+The `properties` object contains the following sections:
 
 | Section | Form | Description |
 |---------|------|-------------|
 | `environment` | array of property definitions | Environment property definitions for environments of components created from the template. |
 | `resource` | array of property definitions | Resource property definitions. |
 | `component` | array of property definitions | Component property **definitions** (the form shown to users of the component). |
-| `custom-component-properties` | object (map) | Template-level component property **values**, keyed by property name. |
+| `custom-component-properties` | object (map) | Template-level component property **values**, keyed by property name. Present only when the template has component property values. |
+| `sourceConfig` | object (map) | Source configuration property **values**, keyed by property name. Present only when a source configuration is set. |
 
 **Property definition fields** (used in `environment`, `resource`, and `component` arrays):
 
@@ -114,92 +117,96 @@ upload-component-template-process <process-json-file>
 
 ### JSON Structure
 
-```json
+```json5
 {
-  "name": "CaC_Test_Component_Template",
-  "description": "Component Template for property testing",
-  "componentType": "STANDARD",
-  "sourceConfigPluginName": "",
-  "importAutomatically": false,
-  "importConfigurationStrategy": "default",
-  "integrationAgentName": "",
-  "processes": "",
+  "name": "<name of the component template>",
+  "description": "<Optional | defaults to empty | description>",
+  "componentType": "<Optional | STANDARD or ZOS | defaults to STANDARD>",
+  "sourceConfigPluginName": "<Optional | existing source config plugin name | defaults to empty>",
+  "importAutomatically": "<Optional | boolean value | defaults to false>",
+  "importConfigurationStrategy": "<Optional | import configuration strategy | defaults to empty>",
+  "integrationAgentName": "<Optional | existing agent name | defaults to empty>",
+  "processes": "<Optional info only field | comma separated process names>",
   "properties": {
+    // Optional | property definitions inherited by components created from this template
     "environment": [
+      // Optional | 0 or more environment property definitions in below structure
       {
-        "name": "env-prop-alpha",
-        "type": "TEXT",
-        "required": false,
-        "label": "env-prop-1",
-        "description": "Environment property one"
+        "name": "<name of property>",
+        "type": "<TEXT | TEXTAREA | CHECKBOX | SELECT | MULTI_SELECT>",
+        "required": "<Optional | boolean value | defaults to false>",
+        "label": "<optional display label>",
+        "description": "<optional description>"
       }
     ],
     "resource": [
-      {
-        "name": "res-prop-defination-alpha",
-        "type": "TEXT",
-        "required": false,
-        "label": "res-prop-defination-alpha"
-      }
+      // Optional | 0 or more resource property definitions in same structure as above
     ],
     "component": [
-      {
-        "name": "comp-prop-1-renamed-1",
-        "type": "TEXT",
-        "required": false,
-        "label": "comp-prop-1-renamed",
-        "description": "Component property one renamed"
-      }
+      // Optional | 0 or more component property definitions in same structure as above
     ],
     "custom-component-properties": {
-      "comp-template-property-alpha": {
-        "value": "",
-        "description": "",
-        "secure": false
+      // Optional | template level component property values, keyed by property name
+      "<name of property>": {
+        "value": "<optional value>",
+        "description": "<optional description>",
+        "secure": "<false>"
       }
+    },
+    "sourceConfig": {
+      // Optional | source configuration property values, keyed by property name
+      "<name of source config property>": "<value>"
     }
-  }
+  },
+  "teams": [
+    // Optional | array of team names that already exist in the server
+  ],
+  "tags": [
+    // Optional | array of tag names
+  ]
 }
 ```
 
 ### YAML Structure
 
 ```yaml
-name: "CaC_Test_Component_Template"
-description: "Component Template for property testing"
-componentType: "STANDARD"
-sourceConfigPluginName: ""
-importAutomatically: false
-importConfigurationStrategy: "default"
-integrationAgentName: ""
-processes: ""
+name: "<name of the component template>"
+description: "<Optional | defaults to empty | description>"
+componentType: "<Optional | STANDARD or ZOS | defaults to STANDARD>"
+sourceConfigPluginName: "<Optional | existing source config plugin name | defaults to empty>"
+importAutomatically: <Optional | boolean value | defaults to false>
+importConfigurationStrategy: "<Optional | import configuration strategy | defaults to empty>"
+integrationAgentName: "<Optional | existing agent name | defaults to empty>"
+processes: "<Optional info only field | comma separated process names>"
 
 properties:
   environment:
-    - name: "env-prop-alpha"
-      type: "TEXT"
-      required: false
-      label: "env-prop-1"
-      description: "Environment property one"
+    - name: "<name of property>"
+      type: "<TEXT | TEXTAREA | CHECKBOX | SELECT | MULTI_SELECT>"
+      required: <Optional | boolean value | defaults to false>
+      label: "<optional display label>"
+      description: "<optional description>"
 
   resource:
-    - name: "res-prop-defination-alpha"
-      type: "TEXT"
-      required: false
-      label: "res-prop-defination-alpha"
+    - <Optional | resource property definitions in same structure as above>
 
   component:
-    - name: "comp-prop-1-renamed-1"
-      type: "TEXT"
-      required: false
-      label: "comp-prop-1-renamed"
-      description: "Component property one renamed"
+    - <Optional | component property definitions in same structure as above>
 
   custom-component-properties:
-    comp-template-property-alpha:
-      value: ""
-      description: ""
-      secure: false
+    <name of property>:
+      value: "<optional value>"
+      description: "<optional description>"
+      secure: <false>
+
+  sourceConfig:
+    <name of source config property>: "<value>"
+
+teams:
+  - "<Optional | team name that already exists in the server>"
+
+tags:
+  - "<Optional | tag name>"
 ```
 
 ### Workflow Integration
@@ -291,6 +298,20 @@ from the template. Each definition supports:
 - `default` — default value
 - `allowedValues` — list of `{ "label": ..., "value": ... }` entries, for `SELECT` / `MULTI_SELECT`
 
+#### Teams (`teams`)
+
+Optional array of team names that must already exist on the server. The team mappings are sent to
+the server only when the array is non-empty.
+
+#### Component Tag Requirements (`tagRequirements`)
+
+Optional array describing how many components carrying a given tag an application created from the
+template must have. Sent to the server only when the array is non-empty. Each entry supports:
+
+- `tagName` — name of the component tag (must already exist on the server)
+- `number` — number of components required
+- `type` — requirement type (for example, `AT_LEAST`, `AT_MOST`, `EXACTLY`)
+
 ### Mandatory and Optional Fields
 
 The mandatory fields to create an application template are `type` and `name`:
@@ -313,35 +334,36 @@ upload-application-template-process <process-json-file>
 
 ### JSON Structure
 
-```json
+```json5
 {
   "type": "applicationTemplate",
-  "name": "CaC_AT_Prop_Sync_Test",
-  "description": "Application template for property sync testing",
-  "useWizard": false,
+  "name": "<name of the application template>",
+  "description": "<Optional | defaults to empty | description>",
+  "useWizard": "<Optional | boolean value | defaults to false>",
   "settings": {
-    "enforceCompleteSnapshots": false,
-    "onlyChangedVersions": false
+    "enforceCompleteSnapshots": "<Optional | boolean value | defaults to false>",
+    "onlyChangedVersions": "<Optional | boolean value | defaults to false>"
   },
-  "notificationSchemeName": "",
+  "notificationSchemeName": "<Optional | Existing notification scheme from server | defaults to none>",
   "properties": [
+    // Optional | 0 or more application property definitions in below structure
     {
-      "name": "server-host",
-      "type": "TEXT",
-      "required": true,
-      "description": "Updated description for server host"
-    },
+      "name": "<name of property>",
+      "type": "<TEXT | TEXTAREA | CHECKBOX | SELECT | MULTI_SELECT>",
+      "required": "<Optional | boolean value | defaults to false>",
+      "label": "<optional display label>",
+      "description": "<optional description>"
+    }
+  ],
+  "teams": [
+    // Optional | array of team names that already exist in the server
+  ],
+  "tagRequirements": [
+    // Optional | 0 or more component tag requirements in below structure
     {
-      "name": "server-port",
-      "type": "TEXT",
-      "required": true,
-      "description": "Updated to required"
-    },
-    {
-      "name": "db-url",
-      "type": "TEXT",
-      "required": false,
-      "description": "Updated - no longer required"
+      "tagName": "<existing component tag name>",
+      "number": "<number of components required>",
+      "type": "<AT_LEAST | AT_MOST | EXACTLY>"
     }
   ]
 }
@@ -351,31 +373,30 @@ upload-application-template-process <process-json-file>
 
 ```yaml
 type: "applicationTemplate"
-name: "CaC_AT_Prop_Sync_Test"
-description: "Application template for property sync testing"
-useWizard: false
+name: "<name of the application template>"
+description: "<Optional | defaults to empty | description>"
+useWizard: <Optional | boolean value | defaults to false>
 
 settings:
-  enforceCompleteSnapshots: false
-  onlyChangedVersions: false
+  enforceCompleteSnapshots: <Optional | boolean value | defaults to false>
+  onlyChangedVersions: <Optional | boolean value | defaults to false>
 
-notificationSchemeName: ""
+notificationSchemeName: "<Optional | Existing notification scheme from server | defaults to none>"
 
 properties:
-  - name: "server-host"
-    type: "TEXT"
-    required: true
-    description: "Updated description for server host"
+  - name: "<name of property>"
+    type: "<TEXT | TEXTAREA | CHECKBOX | SELECT | MULTI_SELECT>"
+    required: <Optional | boolean value | defaults to false>
+    label: "<optional display label>"
+    description: "<optional description>"
 
-  - name: "server-port"
-    type: "TEXT"
-    required: true
-    description: "Updated to required"
+teams:
+  - "<Optional | team name that already exists in the server>"
 
-  - name: "db-url"
-    type: "TEXT"
-    required: false
-    description: "Updated - no longer required"
+tagRequirements:
+  - tagName: "<existing component tag name>"
+    number: <number of components required>
+    type: "<AT_LEAST | AT_MOST | EXACTLY>"
 ```
 
 ### Workflow Integration
@@ -457,20 +478,20 @@ log retention policies, snapshot settings, approval gates, and environment prope
 | `externalApprovalAgent` | string | Agent used for external approvals. Empty string means none. |
 | `externalApprovalAgentPool` | string | Agent pool used for external approvals. |
 | `externalApprovalProcess` | string | External approval process name. |
-| `exemptProcesses` | array | Processes exempt from approval requirements. Each entry contains a process `name`. |
+| `exemptProcesses` | array of objects | Processes exempt from approval requirements. Each entry is an object containing a process `name`. Always written, as an empty array when there are none. |
 
 #### Artifact Cleanup Settings (`ArtifactCleanUpSettings`)
 | Field | Type | Description |
 |-------|------|-------------|
-| `numberOfVersionsToRetain` | number | Number of versions to keep (`0` = unlimited). |
-| `daysToRetainVersions` | number | Days to keep versions (`0` = unlimited). |
-| `daysToRetainApplicationSnapshots` | number | Days to keep application snapshots (`0` = unlimited). |
-| `useSystemDefault` | boolean | Use system default cleanup settings instead of the values above. |
+| `numberOfVersionsToRetain` | number | Number of versions to keep (`0` or `-1` = use system default). |
+| `daysToRetainVersions` | number | Days to keep versions (`0` or `-1` = use system default). |
+| `daysToRetainApplicationSnapshots` | number | Days to keep application snapshots (`0` or `-1` = use system default). |
+| `useSystemDefault` | boolean | Derived on download: `true` when all three values above are `0` or `-1`. |
 
 #### Deployment History Cleanup (`deploymentHistoryCleanup`)
 | Field | Type | Description |
 |-------|------|-------------|
-| `daysToRetainDeploymentHistory` | number | Days to keep deployment history (`0` = unlimited). |
+| `daysToRetainDeploymentHistory` | number | Days to keep deployment history (`0` or `-1` = use system default). |
 | `useSystemDefault` | boolean | Use the system default for deployment history cleanup. |
 
 #### Log Retention (`defaultLogRetention`)
@@ -484,7 +505,12 @@ log retention policies, snapshot settings, approval gates, and environment prope
 |-------|------|-------------|
 | `lockSnapshots` | boolean | Lock snapshots after deployment to this environment. |
 | `requireSnapshot` | boolean | Require a snapshot for deployments to this environment. |
-| `snapshotlocktype` | string | Snapshot lock type, for example `System Default (Component Versions and Configuration)`. |
+| `snapshotlocktype` | string | Snapshot lock type, for example `System Default (Component Versions and Configuration)`. Empty string when no lock type is set. |
+
+#### Teams (`teams`)
+
+Optional array of team names that must already exist on the server. The field is written only when
+at least one team is mapped to the environment template.
 
 #### Properties (`properties`)
 
@@ -528,62 +554,59 @@ The mandatory fields to create an environment template are `type`, `name`,
 
 ### JSON Structure
 
-```json
+```json5
 {
   "type": "environmentTemplate",
-  "name": "CaC_Test_Environment_Template",
-  "applicationTemplateName": "CaC_Test_Application_Template",
-  "description": "Environment Template for property testing",
-  "resourceTemplateName": "CaC_Test_Resource_Template",
+  "name": "<name of the environment template>",
+  "applicationTemplateName": "<Existing application template name on the server>",
+  "description": "<Optional | defaults to empty | description>",
+  "resourceTemplateName": "<Existing resource template name on the server>",
   "DeploymentApprovals": {
-    "requireApprovals": false,
-    "noSelfApprovals": false,
-    "externalApprovalAgent": "",
-    "externalApprovalAgentPool": "",
-    "externalApprovalProcess": "",
-    "exemptProcesses": []
+    "requireApprovals": "<Optional | boolean value | defaults to false>",
+    "noSelfApprovals": "<Optional | boolean value | defaults to false>",
+    "externalApprovalAgent": "<Optional | existing agent name | defaults to empty>",
+    "externalApprovalAgentPool": "<Optional | existing agent pool name | defaults to empty>",
+    "externalApprovalProcess": "<Optional | existing process name | defaults to empty>",
+    "exemptProcesses": [
+      // Optional | 0 or more exempt processes in below structure
+      {
+        "name": "<existing process name>"
+      }
+    ]
   },
   "ArtifactCleanUpSettings": {
-    "numberOfVersionsToRetain": 0,
-    "daysToRetainVersions": 0,
-    "daysToRetainApplicationSnapshots": 0,
-    "useSystemDefault": true
+    "numberOfVersionsToRetain": "<Optional | number | 0 or -1 means use system default>",
+    "daysToRetainVersions": "<Optional | number | 0 or -1 means use system default>",
+    "daysToRetainApplicationSnapshots": "<Optional | number | 0 or -1 means use system default>",
+    "useSystemDefault": "<Optional | boolean value | derived from the three values above>"
   },
   "deploymentHistoryCleanup": {
-    "daysToRetainDeploymentHistory": 0,
-    "useSystemDefault": false
+    "daysToRetainDeploymentHistory": "<Optional | number | 0 or -1 means use system default>",
+    "useSystemDefault": "<Optional | boolean value | defaults to true>"
   },
   "defaultLogRetention": {
-    "logDaysToKeep": 0,
-    "useSystemDefaultLogDays": false
+    "logDaysToKeep": "<Optional | number | 0 means unlimited>",
+    "useSystemDefaultLogDays": "<Optional | boolean value | defaults to true>"
   },
   "properties": [
+    // Optional | 0 or more environment property definitions in below structure
     {
-      "name": "env-tmpl-prop-1-renamed",
-      "type": "TEXT",
-      "required": false,
-      "label": "env-tmpl-prop-1-renamed",
-      "description": "Environment template property one renamed"
-    },
-    {
-      "name": "env-tmpl-prop-2",
-      "type": "TEXT",
-      "required": false,
-      "label": "env-tmpl-prop-2",
-      "description": "Environment template property two - UPDATED"
-    },
-    {
-      "name": "env-tmpl-prop-3",
-      "type": "TEXT",
-      "required": false,
-      "label": "env-tmpl-prop-3",
-      "description": "Environment template property three - NEW"
+      "name": "<name of property>",
+      "type": "<TEXT | TEXTAREA | CHECKBOX | SELECT | MULTI_SELECT>",
+      "required": "<Optional | boolean value | defaults to false>",
+      "label": "<optional display label>",
+      "description": "<optional description>"
     }
   ],
-  "lockSnapshots": false,
-  "requireSnapshot": false,
-  "snapshotlocktype": "System Default (Component Versions and Configuration)",
-  "gate": {}
+  "lockSnapshots": "<Optional | boolean value | defaults to false>",
+  "requireSnapshot": "<Optional | boolean value | defaults to false>",
+  "snapshotlocktype": "<Optional | snapshot lock type | defaults to System Default (Component Versions and Configuration)>",
+  "teams": [
+    // Optional | array of team names that already exist in the server
+  ],
+  "gate": {
+    // Optional | approval gate conditions
+  }
 }
 ```
 
@@ -591,57 +614,53 @@ The mandatory fields to create an environment template are `type`, `name`,
 
 ```yaml
 type: "environmentTemplate"
-name: "CaC_Test_Environment_Template"
-applicationTemplateName: "CaC_Test_Application_Template"
-description: "Environment Template for property testing"
-resourceTemplateName: "CaC_Test_Resource_Template"
+name: "<name of the environment template>"
+applicationTemplateName: "<Existing application template name on the server>"
+description: "<Optional | defaults to empty | description>"
+resourceTemplateName: "<Existing resource template name on the server>"
 
 DeploymentApprovals:
-  requireApprovals: false
-  noSelfApprovals: false
-  externalApprovalAgent: ""
-  externalApprovalAgentPool: ""
-  externalApprovalProcess: ""
-  exemptProcesses: []
+  requireApprovals: <Optional | boolean value | defaults to false>
+  noSelfApprovals: <Optional | boolean value | defaults to false>
+  externalApprovalAgent: "<Optional | existing agent name | defaults to empty>"
+  externalApprovalAgentPool: "<Optional | existing agent pool name | defaults to empty>"
+  externalApprovalProcess: "<Optional | existing process name | defaults to empty>"
+  exemptProcesses:
+    - name: "<existing process name>"
 
 ArtifactCleanUpSettings:
-  numberOfVersionsToRetain: 0
-  daysToRetainVersions: 0
-  daysToRetainApplicationSnapshots: 0
-  useSystemDefault: true
+  numberOfVersionsToRetain: <Optional | number | 0 or -1 means use system default>
+  daysToRetainVersions: <Optional | number | 0 or -1 means use system default>
+  daysToRetainApplicationSnapshots: <Optional | number | 0 or -1 means use system default>
+  useSystemDefault: <Optional | boolean value | derived from the three values above>
 
 deploymentHistoryCleanup:
-  daysToRetainDeploymentHistory: 0
-  useSystemDefault: false
+  daysToRetainDeploymentHistory: <Optional | number | 0 or -1 means use system default>
+  useSystemDefault: <Optional | boolean value | defaults to true>
 
 defaultLogRetention:
-  logDaysToKeep: 0
-  useSystemDefaultLogDays: false
+  logDaysToKeep: <Optional | number | 0 means unlimited>
+  useSystemDefaultLogDays: <Optional | boolean value | defaults to true>
 
 properties:
-  - name: "env-tmpl-prop-1-renamed"
-    type: "TEXT"
-    required: false
-    label: "env-tmpl-prop-1-renamed"
-    description: "Environment template property one renamed"
+  - name: "<name of property>"
+    type: "<TEXT | TEXTAREA | CHECKBOX | SELECT | MULTI_SELECT>"
+    required: <Optional | boolean value | defaults to false>
+    label: "<optional display label>"
+    description: "<optional description>"
 
-  - name: "env-tmpl-prop-2"
-    type: "TEXT"
-    required: false
-    label: "env-tmpl-prop-2"
-    description: "Environment template property two - UPDATED"
+lockSnapshots: <Optional | boolean value | defaults to false>
+requireSnapshot: <Optional | boolean value | defaults to false>
+snapshotlocktype: "<Optional | snapshot lock type | defaults to System Default (Component Versions and Configuration)>"
 
-  - name: "env-tmpl-prop-3"
-    type: "TEXT"
-    required: false
-    label: "env-tmpl-prop-3"
-    description: "Environment template property three - NEW"
+teams:
+  - "<Optional | team name that already exists in the server>"
 
-lockSnapshots: false
-requireSnapshot: false
-snapshotlocktype: "System Default (Component Versions and Configuration)"
-gate: {}
+gate: {} # Optional | approval gate conditions
 ```
+
+> **Note:** The `environmentType` setting is not currently supported through CAC and is omitted from
+> downloaded environment template files.
 
 
 ### Workflow Integration
@@ -721,8 +740,8 @@ The file has two top-level sections:
 | `cloudResourceId` | string | Identifier of the cloud resource (blueprint/cloud discovery) associated with the template. Empty string means none. |
 | `connection` | string | Connection used by the template to reach the target system. Empty string means none. |
 | `parent-template-name` | string | Name of an existing resource template this template inherits from. Empty string means no parent. |
-| `teams` | array of strings | Teams that have access to the resource template. Each entry is a team name that must already exist on the server. |
-| `rootResourceTeams` | array of strings | Teams assigned to the root resource created from this template. |
+| `teams` | array of strings | Teams that have access to the resource template. Each entry is a team name that must already exist on the server. Always written on download, as an empty array when no team is assigned. |
+| `rootResourceTeams` | array of strings | Teams assigned to the root resource created from this template. Always written on download, as an empty array when no team is assigned. |
 
 #### Properties (`properties`)
 
@@ -756,29 +775,29 @@ When only this field is supplied, the server applies default values for all othe
 
 ### JSON Structure
 
-```json
+```json5
 {
   "template": {
-    "name": "CaC_RT_Prop_Sync_Test",
-    "description": "Resource template for property sync testing",
-    "cloudResourceId": "",
-    "connection": "",
-    "parent-template-name": "",
+    "name": "<name of the resource template>",
+    "description": "<Optional | defaults to empty | description>",
+    "cloudResourceId": "<Optional | cloud resource identifier | defaults to empty>",
+    "connection": "<Optional | connection name | defaults to empty>",
+    "parent-template-name": "<Optional | existing resource template name | defaults to empty>",
     "teams": [
-      "Dev Team",
-      "QA Team"
+      // Optional | array of team names that already exist in the server
     ],
     "rootResourceTeams": [
-      "Dev Team"
+      // Optional | array of team names that already exist in the server
     ]
   },
   "properties": [
+    // Optional | 0 or more resource property definitions in below structure
     {
-      "name": "server-host-test",
-      "type": "TEXT",
-      "required": true,
-      "label": "server-host-test",
-      "description": "Updated description for server host"
+      "name": "<name of property>",
+      "type": "<TEXT | TEXTAREA | CHECKBOX | SELECT | MULTI_SELECT>",
+      "required": "<Optional | boolean value | defaults to false>",
+      "label": "<optional display label>",
+      "description": "<optional description>"
     }
   ]
 }
@@ -788,23 +807,22 @@ When only this field is supplied, the server applies default values for all othe
 
 ```yaml
 template:
-  name: "CaC_RT_Prop_Sync_Test"
-  description: "Resource template for property sync testing"
-  cloudResourceId: ""
-  connection: ""
-  parent-template-name: ""
+  name: "<name of the resource template>"
+  description: "<Optional | defaults to empty | description>"
+  cloudResourceId: "<Optional | cloud resource identifier | defaults to empty>"
+  connection: "<Optional | connection name | defaults to empty>"
+  parent-template-name: "<Optional | existing resource template name | defaults to empty>"
   teams:
-    - "Dev Team"
-    - "QA Team"
+    - "<Optional | team name that already exists in the server>"
   rootResourceTeams:
-    - "Dev Team"
+    - "<Optional | team name that already exists in the server>"
 
 properties:
-  - name: "server-host-test"
-    type: "TEXT"
-    required: true
-    label: "server-host-test"
-    description: "Updated description for server host"
+  - name: "<name of property>"
+    type: "<TEXT | TEXTAREA | CHECKBOX | SELECT | MULTI_SELECT>"
+    required: <Optional | boolean value | defaults to false>
+    label: "<optional display label>"
+    description: "<optional description>"
 ```
 
 ### Workflow Integration
