@@ -21,6 +21,7 @@ export const ucd: DefaultTheme.Sidebar = {
                         { text: 'Component', link: `/${DEPLOY_BASE_DIR}/cac/component` },
                         { text: 'Application', link: `/${DEPLOY_BASE_DIR}/cac/application` },
                         { text: 'Environment', link: `/${DEPLOY_BASE_DIR}/cac/environment` },
+                        { text: 'Templates', link: `/${DEPLOY_BASE_DIR}/cac/templates` },
                         { text: 'Processes', link: `/${DEPLOY_BASE_DIR}/cac/processes` },
                         { text: 'Process Step Definitions', link: `/${DEPLOY_BASE_DIR}/cac/process-steps` },
                         { text: 'AI with CAC', link: `/${DEPLOY_BASE_DIR}/cac/ai-skills` }
