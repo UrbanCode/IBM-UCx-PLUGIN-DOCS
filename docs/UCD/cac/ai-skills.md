@@ -1,4 +1,4 @@
-﻿# CAC AI Skills User Guide
+# CAC AI Skills User Guide
 
 ## Overview
 
@@ -207,6 +207,56 @@ Download skills export DevOps Deploy configurations to JSON or YAML files.
 * `Get all component processes as YAML`
 * `Export all generic processes to processes.yaml`
 
+### Template Downloads
+
+#### Application and Component Templates
+
+| Skill                      | Activation Phrases                                         | Required      | Optional         |
+| -------------------------- | ---------------------------------------------------------- | ------------- | ---------------- |
+| **Application Template**   | download/get/export/save/fetch application template [name] | Template name | Format, filename |
+| **Component Template**     | download/get/export/save/fetch component template [name]   | Template name | Format, filename |
+
+**Supported formats:** JSON and YAML.
+
+**Example requests:**
+
+* `Download application template MyAppTemplate`
+* `Get Payment Gateway application template as YAML`
+* `Export Auth Service application template to auth-template.yaml`
+* `Download component template MyTemplate as YAML`
+
+#### Resource Template
+
+**Activation phrases:** `download/get/export/save/fetch resource template [name]`
+
+**Required:** Resource template name
+
+**Optional:** Format, filename
+
+**Supported formats:** JSON and YAML.
+
+**Example requests:**
+
+* `Download resource template MyResourceTemplate`
+* `Get Agent Relay resource template as YAML`
+* `Export Base Resource Template to base-template.yaml`
+
+#### Environment Template
+
+**Activation phrases:** `download/get/export/save/fetch environment template [name] from [application template]`
+
+**Required:** Environment template name, Application template name
+
+**Optional:** Format, filename
+
+**Supported formats:** JSON and YAML.
+
+**Example requests:**
+
+* `Download environment template DEV-Template from MyAppTemplate`
+* `Get Production-Template environment template of Payment Gateway Template`
+* `Export TEST-Template environment template from Auth Service Template to test-template.yaml`
+
 ---
 
 ## Upload Skills
@@ -278,6 +328,43 @@ Upload skills import DevOps Deploy configurations from JSON or YAML files.
 * `Upload application template process StandardDeploy from standard-deploy.json`
 * `Import component template process BuildTemplate from build-template.yaml`
 
+### Template Uploads
+
+#### Application and Component Templates
+
+| Skill                      | Activation Phrases                                         | Required                       |
+| -------------------------- | ---------------------------------------------------------- | ------------------------------ |
+| **Application Template**   | upload/import/create application template [name]           | Template name, Source file     |
+| **Component Template**     | upload/import/create component template [name]             | Template name, Source file     |
+
+**Example requests:**
+
+* `Upload application template MyAppTemplate from myapptemplate.json`
+* `Import Payment Gateway application template from payment-template.yaml`
+* `Upload component template MyTemplate from mytemplate.json`
+
+#### Resource Template
+
+**Activation phrases:** `upload/import/create resource template [name]`
+
+**Required:** Resource template name, Source file
+
+**Example requests:**
+
+* `Upload resource template MyResourceTemplate from myresourcetemplate.json`
+* `Import Agent Relay resource template from agent-relay-template.yaml`
+
+#### Environment Template
+
+**Activation phrases:** `upload/import/create environment template [name]`
+
+**Required:** Environment template name, Source file
+
+**Example requests:**
+
+* `Upload environment template DEV-Template from dev-template.json`
+* `Import Production-Template environment template from prod-template.yaml`
+
 ### File Requirements
 
 * File format must be `.json` or `.yaml`.
@@ -306,6 +393,10 @@ Upload skills import DevOps Deploy configurations from JSON or YAML files.
 | **Download** | All Application Processes        | download/get/export/save/fetch all application processes    |
 | **Download** | All Component Processes          | download/get/export/save/fetch all component processes      |
 | **Download** | All Generic Processes            | download/get/export/save/fetch all generic processes        |
+| **Download** | Application Template             | download/get/export/save/fetch application template         |
+| **Download** | Component Template               | download/get/export/save/fetch component template           |
+| **Download** | Resource Template                | download/get/export/save/fetch resource template            |
+| **Download** | Environment Template             | download/get/export/save/fetch environment template         |
 | **Upload**   | Application                      | upload/import/create application                            |
 | **Upload**   | Component                        | upload/import/create component                              |
 | **Upload**   | Environment                      | upload/import/create environment                            |
@@ -315,6 +406,10 @@ Upload skills import DevOps Deploy configurations from JSON or YAML files.
 | **Upload**   | External Approval Process        | upload/import/create external approval process              |
 | **Upload**   | Application Template Process     | upload/import/create application template process           |
 | **Upload**   | Component Template Process       | upload/import/create component template process             |
+| **Upload**   | Application Template             | upload/import/create application template                   |
+| **Upload**   | Component Template               | upload/import/create component template                    |
+| **Upload**   | Resource Template                | upload/import/create resource template                     |
+| **Upload**   | Environment Template             | upload/import/create environment template                   |
 
 ---
 

@@ -15,6 +15,14 @@
 
 ## History
 
+### Version 4.1
+
+* Added support to upload/download **Component Template**
+* Added support to upload/download **Application Template**
+* Added support to upload/download **Environment Template**
+* Added support to upload/download **Resource Template**
+
+
 ### Version 4.0
 
 * Added `cac setup` command to store server credentials and context in a local configuration file, reducing repetition across commands.
