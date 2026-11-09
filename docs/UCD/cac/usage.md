@@ -390,6 +390,7 @@ Note that in the above examples, the **finish** attribute has no value. The fini
 | [Component](component.md)                    | Download and upload component definitions                                        |
 | [Application](application.md)                | Download and upload application definitions                                      |
 | [Environment](environment.md)                | Download and upload environment definitions                                      |
+| [Templates](templates.md)                    | Download and upload component, application, environment, and resource templates  |
 | [Processes](processes.md)                    | Process commands, file structure, termination events, and process configurations |
 | [Process Step Definitions](process-steps.md) | Reference for all process step types with syntax and examples                    |
 | [AI with CAC](ai-skills.md)                  | Use natural language to perform CAC operations via an AI-capable CLI             |
@@ -407,6 +408,14 @@ Note that in the above examples, the **finish** attribute has no value. The fini
 | `upload-application`                    | [Application](application.md) | Upload an application definition from JSON or YAML |
 | `download-environment`                  | [Environment](environment.md) | Download an environment definition to JSON or YAML |
 | `upload-environment`                    | [Environment](environment.md) | Upload an environment definition from JSON or YAML |
+| `download-component-template`           | [Templates](templates.md)     | Download a component template definition to JSON or YAML    |
+| `upload-component-template`             | [Templates](templates.md)     | Upload a component template definition from JSON or YAML    |
+| `download-application-template`         | [Templates](templates.md)     | Download an application template definition to JSON or YAML |
+| `upload-application-template`           | [Templates](templates.md)     | Upload an application template definition from JSON or YAML |
+| `download-environment-template`         | [Templates](templates.md)     | Download an environment template definition to JSON or YAML |
+| `upload-environment-template`           | [Templates](templates.md)     | Upload an environment template definition from JSON or YAML |
+| `download-resource-template`            | [Templates](templates.md)     | Download a resource template definition to JSON or YAML     |
+| `upload-resource-template`              | [Templates](templates.md)     | Upload a resource template definition from JSON or YAML     |
 | `download-generic-process`              | [Processes](processes.md)     | Download a single generic process                  |
 | `download-generic-process-all`          | [Processes](processes.md)     | Download all generic processes                     |
 | `download-component-process`            | [Processes](processes.md)     | Download a component process                       |
