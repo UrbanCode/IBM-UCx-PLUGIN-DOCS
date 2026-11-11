@@ -17,6 +17,18 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ## History
 
+### Version 108
+
+Updating condition to exclude replacement properties files during the replacement tokens.
+
+### Version 107
+
+Restore case insensitive file matching for Windows.
+
+### Version 106
+
+Update Apache Ant to 1.10.18 for non-exploitable CVE-2026-78254
+
 ### Version 105
 
 Update Apache log4j to 2.26.1 for non-exploitable CVE-2026-49844
