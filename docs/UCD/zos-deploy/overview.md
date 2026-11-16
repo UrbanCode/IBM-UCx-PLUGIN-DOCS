@@ -44,6 +44,12 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ## History
 
+### Version 111
+
+* 111.1194947 - Removed Apache Commons Codec library: Addresses CVE-2026-124077 and CVE-2026-119078.
+* 111.1195070 - Fixed DT507734 - Failed to create file issue for multi dataset deployment
+* 111.1195070 - Enhancements to multi dataset deployment
+
 ### Version 110
 
 * 110.1193957 - Display target directory in rollback manifest XML for HFS containers during deployment
