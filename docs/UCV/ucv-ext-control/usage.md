@@ -57,15 +57,15 @@ The access token generated from DevOps Control server requires the full control 
 
 ## Pull Request Lifecycle Events
 
-The Control integration automatically normalizes pull request activities into a chronological timeline of lifecycle events. Rather than relying solely on Control's static PR states (OPEN, CLOSED, and MERGED), the plugin calculates a dynamic status for each PR based on its historical review and resolution activity.
+The Control integration displays the pull request (PR) activities in a chronological timeline of lifecycle events. Instead of relying solely on static PR states in Control such as OPEN, CLOSED, and MERGED, the plugin calculates a dynamic status for each PR based on its historical review and resolution activity.
 
-When PR data is processed, the system builds an event history that transitions through the following statuses: OPEN, REQUESTED, RECEIVED, RESOLVED, APPROVED, MERGED / CLOSED.
+When PR data is processed, the system builds an event history that transitions through the following statuses:
 
-OPEN: OPEN: Marks the initiation of the pull request before any review activity begins.
-REQUESTED: Reviewers have been requested, but no reviews have been submitted yet. 
-RECEIVED: At least one review has been submitted, but there are still requested reviewers or unresolved comments.
-RESOLVED: All requested reviewers have completed their reviews, and there are no unresolved review comments remaining.
-APPROVED: The PR has met the target branch's configured approval requirements (e.g., required approval counts, whitelists, and no outstanding rejections).
+OPEN: Initiation of the pull request before any review activity begins.
+REQUESTED: Reviewers are requested to review the PR.
+RECEIVED: At least one review is submitted, but other reviewers have not completed the reviews or PR contains unresolved comments.
+RESOLVED: All requested reviewers have completed their reviews, and no unresolved review comments remain.
+APPROVED: The PR meets the target branch configured approval requirements such as required approval counts, whitelists, and no outstanding rejections.
 MERGED/CLOSED: Represents the final state of the pull request after it is merged or closed.
 
 ![images/control-2.png](images/control-2.png)
