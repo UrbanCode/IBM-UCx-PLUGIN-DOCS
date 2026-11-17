@@ -29,6 +29,10 @@ This plug-in is installed when installing IBM DevOps Deploy. When new plug-in ve
 
 ## History
 
+### Version 13
+
+* Fixed security vulnerabilities CVE-2026-124077 and CVE-2026-119078
+
 ### Version 12
 
 * Added support for Linked versions

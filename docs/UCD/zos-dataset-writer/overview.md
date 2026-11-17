@@ -9,6 +9,10 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ## History
 
+### Version 5
+
+* Fixed security vulnerabilities CVE-2026-124077 and CVE-2026-119078
+
 ### Version 4
 
 * Enhancement to accept multiple datasets or files as input

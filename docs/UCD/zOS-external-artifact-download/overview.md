@@ -22,6 +22,10 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ## History
 
+### Version 18
+
+* Fixed security vulnerabilities CVE-2026-124077 and CVE-2026-119078
+
 ### Version 17
 
 * Reverted cache mechanism for zOS linked version
