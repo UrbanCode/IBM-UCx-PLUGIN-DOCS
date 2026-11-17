@@ -10,6 +10,10 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ## History
 
+### Version 3
+
+* Added input and output properties encryption
+
 ### Version 2
 
 * Added new checkbox input to show debug logs in case of any unknown failure.

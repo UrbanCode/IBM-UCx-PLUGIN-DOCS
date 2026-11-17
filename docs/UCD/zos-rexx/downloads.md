@@ -2,6 +2,7 @@
 
 ---
 
+- [devops-deploy-zos-rexx-3.1195085.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-rexx/devops-deploy-zos-rexx-3.1195085.zip)
 - [ucd-plugins-zos-rexx-2.1176018.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-rexx/ucd-plugins-zos-rexx-2.1176018.zip)
 - [ucd-plugins-zos-rexx-2.1168947.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-rexx/ucd-plugins-zos-rexx-2.1168947.zip)
 - [ucd-plugins-zos-rexx-2.1168604.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-rexx/ucd-plugins-zos-rexx-2.1168604.zip)
