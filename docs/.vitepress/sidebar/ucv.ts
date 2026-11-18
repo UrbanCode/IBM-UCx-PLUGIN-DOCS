@@ -221,6 +221,20 @@ export const ucv: DefaultTheme.Sidebar = {
     ],
 
     // This sidebar gets displayed when a user
+    // is on `plugin/ucv-ext-coderabbit` directory.
+    [`/${VELOCITY_BASE_DIR}/ucv-ext-coderabbit/`]: [
+        {
+            text: 'CodeRabbit', // Updated text
+            items: [
+                { text: 'About', link: `/${VELOCITY_BASE_DIR}/ucv-ext-coderabbit/` },
+                { text: 'Overview', link: `/${VELOCITY_BASE_DIR}/ucv-ext-coderabbit/overview` },
+                { text: 'Usage', link: `/${VELOCITY_BASE_DIR}/ucv-ext-coderabbit/usage` },
+                { text: 'Downloads', link: `/${VELOCITY_BASE_DIR}/ucv-ext-coderabbit/downloads` }
+            ]
+        }
+    ],
+
+    // This sidebar gets displayed when a user
     // is on `plugin/ucv-ext-cucumber` directory.
     [`/${VELOCITY_BASE_DIR}/ucv-ext-cucumber/`]: [
         {

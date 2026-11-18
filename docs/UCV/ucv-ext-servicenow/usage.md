@@ -52,6 +52,8 @@ The ServiceNow plug-in supports scheduled events integration which are listed in
 | --- | --- |
 | snowAllResources | Queries the ServiceNow repository for Incidents, Change request, Problems, ServiceNowWaitChangeTask, ServiceNowWaitRequests  |
 
+* **Note**: By default, the plug-in syncs data from the last six months.
+
 ## Integration
 
 There are two methods to integrate the plug-in:

@@ -55,6 +55,22 @@ The access token generated from DevOps Control server requires the full control 
 
 ![images/control-1.png](images/control-1.png)
 
+## Pull Request Lifecycle Events
+
+The Control integration displays the pull request (PR) activities in a chronological timeline of lifecycle events. Instead of relying solely on static PR states in Control such as OPEN, CLOSED, and MERGED, the plugin calculates a dynamic status for each PR based on its historical review and resolution activity.
+
+When PR data is processed, the system builds an event history that transitions through the following statuses:
+
+OPEN: Initiation of the pull request before any review activity begins.
+REQUESTED: Reviewers are requested to review the PR.
+RECEIVED: At least one review is submitted, but other reviewers have not completed the reviews or PR contains unresolved comments.
+RESOLVED: All requested reviewers have completed their reviews, and no unresolved review comments remain.
+APPROVED: The PR meets the target branch configured approval requirements such as required approval counts, whitelists, and no outstanding rejections.
+MERGED/CLOSED: Represents the final state of the pull request after it is merged or closed.
+
+![images/control-2.png](images/control-2.png)
+![images/control-3.png](images/control-3.png)
+
 ## Configuration properties
 
 The following tables describe the properties used to configure the integration. Each table contains the field name when using the user interface and the property name when using a JSON file.

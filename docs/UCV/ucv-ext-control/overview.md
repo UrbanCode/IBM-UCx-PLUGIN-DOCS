@@ -9,13 +9,21 @@ The table below lists the compatible versions of the DevOps Control plug-in and 
 
 | DevOps Velocity Version | DevOps Control Plug-in Versions |
 | --- | --- |
-| 5.1.9 or later | 1.1.7, 1.1.3, 1.1.1 |
+| 5.3.1 or later | 1.1.9 |
+| 5.1.9 to 5.3.0 | 1.1.7, 1.1.3, 1.1.1 |
 
 ## Versions
 
 IBM DevOps Velocity plug-in images are located in DockerHub. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-control/tags).
 
 ## History
+
+### Version 1.1.9
+
+* **Enhanced pull request tracking**: The Control integration calculates the lifecycle status of each pull request based on its review and resolution activity. The statuses include OPEN, REQUESTED, RECEIVED, RESOLVED, APPROVED, and MERGED/CLOSED. You can view this information in the Value Stream Map (VSM) to track pull request progress.
+* **Expanded pull request data**: Added new fields for the PR collection.
+
+* **Note**: After you upgrade the plug-in to version 1.1.9, you must run a full resynchronization to ensure that the new fields are added to the existing collections.
 
 ### Version 1.1.7
 
