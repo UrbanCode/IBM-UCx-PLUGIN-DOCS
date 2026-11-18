@@ -23,7 +23,7 @@ IBM DevOps Velocity plug-in images are located in DockerHub. To view available v
 * **Enhanced pull request tracking**: The Control integration calculates the lifecycle status of each pull request based on its review and resolution activity. The statuses include OPEN, REQUESTED, RECEIVED, RESOLVED, APPROVED, and MERGED/CLOSED. You can view this information in the Value Stream Map (VSM) to track pull request progress.
 * **Expanded pull request data**: Added new fields for the PR collection.
 
-* **Note**: After upgrading the plugin to version 1.1.9, a full plugin resync is required to ensure the newly introduced fields are reflected in existing collections.
+* **Note**: After you upgrade the plug-in to version 1.1.9, you must run a full resynchronization to ensure that the new fields are added to the existing collections.
 
 ### Version 1.1.7
 
