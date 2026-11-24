@@ -194,6 +194,27 @@ we are capturing it from **comments**.
 **Example:** 
  "Comment": "{\"id\":\"ucd\",\"commitsha\":\"1.0-696\",\"buildurl\":\"https://10.134.119.143.nip.io/build/tasks/project/BuildLifeTasks/viewBuildLife?buildLifeId=696\",\"env\":\"a3004teamauto~a3004loopauto:A3004LOOPAUTO-DEV-ENV\"}"
 
+#### Verification steps for SBOM
+
+Software Bill of Materials (SBOM) support is available from plug-in version 1.0.10. The plug-in retrieves SBOM data (SPDX format) from AppScan360 scans and ingests it into DevOps Velocity. The SBOM data includes package, library, and license information for the application's software components.
+
+**Prerequisites**
+* The Appscan360 integration is configured, and the **Appscan360 Application** property matches the application name in AppScan360.
+* At least one scan for the application has completed in AppScan360, and the scan data is synced to DevOps Velocity.
+
+**Steps**
+1. Open the **Software Bill of Materials** report in DevOps Velocity.
+2. In the **Run Report** dialog box, select values for the following required fields:
+    * **Pipeline** - The pipeline that contains the application.
+    * **Application** - The application for which you want to generate the SBOM.
+    * **Stage** - The pipeline stage (environment) for which you want to generate the SBOM.
+3. Click **Confirm** to run the report.
+4. Verify that the SBOM report is generated and lists the software components (packages, libraries, and licenses) and their associated vulnerabilities for the selected application and stage.
+
+![images/SBOM_Run_Report.png](images/SBOM_Run_Report.png)
+
+**Note:** Click **Set as Default** in the **Run Report** dialog box to reuse the selected Pipeline, Application, and Stage values the next time that you run the report.
+
 #### Verification steps for SAST Scan
 1. Create a Work item in the Plan
 2. Create a PR for this work item in control
